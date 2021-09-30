@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAnalyticsModel {
     public:
-    // Creating value type constructor for type: IAnalyticsModel
-    IAnalyticsModel() noexcept {}
     // public System.Boolean get_supportsOpenDataPrivacyPage()
     // Offset: 0xFFFFFFFF
     bool get_supportsOpenDataPrivacyPage();

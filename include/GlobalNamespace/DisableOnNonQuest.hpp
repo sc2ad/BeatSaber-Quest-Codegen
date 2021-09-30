@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisableOnNonQuest : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: DisableOnNonQuest
-    DisableOnNonQuest() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11A8148
     // Implemented from: UnityEngine.MonoBehaviour

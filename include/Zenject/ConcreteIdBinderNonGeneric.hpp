@@ -32,8 +32,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ConcreteIdBinderNonGeneric : public Zenject::ConcreteBinderNonGeneric {
     public:
-    // Creating value type constructor for type: ConcreteIdBinderNonGeneric
-    ConcreteIdBinderNonGeneric() noexcept {}
     // public Zenject.ConcreteBinderNonGeneric WithId(System.Object identifier)
     // Offset: 0x14F8364
     Zenject::ConcreteBinderNonGeneric* WithId(::Il2CppObject* identifier);

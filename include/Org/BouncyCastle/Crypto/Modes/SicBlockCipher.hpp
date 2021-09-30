@@ -59,8 +59,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     ::ArrayWrapper<uint8_t> IV;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: SicBlockCipher
-    SicBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, int blockSize_ = {}, ::ArrayWrapper<uint8_t> counter_ = {}, ::ArrayWrapper<uint8_t> counterOut_ = {}, ::ArrayWrapper<uint8_t> IV_ = {}) noexcept : cipher{cipher_}, blockSize{blockSize_}, counter{counter_}, counterOut{counterOut_}, IV{IV_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

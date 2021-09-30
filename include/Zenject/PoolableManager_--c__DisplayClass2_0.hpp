@@ -57,8 +57,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(Zenject::PoolableManager* $$4__this_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities_ = {}) noexcept : $$4__this{$$4__this_}, priorities{priorities_} {}
     // Get instance field reference: public Zenject.PoolableManager <>4__this
     Zenject::PoolableManager*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities

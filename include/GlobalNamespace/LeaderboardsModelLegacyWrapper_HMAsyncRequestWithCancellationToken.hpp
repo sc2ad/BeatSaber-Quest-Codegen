@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // Creating value type constructor for type: HMAsyncRequestWithCancellationToken
-    HMAsyncRequestWithCancellationToken(System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : cancellationTokenSource{cancellationTokenSource_} {}
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()

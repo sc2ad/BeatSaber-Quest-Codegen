@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     uint64_t refCount;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: VideoStream
-    VideoStream(uint deviceIndex_ = {}, uint64_t handle_ = {}, bool hasCamera_ = {}, uint64_t refCount_ = {}) noexcept : deviceIndex{deviceIndex_}, handle{handle_}, hasCamera{hasCamera_}, refCount{refCount_} {}
     // Get instance field reference: private System.UInt32 <deviceIndex>k__BackingField
     uint& dyn_$deviceIndex$k__BackingField();
     // Get instance field reference: private System.UInt64 _handle

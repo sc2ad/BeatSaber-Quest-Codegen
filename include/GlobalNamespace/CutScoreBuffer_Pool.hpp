@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CutScoreBuffer::Pool : public Zenject::MemoryPool_1<GlobalNamespace::CutScoreBuffer*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11A33AC
     // Implemented from: Zenject.MemoryPool`1

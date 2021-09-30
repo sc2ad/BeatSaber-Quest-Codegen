@@ -42,8 +42,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class LinuxIPInterfaceProperties : public System::Net::NetworkInformation::UnixIPInterfaceProperties {
     public:
-    // Creating value type constructor for type: LinuxIPInterfaceProperties
-    LinuxIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
     // Offset: 0x1645944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

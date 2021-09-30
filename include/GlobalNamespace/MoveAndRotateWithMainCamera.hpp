@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: MoveAndRotateWithMainCamera
-    MoveAndRotateWithMainCamera(GlobalNamespace::MainCamera* mainCamera_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mainCamera{mainCamera_}, rotationOffset{rotationOffset_}, positionOffset{positionOffset_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MainCamera _mainCamera

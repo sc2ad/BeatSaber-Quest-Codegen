@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>) == 0x8);
-    // Creating value type constructor for type: DifficultyBeatmapSet
-    DifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, difficultyBeatmaps{difficultyBeatmaps_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDifficultyBeatmapSet
     operator GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);

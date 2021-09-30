@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Transform_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Transform_Extensions
-    Test_Transform_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Transform ToTestObject(UnityEngine.Transform self)
     // Offset: 0x25D3F54
     static HoudiniEngineUnity::Test_Transform* ToTestObject(UnityEngine::Transform* self);

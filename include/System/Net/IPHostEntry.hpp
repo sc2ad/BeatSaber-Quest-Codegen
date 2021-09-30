@@ -49,8 +49,6 @@ namespace System::Net {
     bool isTrustedHost;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IPHostEntry
-    IPHostEntry(::Il2CppString* hostName_ = {}, ::ArrayWrapper<::Il2CppString*> aliases_ = {}, ::ArrayWrapper<System::Net::IPAddress*> addressList_ = {}, bool isTrustedHost_ = {}) noexcept : hostName{hostName_}, aliases{aliases_}, addressList{addressList_}, isTrustedHost{isTrustedHost_} {}
     // Get instance field reference: private System.String hostName
     ::Il2CppString*& dyn_hostName();
     // Get instance field reference: private System.String[] aliases

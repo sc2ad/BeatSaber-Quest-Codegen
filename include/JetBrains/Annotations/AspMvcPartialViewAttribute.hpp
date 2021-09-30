@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADAAC
   class AspMvcPartialViewAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMvcPartialViewAttribute
-    AspMvcPartialViewAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610280
     // Implemented from: System.Attribute

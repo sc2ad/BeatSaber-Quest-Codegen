@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class RichPresence : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RichPresence
-    RichPresence() noexcept {}
     // static public Oculus.Platform.Request Clear()
     // Offset: 0x25B8A58
     static Oculus::Platform::Request* Clear();

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PropertyNameFloatValuePair
-    PropertyNameFloatValuePair(float value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return value;

@@ -73,7 +73,6 @@ namespace UnityEngine::Animations {
     UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x258E32C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AnimationClipPlayable(UnityEngine::Playables::PlayableHandle handle)
     // static public UnityEngine.Animations.AnimationClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip)
     // Offset: 0x258E228

@@ -49,8 +49,6 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ConstraintStatus Status;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ConstraintStatus) == 0x4);
-    // Creating value type constructor for type: ConstraintResult
-    ConstraintResult(NUnit::Framework::Constraints::IConstraint* constraint_ = {}, ::Il2CppObject* ActualValue_ = {}, NUnit::Framework::Constraints::ConstraintStatus Status_ = {}) noexcept : constraint{constraint_}, ActualValue{ActualValue_}, Status{Status_} {}
     // Get instance field reference: private NUnit.Framework.Constraints.IConstraint _constraint
     NUnit::Framework::Constraints::IConstraint*& dyn__constraint();
     // Get instance field reference: private System.Object <ActualValue>k__BackingField

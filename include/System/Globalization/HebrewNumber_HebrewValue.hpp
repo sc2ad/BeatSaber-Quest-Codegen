@@ -34,8 +34,6 @@ namespace System::Globalization {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HebrewValue
-    HebrewValue(System::Globalization::HebrewNumber::HebrewToken token_ = {}, int value_ = {}) noexcept : token{token_}, value{value_} {}
     // Get instance field reference: System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
     System::Globalization::HebrewNumber::HebrewToken& dyn_token();
     // Get instance field reference: System.Int32 value

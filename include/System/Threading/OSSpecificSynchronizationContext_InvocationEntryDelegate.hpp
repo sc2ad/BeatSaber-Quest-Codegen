@@ -31,8 +31,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class OSSpecificSynchronizationContext::InvocationEntryDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: InvocationEntryDelegate
-    InvocationEntryDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1A5AFD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

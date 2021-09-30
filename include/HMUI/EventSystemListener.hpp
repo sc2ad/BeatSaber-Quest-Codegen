@@ -50,8 +50,6 @@ namespace HMUI {
     System::Action_1<UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::EventSystems::PointerEventData*>*) == 0x8);
-    // Creating value type constructor for type: EventSystemListener
-    EventSystemListener(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* pointerDidEnterEvent_ = {}, System::Action_1<UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent_ = {}) noexcept : pointerDidEnterEvent{pointerDidEnterEvent_}, pointerDidExitEvent{pointerDidExitEvent_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

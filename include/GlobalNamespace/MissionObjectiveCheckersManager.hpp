@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> activeMissionObjectiveCheckers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*>) == 0x8);
-    // Creating value type constructor for type: MissionObjectiveCheckersManager
-    MissionObjectiveCheckersManager(::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> missionObjectiveCheckers_ = {}, GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}, System::Action* objectiveDidFailEvent_ = {}, System::Action* objectiveWasClearedEvent_ = {}, System::Action* objectivesListDidChangeEvent_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> activeMissionObjectiveCheckers_ = {}) noexcept : missionObjectiveCheckers{missionObjectiveCheckers_}, initData{initData_}, gameplayManager{gameplayManager_}, objectiveDidFailEvent{objectiveDidFailEvent_}, objectiveWasClearedEvent{objectiveWasClearedEvent_}, objectivesListDidChangeEvent{objectivesListDidChangeEvent_}, activeMissionObjectiveCheckers{activeMissionObjectiveCheckers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveChecker[] _missionObjectiveCheckers

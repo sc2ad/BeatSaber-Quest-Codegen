@@ -25,8 +25,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class CollectionUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CollectionUtilities
-    CollectionUtilities() noexcept {}
     // static public System.Collections.IDictionary ReadOnly(System.Collections.IDictionary d)
     // Offset: 0x14EA93C
     static System::Collections::IDictionary* ReadOnly(System::Collections::IDictionary* d);

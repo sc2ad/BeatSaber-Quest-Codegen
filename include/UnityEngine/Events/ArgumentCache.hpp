@@ -68,8 +68,6 @@ namespace UnityEngine::Events {
     bool m_BoolArgument;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ArgumentCache
-    ArgumentCache(UnityEngine::Object* m_ObjectArgument_ = {}, ::Il2CppString* m_ObjectArgumentAssemblyTypeName_ = {}, int m_IntArgument_ = {}, float m_FloatArgument_ = {}, ::Il2CppString* m_StringArgument_ = {}, bool m_BoolArgument_ = {}) noexcept : m_ObjectArgument{m_ObjectArgument_}, m_ObjectArgumentAssemblyTypeName{m_ObjectArgumentAssemblyTypeName_}, m_IntArgument{m_IntArgument_}, m_FloatArgument{m_FloatArgument_}, m_StringArgument{m_StringArgument_}, m_BoolArgument{m_BoolArgument_} {}
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

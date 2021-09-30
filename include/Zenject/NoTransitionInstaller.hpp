@@ -27,8 +27,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoTransitionInstaller : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: NoTransitionInstaller
-    NoTransitionInstaller() noexcept {}
     // public System.Void InstallBindings(Zenject.DiContainer container)
     // Offset: 0x1895FF0
     void InstallBindings(Zenject::DiContainer* container);

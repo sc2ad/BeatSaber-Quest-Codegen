@@ -118,8 +118,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<int>* expandEventValuesHashSet;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
-    // Creating value type constructor for type: HydraulicCarSuspensionEffect
-    HydraulicCarSuspensionEffect(GlobalNamespace::BeatmapEventType contractEvent_ = {}, ::ArrayWrapper<int> contractEventValues_ = {}, GlobalNamespace::BeatmapEventType expandEvent_ = {}, ::ArrayWrapper<int> expandEventValues_ = {}, UnityEngine::SpringJoint* springJoint_ = {}, float contractDistance_ = {}, float expandDistance_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, System::Collections::Generic::HashSet_1<int>* contractEventValuesHashSet_ = {}, System::Collections::Generic::HashSet_1<int>* expandEventValuesHashSet_ = {}) noexcept : contractEvent{contractEvent_}, contractEventValues{contractEventValues_}, expandEvent{expandEvent_}, expandEventValues{expandEventValues_}, springJoint{springJoint_}, contractDistance{contractDistance_}, expandDistance{expandDistance_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, contractEventValuesHashSet{contractEventValuesHashSet_}, expandEventValuesHashSet{expandEventValuesHashSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _contractEvent

@@ -97,7 +97,6 @@ namespace System::Threading {
     }
     // System.Void .ctor(T previousValue, T currentValue, System.Boolean contextChanged)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AsyncLocalValueChangedArgs_1(T previousValue, T currentValue, bool contextChanged)
   }; // System.Threading.AsyncLocalValueChangedArgs`1
   // Could not write size check! Type: System.Threading.AsyncLocalValueChangedArgs`1 is generic, or has no fields that are valid for size checks!

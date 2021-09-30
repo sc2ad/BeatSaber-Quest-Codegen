@@ -133,8 +133,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveChecker*) == 0x8);
-    // Creating value type constructor for type: MissionObjectiveGameUIView
-    MissionObjectiveGameUIView(UnityEngine::Sprite* notFailedIcon_ = {}, UnityEngine::Sprite* failedIcon_ = {}, UnityEngine::Sprite* notClearedIcon_ = {}, UnityEngine::Sprite* clearedIcon_ = {}, UnityEngine::UI::Image* resultIcon_ = {}, UnityEngine::Color finalClearIconColor_ = {}, UnityEngine::Color finalFailIconColor_ = {}, UnityEngine::Color nonFinalIconColor_ = {}, UnityEngine::ParticleSystem* clearedPS_ = {}, int numberOfParticles_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* valueText_ = {}, TMPro::TextMeshProUGUI* conditionText_ = {}, GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker_ = {}) noexcept : notFailedIcon{notFailedIcon_}, failedIcon{failedIcon_}, notClearedIcon{notClearedIcon_}, clearedIcon{clearedIcon_}, resultIcon{resultIcon_}, finalClearIconColor{finalClearIconColor_}, finalFailIconColor{finalFailIconColor_}, nonFinalIconColor{nonFinalIconColor_}, clearedPS{clearedPS_}, numberOfParticles{numberOfParticles_}, nameText{nameText_}, valueText{valueText_}, conditionText{conditionText_}, missionObjectiveChecker{missionObjectiveChecker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _notFailedIcon

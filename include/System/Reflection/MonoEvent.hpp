@@ -55,8 +55,6 @@ namespace System::Reflection {
     System::IntPtr handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: MonoEvent
-    MonoEvent(System::IntPtr klass_ = {}, System::IntPtr handle_ = {}) noexcept : klass{klass_}, handle{handle_} {}
     // Deleting conversion operator: operator System::Reflection::EventInfo::AddEventAdapter*
     constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const noexcept = delete;
     // Get instance field reference: private System.IntPtr klass

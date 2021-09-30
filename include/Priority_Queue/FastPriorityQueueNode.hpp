@@ -30,8 +30,6 @@ namespace Priority_Queue {
     int QueueIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FastPriorityQueueNode
-    FastPriorityQueueNode(float Priority_ = {}, int QueueIndex_ = {}) noexcept : Priority{Priority_}, QueueIndex{QueueIndex_} {}
     // Get instance field reference: private System.Single <Priority>k__BackingField
     float& dyn_$Priority$k__BackingField();
     // Get instance field reference: private System.Int32 <QueueIndex>k__BackingField

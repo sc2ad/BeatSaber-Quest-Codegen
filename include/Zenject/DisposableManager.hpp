@@ -89,7 +89,6 @@ namespace Zenject {
       int& dyn_Priority();
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
       // Offset: 0x1827268
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority)
     }; // Zenject.DisposableManager/Zenject.DisposableInfo
     #pragma pack(pop)
@@ -119,8 +118,6 @@ namespace Zenject {
     bool lateDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DisposableManager
-    DisposableManager(System::Collections::Generic::List_1<Zenject::DisposableManager::DisposableInfo>* disposables_ = {}, System::Collections::Generic::List_1<Zenject::DisposableManager::LateDisposableInfo*>* lateDisposables_ = {}, bool disposed_ = {}, bool lateDisposed_ = {}) noexcept : disposables{disposables_}, lateDisposables{lateDisposables_}, disposed{disposed_}, lateDisposed{lateDisposed_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

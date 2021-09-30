@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5CA4
   class IVRCompositor::_LockGLSharedTextureForAccess : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _LockGLSharedTextureForAccess
-    _LockGLSharedTextureForAccess() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AF45C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

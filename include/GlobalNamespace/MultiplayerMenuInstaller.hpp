@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerMenuInstaller : public Zenject::MonoInstaller {
     public:
-    // Creating value type constructor for type: MultiplayerMenuInstaller
-    MultiplayerMenuInstaller() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x117805C
     // Implemented from: Zenject.MonoInstaller

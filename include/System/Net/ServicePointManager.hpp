@@ -41,8 +41,6 @@ namespace System::Net {
     public:
     // Nested type: System::Net::ServicePointManager::SPKey
     class SPKey;
-    // Creating value type constructor for type: ServicePointManager
-    ServicePointManager() noexcept {}
     // Get static field: static private System.Collections.Specialized.HybridDictionary servicePoints
     static System::Collections::Specialized::HybridDictionary* _get_servicePoints();
     // Set static field: static private System.Collections.Specialized.HybridDictionary servicePoints

@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentBrandingManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentBrandingManager::InitData*) == 0x8);
-    // Creating value type constructor for type: EnvironmentBrandingManager
-    EnvironmentBrandingManager(::ArrayWrapper<UnityEngine::GameObject*> brandingObjects_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> replacementBrandingObjects_ = {}, GlobalNamespace::EnvironmentBrandingManager::InitData* initData_ = {}) noexcept : brandingObjects{brandingObjects_}, replacementBrandingObjects{replacementBrandingObjects_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _brandingObjects

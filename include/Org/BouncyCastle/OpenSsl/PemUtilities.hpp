@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::OpenSsl {
     struct PemBaseAlg;
     // Nested type: Org::BouncyCastle::OpenSsl::PemUtilities::PemMode
     struct PemMode;
-    // Creating value type constructor for type: PemUtilities
-    PemUtilities() noexcept {}
     // static private System.Void .cctor()
     // Offset: 0x14BD2D0
     static void _cctor();

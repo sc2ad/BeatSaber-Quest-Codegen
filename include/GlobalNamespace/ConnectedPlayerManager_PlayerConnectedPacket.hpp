@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     bool isConnectionOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PlayerConnectedPacket
-    PlayerConnectedPacket(uint8_t remoteConnectionId_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isConnectionOwner_ = {}) noexcept : remoteConnectionId{remoteConnectionId_}, userId{userId_}, userName{userName_}, isConnectionOwner{isConnectionOwner_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

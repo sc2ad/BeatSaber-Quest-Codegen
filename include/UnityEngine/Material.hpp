@@ -58,8 +58,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E7126C
   class Material : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Material
-    Material() noexcept {}
     // public UnityEngine.Shader get_shader()
     // Offset: 0x1D9F9BC
     UnityEngine::Shader* get_shader();

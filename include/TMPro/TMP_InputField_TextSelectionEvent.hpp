@@ -21,8 +21,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::TextSelectionEvent : public UnityEngine::Events::UnityEvent_3<::Il2CppString*, int, int> {
     public:
-    // Creating value type constructor for type: TextSelectionEvent
-    TextSelectionEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x121DF10
     // Implemented from: UnityEngine.Events.UnityEvent`3

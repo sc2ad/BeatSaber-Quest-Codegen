@@ -37,8 +37,6 @@ namespace System::Collections {
     System::Globalization::TextInfo* m_text;
     // Field size check
     static_assert(sizeof(System::Globalization::TextInfo*) == 0x8);
-    // Creating value type constructor for type: CaseInsensitiveHashCodeProvider
-    CaseInsensitiveHashCodeProvider(System::Globalization::TextInfo* m_text_ = {}) noexcept : m_text{m_text_} {}
     // Creating interface conversion operator: operator System::Collections::IHashCodeProvider
     operator System::Collections::IHashCodeProvider() noexcept {
       return *reinterpret_cast<System::Collections::IHashCodeProvider*>(this);

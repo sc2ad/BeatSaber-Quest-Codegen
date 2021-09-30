@@ -36,8 +36,6 @@ namespace Zenject {
     Zenject::ConventionBindInfo* bindInfo;
     // Field size check
     static_assert(sizeof(Zenject::ConventionBindInfo*) == 0x8);
-    // Creating value type constructor for type: ConventionSelectTypesBinder
-    ConventionSelectTypesBinder(Zenject::ConventionBindInfo* bindInfo_ = {}) noexcept : bindInfo{bindInfo_} {}
     // Creating conversion operator: operator Zenject::ConventionBindInfo*
     constexpr operator Zenject::ConventionBindInfo*() const noexcept {
       return bindInfo;

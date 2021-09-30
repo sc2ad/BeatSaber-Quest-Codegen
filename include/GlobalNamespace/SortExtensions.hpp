@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SortExtensions::$$c__DisplayClass1_0_1<T>
     template<typename T>
     class $$c__DisplayClass1_0_1;
-    // Creating value type constructor for type: SortExtensions
-    SortExtensions() noexcept {}
     // static public System.Void InsertSorted(System.Collections.Generic.List`1<T> list, T item, System.Func`2<T,System.Int32> getSortIndex)
     // Offset: 0xFFFFFFFF
     template<class T>

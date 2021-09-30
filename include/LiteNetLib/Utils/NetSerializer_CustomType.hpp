@@ -20,8 +20,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSerializer::CustomType : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CustomType
-    CustomType() noexcept {}
     // public LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
     // Offset: 0xFFFFFFFF
     template<class T>

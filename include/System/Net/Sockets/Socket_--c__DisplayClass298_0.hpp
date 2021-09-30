@@ -53,8 +53,6 @@ namespace System::Net::Sockets {
     System::IntPtr handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass298_0
-    $$c__DisplayClass298_0(System::Net::Sockets::Socket* $$4__this_ = {}, System::IOSelectorJob* job_ = {}, System::IntPtr handle_ = {}) noexcept : $$4__this{$$4__this_}, job{job_}, handle{handle_} {}
     // Get instance field reference: public System.Net.Sockets.Socket <>4__this
     System::Net::Sockets::Socket*& dyn_$$4__this();
     // Get instance field reference: public System.IOSelectorJob job

@@ -58,8 +58,6 @@ namespace UnityEngine::ProBuilder {
     int m_SubmeshIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Submesh
-    Submesh(::ArrayWrapper<int> m_Indexes_ = {}, UnityEngine::MeshTopology m_Topology_ = {}, int m_SubmeshIndex_ = {}) noexcept : m_Indexes{m_Indexes_}, m_Topology{m_Topology_}, m_SubmeshIndex{m_SubmeshIndex_} {}
     // Get instance field reference: System.Int32[] m_Indexes
     ::ArrayWrapper<int>& dyn_m_Indexes();
     // Get instance field reference: UnityEngine.MeshTopology m_Topology

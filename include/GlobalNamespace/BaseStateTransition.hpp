@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SelectableStateController* selectableStateController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectableStateController*) == 0x8);
-    // Creating value type constructor for type: BaseStateTransition
-    BaseStateTransition(GlobalNamespace::SelectableStateController* selectableStateController_ = {}) noexcept : selectableStateController{selectableStateController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected SelectableStateController _selectableStateController

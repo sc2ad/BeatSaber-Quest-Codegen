@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* getEndPointTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>*) == 0x8);
-    // Creating value type constructor for type: MasterServerEndPoint
-    MasterServerEndPoint(::Il2CppString* hostName_ = {}, int port_ = {}, System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* getEndPointTask_ = {}) noexcept : hostName{hostName_}, port{port_}, getEndPointTask{getEndPointTask_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>
     operator System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);

@@ -14,8 +14,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class _ThreadPoolWaitCallback : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: _ThreadPoolWaitCallback
-    _ThreadPoolWaitCallback() noexcept {}
     // static System.Boolean PerformWaitCallback()
     // Offset: 0x19C4314
     static bool PerformWaitCallback();

@@ -33,8 +33,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* FieldName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RazorInjectionAttribute
-    RazorInjectionAttribute(::Il2CppString* Type_ = {}, ::Il2CppString* FieldName_ = {}) noexcept : Type{Type_}, FieldName{FieldName_} {}
     // Get instance field reference: private System.String <Type>k__BackingField
     ::Il2CppString*& dyn_$Type$k__BackingField();
     // Get instance field reference: private System.String <FieldName>k__BackingField

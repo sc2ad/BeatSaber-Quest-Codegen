@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* headTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: MenuPlayerController
-    MenuPlayerController(GlobalNamespace::VRController* leftController_ = {}, GlobalNamespace::VRController* rightController_ = {}, UnityEngine::Transform* headTransform_ = {}) noexcept : leftController{leftController_}, rightController{rightController_}, headTransform{headTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VRController _leftController

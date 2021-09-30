@@ -50,8 +50,6 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestTools::TestRunner::TestStartedEvent* m_TestStartedEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::TestRunner::TestStartedEvent*) == 0x8);
-    // Creating value type constructor for type: TestListenerWrapper
-    TestListenerWrapper(UnityEngine::TestTools::TestRunner::TestFinishedEvent* m_TestFinishedEvent_ = {}, UnityEngine::TestTools::TestRunner::TestStartedEvent* m_TestStartedEvent_ = {}) noexcept : m_TestFinishedEvent{m_TestFinishedEvent_}, m_TestStartedEvent{m_TestStartedEvent_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestListener
     operator NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);

@@ -63,8 +63,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int bitSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ElGamalEngine
-    ElGamalEngine(Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* key_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}, bool forEncryption_ = {}, int bitSize_ = {}) noexcept : key{key_}, random{random_}, forEncryption{forEncryption_}, bitSize{bitSize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);

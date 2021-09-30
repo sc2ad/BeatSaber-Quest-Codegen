@@ -52,8 +52,6 @@ namespace System::Net {
     System::Net::SimpleAsyncCallback* callback;
     // Field size check
     static_assert(sizeof(System::Net::SimpleAsyncCallback*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass11_0
-    $$c__DisplayClass11_0(System::Func_2<System::Net::SimpleAsyncResult*, bool>* func_ = {}, ::Il2CppObject* locker_ = {}, System::Net::SimpleAsyncCallback* callback_ = {}) noexcept : func{func_}, locker{locker_}, callback{callback_} {}
     // Get instance field reference: public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
     System::Func_2<System::Net::SimpleAsyncResult*, bool>*& dyn_func();
     // Get instance field reference: public System.Object locker

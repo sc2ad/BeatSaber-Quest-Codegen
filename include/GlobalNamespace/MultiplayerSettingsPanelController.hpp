@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     System::Action_1<bool>* playerActiveStateChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerSettingsPanelController
-    MultiplayerSettingsPanelController(GlobalNamespace::ServerCodeView* serverCodeView_ = {}, UnityEngine::UI::Toggle* spectateToggle_ = {}, UnityEngine::GameObject* connectionSettingsWrapper_ = {}, UnityEngine::GameObject* spectateSettingsWrapper_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, GlobalNamespace::ILobbyPlayerData* lobbyPlayerData_ = {}, bool refreshed_ = {}, System::Action_1<bool>* playerActiveStateChangedEvent_ = {}) noexcept : serverCodeView{serverCodeView_}, spectateToggle{spectateToggle_}, connectionSettingsWrapper{connectionSettingsWrapper_}, spectateSettingsWrapper{spectateSettingsWrapper_}, toggleBinder{toggleBinder_}, lobbyPlayerData{lobbyPlayerData_}, refreshed{refreshed_}, playerActiveStateChangedEvent{playerActiveStateChangedEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);

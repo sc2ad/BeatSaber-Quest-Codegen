@@ -41,8 +41,6 @@ namespace System {
     ::Il2CppChar currentElement;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: CharEnumerator
-    CharEnumerator(::Il2CppString* str_ = {}, int index_ = {}, ::Il2CppChar currentElement_ = {}) noexcept : str{str_}, index{index_}, currentElement{currentElement_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppChar>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);

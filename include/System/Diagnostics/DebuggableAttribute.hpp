@@ -92,8 +92,6 @@ namespace System::Diagnostics {
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
     // Field size check
     static_assert(sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes) == 0x4);
-    // Creating value type constructor for type: DebuggableAttribute
-    DebuggableAttribute(System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes_ = {}) noexcept : m_debuggingModes{m_debuggingModes_} {}
     // Creating conversion operator: operator System::Diagnostics::DebuggableAttribute::DebuggingModes
     constexpr operator System::Diagnostics::DebuggableAttribute::DebuggingModes() const noexcept {
       return m_debuggingModes;

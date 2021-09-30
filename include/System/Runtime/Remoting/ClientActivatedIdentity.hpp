@@ -44,8 +44,6 @@ namespace System::Runtime::Remoting {
     System::MarshalByRefObject* targetThis;
     // Field size check
     static_assert(sizeof(System::MarshalByRefObject*) == 0x8);
-    // Creating value type constructor for type: ClientActivatedIdentity
-    ClientActivatedIdentity(System::MarshalByRefObject* targetThis_ = {}) noexcept : targetThis{targetThis_} {}
     // Creating conversion operator: operator System::MarshalByRefObject*
     constexpr operator System::MarshalByRefObject*() const noexcept {
       return targetThis;

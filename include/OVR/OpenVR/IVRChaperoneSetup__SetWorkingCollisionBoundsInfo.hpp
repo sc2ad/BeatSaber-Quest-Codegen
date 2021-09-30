@@ -34,8 +34,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB07E8
   class IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetWorkingCollisionBoundsInfo
-    _SetWorkingCollisionBoundsInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1771F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

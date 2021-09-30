@@ -78,7 +78,6 @@ namespace System::Threading {
     }
     // System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<T> source, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SparselyPopulatedArrayAddInfo_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int index)
   }; // System.Threading.SparselyPopulatedArrayAddInfo`1
   // Could not write size check! Type: System.Threading.SparselyPopulatedArrayAddInfo`1 is generic, or has no fields that are valid for size checks!

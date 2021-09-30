@@ -71,8 +71,6 @@ namespace System::Collections {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: ArrayList
-    ArrayList(::ArrayWrapper<::Il2CppObject*> items_ = {}, int size_ = {}, int version_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : items{items_}, size{size_}, version{version_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -61,8 +61,6 @@ namespace UnityEngine::ProBuilder {
     ::ArrayWrapper<int> m_Vertices;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: SharedVertex
-    SharedVertex(::ArrayWrapper<int> m_Vertices_ = {}) noexcept : m_Vertices{m_Vertices_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<int>
     operator System::Collections::Generic::ICollection_1<int>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<int>*>(this);

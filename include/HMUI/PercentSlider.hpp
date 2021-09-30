@@ -19,8 +19,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class PercentSlider : public HMUI::RangeValuesTextSlider {
     public:
-    // Creating value type constructor for type: PercentSlider
-    PercentSlider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1414148
     // Implemented from: HMUI.RangeValuesTextSlider

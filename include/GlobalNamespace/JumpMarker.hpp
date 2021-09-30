@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::PropertyName id;
     // Field size check
     static_assert(sizeof(UnityEngine::PropertyName) == 0x4);
-    // Creating value type constructor for type: JumpMarker
-    JumpMarker(GlobalNamespace::JumpDestinationMarker* destination_ = {}, UnityEngine::PropertyName id_ = {}) noexcept : destination{destination_}, id{id_} {}
     // Creating interface conversion operator: operator UnityEngine::Playables::INotification
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);

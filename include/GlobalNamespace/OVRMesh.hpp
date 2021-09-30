@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     bool IsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRMesh
-    OVRMesh(GlobalNamespace::OVRMesh::IOVRMeshDataProvider* dataProvider_ = {}, GlobalNamespace::OVRMesh::MeshType meshType_ = {}, UnityEngine::Mesh* mesh_ = {}, bool IsInitialized_ = {}) noexcept : dataProvider{dataProvider_}, meshType{meshType_}, mesh{mesh_}, IsInitialized{IsInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OVRMesh/IOVRMeshDataProvider _dataProvider

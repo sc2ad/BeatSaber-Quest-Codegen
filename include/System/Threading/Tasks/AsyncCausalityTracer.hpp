@@ -28,8 +28,6 @@ namespace System::Threading::Tasks {
   // [FriendAccessAllowedAttribute] Offset: E5EC24
   class AsyncCausalityTracer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AsyncCausalityTracer
-    AsyncCausalityTracer() noexcept {}
     // static System.Boolean get_LoggingOn()
     // Offset: 0x1A5F288
     static bool get_LoggingOn();

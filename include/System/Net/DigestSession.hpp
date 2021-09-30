@@ -74,8 +74,6 @@ namespace System::Net {
     ::Il2CppString* cnonce;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DigestSession
-    DigestSession(System::DateTime lastUse_ = {}, int nc_ = {}, System::Security::Cryptography::HashAlgorithm* hash_ = {}, System::Net::DigestHeaderParser* parser_ = {}, ::Il2CppString* cnonce_ = {}) noexcept : lastUse{lastUse_}, nc{nc_}, hash{hash_}, parser{parser_}, cnonce{cnonce_} {}
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng

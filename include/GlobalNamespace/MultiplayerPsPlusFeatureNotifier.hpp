@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerPsPlusFeatureNotifier : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: MultiplayerPsPlusFeatureNotifier
-    MultiplayerPsPlusFeatureNotifier() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x112B008
     // Implemented from: UnityEngine.MonoBehaviour

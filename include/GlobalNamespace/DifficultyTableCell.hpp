@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FillIndicator* fillIndicator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FillIndicator*) == 0x8);
-    // Creating value type constructor for type: DifficultyTableCell
-    DifficultyTableCell(TMPro::TextMeshProUGUI* difficultyText_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, GlobalNamespace::FillIndicator* fillIndicator_ = {}) noexcept : difficultyText{difficultyText_}, bgImage{bgImage_}, highlightImage{highlightImage_}, fillIndicator{fillIndicator_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
     TMPro::TextMeshProUGUI*& dyn__difficultyText();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage

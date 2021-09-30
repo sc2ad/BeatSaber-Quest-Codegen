@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* pointer;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: SteamVR_TestController
-    SteamVR_TestController(System::Collections::Generic::List_1<int>* controllerIndices_ = {}, ::ArrayWrapper<Valve::VR::EVRButtonId> buttonIds_ = {}, ::ArrayWrapper<Valve::VR::EVRButtonId> axisIds_ = {}, UnityEngine::Transform* point_ = {}, UnityEngine::Transform* pointer_ = {}) noexcept : controllerIndices{controllerIndices_}, buttonIds{buttonIds_}, axisIds{axisIds_}, point{point_}, pointer{pointer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> controllerIndices

@@ -16,8 +16,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioBehaviour : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: AudioBehaviour
-    AudioBehaviour() noexcept {}
   }; // UnityEngine.AudioBehaviour
   #pragma pack(pop)
 }

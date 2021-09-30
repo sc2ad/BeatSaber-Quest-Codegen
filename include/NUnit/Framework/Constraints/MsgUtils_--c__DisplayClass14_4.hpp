@@ -34,8 +34,6 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ValueFormatter* next;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass14_4
-    $$c__DisplayClass14_4(NUnit::Framework::Constraints::ValueFormatter* next_ = {}) noexcept : next{next_} {}
     // Creating conversion operator: operator NUnit::Framework::Constraints::ValueFormatter*
     constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const noexcept {
       return next;

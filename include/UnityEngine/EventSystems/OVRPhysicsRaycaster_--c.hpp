@@ -31,8 +31,6 @@ namespace UnityEngine::EventSystems {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRPhysicsRaycaster::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.EventSystems.OVRPhysicsRaycaster/UnityEngine.EventSystems.<>c <>9
     static UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.EventSystems.OVRPhysicsRaycaster/UnityEngine.EventSystems.<>c <>9

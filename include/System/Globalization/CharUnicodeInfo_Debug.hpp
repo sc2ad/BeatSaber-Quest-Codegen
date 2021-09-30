@@ -16,8 +16,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CharUnicodeInfo::Debug : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Debug
-    Debug() noexcept {}
     // static System.Void Assert(System.Boolean condition, System.String message)
     // Offset: 0x19AA7C0
     static void Assert_(bool condition, ::Il2CppString* message);

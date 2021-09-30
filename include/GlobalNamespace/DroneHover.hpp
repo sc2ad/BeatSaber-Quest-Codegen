@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     UnityEngine::Cloth* cloth;
     // Field size check
     static_assert(sizeof(UnityEngine::Cloth*) == 0x8);
-    // Creating value type constructor for type: DroneHover
-    DroneHover(UnityEngine::Vector3 hoverAreaPerAxis_ = {}, float speed_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* compoundSins_ = {}, System::Collections::Generic::List_1<UnityEngine::Transform*>* tiltTransforms_ = {}, float maxTiltAmount_ = {}, float tiltSpeed_ = {}, float tiltAheadOfTime_ = {}, bool tiltToTarget_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Cloth* cloth_ = {}) noexcept : hoverAreaPerAxis{hoverAreaPerAxis_}, speed{speed_}, compoundSins{compoundSins_}, tiltTransforms{tiltTransforms_}, maxTiltAmount{maxTiltAmount_}, tiltSpeed{tiltSpeed_}, tiltAheadOfTime{tiltAheadOfTime_}, tiltToTarget{tiltToTarget_}, startPos{startPos_}, cloth{cloth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _hoverAreaPerAxis

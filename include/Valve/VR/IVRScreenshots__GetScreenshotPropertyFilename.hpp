@@ -44,8 +44,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6640
   class IVRScreenshots::_GetScreenshotPropertyFilename : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetScreenshotPropertyFilename
-    _GetScreenshotPropertyFilename() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED4864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

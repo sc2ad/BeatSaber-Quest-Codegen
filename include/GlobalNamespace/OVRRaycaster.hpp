@@ -130,8 +130,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* m_RaycastResults;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*) == 0x8);
-    // Creating value type constructor for type: OVRRaycaster
-    OVRRaycaster(UnityEngine::GameObject* pointer_ = {}, int sortOrder_ = {}, UnityEngine::Canvas* m_Canvas_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* m_RaycastResults_ = {}) noexcept : pointer{pointer_}, sortOrder{sortOrder_}, m_Canvas{m_Canvas_}, m_RaycastResults{m_RaycastResults_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

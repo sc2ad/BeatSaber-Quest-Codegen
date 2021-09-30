@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* CS$$$8__locals2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_2
-    $$c__DisplayClass6_2(UnityEngine::AssetBundleRequest* assetBundleRequest_ = {}, GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* CS$$$8__locals2_ = {}) noexcept : assetBundleRequest{assetBundleRequest_}, CS$$$8__locals2{CS$$$8__locals2_} {}
     // Get instance field reference: public UnityEngine.AssetBundleRequest assetBundleRequest
     UnityEngine::AssetBundleRequest*& dyn_assetBundleRequest();
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2

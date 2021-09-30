@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5150
   class IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetSeatedZeroPoseToStandingAbsoluteTrackingPose
-    _GetSeatedZeroPoseToStandingAbsoluteTrackingPose() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDF9D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

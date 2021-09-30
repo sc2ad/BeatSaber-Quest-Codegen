@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HoudiniAsset::UpdateUIDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UpdateUIDelegate
-    UpdateUIDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x151CBB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

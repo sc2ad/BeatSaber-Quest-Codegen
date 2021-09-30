@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // Creating value type constructor for type: DelayedMenuButtonTrigger
-    DelayedMenuButtonTrigger(System::Action* menuButtonTriggeredEvent_ = {}, float pressDuration_ = {}, float timer_ = {}, bool waitingForButtonRelease_ = {}, GlobalNamespace::VRControllersInputManager* vrControllersInputManager_ = {}) noexcept : menuButtonTriggeredEvent{menuButtonTriggeredEvent_}, pressDuration{pressDuration_}, timer{timer_}, waitingForButtonRelease{waitingForButtonRelease_}, vrControllersInputManager{vrControllersInputManager_} {}
     // Creating interface conversion operator: operator Zenject::ITickable
     operator Zenject::ITickable() noexcept {
       return *reinterpret_cast<Zenject::ITickable*>(this);

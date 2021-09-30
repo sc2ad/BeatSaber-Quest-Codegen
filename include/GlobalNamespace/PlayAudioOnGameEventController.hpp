@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*> eventAudioBindings;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>) == 0x8);
-    // Creating value type constructor for type: PlayAudioOnGameEventController
-    PlayAudioOnGameEventController(GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*> eventAudioBindings_ = {}) noexcept : audioClipQueue{audioClipQueue_}, eventAudioBindings{eventAudioBindings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AudioClipQueue _audioClipQueue

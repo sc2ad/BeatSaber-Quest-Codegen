@@ -159,8 +159,6 @@ namespace TMPro {
     bool m_currentAutoSizeMode;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TextMeshPro
-    TextMeshPro(bool m_hasFontAssetChanged_ = {}, float m_previousLossyScaleY_ = {}, UnityEngine::Renderer* m_renderer_ = {}, UnityEngine::MeshFilter* m_meshFilter_ = {}, bool m_isFirstAllocation_ = {}, int m_max_characters_ = {}, int m_max_numberOfLines_ = {}, ::ArrayWrapper<TMPro::TMP_SubMesh*> m_subTextObjects_ = {}, bool m_isMaskingEnabled_ = {}, bool isMaskUpdateRequired_ = {}, TMPro::MaskingTypes m_maskType_ = {}, UnityEngine::Matrix4x4 m_EnvMapMatrix_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_RectTransformCorners_ = {}, bool m_isRegisteredForEvents_ = {}, int loopCountA_ = {}, bool m_currentAutoSizeMode_ = {}) noexcept : m_hasFontAssetChanged{m_hasFontAssetChanged_}, m_previousLossyScaleY{m_previousLossyScaleY_}, m_renderer{m_renderer_}, m_meshFilter{m_meshFilter_}, m_isFirstAllocation{m_isFirstAllocation_}, m_max_characters{m_max_characters_}, m_max_numberOfLines{m_max_numberOfLines_}, m_subTextObjects{m_subTextObjects_}, m_isMaskingEnabled{m_isMaskingEnabled_}, isMaskUpdateRequired{isMaskUpdateRequired_}, m_maskType{m_maskType_}, m_EnvMapMatrix{m_EnvMapMatrix_}, m_RectTransformCorners{m_RectTransformCorners_}, m_isRegisteredForEvents{m_isRegisteredForEvents_}, loopCountA{loopCountA_}, m_currentAutoSizeMode{m_currentAutoSizeMode_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);

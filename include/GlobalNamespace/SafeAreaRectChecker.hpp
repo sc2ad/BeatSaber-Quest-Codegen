@@ -98,8 +98,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SafeAreaRectChecker::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SafeAreaRectChecker::InitData*) == 0x8);
-    // Creating value type constructor for type: SafeAreaRectChecker
-    SafeAreaRectChecker(float minAngleX_ = {}, float maxAngleX_ = {}, float minAngleY_ = {}, float maxAngleY_ = {}, UnityEngine::GameObject* activeObjectWhenInsideSafeArea_ = {}, UnityEngine::GameObject* activeObjectWhenNotInsideSafeArea_ = {}, UnityEngine::RectTransform* rectTransformToCheck_ = {}, ::ArrayWrapper<UnityEngine::Vector3> corners_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, GlobalNamespace::SafeAreaRectChecker::InitData* initData_ = {}) noexcept : minAngleX{minAngleX_}, maxAngleX{maxAngleX_}, minAngleY{minAngleY_}, maxAngleY{maxAngleY_}, activeObjectWhenInsideSafeArea{activeObjectWhenInsideSafeArea_}, activeObjectWhenNotInsideSafeArea{activeObjectWhenNotInsideSafeArea_}, rectTransformToCheck{rectTransformToCheck_}, corners{corners_}, mainCamera{mainCamera_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _minAngleX

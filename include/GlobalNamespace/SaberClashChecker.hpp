@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     int prevGetFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SaberClashChecker
-    SaberClashChecker(bool sabersAreClashing_ = {}, UnityEngine::Vector3 clashingPoint_ = {}, GlobalNamespace::Saber* leftSaber_ = {}, GlobalNamespace::Saber* rightSaber_ = {}, int prevGetFrameNum_ = {}) noexcept : sabersAreClashing{sabersAreClashing_}, clashingPoint{clashingPoint_}, leftSaber{leftSaber_}, rightSaber{rightSaber_}, prevGetFrameNum{prevGetFrameNum_} {}
     // static field const value: static private System.Single kMinDistanceToClash
     static constexpr const float kMinDistanceToClash = 0.08;
     // Get static field: static private System.Single kMinDistanceToClash

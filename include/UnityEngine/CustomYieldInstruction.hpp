@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomYieldInstruction : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    // Creating value type constructor for type: CustomYieldInstruction
-    CustomYieldInstruction() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

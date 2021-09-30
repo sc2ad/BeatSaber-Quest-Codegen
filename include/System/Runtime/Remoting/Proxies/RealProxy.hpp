@@ -110,8 +110,6 @@ namespace System::Runtime::Remoting::Proxies {
     ::Il2CppObject* stubData;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: RealProxy
-    RealProxy(System::Type* class_to_proxy_ = {}, System::Runtime::Remoting::Contexts::Context* targetContext_ = {}, System::MarshalByRefObject* server_ = {}, int targetDomainId_ = {}, ::Il2CppString* targetUri_ = {}, System::Runtime::Remoting::Identity* objectIdentity_ = {}, ::Il2CppObject* objTP_ = {}, ::Il2CppObject* stubData_ = {}) noexcept : class_to_proxy{class_to_proxy_}, targetContext{targetContext_}, server{server_}, targetDomainId{targetDomainId_}, targetUri{targetUri_}, objectIdentity{objectIdentity_}, objTP{objTP_}, stubData{stubData_} {}
     // Get instance field reference: private System.Type class_to_proxy
     System::Type*& dyn_class_to_proxy();
     // Get instance field reference: System.Runtime.Remoting.Contexts.Context _targetContext

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     bool hidden;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerNoteController
-    MultiplayerConnectedPlayerNoteController(UnityEngine::GameObject* visualsWrapperGo_ = {}, bool hidden_ = {}) noexcept : visualsWrapperGo{visualsWrapperGo_}, hidden{hidden_} {}
     // Get instance field reference: private UnityEngine.GameObject _visualsWrapperGo
     UnityEngine::GameObject*& dyn__visualsWrapperGo();
     // Get instance field reference: private System.Boolean _hidden

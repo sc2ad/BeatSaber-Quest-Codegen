@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_PartData::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c <>9
     static HoudiniEngineUnity::HEU_PartData::$$c* _get_$$9();
     // Set static field: static public readonly HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c <>9

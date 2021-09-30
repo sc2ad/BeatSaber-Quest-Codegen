@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithMatchmakingAdminSnapshot : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingAdminSnapshot*> {
     public:
-    // Creating value type constructor for type: MessageWithMatchmakingAdminSnapshot
-    MessageWithMatchmakingAdminSnapshot() noexcept {}
     // protected Oculus.Platform.Models.MatchmakingAdminSnapshot GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B9DDC
     Oculus::Platform::Models::MatchmakingAdminSnapshot* GetDataFromMessage(System::IntPtr c_message);

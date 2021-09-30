@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LayerSubmit
-    constexpr LayerSubmit(int LayerId_ = {}, int TextureStage_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Recti> ViewportRect_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}, int LayerSubmitFlags_ = {}) noexcept : LayerId{LayerId_}, TextureStage{TextureStage_}, ViewportRect{ViewportRect_}, Pose{Pose_}, LayerSubmitFlags{LayerSubmitFlags_} {}
+    constexpr LayerSubmit(int LayerId_ = {}, int TextureStage_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Recti> ViewportRect_ = {nullptr}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}, int LayerSubmitFlags_ = {}) noexcept : LayerId{LayerId_}, TextureStage{TextureStage_}, ViewportRect{ViewportRect_}, Pose{Pose_}, LayerSubmitFlags{LayerSubmitFlags_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class FpPoint : public Org::BouncyCastle::Math::EC::AbstractFpPoint {
     public:
-    // Creating value type constructor for type: FpPoint
-    FpPoint() noexcept {}
     // protected Org.BouncyCastle.Math.EC.ECFieldElement Two(Org.BouncyCastle.Math.EC.ECFieldElement x)
     // Offset: 0x23217A0
     Org::BouncyCastle::Math::EC::ECFieldElement* Two(Org::BouncyCastle::Math::EC::ECFieldElement* x);

@@ -18,8 +18,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeName/*, public System::IEquatable_1<System::TypeName*>*/ {
     public:
-    // Creating value type constructor for type: TypeName
-    TypeName() noexcept {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::TypeName*>
     operator System::IEquatable_1<System::TypeName*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::TypeName*>*>(this);

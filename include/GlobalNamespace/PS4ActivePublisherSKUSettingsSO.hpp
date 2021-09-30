@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4PublisherSKUSettingsSO*) == 0x8);
-    // Creating value type constructor for type: PS4ActivePublisherSKUSettingsSO
-    PS4ActivePublisherSKUSettingsSO(GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings_ = {}) noexcept : activePublisherSKUSettings{activePublisherSKUSettings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public PS4PublisherSKUSettingsSO activePublisherSKUSettings

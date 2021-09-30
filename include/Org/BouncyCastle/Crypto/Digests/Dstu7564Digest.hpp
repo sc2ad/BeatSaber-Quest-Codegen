@@ -84,8 +84,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     ::ArrayWrapper<uint8_t> buf;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Dstu7564Digest
-    Dstu7564Digest(int hashSize_ = {}, int blockSize_ = {}, int columns_ = {}, int rounds_ = {}, ::ArrayWrapper<uint64_t> state_ = {}, ::ArrayWrapper<uint64_t> tempState1_ = {}, ::ArrayWrapper<uint64_t> tempState2_ = {}, uint64_t inputBlocks_ = {}, int bufOff_ = {}, ::ArrayWrapper<uint8_t> buf_ = {}) noexcept : hashSize{hashSize_}, blockSize{blockSize_}, columns{columns_}, rounds{rounds_}, state{state_}, tempState1{tempState1_}, tempState2{tempState2_}, inputBlocks{inputBlocks_}, bufOff{bufOff_}, buf{buf_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

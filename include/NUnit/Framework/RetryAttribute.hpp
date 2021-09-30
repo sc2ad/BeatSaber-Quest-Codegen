@@ -24,8 +24,6 @@ namespace NUnit::Framework {
     public:
     // Nested type: NUnit::Framework::RetryAttribute::RetryCommand
     class RetryCommand;
-    // Creating value type constructor for type: RetryAttribute
-    RetryAttribute() noexcept {}
   }; // NUnit.Framework.RetryAttribute
   #pragma pack(pop)
 }

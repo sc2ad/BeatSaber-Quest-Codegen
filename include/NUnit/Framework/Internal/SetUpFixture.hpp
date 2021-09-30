@@ -16,8 +16,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetUpFixture : public NUnit::Framework::Internal::TestSuite {
     public:
-    // Creating value type constructor for type: SetUpFixture
-    SetUpFixture() noexcept {}
   }; // NUnit.Framework.Internal.SetUpFixture
   #pragma pack(pop)
 }

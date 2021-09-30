@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: FollowLocalRotation
-    FollowLocalRotation(UnityEngine::Transform* target_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : target{target_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform _target

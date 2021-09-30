@@ -35,8 +35,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: ConstraintPosition
-    ConstraintPosition(UnityEngine::Vector3 position_ = {}) noexcept : position{position_} {}
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return position;

@@ -34,8 +34,6 @@ namespace System::IO {
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
-    // Creating value type constructor for type: PinnedBufferMemoryStream
-    PinnedBufferMemoryStream(::ArrayWrapper<uint8_t> array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
     // Get instance field reference: private System.Byte[] _array
     ::ArrayWrapper<uint8_t>& dyn__array();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle _pinningHandle

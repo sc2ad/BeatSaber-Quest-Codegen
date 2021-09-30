@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB50D8
   class IVRSystem::_GetDXGIOutputInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetDXGIOutputInfo
-    _GetDXGIOutputInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDC7D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB00F4
   class IVRSystem::_IsTrackedDeviceConnected : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _IsTrackedDeviceConnected
-    _IsTrackedDeviceConnected() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22EC854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

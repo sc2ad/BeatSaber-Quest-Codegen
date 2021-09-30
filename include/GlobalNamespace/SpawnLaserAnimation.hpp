@@ -87,8 +87,6 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SpawnLaserAnimation
-    SpawnLaserAnimation(UnityEngine::Transform* centerThresholdTransform_ = {}, UnityEngine::Transform* horizontalLasersTransform_ = {}, GlobalNamespace::TubeBloomPrePassLight* leftHorizontalLaser_ = {}, GlobalNamespace::TubeBloomPrePassLight* rightHorizontalLaser_ = {}, float normalizedDistance_ = {}, float alphaMultiplier_ = {}, float laserLength_ = {}, float centerDistance_ = {}, bool initialized_ = {}) noexcept : centerThresholdTransform{centerThresholdTransform_}, horizontalLasersTransform{horizontalLasersTransform_}, leftHorizontalLaser{leftHorizontalLaser_}, rightHorizontalLaser{rightHorizontalLaser_}, normalizedDistance{normalizedDistance_}, alphaMultiplier{alphaMultiplier_}, laserLength{laserLength_}, centerDistance{centerDistance_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _centerThresholdTransform

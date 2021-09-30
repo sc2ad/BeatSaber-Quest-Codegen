@@ -48,8 +48,6 @@ namespace System::Diagnostics {
     ::Il2CppString* listenerName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TraceListener
-    TraceListener(int indentLevel_ = {}, int indentSize_ = {}, bool needIndent_ = {}, ::Il2CppString* listenerName_ = {}) noexcept : indentLevel{indentLevel_}, indentSize{indentSize_}, needIndent{needIndent_}, listenerName{listenerName_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

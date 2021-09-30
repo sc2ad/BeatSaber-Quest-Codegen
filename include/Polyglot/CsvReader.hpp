@@ -31,8 +31,6 @@ namespace Polyglot {
     public:
     // Nested type: Polyglot::CsvReader::ParsingMode
     struct ParsingMode;
-    // Creating value type constructor for type: CsvReader
-    CsvReader() noexcept {}
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
     // Offset: 0x2580DE4
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* Parse(::Il2CppString* src);

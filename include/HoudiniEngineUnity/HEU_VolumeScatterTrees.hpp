@@ -91,8 +91,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<int> terrainTiles;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: HEU_VolumeScatterTrees
-    HEU_VolumeScatterTrees(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>* treePrototypInfos_ = {}, ::ArrayWrapper<UnityEngine::Color32> colors_ = {}, ::ArrayWrapper<float> heightScales_ = {}, ::ArrayWrapper<UnityEngine::Color32> lightmapColors_ = {}, ::ArrayWrapper<UnityEngine::Vector3> positions_ = {}, ::ArrayWrapper<int> prototypeIndices_ = {}, ::ArrayWrapper<float> rotations_ = {}, ::ArrayWrapper<float> widthScales_ = {}, ::ArrayWrapper<int> terrainTiles_ = {}) noexcept : treePrototypInfos{treePrototypInfos_}, colors{colors_}, heightScales{heightScales_}, lightmapColors{lightmapColors_}, positions{positions_}, prototypeIndices{prototypeIndices_}, rotations{rotations_}, widthScales{widthScales_}, terrainTiles{terrainTiles_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);

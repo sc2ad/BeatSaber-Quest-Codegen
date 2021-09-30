@@ -38,8 +38,6 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: E9972C
   class XRMeshSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor*> {
     public:
-    // Creating value type constructor for type: XRMeshSubsystem
-    XRMeshSubsystem() noexcept {}
     // private System.Void InvokeMeshReadyDelegate(UnityEngine.XR.MeshGenerationResult result, System.Action`1<UnityEngine.XR.MeshGenerationResult> onMeshGenerationComplete)
     // Offset: 0x2612E84
     void InvokeMeshReadyDelegate(UnityEngine::XR::MeshGenerationResult result, System::Action_1<UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);

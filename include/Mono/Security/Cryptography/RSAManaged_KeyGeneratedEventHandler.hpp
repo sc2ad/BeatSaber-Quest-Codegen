@@ -33,8 +33,6 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RSAManaged::KeyGeneratedEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: KeyGeneratedEventHandler
-    KeyGeneratedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1FA0598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

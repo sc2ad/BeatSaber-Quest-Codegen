@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72CC8
   class SerializeField : public System::Attribute {
     public:
-    // Creating value type constructor for type: SerializeField
-    SerializeField() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E0DC88
     // Implemented from: System.Attribute

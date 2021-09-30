@@ -20,8 +20,6 @@ namespace System::Collections::Concurrent {
   // [TokenAttribute] Offset: FFFFFFFF
   class CDSCollectionETWBCLProvider : public System::Diagnostics::Tracing::EventSource {
     public:
-    // Creating value type constructor for type: CDSCollectionETWBCLProvider
-    CDSCollectionETWBCLProvider() noexcept {}
     // Get static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log
     static System::Collections::Concurrent::CDSCollectionETWBCLProvider* _get_Log();
     // Set static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log

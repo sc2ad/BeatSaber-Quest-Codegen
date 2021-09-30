@@ -122,8 +122,6 @@ namespace GlobalNamespace {
     bool enableBloomPrePassFog;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Preset
-    Preset(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType mirrorType_ = {}, UnityEngine::LayerMask reflectLayers_ = {}, int stereoTextureWidth_ = {}, int stereoTextureHeight_ = {}, int monoTextureWidth_ = {}, int monoTextureHeight_ = {}, int maxAntiAliasing_ = {}, bool enableBloomPrePassFog_ = {}) noexcept : mirrorType{mirrorType_}, reflectLayers{reflectLayers_}, stereoTextureWidth{stereoTextureWidth_}, stereoTextureHeight{stereoTextureHeight_}, monoTextureWidth{monoTextureWidth_}, monoTextureHeight{monoTextureHeight_}, maxAntiAliasing{maxAntiAliasing_}, enableBloomPrePassFog{enableBloomPrePassFog_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType

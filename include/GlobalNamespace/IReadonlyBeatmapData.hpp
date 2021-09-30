@@ -44,8 +44,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IReadonlyBeatmapData {
     public:
-    // Creating value type constructor for type: IReadonlyBeatmapData
-    IReadonlyBeatmapData() noexcept {}
     // public System.Collections.Generic.IReadOnlyList`1<IReadonlyBeatmapLineData> get_beatmapLinesData()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* get_beatmapLinesData();

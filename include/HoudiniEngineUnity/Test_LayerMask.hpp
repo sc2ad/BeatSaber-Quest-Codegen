@@ -28,8 +28,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::LayerMask self;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // Creating value type constructor for type: Test_LayerMask
-    Test_LayerMask(UnityEngine::LayerMask self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>*>(this);

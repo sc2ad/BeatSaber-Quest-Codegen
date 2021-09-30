@@ -43,8 +43,6 @@ namespace NUnit::Framework::Internal::Commands {
     ::ArrayWrapper<::Il2CppObject*> arguments;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: TestMethodCommand
-    TestMethodCommand(NUnit::Framework::Internal::TestMethod* testMethod_ = {}, ::ArrayWrapper<::Il2CppObject*> arguments_ = {}) noexcept : testMethod{testMethod_}, arguments{arguments_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod

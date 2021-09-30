@@ -29,8 +29,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValueFormatter : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ValueFormatter
-    ValueFormatter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x192E168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

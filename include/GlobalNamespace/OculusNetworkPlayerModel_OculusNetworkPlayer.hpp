@@ -119,8 +119,6 @@ namespace GlobalNamespace {
     bool isWaitingOnInvite;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OculusNetworkPlayer
-    OculusNetworkPlayer(GlobalNamespace::OculusNetworkPlayerModel* playerModel_ = {}, uint64_t id_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isMe_ = {}, Oculus::Platform::Models::Room* room_ = {}, System::Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> cachedSelectionMask_ = {}, System::Nullable_1<GlobalNamespace::GameplayServerConfiguration> cachedConfiguration_ = {}, bool removed_ = {}, ::Il2CppString* inviteToken_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, bool isWaitingOnJoin_ = {}, bool isWaitingOnInvite_ = {}) noexcept : playerModel{playerModel_}, id{id_}, userId{userId_}, userName{userName_}, isMe{isMe_}, room{room_}, cachedSelectionMask{cachedSelectionMask_}, cachedConfiguration{cachedConfiguration_}, removed{removed_}, inviteToken{inviteToken_}, connectedPlayer{connectedPlayer_}, isWaitingOnJoin{isWaitingOnJoin_}, isWaitingOnInvite{isWaitingOnInvite_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayer
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);

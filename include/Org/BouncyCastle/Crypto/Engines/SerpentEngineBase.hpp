@@ -65,8 +65,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int X3;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SerpentEngineBase
-    SerpentEngineBase(bool encrypting_ = {}, ::ArrayWrapper<int> wKey_ = {}, int X0_ = {}, int X1_ = {}, int X2_ = {}, int X3_ = {}) noexcept : encrypting{encrypting_}, wKey{wKey_}, X0{X0_}, X1{X1_}, X2{X2_}, X3{X3_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

@@ -41,8 +41,6 @@ namespace System::Collections {
     System::Collections::IHashCodeProvider* hcp;
     // Field size check
     static_assert(sizeof(System::Collections::IHashCodeProvider*) == 0x8);
-    // Creating value type constructor for type: CompatibleComparer
-    CompatibleComparer(System::Collections::IComparer* comparer_ = {}, System::Collections::IHashCodeProvider* hcp_ = {}) noexcept : comparer{comparer_}, hcp{hcp_} {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);

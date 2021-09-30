@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     uint64_t requestId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: HMAutoincrementedRequestId
-    HMAutoincrementedRequestId(uint64_t requestId_ = {}) noexcept : requestId{requestId_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>
     operator System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>*>(this);

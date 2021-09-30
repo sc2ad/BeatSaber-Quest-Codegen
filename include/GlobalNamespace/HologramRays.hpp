@@ -162,8 +162,6 @@ namespace GlobalNamespace {
     bool boundsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HologramRays
-    HologramRays(GlobalNamespace::TubeBloomPrePassLight* bloomLight_ = {}, UnityEngine::MeshRenderer* raysMeshRenderer_ = {}, UnityEngine::Transform* targetTransform_ = {}, UnityEngine::Transform* laserHolderTransform_ = {}, UnityEngine::Transform* hologramRaysTransform_ = {}, UnityEngine::Mesh* hologramRaysMesh_ = {}, float topYPosition_ = {}, float bottomYPosition_ = {}, float cachedExtent_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::FloatTween* transitionTween_ = {}, UnityEngine::Color bloomColor_ = {}, UnityEngine::Color bloomTransparentColor_ = {}, float alpha_ = {}, float raysDistance_ = {}, UnityEngine::Vector3 raysLocalScale_ = {}, bool boundsInitialized_ = {}) noexcept : bloomLight{bloomLight_}, raysMeshRenderer{raysMeshRenderer_}, targetTransform{targetTransform_}, laserHolderTransform{laserHolderTransform_}, hologramRaysTransform{hologramRaysTransform_}, hologramRaysMesh{hologramRaysMesh_}, topYPosition{topYPosition_}, bottomYPosition{bottomYPosition_}, cachedExtent{cachedExtent_}, tweeningManager{tweeningManager_}, transitionTween{transitionTween_}, bloomColor{bloomColor_}, bloomTransparentColor{bloomTransparentColor_}, alpha{alpha_}, raysDistance{raysDistance_}, raysLocalScale{raysLocalScale_}, boundsInitialized{boundsInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08414

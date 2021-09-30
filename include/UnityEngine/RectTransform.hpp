@@ -31,8 +31,6 @@ namespace UnityEngine {
     struct Axis;
     // Nested type: UnityEngine::RectTransform::ReapplyDrivenProperties
     class ReapplyDrivenProperties;
-    // Creating value type constructor for type: RectTransform
-    RectTransform() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE76214
     // Get static field: static private UnityEngine.RectTransform/UnityEngine.ReapplyDrivenProperties reapplyDrivenProperties
     static UnityEngine::RectTransform::ReapplyDrivenProperties* _get_reapplyDrivenProperties();

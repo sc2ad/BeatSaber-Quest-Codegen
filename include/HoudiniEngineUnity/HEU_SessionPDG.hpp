@@ -14,8 +14,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionPDG : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_SessionPDG
-    HEU_SessionPDG() noexcept {}
   }; // HoudiniEngineUnity.HEU_SessionPDG
   #pragma pack(pop)
 }

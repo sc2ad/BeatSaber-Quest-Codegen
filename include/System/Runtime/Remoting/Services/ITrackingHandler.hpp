@@ -24,8 +24,6 @@ namespace System::Runtime::Remoting::Services {
   // [ComVisibleAttribute] Offset: E5FBA0
   class ITrackingHandler {
     public:
-    // Creating value type constructor for type: ITrackingHandler
-    ITrackingHandler() noexcept {}
     // public System.Void DisconnectedObject(System.Object obj)
     // Offset: 0xFFFFFFFF
     void DisconnectedObject(::Il2CppObject* obj);

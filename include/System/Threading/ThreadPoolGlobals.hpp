@@ -21,8 +21,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPoolGlobals : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ThreadPoolGlobals
-    ThreadPoolGlobals() noexcept {}
     // Get static field: static public System.UInt32 tpQuantum
     static uint _get_tpQuantum();
     // Set static field: static public System.UInt32 tpQuantum

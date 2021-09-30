@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerBombNoteController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x120F9F0
     // Implemented from: Zenject.MonoMemoryPool`1

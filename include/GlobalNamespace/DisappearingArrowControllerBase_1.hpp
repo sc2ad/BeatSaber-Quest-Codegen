@@ -114,8 +114,6 @@ namespace GlobalNamespace {
     bool fadeArrow;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DisappearingArrowControllerBase_1
-    DisappearingArrowControllerBase_1(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> transparentObjectMaterialPropertyBlocks_ = {}, UnityEngine::MeshRenderer* cubeMeshRenderer_ = {}, GlobalNamespace::CutoutEffect* arrowCutoutEffect_ = {}, float disappearingNormalStart_ = {}, float disappearingNormalEnd_ = {}, float disappearingGhostStart_ = {}, float disappearingGhostEnd_ = {}, float prevArrowTransparency_ = {}, float minDistance_ = {}, float maxDistance_ = {}, bool hideMesh_ = {}, bool fadeArrow_ = {}) noexcept : transparentObjectMaterialPropertyBlocks{transparentObjectMaterialPropertyBlocks_}, cubeMeshRenderer{cubeMeshRenderer_}, arrowCutoutEffect{arrowCutoutEffect_}, disappearingNormalStart{disappearingNormalStart_}, disappearingNormalEnd{disappearingNormalEnd_}, disappearingGhostStart{disappearingGhostStart_}, disappearingGhostEnd{disappearingGhostEnd_}, prevArrowTransparency{prevArrowTransparency_}, minDistance{minDistance_}, maxDistance{maxDistance_}, hideMesh{hideMesh_}, fadeArrow{fadeArrow_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04960

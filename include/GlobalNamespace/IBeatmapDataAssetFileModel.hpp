@@ -42,8 +42,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapDataAssetFileModel {
     public:
-    // Creating value type constructor for type: IBeatmapDataAssetFileModel
-    IBeatmapDataAssetFileModel() noexcept {}
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     // Offset: 0xFFFFFFFF
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);

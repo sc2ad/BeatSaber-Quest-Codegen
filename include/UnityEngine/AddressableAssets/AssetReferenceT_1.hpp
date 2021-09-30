@@ -27,8 +27,6 @@ namespace UnityEngine::AddressableAssets {
   template<typename TObject>
   class AssetReferenceT_1 : public UnityEngine::AddressableAssets::AssetReference {
     public:
-    // Creating value type constructor for type: AssetReferenceT_1
-    AssetReferenceT_1() noexcept {}
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> LoadAssetAsync()
     // Offset: 0xFFFFFFFF
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync() {

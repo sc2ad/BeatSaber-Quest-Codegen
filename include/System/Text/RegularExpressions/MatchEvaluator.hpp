@@ -34,8 +34,6 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchEvaluator : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: MatchEvaluator
-    MatchEvaluator() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x19E2CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -28,8 +28,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class NonLazyBinder : public Zenject::IfNotBoundBinder {
     public:
-    // Creating value type constructor for type: NonLazyBinder
-    NonLazyBinder() noexcept {}
     // public Zenject.IfNotBoundBinder NonLazy()
     // Offset: 0x1896008
     Zenject::IfNotBoundBinder* NonLazy();

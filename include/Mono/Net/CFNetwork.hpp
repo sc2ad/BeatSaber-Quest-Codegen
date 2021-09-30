@@ -62,8 +62,6 @@ namespace Mono::Net {
     class CFWebProxy;
     // Nested type: Mono::Net::CFNetwork::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;
-    // Creating value type constructor for type: CFNetwork
-    CFNetwork() noexcept {}
     // Get static field: static private System.Object lock_obj
     static ::Il2CppObject* _get_lock_obj();
     // Set static field: static private System.Object lock_obj

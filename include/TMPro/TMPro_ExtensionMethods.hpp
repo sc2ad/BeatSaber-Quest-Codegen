@@ -40,8 +40,6 @@ namespace TMPro {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TMPro_ExtensionMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TMPro_ExtensionMethods
-    TMPro_ExtensionMethods() noexcept {}
     // static public System.String ArrayToString(System.Char[] chars)
     // Offset: 0x15C4AAC
     static ::Il2CppString* ArrayToString(::ArrayWrapper<::Il2CppChar> chars);

@@ -26,8 +26,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F8DC
   class SerializationBinder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SerializationBinder
-    SerializationBinder() noexcept {}
     // public System.Void BindToName(System.Type serializedType, out System.String assemblyName, out System.String typeName)
     // Offset: 0x1915D80
     void BindToName(System::Type* serializedType, ByRef<::Il2CppString*> assemblyName, ByRef<::Il2CppString*> typeName);

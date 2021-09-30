@@ -46,8 +46,6 @@ namespace Mono::Net::Security::Private {
     System::Net::Security::RemoteCertificateValidationCallback* callback;
     // Field size check
     static_assert(sizeof(System::Net::Security::RemoteCertificateValidationCallback*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Net::Security::RemoteCertificateValidationCallback* callback_ = {}) noexcept : callback{callback_} {}
     // Creating conversion operator: operator System::Net::Security::RemoteCertificateValidationCallback*
     constexpr operator System::Net::Security::RemoteCertificateValidationCallback*() const noexcept {
       return callback;

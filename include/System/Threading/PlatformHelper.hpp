@@ -14,8 +14,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlatformHelper
-    PlatformHelper() noexcept {}
     // Get static field: static private System.Int32 s_processorCount
     static int _get_s_processorCount();
     // Set static field: static private System.Int32 s_processorCount

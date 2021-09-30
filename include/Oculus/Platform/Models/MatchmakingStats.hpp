@@ -58,8 +58,6 @@ namespace Oculus::Platform::Models {
     uint WinCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: MatchmakingStats
-    MatchmakingStats(uint DrawCount_ = {}, uint LossCount_ = {}, uint SkillLevel_ = {}, double SkillMean_ = {}, double SkillStandardDeviation_ = {}, uint WinCount_ = {}) noexcept : DrawCount{DrawCount_}, LossCount{LossCount_}, SkillLevel{SkillLevel_}, SkillMean{SkillMean_}, SkillStandardDeviation{SkillStandardDeviation_}, WinCount{WinCount_} {}
     // Get instance field reference: public readonly System.UInt32 DrawCount
     uint& dyn_DrawCount();
     // Get instance field reference: public readonly System.UInt32 LossCount

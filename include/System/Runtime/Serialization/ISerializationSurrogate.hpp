@@ -28,8 +28,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F720
   class ISerializationSurrogate {
     public:
-    // Creating value type constructor for type: ISerializationSurrogate
-    ISerializationSurrogate() noexcept {}
     // public System.Void GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     void GetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // Creating value type constructor for type: SetPSSaberGlowColor
-    SetPSSaberGlowColor(GlobalNamespace::SaberTypeObject* saber_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}) noexcept : saber{saber_}, colorManager{colorManager_}, particleSystem{particleSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saber

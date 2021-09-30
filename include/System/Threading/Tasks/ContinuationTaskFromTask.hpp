@@ -35,8 +35,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task* m_antecedent;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: ContinuationTaskFromTask
-    ContinuationTaskFromTask(System::Threading::Tasks::Task* m_antecedent_ = {}) noexcept : m_antecedent{m_antecedent_} {}
     // Creating conversion operator: operator System::Threading::Tasks::Task*
     constexpr operator System::Threading::Tasks::Task*() const noexcept {
       return m_antecedent;

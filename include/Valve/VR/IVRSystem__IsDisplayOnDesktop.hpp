@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5100
   class IVRSystem::_IsDisplayOnDesktop : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _IsDisplayOnDesktop
-    _IsDisplayOnDesktop() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE1550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

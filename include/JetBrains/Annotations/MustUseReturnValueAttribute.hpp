@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Justification;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MustUseReturnValueAttribute
-    MustUseReturnValueAttribute(::Il2CppString* Justification_ = {}) noexcept : Justification{Justification_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Justification;

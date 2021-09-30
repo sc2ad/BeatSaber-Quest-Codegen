@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     float probeHighlightsIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: LightIntensitiesData
-    LightIntensitiesData(float intensity_ = {}, float probeHighlightsIntensityMultiplier_ = {}) noexcept : intensity{intensity_}, probeHighlightsIntensityMultiplier{probeHighlightsIntensityMultiplier_} {}
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private System.Single _probeHighlightsIntensityMultiplier

@@ -58,7 +58,6 @@ namespace UnityEngine::ProBuilder {
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 vector)
     // Offset: 0x1C7B254
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntVec3(UnityEngine::Vector3 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec3 p)
     // Offset: 0x1C7B358

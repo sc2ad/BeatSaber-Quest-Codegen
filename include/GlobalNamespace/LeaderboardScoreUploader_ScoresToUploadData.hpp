@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*) == 0x8);
-    // Creating value type constructor for type: ScoresToUploadData
-    ScoresToUploadData(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scores_ = {}) noexcept : scores{scores_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*() const noexcept {
       return scores;

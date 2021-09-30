@@ -98,8 +98,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteEffect::Pool* flyingSpriteEffectPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteEffect::Pool*) == 0x8);
-    // Creating value type constructor for type: FlyingSpriteSpawner
-    FlyingSpriteSpawner(UnityEngine::Sprite* sprite_ = {}, UnityEngine::Material* material_ = {}, float duration_ = {}, float xSpread_ = {}, float targetYPos_ = {}, float targetZPos_ = {}, UnityEngine::Color color_ = {}, bool shake_ = {}, GlobalNamespace::FlyingSpriteEffect::Pool* flyingSpriteEffectPool_ = {}) noexcept : sprite{sprite_}, material{material_}, duration{duration_}, xSpread{xSpread_}, targetYPos{targetYPos_}, targetZPos{targetZPos_}, color{color_}, shake{shake_}, flyingSpriteEffectPool{flyingSpriteEffectPool_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent
     operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);

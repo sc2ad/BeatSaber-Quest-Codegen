@@ -170,8 +170,6 @@ namespace LiteNetLib {
     uint8_t id;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: ReliableChannel
-    ReliableChannel(LiteNetLib::NetPacket* outgoingAcks_ = {}, ::ArrayWrapper<LiteNetLib::ReliableChannel::PendingPacket> pendingPackets_ = {}, ::ArrayWrapper<LiteNetLib::NetPacket*> receivedPackets_ = {}, ::ArrayWrapper<bool> earlyReceived_ = {}, int localSeqence_ = {}, int remoteSequence_ = {}, int localWindowStart_ = {}, int remoteWindowStart_ = {}, bool mustSendAcks_ = {}, LiteNetLib::DeliveryMethod deliveryMethod_ = {}, bool ordered_ = {}, int windowSize_ = {}, uint8_t id_ = {}) noexcept : outgoingAcks{outgoingAcks_}, pendingPackets{pendingPackets_}, receivedPackets{receivedPackets_}, earlyReceived{earlyReceived_}, localSeqence{localSeqence_}, remoteSequence{remoteSequence_}, localWindowStart{localWindowStart_}, remoteWindowStart{remoteWindowStart_}, mustSendAcks{mustSendAcks_}, deliveryMethod{deliveryMethod_}, ordered{ordered_}, windowSize{windowSize_}, id{id_} {}
     // static field const value: static private System.Int32 BitsInByte
     static constexpr const int BitsInByte = 8;
     // Get static field: static private System.Int32 BitsInByte

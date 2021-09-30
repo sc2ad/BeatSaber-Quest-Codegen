@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Vector3> startLocalPositions;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: MovementBeatmapEventEffect
-    MovementBeatmapEventEffect(GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float transitionSpeed_ = {}, ::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData_ = {}, ::ArrayWrapper<UnityEngine::Transform*> transforms_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, int currentMovementDataIdx_ = {}, UnityEngine::Vector3 currentPositionOffset_ = {}, UnityEngine::Vector3 prevPositionOffset_ = {}, ::ArrayWrapper<UnityEngine::Vector3> startLocalPositions_ = {}) noexcept : beatmapEventType{beatmapEventType_}, transitionSpeed{transitionSpeed_}, movementData{movementData_}, transforms{transforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, currentMovementDataIdx{currentMovementDataIdx_}, currentPositionOffset{currentPositionOffset_}, prevPositionOffset{prevPositionOffset_}, startLocalPositions{startLocalPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEventType

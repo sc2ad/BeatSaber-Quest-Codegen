@@ -94,8 +94,6 @@ namespace System {
     System::RuntimeTypeHandle impl;
     // Field size check
     static_assert(sizeof(System::RuntimeTypeHandle) == 0x8);
-    // Creating value type constructor for type: Type
-    Type(System::RuntimeTypeHandle impl_ = {}) noexcept : impl{impl_} {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_Type
     operator System::Runtime::InteropServices::_Type() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_Type*>(this);

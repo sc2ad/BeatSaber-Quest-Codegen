@@ -28,8 +28,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [DisplayNameAttribute] Offset: EE5688
   class AtlasSpriteProvider : public UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
     public:
-    // Creating value type constructor for type: AtlasSpriteProvider
-    AtlasSpriteProvider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B69450
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase

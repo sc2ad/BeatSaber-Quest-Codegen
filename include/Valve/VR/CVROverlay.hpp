@@ -82,8 +82,6 @@ namespace Valve::VR {
     Valve::VR::IVROverlay FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVROverlay) == 0x290);
-    // Creating value type constructor for type: CVROverlay
-    CVROverlay(Valve::VR::IVROverlay FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVROverlay
     constexpr operator Valve::VR::IVROverlay() const noexcept {
       return FnTable;

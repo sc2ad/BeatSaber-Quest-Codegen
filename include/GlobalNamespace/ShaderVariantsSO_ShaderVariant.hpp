@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::Shader* shader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // Creating value type constructor for type: ShaderVariant
-    ShaderVariant(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> variants_ = {}, UnityEngine::Shader* shader_ = {}) noexcept : variants{variants_}, shader{shader_} {}
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant/Variant[] _variants
     ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>& dyn__variants();
     // Get instance field reference: private UnityEngine.Shader _shader

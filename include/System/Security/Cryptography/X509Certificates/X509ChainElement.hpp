@@ -51,8 +51,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags) == 0x4);
-    // Creating value type constructor for type: X509ChainElement
-    X509ChainElement(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate_ = {}, ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> status_ = {}, ::Il2CppString* info_ = {}, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags_ = {}) noexcept : certificate{certificate_}, status{status_}, info{info_}, compressed_status_flags{compressed_status_flags_} {}
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
     System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_certificate();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status

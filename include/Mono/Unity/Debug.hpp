@@ -23,8 +23,6 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Debug : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Debug
-    Debug() noexcept {}
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
     // Offset: 0x17C2F08
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);

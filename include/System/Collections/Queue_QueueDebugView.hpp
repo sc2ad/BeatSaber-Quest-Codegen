@@ -16,8 +16,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Queue::QueueDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: QueueDebugView
-    QueueDebugView() noexcept {}
   }; // System.Collections.Queue/System.Collections.QueueDebugView
   #pragma pack(pop)
 }

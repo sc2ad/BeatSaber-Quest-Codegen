@@ -42,8 +42,6 @@ namespace UnityEngine::Events {
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* m_Calls;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*) == 0x8);
-    // Creating value type constructor for type: PersistentCallGroup
-    PersistentCallGroup(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* m_Calls_ = {}) noexcept : m_Calls{m_Calls_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*() const noexcept {
       return m_Calls;

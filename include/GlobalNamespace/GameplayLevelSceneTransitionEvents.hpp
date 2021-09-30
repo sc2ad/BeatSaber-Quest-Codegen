@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     System::Action* anyGameplayLevelDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: GameplayLevelSceneTransitionEvents
-    GameplayLevelSceneTransitionEvents(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, System::Action* anyGameplayLevelDidFinishEvent_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, anyGameplayLevelDidFinishEvent{anyGameplayLevelDidFinishEvent_} {}
     // Get instance field reference: private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
     // Get instance field reference: private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData

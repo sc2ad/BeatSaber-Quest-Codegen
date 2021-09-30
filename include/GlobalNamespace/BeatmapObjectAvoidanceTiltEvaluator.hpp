@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     float currentAcceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatmapObjectAvoidanceTiltEvaluator
-    BeatmapObjectAvoidanceTiltEvaluator(GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, UnityEngine::Vector2 gravity_ = {}, UnityEngine::Vector2 normalizedGravity_ = {}, GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator_ = {}, float currentAcceleration_ = {}) noexcept : audioTimeSource{audioTimeSource_}, gravity{gravity_}, normalizedGravity{normalizedGravity_}, bezierSplineEvaluator{bezierSplineEvaluator_}, currentAcceleration{currentAcceleration_} {}
     // static field const value: static private System.Single kLookAheadTime
     static constexpr const float kLookAheadTime = 0.2;
     // Get static field: static private System.Single kLookAheadTime

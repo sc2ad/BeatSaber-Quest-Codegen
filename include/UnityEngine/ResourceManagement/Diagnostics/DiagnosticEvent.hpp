@@ -69,7 +69,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DiagnosticEvent
-    constexpr DiagnosticEvent(::Il2CppString* m_Graph_ = {}, ::ArrayWrapper<int> m_Dependencies_ = {}, int m_ObjectId_ = {}, ::Il2CppString* m_DisplayName_ = {}, int m_Stream_ = {}, int m_Frame_ = {}, int m_Value_ = {}) noexcept : m_Graph{m_Graph_}, m_Dependencies{m_Dependencies_}, m_ObjectId{m_ObjectId_}, m_DisplayName{m_DisplayName_}, m_Stream{m_Stream_}, m_Frame{m_Frame_}, m_Value{m_Value_} {}
+    constexpr DiagnosticEvent(::Il2CppString* m_Graph_ = {}, ::ArrayWrapper<int> m_Dependencies_ = {nullptr}, int m_ObjectId_ = {}, ::Il2CppString* m_DisplayName_ = {}, int m_Stream_ = {}, int m_Frame_ = {}, int m_Value_ = {}) noexcept : m_Graph{m_Graph_}, m_Dependencies{m_Dependencies_}, m_ObjectId{m_ObjectId_}, m_DisplayName{m_DisplayName_}, m_Stream{m_Stream_}, m_Frame{m_Frame_}, m_Value{m_Value_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -111,7 +111,6 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
     // Offset: 0x1B61580
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::ArrayWrapper<int> deps) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(id), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(frame), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(deps)})));

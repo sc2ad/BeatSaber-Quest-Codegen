@@ -39,8 +39,6 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
-    // Creating value type constructor for type: SurrogateKey
-    SurrogateKey(System::Type* m_type_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}) noexcept : m_type{m_type_}, m_context{m_context_} {}
     // Get instance field reference: System.Type m_type
     System::Type*& dyn_m_type();
     // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context

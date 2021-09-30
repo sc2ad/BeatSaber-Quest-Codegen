@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPoolable {
     public:
-    // Creating value type constructor for type: IPoolable
-    IPoolable() noexcept {}
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
     void OnDespawned();

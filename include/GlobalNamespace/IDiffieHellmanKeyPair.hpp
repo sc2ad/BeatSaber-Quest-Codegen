@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDiffieHellmanKeyPair {
     public:
-    // Creating value type constructor for type: IDiffieHellmanKeyPair
-    IDiffieHellmanKeyPair() noexcept {}
     // public System.Byte[] get_publicKey()
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<uint8_t> get_publicKey();

@@ -40,8 +40,6 @@ namespace HMUI {
     int numberOfViewControllersToPop;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(int numberOfViewControllersToPop_ = {}) noexcept : numberOfViewControllersToPop{numberOfViewControllersToPop_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return numberOfViewControllersToPop;

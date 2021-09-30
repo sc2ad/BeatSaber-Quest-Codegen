@@ -108,8 +108,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKMapping::BoneMap* boneMap3;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
-    // Creating value type constructor for type: IKMappingLimb
-    IKMappingLimb(UnityEngine::Transform* parentBone_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, float maintainRotationWeight_ = {}, float weight_ = {}, bool updatePlaneRotations_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMapParent_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap1_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap2_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap3_ = {}) noexcept : parentBone{parentBone_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, maintainRotationWeight{maintainRotationWeight_}, weight{weight_}, updatePlaneRotations{updatePlaneRotations_}, boneMapParent{boneMapParent_}, boneMap1{boneMap1_}, boneMap2{boneMap2_}, boneMap3{boneMap3_} {}
     // Get instance field reference: public UnityEngine.Transform parentBone
     UnityEngine::Transform*& dyn_parentBone();
     // Get instance field reference: public UnityEngine.Transform bone1

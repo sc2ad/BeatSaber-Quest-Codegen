@@ -56,8 +56,6 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: OffsetModifierVRIK
-    OffsetModifierVRIK(float weight_ = {}, RootMotion::FinalIK::VRIK* ik_ = {}, float lastTime_ = {}) noexcept : weight{weight_}, ik{ik_}, lastTime{lastTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight

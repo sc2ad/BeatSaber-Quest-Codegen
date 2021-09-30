@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRTracker::Frustum
     struct Frustum;
-    // Creating value type constructor for type: OVRTracker
-    OVRTracker() noexcept {}
     // public System.Boolean get_isPresent()
     // Offset: 0x20DFEFC
     bool get_isPresent();

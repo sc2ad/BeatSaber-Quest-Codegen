@@ -88,8 +88,6 @@ namespace System::Threading {
     bool unregistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegisteredWaitHandle
-    RegisteredWaitHandle(System::Threading::WaitHandle* waitObject_ = {}, System::Threading::WaitOrTimerCallback* callback_ = {}, ::Il2CppObject* state_ = {}, System::Threading::WaitHandle* finalEvent_ = {}, System::Threading::ManualResetEvent* cancelEvent_ = {}, System::TimeSpan timeout_ = {}, int callsInProcess_ = {}, bool executeOnlyOnce_ = {}, bool unregistered_ = {}) noexcept : waitObject{waitObject_}, callback{callback_}, state{state_}, finalEvent{finalEvent_}, cancelEvent{cancelEvent_}, timeout{timeout_}, callsInProcess{callsInProcess_}, executeOnlyOnce{executeOnlyOnce_}, unregistered{unregistered_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.Threading.WaitHandle _waitObject

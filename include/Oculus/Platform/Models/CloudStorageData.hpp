@@ -46,8 +46,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CloudStorageData
-    CloudStorageData(::Il2CppString* Bucket_ = {}, ::ArrayWrapper<uint8_t> Data_ = {}, uint DataSize_ = {}, ::Il2CppString* Key_ = {}) noexcept : Bucket{Bucket_}, Data{Data_}, DataSize{DataSize_}, Key{Key_} {}
     // Get instance field reference: public readonly System.String Bucket
     ::Il2CppString*& dyn_Bucket();
     // Get instance field reference: public readonly System.Byte[] Data

@@ -37,8 +37,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* m_Clippers;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*) == 0x8);
-    // Creating value type constructor for type: ClipperRegistry
-    ClipperRegistry(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* m_Clippers_ = {}) noexcept : m_Clippers{m_Clippers_} {}
     // Creating conversion operator: operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*
     constexpr operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*() const noexcept {
       return m_Clippers;

@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     ::Il2CppString* menuName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SettingsSubMenuInfo
-    SettingsSubMenuInfo(HMUI::ViewController* viewController_ = {}, ::Il2CppString* menuName_ = {}) noexcept : viewController{viewController_}, menuName{menuName_} {}
     // Get instance field reference: private HMUI.ViewController _viewController
     HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private System.String _menuName

@@ -43,8 +43,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeAssembly : public System::Reflection::Assembly {
     public:
-    // Creating value type constructor for type: RuntimeAssembly
-    RuntimeAssembly() noexcept {}
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1EB1860
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);

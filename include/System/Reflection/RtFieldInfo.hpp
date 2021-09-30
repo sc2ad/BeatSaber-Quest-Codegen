@@ -39,8 +39,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RtFieldInfo : public System::Reflection::RuntimeFieldInfo {
     public:
-    // Creating value type constructor for type: RtFieldInfo
-    RtFieldInfo() noexcept {}
     // System.Object UnsafeGetValue(System.Object obj)
     // Offset: 0x1EB1428
     ::Il2CppObject* UnsafeGetValue(::Il2CppObject* obj);

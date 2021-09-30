@@ -42,8 +42,6 @@ namespace RootMotion::FinalIK {
     float twistLimit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: RotationLimitAngle
-    RotationLimitAngle(float limit_ = {}, float twistLimit_ = {}) noexcept : limit{limit_}, twistLimit{twistLimit_} {}
     // Get instance field reference: public System.Single limit
     float& dyn_limit();
     // Get instance field reference: public System.Single twistLimit

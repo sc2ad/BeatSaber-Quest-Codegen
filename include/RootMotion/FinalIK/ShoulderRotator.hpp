@@ -57,8 +57,6 @@ namespace RootMotion::FinalIK {
     bool skip;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ShoulderRotator
-    ShoulderRotator(float weight_ = {}, float offset_ = {}, RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, bool skip_ = {}) noexcept : weight{weight_}, offset{offset_}, ik{ik_}, skip{skip_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight

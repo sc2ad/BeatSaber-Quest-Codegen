@@ -62,7 +62,6 @@ namespace UnityEngine::Rendering {
     System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1E09C48
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr)
     // private System.Int32 GetNumberOfCameras_Internal()
     // Offset: 0x1E0A2F0

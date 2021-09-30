@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // Creating value type constructor for type: PS4OnGoingToBackgroundSaveHandler
-    PS4OnGoingToBackgroundSaveHandler(GlobalNamespace::LocalLeaderboardsModel* localLeaderboardModel_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : localLeaderboardModel{localLeaderboardModel_}, mainSettingsModel{mainSettingsModel_}, playerDataModel{playerDataModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalLeaderboardsModel _localLeaderboardModel

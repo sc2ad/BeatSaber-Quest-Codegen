@@ -37,8 +37,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCaseResult : public NUnit::Framework::Internal::TestResult {
     public:
-    // Creating value type constructor for type: TestCaseResult
-    TestCaseResult() noexcept {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test)
     // Offset: 0x24A14F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

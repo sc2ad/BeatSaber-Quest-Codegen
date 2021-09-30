@@ -34,8 +34,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpContinueDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: HttpContinueDelegate
-    HttpContinueDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x183F5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     ::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>> M;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>>) == 0x8);
-    // Creating value type constructor for type: Tables8kGcmMultiplier
-    Tables8kGcmMultiplier(::ArrayWrapper<uint8_t> H_ = {}, ::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>> M_ = {}) noexcept : H{H_}, M{M_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier
     operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);

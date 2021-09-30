@@ -23,8 +23,6 @@ namespace Mono::Security {
     class ContentInfo;
     // Nested type: Mono::Security::PKCS7::EncryptedData
     class EncryptedData;
-    // Creating value type constructor for type: PKCS7
-    PKCS7() noexcept {}
   }; // Mono.Security.PKCS7
   #pragma pack(pop)
 }

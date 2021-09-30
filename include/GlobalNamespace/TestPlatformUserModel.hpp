@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     struct $GetUserAuthToken$d__2;
     // Nested type: GlobalNamespace::TestPlatformUserModel::$GetUserNamesForUserIds$d__3
     struct $GetUserNamesForUserIds$d__3;
-    // Creating value type constructor for type: TestPlatformUserModel
-    TestPlatformUserModel() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IPlatformUserModel
     operator GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);

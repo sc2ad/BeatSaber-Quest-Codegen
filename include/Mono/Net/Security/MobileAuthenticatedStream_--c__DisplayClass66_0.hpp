@@ -33,8 +33,6 @@ namespace Mono::Net::Security {
     int len;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass66_0
-    $$c__DisplayClass66_0(Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, int len_ = {}) noexcept : $$4__this{$$4__this_}, len{len_} {}
     // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
     Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 len

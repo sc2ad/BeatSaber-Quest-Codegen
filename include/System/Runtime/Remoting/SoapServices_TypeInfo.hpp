@@ -39,8 +39,6 @@ namespace System::Runtime::Remoting {
     System::Collections::Hashtable* Elements;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: TypeInfo
-    TypeInfo(System::Collections::Hashtable* Attributes_ = {}, System::Collections::Hashtable* Elements_ = {}) noexcept : Attributes{Attributes_}, Elements{Elements_} {}
     // Get instance field reference: public System.Collections.Hashtable Attributes
     System::Collections::Hashtable*& dyn_Attributes();
     // Get instance field reference: public System.Collections.Hashtable Elements

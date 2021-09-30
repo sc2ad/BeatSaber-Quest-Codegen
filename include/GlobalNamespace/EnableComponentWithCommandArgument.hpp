@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     UnityEngine::Behaviour* component;
     // Field size check
     static_assert(sizeof(UnityEngine::Behaviour*) == 0x8);
-    // Creating value type constructor for type: EnableComponentWithCommandArgument
-    EnableComponentWithCommandArgument(::Il2CppString* argument_ = {}, UnityEngine::Behaviour* component_ = {}) noexcept : argument{argument_}, component{component_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _argument

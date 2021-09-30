@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int cipherKeySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: IesWithCipherParameters
-    IesWithCipherParameters(int cipherKeySize_ = {}) noexcept : cipherKeySize{cipherKeySize_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return cipherKeySize;

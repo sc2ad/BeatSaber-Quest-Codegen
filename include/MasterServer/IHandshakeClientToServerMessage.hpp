@@ -15,8 +15,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IHandshakeClientToServerMessage/*, public MasterServer::IHandshakeMessage*/ {
     public:
-    // Creating value type constructor for type: IHandshakeClientToServerMessage
-    IHandshakeClientToServerMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeMessage
     operator MasterServer::IHandshakeMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeMessage*>(this);

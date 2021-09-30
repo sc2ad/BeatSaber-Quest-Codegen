@@ -30,8 +30,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70BE0
   class GL : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GL
-    GL() noexcept {}
     // static public System.Boolean get_invertCulling()
     // Offset: 0x1CBCFAC
     static bool get_invertCulling();

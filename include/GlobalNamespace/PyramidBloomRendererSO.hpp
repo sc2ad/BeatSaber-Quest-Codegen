@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PyramidBloomRendererSO
-    PyramidBloomRendererSO(UnityEngine::Shader* shader_ = {}, UnityEngine::Material* material_ = {}, ::ArrayWrapper<GlobalNamespace::PyramidBloomRendererSO::Level> pyramid_ = {}, bool initialized_ = {}) noexcept : shader{shader_}, material{material_}, pyramid{pyramid_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxPyramidSize

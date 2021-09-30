@@ -129,8 +129,6 @@ namespace GlobalNamespace {
     bool didFinish;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NoteLineConnectionController
-    NoteLineConnectionController(UnityEngine::LineRenderer* lineRenderer_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_1<GlobalNamespace::NoteLineConnectionController*>* didFinishEvent_ = {}, GlobalNamespace::NoteController* noteController0_ = {}, GlobalNamespace::NoteController* noteController1_ = {}, UnityEngine::Color color0_ = {}, UnityEngine::Color color1_ = {}, float fadeOutStartDistance_ = {}, float fadeOutEndDistance_ = {}, float noteTime_ = {}, bool didFinish_ = {}) noexcept : lineRenderer{lineRenderer_}, playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, colorManager{colorManager_}, didFinishEvent{didFinishEvent_}, noteController0{noteController0_}, noteController1{noteController1_}, color0{color0_}, color1{color1_}, fadeOutStartDistance{fadeOutStartDistance_}, fadeOutEndDistance{fadeOutEndDistance_}, noteTime{noteTime_}, didFinish{didFinish_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.LineRenderer _lineRenderer

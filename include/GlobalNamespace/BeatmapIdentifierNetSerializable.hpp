@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty difficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
-    // Creating value type constructor for type: BeatmapIdentifierNetSerializable
-    BeatmapIdentifierNetSerializable(::Il2CppString* levelID_ = {}, ::Il2CppString* beatmapCharacteristicSerializedName_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}) noexcept : levelID{levelID_}, beatmapCharacteristicSerializedName{beatmapCharacteristicSerializedName_}, difficulty{difficulty_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>
     operator System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(this);

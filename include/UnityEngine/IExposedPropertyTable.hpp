@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class IExposedPropertyTable {
     public:
-    // Creating value type constructor for type: IExposedPropertyTable
-    IExposedPropertyTable() noexcept {}
     // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0xFFFFFFFF
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, ByRef<bool> idValid);

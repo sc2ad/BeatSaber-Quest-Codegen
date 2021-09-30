@@ -50,8 +50,6 @@ namespace Oculus::Platform::Models {
     uint64_t Target;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: AchievementDefinition
-    AchievementDefinition(Oculus::Platform::AchievementType Type_ = {}, ::Il2CppString* Name_ = {}, uint BitfieldLength_ = {}, uint64_t Target_ = {}) noexcept : Type{Type_}, Name{Name_}, BitfieldLength{BitfieldLength_}, Target{Target_} {}
     // Get instance field reference: public readonly Oculus.Platform.AchievementType Type
     Oculus::Platform::AchievementType& dyn_Type();
     // Get instance field reference: public readonly System.String Name

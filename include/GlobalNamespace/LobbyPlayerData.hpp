@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     bool isInLobby;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LobbyPlayerData
-    LobbyPlayerData(bool isPartyOwner_ = {}, bool isActive_ = {}, bool isReady_ = {}, bool isInLobby_ = {}) noexcept : isPartyOwner{isPartyOwner_}, isActive{isActive_}, isReady{isReady_}, isInLobby{isInLobby_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILobbyPlayerData
     operator GlobalNamespace::ILobbyPlayerData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILobbyPlayerData*>(this);

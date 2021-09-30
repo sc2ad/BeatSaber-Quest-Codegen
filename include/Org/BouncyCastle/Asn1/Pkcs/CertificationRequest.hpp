@@ -59,8 +59,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerBitString* sigBits;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: CertificationRequest
-    CertificationRequest(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* reqInfo_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId_ = {}, Org::BouncyCastle::Asn1::DerBitString* sigBits_ = {}) noexcept : reqInfo{reqInfo_}, sigAlgId{sigAlgId_}, sigBits{sigBits_} {}
     // Get instance field reference: protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
     Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& dyn_reqInfo();
     // Get instance field reference: protected Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId

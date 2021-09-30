@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     bool sfxEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AudioManagerSO
-    AudioManagerSO(UnityEngine::Audio::AudioMixer* audioMixer_ = {}, float spatializerPluginLatency_ = {}, float spatializerSfxVolumeOffset_ = {}, float musicVolumeOffset_ = {}, float sfxVolumeOffset_ = {}, float sfxVolume_ = {}, bool sfxEnabled_ = {}) noexcept : audioMixer{audioMixer_}, spatializerPluginLatency{spatializerPluginLatency_}, spatializerSfxVolumeOffset{spatializerSfxVolumeOffset_}, musicVolumeOffset{musicVolumeOffset_}, sfxVolumeOffset{sfxVolumeOffset_}, sfxVolume{sfxVolume_}, sfxEnabled{sfxEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kDefaultMusicVolume

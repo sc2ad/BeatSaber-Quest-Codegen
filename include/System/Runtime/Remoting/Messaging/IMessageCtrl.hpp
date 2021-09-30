@@ -14,8 +14,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E600B8
   class IMessageCtrl {
     public:
-    // Creating value type constructor for type: IMessageCtrl
-    IMessageCtrl() noexcept {}
   }; // System.Runtime.Remoting.Messaging.IMessageCtrl
   #pragma pack(pop)
 }

@@ -45,8 +45,6 @@ namespace System::Globalization {
     System::Globalization::Punycode* puny;
     // Field size check
     static_assert(sizeof(System::Globalization::Punycode*) == 0x8);
-    // Creating value type constructor for type: IdnMapping
-    IdnMapping(bool allow_unassigned_ = {}, bool use_std3_ = {}, System::Globalization::Punycode* puny_ = {}) noexcept : allow_unassigned{allow_unassigned_}, use_std3{use_std3_}, puny{puny_} {}
     // Get instance field reference: private System.Boolean allow_unassigned
     bool& dyn_allow_unassigned();
     // Get instance field reference: private System.Boolean use_std3

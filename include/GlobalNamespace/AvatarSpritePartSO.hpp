@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarSpritePartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Sprite*> {
     public:
-    // Creating value type constructor for type: AvatarSpritePartSO
-    AvatarSpritePartSO() noexcept {}
     // public UnityEngine.Sprite get_sprite()
     // Offset: 0x124D5B0
     UnityEngine::Sprite* get_sprite();

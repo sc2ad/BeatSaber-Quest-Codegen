@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class VectorHash : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VectorHash
-    VectorHash() noexcept {}
     // static field const value: static public System.Single FltCompareResolution
     static constexpr const float FltCompareResolution = 1000;
     // Get static field: static public System.Single FltCompareResolution

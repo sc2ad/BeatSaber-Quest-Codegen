@@ -26,8 +26,6 @@ namespace System::IO {
     System::IO::TextReader* in;
     // Field size check
     static_assert(sizeof(System::IO::TextReader*) == 0x8);
-    // Creating value type constructor for type: SyncTextReader
-    SyncTextReader(System::IO::TextReader* in_ = {}) noexcept : in{in_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: System.IO.TextReader _in

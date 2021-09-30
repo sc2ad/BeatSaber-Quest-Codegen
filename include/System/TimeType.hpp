@@ -38,8 +38,6 @@ namespace System {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TimeType
-    TimeType(int Offset_ = {}, bool IsDst_ = {}, ::Il2CppString* Name_ = {}) noexcept : Offset{Offset_}, IsDst{IsDst_}, Name{Name_} {}
     // Get instance field reference: public readonly System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public readonly System.Boolean IsDst

@@ -41,8 +41,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: Header
-    Header(::Il2CppString* HeaderNamespace_ = {}, bool MustUnderstand_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppObject* Value_ = {}) noexcept : HeaderNamespace{HeaderNamespace_}, MustUnderstand{MustUnderstand_}, Name{Name_}, Value{Value_} {}
     // Get instance field reference: public System.String HeaderNamespace
     ::Il2CppString*& dyn_HeaderNamespace();
     // Get instance field reference: public System.Boolean MustUnderstand

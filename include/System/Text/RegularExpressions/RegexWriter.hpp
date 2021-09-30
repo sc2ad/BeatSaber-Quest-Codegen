@@ -116,8 +116,6 @@ namespace System::Text::RegularExpressions {
     System::Collections::Hashtable* caps;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: RegexWriter
-    RegexWriter(::ArrayWrapper<int> intStack_ = {}, int depth_ = {}, ::ArrayWrapper<int> emitted_ = {}, int curpos_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* stringhash_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* stringtable_ = {}, bool counting_ = {}, int count_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}) noexcept : intStack{intStack_}, depth{depth_}, emitted{emitted_}, curpos{curpos_}, stringhash{stringhash_}, stringtable{stringtable_}, counting{counting_}, count{count_}, trackcount{trackcount_}, caps{caps_} {}
     // Get instance field reference: System.Int32[] _intStack
     ::ArrayWrapper<int>& dyn__intStack();
     // Get instance field reference: System.Int32 _depth

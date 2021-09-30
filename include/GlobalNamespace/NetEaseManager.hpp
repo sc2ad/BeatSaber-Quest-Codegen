@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>* logoutTaskCompletionSource;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>*) == 0x8);
-    // Creating value type constructor for type: NetEaseManager
-    NetEaseManager(::Il2CppString* userName_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>* requestHighscoreDataTaskCompletionSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::InitializeData>* initTaskCompletionSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LoginData>* loginTaskCompletionSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>* logoutTaskCompletionSource_ = {}) noexcept : userName{userName_}, requestHighscoreDataTaskCompletionSource{requestHighscoreDataTaskCompletionSource_}, initTaskCompletionSource{initTaskCompletionSource_}, loginTaskCompletionSource{loginTaskCompletionSource_}, logoutTaskCompletionSource{logoutTaskCompletionSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _userName

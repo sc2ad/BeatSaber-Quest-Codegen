@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECLookupTable {
     public:
-    // Creating value type constructor for type: ECLookupTable
-    ECLookupTable() noexcept {}
     // public System.Int32 get_Size()
     // Offset: 0xFFFFFFFF
     int get_Size();

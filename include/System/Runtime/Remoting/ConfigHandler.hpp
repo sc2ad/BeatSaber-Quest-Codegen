@@ -90,8 +90,6 @@ namespace System::Runtime::Remoting {
     bool onlyDelayedChannels;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ConfigHandler
-    ConfigHandler(System::Collections::ArrayList* typeEntries_ = {}, System::Collections::ArrayList* channelInstances_ = {}, System::Runtime::Remoting::ChannelData* currentChannel_ = {}, System::Collections::Stack* currentProviderData_ = {}, ::Il2CppString* currentClientUrl_ = {}, ::Il2CppString* appName_ = {}, ::Il2CppString* currentXmlPath_ = {}, bool onlyDelayedChannels_ = {}) noexcept : typeEntries{typeEntries_}, channelInstances{channelInstances_}, currentChannel{currentChannel_}, currentProviderData{currentProviderData_}, currentClientUrl{currentClientUrl_}, appName{appName_}, currentXmlPath{currentXmlPath_}, onlyDelayedChannels{onlyDelayedChannels_} {}
     // Creating interface conversion operator: operator Mono::Xml::SmallXmlParser::IContentHandler
     operator Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);

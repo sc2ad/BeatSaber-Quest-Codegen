@@ -17,8 +17,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F330
   class ICryptoTransform/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: ICryptoTransform
-    ICryptoTransform() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

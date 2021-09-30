@@ -44,8 +44,6 @@ namespace Mono::Globalization::Unicode {
     ::ArrayWrapper<uint8_t> SortKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Contraction
-    Contraction(int Index_ = {}, ::ArrayWrapper<::Il2CppChar> Source_ = {}, ::Il2CppString* Replacement_ = {}, ::ArrayWrapper<uint8_t> SortKey_ = {}) noexcept : Index{Index_}, Source{Source_}, Replacement{Replacement_}, SortKey{SortKey_} {}
     // Get instance field reference: public System.Int32 Index
     int& dyn_Index();
     // Get instance field reference: public readonly System.Char[] Source

@@ -61,8 +61,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     bool forSigning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Gost3410DigestSigner
-    Gost3410DigestSigner(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, Org::BouncyCastle::Crypto::IDsa* dsaSigner_ = {}, int size_ = {}, int halfSize_ = {}, bool forSigning_ = {}) noexcept : digest{digest_}, dsaSigner{dsaSigner_}, size{size_}, halfSize{halfSize_}, forSigning{forSigning_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

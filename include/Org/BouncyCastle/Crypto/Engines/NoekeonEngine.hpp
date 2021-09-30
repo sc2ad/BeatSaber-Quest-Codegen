@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NoekeonEngine
-    NoekeonEngine(::ArrayWrapper<uint> k_ = {}, bool initialised_ = {}, bool forEncryption_ = {}) noexcept : k{k_}, initialised{initialised_}, forEncryption{forEncryption_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

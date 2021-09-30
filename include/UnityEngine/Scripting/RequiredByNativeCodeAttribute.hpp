@@ -43,8 +43,6 @@ namespace UnityEngine::Scripting {
     bool GenerateProxy;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RequiredByNativeCodeAttribute
-    RequiredByNativeCodeAttribute(::Il2CppString* Name_ = {}, bool Optional_ = {}, bool GenerateProxy_ = {}) noexcept : Name{Name_}, Optional{Optional_}, GenerateProxy{GenerateProxy_} {}
     // Get instance field reference: private System.String <Name>k__BackingField
     ::Il2CppString*& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.Boolean <Optional>k__BackingField

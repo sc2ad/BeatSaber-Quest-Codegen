@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TaskManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_TaskManager
-    HEU_TaskManager() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _tasks
     static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* _get__tasks();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _tasks

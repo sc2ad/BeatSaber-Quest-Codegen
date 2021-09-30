@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
-    // Creating value type constructor for type: SoloFreePlayFlowCoordinator
-    SoloFreePlayFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsClearedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::PlatformLeaderboardViewController* platformLeaderboardViewController_ = {}, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, resultsClearedLightsPreset{resultsClearedLightsPreset_}, resultsFailedLightsPreset{resultsFailedLightsPreset_}, menuLightsManager{menuLightsManager_}, resultsViewController{resultsViewController_}, platformLeaderboardViewController{platformLeaderboardViewController_}, platformLeaderboardsModel{platformLeaderboardsModel_} {}
     // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
     GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
     // Get instance field reference: private MenuLightsPresetSO _resultsClearedLightsPreset

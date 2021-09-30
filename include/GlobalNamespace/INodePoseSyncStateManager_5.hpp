@@ -56,8 +56,6 @@ namespace GlobalNamespace {
   template<typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
   class INodePoseSyncStateManager_5 {
     public:
-    // Creating value type constructor for type: INodePoseSyncStateManager_5
-    INodePoseSyncStateManager_5() noexcept {}
     // public System.Single get_syncTime()
     // Offset: 0xFFFFFFFF
     float get_syncTime() {

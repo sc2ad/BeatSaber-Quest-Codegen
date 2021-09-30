@@ -74,8 +74,6 @@ namespace Zenject {
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     System::Nullable_1<UnityEngine::Quaternion> Rotation;
-    // Creating value type constructor for type: GameObjectCreationParameters
-    GameObjectCreationParameters(::Il2CppString* Name_ = {}, ::Il2CppString* GroupName_ = {}, UnityEngine::Transform* ParentTransform_ = {}, System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* ParentTransformGetter_ = {}, System::Nullable_1<UnityEngine::Vector3> Position_ = {}, System::Nullable_1<UnityEngine::Quaternion> Rotation_ = {}) noexcept : Name{Name_}, GroupName{GroupName_}, ParentTransform{ParentTransform_}, ParentTransformGetter{ParentTransformGetter_}, Position{Position_}, Rotation{Rotation_} {}
     // Get static field: static public readonly Zenject.GameObjectCreationParameters Default
     static Zenject::GameObjectCreationParameters* _get_Default();
     // Set static field: static public readonly Zenject.GameObjectCreationParameters Default

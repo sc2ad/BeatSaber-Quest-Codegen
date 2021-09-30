@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassLightTypeSO
-    BloomPrePassLightTypeSO(int renderingPriority_ = {}, UnityEngine::Material* material_ = {}) noexcept : renderingPriority{renderingPriority_}, material{material_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _renderingPriority

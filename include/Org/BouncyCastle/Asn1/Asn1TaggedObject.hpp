@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1Encodable* obj;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
-    // Creating value type constructor for type: Asn1TaggedObject
-    Asn1TaggedObject(int tagNo_ = {}, bool explicitly_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* obj_ = {}) noexcept : tagNo{tagNo_}, explicitly{explicitly_}, obj{obj_} {}
     // Get instance field reference: System.Int32 tagNo
     int& dyn_tagNo();
     // Get instance field reference: System.Boolean explicitly

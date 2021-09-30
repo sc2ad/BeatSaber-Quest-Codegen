@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class PlayerDataModelHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlayerDataModelHelper
-    PlayerDataModelHelper() noexcept {}
     // static public PlayerAllOverallStatsData ToPlayerAllOverallStatsData(PlayerSaveData/PlayerAllOverallStatsData playerAllOverallStatsData)
     // Offset: 0x12B8470
     static GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData);

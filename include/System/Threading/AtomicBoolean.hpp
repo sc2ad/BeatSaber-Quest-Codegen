@@ -24,8 +24,6 @@ namespace System::Threading {
     int flag;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AtomicBoolean
-    AtomicBoolean(int flag_ = {}) noexcept : flag{flag_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return flag;

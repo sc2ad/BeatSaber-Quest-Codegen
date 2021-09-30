@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorStepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorStepValuePicker*) == 0x8);
-    // Creating value type constructor for type: IncDecColorController
-    IncDecColorController(GlobalNamespace::ColorStepValuePicker* stepValuePicker_ = {}) noexcept : stepValuePicker{stepValuePicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorStepValuePicker _stepValuePicker

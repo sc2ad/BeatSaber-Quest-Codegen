@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::Mirror* mirror;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Mirror*) == 0x8);
-    // Creating value type constructor for type: DisableWhenMirrorIsEnabled
-    DisableWhenMirrorIsEnabled(GlobalNamespace::Mirror* mirror_ = {}) noexcept : mirror{mirror_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Mirror _mirror

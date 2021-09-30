@@ -14,8 +14,6 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class MulticastOption : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MulticastOption
-    MulticastOption() noexcept {}
   }; // System.Net.Sockets.MulticastOption
   #pragma pack(pop)
 }

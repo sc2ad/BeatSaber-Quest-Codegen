@@ -54,8 +54,6 @@ namespace Org::BouncyCastle::X509 {
     ::Il2CppString* footer2;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PemParser
-    PemParser(::Il2CppString* header1_ = {}, ::Il2CppString* header2_ = {}, ::Il2CppString* footer1_ = {}, ::Il2CppString* footer2_ = {}) noexcept : header1{header1_}, header2{header2_}, footer1{footer1_}, footer2{footer2_} {}
     // Get instance field reference: private readonly System.String _header1
     ::Il2CppString*& dyn__header1();
     // Get instance field reference: private readonly System.String _header2

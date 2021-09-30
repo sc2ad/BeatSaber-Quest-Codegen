@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     float bladeSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SaberMovementData
-    SaberMovementData(::ArrayWrapper<GlobalNamespace::BladeMovementDataElement> data_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* dataProcessors_ = {}, int nextAddIndex_ = {}, int validCount_ = {}, float bladeSpeed_ = {}) noexcept : data{data_}, dataProcessors{dataProcessors_}, nextAddIndex{nextAddIndex_}, validCount{validCount_}, bladeSpeed{bladeSpeed_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBladeMovementData
     operator GlobalNamespace::IBladeMovementData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBladeMovementData*>(this);

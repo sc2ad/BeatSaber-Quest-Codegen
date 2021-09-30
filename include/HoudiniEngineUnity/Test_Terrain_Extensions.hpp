@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Terrain_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Terrain_Extensions
-    Test_Terrain_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Terrain ToTestObject(UnityEngine.Terrain self)
     // Offset: 0x25D34FC
     static HoudiniEngineUnity::Test_Terrain* ToTestObject(UnityEngine::Terrain* self);

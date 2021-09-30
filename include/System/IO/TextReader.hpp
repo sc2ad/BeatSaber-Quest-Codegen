@@ -40,8 +40,6 @@ namespace System::IO {
     class SyncTextReader;
     // Nested type: System::IO::TextReader::$$c
     class $$c;
-    // Creating value type constructor for type: TextReader
-    TextReader() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

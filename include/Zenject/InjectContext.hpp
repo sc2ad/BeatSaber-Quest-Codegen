@@ -111,8 +111,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: InjectContext
-    InjectContext(Zenject::BindingId bindingId_ = {}, System::Type* objectType_ = {}, Zenject::InjectContext* parentContext_ = {}, ::Il2CppObject* objectInstance_ = {}, ::Il2CppString* memberName_ = {}, bool optional_ = {}, Zenject::InjectSources sourceType_ = {}, ::Il2CppObject* fallBackValue_ = {}, ::Il2CppObject* concreteIdentifier_ = {}, Zenject::DiContainer* container_ = {}) noexcept : bindingId{bindingId_}, objectType{objectType_}, parentContext{parentContext_}, objectInstance{objectInstance_}, memberName{memberName_}, optional{optional_}, sourceType{sourceType_}, fallBackValue{fallBackValue_}, concreteIdentifier{concreteIdentifier_}, container{container_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

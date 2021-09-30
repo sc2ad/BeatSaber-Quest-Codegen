@@ -53,8 +53,6 @@ namespace System::Text {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EncoderFallbackException
-    EncoderFallbackException(::Il2CppChar charUnknown_ = {}, ::Il2CppChar charUnknownHigh_ = {}, ::Il2CppChar charUnknownLow_ = {}, int index_ = {}) noexcept : charUnknown{charUnknown_}, charUnknownHigh{charUnknownHigh_}, charUnknownLow{charUnknownLow_}, index{index_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.Char charUnknown

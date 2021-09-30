@@ -36,8 +36,6 @@ namespace System {
     public:
     // Nested type: System::Number::NumberBuffer
     struct NumberBuffer;
-    // Creating value type constructor for type: Number
-    Number() noexcept {}
     // static public System.Boolean NumberBufferToDecimal(System.Byte* number, ref System.Decimal value)
     // Offset: 0x1A132B8
     static bool NumberBufferToDecimal(uint8_t* number, ByRef<System::Decimal> value);

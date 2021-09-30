@@ -97,8 +97,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_Transform objectTransform;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_Transform) == 0x24);
-    // Creating value type constructor for type: HEU_ObjectNode
-    HEU_ObjectNode(::Il2CppString* objName_ = {}, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset_ = {}, HoudiniEngineUnity::HAPI_ObjectInfo objectInfo_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoNode*>* geoNodes_ = {}, HoudiniEngineUnity::HAPI_Transform objectTransform_ = {}) noexcept : objName{objName_}, parentAsset{parentAsset_}, objectInfo{objectInfo_}, geoNodes{geoNodes_}, objectTransform{objectTransform_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>*>(this);

@@ -53,8 +53,6 @@ namespace Mono::Security {
     ::ArrayWrapper<uint8_t> encrypted;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: EncryptedData
-    EncryptedData(uint8_t version_ = {}, Mono::Security::PKCS7::ContentInfo* content_ = {}, Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm_ = {}, ::ArrayWrapper<uint8_t> encrypted_ = {}) noexcept : version{version_}, content{content_}, encryptionAlgorithm{encryptionAlgorithm_}, encrypted{encrypted_} {}
     // Get instance field reference: private System.Byte _version
     uint8_t& dyn__version();
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _content

@@ -28,8 +28,6 @@ namespace UnityEngine::Tilemaps {
   // [RequireComponent] Offset: ED2AE0
   class TilemapRenderer : public UnityEngine::Renderer {
     public:
-    // Creating value type constructor for type: TilemapRenderer
-    TilemapRenderer() noexcept {}
     // System.Void RegisterSpriteAtlasRegistered()
     // Offset: 0x2623218
     void RegisterSpriteAtlasRegistered();

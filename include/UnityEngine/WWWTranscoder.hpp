@@ -15,8 +15,6 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class WWWTranscoder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: WWWTranscoder
-    WWWTranscoder() noexcept {}
     // Get static field: static private System.Byte[] ucHexChars
     static ::ArrayWrapper<uint8_t> _get_ucHexChars();
     // Set static field: static private System.Byte[] ucHexChars

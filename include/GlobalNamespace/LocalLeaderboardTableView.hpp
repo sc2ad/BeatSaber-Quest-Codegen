@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalLeaderboardTableView : public GlobalNamespace::LeaderboardTableView {
     public:
-    // Creating value type constructor for type: LocalLeaderboardTableView
-    LocalLeaderboardTableView() noexcept {}
     // public System.Void SetScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> scores, System.Int32 specialScorePos, System.Int32 maxNumberOfCells)
     // Offset: 0x12567D4
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores, int specialScorePos, int maxNumberOfCells);

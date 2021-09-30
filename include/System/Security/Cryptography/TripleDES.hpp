@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F524
   class TripleDES : public System::Security::Cryptography::SymmetricAlgorithm {
     public:
-    // Creating value type constructor for type: TripleDES
-    TripleDES() noexcept {}
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
     static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes

@@ -33,8 +33,6 @@ namespace UnityEngine::U2D {
   // [StaticAccessorAttribute] Offset: E73304
   class SpriteAtlasManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SpriteAtlasManager
-    SpriteAtlasManager() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE763CC
     // Get static field: static private System.Action`2<System.String,System.Action`1<UnityEngine.U2D.SpriteAtlas>> atlasRequested
     static System::Action_2<::Il2CppString*, System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>* _get_atlasRequested();

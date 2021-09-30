@@ -40,8 +40,6 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTween : public Tweening::Tween_1<UnityEngine::Color> {
     public:
-    // Creating value type constructor for type: ColorTween
-    ColorTween() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF15344
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,Tweening.EaseType,System.Single,Tweening.ColorTween> Pool
     static Zenject::StaticMemoryPool_7<UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, float, Tweening::EaseType, float, Tweening::ColorTween*>* _get_Pool();

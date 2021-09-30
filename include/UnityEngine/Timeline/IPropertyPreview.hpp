@@ -25,8 +25,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPropertyPreview {
     public:
-    // Creating value type constructor for type: IPropertyPreview
-    IPropertyPreview() noexcept {}
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     // Offset: 0xFFFFFFFF
     void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);

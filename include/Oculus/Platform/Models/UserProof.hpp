@@ -26,8 +26,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UserProof
-    UserProof(::Il2CppString* Value_ = {}) noexcept : Value{Value_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Value;

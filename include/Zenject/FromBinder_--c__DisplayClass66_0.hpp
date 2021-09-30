@@ -57,8 +57,6 @@ namespace Zenject {
     System::Func_2<UnityEngine::Component*, bool>* predicate;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::Component*, bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass66_0
-    $$c__DisplayClass66_0(bool includeInactive_ = {}, System::Func_2<UnityEngine::Component*, bool>* predicate_ = {}) noexcept : includeInactive{includeInactive_}, predicate{predicate_} {}
     // Get instance field reference: public System.Boolean includeInactive
     bool& dyn_includeInactive();
     // Get instance field reference: public System.Func`2<UnityEngine.Component,System.Boolean> predicate

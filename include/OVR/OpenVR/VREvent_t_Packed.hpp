@@ -62,7 +62,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0x13B4B74
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VREvent_t_Packed::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));

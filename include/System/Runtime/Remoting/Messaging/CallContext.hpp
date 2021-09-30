@@ -26,8 +26,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E5FFAC
   class CallContext : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CallContext
-    CallContext() noexcept {}
     // static System.Object SetCurrentCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
     // Offset: 0x1C14DC4
     static ::Il2CppObject* SetCurrentCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);

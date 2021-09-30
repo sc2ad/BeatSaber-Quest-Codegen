@@ -96,8 +96,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     Org::BouncyCastle::Crypto::Parameters::IesParameters* param;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*) == 0x8);
-    // Creating value type constructor for type: IesEngine
-    IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement* agree_ = {}, Org::BouncyCastle::Crypto::IDerivationFunction* kdf_ = {}, Org::BouncyCastle::Crypto::IMac* mac_ = {}, Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher_ = {}, ::ArrayWrapper<uint8_t> macBuf_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* privParam_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* pubParam_ = {}, Org::BouncyCastle::Crypto::Parameters::IesParameters* param_ = {}) noexcept : agree{agree_}, kdf{kdf_}, mac{mac_}, cipher{cipher_}, macBuf{macBuf_}, forEncryption{forEncryption_}, privParam{privParam_}, pubParam{pubParam_}, param{param_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
     Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf

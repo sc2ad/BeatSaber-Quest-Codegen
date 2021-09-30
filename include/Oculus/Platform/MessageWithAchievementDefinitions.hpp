@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithAchievementDefinitions : public Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementDefinitionList*> {
     public:
-    // Creating value type constructor for type: MessageWithAchievementDefinitions
-    MessageWithAchievementDefinitions() noexcept {}
     // protected Oculus.Platform.Models.AchievementDefinitionList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B4998
     Oculus::Platform::Models::AchievementDefinitionList* GetDataFromMessage(System::IntPtr c_message);

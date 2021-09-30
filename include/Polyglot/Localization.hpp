@@ -111,8 +111,6 @@ namespace Polyglot {
     System::Globalization::CultureInfo* selectedCultureInfo;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
-    // Creating value type constructor for type: Localization
-    Localization(Polyglot::LocalizationDocument* customDocument_ = {}, System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* inputFiles_ = {}, System::Collections::Generic::List_1<Polyglot::Language>* supportedLanguages_ = {}, Polyglot::Language selectedLanguage_ = {}, Polyglot::Language fallbackLanguage_ = {}, UnityEngine::Events::UnityEvent* Localize_ = {}, System::Globalization::CultureInfo* selectedCultureInfo_ = {}) noexcept : customDocument{customDocument_}, inputFiles{inputFiles_}, supportedLanguages{supportedLanguages_}, selectedLanguage{selectedLanguage_}, fallbackLanguage{fallbackLanguage_}, Localize{Localize_}, selectedCultureInfo{selectedCultureInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String KeyNotFound

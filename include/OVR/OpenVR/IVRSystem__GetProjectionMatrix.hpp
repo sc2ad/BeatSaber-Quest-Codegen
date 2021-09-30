@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EAFF64
   class IVRSystem::_GetProjectionMatrix : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetProjectionMatrix
-    _GetProjectionMatrix() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E93B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

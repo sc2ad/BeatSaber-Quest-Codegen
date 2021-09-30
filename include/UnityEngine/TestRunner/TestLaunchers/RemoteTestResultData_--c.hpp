@@ -34,8 +34,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class RemoteTestResultData::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/UnityEngine.TestRunner.TestLaunchers.<>c <>9
     static UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/UnityEngine.TestRunner.TestLaunchers.<>c <>9

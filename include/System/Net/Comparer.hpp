@@ -20,8 +20,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Comparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: Comparer
-    Comparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

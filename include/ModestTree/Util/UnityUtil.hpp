@@ -51,8 +51,6 @@ namespace ModestTree::Util {
     class $GetDirectChildrenAndSelf$d__20;
     // Nested type: ModestTree::Util::UnityUtil::$GetDirectChildren$d__21
     class $GetDirectChildren$d__21;
-    // Creating value type constructor for type: UnityUtil
-    UnityUtil() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllScenes()
     // Offset: 0x14F082C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllScenes();

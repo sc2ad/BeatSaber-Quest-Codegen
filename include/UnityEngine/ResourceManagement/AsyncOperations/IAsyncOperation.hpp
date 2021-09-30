@@ -64,8 +64,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsyncOperation {
     public:
-    // Creating value type constructor for type: IAsyncOperation
-    IAsyncOperation() noexcept {}
     // public System.Type get_ResultType()
     // Offset: 0xFFFFFFFF
     System::Type* get_ResultType();

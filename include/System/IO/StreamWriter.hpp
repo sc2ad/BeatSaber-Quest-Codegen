@@ -108,8 +108,6 @@ namespace System::IO {
     System::Threading::Tasks::Task* asyncWriteTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: StreamWriter
-    StreamWriter(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Encoder* encoder_ = {}, ::ArrayWrapper<uint8_t> byteBuffer_ = {}, ::ArrayWrapper<::Il2CppChar> charBuffer_ = {}, int charPos_ = {}, int charLen_ = {}, bool autoFlush_ = {}, bool haveWrittenPreamble_ = {}, bool closable_ = {}, System::Threading::Tasks::Task* asyncWriteTask_ = {}) noexcept : stream{stream_}, encoding{encoding_}, encoder{encoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, charPos{charPos_}, charLen{charLen_}, autoFlush{autoFlush_}, haveWrittenPreamble{haveWrittenPreamble_}, closable{closable_}, asyncWriteTask{asyncWriteTask_} {}
     // Get static field: static public readonly System.IO.StreamWriter Null
     static System::IO::StreamWriter* _get_Null();
     // Set static field: static public readonly System.IO.StreamWriter Null

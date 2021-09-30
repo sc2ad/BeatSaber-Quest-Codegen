@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class CAPI : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CAPI
-    CAPI() noexcept {}
     // static public System.String CryptFindOIDInfoNameFromKey(System.String key, System.Security.Cryptography.OidGroup oidGroup)
     // Offset: 0x178AACC
     static ::Il2CppString* CryptFindOIDInfoNameFromKey(::Il2CppString* key, System::Security::Cryptography::OidGroup oidGroup);

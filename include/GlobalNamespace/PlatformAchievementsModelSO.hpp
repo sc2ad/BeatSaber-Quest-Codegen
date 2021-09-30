@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformAchievementsHandler*) == 0x8);
-    // Creating value type constructor for type: PlatformAchievementsModelSO
-    PlatformAchievementsModelSO(GlobalNamespace::PS4AchievementIdsModelSO* ps4AchievementIdsModel_ = {}, GlobalNamespace::AchievementIdsModelSO* achievementIdsModel_ = {}, GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler_ = {}) noexcept : ps4AchievementIdsModel{ps4AchievementIdsModel_}, achievementIdsModel{achievementIdsModel_}, platformAchievementsHandler{platformAchievementsHandler_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PS4AchievementIdsModelSO _ps4AchievementIdsModel

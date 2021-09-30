@@ -91,8 +91,6 @@ namespace System::Globalization {
     Mono::Globalization::Unicode::SimpleCollator* collator;
     // Field size check
     static_assert(sizeof(Mono::Globalization::Unicode::SimpleCollator*) == 0x8);
-    // Creating value type constructor for type: CompareInfo
-    CompareInfo(::Il2CppString* m_name_ = {}, ::Il2CppString* m_sortName_ = {}, int win32LCID_ = {}, int culture_ = {}, System::Globalization::SortVersion* m_SortVersion_ = {}, Mono::Globalization::Unicode::SimpleCollator* collator_ = {}) noexcept : m_name{m_name_}, m_sortName{m_sortName_}, win32LCID{win32LCID_}, culture{culture_}, m_SortVersion{m_SortVersion_}, collator{collator_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::IDeserializationCallback
     operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);

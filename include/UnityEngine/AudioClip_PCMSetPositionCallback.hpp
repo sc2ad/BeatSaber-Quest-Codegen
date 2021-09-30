@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioClip::PCMSetPositionCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: PCMSetPositionCallback
-    PCMSetPositionCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2608378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

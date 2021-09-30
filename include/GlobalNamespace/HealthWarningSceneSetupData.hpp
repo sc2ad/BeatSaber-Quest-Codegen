@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*) == 0x8);
-    // Creating value type constructor for type: HealthWarningSceneSetupData
-    HealthWarningSceneSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData_ = {}) noexcept : nextScenesTransitionSetupData{nextScenesTransitionSetupData_} {}
     // Creating conversion operator: operator GlobalNamespace::ScenesTransitionSetupDataSO*
     constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const noexcept {
       return nextScenesTransitionSetupData;

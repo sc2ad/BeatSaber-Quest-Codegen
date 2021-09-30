@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // Creating value type constructor for type: MissionClearedEnvironmentEffect
-    MissionClearedEnvironmentEffect(GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager

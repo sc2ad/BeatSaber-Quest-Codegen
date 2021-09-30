@@ -13,8 +13,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICachable {
     public:
-    // Creating value type constructor for type: ICachable
-    ICachable() noexcept {}
     // public System.Int32 get_Hash()
     // Offset: 0xFFFFFFFF
     int get_Hash();

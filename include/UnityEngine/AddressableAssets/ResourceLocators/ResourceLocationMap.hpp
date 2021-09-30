@@ -61,8 +61,6 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* Locations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*) == 0x8);
-    // Creating value type constructor for type: ResourceLocationMap
-    ResourceLocationMap(::Il2CppString* LocatorId_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* Locations_ = {}) noexcept : LocatorId{LocatorId_}, Locations{Locations_} {}
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator
     operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);

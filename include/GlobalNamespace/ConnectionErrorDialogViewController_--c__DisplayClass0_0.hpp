@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     System::Action* buttonAction;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Action* buttonAction_ = {}) noexcept : buttonAction{buttonAction_} {}
     // Creating conversion operator: operator System::Action*
     constexpr operator System::Action*() const noexcept {
       return buttonAction;

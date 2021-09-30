@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithMicrophoneAvailabilityState : public Oculus::Platform::Message_1<Oculus::Platform::Models::MicrophoneAvailabilityState*> {
     public:
-    // Creating value type constructor for type: MessageWithMicrophoneAvailabilityState
-    MessageWithMicrophoneAvailabilityState() noexcept {}
     // protected Oculus.Platform.Models.MicrophoneAvailabilityState GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BAB88
     Oculus::Platform::Models::MicrophoneAvailabilityState* GetDataFromMessage(System::IntPtr c_message);

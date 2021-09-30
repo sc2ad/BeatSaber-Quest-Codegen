@@ -325,7 +325,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch();
     // public System.Void .ctor(UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
     // Offset: 0x2150DEC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: is copy constructor.  AutoUnwrapSettings(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings)
     // public System.Void Reset()
     // Offset: 0x2150CD8

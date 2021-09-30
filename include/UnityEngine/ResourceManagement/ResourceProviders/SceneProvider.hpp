@@ -50,8 +50,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     class SceneOp;
     // Nested type: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp
     class UnloadSceneOp;
-    // Creating value type constructor for type: SceneProvider
-    SceneProvider() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider
     operator UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(this);

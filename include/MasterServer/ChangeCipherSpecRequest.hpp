@@ -30,8 +30,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChangeCipherSpecRequest : public GlobalNamespace::BaseMasterServerReliableResponse/*, public MasterServer::IHandshakeServerToClientMessage*/ {
     public:
-    // Creating value type constructor for type: ChangeCipherSpecRequest
-    ChangeCipherSpecRequest() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);

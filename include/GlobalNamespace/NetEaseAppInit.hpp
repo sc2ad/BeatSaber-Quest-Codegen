@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // Creating value type constructor for type: NetEaseAppInit
-    NetEaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* netEaseLoginSceneTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, netEaseLoginSceneTransitionSetupData{netEaseLoginSceneTransitionSetupData_}, mainSettingsModel{mainSettingsModel_} {}
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO _netEaseLoginSceneTransitionSetupData

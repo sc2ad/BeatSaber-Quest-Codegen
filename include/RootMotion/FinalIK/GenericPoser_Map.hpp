@@ -55,8 +55,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: Map
-    Map(UnityEngine::Transform* bone_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : bone{bone_}, target{target_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_} {}
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public UnityEngine.Transform target

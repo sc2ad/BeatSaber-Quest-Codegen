@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EssentialHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EssentialHelpers
-    EssentialHelpers() noexcept {}
     // static public System.Double get_CurrentTimeStamp()
     // Offset: 0x137ED7C
     static double get_CurrentTimeStamp();

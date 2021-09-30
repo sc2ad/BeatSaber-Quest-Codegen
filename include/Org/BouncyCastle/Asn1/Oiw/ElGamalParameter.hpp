@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     Org::BouncyCastle::Asn1::DerInteger* g;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: ElGamalParameter
-    ElGamalParameter(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}) noexcept : p{p_}, g{g_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger p
     Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger g

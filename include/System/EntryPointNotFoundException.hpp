@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BFB0
   class EntryPointNotFoundException : public System::TypeLoadException {
     public:
-    // Creating value type constructor for type: EntryPointNotFoundException
-    EntryPointNotFoundException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19A0550
     // Implemented from: System.TypeLoadException

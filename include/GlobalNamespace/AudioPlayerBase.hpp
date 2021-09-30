@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioPlayerBase : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: AudioPlayerBase
-    AudioPlayerBase() noexcept {}
     // public UnityEngine.AudioClip get_activeAudioClip()
     // Offset: 0xFFFFFFFF
     UnityEngine::AudioClip* get_activeAudioClip();

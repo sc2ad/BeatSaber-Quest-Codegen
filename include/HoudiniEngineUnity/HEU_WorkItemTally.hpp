@@ -54,8 +54,6 @@ namespace HoudiniEngineUnity {
     int erroredWorkItems;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_WorkItemTally
-    HEU_WorkItemTally(int totalWorkItems_ = {}, int waitingWorkItems_ = {}, int scheduledWorkItems_ = {}, int cookingWorkItems_ = {}, int cookedWorkItems_ = {}, int erroredWorkItems_ = {}) noexcept : totalWorkItems{totalWorkItems_}, waitingWorkItems{waitingWorkItems_}, scheduledWorkItems{scheduledWorkItems_}, cookingWorkItems{cookingWorkItems_}, cookedWorkItems{cookedWorkItems_}, erroredWorkItems{erroredWorkItems_} {}
     // Get instance field reference: public System.Int32 _totalWorkItems
     int& dyn__totalWorkItems();
     // Get instance field reference: public System.Int32 _waitingWorkItems

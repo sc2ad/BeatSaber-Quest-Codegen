@@ -95,8 +95,6 @@ namespace System::Net {
     System::Net::ReadState readState;
     // Field size check
     static_assert(sizeof(System::Net::ReadState) == 0x4);
-    // Creating value type constructor for type: WebConnectionData
-    WebConnectionData(System::Net::HttpWebRequest* request_ = {}, int StatusCode_ = {}, ::Il2CppString* StatusDescription_ = {}, System::Net::WebHeaderCollection* Headers_ = {}, System::Version* Version_ = {}, System::Version* ProxyVersion_ = {}, System::IO::Stream* stream_ = {}, ::ArrayWrapper<::Il2CppString*> Challenge_ = {}, System::Net::ReadState readState_ = {}) noexcept : request{request_}, StatusCode{StatusCode_}, StatusDescription{StatusDescription_}, Headers{Headers_}, Version{Version_}, ProxyVersion{ProxyVersion_}, stream{stream_}, Challenge{Challenge_}, readState{readState_} {}
     // Get instance field reference: private System.Net.HttpWebRequest _request
     System::Net::HttpWebRequest*& dyn__request();
     // Get instance field reference: public System.Int32 StatusCode

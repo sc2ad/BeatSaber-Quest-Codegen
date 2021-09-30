@@ -16,8 +16,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser::Token : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Token
-    Token() noexcept {}
     // static public System.Void Check(System.String s)
     // Offset: 0x1755030
     static void Check(::Il2CppString* s);

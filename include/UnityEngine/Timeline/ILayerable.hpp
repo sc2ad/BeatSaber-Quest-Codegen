@@ -27,8 +27,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayerable {
     public:
-    // Creating value type constructor for type: ILayerable
-    ILayerable() noexcept {}
     // public UnityEngine.Playables.Playable CreateLayerMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
     // Offset: 0xFFFFFFFF
     UnityEngine::Playables::Playable CreateLayerMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);

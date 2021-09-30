@@ -46,8 +46,6 @@ namespace System::Runtime::InteropServices {
     int revision;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ComCompatibleVersionAttribute
-    ComCompatibleVersionAttribute(int major_ = {}, int minor_ = {}, int build_ = {}, int revision_ = {}) noexcept : major{major_}, minor{minor_}, build{build_}, revision{revision_} {}
     // Get instance field reference: System.Int32 _major
     int& dyn__major();
     // Get instance field reference: System.Int32 _minor

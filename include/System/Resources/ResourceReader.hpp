@@ -150,8 +150,6 @@ namespace System::Resources {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ResourceReader
-    ResourceReader(System::IO::BinaryReader* store_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache_ = {}, int64_t nameSectionOffset_ = {}, int64_t dataSectionOffset_ = {}, ::ArrayWrapper<int> nameHashes_ = {}, int* nameHashesPtr_ = {}, ::ArrayWrapper<int> namePositions_ = {}, int* namePositionsPtr_ = {}, ::ArrayWrapper<System::RuntimeType*> typeTable_ = {}, ::ArrayWrapper<int> typeNamePositions_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* objFormatter_ = {}, int numResources_ = {}, System::IO::UnmanagedMemoryStream* ums_ = {}, int version_ = {}) noexcept : store{store_}, resCache{resCache_}, nameSectionOffset{nameSectionOffset_}, dataSectionOffset{dataSectionOffset_}, nameHashes{nameHashes_}, nameHashesPtr{nameHashesPtr_}, namePositions{namePositions_}, namePositionsPtr{namePositionsPtr_}, typeTable{typeTable_}, typeNamePositions{typeNamePositions_}, objFormatter{objFormatter_}, numResources{numResources_}, ums{ums_}, version{version_} {}
     // Creating interface conversion operator: operator System::Resources::IResourceReader
     operator System::Resources::IResourceReader() noexcept {
       return *reinterpret_cast<System::Resources::IResourceReader*>(this);

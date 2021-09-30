@@ -91,8 +91,6 @@ namespace OnlineServices {
     OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
     // Field size check
     static_assert(sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*) == 0x8);
-    // Creating value type constructor for type: LevelScoreUploader
-    LevelScoreUploader(System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel_ = {}, System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* unsuccessfullySentLevelScoreResultsDataUploadInfos_ = {}, System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* levelScoreResultsDataUploadInfos_ = {}, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel_ = {}) noexcept : scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_}, cancellationTokenSource{cancellationTokenSource_}, leaderboardsModel{leaderboardsModel_}, unsuccessfullySentLevelScoreResultsDataUploadInfos{unsuccessfullySentLevelScoreResultsDataUploadInfos_}, levelScoreResultsDataUploadInfos{levelScoreResultsDataUploadInfos_}, platformOnlineServicesAvailabilityModel{platformOnlineServicesAvailabilityModel_} {}
     // static field const value: static private System.Int32 kMaxUploadAttempts
     static constexpr const int kMaxUploadAttempts = 3;
     // Get static field: static private System.Int32 kMaxUploadAttempts

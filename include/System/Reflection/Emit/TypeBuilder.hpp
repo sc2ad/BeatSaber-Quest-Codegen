@@ -55,8 +55,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeBuilder : public System::Reflection::TypeInfo {
     public:
-    // Creating value type constructor for type: TypeBuilder
-    TypeBuilder() noexcept {}
     // static field const value: static public System.Int32 UnspecifiedTypeSize
     static constexpr const int UnspecifiedTypeSize = 0;
     // Get static field: static public System.Int32 UnspecifiedTypeSize

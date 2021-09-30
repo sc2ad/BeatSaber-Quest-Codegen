@@ -46,8 +46,6 @@ namespace NUnit::Framework::Internal::Builders {
     NUnit::Framework::Interfaces::ITestCaseBuilder* testBuilder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITestCaseBuilder*) == 0x8);
-    // Creating value type constructor for type: NUnitTestFixtureBuilder
-    NUnitTestFixtureBuilder(NUnit::Framework::Interfaces::ITestCaseBuilder* testBuilder_ = {}) noexcept : testBuilder{testBuilder_} {}
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ITestCaseBuilder*
     constexpr operator NUnit::Framework::Interfaces::ITestCaseBuilder*() const noexcept {
       return testBuilder;

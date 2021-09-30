@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaxBytesExceededException : public Org::BouncyCastle::Crypto::CryptoException {
     public:
-    // Creating value type constructor for type: MaxBytesExceededException
-    MaxBytesExceededException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A8A9DC
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException

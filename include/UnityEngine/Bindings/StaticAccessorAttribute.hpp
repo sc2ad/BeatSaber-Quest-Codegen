@@ -38,8 +38,6 @@ namespace UnityEngine::Bindings {
     UnityEngine::Bindings::StaticAccessorType Type;
     // Field size check
     static_assert(sizeof(UnityEngine::Bindings::StaticAccessorType) == 0x4);
-    // Creating value type constructor for type: StaticAccessorAttribute
-    StaticAccessorAttribute(::Il2CppString* Name_ = {}, UnityEngine::Bindings::StaticAccessorType Type_ = {}) noexcept : Name{Name_}, Type{Type_} {}
     // Get instance field reference: private System.String <Name>k__BackingField
     ::Il2CppString*& dyn_$Name$k__BackingField();
     // Get instance field reference: private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField

@@ -56,8 +56,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0
     class $$c__DisplayClass14_0;
-    // Creating value type constructor for type: AppendElements
-    AppendElements() noexcept {}
     // static UnityEngine.ProBuilder.Face AppendFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3[] positions, UnityEngine.Color[] colors, UnityEngine.Vector2[] uvs, UnityEngine.ProBuilder.Face face, System.Int32[] common)
     // Offset: 0x1C860CC
     static UnityEngine::ProBuilder::Face* AppendFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::Vector3> positions, ::ArrayWrapper<UnityEngine::Color> colors, ::ArrayWrapper<UnityEngine::Vector2> uvs, UnityEngine::ProBuilder::Face* face, ::ArrayWrapper<int> common);

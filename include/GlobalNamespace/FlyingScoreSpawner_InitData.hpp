@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition_ = {}) noexcept : spawnPosition{spawnPosition_} {}
     // Creating conversion operator: operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition
     constexpr operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition() const noexcept {
       return spawnPosition;

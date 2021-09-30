@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ObstacleData
-    ObstacleData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ObstacleType type_ = {}, float duration_ = {}, int width_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, type{type_}, duration{duration_}, width{width_} {}
     // Creating interface conversion operator: operator GlobalNamespace::BeatmapSaveData::ITime
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);

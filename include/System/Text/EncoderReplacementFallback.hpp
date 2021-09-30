@@ -35,8 +35,6 @@ namespace System::Text {
     ::Il2CppString* strDefault;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EncoderReplacementFallback
-    EncoderReplacementFallback(::Il2CppString* strDefault_ = {}) noexcept : strDefault{strDefault_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.String strDefault

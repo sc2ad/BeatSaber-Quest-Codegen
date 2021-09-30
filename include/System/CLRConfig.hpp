@@ -15,8 +15,6 @@ namespace System {
   // [FriendAccessAllowedAttribute] Offset: E5CB58
   class CLRConfig : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CLRConfig
-    CLRConfig() noexcept {}
     // static System.Boolean CheckThrowUnobservedTaskExceptions()
     // Offset: 0x1993688
     static bool CheckThrowUnobservedTaskExceptions();

@@ -45,8 +45,6 @@ namespace UnityEngine::SceneManagement {
   // [NativeHeaderAttribute] Offset: E736B0
   class SceneManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SceneManager
-    SceneManager() noexcept {}
     // Get static field: static System.Boolean s_AllowLoadScene
     static bool _get_s_AllowLoadScene();
     // Set static field: static System.Boolean s_AllowLoadScene

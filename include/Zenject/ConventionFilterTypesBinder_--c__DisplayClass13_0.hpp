@@ -40,8 +40,6 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces_ = {}) noexcept : namespaces{namespaces_} {}
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*
     constexpr operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*() const noexcept {
       return namespaces;

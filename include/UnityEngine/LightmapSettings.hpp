@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: E70D24
   class LightmapSettings : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: LightmapSettings
-    LightmapSettings() noexcept {}
   }; // UnityEngine.LightmapSettings
   #pragma pack(pop)
 }

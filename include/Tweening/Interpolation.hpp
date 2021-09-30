@@ -21,8 +21,6 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interpolation : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Interpolation
-    Interpolation() noexcept {}
     // static public System.Single Interpolate(System.Single t, Tweening.EaseType easeType)
     // Offset: 0x133DFB4
     static float Interpolate(float t, Tweening::EaseType easeType);

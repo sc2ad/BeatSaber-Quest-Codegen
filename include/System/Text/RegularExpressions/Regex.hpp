@@ -138,8 +138,6 @@ namespace System::Text::RegularExpressions {
     bool refsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Regex
-    Regex(::Il2CppString* pattern_ = {}, System::Text::RegularExpressions::RegexRunnerFactory* factory_ = {}, System::Text::RegularExpressions::RegexOptions roptions_ = {}, System::TimeSpan internalMatchTimeout_ = {}, System::Collections::Hashtable* caps_ = {}, System::Collections::Hashtable* capnames_ = {}, ::ArrayWrapper<::Il2CppString*> capslist_ = {}, int capsize_ = {}, System::Text::RegularExpressions::ExclusiveReference* runnerref_ = {}, System::Text::RegularExpressions::SharedReference* replref_ = {}, System::Text::RegularExpressions::RegexCode* code_ = {}, bool refsInitialized_ = {}) noexcept : pattern{pattern_}, factory{factory_}, roptions{roptions_}, internalMatchTimeout{internalMatchTimeout_}, caps{caps_}, capnames{capnames_}, capslist{capslist_}, capsize{capsize_}, runnerref{runnerref_}, replref{replref_}, code{code_}, refsInitialized{refsInitialized_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

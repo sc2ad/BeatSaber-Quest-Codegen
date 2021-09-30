@@ -32,8 +32,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssertionException : public NUnit::Framework::ResultStateException {
     public:
-    // Creating value type constructor for type: AssertionException
-    AssertionException() noexcept {}
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0x19286F4
     // Implemented from: NUnit.Framework.ResultStateException

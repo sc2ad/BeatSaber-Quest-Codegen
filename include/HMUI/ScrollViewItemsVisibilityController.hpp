@@ -108,8 +108,6 @@ namespace HMUI {
     float contentMinY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ScrollViewItemsVisibilityController
-    ScrollViewItemsVisibilityController(UnityEngine::RectTransform* viewport_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, ::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*> items_ = {}, float lastContentAnchoredPositionY_ = {}, ::ArrayWrapper<UnityEngine::Vector3> viewportWorldCorners_ = {}, ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> upperItemsCornes_ = {}, ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> lowerItemsCornes_ = {}, int lowerLastVisibleIndex_ = {}, int upperLastVisibleIndex_ = {}, float contentMaxY_ = {}, float contentMinY_ = {}) noexcept : viewport{viewport_}, contentRectTransform{contentRectTransform_}, items{items_}, lastContentAnchoredPositionY{lastContentAnchoredPositionY_}, viewportWorldCorners{viewportWorldCorners_}, upperItemsCornes{upperItemsCornes_}, lowerItemsCornes{lowerItemsCornes_}, lowerLastVisibleIndex{lowerLastVisibleIndex_}, upperLastVisibleIndex{upperLastVisibleIndex_}, contentMaxY{contentMaxY_}, contentMinY{contentMinY_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _viewport

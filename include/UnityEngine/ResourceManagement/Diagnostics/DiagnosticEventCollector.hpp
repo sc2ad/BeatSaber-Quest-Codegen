@@ -32,8 +32,6 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class DiagnosticEventCollector : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: DiagnosticEventCollector
-    DiagnosticEventCollector() noexcept {}
     // Get static field: static private UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector s_Collector
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* _get_s_Collector();
     // Set static field: static private UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector s_Collector

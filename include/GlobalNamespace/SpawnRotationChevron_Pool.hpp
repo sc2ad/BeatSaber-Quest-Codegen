@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpawnRotationChevron::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::SpawnRotationChevron*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x110E23C
     // Implemented from: Zenject.MonoMemoryPool`1

@@ -117,8 +117,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* inactivePitchGainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // Creating value type constructor for type: CrossFadeAudioSource
-    CrossFadeAudioSource(float duration_ = {}, UnityEngine::AudioSource* audioSource1_ = {}, UnityEngine::AudioSource* audioSource2_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect1_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, UnityEngine::AudioSource* activeAudioSource_ = {}, UnityEngine::AudioSource* inactiveAudioSource_ = {}, Tweening::Tween_1<float>* volumeDownTween_ = {}, Tweening::Tween_1<float>* volumeUpTween_ = {}, GlobalNamespace::AudioPitchGainEffect* activePitchGainEffect_ = {}, GlobalNamespace::AudioPitchGainEffect* inactivePitchGainEffect_ = {}) noexcept : duration{duration_}, audioSource1{audioSource1_}, audioSource2{audioSource2_}, audioPitchGainEffect1{audioPitchGainEffect1_}, audioPitchGainEffect2{audioPitchGainEffect2_}, tweeningManager{tweeningManager_}, activeAudioSource{activeAudioSource_}, inactiveAudioSource{inactiveAudioSource_}, volumeDownTween{volumeDownTween_}, volumeUpTween{volumeUpTween_}, activePitchGainEffect{activePitchGainEffect_}, inactivePitchGainEffect{inactivePitchGainEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _duration

@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD8AC
   class SourceTemplateAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: SourceTemplateAttribute
-    SourceTemplateAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610A04
     // Implemented from: System.Attribute

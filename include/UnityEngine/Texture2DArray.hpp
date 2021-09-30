@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E717E0
   class Texture2DArray : public UnityEngine::Texture {
     public:
-    // Creating value type constructor for type: Texture2DArray
-    Texture2DArray() noexcept {}
     // static public System.Int32 get_allSlices()
     // Offset: 0x23445CC
     static int get_allSlices();

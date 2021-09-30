@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* leaderboardIdToPs4Id;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>*) == 0x8);
-    // Creating value type constructor for type: PS4LeaderboardIdsModelSO
-    PS4LeaderboardIdsModelSO(System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* leaderboardIds_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* leaderboardIdToPs4Id_ = {}) noexcept : leaderboardIds{leaderboardIds_}, leaderboardIdToPs4Id{leaderboardIdToPs4Id_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> _leaderboardIds

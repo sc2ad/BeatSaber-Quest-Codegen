@@ -58,8 +58,6 @@ namespace HMUI {
     bool enabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InputFieldViewChangeBinder
-    InputFieldViewChangeBinder(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>* bindings_ = {}, bool enabled_ = {}) noexcept : bindings{bindings_}, enabled{enabled_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,UnityEngine.Events.UnityAction`1<HMUI.InputFieldView>>> _bindings
     System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>*& dyn__bindings();
     // Get instance field reference: private System.Boolean _enabled

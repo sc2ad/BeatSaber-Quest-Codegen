@@ -78,8 +78,6 @@ namespace System::Xml {
     System::Xml::ConformanceLevel conformanceLevel;
     // Field size check
     static_assert(sizeof(System::Xml::ConformanceLevel) == 0x4);
-    // Creating value type constructor for type: XmlUtf8RawTextWriterIndent
-    XmlUtf8RawTextWriterIndent(int indentLevel_ = {}, bool newLineOnAttributes_ = {}, ::Il2CppString* indentChars_ = {}, bool mixedContent_ = {}, System::Xml::BitStack* mixedContentStack_ = {}, System::Xml::ConformanceLevel conformanceLevel_ = {}) noexcept : indentLevel{indentLevel_}, newLineOnAttributes{newLineOnAttributes_}, indentChars{indentChars_}, mixedContent{mixedContent_}, mixedContentStack{mixedContentStack_}, conformanceLevel{conformanceLevel_} {}
     // Get instance field reference: protected System.Int32 indentLevel
     int& dyn_indentLevel();
     // Get instance field reference: protected System.Boolean newLineOnAttributes

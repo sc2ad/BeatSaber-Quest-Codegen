@@ -20,8 +20,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITimelineClipAsset {
     public:
-    // Creating value type constructor for type: ITimelineClipAsset
-    ITimelineClipAsset() noexcept {}
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0xFFFFFFFF
     UnityEngine::Timeline::ClipCaps get_clipCaps();

@@ -46,8 +46,6 @@ namespace GlobalNamespace {
   template<typename TStateTable, typename TType, typename TState>
   class MultiplayerSyncState_3 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MultiplayerSyncState_3
-    MultiplayerSyncState_3() noexcept {}
     // protected StateBuffer`3<TStateTable,TType,TState> get_stateBuffer()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer() {

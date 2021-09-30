@@ -41,8 +41,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::X509Certificates::X509ChainImpl* impl;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509ChainImpl*) == 0x8);
-    // Creating value type constructor for type: X509Chain
-    X509Chain(System::Security::Cryptography::X509Certificates::X509ChainImpl* impl_ = {}) noexcept : impl{impl_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

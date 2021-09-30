@@ -34,8 +34,6 @@ namespace Zenject {
   template<typename TContract>
   class MemoryPoolIdInitialSizeMaxSizeBinder_1 : public Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract> {
     public:
-    // Creating value type constructor for type: MemoryPoolIdInitialSizeMaxSizeBinder_1
-    MemoryPoolIdInitialSizeMaxSizeBinder_1() noexcept {}
     // public Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
     Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* WithId(::Il2CppObject* identifier) {

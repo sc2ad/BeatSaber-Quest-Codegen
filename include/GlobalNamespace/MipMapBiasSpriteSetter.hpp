@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     float mipMapBias;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MipMapBiasSpriteSetter
-    MipMapBiasSpriteSetter(::ArrayWrapper<UnityEngine::Sprite*> sprites_ = {}, float mipMapBias_ = {}) noexcept : sprites{sprites_}, mipMapBias{mipMapBias_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite[] _sprites

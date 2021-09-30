@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ipv6Element : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: Ipv6Element
-    Ipv6Element() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x157004C
     // Implemented from: System.Configuration.ConfigurationElement

@@ -56,7 +56,6 @@ namespace System::Net {
       System::Net::CookieToken get_Token();
       // System.Void .ctor(System.String name, System.Net.CookieToken token)
       // Offset: 0x1577E64
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token)
       // System.Boolean IsEqualTo(System.String value)
       // Offset: 0x1577BE8
@@ -131,8 +130,6 @@ namespace System::Net {
     ::Il2CppString* m_value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CookieTokenizer
-    CookieTokenizer(bool m_eofCookie_ = {}, int m_index_ = {}, int m_length_ = {}, ::Il2CppString* m_name_ = {}, bool m_quoted_ = {}, int m_start_ = {}, System::Net::CookieToken m_token_ = {}, int m_tokenLength_ = {}, ::Il2CppString* m_tokenStream_ = {}, ::Il2CppString* m_value_ = {}) noexcept : m_eofCookie{m_eofCookie_}, m_index{m_index_}, m_length{m_length_}, m_name{m_name_}, m_quoted{m_quoted_}, m_start{m_start_}, m_token{m_token_}, m_tokenLength{m_tokenLength_}, m_tokenStream{m_tokenStream_}, m_value{m_value_} {}
     // Get static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedAttributes
     static ::ArrayWrapper<System::Net::CookieTokenizer::RecognizedAttribute> _get_RecognizedAttributes();
     // Set static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedAttributes

@@ -55,8 +55,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::SignalReceiver::EventKeyValue* m_Events;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*) == 0x8);
-    // Creating value type constructor for type: SignalReceiver
-    SignalReceiver(UnityEngine::Timeline::SignalReceiver::EventKeyValue* m_Events_ = {}) noexcept : m_Events{m_Events_} {}
     // Creating interface conversion operator: operator UnityEngine::Playables::INotificationReceiver
     operator UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotificationReceiver*>(this);

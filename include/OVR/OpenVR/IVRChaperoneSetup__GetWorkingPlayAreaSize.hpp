@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB075C
   class IVRChaperoneSetup::_GetWorkingPlayAreaSize : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetWorkingPlayAreaSize
-    _GetWorkingPlayAreaSize() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1771AD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

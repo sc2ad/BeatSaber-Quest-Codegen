@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetworkPlayer {
     public:
-    // Creating value type constructor for type: INetworkPlayer
-    INetworkPlayer() noexcept {}
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_userId();

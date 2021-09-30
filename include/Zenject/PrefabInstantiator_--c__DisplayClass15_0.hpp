@@ -71,8 +71,6 @@ namespace Zenject {
     bool shouldMakeActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass15_0
-    $$c__DisplayClass15_0(Zenject::PrefabInstantiator* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, UnityEngine::GameObject* gameObject_ = {}, Zenject::InjectContext* context_ = {}, bool shouldMakeActive_ = {}) noexcept : $$4__this{$$4__this_}, args{args_}, gameObject{gameObject_}, context{context_}, shouldMakeActive{shouldMakeActive_} {}
     // Get instance field reference: public Zenject.PrefabInstantiator <>4__this
     Zenject::PrefabInstantiator*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args

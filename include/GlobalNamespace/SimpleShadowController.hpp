@@ -82,8 +82,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: SimpleShadowController
-    SimpleShadowController(UnityEngine::Transform* followTransform_ = {}, UnityEngine::SpriteRenderer* spriteRenderer_ = {}, float distanceScale_ = {}, float scale_ = {}, float alpha_ = {}, float floorYPos_ = {}, bool floorYPosLocal_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : followTransform{followTransform_}, spriteRenderer{spriteRenderer_}, distanceScale{distanceScale_}, scale{scale_}, alpha{alpha_}, floorYPos{floorYPos_}, floorYPosLocal{floorYPosLocal_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _followTransform

@@ -38,8 +38,6 @@ namespace HMUI {
     bool isToggled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ButtonSpriteSwapToggle
-    ButtonSpriteSwapToggle(bool resetToggleOnEnable_ = {}, bool ignoreHighlight_ = {}, bool isToggled_ = {}) noexcept : resetToggleOnEnable{resetToggleOnEnable_}, ignoreHighlight{ignoreHighlight_}, isToggled{isToggled_} {}
     // Get instance field reference: private System.Boolean _resetToggleOnEnable
     bool& dyn__resetToggleOnEnable();
     // Get instance field reference: private System.Boolean _ignoreHighlight

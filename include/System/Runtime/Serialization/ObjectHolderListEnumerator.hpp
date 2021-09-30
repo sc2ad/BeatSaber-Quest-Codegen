@@ -53,8 +53,6 @@ namespace System::Runtime::Serialization {
     int m_currPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ObjectHolderListEnumerator
-    ObjectHolderListEnumerator(bool m_isFixupEnumerator_ = {}, System::Runtime::Serialization::ObjectHolderList* m_list_ = {}, int m_startingVersion_ = {}, int m_currPos_ = {}) noexcept : m_isFixupEnumerator{m_isFixupEnumerator_}, m_list{m_list_}, m_startingVersion{m_startingVersion_}, m_currPos{m_currPos_} {}
     // Get instance field reference: private System.Boolean m_isFixupEnumerator
     bool& dyn_m_isFixupEnumerator();
     // Get instance field reference: private System.Runtime.Serialization.ObjectHolderList m_list

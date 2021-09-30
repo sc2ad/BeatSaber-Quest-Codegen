@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameNoteController_GameNoteType gameNoteType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameNoteController_GameNoteType) == 0x4);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerGameNoteController
-    MultiplayerConnectedPlayerGameNoteController(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* cubeNoteControllerDidInitEvent_ = {}, GlobalNamespace::GameNoteController_GameNoteType gameNoteType_ = {}) noexcept : cubeNoteControllerDidInitEvent{cubeNoteControllerDidInitEvent_}, gameNoteType{gameNoteType_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>
     operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>(this);

@@ -21,8 +21,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E602B8
   class IsReadOnlyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: IsReadOnlyAttribute
-    IsReadOnlyAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AD95C
     // Implemented from: System.Attribute

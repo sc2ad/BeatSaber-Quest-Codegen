@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // Creating value type constructor for type: ResetPitchOnGameplayFinished
-    ResetPitchOnGameplayFinished(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}) noexcept : gameplayLevelSceneTransitionEvents{gameplayLevelSceneTransitionEvents_}, audioManager{audioManager_} {}
     // Get instance field reference: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
     GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
     // Get instance field reference: private readonly AudioManagerSO _audioManager

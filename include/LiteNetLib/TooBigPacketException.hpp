@@ -26,8 +26,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class TooBigPacketException : public LiteNetLib::InvalidPacketException {
     public:
-    // Creating value type constructor for type: TooBigPacketException
-    TooBigPacketException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DE1BC0
     // Implemented from: LiteNetLib.InvalidPacketException

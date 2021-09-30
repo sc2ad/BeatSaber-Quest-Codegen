@@ -73,8 +73,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     ::ArrayWrapper<uint8_t> S;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Gost28147Mac
-    Gost28147Mac(int bufOff_ = {}, ::ArrayWrapper<uint8_t> buf_ = {}, ::ArrayWrapper<uint8_t> mac_ = {}, bool firstStep_ = {}, ::ArrayWrapper<int> workingKey_ = {}, ::ArrayWrapper<uint8_t> macIV_ = {}, ::ArrayWrapper<uint8_t> S_ = {}) noexcept : bufOff{bufOff_}, buf{buf_}, mac{mac_}, firstStep{firstStep_}, workingKey{workingKey_}, macIV{macIV_}, S{S_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

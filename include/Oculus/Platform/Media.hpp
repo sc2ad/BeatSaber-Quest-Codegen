@@ -29,8 +29,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Media : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Media
-    Media() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ShareMediaResult> ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
     // Offset: 0x16B0A60
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::Il2CppString* postTextSuggestion, ::Il2CppString* filePath, Oculus::Platform::MediaContentType contentType);

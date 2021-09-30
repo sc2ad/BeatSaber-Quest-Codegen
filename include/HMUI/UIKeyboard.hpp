@@ -104,8 +104,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* letterBtnTexts;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>*) == 0x8);
-    // Creating value type constructor for type: UIKeyboard
-    UIKeyboard(UnityEngine::UI::Button* okButton_ = {}, System::Action* okButtonWasPressedEvent_ = {}, System::Action_1<::Il2CppChar>* keyWasPressedEvent_ = {}, System::Action* deleteButtonWasPressedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, bool shouldCapitalize_ = {}, System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* letterBtnTexts_ = {}) noexcept : okButton{okButton_}, okButtonWasPressedEvent{okButtonWasPressedEvent_}, keyWasPressedEvent{keyWasPressedEvent_}, deleteButtonWasPressedEvent{deleteButtonWasPressedEvent_}, buttonBinder{buttonBinder_}, shouldCapitalize{shouldCapitalize_}, letterBtnTexts{letterBtnTexts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _okButton

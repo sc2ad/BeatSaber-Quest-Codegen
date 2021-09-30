@@ -34,8 +34,6 @@ namespace Mono::Globalization::Unicode {
   // [CompilerGeneratedAttribute] Offset: E5B744
   class MSCompatUnicodeTable::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Mono.Globalization.Unicode.MSCompatUnicodeTable/Mono.Globalization.Unicode.<>c <>9
     static Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c* _get_$$9();
     // Set static field: static public readonly Mono.Globalization.Unicode.MSCompatUnicodeTable/Mono.Globalization.Unicode.<>c <>9

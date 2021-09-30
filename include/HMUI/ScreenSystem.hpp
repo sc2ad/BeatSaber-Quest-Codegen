@@ -103,8 +103,6 @@ namespace HMUI {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: ScreenSystem
-    ScreenSystem(HMUI::Screen* mainScreen_ = {}, HMUI::Screen* leftScreen_ = {}, HMUI::Screen* rightScreen_ = {}, HMUI::Screen* bottomScreen_ = {}, HMUI::Screen* topScreen_ = {}, UnityEngine::UI::Button* backButton_ = {}, HMUI::TitleViewController* titleViewController_ = {}, System::Action* backButtonWasPressedEvent_ = {}, bool backButtonIsVisible_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : mainScreen{mainScreen_}, leftScreen{leftScreen_}, rightScreen{rightScreen_}, bottomScreen{bottomScreen_}, topScreen{topScreen_}, backButton{backButton_}, titleViewController{titleViewController_}, backButtonWasPressedEvent{backButtonWasPressedEvent_}, backButtonIsVisible{backButtonIsVisible_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.Screen _mainScreen

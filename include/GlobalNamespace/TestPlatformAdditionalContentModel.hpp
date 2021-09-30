@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     bool packBetterBuyThanLevel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestPlatformAdditionalContentModel
-    TestPlatformAdditionalContentModel(::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelsEntitlements_ = {}, ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelPacksEntitlements_ = {}, bool packBetterBuyThanLevel_ = {}) noexcept : levelsEntitlements{levelsEntitlements_}, levelPacksEntitlements{levelPacksEntitlements_}, packBetterBuyThanLevel{packBetterBuyThanLevel_} {}
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
     ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelsEntitlements();
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements

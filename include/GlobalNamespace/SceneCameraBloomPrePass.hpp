@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* bloomPrepassRenderTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
-    // Creating value type constructor for type: SceneCameraBloomPrePass
-    SceneCameraBloomPrePass(GlobalNamespace::BloomPrePassRendererSO* bloomPrepassRenderer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, UnityEngine::RenderTexture* bloomPrepassRenderTexture_ = {}) noexcept : bloomPrepassRenderer{bloomPrepassRenderer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, bloomPrepassRenderTexture{bloomPrepassRenderTexture_} {}
     // Creating interface conversion operator: operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks
     operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks() noexcept {
       return *reinterpret_cast<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>(this);

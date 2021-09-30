@@ -22,8 +22,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [RequiredByNativeCodeAttribute] Offset: E6FDD0
   class NativeContainerSupportsDeferredConvertListToArray : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeContainerSupportsDeferredConvertListToArray
-    NativeContainerSupportsDeferredConvertListToArray() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9B80
     // Implemented from: System.Attribute

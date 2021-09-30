@@ -36,8 +36,6 @@ namespace NUnit::Framework::Internal::Filters {
     NUnit::Framework::Internal::TestFilter* BaseFilter;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestFilter*) == 0x8);
-    // Creating value type constructor for type: NotFilter
-    NotFilter(NUnit::Framework::Internal::TestFilter* BaseFilter_ = {}) noexcept : BaseFilter{BaseFilter_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::TestFilter*
     constexpr operator NUnit::Framework::Internal::TestFilter*() const noexcept {
       return BaseFilter;

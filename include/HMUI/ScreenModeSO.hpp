@@ -33,8 +33,6 @@ namespace HMUI {
     HMUI::ScreenModeData* data;
     // Field size check
     static_assert(sizeof(HMUI::ScreenModeData*) == 0x8);
-    // Creating value type constructor for type: ScreenModeSO
-    ScreenModeSO(HMUI::ScreenModeData* data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ScreenModeData _data

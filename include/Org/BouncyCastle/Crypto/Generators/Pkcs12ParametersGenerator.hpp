@@ -49,8 +49,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
     int v;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Pkcs12ParametersGenerator
-    Pkcs12ParametersGenerator(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, int u_ = {}, int v_ = {}) noexcept : digest{digest_}, u{u_}, v{v_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
     Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // Get instance field reference: private readonly System.Int32 u

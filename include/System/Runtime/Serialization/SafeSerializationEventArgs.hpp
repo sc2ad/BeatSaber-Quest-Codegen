@@ -47,8 +47,6 @@ namespace System::Runtime::Serialization {
     System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
-    // Creating value type constructor for type: SafeSerializationEventArgs
-    SafeSerializationEventArgs(System::Runtime::Serialization::StreamingContext m_streamingContext_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates_ = {}) noexcept : m_streamingContext{m_streamingContext_}, m_serializedStates{m_serializedStates_} {}
     // Get instance field reference: private System.Runtime.Serialization.StreamingContext m_streamingContext
     System::Runtime::Serialization::StreamingContext& dyn_m_streamingContext();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Object> m_serializedStates

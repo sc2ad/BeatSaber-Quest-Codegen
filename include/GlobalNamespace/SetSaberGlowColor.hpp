@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberType saberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
-    // Creating value type constructor for type: SetSaberGlowColor
-    SetSaberGlowColor(GlobalNamespace::SaberTypeObject* saberTypeObject_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, GlobalNamespace::SaberType saberType_ = {}) noexcept : saberTypeObject{saberTypeObject_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_}, materialPropertyBlock{materialPropertyBlock_}, saberType{saberType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saberTypeObject

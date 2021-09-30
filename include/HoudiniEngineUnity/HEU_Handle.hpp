@@ -158,8 +158,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_TransformEuler convertedTransformEuler;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_TransformEuler) == 0x28);
-    // Creating value type constructor for type: HEU_Handle
-    HEU_Handle(::Il2CppString* handleName_ = {}, HoudiniEngineUnity::HEU_Handle::HEU_HandleType handleType_ = {}, int handleIndex_ = {}, HoudiniEngineUnity::HEU_HandleParamBinding* handleParamTranslateBinding_ = {}, HoudiniEngineUnity::HEU_HandleParamBinding* handleParamRotateBinding_ = {}, HoudiniEngineUnity::HEU_HandleParamBinding* handleParamScaleBinding_ = {}, UnityEngine::Vector3 handlePosition_ = {}, UnityEngine::Quaternion handleRotation_ = {}, UnityEngine::Vector3 handleScale_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}, HoudiniEngineUnity::HAPI_XYZOrder xyzOrder_ = {}, HoudiniEngineUnity::HAPI_TransformEuler convertedTransformEuler_ = {}) noexcept : handleName{handleName_}, handleType{handleType_}, handleIndex{handleIndex_}, handleParamTranslateBinding{handleParamTranslateBinding_}, handleParamRotateBinding{handleParamRotateBinding_}, handleParamScaleBinding{handleParamScaleBinding_}, handlePosition{handlePosition_}, handleRotation{handleRotation_}, handleScale{handleScale_}, rstOrder{rstOrder_}, xyzOrder{xyzOrder_}, convertedTransformEuler{convertedTransformEuler_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Handle*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Handle*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Handle*>*>(this);

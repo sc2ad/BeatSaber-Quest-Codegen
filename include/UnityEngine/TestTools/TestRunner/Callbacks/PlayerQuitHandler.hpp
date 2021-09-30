@@ -34,8 +34,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerQuitHandler : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: PlayerQuitHandler
-    PlayerQuitHandler() noexcept {}
     // public System.Void Start()
     // Offset: 0x1672B60
     void Start();

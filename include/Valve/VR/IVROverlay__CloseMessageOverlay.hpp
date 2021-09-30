@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6370
   class IVROverlay::_CloseMessageOverlay : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _CloseMessageOverlay
-    _CloseMessageOverlay() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B3B0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

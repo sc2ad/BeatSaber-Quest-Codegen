@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   template<typename T>
   class IConnectionInitParams_1 {
     public:
-    // Creating value type constructor for type: IConnectionInitParams_1
-    IConnectionInitParams_1() noexcept {}
   }; // IConnectionInitParams`1
   // Could not write size check! Type: IConnectionInitParams`1 is generic, or has no fields that are valid for size checks!
 }

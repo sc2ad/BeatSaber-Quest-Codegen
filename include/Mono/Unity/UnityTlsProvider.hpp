@@ -60,8 +60,6 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTlsProvider : public Mono::Security::Interface::MonoTlsProvider {
     public:
-    // Creating value type constructor for type: UnityTlsProvider
-    UnityTlsProvider() noexcept {}
     // public override System.String get_Name()
     // Offset: 0x1A1BAC0
     // Implemented from: Mono.Security.Interface.MonoTlsProvider

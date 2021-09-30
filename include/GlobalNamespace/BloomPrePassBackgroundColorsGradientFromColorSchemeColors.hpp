@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentColorManager*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundColorsGradientFromColorSchemeColors
-    BloomPrePassBackgroundColorsGradientFromColorSchemeColors(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*> elements_ = {}, GlobalNamespace::EnvironmentColorManager* colorManager_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, elements{elements_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient

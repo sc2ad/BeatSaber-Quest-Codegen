@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     int numberOfClearedMissions;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CampaignProgressModel
-    CampaignProgressModel(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* missionIds_ = {}, ::Il2CppString* finalMissionId_ = {}, bool numberOfClearedMissionsDirty_ = {}, int numberOfClearedMissions_ = {}) noexcept : playerDataModel{playerDataModel_}, missionIds{missionIds_}, finalMissionId{finalMissionId_}, numberOfClearedMissionsDirty{numberOfClearedMissionsDirty_}, numberOfClearedMissions{numberOfClearedMissions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerDataModel _playerDataModel

@@ -27,8 +27,6 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlayableAsset {
     public:
-    // Creating value type constructor for type: IPlayableAsset
-    IPlayableAsset() noexcept {}
     // public System.Double get_duration()
     // Offset: 0xFFFFFFFF
     double get_duration();

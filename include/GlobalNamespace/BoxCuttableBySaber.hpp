@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BoxCuttableBySaber
-    BoxCuttableBySaber(UnityEngine::BoxCollider* collider_ = {}, bool canBeCut_ = {}, float radius_ = {}) noexcept : collider{collider_}, canBeCut{canBeCut_}, radius{radius_} {}
     // Get instance field reference: private UnityEngine.BoxCollider _collider
     UnityEngine::BoxCollider*& dyn__collider();
     // Get instance field reference: private System.Boolean _canBeCut

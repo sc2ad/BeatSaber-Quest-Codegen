@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     bool firstUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NoteDebrisRigidbodyPhysics
-    NoteDebrisRigidbodyPhysics(UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::NoteDebrisSimplePhysics* simplePhysics_ = {}, bool firstUpdate_ = {}) noexcept : rigidbody{rigidbody_}, simplePhysics{simplePhysics_}, firstUpdate{firstUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Rigidbody _rigidbody

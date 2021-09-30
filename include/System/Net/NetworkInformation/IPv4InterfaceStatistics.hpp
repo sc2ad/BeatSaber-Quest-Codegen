@@ -18,8 +18,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPv4InterfaceStatistics : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IPv4InterfaceStatistics
-    IPv4InterfaceStatistics() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x164593C
     // Implemented from: System.Object

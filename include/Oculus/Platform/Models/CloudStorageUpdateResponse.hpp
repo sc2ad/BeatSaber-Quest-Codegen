@@ -48,8 +48,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* VersionHandle;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CloudStorageUpdateResponse
-    CloudStorageUpdateResponse(::Il2CppString* Bucket_ = {}, ::Il2CppString* Key_ = {}, Oculus::Platform::CloudStorageUpdateStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Key{Key_}, Status{Status_}, VersionHandle{VersionHandle_} {}
     // Get instance field reference: public readonly System.String Bucket
     ::Il2CppString*& dyn_Bucket();
     // Get instance field reference: public readonly System.String Key

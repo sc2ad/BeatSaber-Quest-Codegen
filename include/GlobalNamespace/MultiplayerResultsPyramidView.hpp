@@ -106,8 +106,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar* anyResultsAvatar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
-    // Creating value type constructor for type: MultiplayerResultsPyramidView
-    MultiplayerResultsPyramidView(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, ::ArrayWrapper<UnityEngine::Transform*> spawnPoints_ = {}, UnityEngine::Transform* spawnPointsParent_ = {}, float evenCountOffset_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* avatarsFactory_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* avatarsDictionary_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> resultAvatarDirectors_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> badgeTimelines_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar* anyResultsAvatar_ = {}) noexcept : multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, spawnPoints{spawnPoints_}, spawnPointsParent{spawnPointsParent_}, evenCountOffset{evenCountOffset_}, avatarsFactory{avatarsFactory_}, avatarsDictionary{avatarsDictionary_}, resultAvatarDirectors{resultAvatarDirectors_}, badgeTimelines{badgeTimelines_}, anyResultsAvatar{anyResultsAvatar_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition

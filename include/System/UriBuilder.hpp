@@ -95,8 +95,6 @@ namespace System {
     ::Il2CppString* username;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UriBuilder
-    UriBuilder(bool changed_ = {}, ::Il2CppString* fragment_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* password_ = {}, ::Il2CppString* path_ = {}, int port_ = {}, ::Il2CppString* query_ = {}, ::Il2CppString* scheme_ = {}, ::Il2CppString* schemeDelimiter_ = {}, System::Uri* uri_ = {}, ::Il2CppString* username_ = {}) noexcept : changed{changed_}, fragment{fragment_}, host{host_}, password{password_}, path{path_}, port{port_}, query{query_}, scheme{scheme_}, schemeDelimiter{schemeDelimiter_}, uri{uri_}, username{username_} {}
     // Get instance field reference: private System.Boolean _changed
     bool& dyn__changed();
     // Get instance field reference: private System.String _fragment

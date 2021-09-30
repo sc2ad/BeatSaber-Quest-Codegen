@@ -94,7 +94,6 @@ namespace GlobalNamespace {
       void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
       // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
       // Offset: 0x12BBA3C
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc)
     }; // PlayerStatisticsViewController/StatsScopeData
     #pragma pack(pop)
@@ -193,8 +192,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData> statsScopeDatas;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>) == 0x8);
-    // Creating value type constructor for type: PlayerStatisticsViewController
-    PlayerStatisticsViewController(HMUI::TextSegmentedControl* statsScopeSegmentedControl_ = {}, TMPro::TextMeshProUGUI* playedLevelsCountText_ = {}, TMPro::TextMeshProUGUI* clearedLevelsCountText_ = {}, TMPro::TextMeshProUGUI* failedLevelsCountText_ = {}, TMPro::TextMeshProUGUI* timePlayedText_ = {}, TMPro::TextMeshProUGUI* goodCutsCountText_ = {}, TMPro::TextMeshProUGUI* badCutsCountCountText_ = {}, TMPro::TextMeshProUGUI* missedCountText_ = {}, TMPro::TextMeshProUGUI* averageCutScoreText_ = {}, TMPro::TextMeshProUGUI* totalScoreText_ = {}, TMPro::TextMeshProUGUI* fullComboCountText_ = {}, TMPro::TextMeshProUGUI* handDistanceTravelledText_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, ::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData> statsScopeDatas_ = {}) noexcept : statsScopeSegmentedControl{statsScopeSegmentedControl_}, playedLevelsCountText{playedLevelsCountText_}, clearedLevelsCountText{clearedLevelsCountText_}, failedLevelsCountText{failedLevelsCountText_}, timePlayedText{timePlayedText_}, goodCutsCountText{goodCutsCountText_}, badCutsCountCountText{badCutsCountCountText_}, missedCountText{missedCountText_}, averageCutScoreText{averageCutScoreText_}, totalScoreText{totalScoreText_}, fullComboCountText{fullComboCountText_}, handDistanceTravelledText{handDistanceTravelledText_}, playerDataModel{playerDataModel_}, appStaticSettings{appStaticSettings_}, statsScopeDatas{statsScopeDatas_} {}
     // Get instance field reference: private HMUI.TextSegmentedControl _statsScopeSegmentedControl
     HMUI::TextSegmentedControl*& dyn__statsScopeSegmentedControl();
     // Get instance field reference: private TMPro.TextMeshProUGUI _playedLevelsCountText

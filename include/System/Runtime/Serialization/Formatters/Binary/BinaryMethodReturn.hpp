@@ -76,8 +76,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Type* returnType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: BinaryMethodReturn
-    BinaryMethodReturn(::Il2CppObject* returnValue_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}, ::Il2CppObject* callContext_ = {}, ::ArrayWrapper<System::Type*> argTypes_ = {}, bool bArgsPrimitive_ = {}, System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum_ = {}, System::Type* returnType_ = {}) noexcept : returnValue{returnValue_}, args{args_}, callContext{callContext_}, argTypes{argTypes_}, bArgsPrimitive{bArgsPrimitive_}, messageEnum{messageEnum_}, returnType{returnType_} {}
     // Get static field: static private System.Object instanceOfVoid
     static ::Il2CppObject* _get_instanceOfVoid();
     // Set static field: static private System.Object instanceOfVoid

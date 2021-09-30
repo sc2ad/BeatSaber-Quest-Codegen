@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     Tweening::ColorTween* tween;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
-    // Creating value type constructor for type: LightsAnimator
-    LightsAnimator(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::ColorTween* tween_ = {}) noexcept : lights{lights_}, directionalLights{directionalLights_}, tweeningManager{tweeningManager_}, tween{tween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TubeBloomPrePassLight[] _lights

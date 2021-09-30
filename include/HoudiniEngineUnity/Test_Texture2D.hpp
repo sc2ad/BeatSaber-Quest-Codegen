@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Texture2D* self;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
-    // Creating value type constructor for type: Test_Texture2D
-    Test_Texture2D(UnityEngine::Texture2D* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Texture2D*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Texture2D*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Texture2D*>*>(this);

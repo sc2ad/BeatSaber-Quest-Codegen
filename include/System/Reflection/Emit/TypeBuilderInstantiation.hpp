@@ -22,8 +22,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeBuilderInstantiation : public System::Reflection::TypeInfo {
     public:
-    // Creating value type constructor for type: TypeBuilderInstantiation
-    TypeBuilderInstantiation() noexcept {}
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
     // Offset: 0x1EA81A8
     static System::Type* MakeGenericType(System::Type* type, ::ArrayWrapper<System::Type*> typeArguments);

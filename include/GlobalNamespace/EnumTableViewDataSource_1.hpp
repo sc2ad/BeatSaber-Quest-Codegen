@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<T> values;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<T>) == 0x8);
-    // Creating value type constructor for type: EnumTableViewDataSource_1
-    EnumTableViewDataSource_1(GlobalNamespace::TextOnlyTableCell* cellPrefab_ = {}, float cellHeight_ = {}, ::ArrayWrapper<T> values_ = {}) noexcept : cellPrefab{cellPrefab_}, cellHeight{cellHeight_}, values{values_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

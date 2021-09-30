@@ -22,8 +22,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32NetworkInterface : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Win32NetworkInterface
-    Win32NetworkInterface() noexcept {}
     // Get static field: static private System.Net.NetworkInformation.Win32_FIXED_INFO fixedInfo
     static System::Net::NetworkInformation::Win32_FIXED_INFO _get_fixedInfo();
     // Set static field: static private System.Net.NetworkInformation.Win32_FIXED_INFO fixedInfo

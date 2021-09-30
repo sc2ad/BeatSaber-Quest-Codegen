@@ -42,8 +42,6 @@ namespace System::IO {
     System::IO::SearchPattern2::Op* Next;
     // Field size check
     static_assert(sizeof(System::IO::SearchPattern2::Op*) == 0x8);
-    // Creating value type constructor for type: Op
-    Op(System::IO::SearchPattern2::OpCode Code_ = {}, ::Il2CppString* Argument_ = {}, System::IO::SearchPattern2::Op* Next_ = {}) noexcept : Code{Code_}, Argument{Argument_}, Next{Next_} {}
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.OpCode Code
     System::IO::SearchPattern2::OpCode& dyn_Code();
     // Get instance field reference: public System.String Argument

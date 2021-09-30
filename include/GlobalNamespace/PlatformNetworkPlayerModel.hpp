@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlatformNetworkPlayerModel::CreatePartyConfig
     class CreatePartyConfig;
-    // Creating value type constructor for type: PlatformNetworkPlayerModel
-    PlatformNetworkPlayerModel() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_friends()
     // Offset: 0x12B39BC
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_friends();

@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AppInit::AppStartType $startType$5__2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppInit::AppStartType) == 0x4);
-    // Creating value type constructor for type: $StartCoroutine$d__8
-    $StartCoroutine$d__8(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::AppInit* $$4__this_ = {}, GlobalNamespace::AppInit::AppStartType $startType$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $startType$5__2{$startType$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

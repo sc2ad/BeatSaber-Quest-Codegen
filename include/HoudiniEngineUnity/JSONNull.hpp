@@ -34,8 +34,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSONNull : public HoudiniEngineUnity::JSONNode {
     public:
-    // Creating value type constructor for type: JSONNull
-    JSONNull() noexcept {}
     // Get static field: static private HoudiniEngineUnity.JSONNull m_StaticInstance
     static HoudiniEngineUnity::JSONNull* _get_m_StaticInstance();
     // Set static field: static private HoudiniEngineUnity.JSONNull m_StaticInstance

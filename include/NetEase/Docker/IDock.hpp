@@ -36,8 +36,6 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDock {
     public:
-    // Creating value type constructor for type: IDock
-    IDock() noexcept {}
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
     // Offset: 0xFFFFFFFF
     void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);

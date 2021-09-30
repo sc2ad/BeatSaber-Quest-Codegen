@@ -73,8 +73,6 @@ namespace System {
       int current;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // Creating value type constructor for type: ArraySegmentEnumerator
-      ArraySegmentEnumerator(::ArrayWrapper<T> array_ = {}, int start_ = {}, int end_ = {}, int current_ = {}) noexcept : array{array_}, start{start_}, end{end_}, current{current_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<T>
       operator System::Collections::Generic::IEnumerator_1<T>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<T>*>(this);
@@ -179,7 +177,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ArraySegment_1
-    constexpr ArraySegment_1(::ArrayWrapper<T> array_ = {}, int offset_ = {}, int count_ = {}) noexcept : array{array_}, offset{offset_}, count{count_} {}
+    constexpr ArraySegment_1(::ArrayWrapper<T> array_ = {nullptr}, int offset_ = {}, int count_ = {}) noexcept : array{array_}, offset{offset_}, count{count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -267,7 +265,6 @@ namespace System {
     }
     // public System.Void .ctor(T[] array)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ArraySegment_1(::ArrayWrapper<T> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySegment_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
@@ -275,7 +272,6 @@ namespace System {
     }
     // public System.Void .ctor(T[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ArraySegment_1(::ArrayWrapper<T> array, int offset, int count)
     // public System.Boolean Equals(System.ArraySegment`1<T> obj)
     // Offset: 0xFFFFFFFF

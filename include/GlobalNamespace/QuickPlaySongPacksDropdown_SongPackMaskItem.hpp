@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask songPackMask;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
-    // Creating value type constructor for type: SongPackMaskItem
-    SongPackMaskItem(::Il2CppString* serializedName_ = {}, ::Il2CppString* localizedName_ = {}, int order_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}) noexcept : serializedName{serializedName_}, localizedName{localizedName_}, order{order_}, songPackMask{songPackMask_} {}
     // Get instance field reference: public System.String serializedName
     ::Il2CppString*& dyn_serializedName();
     // Get instance field reference: public System.String localizedName

@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     ::Il2CppString* achievementId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AchievementSO
-    AchievementSO(::Il2CppString* achievementId_ = {}) noexcept : achievementId{achievementId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _achievementId

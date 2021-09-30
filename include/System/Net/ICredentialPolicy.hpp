@@ -13,8 +13,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICredentialPolicy {
     public:
-    // Creating value type constructor for type: ICredentialPolicy
-    ICredentialPolicy() noexcept {}
   }; // System.Net.ICredentialPolicy
   #pragma pack(pop)
 }

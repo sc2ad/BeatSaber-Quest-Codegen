@@ -14,8 +14,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Easing : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Easing
-    Easing() noexcept {}
     // static public System.Single Linear(System.Single t)
     // Offset: 0x137D668
     static float Linear(float t);

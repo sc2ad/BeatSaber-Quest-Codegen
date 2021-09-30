@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     float chanceAggregated;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: DeterministicHitChanceScoreCalculator
-    DeterministicHitChanceScoreCalculator(float hitChance_ = {}, float chanceAggregated_ = {}) noexcept : hitChance{hitChance_}, chanceAggregated{chanceAggregated_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMockPlayerScoreCalculator
     operator GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockPlayerScoreCalculator*>(this);

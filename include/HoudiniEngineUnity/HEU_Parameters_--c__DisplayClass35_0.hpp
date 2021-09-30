@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
     System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>* $$9__0;
     // Field size check
     static_assert(sizeof(System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass35_0
-    $$c__DisplayClass35_0(int parentID_ = {}, System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>* $$9__0_ = {}) noexcept : parentID{parentID_}, $$9__0{$$9__0_} {}
     // Get instance field reference: public System.Int32 parentID
     int& dyn_parentID();
     // Get instance field reference: public System.Predicate`1<HoudiniEngineUnity.HAPI_ParmInfo> <>9__0

@@ -173,8 +173,6 @@ namespace TMPro {
     bool validTemplate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TMP_Dropdown
-    TMP_Dropdown(UnityEngine::RectTransform* m_Template_ = {}, TMPro::TMP_Text* m_CaptionText_ = {}, UnityEngine::UI::Image* m_CaptionImage_ = {}, TMPro::TMP_Text* m_ItemText_ = {}, UnityEngine::UI::Image* m_ItemImage_ = {}, int m_Value_ = {}, TMPro::TMP_Dropdown::OptionDataList* m_Options_ = {}, TMPro::TMP_Dropdown::DropdownEvent* m_OnValueChanged_ = {}, UnityEngine::GameObject* m_Dropdown_ = {}, UnityEngine::GameObject* m_Blocker_ = {}, System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>* m_Items_ = {}, TMPro::TweenRunner_1<TMPro::FloatTween>* m_AlphaTweenRunner_ = {}, bool validTemplate_ = {}) noexcept : m_Template{m_Template_}, m_CaptionText{m_CaptionText_}, m_CaptionImage{m_CaptionImage_}, m_ItemText{m_ItemText_}, m_ItemImage{m_ItemImage_}, m_Value{m_Value_}, m_Options{m_Options_}, m_OnValueChanged{m_OnValueChanged_}, m_Dropdown{m_Dropdown_}, m_Blocker{m_Blocker_}, m_Items{m_Items_}, m_AlphaTweenRunner{m_AlphaTweenRunner_}, validTemplate{validTemplate_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

@@ -89,8 +89,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* comparator;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*) == 0x8);
-    // Creating value type constructor for type: DTSweepContext
-    DTSweepContext(float ALPHA_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* Front_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Head_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Tail_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* Basin_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* EdgeEvent_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* comparator_ = {}) noexcept : ALPHA{ALPHA_}, Front{Front_}, Head{Head_}, Tail{Tail_}, Basin{Basin_}, EdgeEvent{EdgeEvent_}, comparator{comparator_} {}
     // Get instance field reference: private readonly System.Single ALPHA
     float& dyn_ALPHA();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFront Front

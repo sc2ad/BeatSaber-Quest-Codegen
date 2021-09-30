@@ -68,8 +68,6 @@ namespace UnityEngine::ResourceManagement::Util {
     System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>* m_cache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>*) == 0x8);
-    // Creating value type constructor for type: LRUCacheAllocationStrategy
-    LRUCacheAllocationStrategy(int m_poolMaxSize_ = {}, int m_poolInitialCapacity_ = {}, int m_poolCacheMaxSize_ = {}, System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppObject*>*>* m_poolCache_ = {}, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>* m_cache_ = {}) noexcept : m_poolMaxSize{m_poolMaxSize_}, m_poolInitialCapacity{m_poolInitialCapacity_}, m_poolCacheMaxSize{m_poolCacheMaxSize_}, m_poolCache{m_poolCache_}, m_cache{m_cache_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::Util::IAllocationStrategy
     operator UnityEngine::ResourceManagement::Util::IAllocationStrategy() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);

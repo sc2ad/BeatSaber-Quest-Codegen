@@ -28,8 +28,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class GenericEqualityComparer_1 : public System::Collections::Generic::EqualityComparer_1<T> {
     public:
-    // Creating value type constructor for type: GenericEqualityComparer_1
-    GenericEqualityComparer_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1

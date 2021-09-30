@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB66B8
   class IVRDriverManager::_GetDriverCount : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetDriverCount
-    _GetDriverCount() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B1EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

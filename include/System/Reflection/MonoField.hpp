@@ -85,8 +85,6 @@ namespace System::Reflection {
     System::Reflection::FieldAttributes attrs;
     // Field size check
     static_assert(sizeof(System::Reflection::FieldAttributes) == 0x4);
-    // Creating value type constructor for type: MonoField
-    MonoField(System::IntPtr klass_ = {}, System::RuntimeFieldHandle fhandle_ = {}, ::Il2CppString* name_ = {}, System::Type* type_ = {}, System::Reflection::FieldAttributes attrs_ = {}) noexcept : klass{klass_}, fhandle{fhandle_}, name{name_}, type{type_}, attrs{attrs_} {}
     // Get instance field reference: System.IntPtr klass
     System::IntPtr& dyn_klass();
     // Get instance field reference: System.RuntimeFieldHandle fhandle

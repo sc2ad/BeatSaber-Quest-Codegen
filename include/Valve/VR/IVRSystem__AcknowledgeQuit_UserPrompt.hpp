@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB53E4
   class IVRSystem::_AcknowledgeQuit_UserPrompt : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _AcknowledgeQuit_UserPrompt
-    _AcknowledgeQuit_UserPrompt() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED9DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

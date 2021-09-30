@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OffsetDirection offsetDirection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OffsetDirection) == 0x4);
-    // Creating value type constructor for type: WaypointData
-    WaypointData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::NoteLineLayer lineLayer_ = {}, GlobalNamespace::OffsetDirection offsetDirection_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, lineLayer{lineLayer_}, offsetDirection{offsetDirection_} {}
     // Creating interface conversion operator: operator GlobalNamespace::BeatmapSaveData::ITime
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);

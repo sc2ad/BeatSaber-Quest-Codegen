@@ -117,8 +117,6 @@ namespace System::Net {
     System::Net::AutoWebProxyScriptEngine* m_ScriptEngine;
     // Field size check
     static_assert(sizeof(System::Net::AutoWebProxyScriptEngine*) == 0x8);
-    // Creating value type constructor for type: WebProxy
-    WebProxy(bool UseRegistry_ = {}, bool BypassOnLocal_ = {}, bool m_EnableAutoproxy_ = {}, System::Uri* ProxyAddress_ = {}, System::Collections::ArrayList* BypassList_ = {}, System::Net::ICredentials* Credentials_ = {}, ::ArrayWrapper<System::Text::RegularExpressions::Regex*> RegExBypassList_ = {}, System::Collections::Hashtable* ProxyHostAddresses_ = {}, System::Net::AutoWebProxyScriptEngine* m_ScriptEngine_ = {}) noexcept : UseRegistry{UseRegistry_}, BypassOnLocal{BypassOnLocal_}, m_EnableAutoproxy{m_EnableAutoproxy_}, ProxyAddress{ProxyAddress_}, BypassList{BypassList_}, Credentials{Credentials_}, RegExBypassList{RegExBypassList_}, ProxyHostAddresses{ProxyHostAddresses_}, m_ScriptEngine{m_ScriptEngine_} {}
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);

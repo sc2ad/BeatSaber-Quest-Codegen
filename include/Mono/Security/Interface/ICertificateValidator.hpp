@@ -32,8 +32,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICertificateValidator {
     public:
-    // Creating value type constructor for type: ICertificateValidator
-    ICertificateValidator() noexcept {}
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
     // Offset: 0xFFFFFFFF
     Mono::Security::Interface::MonoTlsSettings* get_Settings();

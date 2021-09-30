@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAeadCipher {
     public:
-    // Creating value type constructor for type: IAeadCipher
-    IAeadCipher() noexcept {}
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);

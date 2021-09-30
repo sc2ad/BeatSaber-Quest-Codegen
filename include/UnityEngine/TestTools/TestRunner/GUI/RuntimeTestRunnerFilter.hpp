@@ -84,8 +84,6 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     bool synchronousOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RuntimeTestRunnerFilter
-    RuntimeTestRunnerFilter(::ArrayWrapper<::Il2CppString*> assemblyNames_ = {}, ::ArrayWrapper<::Il2CppString*> groupNames_ = {}, ::ArrayWrapper<::Il2CppString*> categoryNames_ = {}, ::ArrayWrapper<::Il2CppString*> testNames_ = {}, bool synchronousOnly_ = {}) noexcept : assemblyNames{assemblyNames_}, groupNames{groupNames_}, categoryNames{categoryNames_}, testNames{testNames_}, synchronousOnly{synchronousOnly_} {}
     // Get instance field reference: public System.String[] assemblyNames
     ::ArrayWrapper<::Il2CppString*>& dyn_assemblyNames();
     // Get instance field reference: public System.String[] groupNames

@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayer* selectedServer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
-    // Creating value type constructor for type: GameServersListTableView
-    GameServersListTableView(GlobalNamespace::TableViewWithDetailCell* tableView_ = {}, GlobalNamespace::GameServerListTableCell* gameServerListCellPrefab_ = {}, GlobalNamespace::GameServerListDetailTableCell* gameServerDetailCellPrefab_ = {}, Zenject::DiContainer* container_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* joinButtonPressedEvent_ = {}, bool isInitialized_ = {}, ::ArrayWrapper<GlobalNamespace::INetworkPlayer*> gamesList_ = {}, GlobalNamespace::INetworkPlayer* selectedServer_ = {}) noexcept : tableView{tableView_}, gameServerListCellPrefab{gameServerListCellPrefab_}, gameServerDetailCellPrefab{gameServerDetailCellPrefab_}, container{container_}, joinButtonPressedEvent{joinButtonPressedEvent_}, isInitialized{isInitialized_}, gamesList{gamesList_}, selectedServer{selectedServer_} {}
     // Creating interface conversion operator: operator GlobalNamespace::TableViewWithDetailCell::IDataSource
     operator GlobalNamespace::TableViewWithDetailCell::IDataSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::TableViewWithDetailCell::IDataSource*>(this);

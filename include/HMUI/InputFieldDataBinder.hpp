@@ -74,8 +74,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>* bindings;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*) == 0x8);
-    // Creating value type constructor for type: InputFieldDataBinder
-    InputFieldDataBinder(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>* bindings_ = {}) noexcept : bindings{bindings_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*
     constexpr operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*() const noexcept {
       return bindings;

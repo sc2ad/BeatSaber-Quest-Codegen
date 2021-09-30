@@ -32,8 +32,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnexceptionalStreamWriter : public System::IO::StreamWriter {
     public:
-    // Creating value type constructor for type: UnexceptionalStreamWriter
-    UnexceptionalStreamWriter() noexcept {}
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     // Offset: 0x1A08264
     // Implemented from: System.IO.StreamWriter

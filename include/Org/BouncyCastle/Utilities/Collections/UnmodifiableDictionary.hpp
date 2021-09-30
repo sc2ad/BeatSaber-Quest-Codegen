@@ -36,8 +36,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [DefaultMemberAttribute] Offset: EC7F6C
   class UnmodifiableDictionary : public ::Il2CppObject/*, public System::Collections::IDictionary*/ {
     public:
-    // Creating value type constructor for type: UnmodifiableDictionary
-    UnmodifiableDictionary() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: BloomPrePassBackgroundColor
-    BloomPrePassBackgroundColor(float intensity_ = {}, float minAlpha_ = {}, float grayscaleFactor_ = {}, UnityEngine::Shader* shader_ = {}, UnityEngine::Color color_ = {}) noexcept : intensity{intensity_}, minAlpha{minAlpha_}, grayscaleFactor{grayscaleFactor_}, shader{shader_}, color{color_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE1CC
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();

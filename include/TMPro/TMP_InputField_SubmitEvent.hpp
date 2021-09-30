@@ -21,8 +21,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::SubmitEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: SubmitEvent
-    SubmitEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x121DEC0
     // Implemented from: UnityEngine.Events.UnityEvent`1

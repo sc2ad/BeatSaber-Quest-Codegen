@@ -92,11 +92,9 @@ namespace GlobalNamespace {
     GlobalNamespace::BitMask128& dyn__bloomFilter();
     // private System.Void .ctor(BitMask128 bloomFilter)
     // Offset: 0x18D3508
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter)
     // public System.Void .ctor(System.String state)
     // Offset: 0x18D3510
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PlayerStateHash(::Il2CppString* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state)})));
@@ -104,7 +102,6 @@ namespace GlobalNamespace {
     }
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> stateHashSet)
     // Offset: 0x18D357C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateHashSet)})));

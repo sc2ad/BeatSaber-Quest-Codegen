@@ -58,8 +58,6 @@ namespace UnityEngine::AddressableAssets {
     ::Il2CppString* m_AtlasSpriteProviderId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DynamicResourceLocator
-    DynamicResourceLocator(UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, ::Il2CppString* m_AtlasSpriteProviderId_ = {}) noexcept : m_Addressables{m_Addressables_}, m_AtlasSpriteProviderId{m_AtlasSpriteProviderId_} {}
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator
     operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);

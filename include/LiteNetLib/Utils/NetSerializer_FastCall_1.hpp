@@ -40,8 +40,6 @@ namespace LiteNetLib::Utils {
     bool IsArray;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FastCall_1
-    FastCall_1(bool IsArray_ = {}) noexcept : IsArray{IsArray_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return IsArray;

@@ -61,8 +61,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: InstanceProvider
-    InstanceProvider(::Il2CppObject* instance_ = {}, System::Type* instanceType_ = {}, Zenject::DiContainer* container_ = {}) noexcept : instance{instance_}, instanceType{instanceType_}, container{container_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

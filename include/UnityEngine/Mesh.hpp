@@ -72,8 +72,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E715EC
   class Mesh : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Mesh
-    Mesh() noexcept {}
     // public UnityEngine.Rendering.IndexFormat get_indexFormat()
     // Offset: 0x1DA7294
     UnityEngine::Rendering::IndexFormat get_indexFormat();

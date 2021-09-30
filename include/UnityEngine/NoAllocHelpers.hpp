@@ -32,8 +32,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E7298C
   class NoAllocHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NoAllocHelpers
-    NoAllocHelpers() noexcept {}
     // static public System.Void ResizeList(System.Collections.Generic.List`1<T> list, System.Int32 size)
     // Offset: 0xFFFFFFFF
     template<class T>

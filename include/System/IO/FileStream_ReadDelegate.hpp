@@ -31,8 +31,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileStream::ReadDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ReadDelegate
-    ReadDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1AB9680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

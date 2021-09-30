@@ -31,8 +31,6 @@ namespace Mono {
     struct HandleStackMark;
     // Nested type: Mono::RuntimeStructs::MonoError
     struct MonoError;
-    // Creating value type constructor for type: RuntimeStructs
-    RuntimeStructs() noexcept {}
   }; // Mono.RuntimeStructs
   #pragma pack(pop)
 }

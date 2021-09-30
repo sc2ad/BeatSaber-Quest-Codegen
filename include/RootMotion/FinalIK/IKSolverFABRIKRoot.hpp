@@ -71,8 +71,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 rootDefaultPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: IKSolverFABRIKRoot
-    IKSolverFABRIKRoot(int iterations_ = {}, float rootPin_ = {}, ::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*> chains_ = {}, bool zeroWeightApplied_ = {}, ::ArrayWrapper<bool> isRoot_ = {}, UnityEngine::Vector3 rootDefaultPosition_ = {}) noexcept : iterations{iterations_}, rootPin{rootPin_}, chains{chains_}, zeroWeightApplied{zeroWeightApplied_}, isRoot{isRoot_}, rootDefaultPosition{rootDefaultPosition_} {}
     // Get instance field reference: public System.Int32 iterations
     int& dyn_iterations();
     // Get instance field reference: public System.Single rootPin

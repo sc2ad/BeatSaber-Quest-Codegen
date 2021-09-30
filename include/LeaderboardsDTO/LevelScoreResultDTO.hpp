@@ -108,8 +108,6 @@ namespace LeaderboardsDTO {
     ::Il2CppString* extraDataBase64;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LevelScoreResultDTO
-    LevelScoreResultDTO(::Il2CppString* guid_ = {}, ::Il2CppString* guids_ = {}, ::Il2CppString* guidInstance_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : guid{guid_}, guids{guids_}, guidInstance{guidInstance_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, leaderboardId{leaderboardId_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // Get instance field reference: public System.String guid
     ::Il2CppString*& dyn_guid();
     // Get instance field reference: public System.String guids

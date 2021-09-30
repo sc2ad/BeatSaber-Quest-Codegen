@@ -28,8 +28,6 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EBFC68
   class DownloadHandlerBuffer : public UnityEngine::Networking::DownloadHandler {
     public:
-    // Creating value type constructor for type: DownloadHandlerBuffer
-    DownloadHandlerBuffer() noexcept {}
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerBuffer obj)
     // Offset: 0x25FA034
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerBuffer* obj);

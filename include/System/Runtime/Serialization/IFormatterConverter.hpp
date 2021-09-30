@@ -27,8 +27,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F6B8
   class IFormatterConverter {
     public:
-    // Creating value type constructor for type: IFormatterConverter
-    IFormatterConverter() noexcept {}
     // public System.Object Convert(System.Object value, System.Type type)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Convert(::Il2CppObject* value, System::Type* type);

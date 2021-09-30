@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLeaderboardPanelController
-    MultiplayerLeaderboardPanelController(::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*> items_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}) noexcept : items{items_}, scoreProvider{scoreProvider_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerLeaderboardPanelItem[] _items

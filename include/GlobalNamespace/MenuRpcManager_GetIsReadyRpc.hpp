@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::GetIsReadyRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
-    // Creating value type constructor for type: GetIsReadyRpc
-    GetIsReadyRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C88D4
     // Implemented from: RemoteProcedureCall

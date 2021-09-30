@@ -29,8 +29,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X962NamedCurves::C2tnb191v3Holder : public Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
     public:
-    // Creating value type constructor for type: C2tnb191v3Holder
-    C2tnb191v3Holder() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance

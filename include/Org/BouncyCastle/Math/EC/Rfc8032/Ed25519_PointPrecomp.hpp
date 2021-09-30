@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     ::ArrayWrapper<int> xyd;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: PointPrecomp
-    PointPrecomp(::ArrayWrapper<int> ypx_h_ = {}, ::ArrayWrapper<int> ymx_h_ = {}, ::ArrayWrapper<int> xyd_ = {}) noexcept : ypx_h{ypx_h_}, ymx_h{ymx_h_}, xyd{xyd_} {}
     // Get instance field reference: System.Int32[] ypx_h
     ::ArrayWrapper<int>& dyn_ypx_h();
     // Get instance field reference: System.Int32[] ymx_h

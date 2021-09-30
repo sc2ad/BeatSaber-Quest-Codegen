@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 localPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: NoteFloorMovement
-    NoteFloorMovement(UnityEngine::Transform* rotatedObject_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, System::Action* floorMovementDidFinishEvent_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Vector3 endPos_ = {}, float moveDuration_ = {}, float startTime_ = {}, UnityEngine::Quaternion worldRotation_ = {}, UnityEngine::Quaternion inverseWorldRotation_ = {}, UnityEngine::Vector3 localPosition_ = {}) noexcept : rotatedObject{rotatedObject_}, playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, floorMovementDidFinishEvent{floorMovementDidFinishEvent_}, startPos{startPos_}, endPos{endPos_}, moveDuration{moveDuration_}, startTime{startTime_}, worldRotation{worldRotation_}, inverseWorldRotation{inverseWorldRotation_}, localPosition{localPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _rotatedObject

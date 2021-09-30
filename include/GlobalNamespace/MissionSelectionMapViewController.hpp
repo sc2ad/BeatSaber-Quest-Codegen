@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNode* selectedMissionNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNode*) == 0x8);
-    // Creating value type constructor for type: MissionSelectionMapViewController
-    MissionSelectionMapViewController(HMUI::ScrollView* mapScrollView_ = {}, GlobalNamespace::MissionNodeSelectionManager* missionNodeSelectionManager_ = {}, GlobalNamespace::MissionMapAnimationController* missionMapAnimationController_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel_ = {}, System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* didSelectMissionLevelEvent_ = {}, GlobalNamespace::MissionNode* selectedMissionNode_ = {}) noexcept : mapScrollView{mapScrollView_}, missionNodeSelectionManager{missionNodeSelectionManager_}, missionMapAnimationController{missionMapAnimationController_}, songPreviewPlayer{songPreviewPlayer_}, perceivedLoudnessPerLevelModel{perceivedLoudnessPerLevelModel_}, didSelectMissionLevelEvent{didSelectMissionLevelEvent_}, selectedMissionNode{selectedMissionNode_} {}
     // Get instance field reference: private HMUI.ScrollView _mapScrollView
     HMUI::ScrollView*& dyn__mapScrollView();
     // Get instance field reference: private MissionNodeSelectionManager _missionNodeSelectionManager

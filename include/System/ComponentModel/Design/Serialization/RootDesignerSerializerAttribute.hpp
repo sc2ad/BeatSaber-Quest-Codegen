@@ -42,8 +42,6 @@ namespace System::ComponentModel::Design::Serialization {
     ::Il2CppString* serializerBaseTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RootDesignerSerializerAttribute
-    RootDesignerSerializerAttribute(bool reloadable_ = {}, ::Il2CppString* serializerTypeName_ = {}, ::Il2CppString* serializerBaseTypeName_ = {}) noexcept : reloadable{reloadable_}, serializerTypeName{serializerTypeName_}, serializerBaseTypeName{serializerBaseTypeName_} {}
     // Get instance field reference: private System.Boolean reloadable
     bool& dyn_reloadable();
     // Get instance field reference: private System.String serializerTypeName

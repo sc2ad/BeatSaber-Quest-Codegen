@@ -53,8 +53,6 @@ namespace System::Text {
     int iSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: InternalEncoderBestFitFallbackBuffer
-    InternalEncoderBestFitFallbackBuffer(::Il2CppChar cBestFit_ = {}, System::Text::InternalEncoderBestFitFallback* oFallback_ = {}, int iCount_ = {}, int iSize_ = {}) noexcept : cBestFit{cBestFit_}, oFallback{oFallback_}, iCount{iCount_}, iSize{iSize_} {}
     // Get static field: static private System.Object s_InternalSyncObject
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject

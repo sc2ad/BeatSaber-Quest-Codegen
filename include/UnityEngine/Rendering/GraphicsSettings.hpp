@@ -30,8 +30,6 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: E74254
   class GraphicsSettings : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: GraphicsSettings
-    GraphicsSettings() noexcept {}
     // static public System.Boolean get_lightsUseLinearIntensity()
     // Offset: 0x1E08404
     static bool get_lightsUseLinearIntensity();

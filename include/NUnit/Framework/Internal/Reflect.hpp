@@ -45,8 +45,6 @@ namespace NUnit::Framework::Internal {
     class BaseTypesFirstComparer;
     // Nested type: NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
-    // Creating value type constructor for type: Reflect
-    Reflect() noexcept {}
     // Get static field: static private readonly System.Reflection.BindingFlags AllMembers
     static System::Reflection::BindingFlags _get_AllMembers();
     // Set static field: static private readonly System.Reflection.BindingFlags AllMembers

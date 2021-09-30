@@ -21,8 +21,6 @@ namespace Unity::Collections {
   template<typename T>
   class NativeArrayDebugView_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NativeArrayDebugView_1
-    NativeArrayDebugView_1() noexcept {}
   }; // Unity.Collections.NativeArrayDebugView`1
   // Could not write size check! Type: Unity.Collections.NativeArrayDebugView`1 is generic, or has no fields that are valid for size checks!
 }

@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
-    // Creating value type constructor for type: LobbyStateDataModel
-    LobbyStateDataModel(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* connectedPlayers_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>* connectedPlayersById_ = {}, GlobalNamespace::GameplayServerMode gameServerMode_ = {}, GlobalNamespace::DiscoveryPolicy discoveryPolicy_ = {}, System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent_ = {}, System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, connectedPlayers{connectedPlayers_}, connectedPlayersById{connectedPlayersById_}, gameServerMode{gameServerMode_}, discoveryPolicy{discoveryPolicy_}, playerConnectedEvent{playerConnectedEvent_}, playerDisconnectedEvent{playerDisconnectedEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

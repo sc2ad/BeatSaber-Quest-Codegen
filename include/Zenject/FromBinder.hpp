@@ -173,8 +173,6 @@ namespace Zenject {
     Zenject::BindStatement* BindStatement;
     // Field size check
     static_assert(sizeof(Zenject::BindStatement*) == 0x8);
-    // Creating value type constructor for type: FromBinder
-    FromBinder(Zenject::DiContainer* BindContainer_ = {}, Zenject::BindStatement* BindStatement_ = {}) noexcept : BindContainer{BindContainer_}, BindStatement{BindStatement_} {}
     // Get instance field reference: private Zenject.DiContainer <BindContainer>k__BackingField
     Zenject::DiContainer*& dyn_$BindContainer$k__BackingField();
     // Get instance field reference: private Zenject.BindStatement <BindStatement>k__BackingField

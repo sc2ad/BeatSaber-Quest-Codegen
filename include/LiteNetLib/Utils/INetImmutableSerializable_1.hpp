@@ -26,8 +26,6 @@ namespace LiteNetLib::Utils {
   template<typename T>
   class INetImmutableSerializable_1 {
     public:
-    // Creating value type constructor for type: INetImmutableSerializable_1
-    INetImmutableSerializable_1() noexcept {}
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer) {

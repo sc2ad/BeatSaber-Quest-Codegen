@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: RGBPanelController
-    RGBPanelController(HMUI::ColorGradientSlider* redSlider_ = {}, HMUI::ColorGradientSlider* greenSlider_ = {}, HMUI::ColorGradientSlider* blueSlider_ = {}, System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent_ = {}, UnityEngine::Color color_ = {}) noexcept : redSlider{redSlider_}, greenSlider{greenSlider_}, blueSlider{blueSlider_}, colorDidChangeEvent{colorDidChangeEvent_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ColorGradientSlider _redSlider

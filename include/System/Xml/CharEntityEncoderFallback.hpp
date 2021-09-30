@@ -64,8 +64,6 @@ namespace System::Xml {
     int startOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CharEntityEncoderFallback
-    CharEntityEncoderFallback(System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer_ = {}, ::ArrayWrapper<int> textContentMarks_ = {}, int endMarkPos_ = {}, int curMarkPos_ = {}, int startOffset_ = {}) noexcept : fallbackBuffer{fallbackBuffer_}, textContentMarks{textContentMarks_}, endMarkPos{endMarkPos_}, curMarkPos{curMarkPos_}, startOffset{startOffset_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer

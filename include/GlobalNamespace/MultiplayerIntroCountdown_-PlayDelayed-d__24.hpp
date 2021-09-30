@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* audioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // Creating value type constructor for type: $PlayDelayed$d__24
-    $PlayDelayed$d__24(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, float delay_ = {}, GlobalNamespace::MultiplayerIntroCountdown* $$4__this_ = {}, UnityEngine::AudioClip* audioClip_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, delay{delay_}, $$4__this{$$4__this_}, audioClip{audioClip_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

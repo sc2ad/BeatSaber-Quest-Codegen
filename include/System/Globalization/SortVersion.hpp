@@ -28,8 +28,6 @@ namespace System::Globalization {
     System::Guid m_SortId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // Creating value type constructor for type: SortVersion
-    SortVersion(int m_NlsVersion_ = {}, System::Guid m_SortId_ = {}) noexcept : m_NlsVersion{m_NlsVersion_}, m_SortId{m_SortId_} {}
     // Get instance field reference: private System.Int32 m_NlsVersion
     int& dyn_m_NlsVersion();
     // Get instance field reference: private System.Guid m_SortId

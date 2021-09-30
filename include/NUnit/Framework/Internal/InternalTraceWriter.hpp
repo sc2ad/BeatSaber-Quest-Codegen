@@ -29,8 +29,6 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* writer;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // Creating value type constructor for type: InternalTraceWriter
-    InternalTraceWriter(System::IO::TextWriter* writer_ = {}) noexcept : writer{writer_} {}
     // Get instance field reference: private System.IO.TextWriter writer
     System::IO::TextWriter*& dyn_writer();
     // public override System.Text.Encoding get_Encoding()

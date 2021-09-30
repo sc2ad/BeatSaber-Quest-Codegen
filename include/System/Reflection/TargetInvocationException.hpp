@@ -32,8 +32,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DA18
   class TargetInvocationException : public System::ApplicationException {
     public:
-    // Creating value type constructor for type: TargetInvocationException
-    TargetInvocationException() noexcept {}
     // public System.Void .ctor(System.Exception inner)
     // Offset: 0x15A4978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

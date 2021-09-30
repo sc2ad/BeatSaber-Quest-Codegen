@@ -22,8 +22,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class SegmentedControl::IDataSource {
     public:
-    // Creating value type constructor for type: IDataSource
-    IDataSource() noexcept {}
     // public System.Int32 NumberOfCells()
     // Offset: 0xFFFFFFFF
     int NumberOfCells();

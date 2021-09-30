@@ -31,8 +31,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::RemoteSettings::UpdatedEventHandler
     class UpdatedEventHandler;
-    // Creating value type constructor for type: RemoteSettings
-    RemoteSettings() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xED4308
     // Get static field: static private UnityEngine.RemoteSettings/UnityEngine.UpdatedEventHandler Updated
     static UnityEngine::RemoteSettings::UpdatedEventHandler* _get_Updated();

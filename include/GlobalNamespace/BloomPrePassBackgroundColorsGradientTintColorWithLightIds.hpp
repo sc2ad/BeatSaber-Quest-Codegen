@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradient*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundColorsGradientTintColorWithLightIds
-    BloomPrePassBackgroundColorsGradientTintColorWithLightIds(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_} {}
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
     // public System.Void .ctor()

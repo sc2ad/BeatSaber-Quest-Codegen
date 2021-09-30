@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // Creating value type constructor for type: VRControllersInputManager
-    VRControllersInputManager(GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : vrPlatformHelper{vrPlatformHelper_} {}
     // Creating conversion operator: operator GlobalNamespace::IVRPlatformHelper*
     constexpr operator GlobalNamespace::IVRPlatformHelper*() const noexcept {
       return vrPlatformHelper;

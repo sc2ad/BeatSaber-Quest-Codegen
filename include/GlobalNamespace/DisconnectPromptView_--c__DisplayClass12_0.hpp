@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectPromptView* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(System::Action* finishedCallback_ = {}, GlobalNamespace::DisconnectPromptView* $$4__this_ = {}) noexcept : finishedCallback{finishedCallback_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: public DisconnectPromptView <>4__this

@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* packIds;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: LocalizedCustomPack
-    LocalizedCustomPack(::Il2CppString* serializedName_ = {}, int order_ = {}, ::ArrayWrapper<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*> localizedNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* packIds_ = {}) noexcept : serializedName{serializedName_}, order{order_}, localizedNames{localizedNames_}, packIds{packIds_} {}
     // Get instance field reference: public System.String serializedName
     ::Il2CppString*& dyn_serializedName();
     // Get instance field reference: public System.Int32 order

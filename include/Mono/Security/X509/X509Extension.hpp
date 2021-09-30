@@ -50,8 +50,6 @@ namespace Mono::Security::X509 {
     Mono::Security::ASN1* extnValue;
     // Field size check
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
-    // Creating value type constructor for type: X509Extension
-    X509Extension(::Il2CppString* extnOid_ = {}, bool extnCritical_ = {}, Mono::Security::ASN1* extnValue_ = {}) noexcept : extnOid{extnOid_}, extnCritical{extnCritical_}, extnValue{extnValue_} {}
     // Get instance field reference: protected System.String extnOid
     ::Il2CppString*& dyn_extnOid();
     // Get instance field reference: protected System.Boolean extnCritical

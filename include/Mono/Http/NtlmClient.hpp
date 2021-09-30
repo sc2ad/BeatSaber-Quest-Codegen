@@ -46,8 +46,6 @@ namespace Mono::Http {
     public:
     // Nested type: Mono::Http::NtlmClient::$$c
     class $$c;
-    // Creating value type constructor for type: NtlmClient
-    NtlmClient() noexcept {}
     // Creating interface conversion operator: operator System::Net::IAuthenticationModule
     operator System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<System::Net::IAuthenticationModule*>(this);

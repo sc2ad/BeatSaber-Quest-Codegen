@@ -34,8 +34,6 @@ namespace System::Threading {
     System::Threading::SparselyPopulatedArrayFragment_1<T>* m_tail;
     // Field size check
     static_assert(sizeof(System::Threading::SparselyPopulatedArrayFragment_1<T>*) == 0x8);
-    // Creating value type constructor for type: SparselyPopulatedArray_1
-    SparselyPopulatedArray_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* m_tail_ = {}) noexcept : m_tail{m_tail_} {}
     // Creating conversion operator: operator System::Threading::SparselyPopulatedArrayFragment_1<T>*
     constexpr operator System::Threading::SparselyPopulatedArrayFragment_1<T>*() const noexcept {
       return m_tail;

@@ -88,8 +88,6 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*) == 0x8);
-    // Creating value type constructor for type: BundledCatalog
-    BundledCatalog(::Il2CppString* m_BundlePath_ = {}, bool m_OpInProgress_ = {}, UnityEngine::AssetBundleCreateRequest* m_LoadBundleRequest_ = {}, UnityEngine::AssetBundle* m_CatalogAssetBundle_ = {}, UnityEngine::AssetBundleRequest* m_LoadTextAssetRequest_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_CatalogData_ = {}, System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded_ = {}) noexcept : m_BundlePath{m_BundlePath_}, m_OpInProgress{m_OpInProgress_}, m_LoadBundleRequest{m_LoadBundleRequest_}, m_CatalogAssetBundle{m_CatalogAssetBundle_}, m_LoadTextAssetRequest{m_LoadTextAssetRequest_}, m_CatalogData{m_CatalogData_}, OnLoaded{OnLoaded_} {}
     // Get instance field reference: private readonly System.String m_BundlePath
     ::Il2CppString*& dyn_m_BundlePath();
     // Get instance field reference: private System.Boolean m_OpInProgress

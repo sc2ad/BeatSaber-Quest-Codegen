@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*) == 0x8);
-    // Creating value type constructor for type: FakeMirrorObjectsInstaller
-    FakeMirrorObjectsInstaller(GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteControllerPrefab_ = {}, GlobalNamespace::MirroredBombNoteController* mirroredBombNoteControllerPrefab_ = {}, GlobalNamespace::MirroredObstacleController* mirroredObstacleControllerPrefab_ = {}, GlobalNamespace::IntSO* mirrorGraphicsSettings_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}) noexcept : mirroredGameNoteControllerPrefab{mirroredGameNoteControllerPrefab_}, mirroredBombNoteControllerPrefab{mirroredBombNoteControllerPrefab_}, mirroredObstacleControllerPrefab{mirroredObstacleControllerPrefab_}, mirrorGraphicsSettings{mirrorGraphicsSettings_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_} {}
     // Get instance field reference: private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
     GlobalNamespace::MirroredCubeNoteController*& dyn__mirroredGameNoteControllerPrefab();
     // Get instance field reference: private MirroredBombNoteController _mirroredBombNoteControllerPrefab

@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILevelGameplaySetupData {
     public:
-    // Creating value type constructor for type: ILevelGameplaySetupData
-    ILevelGameplaySetupData() noexcept {}
     // public IPreviewBeatmapLevel get_beatmapLevel()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();

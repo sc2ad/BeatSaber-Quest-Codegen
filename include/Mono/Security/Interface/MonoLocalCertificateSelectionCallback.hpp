@@ -36,8 +36,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoLocalCertificateSelectionCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: MonoLocalCertificateSelectionCallback
-    MonoLocalCertificateSelectionCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1FA084C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

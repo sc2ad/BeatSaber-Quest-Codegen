@@ -54,8 +54,6 @@ namespace TMPro {
     UnityEngine::Color bottomRight;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: TMP_ColorGradient
-    TMP_ColorGradient(TMPro::ColorMode colorMode_ = {}, UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) noexcept : colorMode{colorMode_}, topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private TMPro.ColorMode k_DefaultColorMode

@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Collider_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Collider_Extensions
-    Test_Collider_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Collider ToTestObject(UnityEngine.Collider self)
     // Offset: 0x1708AB8
     static HoudiniEngineUnity::Test_Collider* ToTestObject(UnityEngine::Collider* self);

@@ -26,8 +26,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayableTrack : public UnityEngine::Timeline::TrackAsset {
     public:
-    // Creating value type constructor for type: PlayableTrack
-    PlayableTrack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19FD784
     // Implemented from: UnityEngine.Timeline.TrackAsset

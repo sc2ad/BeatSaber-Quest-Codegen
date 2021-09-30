@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*) == 0x8);
-    // Creating value type constructor for type: PaddedBufferedBlockCipher
-    PaddedBufferedBlockCipher(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding_ = {}) noexcept : padding{padding_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*
     constexpr operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() const noexcept {
       return padding;

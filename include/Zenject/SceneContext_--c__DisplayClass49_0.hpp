@@ -47,8 +47,6 @@ namespace Zenject {
     System::Func_2<::Il2CppString*, bool>* $$9__4;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppString*, bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass49_0
-    $$c__DisplayClass49_0(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* parentContractNames_ = {}, System::Func_2<::Il2CppString*, bool>* $$9__4_ = {}) noexcept : parentContractNames{parentContractNames_}, $$9__4{$$9__4_} {}
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.String> parentContractNames
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>*& dyn_parentContractNames();
     // Get instance field reference: public System.Func`2<System.String,System.Boolean> <>9__4

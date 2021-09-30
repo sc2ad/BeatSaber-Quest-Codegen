@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<uint64_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
-    // Creating value type constructor for type: BitMaskArray
-    BitMaskArray(int bitCount_ = {}, ::ArrayWrapper<uint64_t> data_ = {}) noexcept : bitCount{bitCount_}, data{data_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

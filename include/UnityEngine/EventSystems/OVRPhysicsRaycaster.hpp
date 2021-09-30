@@ -59,8 +59,6 @@ namespace UnityEngine::EventSystems {
     int sortOrder;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: OVRPhysicsRaycaster
-    OVRPhysicsRaycaster(UnityEngine::LayerMask m_EventMask_ = {}, int sortOrder_ = {}) noexcept : m_EventMask{m_EventMask_}, sortOrder{sortOrder_} {}
     // static field const value: static protected System.Int32 kNoEventMaskSet
     static constexpr const int kNoEventMaskSet = -1;
     // Get static field: static protected System.Int32 kNoEventMaskSet

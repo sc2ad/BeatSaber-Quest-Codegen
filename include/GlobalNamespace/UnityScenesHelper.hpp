@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityScenesHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityScenesHelper
-    UnityScenesHelper() noexcept {}
     // static public System.Void SetActiveRootObjectsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean active)
     // Offset: 0x259C8C4
     static void SetActiveRootObjectsInScene(UnityEngine::SceneManagement::Scene scene, bool active);

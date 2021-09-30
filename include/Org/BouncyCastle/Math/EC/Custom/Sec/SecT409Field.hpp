@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecT409Field : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SecT409Field
-    SecT409Field() noexcept {}
     // static public System.Void Add(System.UInt64[] x, System.UInt64[] y, System.UInt64[] z)
     // Offset: 0x20B4630
     static void Add(::ArrayWrapper<uint64_t> x, ::ArrayWrapper<uint64_t> y, ::ArrayWrapper<uint64_t> z);

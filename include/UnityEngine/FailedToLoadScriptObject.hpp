@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: E727A4
   class FailedToLoadScriptObject : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: FailedToLoadScriptObject
-    FailedToLoadScriptObject() noexcept {}
   }; // UnityEngine.FailedToLoadScriptObject
   #pragma pack(pop)
 }

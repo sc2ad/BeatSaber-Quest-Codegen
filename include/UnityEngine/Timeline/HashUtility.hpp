@@ -15,8 +15,6 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class HashUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HashUtility
-    HashUtility() noexcept {}
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2)
     // Offset: 0x19F1258
     static int CombineHash(int h1, int h2);

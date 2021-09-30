@@ -108,8 +108,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offsetV;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Avoider
-    Avoider(::ArrayWrapper<UnityEngine::Transform*> raycastFrom_ = {}, UnityEngine::Transform* raycastTo_ = {}, float raycastRadius_ = {}, ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors_ = {}, float smoothTimeIn_ = {}, float smoothTimeOut_ = {}, UnityEngine::LayerMask layers_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 offsetTarget_ = {}, UnityEngine::Vector3 offsetV_ = {}) noexcept : raycastFrom{raycastFrom_}, raycastTo{raycastTo_}, raycastRadius{raycastRadius_}, effectors{effectors_}, smoothTimeIn{smoothTimeIn_}, smoothTimeOut{smoothTimeOut_}, layers{layers_}, offset{offset_}, offsetTarget{offsetTarget_}, offsetV{offsetV_} {}
     // Get instance field reference: public UnityEngine.Transform[] raycastFrom
     ::ArrayWrapper<UnityEngine::Transform*>& dyn_raycastFrom();
     // Get instance field reference: public UnityEngine.Transform raycastTo

@@ -50,8 +50,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE) == 0x4);
-    // Creating value type constructor for type: InternalFE
-    InternalFE(System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat_ = {}, System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat_ = {}, System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum_ = {}) noexcept : FEtypeFormat{FEtypeFormat_}, FEassemblyFormat{FEassemblyFormat_}, FEsecurityLevel{FEsecurityLevel_}, FEserializerTypeEnum{FEserializerTypeEnum_} {}
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     System::Runtime::Serialization::Formatters::FormatterTypeStyle& dyn_FEtypeFormat();
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat

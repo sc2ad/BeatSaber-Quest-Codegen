@@ -46,8 +46,6 @@ namespace System::Reflection {
     ::ArrayWrapper<System::Exception*> exceptions;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Exception*>) == 0x8);
-    // Creating value type constructor for type: ReflectionTypeLoadException
-    ReflectionTypeLoadException(::ArrayWrapper<System::Type*> classes_ = {}, ::ArrayWrapper<System::Exception*> exceptions_ = {}) noexcept : classes{classes_}, exceptions{exceptions_} {}
     // Get instance field reference: private System.Type[] _classes
     ::ArrayWrapper<System::Type*>& dyn__classes();
     // Get instance field reference: private System.Exception[] _exceptions

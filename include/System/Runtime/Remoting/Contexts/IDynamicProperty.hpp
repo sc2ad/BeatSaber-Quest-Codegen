@@ -17,8 +17,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FD34
   class IDynamicProperty {
     public:
-    // Creating value type constructor for type: IDynamicProperty
-    IDynamicProperty() noexcept {}
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_Name();

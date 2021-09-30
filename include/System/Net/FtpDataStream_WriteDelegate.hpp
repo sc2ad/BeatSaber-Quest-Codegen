@@ -31,8 +31,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpDataStream::WriteDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: WriteDelegate
-    WriteDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15823C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

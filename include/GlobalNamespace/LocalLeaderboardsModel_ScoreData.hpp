@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     int64_t timestamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: ScoreData
-    ScoreData(int score_ = {}, ::Il2CppString* playerName_ = {}, bool fullCombo_ = {}, int64_t timestamp_ = {}) noexcept : score{score_}, playerName{playerName_}, fullCombo{fullCombo_}, timestamp{timestamp_} {}
     // Get instance field reference: public System.Int32 _score
     int& dyn__score();
     // Get instance field reference: public System.String _playerName

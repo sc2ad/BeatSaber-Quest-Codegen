@@ -16,8 +16,6 @@ namespace Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThrowStub : public System::ObjectDisposedException {
     public:
-    // Creating value type constructor for type: ThrowStub
-    ThrowStub() noexcept {}
     // static public System.Void ThrowNotSupportedException()
     // Offset: 0x253B214
     static void ThrowNotSupportedException();

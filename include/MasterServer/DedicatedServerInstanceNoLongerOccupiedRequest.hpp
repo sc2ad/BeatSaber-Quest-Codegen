@@ -57,8 +57,6 @@ namespace MasterServer {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DedicatedServerInstanceNoLongerOccupiedRequest
-    DedicatedServerInstanceNoLongerOccupiedRequest(::Il2CppString* dedicatedServerId_ = {}, int64_t dedicatedServerCreationTime_ = {}, ::Il2CppString* id_ = {}) noexcept : dedicatedServerId{dedicatedServerId_}, dedicatedServerCreationTime{dedicatedServerCreationTime_}, id{id_} {}
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerClientToServerMessage
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);

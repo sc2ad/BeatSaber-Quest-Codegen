@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     float rotationAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: RotationData
-    RotationData(bool enabled_ = {}, float rotationSpeed_ = {}, UnityEngine::Quaternion startRotation_ = {}, UnityEngine::Transform* transform_ = {}, float startRotationAngle_ = {}, float rotationAngle_ = {}) noexcept : enabled{enabled_}, rotationSpeed{rotationSpeed_}, startRotation{startRotation_}, transform{transform_}, startRotationAngle{startRotationAngle_}, rotationAngle{rotationAngle_} {}
     // Get instance field reference: public System.Boolean enabled
     bool& dyn_enabled();
     // Get instance field reference: public System.Single rotationSpeed

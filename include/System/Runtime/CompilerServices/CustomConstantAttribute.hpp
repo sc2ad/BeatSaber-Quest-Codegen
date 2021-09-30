@@ -22,8 +22,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E60518
   class CustomConstantAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: CustomConstantAttribute
-    CustomConstantAttribute() noexcept {}
     // public System.Object get_Value()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_Value();

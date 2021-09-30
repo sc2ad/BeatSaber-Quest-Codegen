@@ -47,8 +47,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint> expandedBuffer;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: SHA1Managed
-    SHA1Managed(::ArrayWrapper<uint8_t> buffer_ = {}, int64_t count_ = {}, ::ArrayWrapper<uint> stateSHA1_ = {}, ::ArrayWrapper<uint> expandedBuffer_ = {}) noexcept : buffer{buffer_}, count{count_}, stateSHA1{stateSHA1_}, expandedBuffer{expandedBuffer_} {}
     // Get instance field reference: private System.Byte[] _buffer
     ::ArrayWrapper<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int64 _count

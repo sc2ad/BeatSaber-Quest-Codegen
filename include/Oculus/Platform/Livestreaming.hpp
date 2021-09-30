@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Livestreaming : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Livestreaming
-    Livestreaming() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> GetStatus()
     // Offset: 0x16AE510
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* GetStatus();

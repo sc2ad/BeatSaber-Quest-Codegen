@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapIdentifierNetSerializable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap_ = {}) noexcept : beatmap{beatmap_} {}
     // Creating conversion operator: operator GlobalNamespace::BeatmapIdentifierNetSerializable*
     constexpr operator GlobalNamespace::BeatmapIdentifierNetSerializable*() const noexcept {
       return beatmap;

@@ -23,8 +23,6 @@ namespace System {
     public:
     // Nested type: System::Console::WindowsConsole::WindowsCancelHandler
     class WindowsCancelHandler;
-    // Creating value type constructor for type: WindowsConsole
-    WindowsConsole() noexcept {}
     // Get static field: static public System.Boolean ctrlHandlerAdded
     static bool _get_ctrlHandlerAdded();
     // Set static field: static public System.Boolean ctrlHandlerAdded

@@ -56,7 +56,6 @@ namespace System::Reflection {
     ::Il2CppObject*& dyn_value();
     // public System.Void .ctor(System.Type argumentType, System.Object value)
     // Offset: 0x1EA52A0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CustomAttributeTypedArgument(System::Type* argumentType, ::Il2CppObject* value)
     // public override System.String ToString()
     // Offset: 0x1EA3F54

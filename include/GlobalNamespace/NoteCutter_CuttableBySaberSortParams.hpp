@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 pos;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: CuttableBySaberSortParams
-    CuttableBySaberSortParams(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, float distance_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, distance{distance_}, pos{pos_} {}
     // Get instance field reference: public CuttableBySaber cuttableBySaber
     GlobalNamespace::CuttableBySaber*& dyn_cuttableBySaber();
     // Get instance field reference: public System.Single distance

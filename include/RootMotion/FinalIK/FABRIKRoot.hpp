@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverFABRIKRoot* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverFABRIKRoot*) == 0x8);
-    // Creating value type constructor for type: FABRIKRoot
-    FABRIKRoot(RootMotion::FinalIK::IKSolverFABRIKRoot* solver_ = {}) noexcept : solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverFABRIKRoot solver
     RootMotion::FinalIK::IKSolverFABRIKRoot*& dyn_solver();
     // private System.Void SupportGroup()

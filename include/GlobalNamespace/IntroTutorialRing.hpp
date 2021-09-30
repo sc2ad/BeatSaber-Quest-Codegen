@@ -130,8 +130,6 @@ namespace GlobalNamespace {
     bool sabersInsideAfterOnEnable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IntroTutorialRing
-    IntroTutorialRing(::ArrayWrapper<UnityEngine::UI::Image*> progressImages_ = {}, GlobalNamespace::SaberType saberType_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float activationDuration_ = {}, ::ArrayWrapper<UnityEngine::UI::Image*> ringGLowImages_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, bool highlighted_ = {}, float emitNextParticleTimer_ = {}, float activationProgress_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>* sabersInside_ = {}, bool sabersInsideAfterOnEnable_ = {}) noexcept : progressImages{progressImages_}, saberType{saberType_}, particleSystem{particleSystem_}, canvasGroup{canvasGroup_}, activationDuration{activationDuration_}, ringGLowImages{ringGLowImages_}, colorManager{colorManager_}, highlighted{highlighted_}, emitNextParticleTimer{emitNextParticleTimer_}, activationProgress{activationProgress_}, sabersInside{sabersInside_}, sabersInsideAfterOnEnable{sabersInsideAfterOnEnable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image[] _progressImages

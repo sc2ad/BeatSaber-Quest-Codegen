@@ -32,8 +32,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerLobbyPoseGeneratorRecording : public GlobalNamespace::MockPlayerLobbyPoseGenerator {
     public:
-    // Creating value type constructor for type: MockPlayerLobbyPoseGeneratorRecording
-    MockPlayerLobbyPoseGeneratorRecording() noexcept {}
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
     // Offset: 0x1207A74
     // Implemented from: MockPlayerLobbyPoseGenerator

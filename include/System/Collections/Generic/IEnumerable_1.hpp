@@ -28,8 +28,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class IEnumerable_1/*, public System::Collections::IEnumerable*/ {
     public:
-    // Creating value type constructor for type: IEnumerable_1
-    IEnumerable_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

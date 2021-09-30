@@ -35,8 +35,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E8B31C
   class StateMachineBehaviour : public UnityEngine::ScriptableObject {
     public:
-    // Creating value type constructor for type: StateMachineBehaviour
-    StateMachineBehaviour() noexcept {}
     // public System.Void OnStateEnter(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex)
     // Offset: 0x25984DC
     void OnStateEnter(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex);

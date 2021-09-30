@@ -56,7 +56,6 @@ namespace System::Security::Cryptography {
     ::Il2CppString* get_Name();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1A773C8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name)
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
     // Offset: 0x1A774C4

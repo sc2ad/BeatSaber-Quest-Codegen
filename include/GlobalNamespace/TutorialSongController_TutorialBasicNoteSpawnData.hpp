@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorType colorType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorType) == 0x4);
-    // Creating value type constructor for type: TutorialBasicNoteSpawnData
-    TutorialBasicNoteSpawnData(GlobalNamespace::NoteCutDirection cutDirection_ = {}, GlobalNamespace::ColorType colorType_ = {}) noexcept : cutDirection{cutDirection_}, colorType{colorType_} {}
     // Deleting conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept = delete;
     // Get instance field reference: public readonly NoteCutDirection cutDirection

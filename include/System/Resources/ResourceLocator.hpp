@@ -63,7 +63,6 @@ namespace System::Resources {
     void set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
     // Offset: 0x15A603C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ResourceLocator(int dataPos, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceLocator::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dataPos), ::il2cpp_utils::ExtractType(value)})));

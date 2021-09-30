@@ -63,8 +63,6 @@ namespace MasterServer {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // Creating value type constructor for type: ConnectToServerRequest
-    ConnectToServerRequest(GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : selectionMask{selectionMask_}, secret{secret_}, code{code_}, configuration{configuration_} {}
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public System.String secret

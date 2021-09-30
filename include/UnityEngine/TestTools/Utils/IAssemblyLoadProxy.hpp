@@ -23,8 +23,6 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAssemblyLoadProxy {
     public:
-    // Creating value type constructor for type: IAssemblyLoadProxy
-    IAssemblyLoadProxy() noexcept {}
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
     // Offset: 0xFFFFFFFF
     UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);

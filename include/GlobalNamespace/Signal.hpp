@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     System::Action* event;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: Signal
-    Signal(System::Action* event_ = {}) noexcept : event{event_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action _event

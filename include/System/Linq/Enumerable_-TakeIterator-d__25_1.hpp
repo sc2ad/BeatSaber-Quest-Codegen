@@ -77,8 +77,6 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<TSource>*) == 0x8);
-    // Creating value type constructor for type: $TakeIterator$d__25_1
-    $TakeIterator$d__25_1(int $$1__state_ = {}, TSource $$2__current_ = {}, int $$l__initialThreadId_ = {}, int count_ = {}, int $$3__count_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* source_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__source_ = {}, System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, count{count_}, $$3__count{$$3__count_}, source{source_}, $$3__source{$$3__source_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

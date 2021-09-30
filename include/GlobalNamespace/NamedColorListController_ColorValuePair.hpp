@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ColorValuePair
-    ColorValuePair(UnityEngine::Color color_ = {}, int value_ = {}) noexcept : color{color_}, value{value_} {}
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Int32 value

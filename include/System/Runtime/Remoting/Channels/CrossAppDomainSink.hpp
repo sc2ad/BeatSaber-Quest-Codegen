@@ -53,8 +53,6 @@ namespace System::Runtime::Remoting::Channels {
     int domainID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CrossAppDomainSink
-    CrossAppDomainSink(int domainID_ = {}) noexcept : domainID{domainID_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

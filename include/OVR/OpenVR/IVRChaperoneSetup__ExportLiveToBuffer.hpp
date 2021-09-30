@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB089C
   class IVRChaperoneSetup::_ExportLiveToBuffer : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ExportLiveToBuffer
-    _ExportLiveToBuffer() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17714A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

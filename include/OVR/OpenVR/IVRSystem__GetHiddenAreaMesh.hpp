@@ -41,8 +41,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB01E4
   class IVRSystem::_GetHiddenAreaMesh : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetHiddenAreaMesh
-    _GetHiddenAreaMesh() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E84DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,8 +34,6 @@ namespace NUnit::Framework::Internal {
     public:
     // Nested type: NUnit::Framework::Internal::TestFilter::EmptyFilter
     class EmptyFilter;
-    // Creating value type constructor for type: TestFilter
-    TestFilter() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestFilter
     operator NUnit::Framework::Interfaces::ITestFilter() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestFilter*>(this);

@@ -41,8 +41,6 @@ namespace System::Net {
     System::Collections::SortedList* m_list;
     // Field size check
     static_assert(sizeof(System::Collections::SortedList*) == 0x8);
-    // Creating value type constructor for type: PathList
-    PathList(System::Collections::SortedList* m_list_ = {}) noexcept : m_list{m_list_} {}
     // Creating conversion operator: operator System::Collections::SortedList*
     constexpr operator System::Collections::SortedList*() const noexcept {
       return m_list;

@@ -47,8 +47,6 @@ namespace System::Security::Cryptography {
     bool m_bDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HashAlgorithm
-    HashAlgorithm(int HashSizeValue_ = {}, ::ArrayWrapper<uint8_t> HashValue_ = {}, int State_ = {}, bool m_bDisposed_ = {}) noexcept : HashSizeValue{HashSizeValue_}, HashValue{HashValue_}, State{State_}, m_bDisposed{m_bDisposed_} {}
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);

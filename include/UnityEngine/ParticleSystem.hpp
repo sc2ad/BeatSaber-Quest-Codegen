@@ -240,8 +240,6 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(ParticleSystem::Particle), 128 + sizeof(uint)> __UnityEngine_ParticleSystem_ParticleSizeCheck;
     static_assert(sizeof(ParticleSystem::Particle) == 0x84);
-    // Creating value type constructor for type: ParticleSystem
-    ParticleSystem() noexcept {}
     // public System.Int32 get_particleCount()
     // Offset: 0x261C44C
     int get_particleCount();

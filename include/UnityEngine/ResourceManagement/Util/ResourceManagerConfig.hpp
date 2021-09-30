@@ -37,8 +37,6 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManagerConfig : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ResourceManagerConfig
-    ResourceManagerConfig() noexcept {}
     // static System.Boolean ExtractKeyAndSubKey(System.Object keyObj, out System.String mainKey, out System.String subKey)
     // Offset: 0x1B6935C
     static bool ExtractKeyAndSubKey(::Il2CppObject* keyObj, ByRef<::Il2CppString*> mainKey, ByRef<::Il2CppString*> subKey);

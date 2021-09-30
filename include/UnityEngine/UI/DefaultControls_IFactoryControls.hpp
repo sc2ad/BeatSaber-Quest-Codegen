@@ -29,8 +29,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultControls::IFactoryControls {
     public:
-    // Creating value type constructor for type: IFactoryControls
-    IFactoryControls() noexcept {}
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::ArrayWrapper<System::Type*> components);

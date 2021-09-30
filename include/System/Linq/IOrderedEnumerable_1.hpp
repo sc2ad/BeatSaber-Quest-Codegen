@@ -33,8 +33,6 @@ namespace System::Linq {
   template<typename TElement>
   class IOrderedEnumerable_1/*, public System::Collections::Generic::IEnumerable_1<TElement>*/ {
     public:
-    // Creating value type constructor for type: IOrderedEnumerable_1
-    IOrderedEnumerable_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TElement>
     operator System::Collections::Generic::IEnumerable_1<TElement>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TElement>*>(this);

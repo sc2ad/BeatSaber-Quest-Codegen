@@ -116,8 +116,6 @@ namespace GlobalNamespace {
     int prevNumberOfPlayers;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MultiplayerLeaderboardPanelItem
-    MultiplayerLeaderboardPanelItem(TMPro::TextMeshProUGUI* playerNameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::Color normalPlayerTextColor_ = {}, UnityEngine::Color failedPlayerTextColor_ = {}, UnityEngine::Color firstPlayerBackgroundColor_ = {}, UnityEngine::Color lastPlayerBackgroundColor_ = {}, int prevPosition_ = {}, ::Il2CppString* prevPlayerName_ = {}, int prevScore_ = {}, bool prevFailed_ = {}, int prevNumberOfPlayers_ = {}) noexcept : playerNameText{playerNameText_}, scoreText{scoreText_}, positionText{positionText_}, backgroundImage{backgroundImage_}, normalPlayerTextColor{normalPlayerTextColor_}, failedPlayerTextColor{failedPlayerTextColor_}, firstPlayerBackgroundColor{firstPlayerBackgroundColor_}, lastPlayerBackgroundColor{lastPlayerBackgroundColor_}, prevPosition{prevPosition_}, prevPlayerName{prevPlayerName_}, prevScore{prevScore_}, prevFailed{prevFailed_}, prevNumberOfPlayers{prevNumberOfPlayers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText

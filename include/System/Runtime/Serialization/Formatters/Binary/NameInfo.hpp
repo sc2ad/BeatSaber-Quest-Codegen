@@ -111,8 +111,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     bool NIsealedStatusChecked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NameInfo
-    NameInfo(::Il2CppString* NIFullName_ = {}, int64_t NIobjectId_ = {}, int64_t NIassemId_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum_ = {}, System::Type* NItype_ = {}, bool NIisSealed_ = {}, bool NIisArray_ = {}, bool NIisArrayItem_ = {}, bool NItransmitTypeOnObject_ = {}, bool NItransmitTypeOnMember_ = {}, bool NIisParentTypeOnObject_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum_ = {}, bool NIsealedStatusChecked_ = {}) noexcept : NIFullName{NIFullName_}, NIobjectId{NIobjectId_}, NIassemId{NIassemId_}, NIprimitiveTypeEnum{NIprimitiveTypeEnum_}, NItype{NItype_}, NIisSealed{NIisSealed_}, NIisArray{NIisArray_}, NIisArrayItem{NIisArrayItem_}, NItransmitTypeOnObject{NItransmitTypeOnObject_}, NItransmitTypeOnMember{NItransmitTypeOnMember_}, NIisParentTypeOnObject{NIisParentTypeOnObject_}, NIarrayEnum{NIarrayEnum_}, NIsealedStatusChecked{NIsealedStatusChecked_} {}
     // Get instance field reference: System.String NIFullName
     ::Il2CppString*& dyn_NIFullName();
     // Get instance field reference: System.Int64 NIobjectId

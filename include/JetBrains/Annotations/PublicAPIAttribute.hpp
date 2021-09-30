@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Comment;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PublicAPIAttribute
-    PublicAPIAttribute(::Il2CppString* Comment_ = {}) noexcept : Comment{Comment_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Comment;

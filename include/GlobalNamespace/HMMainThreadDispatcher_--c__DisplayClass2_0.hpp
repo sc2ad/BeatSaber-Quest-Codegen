@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     System::Collections::IEnumerator* action;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(GlobalNamespace::HMMainThreadDispatcher* $$4__this_ = {}, System::Collections::IEnumerator* action_ = {}) noexcept : $$4__this{$$4__this_}, action{action_} {}
     // Get instance field reference: public HMMainThreadDispatcher <>4__this
     GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.IEnumerator action

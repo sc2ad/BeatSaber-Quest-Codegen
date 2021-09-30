@@ -40,8 +40,6 @@ namespace Zenject {
     System::Type* MarkedType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ValidationMarker
-    ValidationMarker(bool InstantiateFailed_ = {}, System::Type* MarkedType_ = {}) noexcept : InstantiateFailed{InstantiateFailed_}, MarkedType{MarkedType_} {}
     // Get instance field reference: private System.Boolean <InstantiateFailed>k__BackingField
     bool& dyn_$InstantiateFailed$k__BackingField();
     // Get instance field reference: private System.Type <MarkedType>k__BackingField

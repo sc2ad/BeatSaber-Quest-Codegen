@@ -24,8 +24,6 @@ namespace Il2CppInspector::DLL {
     ::Il2CppString* Data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MetadataPreviewAttribute
-    MetadataPreviewAttribute(::Il2CppString* Data_ = {}) noexcept : Data{Data_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Data;

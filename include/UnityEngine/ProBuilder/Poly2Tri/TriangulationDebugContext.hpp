@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*) == 0x8);
-    // Creating value type constructor for type: TriangulationDebugContext
-    TriangulationDebugContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx_ = {}) noexcept : tcx{tcx_} {}
     // Creating conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
     constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept {
       return tcx;

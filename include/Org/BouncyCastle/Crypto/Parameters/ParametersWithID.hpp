@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ::ArrayWrapper<uint8_t> id;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: ParametersWithID
-    ParametersWithID(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::ArrayWrapper<uint8_t> id_ = {}) noexcept : parameters{parameters_}, id{id_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private readonly System.Byte[] id

@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Keyframe
-    Keyframe(UnityEngine::Vector3 pos1_ = {}, UnityEngine::Vector3 pos2_ = {}, UnityEngine::Vector3 pos3_ = {}, UnityEngine::Quaternion rot1_ = {}, UnityEngine::Quaternion rot2_ = {}, UnityEngine::Quaternion rot3_ = {}, float time_ = {}) noexcept : pos1{pos1_}, pos2{pos2_}, pos3{pos3_}, rot1{rot1_}, rot2{rot2_}, rot3{rot3_}, time{time_} {}
     // Get instance field reference: public UnityEngine.Vector3 _pos1
     UnityEngine::Vector3& dyn__pos1();
     // Get instance field reference: public UnityEngine.Vector3 _pos2

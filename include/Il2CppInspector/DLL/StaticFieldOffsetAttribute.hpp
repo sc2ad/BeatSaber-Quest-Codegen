@@ -24,8 +24,6 @@ namespace Il2CppInspector::DLL {
     ::Il2CppString* Offset;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StaticFieldOffsetAttribute
-    StaticFieldOffsetAttribute(::Il2CppString* Offset_ = {}) noexcept : Offset{Offset_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Offset;

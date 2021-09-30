@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     float syncTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: RemoteProcedureCall
-    RemoteProcedureCall(float syncTime_ = {}) noexcept : syncTime{syncTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRemoteProcedureCall
     operator GlobalNamespace::IRemoteProcedureCall() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRemoteProcedureCall*>(this);

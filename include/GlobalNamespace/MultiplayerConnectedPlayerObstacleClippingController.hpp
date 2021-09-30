@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerObstacleClippingController
-    MultiplayerConnectedPlayerObstacleClippingController(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers_ = {}) noexcept : materialPropertyBlockControllers{materialPropertyBlockControllers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF089E0

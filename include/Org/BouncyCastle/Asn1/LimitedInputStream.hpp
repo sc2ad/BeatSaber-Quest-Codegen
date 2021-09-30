@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Asn1 {
     int limit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LimitedInputStream
-    LimitedInputStream(System::IO::Stream* in_ = {}, int limit_ = {}) noexcept : in{in_}, limit{limit_} {}
     // Get instance field reference: protected readonly System.IO.Stream _in
     System::IO::Stream*& dyn__in();
     // Get instance field reference: private System.Int32 _limit

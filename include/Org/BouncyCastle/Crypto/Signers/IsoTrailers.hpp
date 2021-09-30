@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class IsoTrailers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IsoTrailers
-    IsoTrailers() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary trailerMap
     static System::Collections::IDictionary* _get_trailerMap();
     // Set static field: static private readonly System.Collections.IDictionary trailerMap

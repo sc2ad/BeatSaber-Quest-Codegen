@@ -48,8 +48,6 @@ namespace System::Net {
     System::Type* creatorType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: WebRequestPrefixElement
-    WebRequestPrefixElement(::Il2CppString* Prefix_ = {}, System::Net::IWebRequestCreate* creator_ = {}, System::Type* creatorType_ = {}) noexcept : Prefix{Prefix_}, creator{creator_}, creatorType{creatorType_} {}
     // Get instance field reference: public System.String Prefix
     ::Il2CppString*& dyn_Prefix();
     // Get instance field reference: System.Net.IWebRequestCreate creator

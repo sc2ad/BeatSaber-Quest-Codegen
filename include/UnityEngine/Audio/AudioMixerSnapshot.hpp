@@ -17,8 +17,6 @@ namespace UnityEngine::Audio {
   // [NativeHeaderAttribute] Offset: E9F044
   class AudioMixerSnapshot : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: AudioMixerSnapshot
-    AudioMixerSnapshot() noexcept {}
   }; // UnityEngine.Audio.AudioMixerSnapshot
   #pragma pack(pop)
 }

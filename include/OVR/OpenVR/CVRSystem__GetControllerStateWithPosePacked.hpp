@@ -41,8 +41,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1850
   class CVRSystem::_GetControllerStateWithPosePacked : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetControllerStateWithPosePacked
-    _GetControllerStateWithPosePacked() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x176F4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

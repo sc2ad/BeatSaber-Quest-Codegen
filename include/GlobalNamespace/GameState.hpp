@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerFiniteStateMachine* fsm;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerFiniteStateMachine*) == 0x8);
-    // Creating value type constructor for type: GameState
-    GameState(GlobalNamespace::GameplayServerFiniteStateMachine* fsm_ = {}) noexcept : fsm{fsm_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

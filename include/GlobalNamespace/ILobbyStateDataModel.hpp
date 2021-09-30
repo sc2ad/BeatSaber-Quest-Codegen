@@ -42,8 +42,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILobbyStateDataModel {
     public:
-    // Creating value type constructor for type: ILobbyStateDataModel
-    ILobbyStateDataModel() noexcept {}
     // public System.Boolean get_isConnected()
     // Offset: 0xFFFFFFFF
     bool get_isConnected();

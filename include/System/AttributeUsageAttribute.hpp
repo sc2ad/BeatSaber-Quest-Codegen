@@ -42,8 +42,6 @@ namespace System {
     bool m_inherited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AttributeUsageAttribute
-    AttributeUsageAttribute(System::AttributeTargets m_attributeTarget_ = {}, bool m_allowMultiple_ = {}, bool m_inherited_ = {}) noexcept : m_attributeTarget{m_attributeTarget_}, m_allowMultiple{m_allowMultiple_}, m_inherited{m_inherited_} {}
     // Get static field: static System.AttributeUsageAttribute Default
     static System::AttributeUsageAttribute* _get_Default();
     // Set static field: static System.AttributeUsageAttribute Default

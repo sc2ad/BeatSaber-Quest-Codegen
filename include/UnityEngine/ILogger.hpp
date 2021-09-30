@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILogger/*, public UnityEngine::ILogHandler*/ {
     public:
-    // Creating value type constructor for type: ILogger
-    ILogger() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ILogHandler
     operator UnityEngine::ILogHandler() noexcept {
       return *reinterpret_cast<UnityEngine::ILogHandler*>(this);

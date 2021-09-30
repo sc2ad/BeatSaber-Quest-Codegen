@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRCameraRig* CameraRig;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRCameraRig*) == 0x8);
-    // Creating value type constructor for type: OVRDebugHeadController
-    OVRDebugHeadController(bool AllowPitchLook_ = {}, bool AllowYawLook_ = {}, bool InvertPitch_ = {}, float GamePad_PitchDegreesPerSec_ = {}, float GamePad_YawDegreesPerSec_ = {}, bool AllowMovement_ = {}, float ForwardSpeed_ = {}, float StrafeSpeed_ = {}, GlobalNamespace::OVRCameraRig* CameraRig_ = {}) noexcept : AllowPitchLook{AllowPitchLook_}, AllowYawLook{AllowYawLook_}, InvertPitch{InvertPitch_}, GamePad_PitchDegreesPerSec{GamePad_PitchDegreesPerSec_}, GamePad_YawDegreesPerSec{GamePad_YawDegreesPerSec_}, AllowMovement{AllowMovement_}, ForwardSpeed{ForwardSpeed_}, StrafeSpeed{StrafeSpeed_}, CameraRig{CameraRig_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean AllowPitchLook

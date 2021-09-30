@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* endXform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: SteamVR_IK
-    SteamVR_IK(UnityEngine::Transform* target_ = {}, UnityEngine::Transform* start_ = {}, UnityEngine::Transform* joint_ = {}, UnityEngine::Transform* end_ = {}, UnityEngine::Transform* poleVector_ = {}, UnityEngine::Transform* upVector_ = {}, float blendPct_ = {}, UnityEngine::Transform* startXform_ = {}, UnityEngine::Transform* jointXform_ = {}, UnityEngine::Transform* endXform_ = {}) noexcept : target{target_}, start{start_}, joint{joint_}, end{end_}, poleVector{poleVector_}, upVector{upVector_}, blendPct{blendPct_}, startXform{startXform_}, jointXform{jointXform_}, endXform{endXform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform target

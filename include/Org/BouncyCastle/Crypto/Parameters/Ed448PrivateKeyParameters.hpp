@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* cachedPublicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*) == 0x8);
-    // Creating value type constructor for type: Ed448PrivateKeyParameters
-    Ed448PrivateKeyParameters(::ArrayWrapper<uint8_t> data_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* cachedPublicKey_ = {}) noexcept : data{data_}, cachedPublicKey{cachedPublicKey_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static public readonly System.Int32 KeySize

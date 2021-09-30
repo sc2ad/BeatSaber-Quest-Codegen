@@ -41,8 +41,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(int index_ = {}) noexcept : index{index_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return index;

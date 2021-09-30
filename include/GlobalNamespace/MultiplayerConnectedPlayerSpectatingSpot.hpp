@@ -91,8 +91,6 @@ namespace GlobalNamespace {
     bool playerFailed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerSpectatingSpot
-    MultiplayerConnectedPlayerSpectatingSpot(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerSpectatingSpotManager* spectatingSpotManager_ = {}, System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* hasBeenRemovedEvent_ = {}, System::Action_1<bool>* isObservedChangedEvent_ = {}, GlobalNamespace::IMultiplayerObservable* observable_ = {}, bool playerFailed_ = {}) noexcept : connectedPlayer{connectedPlayer_}, multiplayerSessionManager{multiplayerSessionManager_}, spectatingSpotManager{spectatingSpotManager_}, hasBeenRemovedEvent{hasBeenRemovedEvent_}, isObservedChangedEvent{isObservedChangedEvent_}, observable{observable_}, playerFailed{playerFailed_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerSpectatingSpot
     operator GlobalNamespace::IMultiplayerSpectatingSpot() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerSpectatingSpot*>(this);

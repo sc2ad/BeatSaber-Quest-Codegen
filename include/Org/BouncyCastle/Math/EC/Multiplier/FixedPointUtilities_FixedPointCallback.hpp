@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     Org::BouncyCastle::Math::EC::ECPoint* m_p;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
-    // Creating value type constructor for type: FixedPointCallback
-    FixedPointCallback(Org::BouncyCastle::Math::EC::ECPoint* m_p_ = {}) noexcept : m_p{m_p_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

@@ -74,8 +74,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* VersionHandle;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CloudStorageMetadata
-    CloudStorageMetadata(::Il2CppString* Bucket_ = {}, int64_t Counter_ = {}, uint DataSize_ = {}, ::Il2CppString* ExtraData_ = {}, ::Il2CppString* Key_ = {}, uint64_t SaveTime_ = {}, Oculus::Platform::CloudStorageDataStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Counter{Counter_}, DataSize{DataSize_}, ExtraData{ExtraData_}, Key{Key_}, SaveTime{SaveTime_}, Status{Status_}, VersionHandle{VersionHandle_} {}
     // Get instance field reference: public readonly System.String Bucket
     ::Il2CppString*& dyn_Bucket();
     // Get instance field reference: public readonly System.Int64 Counter

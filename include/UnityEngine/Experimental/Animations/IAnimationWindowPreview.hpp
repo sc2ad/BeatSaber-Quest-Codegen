@@ -20,8 +20,6 @@ namespace UnityEngine::Experimental::Animations {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAnimationWindowPreview {
     public:
-    // Creating value type constructor for type: IAnimationWindowPreview
-    IAnimationWindowPreview() noexcept {}
     // public System.Void UpdatePreviewGraph(UnityEngine.Playables.PlayableGraph graph)
     // Offset: 0xFFFFFFFF
     void UpdatePreviewGraph(UnityEngine::Playables::PlayableGraph graph);

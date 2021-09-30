@@ -25,8 +25,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70EE0
   class LineRenderer : public UnityEngine::Renderer {
     public:
-    // Creating value type constructor for type: LineRenderer
-    LineRenderer() noexcept {}
     // public System.Void set_startWidth(System.Single value)
     // Offset: 0x1D9E2C8
     void set_startWidth(float value);

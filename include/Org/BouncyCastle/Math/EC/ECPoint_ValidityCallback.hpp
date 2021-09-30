@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Math::EC {
     bool m_checkOrder;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ValidityCallback
-    ValidityCallback(Org::BouncyCastle::Math::EC::ECPoint* m_outer_ = {}, bool m_decompressed_ = {}, bool m_checkOrder_ = {}) noexcept : m_outer{m_outer_}, m_decompressed{m_decompressed_}, m_checkOrder{m_checkOrder_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::DerInteger* pgenCounter;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: DHValidationParms
-    DHValidationParms(Org::BouncyCastle::Asn1::DerBitString* seed_ = {}, Org::BouncyCastle::Asn1::DerInteger* pgenCounter_ = {}) noexcept : seed{seed_}, pgenCounter{pgenCounter_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString seed
     Org::BouncyCastle::Asn1::DerBitString*& dyn_seed();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger pgenCounter

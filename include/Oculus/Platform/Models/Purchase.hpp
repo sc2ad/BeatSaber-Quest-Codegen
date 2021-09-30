@@ -46,8 +46,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Sku;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Purchase
-    Purchase(System::DateTime ExpirationTime_ = {}, System::DateTime GrantTime_ = {}, ::Il2CppString* _ID_ = {}, ::Il2CppString* Sku_ = {}) noexcept : ExpirationTime{ExpirationTime_}, GrantTime{GrantTime_}, _ID{_ID_}, Sku{Sku_} {}
     // Get instance field reference: public readonly System.DateTime ExpirationTime
     System::DateTime& dyn_ExpirationTime();
     // Get instance field reference: public readonly System.DateTime GrantTime

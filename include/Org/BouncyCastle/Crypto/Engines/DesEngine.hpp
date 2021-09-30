@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<int> workingKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: DesEngine
-    DesEngine(::ArrayWrapper<int> workingKey_ = {}) noexcept : workingKey{workingKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

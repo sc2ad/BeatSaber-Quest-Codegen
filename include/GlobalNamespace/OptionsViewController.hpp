@@ -117,8 +117,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*) == 0x8);
-    // Creating value type constructor for type: OptionsViewController
-    OptionsViewController(UnityEngine::UI::Button* editAvatarButton_ = {}, UnityEngine::UI::Button* playerOptionsButton_ = {}, UnityEngine::UI::Button* settingsButton_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* didFinishEvent_ = {}) noexcept : editAvatarButton{editAvatarButton_}, playerOptionsButton{playerOptionsButton_}, settingsButton{settingsButton_}, appStaticSettings{appStaticSettings_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _editAvatarButton
     UnityEngine::UI::Button*& dyn__editAvatarButton();
     // Get instance field reference: private UnityEngine.UI.Button _playerOptionsButton

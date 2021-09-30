@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MultiplayerUnavailableReasonMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MultiplayerUnavailableReasonMethods
-    MultiplayerUnavailableReasonMethods() noexcept {}
     // [LocalizationKeyAttribute] Offset: 0xF031FC
     // static field const value: static private System.String kMultiplayerUnavailableServerOffline
     static constexpr const char* kMultiplayerUnavailableServerOffline = "MULTIPLAYER_UNAVAILABLE_SERVER_OFFLINE";

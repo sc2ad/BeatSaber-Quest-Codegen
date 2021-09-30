@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // Creating value type constructor for type: SongPreviewPlayerPauseOnInputFocusLost
-    SongPreviewPlayerPauseOnInputFocusLost(GlobalNamespace::AudioPlayerBase* songPreviewPlayer_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : songPreviewPlayer{songPreviewPlayer_}, vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AudioPlayerBase _songPreviewPlayer

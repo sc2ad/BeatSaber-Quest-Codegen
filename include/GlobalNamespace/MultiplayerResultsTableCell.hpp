@@ -135,8 +135,6 @@ namespace GlobalNamespace {
     UnityEngine::Color lightColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: MultiplayerResultsTableCell
-    MultiplayerResultsTableCell(TMPro::TextMeshProUGUI* positionText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController_ = {}, float avatarScale_ = {}, UnityEngine::Color normalSecondPlayerColor_ = {}, UnityEngine::Color normalLastPlayerColor_ = {}, UnityEngine::Color localPlayerColor_ = {}, UnityEngine::Color winnerColor_ = {}, UnityEngine::Color lightColor_ = {}) noexcept : positionText{positionText_}, nameText{nameText_}, scoreText{scoreText_}, rankText{rankText_}, lights{lights_}, backgroundImage{backgroundImage_}, canvasGroup{canvasGroup_}, multiplayerResultsAvatarController{multiplayerResultsAvatarController_}, avatarScale{avatarScale_}, normalSecondPlayerColor{normalSecondPlayerColor_}, normalLastPlayerColor{normalLastPlayerColor_}, localPlayerColor{localPlayerColor_}, winnerColor{winnerColor_}, lightColor{lightColor_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
     TMPro::TextMeshProUGUI*& dyn__positionText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText

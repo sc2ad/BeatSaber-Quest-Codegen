@@ -114,8 +114,6 @@ namespace Org::BouncyCastle::Crypto::EC {
     class SecT571R1Holder;
     // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SM2P256V1Holder
     class SM2P256V1Holder;
-    // Creating value type constructor for type: CustomNamedCurves
-    CustomNamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary nameToCurve
     static System::Collections::IDictionary* _get_nameToCurve();
     // Set static field: static private readonly System.Collections.IDictionary nameToCurve

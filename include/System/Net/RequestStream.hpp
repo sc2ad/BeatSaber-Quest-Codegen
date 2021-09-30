@@ -72,8 +72,6 @@ namespace System::Net {
     System::IO::Stream* stream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: RequestStream
-    RequestStream(::ArrayWrapper<uint8_t> buffer_ = {}, int offset_ = {}, int length_ = {}, int64_t remaining_body_ = {}, bool disposed_ = {}, System::IO::Stream* stream_ = {}) noexcept : buffer{buffer_}, offset{offset_}, length{length_}, remaining_body{remaining_body_}, disposed{disposed_}, stream{stream_} {}
     // Get instance field reference: private System.Byte[] buffer
     ::ArrayWrapper<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 offset

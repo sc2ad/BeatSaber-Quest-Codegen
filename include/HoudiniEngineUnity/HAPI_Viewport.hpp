@@ -39,7 +39,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: HAPI_Viewport
-    constexpr HAPI_Viewport(::ArrayWrapper<float> position_ = {}, ::ArrayWrapper<float> rotationQuaternion_ = {}, float offset_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, offset{offset_} {}
+    constexpr HAPI_Viewport(::ArrayWrapper<float> position_ = {nullptr}, ::ArrayWrapper<float> rotationQuaternion_ = {nullptr}, float offset_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, offset{offset_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -52,7 +52,6 @@ namespace HoudiniEngineUnity {
     float& dyn_offset();
     // public System.Void .ctor(System.Boolean initializeFields)
     // Offset: 0x1439EB4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HAPI_Viewport(bool initializeFields) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_Viewport::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));

@@ -46,8 +46,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*) == 0x8);
-    // Creating value type constructor for type: PlayModeRunnerCallback
-    PlayModeRunnerCallback(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer_ = {}) noexcept : m_ResultRenderer{m_ResultRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer

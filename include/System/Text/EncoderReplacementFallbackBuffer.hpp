@@ -45,8 +45,6 @@ namespace System::Text {
     int fallbackIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EncoderReplacementFallbackBuffer
-    EncoderReplacementFallbackBuffer(::Il2CppString* strDefault_ = {}, int fallbackCount_ = {}, int fallbackIndex_ = {}) noexcept : strDefault{strDefault_}, fallbackCount{fallbackCount_}, fallbackIndex{fallbackIndex_} {}
     // Get instance field reference: private System.String strDefault
     ::Il2CppString*& dyn_strDefault();
     // Get instance field reference: private System.Int32 fallbackCount

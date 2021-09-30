@@ -30,8 +30,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserMessageReceivedAcknowledge : public GlobalNamespace::BaseMasterServerAcknowledgeMessage/*, public MasterServer::IUserMessage*/ {
     public:
-    // Creating value type constructor for type: UserMessageReceivedAcknowledge
-    UserMessageReceivedAcknowledge() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IUserMessage
     operator MasterServer::IUserMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserMessage*>(this);

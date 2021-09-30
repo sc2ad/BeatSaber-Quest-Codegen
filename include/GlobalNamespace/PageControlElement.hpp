@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     UnityEngine::Color unselectedColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: PageControlElement
-    PageControlElement(UnityEngine::RectTransform* rectTransform_ = {}, HMUI::ImageView* imageView_ = {}, UnityEngine::Color selectedColor_ = {}, UnityEngine::Color unselectedColor_ = {}) noexcept : rectTransform{rectTransform_}, imageView{imageView_}, selectedColor{selectedColor_}, unselectedColor{unselectedColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform

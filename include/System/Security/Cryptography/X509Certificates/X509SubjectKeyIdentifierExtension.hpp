@@ -60,8 +60,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::AsnDecodeStatus status;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::AsnDecodeStatus) == 0x4);
-    // Creating value type constructor for type: X509SubjectKeyIdentifierExtension
-    X509SubjectKeyIdentifierExtension(::ArrayWrapper<uint8_t> subjectKeyIdentifier_ = {}, ::Il2CppString* ski_ = {}, System::Security::Cryptography::AsnDecodeStatus status_ = {}) noexcept : subjectKeyIdentifier{subjectKeyIdentifier_}, ski{ski_}, status{status_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // static field const value: static System.String oid

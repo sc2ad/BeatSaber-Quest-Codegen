@@ -29,8 +29,6 @@ namespace UnityEngine::Animations {
   // [NativeHeaderAttribute] Offset: E8BFE4
   class AnimationPlayableGraphExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AnimationPlayableGraphExtensions
-    AnimationPlayableGraphExtensions() noexcept {}
     // static System.Boolean InternalCreateAnimationOutput(ref UnityEngine.Playables.PlayableGraph graph, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x2590194
     static bool InternalCreateAnimationOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::Il2CppString* name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);

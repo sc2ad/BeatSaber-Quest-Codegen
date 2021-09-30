@@ -95,8 +95,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: DisconnectPromptView
-    DisconnectPromptView(HMUI::PanelAnimationSO* presentPanelAnimation_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, UnityEngine::GameObject* promptGameObject_ = {}, UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_1<bool>* didViewFinishEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : presentPanelAnimation{presentPanelAnimation_}, dismissPanelAnimation{dismissPanelAnimation_}, promptGameObject{promptGameObject_}, okButton{okButton_}, cancelButton{cancelButton_}, didViewFinishEvent{didViewFinishEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation

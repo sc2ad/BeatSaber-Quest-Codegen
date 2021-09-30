@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     float exp;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Element
-    Element(UnityEngine::Color color_ = {}, float startT_ = {}, float exp_ = {}) noexcept : color{color_}, startT{startT_}, exp{exp_} {}
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single startT

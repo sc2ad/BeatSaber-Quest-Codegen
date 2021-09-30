@@ -29,8 +29,6 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class OrFilter : public NUnit::Framework::Internal::Filters::CompositeFilter {
     public:
-    // Creating value type constructor for type: OrFilter
-    OrFilter() noexcept {}
     // protected override System.String get_ElementName()
     // Offset: 0x1941EF8
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter

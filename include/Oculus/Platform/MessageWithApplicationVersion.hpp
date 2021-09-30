@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithApplicationVersion : public Oculus::Platform::Message_1<Oculus::Platform::Models::ApplicationVersion*> {
     public:
-    // Creating value type constructor for type: MessageWithApplicationVersion
-    MessageWithApplicationVersion() noexcept {}
     // protected Oculus.Platform.Models.ApplicationVersion GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B50D4
     Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(System::IntPtr c_message);

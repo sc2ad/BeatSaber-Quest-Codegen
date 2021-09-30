@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ColorExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ColorExtensions
-    ColorExtensions() noexcept {}
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
     // Offset: 0x13799E0
     static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float saturation);

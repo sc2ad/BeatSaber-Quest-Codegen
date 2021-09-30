@@ -35,8 +35,6 @@ namespace UnityEngine {
     ::Il2CppString* fileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CreateAssetMenuAttribute
-    CreateAssetMenuAttribute(::Il2CppString* menuName_ = {}, ::Il2CppString* fileName_ = {}) noexcept : menuName{menuName_}, fileName{fileName_} {}
     // Get instance field reference: private System.String <menuName>k__BackingField
     ::Il2CppString*& dyn_$menuName$k__BackingField();
     // Get instance field reference: private System.String <fileName>k__BackingField

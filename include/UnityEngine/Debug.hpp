@@ -34,8 +34,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E706CC
   class Debug : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Debug
-    Debug() noexcept {}
     // Get static field: static readonly UnityEngine.ILogger s_DefaultLogger
     static UnityEngine::ILogger* _get_s_DefaultLogger();
     // Set static field: static readonly UnityEngine.ILogger s_DefaultLogger

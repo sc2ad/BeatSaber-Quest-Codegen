@@ -27,8 +27,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkInformationException : public System::ComponentModel::Win32Exception {
     public:
-    // Creating value type constructor for type: NetworkInformationException
-    NetworkInformationException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1646D18
     // Implemented from: System.ComponentModel.Win32Exception

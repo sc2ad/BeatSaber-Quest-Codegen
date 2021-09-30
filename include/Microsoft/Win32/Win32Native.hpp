@@ -21,8 +21,6 @@ namespace Microsoft::Win32 {
     public:
     // Nested type: Microsoft::Win32::Win32Native::WIN32_FIND_DATA
     class WIN32_FIND_DATA;
-    // Creating value type constructor for type: Win32Native
-    Win32Native() noexcept {}
     // static public System.String GetMessage(System.Int32 hr)
     // Offset: 0x1C307E4
     static ::Il2CppString* GetMessage(int hr);

@@ -51,8 +51,6 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>*) == 0x8);
-    // Creating value type constructor for type: EventKeyValue
-    EventKeyValue(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* m_Signals_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events_ = {}) noexcept : m_Signals{m_Signals_}, m_Events{m_Events_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> m_Signals
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>*& dyn_m_Signals();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events

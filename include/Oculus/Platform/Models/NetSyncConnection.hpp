@@ -58,8 +58,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* ZoneId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NetSyncConnection
-    NetSyncConnection(int64_t ConnectionId_ = {}, Oculus::Platform::NetSyncDisconnectReason DisconnectReason_ = {}, uint64_t SessionId_ = {}, Oculus::Platform::NetSyncConnectionStatus Status_ = {}, ::Il2CppString* ZoneId_ = {}) noexcept : ConnectionId{ConnectionId_}, DisconnectReason{DisconnectReason_}, SessionId{SessionId_}, Status{Status_}, ZoneId{ZoneId_} {}
     // Get instance field reference: public readonly System.Int64 ConnectionId
     int64_t& dyn_ConnectionId();
     // Get instance field reference: public readonly Oculus.Platform.NetSyncDisconnectReason DisconnectReason

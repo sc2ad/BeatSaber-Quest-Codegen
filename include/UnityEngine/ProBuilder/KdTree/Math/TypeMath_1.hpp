@@ -20,8 +20,6 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   template<typename T>
   class TypeMath_1 : public ::Il2CppObject/*, public UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*/ {
     public:
-    // Creating value type constructor for type: TypeMath_1
-    TypeMath_1() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>
     operator UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(this);

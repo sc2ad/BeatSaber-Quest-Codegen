@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB65DC
   class IVRSettings::_RemoveSection : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _RemoveSection
-    _RemoveSection() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED7E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

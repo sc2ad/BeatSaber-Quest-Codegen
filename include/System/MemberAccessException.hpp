@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C34C
   class MemberAccessException : public System::SystemException {
     public:
-    // Creating value type constructor for type: MemberAccessException
-    MemberAccessException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A0F7A4
     // Implemented from: System.SystemException

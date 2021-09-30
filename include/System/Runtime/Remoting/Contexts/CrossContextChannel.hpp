@@ -34,8 +34,6 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // Nested type: System::Runtime::Remoting::Contexts::CrossContextChannel::ContextRestoreSink
     class ContextRestoreSink;
-    // Creating value type constructor for type: CrossContextChannel
-    CrossContextChannel() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

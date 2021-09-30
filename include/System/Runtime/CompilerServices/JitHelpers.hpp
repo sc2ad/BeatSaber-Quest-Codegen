@@ -26,8 +26,6 @@ namespace System::Runtime::CompilerServices {
   // [FriendAccessAllowedAttribute] Offset: FFFFFFFF
   class JitHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: JitHelpers
-    JitHelpers() noexcept {}
     // static T UnsafeCast(System.Object o)
     // Offset: 0xFFFFFFFF
     template<class T>

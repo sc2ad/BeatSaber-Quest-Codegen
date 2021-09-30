@@ -53,8 +53,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Button::ButtonClickedEvent* m_OnClick;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button::ButtonClickedEvent*) == 0x8);
-    // Creating value type constructor for type: Button
-    Button(UnityEngine::UI::Button::ButtonClickedEvent* m_OnClick_ = {}) noexcept : m_OnClick{m_OnClick_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

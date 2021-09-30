@@ -32,8 +32,6 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FB14
   class RemotingException : public System::SystemException {
     public:
-    // Creating value type constructor for type: RemotingException
-    RemotingException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1C27874
     // Implemented from: System.SystemException

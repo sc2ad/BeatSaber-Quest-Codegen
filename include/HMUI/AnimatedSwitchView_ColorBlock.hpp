@@ -59,8 +59,6 @@ namespace HMUI {
     UnityEngine::Color backgroundColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: ColorBlock
-    ColorBlock(UnityEngine::Color knobColor_ = {}, UnityEngine::Color knobColor0_ = {}, UnityEngine::Color knobColor1_ = {}, UnityEngine::Color backgroundColor_ = {}, UnityEngine::Color backgroundColor0_ = {}, UnityEngine::Color backgroundColor1_ = {}) noexcept : knobColor{knobColor_}, knobColor0{knobColor0_}, knobColor1{knobColor1_}, backgroundColor{backgroundColor_}, backgroundColor0{backgroundColor0_}, backgroundColor1{backgroundColor1_} {}
     // Get instance field reference: public UnityEngine.Color knobColor
     UnityEngine::Color& dyn_knobColor();
     // Get instance field reference: public UnityEngine.Color knobColor0

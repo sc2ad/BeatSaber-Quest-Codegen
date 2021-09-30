@@ -51,8 +51,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Size: 0xFFFFFFFF
     // Offset: 0xA0
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
-    // Creating value type constructor for type: InitalizationObjectsOperation
-    InitalizationObjectsOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> m_RtdOp_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp_ = {}) noexcept : m_RtdOp{m_RtdOp_}, m_Addressables{m_Addressables_}, m_DepOp{m_DepOp_} {}
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_RtdOp
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>& dyn_m_RtdOp();
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables

@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto::Prng {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRandomGenerator {
     public:
-    // Creating value type constructor for type: IRandomGenerator
-    IRandomGenerator() noexcept {}
     // public System.Void NextBytes(System.Byte[] bytes)
     // Offset: 0xFFFFFFFF
     void NextBytes(::ArrayWrapper<uint8_t> bytes);

@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     ::Il2CppString* userName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: JoinRequestPacket
-    JoinRequestPacket(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}) noexcept : userId{userId_}, userName{userName_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

@@ -49,8 +49,6 @@ namespace System::Net::NetworkInformation {
     ::Il2CppString* iface_flags_path;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LinuxNetworkInterface
-    LinuxNetworkInterface(::Il2CppString* iface_path_ = {}, ::Il2CppString* iface_operstate_path_ = {}, ::Il2CppString* iface_flags_path_ = {}) noexcept : iface_path{iface_path_}, iface_operstate_path{iface_operstate_path_}, iface_flags_path{iface_flags_path_} {}
     // Get instance field reference: private System.String iface_path
     ::Il2CppString*& dyn_iface_path();
     // Get instance field reference: private System.String iface_operstate_path

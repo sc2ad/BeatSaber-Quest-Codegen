@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E85B8C
   class CapsuleCollider : public UnityEngine::Collider {
     public:
-    // Creating value type constructor for type: CapsuleCollider
-    CapsuleCollider() noexcept {}
     // public UnityEngine.Vector3 get_center()
     // Offset: 0x260B79C
     UnityEngine::Vector3 get_center();

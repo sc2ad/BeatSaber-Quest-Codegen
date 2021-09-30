@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberType saberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
-    // Creating value type constructor for type: SetSaberFakeGlowColor
-    SetSaberFakeGlowColor(UnityEngine::Color tintColor_ = {}, GlobalNamespace::SaberTypeObject* saberTypeObject_ = {}, GlobalNamespace::Parametric3SliceSpriteController* parametric3SliceSprite_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberType saberType_ = {}) noexcept : tintColor{tintColor_}, saberTypeObject{saberTypeObject_}, parametric3SliceSprite{parametric3SliceSprite_}, colorManager{colorManager_}, saberType{saberType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _tintColor

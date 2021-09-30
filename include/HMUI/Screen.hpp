@@ -47,8 +47,6 @@ namespace HMUI {
     bool isBeingDestroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Screen
-    Screen(HMUI::ViewController* rootViewController_ = {}, bool isBeingDestroyed_ = {}) noexcept : rootViewController{rootViewController_}, isBeingDestroyed{isBeingDestroyed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ViewController _rootViewController

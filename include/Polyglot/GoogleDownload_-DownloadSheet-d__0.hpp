@@ -99,8 +99,6 @@ namespace Polyglot {
     UnityEngine::Networking::UnityWebRequest* $www$5__3;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
-    // Creating value type constructor for type: $DownloadSheet$d__0
-    $DownloadSheet$d__0(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, System::Func_2<float, bool>* progressbar_ = {}, System::Action_1<::Il2CppString*>* done_ = {}, ::Il2CppString* docsId_ = {}, ::Il2CppString* sheetId_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}, ::Il2CppString* $url$5__2_ = {}, UnityEngine::Networking::UnityWebRequest* $www$5__3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, progressbar{progressbar_}, done{done_}, docsId{docsId_}, sheetId{sheetId_}, format{format_}, $url$5__2{$url$5__2_}, $www$5__3{$www$5__3_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithChallengeEntryList : public Oculus::Platform::Message_1<Oculus::Platform::Models::ChallengeEntryList*> {
     public:
-    // Creating value type constructor for type: MessageWithChallengeEntryList
-    MessageWithChallengeEntryList() noexcept {}
     // protected Oculus.Platform.Models.ChallengeEntryList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B668C
     Oculus::Platform::Models::ChallengeEntryList* GetDataFromMessage(System::IntPtr c_message);

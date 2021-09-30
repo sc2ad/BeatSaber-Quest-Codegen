@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PartyMessageHandler::ConnectToMasterServerDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ConnectToMasterServerDelegate
-    ConnectToMasterServerDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x18D2700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -16,8 +16,6 @@ namespace System::Runtime::Remoting::Activation {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteActivator : public System::MarshalByRefObject {
     public:
-    // Creating value type constructor for type: RemoteActivator
-    RemoteActivator() noexcept {}
   }; // System.Runtime.Remoting.Activation.RemoteActivator
   #pragma pack(pop)
 }

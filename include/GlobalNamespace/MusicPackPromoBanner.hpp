@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelPack* currentPromoMusicPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelPack*) == 0x8);
-    // Creating value type constructor for type: MusicPackPromoBanner
-    MusicPackPromoBanner(TMPro::TextMeshProUGUI* promoText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::UI::Image* coverImage_ = {}, TMPro::TextMeshProUGUI* promoButtonText_ = {}, GlobalNamespace::IBeatmapLevelPack* currentPromoMusicPack_ = {}) noexcept : promoText{promoText_}, backgroundImage{backgroundImage_}, coverImage{coverImage_}, promoButtonText{promoButtonText_}, currentPromoMusicPack{currentPromoMusicPack_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [LocalizationKeyAttribute] Offset: 0xF131EC

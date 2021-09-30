@@ -44,8 +44,6 @@ namespace HoudiniEngineUnity {
     bool IsNewBake;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_BakedEventData
-    HEU_BakedEventData(bool IsNewBake_ = {}) noexcept : IsNewBake{IsNewBake_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return IsNewBake;

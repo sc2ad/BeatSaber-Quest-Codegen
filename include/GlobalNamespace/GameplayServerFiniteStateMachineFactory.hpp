@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayServerFiniteStateMachineFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GameplayServerFiniteStateMachineFactory
-    GameplayServerFiniteStateMachineFactory() noexcept {}
     // static public GameplayServerFiniteStateMachine Create(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String creatorId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     // Offset: 0x145A35C
     static GlobalNamespace::GameplayServerFiniteStateMachine* Create(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::Il2CppString* creatorId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);

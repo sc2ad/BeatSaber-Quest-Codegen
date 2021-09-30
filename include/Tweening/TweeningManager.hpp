@@ -70,8 +70,6 @@ namespace Tweening {
     System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* reusableTweenHashSets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*) == 0x8);
-    // Creating value type constructor for type: TweeningManager
-    TweeningManager(System::Collections::Generic::List_1<Tweening::Tween*>* activeTweens_ = {}, System::Collections::Generic::HashSet_1<Tweening::Tween*>* activeTweensSet_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::Object*, System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* tweensByOwner_ = {}, System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* reusableTweenHashSets_ = {}) noexcept : activeTweens{activeTweens_}, activeTweensSet{activeTweensSet_}, tweensByOwner{tweensByOwner_}, reusableTweenHashSets{reusableTweenHashSets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens

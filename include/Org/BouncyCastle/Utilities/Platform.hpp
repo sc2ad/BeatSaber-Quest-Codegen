@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Platform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Platform
-    Platform() noexcept {}
     // Get static field: static private readonly System.Globalization.CompareInfo InvariantCompareInfo
     static System::Globalization::CompareInfo* _get_InvariantCompareInfo();
     // Set static field: static private readonly System.Globalization.CompareInfo InvariantCompareInfo

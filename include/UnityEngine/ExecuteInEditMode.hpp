@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E724D8
   class ExecuteInEditMode : public System::Attribute {
     public:
-    // Creating value type constructor for type: ExecuteInEditMode
-    ExecuteInEditMode() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CBAEF0
     // Implemented from: System.Attribute

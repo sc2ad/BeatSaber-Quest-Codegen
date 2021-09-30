@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*) == 0x8);
-    // Creating value type constructor for type: PbeS2Parameters
-    PbeS2Parameters(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* func_ = {}, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme_ = {}) noexcept : func{func_}, scheme{scheme_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
     Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& dyn_func();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme

@@ -61,8 +61,6 @@ namespace UnityEngine::TextCore {
     int m_AtlasIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Glyph
-    Glyph(uint m_Index_ = {}, UnityEngine::TextCore::GlyphMetrics m_Metrics_ = {}, UnityEngine::TextCore::GlyphRect m_GlyphRect_ = {}, float m_Scale_ = {}, int m_AtlasIndex_ = {}) noexcept : m_Index{m_Index_}, m_Metrics{m_Metrics_}, m_GlyphRect{m_GlyphRect_}, m_Scale{m_Scale_}, m_AtlasIndex{m_AtlasIndex_} {}
     // Get instance field reference: private System.UInt32 m_Index
     uint& dyn_m_Index();
     // Get instance field reference: private UnityEngine.TextCore.GlyphMetrics m_Metrics

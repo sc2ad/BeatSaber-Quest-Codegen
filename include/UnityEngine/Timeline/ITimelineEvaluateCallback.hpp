@@ -13,8 +13,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITimelineEvaluateCallback {
     public:
-    // Creating value type constructor for type: ITimelineEvaluateCallback
-    ITimelineEvaluateCallback() noexcept {}
     // public System.Void Evaluate()
     // Offset: 0xFFFFFFFF
     void Evaluate();

@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     float horizontalFOV;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: HorizontalCameraFov
-    HorizontalCameraFov(float horizontalFOV_ = {}) noexcept : horizontalFOV{horizontalFOV_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _horizontalFOV

@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UtcTimeProvider : public ::Il2CppObject/*, public MasterServer::ITimeProvider*/ {
     public:
-    // Creating value type constructor for type: UtcTimeProvider
-    UtcTimeProvider() noexcept {}
     // Creating interface conversion operator: operator MasterServer::ITimeProvider
     operator MasterServer::ITimeProvider() noexcept {
       return *reinterpret_cast<MasterServer::ITimeProvider*>(this);

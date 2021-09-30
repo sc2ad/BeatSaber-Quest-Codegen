@@ -63,7 +63,6 @@ namespace GlobalNamespace {
     float& dyn_solution3();
     // public System.Void .ctor(System.Single solution1)
     // Offset: 0x12A98A0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solution1)})));
@@ -71,7 +70,6 @@ namespace GlobalNamespace {
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
     // Offset: 0x12A98B4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solution1), ::il2cpp_utils::ExtractType(solution2)})));
@@ -79,7 +77,6 @@ namespace GlobalNamespace {
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
     // Offset: 0x12A98C8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2, float solution3) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solution1), ::il2cpp_utils::ExtractType(solution2), ::il2cpp_utils::ExtractType(solution3)})));

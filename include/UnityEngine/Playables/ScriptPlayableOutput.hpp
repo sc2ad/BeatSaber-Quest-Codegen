@@ -62,7 +62,6 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1DFD268
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
     // static public UnityEngine.Playables.ScriptPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name)
     // Offset: 0x1DFD184

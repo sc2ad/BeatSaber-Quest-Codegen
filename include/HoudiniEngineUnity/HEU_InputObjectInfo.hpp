@@ -114,8 +114,6 @@ namespace HoudiniEngineUnity {
     System::Type* inputInterfaceType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: HEU_InputObjectInfo
-    HEU_InputObjectInfo(UnityEngine::GameObject* gameObject_ = {}, UnityEngine::Terrain* terrainReference_ = {}, GlobalNamespace::HEU_BoundingVolume* boundingVolumeReference_ = {}, UnityEngine::Tilemaps::Tilemap* tilemapReference_ = {}, UnityEngine::Matrix4x4 syncdTransform_ = {}, bool useTransformOffset_ = {}, UnityEngine::Vector3 translateOffset_ = {}, UnityEngine::Vector3 rotateOffset_ = {}, UnityEngine::Vector3 scaleOffset_ = {}, System::Type* inputInterfaceType_ = {}) noexcept : gameObject{gameObject_}, terrainReference{terrainReference_}, boundingVolumeReference{boundingVolumeReference_}, tilemapReference{tilemapReference_}, syncdTransform{syncdTransform_}, useTransformOffset{useTransformOffset_}, translateOffset{translateOffset_}, rotateOffset{rotateOffset_}, scaleOffset{scaleOffset_}, inputInterfaceType{inputInterfaceType_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputObjectInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputObjectInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputObjectInfo*>*>(this);

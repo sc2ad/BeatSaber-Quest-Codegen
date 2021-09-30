@@ -95,8 +95,6 @@ namespace GlobalNamespace {
     int64_t cummulativeCutScoreWithoutMultiplier;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: PlayerOverallStatsData
-    PlayerOverallStatsData(int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCutsCount_ = {}, int64_t totalScore_ = {}, int playedLevelsCount_ = {}, int cleardLevelsCount_ = {}, int failedLevelsCount_ = {}, int fullComboCount_ = {}, float timePlayed_ = {}, int handDistanceTravelled_ = {}, int64_t cummulativeCutScoreWithoutMultiplier_ = {}) noexcept : goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCutsCount{missedCutsCount_}, totalScore{totalScore_}, playedLevelsCount{playedLevelsCount_}, cleardLevelsCount{cleardLevelsCount_}, failedLevelsCount{failedLevelsCount_}, fullComboCount{fullComboCount_}, timePlayed{timePlayed_}, handDistanceTravelled{handDistanceTravelled_}, cummulativeCutScoreWithoutMultiplier{cummulativeCutScoreWithoutMultiplier_} {}
     // Get instance field reference: private System.Int32 <goodCutsCount>k__BackingField
     int& dyn_$goodCutsCount$k__BackingField();
     // Get instance field reference: private System.Int32 <badCutsCount>k__BackingField

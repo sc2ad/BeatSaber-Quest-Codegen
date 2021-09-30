@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusInit::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly OculusInit/<>c <>9
     static GlobalNamespace::OculusInit::$$c* _get_$$9();
     // Set static field: static public readonly OculusInit/<>c <>9

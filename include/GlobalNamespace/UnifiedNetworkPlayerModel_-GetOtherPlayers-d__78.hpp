@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* $$7__wrap2;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
-    // Creating value type constructor for type: $GetOtherPlayers$d__78
-    $GetOtherPlayers$d__78(int $$1__state_ = {}, GlobalNamespace::INetworkPlayer* $$2__current_ = {}, int $$l__initialThreadId_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* $$4__this_ = {}, typename System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer*>::Enumerator $$7__wrap1_ = {}, System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>
     operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*>(this);

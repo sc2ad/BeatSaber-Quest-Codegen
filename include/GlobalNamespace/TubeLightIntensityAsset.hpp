@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TubeLightIntensityBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeLightIntensityBehaviour*) == 0x8);
-    // Creating value type constructor for type: TubeLightIntensityAsset
-    TubeLightIntensityAsset(GlobalNamespace::TubeLightIntensityBehaviour* _template_ = {}) noexcept : _template{_template_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

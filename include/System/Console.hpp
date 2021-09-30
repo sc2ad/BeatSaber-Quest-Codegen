@@ -45,8 +45,6 @@ namespace System {
     class WindowsConsole;
     // Nested type: System::Console::InternalCancelHandler
     class InternalCancelHandler;
-    // Creating value type constructor for type: Console
-    Console() noexcept {}
     // Get static field: static System.IO.TextWriter stdout
     static System::IO::TextWriter* _get_stdout();
     // Set static field: static System.IO.TextWriter stdout

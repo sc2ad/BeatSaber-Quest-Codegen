@@ -20,8 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class SamePathConstraint : public NUnit::Framework::Constraints::PathConstraint {
     public:
-    // Creating value type constructor for type: SamePathConstraint
-    SamePathConstraint() noexcept {}
     // public override System.String get_Description()
     // Offset: 0x193512C
     // Implemented from: NUnit.Framework.Constraints.StringConstraint

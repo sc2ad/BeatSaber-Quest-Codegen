@@ -121,8 +121,6 @@ namespace System::Net {
     System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* unregistered;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>*) == 0x8);
-    // Creating value type constructor for type: EndPointListener
-    EndPointListener(System::Net::HttpListener* listener_ = {}, System::Net::IPEndPoint* endpoint_ = {}, System::Net::Sockets::Socket* sock_ = {}, System::Collections::Hashtable* prefixes_ = {}, System::Collections::ArrayList* unhandled_ = {}, System::Collections::ArrayList* all_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* cert_ = {}, bool secure_ = {}, System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* unregistered_ = {}) noexcept : listener{listener_}, endpoint{endpoint_}, sock{sock_}, prefixes{prefixes_}, unhandled{unhandled_}, all{all_}, cert{cert_}, secure{secure_}, unregistered{unregistered_} {}
     // Get instance field reference: private System.Net.HttpListener listener
     System::Net::HttpListener*& dyn_listener();
     // Get instance field reference: private System.Net.IPEndPoint endpoint

@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*) == 0x8);
-    // Creating value type constructor for type: HowToPlayViewController
-    HowToPlayViewController(UnityEngine::UI::Button* tutorialButton_ = {}, UnityEngine::UI::Button* creditsButton_ = {}, System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* didFinishEvent_ = {}) noexcept : tutorialButton{tutorialButton_}, creditsButton{creditsButton_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _tutorialButton
     UnityEngine::UI::Button*& dyn__tutorialButton();
     // Get instance field reference: private UnityEngine.UI.Button _creditsButton

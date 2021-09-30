@@ -32,8 +32,6 @@ namespace UnityEngine::TestTools {
     int Retry;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EnumerableTestState
-    EnumerableTestState(int Repeat_ = {}, int Retry_ = {}) noexcept : Repeat{Repeat_}, Retry{Retry_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 Repeat

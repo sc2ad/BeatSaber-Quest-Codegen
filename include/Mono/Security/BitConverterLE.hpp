@@ -14,8 +14,6 @@ namespace Mono::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitConverterLE : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BitConverterLE
-    BitConverterLE() noexcept {}
     // static private System.Byte[] GetUIntBytes(System.Byte* bytes)
     // Offset: 0x1F9AB88
     static ::ArrayWrapper<uint8_t> GetUIntBytes(uint8_t* bytes);

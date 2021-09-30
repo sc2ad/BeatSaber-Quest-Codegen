@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     ::Il2CppString* code;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ConnectToServerParams
-    ConnectToServerParams(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}) noexcept : secret{secret_}, code{code_} {}
     // Get instance field reference: public System.String secret
     ::Il2CppString*& dyn_secret();
     // Get instance field reference: public System.String code

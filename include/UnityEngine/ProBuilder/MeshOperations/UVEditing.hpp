@@ -53,8 +53,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass9_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;
-    // Creating value type constructor for type: UVEditing
-    UVEditing() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.Vector2> s_UVTransformProjectionBuffer
     static System::Collections::Generic::List_1<UnityEngine::Vector2>* _get_s_UVTransformProjectionBuffer();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Vector2> s_UVTransformProjectionBuffer

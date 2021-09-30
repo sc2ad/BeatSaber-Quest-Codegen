@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::StartServerParams : public GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase {
     public:
-    // Creating value type constructor for type: StartServerParams
-    StartServerParams() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x145E5DC
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase

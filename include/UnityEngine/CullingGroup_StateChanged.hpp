@@ -36,8 +36,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class CullingGroup::StateChanged : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: StateChanged
-    StateChanged() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1CB67B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

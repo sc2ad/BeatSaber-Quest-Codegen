@@ -54,8 +54,6 @@ namespace Zenject {
     System::Func_2<Zenject::SceneContext*, int>* $$9__0;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::SceneContext*, int>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>* sceneOrder_ = {}, System::Func_2<Zenject::SceneContext*, int>* $$9__0_ = {}) noexcept : sceneOrder{sceneOrder_}, $$9__0{$$9__0_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
     System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>*& dyn_sceneOrder();
     // Get instance field reference: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0

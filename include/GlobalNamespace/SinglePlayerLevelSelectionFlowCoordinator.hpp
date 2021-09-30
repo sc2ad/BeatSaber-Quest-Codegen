@@ -117,8 +117,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*) == 0x8);
-    // Creating value type constructor for type: SinglePlayerLevelSelectionFlowCoordinator
-    SinglePlayerLevelSelectionFlowCoordinator(GlobalNamespace::BeatmapCharacteristicSO* degree360BeatmapCharacteristic_ = {}, GlobalNamespace::PracticeViewController* practiceViewController_ = {}, GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* didFinishEvent_ = {}) noexcept : degree360BeatmapCharacteristic{degree360BeatmapCharacteristic_}, practiceViewController{practiceViewController_}, gameplaySetupViewController{gameplaySetupViewController_}, menuTransitionsHelper{menuTransitionsHelper_}, vrPlatformHelper{vrPlatformHelper_}, appStaticSettings{appStaticSettings_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private BeatmapCharacteristicSO _degree360BeatmapCharacteristic
     GlobalNamespace::BeatmapCharacteristicSO*& dyn__degree360BeatmapCharacteristic();
     // Get instance field reference: private readonly PracticeViewController _practiceViewController

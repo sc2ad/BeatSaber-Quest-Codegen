@@ -74,7 +74,6 @@ namespace UnityEngine::ProBuilder {
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
     // Offset: 0x24F34A4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector2Mask(UnityEngine::Vector3 v, float epsilon) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector2Mask::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v), ::il2cpp_utils::ExtractType(epsilon)})));
@@ -82,7 +81,6 @@ namespace UnityEngine::ProBuilder {
     }
     // public System.Void .ctor(System.Byte mask)
     // Offset: 0x24F356C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Vector2Mask(uint8_t mask)
     // static private System.Void .cctor()
     // Offset: 0x24F36C0

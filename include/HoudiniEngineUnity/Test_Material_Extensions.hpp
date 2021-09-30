@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Material_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Material_Extensions
-    Test_Material_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Material ToTestObject(UnityEngine.Material self)
     // Offset: 0x25D0ADC
     static HoudiniEngineUnity::Test_Material* ToTestObject(UnityEngine::Material* self);

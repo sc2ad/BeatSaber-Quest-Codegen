@@ -46,8 +46,6 @@ namespace Mono::Security {
     System::Collections::ArrayList* elist;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: ASN1
-    ASN1(uint8_t m_nTag_ = {}, ::ArrayWrapper<uint8_t> m_aValue_ = {}, System::Collections::ArrayList* elist_ = {}) noexcept : m_nTag{m_nTag_}, m_aValue{m_aValue_}, elist{elist_} {}
     // Get instance field reference: private System.Byte m_nTag
     uint8_t& dyn_m_nTag();
     // Get instance field reference: private System.Byte[] m_aValue

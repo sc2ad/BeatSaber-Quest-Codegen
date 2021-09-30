@@ -21,8 +21,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringBuilderCache : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StringBuilderCache
-    StringBuilderCache() noexcept {}
     // Get static field: static private System.Text.StringBuilder CachedInstance
     static System::Text::StringBuilder* _get_CachedInstance();
     // Set static field: static private System.Text.StringBuilder CachedInstance

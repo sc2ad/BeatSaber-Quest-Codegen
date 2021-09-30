@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpWebRequestElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: HttpWebRequestElement
-    HttpWebRequestElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x156FFCC
     // Implemented from: System.Configuration.ConfigurationElement

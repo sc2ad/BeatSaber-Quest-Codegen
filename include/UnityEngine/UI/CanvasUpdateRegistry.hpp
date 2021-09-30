@@ -76,8 +76,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>*) == 0x8);
-    // Creating value type constructor for type: CanvasUpdateRegistry
-    CanvasUpdateRegistry(bool m_PerformingLayoutUpdate_ = {}, bool m_PerformingGraphicUpdate_ = {}, ::ArrayWrapper<::Il2CppString*> m_CanvasUpdateProfilerStrings_ = {}, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* m_LayoutRebuildQueue_ = {}, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue_ = {}) noexcept : m_PerformingLayoutUpdate{m_PerformingLayoutUpdate_}, m_PerformingGraphicUpdate{m_PerformingGraphicUpdate_}, m_CanvasUpdateProfilerStrings{m_CanvasUpdateProfilerStrings_}, m_LayoutRebuildQueue{m_LayoutRebuildQueue_}, m_GraphicRebuildQueue{m_GraphicRebuildQueue_} {}
     // Get static field: static private UnityEngine.UI.CanvasUpdateRegistry s_Instance
     static UnityEngine::UI::CanvasUpdateRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.CanvasUpdateRegistry s_Instance

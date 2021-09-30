@@ -146,8 +146,6 @@ namespace GlobalNamespace {
     bool savedCursorVisible;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SteamVR_Menu
-    SteamVR_Menu(UnityEngine::Texture* cursor_ = {}, UnityEngine::Texture* background_ = {}, UnityEngine::Texture* logo_ = {}, float logoHeight_ = {}, float menuOffset_ = {}, UnityEngine::Vector2 scaleLimits_ = {}, float scaleRate_ = {}, GlobalNamespace::SteamVR_Overlay* overlay_ = {}, UnityEngine::Camera* overlayCam_ = {}, UnityEngine::Vector4 uvOffset_ = {}, float distance_ = {}, float scale_ = {}, ::Il2CppString* scaleLimitX_ = {}, ::Il2CppString* scaleLimitY_ = {}, ::Il2CppString* scaleRateText_ = {}, UnityEngine::CursorLockMode savedCursorLockState_ = {}, bool savedCursorVisible_ = {}) noexcept : cursor{cursor_}, background{background_}, logo{logo_}, logoHeight{logoHeight_}, menuOffset{menuOffset_}, scaleLimits{scaleLimits_}, scaleRate{scaleRate_}, overlay{overlay_}, overlayCam{overlayCam_}, uvOffset{uvOffset_}, distance{distance_}, scale{scale_}, scaleLimitX{scaleLimitX_}, scaleLimitY{scaleLimitY_}, scaleRateText{scaleRateText_}, savedCursorLockState{savedCursorLockState_}, savedCursorVisible{savedCursorVisible_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture cursor

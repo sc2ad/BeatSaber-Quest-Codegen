@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     bool uploading;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LeaderboardScoreUploader
-    LeaderboardScoreUploader(System::Action* allScoresDidUploadEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scoresToUpload_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scoresToUploadForCurrentPlayer_ = {}, GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback_ = {}, ::Il2CppString* playerId_ = {}, bool uploading_ = {}) noexcept : allScoresDidUploadEvent{allScoresDidUploadEvent_}, scoresToUpload{scoresToUpload_}, scoresToUploadForCurrentPlayer{scoresToUploadForCurrentPlayer_}, uploadScoreCallback{uploadScoreCallback_}, playerId{playerId_}, uploading{uploading_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kScoresToUploadFileName

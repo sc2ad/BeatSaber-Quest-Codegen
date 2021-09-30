@@ -70,8 +70,6 @@ namespace Org::BouncyCastle::Math {
     int mQuote;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BigInteger
-    BigInteger(::ArrayWrapper<int> magnitude_ = {}, int sign_ = {}, int nBits_ = {}, int nBitLength_ = {}, int mQuote_ = {}) noexcept : magnitude{magnitude_}, sign{sign_}, nBits{nBits_}, nBitLength{nBitLength_}, mQuote{mQuote_} {}
     // Get static field: static readonly System.Int32[][] primeLists
     static ::ArrayWrapper<::ArrayWrapper<int>> _get_primeLists();
     // Set static field: static readonly System.Int32[][] primeLists

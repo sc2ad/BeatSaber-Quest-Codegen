@@ -44,8 +44,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Sku;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Product
-    Product(::Il2CppString* Description_ = {}, ::Il2CppString* FormattedPrice_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppString* Sku_ = {}) noexcept : Description{Description_}, FormattedPrice{FormattedPrice_}, Name{Name_}, Sku{Sku_} {}
     // Get instance field reference: public readonly System.String Description
     ::Il2CppString*& dyn_Description();
     // Get instance field reference: public readonly System.String FormattedPrice

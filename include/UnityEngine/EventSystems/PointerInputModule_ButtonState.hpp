@@ -36,8 +36,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*) == 0x8);
-    // Creating value type constructor for type: ButtonState
-    ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton m_Button_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData_ = {}) noexcept : m_Button{m_Button_}, m_EventData{m_EventData_} {}
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton m_Button
     UnityEngine::EventSystems::PointerEventData::InputButton& dyn_m_Button();
     // Get instance field reference: private UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData m_EventData

@@ -32,8 +32,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnexceptionalStreamReader : public System::IO::StreamReader {
     public:
-    // Creating value type constructor for type: UnexceptionalStreamReader
-    UnexceptionalStreamReader() noexcept {}
     // Get static field: static private System.Boolean[] newline
     static ::ArrayWrapper<bool> _get_newline();
     // Set static field: static private System.Boolean[] newline

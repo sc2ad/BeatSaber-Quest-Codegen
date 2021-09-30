@@ -129,8 +129,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::IDictionary* InternalProperties;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
-    // Creating value type constructor for type: MethodCall
-    MethodCall(::Il2CppString* uri_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}, ::ArrayWrapper<System::Type*> methodSignature_ = {}, System::Reflection::MethodBase* methodBase_ = {}, System::Runtime::Remoting::Messaging::LogicalCallContext* callContext_ = {}, System::Runtime::Remoting::Identity* targetIdentity_ = {}, ::ArrayWrapper<System::Type*> genericArguments_ = {}, System::Collections::IDictionary* ExternalProperties_ = {}, System::Collections::IDictionary* InternalProperties_ = {}) noexcept : uri{uri_}, typeName{typeName_}, methodName{methodName_}, args{args_}, methodSignature{methodSignature_}, methodBase{methodBase_}, callContext{callContext_}, targetIdentity{targetIdentity_}, genericArguments{genericArguments_}, ExternalProperties{ExternalProperties_}, InternalProperties{InternalProperties_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

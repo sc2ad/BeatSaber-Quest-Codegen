@@ -20,8 +20,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class UIBehaviour : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: UIBehaviour
-    UIBehaviour() noexcept {}
     // protected System.Void Awake()
     // Offset: 0x15F81F0
     void Awake();

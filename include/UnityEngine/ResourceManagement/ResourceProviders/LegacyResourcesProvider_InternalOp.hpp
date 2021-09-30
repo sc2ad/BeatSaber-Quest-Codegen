@@ -41,8 +41,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
-    // Creating value type constructor for type: InternalOp
-    InternalOp(UnityEngine::AsyncOperation* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle_ = {}) noexcept : m_RequestOperation{m_RequestOperation_}, m_ProvideHandle{m_ProvideHandle_} {}
     // Get instance field reference: private UnityEngine.AsyncOperation m_RequestOperation
     UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle

@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     bool headWasInObstacle;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HeadObstacleLowPassAudioEffect
-    HeadObstacleLowPassAudioEffect(GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction_ = {}, GlobalNamespace::MainAudioEffects* mainAudioEffects_ = {}, bool headWasInObstacle_ = {}) noexcept : playerHeadAndObstacleInteraction{playerHeadAndObstacleInteraction_}, mainAudioEffects{mainAudioEffects_}, headWasInObstacle{headWasInObstacle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction

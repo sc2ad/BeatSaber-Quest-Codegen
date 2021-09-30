@@ -59,8 +59,6 @@ namespace Zenject {
     Zenject::DiContainer* sceneContainer;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: ZenjectSceneLoader
-    ZenjectSceneLoader(Zenject::ProjectKernel* projectKernel_ = {}, Zenject::DiContainer* sceneContainer_ = {}) noexcept : projectKernel{projectKernel_}, sceneContainer{sceneContainer_} {}
     // Get instance field reference: private readonly Zenject.ProjectKernel _projectKernel
     Zenject::ProjectKernel*& dyn__projectKernel();
     // Get instance field reference: private readonly Zenject.DiContainer _sceneContainer

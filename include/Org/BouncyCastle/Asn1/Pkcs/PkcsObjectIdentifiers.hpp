@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class PkcsObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PkcsObjectIdentifiers
-    PkcsObjectIdentifiers() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Asn1.DerObjectIdentifier Pkcs1Oid
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_Pkcs1Oid();
     // Set static field: static readonly Org.BouncyCastle.Asn1.DerObjectIdentifier Pkcs1Oid

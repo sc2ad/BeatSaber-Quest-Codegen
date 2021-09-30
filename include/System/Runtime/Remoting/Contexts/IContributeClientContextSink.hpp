@@ -21,8 +21,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FCBC
   class IContributeClientContextSink {
     public:
-    // Creating value type constructor for type: IContributeClientContextSink
-    IContributeClientContextSink() noexcept {}
     // public System.Runtime.Remoting.Messaging.IMessageSink GetClientContextSink(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSink(System::Runtime::Remoting::Messaging::IMessageSink* nextSink);

@@ -58,8 +58,6 @@ namespace System {
     ::Il2CppString* RemoteUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MoreInfo
-    MoreInfo(::Il2CppString* Path_ = {}, ::Il2CppString* Query_ = {}, ::Il2CppString* Fragment_ = {}, ::Il2CppString* AbsoluteUri_ = {}, int Hash_ = {}, ::Il2CppString* RemoteUrl_ = {}) noexcept : Path{Path_}, Query{Query_}, Fragment{Fragment_}, AbsoluteUri{AbsoluteUri_}, Hash{Hash_}, RemoteUrl{RemoteUrl_} {}
     // Get instance field reference: public System.String Path
     ::Il2CppString*& dyn_Path();
     // Get instance field reference: public System.String Query

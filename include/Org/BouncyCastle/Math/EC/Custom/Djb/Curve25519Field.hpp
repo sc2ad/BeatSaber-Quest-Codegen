@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   // [TokenAttribute] Offset: FFFFFFFF
   class Curve25519Field : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Curve25519Field
-    Curve25519Field() noexcept {}
     // Get static field: static readonly System.UInt32[] P
     static ::ArrayWrapper<uint> _get_P();
     // Set static field: static readonly System.UInt32[] P

@@ -162,8 +162,6 @@ namespace Zenject {
     bool hasResolved;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SceneContext
-    SceneContext(System::Action* PreInstall_ = {}, System::Action* PostInstall_ = {}, System::Action* PreResolve_ = {}, System::Action* PostResolve_ = {}, UnityEngine::Events::UnityEvent* OnPreInstall_ = {}, UnityEngine::Events::UnityEvent* OnPostInstall_ = {}, UnityEngine::Events::UnityEvent* OnPreResolve_ = {}, UnityEngine::Events::UnityEvent* OnPostResolve_ = {}, bool parentNewObjectsUnderSceneContext_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* contractNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* parentContractNames_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* decoratorContexts_ = {}, bool hasInstalled_ = {}, bool hasResolved_ = {}) noexcept : PreInstall{PreInstall_}, PostInstall{PostInstall_}, PreResolve{PreResolve_}, PostResolve{PostResolve_}, OnPreInstall{OnPreInstall_}, OnPostInstall{OnPostInstall_}, OnPreResolve{OnPreResolve_}, OnPostResolve{OnPostResolve_}, parentNewObjectsUnderSceneContext{parentNewObjectsUnderSceneContext_}, contractNames{contractNames_}, parentContractNames{parentContractNames_}, container{container_}, decoratorContexts{decoratorContexts_}, hasInstalled{hasInstalled_}, hasResolved{hasResolved_} {}
     // Get static field: static public System.Action`1<Zenject.DiContainer> ExtraBindingsEarlyInstallMethod
     static System::Action_1<Zenject::DiContainer*>* _get_ExtraBindingsEarlyInstallMethod();
     // Set static field: static public System.Action`1<Zenject.DiContainer> ExtraBindingsEarlyInstallMethod

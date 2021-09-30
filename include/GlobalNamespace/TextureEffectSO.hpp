@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextureEffectSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: TextureEffectSO
-    TextureEffectSO() noexcept {}
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     // Offset: 0x1E300EC
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);

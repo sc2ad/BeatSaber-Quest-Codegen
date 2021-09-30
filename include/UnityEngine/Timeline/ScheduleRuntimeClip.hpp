@@ -76,8 +76,6 @@ namespace UnityEngine::Timeline {
     bool m_Started;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ScheduleRuntimeClip
-    ScheduleRuntimeClip(UnityEngine::Timeline::TimelineClip* m_Clip_ = {}, UnityEngine::Playables::Playable m_Playable_ = {}, UnityEngine::Playables::Playable m_ParentMixer_ = {}, double m_StartDelay_ = {}, double m_FinishTail_ = {}, bool m_Started_ = {}) noexcept : m_Clip{m_Clip_}, m_Playable{m_Playable_}, m_ParentMixer{m_ParentMixer_}, m_StartDelay{m_StartDelay_}, m_FinishTail{m_FinishTail_}, m_Started{m_Started_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Timeline.TimelineClip m_Clip

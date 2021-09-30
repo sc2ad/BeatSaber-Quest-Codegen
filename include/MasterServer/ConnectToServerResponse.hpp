@@ -218,8 +218,6 @@ namespace MasterServer {
     ::Il2CppString* managerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ConnectToServerResponse
-    ConnectToServerResponse(MasterServer::ConnectToServerResponse::Result result_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, bool isConnectionOwner_ = {}, bool isDedicatedServer_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, GlobalNamespace::ByteArrayNetSerializable* random_ = {}, GlobalNamespace::ByteArrayNetSerializable* publicKey_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, ::Il2CppString* managerId_ = {}) noexcept : result{result_}, userId{userId_}, userName{userName_}, secret{secret_}, code{code_}, selectionMask{selectionMask_}, isConnectionOwner{isConnectionOwner_}, isDedicatedServer{isDedicatedServer_}, remoteEndPoint{remoteEndPoint_}, random{random_}, publicKey{publicKey_}, configuration{configuration_}, managerId{managerId_} {}
     // Creating interface conversion operator: operator MasterServer::IUserServerToClientMessage
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);

@@ -20,8 +20,6 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class MD2 : public System::Security::Cryptography::HashAlgorithm {
     public:
-    // Creating value type constructor for type: MD2
-    MD2() noexcept {}
     // static public Mono.Security.Cryptography.MD2 Create()
     // Offset: 0x1F9C6C0
     static Mono::Security::Cryptography::MD2* Create();

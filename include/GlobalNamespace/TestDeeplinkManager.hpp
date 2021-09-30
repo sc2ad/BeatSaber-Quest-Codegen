@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::Deeplink* currentDeeplink;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Deeplink*) == 0x8);
-    // Creating value type constructor for type: TestDeeplinkManager
-    TestDeeplinkManager(System::Action_1<GlobalNamespace::Deeplink*>* didReceiveDeeplinkEvent_ = {}, GlobalNamespace::Deeplink* currentDeeplink_ = {}) noexcept : didReceiveDeeplinkEvent{didReceiveDeeplinkEvent_}, currentDeeplink{currentDeeplink_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDeeplinkManager
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);

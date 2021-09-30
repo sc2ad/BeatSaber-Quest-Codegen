@@ -41,8 +41,6 @@ namespace System::Collections {
     System::Collections::SortedList* sortedList;
     // Field size check
     static_assert(sizeof(System::Collections::SortedList*) == 0x8);
-    // Creating value type constructor for type: ValueList
-    ValueList(System::Collections::SortedList* sortedList_ = {}) noexcept : sortedList{sortedList_} {}
     // Creating interface conversion operator: operator System::Collections::IList
     operator System::Collections::IList() noexcept {
       return *reinterpret_cast<System::Collections::IList*>(this);

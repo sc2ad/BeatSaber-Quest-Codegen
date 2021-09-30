@@ -33,8 +33,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E859C4
   class Rigidbody : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: Rigidbody
-    Rigidbody() noexcept {}
     // public System.Void set_velocity(UnityEngine.Vector3 value)
     // Offset: 0x260F558
     void set_velocity(UnityEngine::Vector3 value);

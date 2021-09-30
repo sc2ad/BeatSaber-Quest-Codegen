@@ -22,8 +22,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriParser::BuiltInUriParser : public System::UriParser {
     public:
-    // Creating value type constructor for type: BuiltInUriParser
-    BuiltInUriParser() noexcept {}
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
     // Offset: 0x25F4FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

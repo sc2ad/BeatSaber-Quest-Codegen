@@ -39,8 +39,6 @@ namespace System::Security::Cryptography {
     int m_current;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: OidEnumerator
-    OidEnumerator(System::Security::Cryptography::OidCollection* m_oids_ = {}, int m_current_ = {}) noexcept : m_oids{m_oids_}, m_current{m_current_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

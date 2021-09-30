@@ -42,8 +42,6 @@ namespace System {
     System::Collections::Hashtable* starts;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: ByteMatcher
-    ByteMatcher(System::Collections::Hashtable* map_ = {}, System::Collections::Hashtable* starts_ = {}) noexcept : map{map_}, starts{starts_} {}
     // Get instance field reference: private System.Collections.Hashtable map
     System::Collections::Hashtable*& dyn_map();
     // Get instance field reference: private System.Collections.Hashtable starts

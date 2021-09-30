@@ -20,8 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathConstraint : public NUnit::Framework::Constraints::StringConstraint {
     public:
-    // Creating value type constructor for type: PathConstraint
-    PathConstraint() noexcept {}
     // Get static field: static private readonly System.Char[] DirectorySeparatorChars
     static ::ArrayWrapper<::Il2CppChar> _get_DirectorySeparatorChars();
     // Set static field: static private readonly System.Char[] DirectorySeparatorChars

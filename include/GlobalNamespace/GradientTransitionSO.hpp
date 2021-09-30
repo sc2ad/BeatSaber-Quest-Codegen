@@ -104,8 +104,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* selectedAndHighlightedColor2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // Creating value type constructor for type: GradientTransitionSO
-    GradientTransitionSO(GlobalNamespace::ColorSO* normalColor1_ = {}, GlobalNamespace::ColorSO* normalColor2_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor2_ = {}, GlobalNamespace::ColorSO* pressedColor1_ = {}, GlobalNamespace::ColorSO* pressedColor2_ = {}, GlobalNamespace::ColorSO* disabledColor1_ = {}, GlobalNamespace::ColorSO* disabledColor2_ = {}, GlobalNamespace::ColorSO* selectedColor1_ = {}, GlobalNamespace::ColorSO* selectedColor2_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor1_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor2_ = {}) noexcept : normalColor1{normalColor1_}, normalColor2{normalColor2_}, highlightColor1{highlightColor1_}, highlightColor2{highlightColor2_}, pressedColor1{pressedColor1_}, pressedColor2{pressedColor2_}, disabledColor1{disabledColor1_}, disabledColor2{disabledColor2_}, selectedColor1{selectedColor1_}, selectedColor2{selectedColor2_}, selectedAndHighlightedColor1{selectedAndHighlightedColor1_}, selectedAndHighlightedColor2{selectedAndHighlightedColor2_} {}
     // Get instance field reference: private ColorSO _normalColor1
     GlobalNamespace::ColorSO*& dyn__normalColor1();
     // Get instance field reference: private ColorSO _normalColor2

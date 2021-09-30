@@ -44,8 +44,6 @@ namespace System::Collections::Generic {
     bool useStackAlloc;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BitHelper
-    BitHelper(int length_ = {}, int* arrayPtr_ = {}, ::ArrayWrapper<int> array_ = {}, bool useStackAlloc_ = {}) noexcept : length{length_}, arrayPtr{arrayPtr_}, array{array_}, useStackAlloc{useStackAlloc_} {}
     // Get instance field reference: private readonly System.Int32 _length
     int& dyn__length();
     // Get instance field reference: private readonly System.Int32* _arrayPtr

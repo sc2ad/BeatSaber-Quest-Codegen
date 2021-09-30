@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(GlobalNamespace::GhostDuplicationEffect* $$4__this_ = {}, UnityEngine::Vector3 direction_ = {}) noexcept : $$4__this{$$4__this_}, direction{direction_} {}
     // Get instance field reference: public GhostDuplicationEffect <>4__this
     GlobalNamespace::GhostDuplicationEffect*& dyn_$$4__this();
     // Get instance field reference: public UnityEngine.Vector3 direction

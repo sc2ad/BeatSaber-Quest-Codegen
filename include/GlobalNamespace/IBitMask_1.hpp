@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   template<typename T>
   class IBitMask_1/*, public System::IEquatable_1<T>*/ {
     public:
-    // Creating value type constructor for type: IBitMask_1
-    IBitMask_1() noexcept {}
     // Creating interface conversion operator: operator System::IEquatable_1<T>
     operator System::IEquatable_1<T>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<T>*>(this);

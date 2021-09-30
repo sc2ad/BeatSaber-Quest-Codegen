@@ -72,8 +72,6 @@ namespace HMUI {
     bool isShown;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HoverHintPanel
-    HoverHintPanel(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::Vector2 padding_ = {}, UnityEngine::Vector2 containerPadding_ = {}, float separator_ = {}, float zOffset_ = {}, bool isShown_ = {}) noexcept : text{text_}, padding{padding_}, containerPadding{containerPadding_}, separator{separator_}, zOffset{zOffset_}, isShown{isShown_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

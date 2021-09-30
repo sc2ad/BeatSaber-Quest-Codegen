@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenVRInterop : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OpenVRInterop
-    OpenVRInterop() noexcept {}
     // static System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
     // Offset: 0x25DB160
     static uint InitInternal(ByRef<Valve::VR::EVRInitError> peError, Valve::VR::EVRApplicationType eApplicationType);

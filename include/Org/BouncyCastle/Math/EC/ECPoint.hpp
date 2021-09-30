@@ -82,8 +82,6 @@ namespace Org::BouncyCastle::Math::EC {
     System::Collections::IDictionary* m_preCompTable;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
-    // Creating value type constructor for type: ECPoint
-    ECPoint(Org::BouncyCastle::Math::EC::ECCurve* m_curve_ = {}, Org::BouncyCastle::Math::EC::ECFieldElement* m_x_ = {}, Org::BouncyCastle::Math::EC::ECFieldElement* m_y_ = {}, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> m_zs_ = {}, bool m_withCompression_ = {}, System::Collections::IDictionary* m_preCompTable_ = {}) noexcept : m_curve{m_curve_}, m_x{m_x_}, m_y{m_y_}, m_zs{m_zs_}, m_withCompression{m_withCompression_}, m_preCompTable{m_preCompTable_} {}
     // Get static field: static private readonly Org.BouncyCastle.Security.SecureRandom Random
     static Org::BouncyCastle::Security::SecureRandom* _get_Random();
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom Random

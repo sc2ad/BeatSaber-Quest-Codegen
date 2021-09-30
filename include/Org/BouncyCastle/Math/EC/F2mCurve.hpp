@@ -76,8 +76,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::F2mPoint* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::F2mPoint*) == 0x8);
-    // Creating value type constructor for type: F2mCurve
-    F2mCurve(int m_ = {}, int k1_ = {}, int k2_ = {}, int k3_ = {}, Org::BouncyCastle::Math::EC::F2mPoint* m_infinity_ = {}) noexcept : m{m_}, k1{k1_}, k2{k2_}, k3{k3_}, m_infinity{m_infinity_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>
     constexpr operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 m

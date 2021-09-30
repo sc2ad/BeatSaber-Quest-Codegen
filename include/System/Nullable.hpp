@@ -22,8 +22,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CC88
   class Nullable : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Nullable
-    Nullable() noexcept {}
     // static public System.Type GetUnderlyingType(System.Type nullableType)
     // Offset: 0x1A13128
     static System::Type* GetUnderlyingType(System::Type* nullableType);

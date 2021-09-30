@@ -36,8 +36,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPacketProcessor::SubscribeDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SubscribeDelegate
-    SubscribeDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2618950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

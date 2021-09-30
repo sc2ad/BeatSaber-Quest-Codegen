@@ -60,8 +60,6 @@ namespace System::Runtime::Remoting::Metadata {
     ::Il2CppString* _namespace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SoapMethodAttribute
-    SoapMethodAttribute(::Il2CppString* responseElement_ = {}, ::Il2CppString* responseNamespace_ = {}, ::Il2CppString* returnElement_ = {}, ::Il2CppString* soapAction_ = {}, bool useAttribute_ = {}, ::Il2CppString* _namespace_ = {}) noexcept : responseElement{responseElement_}, responseNamespace{responseNamespace_}, returnElement{returnElement_}, soapAction{soapAction_}, useAttribute{useAttribute_}, _namespace{_namespace_} {}
     // Get instance field reference: private System.String _responseElement
     ::Il2CppString*& dyn__responseElement();
     // Get instance field reference: private System.String _responseNamespace

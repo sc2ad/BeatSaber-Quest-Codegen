@@ -37,8 +37,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DE78
   class MonoAssembly : public System::Reflection::RuntimeAssembly {
     public:
-    // Creating value type constructor for type: MonoAssembly
-    MonoAssembly() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EAC03C
     // Implemented from: System.Reflection.RuntimeAssembly

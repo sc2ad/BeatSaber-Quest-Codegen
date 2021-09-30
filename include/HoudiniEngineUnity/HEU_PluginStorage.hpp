@@ -66,8 +66,6 @@ namespace HoudiniEngineUnity {
     bool requiresSave;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_PluginStorage
-    HEU_PluginStorage(System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>* dataMap_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* envPathMap_ = {}, bool requiresSave_ = {}) noexcept : dataMap{dataMap_}, envPathMap{envPathMap_}, requiresSave{requiresSave_} {}
     // Get static field: static private HoudiniEngineUnity.HEU_PluginStorage _instance
     static HoudiniEngineUnity::HEU_PluginStorage* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_PluginStorage _instance

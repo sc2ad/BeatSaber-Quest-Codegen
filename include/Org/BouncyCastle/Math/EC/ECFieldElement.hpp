@@ -25,8 +25,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECFieldElement : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ECFieldElement
-    ECFieldElement() noexcept {}
     // public System.Int32 get_FieldSize()
     // Offset: 0xFFFFFFFF
     int get_FieldSize();

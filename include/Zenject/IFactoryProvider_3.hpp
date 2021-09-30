@@ -41,8 +41,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TContract>
   class IFactoryProvider_3 : public Zenject::IFactoryProviderBase_1<TContract> {
     public:
-    // Creating value type constructor for type: IFactoryProvider_3
-    IFactoryProvider_3() noexcept {}
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid factoryId)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactoryProviderBase`1

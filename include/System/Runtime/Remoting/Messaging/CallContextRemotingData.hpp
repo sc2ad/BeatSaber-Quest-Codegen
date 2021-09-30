@@ -26,8 +26,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppString* logicalCallID;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CallContextRemotingData
-    CallContextRemotingData(::Il2CppString* logicalCallID_ = {}) noexcept : logicalCallID{logicalCallID_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

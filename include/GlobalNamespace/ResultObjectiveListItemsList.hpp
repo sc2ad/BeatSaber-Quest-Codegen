@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultObjectiveListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::ResultObjectiveListItem*> {
     public:
-    // Creating value type constructor for type: ResultObjectiveListItemsList
-    ResultObjectiveListItemsList() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11C18FC
     // Implemented from: HMUI.UIItemsList`1

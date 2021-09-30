@@ -31,8 +31,6 @@ namespace GlobalNamespace {
     struct AppInitOverrideStartType;
     // Nested type: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
-    // Creating value type constructor for type: AppInitScenesTransitionSetupDataSO
-    AppInitScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
     // Offset: 0x12460BC
     void Init();

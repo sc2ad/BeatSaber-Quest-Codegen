@@ -128,8 +128,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* sparksAudioClipPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
-    // Creating value type constructor for type: FlickeringNeonSign
-    FlickeringNeonSign(UnityEngine::SpriteRenderer* flickeringSprite_ = {}, GlobalNamespace::TubeBloomPrePassLight* light_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}, float minOnDelay_ = {}, float maxOnDelay_ = {}, float minOffDelay_ = {}, float maxOffDelay_ = {}, UnityEngine::Color spriteOnColor_ = {}, UnityEngine::Color lightOnColor_ = {}, UnityEngine::Material* onMaterial_ = {}, UnityEngine::Material* offMaterial_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> sparksAudioClips_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* sparksAudioClipPicker_ = {}) noexcept : flickeringSprite{flickeringSprite_}, light{light_}, particleSystems{particleSystems_}, minOnDelay{minOnDelay_}, maxOnDelay{maxOnDelay_}, minOffDelay{minOffDelay_}, maxOffDelay{maxOffDelay_}, spriteOnColor{spriteOnColor_}, lightOnColor{lightOnColor_}, onMaterial{onMaterial_}, offMaterial{offMaterial_}, sparksAudioClips{sparksAudioClips_}, sparksAudioClipPicker{sparksAudioClipPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.SpriteRenderer _flickeringSprite

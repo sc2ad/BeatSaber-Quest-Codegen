@@ -21,8 +21,6 @@ namespace System::IO {
   // [CompilerGeneratedAttribute] Offset: E5E344
   class TextReader::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.IO.TextReader/System.IO.<>c <>9
     static System::IO::TextReader::$$c* _get_$$9();
     // Set static field: static public readonly System.IO.TextReader/System.IO.<>c <>9

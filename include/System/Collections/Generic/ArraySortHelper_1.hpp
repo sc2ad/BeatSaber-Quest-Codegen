@@ -32,8 +32,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class ArraySortHelper_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ArraySortHelper_1
-    ArraySortHelper_1() noexcept {}
     // static public System.Void Sort(T[] keys, System.Int32 index, System.Int32 length, System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     static void Sort(::ArrayWrapper<T> keys, int index, int length, System::Collections::Generic::IComparer_1<T>* comparer) {

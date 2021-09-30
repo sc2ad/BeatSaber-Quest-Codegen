@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     bool encrypting;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SkipjackEngine
-    SkipjackEngine(::ArrayWrapper<int> key0_ = {}, ::ArrayWrapper<int> key1_ = {}, ::ArrayWrapper<int> key2_ = {}, ::ArrayWrapper<int> key3_ = {}, bool encrypting_ = {}) noexcept : key0{key0_}, key1{key1_}, key2{key2_}, key3{key3_}, encrypting{encrypting_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

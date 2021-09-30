@@ -76,8 +76,6 @@ namespace HoudiniEngineUnity {
     class $get_Children$d__40;
     // Nested type: HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42
     class $get_DeepChildren$d__42;
-    // Creating value type constructor for type: JSONNode
-    JSONNode() noexcept {}
     // Get static field: static public System.Boolean forceASCII
     static bool _get_forceASCII();
     // Set static field: static public System.Boolean forceASCII

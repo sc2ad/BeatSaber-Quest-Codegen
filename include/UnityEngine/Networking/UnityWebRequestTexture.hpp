@@ -21,8 +21,6 @@ namespace UnityEngine::Networking {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityWebRequestTexture : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityWebRequestTexture
-    UnityWebRequestTexture() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri)
     // Offset: 0x2629A6C
     static UnityEngine::Networking::UnityWebRequest* GetTexture(::Il2CppString* uri);

@@ -23,8 +23,6 @@ namespace Org::BouncyCastle::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrivateKeyInfoFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PrivateKeyInfoFactory
-    PrivateKeyInfoFactory() noexcept {}
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
     // Offset: 0x14C26BC
     static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayWrapper<::Il2CppChar> passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);

@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*) == 0x8);
-    // Creating value type constructor for type: PlayerHeadAndObstacleInteraction
-    PlayerHeadAndObstacleInteraction(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, int lastFrameNumCheck_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles_ = {}) noexcept : playerTransforms{playerTransforms_}, beatmapObjectManager{beatmapObjectManager_}, lastFrameNumCheck{lastFrameNumCheck_}, intersectingObstacles{intersectingObstacles_} {}
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
     GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager

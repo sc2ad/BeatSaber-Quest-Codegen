@@ -116,8 +116,6 @@ namespace UnityEngine::UI {
     float m_LineSpacing;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FontData
-    FontData(UnityEngine::Font* m_Font_ = {}, int m_FontSize_ = {}, UnityEngine::FontStyle m_FontStyle_ = {}, bool m_BestFit_ = {}, int m_MinSize_ = {}, int m_MaxSize_ = {}, UnityEngine::TextAnchor m_Alignment_ = {}, bool m_AlignByGeometry_ = {}, bool m_RichText_ = {}, UnityEngine::HorizontalWrapMode m_HorizontalOverflow_ = {}, UnityEngine::VerticalWrapMode m_VerticalOverflow_ = {}, float m_LineSpacing_ = {}) noexcept : m_Font{m_Font_}, m_FontSize{m_FontSize_}, m_FontStyle{m_FontStyle_}, m_BestFit{m_BestFit_}, m_MinSize{m_MinSize_}, m_MaxSize{m_MaxSize_}, m_Alignment{m_Alignment_}, m_AlignByGeometry{m_AlignByGeometry_}, m_RichText{m_RichText_}, m_HorizontalOverflow{m_HorizontalOverflow_}, m_VerticalOverflow{m_VerticalOverflow_}, m_LineSpacing{m_LineSpacing_} {}
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

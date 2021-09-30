@@ -85,8 +85,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
-    // Creating value type constructor for type: HEU_AssetPreset
-    HEU_AssetPreset(::ArrayWrapper<::Il2CppChar> identifier_ = {}, int version_ = {}, ::Il2CppString* assetOPName_ = {}, ::ArrayWrapper<uint8_t> parameterPreset_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* curveNames_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* curvePresets_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>* inputPresets_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets_ = {}) noexcept : identifier{identifier_}, version{version_}, assetOPName{assetOPName_}, parameterPreset{parameterPreset_}, curveNames{curveNames_}, curvePresets{curvePresets_}, inputPresets{inputPresets_}, volumeCachePresets{volumeCachePresets_} {}
     // Get instance field reference: public System.Char[] _identifier
     ::ArrayWrapper<::Il2CppChar>& dyn__identifier();
     // Get instance field reference: public System.Int32 _version

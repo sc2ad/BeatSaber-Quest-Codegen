@@ -36,8 +36,6 @@ namespace UnityEngine::Bindings {
     bool Enabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NativeConditionalAttribute
-    NativeConditionalAttribute(::Il2CppString* Condition_ = {}, bool Enabled_ = {}) noexcept : Condition{Condition_}, Enabled{Enabled_} {}
     // Get instance field reference: private System.String <Condition>k__BackingField
     ::Il2CppString*& dyn_$Condition$k__BackingField();
     // Get instance field reference: private System.Boolean <Enabled>k__BackingField

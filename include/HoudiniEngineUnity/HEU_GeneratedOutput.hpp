@@ -58,8 +58,6 @@ namespace HoudiniEngineUnity {
     bool isInstancer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_GeneratedOutput
-    HEU_GeneratedOutput(HoudiniEngineUnity::HEU_GeneratedOutputData* outputData_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>* childOutputs_ = {}, bool isInstancer_ = {}) noexcept : outputData{outputData_}, childOutputs{childOutputs_}, isInstancer{isInstancer_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>*>(this);

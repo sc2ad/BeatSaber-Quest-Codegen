@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C2D8
   class InvalidCastException : public System::SystemException {
     public:
-    // Creating value type constructor for type: InvalidCastException
-    InvalidCastException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A0D730
     // Implemented from: System.SystemException

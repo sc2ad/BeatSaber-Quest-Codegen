@@ -20,8 +20,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NUnitAttribute
-    NUnitAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x24A9D60
     // Implemented from: System.Attribute

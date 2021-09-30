@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisableOnNonOculus : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: DisableOnNonOculus
-    DisableOnNonOculus() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11A8140
     // Implemented from: UnityEngine.MonoBehaviour

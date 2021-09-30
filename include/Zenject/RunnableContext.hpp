@@ -40,8 +40,6 @@ namespace Zenject {
     bool Initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RunnableContext
-    RunnableContext(bool autoRun_ = {}, bool Initialized_ = {}) noexcept : autoRun{autoRun_}, Initialized{Initialized_} {}
     // Get static field: static private System.Boolean _staticAutoRun
     static bool _get__staticAutoRun();
     // Set static field: static private System.Boolean _staticAutoRun

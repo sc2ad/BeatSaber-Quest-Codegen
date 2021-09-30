@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB54AC
   class IVRTrackedCamera::_ReleaseVideoStreamingService : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ReleaseVideoStreamingService
-    _ReleaseVideoStreamingService() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE63E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

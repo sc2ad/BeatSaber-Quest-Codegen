@@ -61,8 +61,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayWrapper<System::Type*> sig;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: CADMethodReturnMessage
-    CADMethodReturnMessage(::Il2CppObject* returnValue_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* exception_ = {}, ::ArrayWrapper<System::Type*> sig_ = {}) noexcept : returnValue{returnValue_}, exception{exception_}, sig{sig_} {}
     // Get instance field reference: private System.Object _returnValue
     ::Il2CppObject*& dyn__returnValue();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.CADArgHolder _exception

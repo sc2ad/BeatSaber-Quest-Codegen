@@ -23,8 +23,6 @@ namespace System::Runtime::Remoting::Activation {
   // [ComVisibleAttribute] Offset: E5FE5C
   class IActivator {
     public:
-    // Creating value type constructor for type: IActivator
-    IActivator() noexcept {}
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();

@@ -58,8 +58,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<TValue> values;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<TValue>) == 0x8);
-    // Creating value type constructor for type: HEU_SerializableDictionary_2
-    HEU_SerializableDictionary_2(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, ::ArrayWrapper<TKey> keys_ = {}, ::ArrayWrapper<TValue> values_ = {}) noexcept : dictionary{dictionary_}, keys{keys_}, values{values_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IDictionary_2<TKey, TValue>
     operator System::Collections::Generic::IDictionary_2<TKey, TValue>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IDictionary_2<TKey, TValue>*>(this);

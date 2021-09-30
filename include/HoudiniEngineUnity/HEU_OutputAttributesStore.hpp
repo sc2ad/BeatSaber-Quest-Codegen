@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_OutputAttributeDictionary* attributes;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_OutputAttributeDictionary*) == 0x8);
-    // Creating value type constructor for type: HEU_OutputAttributesStore
-    HEU_OutputAttributesStore(HoudiniEngineUnity::HEU_OutputAttributeDictionary* attributes_ = {}) noexcept : attributes{attributes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes

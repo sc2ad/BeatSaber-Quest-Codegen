@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1364
   class IVRRenderModels::_GetComponentButtonMask : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetComponentButtonMask
-    _GetComponentButtonMask() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22D93C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

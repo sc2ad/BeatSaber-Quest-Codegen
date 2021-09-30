@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatUnityEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
-    // Creating value type constructor for type: FloatUnityEvent
-    FloatUnityEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x138156C
     // Implemented from: UnityEngine.Events.UnityEvent`1

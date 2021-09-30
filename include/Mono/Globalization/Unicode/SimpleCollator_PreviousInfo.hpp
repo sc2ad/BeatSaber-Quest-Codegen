@@ -49,7 +49,6 @@ namespace Mono::Globalization::Unicode {
     uint8_t*& dyn_SortKey();
     // public System.Void .ctor(System.Boolean dummy)
     // Offset: 0x1C378D8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PreviousInfo(bool dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dummy)})));

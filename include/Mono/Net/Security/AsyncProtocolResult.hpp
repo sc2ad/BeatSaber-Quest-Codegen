@@ -39,8 +39,6 @@ namespace Mono::Net::Security {
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
     // Field size check
     static_assert(sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
-    // Creating value type constructor for type: AsyncProtocolResult
-    AsyncProtocolResult(int UserResult_ = {}, System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error_ = {}) noexcept : UserResult{UserResult_}, Error{Error_} {}
     // Get instance field reference: private readonly System.Int32 <UserResult>k__BackingField
     int& dyn_$UserResult$k__BackingField();
     // Get instance field reference: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField

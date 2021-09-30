@@ -18,8 +18,6 @@ namespace UnityEngine::Analytics {
   // [ExcludeFromDocsAttribute] Offset: FFFFFFFF
   class ContinuousEvent : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ContinuousEvent
-    ContinuousEvent() noexcept {}
   }; // UnityEngine.Analytics.ContinuousEvent
   #pragma pack(pop)
 }

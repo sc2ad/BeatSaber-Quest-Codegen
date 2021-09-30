@@ -65,8 +65,6 @@ namespace HMUI {
     HMUI::FlowCoordinator* flowCoordinator;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass36_0
-    $$c__DisplayClass36_0(bool immediately_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* viewController_ = {}, HMUI::FlowCoordinator* flowCoordinator_ = {}) noexcept : immediately{immediately_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, viewController{viewController_}, flowCoordinator{flowCoordinator_} {}
     // Get instance field reference: public System.Boolean immediately
     bool& dyn_immediately();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this

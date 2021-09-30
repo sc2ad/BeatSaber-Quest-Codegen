@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMenuButtonTrigger {
     public:
-    // Creating value type constructor for type: IMenuButtonTrigger
-    IMenuButtonTrigger() noexcept {}
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_menuButtonTriggeredEvent(System::Action* value);

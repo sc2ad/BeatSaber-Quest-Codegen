@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneSetupData : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SceneSetupData
-    SceneSetupData() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2598D24
     // Implemented from: System.Object

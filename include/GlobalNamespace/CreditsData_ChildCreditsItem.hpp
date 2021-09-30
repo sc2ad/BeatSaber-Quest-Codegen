@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CreditsData::Text* text;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreditsData::Text*) == 0x8);
-    // Creating value type constructor for type: ChildCreditsItem
-    ChildCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}) noexcept : title{title_}, text{text_} {}
     // Get instance field reference: public CreditsData/Text title
     GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text

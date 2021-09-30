@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD754
   class CannotApplyEqualityOperatorAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: CannotApplyEqualityOperatorAttribute
-    CannotApplyEqualityOperatorAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610430
     // Implemented from: System.Attribute

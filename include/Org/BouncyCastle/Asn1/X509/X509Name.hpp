@@ -82,8 +82,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
-    // Creating value type constructor for type: X509Name
-    X509Name(System::Collections::IList* ordering_ = {}, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter_ = {}, System::Collections::IList* values_ = {}, System::Collections::IList* added_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}) noexcept : ordering{ordering_}, converter{converter_}, values{values_}, added{added_}, seq{seq_} {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier C
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_C();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier C

@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5A10
   class IVRCompositor::_GetLastPoseForTrackedDeviceIndex : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetLastPoseForTrackedDeviceIndex
-    _GetLastPoseForTrackedDeviceIndex() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AD328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

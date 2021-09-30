@@ -210,7 +210,6 @@ namespace Oculus::Platform {
       double& dyn_doubleValue_();
       // public System.Void .ctor(System.String key, System.String value)
       // Offset: 0x16A7F94
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
@@ -218,7 +217,6 @@ namespace Oculus::Platform {
       }
       // public System.Void .ctor(System.String key, System.Int32 value)
       // Offset: 0x16A7FAC
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, int value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
@@ -226,7 +224,6 @@ namespace Oculus::Platform {
       }
       // public System.Void .ctor(System.String key, System.Double value)
       // Offset: 0x16A7FC8
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, double value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
@@ -236,8 +233,6 @@ namespace Oculus::Platform {
     #pragma pack(pop)
     static check_size<sizeof(CAPI::ovrKeyValuePair), 32 + sizeof(double)> __Oculus_Platform_CAPI_ovrKeyValuePairSizeCheck;
     static_assert(sizeof(CAPI::ovrKeyValuePair) == 0x28);
-    // Creating value type constructor for type: CAPI
-    CAPI() noexcept {}
     // static field const value: static public System.String DLL_NAME
     static constexpr const char* DLL_NAME = "ovrplatformloader";
     // Get static field: static public System.String DLL_NAME

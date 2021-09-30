@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BeatmapDifficultySerializedMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapDifficultySerializedMethods
-    BeatmapDifficultySerializedMethods() noexcept {}
     // static field const value: static private System.String kDifficultyEasySerializedName
     static constexpr const char* kDifficultyEasySerializedName = "Easy";
     // Get static field: static private System.String kDifficultyEasySerializedName

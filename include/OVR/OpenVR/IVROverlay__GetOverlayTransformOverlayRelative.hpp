@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0F2C
   class IVROverlay::_GetOverlayTransformOverlayRelative : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetOverlayTransformOverlayRelative
-    _GetOverlayTransformOverlayRelative() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20FE368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

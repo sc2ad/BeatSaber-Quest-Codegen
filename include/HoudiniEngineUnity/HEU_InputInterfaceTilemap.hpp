@@ -46,8 +46,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*) == 0x8);
-    // Creating value type constructor for type: HEU_InputInterfaceTilemap
-    HEU_InputInterfaceTilemap(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings_ = {}) noexcept : settings{settings_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings settings

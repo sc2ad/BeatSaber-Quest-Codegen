@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 lastTrackedPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: VRController
-    VRController(UnityEngine::XR::XRNode node_ = {}, int nodeIdx_ = {}, GlobalNamespace::VRControllerTransformOffset* transformOffset_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, GlobalNamespace::VRControllersInputManager* vrControllersInputManager_ = {}, UnityEngine::Vector3 lastTrackedPosition_ = {}) noexcept : node{node_}, nodeIdx{nodeIdx_}, transformOffset{transformOffset_}, vrPlatformHelper{vrPlatformHelper_}, vrControllersInputManager{vrControllersInputManager_}, lastTrackedPosition{lastTrackedPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.XR.XRNode _node

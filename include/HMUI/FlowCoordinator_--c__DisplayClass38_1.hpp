@@ -40,8 +40,6 @@ namespace HMUI {
     HMUI::FlowCoordinator::$$c__DisplayClass38_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator::$$c__DisplayClass38_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass38_1
-    $$c__DisplayClass38_1(HMUI::ViewController* topViewController_ = {}, HMUI::FlowCoordinator::$$c__DisplayClass38_0* CS$$$8__locals1_ = {}) noexcept : topViewController{topViewController_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public HMUI.ViewController topViewController
     HMUI::ViewController*& dyn_topViewController();
     // Get instance field reference: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1

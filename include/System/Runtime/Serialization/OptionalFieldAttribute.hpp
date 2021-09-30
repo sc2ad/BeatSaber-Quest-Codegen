@@ -28,8 +28,6 @@ namespace System::Runtime::Serialization {
     int versionAdded;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: OptionalFieldAttribute
-    OptionalFieldAttribute(int versionAdded_ = {}) noexcept : versionAdded{versionAdded_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return versionAdded;

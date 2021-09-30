@@ -75,8 +75,6 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FBBIKArmBending
-    FBBIKArmBending(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, UnityEngine::Vector3 bendDirectionOffsetLeft_ = {}, UnityEngine::Vector3 bendDirectionOffsetRight_ = {}, UnityEngine::Vector3 characterSpaceBendOffsetLeft_ = {}, UnityEngine::Vector3 characterSpaceBendOffsetRight_ = {}, UnityEngine::Quaternion leftHandTargetRotation_ = {}, UnityEngine::Quaternion rightHandTargetRotation_ = {}, bool initiated_ = {}) noexcept : ik{ik_}, bendDirectionOffsetLeft{bendDirectionOffsetLeft_}, bendDirectionOffsetRight{bendDirectionOffsetRight_}, characterSpaceBendOffsetLeft{characterSpaceBendOffsetLeft_}, characterSpaceBendOffsetRight{characterSpaceBendOffsetRight_}, leftHandTargetRotation{leftHandTargetRotation_}, rightHandTargetRotation{rightHandTargetRotation_}, initiated{initiated_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik

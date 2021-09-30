@@ -32,8 +32,6 @@ namespace UnityEngine::Playables {
   // [RequiredByNativeCodeAttribute] Offset: E74724
   class PlayableBehaviour : public ::Il2CppObject/*, public UnityEngine::Playables::IPlayableBehaviour, public System::ICloneable*/ {
     public:
-    // Creating value type constructor for type: PlayableBehaviour
-    PlayableBehaviour() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::Playables::IPlayableBehaviour
     operator UnityEngine::Playables::IPlayableBehaviour() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::IPlayableBehaviour*>(this);

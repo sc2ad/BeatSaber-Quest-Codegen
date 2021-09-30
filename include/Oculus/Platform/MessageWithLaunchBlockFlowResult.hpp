@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithLaunchBlockFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchBlockFlowResult*> {
     public:
-    // Creating value type constructor for type: MessageWithLaunchBlockFlowResult
-    MessageWithLaunchBlockFlowResult() noexcept {}
     // protected Oculus.Platform.Models.LaunchBlockFlowResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B84B0
     Oculus::Platform::Models::LaunchBlockFlowResult* GetDataFromMessage(System::IntPtr c_message);

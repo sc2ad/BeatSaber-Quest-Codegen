@@ -32,8 +32,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICertificateValidator2/*, public Mono::Security::Interface::ICertificateValidator*/ {
     public:
-    // Creating value type constructor for type: ICertificateValidator2
-    ICertificateValidator2() noexcept {}
     // Creating interface conversion operator: operator Mono::Security::Interface::ICertificateValidator
     operator Mono::Security::Interface::ICertificateValidator() noexcept {
       return *reinterpret_cast<Mono::Security::Interface::ICertificateValidator*>(this);

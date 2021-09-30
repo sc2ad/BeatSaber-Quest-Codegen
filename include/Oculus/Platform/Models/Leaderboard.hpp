@@ -52,8 +52,6 @@ namespace Oculus::Platform::Models {
     uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: Leaderboard
-    Leaderboard(::Il2CppString* ApiName_ = {}, Oculus::Platform::Models::Destination* DestinationOptional_ = {}, Oculus::Platform::Models::Destination* Destination_ = {}, uint64_t _ID_ = {}) noexcept : ApiName{ApiName_}, DestinationOptional{DestinationOptional_}, Destination{Destination_}, _ID{_ID_} {}
     // Get instance field reference: public readonly System.String ApiName
     ::Il2CppString*& dyn_ApiName();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination DestinationOptional

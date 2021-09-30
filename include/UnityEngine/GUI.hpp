@@ -54,8 +54,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::GUI::WindowFunction
     class WindowFunction;
-    // Creating value type constructor for type: GUI
-    GUI() noexcept {}
     // Get static field: static private System.Int32 s_ScrollControlId
     static int _get_s_ScrollControlId();
     // Set static field: static private System.Int32 s_ScrollControlId

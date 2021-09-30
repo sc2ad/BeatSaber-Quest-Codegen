@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class RectTransform::ReapplyDrivenProperties : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ReapplyDrivenProperties
-    ReapplyDrivenProperties() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1E03974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

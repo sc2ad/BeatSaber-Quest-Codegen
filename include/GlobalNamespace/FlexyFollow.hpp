@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: FlexyFollow
-    FlexyFollow(UnityEngine::GameObject* followObject_ = {}, float followSpeed_ = {}, UnityEngine::Vector3 offset_ = {}, bool fixedXOffset_ = {}, bool fixedYOffset_ = {}, bool fixedZOffset_ = {}, bool useLocalPosition_ = {}, UnityEngine::Transform* followTransform_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : followObject{followObject_}, followSpeed{followSpeed_}, offset{offset_}, fixedXOffset{fixedXOffset_}, fixedYOffset{fixedYOffset_}, fixedZOffset{fixedZOffset_}, useLocalPosition{useLocalPosition_}, followTransform{followTransform_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject _followObject

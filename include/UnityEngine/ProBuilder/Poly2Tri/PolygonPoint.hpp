@@ -20,8 +20,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class PolygonPoint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
     public:
-    // Creating value type constructor for type: PolygonPoint
-    PolygonPoint() noexcept {}
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
     // Offset: 0x25CF984
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint

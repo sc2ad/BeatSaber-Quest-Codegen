@@ -24,8 +24,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* gameObjectName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_InputAssetPreset
-    HEU_InputAssetPreset(::Il2CppString* gameObjectName_ = {}) noexcept : gameObjectName{gameObjectName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return gameObjectName;

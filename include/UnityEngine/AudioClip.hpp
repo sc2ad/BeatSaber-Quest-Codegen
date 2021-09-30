@@ -47,8 +47,6 @@ namespace UnityEngine {
     UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip::PCMSetPositionCallback*) == 0x8);
-    // Creating value type constructor for type: AudioClip
-    AudioClip(UnityEngine::AudioClip::PCMReaderCallback* m_PCMReaderCallback_ = {}, UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback_ = {}) noexcept : m_PCMReaderCallback{m_PCMReaderCallback_}, m_PCMSetPositionCallback{m_PCMSetPositionCallback_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback

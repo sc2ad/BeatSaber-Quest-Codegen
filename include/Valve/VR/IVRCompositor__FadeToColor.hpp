@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5AB0
   class IVRCompositor::_FadeToColor : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _FadeToColor
-    _FadeToColor() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AB20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Parametric3SliceSpriteController
-    Parametric3SliceSpriteController(float widthMultiplier_ = {}, float width_ = {}, float length_ = {}, float center_ = {}, UnityEngine::Color color_ = {}, float alphaMultiplier_ = {}, float minAlpha_ = {}, float alphaStart_ = {}, float alphaEnd_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, bool isInitialized_ = {}) noexcept : widthMultiplier{widthMultiplier_}, width{width_}, length{length_}, center{center_}, color{color_}, alphaMultiplier{alphaMultiplier_}, minAlpha{minAlpha_}, alphaStart{alphaStart_}, alphaEnd{alphaEnd_}, meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, isInitialized{isInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMaxWidth

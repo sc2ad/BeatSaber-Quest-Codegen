@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(int requests_ = {}, bool success_ = {}, ::ArrayWrapper<::Il2CppString*> userNames_ = {}, System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs_ = {}) noexcept : requests{requests_}, success{success_}, userNames{userNames_}, tcs{tcs_} {}
     // Get instance field reference: public System.Int32 requests
     int& dyn_requests();
     // Get instance field reference: public System.Boolean success

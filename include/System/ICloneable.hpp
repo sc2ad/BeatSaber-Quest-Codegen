@@ -17,8 +17,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C1D0
   class ICloneable {
     public:
-    // Creating value type constructor for type: ICloneable
-    ICloneable() noexcept {}
     // public System.Object Clone()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Clone();

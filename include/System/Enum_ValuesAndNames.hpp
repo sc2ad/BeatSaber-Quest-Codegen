@@ -32,8 +32,6 @@ namespace System {
     ::ArrayWrapper<::Il2CppString*> Names;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: ValuesAndNames
-    ValuesAndNames(::ArrayWrapper<uint64_t> Values_ = {}, ::ArrayWrapper<::Il2CppString*> Names_ = {}) noexcept : Values{Values_}, Names{Names_} {}
     // Get instance field reference: public System.UInt64[] Values
     ::ArrayWrapper<uint64_t>& dyn_Values();
     // Get instance field reference: public System.String[] Names

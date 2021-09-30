@@ -59,8 +59,6 @@ namespace UnityEngine::TestRunner::Utils {
     ::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*> m_Callbacks;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*>) == 0x8);
-    // Creating value type constructor for type: TestRunCallbackListener
-    TestRunCallbackListener(::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*> m_Callbacks_ = {}) noexcept : m_Callbacks{m_Callbacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks

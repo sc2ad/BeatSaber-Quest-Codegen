@@ -28,8 +28,6 @@ namespace Polyglot {
     ::Il2CppString* preferenceKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SaveLanguagePreference
-    SaveLanguagePreference(::Il2CppString* preferenceKey_ = {}) noexcept : preferenceKey{preferenceKey_} {}
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);

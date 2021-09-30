@@ -130,8 +130,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*) == 0x8);
-    // Creating value type constructor for type: Context
-    Context(int domain_id_ = {}, int context_id_ = {}, System::UIntPtr static_data_ = {}, System::UIntPtr data_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* server_context_sink_chain_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* client_context_sink_chain_ = {}, System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>* context_properties_ = {}, System::LocalDataStoreHolder* localDataStore_ = {}, System::Runtime::Remoting::Contexts::DynamicPropertyCollection* context_dynamic_properties_ = {}, System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object_ = {}) noexcept : domain_id{domain_id_}, context_id{context_id_}, static_data{static_data_}, data{data_}, server_context_sink_chain{server_context_sink_chain_}, client_context_sink_chain{client_context_sink_chain_}, context_properties{context_properties_}, localDataStore{localDataStore_}, context_dynamic_properties{context_dynamic_properties_}, callback_object{callback_object_} {}
     // Get static field: static private System.Object[] local_slots
     static ::ArrayWrapper<::Il2CppObject*> _get_local_slots();
     // Set static field: static private System.Object[] local_slots

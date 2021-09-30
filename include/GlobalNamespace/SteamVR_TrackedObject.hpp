@@ -190,8 +190,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_Events::Action* newPosesAction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_Events::Action*) == 0x8);
-    // Creating value type constructor for type: SteamVR_TrackedObject
-    SteamVR_TrackedObject(GlobalNamespace::SteamVR_TrackedObject::EIndex index_ = {}, UnityEngine::Transform* origin_ = {}, bool isValid_ = {}, GlobalNamespace::SteamVR_Events::Action* newPosesAction_ = {}) noexcept : index{index_}, origin{origin_}, isValid{isValid_}, newPosesAction{newPosesAction_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index

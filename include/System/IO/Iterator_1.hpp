@@ -44,8 +44,6 @@ namespace System::IO {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TSource current;
-    // Creating value type constructor for type: Iterator_1
-    Iterator_1(int threadId_ = {}, int state_ = {}, TSource current_ = {}) noexcept : threadId{threadId_}, state{state_}, current{current_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<TSource>
     operator System::Collections::Generic::IEnumerator_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<TSource>*>(this);

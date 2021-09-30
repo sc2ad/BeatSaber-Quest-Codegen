@@ -39,8 +39,6 @@ namespace ModestTree {
     // Nested type: ModestTree::LinqExtensions::$$c__DisplayClass9_0_1<T>
     template<typename T>
     class $$c__DisplayClass9_0_1;
-    // Creating value type constructor for type: LinqExtensions
-    LinqExtensions() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<T> Yield(T item)
     // Offset: 0xFFFFFFFF
     template<class T>

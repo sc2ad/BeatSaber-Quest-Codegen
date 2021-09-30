@@ -48,8 +48,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* User;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // Creating value type constructor for type: UserAndRoom
-    UserAndRoom(Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : RoomOptional{RoomOptional_}, Room{Room_}, User{User_} {}
     // Get instance field reference: public readonly Oculus.Platform.Models.Room RoomOptional
     Oculus::Platform::Models::Room*& dyn_RoomOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room

@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*) == 0x8);
-    // Creating value type constructor for type: SettingsNavigationController
-    SettingsNavigationController(UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* applyButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent_ = {}) noexcept : okButton{okButton_}, applyButton{applyButton_}, cancelButton{cancelButton_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _okButton
     UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private UnityEngine.UI.Button _applyButton

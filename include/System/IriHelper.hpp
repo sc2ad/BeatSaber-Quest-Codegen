@@ -21,8 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IriHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IriHelper
-    IriHelper() noexcept {}
     // static System.Boolean CheckIriUnicodeRange(System.Char unicode, System.Boolean isQuery)
     // Offset: 0x156C098
     static bool CheckIriUnicodeRange(::Il2CppChar unicode, bool isQuery);

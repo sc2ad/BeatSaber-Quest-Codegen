@@ -33,8 +33,6 @@ namespace Mono::Net {
     Mono::Net::CFDictionary* settings;
     // Field size check
     static_assert(sizeof(Mono::Net::CFDictionary*) == 0x8);
-    // Creating value type constructor for type: CFProxySettings
-    CFProxySettings(Mono::Net::CFDictionary* settings_ = {}) noexcept : settings{settings_} {}
     // Creating conversion operator: operator Mono::Net::CFDictionary*
     constexpr operator Mono::Net::CFDictionary*() const noexcept {
       return settings;

@@ -55,8 +55,6 @@ namespace System::Net {
     bool ExpectNoContentResponse;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: KnownHttpVerb
-    KnownHttpVerb(::Il2CppString* Name_ = {}, bool RequireContentBody_ = {}, bool ContentBodyNotAllowed_ = {}, bool ConnectRequest_ = {}, bool ExpectNoContentResponse_ = {}) noexcept : Name{Name_}, RequireContentBody{RequireContentBody_}, ContentBodyNotAllowed{ContentBodyNotAllowed_}, ConnectRequest{ConnectRequest_}, ExpectNoContentResponse{ExpectNoContentResponse_} {}
     // Get static field: static private System.Collections.Specialized.ListDictionary NamedHeaders
     static System::Collections::Specialized::ListDictionary* _get_NamedHeaders();
     // Set static field: static private System.Collections.Specialized.ListDictionary NamedHeaders

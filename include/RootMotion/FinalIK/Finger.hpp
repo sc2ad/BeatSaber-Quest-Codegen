@@ -195,8 +195,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 bone1TwistAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Finger
-    Finger(float weight_ = {}, float rotationWeight_ = {}, RootMotion::FinalIK::Finger::DOF rotationDOF_ = {}, bool fixBone1Twist_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, UnityEngine::Transform* tip_ = {}, UnityEngine::Transform* target_ = {}, bool initiated_ = {}, RootMotion::FinalIK::IKSolverLimb* solver_ = {}, UnityEngine::Quaternion bone3RelativeToTarget_ = {}, UnityEngine::Vector3 bone3DefaultLocalPosition_ = {}, UnityEngine::Quaternion bone3DefaultLocalRotation_ = {}, UnityEngine::Vector3 bone1Axis_ = {}, UnityEngine::Vector3 tipAxis_ = {}, UnityEngine::Vector3 bone1TwistAxis_ = {}) noexcept : weight{weight_}, rotationWeight{rotationWeight_}, rotationDOF{rotationDOF_}, fixBone1Twist{fixBone1Twist_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, tip{tip_}, target{target_}, initiated{initiated_}, solver{solver_}, bone3RelativeToTarget{bone3RelativeToTarget_}, bone3DefaultLocalPosition{bone3DefaultLocalPosition_}, bone3DefaultLocalRotation{bone3DefaultLocalRotation_}, bone1Axis{bone1Axis_}, tipAxis{tipAxis_}, bone1TwistAxis{bone1TwistAxis_} {}
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public System.Single rotationWeight

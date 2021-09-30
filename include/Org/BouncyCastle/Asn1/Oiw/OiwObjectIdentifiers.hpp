@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Oiw {
   // [TokenAttribute] Offset: FFFFFFFF
   class OiwObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OiwObjectIdentifiers
-    OiwObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier MD4WithRsa
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_MD4WithRsa();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier MD4WithRsa

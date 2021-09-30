@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass55_0
-    $$c__DisplayClass55_0(GlobalNamespace::LevelCollectionNavigationController* $$4__this_ = {}, HMUI::ViewController* viewController_ = {}) noexcept : $$4__this{$$4__this_}, viewController{viewController_} {}
     // Get instance field reference: public LevelCollectionNavigationController <>4__this
     GlobalNamespace::LevelCollectionNavigationController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController viewController

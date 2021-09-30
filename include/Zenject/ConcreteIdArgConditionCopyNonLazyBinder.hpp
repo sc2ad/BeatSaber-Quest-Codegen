@@ -28,8 +28,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ConcreteIdArgConditionCopyNonLazyBinder : public Zenject::ArgConditionCopyNonLazyBinder {
     public:
-    // Creating value type constructor for type: ConcreteIdArgConditionCopyNonLazyBinder
-    ConcreteIdArgConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.ArgConditionCopyNonLazyBinder WithConcreteId(System.Object id)
     // Offset: 0x14F8320
     Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::Il2CppObject* id);

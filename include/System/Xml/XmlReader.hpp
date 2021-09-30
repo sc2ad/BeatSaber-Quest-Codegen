@@ -17,8 +17,6 @@ namespace System::Xml {
   // [DefaultMemberAttribute] Offset: E68718
   class XmlReader : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: XmlReader
-    XmlReader() noexcept {}
     // Get static field: static private System.UInt32 IsTextualNodeBitmap
     static uint _get_IsTextualNodeBitmap();
     // Set static field: static private System.UInt32 IsTextualNodeBitmap

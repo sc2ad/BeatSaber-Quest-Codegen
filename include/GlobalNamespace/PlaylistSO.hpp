@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelCollectionSO*) == 0x8);
-    // Creating value type constructor for type: PlaylistSO
-    PlaylistSO(::Il2CppString* playListLocalizedName_ = {}, UnityEngine::Sprite* coverImage_ = {}, UnityEngine::Sprite* smallCoverImage_ = {}, GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection_ = {}) noexcept : playListLocalizedName{playListLocalizedName_}, coverImage{coverImage_}, smallCoverImage{smallCoverImage_}, beatmapLevelCollection{beatmapLevelCollection_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IPlaylist
     operator GlobalNamespace::IPlaylist() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlaylist*>(this);

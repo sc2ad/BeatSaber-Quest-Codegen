@@ -22,8 +22,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CaseInsensitiveAscii : public ::Il2CppObject/*, public System::Collections::IEqualityComparer, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: CaseInsensitiveAscii
-    CaseInsensitiveAscii() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);

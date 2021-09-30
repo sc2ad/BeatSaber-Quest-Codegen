@@ -34,8 +34,6 @@ namespace UnityEngine::XR::WSA {
     UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*) == 0x8);
-    // Creating value type constructor for type: WorldAnchor
-    WorldAnchor(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged_ = {}) noexcept : OnTrackingChanged{OnTrackingChanged_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged

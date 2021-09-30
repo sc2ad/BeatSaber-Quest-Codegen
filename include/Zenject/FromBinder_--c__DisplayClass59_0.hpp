@@ -41,8 +41,6 @@ namespace Zenject {
     bool includeInactive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass59_0
-    $$c__DisplayClass59_0(bool includeInactive_ = {}) noexcept : includeInactive{includeInactive_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return includeInactive;

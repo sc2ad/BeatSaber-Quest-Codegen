@@ -60,8 +60,6 @@ namespace System::Net::Mail {
     ::Il2CppString* to_string;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MailAddress
-    MailAddress(::Il2CppString* address_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* user_ = {}, ::Il2CppString* to_string_ = {}) noexcept : address{address_}, displayName{displayName_}, host{host_}, user{user_}, to_string{to_string_} {}
     // Get instance field reference: private System.String address
     ::Il2CppString*& dyn_address();
     // Get instance field reference: private System.String displayName

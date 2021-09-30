@@ -35,8 +35,6 @@ namespace Zenject {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: DefaultParentObjectDestroyer
-    DefaultParentObjectDestroyer(UnityEngine::GameObject* gameObject_ = {}) noexcept : gameObject{gameObject_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

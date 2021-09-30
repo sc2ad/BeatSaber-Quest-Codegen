@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0310
   class IVRExtendedDisplay::_GetEyeOutputViewport : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetEyeOutputViewport
-    _GetEyeOutputViewport() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EFFAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

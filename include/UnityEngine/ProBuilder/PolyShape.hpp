@@ -142,8 +142,6 @@ namespace UnityEngine::ProBuilder {
     bool isOnGrid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PolyShape
-    PolyShape(UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* m_Points_ = {}, float m_Extrude_ = {}, UnityEngine::ProBuilder::PolyShape::PolyEditMode m_EditMode_ = {}, bool m_FlipNormals_ = {}, bool isOnGrid_ = {}) noexcept : m_Mesh{m_Mesh_}, m_Points{m_Points_}, m_Extrude{m_Extrude_}, m_EditMode{m_EditMode_}, m_FlipNormals{m_FlipNormals_}, isOnGrid{isOnGrid_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh

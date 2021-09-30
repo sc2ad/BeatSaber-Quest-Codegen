@@ -20,8 +20,6 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   class INotification {
     public:
-    // Creating value type constructor for type: INotification
-    INotification() noexcept {}
     // public UnityEngine.PropertyName get_id()
     // Offset: 0xFFFFFFFF
     UnityEngine::PropertyName get_id();

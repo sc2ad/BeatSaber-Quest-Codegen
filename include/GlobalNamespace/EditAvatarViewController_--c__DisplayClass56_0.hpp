@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     System::Action_1<UnityEngine::Color>* $$9__1;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::Color>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass56_0
-    $$c__DisplayClass56_0(GlobalNamespace::EditAvatarViewController* $$4__this_ = {}, System::Action_1<UnityEngine::Color>* colorSetter_ = {}, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart_ = {}, System::Func_1<UnityEngine::Color>* currentColor_ = {}, int uvSegment_ = {}, System::Action_1<UnityEngine::Color>* $$9__1_ = {}) noexcept : $$4__this{$$4__this_}, colorSetter{colorSetter_}, avatarEditPart{avatarEditPart_}, currentColor{currentColor_}, uvSegment{uvSegment_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public EditAvatarViewController <>4__this
     GlobalNamespace::EditAvatarViewController*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<UnityEngine.Color> colorSetter

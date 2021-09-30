@@ -58,8 +58,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::Commands::TestCommand* m_Command;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
-    // Creating value type constructor for type: CoroutineTestWorkItem
-    CoroutineTestWorkItem(NUnit::Framework::Internal::Commands::TestCommand* m_Command_ = {}) noexcept : m_Command{m_Command_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::Commands::TestCommand*
     constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const noexcept {
       return m_Command;

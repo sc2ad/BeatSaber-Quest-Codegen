@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     Tweening::Tween_1<UnityEngine::Color>* scoreColorTween;
     // Field size check
     static_assert(sizeof(Tweening::Tween_1<UnityEngine::Color>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerScoreRingItem
-    MultiplayerScoreRingItem(TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::Tween_1<UnityEngine::Color>* nameColorTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* scoreColorTween_ = {}) noexcept : scoreText{scoreText_}, nameText{nameText_}, tweeningManager{tweeningManager_}, nameColorTween{nameColorTween_}, scoreColorTween{scoreColorTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText

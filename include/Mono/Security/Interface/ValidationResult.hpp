@@ -43,8 +43,6 @@ namespace Mono::Security::Interface {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
-    // Creating value type constructor for type: ValidationResult
-    ValidationResult(bool trusted_ = {}, bool user_denied_ = {}, int error_code_ = {}, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors_ = {}) noexcept : trusted{trusted_}, user_denied{user_denied_}, error_code{error_code_}, policy_errors{policy_errors_} {}
     // Get instance field reference: private System.Boolean trusted
     bool& dyn_trusted();
     // Get instance field reference: private System.Boolean user_denied

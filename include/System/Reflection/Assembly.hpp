@@ -121,8 +121,6 @@ namespace System::Reflection {
     ::Il2CppString* assemblyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Assembly
-    Assembly(System::IntPtr mono_assembly_ = {}, System::Reflection::Assembly::ResolveEventHolder* resolve_event_holder_ = {}, ::Il2CppObject* evidence_ = {}, ::Il2CppObject* minimum_ = {}, ::Il2CppObject* optional_ = {}, ::Il2CppObject* refuse_ = {}, ::Il2CppObject* granted_ = {}, ::Il2CppObject* denied_ = {}, bool fromByteArray_ = {}, ::Il2CppString* assemblyName_ = {}) noexcept : mono_assembly{mono_assembly_}, resolve_event_holder{resolve_event_holder_}, evidence{evidence_}, minimum{minimum_}, optional{optional_}, refuse{refuse_}, granted{granted_}, denied{denied_}, fromByteArray{fromByteArray_}, assemblyName{assemblyName_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

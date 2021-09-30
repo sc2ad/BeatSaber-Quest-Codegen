@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     System::Collections::IEnumerable* en;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerable*) == 0x8);
-    // Creating value type constructor for type: RevokedCertificatesEnumeration
-    RevokedCertificatesEnumeration(System::Collections::IEnumerable* en_ = {}) noexcept : en{en_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

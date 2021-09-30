@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUIStateObjects : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GUIStateObjects
-    GUIStateObjects() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.Object> s_StateCache
     static System::Collections::Generic::Dictionary_2<int, ::Il2CppObject*>* _get_s_StateCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.Object> s_StateCache

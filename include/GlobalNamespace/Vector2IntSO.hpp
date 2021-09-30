@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector2IntSO : public GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector2Int> {
     public:
-    // Creating value type constructor for type: Vector2IntSO
-    Vector2IntSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x259E598
     // Implemented from: ObservableVariableSO`1

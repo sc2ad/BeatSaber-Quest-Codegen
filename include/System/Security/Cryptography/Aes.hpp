@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
   // [TypeForwardedFromAttribute] Offset: E5F0A8
   class Aes : public System::Security::Cryptography::SymmetricAlgorithm {
     public:
-    // Creating value type constructor for type: Aes
-    Aes() noexcept {}
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
     static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes

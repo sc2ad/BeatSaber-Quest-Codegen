@@ -22,8 +22,6 @@ namespace UnityEngine::Timeline {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   class SignalTrack : public UnityEngine::Timeline::MarkerTrack {
     public:
-    // Creating value type constructor for type: SignalTrack
-    SignalTrack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19FFC60
     // Implemented from: UnityEngine.Timeline.MarkerTrack

@@ -62,8 +62,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int xOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MD5Digest
-    MD5Digest(uint H1_ = {}, uint H2_ = {}, uint H3_ = {}, uint H4_ = {}, ::ArrayWrapper<uint> X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, X{X_}, xOff{xOff_} {}
     // Get static field: static private readonly System.Int32 S11
     static int _get_S11();
     // Set static field: static private readonly System.Int32 S11

@@ -104,8 +104,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRCameraRig* CameraController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRCameraRig*) == 0x8);
-    // Creating value type constructor for type: OVRGridCube
-    OVRGridCube(UnityEngine::KeyCode GridKey_ = {}, UnityEngine::GameObject* CubeGrid_ = {}, bool CubeGridOn_ = {}, bool CubeSwitchColorOld_ = {}, bool CubeSwitchColor_ = {}, int gridSizeX_ = {}, int gridSizeY_ = {}, int gridSizeZ_ = {}, float gridScale_ = {}, float cubeScale_ = {}, GlobalNamespace::OVRCameraRig* CameraController_ = {}) noexcept : GridKey{GridKey_}, CubeGrid{CubeGrid_}, CubeGridOn{CubeGridOn_}, CubeSwitchColorOld{CubeSwitchColorOld_}, CubeSwitchColor{CubeSwitchColor_}, gridSizeX{gridSizeX_}, gridSizeY{gridSizeY_}, gridSizeZ{gridSizeZ_}, gridScale{gridScale_}, cubeScale{cubeScale_}, CameraController{CameraController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.KeyCode GridKey

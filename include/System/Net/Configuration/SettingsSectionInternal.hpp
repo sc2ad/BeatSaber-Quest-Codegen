@@ -34,8 +34,6 @@ namespace System::Net::Configuration {
     System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::IPProtectionLevel) == 0x4);
-    // Creating value type constructor for type: SettingsSectionInternal
-    SettingsSectionInternal(bool HttpListenerUnescapeRequestUrl_ = {}, System::Net::Sockets::IPProtectionLevel IPProtectionLevel_ = {}) noexcept : HttpListenerUnescapeRequestUrl{HttpListenerUnescapeRequestUrl_}, IPProtectionLevel{IPProtectionLevel_} {}
     // Get static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static System::Net::Configuration::SettingsSectionInternal* _get_instance();
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance

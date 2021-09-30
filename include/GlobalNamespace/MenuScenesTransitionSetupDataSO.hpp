@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuScenesTransitionSetupDataSO : public GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
     public:
-    // Creating value type constructor for type: MenuScenesTransitionSetupDataSO
-    MenuScenesTransitionSetupDataSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x118077C
     // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO

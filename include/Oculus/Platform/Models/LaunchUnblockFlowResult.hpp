@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     bool DidUnblock;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LaunchUnblockFlowResult
-    LaunchUnblockFlowResult(bool DidCancel_ = {}, bool DidUnblock_ = {}) noexcept : DidCancel{DidCancel_}, DidUnblock{DidUnblock_} {}
     // Get instance field reference: public readonly System.Boolean DidCancel
     bool& dyn_DidCancel();
     // Get instance field reference: public readonly System.Boolean DidUnblock

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameplayModifiersModelSO::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly GameplayModifiersModelSO/<>c <>9
     static GlobalNamespace::GameplayModifiersModelSO::$$c* _get_$$9();
     // Set static field: static public readonly GameplayModifiersModelSO/<>c <>9

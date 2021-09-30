@@ -25,8 +25,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISuiteBuilder {
     public:
-    // Creating value type constructor for type: ISuiteBuilder
-    ISuiteBuilder() noexcept {}
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
     bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);

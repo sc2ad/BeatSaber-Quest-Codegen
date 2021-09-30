@@ -59,8 +59,6 @@ namespace System::Threading {
     System::Threading::SpinLock m_foreignLock;
     // Field size check
     static_assert(sizeof(System::Threading::SpinLock) == 0x4);
-    // Creating value type constructor for type: WorkStealingQueue
-    WorkStealingQueue(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> m_array_ = {}, int m_mask_ = {}, int m_headIndex_ = {}, int m_tailIndex_ = {}, System::Threading::SpinLock m_foreignLock_ = {}) noexcept : m_array{m_array_}, m_mask{m_mask_}, m_headIndex{m_headIndex_}, m_tailIndex{m_tailIndex_}, m_foreignLock{m_foreignLock_} {}
     // Get instance field reference: System.Threading.IThreadPoolWorkItem[] m_array
     ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>& dyn_m_array();
     // Get instance field reference: private System.Int32 m_mask

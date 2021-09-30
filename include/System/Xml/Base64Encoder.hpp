@@ -38,8 +38,6 @@ namespace System::Xml {
     ::ArrayWrapper<::Il2CppChar> charsLine;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
-    // Creating value type constructor for type: Base64Encoder
-    Base64Encoder(::ArrayWrapper<uint8_t> leftOverBytes_ = {}, int leftOverBytesCount_ = {}, ::ArrayWrapper<::Il2CppChar> charsLine_ = {}) noexcept : leftOverBytes{leftOverBytes_}, leftOverBytesCount{leftOverBytesCount_}, charsLine{charsLine_} {}
     // Get instance field reference: private System.Byte[] leftOverBytes
     ::ArrayWrapper<uint8_t>& dyn_leftOverBytes();
     // Get instance field reference: private System.Int32 leftOverBytesCount

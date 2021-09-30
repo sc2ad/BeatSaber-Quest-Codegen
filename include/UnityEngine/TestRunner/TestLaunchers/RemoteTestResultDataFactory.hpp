@@ -38,8 +38,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteTestResultDataFactory : public ::Il2CppObject/*, public UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*/ {
     public:
-    // Creating value type constructor for type: RemoteTestResultDataFactory
-    RemoteTestResultDataFactory() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory
     operator UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);

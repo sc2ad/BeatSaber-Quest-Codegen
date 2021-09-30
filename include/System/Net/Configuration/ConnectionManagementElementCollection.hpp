@@ -22,8 +22,6 @@ namespace System::Net::Configuration {
   // [DefaultMemberAttribute] Offset: E6A2FC
   class ConnectionManagementElementCollection : public System::Configuration::ConfigurationElementCollection {
     public:
-    // Creating value type constructor for type: ConnectionManagementElementCollection
-    ConnectionManagementElementCollection() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x156FC78
     // Implemented from: System.Object

@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: E70CE8
   class FrameTimingManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: FrameTimingManager
-    FrameTimingManager() noexcept {}
     // static public System.Void CaptureFrameTimings()
     // Offset: 0x1CBCDC4
     static void CaptureFrameTimings();

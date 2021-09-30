@@ -33,8 +33,6 @@ namespace Oculus::Platform {
     public:
     // Nested type: Oculus::Platform::StandalonePlatform::UnityLogDelegate
     class UnityLogDelegate;
-    // Creating value type constructor for type: StandalonePlatform
-    StandalonePlatform() noexcept {}
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeInEditor()
     // Offset: 0x25BB760
     Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* InitializeInEditor();

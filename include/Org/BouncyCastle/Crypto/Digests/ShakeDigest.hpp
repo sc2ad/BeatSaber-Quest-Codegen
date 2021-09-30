@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShakeDigest : public Org::BouncyCastle::Crypto::Digests::KeccakDigest/*, public Org::BouncyCastle::Crypto::IXof*/ {
     public:
-    // Creating value type constructor for type: ShakeDigest
-    ShakeDigest() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IXof
     operator Org::BouncyCastle::Crypto::IXof() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IXof*>(this);

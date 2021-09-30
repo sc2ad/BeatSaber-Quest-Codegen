@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     bool finished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BloomFogParamsBehaviour
-    BloomFogParamsBehaviour(GlobalNamespace::BloomFogEnvironmentParams* bloomFogParams_ = {}, float blend_ = {}, GlobalNamespace::BloomFogSO* editorBloomFogSO_ = {}, bool initialized_ = {}, GlobalNamespace::BloomFogEnvironmentParams* originalBloomFogParams_ = {}, bool finished_ = {}) noexcept : bloomFogParams{bloomFogParams_}, blend{blend_}, editorBloomFogSO{editorBloomFogSO_}, initialized{initialized_}, originalBloomFogParams{originalBloomFogParams_}, finished{finished_} {}
     // Get instance field reference: private BloomFogEnvironmentParams _bloomFogParams
     GlobalNamespace::BloomFogEnvironmentParams*& dyn__bloomFogParams();
     // Get instance field reference: public System.Single _blend

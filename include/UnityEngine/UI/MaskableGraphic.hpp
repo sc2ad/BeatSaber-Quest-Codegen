@@ -115,8 +115,6 @@ namespace UnityEngine::UI {
     ::ArrayWrapper<UnityEngine::Vector3> m_Corners;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: MaskableGraphic
-    MaskableGraphic(bool m_ShouldRecalculateStencil_ = {}, UnityEngine::Material* m_MaskMaterial_ = {}, UnityEngine::UI::RectMask2D* m_ParentMask_ = {}, bool m_Maskable_ = {}, bool m_IsMaskingGraphic_ = {}, bool m_IncludeForMasking_ = {}, UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* m_OnCullStateChanged_ = {}, bool m_ShouldRecalculate_ = {}, int m_StencilValue_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_Corners_ = {}) noexcept : m_ShouldRecalculateStencil{m_ShouldRecalculateStencil_}, m_MaskMaterial{m_MaskMaterial_}, m_ParentMask{m_ParentMask_}, m_Maskable{m_Maskable_}, m_IsMaskingGraphic{m_IsMaskingGraphic_}, m_IncludeForMasking{m_IncludeForMasking_}, m_OnCullStateChanged{m_OnCullStateChanged_}, m_ShouldRecalculate{m_ShouldRecalculate_}, m_StencilValue{m_StencilValue_}, m_Corners{m_Corners_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::IMaterialModifier
     operator UnityEngine::UI::IMaterialModifier() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IMaterialModifier*>(this);

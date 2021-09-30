@@ -47,8 +47,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IVRPlatformHelper {
     public:
-    // Creating value type constructor for type: IVRPlatformHelper
-    IVRPlatformHelper() noexcept {}
     // public System.Boolean get_hasInputFocus()
     // Offset: 0xFFFFFFFF
     bool get_hasInputFocus();

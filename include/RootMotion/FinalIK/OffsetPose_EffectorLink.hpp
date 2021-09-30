@@ -60,8 +60,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 pinWeight;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: EffectorLink
-    EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 pin_ = {}, UnityEngine::Vector3 pinWeight_ = {}) noexcept : effector{effector_}, offset{offset_}, pin{pin_}, pinWeight{pinWeight_} {}
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public UnityEngine.Vector3 offset

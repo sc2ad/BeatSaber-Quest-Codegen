@@ -79,8 +79,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_ThreadedTask
-    HEU_ThreadedTask(bool isComplete_ = {}, bool isActive_ = {}, bool stopRequested_ = {}, ::Il2CppObject* lockHandle_ = {}, System::Threading::Thread* thread_ = {}, System::Threading::ThreadPriority priority_ = {}, bool isBackground_ = {}, ::Il2CppString* name_ = {}) noexcept : isComplete{isComplete_}, isActive{isActive_}, stopRequested{stopRequested_}, lockHandle{lockHandle_}, thread{thread_}, priority{priority_}, isBackground{isBackground_}, name{name_} {}
     // Get instance field reference: private System.Boolean _isComplete
     bool& dyn__isComplete();
     // Get instance field reference: private System.Boolean _isActive

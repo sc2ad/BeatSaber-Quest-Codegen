@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerData* playerData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerData*) == 0x8);
-    // Creating value type constructor for type: PlayerDataModel
-    PlayerDataModel(GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager_ = {}, GlobalNamespace::PlayerData* playerData_ = {}) noexcept : playerDataFileManager{playerDataFileManager_}, playerData{playerData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerDataFileManagerSO _playerDataFileManager

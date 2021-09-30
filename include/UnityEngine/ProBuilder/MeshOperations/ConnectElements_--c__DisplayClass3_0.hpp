@@ -40,8 +40,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Collections::Generic::HashSet_1<int>* appended;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(System::Collections::Generic::HashSet_1<int>* appended_ = {}) noexcept : appended{appended_} {}
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
     constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return appended;

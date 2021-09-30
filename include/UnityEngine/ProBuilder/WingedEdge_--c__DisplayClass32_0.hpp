@@ -35,8 +35,6 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::HashSet_1<int>* common;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass32_0
-    $$c__DisplayClass32_0(System::Collections::Generic::HashSet_1<int>* common_ = {}) noexcept : common{common_} {}
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
     constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return common;

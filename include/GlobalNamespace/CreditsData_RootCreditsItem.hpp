@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*> creditsItems;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>) == 0x8);
-    // Creating value type constructor for type: RootCreditsItem
-    RootCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}, int rowCountOverride_ = {}, ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*> creditsItems_ = {}) noexcept : title{title_}, text{text_}, rowCountOverride{rowCountOverride_}, creditsItems{creditsItems_} {}
     // Get instance field reference: public CreditsData/Text title
     GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text

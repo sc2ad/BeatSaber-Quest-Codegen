@@ -70,8 +70,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int xOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Sha1Digest
-    Sha1Digest(uint H1_ = {}, uint H2_ = {}, uint H3_ = {}, uint H4_ = {}, uint H5_ = {}, ::ArrayWrapper<uint> X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, X{X_}, xOff{xOff_} {}
     // Get instance field reference: private System.UInt32 H1
     uint& dyn_H1();
     // Get instance field reference: private System.UInt32 H2

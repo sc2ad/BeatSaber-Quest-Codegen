@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass14_0
-    $$c__DisplayClass14_0(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList_ = {}) noexcept : missionObjectives{missionObjectives_}, modifierParamsList{modifierParamsList_} {}
     // Get instance field reference: public MissionObjective[] missionObjectives
     ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList

@@ -23,8 +23,6 @@ namespace LiteNetLib::Utils {
     struct ConverterHelperDouble;
     // Nested type: LiteNetLib::Utils::FastBitConverter::ConverterHelperFloat
     struct ConverterHelperFloat;
-    // Creating value type constructor for type: FastBitConverter
-    FastBitConverter() noexcept {}
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.UInt64 data)
     // Offset: 0x1DE1CB8
     static void WriteLittleEndian(::ArrayWrapper<uint8_t> buffer, int offset, uint64_t data);

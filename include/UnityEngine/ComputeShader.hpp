@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E72DD0
   class ComputeShader : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: ComputeShader
-    ComputeShader() noexcept {}
     // public System.Int32 FindKernel(System.String name)
     // Offset: 0x1CB543C
     int FindKernel(::Il2CppString* name);

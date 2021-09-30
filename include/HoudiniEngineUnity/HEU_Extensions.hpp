@@ -54,8 +54,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class HEU_Extensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_Extensions
-    HEU_Extensions() noexcept {}
     // static public System.Collections.Generic.List`1<R> Map(System.Collections.Generic.IEnumerable`1<T> self, System.Func`2<T,R> selector)
     // Offset: 0xFFFFFFFF
     template<class T, class R>

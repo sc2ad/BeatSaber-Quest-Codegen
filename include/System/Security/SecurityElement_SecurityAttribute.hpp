@@ -32,8 +32,6 @@ namespace System::Security {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SecurityAttribute
-    SecurityAttribute(::Il2CppString* name_ = {}, ::Il2CppString* value_ = {}) noexcept : name{name_}, value{value_} {}
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private System.String _value

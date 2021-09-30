@@ -64,8 +64,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set* attributes;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
-    // Creating value type constructor for type: CertificationRequestInfo
-    CertificationRequestInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* subject_ = {}, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPKInfo_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attributes_ = {}) noexcept : version{version_}, subject{subject_}, subjectPKInfo{subjectPKInfo_}, attributes{attributes_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.X509Name subject

@@ -28,8 +28,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E6034C
   class AsyncStateMachineAttribute : public System::Runtime::CompilerServices::StateMachineAttribute {
     public:
-    // Creating value type constructor for type: AsyncStateMachineAttribute
-    AsyncStateMachineAttribute() noexcept {}
     // public System.Void .ctor(System.Type stateMachineType)
     // Offset: 0x15ACE78
     // Implemented from: System.Runtime.CompilerServices.StateMachineAttribute

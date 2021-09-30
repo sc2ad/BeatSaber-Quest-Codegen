@@ -55,8 +55,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* PreviousUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DeserializableList_1
-    DeserializableList_1(System::Collections::Generic::List_1<T>* Data_ = {}, ::Il2CppString* NextUrl_ = {}, ::Il2CppString* PreviousUrl_ = {}) noexcept : Data{Data_}, NextUrl{NextUrl_}, PreviousUrl{PreviousUrl_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);

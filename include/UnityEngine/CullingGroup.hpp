@@ -37,8 +37,6 @@ namespace UnityEngine {
     UnityEngine::CullingGroup::StateChanged* m_OnStateChanged;
     // Field size check
     static_assert(sizeof(UnityEngine::CullingGroup::StateChanged*) == 0x8);
-    // Creating value type constructor for type: CullingGroup
-    CullingGroup(System::IntPtr m_Ptr_ = {}, UnityEngine::CullingGroup::StateChanged* m_OnStateChanged_ = {}) noexcept : m_Ptr{m_Ptr_}, m_OnStateChanged{m_OnStateChanged_} {}
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private UnityEngine.CullingGroup/UnityEngine.StateChanged m_OnStateChanged

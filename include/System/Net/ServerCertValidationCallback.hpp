@@ -56,8 +56,6 @@ namespace System::Net {
     System::Threading::ExecutionContext* m_Context;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
-    // Creating value type constructor for type: ServerCertValidationCallback
-    ServerCertValidationCallback(System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback_ = {}, System::Threading::ExecutionContext* m_Context_ = {}) noexcept : m_ValidationCallback{m_ValidationCallback_}, m_Context{m_Context_} {}
     // Get instance field reference: private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
     System::Net::Security::RemoteCertificateValidationCallback*& dyn_m_ValidationCallback();
     // Get instance field reference: private readonly System.Threading.ExecutionContext m_Context

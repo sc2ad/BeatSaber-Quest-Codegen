@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     int specialScorePos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LeaderboardTableView
-    LeaderboardTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::LeaderboardTableCell* cellPrefab_ = {}, float rowHeight_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, int specialScorePos_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, rowHeight{rowHeight_}, scores{scores_}, specialScorePos{specialScorePos_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

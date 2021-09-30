@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Vector2Int> windowResolutions;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2Int>) == 0x8);
-    // Creating value type constructor for type: WindowResolutionSettingsController
-    WindowResolutionSettingsController(GlobalNamespace::Vector2IntSO* windowResolution_ = {}, ::ArrayWrapper<UnityEngine::Vector2Int> windowResolutions_ = {}) noexcept : windowResolution{windowResolution_}, windowResolutions{windowResolutions_} {}
     // Get instance field reference: private Vector2IntSO _windowResolution
     GlobalNamespace::Vector2IntSO*& dyn__windowResolution();
     // Get instance field reference: private UnityEngine.Vector2Int[] _windowResolutions

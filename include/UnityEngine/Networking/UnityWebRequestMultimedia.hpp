@@ -26,8 +26,6 @@ namespace UnityEngine::Networking {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityWebRequestMultimedia : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityWebRequestMultimedia
-    UnityWebRequestMultimedia() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetAudioClip(System.String uri, UnityEngine.AudioType audioType)
     // Offset: 0x2628518
     static UnityEngine::Networking::UnityWebRequest* GetAudioClip(::Il2CppString* uri, UnityEngine::AudioType audioType);

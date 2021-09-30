@@ -30,8 +30,6 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     ::Il2CppString* platform;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MetaData
-    MetaData(::Il2CppString* content_ = {}, ::Il2CppString* platform_ = {}) noexcept : content{content_}, platform{platform_} {}
     // Get instance field reference: public System.String content
     ::Il2CppString*& dyn_content();
     // Get instance field reference: public System.String platform

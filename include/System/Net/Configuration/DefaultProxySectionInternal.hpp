@@ -31,8 +31,6 @@ namespace System::Net::Configuration {
     System::Net::IWebProxy* webProxy;
     // Field size check
     static_assert(sizeof(System::Net::IWebProxy*) == 0x8);
-    // Creating value type constructor for type: DefaultProxySectionInternal
-    DefaultProxySectionInternal(System::Net::IWebProxy* webProxy_ = {}) noexcept : webProxy{webProxy_} {}
     // Creating conversion operator: operator System::Net::IWebProxy*
     constexpr operator System::Net::IWebProxy*() const noexcept {
       return webProxy;

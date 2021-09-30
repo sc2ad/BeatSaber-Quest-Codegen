@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
-    // Creating value type constructor for type: StandardLevelFinishedController
-    StandardLevelFinishedController(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}) noexcept : standardLevelSceneSetupData{standardLevelSceneSetupData_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, gameplayManager{gameplayManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData

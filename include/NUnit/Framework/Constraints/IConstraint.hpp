@@ -28,8 +28,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConstraint/*, public NUnit::Framework::Constraints::IResolveConstraint*/ {
     public:
-    // Creating value type constructor for type: IConstraint
-    IConstraint() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Constraints::IResolveConstraint
     operator NUnit::Framework::Constraints::IResolveConstraint() noexcept {
       return *reinterpret_cast<NUnit::Framework::Constraints::IResolveConstraint*>(this);

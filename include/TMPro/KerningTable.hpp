@@ -47,8 +47,6 @@ namespace TMPro {
     System::Collections::Generic::List_1<TMPro::KerningPair*>* kerningPairs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*) == 0x8);
-    // Creating value type constructor for type: KerningTable
-    KerningTable(System::Collections::Generic::List_1<TMPro::KerningPair*>* kerningPairs_ = {}) noexcept : kerningPairs{kerningPairs_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::KerningPair*>*
     constexpr operator System::Collections::Generic::List_1<TMPro::KerningPair*>*() const noexcept {
       return kerningPairs;

@@ -27,8 +27,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class MCMDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
-    // Creating value type constructor for type: MCMDictionary
-    MCMDictionary() noexcept {}
     // Get static field: static public System.String[] InternalKeys
     static ::ArrayWrapper<::Il2CppString*> _get_InternalKeys();
     // Set static field: static public System.String[] InternalKeys

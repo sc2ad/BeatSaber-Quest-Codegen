@@ -21,8 +21,6 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class CryptoConvert : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CryptoConvert
-    CryptoConvert() noexcept {}
     // static private System.Int32 ToInt32LE(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0x1F9BBD4
     static int ToInt32LE(::ArrayWrapper<uint8_t> bytes, int offset);

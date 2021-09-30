@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EBB6C0
   class GridLayout : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: GridLayout
-    GridLayout() noexcept {}
     // public UnityEngine.Vector3 CellToLocal(UnityEngine.Vector3Int cellPosition)
     // Offset: 0x262A1EC
     UnityEngine::Vector3 CellToLocal(UnityEngine::Vector3Int cellPosition);

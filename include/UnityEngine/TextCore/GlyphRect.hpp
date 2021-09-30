@@ -93,7 +93,6 @@ namespace UnityEngine::TextCore {
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
     // Offset: 0x25FE858
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height)
     // static private System.Void .cctor()
     // Offset: 0x25FEA04

@@ -38,8 +38,6 @@ namespace System::Net {
     System::Net::ICredentials* m_credentials;
     // Field size check
     static_assert(sizeof(System::Net::ICredentials*) == 0x8);
-    // Creating value type constructor for type: EmptyWebProxy
-    EmptyWebProxy(System::Net::ICredentials* m_credentials_ = {}) noexcept : m_credentials{m_credentials_} {}
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);

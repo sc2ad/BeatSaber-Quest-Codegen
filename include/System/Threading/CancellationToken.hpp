@@ -75,7 +75,6 @@ namespace System::Threading {
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
     // Offset: 0x1A54F54
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source)
     // static private System.Void .cctor()
     // Offset: 0x1A55BC4

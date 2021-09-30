@@ -68,8 +68,6 @@ namespace System::Net::Security {
     Mono::Security::Interface::IMonoSslStream* impl;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::IMonoSslStream*) == 0x8);
-    // Creating value type constructor for type: SslStream
-    SslStream(Mono::Security::Interface::MonoTlsProvider* provider_ = {}, Mono::Security::Interface::IMonoSslStream* impl_ = {}) noexcept : provider{provider_}, impl{impl_} {}
     // Get instance field reference: private Mono.Security.Interface.MonoTlsProvider provider
     Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
     // Get instance field reference: private Mono.Security.Interface.IMonoSslStream impl

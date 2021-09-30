@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     int propertyId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PropertyValuePairBase
-    PropertyValuePairBase(::Il2CppString* propertyName_ = {}, int propertyId_ = {}) noexcept : propertyName{propertyName_}, propertyId{propertyId_} {}
     // Get instance field reference: private System.String _propertyName
     ::Il2CppString*& dyn__propertyName();
     // Get instance field reference: private System.Int32 <propertyId>k__BackingField

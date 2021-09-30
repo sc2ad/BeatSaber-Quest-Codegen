@@ -38,8 +38,6 @@ namespace Oculus::Platform {
     public:
     // Nested type: Oculus::Platform::WindowsPlatform::UnityLogDelegate
     class UnityLogDelegate;
-    // Creating value type constructor for type: WindowsPlatform
-    WindowsPlatform() noexcept {}
     // private System.Void CPPLogCallback(System.IntPtr tag, System.IntPtr message)
     // Offset: 0x25BF800
     void CPPLogCallback(System::IntPtr tag, System::IntPtr message);

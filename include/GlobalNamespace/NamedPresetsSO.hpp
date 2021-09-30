@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedPresetsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: NamedPresetsSO
-    NamedPresetsSO() noexcept {}
     // public NamedPreset[] get_namedPresets()
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<GlobalNamespace::NamedPreset*> get_namedPresets();

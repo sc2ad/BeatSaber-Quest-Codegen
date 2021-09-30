@@ -28,8 +28,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ProfileBlock : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: ProfileBlock
-    ProfileBlock() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

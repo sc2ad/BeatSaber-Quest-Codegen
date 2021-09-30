@@ -139,8 +139,6 @@ namespace MasterServer {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>* orderedRequests;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>*) == 0x8);
-    // Creating value type constructor for type: BaseClientMessageHandler
-    BaseClientMessageHandler(GlobalNamespace::MasterServerEndPoint* endPoint_ = {}, GlobalNamespace::ICertificateValidator* certificateValidator_ = {}, System::Threading::Tasks::Task* authenticationTask_ = {}, System::Security::Authentication::AuthenticationException* authenticationException_ = {}, bool disposed_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>* orderedRequests_ = {}) noexcept : endPoint{endPoint_}, certificateValidator{certificateValidator_}, authenticationTask{authenticationTask_}, authenticationException{authenticationException_}, disposed{disposed_}, orderedRequests{orderedRequests_} {}
     // Get static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static LiteNetLib::Utils::NetDataWriter* _get__authenticationDataWriter();
     // Set static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter

@@ -24,8 +24,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F6F8
   class IObjectReference {
     public:
-    // Creating value type constructor for type: IObjectReference
-    IObjectReference() noexcept {}
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);

@@ -14,8 +14,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransportContext : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TransportContext
-    TransportContext() noexcept {}
   }; // System.Net.TransportContext
   #pragma pack(pop)
 }

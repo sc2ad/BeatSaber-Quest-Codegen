@@ -42,8 +42,6 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::Smoothing::$$c
     class $$c;
-    // Creating value type constructor for type: Smoothing
-    Smoothing() noexcept {}
     // static field const value: static System.Int32 smoothingGroupNone
     static constexpr const int smoothingGroupNone = 0;
     // Get static field: static System.Int32 smoothingGroupNone

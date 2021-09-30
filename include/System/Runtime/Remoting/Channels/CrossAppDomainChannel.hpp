@@ -29,8 +29,6 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrossAppDomainChannel : public ::Il2CppObject/*, public System::Runtime::Remoting::Channels::IChannelSender, public System::Runtime::Remoting::Channels::IChannelReceiver*/ {
     public:
-    // Creating value type constructor for type: CrossAppDomainChannel
-    CrossAppDomainChannel() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Channels::IChannelSender
     operator System::Runtime::Remoting::Channels::IChannelSender() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Channels::IChannelSender*>(this);

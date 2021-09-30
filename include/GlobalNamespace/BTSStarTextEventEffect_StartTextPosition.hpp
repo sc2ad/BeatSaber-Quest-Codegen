@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: StartTextPosition
-    StartTextPosition(int id_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : id{id_}, transform{transform_} {}
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.Transform _transform

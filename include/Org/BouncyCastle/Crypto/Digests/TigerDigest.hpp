@@ -72,8 +72,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int xOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TigerDigest
-    TigerDigest(int64_t a_ = {}, int64_t b_ = {}, int64_t c_ = {}, int64_t byteCount_ = {}, ::ArrayWrapper<uint8_t> Buffer_ = {}, int bOff_ = {}, ::ArrayWrapper<int64_t> x_ = {}, int xOff_ = {}) noexcept : a{a_}, b{b_}, c{c_}, byteCount{byteCount_}, Buffer{Buffer_}, bOff{bOff_}, x{x_}, xOff{xOff_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

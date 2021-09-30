@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     float timeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(UnityEngine::AudioClip* audioClip_ = {}, float startSongTime_ = {}, float songTimeOffset_ = {}, float timeScale_ = {}) noexcept : audioClip{audioClip_}, startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, timeScale{timeScale_} {}
     // Get instance field reference: public readonly UnityEngine.AudioClip audioClip
     UnityEngine::AudioClip*& dyn_audioClip();
     // Get instance field reference: public readonly System.Single startSongTime

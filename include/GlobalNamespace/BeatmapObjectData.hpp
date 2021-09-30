@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     int lineIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BeatmapObjectData
-    BeatmapObjectData(float time_ = {}, int lineIndex_ = {}) noexcept : time{time_}, lineIndex{lineIndex_} {}
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField

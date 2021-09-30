@@ -23,8 +23,6 @@ namespace GlobalNamespace {
     class ILogger;
     // Nested type: GlobalNamespace::BGNetDebug::NetLogger
     class NetLogger;
-    // Creating value type constructor for type: BGNetDebug
-    BGNetDebug() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xED9660
     // Get static field: static private BGNetDebug/ILogger _logger
     static GlobalNamespace::BGNetDebug::ILogger* _get__logger();

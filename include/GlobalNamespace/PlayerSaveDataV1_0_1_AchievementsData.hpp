@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<::Il2CppString*> unlockedAchievementsToUpload;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: AchievementsData
-    AchievementsData(::ArrayWrapper<::Il2CppString*> unlockedAchievements_ = {}, ::ArrayWrapper<::Il2CppString*> unlockedAchievementsToUpload_ = {}) noexcept : unlockedAchievements{unlockedAchievements_}, unlockedAchievementsToUpload{unlockedAchievementsToUpload_} {}
     // Get instance field reference: public System.String[] unlockedAchievements
     ::ArrayWrapper<::Il2CppString*>& dyn_unlockedAchievements();
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload

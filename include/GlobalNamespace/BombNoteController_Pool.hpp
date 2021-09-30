@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BombNoteController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BombNoteController*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1192F50
     // Implemented from: Zenject.MonoMemoryPool`1

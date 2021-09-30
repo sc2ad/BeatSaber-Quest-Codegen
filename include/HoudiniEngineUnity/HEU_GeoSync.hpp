@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* filePath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_GeoSync
-    HEU_GeoSync(::Il2CppString* filePath_ = {}) noexcept : filePath{filePath_} {}
     // Get instance field reference: public System.String _filePath
     ::Il2CppString*& dyn__filePath();
     // public System.Void .ctor()

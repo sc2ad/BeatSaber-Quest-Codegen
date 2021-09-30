@@ -325,7 +325,6 @@ namespace GlobalNamespace {
     }
     // public System.Void .ctor(T v)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TypeWrapper_1(T v) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v)})));

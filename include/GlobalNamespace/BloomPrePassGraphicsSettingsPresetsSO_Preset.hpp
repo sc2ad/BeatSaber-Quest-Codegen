@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassEffectSO*) == 0x8);
-    // Creating value type constructor for type: Preset
-    Preset(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect_ = {}) noexcept : bloomPrePassEffect{bloomPrePassEffect_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: public BloomPrePassEffectSO bloomPrePassEffect

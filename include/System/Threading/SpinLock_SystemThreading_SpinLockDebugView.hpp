@@ -16,8 +16,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpinLock::SystemThreading_SpinLockDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemThreading_SpinLockDebugView
-    SystemThreading_SpinLockDebugView() noexcept {}
   }; // System.Threading.SpinLock/System.Threading.SystemThreading_SpinLockDebugView
   #pragma pack(pop)
 }

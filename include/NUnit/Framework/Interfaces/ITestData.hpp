@@ -25,8 +25,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestData {
     public:
-    // Creating value type constructor for type: ITestData
-    ITestData() noexcept {}
     // public NUnit.Framework.Interfaces.RunState get_RunState()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::RunState get_RunState();

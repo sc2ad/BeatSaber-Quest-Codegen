@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5BB4
   class IVRCompositor::_ShowMirrorWindow : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ShowMirrorWindow
-    _ShowMirrorWindow() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B0C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -41,8 +41,6 @@ namespace System::ComponentModel {
     System::Delegate* handler;
     // Field size check
     static_assert(sizeof(System::Delegate*) == 0x8);
-    // Creating value type constructor for type: ListEntry
-    ListEntry(System::ComponentModel::EventHandlerList::ListEntry* next_ = {}, ::Il2CppObject* key_ = {}, System::Delegate* handler_ = {}) noexcept : next{next_}, key{key_}, handler{handler_} {}
     // Get instance field reference: System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
     System::ComponentModel::EventHandlerList::ListEntry*& dyn_next();
     // Get instance field reference: System.Object key

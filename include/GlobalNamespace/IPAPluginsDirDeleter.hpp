@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPAPluginsDirDeleter : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: IPAPluginsDirDeleter
-    IPAPluginsDirDeleter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1146E5C
     // Implemented from: UnityEngine.MonoBehaviour

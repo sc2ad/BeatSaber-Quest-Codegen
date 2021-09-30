@@ -30,8 +30,6 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformMappingService : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlatformMappingService
-    PlatformMappingService() noexcept {}
     // Get static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
     static System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform, UnityEngine::AddressableAssets::AddressablesPlatform>* _get_s_RuntimeTargetMapping();
     // Set static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping

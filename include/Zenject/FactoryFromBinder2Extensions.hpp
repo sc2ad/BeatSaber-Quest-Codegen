@@ -72,8 +72,6 @@ namespace Zenject {
     // Nested type: Zenject::FactoryFromBinder2Extensions::$$c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>
     template<typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
     class $$c__DisplayClass6_0_4;
-    // Creating value type constructor for type: FactoryFromBinder2Extensions
-    FactoryFromBinder2Extensions() noexcept {}
     // static public Zenject.ArgConditionCopyNonLazyBinder FromIFactory(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder, System.Action`1<Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`3<TParam1,TParam2,TContract>>> factoryBindGenerator)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TContract>

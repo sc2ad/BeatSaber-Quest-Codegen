@@ -29,8 +29,6 @@ namespace UnityEngine::Timeline {
   // [AssetFileNameExtensionAttribute] Offset: EB93C4
   class SignalAsset : public UnityEngine::ScriptableObject {
     public:
-    // Creating value type constructor for type: SignalAsset
-    SignalAsset() noexcept {}
     // Get static field: static private System.Action`1<UnityEngine.Timeline.SignalAsset> OnEnableCallback
     static System::Action_1<UnityEngine::Timeline::SignalAsset*>* _get_OnEnableCallback();
     // Set static field: static private System.Action`1<UnityEngine.Timeline.SignalAsset> OnEnableCallback

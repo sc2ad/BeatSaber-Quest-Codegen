@@ -131,8 +131,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelCompletionResults*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLevelCompletionResults
-    MultiplayerLevelCompletionResults(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState levelEndState_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}) noexcept : levelEndState{levelEndState_}, levelCompletionResults{levelCompletionResults_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerLevelCompletionResults*>
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerLevelCompletionResults*>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>(this);

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
-    // Creating value type constructor for type: SetTubeBloomPrePassLightColor
-    SetTubeBloomPrePassLightColor(GlobalNamespace::ColorSO* color_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights_ = {}) noexcept : color{color_}, tubeLights{tubeLights_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _color

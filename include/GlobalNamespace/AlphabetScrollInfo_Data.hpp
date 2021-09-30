@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     int cellIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Data
-    Data(::Il2CppChar character_ = {}, int cellIdx_ = {}) noexcept : character{character_}, cellIdx{cellIdx_} {}
     // Get instance field reference: public readonly System.Char character
     ::Il2CppChar& dyn_character();
     // Get instance field reference: public readonly System.Int32 cellIdx

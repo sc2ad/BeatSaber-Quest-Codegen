@@ -18,8 +18,6 @@ namespace System::Collections {
   // [GuidAttribute] Offset: E6184C
   class IEnumerator {
     public:
-    // Creating value type constructor for type: IEnumerator
-    IEnumerator() noexcept {}
     // public System.Object get_Current()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_Current();

@@ -34,8 +34,6 @@ namespace System {
     ::Il2CppObject* m_actualValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: ArgumentOutOfRangeException
-    ArgumentOutOfRangeException(::Il2CppObject* m_actualValue_ = {}) noexcept : m_actualValue{m_actualValue_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get static field: static private System.String _rangeMessage

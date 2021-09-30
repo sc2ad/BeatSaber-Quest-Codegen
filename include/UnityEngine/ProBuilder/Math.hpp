@@ -71,8 +71,6 @@ namespace UnityEngine::ProBuilder {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Math : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Math
-    Math() noexcept {}
     // static field const value: static public System.Single phi
     static constexpr const float phi = 1.618034;
     // Get static field: static public System.Single phi

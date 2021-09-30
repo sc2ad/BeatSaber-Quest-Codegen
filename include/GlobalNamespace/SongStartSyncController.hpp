@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     System::Action_1<float>* syncResumeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // Creating value type constructor for type: SongStartSyncController
-    SongStartSyncController(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, float waitStartTime_ = {}, bool songStarted_ = {}, float startTime_ = {}, ::Il2CppString* sessionGameId_ = {}, GlobalNamespace::SongStartHandler* songStartHandler_ = {}, System::Action* syncStartFailedEvent_ = {}, System::Action_1<float>* syncStartSuccessEvent_ = {}, System::Action_1<float>* syncResumeEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, waitStartTime{waitStartTime_}, songStarted{songStarted_}, startTime{startTime_}, sessionGameId{sessionGameId_}, songStartHandler{songStartHandler_}, syncStartFailedEvent{syncStartFailedEvent_}, syncStartSuccessEvent{syncStartSuccessEvent_}, syncResumeEvent{syncResumeEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kAudioLoadTimeout

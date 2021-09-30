@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SteamVR_SphericalProjection : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: SteamVR_SphericalProjection
-    SteamVR_SphericalProjection() noexcept {}
     // Get static field: static private UnityEngine.Material material
     static UnityEngine::Material* _get_material();
     // Set static field: static private UnityEngine.Material material

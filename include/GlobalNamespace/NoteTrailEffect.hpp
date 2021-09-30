@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteTrailParticleSystem* noteTrailParticleSystem;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteTrailParticleSystem*) == 0x8);
-    // Creating value type constructor for type: NoteTrailEffect
-    NoteTrailEffect(int particlesPerFrame_ = {}, float maxSpawnDistance_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, GlobalNamespace::NoteTrailParticleSystem* noteTrailParticleSystem_ = {}) noexcept : particlesPerFrame{particlesPerFrame_}, maxSpawnDistance{maxSpawnDistance_}, noteMovement{noteMovement_}, noteTrailParticleSystem{noteTrailParticleSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _particlesPerFrame

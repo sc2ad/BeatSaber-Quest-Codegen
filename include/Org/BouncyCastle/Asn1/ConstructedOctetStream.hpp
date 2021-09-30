@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Asn1 {
     System::IO::Stream* currentStream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: ConstructedOctetStream
-    ConstructedOctetStream(Org::BouncyCastle::Asn1::Asn1StreamParser* parser_ = {}, bool first_ = {}, System::IO::Stream* currentStream_ = {}) noexcept : parser{parser_}, first{first_}, currentStream{currentStream_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // Get instance field reference: private System.Boolean _first

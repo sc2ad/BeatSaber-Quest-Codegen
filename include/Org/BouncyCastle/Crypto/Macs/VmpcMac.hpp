@@ -97,8 +97,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     uint8_t x4;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: VmpcMac
-    VmpcMac(uint8_t g_ = {}, uint8_t n_ = {}, ::ArrayWrapper<uint8_t> P_ = {}, uint8_t s_ = {}, ::ArrayWrapper<uint8_t> T_ = {}, ::ArrayWrapper<uint8_t> workingIV_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}, uint8_t x1_ = {}, uint8_t x2_ = {}, uint8_t x3_ = {}, uint8_t x4_ = {}) noexcept : g{g_}, n{n_}, P{P_}, s{s_}, T{T_}, workingIV{workingIV_}, workingKey{workingKey_}, x1{x1_}, x2{x2_}, x3{x3_}, x4{x4_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

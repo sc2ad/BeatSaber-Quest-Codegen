@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB61CC
   class IVROverlay::_SetOverlayRaw : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetOverlayRaw
-    _SetOverlayRaw() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ECB144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

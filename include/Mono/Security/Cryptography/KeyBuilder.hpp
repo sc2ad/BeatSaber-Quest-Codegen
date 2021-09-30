@@ -21,8 +21,6 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyBuilder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: KeyBuilder
-    KeyBuilder() noexcept {}
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng

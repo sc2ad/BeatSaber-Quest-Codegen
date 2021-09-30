@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerVRControllersManager* playerVRControllersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerVRControllersManager*) == 0x8);
-    // Creating value type constructor for type: OverridePlayerTransformsFromFullVRControllersRecorder
-    OverridePlayerTransformsFromFullVRControllersRecorder(GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::PlayerVRControllersManager* playerVRControllersManager_ = {}) noexcept : fullVRControllersRecorder{fullVRControllersRecorder_}, playerTransforms{playerTransforms_}, saberManager{saberManager_}, playerVRControllersManager{playerVRControllersManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FullVRControllersRecorder _fullVRControllersRecorder

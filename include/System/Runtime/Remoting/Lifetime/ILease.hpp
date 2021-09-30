@@ -26,8 +26,6 @@ namespace System::Runtime::Remoting::Lifetime {
   // [ComVisibleAttribute] Offset: E5FC1C
   class ILease {
     public:
-    // Creating value type constructor for type: ILease
-    ILease() noexcept {}
     // public System.TimeSpan get_CurrentLeaseTime()
     // Offset: 0xFFFFFFFF
     System::TimeSpan get_CurrentLeaseTime();

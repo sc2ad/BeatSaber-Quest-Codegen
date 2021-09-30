@@ -40,8 +40,6 @@ namespace ModestTree {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MiscExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MiscExtensions
-    MiscExtensions() noexcept {}
     // static public System.String Fmt(System.String s, params System.Object[] args)
     // Offset: 0x14ED014
     static ::Il2CppString* Fmt(::Il2CppString* s, ::ArrayWrapper<::Il2CppObject*> args);

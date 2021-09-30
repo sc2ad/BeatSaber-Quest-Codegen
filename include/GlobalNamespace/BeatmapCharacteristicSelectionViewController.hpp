@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
-    // Creating value type constructor for type: BeatmapCharacteristicSelectionViewController
-    BeatmapCharacteristicSelectionViewController(HMUI::IconSegmentedControl* beatmapCharacteristicSegmentedControl_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectBeatmapCharacteristicEvent_ = {}, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic_ = {}) noexcept : beatmapCharacteristicSegmentedControl{beatmapCharacteristicSegmentedControl_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, didSelectBeatmapCharacteristicEvent{didSelectBeatmapCharacteristicEvent_}, selectedBeatmapCharacteristic{selectedBeatmapCharacteristic_} {}
     // Get instance field reference: private HMUI.IconSegmentedControl _beatmapCharacteristicSegmentedControl
     HMUI::IconSegmentedControl*& dyn__beatmapCharacteristicSegmentedControl();
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection

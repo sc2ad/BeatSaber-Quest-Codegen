@@ -106,8 +106,6 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>* m_PlayableCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>*) == 0x8);
-    // Creating value type constructor for type: TimelinePlayable
-    TimelinePlayable(UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* m_IntervalTree_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::RuntimeElement*>* m_ActiveClips_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::RuntimeElement*>* m_CurrentListOfActiveClips_ = {}, int m_ActiveBit_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::ITimelineEvaluateCallback*>* m_EvaluateCallbacks_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>* m_PlayableCache_ = {}) noexcept : m_IntervalTree{m_IntervalTree_}, m_ActiveClips{m_ActiveClips_}, m_CurrentListOfActiveClips{m_CurrentListOfActiveClips_}, m_ActiveBit{m_ActiveBit_}, m_EvaluateCallbacks{m_EvaluateCallbacks_}, m_PlayableCache{m_PlayableCache_} {}
     // Get static field: static System.Boolean muteAudioScrubbing
     static bool _get_muteAudioScrubbing();
     // Set static field: static System.Boolean muteAudioScrubbing

@@ -33,8 +33,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4PlatformAdditionalContentModel : public GlobalNamespace::AdditionalContentModel {
     public:
-    // Creating value type constructor for type: PS4PlatformAdditionalContentModel
-    PS4PlatformAdditionalContentModel() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1125674
     // Implemented from: AdditionalContentModel

@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsn1Choice {
     public:
-    // Creating value type constructor for type: IAsn1Choice
-    IAsn1Choice() noexcept {}
   }; // Org.BouncyCastle.Asn1.IAsn1Choice
   #pragma pack(pop)
 }

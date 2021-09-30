@@ -42,8 +42,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::EventSystem* m_EventSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventSystem*) == 0x8);
-    // Creating value type constructor for type: BaseEventData
-    BaseEventData(UnityEngine::EventSystems::EventSystem* m_EventSystem_ = {}) noexcept : m_EventSystem{m_EventSystem_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private readonly UnityEngine.EventSystems.EventSystem m_EventSystem

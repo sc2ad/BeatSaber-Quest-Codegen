@@ -100,8 +100,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: IKSolver
-    IKSolver(UnityEngine::Vector3 IKPosition_ = {}, float IKPositionWeight_ = {}, bool initiated_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreInitiate_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostInitiate_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreUpdate_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostUpdate_ = {}, bool firstInitiation_ = {}, UnityEngine::Transform* root_ = {}) noexcept : IKPosition{IKPosition_}, IKPositionWeight{IKPositionWeight_}, initiated{initiated_}, OnPreInitiate{OnPreInitiate_}, OnPostInitiate{OnPostInitiate_}, OnPreUpdate{OnPreUpdate_}, OnPostUpdate{OnPostUpdate_}, firstInitiation{firstInitiation_}, root{root_} {}
     // Get instance field reference: public UnityEngine.Vector3 IKPosition
     UnityEngine::Vector3& dyn_IKPosition();
     // Get instance field reference: public System.Single IKPositionWeight

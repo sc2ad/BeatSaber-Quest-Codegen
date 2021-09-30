@@ -29,8 +29,6 @@ namespace GlobalNamespace {
     class PerfMetrics;
     // Nested type: GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer
     class OVRSystemPerfMetricsTcpServer;
-    // Creating value type constructor for type: OVRSystemPerfMetrics
-    OVRSystemPerfMetrics() noexcept {}
     // static field const value: static public System.Int32 TcpListeningPort
     static constexpr const int TcpListeningPort = 32419;
     // Get static field: static public System.Int32 TcpListeningPort

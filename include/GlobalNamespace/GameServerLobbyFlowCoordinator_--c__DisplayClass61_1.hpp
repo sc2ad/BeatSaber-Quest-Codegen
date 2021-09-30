@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass61_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass61_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass61_1
-    $$c__DisplayClass61_1(UnityEngine::EventSystems::EventSystem* eventSystem_ = {}, GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass61_0* CS$$$8__locals1_ = {}) noexcept : eventSystem{eventSystem_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public UnityEngine.EventSystems.EventSystem eventSystem
     UnityEngine::EventSystems::EventSystem*& dyn_eventSystem();
     // Get instance field reference: public GameServerLobbyFlowCoordinator/<>c__DisplayClass61_0 CS$<>8__locals1

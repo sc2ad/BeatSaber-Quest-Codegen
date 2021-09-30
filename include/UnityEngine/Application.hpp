@@ -67,8 +67,6 @@ namespace UnityEngine {
     class LowMemoryCallback;
     // Nested type: UnityEngine::Application::LogCallback
     class LogCallback;
-    // Creating value type constructor for type: Application
-    Application() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE752EC
     // Get static field: static private UnityEngine.Application/UnityEngine.LowMemoryCallback lowMemory
     static UnityEngine::Application::LowMemoryCallback* _get_lowMemory();

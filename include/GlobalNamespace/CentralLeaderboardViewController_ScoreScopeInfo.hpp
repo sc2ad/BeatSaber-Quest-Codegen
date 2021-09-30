@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     int playerScorePos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ScoreScopeInfo
-    ScoreScopeInfo(OnlineServices::ScoresScope scoreScope_ = {}, ::Il2CppString* localizedTitle_ = {}, UnityEngine::Sprite* icon_ = {}, int playerScorePos_ = {}) noexcept : scoreScope{scoreScope_}, localizedTitle{localizedTitle_}, icon{icon_}, playerScorePos{playerScorePos_} {}
     // Get instance field reference: public OnlineServices.ScoresScope scoreScope
     OnlineServices::ScoresScope& dyn_scoreScope();
     // Get instance field reference: public System.String localizedTitle

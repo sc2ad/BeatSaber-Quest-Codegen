@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*) == 0x8);
-    // Creating value type constructor for type: RendererMaterialsPairs
-    RendererMaterialsPairs(UnityEngine::Renderer* renderer_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs_ = {}) noexcept : renderer{renderer_}, materialPairs{materialPairs_} {}
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs

@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADA84
   class AspMvcMasterAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMvcMasterAttribute
-    AspMvcMasterAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610234
     // Implemented from: System.Attribute

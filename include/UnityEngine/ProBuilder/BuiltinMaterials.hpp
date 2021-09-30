@@ -30,8 +30,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class BuiltinMaterials : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BuiltinMaterials
-    BuiltinMaterials() noexcept {}
     // Get static field: static private System.Boolean s_IsInitialized
     static bool _get_s_IsInitialized();
     // Set static field: static private System.Boolean s_IsInitialized

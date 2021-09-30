@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     System::IntPtr m_ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: OVRNativeBuffer
-    OVRNativeBuffer(bool disposed_ = {}, int m_numBytes_ = {}, System::IntPtr m_ptr_ = {}) noexcept : disposed{disposed_}, m_numBytes{m_numBytes_}, m_ptr{m_ptr_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

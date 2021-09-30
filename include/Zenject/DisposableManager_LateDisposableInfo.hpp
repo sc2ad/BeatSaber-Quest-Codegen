@@ -39,8 +39,6 @@ namespace Zenject {
     int Priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LateDisposableInfo
-    LateDisposableInfo(Zenject::ILateDisposable* LateDisposable_ = {}, int Priority_ = {}) noexcept : LateDisposable{LateDisposable_}, Priority{Priority_} {}
     // Get instance field reference: public Zenject.ILateDisposable LateDisposable
     Zenject::ILateDisposable*& dyn_LateDisposable();
     // Get instance field reference: public System.Int32 Priority

@@ -54,8 +54,6 @@ namespace UnityEngine::AddressableAssets {
     bool autoReleaseHandle;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass124_0
-    $$c__DisplayClass124_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, bool autoReleaseHandle_ = {}) noexcept : $$4__this{$$4__this_}, autoReleaseHandle{autoReleaseHandle_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean autoReleaseHandle

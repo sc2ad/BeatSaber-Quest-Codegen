@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayerNoteEventManager*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerEffectsSpawner
-    MultiplayerConnectedPlayerEffectsSpawner(GlobalNamespace::NoteDebrisSpawner* noteDebrisSpawner_ = {}, GlobalNamespace::BombExplosionEffect* bombExplosionEffect_ = {}, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager_ = {}) noexcept : noteDebrisSpawner{noteDebrisSpawner_}, bombExplosionEffect{bombExplosionEffect_}, noteEventManager{noteEventManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteDebrisSpawner _noteDebrisSpawner

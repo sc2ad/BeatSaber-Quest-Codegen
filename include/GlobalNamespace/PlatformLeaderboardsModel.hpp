@@ -153,8 +153,6 @@ namespace GlobalNamespace {
     ::Il2CppString* playerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PlatformLeaderboardsModel
-    PlatformLeaderboardsModel(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::PlatformLeaderboardsHandler* platformLeaderboardsHandler_ = {}, System::Action* allScoresDidUploadEvent_ = {}, GlobalNamespace::PlatformLeaderboardsModel::State state_ = {}, ::Il2CppString* playerId_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformUserModel{platformUserModel_}, platformLeaderboardsHandler{platformLeaderboardsHandler_}, allScoresDidUploadEvent{allScoresDidUploadEvent_}, state{state_}, playerId{playerId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel

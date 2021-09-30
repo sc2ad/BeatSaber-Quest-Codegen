@@ -22,8 +22,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [RequiredByNativeCodeAttribute] Offset: E6FEBC
   class NativeDisableUnsafePtrRestrictionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeDisableUnsafePtrRestrictionAttribute
-    NativeDisableUnsafePtrRestrictionAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9B90
     // Implemented from: System.Attribute

@@ -54,8 +54,6 @@ namespace Oculus::Platform::Models {
     System::DateTime UnlockTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: AchievementProgress
-    AchievementProgress(::Il2CppString* Bitfield_ = {}, uint64_t Count_ = {}, bool IsUnlocked_ = {}, ::Il2CppString* Name_ = {}, System::DateTime UnlockTime_ = {}) noexcept : Bitfield{Bitfield_}, Count{Count_}, IsUnlocked{IsUnlocked_}, Name{Name_}, UnlockTime{UnlockTime_} {}
     // Get instance field reference: public readonly System.String Bitfield
     ::Il2CppString*& dyn_Bitfield();
     // Get instance field reference: public readonly System.UInt64 Count

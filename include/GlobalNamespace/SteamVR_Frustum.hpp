@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     float farZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SteamVR_Frustum
-    SteamVR_Frustum(GlobalNamespace::SteamVR_TrackedObject::EIndex index_ = {}, float fovLeft_ = {}, float fovRight_ = {}, float fovTop_ = {}, float fovBottom_ = {}, float nearZ_ = {}, float farZ_ = {}) noexcept : index{index_}, fovLeft{fovLeft_}, fovRight{fovRight_}, fovTop{fovTop_}, fovBottom{fovBottom_}, nearZ{nearZ_}, farZ{farZ_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index

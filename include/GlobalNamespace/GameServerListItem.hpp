@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     bool password;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameServerListItem
-    GameServerListItem(::Il2CppString* serverName_ = {}, int capacity_ = {}, int occupied_ = {}, bool password_ = {}) noexcept : serverName{serverName_}, capacity{capacity_}, occupied{occupied_}, password{password_} {}
     // Get instance field reference: public readonly System.String serverName
     ::Il2CppString*& dyn_serverName();
     // Get instance field reference: public readonly System.Int32 capacity

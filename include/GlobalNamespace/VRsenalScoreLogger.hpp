@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ILevelEndActions* levelEndActions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
-    // Creating value type constructor for type: VRsenalScoreLogger
-    VRsenalScoreLogger(GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}) noexcept : scoreController{scoreController_}, difficultyBeatmap{difficultyBeatmap_}, levelEndActions{levelEndActions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IScoreController _scoreController

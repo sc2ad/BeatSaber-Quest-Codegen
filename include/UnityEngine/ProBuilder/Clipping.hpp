@@ -26,8 +26,6 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::Clipping::OutCode
     struct OutCode;
-    // Creating value type constructor for type: Clipping
-    Clipping() noexcept {}
     // static private UnityEngine.ProBuilder.Clipping/UnityEngine.ProBuilder.OutCode ComputeOutCode(UnityEngine.Rect rect, System.Single x, System.Single y)
     // Offset: 0x2156C84
     static UnityEngine::ProBuilder::Clipping::OutCode ComputeOutCode(UnityEngine::Rect rect, float x, float y);

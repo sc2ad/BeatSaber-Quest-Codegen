@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteControllerNoteWasCutEvent {
     public:
-    // Creating value type constructor for type: INoteControllerNoteWasCutEvent
-    INoteControllerNoteWasCutEvent() noexcept {}
     // public System.Void HandleNoteControllerNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
     // Offset: 0xFFFFFFFF
     void HandleNoteControllerNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);

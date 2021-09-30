@@ -54,8 +54,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Math::EC::ECPoint* p;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
-    // Creating value type constructor for type: X9ECPoint
-    X9ECPoint(Org::BouncyCastle::Asn1::Asn1OctetString* encoding_ = {}, Org::BouncyCastle::Math::EC::ECCurve* c_ = {}, Org::BouncyCastle::Math::EC::ECPoint* p_ = {}) noexcept : encoding{encoding_}, c{c_}, p{p_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString encoding
     Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_encoding();
     // Get instance field reference: private Org.BouncyCastle.Math.EC.ECCurve c

@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9IntegerConverter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X9IntegerConverter
-    X9IntegerConverter() noexcept {}
     // static public System.Int32 GetByteLength(Org.BouncyCastle.Math.EC.ECFieldElement fe)
     // Offset: 0x1BC810C
     static int GetByteLength(Org::BouncyCastle::Math::EC::ECFieldElement* fe);

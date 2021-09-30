@@ -42,8 +42,6 @@ namespace UnityEngine::Playables {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class PlayableOutputExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlayableOutputExtensions
-    PlayableOutputExtensions() noexcept {}
     // static public System.Void SetReferenceObject(U output, UnityEngine.Object value)
     // Offset: 0xFFFFFFFF
     template<class U>

@@ -40,8 +40,6 @@ namespace System::Net {
     System::Net::SimpleAsyncResult* $$4__this;
     // Field size check
     static_assert(sizeof(System::Net::SimpleAsyncResult*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(System::AsyncCallback* cb_ = {}, System::Net::SimpleAsyncResult* $$4__this_ = {}) noexcept : cb{cb_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.AsyncCallback cb
     System::AsyncCallback*& dyn_cb();
     // Get instance field reference: public System.Net.SimpleAsyncResult <>4__this

@@ -28,8 +28,6 @@ namespace System::Collections::Generic {
   // [ComVisibleAttribute] Offset: E623CC
   class KeyNotFoundException : public System::SystemException {
     public:
-    // Creating value type constructor for type: KeyNotFoundException
-    KeyNotFoundException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x199AF38
     // Implemented from: System.SystemException

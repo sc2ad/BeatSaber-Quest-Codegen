@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectsInstaller
-    BeatmapObjectsInstaller(GlobalNamespace::GameNoteController* normalBasicNotePrefab_ = {}, GlobalNamespace::GameNoteController* proModeNotePrefab_ = {}, GlobalNamespace::BombNoteController* bombNotePrefab_ = {}, GlobalNamespace::ObstacleController* obstaclePrefab_ = {}, GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab_ = {}, GlobalNamespace::BeatLine* beatLinePrefab_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : normalBasicNotePrefab{normalBasicNotePrefab_}, proModeNotePrefab{proModeNotePrefab_}, bombNotePrefab{bombNotePrefab_}, obstaclePrefab{obstaclePrefab_}, noteLineConnectionControllerPrefab{noteLineConnectionControllerPrefab_}, beatLinePrefab{beatLinePrefab_}, sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private GameNoteController _normalBasicNotePrefab
     GlobalNamespace::GameNoteController*& dyn__normalBasicNotePrefab();
     // Get instance field reference: private GameNoteController _proModeNotePrefab

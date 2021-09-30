@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    // Creating value type constructor for type: EmptyEnumerator
-    EmptyEnumerator() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

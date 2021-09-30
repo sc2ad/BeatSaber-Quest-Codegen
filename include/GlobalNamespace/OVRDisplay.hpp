@@ -182,8 +182,6 @@ namespace GlobalNamespace {
     System::Action* RecenteredPose;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: OVRDisplay
-    OVRDisplay(bool needsConfigureTexture_ = {}, ::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc> eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, int localTrackingSpaceRecenterCount_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, localTrackingSpaceRecenterCount{localTrackingSpaceRecenterCount_}, RecenteredPose{RecenteredPose_} {}
     // Get instance field reference: private System.Boolean needsConfigureTexture
     bool& dyn_needsConfigureTexture();
     // Get instance field reference: private OVRDisplay/EyeRenderDesc[] eyeDescs

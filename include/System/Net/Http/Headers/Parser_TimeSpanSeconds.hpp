@@ -23,8 +23,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser::TimeSpanSeconds : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimeSpanSeconds
-    TimeSpanSeconds() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.TimeSpan result)
     // Offset: 0x1754F60
     static bool TryParse(::Il2CppString* input, ByRef<System::TimeSpan> result);

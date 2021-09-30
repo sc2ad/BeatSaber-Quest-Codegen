@@ -59,8 +59,6 @@ namespace UnityEngine::TextCore::LowLevel {
   // [NativeHeaderAttribute] Offset: EA56BC
   class FontEngine : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: FontEngine
-    FontEngine() noexcept {}
     // Get static field: static private UnityEngine.TextCore.Glyph[] s_Glyphs
     static ::ArrayWrapper<UnityEngine::TextCore::Glyph*> _get_s_Glyphs();
     // Set static field: static private UnityEngine.TextCore.Glyph[] s_Glyphs

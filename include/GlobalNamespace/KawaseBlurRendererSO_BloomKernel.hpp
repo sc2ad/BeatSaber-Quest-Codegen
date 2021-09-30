@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     int sharedPartWithNext;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BloomKernel
-    BloomKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize_ = {}, int sharedPartWithNext_ = {}) noexcept : kernelSize{kernelSize_}, sharedPartWithNext{sharedPartWithNext_} {}
     // Get instance field reference: public KawaseBlurRendererSO/KernelSize kernelSize
     GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn_kernelSize();
     // Get instance field reference: public System.Int32 sharedPartWithNext

@@ -42,8 +42,6 @@ namespace Org::BouncyCastle::Security {
     struct CipherMode;
     // Nested type: Org::BouncyCastle::Security::CipherUtilities::CipherPadding
     struct CipherPadding;
-    // Creating value type constructor for type: CipherUtilities
-    CipherUtilities() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary algorithms
     static System::Collections::IDictionary* _get_algorithms();
     // Set static field: static private readonly System.Collections.IDictionary algorithms

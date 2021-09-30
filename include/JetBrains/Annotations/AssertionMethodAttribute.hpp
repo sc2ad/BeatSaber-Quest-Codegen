@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADBC0
   class AssertionMethodAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AssertionMethodAttribute
-    AssertionMethodAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26103E4
     // Implemented from: System.Attribute

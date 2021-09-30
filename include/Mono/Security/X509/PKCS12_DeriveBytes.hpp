@@ -46,8 +46,6 @@ namespace Mono::Security::X509 {
     ::ArrayWrapper<uint8_t> salt;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: DeriveBytes
-    DeriveBytes(::Il2CppString* hashName_ = {}, int iterations_ = {}, ::ArrayWrapper<uint8_t> password_ = {}, ::ArrayWrapper<uint8_t> salt_ = {}) noexcept : hashName{hashName_}, iterations{iterations_}, password{password_}, salt{salt_} {}
     // Get static field: static private System.Byte[] keyDiversifier
     static ::ArrayWrapper<uint8_t> _get_keyDiversifier();
     // Set static field: static private System.Byte[] keyDiversifier

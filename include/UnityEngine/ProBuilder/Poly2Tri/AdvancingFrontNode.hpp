@@ -57,8 +57,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*) == 0x8);
-    // Creating value type constructor for type: AdvancingFrontNode
-    AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev_ = {}, double Value_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point_ = {}, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle_ = {}) noexcept : Next{Next_}, Prev{Prev_}, Value{Value_}, Point{Point_}, Triangle{Triangle_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev

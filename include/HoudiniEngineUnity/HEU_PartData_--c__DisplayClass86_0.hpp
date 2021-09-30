@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* previousTransformValues;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass86_0
-    $$c__DisplayClass86_0(System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* previousTransformValues_ = {}) noexcept : previousTransformValues{previousTransformValues_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*
     constexpr operator System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*() const noexcept {
       return previousTransformValues;

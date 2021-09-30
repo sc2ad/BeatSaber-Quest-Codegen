@@ -40,8 +40,6 @@ namespace System::Diagnostics {
     ::Il2CppString* type;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DebuggerDisplayAttribute
-    DebuggerDisplayAttribute(::Il2CppString* name_ = {}, ::Il2CppString* value_ = {}, ::Il2CppString* type_ = {}) noexcept : name{name_}, value{value_}, type{type_} {}
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: private System.String value

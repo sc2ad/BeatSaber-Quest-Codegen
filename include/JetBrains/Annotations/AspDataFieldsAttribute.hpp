@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADCFC
   class AspDataFieldsAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspDataFieldsAttribute
-    AspDataFieldsAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261008C
     // Implemented from: System.Attribute

@@ -99,8 +99,6 @@ namespace GlobalNamespace {
     System::Action_1<UnityEngine::Vector3>* didUpdatePoseEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: AvatarPoseController
-    AvatarPoseController(UnityEngine::Transform* headTransform_ = {}, UnityEngine::Transform* leftHandTransform_ = {}, UnityEngine::Transform* rightHandTransform_ = {}, UnityEngine::Transform* bodyTransform_ = {}, GlobalNamespace::HeadBodyOffsetSO* headBodyOffset_ = {}, GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* earlyPositionsWillBeSetCallback_ = {}, GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* latePositionsWillBeSetCallback_ = {}, GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* earlyRotationsWillBeSetCallback_ = {}, System::Action_1<UnityEngine::Vector3>* didUpdatePoseEvent_ = {}) noexcept : headTransform{headTransform_}, leftHandTransform{leftHandTransform_}, rightHandTransform{rightHandTransform_}, bodyTransform{bodyTransform_}, headBodyOffset{headBodyOffset_}, earlyPositionsWillBeSetCallback{earlyPositionsWillBeSetCallback_}, latePositionsWillBeSetCallback{latePositionsWillBeSetCallback_}, earlyRotationsWillBeSetCallback{earlyRotationsWillBeSetCallback_}, didUpdatePoseEvent{didUpdatePoseEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected UnityEngine.Transform _headTransform

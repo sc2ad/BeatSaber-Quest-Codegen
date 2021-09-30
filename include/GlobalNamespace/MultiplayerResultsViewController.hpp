@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToMenuPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerResultsViewController
-    MultiplayerResultsViewController(UnityEngine::GameObject* levelClearedGO_ = {}, UnityEngine::GameObject* levelFailedGO_ = {}, UnityEngine::GameObject* levelResultsGO_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ResultsTableView* resultsTableView_ = {}, UnityEngine::UI::Button* backToLobbyButton_ = {}, UnityEngine::UI::Button* backToMenuButton_ = {}, System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent_ = {}, System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToMenuPressedEvent_ = {}) noexcept : levelClearedGO{levelClearedGO_}, levelFailedGO{levelFailedGO_}, levelResultsGO{levelResultsGO_}, levelBar{levelBar_}, resultsTableView{resultsTableView_}, backToLobbyButton{backToLobbyButton_}, backToMenuButton{backToMenuButton_}, backToLobbyPressedEvent{backToLobbyPressedEvent_}, backToMenuPressedEvent{backToMenuPressedEvent_} {}
     // Get instance field reference: private UnityEngine.GameObject _levelClearedGO
     UnityEngine::GameObject*& dyn__levelClearedGO();
     // Get instance field reference: private UnityEngine.GameObject _levelFailedGO

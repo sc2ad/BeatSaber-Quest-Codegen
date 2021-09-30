@@ -113,8 +113,6 @@ namespace LiteNetLib {
     LiteNetLib::EventBasedNetListener::OnDeliveryEvent* DeliveryEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*) == 0x8);
-    // Creating value type constructor for type: EventBasedNetListener
-    EventBasedNetListener(LiteNetLib::EventBasedNetListener::OnPeerConnected* PeerConnectedEvent_ = {}, LiteNetLib::EventBasedNetListener::OnPeerDisconnected* PeerDisconnectedEvent_ = {}, LiteNetLib::EventBasedNetListener::OnNetworkError* NetworkErrorEvent_ = {}, LiteNetLib::EventBasedNetListener::OnNetworkReceive* NetworkReceiveEvent_ = {}, LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected* NetworkReceiveUnconnectedEvent_ = {}, LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate* NetworkLatencyUpdateEvent_ = {}, LiteNetLib::EventBasedNetListener::OnConnectionRequest* ConnectionRequestEvent_ = {}, LiteNetLib::EventBasedNetListener::OnDeliveryEvent* DeliveryEvent_ = {}) noexcept : PeerConnectedEvent{PeerConnectedEvent_}, PeerDisconnectedEvent{PeerDisconnectedEvent_}, NetworkErrorEvent{NetworkErrorEvent_}, NetworkReceiveEvent{NetworkReceiveEvent_}, NetworkReceiveUnconnectedEvent{NetworkReceiveUnconnectedEvent_}, NetworkLatencyUpdateEvent{NetworkLatencyUpdateEvent_}, ConnectionRequestEvent{ConnectionRequestEvent_}, DeliveryEvent{DeliveryEvent_} {}
     // Creating interface conversion operator: operator LiteNetLib::INetEventListener
     operator LiteNetLib::INetEventListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INetEventListener*>(this);

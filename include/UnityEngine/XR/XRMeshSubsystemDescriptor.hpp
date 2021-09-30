@@ -29,8 +29,6 @@ namespace UnityEngine::XR {
   // [UsedByNativeCodeAttribute] Offset: E997C0
   class XRMeshSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem*> {
     public:
-    // Creating value type constructor for type: XRMeshSubsystemDescriptor
-    XRMeshSubsystemDescriptor() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2612F60
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor`1

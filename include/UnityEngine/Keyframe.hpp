@@ -109,7 +109,6 @@ namespace UnityEngine {
     void set_outTangent(float value);
     // public System.Void .ctor(System.Single time, System.Single value)
     // Offset: 0x1D9DD44
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Keyframe(float time, float value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(value)})));
@@ -117,7 +116,6 @@ namespace UnityEngine {
     }
     // public System.Void .ctor(System.Single time, System.Single value, System.Single inTangent, System.Single outTangent)
     // Offset: 0x1D9DD54
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Keyframe(float time, float value, float inTangent, float outTangent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(inTangent), ::il2cpp_utils::ExtractType(outTangent)})));

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Security::Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
-    // Creating value type constructor for type: CrlException
-    CrlException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14C2924
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException

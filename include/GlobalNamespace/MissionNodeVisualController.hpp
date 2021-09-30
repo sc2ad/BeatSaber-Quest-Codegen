@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     bool interactable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MissionNodeVisualController
-    MissionNodeVisualController(GlobalNamespace::MissionToggle* missionToggle_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* nodeWasSelectEvent_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* nodeWasDisplayedEvent_ = {}, bool selected_ = {}, bool isInitialized_ = {}, bool cleared_ = {}, bool interactable_ = {}) noexcept : missionToggle{missionToggle_}, missionNode{missionNode_}, nodeWasSelectEvent{nodeWasSelectEvent_}, nodeWasDisplayedEvent{nodeWasDisplayedEvent_}, selected{selected_}, isInitialized{isInitialized_}, cleared{cleared_}, interactable{interactable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionToggle _missionToggle

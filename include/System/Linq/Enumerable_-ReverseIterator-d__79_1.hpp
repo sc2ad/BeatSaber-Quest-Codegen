@@ -71,8 +71,6 @@ namespace System::Linq {
     int $i$5__2;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $ReverseIterator$d__79_1
-    $ReverseIterator$d__79_1(int $$1__state_ = {}, TSource $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* source_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__source_ = {}, System::Linq::Buffer_1<TSource> $buffer$5__1_ = {}, int $i$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, source{source_}, $$3__source{$$3__source_}, $buffer$5__1{$buffer$5__1_}, $i$5__2{$i$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

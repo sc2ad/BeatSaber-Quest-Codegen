@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* negativeBadges;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerBadgesModelSO
-    MultiplayerBadgesModelSO(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* positiveBadges_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* negativeBadges_ = {}) noexcept : positiveBadges{positiveBadges_}, negativeBadges{negativeBadges_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _positiveBadges

@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     UnityEngine::Color graphicsColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: PreviousColorPanelController
-    PreviousColorPanelController(::ArrayWrapper<UnityEngine::UI::Graphic*> graphics_ = {}, UnityEngine::UI::Button* button_ = {}, System::Action_1<UnityEngine::Color>* colorWasSelectedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, UnityEngine::Color color_ = {}, UnityEngine::Color graphicsColor_ = {}) noexcept : graphics{graphics_}, button{button_}, colorWasSelectedEvent{colorWasSelectedEvent_}, buttonBinder{buttonBinder_}, color{color_}, graphicsColor{graphicsColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxColors

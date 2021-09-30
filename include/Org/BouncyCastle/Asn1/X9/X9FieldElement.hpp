@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Math::EC::ECFieldElement* f;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*) == 0x8);
-    // Creating value type constructor for type: X9FieldElement
-    X9FieldElement(Org::BouncyCastle::Math::EC::ECFieldElement* f_ = {}) noexcept : f{f_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Math::EC::ECFieldElement*
     constexpr operator Org::BouncyCastle::Math::EC::ECFieldElement*() const noexcept {
       return f;

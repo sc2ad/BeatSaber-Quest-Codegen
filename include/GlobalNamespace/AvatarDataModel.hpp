@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarData* avatarData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarData*) == 0x8);
-    // Creating value type constructor for type: AvatarDataModel
-    AvatarDataModel(GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager_ = {}, GlobalNamespace::AvatarPartsModel* avatarPartsModel_ = {}, GlobalNamespace::AvatarData* avatarData_ = {}) noexcept : avatarDataFileManager{avatarDataFileManager_}, avatarPartsModel{avatarPartsModel_}, avatarData{avatarData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarDataFileManagerSO _avatarDataFileManager

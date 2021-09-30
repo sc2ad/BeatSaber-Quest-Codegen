@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71488
   class LightProbeProxyVolume : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: LightProbeProxyVolume
-    LightProbeProxyVolume() noexcept {}
   }; // UnityEngine.LightProbeProxyVolume
   #pragma pack(pop)
 }

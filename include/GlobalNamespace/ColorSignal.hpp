@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSignal : public GlobalNamespace::GenericSignal_1<UnityEngine::Color> {
     public:
-    // Creating value type constructor for type: ColorSignal
-    ColorSignal() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1379B04
     // Implemented from: GenericSignal`1

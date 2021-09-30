@@ -73,8 +73,6 @@ namespace Zenject {
     class $$c__DisplayClass15_0;
     // Nested type: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
-    // Creating value type constructor for type: ConventionFilterTypesBinder
-    ConventionFilterTypesBinder() noexcept {}
     // public Zenject.ConventionFilterTypesBinder DerivingFromOrEqual()
     // Offset: 0xFFFFFFFF
     template<class T>

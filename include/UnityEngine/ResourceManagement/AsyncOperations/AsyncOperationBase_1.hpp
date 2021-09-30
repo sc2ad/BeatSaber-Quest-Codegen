@@ -99,8 +99,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       System::Threading::WaitHandle* waitHandle;
       // Field size check
       static_assert(sizeof(System::Threading::WaitHandle*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass45_0
-      $$c__DisplayClass45_0(System::Threading::WaitHandle* waitHandle_ = {}) noexcept : waitHandle{waitHandle_} {}
       // Creating conversion operator: operator System::Threading::WaitHandle*
       constexpr operator System::Threading::WaitHandle*() const noexcept {
         return waitHandle;
@@ -155,8 +153,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       System::Threading::WaitHandle* waitHandle;
       // Field size check
       static_assert(sizeof(System::Threading::WaitHandle*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass47_0
-      $$c__DisplayClass47_0(System::Threading::WaitHandle* waitHandle_ = {}) noexcept : waitHandle{waitHandle_} {}
       // Creating conversion operator: operator System::Threading::WaitHandle*
       constexpr operator System::Threading::WaitHandle*() const noexcept {
         return waitHandle;
@@ -211,8 +207,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value;
       // Field size check
       static_assert(sizeof(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass58_0
-      $$c__DisplayClass58_0(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*
       constexpr operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*() const noexcept {
         return value;
@@ -259,8 +253,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value;
       // Field size check
       static_assert(sizeof(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass59_0
-      $$c__DisplayClass59_0(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*
       constexpr operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*() const noexcept {
         return value;
@@ -386,8 +378,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     System::Action_1<float>* m_UpdateCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // Creating value type constructor for type: AsyncOperationBase_1
-    AsyncOperationBase_1(TObject Result_ = {}, int m_referenceCount_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus m_Status_ = {}, System::Exception* m_Error_ = {}, UnityEngine::ResourceManagement::ResourceManager* m_RM_ = {}, int m_Version_ = {}, GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_DestroyedAction_ = {}, GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_CompletedActionT_ = {}, System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_OnDestroyAction_ = {}, System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_dependencyCompleteAction_ = {}, bool HasExecuted_ = {}, bool IsRunning_ = {}, System::Threading::EventWaitHandle* m_waitHandle_ = {}, bool m_InDeferredCallbackQueue_ = {}, GlobalNamespace::DelegateList_1<float>* m_UpdateCallbacks_ = {}, System::Action_1<float>* m_UpdateCallback_ = {}) noexcept : Result{Result_}, m_referenceCount{m_referenceCount_}, m_Status{m_Status_}, m_Error{m_Error_}, m_RM{m_RM_}, m_Version{m_Version_}, m_DestroyedAction{m_DestroyedAction_}, m_CompletedActionT{m_CompletedActionT_}, m_OnDestroyAction{m_OnDestroyAction_}, m_dependencyCompleteAction{m_dependencyCompleteAction_}, HasExecuted{HasExecuted_}, IsRunning{IsRunning_}, m_waitHandle{m_waitHandle_}, m_InDeferredCallbackQueue{m_InDeferredCallbackQueue_}, m_UpdateCallbacks{m_UpdateCallbacks_}, m_UpdateCallback{m_UpdateCallback_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
     operator UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(this);

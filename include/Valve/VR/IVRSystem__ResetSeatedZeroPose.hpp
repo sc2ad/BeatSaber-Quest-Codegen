@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB513C
   class IVRSystem::_ResetSeatedZeroPose : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ResetSeatedZeroPose
-    _ResetSeatedZeroPose() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE2AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

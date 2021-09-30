@@ -27,8 +27,6 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManagerException : public System::Exception {
     public:
-    // Creating value type constructor for type: ResourceManagerException
-    ResourceManagerException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B625A0
     // Implemented from: System.Exception

@@ -28,8 +28,6 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E1E8
   class DriveNotFoundException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: DriveNotFoundException
-    DriveNotFoundException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1AB34F4
     // Implemented from: System.IO.IOException

@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}, ::Il2CppString* levelId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource_ = {}) noexcept : $$4__this{$$4__this_}, levelId{levelId_}, cancellationToken{cancellationToken_}, taskSource{taskSource_} {}
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
     GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // Get instance field reference: public System.String levelId

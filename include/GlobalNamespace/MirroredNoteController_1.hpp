@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*) == 0x8);
-    // Creating value type constructor for type: MirroredNoteController_1
-    MirroredNoteController_1(UnityEngine::Transform* noteTransform_ = {}, T followedNote_ = {}, UnityEngine::Transform* objectTransform_ = {}, UnityEngine::Transform* followedObjectTransform_ = {}, UnityEngine::Transform* followedNoteTransform_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent*>* didInitEvent_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* noteDidPassJumpThreeQuartersEvent_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent_ = {}) noexcept : noteTransform{noteTransform_}, followedNote{followedNote_}, objectTransform{objectTransform_}, followedObjectTransform{followedObjectTransform_}, followedNoteTransform{followedNoteTransform_}, didInitEvent{didInitEvent_}, noteDidPassJumpThreeQuartersEvent{noteDidPassJumpThreeQuartersEvent_}, noteDidStartDissolvingEvent{noteDidStartDissolvingEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
     operator GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);

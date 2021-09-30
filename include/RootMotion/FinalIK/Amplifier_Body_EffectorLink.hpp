@@ -36,8 +36,6 @@ namespace RootMotion::FinalIK {
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: EffectorLink
-    EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float weight_ = {}) noexcept : effector{effector_}, weight{weight_} {}
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight

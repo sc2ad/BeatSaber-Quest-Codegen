@@ -94,8 +94,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     uint f0;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: Blake2sDigest
-    Blake2sDigest(int digestLength_ = {}, int keyLength_ = {}, ::ArrayWrapper<uint8_t> salt_ = {}, ::ArrayWrapper<uint8_t> personalization_ = {}, ::ArrayWrapper<uint8_t> key_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int bufferPos_ = {}, ::ArrayWrapper<uint> internalState_ = {}, ::ArrayWrapper<uint> chainValue_ = {}, uint t0_ = {}, uint t1_ = {}, uint f0_ = {}) noexcept : digestLength{digestLength_}, keyLength{keyLength_}, salt{salt_}, personalization{personalization_}, key{key_}, buffer{buffer_}, bufferPos{bufferPos_}, internalState{internalState_}, chainValue{chainValue_}, t0{t0_}, t1{t1_}, f0{f0_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

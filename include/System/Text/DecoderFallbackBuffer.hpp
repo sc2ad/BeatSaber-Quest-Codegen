@@ -30,8 +30,6 @@ namespace System::Text {
     ::Il2CppChar* charEnd;
     // Field size check
     static_assert(sizeof(::Il2CppChar*) == 0x8);
-    // Creating value type constructor for type: DecoderFallbackBuffer
-    DecoderFallbackBuffer(uint8_t* byteStart_ = {}, ::Il2CppChar* charEnd_ = {}) noexcept : byteStart{byteStart_}, charEnd{charEnd_} {}
     // Get instance field reference: System.Byte* byteStart
     uint8_t*& dyn_byteStart();
     // Get instance field reference: System.Char* charEnd

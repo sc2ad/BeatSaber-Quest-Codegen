@@ -37,8 +37,6 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenderPipelineManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RenderPipelineManager
-    RenderPipelineManager() noexcept {}
     // Get static field: static UnityEngine.Rendering.RenderPipelineAsset s_CurrentPipelineAsset
     static UnityEngine::Rendering::RenderPipelineAsset* _get_s_CurrentPipelineAsset();
     // Set static field: static UnityEngine.Rendering.RenderPipelineAsset s_CurrentPipelineAsset

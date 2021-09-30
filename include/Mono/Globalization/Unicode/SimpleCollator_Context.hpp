@@ -93,7 +93,6 @@ namespace Mono::Globalization::Unicode {
     uint8_t*& dyn_PrevSortKey();
     // public System.Void .ctor(System.Globalization.CompareOptions opt, System.Byte* alwaysMatchFlags, System.Byte* neverMatchFlags, System.Byte* buffer1, System.Byte* buffer2, System.Byte* prev1)
     // Offset: 0x1C35C54
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Context(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::Context::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(opt), ::il2cpp_utils::ExtractType(alwaysMatchFlags), ::il2cpp_utils::ExtractType(neverMatchFlags), ::il2cpp_utils::ExtractType(buffer1), ::il2cpp_utils::ExtractType(buffer2), ::il2cpp_utils::ExtractType(prev1)})));

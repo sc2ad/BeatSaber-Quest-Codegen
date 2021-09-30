@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithSystemVoipState : public Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*> {
     public:
-    // Creating value type constructor for type: MessageWithSystemVoipState
-    MessageWithSystemVoipState() noexcept {}
     // protected Oculus.Platform.Models.SystemVoipState GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BE07C
     Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(System::IntPtr c_message);

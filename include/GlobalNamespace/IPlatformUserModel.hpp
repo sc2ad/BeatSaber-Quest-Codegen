@@ -37,8 +37,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlatformUserModel {
     public:
-    // Creating value type constructor for type: IPlatformUserModel
-    IPlatformUserModel() noexcept {}
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();

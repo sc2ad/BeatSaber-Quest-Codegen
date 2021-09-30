@@ -33,8 +33,6 @@ namespace System::ComponentModel::Design::Serialization {
     ::Il2CppString* serializerBaseTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DesignerSerializerAttribute
-    DesignerSerializerAttribute(::Il2CppString* serializerTypeName_ = {}, ::Il2CppString* serializerBaseTypeName_ = {}) noexcept : serializerTypeName{serializerTypeName_}, serializerBaseTypeName{serializerBaseTypeName_} {}
     // Get instance field reference: private System.String serializerTypeName
     ::Il2CppString*& dyn_serializerTypeName();
     // Get instance field reference: private System.String serializerBaseTypeName

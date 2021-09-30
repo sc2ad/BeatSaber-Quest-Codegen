@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Math::Raw {
   // [TokenAttribute] Offset: FFFFFFFF
   class Nat : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Nat
-    Nat() noexcept {}
     // static public System.UInt32 Add(System.Int32 len, System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
     // Offset: 0x14AECA8
     static uint Add(int len, ::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);

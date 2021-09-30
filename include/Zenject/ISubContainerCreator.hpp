@@ -30,8 +30,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISubContainerCreator {
     public:
-    // Creating value type constructor for type: ISubContainerCreator
-    ISubContainerCreator() noexcept {}
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);

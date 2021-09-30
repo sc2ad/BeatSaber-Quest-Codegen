@@ -36,8 +36,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class BindIPEndPoint : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: BindIPEndPoint
-    BindIPEndPoint() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x156E5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

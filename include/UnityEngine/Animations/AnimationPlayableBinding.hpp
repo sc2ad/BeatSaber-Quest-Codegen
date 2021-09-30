@@ -30,8 +30,6 @@ namespace UnityEngine::Animations {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationPlayableBinding : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AnimationPlayableBinding
-    AnimationPlayableBinding() noexcept {}
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
     // Offset: 0x258FEF8
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key);

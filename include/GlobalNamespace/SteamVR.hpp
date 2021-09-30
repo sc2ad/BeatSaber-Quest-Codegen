@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     Valve::VR::ETextureType textureType;
     // Field size check
     static_assert(sizeof(Valve::VR::ETextureType) == 0x4);
-    // Creating value type constructor for type: SteamVR
-    SteamVR(Valve::VR::CVRSystem* hmd_ = {}, Valve::VR::CVRCompositor* compositor_ = {}, Valve::VR::CVROverlay* overlay_ = {}, float sceneWidth_ = {}, float sceneHeight_ = {}, float aspect_ = {}, float fieldOfView_ = {}, UnityEngine::Vector2 tanHalfFov_ = {}, ::ArrayWrapper<Valve::VR::VRTextureBounds_t> textureBounds_ = {}, ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> eyes_ = {}, Valve::VR::ETextureType textureType_ = {}) noexcept : hmd{hmd_}, compositor{compositor_}, overlay{overlay_}, sceneWidth{sceneWidth_}, sceneHeight{sceneHeight_}, aspect{aspect_}, fieldOfView{fieldOfView_}, tanHalfFov{tanHalfFov_}, textureBounds{textureBounds_}, eyes{eyes_}, textureType{textureType_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

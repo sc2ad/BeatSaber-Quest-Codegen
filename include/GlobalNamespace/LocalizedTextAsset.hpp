@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset::TextInfo*) == 0x8);
-    // Creating value type constructor for type: LocalizedTextAsset
-    LocalizedTextAsset(::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*> textInfos_ = {}, GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo_ = {}) noexcept : textInfos{textInfos_}, lastTextInfo{lastTextInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedTextAsset/TextInfo[] _textInfos

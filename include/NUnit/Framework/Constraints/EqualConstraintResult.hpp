@@ -85,8 +85,6 @@ namespace NUnit::Framework::Constraints {
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*) == 0x8);
-    // Creating value type constructor for type: EqualConstraintResult
-    EqualConstraintResult(::Il2CppObject* expectedValue_ = {}, NUnit::Framework::Constraints::Tolerance* tolerance_ = {}, bool caseInsensitive_ = {}, bool clipStrings_ = {}, System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints_ = {}) noexcept : expectedValue{expectedValue_}, tolerance{tolerance_}, caseInsensitive{caseInsensitive_}, clipStrings{clipStrings_}, failurePoints{failurePoints_} {}
     // Get static field: static private readonly System.String StringsDiffer_1
     static ::Il2CppString* _get_StringsDiffer_1();
     // Set static field: static private readonly System.String StringsDiffer_1

@@ -107,7 +107,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     int get_DependencyCount();
     // System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation op)
     // Offset: 0x1B6B124
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ProvideHandle(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rm), ::il2cpp_utils::ExtractType(op)})));

@@ -40,8 +40,6 @@ namespace Zenject {
     System::Action_2<Zenject::InjectContext*, T>* callback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, T>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0_1
-    $$c__DisplayClass2_0_1(System::Action_2<Zenject::InjectContext*, T>* callback_ = {}) noexcept : callback{callback_} {}
     // Creating conversion operator: operator System::Action_2<Zenject::InjectContext*, T>*
     constexpr operator System::Action_2<Zenject::InjectContext*, T>*() const noexcept {
       return callback;

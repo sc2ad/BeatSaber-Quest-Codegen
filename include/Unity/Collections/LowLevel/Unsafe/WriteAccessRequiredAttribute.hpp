@@ -21,8 +21,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FEA8
   class WriteAccessRequiredAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: WriteAccessRequiredAttribute
-    WriteAccessRequiredAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9ECC
     // Implemented from: System.Attribute

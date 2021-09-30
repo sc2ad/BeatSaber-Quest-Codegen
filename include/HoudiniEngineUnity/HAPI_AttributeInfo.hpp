@@ -101,7 +101,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
     // Offset: 0x14397C4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HAPI_AttributeInfo(::Il2CppString* ignored) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_AttributeInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ignored)})));

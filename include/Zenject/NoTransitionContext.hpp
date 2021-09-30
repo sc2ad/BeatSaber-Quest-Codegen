@@ -41,8 +41,6 @@ namespace Zenject {
     Zenject::NoTransitionInstaller* noScenesTransitionInstaller;
     // Field size check
     static_assert(sizeof(Zenject::NoTransitionInstaller*) == 0x8);
-    // Creating value type constructor for type: NoTransitionContext
-    NoTransitionContext(Zenject::NoTransitionInstaller* noScenesTransitionInstaller_ = {}) noexcept : noScenesTransitionInstaller{noScenesTransitionInstaller_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller

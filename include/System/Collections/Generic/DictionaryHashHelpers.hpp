@@ -27,8 +27,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class DictionaryHashHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DictionaryHashHelpers
-    DictionaryHashHelpers() noexcept {}
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* _get_$SerializationInfoTable$k__BackingField();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField

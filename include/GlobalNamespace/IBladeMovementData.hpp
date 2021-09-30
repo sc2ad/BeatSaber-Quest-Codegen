@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBladeMovementData {
     public:
-    // Creating value type constructor for type: IBladeMovementData
-    IBladeMovementData() noexcept {}
     // public System.Single get_bladeSpeed()
     // Offset: 0xFFFFFFFF
     float get_bladeSpeed();

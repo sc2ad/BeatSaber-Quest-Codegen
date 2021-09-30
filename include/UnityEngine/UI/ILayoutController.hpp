@@ -13,8 +13,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayoutController {
     public:
-    // Creating value type constructor for type: ILayoutController
-    ILayoutController() noexcept {}
     // public System.Void SetLayoutHorizontal()
     // Offset: 0xFFFFFFFF
     void SetLayoutHorizontal();

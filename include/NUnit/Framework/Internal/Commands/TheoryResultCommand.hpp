@@ -33,8 +33,6 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TheoryResultCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
-    // Creating value type constructor for type: TheoryResultCommand
-    TheoryResultCommand() noexcept {}
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand command)
     // Offset: 0x193E4FC
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand

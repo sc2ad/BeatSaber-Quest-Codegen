@@ -14,8 +14,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignatureHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SignatureHelper
-    SignatureHelper() noexcept {}
   }; // System.Reflection.Emit.SignatureHelper
   #pragma pack(pop)
 }

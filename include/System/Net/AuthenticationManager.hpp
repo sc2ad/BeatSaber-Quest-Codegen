@@ -32,8 +32,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticationManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AuthenticationManager
-    AuthenticationManager() noexcept {}
     // Get static field: static private System.Collections.ArrayList modules
     static System::Collections::ArrayList* _get_modules();
     // Set static field: static private System.Collections.ArrayList modules

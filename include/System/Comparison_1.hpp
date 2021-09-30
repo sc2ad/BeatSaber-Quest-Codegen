@@ -29,8 +29,6 @@ namespace System {
   template<typename T>
   class Comparison_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Comparison_1
-    Comparison_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

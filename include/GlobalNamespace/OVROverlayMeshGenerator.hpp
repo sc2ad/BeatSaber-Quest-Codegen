@@ -174,8 +174,6 @@ namespace GlobalNamespace {
     bool Awake_;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVROverlayMeshGenerator
-    OVROverlayMeshGenerator(UnityEngine::Mesh* Mesh_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* Verts_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector2>* UV_ = {}, System::Collections::Generic::List_1<int>* Tris_ = {}, GlobalNamespace::OVROverlay* Overlay_ = {}, UnityEngine::MeshFilter* MeshFilter_ = {}, UnityEngine::MeshCollider* MeshCollider_ = {}, UnityEngine::MeshRenderer* MeshRenderer_ = {}, UnityEngine::Transform* CameraRoot_ = {}, UnityEngine::Transform* Transform_ = {}, GlobalNamespace::OVROverlay::OverlayShape LastShape_ = {}, UnityEngine::Vector3 LastPosition_ = {}, UnityEngine::Quaternion LastRotation_ = {}, UnityEngine::Vector3 LastScale_ = {}, UnityEngine::Rect LastDestRectLeft_ = {}, UnityEngine::Rect LastDestRectRight_ = {}, UnityEngine::Rect LastSrcRectLeft_ = {}, UnityEngine::Texture* LastTexture_ = {}, bool Awake__ = {}) noexcept : Mesh{Mesh_}, Verts{Verts_}, UV{UV_}, Tris{Tris_}, Overlay{Overlay_}, MeshFilter{MeshFilter_}, MeshCollider{MeshCollider_}, MeshRenderer{MeshRenderer_}, CameraRoot{CameraRoot_}, Transform{Transform_}, LastShape{LastShape_}, LastPosition{LastPosition_}, LastRotation{LastRotation_}, LastScale{LastScale_}, LastDestRectLeft{LastDestRectLeft_}, LastDestRectRight{LastDestRectRight_}, LastSrcRectLeft{LastSrcRectLeft_}, LastTexture{LastTexture_}, Awake_{Awake__} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly UnityEngine.Vector3[] BottomLeft

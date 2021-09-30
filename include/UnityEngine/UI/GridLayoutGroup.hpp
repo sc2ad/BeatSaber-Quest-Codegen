@@ -209,8 +209,6 @@ namespace UnityEngine::UI {
     int m_ConstraintCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GridLayoutGroup
-    GridLayoutGroup(UnityEngine::UI::GridLayoutGroup::Corner m_StartCorner_ = {}, UnityEngine::UI::GridLayoutGroup::Axis m_StartAxis_ = {}, UnityEngine::Vector2 m_CellSize_ = {}, UnityEngine::Vector2 m_Spacing_ = {}, UnityEngine::UI::GridLayoutGroup::Constraint m_Constraint_ = {}, int m_ConstraintCount_ = {}) noexcept : m_StartCorner{m_StartCorner_}, m_StartAxis{m_StartAxis_}, m_CellSize{m_CellSize_}, m_Spacing{m_Spacing_}, m_Constraint{m_Constraint_}, m_ConstraintCount{m_ConstraintCount_} {}
     // Get instance field reference: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner m_StartCorner
     UnityEngine::UI::GridLayoutGroup::Corner& dyn_m_StartCorner();
     // Get instance field reference: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Axis m_StartAxis

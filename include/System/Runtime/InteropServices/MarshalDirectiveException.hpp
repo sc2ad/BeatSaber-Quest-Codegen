@@ -28,8 +28,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60CE4
   class MarshalDirectiveException : public System::SystemException {
     public:
-    // Creating value type constructor for type: MarshalDirectiveException
-    MarshalDirectiveException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15B053C
     // Implemented from: System.SystemException

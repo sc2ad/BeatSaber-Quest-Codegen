@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5740
   class IVRApplications::_GetApplicationsTransitionStateNameFromEnum : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetApplicationsTransitionStateNameFromEnum
-    _GetApplicationsTransitionStateNameFromEnum() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x18923DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

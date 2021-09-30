@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*> {
     public:
-    // Creating value type constructor for type: SetPlayersMissingEntitlementsToLevelRpc
-    SetPlayersMissingEntitlementsToLevelRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8D3C
     // Implemented from: RemoteProcedureCall`1

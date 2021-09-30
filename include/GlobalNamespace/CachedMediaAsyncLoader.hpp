@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* spriteAsyncCachedLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*) == 0x8);
-    // Creating value type constructor for type: CachedMediaAsyncLoader
-    CachedMediaAsyncLoader(int maxNumberOfAudioClipCachedElements_ = {}, int maxNumberOfSpriteCachedElements_ = {}, GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>* audioAsyncCachedLoader_ = {}, GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* spriteAsyncCachedLoader_ = {}) noexcept : maxNumberOfAudioClipCachedElements{maxNumberOfAudioClipCachedElements_}, maxNumberOfSpriteCachedElements{maxNumberOfSpriteCachedElements_}, audioAsyncCachedLoader{audioAsyncCachedLoader_}, spriteAsyncCachedLoader{spriteAsyncCachedLoader_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMediaAsyncLoader
     operator GlobalNamespace::IMediaAsyncLoader() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMediaAsyncLoader*>(this);

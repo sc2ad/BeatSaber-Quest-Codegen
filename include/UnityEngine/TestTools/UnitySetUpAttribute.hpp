@@ -17,8 +17,6 @@ namespace UnityEngine::TestTools {
   // [AttributeUsageAttribute] Offset: F28FCC
   class UnitySetUpAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: UnitySetUpAttribute
-    UnitySetUpAttribute() noexcept {}
   }; // UnityEngine.TestTools.UnitySetUpAttribute
   #pragma pack(pop)
 }

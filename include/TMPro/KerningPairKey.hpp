@@ -52,7 +52,6 @@ namespace TMPro {
     uint& dyn_key();
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
     // Offset: 0x11EAB1C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KerningPairKey(uint ascii_left, uint ascii_right) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ascii_left), ::il2cpp_utils::ExtractType(ascii_right)})));

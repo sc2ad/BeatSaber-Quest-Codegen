@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusNetworkPlayerModel*) == 0x8);
-    // Creating value type constructor for type: StartServerParams
-    StartServerParams(GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModel_ = {}) noexcept : oculusNetworkPlayerModel{oculusNetworkPlayerModel_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*>(this);

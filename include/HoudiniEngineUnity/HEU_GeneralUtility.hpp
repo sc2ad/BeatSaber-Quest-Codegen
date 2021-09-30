@@ -95,8 +95,6 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>
     template<typename T>
     class SetAttributeArrayFunc_1;
-    // Creating value type constructor for type: HEU_GeneralUtility
-    HEU_GeneralUtility() noexcept {}
     // static public System.Boolean GetArray1Arg(System.Int32 arg1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>

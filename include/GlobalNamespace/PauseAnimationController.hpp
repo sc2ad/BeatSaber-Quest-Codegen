@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     System::Action* resumeFromPauseAnimationDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: PauseAnimationController
-    PauseAnimationController(UnityEngine::Animator* animator_ = {}, System::Action* resumeFromPauseAnimationDidFinishEvent_ = {}) noexcept : animator{animator_}, resumeFromPauseAnimationDidFinishEvent{resumeFromPauseAnimationDidFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator

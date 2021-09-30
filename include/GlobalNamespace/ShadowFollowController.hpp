@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector2 shadowAlphaRange;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // Creating value type constructor for type: ShadowFollowController
-    ShadowFollowController(UnityEngine::Transform* shadowTransform_ = {}, UnityEngine::Transform* targetTransform_ = {}, UnityEngine::SpriteRenderer* shadowSpriteRenderer_ = {}, UnityEngine::Vector2 shadowHeightRange_ = {}, UnityEngine::Vector2 shadowSizeRange_ = {}, UnityEngine::Vector2 shadowAlphaRange_ = {}) noexcept : shadowTransform{shadowTransform_}, targetTransform{targetTransform_}, shadowSpriteRenderer{shadowSpriteRenderer_}, shadowHeightRange{shadowHeightRange_}, shadowSizeRange{shadowSizeRange_}, shadowAlphaRange{shadowAlphaRange_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _shadowTransform

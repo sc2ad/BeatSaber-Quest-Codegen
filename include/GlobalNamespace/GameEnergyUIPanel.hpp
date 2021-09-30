@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* energyBarRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // Creating value type constructor for type: GameEnergyUIPanel
-    GameEnergyUIPanel(UnityEngine::UI::Image* energyBar_ = {}, UnityEngine::Playables::PlayableDirector* playableDirector_ = {}, UnityEngine::UI::Image* batteryLifeSegmentPrefab_ = {}, float batterySegmentSeparatorWidth_ = {}, float batterySegmentHorizontalPadding_ = {}, GlobalNamespace::IGameEnergyCounter* gameEnergyCounter_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Image*>* batteryLifeSegments_ = {}, int activeBatteryLifeSegmentsCount_ = {}, UnityEngine::RectTransform* energyBarRectTransform_ = {}) noexcept : energyBar{energyBar_}, playableDirector{playableDirector_}, batteryLifeSegmentPrefab{batteryLifeSegmentPrefab_}, batterySegmentSeparatorWidth{batterySegmentSeparatorWidth_}, batterySegmentHorizontalPadding{batterySegmentHorizontalPadding_}, gameEnergyCounter{gameEnergyCounter_}, batteryLifeSegments{batteryLifeSegments_}, activeBatteryLifeSegmentsCount{activeBatteryLifeSegmentsCount_}, energyBarRectTransform{energyBarRectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _energyBar

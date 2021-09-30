@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     bool didChangeSomeColorsThisFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LightWithIdManager
-    LightWithIdManager(System::Action* didChangeSomeColorsThisFrameEvent_ = {}, System::Action_2<int, UnityEngine::Color>* didSetColorForIdEvent_ = {}, ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*> lights_ = {}, ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> colors_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>* lightsToUnregister_ = {}, bool didChangeSomeColorsThisFrame_ = {}) noexcept : didChangeSomeColorsThisFrameEvent{didChangeSomeColorsThisFrameEvent_}, didSetColorForIdEvent{didSetColorForIdEvent_}, lights{lights_}, colors{colors_}, lightsToUnregister{lightsToUnregister_}, didChangeSomeColorsThisFrame{didChangeSomeColorsThisFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxLightId

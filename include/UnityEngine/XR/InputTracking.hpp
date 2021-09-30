@@ -40,8 +40,6 @@ namespace UnityEngine::XR {
     public:
     // Nested type: UnityEngine::XR::InputTracking::TrackingStateEventType
     struct TrackingStateEventType;
-    // Creating value type constructor for type: InputTracking
-    InputTracking() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE99830
     // Get static field: static private System.Action`1<UnityEngine.XR.XRNodeState> trackingAcquired
     static System::Action_1<UnityEngine::XR::XRNodeState>* _get_trackingAcquired();

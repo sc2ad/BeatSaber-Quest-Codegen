@@ -22,8 +22,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityWorkItemDataHolder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityWorkItemDataHolder
-    UnityWorkItemDataHolder() noexcept {}
     // Get static field: static public System.Collections.Generic.List`1<System.String> alreadyStartedTests
     static System::Collections::Generic::List_1<::Il2CppString*>* _get_alreadyStartedTests();
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyStartedTests

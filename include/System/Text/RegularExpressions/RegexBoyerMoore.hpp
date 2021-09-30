@@ -81,8 +81,6 @@ namespace System::Text::RegularExpressions {
     System::Globalization::CultureInfo* culture;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
-    // Creating value type constructor for type: RegexBoyerMoore
-    RegexBoyerMoore(::ArrayWrapper<int> positive_ = {}, ::ArrayWrapper<int> negativeASCII_ = {}, ::ArrayWrapper<::ArrayWrapper<int>> negativeUnicode_ = {}, ::Il2CppString* pattern_ = {}, int lowASCII_ = {}, int highASCII_ = {}, bool rightToLeft_ = {}, bool caseInsensitive_ = {}, System::Globalization::CultureInfo* culture_ = {}) noexcept : positive{positive_}, negativeASCII{negativeASCII_}, negativeUnicode{negativeUnicode_}, pattern{pattern_}, lowASCII{lowASCII_}, highASCII{highASCII_}, rightToLeft{rightToLeft_}, caseInsensitive{caseInsensitive_}, culture{culture_} {}
     // Get instance field reference: System.Int32[] _positive
     ::ArrayWrapper<int>& dyn__positive();
     // Get instance field reference: System.Int32[] _negativeASCII

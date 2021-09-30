@@ -47,8 +47,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NameValueHeaderValue
-    NameValueHeaderValue(::Il2CppString* value_ = {}, ::Il2CppString* Name_ = {}) noexcept : value{value_}, Name{Name_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

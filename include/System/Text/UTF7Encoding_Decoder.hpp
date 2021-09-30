@@ -47,8 +47,6 @@ namespace System::Text {
     bool firstByte;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Decoder
-    Decoder(int bits_ = {}, int bitCount_ = {}, bool firstByte_ = {}) noexcept : bits{bits_}, bitCount{bitCount_}, firstByte{firstByte_} {}
     // Get instance field reference: System.Int32 bits
     int& dyn_bits();
     // Get instance field reference: System.Int32 bitCount

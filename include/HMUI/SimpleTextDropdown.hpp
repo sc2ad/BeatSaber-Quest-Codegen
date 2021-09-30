@@ -85,8 +85,6 @@ namespace HMUI {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SimpleTextDropdown
-    SimpleTextDropdown(TMPro::TextMeshProUGUI* text_ = {}, GlobalNamespace::SimpleTextTableCell* cellPrefab_ = {}, float cellSize_ = {}, System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts_ = {}, bool initialized_ = {}) noexcept : text{text_}, cellPrefab{cellPrefab_}, cellSize{cellSize_}, texts{texts_}, initialized{initialized_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

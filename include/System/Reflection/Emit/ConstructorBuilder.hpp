@@ -43,8 +43,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstructorBuilder : public System::Reflection::ConstructorInfo {
     public:
-    // Creating value type constructor for type: ConstructorBuilder
-    ConstructorBuilder() noexcept {}
     // public override System.Reflection.MethodAttributes get_Attributes()
     // Offset: 0x1EA54C4
     // Implemented from: System.Reflection.MethodBase

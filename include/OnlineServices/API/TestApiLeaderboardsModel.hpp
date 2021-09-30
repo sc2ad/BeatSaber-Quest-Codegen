@@ -51,8 +51,6 @@ namespace OnlineServices::API {
     struct $GetLeaderboardEntriesAsync$d__1;
     // Nested type: OnlineServices::API::TestApiLeaderboardsModel::$SendLevelScoreResultAsync$d__2
     struct $SendLevelScoreResultAsync$d__2;
-    // Creating value type constructor for type: TestApiLeaderboardsModel
-    TestApiLeaderboardsModel() noexcept {}
     // Creating interface conversion operator: operator OnlineServices::API::IApiLeaderboardsModel
     operator OnlineServices::API::IApiLeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::API::IApiLeaderboardsModel*>(this);

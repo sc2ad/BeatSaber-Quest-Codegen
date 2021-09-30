@@ -14,8 +14,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlobalSettings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GlobalSettings
-    GlobalSettings() noexcept {}
     // Get static field: static public System.Double DefaultFloatingPointTolerance
     static double _get_DefaultFloatingPointTolerance();
     // Set static field: static public System.Double DefaultFloatingPointTolerance

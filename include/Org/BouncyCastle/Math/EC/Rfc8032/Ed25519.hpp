@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     class PointExt;
     // Nested type: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp
     class PointPrecomp;
-    // Creating value type constructor for type: Ed25519
-    Ed25519() noexcept {}
     // Get static field: static public readonly System.Int32 PrehashSize
     static int _get_PrehashSize();
     // Set static field: static public readonly System.Int32 PrehashSize

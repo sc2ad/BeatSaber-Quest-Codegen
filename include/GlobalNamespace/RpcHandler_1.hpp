@@ -137,8 +137,6 @@ namespace GlobalNamespace {
       System::Action_1<::Il2CppString*>* callback;
       // Field size check
       static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass13_0_1
-      $$c__DisplayClass13_0_1(System::Action_1<::Il2CppString*>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_1<::Il2CppString*>*
       constexpr operator System::Action_1<::Il2CppString*>*() const noexcept {
         return callback;
@@ -186,8 +184,6 @@ namespace GlobalNamespace {
       System::Action_2<::Il2CppString*, T0>* callback;
       // Field size check
       static_assert(sizeof(System::Action_2<::Il2CppString*, T0>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass14_0_2
-      $$c__DisplayClass14_0_2(System::Action_2<::Il2CppString*, T0>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_2<::Il2CppString*, T0>*
       constexpr operator System::Action_2<::Il2CppString*, T0>*() const noexcept {
         return callback;
@@ -235,8 +231,6 @@ namespace GlobalNamespace {
       System::Action_3<::Il2CppString*, T0, T1>* callback;
       // Field size check
       static_assert(sizeof(System::Action_3<::Il2CppString*, T0, T1>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass15_0_3
-      $$c__DisplayClass15_0_3(System::Action_3<::Il2CppString*, T0, T1>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_3<::Il2CppString*, T0, T1>*
       constexpr operator System::Action_3<::Il2CppString*, T0, T1>*() const noexcept {
         return callback;
@@ -284,8 +278,6 @@ namespace GlobalNamespace {
       System::Action_4<::Il2CppString*, T0, T1, T2>* callback;
       // Field size check
       static_assert(sizeof(System::Action_4<::Il2CppString*, T0, T1, T2>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass16_0_4
-      $$c__DisplayClass16_0_4(System::Action_4<::Il2CppString*, T0, T1, T2>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_4<::Il2CppString*, T0, T1, T2>*
       constexpr operator System::Action_4<::Il2CppString*, T0, T1, T2>*() const noexcept {
         return callback;
@@ -333,8 +325,6 @@ namespace GlobalNamespace {
       System::Action_5<::Il2CppString*, T0, T1, T2, T3>* callback;
       // Field size check
       static_assert(sizeof(System::Action_5<::Il2CppString*, T0, T1, T2, T3>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass17_0_5
-      $$c__DisplayClass17_0_5(System::Action_5<::Il2CppString*, T0, T1, T2, T3>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_5<::Il2CppString*, T0, T1, T2, T3>*
       constexpr operator System::Action_5<::Il2CppString*, T0, T1, T2, T3>*() const noexcept {
         return callback;
@@ -382,8 +372,6 @@ namespace GlobalNamespace {
       System::Action_2<::Il2CppString*, float>* callback;
       // Field size check
       static_assert(sizeof(System::Action_2<::Il2CppString*, float>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass18_0_1
-      $$c__DisplayClass18_0_1(System::Action_2<::Il2CppString*, float>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_2<::Il2CppString*, float>*
       constexpr operator System::Action_2<::Il2CppString*, float>*() const noexcept {
         return callback;
@@ -431,8 +419,6 @@ namespace GlobalNamespace {
       System::Action_3<::Il2CppString*, float, T0>* callback;
       // Field size check
       static_assert(sizeof(System::Action_3<::Il2CppString*, float, T0>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass19_0_2
-      $$c__DisplayClass19_0_2(System::Action_3<::Il2CppString*, float, T0>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_3<::Il2CppString*, float, T0>*
       constexpr operator System::Action_3<::Il2CppString*, float, T0>*() const noexcept {
         return callback;
@@ -480,8 +466,6 @@ namespace GlobalNamespace {
       System::Action_4<::Il2CppString*, float, T0, T1>* callback;
       // Field size check
       static_assert(sizeof(System::Action_4<::Il2CppString*, float, T0, T1>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass20_0_3
-      $$c__DisplayClass20_0_3(System::Action_4<::Il2CppString*, float, T0, T1>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_4<::Il2CppString*, float, T0, T1>*
       constexpr operator System::Action_4<::Il2CppString*, float, T0, T1>*() const noexcept {
         return callback;
@@ -529,8 +513,6 @@ namespace GlobalNamespace {
       System::Action_5<::Il2CppString*, float, T0, T1, T2>* callback;
       // Field size check
       static_assert(sizeof(System::Action_5<::Il2CppString*, float, T0, T1, T2>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass21_0_4
-      $$c__DisplayClass21_0_4(System::Action_5<::Il2CppString*, float, T0, T1, T2>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_5<::Il2CppString*, float, T0, T1, T2>*
       constexpr operator System::Action_5<::Il2CppString*, float, T0, T1, T2>*() const noexcept {
         return callback;
@@ -578,8 +560,6 @@ namespace GlobalNamespace {
       System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>* callback;
       // Field size check
       static_assert(sizeof(System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass22_0_5
-      $$c__DisplayClass22_0_5(System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>* callback_ = {}) noexcept : callback{callback_} {}
       // Creating conversion operator: operator System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>*
       constexpr operator System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>*() const noexcept {
         return callback;
@@ -633,8 +613,6 @@ namespace GlobalNamespace {
       System::Action_2<GlobalNamespace::IConnectedPlayer*, T>* callback;
       // Field size check
       static_assert(sizeof(System::Action_2<GlobalNamespace::IConnectedPlayer*, T>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass23_0_1
-      $$c__DisplayClass23_0_1(GlobalNamespace::RpcHandler_1<TType>* $$4__this_ = {}, System::Action_2<GlobalNamespace::IConnectedPlayer*, T>* callback_ = {}) noexcept : $$4__this{$$4__this_}, callback{callback_} {}
       // Autogenerated instance field getter
       // Get instance field: public RpcHandler`1<TType> <>4__this
       GlobalNamespace::RpcHandler_1<TType>*& dyn_$$4__this() {
@@ -696,8 +674,6 @@ namespace GlobalNamespace {
       typename GlobalNamespace::RpcHandler_1<TType>::$$c__DisplayClass23_0_1<T>* CS$$$8__locals1;
       // Field size check
       static_assert(sizeof(typename GlobalNamespace::RpcHandler_1<TType>::$$c__DisplayClass23_0_1<T>*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass23_1_1
-      $$c__DisplayClass23_1_1(GlobalNamespace::IConnectedPlayer* player_ = {}, T rpc_ = {}, typename GlobalNamespace::RpcHandler_1<TType>::$$c__DisplayClass23_0_1<T>* CS$$$8__locals1_ = {}) noexcept : player{player_}, rpc{rpc_}, CS$$$8__locals1{CS$$$8__locals1_} {}
       // Autogenerated instance field getter
       // Get instance field: public IConnectedPlayer player
       GlobalNamespace::IConnectedPlayer*& dyn_player() {
@@ -771,8 +747,6 @@ namespace GlobalNamespace {
     bool destroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RpcHandler_1
-    RpcHandler_1(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerSessionManager_MessageType messageType_ = {}, GlobalNamespace::NetworkPacketSerializer_2<TType, GlobalNamespace::IConnectedPlayer*>* rpcSerializer_ = {}, bool delayCallTime_ = {}, bool destroyed_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, messageType{messageType_}, rpcSerializer{rpcSerializer_}, delayCallTime{delayCallTime_}, destroyed{destroyed_} {}
     // Autogenerated static field getter
     // Get static field: static private System.Single kMaximumRpcTimeOffset
     static float _get_kMaximumRpcTimeOffset() {

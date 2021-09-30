@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundNonLightRenderer
-    BloomPrePassBackgroundNonLightRenderer(UnityEngine::Renderer* renderer_ = {}) noexcept : renderer{renderer_} {}
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // protected override UnityEngine.Renderer get_renderer()

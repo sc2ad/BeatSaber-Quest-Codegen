@@ -71,8 +71,6 @@ namespace UnityEngine::Scripting {
     #pragma pack(pop)
     static check_size<sizeof(GarbageCollector::Mode), 0 + sizeof(int)> __UnityEngine_Scripting_GarbageCollector_ModeSizeCheck;
     static_assert(sizeof(GarbageCollector::Mode) == 0x4);
-    // Creating value type constructor for type: GarbageCollector
-    GarbageCollector() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE76AD8
     // Get static field: static private System.Action`1<UnityEngine.Scripting.GarbageCollector/UnityEngine.Scripting.Mode> GCModeChanged
     static System::Action_1<UnityEngine::Scripting::GarbageCollector::Mode>* _get_GCModeChanged();

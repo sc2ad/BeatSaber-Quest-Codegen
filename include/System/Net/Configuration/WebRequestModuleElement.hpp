@@ -16,8 +16,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestModuleElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: WebRequestModuleElement
-    WebRequestModuleElement() noexcept {}
   }; // System.Net.Configuration.WebRequestModuleElement
   #pragma pack(pop)
 }

@@ -30,8 +30,6 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   // [TokenAttribute] Offset: FFFFFFFF
   class IResourceLocation {
     public:
-    // Creating value type constructor for type: IResourceLocation
-    IResourceLocation() noexcept {}
     // public System.String get_InternalId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_InternalId();

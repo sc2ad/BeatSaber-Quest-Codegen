@@ -18,8 +18,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FF34
   class NativeSetClassTypeToNullOnScheduleAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeSetClassTypeToNullOnScheduleAttribute
-    NativeSetClassTypeToNullOnScheduleAttribute() noexcept {}
   }; // Unity.Collections.LowLevel.Unsafe.NativeSetClassTypeToNullOnScheduleAttribute
   #pragma pack(pop)
 }

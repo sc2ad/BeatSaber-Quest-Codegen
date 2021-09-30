@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
-    // Creating value type constructor for type: NetworkPlayersViewController
-    NetworkPlayersViewController(GlobalNamespace::NetworkPlayersTableView* networkPlayersTableView_ = {}, bool refreshIsNeeded_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent_ = {}) noexcept : networkPlayersTableView{networkPlayersTableView_}, refreshIsNeeded{refreshIsNeeded_}, onJoinRequestEvent{onJoinRequestEvent_}, onInviteRequestEvent{onInviteRequestEvent_} {}
     // Get instance field reference: private NetworkPlayersTableView _networkPlayersTableView
     GlobalNamespace::NetworkPlayersTableView*& dyn__networkPlayersTableView();
     // Get instance field reference: private System.Boolean _refreshIsNeeded

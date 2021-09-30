@@ -36,8 +36,6 @@ namespace Zenject {
     Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerCreatorBindInfo*) == 0x8);
-    // Creating value type constructor for type: DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
-    DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo_ = {}) noexcept : SubContainerCreatorBindInfo{SubContainerCreatorBindInfo_} {}
     // Get instance field reference: private Zenject.SubContainerCreatorBindInfo <SubContainerCreatorBindInfo>k__BackingField
     Zenject::SubContainerCreatorBindInfo*& dyn_$SubContainerCreatorBindInfo$k__BackingField();
     // protected Zenject.SubContainerCreatorBindInfo get_SubContainerCreatorBindInfo()

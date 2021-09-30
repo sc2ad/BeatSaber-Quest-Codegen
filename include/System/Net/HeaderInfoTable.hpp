@@ -33,8 +33,6 @@ namespace System::Net {
   // [DefaultMemberAttribute] Offset: E69BC8
   class HeaderInfoTable : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HeaderInfoTable
-    HeaderInfoTable() noexcept {}
     // Get static field: static private System.Collections.Hashtable HeaderHashTable
     static System::Collections::Hashtable* _get_HeaderHashTable();
     // Set static field: static private System.Collections.Hashtable HeaderHashTable

@@ -19,8 +19,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BFD8
   class EventArgs : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EventArgs
-    EventArgs() noexcept {}
     // Get static field: static public readonly System.EventArgs Empty
     static System::EventArgs* _get_Empty();
     // Set static field: static public readonly System.EventArgs Empty

@@ -33,8 +33,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainImpl : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: X509ChainImpl
-    X509ChainImpl() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

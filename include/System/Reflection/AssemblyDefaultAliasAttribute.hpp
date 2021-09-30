@@ -28,8 +28,6 @@ namespace System::Reflection {
     ::Il2CppString* m_defaultAlias;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssemblyDefaultAliasAttribute
-    AssemblyDefaultAliasAttribute(::Il2CppString* m_defaultAlias_ = {}) noexcept : m_defaultAlias{m_defaultAlias_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_defaultAlias;

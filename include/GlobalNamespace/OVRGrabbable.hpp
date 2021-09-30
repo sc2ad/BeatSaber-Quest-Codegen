@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRGrabber* m_grabbedBy;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRGrabber*) == 0x8);
-    // Creating value type constructor for type: OVRGrabbable
-    OVRGrabbable(bool m_allowOffhandGrab_ = {}, bool m_snapPosition_ = {}, bool m_snapOrientation_ = {}, UnityEngine::Transform* m_snapOffset_ = {}, ::ArrayWrapper<UnityEngine::Collider*> m_grabPoints_ = {}, bool m_grabbedKinematic_ = {}, UnityEngine::Collider* m_grabbedCollider_ = {}, GlobalNamespace::OVRGrabber* m_grabbedBy_ = {}) noexcept : m_allowOffhandGrab{m_allowOffhandGrab_}, m_snapPosition{m_snapPosition_}, m_snapOrientation{m_snapOrientation_}, m_snapOffset{m_snapOffset_}, m_grabPoints{m_grabPoints_}, m_grabbedKinematic{m_grabbedKinematic_}, m_grabbedCollider{m_grabbedCollider_}, m_grabbedBy{m_grabbedBy_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected System.Boolean m_allowOffhandGrab

@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // Creating value type constructor for type: OffsetByBeatmapObjectSpawnCenter
-    OffsetByBeatmapObjectSpawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter_ = {}) noexcept : spawnCenter{spawnCenter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _spawnCenter

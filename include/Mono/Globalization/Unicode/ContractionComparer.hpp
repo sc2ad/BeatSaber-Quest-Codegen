@@ -27,8 +27,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContractionComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<Mono::Globalization::Unicode::Contraction*>*/ {
     public:
-    // Creating value type constructor for type: ContractionComparer
-    ContractionComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<Mono::Globalization::Unicode::Contraction*>
     operator System::Collections::Generic::IComparer_1<Mono::Globalization::Unicode::Contraction*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<Mono::Globalization::Unicode::Contraction*>*>(this);

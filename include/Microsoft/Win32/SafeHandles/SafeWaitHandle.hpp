@@ -20,8 +20,6 @@ namespace Microsoft::Win32::SafeHandles {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeWaitHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
-    // Creating value type constructor for type: SafeWaitHandle
-    SafeWaitHandle() noexcept {}
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     // Offset: 0x1C30160
     // Implemented from: System.Runtime.InteropServices.SafeHandle

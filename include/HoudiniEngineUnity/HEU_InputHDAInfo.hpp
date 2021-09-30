@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
     int connectedInputNodeID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_InputHDAInfo
-    HEU_InputHDAInfo(UnityEngine::GameObject* pendingGO_ = {}, UnityEngine::GameObject* connectedGO_ = {}, int connectedInputNodeID_ = {}) noexcept : pendingGO{pendingGO_}, connectedGO{connectedGO_}, connectedInputNodeID{connectedInputNodeID_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>*>(this);

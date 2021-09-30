@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialSceneSetupData*) == 0x8);
-    // Creating value type constructor for type: TutorialInstaller
-    TutorialInstaller(UnityEngine::AudioClip* audioClip_ = {}, float songBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::TutorialSceneSetupData* sceneSetupData_ = {}) noexcept : audioClip{audioClip_}, songBPM{songBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private UnityEngine.AudioClip _audioClip
     UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private System.Single _songBPM

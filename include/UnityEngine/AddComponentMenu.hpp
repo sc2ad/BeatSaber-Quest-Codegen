@@ -32,8 +32,6 @@ namespace UnityEngine {
     int m_Ordering;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AddComponentMenu
-    AddComponentMenu(::Il2CppString* m_AddComponentMenu_ = {}, int m_Ordering_ = {}) noexcept : m_AddComponentMenu{m_AddComponentMenu_}, m_Ordering{m_Ordering_} {}
     // Get instance field reference: private System.String m_AddComponentMenu
     ::Il2CppString*& dyn_m_AddComponentMenu();
     // Get instance field reference: private System.Int32 m_Ordering

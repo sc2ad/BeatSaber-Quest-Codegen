@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<float> smoothnesses;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
-    // Creating value type constructor for type: SmoothCameraSmoothnessSettingsController
-    SmoothCameraSmoothnessSettingsController(GlobalNamespace::FloatSO* smoothCameraPositionSmooth_ = {}, GlobalNamespace::FloatSO* smoothCameraRotationSmooth_ = {}, ::ArrayWrapper<float> smoothnesses_ = {}) noexcept : smoothCameraPositionSmooth{smoothCameraPositionSmooth_}, smoothCameraRotationSmooth{smoothCameraRotationSmooth_}, smoothnesses{smoothnesses_} {}
     // Get instance field reference: private FloatSO _smoothCameraPositionSmooth
     GlobalNamespace::FloatSO*& dyn__smoothCameraPositionSmooth();
     // Get instance field reference: private FloatSO _smoothCameraRotationSmooth

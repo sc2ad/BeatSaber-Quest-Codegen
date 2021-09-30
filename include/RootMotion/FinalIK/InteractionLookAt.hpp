@@ -83,8 +83,6 @@ namespace RootMotion::FinalIK {
     bool firstFBBIKSolve;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InteractionLookAt
-    InteractionLookAt(RootMotion::FinalIK::LookAtIK* ik_ = {}, float lerpSpeed_ = {}, float weightSpeed_ = {}, bool isPaused_ = {}, UnityEngine::Transform* lookAtTarget_ = {}, float stopLookTime_ = {}, float weight_ = {}, bool firstFBBIKSolve_ = {}) noexcept : ik{ik_}, lerpSpeed{lerpSpeed_}, weightSpeed{weightSpeed_}, isPaused{isPaused_}, lookAtTarget{lookAtTarget_}, stopLookTime{stopLookTime_}, weight{weight_}, firstFBBIKSolve{firstFBBIKSolve_} {}
     // Get instance field reference: public RootMotion.FinalIK.LookAtIK ik
     RootMotion::FinalIK::LookAtIK*& dyn_ik();
     // Get instance field reference: public System.Single lerpSpeed

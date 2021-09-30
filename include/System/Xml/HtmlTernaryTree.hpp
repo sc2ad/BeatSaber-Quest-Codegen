@@ -14,8 +14,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class HtmlTernaryTree : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HtmlTernaryTree
-    HtmlTernaryTree() noexcept {}
     // Get static field: static System.Byte[] htmlElements
     static ::ArrayWrapper<uint8_t> _get_htmlElements();
     // Set static field: static System.Byte[] htmlElements

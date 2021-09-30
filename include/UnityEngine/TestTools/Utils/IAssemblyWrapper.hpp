@@ -20,8 +20,6 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAssemblyWrapper {
     public:
-    // Creating value type constructor for type: IAssemblyWrapper
-    IAssemblyWrapper() noexcept {}
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0xFFFFFFFF
     System::Reflection::Assembly* get_Assembly();

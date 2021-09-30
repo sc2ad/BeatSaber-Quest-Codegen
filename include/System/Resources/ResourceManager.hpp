@@ -142,8 +142,6 @@ namespace System::Resources {
     System::Resources::IResourceGroveler* resourceGroveler;
     // Field size check
     static_assert(sizeof(System::Resources::IResourceGroveler*) == 0x8);
-    // Creating value type constructor for type: ResourceManager
-    ResourceManager(System::Collections::Hashtable* ResourceSets_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* resourceSets_ = {}, System::Reflection::Assembly* MainAssembly_ = {}, System::Globalization::CultureInfo* neutralResourcesCulture_ = {}, System::Resources::ResourceManager::CultureNameResourceSetPair* lastUsedResourceCache_ = {}, bool UseManifest_ = {}, bool UseSatelliteAssem_ = {}, System::Resources::UltimateResourceFallbackLocation fallbackLoc_ = {}, System::Reflection::Assembly* callingAssembly_ = {}, System::Reflection::RuntimeAssembly* m_callingAssembly_ = {}, System::Resources::IResourceGroveler* resourceGroveler_ = {}) noexcept : ResourceSets{ResourceSets_}, resourceSets{resourceSets_}, MainAssembly{MainAssembly_}, neutralResourcesCulture{neutralResourcesCulture_}, lastUsedResourceCache{lastUsedResourceCache_}, UseManifest{UseManifest_}, UseSatelliteAssem{UseSatelliteAssem_}, fallbackLoc{fallbackLoc_}, callingAssembly{callingAssembly_}, m_callingAssembly{m_callingAssembly_}, resourceGroveler{resourceGroveler_} {}
     // Get static field: static public readonly System.Int32 MagicNumber
     static int _get_MagicNumber();
     // Set static field: static public readonly System.Int32 MagicNumber

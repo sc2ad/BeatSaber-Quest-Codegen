@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     ::Il2CppString* packName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LocalizedCustomPackName
-    LocalizedCustomPackName(::Il2CppString* language_ = {}, ::Il2CppString* packName_ = {}) noexcept : language{language_}, packName{packName_} {}
     // Get instance field reference: public System.String language
     ::Il2CppString*& dyn_language();
     // Get instance field reference: public System.String packName

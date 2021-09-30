@@ -30,8 +30,6 @@ namespace System {
   template<typename TResult>
   class Func_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Func_1
-    Func_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

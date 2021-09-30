@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E858F8
   class PhysicMaterial : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: PhysicMaterial
-    PhysicMaterial() noexcept {}
   }; // UnityEngine.PhysicMaterial
   #pragma pack(pop)
 }

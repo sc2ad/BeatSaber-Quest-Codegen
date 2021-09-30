@@ -18,8 +18,6 @@ namespace Unity::Collections {
   // [RequiredByNativeCodeAttribute] Offset: E6FAE4
   class NativeFixedLengthAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeFixedLengthAttribute
-    NativeFixedLengthAttribute() noexcept {}
   }; // Unity.Collections.NativeFixedLengthAttribute
   #pragma pack(pop)
 }

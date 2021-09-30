@@ -173,8 +173,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionLevelGameplayManager::GameState gameState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState) == 0x4);
-    // Creating value type constructor for type: MissionLevelGameplayManager
-    MissionLevelGameplayManager(GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, GlobalNamespace::PauseController* pauseController_ = {}, GlobalNamespace::MissionLevelGameplayManager::InitData* initData_ = {}, System::Action* levelFailedEvent_ = {}, System::Action* levelFinishedEvent_ = {}, GlobalNamespace::MissionLevelGameplayManager::GameState gameState_ = {}) noexcept : missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, gameScenesManager{gameScenesManager_}, gameSongController{gameSongController_}, gameEnergyCounter{gameEnergyCounter_}, pauseController{pauseController_}, initData{initData_}, levelFailedEvent{levelFailedEvent_}, levelFinishedEvent{levelFinishedEvent_}, gameState{gameState_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelEndActions
     operator GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);

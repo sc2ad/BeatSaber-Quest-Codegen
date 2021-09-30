@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAudioTimeSource {
     public:
-    // Creating value type constructor for type: IAudioTimeSource
-    IAudioTimeSource() noexcept {}
     // public System.Single get_songTime()
     // Offset: 0xFFFFFFFF
     float get_songTime();

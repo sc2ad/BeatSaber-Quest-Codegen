@@ -36,8 +36,6 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_SpriteAsset::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly TMPro.TMP_SpriteAsset/TMPro.<>c <>9
     static TMPro::TMP_SpriteAsset::$$c* _get_$$9();
     // Set static field: static public readonly TMPro.TMP_SpriteAsset/TMPro.<>c <>9

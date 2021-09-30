@@ -43,8 +43,6 @@ namespace System::Security::Cryptography::X509Certificates {
     public:
     // Nested type: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper
     class MyNativeHelper;
-    // Creating value type constructor for type: X509Helper2
-    X509Helper2() noexcept {}
     // static System.Void Initialize()
     // Offset: 0x19DF678
     static void Initialize();

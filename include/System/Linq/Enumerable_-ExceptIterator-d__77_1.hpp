@@ -107,8 +107,6 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<TSource>*) == 0x8);
-    // Creating value type constructor for type: $ExceptIterator$d__77_1
-    $ExceptIterator$d__77_1(int $$1__state_ = {}, TSource $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEqualityComparer_1<TSource>* comparer_ = {}, System::Collections::Generic::IEqualityComparer_1<TSource>* $$3__comparer_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* second_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__second_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* first_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__first_ = {}, System::Linq::Set_1<TSource>* $set$5__1_ = {}, System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, comparer{comparer_}, $$3__comparer{$$3__comparer_}, second{second_}, $$3__second{$$3__second_}, first{first_}, $$3__first{$$3__first_}, $set$5__1{$set$5__1_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

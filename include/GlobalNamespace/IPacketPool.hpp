@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPacketPool {
     public:
-    // Creating value type constructor for type: IPacketPool
-    IPacketPool() noexcept {}
     // public System.Void Release(System.Object t)
     // Offset: 0xFFFFFFFF
     void Release(::Il2CppObject* t);

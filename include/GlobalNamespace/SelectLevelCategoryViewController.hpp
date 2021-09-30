@@ -146,8 +146,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*> levelCategoryInfos;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>) == 0x8);
-    // Creating value type constructor for type: SelectLevelCategoryViewController
-    SelectLevelCategoryViewController(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*> allLevelCategoryInfos_ = {}, HMUI::IconSegmentedControl* levelFilterCategoryIconSegmentedControl_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* didSelectLevelCategoryEvent_ = {}, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory prevSelectedLevelCategory_ = {}, ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*> levelCategoryInfos_ = {}) noexcept : allLevelCategoryInfos{allLevelCategoryInfos_}, levelFilterCategoryIconSegmentedControl{levelFilterCategoryIconSegmentedControl_}, analyticsModel{analyticsModel_}, didSelectLevelCategoryEvent{didSelectLevelCategoryEvent_}, prevSelectedLevelCategory{prevSelectedLevelCategory_}, levelCategoryInfos{levelCategoryInfos_} {}
     // Get instance field reference: private SelectLevelCategoryViewController/LevelCategoryInfo[] _allLevelCategoryInfos
     ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>& dyn__allLevelCategoryInfos();
     // Get instance field reference: private HMUI.IconSegmentedControl _levelFilterCategoryIconSegmentedControl

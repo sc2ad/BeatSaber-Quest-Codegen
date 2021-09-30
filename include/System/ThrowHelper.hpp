@@ -31,8 +31,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThrowHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ThrowHelper
-    ThrowHelper() noexcept {}
     // static System.Void ThrowArgumentNullException(System.ExceptionArgument argument)
     // Offset: 0x19C4370
     static void ThrowArgumentNullException(System::ExceptionArgument argument);

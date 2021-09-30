@@ -116,8 +116,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: BeatEffect
-    BeatEffect(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::Transform* spriteTransform_ = {}, GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* lightIntensityCurve_ = {}, UnityEngine::AnimationCurve* spriteXScaleCurve_ = {}, UnityEngine::AnimationCurve* spriteYScaleCurve_ = {}, UnityEngine::AnimationCurve* transparencyCurve_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent_ = {}, float animationDuration_ = {}, float elapsedTime_ = {}, UnityEngine::Color color_ = {}) noexcept : spriteRenderer{spriteRenderer_}, spriteTransform{spriteTransform_}, tubeBloomPrePassLight{tubeBloomPrePassLight_}, lightIntensityCurve{lightIntensityCurve_}, spriteXScaleCurve{spriteXScaleCurve_}, spriteYScaleCurve{spriteYScaleCurve_}, transparencyCurve{transparencyCurve_}, didFinishEvent{didFinishEvent_}, animationDuration{animationDuration_}, elapsedTime{elapsedTime_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer

@@ -32,8 +32,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F158
   class CryptographicException : public System::SystemException {
     public:
-    // Creating value type constructor for type: CryptographicException
-    CryptographicException() noexcept {}
     // public System.Void .ctor(System.String format, System.String insert)
     // Offset: 0x1A726BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,8 +65,6 @@ namespace UnityEngine::UI {
     int m_CachedHashFromTransform;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LayoutRebuilder
-    LayoutRebuilder(UnityEngine::RectTransform* m_ToRebuild_ = {}, int m_CachedHashFromTransform_ = {}) noexcept : m_ToRebuild{m_ToRebuild_}, m_CachedHashFromTransform{m_CachedHashFromTransform_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ICanvasElement
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);

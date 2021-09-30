@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // Creating value type constructor for type: ClickButtonWithCommandArgument
-    ClickButtonWithCommandArgument(::Il2CppString* argument_ = {}, UnityEngine::UI::Button* button_ = {}) noexcept : argument{argument_}, button{button_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _argument

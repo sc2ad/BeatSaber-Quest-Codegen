@@ -105,7 +105,6 @@ namespace GlobalNamespace {
       bool& dyn_stereoEnabled();
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
       // Offset: 0x2588F4C
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CameraTransformData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float fov, bool stereoEnabled)
       // public override System.Boolean Equals(System.Object obj)
       // Offset: 0x2589C08
@@ -234,8 +233,6 @@ namespace GlobalNamespace {
     UnityEngine::Rect kFullRect;
     // Field size check
     static_assert(sizeof(UnityEngine::Rect) == 0x10);
-    // Creating value type constructor for type: MirrorRendererSO
-    MirrorRendererSO(UnityEngine::LayerMask reflectLayers_ = {}, int stereoTextureWidth_ = {}, int stereoTextureHeight_ = {}, int monoTextureWidth_ = {}, int monoTextureHeight_ = {}, int maxAntiAliasing_ = {}, bool disableDepthTexture_ = {}, bool enableBloomPrePass_ = {}, GlobalNamespace::BloomPrePassRendererSO* bloomPrePassRenderer_ = {}, GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect_ = {}, UnityEngine::Shader* clearDepthShader_ = {}, UnityEngine::RenderTexture* bloomPrePassRenderTexture_ = {}, UnityEngine::Camera* mirrorCamera_ = {}, int antialiasing_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::MirrorRendererSO::CameraTransformData, UnityEngine::RenderTexture*>* renderTextures_ = {}, UnityEngine::Rect kLeftRect_ = {}, UnityEngine::Rect kRightRect_ = {}, UnityEngine::Rect kFullRect_ = {}) noexcept : reflectLayers{reflectLayers_}, stereoTextureWidth{stereoTextureWidth_}, stereoTextureHeight{stereoTextureHeight_}, monoTextureWidth{monoTextureWidth_}, monoTextureHeight{monoTextureHeight_}, maxAntiAliasing{maxAntiAliasing_}, disableDepthTexture{disableDepthTexture_}, enableBloomPrePass{enableBloomPrePass_}, bloomPrePassRenderer{bloomPrePassRenderer_}, bloomPrePassEffect{bloomPrePassEffect_}, clearDepthShader{clearDepthShader_}, bloomPrePassRenderTexture{bloomPrePassRenderTexture_}, mirrorCamera{mirrorCamera_}, antialiasing{antialiasing_}, renderTextures{renderTextures_}, kLeftRect{kLeftRect_}, kRightRect{kRightRect_}, kFullRect{kFullRect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kWaterLayer

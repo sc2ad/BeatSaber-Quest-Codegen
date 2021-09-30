@@ -60,7 +60,6 @@ namespace TMPro {
     int64_t& dyn_key();
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
     // Offset: 0x11EA890
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(firstGlyphIndex), ::il2cpp_utils::ExtractType(secondGlyphIndex)})));
@@ -68,7 +67,6 @@ namespace TMPro {
     }
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
     // Offset: 0x11EA8A4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(record)})));

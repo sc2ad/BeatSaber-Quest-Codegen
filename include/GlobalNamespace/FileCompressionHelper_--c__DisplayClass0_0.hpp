@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     System::Action_1<bool>* finishCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(bool success_ = {}, ::Il2CppString* sourceDirectoryName_ = {}, ::Il2CppString* destinationArchiveFileName_ = {}, System::Action_1<bool>* finishCallback_ = {}) noexcept : success{success_}, sourceDirectoryName{sourceDirectoryName_}, destinationArchiveFileName{destinationArchiveFileName_}, finishCallback{finishCallback_} {}
     // Get instance field reference: public System.Boolean success
     bool& dyn_success();
     // Get instance field reference: public System.String sourceDirectoryName

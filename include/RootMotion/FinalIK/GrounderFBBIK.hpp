@@ -85,8 +85,6 @@ namespace RootMotion::FinalIK {
     bool firstSolve;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GrounderFBBIK
-    GrounderFBBIK(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, float spineBend_ = {}, float spineSpeed_ = {}, ::ArrayWrapper<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*> spine_ = {}, ::ArrayWrapper<UnityEngine::Transform*> feet_ = {}, UnityEngine::Vector3 spineOffset_ = {}, bool firstSolve_ = {}) noexcept : ik{ik_}, spineBend{spineBend_}, spineSpeed{spineSpeed_}, spine{spine_}, feet{feet_}, spineOffset{spineOffset_}, firstSolve{firstSolve_} {}
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
     RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: public System.Single spineBend

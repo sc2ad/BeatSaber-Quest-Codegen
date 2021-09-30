@@ -40,8 +40,6 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* assemblies;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* assemblies_ = {}) noexcept : assemblies{assemblies_} {}
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*
     constexpr operator System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*() const noexcept {
       return assemblies;

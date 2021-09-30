@@ -32,8 +32,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C13C
   class FormatException : public System::SystemException {
     public:
-    // Creating value type constructor for type: FormatException
-    FormatException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19A795C
     // Implemented from: System.SystemException

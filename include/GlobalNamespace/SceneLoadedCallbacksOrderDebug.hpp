@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneLoadedCallbacksOrderDebug : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: SceneLoadedCallbacksOrderDebug
-    SceneLoadedCallbacksOrderDebug() noexcept {}
     // protected System.Void Awake()
     // Offset: 0x25989DC
     void Awake();

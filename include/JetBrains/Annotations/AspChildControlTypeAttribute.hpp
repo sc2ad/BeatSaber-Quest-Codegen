@@ -40,8 +40,6 @@ namespace JetBrains::Annotations {
     System::Type* ControlType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: AspChildControlTypeAttribute
-    AspChildControlTypeAttribute(::Il2CppString* TagName_ = {}, System::Type* ControlType_ = {}) noexcept : TagName{TagName_}, ControlType{ControlType_} {}
     // Get instance field reference: private System.String <TagName>k__BackingField
     ::Il2CppString*& dyn_$TagName$k__BackingField();
     // Get instance field reference: private System.Type <ControlType>k__BackingField

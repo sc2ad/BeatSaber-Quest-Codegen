@@ -35,8 +35,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E60090
   class HeaderHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: HeaderHandler
-    HeaderHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1C17F4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -79,7 +79,6 @@ namespace System {
     }
     // System.Void .ctor(System.Array array)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     InternalEnumerator_1(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));

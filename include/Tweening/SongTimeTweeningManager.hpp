@@ -34,8 +34,6 @@ namespace Tweening {
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // Creating value type constructor for type: SongTimeTweeningManager
-    SongTimeTweeningManager(GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}) noexcept : audioTimeSource{audioTimeSource_} {}
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // public System.Void .ctor()

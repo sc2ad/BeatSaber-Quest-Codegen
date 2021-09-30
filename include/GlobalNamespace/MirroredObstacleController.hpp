@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* followedTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: MirroredObstacleController
-    MirroredObstacleController(GlobalNamespace::StretchableObstacle* stretchableObstacle_ = {}, GlobalNamespace::ObstacleController* followedObstacle_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* followedTransform_ = {}) noexcept : stretchableObstacle{stretchableObstacle_}, followedObstacle{followedObstacle_}, transform{transform_}, followedTransform{followedTransform_} {}
     // Get instance field reference: private StretchableObstacle _stretchableObstacle
     GlobalNamespace::StretchableObstacle*& dyn__stretchableObstacle();
     // Get instance field reference: private ObstacleController _followedObstacle

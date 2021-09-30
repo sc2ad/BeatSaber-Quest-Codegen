@@ -83,8 +83,6 @@ namespace System::Text::RegularExpressions {
     bool balancing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Match
-    Match(System::Text::RegularExpressions::GroupCollection* groupcoll_ = {}, System::Text::RegularExpressions::Regex* regex_ = {}, int textbeg_ = {}, int textpos_ = {}, int textend_ = {}, int textstart_ = {}, ::ArrayWrapper<::ArrayWrapper<int>> matches_ = {}, ::ArrayWrapper<int> matchcount_ = {}, bool balancing_ = {}) noexcept : groupcoll{groupcoll_}, regex{regex_}, textbeg{textbeg_}, textpos{textpos_}, textend{textend_}, textstart{textstart_}, matches{matches_}, matchcount{matchcount_}, balancing{balancing_} {}
     // Get static field: static System.Text.RegularExpressions.Match _empty
     static System::Text::RegularExpressions::Match* _get__empty();
     // Set static field: static System.Text.RegularExpressions.Match _empty

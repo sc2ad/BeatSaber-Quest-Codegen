@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* keywords;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*) == 0x8);
-    // Creating value type constructor for type: SpecialEventKeywordFiltersData
-    SpecialEventKeywordFiltersData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* keywords_ = {}) noexcept : keywords{keywords_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*() const noexcept {
       return keywords;

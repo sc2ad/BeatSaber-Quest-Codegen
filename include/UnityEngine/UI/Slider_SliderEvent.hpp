@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Slider::SliderEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
-    // Creating value type constructor for type: SliderEvent
-    SliderEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25D4960
     // Implemented from: UnityEngine.Events.UnityEvent`1

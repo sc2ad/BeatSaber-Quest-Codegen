@@ -74,8 +74,6 @@ namespace System::Text::RegularExpressions {
     int captop;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RegexTree
-    RegexTree(System::Text::RegularExpressions::RegexNode* root_ = {}, System::Collections::Hashtable* caps_ = {}, ::ArrayWrapper<int> capnumlist_ = {}, System::Collections::Hashtable* capnames_ = {}, ::ArrayWrapper<::Il2CppString*> capslist_ = {}, System::Text::RegularExpressions::RegexOptions options_ = {}, int captop_ = {}) noexcept : root{root_}, caps{caps_}, capnumlist{capnumlist_}, capnames{capnames_}, capslist{capslist_}, options{options_}, captop{captop_} {}
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _root
     System::Text::RegularExpressions::RegexNode*& dyn__root();
     // Get instance field reference: System.Collections.Hashtable _caps

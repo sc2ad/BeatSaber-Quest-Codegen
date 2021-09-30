@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackCollectionSO*) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelPackCollectionContainerSO
-    BeatmapLevelPackCollectionContainerSO(GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection_ = {}) noexcept : beatmapLevelPackCollection{beatmapLevelPackCollection_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackCollectionSO _beatmapLevelPackCollection

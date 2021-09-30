@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     System::Action* didPressContinueButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: SelectLanguageViewController
-    SelectLanguageViewController(UnityEngine::UI::Button* continueButton_ = {}, GlobalNamespace::LanguageSettingsController* languageSettingsController_ = {}, System::Action* didChangeLanguageEvent_ = {}, System::Action* didPressContinueButtonEvent_ = {}) noexcept : continueButton{continueButton_}, languageSettingsController{languageSettingsController_}, didChangeLanguageEvent{didChangeLanguageEvent_}, didPressContinueButtonEvent{didPressContinueButtonEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
     UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private LanguageSettingsController _languageSettingsController

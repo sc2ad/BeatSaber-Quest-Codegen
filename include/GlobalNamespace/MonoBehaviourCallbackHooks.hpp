@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     System::Action_1<float>* m_OnUpdateDelegate;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // Creating value type constructor for type: MonoBehaviourCallbackHooks
-    MonoBehaviourCallbackHooks(System::Action_1<float>* m_OnUpdateDelegate_ = {}) noexcept : m_OnUpdateDelegate{m_OnUpdateDelegate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: System.Action`1<System.Single> m_OnUpdateDelegate

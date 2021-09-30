@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LightWithIdManager* lightWithIdManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LightWithIdManager*) == 0x8);
-    // Creating value type constructor for type: OneTimeLightColorEffect
-    OneTimeLightColorEffect(GlobalNamespace::ColorSO* color_ = {}, float alpha_ = {}, int lightsId_ = {}, GlobalNamespace::LightWithIdManager* lightWithIdManager_ = {}) noexcept : color{color_}, alpha{alpha_}, lightsId{lightsId_}, lightWithIdManager{lightWithIdManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _color

@@ -38,8 +38,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TerrainCallbacks::HeightmapChangedCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: HeightmapChangedCallback
-    HeightmapChangedCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25E80D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

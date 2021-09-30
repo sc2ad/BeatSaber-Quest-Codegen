@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
     // Field size check
     static_assert(sizeof(UnityEngine::MaterialPropertyBlock*) == 0x8);
-    // Creating value type constructor for type: MaterialPropertyBlockController
-    MaterialPropertyBlockController(::ArrayWrapper<UnityEngine::Renderer*> renderers_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}) noexcept : renderers{renderers_}, materialPropertyBlock{materialPropertyBlock_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Renderer[] _renderers

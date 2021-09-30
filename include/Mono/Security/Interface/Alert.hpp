@@ -34,8 +34,6 @@ namespace Mono::Security::Interface {
     Mono::Security::Interface::AlertDescription description;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::AlertDescription) == 0x1);
-    // Creating value type constructor for type: Alert
-    Alert(Mono::Security::Interface::AlertLevel level_ = {}, Mono::Security::Interface::AlertDescription description_ = {}) noexcept : level{level_}, description{description_} {}
     // Get instance field reference: private Mono.Security.Interface.AlertLevel level
     Mono::Security::Interface::AlertLevel& dyn_level();
     // Get instance field reference: private Mono.Security.Interface.AlertDescription description

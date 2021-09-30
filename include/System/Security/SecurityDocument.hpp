@@ -31,8 +31,6 @@ namespace System::Security {
     ::ArrayWrapper<uint8_t> m_data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: SecurityDocument
-    SecurityDocument(::ArrayWrapper<uint8_t> m_data_ = {}) noexcept : m_data{m_data_} {}
     // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return m_data;

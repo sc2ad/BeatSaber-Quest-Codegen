@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SimpleFileLogger::MonoLogger
     class MonoLogger;
-    // Creating value type constructor for type: SimpleFileLogger
-    SimpleFileLogger() noexcept {}
     // static field const value: static private System.String kFilename
     static constexpr const char* kFilename = "SimpleLog.txt";
     // Get static field: static private System.String kFilename

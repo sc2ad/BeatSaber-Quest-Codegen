@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3411_2012_512Digest : public Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
     public:
-    // Creating value type constructor for type: Gost3411_2012_512Digest
-    Gost3411_2012_512Digest() noexcept {}
     // Get static field: static private readonly System.Byte[] IV
     static ::ArrayWrapper<uint8_t> _get_IV();
     // Set static field: static private readonly System.Byte[] IV

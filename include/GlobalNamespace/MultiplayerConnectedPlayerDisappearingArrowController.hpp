@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* gameNoteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerDisappearingArrowController
-    MultiplayerConnectedPlayerDisappearingArrowController(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* gameNoteController_ = {}) noexcept : gameNoteController{gameNoteController_} {}
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _gameNoteController
     GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__gameNoteController();
     // protected MultiplayerConnectedPlayerGameNoteController get_gameNoteController()

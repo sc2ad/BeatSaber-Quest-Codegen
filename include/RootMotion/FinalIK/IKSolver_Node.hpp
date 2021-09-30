@@ -53,8 +53,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Node
-    Node(float length_ = {}, float effectorPositionWeight_ = {}, float effectorRotationWeight_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : length{length_}, effectorPositionWeight{effectorPositionWeight_}, effectorRotationWeight{effectorRotationWeight_}, offset{offset_} {}
     // Get instance field reference: public System.Single length
     float& dyn_length();
     // Get instance field reference: public System.Single effectorPositionWeight

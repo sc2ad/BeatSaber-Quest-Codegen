@@ -22,8 +22,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComparisonAdapter::DefaultComparisonAdapter : public NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter {
     public:
-    // Creating value type constructor for type: DefaultComparisonAdapter
-    DefaultComparisonAdapter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x192A7C4
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter

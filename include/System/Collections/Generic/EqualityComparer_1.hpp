@@ -23,8 +23,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class EqualityComparer_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEqualityComparer_1<T>, public System::Collections::IEqualityComparer*/ {
     public:
-    // Creating value type constructor for type: EqualityComparer_1
-    EqualityComparer_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEqualityComparer_1<T>
     operator System::Collections::Generic::IEqualityComparer_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<T>*>(this);

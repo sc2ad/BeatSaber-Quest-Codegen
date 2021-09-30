@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     ::ArrayWrapper<Org::BouncyCastle::Math::EC::AbstractF2mPoint*> m_preComp;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>) == 0x8);
-    // Creating value type constructor for type: WTauNafPreCompInfo
-    WTauNafPreCompInfo(::ArrayWrapper<Org::BouncyCastle::Math::EC::AbstractF2mPoint*> m_preComp_ = {}) noexcept : m_preComp{m_preComp_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

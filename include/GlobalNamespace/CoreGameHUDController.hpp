@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CoreGameHUDController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CoreGameHUDController::InitData*) == 0x8);
-    // Creating value type constructor for type: CoreGameHUDController
-    CoreGameHUDController(UnityEngine::GameObject* songProgressPanelGO_ = {}, UnityEngine::GameObject* relativeScoreGO_ = {}, UnityEngine::GameObject* immediateRankGO_ = {}, UnityEngine::GameObject* energyPanelGO_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}) noexcept : songProgressPanelGO{songProgressPanelGO_}, relativeScoreGO{relativeScoreGO_}, immediateRankGO{immediateRankGO_}, energyPanelGO{energyPanelGO_}, canvasGroup{canvasGroup_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _songProgressPanelGO

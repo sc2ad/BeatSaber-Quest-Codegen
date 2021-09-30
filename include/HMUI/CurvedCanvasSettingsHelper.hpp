@@ -62,8 +62,6 @@ namespace HMUI {
     bool hasCachedData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CurvedCanvasSettingsHelper
-    CurvedCanvasSettingsHelper(UnityEngine::Canvas* cachedCanvas_ = {}, bool cachedCanvasIsRootCanvas_ = {}, HMUI::CurvedCanvasSettings* curvedCanvasSettings_ = {}, bool hasCachedData_ = {}) noexcept : cachedCanvas{cachedCanvas_}, cachedCanvasIsRootCanvas{cachedCanvasIsRootCanvas_}, curvedCanvasSettings{curvedCanvasSettings_}, hasCachedData{hasCachedData_} {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
     static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* _get__curvedCanvasCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache

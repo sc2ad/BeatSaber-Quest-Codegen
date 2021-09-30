@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyEnumerable : public ::Il2CppObject/*, public System::Collections::IEnumerable*/ {
     public:
-    // Creating value type constructor for type: EmptyEnumerable
-    EmptyEnumerable() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

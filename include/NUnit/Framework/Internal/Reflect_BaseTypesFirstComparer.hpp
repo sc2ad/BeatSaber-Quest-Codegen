@@ -29,8 +29,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class Reflect::BaseTypesFirstComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*>*/ {
     public:
-    // Creating value type constructor for type: BaseTypesFirstComparer
-    BaseTypesFirstComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*>
     operator System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*>*>(this);

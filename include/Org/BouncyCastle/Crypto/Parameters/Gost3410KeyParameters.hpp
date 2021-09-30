@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: Gost3410KeyParameters
-    Gost3410KeyParameters(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}) noexcept : parameters{parameters_}, publicKeyParamSet{publicKeyParamSet_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters parameters

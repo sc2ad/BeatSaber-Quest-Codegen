@@ -24,8 +24,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_HAPI_TransformEuler_Extensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Test_HAPI_TransformEuler_Extensions
-    Test_HAPI_TransformEuler_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_HAPI_TransformEuler ToTestObject(HoudiniEngineUnity.HAPI_TransformEuler self)
     // Offset: 0x25D0080
     static HoudiniEngineUnity::Test_HAPI_TransformEuler* ToTestObject(HoudiniEngineUnity::HAPI_TransformEuler self);

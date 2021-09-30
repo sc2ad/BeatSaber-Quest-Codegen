@@ -40,8 +40,6 @@ namespace System {
     ::Il2CppObject* identity;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: MarshalByRefObject
-    MarshalByRefObject(::Il2CppObject* identity_ = {}) noexcept : identity{identity_} {}
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return identity;

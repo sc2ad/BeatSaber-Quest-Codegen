@@ -38,8 +38,6 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   class IResourceLocator {
     public:
-    // Creating value type constructor for type: IResourceLocator
-    IResourceLocator() noexcept {}
     // public System.String get_LocatorId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_LocatorId();

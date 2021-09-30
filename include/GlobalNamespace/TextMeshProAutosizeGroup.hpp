@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<TMPro::TMP_Text*> texts;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<TMPro::TMP_Text*>) == 0x8);
-    // Creating value type constructor for type: TextMeshProAutosizeGroup
-    TextMeshProAutosizeGroup(::ArrayWrapper<TMPro::TMP_Text*> texts_ = {}) noexcept : texts{texts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_Text[] _texts

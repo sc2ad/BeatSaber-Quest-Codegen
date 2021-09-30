@@ -34,8 +34,6 @@ namespace UnityEngine::UI {
     public:
     // Nested type: UnityEngine::UI::LayoutUtility::$$c
     class $$c;
-    // Creating value type constructor for type: LayoutUtility
-    LayoutUtility() noexcept {}
     // static public System.Single GetMinSize(UnityEngine.RectTransform rect, System.Int32 axis)
     // Offset: 0x1B4ACAC
     static float GetMinSize(UnityEngine::RectTransform* rect, int axis);

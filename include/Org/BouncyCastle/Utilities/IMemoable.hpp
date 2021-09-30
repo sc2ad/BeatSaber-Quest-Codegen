@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMemoable {
     public:
-    // Creating value type constructor for type: IMemoable
-    IMemoable() noexcept {}
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Utilities::IMemoable* Copy();

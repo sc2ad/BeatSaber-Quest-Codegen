@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
-    // Creating value type constructor for type: BTSResultCharacterPlaceWithAnimation
-    BTSResultCharacterPlaceWithAnimation(::Il2CppString* name_ = {}, UnityEngine::Transform* placeTransform_ = {}, GlobalNamespace::BTSCharacterResultAnimationController* animationController_ = {}, UnityEngine::AnimationClip* animationClip_ = {}, GlobalNamespace::BTSCharacter* btsCharacter_ = {}, UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference_ = {}) noexcept : name{name_}, placeTransform{placeTransform_}, animationController{animationController_}, animationClip{animationClip_}, btsCharacter{btsCharacter_}, btsCharacterAssetReference{btsCharacterAssetReference_} {}
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private UnityEngine.Transform _placeTransform

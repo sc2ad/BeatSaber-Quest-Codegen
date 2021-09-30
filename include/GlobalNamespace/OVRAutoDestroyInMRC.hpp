@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRAutoDestroyInMRC : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: OVRAutoDestroyInMRC
-    OVRAutoDestroyInMRC() noexcept {}
     // private System.Void Start()
     // Offset: 0x13B4EA4
     void Start();

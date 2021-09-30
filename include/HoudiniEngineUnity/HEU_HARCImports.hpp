@@ -18,8 +18,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HARCImports : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_HARCImports
-    HEU_HARCImports() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15DB01C
     // Implemented from: System.Object

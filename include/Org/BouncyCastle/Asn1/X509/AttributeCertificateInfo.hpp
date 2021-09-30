@@ -100,8 +100,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
-    // Creating value type constructor for type: AttributeCertificateInfo
-    AttributeCertificateInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::Holder* holder_ = {}, Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature_ = {}, Org::BouncyCastle::Asn1::DerInteger* serialNumber_ = {}, Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* attrCertValidityPeriod_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* attributes_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* extensions_ = {}) noexcept : version{version_}, holder{holder_}, issuer{issuer_}, signature{signature_}, serialNumber{serialNumber_}, attrCertValidityPeriod{attrCertValidityPeriod_}, attributes{attributes_}, issuerUniqueID{issuerUniqueID_}, extensions{extensions_} {}
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.Holder holder

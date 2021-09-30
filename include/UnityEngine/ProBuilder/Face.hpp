@@ -114,8 +114,6 @@ namespace UnityEngine::ProBuilder {
     ::ArrayWrapper<UnityEngine::ProBuilder::Edge> m_Edges;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Edge>) == 0x8);
-    // Creating value type constructor for type: Face
-    Face(::ArrayWrapper<int> m_Indexes_ = {}, int m_SmoothingGroup_ = {}, UnityEngine::ProBuilder::AutoUnwrapSettings m_Uv_ = {}, UnityEngine::Material* m_Material_ = {}, int m_SubmeshIndex_ = {}, bool m_ManualUV_ = {}, int elementGroup_ = {}, int m_TextureGroup_ = {}, ::ArrayWrapper<int> m_DistinctIndexes_ = {}, ::ArrayWrapper<UnityEngine::ProBuilder::Edge> m_Edges_ = {}) noexcept : m_Indexes{m_Indexes_}, m_SmoothingGroup{m_SmoothingGroup_}, m_Uv{m_Uv_}, m_Material{m_Material_}, m_SubmeshIndex{m_SubmeshIndex_}, m_ManualUV{m_ManualUV_}, elementGroup{elementGroup_}, m_TextureGroup{m_TextureGroup_}, m_DistinctIndexes{m_DistinctIndexes_}, m_Edges{m_Edges_} {}
     // Get instance field reference: private System.Int32[] m_Indexes
     ::ArrayWrapper<int>& dyn_m_Indexes();
     // Get instance field reference: private System.Int32 m_SmoothingGroup

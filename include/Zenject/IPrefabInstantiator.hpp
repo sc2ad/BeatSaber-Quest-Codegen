@@ -44,8 +44,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPrefabInstantiator {
     public:
-    // Creating value type constructor for type: IPrefabInstantiator
-    IPrefabInstantiator() noexcept {}
     // public System.Type get_ArgumentTarget()
     // Offset: 0xFFFFFFFF
     System::Type* get_ArgumentTarget();

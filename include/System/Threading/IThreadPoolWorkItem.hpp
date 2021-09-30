@@ -20,8 +20,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class IThreadPoolWorkItem {
     public:
-    // Creating value type constructor for type: IThreadPoolWorkItem
-    IThreadPoolWorkItem() noexcept {}
     // public System.Void ExecuteWorkItem()
     // Offset: 0xFFFFFFFF
     void ExecuteWorkItem();

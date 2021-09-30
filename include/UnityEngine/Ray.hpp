@@ -59,7 +59,6 @@ namespace UnityEngine {
     void set_direction(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
     // Offset: 0x1E00D24
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction)
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
     // Offset: 0x1E00DD0

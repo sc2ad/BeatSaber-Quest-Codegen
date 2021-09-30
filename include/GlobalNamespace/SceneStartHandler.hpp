@@ -106,8 +106,6 @@ namespace GlobalNamespace {
     System::Action_1<::Il2CppString*>* sceneSetupDidReceiveTooLateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: SceneStartHandler
-    SceneStartHandler(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* readyPlayers_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* playersSpecificSettings_ = {}, bool started_ = {}, ::Il2CppString* sessionGameId_ = {}, System::Action_1<::Il2CppString*>* sceneSetupDidFinishEvent_ = {}, System::Action_1<::Il2CppString*>* sceneSetupDidReceiveTooLateEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, playersAtGameStartModel{playersAtGameStartModel_}, readyPlayers{readyPlayers_}, playersSpecificSettings{playersSpecificSettings_}, started{started_}, sessionGameId{sessionGameId_}, sceneSetupDidFinishEvent{sceneSetupDidFinishEvent_}, sceneSetupDidReceiveTooLateEvent{sceneSetupDidReceiveTooLateEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

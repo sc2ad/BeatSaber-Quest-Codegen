@@ -15,8 +15,6 @@ namespace System::Configuration {
   // [DefaultMemberAttribute] Offset: E67DB8
   class ConfigurationPropertyCollection : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConfigurationPropertyCollection
-    ConfigurationPropertyCollection() noexcept {}
   }; // System.Configuration.ConfigurationPropertyCollection
   #pragma pack(pop)
 }

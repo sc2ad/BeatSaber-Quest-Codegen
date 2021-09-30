@@ -27,8 +27,6 @@ namespace RootMotion {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Comments
-    Comments(::Il2CppString* text_ = {}) noexcept : text{text_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String text

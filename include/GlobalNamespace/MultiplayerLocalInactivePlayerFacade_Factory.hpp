@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactivePlayerFacade::Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::MultiplayerPlayerStartState, GlobalNamespace::MultiplayerLocalInactivePlayerFacade*> {
     public:
-    // Creating value type constructor for type: Factory
-    Factory() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1176130
     // Implemented from: Zenject.PlaceholderFactory`2

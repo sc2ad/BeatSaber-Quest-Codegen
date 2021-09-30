@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TrackColorAttribute] Offset: EFCDBC
   class AvatarColorTrack : public UnityEngine::Timeline::TrackAsset {
     public:
-    // Creating value type constructor for type: AvatarColorTrack
-    AvatarColorTrack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1249D1C
     // Implemented from: UnityEngine.Timeline.TrackAsset

@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     System::Text::StringBuilder* stringBuilder;
     // Field size check
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
-    // Creating value type constructor for type: GameServersFilterText
-    GameServersFilterText(HMUI::CurvedTextMeshPro* text_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}, System::Text::StringBuilder* stringBuilder_ = {}) noexcept : text{text_}, songPackMasksModel{songPackMasksModel_}, stringBuilder{stringBuilder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.CurvedTextMeshPro _text

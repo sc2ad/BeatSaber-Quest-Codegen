@@ -34,8 +34,6 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* m_Options;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*) == 0x8);
-    // Creating value type constructor for type: OptionDataList
-    OptionDataList(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* m_Options_ = {}) noexcept : m_Options{m_Options_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*() const noexcept {
       return m_Options;

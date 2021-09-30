@@ -39,8 +39,6 @@ namespace Mono::Net::Security::Private {
     class $$c__DisplayClass5_0;
     // Nested type: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
-    // Creating value type constructor for type: CallbackHelpers
-    CallbackHelpers() noexcept {}
     // static Mono.Security.Interface.MonoRemoteCertificateValidationCallback PublicToMono(System.Net.Security.RemoteCertificateValidationCallback callback)
     // Offset: 0x17C1DD0
     static Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(System::Net::Security::RemoteCertificateValidationCallback* callback);

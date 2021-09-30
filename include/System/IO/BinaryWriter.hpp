@@ -80,8 +80,6 @@ namespace System::IO {
     int maxChars;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BinaryWriter
-    BinaryWriter(System::IO::Stream* OutStream_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Encoder* encoder_ = {}, bool leaveOpen_ = {}, ::ArrayWrapper<uint8_t> largeByteBuffer_ = {}, int maxChars_ = {}) noexcept : OutStream{OutStream_}, buffer{buffer_}, encoding{encoding_}, encoder{encoder_}, leaveOpen{leaveOpen_}, largeByteBuffer{largeByteBuffer_}, maxChars{maxChars_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteDebrisDidFinishEvent {
     public:
-    // Creating value type constructor for type: INoteDebrisDidFinishEvent
-    INoteDebrisDidFinishEvent() noexcept {}
     // public System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
     // Offset: 0xFFFFFFFF
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);

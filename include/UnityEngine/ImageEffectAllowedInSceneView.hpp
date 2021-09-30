@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ImageEffectAllowedInSceneView : public System::Attribute {
     public:
-    // Creating value type constructor for type: ImageEffectAllowedInSceneView
-    ImageEffectAllowedInSceneView() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1D9DC10
     // Implemented from: System.Attribute

@@ -66,8 +66,6 @@ namespace System::Runtime::Remoting::Metadata {
     bool isElement;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SoapTypeAttribute
-    SoapTypeAttribute(bool useAttribute_ = {}, ::Il2CppString* xmlElementName_ = {}, ::Il2CppString* xmlNamespace_ = {}, ::Il2CppString* xmlTypeName_ = {}, ::Il2CppString* xmlTypeNamespace_ = {}, bool isType_ = {}, bool isElement_ = {}) noexcept : useAttribute{useAttribute_}, xmlElementName{xmlElementName_}, xmlNamespace{xmlNamespace_}, xmlTypeName{xmlTypeName_}, xmlTypeNamespace{xmlTypeNamespace_}, isType{isType_}, isElement{isElement_} {}
     // Get instance field reference: private System.Boolean _useAttribute
     bool& dyn__useAttribute();
     // Get instance field reference: private System.String _xmlElementName

@@ -41,8 +41,6 @@ namespace Oculus::Platform {
     System::IntPtr packetHandle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: Packet
-    Packet(uint64_t size_ = {}, System::IntPtr packetHandle_ = {}) noexcept : size{size_}, packetHandle{packetHandle_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

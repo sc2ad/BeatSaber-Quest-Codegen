@@ -152,7 +152,6 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevelData*& dyn_beatmapLevelData();
       // public System.Void .ctor(BeatmapLevelSO/GetBeatmapLevelDataResult/Result result, IBeatmapLevelData beatmapLevelData)
       // Offset: 0x129B91C
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result, GlobalNamespace::IBeatmapLevelData* beatmapLevelData)
     }; // BeatmapLevelSO/GetBeatmapLevelDataResult
     #pragma pack(pop)
@@ -292,8 +291,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult getBeatmapLevelDataResult;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult) == 0x10);
-    // Creating value type constructor for type: BeatmapLevelSO
-    BeatmapLevelSO(::Il2CppString* levelID_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* songAuthorName_ = {}, ::Il2CppString* levelAuthorName_ = {}, UnityEngine::AudioClip* audioClip_ = {}, float beatsPerMinute_ = {}, float songTimeOffset_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, float previewStartTime_ = {}, float previewDuration_ = {}, UnityEngine::Sprite* coverImage_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets_ = {}, bool ignore360MovementBeatmaps_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets_ = {}, ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets_ = {}, ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> no360MovementPreviewDifficultyBeatmapSets_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}, GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult getBeatmapLevelDataResult_ = {}) noexcept : levelID{levelID_}, songName{songName_}, songSubName{songSubName_}, songAuthorName{songAuthorName_}, levelAuthorName{levelAuthorName_}, audioClip{audioClip_}, beatsPerMinute{beatsPerMinute_}, songTimeOffset{songTimeOffset_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, previewStartTime{previewStartTime_}, previewDuration{previewDuration_}, coverImage{coverImage_}, environmentInfo{environmentInfo_}, allDirectionsEnvironmentInfo{allDirectionsEnvironmentInfo_}, difficultyBeatmapSets{difficultyBeatmapSets_}, ignore360MovementBeatmaps{ignore360MovementBeatmaps_}, no360MovementDifficultyBeatmapSets{no360MovementDifficultyBeatmapSets_}, previewDifficultyBeatmapSets{previewDifficultyBeatmapSets_}, no360MovementPreviewDifficultyBeatmapSets{no360MovementPreviewDifficultyBeatmapSets_}, beatmapLevelData{beatmapLevelData_}, getBeatmapLevelDataResult{getBeatmapLevelDataResult_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevel
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);

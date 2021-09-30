@@ -34,8 +34,6 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     public:
     // Nested type: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c
     class $$c;
-    // Creating value type constructor for type: SynchronousFilter
-    SynchronousFilter() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestFilter
     operator NUnit::Framework::Interfaces::ITestFilter() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestFilter*>(this);

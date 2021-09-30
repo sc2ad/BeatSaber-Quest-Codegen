@@ -67,8 +67,6 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(SendMouseEvents::HitInfo), 8 + sizeof(UnityEngine::Camera*)> __UnityEngine_SendMouseEvents_HitInfoSizeCheck;
     static_assert(sizeof(SendMouseEvents::HitInfo) == 0x10);
-    // Creating value type constructor for type: SendMouseEvents
-    SendMouseEvents() noexcept {}
     // Get static field: static private System.Boolean s_MouseUsed
     static bool _get_s_MouseUsed();
     // Set static field: static private System.Boolean s_MouseUsed

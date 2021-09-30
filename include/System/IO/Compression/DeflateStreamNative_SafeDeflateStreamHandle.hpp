@@ -22,8 +22,6 @@ namespace System::IO::Compression {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeflateStreamNative::SafeDeflateStreamHandle : public System::Runtime::InteropServices::SafeHandle {
     public:
-    // Creating value type constructor for type: SafeDeflateStreamHandle
-    SafeDeflateStreamHandle() noexcept {}
     // public override System.Boolean get_IsInvalid()
     // Offset: 0x1A2EE00
     // Implemented from: System.Runtime.InteropServices.SafeHandle

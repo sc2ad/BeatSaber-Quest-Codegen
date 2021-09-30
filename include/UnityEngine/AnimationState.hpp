@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E8BB30
   class AnimationState : public UnityEngine::TrackedReference {
     public:
-    // Creating value type constructor for type: AnimationState
-    AnimationState() noexcept {}
     // public System.Void set_time(System.Single value)
     // Offset: 0x258E0E0
     void set_time(float value);

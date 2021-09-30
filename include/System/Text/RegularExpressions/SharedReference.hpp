@@ -37,8 +37,6 @@ namespace System::Text::RegularExpressions {
     int locked;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SharedReference
-    SharedReference(System::WeakReference* ref_ = {}, int locked_ = {}) noexcept : ref{ref_}, locked{locked_} {}
     // Get instance field reference: private System.WeakReference _ref
     System::WeakReference*& dyn__ref();
     // Get instance field reference: private System.Int32 _locked

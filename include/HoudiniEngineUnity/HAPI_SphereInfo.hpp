@@ -33,7 +33,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: HAPI_SphereInfo
-    constexpr HAPI_SphereInfo(::ArrayWrapper<float> center_ = {}, float radius_ = {}) noexcept : center{center_}, radius{radius_} {}
+    constexpr HAPI_SphereInfo(::ArrayWrapper<float> center_ = {nullptr}, float radius_ = {}) noexcept : center{center_}, radius{radius_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -44,7 +44,6 @@ namespace HoudiniEngineUnity {
     float& dyn_radius();
     // public System.Void .ctor(System.Boolean initialize_fields)
     // Offset: 0x1439B34
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HAPI_SphereInfo(bool initialize_fields) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_SphereInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initialize_fields)})));

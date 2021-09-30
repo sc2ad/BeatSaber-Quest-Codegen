@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalActivePlayerInstaller
-    MultiplayerLocalActivePlayerInstaller(GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
     GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

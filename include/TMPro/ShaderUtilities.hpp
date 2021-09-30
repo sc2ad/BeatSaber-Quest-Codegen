@@ -25,8 +25,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShaderUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ShaderUtilities
-    ShaderUtilities() noexcept {}
     // Get static field: static public System.Int32 ID_MainTex
     static int _get_ID_MainTex();
     // Set static field: static public System.Int32 ID_MainTex

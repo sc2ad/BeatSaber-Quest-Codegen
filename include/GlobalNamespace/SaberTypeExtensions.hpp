@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class SaberTypeExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SaberTypeExtensions
-    SaberTypeExtensions() noexcept {}
     // static public System.Boolean MatchesColorType(SaberType saberType, ColorType colorType)
     // Offset: 0x2571B70
     static bool MatchesColorType(GlobalNamespace::SaberType saberType, GlobalNamespace::ColorType colorType);

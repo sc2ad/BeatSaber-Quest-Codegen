@@ -62,8 +62,6 @@ namespace Polyglot {
     System::Collections::Generic::List_1<::Il2CppObject*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
-    // Creating value type constructor for type: LocalizedTextComponent_1
-    LocalizedTextComponent_1(T localizedComponent_ = {}, bool maintainTextAlignment_ = {}, ::Il2CppString* key_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* parameters_ = {}) noexcept : localizedComponent{localizedComponent_}, maintainTextAlignment{maintainTextAlignment_}, key{key_}, parameters{parameters_} {}
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);

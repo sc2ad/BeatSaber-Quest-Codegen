@@ -28,8 +28,6 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerEditorConnectionEvents::MessageEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*> {
     public:
-    // Creating value type constructor for type: MessageEvent
-    MessageEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DB0A68
     // Implemented from: UnityEngine.Events.UnityEvent`1

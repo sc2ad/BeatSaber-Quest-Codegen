@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     System::Action_1<int>* valueChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
-    // Creating value type constructor for type: NamedColorListController
-    NamedColorListController(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> textValuePairs_ = {}, int value_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : textValuePairs{textValuePairs_}, value{value_}, valueChangedEvent{valueChangedEvent_} {}
     // Creating interface conversion operator: operator HMUI::IValueChanger_1<int>
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);

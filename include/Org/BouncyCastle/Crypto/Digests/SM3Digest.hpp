@@ -52,8 +52,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     ::ArrayWrapper<uint> W;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: SM3Digest
-    SM3Digest(::ArrayWrapper<uint> V_ = {}, ::ArrayWrapper<uint> inwords_ = {}, int xOff_ = {}, ::ArrayWrapper<uint> W_ = {}) noexcept : V{V_}, inwords{inwords_}, xOff{xOff_}, W{W_} {}
     // Get static field: static private readonly System.UInt32[] T
     static ::ArrayWrapper<uint> _get_T();
     // Set static field: static private readonly System.UInt32[] T

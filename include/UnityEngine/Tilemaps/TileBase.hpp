@@ -39,8 +39,6 @@ namespace UnityEngine::Tilemaps {
   // [RequiredByNativeCodeAttribute] Offset: ED2984
   class TileBase : public UnityEngine::ScriptableObject {
     public:
-    // Creating value type constructor for type: TileBase
-    TileBase() noexcept {}
     // public System.Void RefreshTile(UnityEngine.Vector3Int position, UnityEngine.Tilemaps.ITilemap tilemap)
     // Offset: 0x26228C4
     void RefreshTile(UnityEngine::Vector3Int position, UnityEngine::Tilemaps::ITilemap* tilemap);

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DuplicateMirrorForReflectionProbe : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: DuplicateMirrorForReflectionProbe
-    DuplicateMirrorForReflectionProbe() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11AADDC
     // Implemented from: UnityEngine.MonoBehaviour

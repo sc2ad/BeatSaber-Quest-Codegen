@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     bool randomizeSpeed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FireworkItemParticleSystem
-    FireworkItemParticleSystem(UnityEngine::ParticleSystem* particleSystem_ = {}, bool isSubemitter_ = {}, bool useMainColor_ = {}, bool useOwnGradient_ = {}, UnityEngine::Gradient* particleColorGradient_ = {}, bool randomizeSpeed_ = {}) noexcept : particleSystem{particleSystem_}, isSubemitter{isSubemitter_}, useMainColor{useMainColor_}, useOwnGradient{useOwnGradient_}, particleColorGradient{particleColorGradient_}, randomizeSpeed{randomizeSpeed_} {}
     // Get instance field reference: public UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: public System.Boolean _isSubemitter

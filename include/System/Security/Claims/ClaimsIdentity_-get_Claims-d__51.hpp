@@ -82,8 +82,6 @@ namespace System::Security::Claims {
     System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>*) == 0x8);
-    // Creating value type constructor for type: $get_Claims$d__51
-    $get_Claims$d__51(int $$1__state_ = {}, System::Security::Claims::Claim* $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Security::Claims::ClaimsIdentity* $$4__this_ = {}, int $i$5__1_ = {}, int $j$5__2_ = {}, System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $i$5__1{$i$5__1_}, $j$5__2{$j$5__2_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>
     operator System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>*>(this);

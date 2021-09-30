@@ -183,8 +183,6 @@ namespace System::Collections {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: Hashtable
-    Hashtable(::ArrayWrapper<System::Collections::Hashtable::bucket> buckets_ = {}, int count_ = {}, int occupancy_ = {}, int loadsize_ = {}, float loadFactor_ = {}, int version_ = {}, bool isWriterInProgress_ = {}, System::Collections::ICollection* keys_ = {}, System::Collections::ICollection* values_ = {}, System::Collections::IEqualityComparer* keycomparer_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : buckets{buckets_}, count{count_}, occupancy{occupancy_}, loadsize{loadsize_}, loadFactor{loadFactor_}, version{version_}, isWriterInProgress{isWriterInProgress_}, keys{keys_}, values{values_}, keycomparer{keycomparer_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

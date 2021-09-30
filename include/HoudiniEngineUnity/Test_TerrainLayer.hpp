@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::TerrainLayer* self;
     // Field size check
     static_assert(sizeof(UnityEngine::TerrainLayer*) == 0x8);
-    // Creating value type constructor for type: Test_TerrainLayer
-    Test_TerrainLayer(UnityEngine::TerrainLayer* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_TerrainLayer*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_TerrainLayer*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_TerrainLayer*>*>(this);

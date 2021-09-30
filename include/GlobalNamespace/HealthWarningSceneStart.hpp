@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     HMUI::HierarchyManager* hierarchyManager;
     // Field size check
     static_assert(sizeof(HMUI::HierarchyManager*) == 0x8);
-    // Creating value type constructor for type: HealthWarningSceneStart
-    HealthWarningSceneStart(GlobalNamespace::HealthWarningFlowCoordinator* healthWarninglowCoordinator_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, HMUI::HierarchyManager* hierarchyManager_ = {}) noexcept : healthWarninglowCoordinator{healthWarninglowCoordinator_}, gameScenesManager{gameScenesManager_}, hierarchyManager{hierarchyManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HealthWarningFlowCoordinator _healthWarninglowCoordinator

@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     bool gameMenuIsShown;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerLocalActivePlayerInGameMenuController
-    MultiplayerLocalActivePlayerInGameMenuController(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* inGameMenuViewController_ = {}, GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, System::Action* didGiveUpEvent_ = {}, System::Action_1<System::Action_1<bool>*>* canShowInGameMenuEvent_ = {}, System::Action* requestsDisconnectEvent_ = {}, bool gameMenuIsShown_ = {}) noexcept : inGameMenuViewController{inGameMenuViewController_}, menuButtonTrigger{menuButtonTrigger_}, vrPlatformHelper{vrPlatformHelper_}, multiplayerController{multiplayerController_}, saberManager{saberManager_}, beatmapObjectManager{beatmapObjectManager_}, didGiveUpEvent{didGiveUpEvent_}, canShowInGameMenuEvent{canShowInGameMenuEvent_}, requestsDisconnectEvent{requestsDisconnectEvent_}, gameMenuIsShown{gameMenuIsShown_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MultiplayerLocalActivePlayerInGameMenuViewController _inGameMenuViewController

@@ -46,8 +46,6 @@ namespace System {
     int64_t m_cookie;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: LocalDataStoreSlot
-    LocalDataStoreSlot(System::LocalDataStoreMgr* m_mgr_ = {}, int m_slot_ = {}, int64_t m_cookie_ = {}) noexcept : m_mgr{m_mgr_}, m_slot{m_slot_}, m_cookie{m_cookie_} {}
     // Get instance field reference: private System.LocalDataStoreMgr m_mgr
     System::LocalDataStoreMgr*& dyn_m_mgr();
     // Get instance field reference: private System.Int32 m_slot

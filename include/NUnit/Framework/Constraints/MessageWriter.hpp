@@ -35,8 +35,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWriter : public System::IO::StringWriter {
     public:
-    // Creating value type constructor for type: MessageWriter
-    MessageWriter() noexcept {}
     // public System.Int32 get_MaxLineLength()
     // Offset: 0xFFFFFFFF
     int get_MaxLineLength();

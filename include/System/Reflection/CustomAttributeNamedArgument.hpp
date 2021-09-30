@@ -58,7 +58,6 @@ namespace System::Reflection {
     System::Reflection::MemberInfo*& dyn_memberInfo();
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0x1EA4DF4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeNamedArgument::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(memberInfo), ::il2cpp_utils::ExtractType(value)})));

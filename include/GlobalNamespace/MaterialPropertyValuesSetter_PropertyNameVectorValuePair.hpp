@@ -30,8 +30,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector4 vector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
-    // Creating value type constructor for type: PropertyNameVectorValuePair
-    PropertyNameVectorValuePair(UnityEngine::Vector4 vector_ = {}) noexcept : vector{vector_} {}
     // Creating conversion operator: operator UnityEngine::Vector4
     constexpr operator UnityEngine::Vector4() const noexcept {
       return vector;

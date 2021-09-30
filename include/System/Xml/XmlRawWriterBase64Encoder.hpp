@@ -33,8 +33,6 @@ namespace System::Xml {
     System::Xml::XmlRawWriter* rawWriter;
     // Field size check
     static_assert(sizeof(System::Xml::XmlRawWriter*) == 0x8);
-    // Creating value type constructor for type: XmlRawWriterBase64Encoder
-    XmlRawWriterBase64Encoder(System::Xml::XmlRawWriter* rawWriter_ = {}) noexcept : rawWriter{rawWriter_} {}
     // Creating conversion operator: operator System::Xml::XmlRawWriter*
     constexpr operator System::Xml::XmlRawWriter*() const noexcept {
       return rawWriter;

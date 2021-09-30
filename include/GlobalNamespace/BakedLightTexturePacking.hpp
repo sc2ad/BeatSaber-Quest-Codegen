@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakedLightTexturePacking : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BakedLightTexturePacking
-    BakedLightTexturePacking() noexcept {}
     // static field const value: static private System.String kBakedLightTexturePackingShaderName
     static constexpr const char* kBakedLightTexturePackingShaderName = "Hidden/BakedLightTexturePacking";
     // Get static field: static private System.String kBakedLightTexturePackingShaderName

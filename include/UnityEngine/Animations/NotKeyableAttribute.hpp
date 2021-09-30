@@ -18,8 +18,6 @@ namespace UnityEngine::Animations {
   // [RequiredByNativeCodeAttribute] Offset: E8BB40
   class NotKeyableAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NotKeyableAttribute
-    NotKeyableAttribute() noexcept {}
   }; // UnityEngine.Animations.NotKeyableAttribute
   #pragma pack(pop)
 }

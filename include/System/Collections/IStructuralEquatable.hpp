@@ -23,8 +23,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class IStructuralEquatable {
     public:
-    // Creating value type constructor for type: IStructuralEquatable
-    IStructuralEquatable() noexcept {}
     // public System.Boolean Equals(System.Object other, System.Collections.IEqualityComparer comparer)
     // Offset: 0xFFFFFFFF
     bool Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);

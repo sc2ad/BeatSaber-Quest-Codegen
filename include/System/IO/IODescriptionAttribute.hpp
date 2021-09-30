@@ -21,8 +21,6 @@ namespace System::IO {
   // [AttributeUsageAttribute] Offset: E69A80
   class IODescriptionAttribute : public System::ComponentModel::DescriptionAttribute {
     public:
-    // Creating value type constructor for type: IODescriptionAttribute
-    IODescriptionAttribute() noexcept {}
     // public override System.String get_Description()
     // Offset: 0x1A338C4
     // Implemented from: System.ComponentModel.DescriptionAttribute

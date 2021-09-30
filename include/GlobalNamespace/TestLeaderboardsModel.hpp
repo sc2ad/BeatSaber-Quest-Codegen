@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: TestLeaderboardsModel
-    TestLeaderboardsModel(System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}) noexcept : scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_} {}
     // Creating interface conversion operator: operator OnlineServices::ILeaderboardsModel
     operator OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);

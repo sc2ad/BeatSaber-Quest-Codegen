@@ -53,8 +53,6 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommandBuilder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CommandBuilder
-    CommandBuilder() noexcept {}
     // static public NUnit.Framework.Internal.Commands.TestCommand MakeOneTimeSetUpCommand(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
     // Offset: 0x193F358
     static NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions);

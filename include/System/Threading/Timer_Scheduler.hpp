@@ -50,8 +50,6 @@ namespace System::Threading {
     System::Threading::ManualResetEvent* changed;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
-    // Creating value type constructor for type: Scheduler
-    Scheduler(System::Collections::SortedList* list_ = {}, System::Threading::ManualResetEvent* changed_ = {}) noexcept : list{list_}, changed{changed_} {}
     // Get static field: static private System.Threading.Timer/System.Threading.Scheduler instance
     static System::Threading::Timer::Scheduler* _get_instance();
     // Set static field: static private System.Threading.Timer/System.Threading.Scheduler instance

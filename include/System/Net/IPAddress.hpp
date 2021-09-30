@@ -62,8 +62,6 @@ namespace System::Net {
     int m_HashCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: IPAddress
-    IPAddress(int64_t m_Address_ = {}, ::Il2CppString* m_ToString_ = {}, System::Net::Sockets::AddressFamily m_Family_ = {}, ::ArrayWrapper<uint16_t> m_Numbers_ = {}, int64_t m_ScopeId_ = {}, int m_HashCode_ = {}) noexcept : m_Address{m_Address_}, m_ToString{m_ToString_}, m_Family{m_Family_}, m_Numbers{m_Numbers_}, m_ScopeId{m_ScopeId_}, m_HashCode{m_HashCode_} {}
     // Get static field: static public readonly System.Net.IPAddress Any
     static System::Net::IPAddress* _get_Any();
     // Set static field: static public readonly System.Net.IPAddress Any

@@ -42,8 +42,6 @@ namespace Mono::Globalization::Unicode {
     bool FrenchSort;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TailoringInfo
-    TailoringInfo(int LCID_ = {}, int TailoringIndex_ = {}, int TailoringCount_ = {}, bool FrenchSort_ = {}) noexcept : LCID{LCID_}, TailoringIndex{TailoringIndex_}, TailoringCount{TailoringCount_}, FrenchSort{FrenchSort_} {}
     // Get instance field reference: public readonly System.Int32 LCID
     int& dyn_LCID();
     // Get instance field reference: public readonly System.Int32 TailoringIndex

@@ -29,8 +29,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_FontUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TMP_FontUtilities
-    TMP_FontUtilities() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedFontAssets
     static System::Collections::Generic::List_1<int>* _get_k_searchedFontAssets();
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedFontAssets

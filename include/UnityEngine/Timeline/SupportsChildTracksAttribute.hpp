@@ -40,8 +40,6 @@ namespace UnityEngine::Timeline {
     int levels;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SupportsChildTracksAttribute
-    SupportsChildTracksAttribute(System::Type* childType_ = {}, int levels_ = {}) noexcept : childType{childType_}, levels{levels_} {}
     // Get instance field reference: public readonly System.Type childType
     System::Type*& dyn_childType();
     // Get instance field reference: public readonly System.Int32 levels

@@ -61,8 +61,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackAsset* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TrackAsset*) == 0x8);
-    // Creating value type constructor for type: $get_outputs$d__65
-    $get_outputs$d__65(int $$1__state_ = {}, UnityEngine::Playables::PlayableBinding $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::Timeline::TrackAsset* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>*>(this);

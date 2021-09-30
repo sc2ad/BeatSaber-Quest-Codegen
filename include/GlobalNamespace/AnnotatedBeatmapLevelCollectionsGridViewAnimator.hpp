@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     Tweening::Vector2Tween* contentPositionTween;
     // Field size check
     static_assert(sizeof(Tweening::Vector2Tween*) == 0x8);
-    // Creating value type constructor for type: AnnotatedBeatmapLevelCollectionsGridViewAnimator
-    AnnotatedBeatmapLevelCollectionsGridViewAnimator(UnityEngine::RectTransform* viewportTransform_ = {}, UnityEngine::RectTransform* contentTransform_ = {}, float transitionDuration_ = {}, Tweening::EaseType easeType_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, float rowHeight_ = {}, int rowCount_ = {}, int selectedRow_ = {}, Tweening::Vector2Tween* viewportSizeTween_ = {}, Tweening::Vector2Tween* contentPositionTween_ = {}) noexcept : viewportTransform{viewportTransform_}, contentTransform{contentTransform_}, transitionDuration{transitionDuration_}, easeType{easeType_}, tweeningManager{tweeningManager_}, rowHeight{rowHeight_}, rowCount{rowCount_}, selectedRow{selectedRow_}, viewportSizeTween{viewportSizeTween_}, contentPositionTween{contentPositionTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _viewportTransform

@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     ::Il2CppObject* ifNotValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: NullAllowed
-    NullAllowed(GlobalNamespace::NullAllowed::Context context_ = {}, ::Il2CppString* propertyName_ = {}, ::Il2CppObject* ifNotValue_ = {}) noexcept : context{context_}, propertyName{propertyName_}, ifNotValue{ifNotValue_} {}
     // Get instance field reference: public readonly NullAllowed/Context context
     GlobalNamespace::NullAllowed::Context& dyn_context();
     // Get instance field reference: public readonly System.String propertyName

@@ -16,8 +16,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeHelper::NonmatchingTypeClass : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NonmatchingTypeClass
-    NonmatchingTypeClass() noexcept {}
   }; // NUnit.Framework.Internal.TypeHelper/NUnit.Framework.Internal.NonmatchingTypeClass
   #pragma pack(pop)
 }

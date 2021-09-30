@@ -150,8 +150,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerModeSelectionViewController
-    MultiplayerModeSelectionViewController(UnityEngine::UI::Button* quickPlayButton_ = {}, UnityEngine::UI::Button* gameBrowserButton_ = {}, UnityEngine::UI::Button* joinWithCodeButton_ = {}, UnityEngine::UI::Button* createServerButton_ = {}, TMPro::TextMeshProUGUI* maintenanceMessageText_ = {}, TMPro::TextMeshProUGUI* customServerEndPointText_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent_ = {}) noexcept : quickPlayButton{quickPlayButton_}, gameBrowserButton{gameBrowserButton_}, joinWithCodeButton{joinWithCodeButton_}, createServerButton{createServerButton_}, maintenanceMessageText{maintenanceMessageText_}, customServerEndPointText{customServerEndPointText_}, networkConfig{networkConfig_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _quickPlayButton
     UnityEngine::UI::Button*& dyn__quickPlayButton();
     // Get instance field reference: private UnityEngine.UI.Button _gameBrowserButton

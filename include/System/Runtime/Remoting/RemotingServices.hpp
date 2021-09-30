@@ -91,8 +91,6 @@ namespace System::Runtime::Remoting {
     public:
     // Nested type: System::Runtime::Remoting::RemotingServices::CACD
     class CACD;
-    // Creating value type constructor for type: RemotingServices
-    RemotingServices() noexcept {}
     // Get static field: static private System.Collections.Hashtable uri_hash
     static System::Collections::Hashtable* _get_uri_hash();
     // Set static field: static private System.Collections.Hashtable uri_hash

@@ -60,8 +60,6 @@ namespace System::Text::RegularExpressions {
     ::ArrayWrapper<System::Text::RegularExpressions::Group*> groups;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Text::RegularExpressions::Group*>) == 0x8);
-    // Creating value type constructor for type: GroupCollection
-    GroupCollection(System::Text::RegularExpressions::Match* match_ = {}, System::Collections::Hashtable* captureMap_ = {}, ::ArrayWrapper<System::Text::RegularExpressions::Group*> groups_ = {}) noexcept : match{match_}, captureMap{captureMap_}, groups{groups_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

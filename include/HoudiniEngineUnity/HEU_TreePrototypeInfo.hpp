@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
     float bendfactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: HEU_TreePrototypeInfo
-    HEU_TreePrototypeInfo(::Il2CppString* prefabPath_ = {}, float bendfactor_ = {}) noexcept : prefabPath{prefabPath_}, bendfactor{bendfactor_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*>(this);

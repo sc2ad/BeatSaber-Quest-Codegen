@@ -78,7 +78,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::PoseSerializable get_identity();
     // public System.Void .ctor(Vector3Serializable position, QuaternionSerializable rotation)
     // Offset: 0x2572CE8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PoseSerializable(GlobalNamespace::Vector3Serializable position, GlobalNamespace::QuaternionSerializable rotation)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x2572DB0

@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectionManagementSection : public System::Configuration::ConfigurationSection {
     public:
-    // Creating value type constructor for type: ConnectionManagementSection
-    ConnectionManagementSection() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x156FCF8
     // Implemented from: System.Configuration.ConfigurationElement

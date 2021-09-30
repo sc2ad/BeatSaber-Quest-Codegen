@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*) == 0x8);
-    // Creating value type constructor for type: EnterPlayerGuestNameViewController
-    EnterPlayerGuestNameViewController(GlobalNamespace::StringSignal* playerNameWasEnteredSignal_ = {}, HMUI::UIKeyboard* uiKeyboard_ = {}, HMUI::InputFieldView* nameInputFieldView_ = {}, GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback_ = {}) noexcept : playerNameWasEnteredSignal{playerNameWasEnteredSignal_}, uiKeyboard{uiKeyboard_}, nameInputFieldView{nameInputFieldView_}, guestNameButtonsListItemsList{guestNameButtonsListItemsList_}, playerDataModel{playerDataModel_}, didFinishCallback{didFinishCallback_} {}
     // static field const value: static private System.Int32 kMaxPlayerNameCompoundLength
     static constexpr const int kMaxPlayerNameCompoundLength = 40;
     // Get static field: static private System.Int32 kMaxPlayerNameCompoundLength

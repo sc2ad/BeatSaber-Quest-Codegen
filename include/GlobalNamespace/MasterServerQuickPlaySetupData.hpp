@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*) == 0x8);
-    // Creating value type constructor for type: MasterServerQuickPlaySetupData
-    MasterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride_ = {}) noexcept : quickPlayAvailablePacksOverride{quickPlayAvailablePacksOverride_} {}
     // Creating conversion operator: operator GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*
     constexpr operator GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*() const noexcept {
       return quickPlayAvailablePacksOverride;

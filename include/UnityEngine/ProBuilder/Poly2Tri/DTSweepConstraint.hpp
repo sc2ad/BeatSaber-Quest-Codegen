@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepConstraint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {
     public:
-    // Creating value type constructor for type: DTSweepConstraint
-    DTSweepConstraint() noexcept {}
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
     // Offset: 0x25CD990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

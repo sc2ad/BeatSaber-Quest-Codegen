@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformAchievementsModelSO::UnlockAchievementCompletionHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UnlockAchievementCompletionHandler
-    UnlockAchievementCompletionHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x12B0F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

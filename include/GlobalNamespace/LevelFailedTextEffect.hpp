@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // Creating value type constructor for type: LevelFailedTextEffect
-    LevelFailedTextEffect(UnityEngine::Animator* animator_ = {}) noexcept : animator{animator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator

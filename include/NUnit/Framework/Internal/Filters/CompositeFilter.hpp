@@ -44,8 +44,6 @@ namespace NUnit::Framework::Internal::Filters {
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* Filters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*) == 0x8);
-    // Creating value type constructor for type: CompositeFilter
-    CompositeFilter(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* Filters_ = {}) noexcept : Filters{Filters_} {}
     // Creating conversion operator: operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*
     constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const noexcept {
       return Filters;

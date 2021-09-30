@@ -42,8 +42,6 @@ namespace Zenject {
     public:
     // Nested type: Zenject::InjectUtil::$$c
     class $$c;
-    // Creating value type constructor for type: InjectUtil
-    InjectUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgList(System.Collections.Generic.IEnumerable`1<System.Object> args)
     // Offset: 0x1834A20
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgList(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* args);

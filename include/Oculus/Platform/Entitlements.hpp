@@ -21,8 +21,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Entitlements : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Entitlements
-    Entitlements() noexcept {}
     // static public Oculus.Platform.Request IsUserEntitledToApplication()
     // Offset: 0x16ABD80
     static Oculus::Platform::Request* IsUserEntitledToApplication();

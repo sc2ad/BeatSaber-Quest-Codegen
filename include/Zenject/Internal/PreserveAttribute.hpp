@@ -20,8 +20,6 @@ namespace Zenject::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreserveAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: PreserveAttribute
-    PreserveAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610BC8
     // Implemented from: System.Attribute

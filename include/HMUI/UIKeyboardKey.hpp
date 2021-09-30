@@ -55,8 +55,6 @@ namespace HMUI {
     bool canBeUppercase;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UIKeyboardKey
-    UIKeyboardKey(UnityEngine::KeyCode keyCode_ = {}, TMPro::TextMeshProUGUI* text_ = {}, ::Il2CppString* overrideText_ = {}, bool canBeUppercase_ = {}) noexcept : keyCode{keyCode_}, text{text_}, overrideText{overrideText_}, canBeUppercase{canBeUppercase_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.KeyCode _keyCode

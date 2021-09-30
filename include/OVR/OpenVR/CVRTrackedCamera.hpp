@@ -45,8 +45,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRTrackedCamera FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRTrackedCamera) == 0x60);
-    // Creating value type constructor for type: CVRTrackedCamera
-    CVRTrackedCamera(OVR::OpenVR::IVRTrackedCamera FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRTrackedCamera
     constexpr operator OVR::OpenVR::IVRTrackedCamera() const noexcept {
       return FnTable;

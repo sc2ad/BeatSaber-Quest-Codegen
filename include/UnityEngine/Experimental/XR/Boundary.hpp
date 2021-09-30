@@ -30,8 +30,6 @@ namespace UnityEngine::Experimental::XR {
     public:
     // Nested type: UnityEngine::Experimental::XR::Boundary::Type
     struct Type;
-    // Creating value type constructor for type: Boundary
-    Boundary() noexcept {}
     // static public System.Boolean get_visible()
     // Offset: 0x2624B7C
     static bool get_visible();

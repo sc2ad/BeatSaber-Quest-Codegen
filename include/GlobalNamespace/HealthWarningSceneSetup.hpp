@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HealthWarningSceneSetupData*) == 0x8);
-    // Creating value type constructor for type: HealthWarningSceneSetup
-    HealthWarningSceneSetup(GlobalNamespace::HealthWarningSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private readonly HealthWarningSceneSetupData _sceneSetupData
     GlobalNamespace::HealthWarningSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

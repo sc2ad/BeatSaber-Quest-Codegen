@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataComboSO : public GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
     public:
-    // Creating value type constructor for type: MultiplayerBadgeDataComboSO
-    MultiplayerBadgeDataComboSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1209F7C
     // Implemented from: MultiplayerBadgeDataMinMaxIntSO

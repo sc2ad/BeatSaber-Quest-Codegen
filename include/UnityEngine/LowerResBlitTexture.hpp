@@ -16,8 +16,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class LowerResBlitTexture : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: LowerResBlitTexture
-    LowerResBlitTexture() noexcept {}
     // System.Void LowerResBlitTextureDontStripMe()
     // Offset: 0x1D9F230
     void LowerResBlitTextureDontStripMe();

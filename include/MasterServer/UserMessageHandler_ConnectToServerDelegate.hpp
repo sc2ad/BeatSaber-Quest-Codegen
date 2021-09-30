@@ -43,8 +43,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserMessageHandler::ConnectToServerDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ConnectToServerDelegate
-    ConnectToServerDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x12E6F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -49,8 +49,6 @@ namespace UnityEngine::TestTools {
     int retryCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EnumerableRetryTestCommand
-    EnumerableRetryTestCommand(int retryCount_ = {}) noexcept : retryCount{retryCount_} {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

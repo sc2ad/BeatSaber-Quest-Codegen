@@ -41,8 +41,6 @@ namespace System {
     System::LocalDataStoreMgr* m_Manager;
     // Field size check
     static_assert(sizeof(System::LocalDataStoreMgr*) == 0x8);
-    // Creating value type constructor for type: LocalDataStore
-    LocalDataStore(::ArrayWrapper<System::LocalDataStoreElement*> m_DataTable_ = {}, System::LocalDataStoreMgr* m_Manager_ = {}) noexcept : m_DataTable{m_DataTable_}, m_Manager{m_Manager_} {}
     // Get instance field reference: private System.LocalDataStoreElement[] m_DataTable
     ::ArrayWrapper<System::LocalDataStoreElement*>& dyn_m_DataTable();
     // Get instance field reference: private System.LocalDataStoreMgr m_Manager

@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPolynomialExtensionField/*, public Org::BouncyCastle::Math::Field::IFiniteField*/ {
     public:
-    // Creating value type constructor for type: IPolynomialExtensionField
-    IPolynomialExtensionField() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IFiniteField
     operator Org::BouncyCastle::Math::Field::IFiniteField() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IFiniteField*>(this);

@@ -17,8 +17,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EB64
   class Timeout : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Timeout
-    Timeout() noexcept {}
     // [ComVisibleAttribute] Offset: 0xE63910
     // Get static field: static public readonly System.TimeSpan InfiniteTimeSpan
     static System::TimeSpan _get_InfiniteTimeSpan();

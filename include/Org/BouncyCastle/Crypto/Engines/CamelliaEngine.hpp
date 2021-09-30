@@ -65,8 +65,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint> state;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: CamelliaEngine
-    CamelliaEngine(bool initialised_ = {}, bool keyIs128_ = {}, ::ArrayWrapper<uint> subkey_ = {}, ::ArrayWrapper<uint> kw_ = {}, ::ArrayWrapper<uint> ke_ = {}, ::ArrayWrapper<uint> state_ = {}) noexcept : initialised{initialised_}, keyIs128{keyIs128_}, subkey{subkey_}, kw{kw_}, ke{ke_}, state{state_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

@@ -65,7 +65,6 @@ namespace OnlineServices::API {
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ApiResponse_1(OnlineServices::API::Response response, T responseDto)
   }; // OnlineServices.API.ApiResponse`1
   // Could not write size check! Type: OnlineServices.API.ApiResponse`1 is generic, or has no fields that are valid for size checks!

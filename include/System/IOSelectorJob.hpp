@@ -57,8 +57,6 @@ namespace System {
     System::IOAsyncResult* state;
     // Field size check
     static_assert(sizeof(System::IOAsyncResult*) == 0x8);
-    // Creating value type constructor for type: IOSelectorJob
-    IOSelectorJob(System::IOOperation operation_ = {}, System::IOAsyncCallback* callback_ = {}, System::IOAsyncResult* state_ = {}) noexcept : operation{operation_}, callback{callback_}, state{state_} {}
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

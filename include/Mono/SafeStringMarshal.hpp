@@ -56,7 +56,6 @@ namespace Mono {
     System::IntPtr get_Value();
     // public System.Void .ctor(System.String str)
     // Offset: 0x1C3FDA4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SafeStringMarshal(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::SafeStringMarshal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(str)})));

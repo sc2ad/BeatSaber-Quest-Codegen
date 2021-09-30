@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractFpPoint : public Org::BouncyCastle::Math::EC::ECPointBase {
     public:
-    // Creating value type constructor for type: AbstractFpPoint
-    AbstractFpPoint() noexcept {}
     // protected internal override System.Boolean get_CompressionYTilde()
     // Offset: 0x1F57B5C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint

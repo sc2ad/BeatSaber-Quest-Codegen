@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteDebris::Pool* noteDebrisPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteDebris::Pool*) == 0x8);
-    // Creating value type constructor for type: NoteDebrisSpawner
-    NoteDebrisSpawner(float rotation_ = {}, float cutDirMultiplier_ = {}, float fromCenterSpeed_ = {}, float moveSpeedMultiplier_ = {}, GlobalNamespace::NoteDebris::Pool* noteDebrisPool_ = {}) noexcept : rotation{rotation_}, cutDirMultiplier{cutDirMultiplier_}, fromCenterSpeed{fromCenterSpeed_}, moveSpeedMultiplier{moveSpeedMultiplier_}, noteDebrisPool{noteDebrisPool_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteDebrisDidFinishEvent
     operator GlobalNamespace::INoteDebrisDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteDebrisDidFinishEvent*>(this);

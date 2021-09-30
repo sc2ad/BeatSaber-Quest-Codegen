@@ -98,8 +98,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* playerNetworkDidFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalInactivePlayerFacade
-    MultiplayerLocalInactivePlayerFacade(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* inactivePlayerSongSyncController_ = {}, GlobalNamespace::MultiplayerSpectatorController* spectatorController_ = {}, UnityEngine::Playables::PlayableDirector* introAnimator_ = {}, GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* outroAnimator_ = {}, System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent_ = {}, System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* playerNetworkDidFailedEvent_ = {}) noexcept : inactivePlayerSongSyncController{inactivePlayerSongSyncController_}, spectatorController{spectatorController_}, introAnimator{introAnimator_}, outroAnimator{outroAnimator_}, playerDidFinishEvent{playerDidFinishEvent_}, playerNetworkDidFailedEvent{playerNetworkDidFailedEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher
     operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);

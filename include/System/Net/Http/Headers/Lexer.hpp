@@ -47,8 +47,6 @@ namespace System::Net::Http::Headers {
     int pos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Lexer
-    Lexer(::Il2CppString* s_ = {}, int pos_ = {}) noexcept : s{s_}, pos{pos_} {}
     // Get static field: static private readonly System.Boolean[] token_chars
     static ::ArrayWrapper<bool> _get_token_chars();
     // Set static field: static private readonly System.Boolean[] token_chars

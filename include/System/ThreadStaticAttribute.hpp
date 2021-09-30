@@ -22,8 +22,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C7A4
   class ThreadStaticAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ThreadStaticAttribute
-    ThreadStaticAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A5488C
     // Implemented from: System.Attribute

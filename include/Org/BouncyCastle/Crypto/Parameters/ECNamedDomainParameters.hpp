@@ -50,8 +50,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* name;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: ECNamedDomainParameters
-    ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* name_ = {}) noexcept : name{name_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept {
       return name;

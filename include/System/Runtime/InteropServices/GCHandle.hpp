@@ -56,7 +56,6 @@ namespace System::Runtime::InteropServices {
     void set_Target(::Il2CppObject* value);
     // private System.Void .ctor(System.IntPtr h)
     // Offset: 0x15AF094
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GCHandle(System::IntPtr h) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(h)})));
@@ -64,7 +63,6 @@ namespace System::Runtime::InteropServices {
     }
     // private System.Void .ctor(System.Object obj)
     // Offset: 0x15AF0C0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GCHandle(::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
@@ -72,7 +70,6 @@ namespace System::Runtime::InteropServices {
     }
     // System.Void .ctor(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x15AF0F0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GCHandle(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(type)})));

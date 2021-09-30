@@ -49,8 +49,6 @@ namespace Zenject {
     System::Type* installerType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo_ = {}, System::Type* installerType_ = {}) noexcept : subContainerBindInfo{subContainerBindInfo_}, installerType{installerType_} {}
     // Get instance field reference: public Zenject.SubContainerCreatorBindInfo subContainerBindInfo
     Zenject::SubContainerCreatorBindInfo*& dyn_subContainerBindInfo();
     // Get instance field reference: public System.Type installerType

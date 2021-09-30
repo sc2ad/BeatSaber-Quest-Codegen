@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreFormatter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ScoreFormatter
-    ScoreFormatter() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0195C
     // Get static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static System::Globalization::NumberFormatInfo* _get__numberFormatInfo();

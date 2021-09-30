@@ -110,8 +110,6 @@ namespace Mono::Net::Security {
     System::Net::HttpWebRequest* request;
     // Field size check
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
-    // Creating value type constructor for type: ChainValidationHelper
-    ChainValidationHelper(::Il2CppObject* sender_ = {}, Mono::Security::Interface::MonoTlsSettings* settings_ = {}, Mono::Security::Interface::MonoTlsProvider* provider_ = {}, System::Net::ServerCertValidationCallback* certValidationCallback_ = {}, System::Net::Security::LocalCertSelectionCallback* certSelectionCallback_ = {}, Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper_ = {}, Mono::Net::Security::MonoTlsStream* tlsStream_ = {}, System::Net::HttpWebRequest* request_ = {}) noexcept : sender{sender_}, settings{settings_}, provider{provider_}, certValidationCallback{certValidationCallback_}, certSelectionCallback{certSelectionCallback_}, callbackWrapper{callbackWrapper_}, tlsStream{tlsStream_}, request{request_} {}
     // Creating interface conversion operator: operator Mono::Security::Interface::ICertificateValidator2
     operator Mono::Security::Interface::ICertificateValidator2() noexcept {
       return *reinterpret_cast<Mono::Security::Interface::ICertificateValidator2*>(this);

@@ -110,8 +110,6 @@ namespace System::Globalization {
     System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern m_ymdFlags;
     // Field size check
     static_assert(sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern) == 0x4);
-    // Creating value type constructor for type: DateTimeFormatInfoScanner
-    DateTimeFormatInfoScanner(System::Collections::Generic::List_1<::Il2CppString*>* m_dateWords_ = {}, System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern m_ymdFlags_ = {}) noexcept : m_dateWords{m_dateWords_}, m_ymdFlags{m_ymdFlags_} {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_s_knownWords();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords

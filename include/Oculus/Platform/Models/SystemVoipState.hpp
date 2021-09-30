@@ -36,8 +36,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::SystemVoipStatus Status;
     // Field size check
     static_assert(sizeof(Oculus::Platform::SystemVoipStatus) == 0x4);
-    // Creating value type constructor for type: SystemVoipState
-    SystemVoipState(Oculus::Platform::VoipMuteState MicrophoneMuted_ = {}, Oculus::Platform::SystemVoipStatus Status_ = {}) noexcept : MicrophoneMuted{MicrophoneMuted_}, Status{Status_} {}
     // Get instance field reference: public readonly Oculus.Platform.VoipMuteState MicrophoneMuted
     Oculus::Platform::VoipMuteState& dyn_MicrophoneMuted();
     // Get instance field reference: public readonly Oculus.Platform.SystemVoipStatus Status

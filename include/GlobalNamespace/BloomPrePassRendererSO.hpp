@@ -103,8 +103,6 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* blackTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassRendererSO
-    BloomPrePassRendererSO(GlobalNamespace::BloomFogSO* bloomFog_ = {}, ::ArrayWrapper<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*> preallocationData_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>* lightsRenderingData_ = {}, UnityEngine::Rendering::CommandBuffer* commandBuffer_ = {}, bool initialized_ = {}, UnityEngine::Texture2D* blackTexture_ = {}) noexcept : bloomFog{bloomFog_}, preallocationData{preallocationData_}, lightsRenderingData{lightsRenderingData_}, commandBuffer{commandBuffer_}, initialized{initialized_}, blackTexture{blackTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE384

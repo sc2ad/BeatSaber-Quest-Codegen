@@ -15,8 +15,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlaylist/*, public GlobalNamespace::IAnnotatedBeatmapLevelCollection*/ {
     public:
-    // Creating value type constructor for type: IPlaylist
-    IPlaylist() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IAnnotatedBeatmapLevelCollection
     operator GlobalNamespace::IAnnotatedBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(this);

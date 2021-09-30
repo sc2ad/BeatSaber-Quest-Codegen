@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E72720
   class ExcludeFromObjectFactoryAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ExcludeFromObjectFactoryAttribute
-    ExcludeFromObjectFactoryAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CBAED8
     // Implemented from: System.Attribute

@@ -30,8 +30,6 @@ namespace Assets::OVR::Scripts {
     ::Il2CppString* message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Record
-    Record(::Il2CppString* category_ = {}, ::Il2CppString* message_ = {}) noexcept : category{category_}, message{message_} {}
     // Get instance field reference: public System.String category
     ::Il2CppString*& dyn_category();
     // Get instance field reference: public System.String message

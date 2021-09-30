@@ -25,8 +25,6 @@ namespace UnityEngine::U2D {
   // [NativeHeaderAttribute] Offset: E7338C
   class SpriteAtlas : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: SpriteAtlas
-    SpriteAtlas() noexcept {}
     // public System.Boolean CanBindTo(UnityEngine.Sprite sprite)
     // Offset: 0x23491FC
     bool CanBindTo(UnityEngine::Sprite* sprite);

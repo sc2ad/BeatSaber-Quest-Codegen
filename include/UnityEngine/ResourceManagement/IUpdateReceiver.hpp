@@ -13,8 +13,6 @@ namespace UnityEngine::ResourceManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   class IUpdateReceiver {
     public:
-    // Creating value type constructor for type: IUpdateReceiver
-    IUpdateReceiver() noexcept {}
     // public System.Void Update(System.Single unscaledDeltaTime)
     // Offset: 0xFFFFFFFF
     void Update(float unscaledDeltaTime);

@@ -52,8 +52,6 @@ namespace System::Collections::ObjectModel {
     System::Collections::Generic::IList_1<T>* items;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<T>*) == 0x8);
-    // Creating value type constructor for type: Collection_1
-    Collection_1(System::Collections::Generic::IList_1<T>* items_ = {}) noexcept : items{items_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);

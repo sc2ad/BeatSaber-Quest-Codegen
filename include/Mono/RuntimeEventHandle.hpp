@@ -46,7 +46,6 @@ namespace Mono {
     System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
     // Offset: 0x1C3F878
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimeEventHandle(System::IntPtr v)
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1C3F888

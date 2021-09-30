@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     UnityEngine::CapsuleCollider* CapsuleCollider;
     // Field size check
     static_assert(sizeof(UnityEngine::CapsuleCollider*) == 0x8);
-    // Creating value type constructor for type: OVRBoneCapsule
-    OVRBoneCapsule(int16_t BoneIndex_ = {}, UnityEngine::Rigidbody* CapsuleRigidbody_ = {}, UnityEngine::CapsuleCollider* CapsuleCollider_ = {}) noexcept : BoneIndex{BoneIndex_}, CapsuleRigidbody{CapsuleRigidbody_}, CapsuleCollider{CapsuleCollider_} {}
     // Get instance field reference: private System.Int16 <BoneIndex>k__BackingField
     int16_t& dyn_$BoneIndex$k__BackingField();
     // Get instance field reference: private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField

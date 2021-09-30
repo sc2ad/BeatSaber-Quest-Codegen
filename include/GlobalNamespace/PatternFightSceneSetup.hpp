@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PatternFightSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PatternFightSceneSetupData*) == 0x8);
-    // Creating value type constructor for type: PatternFightSceneSetup
-    PatternFightSceneSetup(UnityEngine::AudioClip* testAudioClip_ = {}, float testAudioClipBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioMixer_ = {}, GlobalNamespace::PatternFightSceneSetupData* sceneSetupData_ = {}) noexcept : testAudioClip{testAudioClip_}, testAudioClipBPM{testAudioClipBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, audioMixer{audioMixer_}, sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
     UnityEngine::AudioClip*& dyn__testAudioClip();
     // Get instance field reference: private System.Single _testAudioClipBPM

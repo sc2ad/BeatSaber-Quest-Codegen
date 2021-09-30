@@ -97,7 +97,6 @@ namespace System::Runtime::CompilerServices {
       }
       // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
       // Offset: 0xFFFFFFFF
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext)
       // public System.Void OnCompleted(System.Action continuation)
       // Offset: 0xFFFFFFFF
@@ -146,7 +145,6 @@ namespace System::Runtime::CompilerServices {
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConfiguredTaskAwaitable_1(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(continueOnCapturedContext)})));

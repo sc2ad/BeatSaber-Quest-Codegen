@@ -42,8 +42,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1814
   class IVRSpatialAnchors::_GetSpatialAnchorDescriptor : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetSpatialAnchorDescriptor
-    _GetSpatialAnchorDescriptor() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E3FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

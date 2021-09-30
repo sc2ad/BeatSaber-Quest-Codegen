@@ -30,8 +30,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     public:
     // Nested type: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp
     class InternalOp;
-    // Creating value type constructor for type: BundledAssetProvider
-    BundledAssetProvider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B6993C
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase

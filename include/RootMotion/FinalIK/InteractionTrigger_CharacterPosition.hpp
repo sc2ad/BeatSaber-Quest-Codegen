@@ -84,8 +84,6 @@ namespace RootMotion::FinalIK {
     bool fixYAxis;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CharacterPosition
-    CharacterPosition(bool use_ = {}, UnityEngine::Vector2 offset_ = {}, float angleOffset_ = {}, float maxAngle_ = {}, float radius_ = {}, bool orbit_ = {}, bool fixYAxis_ = {}) noexcept : use{use_}, offset{offset_}, angleOffset{angleOffset_}, maxAngle{maxAngle_}, radius{radius_}, orbit{orbit_}, fixYAxis{fixYAxis_} {}
     // Get instance field reference: public System.Boolean use
     bool& dyn_use();
     // Get instance field reference: public UnityEngine.Vector2 offset

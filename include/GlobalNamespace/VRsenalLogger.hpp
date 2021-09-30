@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // Creating value type constructor for type: VRsenalLogger
-    VRsenalLogger(GlobalNamespace::ScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* tutorialScenesTransitionSetupData_ = {}, GlobalNamespace::StringSignal* playerNameWasEnteredSignal_ = {}, GlobalNamespace::VRsenalScoreLogger* vRsenalScoreLoggerPrefab_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, tutorialScenesTransitionSetupData{tutorialScenesTransitionSetupData_}, playerNameWasEnteredSignal{playerNameWasEnteredSignal_}, vRsenalScoreLoggerPrefab{vRsenalScoreLoggerPrefab_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData

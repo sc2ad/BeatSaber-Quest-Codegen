@@ -21,8 +21,6 @@ namespace Zenject {
   // [AttributeUsageAttribute] Offset: EADEB4
   class NoReflectionBakingAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NoReflectionBakingAttribute
-    NoReflectionBakingAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610F4C
     // Implemented from: System.Attribute

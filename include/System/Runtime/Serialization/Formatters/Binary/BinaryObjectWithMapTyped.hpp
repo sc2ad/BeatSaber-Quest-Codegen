@@ -87,8 +87,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int assemId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BinaryObjectWithMapTyped
-    BinaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int objectId_ = {}, ::Il2CppString* name_ = {}, int numMembers_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA_ = {}, ::ArrayWrapper<::Il2CppObject*> typeInformationA_ = {}, ::ArrayWrapper<int> memberAssemIds_ = {}, int assemId_ = {}) noexcept : binaryHeaderEnum{binaryHeaderEnum_}, objectId{objectId_}, name{name_}, numMembers{numMembers_}, memberNames{memberNames_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberAssemIds{memberAssemIds_}, assemId{assemId_} {}
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
     // Get instance field reference: System.Int32 objectId

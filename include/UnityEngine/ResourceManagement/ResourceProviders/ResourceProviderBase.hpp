@@ -68,8 +68,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags m_BehaviourFlags;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags) == 0x4);
-    // Creating value type constructor for type: ResourceProviderBase
-    ResourceProviderBase(::Il2CppString* m_ProviderId_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags m_BehaviourFlags_ = {}) noexcept : m_ProviderId{m_ProviderId_}, m_BehaviourFlags{m_BehaviourFlags_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider
     operator UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>(this);

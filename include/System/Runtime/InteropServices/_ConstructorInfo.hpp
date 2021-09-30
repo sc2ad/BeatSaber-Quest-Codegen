@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60F0C
   class _ConstructorInfo {
     public:
-    // Creating value type constructor for type: _ConstructorInfo
-    _ConstructorInfo() noexcept {}
   }; // System.Runtime.InteropServices._ConstructorInfo
   #pragma pack(pop)
 }

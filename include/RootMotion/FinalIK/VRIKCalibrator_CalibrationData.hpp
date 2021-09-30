@@ -103,8 +103,6 @@ namespace RootMotion::FinalIK {
     float pelvisRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: CalibrationData
-    CalibrationData(float scale_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* head_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* pelvis_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftLegGoal_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightLegGoal_ = {}, UnityEngine::Vector3 pelvisTargetRight_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}) noexcept : scale{scale_}, head{head_}, leftHand{leftHand_}, rightHand{rightHand_}, pelvis{pelvis_}, leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftLegGoal{leftLegGoal_}, rightLegGoal{rightLegGoal_}, pelvisTargetRight{pelvisTargetRight_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_} {}
     // Get instance field reference: public System.Single scale
     float& dyn_scale();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head

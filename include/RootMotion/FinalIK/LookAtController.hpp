@@ -171,8 +171,6 @@ namespace RootMotion::FinalIK {
     bool lastSmoothTowardsTarget;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LookAtController
-    LookAtController(RootMotion::FinalIK::LookAtIK* ik_ = {}, UnityEngine::Transform* target_ = {}, float weight_ = {}, UnityEngine::Vector3 offset_ = {}, float targetSwitchSmoothTime_ = {}, float weightSmoothTime_ = {}, bool smoothTurnTowardsTarget_ = {}, float maxRadiansDelta_ = {}, float maxMagnitudeDelta_ = {}, float slerpSpeed_ = {}, UnityEngine::Vector3 pivotOffsetFromRoot_ = {}, float minDistance_ = {}, float maxRootAngle_ = {}, UnityEngine::Transform* lastTarget_ = {}, float switchWeight_ = {}, float switchWeightV_ = {}, float weightV_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Vector3 dir_ = {}, bool lastSmoothTowardsTarget_ = {}) noexcept : ik{ik_}, target{target_}, weight{weight_}, offset{offset_}, targetSwitchSmoothTime{targetSwitchSmoothTime_}, weightSmoothTime{weightSmoothTime_}, smoothTurnTowardsTarget{smoothTurnTowardsTarget_}, maxRadiansDelta{maxRadiansDelta_}, maxMagnitudeDelta{maxMagnitudeDelta_}, slerpSpeed{slerpSpeed_}, pivotOffsetFromRoot{pivotOffsetFromRoot_}, minDistance{minDistance_}, maxRootAngle{maxRootAngle_}, lastTarget{lastTarget_}, switchWeight{switchWeight_}, switchWeightV{switchWeightV_}, weightV{weightV_}, lastPosition{lastPosition_}, dir{dir_}, lastSmoothTowardsTarget{lastSmoothTowardsTarget_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.LookAtIK ik

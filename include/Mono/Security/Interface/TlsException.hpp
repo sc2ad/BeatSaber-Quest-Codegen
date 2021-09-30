@@ -35,8 +35,6 @@ namespace Mono::Security::Interface {
     Mono::Security::Interface::Alert* alert;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::Alert*) == 0x8);
-    // Creating value type constructor for type: TlsException
-    TlsException(Mono::Security::Interface::Alert* alert_ = {}) noexcept : alert{alert_} {}
     // Creating conversion operator: operator Mono::Security::Interface::Alert*
     constexpr operator Mono::Security::Interface::Alert*() const noexcept {
       return alert;

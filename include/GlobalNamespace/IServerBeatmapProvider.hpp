@@ -33,8 +33,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IServerBeatmapProvider {
     public:
-    // Creating value type constructor for type: IServerBeatmapProvider
-    IServerBeatmapProvider() noexcept {}
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
     // Offset: 0xFFFFFFFF
     bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask);

@@ -53,8 +53,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMasterServer {
     public:
-    // Creating value type constructor for type: IMasterServer
-    IMasterServer() noexcept {}
     // public System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint remoteEndPoint)
     // Offset: 0xFFFFFFFF
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* remoteEndPoint);

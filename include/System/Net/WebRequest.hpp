@@ -100,8 +100,6 @@ namespace System::Net {
     System::Security::Principal::TokenImpersonationLevel m_ImpersonationLevel;
     // Field size check
     static_assert(sizeof(System::Security::Principal::TokenImpersonationLevel) == 0x4);
-    // Creating value type constructor for type: WebRequest
-    WebRequest(System::Net::Security::AuthenticationLevel m_AuthenticationLevel_ = {}, System::Security::Principal::TokenImpersonationLevel m_ImpersonationLevel_ = {}) noexcept : m_AuthenticationLevel{m_AuthenticationLevel_}, m_ImpersonationLevel{m_ImpersonationLevel_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

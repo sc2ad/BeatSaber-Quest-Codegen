@@ -74,8 +74,6 @@ namespace UnityEngine {
     struct MonoOrStereoscopicEye;
     // Nested type: UnityEngine::Camera::CameraCallback
     class CameraCallback;
-    // Creating value type constructor for type: Camera
-    Camera() noexcept {}
     // Get static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPreCull
     static UnityEngine::Camera::CameraCallback* _get_onPreCull();
     // Set static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPreCull

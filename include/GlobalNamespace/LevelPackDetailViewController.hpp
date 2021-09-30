@@ -157,8 +157,6 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* blurredPackArtwork;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: LevelPackDetailViewController
-    LevelPackDetailViewController(UnityEngine::GameObject* detailWrapper_ = {}, HMUI::ImageView* packImage_ = {}, UnityEngine::UI::Button* buyButton_ = {}, UnityEngine::GameObject* buyContainer_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, UnityEngine::GameObject* requireInternetContainer_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::EventBinder* eventBinder_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, GlobalNamespace::IBeatmapLevelPack* pack_ = {}, UnityEngine::Sprite* blurredPackArtwork_ = {}) noexcept : detailWrapper{detailWrapper_}, packImage{packImage_}, buyButton{buyButton_}, buyContainer{buyContainer_}, loadingControl{loadingControl_}, requireInternetContainer{requireInternetContainer_}, kawaseBlurRenderer{kawaseBlurRenderer_}, additionalContentModel{additionalContentModel_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, analyticsModel{analyticsModel_}, eventBinder{eventBinder_}, cancellationTokenSource{cancellationTokenSource_}, pack{pack_}, blurredPackArtwork{blurredPackArtwork_} {}
     // Get instance field reference: private UnityEngine.GameObject _detailWrapper
     UnityEngine::GameObject*& dyn__detailWrapper();
     // Get instance field reference: private HMUI.ImageView _packImage

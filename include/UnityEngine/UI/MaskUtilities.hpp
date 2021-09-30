@@ -40,8 +40,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaskUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MaskUtilities
-    MaskUtilities() noexcept {}
     // static public System.Void Notify2DMaskStateChanged(UnityEngine.Component mask)
     // Offset: 0x1B4CCB0
     static void Notify2DMaskStateChanged(UnityEngine::Component* mask);

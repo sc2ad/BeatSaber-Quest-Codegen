@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     System::Random* random;
     // Field size check
     static_assert(sizeof(System::Random*) == 0x8);
-    // Creating value type constructor for type: DlcPromoExperimentModel
-    DlcPromoExperimentModel(GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> notOwnedMusicPackPromoInfos_ = {}, bool updatingNotOwnedPacks_ = {}, bool initialized_ = {}, System::Random* random_ = {}) noexcept : additionalContentModel{additionalContentModel_}, platformUserModel{platformUserModel_}, analyticsModel{analyticsModel_}, dlcPromoExperimentData{dlcPromoExperimentData_}, playerDataModel{playerDataModel_}, notOwnedMusicPackPromoInfos{notOwnedMusicPackPromoInfos_}, updatingNotOwnedPacks{updatingNotOwnedPacks_}, initialized{initialized_}, random{random_} {}
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel

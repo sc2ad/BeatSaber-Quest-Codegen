@@ -14,8 +14,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C24C
   class IDisposable {
     public:
-    // Creating value type constructor for type: IDisposable
-    IDisposable() noexcept {}
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose();

@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Message::ExtraMessageTypesHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ExtraMessageTypesHandler
-    ExtraMessageTypesHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B4440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

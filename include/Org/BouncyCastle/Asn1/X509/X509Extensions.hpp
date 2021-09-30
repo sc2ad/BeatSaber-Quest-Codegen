@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     System::Collections::IList* ordering;
     // Field size check
     static_assert(sizeof(System::Collections::IList*) == 0x8);
-    // Creating value type constructor for type: X509Extensions
-    X509Extensions(System::Collections::IDictionary* extensions_ = {}, System::Collections::IList* ordering_ = {}) noexcept : extensions{extensions_}, ordering{ordering_} {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier SubjectDirectoryAttributes
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_SubjectDirectoryAttributes();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier SubjectDirectoryAttributes

@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithPurchase : public Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*> {
     public:
-    // Creating value type constructor for type: MessageWithPurchase
-    MessageWithPurchase() noexcept {}
     // protected Oculus.Platform.Models.Purchase GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BCB6C
     Oculus::Platform::Models::Purchase* GetDataFromMessage(System::IntPtr c_message);

@@ -28,8 +28,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E9FC
   class SynchronizationLockException : public System::SystemException {
     public:
-    // Creating value type constructor for type: SynchronizationLockException
-    SynchronizationLockException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A5F20C
     // Implemented from: System.SystemException

@@ -98,8 +98,6 @@ namespace MasterServer {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // Creating value type constructor for type: CreateDedicatedServerInstanceRequest
-    CreateDedicatedServerInstanceRequest(::Il2CppString* secret_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, System::Net::IPEndPoint* userEndPoint_ = {}, GlobalNamespace::ByteArrayNetSerializable* userRandom_ = {}, GlobalNamespace::ByteArrayNetSerializable* userPublicKey_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : secret{secret_}, selectionMask{selectionMask_}, userId{userId_}, userName{userName_}, userEndPoint{userEndPoint_}, userRandom{userRandom_}, userPublicKey{userPublicKey_}, configuration{configuration_} {}
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerServerToClientMessage
     operator MasterServer::IDedicatedServerServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerServerToClientMessage*>(this);

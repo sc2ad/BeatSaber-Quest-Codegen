@@ -38,8 +38,6 @@ namespace System::Net {
     System::Net::WebProxy* webProxy;
     // Field size check
     static_assert(sizeof(System::Net::WebProxy*) == 0x8);
-    // Creating value type constructor for type: WebProxyWrapperOpaque
-    WebProxyWrapperOpaque(System::Net::WebProxy* webProxy_ = {}) noexcept : webProxy{webProxy_} {}
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);

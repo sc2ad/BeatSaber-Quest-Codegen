@@ -45,8 +45,6 @@ namespace System::Runtime::Remoting {
     ::ArrayWrapper<::Il2CppString*> interfacesImplemented;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: TypeInfo
-    TypeInfo(::Il2CppString* serverType_ = {}, ::ArrayWrapper<::Il2CppString*> serverHierarchy_ = {}, ::ArrayWrapper<::Il2CppString*> interfacesImplemented_ = {}) noexcept : serverType{serverType_}, serverHierarchy{serverHierarchy_}, interfacesImplemented{interfacesImplemented_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::IRemotingTypeInfo
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);

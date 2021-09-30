@@ -20,8 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class LessThanOrEqualConstraint : public NUnit::Framework::Constraints::ComparisonConstraint {
     public:
-    // Creating value type constructor for type: LessThanOrEqualConstraint
-    LessThanOrEqualConstraint() noexcept {}
     // public System.Void .ctor(System.Object expected)
     // Offset: 0x192DC28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

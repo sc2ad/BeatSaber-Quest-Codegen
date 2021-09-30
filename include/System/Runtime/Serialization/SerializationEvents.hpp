@@ -67,8 +67,6 @@ namespace System::Runtime::Serialization {
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializedMethods;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*) == 0x8);
-    // Creating value type constructor for type: SerializationEvents
-    SerializationEvents(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnSerializingMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnSerializedMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializingMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializedMethods_ = {}) noexcept : m_OnSerializingMethods{m_OnSerializingMethods_}, m_OnSerializedMethods{m_OnSerializedMethods_}, m_OnDeserializingMethods{m_OnDeserializingMethods_}, m_OnDeserializedMethods{m_OnDeserializedMethods_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*& dyn_m_OnSerializingMethods();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializedMethods

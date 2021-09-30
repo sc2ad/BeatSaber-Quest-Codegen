@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Prng {
     System::Security::Cryptography::RandomNumberGenerator* rndProv;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
-    // Creating value type constructor for type: CryptoApiRandomGenerator
-    CryptoApiRandomGenerator(System::Security::Cryptography::RandomNumberGenerator* rndProv_ = {}) noexcept : rndProv{rndProv_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator
     operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);

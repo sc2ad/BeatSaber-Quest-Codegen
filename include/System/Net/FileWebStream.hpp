@@ -44,8 +44,6 @@ namespace System::Net {
     System::Net::FileWebRequest* m_request;
     // Field size check
     static_assert(sizeof(System::Net::FileWebRequest*) == 0x8);
-    // Creating value type constructor for type: FileWebStream
-    FileWebStream(System::Net::FileWebRequest* m_request_ = {}) noexcept : m_request{m_request_} {}
     // Creating interface conversion operator: operator System::Net::ICloseEx
     operator System::Net::ICloseEx() noexcept {
       return *reinterpret_cast<System::Net::ICloseEx*>(this);

@@ -27,8 +27,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncodingHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EncodingHelper
-    EncodingHelper() noexcept {}
     // Get static field: static private System.Text.Encoding utf8EncodingWithoutMarkers
     static System::Text::Encoding* _get_utf8EncodingWithoutMarkers();
     // Set static field: static private System.Text.Encoding utf8EncodingWithoutMarkers

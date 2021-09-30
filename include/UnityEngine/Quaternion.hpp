@@ -105,7 +105,6 @@ namespace UnityEngine {
     void set_eulerAngles(UnityEngine::Vector3 value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0x1DFFB48
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w)
     // static private System.Void .cctor()
     // Offset: 0x1E0082C

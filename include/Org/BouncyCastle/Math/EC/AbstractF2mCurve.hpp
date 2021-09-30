@@ -50,8 +50,6 @@ namespace Org::BouncyCastle::Math::EC {
     ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> si;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>) == 0x8);
-    // Creating value type constructor for type: AbstractF2mCurve
-    AbstractF2mCurve(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> si_ = {}) noexcept : si{si_} {}
     // Creating conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>
     constexpr operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>() const noexcept {
       return si;

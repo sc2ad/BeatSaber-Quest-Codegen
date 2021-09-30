@@ -50,8 +50,6 @@ namespace System::Threading {
     System::Threading::ExecutionContext* executionContext;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
-    // Creating value type constructor for type: ThreadHelper
-    ThreadHelper(System::Delegate* start_ = {}, ::Il2CppObject* startArg_ = {}, System::Threading::ExecutionContext* executionContext_ = {}) noexcept : start{start_}, startArg{startArg_}, executionContext{executionContext_} {}
     // Get static field: static System.Threading.ContextCallback _ccb
     static System::Threading::ContextCallback* _get__ccb();
     // Set static field: static System.Threading.ContextCallback _ccb

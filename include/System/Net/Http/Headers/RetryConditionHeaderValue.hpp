@@ -31,8 +31,6 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Nullable_1<System::TimeSpan> Delta;
-    // Creating value type constructor for type: RetryConditionHeaderValue
-    RetryConditionHeaderValue(System::Nullable_1<System::DateTimeOffset> Date_ = {}, System::Nullable_1<System::TimeSpan> Delta_ = {}) noexcept : Date{Date_}, Delta{Delta_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

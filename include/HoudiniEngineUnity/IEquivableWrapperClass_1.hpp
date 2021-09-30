@@ -19,8 +19,6 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class IEquivableWrapperClass_1/*, public HoudiniEngineUnity::IEquivable_1<T>*/ {
     public:
-    // Creating value type constructor for type: IEquivableWrapperClass_1
-    IEquivableWrapperClass_1() noexcept {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<T>
     operator HoudiniEngineUnity::IEquivable_1<T>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<T>*>(this);

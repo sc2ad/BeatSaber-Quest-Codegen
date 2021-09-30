@@ -28,8 +28,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E7198C
   class UnityLogWriter : public System::IO::TextWriter {
     public:
-    // Creating value type constructor for type: UnityLogWriter
-    UnityLogWriter() noexcept {}
     // static public System.Void WriteStringToUnityLog(System.String s)
     // Offset: 0x2349A04
     static void WriteStringToUnityLog(::Il2CppString* s);

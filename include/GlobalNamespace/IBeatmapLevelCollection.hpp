@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapLevelCollection {
     public:
-    // Creating value type constructor for type: IBeatmapLevelCollection
-    IBeatmapLevelCollection() noexcept {}
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();

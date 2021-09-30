@@ -63,8 +63,6 @@ namespace Zenject {
     Zenject::DisposableManager* disposablesManager;
     // Field size check
     static_assert(sizeof(Zenject::DisposableManager*) == 0x8);
-    // Creating value type constructor for type: Kernel
-    Kernel(Zenject::TickableManager* tickableManager_ = {}, Zenject::InitializableManager* initializableManager_ = {}, Zenject::DisposableManager* disposablesManager_ = {}) noexcept : tickableManager{tickableManager_}, initializableManager{initializableManager_}, disposablesManager{disposablesManager_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     bool orderPassed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ValidityPreCompInfo
-    ValidityPreCompInfo(bool failed_ = {}, bool curveEquationPassed_ = {}, bool orderPassed_ = {}) noexcept : failed{failed_}, curveEquationPassed{curveEquationPassed_}, orderPassed{orderPassed_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

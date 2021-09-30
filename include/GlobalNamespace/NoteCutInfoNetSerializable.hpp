@@ -131,8 +131,6 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3Serializable moveVec;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3Serializable) == 0xC);
-    // Creating value type constructor for type: NoteCutInfoNetSerializable
-    NoteCutInfoNetSerializable(float saberSpeed_ = {}, bool cutWasOk_ = {}, GlobalNamespace::Vector3Serializable saberDir_ = {}, GlobalNamespace::Vector3Serializable cutPoint_ = {}, GlobalNamespace::Vector3Serializable cutNormal_ = {}, GlobalNamespace::Vector3Serializable notePosition_ = {}, GlobalNamespace::Vector3Serializable noteScale_ = {}, GlobalNamespace::QuaternionSerializable noteRotation_ = {}, GlobalNamespace::ColorType colorType_ = {}, float noteTime_ = {}, int noteLineIndex_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, float timeToNextColorNote_ = {}, GlobalNamespace::Vector3Serializable moveVec_ = {}) noexcept : saberSpeed{saberSpeed_}, cutWasOk{cutWasOk_}, saberDir{saberDir_}, cutPoint{cutPoint_}, cutNormal{cutNormal_}, notePosition{notePosition_}, noteScale{noteScale_}, noteRotation{noteRotation_}, colorType{colorType_}, noteTime{noteTime_}, noteLineIndex{noteLineIndex_}, noteLineLayer{noteLineLayer_}, timeToNextColorNote{timeToNextColorNote_}, moveVec{moveVec_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

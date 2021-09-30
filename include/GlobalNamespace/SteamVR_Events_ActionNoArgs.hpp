@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::Events::UnityAction* action;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityAction*) == 0x8);
-    // Creating value type constructor for type: ActionNoArgs
-    ActionNoArgs(GlobalNamespace::SteamVR_Events::Event* event_ = {}, UnityEngine::Events::UnityAction* action_ = {}) noexcept : event{event_}, action{action_} {}
     // Get instance field reference: private SteamVR_Events/Event _event
     GlobalNamespace::SteamVR_Events::Event*& dyn__event();
     // Get instance field reference: private UnityEngine.Events.UnityAction action

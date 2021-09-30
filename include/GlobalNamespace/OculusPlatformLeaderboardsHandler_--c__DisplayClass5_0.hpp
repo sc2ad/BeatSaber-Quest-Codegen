@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     ::Il2CppString* referencePlayerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(GlobalNamespace::OculusPlatformLeaderboardsHandler* $$4__this_ = {}, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler_ = {}, ::Il2CppString* referencePlayerId_ = {}) noexcept : $$4__this{$$4__this_}, completionHandler{completionHandler_}, referencePlayerId{referencePlayerId_} {}
     // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
     GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
     // Get instance field reference: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler

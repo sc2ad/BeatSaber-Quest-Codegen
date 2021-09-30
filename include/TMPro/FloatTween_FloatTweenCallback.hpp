@@ -21,8 +21,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatTween::FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float> {
     public:
-    // Creating value type constructor for type: FloatTweenCallback
-    FloatTweenCallback() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11EA748
     // Implemented from: UnityEngine.Events.UnityEvent`1

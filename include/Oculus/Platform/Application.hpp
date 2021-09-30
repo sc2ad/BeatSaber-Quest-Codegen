@@ -29,8 +29,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Application : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Application
-    Application() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ApplicationVersion> GetVersion()
     // Offset: 0x1D1A348
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* GetVersion();

@@ -76,8 +76,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       int $i$5__2;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // Creating value type constructor for type: $Enumerate$d__10
-      $Enumerate$d__10(int $$1__state_ = {}, T $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> $$4__this_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> $$3__$$4__this_ = {}, int $i$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$3__$$4__this{$$3__$$4__this_}, $i$5__2{$i$5__2_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<T>
       operator System::Collections::Generic::IEnumerable_1<T>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<T>*>(this);

@@ -38,8 +38,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector2 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // Creating value type constructor for type: Transform2D
-    Transform2D(UnityEngine::Vector2 position_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_} {}
     // Get instance field reference: public UnityEngine.Vector2 position
     UnityEngine::Vector2& dyn_position();
     // Get instance field reference: public System.Single rotation

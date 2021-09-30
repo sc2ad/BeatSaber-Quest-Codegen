@@ -182,8 +182,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_AttributeData::AttributeState attributeState;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_AttributeData::AttributeState) == 0x4);
-    // Creating value type constructor for type: HEU_AttributeData
-    HEU_AttributeData(HoudiniEngineUnity::HAPI_AttributeInfo attributeInfo_ = {}, ::Il2CppString* name_ = {}, HoudiniEngineUnity::HEU_AttributeData::AttributeType attributeType_ = {}, ::ArrayWrapper<int> intValues_ = {}, ::ArrayWrapper<float> floatValues_ = {}, ::ArrayWrapper<::Il2CppString*> stringValues_ = {}, HoudiniEngineUnity::HEU_AttributeData::AttributeState attributeState_ = {}) noexcept : attributeInfo{attributeInfo_}, name{name_}, attributeType{attributeType_}, intValues{intValues_}, floatValues{floatValues_}, stringValues{stringValues_}, attributeState{attributeState_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributeData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributeData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributeData*>*>(this);

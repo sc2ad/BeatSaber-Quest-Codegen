@@ -56,8 +56,6 @@ namespace TMPro {
     ::ArrayWrapper<int> m_ClosingTagArray;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: TMP_Style
-    TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::ArrayWrapper<int> m_OpeningTagArray_ = {}, ::ArrayWrapper<int> m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
     // Get instance field reference: private System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode

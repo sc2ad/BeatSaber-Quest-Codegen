@@ -96,8 +96,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelSelectionFlowCoordinator::State* state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLevelSelectionFlowCoordinator
-    MultiplayerLevelSelectionFlowCoordinator(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* didSelectLevelEvent_ = {}, System::Action* didFinishedEvent_ = {}, ::Il2CppString* actionButtonText_ = {}, ::Il2CppString* titleText_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask_ = {}, GlobalNamespace::LevelSelectionFlowCoordinator::State* state_ = {}) noexcept : notAllowedCharacteristics{notAllowedCharacteristics_}, lobbyGameStateController{lobbyGameStateController_}, didSelectLevelEvent{didSelectLevelEvent_}, didFinishedEvent{didFinishedEvent_}, actionButtonText{actionButtonText_}, titleText{titleText_}, songPackMask{songPackMask_}, allowedBeatmapDifficultyMask{allowedBeatmapDifficultyMask_}, state{state_} {}
     // Get instance field reference: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
     ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
     // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController

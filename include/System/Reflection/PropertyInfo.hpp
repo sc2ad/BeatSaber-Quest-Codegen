@@ -63,8 +63,6 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: E5E0B8
   class PropertyInfo : public System::Reflection::MemberInfo/*, public System::Runtime::InteropServices::_PropertyInfo*/ {
     public:
-    // Creating value type constructor for type: PropertyInfo
-    PropertyInfo() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_PropertyInfo
     operator System::Runtime::InteropServices::_PropertyInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_PropertyInfo*>(this);

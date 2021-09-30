@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class WWWForm : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: WWWForm
-    WWWForm() noexcept {}
     // static System.Text.Encoding get_DefaultEncoding()
     // Offset: 0x25FC320
     static System::Text::Encoding* get_DefaultEncoding();

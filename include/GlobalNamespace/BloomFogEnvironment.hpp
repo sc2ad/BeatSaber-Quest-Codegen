@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogEnvironmentParams* fogParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // Creating value type constructor for type: BloomFogEnvironment
-    BloomFogEnvironment(GlobalNamespace::BloomFogSO* bloomFog_ = {}, GlobalNamespace::BloomFogEnvironmentParams* fogParams_ = {}) noexcept : bloomFog{bloomFog_}, fogParams{fogParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomFogSO _bloomFog

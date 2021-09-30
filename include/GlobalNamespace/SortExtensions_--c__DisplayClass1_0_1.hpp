@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     System::Func_2<T, int>* getSortIndex;
     // Field size check
     static_assert(sizeof(System::Func_2<T, int>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass1_0_1
-    $$c__DisplayClass1_0_1(System::Func_2<T, int>* getSortIndex_ = {}) noexcept : getSortIndex{getSortIndex_} {}
     // Creating conversion operator: operator System::Func_2<T, int>*
     constexpr operator System::Func_2<T, int>*() const noexcept {
       return getSortIndex;

@@ -81,8 +81,6 @@ namespace Zenject::Internal {
     System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* InjectMethods;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>*) == 0x8);
-    // Creating value type constructor for type: ReflectionTypeInfo
-    ReflectionTypeInfo(System::Type* Type_ = {}, System::Type* BaseType_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* InjectProperties_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* InjectFields_ = {}, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* InjectConstructor_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* InjectMethods_ = {}) noexcept : Type{Type_}, BaseType{BaseType_}, InjectProperties{InjectProperties_}, InjectFields{InjectFields_}, InjectConstructor{InjectConstructor_}, InjectMethods{InjectMethods_} {}
     // Get instance field reference: public readonly System.Type Type
     System::Type*& dyn_Type();
     // Get instance field reference: public readonly System.Type BaseType

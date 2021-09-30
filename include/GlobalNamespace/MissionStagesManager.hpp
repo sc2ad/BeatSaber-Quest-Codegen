@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionStage* firstLockedMissionStage;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionStage*) == 0x8);
-    // Creating value type constructor for type: MissionStagesManager
-    MissionStagesManager(GlobalNamespace::MissionStageLockView* missionStageLockView_ = {}, ::ArrayWrapper<GlobalNamespace::MissionStage*> missionStages_ = {}, GlobalNamespace::MissionStage* firstLockedMissionStage_ = {}) noexcept : missionStageLockView{missionStageLockView_}, missionStages{missionStages_}, firstLockedMissionStage{firstLockedMissionStage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionStageLockView _missionStageLockView

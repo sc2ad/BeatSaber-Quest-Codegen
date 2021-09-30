@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferedCipherBase : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBufferedCipher*/ {
     public:
-    // Creating value type constructor for type: BufferedCipherBase
-    BufferedCipherBase() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBufferedCipher
     operator Org::BouncyCastle::Crypto::IBufferedCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBufferedCipher*>(this);

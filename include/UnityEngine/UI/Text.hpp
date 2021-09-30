@@ -93,8 +93,6 @@ namespace UnityEngine::UI {
     ::ArrayWrapper<UnityEngine::UIVertex> m_TempVerts;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::UIVertex>) == 0x8);
-    // Creating value type constructor for type: Text
-    Text(UnityEngine::UI::FontData* m_FontData_ = {}, ::Il2CppString* m_Text_ = {}, UnityEngine::TextGenerator* m_TextCache_ = {}, UnityEngine::TextGenerator* m_TextCacheForLayout_ = {}, bool m_DisableFontTextureRebuiltCallback_ = {}, ::ArrayWrapper<UnityEngine::UIVertex> m_TempVerts_ = {}) noexcept : m_FontData{m_FontData_}, m_Text{m_Text_}, m_TextCache{m_TextCache_}, m_TextCacheForLayout{m_TextCacheForLayout_}, m_DisableFontTextureRebuiltCallback{m_DisableFontTextureRebuiltCallback_}, m_TempVerts{m_TempVerts_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);

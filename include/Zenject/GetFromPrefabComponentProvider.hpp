@@ -61,8 +61,6 @@ namespace Zenject {
     bool matchSingle;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GetFromPrefabComponentProvider
-    GetFromPrefabComponentProvider(Zenject::IPrefabInstantiator* prefabInstantiator_ = {}, System::Type* componentType_ = {}, bool matchSingle_ = {}) noexcept : prefabInstantiator{prefabInstantiator_}, componentType{componentType_}, matchSingle{matchSingle_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

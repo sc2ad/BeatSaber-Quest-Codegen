@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAnnotatedBeatmapLevelCollection {
     public:
-    // Creating value type constructor for type: IAnnotatedBeatmapLevelCollection
-    IAnnotatedBeatmapLevelCollection() noexcept {}
     // public System.String get_collectionName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_collectionName();

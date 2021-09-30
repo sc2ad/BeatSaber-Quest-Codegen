@@ -192,8 +192,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task::ContingentProperties* m_contingentProperties;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task::ContingentProperties*) == 0x8);
-    // Creating value type constructor for type: Task
-    Task(int m_taskId_ = {}, ::Il2CppObject* m_action_ = {}, ::Il2CppObject* m_stateObject_ = {}, System::Threading::Tasks::TaskScheduler* m_taskScheduler_ = {}, System::Threading::Tasks::Task* m_parent_ = {}, int m_stateFlags_ = {}, ::Il2CppObject* m_continuationObject_ = {}, System::Threading::Tasks::Task::ContingentProperties* m_contingentProperties_ = {}) noexcept : m_taskId{m_taskId_}, m_action{m_action_}, m_stateObject{m_stateObject_}, m_taskScheduler{m_taskScheduler_}, m_parent{m_parent_}, m_stateFlags{m_stateFlags_}, m_continuationObject{m_continuationObject_}, m_contingentProperties{m_contingentProperties_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

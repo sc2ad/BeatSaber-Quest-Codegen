@@ -34,8 +34,6 @@ namespace UnityEngine {
     int m_CurrentIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Enumerator
-    Enumerator(UnityEngine::Animation* m_Outer_ = {}, int m_CurrentIndex_ = {}) noexcept : m_Outer{m_Outer_}, m_CurrentIndex{m_CurrentIndex_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

@@ -64,8 +64,6 @@ namespace UnityEngine::TestTools::Logging {
     ::Il2CppString* m_LogType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LogMatch
-    LogMatch(bool m_UseRegex_ = {}, ::Il2CppString* m_Message_ = {}, ::Il2CppString* m_MessageRegex_ = {}, ::Il2CppString* m_LogType_ = {}) noexcept : m_UseRegex{m_UseRegex_}, m_Message{m_Message_}, m_MessageRegex{m_MessageRegex_}, m_LogType{m_LogType_} {}
     // Get instance field reference: private System.Boolean m_UseRegex
     bool& dyn_m_UseRegex();
     // Get instance field reference: private System.String m_Message

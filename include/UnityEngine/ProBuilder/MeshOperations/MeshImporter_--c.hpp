@@ -36,8 +36,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MeshImporter::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.ProBuilder.MeshOperations.MeshImporter/UnityEngine.ProBuilder.MeshOperations.<>c <>9
     static UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.MeshImporter/UnityEngine.ProBuilder.MeshOperations.<>c <>9

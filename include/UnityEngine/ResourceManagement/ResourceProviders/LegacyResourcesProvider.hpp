@@ -35,8 +35,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     public:
     // Nested type: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp
     class InternalOp;
-    // Creating value type constructor for type: LegacyResourcesProvider
-    LegacyResourcesProvider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B6AFA0
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase

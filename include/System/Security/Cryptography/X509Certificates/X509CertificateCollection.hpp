@@ -30,8 +30,6 @@ namespace System::Security::Cryptography::X509Certificates {
     public:
     // Nested type: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator
     class X509CertificateEnumerator;
-    // Creating value type constructor for type: X509CertificateCollection
-    X509CertificateCollection() noexcept {}
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_Item(System.Int32 index)
     // Offset: 0x19D9330
     System::Security::Cryptography::X509Certificates::X509Certificate* get_Item(int index);

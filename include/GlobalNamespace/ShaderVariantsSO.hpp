@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>) == 0x8);
-    // Creating value type constructor for type: ShaderVariantsSO
-    ShaderVariantsSO(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants_ = {}) noexcept : shaderVariants{shaderVariants_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant[] _shaderVariants

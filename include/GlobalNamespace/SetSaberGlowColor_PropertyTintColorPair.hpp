@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     ::Il2CppString* property;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PropertyTintColorPair
-    PropertyTintColorPair(UnityEngine::Color tintColor_ = {}, ::Il2CppString* property_ = {}) noexcept : tintColor{tintColor_}, property{property_} {}
     // Get instance field reference: public UnityEngine.Color tintColor
     UnityEngine::Color& dyn_tintColor();
     // Get instance field reference: public System.String property

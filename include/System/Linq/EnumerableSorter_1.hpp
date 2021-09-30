@@ -18,8 +18,6 @@ namespace System::Linq {
   template<typename TElement>
   class EnumerableSorter_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EnumerableSorter_1
-    EnumerableSorter_1() noexcept {}
     // System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void ComputeKeys(::ArrayWrapper<TElement> elements, int count) {

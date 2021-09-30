@@ -42,8 +42,6 @@ namespace System::Security::Cryptography {
     ::Il2CppString* hashName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RSAPKCS1SignatureDeformatter
-    RSAPKCS1SignatureDeformatter(System::Security::Cryptography::RSA* rsa_ = {}, ::Il2CppString* hashName_ = {}) noexcept : rsa{rsa_}, hashName{hashName_} {}
     // Get instance field reference: private System.Security.Cryptography.RSA rsa
     System::Security::Cryptography::RSA*& dyn_rsa();
     // Get instance field reference: private System.String hashName

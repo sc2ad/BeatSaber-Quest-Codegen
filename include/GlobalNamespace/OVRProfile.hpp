@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRProfile::State
     struct State;
-    // Creating value type constructor for type: OVRProfile
-    OVRProfile() noexcept {}
     // public System.String get_id()
     // Offset: 0x1807E44
     ::Il2CppString* get_id();

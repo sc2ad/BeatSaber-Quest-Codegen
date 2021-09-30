@@ -22,8 +22,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMoveHandler/*, public UnityEngine::EventSystems::IEventSystemHandler*/ {
     public:
-    // Creating value type constructor for type: IMoveHandler
-    IMoveHandler() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IEventSystemHandler
     operator UnityEngine::EventSystems::IEventSystemHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IEventSystemHandler*>(this);

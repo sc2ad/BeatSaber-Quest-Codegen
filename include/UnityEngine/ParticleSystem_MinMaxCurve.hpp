@@ -98,7 +98,6 @@ namespace UnityEngine {
     float get_constant();
     // public System.Void .ctor(System.Single constant)
     // Offset: 0x261D3AC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MinMaxCurve(float constant) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxCurve::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(constant)})));
@@ -106,7 +105,6 @@ namespace UnityEngine {
     }
     // public System.Void .ctor(System.Single min, System.Single max)
     // Offset: 0x261D3C0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MinMaxCurve(float min, float max) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxCurve::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(min), ::il2cpp_utils::ExtractType(max)})));

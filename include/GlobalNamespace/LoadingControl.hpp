@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: LoadingControl
-    LoadingControl(UnityEngine::GameObject* loadingContainer_ = {}, TMPro::TextMeshProUGUI* loadingText_ = {}, TMPro::TextMeshProUGUI* refreshText_ = {}, UnityEngine::UI::Button* refreshButton_ = {}, UnityEngine::GameObject* refreshContainer_ = {}, UnityEngine::GameObject* downloadingContainer_ = {}, TMPro::TextMeshProUGUI* downloadingText_ = {}, UnityEngine::UI::Image* donwloadingProgressImage_ = {}, System::Action* didPressRefreshButtonEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : loadingContainer{loadingContainer_}, loadingText{loadingText_}, refreshText{refreshText_}, refreshButton{refreshButton_}, refreshContainer{refreshContainer_}, downloadingContainer{downloadingContainer_}, downloadingText{downloadingText_}, donwloadingProgressImage{donwloadingProgressImage_}, didPressRefreshButtonEvent{didPressRefreshButtonEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _loadingContainer

@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E93D60
   class CameraRaycastHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CameraRaycastHelper
-    CameraRaycastHelper() noexcept {}
     // static UnityEngine.GameObject RaycastTry(UnityEngine.Camera cam, UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
     // Offset: 0x2620AB4
     static UnityEngine::GameObject* RaycastTry(UnityEngine::Camera* cam, UnityEngine::Ray ray, float distance, int layerMask);

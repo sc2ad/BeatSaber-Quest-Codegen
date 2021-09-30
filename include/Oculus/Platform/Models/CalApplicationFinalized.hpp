@@ -40,8 +40,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* LaunchDetails;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CalApplicationFinalized
-    CalApplicationFinalized(int CountdownMS_ = {}, uint64_t _ID_ = {}, ::Il2CppString* LaunchDetails_ = {}) noexcept : CountdownMS{CountdownMS_}, _ID{_ID_}, LaunchDetails{LaunchDetails_} {}
     // Get instance field reference: public readonly System.Int32 CountdownMS
     int& dyn_CountdownMS();
     // Get instance field reference: public readonly System.UInt64 ID

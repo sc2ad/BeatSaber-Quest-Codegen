@@ -44,8 +44,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E8B32C
   class AnimationClip : public UnityEngine::Motion {
     public:
-    // Creating value type constructor for type: AnimationClip
-    AnimationClip() noexcept {}
     // public System.Single get_length()
     // Offset: 0x258D7C4
     float get_length();

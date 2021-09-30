@@ -37,8 +37,6 @@ namespace System::Runtime::Remoting::Activation {
   // [ComVisibleAttribute] Offset: E5FE70
   class IConstructionCallMessage/*, public System::Runtime::Remoting::Messaging::IMethodCallMessage*/ {
     public:
-    // Creating value type constructor for type: IConstructionCallMessage
-    IConstructionCallMessage() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodCallMessage
     operator System::Runtime::Remoting::Messaging::IMethodCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);

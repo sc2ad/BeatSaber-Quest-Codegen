@@ -16,8 +16,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReferenceConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: ReferenceConverter
-    ReferenceConverter() noexcept {}
     // Get static field: static private readonly System.String none
     static ::Il2CppString* _get_none();
     // Set static field: static private readonly System.String none

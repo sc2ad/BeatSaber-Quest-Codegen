@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecT571Field : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SecT571Field
-    SecT571Field() noexcept {}
     // Get static field: static private readonly System.UInt64[] ROOT_Z
     static ::ArrayWrapper<uint64_t> _get_ROOT_Z();
     // Set static field: static private readonly System.UInt64[] ROOT_Z

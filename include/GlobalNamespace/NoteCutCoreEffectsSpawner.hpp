@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // Creating value type constructor for type: NoteCutCoreEffectsSpawner
-    NoteCutCoreEffectsSpawner(float shockWaveYPos_ = {}, GlobalNamespace::NoteCutParticlesEffect* noteCutParticlesEffect_ = {}, GlobalNamespace::NoteDebrisSpawner* noteDebrisSpawner_ = {}, GlobalNamespace::NoteCutHapticEffect* noteCutHapticEffect_ = {}, GlobalNamespace::ShockwaveEffect* shockwaveEffect_ = {}, GlobalNamespace::BombExplosionEffect* bombExplosionEffect_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}) noexcept : shockWaveYPos{shockWaveYPos_}, noteCutParticlesEffect{noteCutParticlesEffect_}, noteDebrisSpawner{noteDebrisSpawner_}, noteCutHapticEffect{noteCutHapticEffect_}, shockwaveEffect{shockwaveEffect_}, bombExplosionEffect{bombExplosionEffect_}, colorManager{colorManager_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _shockWaveYPos

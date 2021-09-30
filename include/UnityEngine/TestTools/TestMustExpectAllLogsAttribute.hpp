@@ -23,8 +23,6 @@ namespace UnityEngine::TestTools {
     bool MustExpect;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestMustExpectAllLogsAttribute
-    TestMustExpectAllLogsAttribute(bool MustExpect_ = {}) noexcept : MustExpect{MustExpect_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return MustExpect;

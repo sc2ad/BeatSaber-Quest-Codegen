@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PropertyNameIntValuePair
-    PropertyNameIntValuePair(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;

@@ -24,8 +24,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FCA8
   class IContextProperty {
     public:
-    // Creating value type constructor for type: IContextProperty
-    IContextProperty() noexcept {}
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_Name();

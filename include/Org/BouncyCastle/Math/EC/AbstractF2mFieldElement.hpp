@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractF2mFieldElement : public Org::BouncyCastle::Math::EC::ECFieldElement {
     public:
-    // Creating value type constructor for type: AbstractF2mFieldElement
-    AbstractF2mFieldElement() noexcept {}
     // public System.Boolean get_HasFastTrace()
     // Offset: 0x1F567B8
     bool get_HasFastTrace();

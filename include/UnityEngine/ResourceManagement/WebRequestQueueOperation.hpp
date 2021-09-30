@@ -51,8 +51,6 @@ namespace UnityEngine::ResourceManagement {
     UnityEngine::Networking::UnityWebRequest* m_WebRequest;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
-    // Creating value type constructor for type: WebRequestQueueOperation
-    WebRequestQueueOperation(UnityEngine::Networking::UnityWebRequestAsyncOperation* Result_ = {}, System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete_ = {}, UnityEngine::Networking::UnityWebRequest* m_WebRequest_ = {}) noexcept : Result{Result_}, OnComplete{OnComplete_}, m_WebRequest{m_WebRequest_} {}
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
     UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_Result();
     // Get instance field reference: public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete

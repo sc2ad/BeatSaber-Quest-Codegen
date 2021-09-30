@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     ::Il2CppString* missionHelpId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MissionHelpSO
-    MissionHelpSO(::Il2CppString* missionHelpId_ = {}) noexcept : missionHelpId{missionHelpId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _missionHelpId

@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ToneMappingExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ToneMappingExtensions
-    ToneMappingExtensions() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE604
     // Get static field: static private readonly System.String[] _shaderKeywordMap
     static ::ArrayWrapper<::Il2CppString*> _get__shaderKeywordMap();

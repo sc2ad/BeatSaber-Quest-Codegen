@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<T> pool;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<T>) == 0x8);
-    // Creating value type constructor for type: PacketPool_1
-    PacketPool_1(int clearCount_ = {}, int size_ = {}, ::ArrayWrapper<T> pool_ = {}) noexcept : clearCount{clearCount_}, size{size_}, pool{pool_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IPacketPool_1<T>
     operator GlobalNamespace::IPacketPool_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPacketPool_1<T>*>(this);

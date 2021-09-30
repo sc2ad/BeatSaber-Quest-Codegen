@@ -77,8 +77,6 @@ namespace UnityEngine::UI {
     int m_LayoutPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LayoutElement
-    LayoutElement(bool m_IgnoreLayout_ = {}, float m_MinWidth_ = {}, float m_MinHeight_ = {}, float m_PreferredWidth_ = {}, float m_PreferredHeight_ = {}, float m_FlexibleWidth_ = {}, float m_FlexibleHeight_ = {}, int m_LayoutPriority_ = {}) noexcept : m_IgnoreLayout{m_IgnoreLayout_}, m_MinWidth{m_MinWidth_}, m_MinHeight{m_MinHeight_}, m_PreferredWidth{m_PreferredWidth_}, m_PreferredHeight{m_PreferredHeight_}, m_FlexibleWidth{m_FlexibleWidth_}, m_FlexibleHeight{m_FlexibleHeight_}, m_LayoutPriority{m_LayoutPriority_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);

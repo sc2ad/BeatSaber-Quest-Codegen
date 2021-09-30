@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisableOnNonSteam : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: DisableOnNonSteam
-    DisableOnNonSteam() noexcept {}
     // private System.Void Awake()
     // Offset: 0x11A8150
     void Awake();

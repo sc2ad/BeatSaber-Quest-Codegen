@@ -55,8 +55,6 @@ namespace System::Text {
     ::Il2CppChar charLeftOver;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: DefaultEncoder
-    DefaultEncoder(System::Text::Encoding* m_encoding_ = {}, bool m_hasInitializedEncoding_ = {}, ::Il2CppChar charLeftOver_ = {}) noexcept : m_encoding{m_encoding_}, m_hasInitializedEncoding{m_hasInitializedEncoding_}, charLeftOver{charLeftOver_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

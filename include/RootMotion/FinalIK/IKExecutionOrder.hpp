@@ -52,8 +52,6 @@ namespace RootMotion::FinalIK {
     bool fixedFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IKExecutionOrder
-    IKExecutionOrder(::ArrayWrapper<RootMotion::FinalIK::IK*> IKComponents_ = {}, UnityEngine::Animator* animator_ = {}, bool fixedFrame_ = {}) noexcept : IKComponents{IKComponents_}, animator{animator_}, fixedFrame{fixedFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK[] IKComponents

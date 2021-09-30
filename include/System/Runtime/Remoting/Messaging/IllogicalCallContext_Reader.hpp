@@ -46,7 +46,6 @@ namespace System::Runtime::Remoting::Messaging {
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
     // Offset: 0x1C1866C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx)
     // public System.Object GetData(System.String name)
     // Offset: 0x1C14ECC

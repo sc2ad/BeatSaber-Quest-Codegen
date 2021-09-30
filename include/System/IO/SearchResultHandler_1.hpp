@@ -25,8 +25,6 @@ namespace System::IO {
   template<typename TSource>
   class SearchResultHandler_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SearchResultHandler_1
-    SearchResultHandler_1() noexcept {}
     // System.Boolean IsResultIncluded(System.IO.SearchResult result)
     // Offset: 0xFFFFFFFF
     bool IsResultIncluded(System::IO::SearchResult* result) {

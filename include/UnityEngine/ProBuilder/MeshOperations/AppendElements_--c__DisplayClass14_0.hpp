@@ -36,8 +36,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     int delCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass14_0
-    $$c__DisplayClass14_0(int delCount_ = {}) noexcept : delCount{delCount_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return delCount;

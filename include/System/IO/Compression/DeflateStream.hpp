@@ -77,8 +77,6 @@ namespace System::IO::Compression {
     System::IO::Compression::DeflateStreamNative* native;
     // Field size check
     static_assert(sizeof(System::IO::Compression::DeflateStreamNative*) == 0x8);
-    // Creating value type constructor for type: DeflateStream
-    DeflateStream(System::IO::Stream* base_stream_ = {}, System::IO::Compression::CompressionMode mode_ = {}, bool leaveOpen_ = {}, bool disposed_ = {}, System::IO::Compression::DeflateStreamNative* native_ = {}) noexcept : base_stream{base_stream_}, mode{mode_}, leaveOpen{leaveOpen_}, disposed{disposed_}, native{native_} {}
     // Get instance field reference: private System.IO.Stream base_stream
     System::IO::Stream*& dyn_base_stream();
     // Get instance field reference: private System.IO.Compression.CompressionMode mode

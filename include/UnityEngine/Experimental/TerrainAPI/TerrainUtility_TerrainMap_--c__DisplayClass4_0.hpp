@@ -34,8 +34,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
     int groupID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(int groupID_ = {}) noexcept : groupID{groupID_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return groupID;

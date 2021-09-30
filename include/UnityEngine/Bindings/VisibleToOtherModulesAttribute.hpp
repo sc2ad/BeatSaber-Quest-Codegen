@@ -23,8 +23,6 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DA54
   class VisibleToOtherModulesAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: VisibleToOtherModulesAttribute
-    VisibleToOtherModulesAttribute() noexcept {}
     // public System.Void .ctor(params System.String[] modules)
     // Offset: 0x261FA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

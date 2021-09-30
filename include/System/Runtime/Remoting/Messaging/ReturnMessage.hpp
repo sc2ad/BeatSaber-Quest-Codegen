@@ -136,8 +136,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Messaging::ArgInfo* inArgInfo;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::ArgInfo*) == 0x8);
-    // Creating value type constructor for type: ReturnMessage
-    ReturnMessage(::ArrayWrapper<::Il2CppObject*> outArgs_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx_ = {}, ::Il2CppObject* returnValue_ = {}, ::Il2CppString* uri_ = {}, System::Exception* exception_ = {}, System::Reflection::MethodBase* methodBase_ = {}, ::Il2CppString* methodName_ = {}, ::ArrayWrapper<System::Type*> methodSignature_ = {}, ::Il2CppString* typeName_ = {}, System::Runtime::Remoting::Messaging::MethodReturnDictionary* properties_ = {}, System::Runtime::Remoting::Identity* targetIdentity_ = {}, System::Runtime::Remoting::Messaging::ArgInfo* inArgInfo_ = {}) noexcept : outArgs{outArgs_}, args{args_}, callCtx{callCtx_}, returnValue{returnValue_}, uri{uri_}, exception{exception_}, methodBase{methodBase_}, methodName{methodName_}, methodSignature{methodSignature_}, typeName{typeName_}, properties{properties_}, targetIdentity{targetIdentity_}, inArgInfo{inArgInfo_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodReturnMessage
     operator System::Runtime::Remoting::Messaging::IMethodReturnMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);

@@ -22,8 +22,6 @@ namespace System::Runtime::InteropServices {
     bool inited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SafeBuffer
-    SafeBuffer(bool inited_ = {}) noexcept : inited{inited_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return inited;

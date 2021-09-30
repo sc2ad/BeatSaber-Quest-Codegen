@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: AlwaysOwnedContentContainerSO
-    AlwaysOwnedContentContainerSO(GlobalNamespace::AlwaysOwnedContentSO* alwaysOwnedContent_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedBeatmapLevelIds_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds_ = {}) noexcept : alwaysOwnedContent{alwaysOwnedContent_}, alwaysOwnedBeatmapLevelIds{alwaysOwnedBeatmapLevelIds_}, alwaysOwnedPacksIds{alwaysOwnedPacksIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AlwaysOwnedContentSO _alwaysOwnedContent

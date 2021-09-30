@@ -51,8 +51,6 @@ namespace System::Security::Cryptography {
     bool BufferFull;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TailStream
-    TailStream(::ArrayWrapper<uint8_t> Buffer_ = {}, int BufferSize_ = {}, int BufferIndex_ = {}, bool BufferFull_ = {}) noexcept : Buffer{Buffer_}, BufferSize{BufferSize_}, BufferIndex{BufferIndex_}, BufferFull{BufferFull_} {}
     // Get instance field reference: private System.Byte[] _Buffer
     ::ArrayWrapper<uint8_t>& dyn__Buffer();
     // Get instance field reference: private System.Int32 _BufferSize

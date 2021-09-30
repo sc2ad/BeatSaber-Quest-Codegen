@@ -14,8 +14,6 @@ namespace NUnit::Compatibility {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitNullType : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NUnitNullType
-    NUnitNullType() noexcept {}
   }; // NUnit.Compatibility.NUnitNullType
   #pragma pack(pop)
 }

@@ -70,8 +70,6 @@ namespace UnityEngine::UI {
     bool m_ChildScaleHeight;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HorizontalOrVerticalLayoutGroup
-    HorizontalOrVerticalLayoutGroup(float m_Spacing_ = {}, bool m_ChildForceExpandWidth_ = {}, bool m_ChildForceExpandHeight_ = {}, bool m_ChildControlWidth_ = {}, bool m_ChildControlHeight_ = {}, bool m_ChildScaleWidth_ = {}, bool m_ChildScaleHeight_ = {}) noexcept : m_Spacing{m_Spacing_}, m_ChildForceExpandWidth{m_ChildForceExpandWidth_}, m_ChildForceExpandHeight{m_ChildForceExpandHeight_}, m_ChildControlWidth{m_ChildControlWidth_}, m_ChildControlHeight{m_ChildControlHeight_}, m_ChildScaleWidth{m_ChildScaleWidth_}, m_ChildScaleHeight{m_ChildScaleHeight_} {}
     // Get instance field reference: protected System.Single m_Spacing
     float& dyn_m_Spacing();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth

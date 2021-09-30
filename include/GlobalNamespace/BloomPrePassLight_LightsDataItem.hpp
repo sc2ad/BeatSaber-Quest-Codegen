@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*) == 0x8);
-    // Creating value type constructor for type: LightsDataItem
-    LightsDataItem(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights_ = {}) noexcept : lightType{lightType_}, lights{lights_} {}
     // Get instance field reference: public readonly BloomPrePassLightTypeSO lightType
     GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights

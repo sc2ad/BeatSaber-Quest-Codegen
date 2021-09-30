@@ -80,8 +80,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ThreefishEngine
-    ThreefishEngine(int blocksizeBytes_ = {}, int blocksizeWords_ = {}, ::ArrayWrapper<uint64_t> currentBlock_ = {}, ::ArrayWrapper<uint64_t> t_ = {}, ::ArrayWrapper<uint64_t> kw_ = {}, Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher* cipher_ = {}, bool forEncryption_ = {}) noexcept : blocksizeBytes{blocksizeBytes_}, blocksizeWords{blocksizeWords_}, currentBlock{currentBlock_}, t{t_}, kw{kw_}, cipher{cipher_}, forEncryption{forEncryption_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

@@ -13,8 +13,6 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class IResourceGroveler {
     public:
-    // Creating value type constructor for type: IResourceGroveler
-    IResourceGroveler() noexcept {}
   }; // System.Resources.IResourceGroveler
   #pragma pack(pop)
 }

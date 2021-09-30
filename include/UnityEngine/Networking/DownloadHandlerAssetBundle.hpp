@@ -36,8 +36,6 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: ED5784
   class DownloadHandlerAssetBundle : public UnityEngine::Networking::DownloadHandler {
     public:
-    // Creating value type constructor for type: DownloadHandlerAssetBundle
-    DownloadHandlerAssetBundle() noexcept {}
     // public UnityEngine.AssetBundle get_assetBundle()
     // Offset: 0x26280C0
     UnityEngine::AssetBundle* get_assetBundle();

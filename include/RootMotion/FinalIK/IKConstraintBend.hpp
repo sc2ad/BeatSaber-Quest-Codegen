@@ -145,8 +145,6 @@ namespace RootMotion::FinalIK {
     bool limbOrientationsSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IKConstraintBend
-    IKConstraintBend(UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, UnityEngine::Transform* bendGoal_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, float weight_ = {}, UnityEngine::Vector3 defaultLocalDirection_ = {}, UnityEngine::Vector3 defaultChildDirection_ = {}, float clampF_ = {}, int chainIndex1_ = {}, int nodeIndex1_ = {}, int chainIndex2_ = {}, int nodeIndex2_ = {}, int chainIndex3_ = {}, int nodeIndex3_ = {}, bool initiated_ = {}, bool limbOrientationsSet_ = {}) noexcept : bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, bendGoal{bendGoal_}, direction{direction_}, rotationOffset{rotationOffset_}, weight{weight_}, defaultLocalDirection{defaultLocalDirection_}, defaultChildDirection{defaultChildDirection_}, clampF{clampF_}, chainIndex1{chainIndex1_}, nodeIndex1{nodeIndex1_}, chainIndex2{chainIndex2_}, nodeIndex2{nodeIndex2_}, chainIndex3{chainIndex3_}, nodeIndex3{nodeIndex3_}, initiated{initiated_}, limbOrientationsSet{limbOrientationsSet_} {}
     // Get instance field reference: public UnityEngine.Transform bone1
     UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: public UnityEngine.Transform bone2

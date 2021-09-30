@@ -23,8 +23,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SubContainerCreatorUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SubContainerCreatorUtil
-    SubContainerCreatorUtil() noexcept {}
     // static public System.Void ApplyBindSettings(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.DiContainer subContainer)
     // Offset: 0x18A26F0
     static void ApplyBindSettings(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::DiContainer* subContainer);

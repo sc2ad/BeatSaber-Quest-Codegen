@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
-    // Creating value type constructor for type: MultiplayerBigAvatarInstaller
-    MultiplayerBigAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::SaberManager::InitData* saberManagerInitData_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playerSpecificSettings_ = {}) noexcept : connectedPlayer{connectedPlayer_}, saberManagerInitData{saberManagerInitData_}, playerSpecificSettings{playerSpecificSettings_} {}
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly SaberManager/InitData _saberManagerInitData

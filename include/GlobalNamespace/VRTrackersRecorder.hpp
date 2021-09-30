@@ -156,8 +156,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion loadedOriginRot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: VRTrackersRecorder
-    VRTrackersRecorder(GlobalNamespace::FloatSO* songTime_ = {}, ::Il2CppString* saveFilename_ = {}, GlobalNamespace::VRTrackersRecorder::RecordMode mode_ = {}, UnityEngine::Transform* originTransform_ = {}, ::ArrayWrapper<UnityEngine::Transform*> playbackTransforms_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>* keyframes_ = {}, int keyframeIndex_ = {}, GlobalNamespace::SteamVR_Events::Action* newPosesAction_ = {}, UnityEngine::Vector3 loadedOriginPos_ = {}, UnityEngine::Quaternion loadedOriginRot_ = {}) noexcept : songTime{songTime_}, saveFilename{saveFilename_}, mode{mode_}, originTransform{originTransform_}, playbackTransforms{playbackTransforms_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_}, newPosesAction{newPosesAction_}, loadedOriginPos{loadedOriginPos_}, loadedOriginRot{loadedOriginRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime

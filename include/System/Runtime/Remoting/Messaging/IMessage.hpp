@@ -21,8 +21,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E600A4
   class IMessage {
     public:
-    // Creating value type constructor for type: IMessage
-    IMessage() noexcept {}
     // public System.Collections.IDictionary get_Properties()
     // Offset: 0xFFFFFFFF
     System::Collections::IDictionary* get_Properties();

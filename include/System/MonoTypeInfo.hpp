@@ -38,8 +38,6 @@ namespace System {
     System::Reflection::MonoCMethod* default_ctor;
     // Field size check
     static_assert(sizeof(System::Reflection::MonoCMethod*) == 0x8);
-    // Creating value type constructor for type: MonoTypeInfo
-    MonoTypeInfo(::Il2CppString* full_name_ = {}, System::Reflection::MonoCMethod* default_ctor_ = {}) noexcept : full_name{full_name_}, default_ctor{default_ctor_} {}
     // Get instance field reference: public System.String full_name
     ::Il2CppString*& dyn_full_name();
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor

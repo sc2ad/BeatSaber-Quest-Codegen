@@ -33,8 +33,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::ArrayWrapper<int> negObjects;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: IntSizedArray
-    IntSizedArray(::ArrayWrapper<int> objects_ = {}, ::ArrayWrapper<int> negObjects_ = {}) noexcept : objects{objects_}, negObjects{negObjects_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

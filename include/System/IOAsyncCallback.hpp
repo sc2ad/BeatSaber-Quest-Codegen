@@ -31,8 +31,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOAsyncCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: IOAsyncCallback
-    IOAsyncCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x156A16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

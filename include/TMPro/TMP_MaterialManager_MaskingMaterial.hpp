@@ -51,8 +51,6 @@ namespace TMPro {
     int stencilID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MaskingMaterial
-    MaskingMaterial(UnityEngine::Material* baseMaterial_ = {}, UnityEngine::Material* stencilMaterial_ = {}, int count_ = {}, int stencilID_ = {}) noexcept : baseMaterial{baseMaterial_}, stencilMaterial{stencilMaterial_}, count{count_}, stencilID{stencilID_} {}
     // Get instance field reference: public UnityEngine.Material baseMaterial
     UnityEngine::Material*& dyn_baseMaterial();
     // Get instance field reference: public UnityEngine.Material stencilMaterial

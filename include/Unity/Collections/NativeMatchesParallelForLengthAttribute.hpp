@@ -18,8 +18,6 @@ namespace Unity::Collections {
   // [AttributeUsageAttribute] Offset: E6FB20
   class NativeMatchesParallelForLengthAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeMatchesParallelForLengthAttribute
-    NativeMatchesParallelForLengthAttribute() noexcept {}
   }; // Unity.Collections.NativeMatchesParallelForLengthAttribute
   #pragma pack(pop)
 }

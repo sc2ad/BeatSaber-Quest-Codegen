@@ -71,8 +71,6 @@ namespace HMUI {
     float moveOffsetMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $DoPresentTransition$d__3
-    $DoPresentTransition$d__3(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ViewController::AnimationDirection animationDirection_ = {}, HMUI::ViewController* toPresentViewController_ = {}, HMUI::ViewController* toDismissViewController_ = {}, float moveOffsetMultiplier_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, animationDirection{animationDirection_}, toPresentViewController{toPresentViewController_}, toDismissViewController{toDismissViewController_}, moveOffsetMultiplier{moveOffsetMultiplier_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

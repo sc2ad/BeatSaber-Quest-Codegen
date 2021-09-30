@@ -16,8 +16,6 @@ namespace Mono::Security::Protocol::Ntlm {
   // [TokenAttribute] Offset: FFFFFFFF
   class NtlmSettings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NtlmSettings
-    NtlmSettings() noexcept {}
     // Get static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel
     static Mono::Security::Protocol::Ntlm::NtlmAuthLevel _get_defaultAuthLevel();
     // Set static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel

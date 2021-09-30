@@ -28,8 +28,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TValue>
   class PoolableMemoryPool_3 : public Zenject::MemoryPool_3<TParam1, TParam2, TValue> {
     public:
-    // Creating value type constructor for type: PoolableMemoryPool_3
-    PoolableMemoryPool_3() noexcept {}
     // protected System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDespawned(TValue item) {

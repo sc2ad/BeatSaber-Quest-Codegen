@@ -58,8 +58,6 @@ namespace System::Net {
     int m_hash;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SocketAddress
-    SocketAddress(int m_Size_ = {}, ::ArrayWrapper<uint8_t> m_Buffer_ = {}, bool m_changed_ = {}, int m_hash_ = {}) noexcept : m_Size{m_Size_}, m_Buffer{m_Buffer_}, m_changed{m_changed_}, m_hash{m_hash_} {}
     // Get instance field reference: System.Int32 m_Size
     int& dyn_m_Size();
     // Get instance field reference: System.Byte[] m_Buffer

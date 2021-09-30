@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     ::Il2CppString* typeNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EnvironmentTypeSO
-    EnvironmentTypeSO(::Il2CppString* typeNameLocalizationKey_ = {}) noexcept : typeNameLocalizationKey{typeNameLocalizationKey_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _typeNameLocalizationKey

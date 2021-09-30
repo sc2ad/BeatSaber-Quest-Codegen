@@ -133,8 +133,6 @@ namespace System {
     ::ArrayWrapper<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::TimeZoneInfo::AdjustmentRule*>) == 0x8);
-    // Creating value type constructor for type: TimeZoneInfo
-    TimeZoneInfo(System::TimeSpan baseUtcOffset_ = {}, ::Il2CppString* daylightDisplayName_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* id_ = {}, System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* transitions_ = {}, ::Il2CppString* standardDisplayName_ = {}, bool supportsDaylightSavingTime_ = {}, ::ArrayWrapper<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules_ = {}) noexcept : baseUtcOffset{baseUtcOffset_}, daylightDisplayName{daylightDisplayName_}, displayName{displayName_}, id{id_}, transitions{transitions_}, standardDisplayName{standardDisplayName_}, supportsDaylightSavingTime{supportsDaylightSavingTime_}, adjustmentRules{adjustmentRules_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::TimeZoneInfo*>
     operator System::IEquatable_1<System::TimeZoneInfo*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::TimeZoneInfo*>*>(this);

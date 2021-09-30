@@ -16,8 +16,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HTTP_REQUEST_HEADER_ID
-    HTTP_REQUEST_HEADER_ID() noexcept {}
     // Get static field: static private System.String[] m_Strings
     static ::ArrayWrapper<::Il2CppString*> _get_m_Strings();
     // Set static field: static private System.String[] m_Strings

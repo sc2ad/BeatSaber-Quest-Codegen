@@ -54,8 +54,6 @@ namespace Mono::Xml {
     System::Collections::Stack* stack;
     // Field size check
     static_assert(sizeof(System::Collections::Stack*) == 0x8);
-    // Creating value type constructor for type: SecurityParser
-    SecurityParser(System::Security::SecurityElement* root_ = {}, System::Security::SecurityElement* current_ = {}, System::Collections::Stack* stack_ = {}) noexcept : root{root_}, current{current_}, stack{stack_} {}
     // Creating interface conversion operator: operator Mono::Xml::SmallXmlParser::IContentHandler
     operator Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);

@@ -18,8 +18,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class CRC32C : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CRC32C
-    CRC32C() noexcept {}
     // static field const value: static public System.Int32 ChecksumSize
     static constexpr const int ChecksumSize = 4;
     // Get static field: static public System.Int32 ChecksumSize

@@ -56,8 +56,6 @@ namespace Zenject {
     Zenject::DiContainer* Container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: IFactoryProviderBase_1
-    IFactoryProviderBase_1(System::Guid FactoryId_ = {}, Zenject::DiContainer* Container_ = {}) noexcept : FactoryId{FactoryId_}, Container{Container_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

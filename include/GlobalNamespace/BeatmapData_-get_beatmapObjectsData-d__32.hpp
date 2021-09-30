@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectData* $minBeatmapObjectData$5__4;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectData*) == 0x8);
-    // Creating value type constructor for type: $get_beatmapObjectsData$d__32
-    $get_beatmapObjectsData$d__32(int $$1__state_ = {}, GlobalNamespace::BeatmapObjectData* $$2__current_ = {}, int $$l__initialThreadId_ = {}, GlobalNamespace::BeatmapData* $$4__this_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLineData*> $beatmapLinesData$5__2_ = {}, ::ArrayWrapper<int> $idxs$5__3_ = {}, GlobalNamespace::BeatmapObjectData* $minBeatmapObjectData$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $beatmapLinesData$5__2{$beatmapLinesData$5__2_}, $idxs$5__3{$idxs$5__3_}, $minBeatmapObjectData$5__4{$minBeatmapObjectData$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>
     operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>*>(this);

@@ -39,8 +39,6 @@ namespace HMUI {
     ::Il2CppString* hintText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DataItem
-    DataItem(UnityEngine::Sprite* icon_ = {}, ::Il2CppString* hintText_ = {}) noexcept : icon{icon_}, hintText{hintText_} {}
     // Get instance field reference: private UnityEngine.Sprite <icon>k__BackingField
     UnityEngine::Sprite*& dyn_$icon$k__BackingField();
     // Get instance field reference: private System.String <hintText>k__BackingField

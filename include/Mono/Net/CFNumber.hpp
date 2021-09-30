@@ -22,8 +22,6 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFNumber : public Mono::Net::CFObject {
     public:
-    // Creating value type constructor for type: CFNumber
-    CFNumber() noexcept {}
     // static private System.Boolean CFNumberGetValue(System.IntPtr handle, System.IntPtr type, out System.Int32 value)
     // Offset: 0x17B92B0
     static bool CFNumberGetValue(System::IntPtr handle, System::IntPtr type, ByRef<int> value);

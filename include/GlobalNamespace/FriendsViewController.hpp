@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     bool allowAnyoneToJoin;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FriendsViewController
-    FriendsViewController(UnityEngine::UI::Toggle* enableOpenPartyToggle_ = {}, GlobalNamespace::PlatformNetworkPlayerModel* networkPlayerModel_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool allowAnyoneToJoin_ = {}) noexcept : enableOpenPartyToggle{enableOpenPartyToggle_}, networkPlayerModel{networkPlayerModel_}, networkConfig{networkConfig_}, toggleBinder{toggleBinder_}, allowAnyoneToJoin{allowAnyoneToJoin_} {}
     // Get instance field reference: private UnityEngine.UI.Toggle _enableOpenPartyToggle
     UnityEngine::UI::Toggle*& dyn__enableOpenPartyToggle();
     // Get instance field reference: private readonly PlatformNetworkPlayerModel _networkPlayerModel

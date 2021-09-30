@@ -91,8 +91,6 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     ::Il2CppString* m_PrimaryKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ResourceLocationBase
-    ResourceLocationBase(::Il2CppString* m_Name_ = {}, ::Il2CppString* m_Id_ = {}, ::Il2CppString* m_ProviderId_ = {}, ::Il2CppObject* m_Data_ = {}, int m_DependencyHashCode_ = {}, int m_HashCode_ = {}, System::Type* m_Type_ = {}, System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_Dependencies_ = {}, ::Il2CppString* m_PrimaryKey_ = {}) noexcept : m_Name{m_Name_}, m_Id{m_Id_}, m_ProviderId{m_ProviderId_}, m_Data{m_Data_}, m_DependencyHashCode{m_DependencyHashCode_}, m_HashCode{m_HashCode_}, m_Type{m_Type_}, m_Dependencies{m_Dependencies_}, m_PrimaryKey{m_PrimaryKey_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
     operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);

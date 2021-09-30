@@ -134,7 +134,6 @@ namespace System::Collections::Generic {
       }
       // System.Void .ctor(System.Collections.Generic.Stack`1<T> stack)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Collections::Generic::Stack_1<T>* stack) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Stack_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stack)})));
@@ -194,8 +193,6 @@ namespace System::Collections::Generic {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: Stack_1
-    Stack_1(::ArrayWrapper<T> array_ = {}, int size_ = {}, int version_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : array{array_}, size{size_}, version{version_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<T>
     operator System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);

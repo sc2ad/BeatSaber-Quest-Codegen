@@ -29,8 +29,6 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
   // [TokenAttribute] Offset: FFFFFFFF
   class TeleTrusTNamedCurves::BrainpoolP192r1Holder : public Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
     public:
-    // Creating value type constructor for type: BrainpoolP192r1Holder
-    BrainpoolP192r1Holder() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance

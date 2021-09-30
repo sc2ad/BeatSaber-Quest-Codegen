@@ -126,8 +126,6 @@ namespace VRUIControls {
     VRUIControls::MouseState* mouseState;
     // Field size check
     static_assert(sizeof(VRUIControls::MouseState*) == 0x8);
-    // Creating value type constructor for type: VRInputModule
-    VRInputModule(VRUIControls::VRPointer* vrPointer_ = {}, Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackController_ = {}, bool useMouseForPressInput_ = {}, System::Action_1<UnityEngine::GameObject*>* onProcessMousePressEvent_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* pointerData_ = {}, System::Collections::Generic::List_1<UnityEngine::Component*>* componentList_ = {}, VRUIControls::MouseState* mouseState_ = {}) noexcept : vrPointer{vrPointer_}, rumblePreset{rumblePreset_}, hapticFeedbackController{hapticFeedbackController_}, useMouseForPressInput{useMouseForPressInput_}, onProcessMousePressEvent{onProcessMousePressEvent_}, pointerData{pointerData_}, componentList{componentList_}, mouseState{mouseState_} {}
     // static field const value: static private System.Int32 kMouseLeftId
     static constexpr const int kMouseLeftId = -1;
     // Get static field: static private System.Int32 kMouseLeftId

@@ -25,8 +25,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequest::WebProxyWrapper : public System::Net::WebRequest::WebProxyWrapperOpaque {
     public:
-    // Creating value type constructor for type: WebProxyWrapper
-    WebProxyWrapper() noexcept {}
     // System.Net.WebProxy get_WebProxy()
     // Offset: 0x1788380
     System::Net::WebProxy* get_WebProxy();

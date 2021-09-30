@@ -25,8 +25,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOuterUnityTestAction {
     public:
-    // Creating value type constructor for type: IOuterUnityTestAction
-    IOuterUnityTestAction() noexcept {}
     // public System.Collections.IEnumerator BeforeTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* BeforeTest(NUnit::Framework::Interfaces::ITest* test);

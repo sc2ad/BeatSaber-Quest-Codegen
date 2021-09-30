@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* didSelectCellWithIdxEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // Creating value type constructor for type: BeatmapCharacteristicsDropdown
-    BeatmapCharacteristicsDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* didSelectCellWithIdxEvent_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

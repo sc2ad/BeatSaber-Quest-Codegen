@@ -55,7 +55,6 @@ namespace UnityEngine {
     void set_rotation(UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CAAC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem)
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
     // Offset: 0x261D52C

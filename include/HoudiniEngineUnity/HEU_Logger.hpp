@@ -26,8 +26,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Logger : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_Logger
-    HEU_Logger() noexcept {}
     // static public System.Void Log(System.String text)
     // Offset: 0x152AFD0
     static void Log(::Il2CppString* text);

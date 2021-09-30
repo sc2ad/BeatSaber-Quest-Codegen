@@ -14,8 +14,6 @@ namespace System::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConfigurationSectionGroup : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConfigurationSectionGroup
-    ConfigurationSectionGroup() noexcept {}
   }; // System.Configuration.ConfigurationSectionGroup
   #pragma pack(pop)
 }

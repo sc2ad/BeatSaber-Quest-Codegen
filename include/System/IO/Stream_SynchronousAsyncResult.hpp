@@ -86,8 +86,6 @@ namespace System::IO {
     int bytesRead;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SynchronousAsyncResult
-    SynchronousAsyncResult(::Il2CppObject* stateObject_ = {}, bool isWrite_ = {}, System::Threading::ManualResetEvent* waitHandle_ = {}, System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionInfo_ = {}, bool endXxxCalled_ = {}, int bytesRead_ = {}) noexcept : stateObject{stateObject_}, isWrite{isWrite_}, waitHandle{waitHandle_}, exceptionInfo{exceptionInfo_}, endXxxCalled{endXxxCalled_}, bytesRead{bytesRead_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TimeExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimeExtensions
-    TimeExtensions() noexcept {}
     // static public System.String MinSecDurationText(System.Single duration)
     // Offset: 0x259B398
     static ::Il2CppString* MinSecDurationText(float duration);

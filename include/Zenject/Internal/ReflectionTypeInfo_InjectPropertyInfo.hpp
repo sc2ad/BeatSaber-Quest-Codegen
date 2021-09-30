@@ -45,8 +45,6 @@ namespace Zenject::Internal {
     Zenject::InjectableInfo* InjectableInfo;
     // Field size check
     static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
-    // Creating value type constructor for type: InjectPropertyInfo
-    InjectPropertyInfo(System::Reflection::PropertyInfo* PropertyInfo_ = {}, Zenject::InjectableInfo* InjectableInfo_ = {}) noexcept : PropertyInfo{PropertyInfo_}, InjectableInfo{InjectableInfo_} {}
     // Get instance field reference: public readonly System.Reflection.PropertyInfo PropertyInfo
     System::Reflection::PropertyInfo*& dyn_PropertyInfo();
     // Get instance field reference: public readonly Zenject.InjectableInfo InjectableInfo

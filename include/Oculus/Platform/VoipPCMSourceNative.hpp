@@ -26,8 +26,6 @@ namespace Oculus::Platform {
     uint64_t senderID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: VoipPCMSourceNative
-    VoipPCMSourceNative(uint64_t senderID_ = {}) noexcept : senderID{senderID_} {}
     // Creating interface conversion operator: operator Oculus::Platform::IVoipPCMSource
     operator Oculus::Platform::IVoipPCMSource() noexcept {
       return *reinterpret_cast<Oculus::Platform::IVoipPCMSource*>(this);

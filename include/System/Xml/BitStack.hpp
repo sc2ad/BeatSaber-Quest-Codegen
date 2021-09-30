@@ -36,8 +36,6 @@ namespace System::Xml {
     uint curr;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: BitStack
-    BitStack(::ArrayWrapper<uint> bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
     // Get instance field reference: private System.UInt32[] bitStack
     ::ArrayWrapper<uint>& dyn_bitStack();
     // Get instance field reference: private System.Int32 stackPos

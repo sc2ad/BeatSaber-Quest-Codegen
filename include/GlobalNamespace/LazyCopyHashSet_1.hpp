@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     bool dirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LazyCopyHashSet_1
-    LazyCopyHashSet_1(System::Collections::Generic::List_1<T>* itemsCopy_ = {}, System::Collections::Generic::HashSet_1<T>* items_ = {}, bool dirty_ = {}) noexcept : itemsCopy{itemsCopy_}, items{items_}, dirty{dirty_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILazyCopyHashSet_1<T>
     operator GlobalNamespace::ILazyCopyHashSet_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILazyCopyHashSet_1<T>*>(this);

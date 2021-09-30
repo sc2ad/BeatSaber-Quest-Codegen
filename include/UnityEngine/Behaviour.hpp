@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E72608
   class Behaviour : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: Behaviour
-    Behaviour() noexcept {}
     // public System.Boolean get_enabled()
     // Offset: 0x1CAE0A4
     bool get_enabled();

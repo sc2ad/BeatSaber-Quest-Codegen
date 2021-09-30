@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILevelEndActions {
     public:
-    // Creating value type constructor for type: ILevelEndActions
-    ILevelEndActions() noexcept {}
     // public System.Void add_levelFailedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_levelFailedEvent(System::Action* value);

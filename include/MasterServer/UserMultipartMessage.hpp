@@ -30,8 +30,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserMultipartMessage : public MasterServer::BaseMasterServerMultipartMessage/*, public MasterServer::IUserMessage*/ {
     public:
-    // Creating value type constructor for type: UserMultipartMessage
-    UserMultipartMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IUserMessage
     operator MasterServer::IUserMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserMessage*>(this);

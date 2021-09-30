@@ -21,8 +21,6 @@ namespace Zenject {
   // [AttributeUsageAttribute] Offset: EAD568
   class InjectAttribute : public Zenject::InjectAttributeBase {
     public:
-    // Creating value type constructor for type: InjectAttribute
-    InjectAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610B84
     // Implemented from: Zenject.InjectAttributeBase

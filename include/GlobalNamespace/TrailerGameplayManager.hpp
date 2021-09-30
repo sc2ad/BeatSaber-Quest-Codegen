@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainCamera*) == 0x8);
-    // Creating value type constructor for type: TrailerGameplayManager
-    TrailerGameplayManager(bool disableMainCamera_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}) noexcept : disableMainCamera{disableMainCamera_}, gameScenesManager{gameScenesManager_}, gameSongController{gameSongController_}, mainCamera{mainCamera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _disableMainCamera

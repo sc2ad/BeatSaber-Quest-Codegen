@@ -64,8 +64,6 @@ namespace Oculus::Platform {
     Oculus::Platform::IVoipPCMSource* pcmSource;
     // Field size check
     static_assert(sizeof(Oculus::Platform::IVoipPCMSource*) == 0x8);
-    // Creating value type constructor for type: VoipAudioSourceHiLevel
-    VoipAudioSourceHiLevel(int initialPlaybackDelayMS_ = {}, UnityEngine::AudioSource* audioSource_ = {}, float peakAmplitude_ = {}, Oculus::Platform::IVoipPCMSource* pcmSource_ = {}) noexcept : initialPlaybackDelayMS{initialPlaybackDelayMS_}, audioSource{audioSource_}, peakAmplitude{peakAmplitude_}, pcmSource{pcmSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Int32 audioSystemPlaybackFrequency

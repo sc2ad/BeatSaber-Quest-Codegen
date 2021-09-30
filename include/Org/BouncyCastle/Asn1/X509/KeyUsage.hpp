@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyUsage : public Org::BouncyCastle::Asn1::DerBitString {
     public:
-    // Creating value type constructor for type: KeyUsage
-    KeyUsage() noexcept {}
     // private System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
     // Offset: 0x1BBA6B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

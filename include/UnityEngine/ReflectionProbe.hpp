@@ -76,8 +76,6 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(ReflectionProbe::ReflectionProbeEvent), 0 + sizeof(int)> __UnityEngine_ReflectionProbe_ReflectionProbeEventSizeCheck;
     static_assert(sizeof(ReflectionProbe::ReflectionProbeEvent) == 0x4);
-    // Creating value type constructor for type: ReflectionProbe
-    ReflectionProbe() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE75418
     // Get static field: static private System.Action`2<UnityEngine.ReflectionProbe,UnityEngine.ReflectionProbe/UnityEngine.ReflectionProbeEvent> reflectionProbeChanged
     static System::Action_2<UnityEngine::ReflectionProbe*, UnityEngine::ReflectionProbe::ReflectionProbeEvent>* _get_reflectionProbeChanged();

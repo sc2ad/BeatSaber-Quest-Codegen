@@ -30,8 +30,6 @@ namespace System::Runtime::CompilerServices {
     System::Decimal dec;
     // Field size check
     static_assert(sizeof(System::Decimal) == 0x10);
-    // Creating value type constructor for type: DecimalConstantAttribute
-    DecimalConstantAttribute(System::Decimal dec_ = {}) noexcept : dec{dec_} {}
     // Creating conversion operator: operator System::Decimal
     constexpr operator System::Decimal() const noexcept {
       return dec;

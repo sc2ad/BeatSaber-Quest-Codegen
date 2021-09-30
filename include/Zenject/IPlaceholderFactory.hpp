@@ -15,8 +15,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlaceholderFactory/*, public Zenject::IValidatable*/ {
     public:
-    // Creating value type constructor for type: IPlaceholderFactory
-    IPlaceholderFactory() noexcept {}
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);

@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSStarTextEffectValueParser : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BTSStarTextEffectValueParser
-    BTSStarTextEffectValueParser() noexcept {}
     // static field const value: static private System.Int32 kTextMask
     static constexpr const int kTextMask = 255;
     // Get static field: static private System.Int32 kTextMask

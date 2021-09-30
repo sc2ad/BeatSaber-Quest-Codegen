@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectAvoidancePathEvaluator
-    BeatmapObjectAvoidancePathEvaluator(float jumpStartZ_ = {}, float jumpEndZ_ = {}, float zOffset_ = {}, float yOffset_ = {}, float noteJumpSpeed_ = {}, float moveToPlayerHeadTParam_ = {}, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}) noexcept : jumpStartZ{jumpStartZ_}, jumpEndZ{jumpEndZ_}, zOffset{zOffset_}, yOffset{yOffset_}, noteJumpSpeed{noteJumpSpeed_}, moveToPlayerHeadTParam{moveToPlayerHeadTParam_}, pathBezierCurveEvaluator{pathBezierCurveEvaluator_}, audioTimeSource{audioTimeSource_}, playerTransforms{playerTransforms_} {}
     // Get instance field reference: private readonly System.Single _jumpStartZ
     float& dyn__jumpStartZ();
     // Get instance field reference: private readonly System.Single _jumpEndZ

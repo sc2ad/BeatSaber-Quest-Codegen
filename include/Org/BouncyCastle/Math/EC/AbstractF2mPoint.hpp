@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractF2mPoint : public Org::BouncyCastle::Math::EC::ECPointBase {
     public:
-    // Creating value type constructor for type: AbstractF2mPoint
-    AbstractF2mPoint() noexcept {}
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint TauPow(System.Int32 pow)
     // Offset: 0x1F574D0
     Org::BouncyCastle::Math::EC::AbstractF2mPoint* TauPow(int pow);

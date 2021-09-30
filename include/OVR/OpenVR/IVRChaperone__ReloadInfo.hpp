@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB06D0
   class IVRChaperone::_ReloadInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ReloadInfo
-    _ReloadInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17712E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

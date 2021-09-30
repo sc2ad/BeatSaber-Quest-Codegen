@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     ::Il2CppString* lobbyCode;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SelectMultiplayerLobbyDestination
-    SelectMultiplayerLobbyDestination(::Il2CppString* lobbySecret_ = {}, ::Il2CppString* lobbyCode_ = {}) noexcept : lobbySecret{lobbySecret_}, lobbyCode{lobbyCode_} {}
     // Get instance field reference: public readonly System.String lobbySecret
     ::Il2CppString*& dyn_lobbySecret();
     // Get instance field reference: public readonly System.String lobbyCode

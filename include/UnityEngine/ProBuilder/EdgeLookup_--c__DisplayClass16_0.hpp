@@ -40,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::Dictionary_2<int, int>* lookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass16_0
-    $$c__DisplayClass16_0(System::Collections::Generic::Dictionary_2<int, int>* lookup_ = {}) noexcept : lookup{lookup_} {}
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, int>*
     constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const noexcept {
       return lookup;

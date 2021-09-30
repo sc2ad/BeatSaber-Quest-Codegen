@@ -66,8 +66,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* UserName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PartyUpdateNotification
-    PartyUpdateNotification(Oculus::Platform::PartyUpdateAction Action_ = {}, uint64_t PartyId_ = {}, uint64_t SenderId_ = {}, ::Il2CppString* UpdateTimestamp_ = {}, ::Il2CppString* UserAlias_ = {}, uint64_t UserId_ = {}, ::Il2CppString* UserName_ = {}) noexcept : Action{Action_}, PartyId{PartyId_}, SenderId{SenderId_}, UpdateTimestamp{UpdateTimestamp_}, UserAlias{UserAlias_}, UserId{UserId_}, UserName{UserName_} {}
     // Get instance field reference: public readonly Oculus.Platform.PartyUpdateAction Action
     Oculus::Platform::PartyUpdateAction& dyn_Action();
     // Get instance field reference: public readonly System.UInt64 PartyId

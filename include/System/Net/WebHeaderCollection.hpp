@@ -147,8 +147,6 @@ namespace System::Net {
     System::Net::WebHeaderCollectionType m_Type;
     // Field size check
     static_assert(sizeof(System::Net::WebHeaderCollectionType) == 0x2);
-    // Creating value type constructor for type: WebHeaderCollection
-    WebHeaderCollection(::ArrayWrapper<::Il2CppString*> m_CommonHeaders_ = {}, int m_NumCommonHeaders_ = {}, System::Collections::Specialized::NameValueCollection* m_InnerCollection_ = {}, System::Net::WebHeaderCollectionType m_Type_ = {}) noexcept : m_CommonHeaders{m_CommonHeaders_}, m_NumCommonHeaders{m_NumCommonHeaders_}, m_InnerCollection{m_InnerCollection_}, m_Type{m_Type_} {}
     // Get static field: static private readonly System.Net.HeaderInfoTable HInfo
     static System::Net::HeaderInfoTable* _get_HInfo();
     // Set static field: static private readonly System.Net.HeaderInfoTable HInfo

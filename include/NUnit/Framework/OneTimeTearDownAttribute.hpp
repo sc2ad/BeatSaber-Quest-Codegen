@@ -17,8 +17,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE788
   class OneTimeTearDownAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: OneTimeTearDownAttribute
-    OneTimeTearDownAttribute() noexcept {}
   }; // NUnit.Framework.OneTimeTearDownAttribute
   #pragma pack(pop)
 }

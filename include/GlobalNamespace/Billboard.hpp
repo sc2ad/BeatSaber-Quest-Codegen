@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: Billboard
-    Billboard(GlobalNamespace::Billboard::RotationMode rotationMode_ = {}, bool flipDirection_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : rotationMode{rotationMode_}, flipDirection{flipDirection_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Billboard/RotationMode _rotationMode

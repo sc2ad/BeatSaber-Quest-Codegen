@@ -36,8 +36,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ThreadedTaskLoadGeo::HEU_LoadCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: HEU_LoadCallback
-    HEU_LoadCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16FAE98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

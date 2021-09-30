@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // Creating value type constructor for type: ParametricBoxFrameController
-    ParametricBoxFrameController(float width_ = {}, float height_ = {}, float length_ = {}, float edgeSize_ = {}, UnityEngine::Color color_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}) noexcept : width{width_}, height{height_}, length{length_}, edgeSize{edgeSize_}, color{color_}, meshRenderer{meshRenderer_}, materialPropertyBlockController{materialPropertyBlockController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE5C4

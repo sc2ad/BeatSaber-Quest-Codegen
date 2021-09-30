@@ -59,8 +59,6 @@ namespace Polyglot {
     bool downloadOnStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LocalizationDocument
-    LocalizationDocument(::Il2CppString* docsId_ = {}, ::Il2CppString* sheetId_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}, UnityEngine::TextAsset* textAsset_ = {}, bool downloadOnStart_ = {}) noexcept : docsId{docsId_}, sheetId{sheetId_}, format{format_}, textAsset{textAsset_}, downloadOnStart{downloadOnStart_} {}
     // Get instance field reference: private System.String docsId
     ::Il2CppString*& dyn_docsId();
     // Get instance field reference: private System.String sheetId

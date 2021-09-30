@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_MeshFilter_Extensions
-    Test_MeshFilter_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_MeshFilter ToTestObject(UnityEngine.MeshFilter self)
     // Offset: 0x25D152C
     static HoudiniEngineUnity::Test_MeshFilter* ToTestObject(UnityEngine::MeshFilter* self);

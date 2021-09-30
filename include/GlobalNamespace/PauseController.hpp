@@ -128,8 +128,6 @@ namespace GlobalNamespace {
     bool paused;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PauseController
-    PauseController(GlobalNamespace::PauseMenuManager* pauseMenuManager_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::ILevelRestartController* levelRestartController_ = {}, GlobalNamespace::IReturnToMenuController* returnToMenuController_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Action* didPauseEvent_ = {}, System::Action* didResumeEvent_ = {}, System::Action_1<System::Action_1<bool>*>* canPauseEvent_ = {}, System::Action* didReturnToMenuEvent_ = {}, bool paused_ = {}) noexcept : pauseMenuManager{pauseMenuManager_}, gamePause{gamePause_}, menuButtonTrigger{menuButtonTrigger_}, beatmapObjectManager{beatmapObjectManager_}, levelRestartController{levelRestartController_}, returnToMenuController{returnToMenuController_}, vrPlatformHelper{vrPlatformHelper_}, didPauseEvent{didPauseEvent_}, didResumeEvent{didResumeEvent_}, canPauseEvent{canPauseEvent_}, didReturnToMenuEvent{didReturnToMenuEvent_}, paused{paused_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PauseMenuManager _pauseMenuManager

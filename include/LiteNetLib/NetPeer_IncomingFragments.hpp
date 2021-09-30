@@ -51,8 +51,6 @@ namespace LiteNetLib {
     uint8_t ChannelId;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: IncomingFragments
-    IncomingFragments(::ArrayWrapper<LiteNetLib::NetPacket*> Fragments_ = {}, int ReceivedCount_ = {}, int TotalSize_ = {}, uint8_t ChannelId_ = {}) noexcept : Fragments{Fragments_}, ReceivedCount{ReceivedCount_}, TotalSize{TotalSize_}, ChannelId{ChannelId_} {}
     // Get instance field reference: public LiteNetLib.NetPacket[] Fragments
     ::ArrayWrapper<LiteNetLib::NetPacket*>& dyn_Fragments();
     // Get instance field reference: public System.Int32 ReceivedCount

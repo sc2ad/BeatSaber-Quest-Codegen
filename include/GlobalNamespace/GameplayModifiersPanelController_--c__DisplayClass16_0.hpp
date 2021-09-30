@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersPanelController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersPanelController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass16_0
-    $$c__DisplayClass16_0(GlobalNamespace::GameplayModifierToggle* gameplayModifierToggle_ = {}, GlobalNamespace::GameplayModifiersPanelController* $$4__this_ = {}) noexcept : gameplayModifierToggle{gameplayModifierToggle_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public GameplayModifierToggle gameplayModifierToggle
     GlobalNamespace::GameplayModifierToggle*& dyn_gameplayModifierToggle();
     // Get instance field reference: public GameplayModifiersPanelController <>4__this

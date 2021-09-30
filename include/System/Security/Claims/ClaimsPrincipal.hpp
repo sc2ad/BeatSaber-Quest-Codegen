@@ -73,8 +73,6 @@ namespace System::Security::Claims {
     System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>* m_identities;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>*) == 0x8);
-    // Creating value type constructor for type: ClaimsPrincipal
-    ClaimsPrincipal(::Il2CppString* m_version_ = {}, ::Il2CppString* m_serializedClaimsIdentities_ = {}, System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>* m_identities_ = {}) noexcept : m_version{m_version_}, m_serializedClaimsIdentities{m_serializedClaimsIdentities_}, m_identities{m_identities_} {}
     // Creating interface conversion operator: operator System::Security::Principal::IPrincipal
     operator System::Security::Principal::IPrincipal() noexcept {
       return *reinterpret_cast<System::Security::Principal::IPrincipal*>(this);

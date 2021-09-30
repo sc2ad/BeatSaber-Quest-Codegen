@@ -47,8 +47,6 @@ namespace Mono::Net {
     Mono::Net::CFRunLoop* runLoop;
     // Field size check
     static_assert(sizeof(Mono::Net::CFRunLoop*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(::ArrayWrapper<Mono::Net::CFProxy*> proxies_ = {}, Mono::Net::CFRunLoop* runLoop_ = {}) noexcept : proxies{proxies_}, runLoop{runLoop_} {}
     // Get instance field reference: public Mono.Net.CFProxy[] proxies
     ::ArrayWrapper<Mono::Net::CFProxy*>& dyn_proxies();
     // Get instance field reference: public Mono.Net.CFRunLoop runLoop

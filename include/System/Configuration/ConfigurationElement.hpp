@@ -22,8 +22,6 @@ namespace System::Configuration {
   // [DefaultMemberAttribute] Offset: E67D48
   class ConfigurationElement : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConfigurationElement
-    ConfigurationElement() noexcept {}
     // protected internal System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x26285C0
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     float $elapsedTime$5__2;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $AnimateToCutoutCoroutine$d__7
-    $AnimateToCutoutCoroutine$d__7(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::CutoutAnimateEffect* $$4__this_ = {}, float duration_ = {}, float cutoutStart_ = {}, float cutoutEnd_ = {}, float $elapsedTime$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, duration{duration_}, cutoutStart{cutoutStart_}, cutoutEnd{cutoutEnd_}, $elapsedTime$5__2{$elapsedTime$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

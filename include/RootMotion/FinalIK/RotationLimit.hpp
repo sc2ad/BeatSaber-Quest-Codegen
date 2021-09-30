@@ -56,8 +56,6 @@ namespace RootMotion::FinalIK {
     bool defaultLocalRotationSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RotationLimit
-    RotationLimit(UnityEngine::Vector3 axis_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, bool defaultLocalRotationOverride_ = {}, bool initiated_ = {}, bool applicationQuit_ = {}, bool defaultLocalRotationSet_ = {}) noexcept : axis{axis_}, defaultLocalRotation{defaultLocalRotation_}, defaultLocalRotationOverride{defaultLocalRotationOverride_}, initiated{initiated_}, applicationQuit{applicationQuit_}, defaultLocalRotationSet{defaultLocalRotationSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Vector3 axis

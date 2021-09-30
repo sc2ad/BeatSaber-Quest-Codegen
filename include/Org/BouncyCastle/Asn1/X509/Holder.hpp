@@ -64,8 +64,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Holder
-    Holder(Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID_ = {}, Org::BouncyCastle::Asn1::X509::GeneralNames* entityName_ = {}, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo_ = {}, int version_ = {}) noexcept : baseCertificateID{baseCertificateID_}, entityName{entityName_}, objectDigestInfo{objectDigestInfo_}, version{version_} {}
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
     Org::BouncyCastle::Asn1::X509::IssuerSerial*& dyn_baseCertificateID();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames entityName

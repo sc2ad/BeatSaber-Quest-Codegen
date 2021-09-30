@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapCallbackItemDataList::SpawnObstacleCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SpawnObstacleCallback
-    SpawnObstacleCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1271F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

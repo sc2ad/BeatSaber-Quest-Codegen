@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // Creating value type constructor for type: RectangleFakeGlow
-    RectangleFakeGlow(UnityEngine::Vector2 size_ = {}, float edgeSize_ = {}, UnityEngine::Color color_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}) noexcept : size{size_}, edgeSize{edgeSize_}, color{color_}, materialPropertyBlockController{materialPropertyBlockController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF06C14

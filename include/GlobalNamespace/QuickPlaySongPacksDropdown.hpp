@@ -95,8 +95,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>* data;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>*) == 0x8);
-    // Creating value type constructor for type: QuickPlaySongPacksDropdown
-    QuickPlaySongPacksDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, bool initialized_ = {}, GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride_ = {}, System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>* data_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, songPackMaskModel{songPackMaskModel_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, initialized{initialized_}, quickPlaySongPacksOverride{quickPlaySongPacksOverride_}, data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

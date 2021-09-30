@@ -47,8 +47,6 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppString* descriptionText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StringConstraint
-    StringConstraint(::Il2CppString* expected_ = {}, bool caseInsensitive_ = {}, ::Il2CppString* descriptionText_ = {}) noexcept : expected{expected_}, caseInsensitive{caseInsensitive_}, descriptionText{descriptionText_} {}
     // Get instance field reference: protected System.String expected
     ::Il2CppString*& dyn_expected();
     // Get instance field reference: protected System.Boolean caseInsensitive

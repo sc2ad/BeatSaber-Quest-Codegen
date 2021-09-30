@@ -25,8 +25,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class IEnumerableTestMethodCommand {
     public:
-    // Creating value type constructor for type: IEnumerableTestMethodCommand
-    IEnumerableTestMethodCommand() noexcept {}
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);

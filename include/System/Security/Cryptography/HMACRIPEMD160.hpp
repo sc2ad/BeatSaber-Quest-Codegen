@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F2CC
   class HMACRIPEMD160 : public System::Security::Cryptography::HMAC {
     public:
-    // Creating value type constructor for type: HMACRIPEMD160
-    HMACRIPEMD160() noexcept {}
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A76A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,8 +34,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: PrefabResourceFactory_4
-    PrefabResourceFactory_4(Zenject::DiContainer* container_ = {}) noexcept : container{container_} {}
     // Creating interface conversion operator: operator Zenject::IFactory_5<::Il2CppString*, P1, P2, P3, T>
     operator Zenject::IFactory_5<::Il2CppString*, P1, P2, P3, T>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_5<::Il2CppString*, P1, P2, P3, T>*>(this);

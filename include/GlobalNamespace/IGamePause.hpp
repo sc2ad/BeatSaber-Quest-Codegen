@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGamePause {
     public:
-    // Creating value type constructor for type: IGamePause
-    IGamePause() noexcept {}
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_didPauseEvent(System::Action* value);

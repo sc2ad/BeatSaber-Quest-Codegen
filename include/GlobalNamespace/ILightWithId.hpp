@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILightWithId {
     public:
-    // Creating value type constructor for type: ILightWithId
-    ILightWithId() noexcept {}
     // public System.Boolean get_isRegistered()
     // Offset: 0xFFFFFFFF
     bool get_isRegistered();

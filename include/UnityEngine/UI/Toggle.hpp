@@ -128,8 +128,6 @@ namespace UnityEngine::UI {
     bool m_IsOn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Toggle
-    Toggle(UnityEngine::UI::Toggle::ToggleTransition toggleTransition_ = {}, UnityEngine::UI::Graphic* graphic_ = {}, UnityEngine::UI::ToggleGroup* m_Group_ = {}, UnityEngine::UI::Toggle::ToggleEvent* onValueChanged_ = {}, bool m_IsOn_ = {}) noexcept : toggleTransition{toggleTransition_}, graphic{graphic_}, m_Group{m_Group_}, onValueChanged{onValueChanged_}, m_IsOn{m_IsOn_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

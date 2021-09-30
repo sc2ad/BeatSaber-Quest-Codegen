@@ -32,8 +32,6 @@ namespace UnityEngine {
   // [ExcludeFromPresetAttribute] Offset: E71794
   class Texture3D : public UnityEngine::Texture {
     public:
-    // Creating value type constructor for type: Texture3D
-    Texture3D() noexcept {}
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x2344DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

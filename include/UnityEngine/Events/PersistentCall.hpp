@@ -81,8 +81,6 @@ namespace UnityEngine::Events {
     UnityEngine::Events::UnityEventCallState m_CallState;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEventCallState) == 0x4);
-    // Creating value type constructor for type: PersistentCall
-    PersistentCall(UnityEngine::Object* m_Target_ = {}, ::Il2CppString* m_MethodName_ = {}, UnityEngine::Events::PersistentListenerMode m_Mode_ = {}, UnityEngine::Events::ArgumentCache* m_Arguments_ = {}, UnityEngine::Events::UnityEventCallState m_CallState_ = {}) noexcept : m_Target{m_Target_}, m_MethodName{m_MethodName_}, m_Mode{m_Mode_}, m_Arguments{m_Arguments_}, m_CallState{m_CallState_} {}
     // Get instance field reference: private UnityEngine.Object m_Target
     UnityEngine::Object*& dyn_m_Target();
     // Get instance field reference: private System.String m_MethodName

@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
-    // Creating value type constructor for type: MissionLevelFinishedController
-    MissionLevelFinishedController(GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelSceneSetupData_ = {}, GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}) noexcept : prepareLevelCompletionResults{prepareLevelCompletionResults_}, missionLevelSceneSetupData{missionLevelSceneSetupData_}, missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, gameplayManager{gameplayManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults

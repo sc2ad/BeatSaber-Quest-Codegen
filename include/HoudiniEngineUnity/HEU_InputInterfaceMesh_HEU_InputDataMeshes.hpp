@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     bool hasLOD;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_InputDataMeshes
-    HEU_InputDataMeshes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh*>* inputMeshes_ = {}, bool hasLOD_ = {}) noexcept : inputMeshes{inputMeshes_}, hasLOD{hasLOD_} {}
     // Deleting conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh> _inputMeshes

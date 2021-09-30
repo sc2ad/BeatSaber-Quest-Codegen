@@ -89,8 +89,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum) == 0x4);
-    // Creating value type constructor for type: BinaryArray
-    BinaryArray(int objectId_ = {}, int rank_ = {}, ::ArrayWrapper<int> lengthA_ = {}, ::ArrayWrapper<int> lowerBoundA_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int assemId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum_ = {}) noexcept : objectId{objectId_}, rank{rank_}, lengthA{lengthA_}, lowerBoundA{lowerBoundA_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, assemId{assemId_}, binaryHeaderEnum{binaryHeaderEnum_}, binaryArrayTypeEnum{binaryArrayTypeEnum_} {}
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.Int32 rank

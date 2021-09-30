@@ -117,8 +117,6 @@ namespace System::Xml {
     int depth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: QueryOutputWriter
-    QueryOutputWriter(System::Xml::XmlRawWriter* wrapped_ = {}, bool inCDataSection_ = {}, System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName*, int>* lookupCDataElems_ = {}, System::Xml::BitStack* bitsCData_ = {}, System::Xml::XmlQualifiedName* qnameCData_ = {}, bool outputDocType_ = {}, bool checkWellFormedDoc_ = {}, bool hasDocElem_ = {}, bool inAttr_ = {}, ::Il2CppString* systemId_ = {}, ::Il2CppString* publicId_ = {}, int depth_ = {}) noexcept : wrapped{wrapped_}, inCDataSection{inCDataSection_}, lookupCDataElems{lookupCDataElems_}, bitsCData{bitsCData_}, qnameCData{qnameCData_}, outputDocType{outputDocType_}, checkWellFormedDoc{checkWellFormedDoc_}, hasDocElem{hasDocElem_}, inAttr{inAttr_}, systemId{systemId_}, publicId{publicId_}, depth{depth_} {}
     // Get instance field reference: private System.Xml.XmlRawWriter wrapped
     System::Xml::XmlRawWriter*& dyn_wrapped();
     // Get instance field reference: private System.Boolean inCDataSection

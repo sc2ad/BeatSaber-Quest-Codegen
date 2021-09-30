@@ -52,8 +52,6 @@ namespace System {
     System::Globalization::CompareOptions options;
     // Field size check
     static_assert(sizeof(System::Globalization::CompareOptions) == 0x4);
-    // Creating value type constructor for type: CultureAwareComparer
-    CultureAwareComparer(System::Globalization::CompareInfo* compareInfo_ = {}, bool ignoreCase_ = {}, System::Globalization::CompareOptions options_ = {}) noexcept : compareInfo{compareInfo_}, ignoreCase{ignoreCase_}, options{options_} {}
     // Get instance field reference: private System.Globalization.CompareInfo _compareInfo
     System::Globalization::CompareInfo*& dyn__compareInfo();
     // Get instance field reference: private System.Boolean _ignoreCase

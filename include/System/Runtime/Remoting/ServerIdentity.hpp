@@ -87,8 +87,6 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::Lifetime::Lease* lease;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Lifetime::Lease*) == 0x8);
-    // Creating value type constructor for type: ServerIdentity
-    ServerIdentity(System::Type* objectType_ = {}, System::MarshalByRefObject* serverObject_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* serverSink_ = {}, System::Runtime::Remoting::Contexts::Context* context_ = {}, System::Runtime::Remoting::Lifetime::Lease* lease_ = {}) noexcept : objectType{objectType_}, serverObject{serverObject_}, serverSink{serverSink_}, context{context_}, lease{lease_} {}
     // Get instance field reference: protected System.Type _objectType
     System::Type*& dyn__objectType();
     // Get instance field reference: protected System.MarshalByRefObject _serverObject

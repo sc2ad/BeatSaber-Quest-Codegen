@@ -76,8 +76,6 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::NodeList* ChildNodes;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::NodeList*) == 0x8);
-    // Creating value type constructor for type: TNode
-    TNode(::Il2CppString* Name_ = {}, ::Il2CppString* Value_ = {}, bool ValueIsCDATA_ = {}, NUnit::Framework::Interfaces::AttributeDictionary* Attributes_ = {}, NUnit::Framework::Interfaces::NodeList* ChildNodes_ = {}) noexcept : Name{Name_}, Value{Value_}, ValueIsCDATA{ValueIsCDATA_}, Attributes{Attributes_}, ChildNodes{ChildNodes_} {}
     // Get static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
     static System::Text::RegularExpressions::Regex* _get_InvalidXmlCharactersRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex

@@ -31,8 +31,6 @@ namespace UnityEngine::Experimental::Audio {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioSampleProvider::SampleFramesHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SampleFramesHandler
-    SampleFramesHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2609EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

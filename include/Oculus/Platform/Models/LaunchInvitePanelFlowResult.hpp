@@ -33,8 +33,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsers;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // Creating value type constructor for type: LaunchInvitePanelFlowResult
-    LaunchInvitePanelFlowResult(Oculus::Platform::Models::UserList* InvitedUsers_ = {}) noexcept : InvitedUsers{InvitedUsers_} {}
     // Creating conversion operator: operator Oculus::Platform::Models::UserList*
     constexpr operator Oculus::Platform::Models::UserList*() const noexcept {
       return InvitedUsers;

@@ -61,8 +61,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*> rotationOffsets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>) == 0x8);
-    // Creating value type constructor for type: HitReactionVRIK
-    HitReactionVRIK(::ArrayWrapper<UnityEngine::AnimationCurve*> offsetCurves_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*> positionOffsets_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*> rotationOffsets_ = {}) noexcept : offsetCurves{offsetCurves_}, positionOffsets{positionOffsets_}, rotationOffsets{rotationOffsets_} {}
     // Get instance field reference: public UnityEngine.AnimationCurve[] offsetCurves
     ::ArrayWrapper<UnityEngine::AnimationCurve*>& dyn_offsetCurves();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets

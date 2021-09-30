@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     int numberOfElements;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DropdownSettingsController
-    DropdownSettingsController(HMUI::SimpleTextDropdown* dropdown_ = {}, System::Action* dropDownValueDidChangeEvent_ = {}, int idx_ = {}, int numberOfElements_ = {}) noexcept : dropdown{dropdown_}, dropDownValueDidChangeEvent{dropDownValueDidChangeEvent_}, idx{idx_}, numberOfElements{numberOfElements_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _dropdown

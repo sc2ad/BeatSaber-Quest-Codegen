@@ -65,8 +65,6 @@ namespace HMUI {
     float normalizedPageHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: VerticalScrollIndicator
-    VerticalScrollIndicator(UnityEngine::RectTransform* handle_ = {}, UnityEngine::AnimationClip* normalAnimationClip_ = {}, UnityEngine::AnimationClip* disabledAnimationClip_ = {}, float padding_ = {}, float progress_ = {}, float normalizedPageHeight_ = {}) noexcept : handle{handle_}, normalAnimationClip{normalAnimationClip_}, disabledAnimationClip{disabledAnimationClip_}, padding{padding_}, progress{progress_}, normalizedPageHeight{normalizedPageHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _handle

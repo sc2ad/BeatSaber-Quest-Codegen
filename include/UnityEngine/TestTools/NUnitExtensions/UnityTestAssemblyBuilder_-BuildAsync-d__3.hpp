@@ -98,8 +98,6 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     int $index$5__3;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $BuildAsync$d__3
-    $BuildAsync$d__3(int $$1__state_ = {}, NUnit::Framework::Interfaces::ITest* $$2__current_ = {}, UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* $$4__this_ = {}, ::ArrayWrapper<System::Reflection::Assembly*> assemblies_ = {}, ::ArrayWrapper<UnityEngine::TestTools::TestPlatform> testPlatforms_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options_ = {}, NUnit::Framework::Internal::TestSuite* $suite$5__2_ = {}, int $index$5__3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, assemblies{assemblies_}, testPlatforms{testPlatforms_}, options{options_}, $suite$5__2{$suite$5__2_}, $index$5__3{$index$5__3_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>
     operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>*>(this);

@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADD10
   class AspMethodPropertyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMethodPropertyAttribute
-    AspMethodPropertyAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610094
     // Implemented from: System.Attribute

@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Kisa {
   // [TokenAttribute] Offset: FFFFFFFF
   class KisaObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: KisaObjectIdentifiers
-    KisaObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdSeedCbc
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdSeedCbc();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdSeedCbc

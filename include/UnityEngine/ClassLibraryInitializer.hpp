@@ -14,8 +14,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClassLibraryInitializer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ClassLibraryInitializer
-    ClassLibraryInitializer() noexcept {}
     // static private System.Void Init()
     // Offset: 0x1CB31D0
     static void Init();

@@ -46,8 +46,6 @@ namespace System::Security::Cryptography {
     System::Collections::ArrayList* m_list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: OidCollection
-    OidCollection(System::Collections::ArrayList* m_list_ = {}) noexcept : m_list{m_list_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

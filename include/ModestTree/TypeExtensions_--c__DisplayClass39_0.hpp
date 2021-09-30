@@ -36,8 +36,6 @@ namespace ModestTree {
     ::ArrayWrapper<System::Type*> attributeTypes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass39_0
-    $$c__DisplayClass39_0(::ArrayWrapper<System::Type*> attributeTypes_ = {}) noexcept : attributeTypes{attributeTypes_} {}
     // Creating conversion operator: operator ::ArrayWrapper<System::Type*>
     constexpr operator ::ArrayWrapper<System::Type*>() const noexcept {
       return attributeTypes;

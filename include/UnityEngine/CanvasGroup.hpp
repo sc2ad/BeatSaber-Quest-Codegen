@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: E97558
   class CanvasGroup : public UnityEngine::Behaviour/*, public UnityEngine::ICanvasRaycastFilter*/ {
     public:
-    // Creating value type constructor for type: CanvasGroup
-    CanvasGroup() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ICanvasRaycastFilter
     operator UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);

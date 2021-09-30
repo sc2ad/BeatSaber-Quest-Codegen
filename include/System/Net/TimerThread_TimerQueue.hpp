@@ -30,8 +30,6 @@ namespace System::Net {
     System::Net::TimerThread::TimerNode* m_Timers;
     // Field size check
     static_assert(sizeof(System::Net::TimerThread::TimerNode*) == 0x8);
-    // Creating value type constructor for type: TimerQueue
-    TimerQueue(System::Net::TimerThread::TimerNode* m_Timers_ = {}) noexcept : m_Timers{m_Timers_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private readonly System.Net.TimerThread/System.Net.TimerNode m_Timers

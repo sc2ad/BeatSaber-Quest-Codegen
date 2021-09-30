@@ -16,8 +16,6 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: E72F1C
   class Time : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Time
-    Time() noexcept {}
     // static public System.Single get_time()
     // Offset: 0x23451D0
     static float get_time();

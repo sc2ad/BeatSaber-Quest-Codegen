@@ -115,8 +115,6 @@ namespace System {
     ::Il2CppString* m_Scheme;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UriParser
-    UriParser(System::UriSyntaxFlags m_Flags_ = {}, System::UriSyntaxFlags m_UpdatableFlags_ = {}, bool m_UpdatableFlagsUsed_ = {}, int m_Port_ = {}, ::Il2CppString* m_Scheme_ = {}) noexcept : m_Flags{m_Flags_}, m_UpdatableFlags{m_UpdatableFlags_}, m_UpdatableFlagsUsed{m_UpdatableFlagsUsed_}, m_Port{m_Port_}, m_Scheme{m_Scheme_} {}
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_Table
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::UriParser*>* _get_m_Table();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_Table

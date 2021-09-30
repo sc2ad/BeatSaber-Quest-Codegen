@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB509C
   class IVRSystem::_GetEyeToHeadTransform : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetEyeToHeadTransform
-    _GetEyeToHeadTransform() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDD1F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

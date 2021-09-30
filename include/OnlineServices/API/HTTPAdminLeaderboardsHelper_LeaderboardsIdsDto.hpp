@@ -26,8 +26,6 @@ namespace OnlineServices::API {
     ::ArrayWrapper<::Il2CppString*> leaderboardsIds;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: LeaderboardsIdsDto
-    LeaderboardsIdsDto(::ArrayWrapper<::Il2CppString*> leaderboardsIds_ = {}) noexcept : leaderboardsIds{leaderboardsIds_} {}
     // Creating conversion operator: operator ::ArrayWrapper<::Il2CppString*>
     constexpr operator ::ArrayWrapper<::Il2CppString*>() const noexcept {
       return leaderboardsIds;

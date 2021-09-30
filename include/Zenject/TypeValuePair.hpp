@@ -55,7 +55,6 @@ namespace Zenject {
     ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
     // Offset: 0x25EDCE4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
   }; // Zenject.TypeValuePair
   #pragma pack(pop)

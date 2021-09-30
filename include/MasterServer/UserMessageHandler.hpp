@@ -101,8 +101,6 @@ namespace MasterServer {
     GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAuthenticationTokenProvider*) == 0x8);
-    // Creating value type constructor for type: UserMessageHandler
-    UserMessageHandler(int64_t lastKeepaliveTime_ = {}, GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider_ = {}) noexcept : lastKeepaliveTime{lastKeepaliveTime_}, authenticationTokenProvider{authenticationTokenProvider_} {}
     // static field const value: static private System.Int64 kKeepaliveRequestIntervalMs
     static constexpr const int64_t kKeepaliveRequestIntervalMs = 60000;
     // Get static field: static private System.Int64 kKeepaliveRequestIntervalMs

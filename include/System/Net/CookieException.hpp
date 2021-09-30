@@ -31,8 +31,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CookieException : public System::FormatException {
     public:
-    // Creating value type constructor for type: CookieException
-    CookieException() noexcept {}
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Offset: 0x1577464
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

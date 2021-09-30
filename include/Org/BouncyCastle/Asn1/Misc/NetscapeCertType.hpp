@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1::Misc {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetscapeCertType : public Org::BouncyCastle::Asn1::DerBitString {
     public:
-    // Creating value type constructor for type: NetscapeCertType
-    NetscapeCertType() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
     // Offset: 0x196CB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

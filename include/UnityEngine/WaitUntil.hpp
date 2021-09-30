@@ -34,8 +34,6 @@ namespace UnityEngine {
     System::Func_1<bool>* m_Predicate;
     // Field size check
     static_assert(sizeof(System::Func_1<bool>*) == 0x8);
-    // Creating value type constructor for type: WaitUntil
-    WaitUntil(System::Func_1<bool>* m_Predicate_ = {}) noexcept : m_Predicate{m_Predicate_} {}
     // Creating conversion operator: operator System::Func_1<bool>*
     constexpr operator System::Func_1<bool>*() const noexcept {
       return m_Predicate;

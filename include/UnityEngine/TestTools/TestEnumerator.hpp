@@ -41,8 +41,6 @@ namespace UnityEngine::TestTools {
     NUnit::Framework::Internal::ITestExecutionContext* m_Context;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
-    // Creating value type constructor for type: TestEnumerator
-    TestEnumerator(NUnit::Framework::Internal::ITestExecutionContext* m_Context_ = {}) noexcept : m_Context{m_Context_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext*
     constexpr operator NUnit::Framework::Internal::ITestExecutionContext*() const noexcept {
       return m_Context;

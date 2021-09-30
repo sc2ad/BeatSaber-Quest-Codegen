@@ -48,8 +48,6 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::NUnitEqualityComparer* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*) == 0x8);
-    // Creating value type constructor for type: CollectionTally
-    CollectionTally(System::Collections::Generic::List_1<::Il2CppObject*>* list_ = {}, NUnit::Framework::Constraints::NUnitEqualityComparer* comparer_ = {}) noexcept : list{list_}, comparer{comparer_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Object> list
     System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_list();
     // Get instance field reference: private readonly NUnit.Framework.Constraints.NUnitEqualityComparer comparer

@@ -40,8 +40,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_1
-    $$c__DisplayClass3_1(System::Collections::IEnumerable* executeEnumerable_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* CS$$$8__locals1_ = {}) noexcept : executeEnumerable{executeEnumerable_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public System.Collections.IEnumerable executeEnumerable
     System::Collections::IEnumerable*& dyn_executeEnumerable();
     // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_0 CS$<>8__locals1

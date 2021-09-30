@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionCompletionResults* $missionCompletionResults$5__2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionCompletionResults*) == 0x8);
-    // Creating value type constructor for type: $LevelFailedCoroutine$d__13
-    $LevelFailedCoroutine$d__13(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MissionLevelFailedController* $$4__this_ = {}, GlobalNamespace::MissionCompletionResults* $missionCompletionResults$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $missionCompletionResults$5__2{$missionCompletionResults$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

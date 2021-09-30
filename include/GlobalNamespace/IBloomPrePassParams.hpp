@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBloomPrePassParams {
     public:
-    // Creating value type constructor for type: IBloomPrePassParams
-    IBloomPrePassParams() noexcept {}
     // public TextureEffectSO get_textureEffect()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::TextureEffectSO* get_textureEffect();

@@ -52,8 +52,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> S;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Gost28147Engine
-    Gost28147Engine(::ArrayWrapper<int> workingKey_ = {}, bool forEncryption_ = {}, ::ArrayWrapper<uint8_t> S_ = {}) noexcept : workingKey{workingKey_}, forEncryption{forEncryption_}, S{S_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

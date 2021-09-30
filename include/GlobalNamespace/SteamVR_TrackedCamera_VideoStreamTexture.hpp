@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     Valve::VR::CameraVideoStreamFrameHeader_t header;
     // Field size check
     static_assert(sizeof(Valve::VR::CameraVideoStreamFrameHeader_t) == 0x62);
-    // Creating value type constructor for type: VideoStreamTexture
-    VideoStreamTexture(bool undistorted_ = {}, Valve::VR::VRTextureBounds_t frameBounds_ = {}, UnityEngine::Texture2D* texture_ = {}, int prevFrameCount_ = {}, uint glTextureId_ = {}, GlobalNamespace::SteamVR_TrackedCamera::VideoStream* videostream_ = {}, Valve::VR::CameraVideoStreamFrameHeader_t header_ = {}) noexcept : undistorted{undistorted_}, frameBounds{frameBounds_}, texture{texture_}, prevFrameCount{prevFrameCount_}, glTextureId{glTextureId_}, videostream{videostream_}, header{header_} {}
     // Get instance field reference: private System.Boolean <undistorted>k__BackingField
     bool& dyn_$undistorted$k__BackingField();
     // Get instance field reference: private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField

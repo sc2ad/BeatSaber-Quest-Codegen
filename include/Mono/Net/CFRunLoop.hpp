@@ -27,8 +27,6 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFRunLoop : public Mono::Net::CFObject {
     public:
-    // Creating value type constructor for type: CFRunLoop
-    CFRunLoop() noexcept {}
     // static public Mono.Net.CFRunLoop get_CurrentRunLoop()
     // Offset: 0x17B783C
     static Mono::Net::CFRunLoop* get_CurrentRunLoop();

@@ -23,8 +23,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Dns : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Dns
-    Dns() noexcept {}
     // static private System.Boolean GetHostByName_internal(System.String host, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
     // Offset: 0x157A140
     static bool GetHostByName_internal(::Il2CppString* host, ByRef<::Il2CppString*> h_name, ByRef<::ArrayWrapper<::Il2CppString*>> h_aliases, ByRef<::ArrayWrapper<::Il2CppString*>> h_addr_list, int hint);

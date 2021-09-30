@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     int listeningPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: OVRSystemPerfMetricsTcpServer
-    OVRSystemPerfMetricsTcpServer(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer* tcpServer_ = {}, int listeningPort_ = {}) noexcept : tcpServer{tcpServer_}, listeningPort{listeningPort_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton

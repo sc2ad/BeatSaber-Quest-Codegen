@@ -49,8 +49,6 @@ namespace Zenject {
     Zenject::GameObjectCreationParameters* gameObjectInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass22_0
-    $$c__DisplayClass22_0(UnityEngine::Object* prefab_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}) noexcept : prefab{prefab_}, gameObjectInfo{gameObjectInfo_} {}
     // Get instance field reference: public UnityEngine.Object prefab
     UnityEngine::Object*& dyn_prefab();
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo

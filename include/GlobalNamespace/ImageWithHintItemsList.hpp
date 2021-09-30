@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ImageWithHintItemsList : public HMUI::UIItemsList_1<HMUI::ImageWithHint*> {
     public:
-    // Creating value type constructor for type: ImageWithHintItemsList
-    ImageWithHintItemsList() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1146E6C
     // Implemented from: HMUI.UIItemsList`1

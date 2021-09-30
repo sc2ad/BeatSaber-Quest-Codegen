@@ -68,8 +68,6 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* subject_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: X509Certificate
-    X509Certificate(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl_ = {}, bool hideDates_ = {}, ::Il2CppString* issuer_name_ = {}, ::Il2CppString* subject_name_ = {}) noexcept : impl{impl_}, hideDates{hideDates_}, issuer_name{issuer_name_}, subject_name{subject_name_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

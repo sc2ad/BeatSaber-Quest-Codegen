@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
-    // Creating value type constructor for type: LobbyDataModelsManager
-    LobbyDataModelsManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, lobbyGameStateController{lobbyGameStateController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, lobbyPlayerPermissionsModel{lobbyPlayerPermissionsModel_} {}
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
     GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
     // Get instance field reference: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel

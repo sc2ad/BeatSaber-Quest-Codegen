@@ -162,8 +162,6 @@ namespace UnityEngine {
     int m_MarginBottom;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GUILayoutGroup
-    GUILayoutGroup(System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry*>* entries_ = {}, bool isVertical_ = {}, bool resetCoords_ = {}, float spacing_ = {}, bool sameSize_ = {}, bool isWindow_ = {}, int windowID_ = {}, int m_Cursor_ = {}, int m_StretchableCountX_ = {}, int m_StretchableCountY_ = {}, bool m_UserSpecifiedWidth_ = {}, bool m_UserSpecifiedHeight_ = {}, float m_ChildMinWidth_ = {}, float m_ChildMaxWidth_ = {}, float m_ChildMinHeight_ = {}, float m_ChildMaxHeight_ = {}, int m_MarginLeft_ = {}, int m_MarginRight_ = {}, int m_MarginTop_ = {}, int m_MarginBottom_ = {}) noexcept : entries{entries_}, isVertical{isVertical_}, resetCoords{resetCoords_}, spacing{spacing_}, sameSize{sameSize_}, isWindow{isWindow_}, windowID{windowID_}, m_Cursor{m_Cursor_}, m_StretchableCountX{m_StretchableCountX_}, m_StretchableCountY{m_StretchableCountY_}, m_UserSpecifiedWidth{m_UserSpecifiedWidth_}, m_UserSpecifiedHeight{m_UserSpecifiedHeight_}, m_ChildMinWidth{m_ChildMinWidth_}, m_ChildMaxWidth{m_ChildMaxWidth_}, m_ChildMinHeight{m_ChildMinHeight_}, m_ChildMaxHeight{m_ChildMaxHeight_}, m_MarginLeft{m_MarginLeft_}, m_MarginRight{m_MarginRight_}, m_MarginTop{m_MarginTop_}, m_MarginBottom{m_MarginBottom_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries
     System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry*>*& dyn_entries();
     // Get instance field reference: public System.Boolean isVertical

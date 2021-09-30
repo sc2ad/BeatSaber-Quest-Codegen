@@ -33,8 +33,6 @@ namespace UnityEngine {
     ::ArrayWrapper<::Il2CppString*> configurationAssembliesHashes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: UnityAPICompatibilityVersionAttribute
-    UnityAPICompatibilityVersionAttribute(::Il2CppString* version_ = {}, ::ArrayWrapper<::Il2CppString*> configurationAssembliesHashes_ = {}) noexcept : version{version_}, configurationAssembliesHashes{configurationAssembliesHashes_} {}
     // Get instance field reference: private System.String _version
     ::Il2CppString*& dyn__version();
     // Get instance field reference: private System.String[] _configurationAssembliesHashes

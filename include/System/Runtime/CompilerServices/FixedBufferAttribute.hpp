@@ -40,8 +40,6 @@ namespace System::Runtime::CompilerServices {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FixedBufferAttribute
-    FixedBufferAttribute(System::Type* elementType_ = {}, int length_ = {}) noexcept : elementType{elementType_}, length{length_} {}
     // Get instance field reference: private System.Type elementType
     System::Type*& dyn_elementType();
     // Get instance field reference: private System.Int32 length

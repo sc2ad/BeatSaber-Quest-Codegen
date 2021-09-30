@@ -30,8 +30,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class Normalization : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Normalization
-    Normalization() noexcept {}
     // Get static field: static private System.Byte* props
     static uint8_t* _get_props();
     // Set static field: static private System.Byte* props

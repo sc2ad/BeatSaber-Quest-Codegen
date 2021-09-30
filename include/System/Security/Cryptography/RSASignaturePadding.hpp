@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::RSASignaturePaddingMode mode;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RSASignaturePaddingMode) == 0x4);
-    // Creating value type constructor for type: RSASignaturePadding
-    RSASignaturePadding(System::Security::Cryptography::RSASignaturePaddingMode mode_ = {}) noexcept : mode{mode_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>
     operator System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>*>(this);

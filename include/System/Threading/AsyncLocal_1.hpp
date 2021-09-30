@@ -36,8 +36,6 @@ namespace System::Threading {
     System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler;
     // Field size check
     static_assert(sizeof(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>*) == 0x8);
-    // Creating value type constructor for type: AsyncLocal_1
-    AsyncLocal_1(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler_ = {}) noexcept : m_valueChangedHandler{m_valueChangedHandler_} {}
     // Creating interface conversion operator: operator System::Threading::IAsyncLocal
     operator System::Threading::IAsyncLocal() noexcept {
       return *reinterpret_cast<System::Threading::IAsyncLocal*>(this);

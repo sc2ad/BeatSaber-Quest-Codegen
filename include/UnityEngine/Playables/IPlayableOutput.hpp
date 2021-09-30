@@ -20,8 +20,6 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlayableOutput {
     public:
-    // Creating value type constructor for type: IPlayableOutput
-    IPlayableOutput() noexcept {}
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
     // Offset: 0xFFFFFFFF
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

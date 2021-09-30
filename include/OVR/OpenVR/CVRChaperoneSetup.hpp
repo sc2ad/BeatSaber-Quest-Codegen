@@ -44,8 +44,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRChaperoneSetup FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRChaperoneSetup) == 0xA0);
-    // Creating value type constructor for type: CVRChaperoneSetup
-    CVRChaperoneSetup(OVR::OpenVR::IVRChaperoneSetup FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRChaperoneSetup
     constexpr operator OVR::OpenVR::IVRChaperoneSetup() const noexcept {
       return FnTable;

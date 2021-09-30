@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     int inputsPageIndexUI;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_InstanceInputUIState
-    HEU_InstanceInputUIState(bool showInstanceInputs_ = {}, int numInputsToShowUI_ = {}, int inputsPageIndexUI_ = {}) noexcept : showInstanceInputs{showInstanceInputs_}, numInputsToShowUI{numInputsToShowUI_}, inputsPageIndexUI{inputsPageIndexUI_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(this);

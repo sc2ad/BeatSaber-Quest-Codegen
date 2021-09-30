@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerGameState gameState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerGameState) == 0x4);
-    // Creating value type constructor for type: LobbyGameStateModel
-    LobbyGameStateModel(System::Action_1<GlobalNamespace::MultiplayerGameState>* gameStateDidChangeEvent_ = {}, System::Action_1<GlobalNamespace::MultiplayerGameState>* gameStateDidChangeAlwaysSentEvent_ = {}, GlobalNamespace::MultiplayerGameState gameState_ = {}) noexcept : gameStateDidChangeEvent{gameStateDidChangeEvent_}, gameStateDidChangeAlwaysSentEvent{gameStateDidChangeAlwaysSentEvent_}, gameState{gameState_} {}
     // Get instance field reference: private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
     System::Action_1<GlobalNamespace::MultiplayerGameState>*& dyn_gameStateDidChangeEvent();
     // Get instance field reference: private System.Action`1<MultiplayerGameState> gameStateDidChangeAlwaysSentEvent

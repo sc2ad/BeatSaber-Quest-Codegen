@@ -48,8 +48,6 @@ namespace LiteNetLib {
     LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* NatIntroductionSuccess;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*) == 0x8);
-    // Creating value type constructor for type: EventBasedNatPunchListener
-    EventBasedNatPunchListener(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* NatIntroductionRequest_ = {}, LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* NatIntroductionSuccess_ = {}) noexcept : NatIntroductionRequest{NatIntroductionRequest_}, NatIntroductionSuccess{NatIntroductionSuccess_} {}
     // Creating interface conversion operator: operator LiteNetLib::INatPunchListener
     operator LiteNetLib::INatPunchListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INatPunchListener*>(this);

@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*) == 0x8);
-    // Creating value type constructor for type: HealthWarningNoTransitionInstaller
-    HealthWarningNoTransitionInstaller(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData_ = {}, GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : healthWarningSceneSetupData{healthWarningSceneSetupData_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HealthWarningSceneSetupData _healthWarningSceneSetupData

@@ -33,8 +33,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class Triangulatable {
     public:
-    // Creating value type constructor for type: Triangulatable
-    Triangulatable() noexcept {}
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> get_Triangles()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();

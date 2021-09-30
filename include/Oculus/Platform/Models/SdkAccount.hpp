@@ -36,8 +36,6 @@ namespace Oculus::Platform::Models {
     uint64_t UserId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: SdkAccount
-    SdkAccount(Oculus::Platform::SdkAccountType AccountType_ = {}, uint64_t UserId_ = {}) noexcept : AccountType{AccountType_}, UserId{UserId_} {}
     // Get instance field reference: public readonly Oculus.Platform.SdkAccountType AccountType
     Oculus::Platform::SdkAccountType& dyn_AccountType();
     // Get instance field reference: public readonly System.UInt64 UserId

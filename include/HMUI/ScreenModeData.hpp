@@ -66,8 +66,6 @@ namespace HMUI {
     float minYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ScreenModeData
-    ScreenModeData(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 rotation_ = {}, float scale_ = {}, float radius_ = {}, bool offsetHeightByHeadPos_ = {}, float yOffsetRelativeToHead_ = {}, float minYPos_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_}, radius{radius_}, offsetHeightByHeadPos{offsetHeightByHeadPos_}, yOffsetRelativeToHead{yOffsetRelativeToHead_}, minYPos{minYPos_} {}
     // Get instance field reference: public UnityEngine.Vector3 position
     UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector3 rotation

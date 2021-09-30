@@ -21,8 +21,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E8DC
   class AutoResetEvent : public System::Threading::EventWaitHandle {
     public:
-    // Creating value type constructor for type: AutoResetEvent
-    AutoResetEvent() noexcept {}
     // public System.Void .ctor(System.Boolean initialState)
     // Offset: 0x1A54B98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

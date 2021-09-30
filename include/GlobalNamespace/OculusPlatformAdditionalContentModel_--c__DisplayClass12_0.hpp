@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* $$9__1;
     // Field size check
     static_assert(sizeof(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* getViewerPurchasesTaskSource_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* $$4__this_ = {}, typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* $$9__1_ = {}) noexcept : cancellationToken{cancellationToken_}, getViewerPurchasesTaskSource{getViewerPurchasesTaskSource_}, $$4__this{$$4__this_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<AdditionalContentModel/UpdateEntitlementsResult> getViewerPurchasesTaskSource

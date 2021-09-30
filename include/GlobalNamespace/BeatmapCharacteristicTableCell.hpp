@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     UnityEngine::Color bgHighlightColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: BeatmapCharacteristicTableCell
-    BeatmapCharacteristicTableCell(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Image* iconImage_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* selectionImage_ = {}, UnityEngine::Color bgNormalColor_ = {}, UnityEngine::Color bgHighlightColor_ = {}) noexcept : nameText{nameText_}, iconImage{iconImage_}, bgImage{bgImage_}, selectionImage{selectionImage_}, bgNormalColor{bgNormalColor_}, bgHighlightColor{bgHighlightColor_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
     TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private UnityEngine.UI.Image _iconImage

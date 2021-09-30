@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     float $resultsTimeoutLength$5__4;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $StartLevelFinished$d__19
-    $StartLevelFinished$d__19(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults_ = {}, GlobalNamespace::MultiplayerLevelFinishedController* $$4__this_ = {}, float $waitStartTime$5__2_ = {}, bool $isPlayingAlone$5__3_ = {}, float $resultsTimeoutLength$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, localPlayerResults{localPlayerResults_}, $$4__this{$$4__this_}, $waitStartTime$5__2{$waitStartTime$5__2_}, $isPlayingAlone$5__3{$isPlayingAlone$5__3_}, $resultsTimeoutLength$5__4{$resultsTimeoutLength$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

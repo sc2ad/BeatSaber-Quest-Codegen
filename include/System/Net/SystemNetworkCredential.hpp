@@ -20,8 +20,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemNetworkCredential : public System::Net::NetworkCredential {
     public:
-    // Creating value type constructor for type: SystemNetworkCredential
-    SystemNetworkCredential() noexcept {}
     // Get static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static System::Net::SystemNetworkCredential* _get_defaultCredential();
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential

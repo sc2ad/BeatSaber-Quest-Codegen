@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICipherParameters {
     public:
-    // Creating value type constructor for type: ICipherParameters
-    ICipherParameters() noexcept {}
   }; // Org.BouncyCastle.Crypto.ICipherParameters
   #pragma pack(pop)
 }

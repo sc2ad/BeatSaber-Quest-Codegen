@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70450
   class Caching : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Caching
-    Caching() noexcept {}
     // static public System.Void set_compressionEnabled(System.Boolean value)
     // Offset: 0x1CB0418
     static void set_compressionEnabled(bool value);

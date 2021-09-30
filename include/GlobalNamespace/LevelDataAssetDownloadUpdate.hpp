@@ -111,7 +111,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
     // Offset: 0x1151840
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState)
   }; // LevelDataAssetDownloadUpdate
   #pragma pack(pop)

@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>) == 0x8);
-    // Creating value type constructor for type: BTSCharacterMaterialSwitcher
-    BTSCharacterMaterialSwitcher(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs_ = {}) noexcept : rendererMaterialsPairs{rendererMaterialsPairs_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs

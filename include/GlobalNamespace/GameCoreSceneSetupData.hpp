@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
-    // Creating value type constructor for type: GameCoreSceneSetupData
-    GameCoreSceneSetupData() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11D429C
     // Implemented from: SceneSetupData

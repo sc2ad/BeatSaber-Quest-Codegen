@@ -27,8 +27,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderExceptionFallback : public System::Text::DecoderFallback {
     public:
-    // Creating value type constructor for type: DecoderExceptionFallback
-    DecoderExceptionFallback() noexcept {}
     // public override System.Int32 get_MaxCharCount()
     // Offset: 0x1DF854C
     // Implemented from: System.Text.DecoderFallback

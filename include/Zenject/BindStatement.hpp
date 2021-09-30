@@ -52,8 +52,6 @@ namespace Zenject {
     Zenject::IBindingFinalizer* bindingFinalizer;
     // Field size check
     static_assert(sizeof(Zenject::IBindingFinalizer*) == 0x8);
-    // Creating value type constructor for type: BindStatement
-    BindStatement(System::Collections::Generic::List_1<System::IDisposable*>* disposables_ = {}, Zenject::IBindingFinalizer* bindingFinalizer_ = {}) noexcept : disposables{disposables_}, bindingFinalizer{bindingFinalizer_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

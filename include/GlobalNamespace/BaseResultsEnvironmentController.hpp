@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseResultsEnvironmentController : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: BaseResultsEnvironmentController
-    BaseResultsEnvironmentController() noexcept {}
     // public System.Void Activate(System.Boolean immediately)
     // Offset: 0x126C100
     void Activate(bool immediately);

@@ -107,8 +107,6 @@ namespace UnityEngine::TestTools {
     System::Collections::IEnumerator* $$7__wrap4;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: $ExecuteEnumerable$d__3
-    $ExecuteEnumerable$d__3(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, int $$l__initialThreadId_ = {}, NUnit::Framework::Internal::ITestExecutionContext* context_ = {}, NUnit::Framework::Internal::ITestExecutionContext* $$3__context_ = {}, UnityEngine::TestTools::EnumerableRepeatedTestCommand* $$4__this_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* $unityContext$5__2_ = {}, int $count$5__3_ = {}, bool $firstCycleAfterResume$5__4_ = {}, System::Collections::IEnumerator* $$7__wrap4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, context{context_}, $$3__context{$$3__context_}, $$4__this{$$4__this_}, $unityContext$5__2{$unityContext$5__2_}, $count$5__3{$count$5__3_}, $firstCycleAfterResume$5__4{$firstCycleAfterResume$5__4_}, $$7__wrap4{$$7__wrap4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(this);

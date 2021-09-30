@@ -30,8 +30,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EAC4
   class WaitCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: WaitCallback
-    WaitCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x19BEBE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

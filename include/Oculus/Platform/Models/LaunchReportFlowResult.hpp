@@ -34,8 +34,6 @@ namespace Oculus::Platform::Models {
     uint64_t UserReportId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: LaunchReportFlowResult
-    LaunchReportFlowResult(bool DidCancel_ = {}, uint64_t UserReportId_ = {}) noexcept : DidCancel{DidCancel_}, UserReportId{UserReportId_} {}
     // Get instance field reference: public readonly System.Boolean DidCancel
     bool& dyn_DidCancel();
     // Get instance field reference: public readonly System.UInt64 UserReportId

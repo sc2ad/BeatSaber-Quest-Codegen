@@ -42,8 +42,6 @@ namespace System::Text::RegularExpressions {
     System::Collections::Hashtable* caps;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: MatchSparse
-    MatchSparse(System::Collections::Hashtable* caps_ = {}) noexcept : caps{caps_} {}
     // Creating conversion operator: operator System::Collections::Hashtable*
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return caps;

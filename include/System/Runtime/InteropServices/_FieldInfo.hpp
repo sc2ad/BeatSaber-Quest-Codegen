@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [GuidAttribute] Offset: E61074
   class _FieldInfo {
     public:
-    // Creating value type constructor for type: _FieldInfo
-    _FieldInfo() noexcept {}
   }; // System.Runtime.InteropServices._FieldInfo
   #pragma pack(pop)
 }

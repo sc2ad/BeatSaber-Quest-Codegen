@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     bool shouldApplyDeadzone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRControllerBase
-    OVRControllerBase(GlobalNamespace::OVRInput::Controller controllerType_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* buttonMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* touchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* nearTouchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* axis1DMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* axis2DMap_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 previousState_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 currentState_ = {}, bool shouldApplyDeadzone_ = {}) noexcept : controllerType{controllerType_}, buttonMap{buttonMap_}, touchMap{touchMap_}, nearTouchMap{nearTouchMap_}, axis1DMap{axis1DMap_}, axis2DMap{axis2DMap_}, previousState{previousState_}, currentState{currentState_}, shouldApplyDeadzone{shouldApplyDeadzone_} {}
     // Get instance field reference: public OVRInput/Controller controllerType
     GlobalNamespace::OVRInput::Controller& dyn_controllerType();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap

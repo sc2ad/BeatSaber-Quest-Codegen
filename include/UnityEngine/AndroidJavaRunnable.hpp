@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJavaRunnable : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: AndroidJavaRunnable
-    AndroidJavaRunnable() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25B03DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,8 +21,6 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB95FC
   class NotKeyableAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NotKeyableAttribute
-    NotKeyableAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19FC8E0
     // Implemented from: System.Attribute

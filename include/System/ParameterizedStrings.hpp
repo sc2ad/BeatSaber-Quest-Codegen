@@ -70,7 +70,6 @@ namespace System {
       ::Il2CppObject* get_Object();
       // public System.Void .ctor(System.Int32 value)
       // Offset: 0x1E9F484
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       FormatParam(int value) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::FormatParam::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -78,14 +77,11 @@ namespace System {
       }
       // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
       // Offset: 0x1E9F490
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  FormatParam(int intValue, ::Il2CppString* stringValue)
     }; // System.ParameterizedStrings/System.FormatParam
     #pragma pack(pop)
     static check_size<sizeof(ParameterizedStrings::FormatParam), 8 + sizeof(::Il2CppString*)> __System_ParameterizedStrings_FormatParamSizeCheck;
     static_assert(sizeof(ParameterizedStrings::FormatParam) == 0x10);
-    // Creating value type constructor for type: ParameterizedStrings
-    ParameterizedStrings() noexcept {}
     // Get static field: static private System.ParameterizedStrings/System.LowLevelStack _cachedStack
     static System::ParameterizedStrings::LowLevelStack* _get__cachedStack();
     // Set static field: static private System.ParameterizedStrings/System.LowLevelStack _cachedStack

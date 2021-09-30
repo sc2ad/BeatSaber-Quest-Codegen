@@ -26,8 +26,6 @@ namespace System {
     System::Security::Util::Tokenizer::StringMaker* maker;
     // Field size check
     static_assert(sizeof(System::Security::Util::Tokenizer::StringMaker*) == 0x8);
-    // Creating value type constructor for type: SharedStatics
-    SharedStatics(System::Security::Util::Tokenizer::StringMaker* maker_ = {}) noexcept : maker{maker_} {}
     // Creating conversion operator: operator System::Security::Util::Tokenizer::StringMaker*
     constexpr operator System::Security::Util::Tokenizer::StringMaker*() const noexcept {
       return maker;

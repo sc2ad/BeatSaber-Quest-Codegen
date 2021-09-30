@@ -68,8 +68,6 @@ namespace Zenject::Internal {
     class $$c__DisplayClass8_1;
     // Nested type: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
-    // Creating value type constructor for type: ReflectionInfoTypeInfoConverter
-    ReflectionInfoTypeInfoConverter() noexcept {}
     // static public Zenject.InjectTypeInfo/Zenject.InjectMethodInfo ConvertMethod(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo injectMethod)
     // Offset: 0x183514C
     static Zenject::InjectTypeInfo::InjectMethodInfo* ConvertMethod(Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo* injectMethod);

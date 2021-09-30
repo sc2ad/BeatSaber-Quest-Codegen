@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<uint8_t> Samples;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: OVRHapticsClip
-    OVRHapticsClip(int Count_ = {}, int Capacity_ = {}, ::ArrayWrapper<uint8_t> Samples_ = {}) noexcept : Count{Count_}, Capacity{Capacity_}, Samples{Samples_} {}
     // Get instance field reference: private System.Int32 <Count>k__BackingField
     int& dyn_$Count$k__BackingField();
     // Get instance field reference: private System.Int32 <Capacity>k__BackingField

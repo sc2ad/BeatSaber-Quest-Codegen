@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<::Il2CppChar> password;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
-    // Creating value type constructor for type: PasswordFinder
-    PasswordFinder(::ArrayWrapper<::Il2CppChar> password_ = {}) noexcept : password{password_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::OpenSsl::IPasswordFinder
     operator Org::BouncyCastle::OpenSsl::IPasswordFinder() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::OpenSsl::IPasswordFinder*>(this);

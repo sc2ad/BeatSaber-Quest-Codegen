@@ -36,8 +36,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Error
-    Error(int Code_ = {}, int HttpCode_ = {}, ::Il2CppString* Message_ = {}) noexcept : Code{Code_}, HttpCode{HttpCode_}, Message{Message_} {}
     // Get instance field reference: public readonly System.Int32 Code
     int& dyn_Code();
     // Get instance field reference: public readonly System.Int32 HttpCode

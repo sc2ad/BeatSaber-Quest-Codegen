@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChaCha7539Engine : public Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
     public:
-    // Creating value type constructor for type: ChaCha7539Engine
-    ChaCha7539Engine() noexcept {}
     // public override System.String get_AlgorithmName()
     // Offset: 0x1FCBF20
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine

@@ -39,8 +39,6 @@ namespace System::IO {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: FileInfo
-    FileInfo(::Il2CppString* name_ = {}) noexcept : name{name_} {}
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // public System.Int64 get_Length()

@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     bool shouldReloadData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TabBarViewController
-    TabBarViewController(HMUI::TextSegmentedControl* segmentedControll_ = {}, UnityEngine::UI::ContentSizeFitter* contentSizeFilter_ = {}, ::ArrayWrapper<::Il2CppString*> labels_ = {}, ::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*> items_ = {}, bool shouldReloadData_ = {}) noexcept : segmentedControll{segmentedControll_}, contentSizeFilter{contentSizeFilter_}, labels{labels_}, items{items_}, shouldReloadData{shouldReloadData_} {}
     // Get instance field reference: private HMUI.TextSegmentedControl _segmentedControll
     HMUI::TextSegmentedControl*& dyn__segmentedControll();
     // Get instance field reference: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter

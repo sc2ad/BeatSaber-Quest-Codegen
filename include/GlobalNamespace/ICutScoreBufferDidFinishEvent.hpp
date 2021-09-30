@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICutScoreBufferDidFinishEvent {
     public:
-    // Creating value type constructor for type: ICutScoreBufferDidFinishEvent
-    ICutScoreBufferDidFinishEvent() noexcept {}
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
     // Offset: 0xFFFFFFFF
     void HandleCutScoreBufferDidFinish(GlobalNamespace::CutScoreBuffer* cutScoreBuffer);

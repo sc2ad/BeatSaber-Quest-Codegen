@@ -84,8 +84,6 @@ namespace System::Runtime::Remoting {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Identity
-    Identity(::Il2CppString* objectUri_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* channelSink_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* envoySink_ = {}, System::Runtime::Remoting::Contexts::DynamicPropertyCollection* clientDynamicProperties_ = {}, System::Runtime::Remoting::Contexts::DynamicPropertyCollection* serverDynamicProperties_ = {}, System::Runtime::Remoting::ObjRef* objRef_ = {}, bool disposed_ = {}) noexcept : objectUri{objectUri_}, channelSink{channelSink_}, envoySink{envoySink_}, clientDynamicProperties{clientDynamicProperties_}, serverDynamicProperties{serverDynamicProperties_}, objRef{objRef_}, disposed{disposed_} {}
     // Get instance field reference: protected System.String _objectUri
     ::Il2CppString*& dyn__objectUri();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMessageSink _channelSink

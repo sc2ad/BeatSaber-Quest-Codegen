@@ -71,7 +71,6 @@ namespace GlobalNamespace {
     uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
     // Offset: 0x18DA704
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SyncStateId(uint8_t id)
     // public System.Boolean Equals(SyncStateId other)
     // Offset: 0x18DA70C

@@ -46,8 +46,6 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass10_1
-    $$c__DisplayClass10_1(System::Threading::Tasks::TaskCompletionSource_1<bool>* taskComplitionSource_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* CS$$$8__locals1_ = {}) noexcept : taskComplitionSource{taskComplitionSource_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
     System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskComplitionSource();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1

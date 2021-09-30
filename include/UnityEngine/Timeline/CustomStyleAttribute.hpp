@@ -27,8 +27,6 @@ namespace UnityEngine::Timeline {
     ::Il2CppString* ussStyle;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CustomStyleAttribute
-    CustomStyleAttribute(::Il2CppString* ussStyle_ = {}) noexcept : ussStyle{ussStyle_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return ussStyle;

@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerAvatarData) == 0x70);
-    // Creating value type constructor for type: DisconnectedPlayer
-    DisconnectedPlayer(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, int sortIndex_ = {}, GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData_ = {}) noexcept : userId{userId_}, userName{userName_}, sortIndex{sortIndex_}, multiplayerAvatarData{multiplayerAvatarData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayer
     operator GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);

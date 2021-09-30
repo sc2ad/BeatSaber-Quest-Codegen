@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB00A4
   class IVRSystem::_ApplyTransform : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ApplyTransform
-    _ApplyTransform() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E4BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -59,8 +59,6 @@ namespace TMPro {
     bool m_IgnoreSpacingAdjustments;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: KerningPair
-    KerningPair(uint m_FirstGlyph_ = {}, TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments_ = {}, uint m_SecondGlyph_ = {}, TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments_ = {}, float xOffset_ = {}, bool m_IgnoreSpacingAdjustments_ = {}) noexcept : m_FirstGlyph{m_FirstGlyph_}, m_FirstGlyphAdjustments{m_FirstGlyphAdjustments_}, m_SecondGlyph{m_SecondGlyph_}, m_SecondGlyphAdjustments{m_SecondGlyphAdjustments_}, xOffset{xOffset_}, m_IgnoreSpacingAdjustments{m_IgnoreSpacingAdjustments_} {}
     // Get static field: static TMPro.KerningPair empty
     static TMPro::KerningPair* _get_empty();
     // Set static field: static TMPro.KerningPair empty

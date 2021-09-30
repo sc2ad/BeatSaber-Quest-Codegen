@@ -101,8 +101,6 @@ namespace GlobalNamespace {
     bool registeredToCallbacks;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FlyingScoreEffect
-    FlyingScoreEffect(UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::SpriteRenderer* maxCutDistanceScoreIndicator_ = {}, TMPro::TextMeshPro* text_ = {}, UnityEngine::Color color_ = {}, float colorAMultiplier_ = {}, GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter_ = {}, float cutDistanceToCenter_ = {}, bool registeredToCallbacks_ = {}) noexcept : fadeAnimationCurve{fadeAnimationCurve_}, maxCutDistanceScoreIndicator{maxCutDistanceScoreIndicator_}, text{text_}, color{color_}, colorAMultiplier{colorAMultiplier_}, saberSwingRatingCounter{saberSwingRatingCounter_}, cutDistanceToCenter{cutDistanceToCenter_}, registeredToCallbacks{registeredToCallbacks_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver
     operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>(this);

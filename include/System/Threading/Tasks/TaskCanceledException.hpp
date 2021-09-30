@@ -38,8 +38,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task* m_canceledTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: TaskCanceledException
-    TaskCanceledException(System::Threading::Tasks::Task* m_canceledTask_ = {}) noexcept : m_canceledTask{m_canceledTask_} {}
     // Deleting conversion operator: operator System::Threading::CancellationToken
     constexpr operator System::Threading::CancellationToken() const noexcept = delete;
     // Get instance field reference: private System.Threading.Tasks.Task m_canceledTask

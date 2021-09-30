@@ -37,8 +37,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITest/*, public NUnit::Framework::Interfaces::IXmlNodeBuilder*/ {
     public:
-    // Creating value type constructor for type: ITest
-    ITest() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IXmlNodeBuilder
     operator NUnit::Framework::Interfaces::IXmlNodeBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);

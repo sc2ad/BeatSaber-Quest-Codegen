@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6398
   class IVRRenderModels::_FreeRenderModel : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _FreeRenderModel
-    _FreeRenderModel() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ECF4F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

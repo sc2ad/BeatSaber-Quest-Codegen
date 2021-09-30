@@ -35,8 +35,6 @@ namespace System::Text {
     int surrogateChar;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: UTF8Encoder
-    UTF8Encoder(int surrogateChar_ = {}) noexcept : surrogateChar{surrogateChar_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return surrogateChar;

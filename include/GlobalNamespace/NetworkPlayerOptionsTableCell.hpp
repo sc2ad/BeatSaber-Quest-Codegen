@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayer* player;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
-    // Creating value type constructor for type: NetworkPlayerOptionsTableCell
-    NetworkPlayerOptionsTableCell(::ArrayWrapper<UnityEngine::UI::Button*> buttons_ = {}, ::ArrayWrapper<TMPro::TextMeshProUGUI*> buttonTexts_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}) noexcept : buttons{buttons_}, buttonTexts{buttonTexts_}, buttonBinder{buttonBinder_}, player{player_} {}
     // Get instance field reference: private UnityEngine.UI.Button[] _buttons
     ::ArrayWrapper<UnityEngine::UI::Button*>& dyn__buttons();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _buttonTexts

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FlexyFollowAndRotate
-    FlexyFollowAndRotate(UnityEngine::Transform* target_ = {}, float smooth_ = {}) noexcept : target{target_}, smooth{smooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _target

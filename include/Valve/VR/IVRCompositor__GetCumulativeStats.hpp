@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5A9C
   class IVRCompositor::_GetCumulativeStats : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetCumulativeStats
-    _GetCumulativeStats() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21ABB90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

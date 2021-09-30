@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     ::Il2CppString* assetFile;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LevelProductData
-    LevelProductData(::Il2CppString* levelId_ = {}, ::Il2CppString* sku_ = {}, ::Il2CppString* assetFile_ = {}) noexcept : levelId{levelId_}, sku{sku_}, assetFile{assetFile_} {}
     // Get instance field reference: private System.String _levelId
     ::Il2CppString*& dyn__levelId();
     // Get instance field reference: private System.String _sku

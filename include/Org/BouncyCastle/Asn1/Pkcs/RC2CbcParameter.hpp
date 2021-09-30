@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1OctetString* iv;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
-    // Creating value type constructor for type: RC2CbcParameter
-    RC2CbcParameter(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* iv_ = {}) noexcept : version{version_}, iv{iv_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString iv

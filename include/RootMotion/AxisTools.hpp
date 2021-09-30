@@ -34,8 +34,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class AxisTools : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AxisTools
-    AxisTools() noexcept {}
     // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
     // Offset: 0x1EB3524
     static UnityEngine::Vector3 ToVector3(RootMotion::Axis axis);

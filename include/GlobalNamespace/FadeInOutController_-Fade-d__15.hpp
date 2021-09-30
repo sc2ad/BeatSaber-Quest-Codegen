@@ -101,8 +101,6 @@ namespace GlobalNamespace {
     float $elapsedTime$5__2;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $Fade$d__15
-    $Fade$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, float startDelay_ = {}, GlobalNamespace::FadeInOutController* $$4__this_ = {}, float fromValue_ = {}, float toValue_ = {}, UnityEngine::AnimationCurve* curve_ = {}, float duration_ = {}, System::Action* fadeFinishedCallback_ = {}, float $elapsedTime$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, startDelay{startDelay_}, $$4__this{$$4__this_}, fromValue{fromValue_}, toValue{toValue_}, curve{curve_}, duration{duration_}, fadeFinishedCallback{fadeFinishedCallback_}, $elapsedTime$5__2{$elapsedTime$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

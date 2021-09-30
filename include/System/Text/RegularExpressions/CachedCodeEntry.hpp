@@ -92,8 +92,6 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::SharedReference* replref;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::SharedReference*) == 0x8);
-    // Creating value type constructor for type: CachedCodeEntry
-    CachedCodeEntry(::Il2CppString* key_ = {}, System::Text::RegularExpressions::RegexCode* code_ = {}, System::Collections::Hashtable* caps_ = {}, System::Collections::Hashtable* capnames_ = {}, ::ArrayWrapper<::Il2CppString*> capslist_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexRunnerFactory* factory_ = {}, System::Text::RegularExpressions::ExclusiveReference* runnerref_ = {}, System::Text::RegularExpressions::SharedReference* replref_ = {}) noexcept : key{key_}, code{code_}, caps{caps_}, capnames{capnames_}, capslist{capslist_}, capsize{capsize_}, factory{factory_}, runnerref{runnerref_}, replref{replref_} {}
     // Get instance field reference: System.String _key
     ::Il2CppString*& dyn__key();
     // Get instance field reference: System.Text.RegularExpressions.RegexCode _code

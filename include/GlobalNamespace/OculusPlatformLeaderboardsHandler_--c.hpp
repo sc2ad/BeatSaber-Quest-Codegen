@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformLeaderboardsHandler::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly OculusPlatformLeaderboardsHandler/<>c <>9
     static GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c* _get_$$9();
     // Set static field: static public readonly OculusPlatformLeaderboardsHandler/<>c <>9

@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // Creating value type constructor for type: ParticleSystemEmitterEventEffect
-    ParticleSystemEmitterEventEffect(GlobalNamespace::BeatmapEventType beatmapEvent_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : beatmapEvent{beatmapEvent_}, particleSystems{particleSystems_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEvent

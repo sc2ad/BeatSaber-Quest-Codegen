@@ -27,8 +27,6 @@ namespace HMUI {
     float threshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass56_1
-    $$c__DisplayClass56_1(float threshold_ = {}) noexcept : threshold{threshold_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return threshold;

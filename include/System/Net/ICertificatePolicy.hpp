@@ -27,8 +27,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICertificatePolicy {
     public:
-    // Creating value type constructor for type: ICertificatePolicy
-    ICertificatePolicy() noexcept {}
     // public System.Boolean CheckValidationResult(System.Net.ServicePoint srvPoint, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Net.WebRequest request, System.Int32 certificateProblem)
     // Offset: 0xFFFFFFFF
     bool CheckValidationResult(System::Net::ServicePoint* srvPoint, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Net::WebRequest* request, int certificateProblem);

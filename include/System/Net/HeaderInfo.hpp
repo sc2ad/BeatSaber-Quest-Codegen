@@ -57,8 +57,6 @@ namespace System::Net {
     bool AllowMultiValues;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HeaderInfo
-    HeaderInfo(bool IsRequestRestricted_ = {}, bool IsResponseRestricted_ = {}, System::Net::HeaderParser* Parser_ = {}, ::Il2CppString* HeaderName_ = {}, bool AllowMultiValues_ = {}) noexcept : IsRequestRestricted{IsRequestRestricted_}, IsResponseRestricted{IsResponseRestricted_}, Parser{Parser_}, HeaderName{HeaderName_}, AllowMultiValues{AllowMultiValues_} {}
     // Get instance field reference: readonly System.Boolean IsRequestRestricted
     bool& dyn_IsRequestRestricted();
     // Get instance field reference: readonly System.Boolean IsResponseRestricted

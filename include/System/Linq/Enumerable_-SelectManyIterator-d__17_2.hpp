@@ -89,8 +89,6 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerator_1<TResult>* $$7__wrap2;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<TResult>*) == 0x8);
-    // Creating value type constructor for type: $SelectManyIterator$d__17_2
-    $SelectManyIterator$d__17_2(int $$1__state_ = {}, TResult $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* source_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__source_ = {}, System::Func_2<TSource, System::Collections::Generic::IEnumerable_1<TResult>*>* selector_ = {}, System::Func_2<TSource, System::Collections::Generic::IEnumerable_1<TResult>*>* $$3__selector_ = {}, System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1_ = {}, System::Collections::Generic::IEnumerator_1<TResult>* $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, source{source_}, $$3__source{$$3__source_}, selector{selector_}, $$3__selector{$$3__selector_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TResult>
     operator System::Collections::Generic::IEnumerable_1<TResult>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TResult>*>(this);

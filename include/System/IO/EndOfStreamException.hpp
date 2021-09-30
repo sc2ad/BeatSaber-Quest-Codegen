@@ -28,8 +28,6 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E1FC
   class EndOfStreamException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: EndOfStreamException
-    EndOfStreamException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1AB35CC
     // Implemented from: System.IO.IOException

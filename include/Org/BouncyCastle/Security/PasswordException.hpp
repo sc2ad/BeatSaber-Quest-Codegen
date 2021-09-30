@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class PasswordException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: PasswordException
-    PasswordException() noexcept {}
     // public System.Void .ctor(System.String message)
     // Offset: 0x14D2DE0
     // Implemented from: System.IO.IOException

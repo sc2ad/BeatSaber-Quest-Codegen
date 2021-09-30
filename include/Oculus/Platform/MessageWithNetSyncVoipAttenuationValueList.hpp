@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithNetSyncVoipAttenuationValueList : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncVoipAttenuationValueList*> {
     public:
-    // Creating value type constructor for type: MessageWithNetSyncVoipAttenuationValueList
-    MessageWithNetSyncVoipAttenuationValueList() noexcept {}
     // protected Oculus.Platform.Models.NetSyncVoipAttenuationValueList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BB594
     Oculus::Platform::Models::NetSyncVoipAttenuationValueList* GetDataFromMessage(System::IntPtr c_message);

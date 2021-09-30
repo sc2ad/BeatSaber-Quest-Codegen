@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     System::Diagnostics::Stopwatch* stopwatch;
     // Field size check
     static_assert(sizeof(System::Diagnostics::Stopwatch*) == 0x8);
-    // Creating value type constructor for type: AsyncComputeOperation
-    AsyncComputeOperation(int timeoutMs_ = {}, System::Diagnostics::Stopwatch* stopwatch_ = {}) noexcept : timeoutMs{timeoutMs_}, stopwatch{stopwatch_} {}
     // Get instance field reference: private readonly System.Int32 _timeoutMs
     int& dyn__timeoutMs();
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch

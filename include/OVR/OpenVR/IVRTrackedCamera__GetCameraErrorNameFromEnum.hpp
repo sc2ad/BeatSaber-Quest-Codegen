@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0338
   class IVRTrackedCamera::_GetCameraErrorNameFromEnum : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetCameraErrorNameFromEnum
-    _GetCameraErrorNameFromEnum() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x13AFBB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

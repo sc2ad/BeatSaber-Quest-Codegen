@@ -103,8 +103,6 @@ namespace System::IO {
     System::Threading::Tasks::Task_1<int>* lastReadTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<int>*) == 0x8);
-    // Creating value type constructor for type: MemoryStream
-    MemoryStream(::ArrayWrapper<uint8_t> buffer_ = {}, int origin_ = {}, int position_ = {}, int length_ = {}, int capacity_ = {}, bool expandable_ = {}, bool writable_ = {}, bool exposable_ = {}, bool isOpen_ = {}, System::Threading::Tasks::Task_1<int>* lastReadTask_ = {}) noexcept : buffer{buffer_}, origin{origin_}, position{position_}, length{length_}, capacity{capacity_}, expandable{expandable_}, writable{writable_}, exposable{exposable_}, isOpen{isOpen_}, lastReadTask{lastReadTask_} {}
     // Get instance field reference: private System.Byte[] _buffer
     ::ArrayWrapper<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _origin

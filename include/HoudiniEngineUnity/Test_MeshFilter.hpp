@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::MeshFilter* self;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshFilter*) == 0x8);
-    // Creating value type constructor for type: Test_MeshFilter
-    Test_MeshFilter(UnityEngine::MeshFilter* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshFilter*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshFilter*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshFilter*>*>(this);

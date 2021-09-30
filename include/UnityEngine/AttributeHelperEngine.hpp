@@ -36,8 +36,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AttributeHelperEngine : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AttributeHelperEngine
-    AttributeHelperEngine() noexcept {}
     // Get static field: static public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray
     static ::ArrayWrapper<UnityEngine::DisallowMultipleComponent*> _get__disallowMultipleComponentArray();
     // Set static field: static public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray

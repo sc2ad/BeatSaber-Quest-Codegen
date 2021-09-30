@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // Creating value type constructor for type: OculusInit
-    OculusInit(GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}) noexcept : oculusDeeplinkManager{oculusDeeplinkManager_}, dlcPromoExperimentModel{dlcPromoExperimentModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OculusDeeplinkManager _oculusDeeplinkManager

@@ -38,8 +38,6 @@ namespace Polyglot {
     UnityEngine::UI::Dropdown* dropdown;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
-    // Creating value type constructor for type: LanguageDropdown
-    LanguageDropdown(UnityEngine::UI::Dropdown* dropdown_ = {}) noexcept : dropdown{dropdown_} {}
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);

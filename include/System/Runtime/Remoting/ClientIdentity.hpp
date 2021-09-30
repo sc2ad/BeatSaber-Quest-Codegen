@@ -44,8 +44,6 @@ namespace System::Runtime::Remoting {
     System::WeakReference* proxyReference;
     // Field size check
     static_assert(sizeof(System::WeakReference*) == 0x8);
-    // Creating value type constructor for type: ClientIdentity
-    ClientIdentity(System::WeakReference* proxyReference_ = {}) noexcept : proxyReference{proxyReference_} {}
     // Creating conversion operator: operator System::WeakReference*
     constexpr operator System::WeakReference*() const noexcept {
       return proxyReference;

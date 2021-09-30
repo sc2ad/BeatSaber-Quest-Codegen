@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDsaExt/*, public Org::BouncyCastle::Crypto::IDsa*/ {
     public:
-    // Creating value type constructor for type: IDsaExt
-    IDsaExt() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDsa
     operator Org::BouncyCastle::Crypto::IDsa() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsa*>(this);

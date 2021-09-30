@@ -26,8 +26,6 @@ namespace System::Runtime::Remoting {
     ::ArrayWrapper<::Il2CppObject*> channelData;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: ChannelInfo
-    ChannelInfo(::ArrayWrapper<::Il2CppObject*> channelData_ = {}) noexcept : channelData{channelData_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::IChannelInfo
     operator System::Runtime::Remoting::IChannelInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IChannelInfo*>(this);

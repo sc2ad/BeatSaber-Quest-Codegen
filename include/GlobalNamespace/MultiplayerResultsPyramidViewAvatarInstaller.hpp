@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: MultiplayerResultsPyramidViewAvatarInstaller
-    MultiplayerResultsPyramidViewAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : connectedPlayer{connectedPlayer_} {}
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void .ctor()

@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* separatorImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: LeaderboardTableCell
-    LeaderboardTableCell(TMPro::TextMeshProUGUI* rankText_ = {}, TMPro::TextMeshProUGUI* playerNameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* fullComboText_ = {}, UnityEngine::Color normalColor_ = {}, UnityEngine::Color specialScoreColor_ = {}, UnityEngine::UI::Image* separatorImage_ = {}) noexcept : rankText{rankText_}, playerNameText{playerNameText_}, scoreText{scoreText_}, fullComboText{fullComboText_}, normalColor{normalColor_}, specialScoreColor{specialScoreColor_}, separatorImage{separatorImage_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
     TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText

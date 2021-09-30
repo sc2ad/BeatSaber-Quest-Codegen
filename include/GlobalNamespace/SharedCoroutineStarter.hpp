@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SharedCoroutineStarter : public GlobalNamespace::PersistentSingleton_1<GlobalNamespace::SharedCoroutineStarter*> {
     public:
-    // Creating value type constructor for type: SharedCoroutineStarter
-    SharedCoroutineStarter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2599530
     // Implemented from: PersistentSingleton`1

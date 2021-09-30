@@ -58,8 +58,6 @@ namespace HMUI {
     UnityEngine::GameObject* backgroundGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: IconSegmentedControlCell
-    IconSegmentedControlCell(UnityEngine::UI::Image* icon_ = {}, HMUI::HoverHint* hoverHint_ = {}, UnityEngine::GameObject* backgroundGameObject_ = {}) noexcept : icon{icon_}, hoverHint{hoverHint_}, backgroundGameObject{backgroundGameObject_} {}
     // Get instance field reference: private UnityEngine.UI.Image _icon
     UnityEngine::UI::Image*& dyn__icon();
     // Get instance field reference: private HMUI.HoverHint _hoverHint

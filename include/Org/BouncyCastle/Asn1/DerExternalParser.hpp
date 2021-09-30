@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*) == 0x8);
-    // Creating value type constructor for type: DerExternalParser
-    DerExternalParser(Org::BouncyCastle::Asn1::Asn1StreamParser* parser_ = {}) noexcept : parser{parser_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::Asn1StreamParser*
     constexpr operator Org::BouncyCastle::Asn1::Asn1StreamParser*() const noexcept {
       return parser;

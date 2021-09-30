@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DoubleSO : public GlobalNamespace::ObservableVariableSO_1<double> {
     public:
-    // Creating value type constructor for type: DoubleSO
-    DoubleSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x137D13C
     // Implemented from: ObservableVariableSO`1

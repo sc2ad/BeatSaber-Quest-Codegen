@@ -49,8 +49,6 @@ namespace System::Text {
     ::Il2CppChar cReplacement;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: InternalDecoderBestFitFallback
-    InternalDecoderBestFitFallback(System::Text::Encoding* encoding_ = {}, ::ArrayWrapper<::Il2CppChar> arrayBestFit_ = {}, ::Il2CppChar cReplacement_ = {}) noexcept : encoding{encoding_}, arrayBestFit{arrayBestFit_}, cReplacement{cReplacement_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: System.Text.Encoding encoding

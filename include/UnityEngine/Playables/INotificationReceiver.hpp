@@ -26,8 +26,6 @@ namespace UnityEngine::Playables {
   // [RequiredByNativeCodeAttribute] Offset: E74678
   class INotificationReceiver {
     public:
-    // Creating value type constructor for type: INotificationReceiver
-    INotificationReceiver() noexcept {}
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
     // Offset: 0xFFFFFFFF
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);

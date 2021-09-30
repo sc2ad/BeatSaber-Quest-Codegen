@@ -27,8 +27,6 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskSchedulerException : public System::Exception {
     public:
-    // Creating value type constructor for type: TaskSchedulerException
-    TaskSchedulerException() noexcept {}
     // public System.Void .ctor(System.Exception innerException)
     // Offset: 0x19B9C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

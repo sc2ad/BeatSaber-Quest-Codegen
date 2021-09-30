@@ -57,8 +57,6 @@ namespace System {
     ::Il2CppObject* out_args;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: MonoAsyncCall
-    MonoAsyncCall(::Il2CppObject* msg_ = {}, System::IntPtr cb_method_ = {}, ::Il2CppObject* cb_target_ = {}, ::Il2CppObject* state_ = {}, ::Il2CppObject* res_ = {}, ::Il2CppObject* out_args_ = {}) noexcept : msg{msg_}, cb_method{cb_method_}, cb_target{cb_target_}, state{state_}, res{res_}, out_args{out_args_} {}
     // Get instance field reference: private System.Object msg
     ::Il2CppObject*& dyn_msg();
     // Get instance field reference: private System.IntPtr cb_method

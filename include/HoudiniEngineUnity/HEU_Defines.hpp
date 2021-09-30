@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Defines : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_Defines
-    HEU_Defines() noexcept {}
     // static field const value: static public System.String HEU_PRODUCT_NAME
     static constexpr const char* HEU_PRODUCT_NAME = "HoudiniEngine";
     // Get static field: static public System.String HEU_PRODUCT_NAME

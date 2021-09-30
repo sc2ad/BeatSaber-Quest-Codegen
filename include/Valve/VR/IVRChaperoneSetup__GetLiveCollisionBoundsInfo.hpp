@@ -34,8 +34,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5894
   class IVRChaperoneSetup::_GetLiveCollisionBoundsInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetLiveCollisionBoundsInfo
-    _GetLiveCollisionBoundsInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1893460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

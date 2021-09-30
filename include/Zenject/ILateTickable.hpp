@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILateTickable {
     public:
-    // Creating value type constructor for type: ILateTickable
-    ILateTickable() noexcept {}
     // public System.Void LateTick()
     // Offset: 0xFFFFFFFF
     void LateTick();

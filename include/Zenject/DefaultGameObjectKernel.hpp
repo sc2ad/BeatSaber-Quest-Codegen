@@ -20,8 +20,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultGameObjectKernel : public Zenject::MonoKernel {
     public:
-    // Creating value type constructor for type: DefaultGameObjectKernel
-    DefaultGameObjectKernel() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14FC13C
     // Implemented from: Zenject.MonoKernel

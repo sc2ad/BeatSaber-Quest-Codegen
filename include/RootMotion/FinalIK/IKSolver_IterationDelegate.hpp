@@ -31,8 +31,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolver::IterationDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: IterationDelegate
-    IterationDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1E9C9F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

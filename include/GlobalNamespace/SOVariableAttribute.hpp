@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SOVariableAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: SOVariableAttribute
-    SOVariableAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25989BC
     // Implemented from: UnityEngine.PropertyAttribute

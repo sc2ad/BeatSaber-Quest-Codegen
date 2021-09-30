@@ -15,8 +15,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestCaseData/*, public NUnit::Framework::Interfaces::ITestData*/ {
     public:
-    // Creating value type constructor for type: ITestCaseData
-    ITestCaseData() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestData
     operator NUnit::Framework::Interfaces::ITestData() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestData*>(this);

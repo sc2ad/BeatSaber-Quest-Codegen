@@ -95,8 +95,6 @@ namespace RootMotion::FinalIK {
     float lastWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: GrounderBipedIK
-    GrounderBipedIK(RootMotion::FinalIK::BipedIK* ik_ = {}, float spineBend_ = {}, float spineSpeed_ = {}, ::ArrayWrapper<UnityEngine::Transform*> feet_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> footRotations_ = {}, UnityEngine::Vector3 animatedPelvisLocalPosition_ = {}, UnityEngine::Vector3 solvedPelvisLocalPosition_ = {}, UnityEngine::Vector3 spineOffset_ = {}, float lastWeight_ = {}) noexcept : ik{ik_}, spineBend{spineBend_}, spineSpeed{spineSpeed_}, feet{feet_}, footRotations{footRotations_}, animatedPelvisLocalPosition{animatedPelvisLocalPosition_}, solvedPelvisLocalPosition{solvedPelvisLocalPosition_}, spineOffset{spineOffset_}, lastWeight{lastWeight_} {}
     // Get instance field reference: public RootMotion.FinalIK.BipedIK ik
     RootMotion::FinalIK::BipedIK*& dyn_ik();
     // Get instance field reference: public System.Single spineBend

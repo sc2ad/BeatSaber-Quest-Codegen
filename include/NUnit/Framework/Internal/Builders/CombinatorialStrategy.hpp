@@ -38,8 +38,6 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class CombinatorialStrategy : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::ICombiningStrategy*/ {
     public:
-    // Creating value type constructor for type: CombinatorialStrategy
-    CombinatorialStrategy() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ICombiningStrategy
     operator NUnit::Framework::Interfaces::ICombiningStrategy() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ICombiningStrategy*>(this);

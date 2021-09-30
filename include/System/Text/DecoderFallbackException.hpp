@@ -39,8 +39,6 @@ namespace System::Text {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DecoderFallbackException
-    DecoderFallbackException(::ArrayWrapper<uint8_t> bytesUnknown_ = {}, int index_ = {}) noexcept : bytesUnknown{bytesUnknown_}, index{index_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.Byte[] bytesUnknown

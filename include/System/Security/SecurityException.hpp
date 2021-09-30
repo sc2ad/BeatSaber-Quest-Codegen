@@ -38,8 +38,6 @@ namespace System::Security {
     ::Il2CppString* permissionState;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SecurityException
-    SecurityException(::Il2CppString* permissionState_ = {}) noexcept : permissionState{permissionState_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return permissionState;

@@ -19,8 +19,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithLeaderboardDidUpdate : public Oculus::Platform::Message_1<bool> {
     public:
-    // Creating value type constructor for type: MessageWithLeaderboardDidUpdate
-    MessageWithLeaderboardDidUpdate() noexcept {}
     // protected System.Boolean GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B8CFC
     bool GetDataFromMessage(System::IntPtr c_message);

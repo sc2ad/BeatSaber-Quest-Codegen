@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOpenVRHaptics {
     public:
-    // Creating value type constructor for type: IOpenVRHaptics
-    IOpenVRHaptics() noexcept {}
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     // Offset: 0xFFFFFFFF
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);

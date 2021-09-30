@@ -20,8 +20,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScriptableObjectInstaller : public Zenject::ScriptableObjectInstallerBase {
     public:
-    // Creating value type constructor for type: ScriptableObjectInstaller
-    ScriptableObjectInstaller() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x189F668
     // Implemented from: Zenject.ScriptableObjectInstallerBase

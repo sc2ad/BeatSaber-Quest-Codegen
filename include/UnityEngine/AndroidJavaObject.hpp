@@ -48,8 +48,6 @@ namespace UnityEngine {
     UnityEngine::GlobalJavaObjectRef* m_jclass;
     // Field size check
     static_assert(sizeof(UnityEngine::GlobalJavaObjectRef*) == 0x8);
-    // Creating value type constructor for type: AndroidJavaObject
-    AndroidJavaObject(UnityEngine::GlobalJavaObjectRef* m_jobject_ = {}, UnityEngine::GlobalJavaObjectRef* m_jclass_ = {}) noexcept : m_jobject{m_jobject_}, m_jclass{m_jclass_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

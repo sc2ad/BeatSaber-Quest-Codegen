@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamInit : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: SteamInit
-    SteamInit() noexcept {}
     // public System.Void Init()
     // Offset: 0x11589EC
     void Init();

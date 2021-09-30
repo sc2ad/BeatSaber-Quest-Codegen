@@ -25,8 +25,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICanvasElement {
     public:
-    // Creating value type constructor for type: ICanvasElement
-    ICanvasElement() noexcept {}
     // public UnityEngine.Transform get_transform()
     // Offset: 0xFFFFFFFF
     UnityEngine::Transform* get_transform();

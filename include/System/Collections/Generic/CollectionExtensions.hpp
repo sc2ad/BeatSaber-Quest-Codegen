@@ -27,8 +27,6 @@ namespace System::Collections::Generic {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class CollectionExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CollectionExtensions
-    CollectionExtensions() noexcept {}
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>

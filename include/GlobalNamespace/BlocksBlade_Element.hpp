@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float velocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Element
-    Element(int idx_ = {}, float velocity_ = {}) noexcept : idx{idx_}, velocity{velocity_} {}
     // Get instance field reference: public System.Int32 idx
     int& dyn_idx();
     // Get instance field reference: public System.Single velocity

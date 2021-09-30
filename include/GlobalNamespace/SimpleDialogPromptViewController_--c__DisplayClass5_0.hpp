@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SimpleDialogPromptViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(int buttonNum_ = {}, GlobalNamespace::SimpleDialogPromptViewController* $$4__this_ = {}) noexcept : buttonNum{buttonNum_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Int32 buttonNum
     int& dyn_buttonNum();
     // Get instance field reference: public SimpleDialogPromptViewController <>4__this

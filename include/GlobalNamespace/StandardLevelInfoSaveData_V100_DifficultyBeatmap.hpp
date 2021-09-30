@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     int noteJumpStartBeatOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DifficultyBeatmap
-    DifficultyBeatmap(::Il2CppString* difficulty_ = {}, int difficultyRank_ = {}, ::Il2CppString* beatmapFilename_ = {}, float noteJumpMovementSpeed_ = {}, int noteJumpStartBeatOffset_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, beatmapFilename{beatmapFilename_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_} {}
     // Get instance field reference: private System.String _difficulty
     ::Il2CppString*& dyn__difficulty();
     // Get instance field reference: private System.Int32 _difficultyRank

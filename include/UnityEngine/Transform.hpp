@@ -46,8 +46,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Transform::Enumerator
     class Enumerator;
-    // Creating value type constructor for type: Transform
-    Transform() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

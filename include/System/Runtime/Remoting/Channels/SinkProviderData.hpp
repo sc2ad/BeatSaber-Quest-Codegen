@@ -50,8 +50,6 @@ namespace System::Runtime::Remoting::Channels {
     System::Collections::Hashtable* properties;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: SinkProviderData
-    SinkProviderData(::Il2CppString* sinkName_ = {}, System::Collections::ArrayList* children_ = {}, System::Collections::Hashtable* properties_ = {}) noexcept : sinkName{sinkName_}, children{children_}, properties{properties_} {}
     // Get instance field reference: private System.String sinkName
     ::Il2CppString*& dyn_sinkName();
     // Get instance field reference: private System.Collections.ArrayList children

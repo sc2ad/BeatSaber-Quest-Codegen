@@ -122,8 +122,6 @@ namespace RootMotion::FinalIK {
     float supportLegWV;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Footstep
-    Footstep(float stepSpeed_ = {}, UnityEngine::Vector3 characterSpaceOffset_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Quaternion stepToRootRot_ = {}, bool isSupportLeg_ = {}, float stepProgress_ = {}, UnityEngine::Vector3 stepFrom_ = {}, UnityEngine::Vector3 stepTo_ = {}, UnityEngine::Quaternion stepFromRot_ = {}, UnityEngine::Quaternion stepToRot_ = {}, UnityEngine::Quaternion footRelativeToRoot_ = {}, float supportLegW_ = {}, float supportLegWV_ = {}) noexcept : stepSpeed{stepSpeed_}, characterSpaceOffset{characterSpaceOffset_}, position{position_}, rotation{rotation_}, stepToRootRot{stepToRootRot_}, isSupportLeg{isSupportLeg_}, stepProgress{stepProgress_}, stepFrom{stepFrom_}, stepTo{stepTo_}, stepFromRot{stepFromRot_}, stepToRot{stepToRot_}, footRelativeToRoot{footRelativeToRoot_}, supportLegW{supportLegW_}, supportLegWV{supportLegWV_} {}
     // Get instance field reference: public System.Single stepSpeed
     float& dyn_stepSpeed();
     // Get instance field reference: public UnityEngine.Vector3 characterSpaceOffset

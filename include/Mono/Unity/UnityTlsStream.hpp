@@ -55,8 +55,6 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTlsStream : public Mono::Net::Security::MobileAuthenticatedStream {
     public:
-    // Creating value type constructor for type: UnityTlsStream
-    UnityTlsStream() noexcept {}
     // public System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, System.Net.Security.SslStream owner, Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
     // Offset: 0x1A1BC40
     // Implemented from: Mono.Net.Security.MobileAuthenticatedStream

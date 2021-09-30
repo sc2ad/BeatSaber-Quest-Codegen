@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     float introAnimationStartSyncTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass42_0
-    $$c__DisplayClass42_0(GlobalNamespace::MultiplayerController* $$4__this_ = {}, float introAnimationStartSyncTime_ = {}) noexcept : $$4__this{$$4__this_}, introAnimationStartSyncTime{introAnimationStartSyncTime_} {}
     // Get instance field reference: public MultiplayerController <>4__this
     GlobalNamespace::MultiplayerController*& dyn_$$4__this();
     // Get instance field reference: public System.Single introAnimationStartSyncTime

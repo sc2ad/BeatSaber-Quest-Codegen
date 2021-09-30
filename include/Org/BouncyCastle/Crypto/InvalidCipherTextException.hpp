@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidCipherTextException : public Org::BouncyCastle::Crypto::CryptoException {
     public:
-    // Creating value type constructor for type: InvalidCipherTextException
-    InvalidCipherTextException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A837A4
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException

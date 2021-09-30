@@ -52,8 +52,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E70FE8
   class Renderer : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: Renderer
-    Renderer() noexcept {}
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0x1E05938
     UnityEngine::Bounds get_bounds();

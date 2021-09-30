@@ -25,8 +25,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommandPcHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TestCommandPcHelper
-    TestCommandPcHelper() noexcept {}
     // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
     // Offset: 0x1671E18
     void SetEnumeratorPC(System::Collections::IEnumerator* enumerator, int pc);

@@ -60,8 +60,6 @@ namespace RootMotion::FinalIK {
     float angleBuffer;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Pose
-    Pose(bool visualize_ = {}, ::Il2CppString* name_ = {}, UnityEngine::Vector3 direction_ = {}, float yaw_ = {}, float pitch_ = {}, float angleBuffer_ = {}) noexcept : visualize{visualize_}, name{name_}, direction{direction_}, yaw{yaw_}, pitch{pitch_}, angleBuffer{angleBuffer_} {}
     // Get instance field reference: public System.Boolean visualize
     bool& dyn_visualize();
     // Get instance field reference: public System.String name

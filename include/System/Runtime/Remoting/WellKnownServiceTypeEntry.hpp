@@ -48,8 +48,6 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::WellKnownObjectMode obj_mode;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::WellKnownObjectMode) == 0x4);
-    // Creating value type constructor for type: WellKnownServiceTypeEntry
-    WellKnownServiceTypeEntry(System::Type* obj_type_ = {}, ::Il2CppString* obj_uri_ = {}, System::Runtime::Remoting::WellKnownObjectMode obj_mode_ = {}) noexcept : obj_type{obj_type_}, obj_uri{obj_uri_}, obj_mode{obj_mode_} {}
     // Get instance field reference: private System.Type obj_type
     System::Type*& dyn_obj_type();
     // Get instance field reference: private System.String obj_uri

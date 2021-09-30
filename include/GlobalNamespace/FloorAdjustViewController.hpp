@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     float playerHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FloorAdjustViewController
-    FloorAdjustViewController(GlobalNamespace::Vector3SO* roomCenter_ = {}, UnityEngine::UI::Button* yIncButton_ = {}, UnityEngine::UI::Button* yDecButton_ = {}, TMPro::TextMeshProUGUI* playerHeightText_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, float playerHeight_ = {}) noexcept : roomCenter{roomCenter_}, yIncButton{yIncButton_}, yDecButton{yDecButton_}, playerHeightText{playerHeightText_}, vrPlatformHelper{vrPlatformHelper_}, playerHeight{playerHeight_} {}
     // static field const value: static private System.Single kMoveStep
     static constexpr const float kMoveStep = 0.05;
     // Get static field: static private System.Single kMoveStep

@@ -40,8 +40,6 @@ namespace HoudiniEngineUnity {
     double m_Data;
     // Field size check
     static_assert(sizeof(double) == 0x8);
-    // Creating value type constructor for type: JSONNumber
-    JSONNumber(double m_Data_ = {}) noexcept : m_Data{m_Data_} {}
     // Creating conversion operator: operator double
     constexpr operator double() const noexcept {
       return m_Data;

@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifiersConfiguration::CutAngleTolerance : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CutAngleTolerance
-    CutAngleTolerance() noexcept {}
     // static field const value: static public System.Single kDefault
     static constexpr const float kDefault = 60;
     // Get static field: static public System.Single kDefault

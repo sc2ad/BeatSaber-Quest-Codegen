@@ -183,8 +183,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 prevLocalPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: NoteMovement
-    NoteMovement(GlobalNamespace::NoteFloorMovement* floorMovement_ = {}, GlobalNamespace::NoteJump* jump_ = {}, float zOffset_ = {}, System::Action* didInitEvent_ = {}, System::Action* noteDidStartJumpEvent_ = {}, System::Action* noteDidFinishJumpEvent_ = {}, System::Action* noteDidPassMissedMarkerEvent_ = {}, System::Action* noteDidPassHalfJumpEvent_ = {}, System::Action_1<GlobalNamespace::NoteMovement*>* noteDidPassJumpThreeQuartersEvent_ = {}, System::Action* noteDidMoveInJumpPhaseEvent_ = {}, GlobalNamespace::NoteMovement::MovementPhase movementPhase_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 prevPosition_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Vector3 prevLocalPosition_ = {}) noexcept : floorMovement{floorMovement_}, jump{jump_}, zOffset{zOffset_}, didInitEvent{didInitEvent_}, noteDidStartJumpEvent{noteDidStartJumpEvent_}, noteDidFinishJumpEvent{noteDidFinishJumpEvent_}, noteDidPassMissedMarkerEvent{noteDidPassMissedMarkerEvent_}, noteDidPassHalfJumpEvent{noteDidPassHalfJumpEvent_}, noteDidPassJumpThreeQuartersEvent{noteDidPassJumpThreeQuartersEvent_}, noteDidMoveInJumpPhaseEvent{noteDidMoveInJumpPhaseEvent_}, movementPhase{movementPhase_}, position{position_}, prevPosition{prevPosition_}, localPosition{localPosition_}, prevLocalPosition{prevLocalPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteFloorMovement _floorMovement

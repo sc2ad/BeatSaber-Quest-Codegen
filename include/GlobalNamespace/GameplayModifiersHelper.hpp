@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifiersHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GameplayModifiersHelper
-    GameplayModifiersHelper() noexcept {}
     // static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] ToDTO(GameplayModifiers gameplayModifiers)
     // Offset: 0x11E5BFC
     static ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);

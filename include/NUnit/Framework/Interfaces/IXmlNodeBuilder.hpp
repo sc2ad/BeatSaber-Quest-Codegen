@@ -20,8 +20,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IXmlNodeBuilder {
     public:
-    // Creating value type constructor for type: IXmlNodeBuilder
-    IXmlNodeBuilder() noexcept {}
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);

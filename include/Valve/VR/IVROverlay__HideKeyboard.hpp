@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB62F8
   class IVROverlay::_HideKeyboard : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _HideKeyboard
-    _HideKeyboard() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21BC770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,8 +31,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweep : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DTSweep
-    DTSweep() noexcept {}
     // static public System.Void Triangulate(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx)
     // Offset: 0x25C9680
     static void Triangulate(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);

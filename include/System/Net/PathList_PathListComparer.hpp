@@ -22,8 +22,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathList::PathListComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: PathListComparer
-    PathListComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

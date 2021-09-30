@@ -44,8 +44,6 @@ namespace HoudiniEngineUnity {
     int detailResolutionPerPatch;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_DetailProperties
-    HEU_DetailProperties(float detailDistance_ = {}, float detailDensity_ = {}, int detailResolution_ = {}, int detailResolutionPerPatch_ = {}) noexcept : detailDistance{detailDistance_}, detailDensity{detailDensity_}, detailResolution{detailResolution_}, detailResolutionPerPatch{detailResolutionPerPatch_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>*>(this);

@@ -144,8 +144,6 @@ namespace HMUI {
     HMUI::ToggleWithCallbacks* toggle;
     // Field size check
     static_assert(sizeof(HMUI::ToggleWithCallbacks*) == 0x8);
-    // Creating value type constructor for type: SwitchView
-    SwitchView(HMUI::SwitchView::AnimationType animationType_ = {}, UnityEngine::AnimationClip* normalAnimationClip_ = {}, UnityEngine::AnimationClip* highlightedAnimationClip_ = {}, UnityEngine::AnimationClip* pressedAnimationClip_ = {}, UnityEngine::AnimationClip* disabledAnimationClip_ = {}, UnityEngine::AnimationClip* onAnimationClip_ = {}, UnityEngine::AnimationClip* offAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAndHighlightedAnimationClip_ = {}, HMUI::ToggleWithCallbacks* toggle_ = {}) noexcept : animationType{animationType_}, normalAnimationClip{normalAnimationClip_}, highlightedAnimationClip{highlightedAnimationClip_}, pressedAnimationClip{pressedAnimationClip_}, disabledAnimationClip{disabledAnimationClip_}, onAnimationClip{onAnimationClip_}, offAnimationClip{offAnimationClip_}, selectedAnimationClip{selectedAnimationClip_}, selectedAndHighlightedAnimationClip{selectedAndHighlightedAnimationClip_}, toggle{toggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SwitchView/HMUI.AnimationType _animationType

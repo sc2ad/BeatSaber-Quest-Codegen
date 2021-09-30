@@ -124,7 +124,6 @@ namespace TMPro {
     int& dyn_referenceCount();
     // public System.Void .ctor(System.Int32 index, TMPro.TMP_FontAsset fontAsset, TMPro.TMP_SpriteAsset spriteAsset, UnityEngine.Material material, System.Single padding)
     // Offset: 0x11EB414
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     MaterialReference(int index, TMPro::TMP_FontAsset* fontAsset, TMPro::TMP_SpriteAsset* spriteAsset, UnityEngine::Material* material, float padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::MaterialReference::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(fontAsset), ::il2cpp_utils::ExtractType(spriteAsset), ::il2cpp_utils::ExtractType(material), ::il2cpp_utils::ExtractType(padding)})));

@@ -65,8 +65,6 @@ namespace System::Net {
     System::Text::Encoding* encoding;
     // Field size check
     static_assert(sizeof(System::Text::Encoding*) == 0x8);
-    // Creating value type constructor for type: UrlDecoder
-    UrlDecoder(int bufferSize_ = {}, int numChars_ = {}, ::ArrayWrapper<::Il2CppChar> charBuffer_ = {}, int numBytes_ = {}, ::ArrayWrapper<uint8_t> byteBuffer_ = {}, System::Text::Encoding* encoding_ = {}) noexcept : bufferSize{bufferSize_}, numChars{numChars_}, charBuffer{charBuffer_}, numBytes{numBytes_}, byteBuffer{byteBuffer_}, encoding{encoding_} {}
     // Get instance field reference: private System.Int32 _bufferSize
     int& dyn__bufferSize();
     // Get instance field reference: private System.Int32 _numChars

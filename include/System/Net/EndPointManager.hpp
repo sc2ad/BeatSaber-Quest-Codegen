@@ -30,8 +30,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class EndPointManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EndPointManager
-    EndPointManager() noexcept {}
     // Get static field: static private System.Collections.Hashtable ip_to_endpoints
     static System::Collections::Hashtable* _get_ip_to_endpoints();
     // Set static field: static private System.Collections.Hashtable ip_to_endpoints

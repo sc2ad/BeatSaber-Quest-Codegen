@@ -121,8 +121,6 @@ namespace GlobalNamespace {
     bool levelFinishedOrFailed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerLocalActivePlayerGameplayManager
-    MultiplayerLocalActivePlayerGameplayManager(GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* inGameMenuController_ = {}, GlobalNamespace::IVRPlatformHelper* platformHelper_ = {}, GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper_ = {}, GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* initData_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, bool levelFinishedOrFailed_ = {}) noexcept : gameSongController{gameSongController_}, multiplayerSessionManager{multiplayerSessionManager_}, multiplayerLevelEndActions{multiplayerLevelEndActions_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, gameEnergyCounter{gameEnergyCounter_}, inGameMenuController{inGameMenuController_}, platformHelper{platformHelper_}, disconnectHelper{disconnectHelper_}, initData{initData_}, saberManager{saberManager_}, levelFinishedOrFailed{levelFinishedOrFailed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly GameSongController _gameSongController

@@ -58,8 +58,6 @@ namespace Zenject {
     Zenject::BindInfo* BindInfo;
     // Field size check
     static_assert(sizeof(Zenject::BindInfo*) == 0x8);
-    // Creating value type constructor for type: ProviderBindingFinalizer
-    ProviderBindingFinalizer(Zenject::BindInfo* BindInfo_ = {}) noexcept : BindInfo{BindInfo_} {}
     // Creating interface conversion operator: operator Zenject::IBindingFinalizer
     operator Zenject::IBindingFinalizer() noexcept {
       return *reinterpret_cast<Zenject::IBindingFinalizer*>(this);

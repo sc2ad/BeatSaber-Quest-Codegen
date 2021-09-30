@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IScoreSyncStateManager/*, public GlobalNamespace::IScoreSyncStateManager_5<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int, GlobalNamespace::StandardScoreSyncStateNetSerializable*, GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*/ {
     public:
-    // Creating value type constructor for type: IScoreSyncStateManager
-    IScoreSyncStateManager() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IScoreSyncStateManager_5<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int, GlobalNamespace::StandardScoreSyncStateNetSerializable*, GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>
     operator GlobalNamespace::IScoreSyncStateManager_5<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int, GlobalNamespace::StandardScoreSyncStateNetSerializable*, GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IScoreSyncStateManager_5<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int, GlobalNamespace::StandardScoreSyncStateNetSerializable*, GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*>(this);

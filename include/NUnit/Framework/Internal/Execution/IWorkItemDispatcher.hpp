@@ -13,8 +13,6 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWorkItemDispatcher {
     public:
-    // Creating value type constructor for type: IWorkItemDispatcher
-    IWorkItemDispatcher() noexcept {}
   }; // NUnit.Framework.Internal.Execution.IWorkItemDispatcher
   #pragma pack(pop)
 }

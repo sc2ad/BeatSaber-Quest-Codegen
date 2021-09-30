@@ -60,8 +60,6 @@ namespace UnityEngine::TestTools {
     NUnit::Framework::Internal::ITestExecutionContext* context;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
-    // Creating value type constructor for type: $ExecuteEnumerableAndRecordExceptions$d__4
-    $ExecuteEnumerableAndRecordExceptions$d__4(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, System::Collections::IEnumerator* enumerator_ = {}, NUnit::Framework::Internal::ITestExecutionContext* context_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, enumerator{enumerator_}, context{context_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

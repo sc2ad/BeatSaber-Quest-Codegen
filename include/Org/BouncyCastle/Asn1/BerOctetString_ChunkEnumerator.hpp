@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Asn1 {
     int nextChunkPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ChunkEnumerator
-    ChunkEnumerator(::ArrayWrapper<uint8_t> octets_ = {}, int chunkSize_ = {}, Org::BouncyCastle::Asn1::DerOctetString* currentChunk_ = {}, int nextChunkPos_ = {}) noexcept : octets{octets_}, chunkSize{chunkSize_}, currentChunk{currentChunk_}, nextChunkPos{nextChunkPos_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

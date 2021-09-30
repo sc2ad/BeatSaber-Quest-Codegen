@@ -120,8 +120,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*) == 0x8);
-    // Creating value type constructor for type: FlyingObjectEffect
-    FlyingObjectEffect(UnityEngine::AnimationCurve* moveAnimationCurve_ = {}, float shakeFrequency_ = {}, float shakeStrength_ = {}, UnityEngine::AnimationCurve* shakeStrengthAnimationCurve_ = {}, bool initialized_ = {}, UnityEngine::Quaternion shakeRotation_ = {}, UnityEngine::Quaternion rotation_ = {}, float elapsedTime_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Vector3 targetPos_ = {}, float duration_ = {}, bool shake_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent_ = {}) noexcept : moveAnimationCurve{moveAnimationCurve_}, shakeFrequency{shakeFrequency_}, shakeStrength{shakeStrength_}, shakeStrengthAnimationCurve{shakeStrengthAnimationCurve_}, initialized{initialized_}, shakeRotation{shakeRotation_}, rotation{rotation_}, elapsedTime{elapsedTime_}, startPos{startPos_}, targetPos{targetPos_}, duration{duration_}, shake{shake_}, didFinishEvent{didFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AnimationCurve _moveAnimationCurve

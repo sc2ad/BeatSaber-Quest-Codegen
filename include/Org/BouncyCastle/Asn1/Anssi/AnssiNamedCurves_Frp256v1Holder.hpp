@@ -29,8 +29,6 @@ namespace Org::BouncyCastle::Asn1::Anssi {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnssiNamedCurves::Frp256v1Holder : public Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
     public:
-    // Creating value type constructor for type: Frp256v1Holder
-    Frp256v1Holder() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance

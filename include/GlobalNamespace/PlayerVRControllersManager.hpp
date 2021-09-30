@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::VRController* rightHandVRController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRController*) == 0x8);
-    // Creating value type constructor for type: PlayerVRControllersManager
-    PlayerVRControllersManager(GlobalNamespace::VRController* leftHandVRController_ = {}, GlobalNamespace::VRController* rightHandVRController_ = {}) noexcept : leftHandVRController{leftHandVRController_}, rightHandVRController{rightHandVRController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VRController _leftHandVRController

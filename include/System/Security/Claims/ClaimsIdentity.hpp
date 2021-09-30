@@ -138,8 +138,6 @@ namespace System::Security::Claims {
     ::Il2CppString* m_serializedClaims;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ClaimsIdentity
-    ClaimsIdentity(::ArrayWrapper<uint8_t> m_userSerializationData_ = {}, System::Collections::Generic::List_1<System::Security::Claims::Claim*>* m_instanceClaims_ = {}, System::Collections::ObjectModel::Collection_1<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>*>* m_externalClaims_ = {}, ::Il2CppString* m_nameType_ = {}, ::Il2CppString* m_roleType_ = {}, ::Il2CppString* m_version_ = {}, System::Security::Claims::ClaimsIdentity* m_actor_ = {}, ::Il2CppString* m_authenticationType_ = {}, ::Il2CppObject* m_bootstrapContext_ = {}, ::Il2CppString* m_label_ = {}, ::Il2CppString* m_serializedNameType_ = {}, ::Il2CppString* m_serializedRoleType_ = {}, ::Il2CppString* m_serializedClaims_ = {}) noexcept : m_userSerializationData{m_userSerializationData_}, m_instanceClaims{m_instanceClaims_}, m_externalClaims{m_externalClaims_}, m_nameType{m_nameType_}, m_roleType{m_roleType_}, m_version{m_version_}, m_actor{m_actor_}, m_authenticationType{m_authenticationType_}, m_bootstrapContext{m_bootstrapContext_}, m_label{m_label_}, m_serializedNameType{m_serializedNameType_}, m_serializedRoleType{m_serializedRoleType_}, m_serializedClaims{m_serializedClaims_} {}
     // Creating interface conversion operator: operator System::Security::Principal::IIdentity
     operator System::Security::Principal::IIdentity() noexcept {
       return *reinterpret_cast<System::Security::Principal::IIdentity*>(this);

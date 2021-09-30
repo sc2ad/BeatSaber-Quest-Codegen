@@ -41,8 +41,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DBBC
   class ConstructorInfo : public System::Reflection::MethodBase/*, public System::Runtime::InteropServices::_ConstructorInfo*/ {
     public:
-    // Creating value type constructor for type: ConstructorInfo
-    ConstructorInfo() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_ConstructorInfo
     operator System::Runtime::InteropServices::_ConstructorInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_ConstructorInfo*>(this);

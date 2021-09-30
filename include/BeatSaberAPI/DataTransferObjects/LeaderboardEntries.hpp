@@ -31,8 +31,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*> entries;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>) == 0x8);
-    // Creating value type constructor for type: LeaderboardEntries
-    LeaderboardEntries(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*> entries_ = {}) noexcept : entries{entries_} {}
     // Creating conversion operator: operator ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>
     constexpr operator ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>() const noexcept {
       return entries;

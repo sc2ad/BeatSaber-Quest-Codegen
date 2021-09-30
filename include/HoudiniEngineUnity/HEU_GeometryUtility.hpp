@@ -27,8 +27,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeometryUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_GeometryUtility
-    HEU_GeometryUtility() noexcept {}
     // static public UnityEngine.Vector2[] GeneratePerTriangle(UnityEngine.Mesh meshSrc)
     // Offset: 0x15D5E28
     static ::ArrayWrapper<UnityEngine::Vector2> GeneratePerTriangle(UnityEngine::Mesh* meshSrc);

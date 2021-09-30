@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Controller::ButtonMask : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ButtonMask
-    ButtonMask() noexcept {}
     // static field const value: static public System.UInt64 System
     static constexpr const uint64_t System = 1u;
     // Get static field: static public System.UInt64 System

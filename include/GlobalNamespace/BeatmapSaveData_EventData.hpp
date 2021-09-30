@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     float floatValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: EventData
-    EventData(float time_ = {}, GlobalNamespace::BeatmapSaveData::BeatmapEventType type_ = {}, int value_ = {}, float floatValue_ = {}) noexcept : time{time_}, type{type_}, value{value_}, floatValue{floatValue_} {}
     // Creating interface conversion operator: operator GlobalNamespace::BeatmapSaveData::ITime
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);

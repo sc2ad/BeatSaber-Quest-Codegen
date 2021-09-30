@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>) == 0x8);
-    // Creating value type constructor for type: ParticleSystemLightWithId
-    ParticleSystemLightWithId(UnityEngine::ParticleSystem* particleSystem_ = {}, bool setOnlyOnce_ = {}, bool setColorOnly_ = {}, float intensity_ = {}, float minAlpha_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles_ = {}) noexcept : particleSystem{particleSystem_}, setOnlyOnce{setOnlyOnce_}, setColorOnly{setColorOnly_}, intensity{intensity_}, minAlpha{minAlpha_}, mainModule{mainModule_}, particles{particles_} {}
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private System.Boolean setOnlyOnce

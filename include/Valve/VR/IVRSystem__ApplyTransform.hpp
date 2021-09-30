@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB51A0
   class IVRSystem::_ApplyTransform : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ApplyTransform
-    _ApplyTransform() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDA028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

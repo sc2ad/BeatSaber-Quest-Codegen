@@ -20,8 +20,6 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SurrogateHashtable : public System::Collections::Hashtable {
     public:
-    // Creating value type constructor for type: SurrogateHashtable
-    SurrogateHashtable() noexcept {}
     // System.Void .ctor(System.Int32 size)
     // Offset: 0x1918C3C
     // Implemented from: System.Collections.Hashtable

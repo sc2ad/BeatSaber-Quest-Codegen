@@ -17,8 +17,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IReflectionInfo {
     public:
-    // Creating value type constructor for type: IReflectionInfo
-    IReflectionInfo() noexcept {}
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     template<class T>

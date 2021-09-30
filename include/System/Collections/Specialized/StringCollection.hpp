@@ -41,8 +41,6 @@ namespace System::Collections::Specialized {
     System::Collections::ArrayList* data;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: StringCollection
-    StringCollection(System::Collections::ArrayList* data_ = {}) noexcept : data{data_} {}
     // Creating interface conversion operator: operator System::Collections::IList
     operator System::Collections::IList() noexcept {
       return *reinterpret_cast<System::Collections::IList*>(this);

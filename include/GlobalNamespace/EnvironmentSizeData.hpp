@@ -123,8 +123,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType) == 0x4);
-    // Creating value type constructor for type: EnvironmentSizeData
-    EnvironmentSizeData(GlobalNamespace::EnvironmentSizeData::FloorType floorType_ = {}, GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType_ = {}) noexcept : floorType{floorType_}, ceilingType{ceilingType_} {}
     // Get instance field reference: private EnvironmentSizeData/FloorType _floorType
     GlobalNamespace::EnvironmentSizeData::FloorType& dyn__floorType();
     // Get instance field reference: private EnvironmentSizeData/CeilingType _ceilingType

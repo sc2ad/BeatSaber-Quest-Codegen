@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Mesh_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Mesh_Extensions
-    Test_Mesh_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Mesh ToTestObject(UnityEngine.Mesh self)
     // Offset: 0x25D14C8
     static HoudiniEngineUnity::Test_Mesh* ToTestObject(UnityEngine::Mesh* self);

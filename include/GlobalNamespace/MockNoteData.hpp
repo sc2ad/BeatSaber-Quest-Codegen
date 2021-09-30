@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     float duration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MockNoteData
-    MockNoteData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ColorType colorType_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, float duration_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, colorType{colorType_}, cutDirection{cutDirection_}, noteLineLayer{noteLineLayer_}, duration{duration_} {}
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField

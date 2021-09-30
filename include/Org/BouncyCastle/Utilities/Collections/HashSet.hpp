@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
     System::Collections::IDictionary* impl;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
-    // Creating value type constructor for type: HashSet
-    HashSet(System::Collections::IDictionary* impl_ = {}) noexcept : impl{impl_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Utilities::Collections::ISet
     operator Org::BouncyCastle::Utilities::Collections::ISet() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::Collections::ISet*>(this);

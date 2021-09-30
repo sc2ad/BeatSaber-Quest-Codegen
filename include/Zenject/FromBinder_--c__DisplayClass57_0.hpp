@@ -41,8 +41,6 @@ namespace Zenject {
     ::Il2CppString* resourcePath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass57_0
-    $$c__DisplayClass57_0(::Il2CppString* resourcePath_ = {}) noexcept : resourcePath{resourcePath_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return resourcePath;

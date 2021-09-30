@@ -29,8 +29,6 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeserializationEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: DeserializationEventHandler
-    DeserializationEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17E3920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

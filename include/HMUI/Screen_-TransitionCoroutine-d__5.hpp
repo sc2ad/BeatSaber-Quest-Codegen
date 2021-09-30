@@ -83,8 +83,6 @@ namespace HMUI {
     float $elapsedTime$5__4;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $TransitionCoroutine$d__5
-    $TransitionCoroutine$d__5(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::Screen* $$4__this_ = {}, HMUI::ViewController* newRootViewController_ = {}, HMUI::ViewController::AnimationType animationType_ = {}, HMUI::ViewController* $oldRootViewController$5__2_ = {}, float $oldRootViewControllerStartAlpha$5__3_ = {}, float $elapsedTime$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, newRootViewController{newRootViewController_}, animationType{animationType_}, $oldRootViewController$5__2{$oldRootViewController$5__2_}, $oldRootViewControllerStartAlpha$5__3{$oldRootViewControllerStartAlpha$5__3_}, $elapsedTime$5__4{$elapsedTime$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

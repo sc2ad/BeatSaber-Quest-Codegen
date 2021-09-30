@@ -26,8 +26,6 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E617E8
   class IDictionaryEnumerator/*, public System::Collections::IEnumerator*/ {
     public:
-    // Creating value type constructor for type: IDictionaryEnumerator
-    IDictionaryEnumerator() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

@@ -49,8 +49,6 @@ namespace UnityEngine {
     float m_ForcedMaxHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: GUIWordWrapSizer
-    GUIWordWrapSizer(UnityEngine::GUIContent* m_Content_ = {}, float m_ForcedMinHeight_ = {}, float m_ForcedMaxHeight_ = {}) noexcept : m_Content{m_Content_}, m_ForcedMinHeight{m_ForcedMinHeight_}, m_ForcedMaxHeight{m_ForcedMaxHeight_} {}
     // Get instance field reference: private readonly UnityEngine.GUIContent m_Content
     UnityEngine::GUIContent*& dyn_m_Content();
     // Get instance field reference: private readonly System.Single m_ForcedMinHeight

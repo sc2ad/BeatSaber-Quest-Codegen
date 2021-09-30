@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::Il2CppString* stateName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RandomAnimatorStartTime
-    RandomAnimatorStartTime(UnityEngine::Animator* animator_ = {}, ::Il2CppString* stateName_ = {}) noexcept : animator{animator_}, stateName{stateName_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator

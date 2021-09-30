@@ -43,8 +43,6 @@ namespace UnityEngine::UI {
     ::ArrayWrapper<UnityEngine::Vector3> m_CanvasCorners;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: RectangularVertexClipper
-    RectangularVertexClipper(::ArrayWrapper<UnityEngine::Vector3> m_WorldCorners_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_CanvasCorners_ = {}) noexcept : m_WorldCorners{m_WorldCorners_}, m_CanvasCorners{m_CanvasCorners_} {}
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_WorldCorners
     ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_WorldCorners();
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_CanvasCorners

@@ -50,8 +50,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>* bindings;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*) == 0x8);
-    // Creating value type constructor for type: ButtonBinder
-    ButtonBinder(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>* bindings_ = {}) noexcept : bindings{bindings_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*
     constexpr operator System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*() const noexcept {
       return bindings;

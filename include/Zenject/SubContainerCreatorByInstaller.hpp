@@ -70,8 +70,6 @@ namespace Zenject {
     Zenject::SubContainerCreatorBindInfo* containerBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerCreatorBindInfo*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorByInstaller
-    SubContainerCreatorByInstaller(System::Type* installerType_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs_ = {}, Zenject::SubContainerCreatorBindInfo* containerBindInfo_ = {}) noexcept : installerType{installerType_}, container{container_}, extraArgs{extraArgs_}, containerBindInfo{containerBindInfo_} {}
     // Creating interface conversion operator: operator Zenject::ISubContainerCreator
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);

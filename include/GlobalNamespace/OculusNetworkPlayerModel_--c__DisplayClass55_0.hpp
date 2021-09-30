@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* onGetInvitable;
     // Field size check
     static_assert(sizeof(typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass55_0
-    $$c__DisplayClass55_0(GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>::Callback* onGetFriends_ = {}, typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* onGetInvitable_ = {}) noexcept : $$4__this{$$4__this_}, onGetFriends{onGetFriends_}, onGetInvitable{onGetInvitable_} {}
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
     GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserAndRoomList> onGetFriends

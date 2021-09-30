@@ -31,8 +31,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class NullableComparer_1 : public System::Collections::Generic::Comparer_1<System::Nullable_1<T>> {
     public:
-    // Creating value type constructor for type: NullableComparer_1
-    NullableComparer_1() noexcept {}
     // public System.Int32 Compare(System.Nullable`1<T> x, System.Nullable`1<T> y)
     // Offset: 0xFFFFFFFF
     int Compare(System::Nullable_1<T> x, System::Nullable_1<T> y) {

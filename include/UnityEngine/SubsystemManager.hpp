@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: E8881C
   class SubsystemManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SubsystemManager
-    SubsystemManager() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE88918
     // Get static field: static private System.Action reloadSubsytemsStarted
     static System::Action* _get_reloadSubsytemsStarted();

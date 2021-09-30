@@ -46,8 +46,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task* m_completingTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: CompletionActionInvoker
-    CompletionActionInvoker(System::Threading::Tasks::ITaskCompletionAction* m_action_ = {}, System::Threading::Tasks::Task* m_completingTask_ = {}) noexcept : m_action{m_action_}, m_completingTask{m_completingTask_} {}
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

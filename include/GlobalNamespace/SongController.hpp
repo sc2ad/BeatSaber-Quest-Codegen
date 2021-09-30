@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     System::Action* songDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: SongController
-    SongController(System::Action* songDidFinishEvent_ = {}) noexcept : songDidFinishEvent{songDidFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action songDidFinishEvent

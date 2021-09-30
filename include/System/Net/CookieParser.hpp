@@ -33,8 +33,6 @@ namespace System::Net {
     System::Net::CookieTokenizer* m_tokenizer;
     // Field size check
     static_assert(sizeof(System::Net::CookieTokenizer*) == 0x8);
-    // Creating value type constructor for type: CookieParser
-    CookieParser(System::Net::CookieTokenizer* m_tokenizer_ = {}) noexcept : m_tokenizer{m_tokenizer_} {}
     // Creating conversion operator: operator System::Net::CookieTokenizer*
     constexpr operator System::Net::CookieTokenizer*() const noexcept {
       return m_tokenizer;

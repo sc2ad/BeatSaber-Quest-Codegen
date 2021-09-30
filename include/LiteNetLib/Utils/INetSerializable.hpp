@@ -22,8 +22,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetSerializable {
     public:
-    // Creating value type constructor for type: INetSerializable
-    INetSerializable() noexcept {}
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

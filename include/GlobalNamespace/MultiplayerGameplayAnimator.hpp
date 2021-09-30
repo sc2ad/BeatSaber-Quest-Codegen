@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: MultiplayerGameplayAnimator
-    MultiplayerGameplayAnimator(GlobalNamespace::ColorSO* activeLightsColor_ = {}, GlobalNamespace::ColorSO* leadingLightsColor_ = {}, GlobalNamespace::ColorSO* failedLightsColor_ = {}, float leadingSwitchCrossFadeDuration_ = {}, ::ArrayWrapper<GlobalNamespace::LightsAnimator*> gameplayLightsAnimators_ = {}, ::ArrayWrapper<GlobalNamespace::LightsAnimator*> allLightsAnimators_ = {}, GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : activeLightsColor{activeLightsColor_}, leadingLightsColor{leadingLightsColor_}, failedLightsColor{failedLightsColor_}, leadingSwitchCrossFadeDuration{leadingSwitchCrossFadeDuration_}, gameplayLightsAnimators{gameplayLightsAnimators_}, allLightsAnimators{allLightsAnimators_}, leadPlayerProvider{leadPlayerProvider_}, multiplayerController{multiplayerController_}, tweeningManager{tweeningManager_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected ColorSO _activeLightsColor

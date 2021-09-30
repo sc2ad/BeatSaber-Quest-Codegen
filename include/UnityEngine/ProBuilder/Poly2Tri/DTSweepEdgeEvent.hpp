@@ -37,8 +37,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool Right;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DTSweepEdgeEvent
-    DTSweepEdgeEvent(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge_ = {}, bool Right_ = {}) noexcept : ConstrainedEdge{ConstrainedEdge_}, Right{Right_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
     UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& dyn_ConstrainedEdge();
     // Get instance field reference: public System.Boolean Right

@@ -15,8 +15,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class IntToRoman : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IntToRoman
-    IntToRoman() noexcept {}
     // static public System.String Roman(System.Int32 number)
     // Offset: 0x13865BC
     static ::Il2CppString* Roman(int number);

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyCenterScreenSystem : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: MultiplayerLobbyCenterScreenSystem
-    MultiplayerLobbyCenterScreenSystem() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x116E26C
     // Implemented from: UnityEngine.MonoBehaviour

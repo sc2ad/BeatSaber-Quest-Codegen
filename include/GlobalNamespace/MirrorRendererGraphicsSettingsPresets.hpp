@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> presets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>) == 0x8);
-    // Creating value type constructor for type: MirrorRendererGraphicsSettingsPresets
-    MirrorRendererGraphicsSettingsPresets(::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> presets_ = {}) noexcept : presets{presets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets

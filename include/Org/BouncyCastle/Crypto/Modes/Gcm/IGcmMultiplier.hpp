@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGcmMultiplier {
     public:
-    // Creating value type constructor for type: IGcmMultiplier
-    IGcmMultiplier() noexcept {}
     // public System.Void Init(System.Byte[] H)
     // Offset: 0xFFFFFFFF
     void Init(::ArrayWrapper<uint8_t> H);

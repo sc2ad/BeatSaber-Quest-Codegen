@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuickStartOneSongGameplayServerFiniteStateMachine : public GlobalNamespace::GameplayServerFiniteStateMachine {
     public:
-    // Creating value type constructor for type: QuickStartOneSongGameplayServerFiniteStateMachine
-    QuickStartOneSongGameplayServerFiniteStateMachine() noexcept {}
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     // Offset: 0x18D5838
     // Implemented from: GameplayServerFiniteStateMachine

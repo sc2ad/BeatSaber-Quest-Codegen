@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Math::Field {
     Org::BouncyCastle::Math::Field::IPolynomial* minimalPolynomial;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::Field::IPolynomial*) == 0x8);
-    // Creating value type constructor for type: GenericPolynomialExtensionField
-    GenericPolynomialExtensionField(Org::BouncyCastle::Math::Field::IFiniteField* subfield_ = {}, Org::BouncyCastle::Math::Field::IPolynomial* minimalPolynomial_ = {}) noexcept : subfield{subfield_}, minimalPolynomial{minimalPolynomial_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IPolynomialExtensionField
     operator Org::BouncyCastle::Math::Field::IPolynomialExtensionField() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);

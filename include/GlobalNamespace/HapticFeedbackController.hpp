@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>* rumblesByNode;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>*) == 0x8);
-    // Creating value type constructor for type: HapticFeedbackController
-    HapticFeedbackController(GlobalNamespace::BoolSO* controllersRumbleEnabled_ = {}, Libraries::HM::HMLib::VR::HapticPresetSO* continuousRumblePreset_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>* rumblesByNode_ = {}) noexcept : controllersRumbleEnabled{controllersRumbleEnabled_}, continuousRumblePreset{continuousRumblePreset_}, vrPlatformHelper{vrPlatformHelper_}, rumblesByNode{rumblesByNode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kContinuousRumbleFrameDuration

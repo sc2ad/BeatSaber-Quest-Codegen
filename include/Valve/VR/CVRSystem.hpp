@@ -89,8 +89,6 @@ namespace Valve::VR {
     Valve::VR::IVRSystem FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSystem) == 0x178);
-    // Creating value type constructor for type: CVRSystem
-    CVRSystem(Valve::VR::IVRSystem FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRSystem
     constexpr operator Valve::VR::IVRSystem() const noexcept {
       return FnTable;

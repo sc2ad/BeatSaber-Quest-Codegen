@@ -41,8 +41,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ActionsHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ActionsHelper
-    ActionsHelper() noexcept {}
     // static public NUnit.Framework.ITestAction[] GetActionsFromTestAssembly(NUnit.Framework.Internal.TestAssembly testAssembly)
     // Offset: 0x1936D14
     static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetActionsFromTestAssembly(NUnit::Framework::Internal::TestAssembly* testAssembly);

@@ -49,8 +49,6 @@ namespace UnityEngine::TestRunner::Utils {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TestRunCallbackListener::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c <>9
     static UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c <>9

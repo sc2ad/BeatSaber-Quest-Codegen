@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* fadeMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: NoPostProcessMainEffectSO
-    NoPostProcessMainEffectSO(UnityEngine::Shader* fadeShader_ = {}, float baseColorBoost_ = {}, float baseColorBoostThreshold_ = {}, UnityEngine::Material* fadeMaterial_ = {}) noexcept : fadeShader{fadeShader_}, baseColorBoost{baseColorBoost_}, baseColorBoostThreshold{baseColorBoostThreshold_}, fadeMaterial{fadeMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Shader _fadeShader

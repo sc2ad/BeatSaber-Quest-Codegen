@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosePrediction : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PosePrediction
-    PosePrediction() noexcept {}
     // static public UnityEngine.Pose PredictPose(UnityEngine.Pose prev, System.Single prevTime, UnityEngine.Pose curr, System.Single currTime, System.Single time)
     // Offset: 0x18D43E4
     static UnityEngine::Pose PredictPose(UnityEngine::Pose prev, float prevTime, UnityEngine::Pose curr, float currTime, float time);

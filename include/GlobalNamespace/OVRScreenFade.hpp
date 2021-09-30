@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     bool isFading;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRScreenFade
-    OVRScreenFade(float fadeTime_ = {}, UnityEngine::Color fadeColor_ = {}, bool fadeOnStart_ = {}, int renderQueue_ = {}, float explicitFadeAlpha_ = {}, float animatedFadeAlpha_ = {}, float uiFadeAlpha_ = {}, UnityEngine::MeshRenderer* fadeRenderer_ = {}, UnityEngine::MeshFilter* fadeMesh_ = {}, UnityEngine::Material* fadeMaterial_ = {}, bool isFading_ = {}) noexcept : fadeTime{fadeTime_}, fadeColor{fadeColor_}, fadeOnStart{fadeOnStart_}, renderQueue{renderQueue_}, explicitFadeAlpha{explicitFadeAlpha_}, animatedFadeAlpha{animatedFadeAlpha_}, uiFadeAlpha{uiFadeAlpha_}, fadeRenderer{fadeRenderer_}, fadeMesh{fadeMesh_}, fadeMaterial{fadeMaterial_}, isFading{isFading_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private OVRScreenFade <instance>k__BackingField

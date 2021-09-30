@@ -58,8 +58,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ExtensionMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ExtensionMethods
-    ExtensionMethods() noexcept {}
     // static public System.Boolean ContainsLayer(UnityEngine.LayerMask layerMask, System.Int32 layer)
     // Offset: 0x137F114
     static bool ContainsLayer(UnityEngine::LayerMask layerMask, int layer);

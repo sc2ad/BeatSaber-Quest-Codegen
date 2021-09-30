@@ -143,8 +143,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RollingAverage* latency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RollingAverage*) == 0x8);
-    // Creating value type constructor for type: ConnectedPlayer
-    ConnectedPlayer(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isMe_ = {}, bool isConnectionOwner_ = {}, GlobalNamespace::ConnectedPlayerManager* manager_ = {}, GlobalNamespace::IConnection* connection_ = {}, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* parent_ = {}, uint8_t connectionId_ = {}, uint8_t remoteConnectionId_ = {}, int sortIndex_ = {}, bool isConnected_ = {}, GlobalNamespace::DisconnectedReason disconnectedReason_ = {}, bool isKicked_ = {}, GlobalNamespace::PlayerStateHash playerState_ = {}, GlobalNamespace::MultiplayerAvatarData playerAvatar_ = {}, GlobalNamespace::RollingAverage* latency_ = {}) noexcept : userId{userId_}, userName{userName_}, isMe{isMe_}, isConnectionOwner{isConnectionOwner_}, manager{manager_}, connection{connection_}, parent{parent_}, connectionId{connectionId_}, remoteConnectionId{remoteConnectionId_}, sortIndex{sortIndex_}, isConnected{isConnected_}, disconnectedReason{disconnectedReason_}, isKicked{isKicked_}, playerState{playerState_}, playerAvatar{playerAvatar_}, latency{latency_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayer
     operator GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);

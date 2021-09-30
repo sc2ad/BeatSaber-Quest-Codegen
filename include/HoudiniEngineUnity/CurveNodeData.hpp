@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: CurveNodeData
-    CurveNodeData(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 rotation_ = {}, UnityEngine::Vector3 scale_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>*>(this);

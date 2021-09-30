@@ -111,8 +111,6 @@ namespace TMPro {
     bool m_IsSpriteAssetLookupTablesDirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TMP_SpriteAsset
-    TMP_SpriteAsset(System::Collections::Generic::Dictionary_2<uint, int>* m_UnicodeLookup_ = {}, System::Collections::Generic::Dictionary_2<int, int>* m_NameLookup_ = {}, System::Collections::Generic::Dictionary_2<uint, int>* m_GlyphIndexLookup_ = {}, ::Il2CppString* m_Version_ = {}, UnityEngine::Texture* spriteSheet_ = {}, System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* m_SpriteCharacterTable_ = {}, System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* m_SpriteGlyphTable_ = {}, System::Collections::Generic::List_1<TMPro::TMP_Sprite*>* spriteInfoList_ = {}, System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* fallbackSpriteAssets_ = {}, bool m_IsSpriteAssetLookupTablesDirty_ = {}) noexcept : m_UnicodeLookup{m_UnicodeLookup_}, m_NameLookup{m_NameLookup_}, m_GlyphIndexLookup{m_GlyphIndexLookup_}, m_Version{m_Version_}, spriteSheet{spriteSheet_}, m_SpriteCharacterTable{m_SpriteCharacterTable_}, m_SpriteGlyphTable{m_SpriteGlyphTable_}, spriteInfoList{spriteInfoList_}, fallbackSpriteAssets{fallbackSpriteAssets_}, m_IsSpriteAssetLookupTablesDirty{m_IsSpriteAssetLookupTablesDirty_} {}
     // Get static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedSpriteAssets
     static System::Collections::Generic::List_1<int>* _get_k_searchedSpriteAssets();
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedSpriteAssets

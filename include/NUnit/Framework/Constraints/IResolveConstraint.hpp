@@ -20,8 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class IResolveConstraint {
     public:
-    // Creating value type constructor for type: IResolveConstraint
-    IResolveConstraint() noexcept {}
     // public NUnit.Framework.Constraints.IConstraint Resolve()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::IConstraint* Resolve();

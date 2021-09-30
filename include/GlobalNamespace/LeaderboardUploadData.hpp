@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* modifiers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: LeaderboardUploadData
-    LeaderboardUploadData(::Il2CppString* playerName_ = {}, ::Il2CppString* playerId_ = {}, ::Il2CppString* score_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* authorName_ = {}, ::Il2CppString* bpm_ = {}, ::Il2CppString* difficulty_ = {}, ::Il2CppString* infoHash_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* modifiers_ = {}) noexcept : playerName{playerName_}, playerId{playerId_}, score{score_}, leaderboardId{leaderboardId_}, songName{songName_}, songSubName{songSubName_}, authorName{authorName_}, bpm{bpm_}, difficulty{difficulty_}, infoHash{infoHash_}, modifiers{modifiers_} {}
     // Get instance field reference: public System.String playerName
     ::Il2CppString*& dyn_playerName();
     // Get instance field reference: public System.String playerId

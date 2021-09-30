@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassLightsUpdateSystem : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: BloomPrePassLightsUpdateSystem
-    BloomPrePassLightsUpdateSystem() noexcept {}
     // protected System.Void LateUpdate()
     // Offset: 0x1E241D8
     void LateUpdate();

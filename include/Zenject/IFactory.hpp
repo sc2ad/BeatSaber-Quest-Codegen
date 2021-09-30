@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFactory {
     public:
-    // Creating value type constructor for type: IFactory
-    IFactory() noexcept {}
   }; // Zenject.IFactory
   #pragma pack(pop)
 }

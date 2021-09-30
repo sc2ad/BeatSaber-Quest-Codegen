@@ -50,8 +50,6 @@ namespace Zenject {
     System::Action_1<Zenject::DiContainer*>* installerMethod;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorByNewGameObjectMethod
-    SubContainerCreatorByNewGameObjectMethod(System::Action_1<Zenject::DiContainer*>* installerMethod_ = {}) noexcept : installerMethod{installerMethod_} {}
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installerMethod
     System::Action_1<Zenject::DiContainer*>*& dyn__installerMethod();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`1<Zenject.DiContainer> installerMethod)

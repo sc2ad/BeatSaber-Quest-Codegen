@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectedReason disconnectedReason;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectedReason) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass25_0
-    $$c__DisplayClass25_0(GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}, GlobalNamespace::DisconnectedReason disconnectedReason_ = {}) noexcept : $$4__this{$$4__this_}, disconnectedReason{disconnectedReason_} {}
     // Get instance field reference: public MenuTransitionsHelper <>4__this
     GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
     // Get instance field reference: public DisconnectedReason disconnectedReason

@@ -39,8 +39,6 @@ namespace Valve::VR {
     Valve::VR::IVRChaperone FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRChaperone) == 0x40);
-    // Creating value type constructor for type: CVRChaperone
-    CVRChaperone(Valve::VR::IVRChaperone FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRChaperone
     constexpr operator Valve::VR::IVRChaperone() const noexcept {
       return FnTable;

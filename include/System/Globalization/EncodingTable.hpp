@@ -30,8 +30,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncodingTable : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EncodingTable
-    EncodingTable() noexcept {}
     // Get static field: static System.Globalization.InternalEncodingDataItem[] encodingDataPtr
     static ::ArrayWrapper<System::Globalization::InternalEncodingDataItem> _get_encodingDataPtr();
     // Set static field: static System.Globalization.InternalEncodingDataItem[] encodingDataPtr

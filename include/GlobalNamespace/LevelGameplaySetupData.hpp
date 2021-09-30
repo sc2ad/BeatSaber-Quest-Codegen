@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
-    // Creating value type constructor for type: LevelGameplaySetupData
-    LevelGameplaySetupData(GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}) noexcept : gameplayModifiers{gameplayModifiers_}, beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelGameplaySetupData
     operator GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);

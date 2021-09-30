@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::StartLevelRpc : public GlobalNamespace::RemoteProcedureCall_3<GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float> {
     public:
-    // Creating value type constructor for type: StartLevelRpc
-    StartLevelRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8ECC
     // Implemented from: RemoteProcedureCall`3

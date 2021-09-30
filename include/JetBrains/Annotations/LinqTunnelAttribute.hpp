@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADC38
   class LinqTunnelAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: LinqTunnelAttribute
-    LinqTunnelAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26105A8
     // Implemented from: System.Attribute

@@ -85,8 +85,6 @@ namespace Mono::Security::Protocol::Ntlm {
     ::ArrayWrapper<uint8_t> nt;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Type3Message
-    Type3Message(Mono::Security::Protocol::Ntlm::NtlmAuthLevel level_ = {}, ::ArrayWrapper<uint8_t> challenge_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* domain_ = {}, ::Il2CppString* username_ = {}, ::Il2CppString* password_ = {}, Mono::Security::Protocol::Ntlm::Type2Message* type2_ = {}, ::ArrayWrapper<uint8_t> lm_ = {}, ::ArrayWrapper<uint8_t> nt_ = {}) noexcept : level{level_}, challenge{challenge_}, host{host_}, domain{domain_}, username{username_}, password{password_}, type2{type2_}, lm{lm_}, nt{nt_} {}
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.NtlmAuthLevel _level
     Mono::Security::Protocol::Ntlm::NtlmAuthLevel& dyn__level();
     // Get instance field reference: private System.Byte[] _challenge

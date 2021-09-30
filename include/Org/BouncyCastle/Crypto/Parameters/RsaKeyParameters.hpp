@@ -41,8 +41,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* exponent;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: RsaKeyParameters
-    RsaKeyParameters(Org::BouncyCastle::Math::BigInteger* modulus_ = {}, Org::BouncyCastle::Math::BigInteger* exponent_ = {}) noexcept : modulus{modulus_}, exponent{exponent_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger SmallPrimesProduct

@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     System::Text::StringBuilder* data;
     // Field size check
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
-    // Creating value type constructor for type: OVRControllerTest
-    OVRControllerTest(UnityEngine::UI::Text* uiText_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRControllerTest::BoolMonitor*>* monitors_ = {}, System::Text::StringBuilder* data_ = {}) noexcept : uiText{uiText_}, monitors{monitors_}, data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String prevConnected

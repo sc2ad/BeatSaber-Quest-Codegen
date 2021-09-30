@@ -114,8 +114,6 @@ namespace HMUI {
     float $elapsedTime$5__5;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $RemoveViewControllersCoroutine$d__17
-    $RemoveViewControllersCoroutine$d__17(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ContainerViewController* $$4__this_ = {}, ::ArrayWrapper<HMUI::ViewController*> viewControllersToRemove_ = {}, bool immediately_ = {}, System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter_ = {}, System::Action* finishedCallback_ = {}, ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2_ = {}, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* $viewControllersToRemoveSet$5__3_ = {}, float $transitionDuration$5__4_ = {}, float $elapsedTime$5__5_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, viewControllersToRemove{viewControllersToRemove_}, immediately{immediately_}, animationLayouter{animationLayouter_}, finishedCallback{finishedCallback_}, $viewControllers$5__2{$viewControllers$5__2_}, $viewControllersToRemoveSet$5__3{$viewControllersToRemoveSet$5__3_}, $transitionDuration$5__4{$transitionDuration$5__4_}, $elapsedTime$5__5{$elapsedTime$5__5_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

@@ -99,8 +99,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> recvHeaders;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
-    // Creating value type constructor for type: LogicalCallContext
-    LogicalCallContext(System::Collections::Hashtable* m_Datastore_ = {}, System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData_ = {}, System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData_ = {}, ::Il2CppObject* m_HostContext_ = {}, bool m_IsCorrelationMgr_ = {}, ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> sendHeaders_ = {}, ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> recvHeaders_ = {}) noexcept : m_Datastore{m_Datastore_}, m_RemotingData{m_RemotingData_}, m_SecurityData{m_SecurityData_}, m_HostContext{m_HostContext_}, m_IsCorrelationMgr{m_IsCorrelationMgr_}, sendHeaders{sendHeaders_}, recvHeaders{recvHeaders_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

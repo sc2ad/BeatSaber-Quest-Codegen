@@ -161,8 +161,6 @@ namespace UnityEngine::Timeline {
     bool controllingParticles;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ControlPlayableAsset
-    ControlPlayableAsset(UnityEngine::ExposedReference_1<UnityEngine::GameObject*> sourceGameObject_ = {}, UnityEngine::GameObject* prefabGameObject_ = {}, bool updateParticle_ = {}, uint particleRandomSeed_ = {}, bool updateDirector_ = {}, bool updateITimeControl_ = {}, bool searchHierarchy_ = {}, bool active_ = {}, UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState postPlayback_ = {}, UnityEngine::Playables::PlayableAsset* m_ControlDirectorAsset_ = {}, double m_Duration_ = {}, bool m_SupportLoop_ = {}, bool controllingDirectors_ = {}, bool controllingParticles_ = {}) noexcept : sourceGameObject{sourceGameObject_}, prefabGameObject{prefabGameObject_}, updateParticle{updateParticle_}, particleRandomSeed{particleRandomSeed_}, updateDirector{updateDirector_}, updateITimeControl{updateITimeControl_}, searchHierarchy{searchHierarchy_}, active{active_}, postPlayback{postPlayback_}, m_ControlDirectorAsset{m_ControlDirectorAsset_}, m_Duration{m_Duration_}, m_SupportLoop{m_SupportLoop_}, controllingDirectors{controllingDirectors_}, controllingParticles{controllingParticles_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

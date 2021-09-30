@@ -39,8 +39,6 @@ namespace Zenject {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ZenjectMoqExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ZenjectMoqExtensions
-    ZenjectMoqExtensions() noexcept {}
     // static public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromMock(Zenject.FromBinderGeneric`1<TContract> binder)
     // Offset: 0xFFFFFFFF
     template<class TContract>

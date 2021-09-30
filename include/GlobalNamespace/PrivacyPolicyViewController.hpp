@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalizedTextAsset* privacyPolicyLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // Creating value type constructor for type: PrivacyPolicyViewController
-    PrivacyPolicyViewController(HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* privacyPolicyLocalizedTextAsset_ = {}) noexcept : textPageScrollView{textPageScrollView_}, privacyPolicyLocalizedTextAsset{privacyPolicyLocalizedTextAsset_} {}
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
     HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private LocalizedTextAsset _privacyPolicyLocalizedTextAsset

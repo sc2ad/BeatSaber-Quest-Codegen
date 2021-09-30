@@ -44,8 +44,6 @@ namespace Libraries::HM::HMLib::VR {
     bool continuous;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HapticPresetSO
-    HapticPresetSO(float duration_ = {}, float strength_ = {}, float frequency_ = {}, bool continuous_ = {}) noexcept : duration{duration_}, strength{strength_}, frequency{frequency_}, continuous{continuous_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _duration

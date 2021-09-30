@@ -17,8 +17,6 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MatchTargetFieldConstants : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MatchTargetFieldConstants
-    MatchTargetFieldConstants() noexcept {}
     // Get static field: static public UnityEngine.Timeline.MatchTargetFields All
     static UnityEngine::Timeline::MatchTargetFields _get_All();
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields All

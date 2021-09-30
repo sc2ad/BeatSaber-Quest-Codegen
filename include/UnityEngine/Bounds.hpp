@@ -92,7 +92,6 @@ namespace UnityEngine {
     UnityEngine::Vector3 get_max();
     // public System.Void .ctor(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
     // Offset: 0x1CAE764
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Bounds(UnityEngine::Vector3 center, UnityEngine::Vector3 size)
     // public System.Boolean Equals(UnityEngine.Bounds other)
     // Offset: 0x1CAE938

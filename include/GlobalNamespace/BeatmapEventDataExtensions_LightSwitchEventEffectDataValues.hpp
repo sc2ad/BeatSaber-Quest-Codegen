@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataExtensions::LightSwitchEventEffectDataValues : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LightSwitchEventEffectDataValues
-    LightSwitchEventEffectDataValues() noexcept {}
     // static field const value: static public System.Int32 kOff
     static constexpr const int kOff = 0;
     // Get static field: static public System.Int32 kOff

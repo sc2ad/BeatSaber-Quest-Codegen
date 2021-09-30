@@ -70,8 +70,6 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*) == 0x8);
-    // Creating value type constructor for type: TestSuiteResult
-    TestSuiteResult(int passCount_ = {}, int failCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children_ = {}) noexcept : passCount{passCount_}, failCount{failCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, children{children_} {}
     // Get instance field reference: private System.Int32 _passCount
     int& dyn__passCount();
     // Get instance field reference: private System.Int32 _failCount

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1Null : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
-    // Creating value type constructor for type: Asn1Null
-    Asn1Null() noexcept {}
     // System.Void .ctor()
     // Offset: 0x18E2608
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object

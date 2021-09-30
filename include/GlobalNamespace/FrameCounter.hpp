@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     int numberOfFrames;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FrameCounter
-    FrameCounter(int numberOfFrames_ = {}) noexcept : numberOfFrames{numberOfFrames_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _numberOfFrames

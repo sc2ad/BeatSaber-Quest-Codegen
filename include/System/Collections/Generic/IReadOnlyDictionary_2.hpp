@@ -22,8 +22,6 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   class IReadOnlyDictionary_2/*, public System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
     public:
-    // Creating value type constructor for type: IReadOnlyDictionary_2
-    IReadOnlyDictionary_2() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>
     operator System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this);

@@ -42,8 +42,6 @@ namespace System::Collections::Specialized {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NameObjectKeysEnumerator
-    NameObjectKeysEnumerator(int pos_ = {}, System::Collections::Specialized::NameObjectCollectionBase* coll_ = {}, int version_ = {}) noexcept : pos{pos_}, coll{coll_}, version{version_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

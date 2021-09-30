@@ -21,8 +21,6 @@ namespace UnityEngine::Scripting {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class GeneratedByOldBindingsGeneratorAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: GeneratedByOldBindingsGeneratorAttribute
-    GeneratedByOldBindingsGeneratorAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261FB20
     // Implemented from: System.Attribute

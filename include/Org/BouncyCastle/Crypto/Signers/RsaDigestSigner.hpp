@@ -72,8 +72,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     bool forSigning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RsaDigestSigner
-    RsaDigestSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* rsaEngine_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId_ = {}, Org::BouncyCastle::Crypto::IDigest* digest_ = {}, bool forSigning_ = {}) noexcept : rsaEngine{rsaEngine_}, algId{algId_}, digest{digest_}, forSigning{forSigning_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

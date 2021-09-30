@@ -55,8 +55,6 @@ namespace Zenject {
     Zenject::BindingCondition* Condition;
     // Field size check
     static_assert(sizeof(Zenject::BindingCondition*) == 0x8);
-    // Creating value type constructor for type: ProviderInfo
-    ProviderInfo(Zenject::DiContainer* Container_ = {}, bool NonLazy_ = {}, Zenject::IProvider* Provider_ = {}, Zenject::BindingCondition* Condition_ = {}) noexcept : Container{Container_}, NonLazy{NonLazy_}, Provider{Provider_}, Condition{Condition_} {}
     // Get instance field reference: public readonly Zenject.DiContainer Container
     Zenject::DiContainer*& dyn_Container();
     // Get instance field reference: public readonly System.Boolean NonLazy

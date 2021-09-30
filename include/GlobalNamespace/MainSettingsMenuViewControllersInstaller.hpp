@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TabBarViewController*) == 0x8);
-    // Creating value type constructor for type: MainSettingsMenuViewControllersInstaller
-    MainSettingsMenuViewControllersInstaller(GlobalNamespace::MainSettingsMenuViewController* defaultSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* oculusPCSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* questSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* psvrSettingsMenuViewController_ = {}, GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab_ = {}) noexcept : defaultSettingsMenuViewController{defaultSettingsMenuViewController_}, oculusPCSettingsMenuViewController{oculusPCSettingsMenuViewController_}, questSettingsMenuViewController{questSettingsMenuViewController_}, psvrSettingsMenuViewController{psvrSettingsMenuViewController_}, tabBarViewControllerPrefab{tabBarViewControllerPrefab_} {}
     // Get instance field reference: private MainSettingsMenuViewController _defaultSettingsMenuViewController
     GlobalNamespace::MainSettingsMenuViewController*& dyn__defaultSettingsMenuViewController();
     // Get instance field reference: private MainSettingsMenuViewController _oculusPCSettingsMenuViewController

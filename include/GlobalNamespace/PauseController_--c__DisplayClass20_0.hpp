@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     bool value;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass20_0
-    $$c__DisplayClass20_0(bool value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return value;

@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     int sortIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PlayerSortOrderPacket
-    PlayerSortOrderPacket(::Il2CppString* userId_ = {}, int sortIndex_ = {}) noexcept : userId{userId_}, sortIndex{sortIndex_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

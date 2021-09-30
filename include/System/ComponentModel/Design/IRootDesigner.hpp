@@ -16,8 +16,6 @@ namespace System::ComponentModel::Design {
   // [ComVisibleAttribute] Offset: E69708
   class IRootDesigner/*, public System::ComponentModel::Design::IDesigner*/ {
     public:
-    // Creating value type constructor for type: IRootDesigner
-    IRootDesigner() noexcept {}
     // Creating interface conversion operator: operator System::ComponentModel::Design::IDesigner
     operator System::ComponentModel::Design::IDesigner() noexcept {
       return *reinterpret_cast<System::ComponentModel::Design::IDesigner*>(this);

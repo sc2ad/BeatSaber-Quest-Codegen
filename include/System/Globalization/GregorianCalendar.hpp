@@ -43,8 +43,6 @@ namespace System::Globalization {
     System::Globalization::GregorianCalendarTypes m_type;
     // Field size check
     static_assert(sizeof(System::Globalization::GregorianCalendarTypes) == 0x4);
-    // Creating value type constructor for type: GregorianCalendar
-    GregorianCalendar(System::Globalization::GregorianCalendarTypes m_type_ = {}) noexcept : m_type{m_type_} {}
     // Creating conversion operator: operator System::Globalization::GregorianCalendarTypes
     constexpr operator System::Globalization::GregorianCalendarTypes() const noexcept {
       return m_type;

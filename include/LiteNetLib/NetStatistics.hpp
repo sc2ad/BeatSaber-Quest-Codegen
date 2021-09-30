@@ -48,8 +48,6 @@ namespace LiteNetLib {
     int64_t packetLoss;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: NetStatistics
-    NetStatistics(int64_t packetsSent_ = {}, int64_t packetsReceived_ = {}, int64_t bytesSent_ = {}, int64_t bytesReceived_ = {}, int64_t packetLoss_ = {}) noexcept : packetsSent{packetsSent_}, packetsReceived{packetsReceived_}, bytesSent{bytesSent_}, bytesReceived{bytesReceived_}, packetLoss{packetLoss_} {}
     // Get instance field reference: private System.Int64 _packetsSent
     int64_t& dyn__packetsSent();
     // Get instance field reference: private System.Int64 _packetsReceived

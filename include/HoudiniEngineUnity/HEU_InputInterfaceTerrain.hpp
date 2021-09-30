@@ -40,8 +40,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain
     class HEU_InputDataTerrain;
-    // Creating value type constructor for type: HEU_InputInterfaceTerrain
-    HEU_InputInterfaceTerrain() noexcept {}
     // private System.Boolean SetMaskLayer(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputInterfaceTerrain/HoudiniEngineUnity.HEU_InputDataTerrain idt, ref HoudiniEngineUnity.HAPI_VolumeInfo baseVolumeInfo)
     // Offset: 0x1521CAC
     bool SetMaskLayer(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* idt, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);

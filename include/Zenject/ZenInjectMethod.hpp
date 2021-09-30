@@ -29,8 +29,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenInjectMethod : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ZenInjectMethod
-    ZenInjectMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2611330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -103,8 +103,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Fovf defaultFov;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Fovf) == 0x10);
-    // Creating value type constructor for type: OVRMixedRealityCaptureTest
-    OVRMixedRealityCaptureTest(bool inited_ = {}, GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode currentMode_ = {}, UnityEngine::Camera* defaultExternalCamera_ = {}, GlobalNamespace::OVRPlugin::Fovf defaultFov_ = {}) noexcept : inited{inited_}, currentMode{currentMode_}, defaultExternalCamera{defaultExternalCamera_}, defaultFov{defaultFov_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean inited

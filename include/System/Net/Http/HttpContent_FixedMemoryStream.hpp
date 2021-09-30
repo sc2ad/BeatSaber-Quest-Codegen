@@ -28,8 +28,6 @@ namespace System::Net::Http {
     int64_t maxSize;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: FixedMemoryStream
-    FixedMemoryStream(int64_t maxSize_ = {}) noexcept : maxSize{maxSize_} {}
     // Get instance field reference: private readonly System.Int64 maxSize
     int64_t& dyn_maxSize();
     // public System.Void .ctor(System.Int64 maxSize)

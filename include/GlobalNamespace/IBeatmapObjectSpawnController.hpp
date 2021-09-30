@@ -32,8 +32,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapObjectSpawnController {
     public:
-    // Creating value type constructor for type: IBeatmapObjectSpawnController
-    IBeatmapObjectSpawnController() noexcept {}
     // public System.Single get_jumpOffsetY()
     // Offset: 0xFFFFFFFF
     float get_jumpOffsetY();

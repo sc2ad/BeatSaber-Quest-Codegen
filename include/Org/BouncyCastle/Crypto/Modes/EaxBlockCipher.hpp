@@ -114,8 +114,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     ::ArrayWrapper<uint8_t> initialAssociatedText;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: EaxBlockCipher
-    EaxBlockCipher(Org::BouncyCastle::Crypto::Modes::SicBlockCipher* cipher_ = {}, bool forEncryption_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IMac* mac_ = {}, ::ArrayWrapper<uint8_t> nonceMac_ = {}, ::ArrayWrapper<uint8_t> associatedTextMac_ = {}, ::ArrayWrapper<uint8_t> macBlock_ = {}, int macSize_ = {}, ::ArrayWrapper<uint8_t> bufBlock_ = {}, int bufOff_ = {}, bool cipherInitialized_ = {}, ::ArrayWrapper<uint8_t> initialAssociatedText_ = {}) noexcept : cipher{cipher_}, forEncryption{forEncryption_}, blockSize{blockSize_}, mac{mac_}, nonceMac{nonceMac_}, associatedTextMac{associatedTextMac_}, macBlock{macBlock_}, macSize{macSize_}, bufBlock{bufBlock_}, bufOff{bufOff_}, cipherInitialized{cipherInitialized_}, initialAssociatedText{initialAssociatedText_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
     operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);

@@ -24,7 +24,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: in6_addr
-    constexpr in6_addr(::ArrayWrapper<uint8_t> u6_addr8_ = {}) noexcept : u6_addr8{u6_addr8_} {}
+    constexpr in6_addr(::ArrayWrapper<uint8_t> u6_addr8_ = {nullptr}) noexcept : u6_addr8{u6_addr8_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

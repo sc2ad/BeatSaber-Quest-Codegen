@@ -34,8 +34,6 @@ namespace System {
     System::Reflection::Assembly* m_loadedAssembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
-    // Creating value type constructor for type: AssemblyLoadEventArgs
-    AssemblyLoadEventArgs(System::Reflection::Assembly* m_loadedAssembly_ = {}) noexcept : m_loadedAssembly{m_loadedAssembly_} {}
     // Creating conversion operator: operator System::Reflection::Assembly*
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return m_loadedAssembly;

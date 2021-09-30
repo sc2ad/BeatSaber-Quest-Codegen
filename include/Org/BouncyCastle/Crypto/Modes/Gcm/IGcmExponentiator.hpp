@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGcmExponentiator {
     public:
-    // Creating value type constructor for type: IGcmExponentiator
-    IGcmExponentiator() noexcept {}
     // public System.Void Init(System.Byte[] x)
     // Offset: 0xFFFFFFFF
     void Init(::ArrayWrapper<uint8_t> x);

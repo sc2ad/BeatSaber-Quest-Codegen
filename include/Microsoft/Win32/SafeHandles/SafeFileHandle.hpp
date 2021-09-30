@@ -20,8 +20,6 @@ namespace Microsoft::Win32::SafeHandles {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeFileHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
-    // Creating value type constructor for type: SafeFileHandle
-    SafeFileHandle() noexcept {}
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     // Offset: 0x1C2FF4C
     // Implemented from: System.Runtime.InteropServices.SafeHandle

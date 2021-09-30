@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithPingResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*> {
     public:
-    // Creating value type constructor for type: MessageWithPingResult
-    MessageWithPingResult() noexcept {}
     // protected Oculus.Platform.Models.PingResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BC584
     Oculus::Platform::Models::PingResult* GetDataFromMessage(System::IntPtr c_message);

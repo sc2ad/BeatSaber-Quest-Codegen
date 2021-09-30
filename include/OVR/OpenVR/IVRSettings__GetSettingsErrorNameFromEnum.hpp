@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB142C
   class IVRSettings::_GetSettingsErrorNameFromEnum : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetSettingsErrorNameFromEnum
-    _GetSettingsErrorNameFromEnum() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E0C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

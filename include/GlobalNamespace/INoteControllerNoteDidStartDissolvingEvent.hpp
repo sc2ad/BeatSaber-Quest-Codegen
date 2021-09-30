@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteControllerNoteDidStartDissolvingEvent {
     public:
-    // Creating value type constructor for type: INoteControllerNoteDidStartDissolvingEvent
-    INoteControllerNoteDidStartDissolvingEvent() noexcept {}
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
     // Offset: 0xFFFFFFFF
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);

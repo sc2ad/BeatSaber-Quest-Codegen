@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     bool practice;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass19_0
-    $$c__DisplayClass19_0(GlobalNamespace::PartyFreePlayFlowCoordinator* $$4__this_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, ::Il2CppString* leaderboardId_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool practice_ = {}) noexcept : $$4__this{$$4__this_}, levelCompletionResults{levelCompletionResults_}, leaderboardId{leaderboardId_}, difficultyBeatmap{difficultyBeatmap_}, practice{practice_} {}
     // Get instance field reference: public PartyFreePlayFlowCoordinator <>4__this
     GlobalNamespace::PartyFreePlayFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public LevelCompletionResults levelCompletionResults

@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithSystemPermission : public Oculus::Platform::Message_1<Oculus::Platform::Models::SystemPermission*> {
     public:
-    // Creating value type constructor for type: MessageWithSystemPermission
-    MessageWithSystemPermission() noexcept {}
     // protected Oculus.Platform.Models.SystemPermission GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BDF00
     Oculus::Platform::Models::SystemPermission* GetDataFromMessage(System::IntPtr c_message);

@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     UnityEngine::Color $cursorColor$5__2;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: $BlinkCursor$d__23
-    $BlinkCursor$d__23(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::VRTextEntryController* $$4__this_ = {}, UnityEngine::Color $cursorColor$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $cursorColor$5__2{$cursorColor$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

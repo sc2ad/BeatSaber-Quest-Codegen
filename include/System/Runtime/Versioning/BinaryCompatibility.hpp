@@ -14,8 +14,6 @@ namespace System::Runtime::Versioning {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryCompatibility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BinaryCompatibility
-    BinaryCompatibility() noexcept {}
     // Get static field: static public readonly System.Boolean TargetsAtLeast_Desktop_V4_5
     static bool _get_TargetsAtLeast_Desktop_V4_5();
     // Set static field: static public readonly System.Boolean TargetsAtLeast_Desktop_V4_5

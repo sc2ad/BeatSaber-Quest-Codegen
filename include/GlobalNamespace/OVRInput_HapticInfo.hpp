@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     UnityEngine::XR::XRNode node;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::XRNode) == 0x4);
-    // Creating value type constructor for type: HapticInfo
-    HapticInfo(bool playingHaptics_ = {}, float hapticsDurationPlayed_ = {}, float hapticsDuration_ = {}, float hapticAmplitude_ = {}, UnityEngine::XR::XRNode node_ = {}) noexcept : playingHaptics{playingHaptics_}, hapticsDurationPlayed{hapticsDurationPlayed_}, hapticsDuration{hapticsDuration_}, hapticAmplitude{hapticAmplitude_}, node{node_} {}
     // Get instance field reference: public System.Boolean playingHaptics
     bool& dyn_playingHaptics();
     // Get instance field reference: public System.Single hapticsDurationPlayed

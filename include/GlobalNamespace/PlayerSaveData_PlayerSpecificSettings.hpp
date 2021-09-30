@@ -128,8 +128,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
-    // Creating value type constructor for type: PlayerSpecificSettings
-    PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, float playerHeight_ = {}, bool automaticPlayerHeight_ = {}, float sfxVolume_ = {}, bool reduceDebris_ = {}, bool noTextsAndHuds_ = {}, bool advancedHud_ = {}, float saberTrailIntensity_ = {}, bool autoRestart_ = {}, bool noFailEffects_ = {}, float noteJumpBeatOffset_ = {}, bool hideNoteSpawnEffect_ = {}, bool adaptiveSfx_ = {}, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset_ = {}, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, playerHeight{playerHeight_}, automaticPlayerHeight{automaticPlayerHeight_}, sfxVolume{sfxVolume_}, reduceDebris{reduceDebris_}, noTextsAndHuds{noTextsAndHuds_}, advancedHud{advancedHud_}, saberTrailIntensity{saberTrailIntensity_}, autoRestart{autoRestart_}, noFailEffects{noFailEffects_}, noteJumpBeatOffset{noteJumpBeatOffset_}, hideNoteSpawnEffect{hideNoteSpawnEffect_}, adaptiveSfx{adaptiveSfx_}, environmentEffectsFilterDefaultPreset{environmentEffectsFilterDefaultPreset_}, environmentEffectsFilterExpertPlusPreset{environmentEffectsFilterExpertPlusPreset_} {}
     // Get instance field reference: public System.Boolean staticLights
     bool& dyn_staticLights();
     // Get instance field reference: public System.Boolean leftHanded

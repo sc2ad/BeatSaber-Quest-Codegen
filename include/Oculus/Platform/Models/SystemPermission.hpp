@@ -36,8 +36,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::PermissionGrantStatus PermissionGrantStatus;
     // Field size check
     static_assert(sizeof(Oculus::Platform::PermissionGrantStatus) == 0x4);
-    // Creating value type constructor for type: SystemPermission
-    SystemPermission(bool HasPermission_ = {}, Oculus::Platform::PermissionGrantStatus PermissionGrantStatus_ = {}) noexcept : HasPermission{HasPermission_}, PermissionGrantStatus{PermissionGrantStatus_} {}
     // Get instance field reference: public readonly System.Boolean HasPermission
     bool& dyn_HasPermission();
     // Get instance field reference: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus

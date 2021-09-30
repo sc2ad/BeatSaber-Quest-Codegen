@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnterPlayerGuestNameViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(System::Collections::Generic::List_1<::Il2CppString*>* guestPlayerNames_ = {}, GlobalNamespace::EnterPlayerGuestNameViewController* $$4__this_ = {}) noexcept : guestPlayerNames{guestPlayerNames_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> guestPlayerNames
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_guestPlayerNames();
     // Get instance field reference: public EnterPlayerGuestNameViewController <>4__this

@@ -27,8 +27,6 @@ namespace System {
     ::Il2CppString* comment;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MonoTODOAttribute
-    MonoTODOAttribute(::Il2CppString* comment_ = {}) noexcept : comment{comment_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return comment;

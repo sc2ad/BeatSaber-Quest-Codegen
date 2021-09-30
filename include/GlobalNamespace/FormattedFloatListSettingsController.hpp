@@ -126,8 +126,6 @@ namespace GlobalNamespace {
     bool hasValue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FormattedFloatListSettingsController
-    FormattedFloatListSettingsController(::ArrayWrapper<float> values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsController::ValueType valueType_ = {}, System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* valueDidChangeEvent_ = {}, float value_ = {}, float min_ = {}, float max_ = {}, bool hasValue_ = {}) noexcept : values{values_}, formattingString{formattingString_}, valueType{valueType_}, valueDidChangeEvent{valueDidChangeEvent_}, value{value_}, min{min_}, max{max_}, hasValue{hasValue_} {}
     // Get instance field reference: private System.Single[] _values
     ::ArrayWrapper<float>& dyn__values();
     // Get instance field reference: private System.String _formattingString

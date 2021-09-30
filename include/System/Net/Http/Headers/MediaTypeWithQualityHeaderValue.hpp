@@ -34,8 +34,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class MediaTypeWithQualityHeaderValue : public System::Net::Http::Headers::MediaTypeHeaderValue {
     public:
-    // Creating value type constructor for type: MediaTypeWithQualityHeaderValue
-    MediaTypeWithQualityHeaderValue() noexcept {}
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.MediaTypeWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
     // Offset: 0x1753A0C
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);

@@ -52,8 +52,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E72E1C
   class SystemInfo : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemInfo
-    SystemInfo() noexcept {}
     // static public UnityEngine.OperatingSystemFamily get_operatingSystemFamily()
     // Offset: 0x2340BB8
     static UnityEngine::OperatingSystemFamily get_operatingSystemFamily();

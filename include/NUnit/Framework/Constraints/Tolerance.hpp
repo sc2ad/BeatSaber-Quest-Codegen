@@ -34,8 +34,6 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppObject* amount;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: Tolerance
-    Tolerance(NUnit::Framework::Constraints::ToleranceMode mode_ = {}, ::Il2CppObject* amount_ = {}) noexcept : mode{mode_}, amount{amount_} {}
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ToleranceMode mode
     NUnit::Framework::Constraints::ToleranceMode& dyn_mode();
     // Get instance field reference: private readonly System.Object amount

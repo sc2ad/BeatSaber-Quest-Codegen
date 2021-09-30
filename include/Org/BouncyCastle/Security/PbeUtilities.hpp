@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class PbeUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PbeUtilities
-    PbeUtilities() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary algorithms
     static System::Collections::IDictionary* _get_algorithms();
     // Set static field: static private readonly System.Collections.IDictionary algorithms

@@ -53,8 +53,6 @@ namespace Oculus::Platform {
     public:
     // Nested type: Oculus::Platform::Matchmaking::CustomQuery
     class CustomQuery;
-    // Creating value type constructor for type: Matchmaking
-    Matchmaking() noexcept {}
     // static public Oculus.Platform.Request ReportResultsInsecure(System.UInt64 roomID, System.Collections.Generic.Dictionary`2<System.String,System.Int32> data)
     // Offset: 0x16AE9B0
     static Oculus::Platform::Request* ReportResultsInsecure(uint64_t roomID, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* data);

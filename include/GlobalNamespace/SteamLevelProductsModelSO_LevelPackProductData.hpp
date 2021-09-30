@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*> levelProductsData;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>) == 0x8);
-    // Creating value type constructor for type: LevelPackProductData
-    LevelPackProductData(uint bundleId_ = {}, ::Il2CppString* levelPackId_ = {}, ::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*> levelProductsData_ = {}) noexcept : bundleId{bundleId_}, levelPackId{levelPackId_}, levelProductsData{levelProductsData_} {}
     // Get instance field reference: private System.UInt32 _bundleId
     uint& dyn__bundleId();
     // Get instance field reference: private System.String _levelPackId

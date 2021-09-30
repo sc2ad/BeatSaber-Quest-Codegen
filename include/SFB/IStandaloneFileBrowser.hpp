@@ -26,8 +26,6 @@ namespace SFB {
   // [TokenAttribute] Offset: FFFFFFFF
   class IStandaloneFileBrowser {
     public:
-    // Creating value type constructor for type: IStandaloneFileBrowser
-    IStandaloneFileBrowser() noexcept {}
     // public System.String[] OpenFilePanel(System.String title, System.String directory, SFB.ExtensionFilter[] extensions, System.Boolean multiselect)
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<::Il2CppString*> OpenFilePanel(::Il2CppString* title, ::Il2CppString* directory, ::ArrayWrapper<SFB::ExtensionFilter> extensions, bool multiselect);

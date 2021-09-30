@@ -41,8 +41,6 @@ namespace System {
     bool trackResurrection;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: WeakReference_1
-    WeakReference_1(System::Runtime::InteropServices::GCHandle handle_ = {}, bool trackResurrection_ = {}) noexcept : handle{handle_}, trackResurrection{trackResurrection_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -69,8 +69,6 @@ namespace UnityEngine {
     int m_Push;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ControllerColliderHit
-    ControllerColliderHit(UnityEngine::CharacterController* m_Controller_ = {}, UnityEngine::Collider* m_Collider_ = {}, UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector3 m_MoveDirection_ = {}, float m_MoveLength_ = {}, int m_Push_ = {}) noexcept : m_Controller{m_Controller_}, m_Collider{m_Collider_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_MoveDirection{m_MoveDirection_}, m_MoveLength{m_MoveLength_}, m_Push{m_Push_} {}
     // Get instance field reference: UnityEngine.CharacterController m_Controller
     UnityEngine::CharacterController*& dyn_m_Controller();
     // Get instance field reference: UnityEngine.Collider m_Collider

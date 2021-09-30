@@ -29,8 +29,6 @@ namespace System {
   template<typename TEventArgs>
   class EventHandler_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: EventHandler_1
-    EventHandler_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

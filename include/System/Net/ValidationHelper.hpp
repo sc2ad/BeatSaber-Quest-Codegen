@@ -14,8 +14,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidationHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ValidationHelper
-    ValidationHelper() noexcept {}
     // Get static field: static public System.String[] EmptyArray
     static ::ArrayWrapper<::Il2CppString*> _get_EmptyArray();
     // Set static field: static public System.String[] EmptyArray

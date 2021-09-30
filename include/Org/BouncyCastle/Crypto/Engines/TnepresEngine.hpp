@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class TnepresEngine : public Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
     public:
-    // Creating value type constructor for type: TnepresEngine
-    TnepresEngine() noexcept {}
     // public override System.String get_AlgorithmName()
     // Offset: 0x204CC44
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase

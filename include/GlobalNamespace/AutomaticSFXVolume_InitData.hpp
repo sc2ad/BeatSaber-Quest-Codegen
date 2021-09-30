@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     bool adaptiveSfx;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitData
-    InitData(float volumeOffset_ = {}, float maxVolume_ = {}, bool adaptiveSfx_ = {}) noexcept : volumeOffset{volumeOffset_}, maxVolume{maxVolume_}, adaptiveSfx{adaptiveSfx_} {}
     // Get instance field reference: public readonly System.Single volumeOffset
     float& dyn_volumeOffset();
     // Get instance field reference: public readonly System.Single maxVolume

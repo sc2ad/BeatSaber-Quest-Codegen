@@ -20,8 +20,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IApplyToContext {
     public:
-    // Creating value type constructor for type: IApplyToContext
-    IApplyToContext() noexcept {}
     // public System.Void ApplyToContext(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF
     void ApplyToContext(NUnit::Framework::Internal::ITestExecutionContext* context);

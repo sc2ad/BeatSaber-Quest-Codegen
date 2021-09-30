@@ -41,8 +41,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c
     class $$c;
-    // Creating value type constructor for type: InternalMeshUtility
-    InternalMeshUtility() noexcept {}
     // static UnityEngine.Vector3 AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex shared, System.Int32[] all, System.Collections.Generic.IList`1<UnityEngine.Vector3> norm)
     // Offset: 0x171E5D0
     static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayWrapper<int> all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);

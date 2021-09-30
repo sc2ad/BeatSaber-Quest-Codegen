@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::AnimationClip* animationClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationClip*) == 0x8);
-    // Creating value type constructor for type: SongTimeAnimationPlayer
-    SongTimeAnimationPlayer(GlobalNamespace::FloatSO* songTime_ = {}, UnityEngine::AnimationClip* animationClip_ = {}) noexcept : songTime{songTime_}, animationClip{animationClip_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime

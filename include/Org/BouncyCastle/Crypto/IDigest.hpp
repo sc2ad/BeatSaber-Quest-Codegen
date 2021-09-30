@@ -17,8 +17,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDigest {
     public:
-    // Creating value type constructor for type: IDigest
-    IDigest() noexcept {}
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AlgorithmName();

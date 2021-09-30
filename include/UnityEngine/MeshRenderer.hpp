@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E714F8
   class MeshRenderer : public UnityEngine::Renderer {
     public:
-    // Creating value type constructor for type: MeshRenderer
-    MeshRenderer() noexcept {}
     // public UnityEngine.Mesh get_additionalVertexStreams()
     // Offset: 0x1DAE258
     UnityEngine::Mesh* get_additionalVertexStreams();

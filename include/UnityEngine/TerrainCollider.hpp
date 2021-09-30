@@ -25,8 +25,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED1650
   class TerrainCollider : public UnityEngine::Collider {
     public:
-    // Creating value type constructor for type: TerrainCollider
-    TerrainCollider() noexcept {}
     // public System.Void set_terrainData(UnityEngine.TerrainData value)
     // Offset: 0x262A7EC
     void set_terrainData(UnityEngine::TerrainData* value);

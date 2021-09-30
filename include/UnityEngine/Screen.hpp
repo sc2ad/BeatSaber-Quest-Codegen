@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: E70A30
   class Screen : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Screen
-    Screen() noexcept {}
     // static public System.Int32 get_width()
     // Offset: 0x1E0D690
     static int get_width();

@@ -30,8 +30,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TimelineAsset::MediaType) == 0x4);
-    // Creating value type constructor for type: TrackMediaType
-    TrackMediaType(UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType_ = {}) noexcept : m_MediaType{m_MediaType_} {}
     // Creating conversion operator: operator UnityEngine::Timeline::TimelineAsset::MediaType
     constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const noexcept {
       return m_MediaType;

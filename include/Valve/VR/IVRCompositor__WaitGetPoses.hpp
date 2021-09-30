@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB59E8
   class IVRCompositor::_WaitGetPoses : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _WaitGetPoses
-    _WaitGetPoses() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B1B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

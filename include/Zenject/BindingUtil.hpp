@@ -45,8 +45,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class BindingUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BindingUtil
-    BindingUtil() noexcept {}
     // static public System.Void AssertIsValidPrefab(UnityEngine.Object prefab)
     // Offset: 0x14F5078
     static void AssertIsValidPrefab(UnityEngine::Object* prefab);

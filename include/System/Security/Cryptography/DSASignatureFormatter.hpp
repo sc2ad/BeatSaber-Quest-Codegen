@@ -27,8 +27,6 @@ namespace System::Security::Cryptography {
     ::Il2CppString* oid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DSASignatureFormatter
-    DSASignatureFormatter(::Il2CppString* oid_ = {}) noexcept : oid{oid_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return oid;

@@ -113,8 +113,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* lastTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: IKSolverAim
-    IKSolverAim(UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 axis_ = {}, UnityEngine::Vector3 poleAxis_ = {}, UnityEngine::Vector3 polePosition_ = {}, float poleWeight_ = {}, UnityEngine::Transform* poleTarget_ = {}, float clampWeight_ = {}, int clampSmoothing_ = {}, RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, float step_ = {}, UnityEngine::Vector3 clampedIKPosition_ = {}, RootMotion::FinalIK::RotationLimit* transformLimit_ = {}, UnityEngine::Transform* lastTransform_ = {}) noexcept : transform{transform_}, axis{axis_}, poleAxis{poleAxis_}, polePosition{polePosition_}, poleWeight{poleWeight_}, poleTarget{poleTarget_}, clampWeight{clampWeight_}, clampSmoothing{clampSmoothing_}, OnPreIteration{OnPreIteration_}, step{step_}, clampedIKPosition{clampedIKPosition_}, transformLimit{transformLimit_}, lastTransform{lastTransform_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Vector3 axis

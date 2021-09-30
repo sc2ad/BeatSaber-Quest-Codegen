@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass29_0
-    $$c__DisplayClass29_0(bool levelCleared_ = {}, GlobalNamespace::MissionResultsViewController* $$4__this_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults_ = {}) noexcept : levelCleared{levelCleared_}, $$4__this{$$4__this_}, missionObjectives{missionObjectives_}, missionObjectiveResults{missionObjectiveResults_} {}
     // Get instance field reference: public System.Boolean levelCleared
     bool& dyn_levelCleared();
     // Get instance field reference: public MissionResultsViewController <>4__this

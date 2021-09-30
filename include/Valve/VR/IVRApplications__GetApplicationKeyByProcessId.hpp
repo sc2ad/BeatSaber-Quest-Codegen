@@ -42,8 +42,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5588
   class IVRApplications::_GetApplicationKeyByProcessId : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetApplicationKeyByProcessId
-    _GetApplicationKeyByProcessId() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1891BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

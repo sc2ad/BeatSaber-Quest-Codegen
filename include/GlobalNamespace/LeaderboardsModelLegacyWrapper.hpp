@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     OnlineServices::ILeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(OnlineServices::ILeaderboardsModel*) == 0x8);
-    // Creating value type constructor for type: LeaderboardsModelLegacyWrapper
-    LeaderboardsModelLegacyWrapper(OnlineServices::ILeaderboardsModel* leaderboardsModel_ = {}) noexcept : leaderboardsModel{leaderboardsModel_} {}
     // Creating conversion operator: operator OnlineServices::ILeaderboardsModel*
     constexpr operator OnlineServices::ILeaderboardsModel*() const noexcept {
       return leaderboardsModel;

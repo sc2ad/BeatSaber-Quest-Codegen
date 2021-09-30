@@ -42,8 +42,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerFiniteStateMachine : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: MockPlayerFiniteStateMachine
-    MockPlayerFiniteStateMachine() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

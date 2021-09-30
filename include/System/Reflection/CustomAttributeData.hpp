@@ -79,8 +79,6 @@ namespace System::Reflection {
     System::Reflection::CustomAttributeData::LazyCAttrData* lazyData;
     // Field size check
     static_assert(sizeof(System::Reflection::CustomAttributeData::LazyCAttrData*) == 0x8);
-    // Creating value type constructor for type: CustomAttributeData
-    CustomAttributeData(System::Reflection::ConstructorInfo* ctorInfo_ = {}, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>* ctorArgs_ = {}, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>* namedArgs_ = {}, System::Reflection::CustomAttributeData::LazyCAttrData* lazyData_ = {}) noexcept : ctorInfo{ctorInfo_}, ctorArgs{ctorArgs_}, namedArgs{namedArgs_}, lazyData{lazyData_} {}
     // Get instance field reference: private System.Reflection.ConstructorInfo ctorInfo
     System::Reflection::ConstructorInfo*& dyn_ctorInfo();
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument> ctorArgs

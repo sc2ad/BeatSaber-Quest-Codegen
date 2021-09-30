@@ -122,8 +122,6 @@ namespace Mono::Security::Cryptography {
     Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* KeyGenerated;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*) == 0x8);
-    // Creating value type constructor for type: DSAManaged
-    DSAManaged(bool keypairGenerated_ = {}, bool m_disposed_ = {}, Mono::Math::BigInteger* p_ = {}, Mono::Math::BigInteger* q_ = {}, Mono::Math::BigInteger* g_ = {}, Mono::Math::BigInteger* x_ = {}, Mono::Math::BigInteger* y_ = {}, Mono::Math::BigInteger* j_ = {}, Mono::Math::BigInteger* seed_ = {}, int counter_ = {}, bool j_missing_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}, Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* KeyGenerated_ = {}) noexcept : keypairGenerated{keypairGenerated_}, m_disposed{m_disposed_}, p{p_}, q{q_}, g{g_}, x{x_}, y{y_}, j{j_}, seed{seed_}, counter{counter_}, j_missing{j_missing_}, rng{rng_}, KeyGenerated{KeyGenerated_} {}
     // Get instance field reference: private System.Boolean keypairGenerated
     bool& dyn_keypairGenerated();
     // Get instance field reference: private System.Boolean m_disposed

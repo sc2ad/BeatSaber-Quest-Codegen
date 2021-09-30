@@ -58,8 +58,6 @@ namespace UnityEngine::TestTools {
     class $InvokeBefore$d__2;
     // Nested type: UnityEngine::TestTools::TestActionCommand::$InvokeAfter$d__3
     class $InvokeAfter$d__3;
-    // Creating value type constructor for type: TestActionCommand
-    TestActionCommand() noexcept {}
     // static private NUnit.Framework.ITestAction[] GetTestActionsFromMethod(System.Reflection.MethodInfo method)
     // Offset: 0x16718AC
     static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetTestActionsFromMethod(System::Reflection::MethodInfo* method);

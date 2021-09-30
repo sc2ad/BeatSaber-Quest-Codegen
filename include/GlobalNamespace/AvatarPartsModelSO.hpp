@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> clothes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>) == 0x8);
-    // Creating value type constructor for type: AvatarPartsModelSO
-    AvatarPartsModelSO(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> headTops_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> eyes_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> mouths_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> glasses_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> facialHair_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> hands_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> clothes_ = {}) noexcept : headTops{headTops_}, eyes{eyes_}, mouths{mouths_}, glasses{glasses_}, facialHair{facialHair_}, hands{hands_}, clothes{clothes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarMeshPartSO[] _headTops

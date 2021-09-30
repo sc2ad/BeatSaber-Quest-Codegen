@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RankModel::Rank immediateRank;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RankModel::Rank) == 0x4);
-    // Creating value type constructor for type: RelativeScoreAndImmediateRankCounter
-    RelativeScoreAndImmediateRankCounter(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, System::Action* relativeScoreOrImmediateRankDidChangeEvent_ = {}, float relativeScore_ = {}, GlobalNamespace::RankModel::Rank immediateRank_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, scoreController{scoreController_}, gameplayModifiers{gameplayModifiers_}, relativeScoreOrImmediateRankDidChangeEvent{relativeScoreOrImmediateRankDidChangeEvent_}, relativeScore{relativeScore_}, immediateRank{immediateRank_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel

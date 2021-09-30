@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1ParsingException : public System::InvalidOperationException {
     public:
-    // Creating value type constructor for type: Asn1ParsingException
-    Asn1ParsingException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18E34EC
     // Implemented from: System.InvalidOperationException

@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E6D940
   class ThreadAndSerializationSafeAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ThreadAndSerializationSafeAttribute
-    ThreadAndSerializationSafeAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261FBB8
     // Implemented from: System.Attribute

@@ -29,8 +29,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkInterfaceFactory::MacOsNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI {
     public:
-    // Creating value type constructor for type: MacOsNetworkInterfaceAPI
-    MacOsNetworkInterfaceAPI() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x16472C0
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.UnixNetworkInterfaceAPI

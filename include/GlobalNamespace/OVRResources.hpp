@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1<T>
     template<typename T>
     class $$c__DisplayClass3_0_1;
-    // Creating value type constructor for type: OVRResources
-    OVRResources() noexcept {}
     // Get static field: static private UnityEngine.AssetBundle resourceBundle
     static UnityEngine::AssetBundle* _get_resourceBundle();
     // Set static field: static private UnityEngine.AssetBundle resourceBundle

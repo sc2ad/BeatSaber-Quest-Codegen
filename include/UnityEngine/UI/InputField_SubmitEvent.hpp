@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputField::SubmitEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: SubmitEvent
-    SubmitEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B47BC0
     // Implemented from: UnityEngine.Events.UnityEvent`1

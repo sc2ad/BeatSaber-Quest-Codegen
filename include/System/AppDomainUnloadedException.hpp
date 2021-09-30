@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BC58
   class AppDomainUnloadedException : public System::SystemException {
     public:
-    // Creating value type constructor for type: AppDomainUnloadedException
-    AppDomainUnloadedException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x198683C
     // Implemented from: System.SystemException

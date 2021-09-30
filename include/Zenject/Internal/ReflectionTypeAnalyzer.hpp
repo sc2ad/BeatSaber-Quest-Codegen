@@ -73,8 +73,6 @@ namespace Zenject::Internal {
     class $$c__DisplayClass8_0;
     // Nested type: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
-    // Creating value type constructor for type: ReflectionTypeAnalyzer
-    ReflectionTypeAnalyzer() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.HashSet`1<System.Type> _injectAttributeTypes
     static System::Collections::Generic::HashSet_1<System::Type*>* _get__injectAttributeTypes();
     // Set static field: static private readonly System.Collections.Generic.HashSet`1<System.Type> _injectAttributeTypes

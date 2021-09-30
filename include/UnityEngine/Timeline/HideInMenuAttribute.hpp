@@ -21,8 +21,6 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB96A0
   class HideInMenuAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: HideInMenuAttribute
-    HideInMenuAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19FB600
     // Implemented from: System.Attribute

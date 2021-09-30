@@ -151,8 +151,6 @@ namespace LiteNetLib::Utils {
     System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* registeredTypes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*) == 0x8);
-    // Creating value type constructor for type: NetSerializer
-    NetSerializer(LiteNetLib::Utils::NetDataWriter* writer_ = {}, int maxStringLength_ = {}, System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* registeredTypes_ = {}) noexcept : writer{writer_}, maxStringLength{maxStringLength_}, registeredTypes{registeredTypes_} {}
     // Get instance field reference: private LiteNetLib.Utils.NetDataWriter _writer
     LiteNetLib::Utils::NetDataWriter*& dyn__writer();
     // Get instance field reference: private readonly System.Int32 _maxStringLength

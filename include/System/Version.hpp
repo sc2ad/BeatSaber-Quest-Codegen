@@ -67,8 +67,6 @@ namespace System {
     int Revision;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Version
-    Version(int Major_ = {}, int Minor_ = {}, int Build_ = {}, int Revision_ = {}) noexcept : Major{Major_}, Minor{Minor_}, Build{Build_}, Revision{Revision_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

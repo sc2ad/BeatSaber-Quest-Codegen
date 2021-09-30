@@ -28,8 +28,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventTrigger::TriggerEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::EventSystems::BaseEventData*> {
     public:
-    // Creating value type constructor for type: TriggerEvent
-    TriggerEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15EFFA0
     // Implemented from: UnityEngine.Events.UnityEvent`1

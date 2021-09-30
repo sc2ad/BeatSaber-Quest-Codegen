@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarPoseController::RotationsWillBeSetDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: RotationsWillBeSetDelegate
-    RotationsWillBeSetDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x124C784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

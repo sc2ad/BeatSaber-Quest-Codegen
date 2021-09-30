@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     float easeDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TransitionTimingSO
-    TransitionTimingSO(Tweening::EaseType easeType_ = {}, float easeDuration_ = {}) noexcept : easeType{easeType_}, easeDuration{easeDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Tweening.EaseType _easeType

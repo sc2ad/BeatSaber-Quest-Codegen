@@ -44,8 +44,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRScreenshots FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRScreenshots) == 0x38);
-    // Creating value type constructor for type: CVRScreenshots
-    CVRScreenshots(OVR::OpenVR::IVRScreenshots FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRScreenshots
     constexpr operator OVR::OpenVR::IVRScreenshots() const noexcept {
       return FnTable;

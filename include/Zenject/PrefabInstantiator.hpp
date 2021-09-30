@@ -104,8 +104,6 @@ namespace Zenject {
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*) == 0x8);
-    // Creating value type constructor for type: PrefabInstantiator
-    PrefabInstantiator(Zenject::IPrefabProvider* prefabProvider_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArguments_ = {}, Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}, System::Type* argumentTarget_ = {}, System::Collections::Generic::List_1<System::Type*>* instantiateCallbackTypes_ = {}, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback_ = {}) noexcept : prefabProvider{prefabProvider_}, container{container_}, extraArguments{extraArguments_}, gameObjectBindInfo{gameObjectBindInfo_}, argumentTarget{argumentTarget_}, instantiateCallbackTypes{instantiateCallbackTypes_}, instantiateCallback{instantiateCallback_} {}
     // Creating interface conversion operator: operator Zenject::IPrefabInstantiator
     operator Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);

@@ -78,7 +78,6 @@ namespace GlobalNamespace {
       UnityEngine::Quaternion& dyn_rot();
       // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
       // Offset: 0x134A3C0
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  PositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot)
       // static public VRControllersRecorderData/PositionAndRotation Lerp(VRControllersRecorderData/PositionAndRotation a, VRControllersRecorderData/PositionAndRotation b, System.Single t)
       // Offset: 0x134A15C
@@ -99,8 +98,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* keyframes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*) == 0x8);
-    // Creating value type constructor for type: VRControllersRecorderData
-    VRControllersRecorderData(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::NodeInfo*> nodesInfo_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
     // Get instance field reference: public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
     ::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::NodeInfo*>& dyn_nodesInfo();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes

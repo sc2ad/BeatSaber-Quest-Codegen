@@ -21,8 +21,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FCD0
   class IContributeDynamicSink {
     public:
-    // Creating value type constructor for type: IContributeDynamicSink
-    IContributeDynamicSink() noexcept {}
     // public System.Runtime.Remoting.Contexts.IDynamicMessageSink GetDynamicSink()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Contexts::IDynamicMessageSink* GetDynamicSink();

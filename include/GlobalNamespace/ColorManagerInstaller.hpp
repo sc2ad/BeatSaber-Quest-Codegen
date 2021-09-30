@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeSO* menuColorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // Creating value type constructor for type: ColorManagerInstaller
-    ColorManagerInstaller(GlobalNamespace::ColorSchemeSO* menuColorScheme_ = {}) noexcept : menuColorScheme{menuColorScheme_} {}
     // Get instance field reference: private ColorSchemeSO _menuColorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__menuColorScheme();
     // public System.Void .ctor()

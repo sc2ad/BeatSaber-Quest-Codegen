@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StartMiddleEndButtonsGroup : public UnityEngine::MonoBehaviour/*, public UnityEngine::UI::ILayoutController*/ {
     public:
-    // Creating value type constructor for type: StartMiddleEndButtonsGroup
-    StartMiddleEndButtonsGroup() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutController
     operator UnityEngine::UI::ILayoutController() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutController*>(this);

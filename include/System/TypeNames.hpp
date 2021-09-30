@@ -21,8 +21,6 @@ namespace System {
     public:
     // Nested type: System::TypeNames::ATypeName
     class ATypeName;
-    // Creating value type constructor for type: TypeNames
-    TypeNames() noexcept {}
   }; // System.TypeNames
   #pragma pack(pop)
 }

@@ -48,8 +48,6 @@ namespace Zenject {
     ::ArrayWrapper<Zenject::InjectableInfo*> Parameters;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Zenject::InjectableInfo*>) == 0x8);
-    // Creating value type constructor for type: InjectMethodInfo
-    InjectMethodInfo(::Il2CppString* Name_ = {}, Zenject::ZenInjectMethod* Action_ = {}, ::ArrayWrapper<Zenject::InjectableInfo*> Parameters_ = {}) noexcept : Name{Name_}, Action{Action_}, Parameters{Parameters_} {}
     // Get instance field reference: public readonly System.String Name
     ::Il2CppString*& dyn_Name();
     // Get instance field reference: public readonly Zenject.ZenInjectMethod Action

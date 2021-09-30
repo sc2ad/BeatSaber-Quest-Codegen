@@ -25,8 +25,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ModifierSpec {
     public:
-    // Creating value type constructor for type: ModifierSpec
-    ModifierSpec() noexcept {}
     // public System.Type Resolve(System.Type type)
     // Offset: 0xFFFFFFFF
     System::Type* Resolve(System::Type* type);

@@ -51,8 +51,6 @@ namespace NUnit::Framework::Internal::Builders {
     NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* defaultBuilder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*) == 0x8);
-    // Creating value type constructor for type: DefaultSuiteBuilder
-    DefaultSuiteBuilder(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* defaultBuilder_ = {}) noexcept : defaultBuilder{defaultBuilder_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder
     operator NUnit::Framework::Interfaces::ISuiteBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ISuiteBuilder*>(this);

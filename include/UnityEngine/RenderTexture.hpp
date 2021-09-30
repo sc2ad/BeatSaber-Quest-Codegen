@@ -44,8 +44,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71850
   class RenderTexture : public UnityEngine::Texture {
     public:
-    // Creating value type constructor for type: RenderTexture
-    RenderTexture() noexcept {}
     // public UnityEngine.Experimental.Rendering.GraphicsFormat get_graphicsFormat()
     // Offset: 0x1E03C20
     UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();

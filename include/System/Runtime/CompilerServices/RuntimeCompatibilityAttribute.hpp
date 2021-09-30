@@ -27,8 +27,6 @@ namespace System::Runtime::CompilerServices {
     bool m_wrapNonExceptionThrows;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RuntimeCompatibilityAttribute
-    RuntimeCompatibilityAttribute(bool m_wrapNonExceptionThrows_ = {}) noexcept : m_wrapNonExceptionThrows{m_wrapNonExceptionThrows_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_wrapNonExceptionThrows;

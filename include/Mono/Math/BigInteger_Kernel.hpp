@@ -16,8 +16,6 @@ namespace Mono::Math {
   // [TokenAttribute] Offset: FFFFFFFF
   class BigInteger::Kernel : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Kernel
-    Kernel() noexcept {}
     // static public Mono.Math.BigInteger Subtract(Mono.Math.BigInteger big, Mono.Math.BigInteger small)
     // Offset: 0x1F944F8
     static Mono::Math::BigInteger* Subtract(Mono::Math::BigInteger* big, Mono::Math::BigInteger* small);

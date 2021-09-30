@@ -117,8 +117,6 @@ namespace HMUI {
     ::ArrayWrapper<HMUI::SectionTableView::Section> sections;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<HMUI::SectionTableView::Section>) == 0x8);
-    // Creating value type constructor for type: SectionTableView
-    SectionTableView(bool unfoldSectionsByDefault_ = {}, System::Action_3<HMUI::SectionTableView*, int, int>* didSelectRowInSectionEvent_ = {}, System::Action_2<HMUI::SectionTableView*, int>* didSelectHeaderEvent_ = {}, HMUI::SectionTableView::IDataSource* dataSource_ = {}, ::ArrayWrapper<HMUI::SectionTableView::Section> sections_ = {}) noexcept : unfoldSectionsByDefault{unfoldSectionsByDefault_}, didSelectRowInSectionEvent{didSelectRowInSectionEvent_}, didSelectHeaderEvent{didSelectHeaderEvent_}, dataSource{dataSource_}, sections{sections_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

@@ -43,8 +43,6 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILeaderboardsModel {
     public:
-    // Creating value type constructor for type: ILeaderboardsModel
-    ILeaderboardsModel() noexcept {}
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);

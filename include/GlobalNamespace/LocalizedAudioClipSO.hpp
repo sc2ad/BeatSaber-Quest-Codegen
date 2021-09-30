@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* lastLocalizedAudioClipInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*) == 0x8);
-    // Creating value type constructor for type: LocalizedAudioClipSO
-    LocalizedAudioClipSO(::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*> localizedAudioClipInfo_ = {}, GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* lastLocalizedAudioClipInfo_ = {}) noexcept : localizedAudioClipInfo{localizedAudioClipInfo_}, lastLocalizedAudioClipInfo{lastLocalizedAudioClipInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo

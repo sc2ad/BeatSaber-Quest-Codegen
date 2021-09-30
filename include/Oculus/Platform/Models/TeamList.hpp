@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class TeamList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Team*> {
     public:
-    // Creating value type constructor for type: TeamList
-    TeamList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16BFBA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -26,8 +26,6 @@ namespace NUnit::Framework::Internal::Commands {
     NUnit::Framework::Internal::Commands::TestCommand* innerCommand;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
-    // Creating value type constructor for type: DelegatingTestCommand
-    DelegatingTestCommand(NUnit::Framework::Internal::Commands::TestCommand* innerCommand_ = {}) noexcept : innerCommand{innerCommand_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand

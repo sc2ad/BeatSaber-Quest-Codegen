@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool : public Zenject::MemoryPool_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // protected System.Void OnDespawned(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler item)
     // Offset: 0x12A19FC
     void OnDespawned(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* item);

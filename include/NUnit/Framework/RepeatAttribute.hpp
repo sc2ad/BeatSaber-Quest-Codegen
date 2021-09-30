@@ -24,8 +24,6 @@ namespace NUnit::Framework {
     public:
     // Nested type: NUnit::Framework::RepeatAttribute::RepeatedTestCommand
     class RepeatedTestCommand;
-    // Creating value type constructor for type: RepeatAttribute
-    RepeatAttribute() noexcept {}
   }; // NUnit.Framework.RepeatAttribute
   #pragma pack(pop)
 }

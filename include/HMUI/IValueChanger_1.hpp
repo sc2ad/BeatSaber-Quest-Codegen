@@ -25,8 +25,6 @@ namespace HMUI {
   template<typename T>
   class IValueChanger_1 {
     public:
-    // Creating value type constructor for type: IValueChanger_1
-    IValueChanger_1() noexcept {}
     // public System.Void add_valueChangedEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void add_valueChangedEvent(System::Action_1<T>* value) {

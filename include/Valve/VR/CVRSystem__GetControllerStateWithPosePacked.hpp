@@ -41,8 +41,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6708
   class CVRSystem::_GetControllerStateWithPosePacked : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetControllerStateWithPosePacked
-    _GetControllerStateWithPosePacked() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1891498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

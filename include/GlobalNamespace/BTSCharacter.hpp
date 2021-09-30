@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* headTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: BTSCharacter
-    BTSCharacter(::Il2CppString* characterName_ = {}, UnityEngine::Animator* animator_ = {}, GlobalNamespace::BTSCharacterMaterialSwitcher* btsCharacterMaterialSwitcher_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, UnityEngine::Transform* headTransform_ = {}) noexcept : characterName{characterName_}, animator{animator_}, btsCharacterMaterialSwitcher{btsCharacterMaterialSwitcher_}, materialPropertyBlockController{materialPropertyBlockController_}, headTransform{headTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _characterName

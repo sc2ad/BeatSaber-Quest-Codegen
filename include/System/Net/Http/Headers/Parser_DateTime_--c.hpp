@@ -21,8 +21,6 @@ namespace System::Net::Http::Headers {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Parser::DateTime::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9
     static System::Net::Http::Headers::Parser::DateTime::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9

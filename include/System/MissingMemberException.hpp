@@ -46,8 +46,6 @@ namespace System {
     ::ArrayWrapper<uint8_t> Signature;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: MissingMemberException
-    MissingMemberException(::Il2CppString* ClassName_ = {}, ::Il2CppString* MemberName_ = {}, ::ArrayWrapper<uint8_t> Signature_ = {}) noexcept : ClassName{ClassName_}, MemberName{MemberName_}, Signature{Signature_} {}
     // Get instance field reference: protected System.String ClassName
     ::Il2CppString*& dyn_ClassName();
     // Get instance field reference: protected System.String MemberName

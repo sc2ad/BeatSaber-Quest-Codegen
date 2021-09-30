@@ -22,8 +22,6 @@ namespace UnityEngine::UI {
   // [ObsoleteAttribute] Offset: EA7D2C
   class IMask {
     public:
-    // Creating value type constructor for type: IMask
-    IMask() noexcept {}
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0xFFFFFFFF
     UnityEngine::RectTransform* get_rectTransform();

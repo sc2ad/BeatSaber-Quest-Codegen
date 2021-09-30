@@ -112,8 +112,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group) == 0x4);
-    // Creating value type constructor for type: AbTestExperimentDefinitionSO
-    AbTestExperimentDefinitionSO(::Il2CppString* experimentName_ = {}, float test1GroupSize_ = {}, float test2GroupSize_ = {}, float controlGroupSize_ = {}, ::Il2CppString* salt_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup_ = {}) noexcept : experimentName{experimentName_}, test1GroupSize{test1GroupSize_}, test2GroupSize{test2GroupSize_}, controlGroupSize{controlGroupSize_}, salt{salt_}, currentUserTreatmentGroup{currentUserTreatmentGroup_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _experimentName

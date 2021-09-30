@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRIOBuffer FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRIOBuffer) == 0x28);
-    // Creating value type constructor for type: CVRIOBuffer
-    CVRIOBuffer(OVR::OpenVR::IVRIOBuffer FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRIOBuffer
     constexpr operator OVR::OpenVR::IVRIOBuffer() const noexcept {
       return FnTable;

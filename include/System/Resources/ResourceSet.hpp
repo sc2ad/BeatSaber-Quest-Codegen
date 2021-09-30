@@ -57,8 +57,6 @@ namespace System::Resources {
     System::Collections::Hashtable* caseInsensitiveTable;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: ResourceSet
-    ResourceSet(System::Resources::IResourceReader* Reader_ = {}, System::Collections::Hashtable* Table_ = {}, System::Collections::Hashtable* caseInsensitiveTable_ = {}) noexcept : Reader{Reader_}, Table{Table_}, caseInsensitiveTable{caseInsensitiveTable_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -20,8 +20,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputNodeUICache::HEU_InputObjectUICache : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_InputObjectUICache
-    HEU_InputObjectUICache() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x152A260
     // Implemented from: System.Object

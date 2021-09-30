@@ -72,8 +72,6 @@ namespace System {
     int64_t m_CookieGenerator;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: LocalDataStoreMgr
-    LocalDataStoreMgr(::ArrayWrapper<bool> m_SlotInfoTable_ = {}, int m_FirstAvailableSlot_ = {}, System::Collections::Generic::List_1<System::LocalDataStore*>* m_ManagedLocalDataStores_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::LocalDataStoreSlot*>* m_KeyToSlotMap_ = {}, int64_t m_CookieGenerator_ = {}) noexcept : m_SlotInfoTable{m_SlotInfoTable_}, m_FirstAvailableSlot{m_FirstAvailableSlot_}, m_ManagedLocalDataStores{m_ManagedLocalDataStores_}, m_KeyToSlotMap{m_KeyToSlotMap_}, m_CookieGenerator{m_CookieGenerator_} {}
     // static field const value: static private System.Int32 InitialSlotTableSize
     static constexpr const int InitialSlotTableSize = 64;
     // Get static field: static private System.Int32 InitialSlotTableSize

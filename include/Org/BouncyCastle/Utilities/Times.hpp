@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Times : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Times
-    Times() noexcept {}
     // Get static field: static private System.Int64 NanosecondsPerTick
     static int64_t _get_NanosecondsPerTick();
     // Set static field: static private System.Int64 NanosecondsPerTick

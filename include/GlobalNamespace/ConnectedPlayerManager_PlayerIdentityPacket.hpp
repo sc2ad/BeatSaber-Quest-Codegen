@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerAvatarData playerAvatar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerAvatarData) == 0x70);
-    // Creating value type constructor for type: PlayerIdentityPacket
-    PlayerIdentityPacket(GlobalNamespace::PlayerStateHash playerState_ = {}, GlobalNamespace::MultiplayerAvatarData playerAvatar_ = {}) noexcept : playerState{playerState_}, playerAvatar{playerAvatar_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

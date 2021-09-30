@@ -65,8 +65,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::VRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::VRIK*) == 0x8);
-    // Creating value type constructor for type: VRIKRootController
-    VRIKRootController(UnityEngine::Vector3 pelvisTargetRight_ = {}, UnityEngine::Transform* pelvisTarget_ = {}, UnityEngine::Transform* leftFootTarget_ = {}, UnityEngine::Transform* rightFootTarget_ = {}, RootMotion::FinalIK::VRIK* ik_ = {}) noexcept : pelvisTargetRight{pelvisTargetRight_}, pelvisTarget{pelvisTarget_}, leftFootTarget{leftFootTarget_}, rightFootTarget{rightFootTarget_}, ik{ik_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField

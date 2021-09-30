@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: DemoMenuLevelPanelView
-    DemoMenuLevelPanelView(GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel_ = {}, UnityEngine::UI::Button* playButton_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, TMPro::TextMeshProUGUI* difficultyText_ = {}, GlobalNamespace::LocalLeaderboardTableView* localLeaderboardTableView_ = {}, System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* playButtonWasPressedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : localLeaderboardsModel{localLeaderboardsModel_}, playButton{playButton_}, songNameText{songNameText_}, difficultyText{difficultyText_}, localLeaderboardTableView{localLeaderboardTableView_}, playButtonWasPressedEvent{playButtonWasPressedEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfCells

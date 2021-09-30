@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerLobbyCenterStageManager
-    MultiplayerLobbyCenterStageManager(UnityEngine::Transform* centerObjectTransform_ = {}, GlobalNamespace::CenterStageScreenController* centerStageScreenController_ = {}, GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}) noexcept : centerObjectTransform{centerObjectTransform_}, centerStageScreenController{centerStageScreenController_}, lobbyStateDataModel{lobbyStateDataModel_}, innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _centerObjectTransform

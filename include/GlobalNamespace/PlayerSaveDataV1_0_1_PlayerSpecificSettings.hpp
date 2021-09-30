@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     bool noTextsAndHuds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PlayerSpecificSettings
-    PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, bool swapColors_ = {}, float playerHeight_ = {}, bool disableSFX_ = {}, bool reduceDebris_ = {}, bool advancedHud_ = {}, bool noTextsAndHuds_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, swapColors{swapColors_}, playerHeight{playerHeight_}, disableSFX{disableSFX_}, reduceDebris{reduceDebris_}, advancedHud{advancedHud_}, noTextsAndHuds{noTextsAndHuds_} {}
     // Get instance field reference: public System.Boolean staticLights
     bool& dyn_staticLights();
     // Get instance field reference: public System.Boolean leftHanded

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRCursor : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: OVRCursor
-    OVRCursor() noexcept {}
     // public System.Void SetCursorRay(UnityEngine.Transform ray)
     // Offset: 0xFFFFFFFF
     void SetCursorRay(UnityEngine::Transform* ray);

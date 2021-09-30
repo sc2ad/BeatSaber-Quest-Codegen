@@ -73,8 +73,6 @@ namespace System::Globalization {
     ::Il2CppString* englishEraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EraInfo
-    EraInfo(int era_ = {}, int64_t ticks_ = {}, int yearOffset_ = {}, int minEraYear_ = {}, int maxEraYear_ = {}, ::Il2CppString* eraName_ = {}, ::Il2CppString* abbrevEraName_ = {}, ::Il2CppString* englishEraName_ = {}) noexcept : era{era_}, ticks{ticks_}, yearOffset{yearOffset_}, minEraYear{minEraYear_}, maxEraYear{maxEraYear_}, eraName{eraName_}, abbrevEraName{abbrevEraName_}, englishEraName{englishEraName_} {}
     // Get instance field reference: System.Int32 era
     int& dyn_era();
     // Get instance field reference: System.Int64 ticks

@@ -30,8 +30,6 @@ namespace System::Security::Util {
     System::Security::Util::TokenizerStringBlock* m_next;
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
-    // Creating value type constructor for type: TokenizerStringBlock
-    TokenizerStringBlock(::ArrayWrapper<::Il2CppString*> m_block_ = {}, System::Security::Util::TokenizerStringBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // Get instance field reference: System.String[] m_block
     ::ArrayWrapper<::Il2CppString*>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next

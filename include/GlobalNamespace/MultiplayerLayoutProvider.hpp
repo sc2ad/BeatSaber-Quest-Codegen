@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLayoutProvider
-    MultiplayerLayoutProvider(GlobalNamespace::MultiplayerPlayerLayout layout_ = {}, int activePlayerSpotsCount_ = {}, System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent_ = {}) noexcept : layout{layout_}, activePlayerSpotsCount{activePlayerSpotsCount_}, playersLayoutWasCalculatedEvent{playersLayoutWasCalculatedEvent_} {}
     // Get instance field reference: private MultiplayerPlayerLayout <layout>k__BackingField
     GlobalNamespace::MultiplayerPlayerLayout& dyn_$layout$k__BackingField();
     // Get instance field reference: private System.Int32 <activePlayerSpotsCount>k__BackingField

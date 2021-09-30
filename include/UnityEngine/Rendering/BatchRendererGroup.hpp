@@ -43,8 +43,6 @@ namespace UnityEngine::Rendering {
     UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*) == 0x8);
-    // Creating value type constructor for type: BatchRendererGroup
-    BatchRendererGroup(System::IntPtr m_GroupHandle_ = {}, UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling_ = {}) noexcept : m_GroupHandle{m_GroupHandle_}, m_PerformCulling{m_PerformCulling_} {}
     // Get instance field reference: private System.IntPtr m_GroupHandle
     System::IntPtr& dyn_m_GroupHandle();
     // Get instance field reference: private UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling m_PerformCulling

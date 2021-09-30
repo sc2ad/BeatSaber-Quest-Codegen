@@ -21,8 +21,6 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class CameraEventUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CameraEventUtils
-    CameraEventUtils() noexcept {}
     // static public System.Boolean IsValid(UnityEngine.Rendering.CameraEvent value)
     // Offset: 0x1E06CDC
     static bool IsValid(UnityEngine::Rendering::CameraEvent value);

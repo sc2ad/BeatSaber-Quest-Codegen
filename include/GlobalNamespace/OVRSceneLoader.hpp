@@ -93,7 +93,6 @@ namespace GlobalNamespace {
       int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
       // Offset: 0x180B7B4
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion)
     }; // OVRSceneLoader/SceneInfo
     #pragma pack(pop)
@@ -179,8 +178,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRSceneLoader::SceneInfo currentSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo) == 0x10);
-    // Creating value type constructor for type: OVRSceneLoader
-    OVRSceneLoader(float sceneCheckIntervalSeconds_ = {}, float logCloseTime_ = {}, UnityEngine::Canvas* mainCanvas_ = {}, UnityEngine::UI::Text* logTextBox_ = {}, UnityEngine::AsyncOperation* loadSceneOperation_ = {}, ::Il2CppString* formattedLogText_ = {}, float closeLogTimer_ = {}, bool closeLogDialogue_ = {}, bool canvasPosUpdated_ = {}, ::Il2CppString* scenePath_ = {}, ::Il2CppString* sceneLoadDataPath_ = {}, System::Collections::Generic::List_1<UnityEngine::AssetBundle*>* loadedAssetBundles_ = {}, GlobalNamespace::OVRSceneLoader::SceneInfo currentSceneInfo_ = {}) noexcept : sceneCheckIntervalSeconds{sceneCheckIntervalSeconds_}, logCloseTime{logCloseTime_}, mainCanvas{mainCanvas_}, logTextBox{logTextBox_}, loadSceneOperation{loadSceneOperation_}, formattedLogText{formattedLogText_}, closeLogTimer{closeLogTimer_}, closeLogDialogue{closeLogDialogue_}, canvasPosUpdated{canvasPosUpdated_}, scenePath{scenePath_}, sceneLoadDataPath{sceneLoadDataPath_}, loadedAssetBundles{loadedAssetBundles_}, currentSceneInfo{currentSceneInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.String externalStoragePath

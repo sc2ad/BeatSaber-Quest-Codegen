@@ -27,8 +27,6 @@ namespace Mono::Math::Prime::Generator {
   // [TokenAttribute] Offset: FFFFFFFF
   class SequentialSearchPrimeGeneratorBase : public Mono::Math::Prime::Generator::PrimeGeneratorBase {
     public:
-    // Creating value type constructor for type: SequentialSearchPrimeGeneratorBase
-    SequentialSearchPrimeGeneratorBase() noexcept {}
     // protected Mono.Math.BigInteger GenerateSearchBase(System.Int32 bits, System.Object context)
     // Offset: 0x1F976E0
     Mono::Math::BigInteger* GenerateSearchBase(int bits, ::Il2CppObject* context);

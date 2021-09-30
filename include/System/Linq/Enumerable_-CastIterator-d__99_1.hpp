@@ -66,8 +66,6 @@ namespace System::Linq {
     System::Collections::IEnumerator* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: $CastIterator$d__99_1
-    $CastIterator$d__99_1(int $$1__state_ = {}, TResult $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::IEnumerable* source_ = {}, System::Collections::IEnumerable* $$3__source_ = {}, System::Collections::IEnumerator* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, source{source_}, $$3__source{$$3__source_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TResult>
     operator System::Collections::Generic::IEnumerable_1<TResult>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TResult>*>(this);

@@ -45,8 +45,6 @@ namespace Zenject {
     Zenject::IPoolable* poolable;
     // Field size check
     static_assert(sizeof(Zenject::IPoolable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(Zenject::IPoolable* poolable_ = {}) noexcept : poolable{poolable_} {}
     // Creating conversion operator: operator Zenject::IPoolable*
     constexpr operator Zenject::IPoolable*() const noexcept {
       return poolable;

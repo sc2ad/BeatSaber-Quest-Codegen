@@ -41,8 +41,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass0_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c
     class $$c;
-    // Creating value type constructor for type: MergeElements
-    MergeElements() noexcept {}
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> MergePairs(UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face>> pairs, System.Boolean collapseCoincidentVertices)
     // Offset: 0x18F67AC
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* MergePairs(UnityEngine::ProBuilder::ProBuilderMesh* target, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>>* pairs, bool collapseCoincidentVertices);

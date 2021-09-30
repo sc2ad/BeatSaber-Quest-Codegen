@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBufferedCipher {
     public:
-    // Creating value type constructor for type: IBufferedCipher
-    IBufferedCipher() noexcept {}
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);

@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: MainEffectSO
-    MainEffectSO() noexcept {}
     // public System.Boolean get_hasPostProcessEffect()
     // Offset: 0x2587F9C
     bool get_hasPostProcessEffect();

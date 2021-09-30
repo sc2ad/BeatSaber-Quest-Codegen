@@ -55,8 +55,6 @@ namespace Zenject {
     bool matchAll;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass22_0
-    $$c__DisplayClass22_0(::Il2CppObject* subIdentifier_ = {}, Zenject::InjectSources source_ = {}, bool matchAll_ = {}) noexcept : subIdentifier{subIdentifier_}, source{source_}, matchAll{matchAll_} {}
     // Get instance field reference: public System.Object subIdentifier
     ::Il2CppObject*& dyn_subIdentifier();
     // Get instance field reference: public Zenject.InjectSources source

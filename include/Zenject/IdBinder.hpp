@@ -32,8 +32,6 @@ namespace Zenject {
     Zenject::BindInfo* bindInfo;
     // Field size check
     static_assert(sizeof(Zenject::BindInfo*) == 0x8);
-    // Creating value type constructor for type: IdBinder
-    IdBinder(Zenject::BindInfo* bindInfo_ = {}) noexcept : bindInfo{bindInfo_} {}
     // Creating conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept {
       return bindInfo;

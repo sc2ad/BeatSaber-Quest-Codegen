@@ -36,8 +36,6 @@ namespace System::Threading::Tasks {
     class TaskWrapperAsyncResult;
     // Nested type: System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
-    // Creating value type constructor for type: TaskToApm
-    TaskToApm() noexcept {}
     // static public System.IAsyncResult Begin(System.Threading.Tasks.Task task, System.AsyncCallback callback, System.Object state)
     // Offset: 0x19BC5A4
     static System::IAsyncResult* Begin(System::Threading::Tasks::Task* task, System::AsyncCallback* callback, ::Il2CppObject* state);

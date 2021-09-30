@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     bool hasInvitePermission;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PlayerLobbyPermissionConfigurationNetSerializable
-    PlayerLobbyPermissionConfigurationNetSerializable(::Il2CppString* userId_ = {}, bool isServerOwner_ = {}, bool hasRecommendBeatmapsPermission_ = {}, bool hasRecommendGameplayModifiersPermission_ = {}, bool hasKickVotePermission_ = {}, bool hasInvitePermission_ = {}) noexcept : userId{userId_}, isServerOwner{isServerOwner_}, hasRecommendBeatmapsPermission{hasRecommendBeatmapsPermission_}, hasRecommendGameplayModifiersPermission{hasRecommendGameplayModifiersPermission_}, hasKickVotePermission{hasKickVotePermission_}, hasInvitePermission{hasInvitePermission_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

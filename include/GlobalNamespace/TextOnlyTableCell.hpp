@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     HMUI::ImageView* highlightImage;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // Creating value type constructor for type: TextOnlyTableCell
-    TextOnlyTableCell(UnityEngine::Color selectedHighlightColor_ = {}, TMPro::TextMeshProUGUI* text_ = {}, HMUI::ImageView* bgImage_ = {}, HMUI::ImageView* highlightImage_ = {}) noexcept : selectedHighlightColor{selectedHighlightColor_}, text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
     // Get instance field reference: private UnityEngine.Color _selectedHighlightColor
     UnityEngine::Color& dyn__selectedHighlightColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

@@ -28,8 +28,6 @@ namespace UnityEngine {
     int m_Order;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DefaultExecutionOrder
-    DefaultExecutionOrder(int m_Order_ = {}) noexcept : m_Order{m_Order_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_Order;

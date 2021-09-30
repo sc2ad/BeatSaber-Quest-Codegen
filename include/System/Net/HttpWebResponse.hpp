@@ -128,8 +128,6 @@ namespace System::Net {
     System::IO::Stream* stream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: HttpWebResponse
-    HttpWebResponse(System::Uri* uri_ = {}, System::Net::WebHeaderCollection* webHeaders_ = {}, System::Net::CookieCollection* cookieCollection_ = {}, ::Il2CppString* method_ = {}, System::Version* version_ = {}, System::Net::HttpStatusCode statusCode_ = {}, ::Il2CppString* statusDescription_ = {}, int64_t contentLength_ = {}, ::Il2CppString* contentType_ = {}, System::Net::CookieContainer* cookie_container_ = {}, bool disposed_ = {}, System::IO::Stream* stream_ = {}) noexcept : uri{uri_}, webHeaders{webHeaders_}, cookieCollection{cookieCollection_}, method{method_}, version{version_}, statusCode{statusCode_}, statusDescription{statusDescription_}, contentLength{contentLength_}, contentType{contentType_}, cookie_container{cookie_container_}, disposed{disposed_}, stream{stream_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.Uri uri

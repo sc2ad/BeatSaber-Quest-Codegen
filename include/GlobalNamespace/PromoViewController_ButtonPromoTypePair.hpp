@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*) == 0x8);
-    // Creating value type constructor for type: ButtonPromoTypePair
-    ButtonPromoTypePair(UnityEngine::UI::Button* button_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack_ = {}, GlobalNamespace::BeatmapLevelPackSO* levelPack_ = {}, GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}) noexcept : button{button_}, previewLevelPack{previewLevelPack_}, levelPack{levelPack_}, beatmapLevel{beatmapLevel_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_} {}
     // Get instance field reference: public UnityEngine.UI.Button button
     UnityEngine::UI::Button*& dyn_button();
     // Get instance field reference: public PreviewBeatmapLevelPackSO previewLevelPack

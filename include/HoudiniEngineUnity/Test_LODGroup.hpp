@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::LODGroup* self;
     // Field size check
     static_assert(sizeof(UnityEngine::LODGroup*) == 0x8);
-    // Creating value type constructor for type: Test_LODGroup
-    Test_LODGroup(UnityEngine::LODGroup* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_LODGroup*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_LODGroup*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_LODGroup*>*>(this);

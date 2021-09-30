@@ -26,8 +26,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashCodeCalculator : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HashCodeCalculator
-    HashCodeCalculator() noexcept {}
     // static public System.Int32 Calculate(System.Collections.Generic.ICollection`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>

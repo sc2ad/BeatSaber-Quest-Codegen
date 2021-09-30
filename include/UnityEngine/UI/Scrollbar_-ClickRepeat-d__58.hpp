@@ -64,8 +64,6 @@ namespace UnityEngine::UI {
     UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
-    // Creating value type constructor for type: $ClickRepeat$d__58
-    $ClickRepeat$d__58(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::UI::Scrollbar* $$4__this_ = {}, UnityEngine::Vector2 screenPosition_ = {}, UnityEngine::Camera* camera_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, screenPosition{screenPosition_}, camera{camera_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

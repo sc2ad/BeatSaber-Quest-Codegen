@@ -28,8 +28,6 @@ namespace UnityEngine::Timeline {
     float volume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AudioClipProperties
-    AudioClipProperties(float volume_ = {}) noexcept : volume{volume_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return volume;

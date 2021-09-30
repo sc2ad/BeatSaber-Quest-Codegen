@@ -31,8 +31,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicClient : public ::Il2CppObject/*, public System::Net::IAuthenticationModule*/ {
     public:
-    // Creating value type constructor for type: BasicClient
-    BasicClient() noexcept {}
     // Creating interface conversion operator: operator System::Net::IAuthenticationModule
     operator System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<System::Net::IAuthenticationModule*>(this);

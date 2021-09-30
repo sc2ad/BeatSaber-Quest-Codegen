@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T partAsset;
-    // Creating value type constructor for type: AvatarPartSO_1
-    AvatarPartSO_1(::Il2CppString* id_ = {}, ::Il2CppString* localizationKey_ = {}, T partAsset_ = {}) noexcept : id{id_}, localizationKey{localizationKey_}, partAsset{partAsset_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAvatarPart
     operator GlobalNamespace::IAvatarPart() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAvatarPart*>(this);

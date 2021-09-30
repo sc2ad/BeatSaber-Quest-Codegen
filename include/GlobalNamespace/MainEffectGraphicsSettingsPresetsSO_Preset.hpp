@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MainEffectSO* mainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainEffectSO*) == 0x8);
-    // Creating value type constructor for type: Preset
-    Preset(GlobalNamespace::MainEffectSO* mainEffect_ = {}) noexcept : mainEffect{mainEffect_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: public MainEffectSO mainEffect

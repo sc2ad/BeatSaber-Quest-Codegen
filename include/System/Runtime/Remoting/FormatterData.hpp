@@ -20,8 +20,6 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class FormatterData : public System::Runtime::Remoting::ProviderData {
     public:
-    // Creating value type constructor for type: FormatterData
-    FormatterData() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1C0F150
     // Implemented from: System.Runtime.Remoting.ProviderData

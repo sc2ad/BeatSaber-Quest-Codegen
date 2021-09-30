@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     int prevPosition;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MultiplayerPositionHUDController
-    MultiplayerPositionHUDController(TMPro::TextMeshProUGUI* playerCountText_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, UnityEngine::GameObject* firstPlayerAnimationGo_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::MultiplayerPlayersManager* playersManager_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}, int prevPosition_ = {}) noexcept : playerCountText{playerCountText_}, positionText{positionText_}, canvasGroup{canvasGroup_}, firstPlayerAnimationGo{firstPlayerAnimationGo_}, scoreProvider{scoreProvider_}, playersManager{playersManager_}, initData{initData_}, prevPosition{prevPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerCountText

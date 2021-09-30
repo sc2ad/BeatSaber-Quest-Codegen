@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifiersConfiguration::SongSpeed : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SongSpeed
-    SongSpeed() noexcept {}
     // static field const value: static public System.Single kSlower
     static constexpr const float kSlower = 0.85;
     // Get static field: static public System.Single kSlower

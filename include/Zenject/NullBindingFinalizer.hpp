@@ -30,8 +30,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class NullBindingFinalizer : public ::Il2CppObject/*, public Zenject::IBindingFinalizer*/ {
     public:
-    // Creating value type constructor for type: NullBindingFinalizer
-    NullBindingFinalizer() noexcept {}
     // Creating interface conversion operator: operator Zenject::IBindingFinalizer
     operator Zenject::IBindingFinalizer() noexcept {
       return *reinterpret_cast<Zenject::IBindingFinalizer*>(this);

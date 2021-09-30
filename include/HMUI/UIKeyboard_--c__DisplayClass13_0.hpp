@@ -40,8 +40,6 @@ namespace HMUI {
     HMUI::UIKeyboard* $$4__this;
     // Field size check
     static_assert(sizeof(HMUI::UIKeyboard*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(HMUI::UIKeyboardKey* key_ = {}, HMUI::UIKeyboard* $$4__this_ = {}) noexcept : key{key_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public HMUI.UIKeyboardKey key
     HMUI::UIKeyboardKey*& dyn_key();
     // Get instance field reference: public HMUI.UIKeyboard <>4__this

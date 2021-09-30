@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     UnityEngine::Cubemap* blackCubemap;
     // Field size check
     static_assert(sizeof(UnityEngine::Cubemap*) == 0x8);
-    // Creating value type constructor for type: BakedReflectionProbe
-    BakedReflectionProbe(int resolutionBeforeDownsample_ = {}, int downsampleByHalfCount_ = {}, UnityEngine::Vector3 size_ = {}, UnityEngine::Vector3 offset_ = {}, GlobalNamespace::ReflectionProbeDataSO* reflectionProbeData_ = {}, UnityEngine::Cubemap* blackCubemap_ = {}) noexcept : resolutionBeforeDownsample{resolutionBeforeDownsample_}, downsampleByHalfCount{downsampleByHalfCount_}, size{size_}, offset{offset_}, reflectionProbeData{reflectionProbeData_}, blackCubemap{blackCubemap_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1395C

@@ -32,8 +32,6 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: E72A0C
   class ScriptableObject : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: ScriptableObject
-    ScriptableObject() noexcept {}
     // static public UnityEngine.ScriptableObject CreateInstance(System.Type type)
     // Offset: 0x1E0D984
     static UnityEngine::ScriptableObject* CreateInstance(System::Type* type);

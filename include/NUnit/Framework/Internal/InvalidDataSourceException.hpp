@@ -27,8 +27,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidDataSourceException : public System::Exception {
     public:
-    // Creating value type constructor for type: InvalidDataSourceException
-    InvalidDataSourceException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x249CEB4
     // Implemented from: System.Exception

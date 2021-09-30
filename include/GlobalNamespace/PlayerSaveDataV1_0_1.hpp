@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
-    // Creating value type constructor for type: PlayerSaveDataV1_0_1
-    PlayerSaveDataV1_0_1(::Il2CppString* version_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer*>* localPlayers_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*>* guestPlayers_ = {}, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty_ = {}) noexcept : version{version_}, localPlayers{localPlayers_}, guestPlayers{guestPlayers_}, lastSelectedBeatmapDifficulty{lastSelectedBeatmapDifficulty_} {}
     // static field const value: static private BeatmapDifficulty kDefaulLastSelectedBeatmapDifficulty
     static constexpr const int kDefaulLastSelectedBeatmapDifficulty = 1;
     // Get static field: static private BeatmapDifficulty kDefaulLastSelectedBeatmapDifficulty

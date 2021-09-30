@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     int preallocateCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PreallocationData
-    PreallocationData(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, int preallocateCount_ = {}) noexcept : lightType{lightType_}, preallocateCount{preallocateCount_} {}
     // Get instance field reference: public BloomPrePassLightTypeSO lightType
     GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public System.Int32 preallocateCount

@@ -25,8 +25,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSync : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetSync
-    NetSync() noexcept {}
     // static public System.Void SetConnectionStatusChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncConnection> callback)
     // Offset: 0x25B6A08
     static void SetConnectionStatusChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback* callback);

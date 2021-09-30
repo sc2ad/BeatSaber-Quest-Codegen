@@ -135,8 +135,6 @@ namespace TMPro {
     ::ArrayWrapper<TMPro::TMP_MeshInfo> m_CachedMeshInfo;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<TMPro::TMP_MeshInfo>) == 0x8);
-    // Creating value type constructor for type: TMP_TextInfo
-    TMP_TextInfo(TMPro::TMP_Text* textComponent_ = {}, int characterCount_ = {}, int spriteCount_ = {}, int spaceCount_ = {}, int wordCount_ = {}, int linkCount_ = {}, int lineCount_ = {}, int pageCount_ = {}, int materialCount_ = {}, ::ArrayWrapper<TMPro::TMP_CharacterInfo> characterInfo_ = {}, ::ArrayWrapper<TMPro::TMP_WordInfo> wordInfo_ = {}, ::ArrayWrapper<TMPro::TMP_LinkInfo> linkInfo_ = {}, ::ArrayWrapper<TMPro::TMP_LineInfo> lineInfo_ = {}, ::ArrayWrapper<TMPro::TMP_PageInfo> pageInfo_ = {}, ::ArrayWrapper<TMPro::TMP_MeshInfo> meshInfo_ = {}, ::ArrayWrapper<TMPro::TMP_MeshInfo> m_CachedMeshInfo_ = {}) noexcept : textComponent{textComponent_}, characterCount{characterCount_}, spriteCount{spriteCount_}, spaceCount{spaceCount_}, wordCount{wordCount_}, linkCount{linkCount_}, lineCount{lineCount_}, pageCount{pageCount_}, materialCount{materialCount_}, characterInfo{characterInfo_}, wordInfo{wordInfo_}, linkInfo{linkInfo_}, lineInfo{lineInfo_}, pageInfo{pageInfo_}, meshInfo{meshInfo_}, m_CachedMeshInfo{m_CachedMeshInfo_} {}
     // Get static field: static private UnityEngine.Vector2 k_InfinityVectorPositive
     static UnityEngine::Vector2 _get_k_InfinityVectorPositive();
     // Set static field: static private UnityEngine.Vector2 k_InfinityVectorPositive

@@ -34,8 +34,6 @@ namespace Oculus::Platform {
     ::ArrayWrapper<float> scratchBuffer;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
-    // Creating value type constructor for type: FilterReadDelegate
-    FilterReadDelegate(Oculus::Platform::VoipAudioSourceHiLevel* parent_ = {}, ::ArrayWrapper<float> scratchBuffer_ = {}) noexcept : parent{parent_}, scratchBuffer{scratchBuffer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public Oculus.Platform.VoipAudioSourceHiLevel parent

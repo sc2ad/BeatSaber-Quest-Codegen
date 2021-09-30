@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::RequestKickPlayerRpc : public GlobalNamespace::RemoteProcedureCall_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: RequestKickPlayerRpc
-    RequestKickPlayerRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8A6C
     // Implemented from: RemoteProcedureCall`1

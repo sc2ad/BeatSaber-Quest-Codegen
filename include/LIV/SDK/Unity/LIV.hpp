@@ -62,8 +62,6 @@ namespace LIV::SDK::Unity {
     UnityEngine::LayerMask SpectatorLayerMask;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // Creating value type constructor for type: LIV
-    LIV(UnityEngine::Transform* TrackedSpaceOrigin_ = {}, UnityEngine::Camera* HMDCamera_ = {}, bool DisableStandardAssets_ = {}, UnityEngine::LayerMask SpectatorLayerMask_ = {}) noexcept : TrackedSpaceOrigin{TrackedSpaceOrigin_}, HMDCamera{HMDCamera_}, DisableStandardAssets{DisableStandardAssets_}, SpectatorLayerMask{SpectatorLayerMask_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform TrackedSpaceOrigin

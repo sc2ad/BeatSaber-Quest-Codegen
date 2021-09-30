@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawAxis1D) == 0x4);
-    // Creating value type constructor for type: VirtualAxis1DMap
-    VirtualAxis1DMap(GlobalNamespace::OVRInput::RawAxis1D None_ = {}, GlobalNamespace::OVRInput::RawAxis1D PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D PrimaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger_ = {}) noexcept : None{None_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryHandTrigger{PrimaryHandTrigger_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryHandTrigger{SecondaryHandTrigger_} {}
     // Get instance field reference: public OVRInput/RawAxis1D None
     GlobalNamespace::OVRInput::RawAxis1D& dyn_None();
     // Get instance field reference: public OVRInput/RawAxis1D PrimaryIndexTrigger

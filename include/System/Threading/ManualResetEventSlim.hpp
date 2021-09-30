@@ -59,8 +59,6 @@ namespace System::Threading {
     int m_combinedState;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ManualResetEventSlim
-    ManualResetEventSlim(::Il2CppObject* m_lock_ = {}, System::Threading::ManualResetEvent* m_eventObj_ = {}, int m_combinedState_ = {}) noexcept : m_lock{m_lock_}, m_eventObj{m_eventObj_}, m_combinedState{m_combinedState_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

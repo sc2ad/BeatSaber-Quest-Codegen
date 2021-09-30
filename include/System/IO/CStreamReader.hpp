@@ -43,8 +43,6 @@ namespace System::IO {
     System::TermInfoDriver* driver;
     // Field size check
     static_assert(sizeof(System::TermInfoDriver*) == 0x8);
-    // Creating value type constructor for type: CStreamReader
-    CStreamReader(System::TermInfoDriver* driver_ = {}) noexcept : driver{driver_} {}
     // Get instance field reference: private System.TermInfoDriver driver
     System::TermInfoDriver*& dyn_driver();
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)

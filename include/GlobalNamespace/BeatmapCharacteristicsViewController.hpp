@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     int selectedBeatmapCharacteristicNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BeatmapCharacteristicsViewController
-    BeatmapCharacteristicsViewController(GlobalNamespace::BeatmapCharacteristicsTableView* beatmapCharacteristicsTableView_ = {}, System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* didSelectBeatmapCharacteristicEvent_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, int selectedBeatmapCharacteristicNum_ = {}) noexcept : beatmapCharacteristicsTableView{beatmapCharacteristicsTableView_}, didSelectBeatmapCharacteristicEvent{didSelectBeatmapCharacteristicEvent_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, selectedBeatmapCharacteristicNum{selectedBeatmapCharacteristicNum_} {}
     // Get instance field reference: private BeatmapCharacteristicsTableView _beatmapCharacteristicsTableView
     GlobalNamespace::BeatmapCharacteristicsTableView*& dyn__beatmapCharacteristicsTableView();
     // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent

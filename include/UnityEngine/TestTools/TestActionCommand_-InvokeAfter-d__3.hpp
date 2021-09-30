@@ -61,8 +61,6 @@ namespace UnityEngine::TestTools {
     NUnit::Framework::Internal::Test* test;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
-    // Creating value type constructor for type: $InvokeAfter$d__3
-    $InvokeAfter$d__3(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, NUnit::Framework::ITestAction* action_ = {}, NUnit::Framework::Internal::Test* test_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, action{action_}, test{test_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

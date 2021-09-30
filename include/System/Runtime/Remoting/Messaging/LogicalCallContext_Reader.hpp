@@ -49,7 +49,6 @@ namespace System::Runtime::Remoting::Messaging {
     bool get_HasInfo();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
     // Offset: 0x1C195A8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx)
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
     // Offset: 0x1C195D0

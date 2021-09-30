@@ -34,8 +34,6 @@ namespace LiteNetLib::Utils {
   template<typename TProperty>
   class NetSerializer::CustomTypeStruct_1 : public LiteNetLib::Utils::NetSerializer::CustomType {
     public:
-    // Creating value type constructor for type: CustomTypeStruct_1
-    CustomTypeStruct_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType

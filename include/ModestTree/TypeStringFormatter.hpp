@@ -33,8 +33,6 @@ namespace ModestTree {
     public:
     // Nested type: ModestTree::TypeStringFormatter::$$c
     class $$c;
-    // Creating value type constructor for type: TypeStringFormatter
-    TypeStringFormatter() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
     static System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppString*>* _get__prettyNameCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache

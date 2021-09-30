@@ -59,8 +59,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* activeConstraint;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*) == 0x8);
-    // Creating value type constructor for type: DTSweepDebugContext
-    DTSweepDebugContext(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* primaryTriangle_ = {}, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* secondaryTriangle_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* activePoint_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* activeNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* activeConstraint_ = {}) noexcept : primaryTriangle{primaryTriangle_}, secondaryTriangle{secondaryTriangle_}, activePoint{activePoint_}, activeNode{activeNode_}, activeConstraint{activeConstraint_} {}
     // Deleting conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
     constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _primaryTriangle

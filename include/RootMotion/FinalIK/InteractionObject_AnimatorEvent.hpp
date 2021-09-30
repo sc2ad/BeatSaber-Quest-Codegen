@@ -76,8 +76,6 @@ namespace RootMotion::FinalIK {
     bool resetNormalizedTime;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AnimatorEvent
-    AnimatorEvent(UnityEngine::Animator* animator_ = {}, UnityEngine::Animation* animation_ = {}, ::Il2CppString* animationState_ = {}, float crossfadeTime_ = {}, int layer_ = {}, bool resetNormalizedTime_ = {}) noexcept : animator{animator_}, animation{animation_}, animationState{animationState_}, crossfadeTime{crossfadeTime_}, layer{layer_}, resetNormalizedTime{resetNormalizedTime_} {}
     // static field const value: static private System.String empty
     static constexpr const char* empty = "";
     // Get static field: static private System.String empty

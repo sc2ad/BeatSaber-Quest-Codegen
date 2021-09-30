@@ -157,8 +157,6 @@ namespace GlobalNamespace {
     UnityEngine::CursorLockMode previousCursorLockMode;
     // Field size check
     static_assert(sizeof(UnityEngine::CursorLockMode) == 0x4);
-    // Creating value type constructor for type: OVRHeadsetEmulator
-    OVRHeadsetEmulator(GlobalNamespace::OVRHeadsetEmulator::OpMode opMode_ = {}, bool resetHmdPoseOnRelease_ = {}, bool resetHmdPoseByMiddleMouseButton_ = {}, ::ArrayWrapper<UnityEngine::KeyCode> activateKeys_ = {}, ::ArrayWrapper<UnityEngine::KeyCode> pitchKeys_ = {}, GlobalNamespace::OVRManager* manager_ = {}, bool lastFrameEmulationActivated_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation_ = {}, bool hasSentEvent_ = {}, bool emulatorHasInitialized_ = {}, UnityEngine::CursorLockMode previousCursorLockMode_ = {}) noexcept : opMode{opMode_}, resetHmdPoseOnRelease{resetHmdPoseOnRelease_}, resetHmdPoseByMiddleMouseButton{resetHmdPoseByMiddleMouseButton_}, activateKeys{activateKeys_}, pitchKeys{pitchKeys_}, manager{manager_}, lastFrameEmulationActivated{lastFrameEmulationActivated_}, recordedHeadPoseRelativeOffsetTranslation{recordedHeadPoseRelativeOffsetTranslation_}, recordedHeadPoseRelativeOffsetRotation{recordedHeadPoseRelativeOffsetRotation_}, hasSentEvent{hasSentEvent_}, emulatorHasInitialized{emulatorHasInitialized_}, previousCursorLockMode{previousCursorLockMode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single MOUSE_SCALE_X

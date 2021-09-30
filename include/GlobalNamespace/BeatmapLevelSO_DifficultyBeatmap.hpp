@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmapSet*) == 0x8);
-    // Creating value type constructor for type: DifficultyBeatmap
-    DifficultyBeatmap(GlobalNamespace::BeatmapDifficulty difficulty_ = {}, int difficultyRank_ = {}, float noteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}, GlobalNamespace::BeatmapDataSO* beatmapData_ = {}, GlobalNamespace::IBeatmapLevel* parentLevel_ = {}, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, beatmapData{beatmapData_}, parentLevel{parentLevel_}, parentDifficultyBeatmapSet{parentDifficultyBeatmapSet_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDifficultyBeatmap
     operator GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuDestination* menuDestination;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuDestination*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass8_0
-    $$c__DisplayClass8_0(GlobalNamespace::MenuDestination* menuDestination_ = {}) noexcept : menuDestination{menuDestination_} {}
     // Creating conversion operator: operator GlobalNamespace::MenuDestination*
     constexpr operator GlobalNamespace::MenuDestination*() const noexcept {
       return menuDestination;

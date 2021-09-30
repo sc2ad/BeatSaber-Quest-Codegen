@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* captureRenderTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
-    // Creating value type constructor for type: ScreenCaptureAfterDelay
-    ScreenCaptureAfterDelay(GlobalNamespace::MainEffectController* mainEffectController_ = {}, GlobalNamespace::ScreenCaptureCache* screenCaptureCache_ = {}, GlobalNamespace::ScreenCaptureAfterDelay::InitData* initData_ = {}, UnityEngine::Texture2D* captureTexture_ = {}, UnityEngine::RenderTexture* captureRenderTexture_ = {}) noexcept : mainEffectController{mainEffectController_}, screenCaptureCache{screenCaptureCache_}, initData{initData_}, captureTexture{captureTexture_}, captureRenderTexture{captureRenderTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainEffectController _mainEffectController

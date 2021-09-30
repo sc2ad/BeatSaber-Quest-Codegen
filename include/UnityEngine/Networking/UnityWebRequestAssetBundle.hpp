@@ -26,8 +26,6 @@ namespace UnityEngine::Networking {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityWebRequestAssetBundle : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityWebRequestAssetBundle
-    UnityWebRequestAssetBundle() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri)
     // Offset: 0x2628100
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri);

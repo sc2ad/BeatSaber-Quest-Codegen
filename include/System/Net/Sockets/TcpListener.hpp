@@ -67,8 +67,6 @@ namespace System::Net::Sockets {
     bool m_ExclusiveAddressUse;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TcpListener
-    TcpListener(System::Net::IPEndPoint* m_ServerSocketEP_ = {}, System::Net::Sockets::Socket* m_ServerSocket_ = {}, bool m_Active_ = {}, bool m_ExclusiveAddressUse_ = {}) noexcept : m_ServerSocketEP{m_ServerSocketEP_}, m_ServerSocket{m_ServerSocket_}, m_Active{m_Active_}, m_ExclusiveAddressUse{m_ExclusiveAddressUse_} {}
     // Get instance field reference: private System.Net.IPEndPoint m_ServerSocketEP
     System::Net::IPEndPoint*& dyn_m_ServerSocketEP();
     // Get instance field reference: private System.Net.Sockets.Socket m_ServerSocket

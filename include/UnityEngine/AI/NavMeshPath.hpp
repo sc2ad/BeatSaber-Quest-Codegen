@@ -44,8 +44,6 @@ namespace UnityEngine::AI {
     ::ArrayWrapper<UnityEngine::Vector3> m_Corners;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: NavMeshPath
-    NavMeshPath(System::IntPtr m_Ptr_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_Corners_ = {}) noexcept : m_Ptr{m_Ptr_}, m_Corners{m_Corners_} {}
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: UnityEngine.Vector3[] m_Corners

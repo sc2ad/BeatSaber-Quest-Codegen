@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: EA38A8
   class ParticleSystemRenderer : public UnityEngine::Renderer {
     public:
-    // Creating value type constructor for type: ParticleSystemRenderer
-    ParticleSystemRenderer() noexcept {}
     // public System.Int32 GetMeshes(out UnityEngine.Mesh[] meshes)
     // Offset: 0x261D744
     int GetMeshes(ByRef<::ArrayWrapper<UnityEngine::Mesh*>> meshes);

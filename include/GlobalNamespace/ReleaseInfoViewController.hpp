@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     UnityEngine::TextAsset* firstTextAsset;
     // Field size check
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
-    // Creating value type constructor for type: ReleaseInfoViewController
-    ReleaseInfoViewController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, UnityEngine::TextAsset* releaseNotesTextAsset_ = {}, UnityEngine::TextAsset* firstTextAsset_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, textPageScrollView{textPageScrollView_}, releaseNotesTextAsset{releaseNotesTextAsset_}, firstTextAsset{firstTextAsset_} {}
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView

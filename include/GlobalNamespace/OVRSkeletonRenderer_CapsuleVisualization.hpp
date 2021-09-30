@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* SystemGestureMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: CapsuleVisualization
-    CapsuleVisualization(UnityEngine::GameObject* CapsuleGO_ = {}, GlobalNamespace::OVRBoneCapsule* BoneCapsule_ = {}, UnityEngine::Vector3 capsuleScale_ = {}, UnityEngine::MeshRenderer* Renderer_ = {}, UnityEngine::Material* RenderMaterial_ = {}, UnityEngine::Material* SystemGestureMaterial_ = {}) noexcept : CapsuleGO{CapsuleGO_}, BoneCapsule{BoneCapsule_}, capsuleScale{capsuleScale_}, Renderer{Renderer_}, RenderMaterial{RenderMaterial_}, SystemGestureMaterial{SystemGestureMaterial_} {}
     // Get instance field reference: private UnityEngine.GameObject CapsuleGO
     UnityEngine::GameObject*& dyn_CapsuleGO();
     // Get instance field reference: private OVRBoneCapsule BoneCapsule

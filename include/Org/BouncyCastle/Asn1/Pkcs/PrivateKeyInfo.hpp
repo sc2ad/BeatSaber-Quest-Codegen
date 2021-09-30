@@ -72,8 +72,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerBitString* publicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: PrivateKeyInfo
-    PrivateKeyInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* privateKey_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attributes_ = {}, Org::BouncyCastle::Asn1::DerBitString* publicKey_ = {}) noexcept : version{version_}, privateKeyAlgorithm{privateKeyAlgorithm_}, privateKey{privateKey_}, attributes{attributes_}, publicKey{publicKey_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm

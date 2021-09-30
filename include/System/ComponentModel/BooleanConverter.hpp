@@ -20,8 +20,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class BooleanConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: BooleanConverter
-    BooleanConverter() noexcept {}
     // Get static field: static private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     static System::ComponentModel::TypeConverter::StandardValuesCollection* _get_values();
     // Set static field: static private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values

@@ -22,8 +22,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeNames::ATypeName : public ::Il2CppObject/*, public System::TypeName*/ {
     public:
-    // Creating value type constructor for type: ATypeName
-    ATypeName() noexcept {}
     // Creating interface conversion operator: operator System::TypeName
     operator System::TypeName() noexcept {
       return *reinterpret_cast<System::TypeName*>(this);

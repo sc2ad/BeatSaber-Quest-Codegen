@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6564
   class IVRSettings::_SetFloat : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetFloat
-    _SetFloat() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED8854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

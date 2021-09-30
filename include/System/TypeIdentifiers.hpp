@@ -23,8 +23,6 @@ namespace System {
     public:
     // Nested type: System::TypeIdentifiers::Display
     class Display;
-    // Creating value type constructor for type: TypeIdentifiers
-    TypeIdentifiers() noexcept {}
     // static System.TypeIdentifier FromDisplay(System.String displayName)
     // Offset: 0x25306E4
     static System::TypeIdentifier* FromDisplay(::Il2CppString* displayName);

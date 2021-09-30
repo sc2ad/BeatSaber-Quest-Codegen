@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 originalScale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: $$c__DisplayClass52_0
-    $$c__DisplayClass52_0(UnityEngine::Transform* partTransform_ = {}, UnityEngine::Vector3 originalScale_ = {}) noexcept : partTransform{partTransform_}, originalScale{originalScale_} {}
     // Get instance field reference: public UnityEngine.Transform partTransform
     UnityEngine::Transform*& dyn_partTransform();
     // Get instance field reference: public UnityEngine.Vector3 originalScale

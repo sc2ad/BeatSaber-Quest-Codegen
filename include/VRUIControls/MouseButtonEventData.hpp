@@ -40,8 +40,6 @@ namespace VRUIControls {
     UnityEngine::EventSystems::PointerEventData* buttonData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
-    // Creating value type constructor for type: MouseButtonEventData
-    MouseButtonEventData(UnityEngine::EventSystems::PointerEventData::FramePressState buttonState_ = {}, UnityEngine::EventSystems::PointerEventData* buttonData_ = {}) noexcept : buttonState{buttonState_}, buttonData{buttonData_} {}
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData

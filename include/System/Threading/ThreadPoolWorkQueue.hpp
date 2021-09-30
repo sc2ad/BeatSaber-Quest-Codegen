@@ -52,8 +52,6 @@ namespace System::Threading {
     int numOutstandingThreadRequests;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ThreadPoolWorkQueue
-    ThreadPoolWorkQueue(System::Threading::ThreadPoolWorkQueue::QueueSegment* queueHead_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* queueTail_ = {}, int numOutstandingThreadRequests_ = {}) noexcept : queueHead{queueHead_}, queueTail{queueTail_}, numOutstandingThreadRequests{numOutstandingThreadRequests_} {}
     // Get static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
     static System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* _get_allThreadQueues();
     // Set static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues

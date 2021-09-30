@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     int lastKnowScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MockPlayerGamePoseGeneratorAI
-    MockPlayerGamePoseGeneratorAI(GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator_ = {}, int lastKnowScore_ = {}) noexcept : scoreCalculator{scoreCalculator_}, lastKnowScore{lastKnowScore_} {}
     // Get instance field reference: private readonly IMockPlayerScoreCalculator _scoreCalculator
     GlobalNamespace::IMockPlayerScoreCalculator*& dyn__scoreCalculator();
     // Get instance field reference: private System.Int32 _lastKnowScore

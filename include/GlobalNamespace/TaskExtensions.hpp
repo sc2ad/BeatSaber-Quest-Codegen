@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1<T>
     template<typename T>
     struct $WaitForTask$d__1_1;
-    // Creating value type constructor for type: TaskExtensions
-    TaskExtensions() noexcept {}
     // static public System.Threading.Tasks.Task`1<T> WithCancellation(System.Threading.Tasks.Task`1<T> task, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     template<class T>

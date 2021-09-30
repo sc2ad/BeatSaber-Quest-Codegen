@@ -33,8 +33,6 @@ namespace System::Runtime::Versioning {
     ::Il2CppString* frameworkDisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TargetFrameworkAttribute
-    TargetFrameworkAttribute(::Il2CppString* frameworkName_ = {}, ::Il2CppString* frameworkDisplayName_ = {}) noexcept : frameworkName{frameworkName_}, frameworkDisplayName{frameworkDisplayName_} {}
     // Get instance field reference: private System.String _frameworkName
     ::Il2CppString*& dyn__frameworkName();
     // Get instance field reference: private System.String _frameworkDisplayName

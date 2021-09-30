@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1OctetString* data;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
-    // Creating value type constructor for type: EncryptedPrivateKeyInfo
-    EncryptedPrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* data_ = {}) noexcept : algId{algId_}, data{data_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algId();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString data

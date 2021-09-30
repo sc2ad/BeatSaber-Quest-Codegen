@@ -112,8 +112,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* lastPivot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: InteractionTarget
-    InteractionTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionTarget::Multiplier*> multipliers_ = {}, float interactionSpeedMlp_ = {}, UnityEngine::Transform* pivot_ = {}, UnityEngine::Vector3 twistAxis_ = {}, float twistWeight_ = {}, float swingWeight_ = {}, bool rotateOnce_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, UnityEngine::Transform* lastPivot_ = {}) noexcept : effectorType{effectorType_}, multipliers{multipliers_}, interactionSpeedMlp{interactionSpeedMlp_}, pivot{pivot_}, twistAxis{twistAxis_}, twistWeight{twistWeight_}, swingWeight{swingWeight_}, rotateOnce{rotateOnce_}, defaultLocalRotation{defaultLocalRotation_}, lastPivot{lastPivot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType

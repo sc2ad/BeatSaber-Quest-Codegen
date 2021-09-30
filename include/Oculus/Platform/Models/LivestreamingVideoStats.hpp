@@ -38,8 +38,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* TotalViews;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LivestreamingVideoStats
-    LivestreamingVideoStats(int CommentCount_ = {}, int ReactionCount_ = {}, ::Il2CppString* TotalViews_ = {}) noexcept : CommentCount{CommentCount_}, ReactionCount{ReactionCount_}, TotalViews{TotalViews_} {}
     // Get instance field reference: public readonly System.Int32 CommentCount
     int& dyn_CommentCount();
     // Get instance field reference: public readonly System.Int32 ReactionCount

@@ -19,8 +19,6 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EABAD0
   class XRSettings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: XRSettings
-    XRSettings() noexcept {}
     // static public System.Boolean get_enabled()
     // Offset: 0x26254AC
     static bool get_enabled();

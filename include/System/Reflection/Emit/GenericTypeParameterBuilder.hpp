@@ -53,8 +53,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericTypeParameterBuilder : public System::Reflection::TypeInfo {
     public:
-    // Creating value type constructor for type: GenericTypeParameterBuilder
-    GenericTypeParameterBuilder() noexcept {}
     // public override System.Reflection.Assembly get_Assembly()
     // Offset: 0x1EA677C
     // Implemented from: System.Type

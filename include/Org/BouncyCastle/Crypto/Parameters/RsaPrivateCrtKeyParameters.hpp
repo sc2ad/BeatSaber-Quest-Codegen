@@ -63,8 +63,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* qInv;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: RsaPrivateCrtKeyParameters
-    RsaPrivateCrtKeyParameters(Org::BouncyCastle::Math::BigInteger* e_ = {}, Org::BouncyCastle::Math::BigInteger* p_ = {}, Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Math::BigInteger* dP_ = {}, Org::BouncyCastle::Math::BigInteger* dQ_ = {}, Org::BouncyCastle::Math::BigInteger* qInv_ = {}) noexcept : e{e_}, p{p_}, q{q_}, dP{dP_}, dQ{dQ_}, qInv{qInv_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger e
     Org::BouncyCastle::Math::BigInteger*& dyn_e();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger p

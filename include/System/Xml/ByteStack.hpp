@@ -42,8 +42,6 @@ namespace System::Xml {
     int size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ByteStack
-    ByteStack(::ArrayWrapper<uint8_t> stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
     // Get instance field reference: private System.Byte[] stack
     ::ArrayWrapper<uint8_t>& dyn_stack();
     // Get instance field reference: private System.Int32 growthRate

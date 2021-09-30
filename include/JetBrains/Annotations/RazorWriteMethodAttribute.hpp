@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADE8C
   class RazorWriteMethodAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: RazorWriteMethodAttribute
-    RazorWriteMethodAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26109EC
     // Implemented from: System.Attribute

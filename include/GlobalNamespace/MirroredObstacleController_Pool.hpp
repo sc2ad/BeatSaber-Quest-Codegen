@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MirroredObstacleController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredObstacleController*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1183D7C
     // Implemented from: Zenject.MonoMemoryPool`1

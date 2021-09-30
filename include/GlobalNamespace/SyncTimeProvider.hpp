@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // Creating value type constructor for type: SyncTimeProvider
-    SyncTimeProvider(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ITimeProvider
     operator GlobalNamespace::ITimeProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::ITimeProvider*>(this);

@@ -58,8 +58,6 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, int>* m_GraphicQueueLookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
-    // Creating value type constructor for type: TMP_UpdateRegistry
-    TMP_UpdateRegistry(System::Collections::Generic::List_1<UnityEngine::UI::ICanvasElement*>* m_LayoutRebuildQueue_ = {}, System::Collections::Generic::Dictionary_2<int, int>* m_LayoutQueueLookup_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue_ = {}, System::Collections::Generic::Dictionary_2<int, int>* m_GraphicQueueLookup_ = {}) noexcept : m_LayoutRebuildQueue{m_LayoutRebuildQueue_}, m_LayoutQueueLookup{m_LayoutQueueLookup_}, m_GraphicRebuildQueue{m_GraphicRebuildQueue_}, m_GraphicQueueLookup{m_GraphicQueueLookup_} {}
     // Get static field: static private TMPro.TMP_UpdateRegistry s_Instance
     static TMPro::TMP_UpdateRegistry* _get_s_Instance();
     // Set static field: static private TMPro.TMP_UpdateRegistry s_Instance

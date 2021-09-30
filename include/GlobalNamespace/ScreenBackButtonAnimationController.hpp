@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*) == 0x8);
-    // Creating value type constructor for type: ScreenBackButtonAnimationController
-    ScreenBackButtonAnimationController(UnityEngine::Animator* animator_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes_ = {}) noexcept : animator{animator_}, animationHashes{animationHashes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator

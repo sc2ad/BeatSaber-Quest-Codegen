@@ -56,8 +56,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Playables::Playable m_ParentMixer;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
-    // Creating value type constructor for type: RuntimeClip
-    RuntimeClip(UnityEngine::Timeline::TimelineClip* m_Clip_ = {}, UnityEngine::Playables::Playable m_Playable_ = {}, UnityEngine::Playables::Playable m_ParentMixer_ = {}) noexcept : m_Clip{m_Clip_}, m_Playable{m_Playable_}, m_ParentMixer{m_ParentMixer_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Timeline.TimelineClip m_Clip

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB63AC
   class IVRRenderModels::_LoadTexture_Async : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _LoadTexture_Async
-    _LoadTexture_Async() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED3664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,7 +47,6 @@ namespace UnityEngine::ProBuilder {
     int& dyn_end();
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
     // Offset: 0x2150A64
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end)
     // public System.Boolean Valid()
     // Offset: 0x2150A6C

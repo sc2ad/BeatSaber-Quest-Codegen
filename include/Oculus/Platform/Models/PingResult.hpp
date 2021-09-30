@@ -29,8 +29,6 @@ namespace Oculus::Platform::Models {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<uint64_t> pingTimeUsec;
-    // Creating value type constructor for type: PingResult
-    PingResult(uint64_t _ID_ = {}, System::Nullable_1<uint64_t> pingTimeUsec_ = {}) noexcept : _ID{_ID_}, pingTimeUsec{pingTimeUsec_} {}
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.UInt64> pingTimeUsec

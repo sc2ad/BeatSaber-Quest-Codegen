@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float perceivedLoudness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PerceivedLevelLoudnessPair
-    PerceivedLevelLoudnessPair(::Il2CppString* levelId_ = {}, float perceivedLoudness_ = {}) noexcept : levelId{levelId_}, perceivedLoudness{perceivedLoudness_} {}
     // Get instance field reference: private System.String _levelId
     ::Il2CppString*& dyn__levelId();
     // Get instance field reference: private System.Single _perceivedLoudness

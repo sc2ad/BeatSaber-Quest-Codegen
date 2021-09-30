@@ -23,8 +23,6 @@ namespace Org::BouncyCastle::Utilities::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class Streams : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Streams
-    Streams() noexcept {}
     // static public System.Byte[] ReadAll(System.IO.Stream inStr)
     // Offset: 0x2183354
     static ::ArrayWrapper<uint8_t> ReadAll(System::IO::Stream* inStr);

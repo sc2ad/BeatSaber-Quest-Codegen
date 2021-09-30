@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     UnityEngine::Networking::UnityWebRequest* $uwr$5__2;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
-    // Creating value type constructor for type: $LoadTextureCoroutine$d__2
-    $LoadTextureCoroutine$d__2(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, bool useCache_ = {}, ::Il2CppString* filePath_ = {}, System::Action_1<UnityEngine::Texture2D*>* finishedCallback_ = {}, UnityEngine::Networking::UnityWebRequest* $uwr$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, useCache{useCache_}, filePath{filePath_}, finishedCallback{finishedCallback_}, $uwr$5__2{$uwr$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

@@ -39,8 +39,6 @@ namespace System::IO {
     System::IO::TextWriter* out;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // Creating value type constructor for type: SyncTextWriter
-    SyncTextWriter(System::IO::TextWriter* out_ = {}) noexcept : out{out_} {}
     // Get instance field reference: private System.IO.TextWriter _out
     System::IO::TextWriter*& dyn__out();
     // System.Void .ctor(System.IO.TextWriter t)

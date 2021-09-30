@@ -102,8 +102,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<bool> boundChannels;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
-    // Creating value type constructor for type: HEU_HandleParamBinding
-    HEU_HandleParamBinding(HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType paramType_ = {}, int parmID_ = {}, ::Il2CppString* paramName_ = {}, bool bDisabled_ = {}, ::ArrayWrapper<bool> boundChannels_ = {}) noexcept : paramType{paramType_}, parmID{parmID_}, paramName{paramName_}, bDisabled{bDisabled_}, boundChannels{boundChannels_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);

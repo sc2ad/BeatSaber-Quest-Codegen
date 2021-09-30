@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class FiniteFields : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: FiniteFields
-    FiniteFields() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_2
     static Org::BouncyCastle::Math::Field::IFiniteField* _get_GF_2();
     // Set static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_2

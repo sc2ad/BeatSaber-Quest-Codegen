@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ManualUpdateManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ManualUpdateManager
-    ManualUpdateManager() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1387498
     // Implemented from: System.Object

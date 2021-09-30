@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetPlayersPermissionConfigurationRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*> {
     public:
-    // Creating value type constructor for type: SetPlayersPermissionConfigurationRpc
-    SetPlayersPermissionConfigurationRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8D8C
     // Implemented from: RemoteProcedureCall`1

@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB15A8
   class IVRResources::_LoadSharedResource : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _LoadSharedResource
-    _LoadSharedResource() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22DDEE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

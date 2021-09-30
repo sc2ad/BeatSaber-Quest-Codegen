@@ -28,8 +28,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AssetInfo self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_AssetInfo) == 0x3E);
-    // Creating value type constructor for type: Test_HAPI_AssetInfo
-    Test_HAPI_AssetInfo(HoudiniEngineUnity::HAPI_AssetInfo self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AssetInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AssetInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AssetInfo*>*>(this);

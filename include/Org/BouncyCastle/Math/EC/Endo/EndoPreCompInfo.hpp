@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     Org::BouncyCastle::Math::EC::ECPoint* m_mappedPoint;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
-    // Creating value type constructor for type: EndoPreCompInfo
-    EndoPreCompInfo(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism_ = {}, Org::BouncyCastle::Math::EC::ECPoint* m_mappedPoint_ = {}) noexcept : m_endomorphism{m_endomorphism_}, m_mappedPoint{m_mappedPoint_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

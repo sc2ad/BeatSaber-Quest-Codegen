@@ -26,8 +26,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class LazyInitializer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LazyInitializer
-    LazyInitializer() noexcept {}
     // static public T EnsureInitialized(ref T target, System.Func`1<T> valueFactory)
     // Offset: 0xFFFFFFFF
     template<class T>

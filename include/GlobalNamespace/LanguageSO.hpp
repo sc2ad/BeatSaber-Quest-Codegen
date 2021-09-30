@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LanguageSO : public GlobalNamespace::ObservableVariableSO_1<Polyglot::Language> {
     public:
-    // Creating value type constructor for type: LanguageSO
-    LanguageSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x114934C
     // Implemented from: ObservableVariableSO`1

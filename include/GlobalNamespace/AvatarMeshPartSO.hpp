@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarMeshPartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Mesh*> {
     public:
-    // Creating value type constructor for type: AvatarMeshPartSO
-    AvatarMeshPartSO() noexcept {}
     // public UnityEngine.Mesh get_mesh()
     // Offset: 0x124B2DC
     UnityEngine::Mesh* get_mesh();

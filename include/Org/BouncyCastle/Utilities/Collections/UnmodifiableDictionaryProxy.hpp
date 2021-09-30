@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
     System::Collections::IDictionary* d;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
-    // Creating value type constructor for type: UnmodifiableDictionaryProxy
-    UnmodifiableDictionaryProxy(System::Collections::IDictionary* d_ = {}) noexcept : d{d_} {}
     // Creating conversion operator: operator System::Collections::IDictionary*
     constexpr operator System::Collections::IDictionary*() const noexcept {
       return d;

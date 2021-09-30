@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // Creating value type constructor for type: GameplayFacade
-    GameplayFacade(GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spectrogramData{spectrogramData_}, saberManager{saberManager_}, audioTimeSyncController{audioTimeSyncController_}, difficultyBeatmap{difficultyBeatmap_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

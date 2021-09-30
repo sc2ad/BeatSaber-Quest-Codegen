@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* buyButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // Creating value type constructor for type: StandardLevelBuyView
-    StandardLevelBuyView(GlobalNamespace::LevelBar* levelBar_ = {}, UnityEngine::UI::Button* buyButton_ = {}) noexcept : levelBar{levelBar_}, buyButton{buyButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LevelBar _levelBar

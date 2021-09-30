@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0* $$8__1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*) == 0x8);
-    // Creating value type constructor for type: $PhaseRoutine$d__25
-    $PhaseRoutine$d__25(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MultiplayerIntroCountdown* $$4__this_ = {}, ::Il2CppString* text_ = {}, float appearDuration_ = {}, float disappearDuration_ = {}, GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0* $$8__1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, text{text_}, appearDuration{appearDuration_}, disappearDuration{disappearDuration_}, $$8__1{$$8__1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

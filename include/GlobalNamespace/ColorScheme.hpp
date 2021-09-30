@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     UnityEngine::Color environmentColor1Boost;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: ColorScheme
-    ColorScheme(::Il2CppString* colorSchemeId_ = {}, ::Il2CppString* colorSchemeNameLocalizationKey_ = {}, bool useNonLocalizedName_ = {}, ::Il2CppString* nonLocalizedName_ = {}, bool isEditable_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color obstaclesColor_ = {}, UnityEngine::Color environmentColor0_ = {}, UnityEngine::Color environmentColor1_ = {}, bool supportsEnvironmentColorBoost_ = {}, UnityEngine::Color environmentColor0Boost_ = {}, UnityEngine::Color environmentColor1Boost_ = {}) noexcept : colorSchemeId{colorSchemeId_}, colorSchemeNameLocalizationKey{colorSchemeNameLocalizationKey_}, useNonLocalizedName{useNonLocalizedName_}, nonLocalizedName{nonLocalizedName_}, isEditable{isEditable_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, supportsEnvironmentColorBoost{supportsEnvironmentColorBoost_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_} {}
     // Get instance field reference: private System.String _colorSchemeId
     ::Il2CppString*& dyn__colorSchemeId();
     // Get instance field reference: private System.String _colorSchemeNameLocalizationKey

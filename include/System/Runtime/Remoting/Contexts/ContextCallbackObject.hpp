@@ -27,8 +27,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContextCallbackObject : public System::ContextBoundObject {
     public:
-    // Creating value type constructor for type: ContextCallbackObject
-    ContextCallbackObject() noexcept {}
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
     // Offset: 0x1C0D1E8
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);

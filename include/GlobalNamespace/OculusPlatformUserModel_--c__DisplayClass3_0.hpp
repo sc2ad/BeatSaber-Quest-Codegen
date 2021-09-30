@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformUserModel* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs_ = {}, GlobalNamespace::OculusPlatformUserModel* $$4__this_ = {}) noexcept : tcs{tcs_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
     System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>*& dyn_tcs();
     // Get instance field reference: public OculusPlatformUserModel <>4__this

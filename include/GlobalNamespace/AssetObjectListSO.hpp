@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Object*> objects;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Object*>) == 0x8);
-    // Creating value type constructor for type: AssetObjectListSO
-    AssetObjectListSO(::ArrayWrapper<UnityEngine::Object*> objects_ = {}) noexcept : objects{objects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Object[] _objects

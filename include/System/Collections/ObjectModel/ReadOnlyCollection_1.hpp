@@ -58,8 +58,6 @@ namespace System::Collections::ObjectModel {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: ReadOnlyCollection_1
-    ReadOnlyCollection_1(System::Collections::Generic::IList_1<T>* list_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : list{list_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);

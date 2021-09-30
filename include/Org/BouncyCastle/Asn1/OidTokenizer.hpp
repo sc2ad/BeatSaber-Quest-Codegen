@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Asn1 {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: OidTokenizer
-    OidTokenizer(::Il2CppString* oid_ = {}, int index_ = {}) noexcept : oid{oid_}, index{index_} {}
     // Get instance field reference: private System.String oid
     ::Il2CppString*& dyn_oid();
     // Get instance field reference: private System.Int32 index

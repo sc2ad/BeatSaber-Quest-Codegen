@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector4 vector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
-    // Creating value type constructor for type: MaterialPropertyBlockVectorAnimator
-    MaterialPropertyBlockVectorAnimator(UnityEngine::Vector4 vector_ = {}) noexcept : vector{vector_} {}
     // Get instance field reference: private UnityEngine.Vector4 _vector
     UnityEngine::Vector4& dyn__vector();
     // public System.Void .ctor()

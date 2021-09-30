@@ -34,8 +34,6 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixRegistryApi : public ::Il2CppObject/*, public Microsoft::Win32::IRegistryApi*/ {
     public:
-    // Creating value type constructor for type: UnixRegistryApi
-    UnixRegistryApi() noexcept {}
     // Creating interface conversion operator: operator Microsoft::Win32::IRegistryApi
     operator Microsoft::Win32::IRegistryApi() noexcept {
       return *reinterpret_cast<Microsoft::Win32::IRegistryApi*>(this);

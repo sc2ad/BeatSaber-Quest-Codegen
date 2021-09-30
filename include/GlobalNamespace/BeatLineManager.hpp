@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     float rotationRange;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatLineManager
-    BeatLineManager(float linesYPosition_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::BeatLine::Pool* beatLinePool_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::Vector4, GlobalNamespace::BeatLine*>* activeBeatLines_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector4>* removeBeatLineKeyList_ = {}, bool isMidRotationValid_ = {}, float midRotation_ = {}, float rotationRange_ = {}) noexcept : linesYPosition{linesYPosition_}, beatmapObjectManager{beatmapObjectManager_}, beatLinePool{beatLinePool_}, audioTimeSyncController{audioTimeSyncController_}, activeBeatLines{activeBeatLines_}, removeBeatLineKeyList{removeBeatLineKeyList_}, isMidRotationValid{isMidRotationValid_}, midRotation{midRotation_}, rotationRange{rotationRange_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _linesYPosition

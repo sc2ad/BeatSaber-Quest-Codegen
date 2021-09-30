@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GamePause
-    GamePause(System::Action* didPauseEvent_ = {}, System::Action* willResumeEvent_ = {}, System::Action* didResumeEvent_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder_ = {}, GlobalNamespace::SongController* songController_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::AudioListenerController* audioListenerController_ = {}, bool pause_ = {}) noexcept : didPauseEvent{didPauseEvent_}, willResumeEvent{willResumeEvent_}, didResumeEvent{didResumeEvent_}, gameEnergyCounter{gameEnergyCounter_}, scoreController{scoreController_}, beatmapObjectExecutionRatingsRecorder{beatmapObjectExecutionRatingsRecorder_}, songController{songController_}, saberManager{saberManager_}, audioListenerController{audioListenerController_}, pause{pause_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IGamePause
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);

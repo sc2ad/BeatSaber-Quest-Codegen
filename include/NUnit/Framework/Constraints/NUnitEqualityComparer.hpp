@@ -101,8 +101,6 @@ namespace NUnit::Framework::Constraints {
     bool WithSameOffset;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NUnitEqualityComparer
-    NUnitEqualityComparer(bool caseInsensitive_ = {}, bool compareAsCollection_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Constraints::EqualityAdapter*>* externalComparers_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints_ = {}, bool WithSameOffset_ = {}) noexcept : caseInsensitive{caseInsensitive_}, compareAsCollection{compareAsCollection_}, externalComparers{externalComparers_}, failurePoints{failurePoints_}, WithSameOffset{WithSameOffset_} {}
     // Get static field: static private readonly System.Int32 BUFFER_SIZE
     static int _get_BUFFER_SIZE();
     // Set static field: static private readonly System.Int32 BUFFER_SIZE

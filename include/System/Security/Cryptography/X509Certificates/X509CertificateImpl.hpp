@@ -33,8 +33,6 @@ namespace System::Security::Cryptography::X509Certificates {
     ::ArrayWrapper<uint8_t> cachedCertificateHash;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: X509CertificateImpl
-    X509CertificateImpl(::ArrayWrapper<uint8_t> cachedCertificateHash_ = {}) noexcept : cachedCertificateHash{cachedCertificateHash_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

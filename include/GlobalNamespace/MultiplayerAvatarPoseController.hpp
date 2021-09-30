@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: MultiplayerAvatarPoseController
-    MultiplayerAvatarPoseController(GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : avatarPoseController{avatarPoseController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarPoseController _avatarPoseController

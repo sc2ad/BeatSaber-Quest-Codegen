@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::LongArray* x;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::LongArray*) == 0x8);
-    // Creating value type constructor for type: F2mFieldElement
-    F2mFieldElement(int representation_ = {}, int m_ = {}, ::ArrayWrapper<int> ks_ = {}, Org::BouncyCastle::Math::EC::LongArray* x_ = {}) noexcept : representation{representation_}, m{m_}, ks{ks_}, x{x_} {}
     // Get instance field reference: private System.Int32 representation
     int& dyn_representation();
     // Get instance field reference: private System.Int32 m

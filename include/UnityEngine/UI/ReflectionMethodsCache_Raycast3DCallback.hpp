@@ -38,8 +38,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReflectionMethodsCache::Raycast3DCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Raycast3DCallback
-    Raycast3DCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1B52B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

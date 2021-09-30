@@ -34,8 +34,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85E00
   class Physics : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Physics
-    Physics() noexcept {}
     // static public UnityEngine.Vector3 get_gravity()
     // Offset: 0x260C1FC
     static UnityEngine::Vector3 get_gravity();

@@ -40,8 +40,6 @@ namespace HoudiniEngineUnity {
     bool m_Data;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: JSONBool
-    JSONBool(bool m_Data_ = {}) noexcept : m_Data{m_Data_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_Data;

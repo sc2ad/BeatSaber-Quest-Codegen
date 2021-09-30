@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerDestroyedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*) == 0x8);
-    // Creating value type constructor for type: BaseNetworkPlayerModel
-    BaseNetworkPlayerModel(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager_ = {}, GlobalNamespace::INetworkPlayerModel* partyManager_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, bool discoveryEnabled_ = {}, System::Action_1<GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerCreatedEvent_ = {}, System::Action_1<GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerDestroyedEvent_ = {}) noexcept : connectedPlayerManager{connectedPlayerManager_}, partyManager{partyManager_}, configuration{configuration_}, selectionMask{selectionMask_}, discoveryEnabled{discoveryEnabled_}, connectedPlayerManagerCreatedEvent{connectedPlayerManagerCreatedEvent_}, connectedPlayerManagerDestroyedEvent{connectedPlayerManagerDestroyedEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayerModel
     operator GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModel*>(this);

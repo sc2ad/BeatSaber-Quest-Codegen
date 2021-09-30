@@ -48,8 +48,6 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*) == 0x8);
-    // Creating value type constructor for type: PropertyBag
-    PropertyBag(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner_ = {}) noexcept : inner{inner_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IPropertyBag
     operator NUnit::Framework::Interfaces::IPropertyBag() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IPropertyBag*>(this);

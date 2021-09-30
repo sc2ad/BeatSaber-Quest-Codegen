@@ -27,8 +27,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class MethodReturnDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
-    // Creating value type constructor for type: MethodReturnDictionary
-    MethodReturnDictionary() noexcept {}
     // Get static field: static public System.String[] InternalReturnKeys
     static ::ArrayWrapper<::Il2CppString*> _get_InternalReturnKeys();
     // Set static field: static public System.String[] InternalReturnKeys

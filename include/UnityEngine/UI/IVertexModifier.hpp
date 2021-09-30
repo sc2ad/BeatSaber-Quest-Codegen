@@ -26,8 +26,6 @@ namespace UnityEngine::UI {
   // [ObsoleteAttribute] Offset: EA872C
   class IVertexModifier {
     public:
-    // Creating value type constructor for type: IVertexModifier
-    IVertexModifier() noexcept {}
     // public System.Void ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts)
     // Offset: 0xFFFFFFFF
     void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts);

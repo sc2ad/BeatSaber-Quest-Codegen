@@ -24,8 +24,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestListener {
     public:
-    // Creating value type constructor for type: ITestListener
-    ITestListener() noexcept {}
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);

@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     UnityEngine::Coroutine* despawnCharacterCoroutine;
     // Field size check
     static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
-    // Creating value type constructor for type: BTSCharacterSpawnController
-    BTSCharacterSpawnController(GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController_ = {}, GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}, bool characterSpawned_ = {}, double playableDirectorTimeBeforePause_ = {}, float animatorNormalizedTimeBeforePause_ = {}, UnityEngine::Coroutine* despawnCharacterCoroutine_ = {}) noexcept : characterSpawnAnimationController{characterSpawnAnimationController_}, btsCharacterSpawnEventEffect{btsCharacterSpawnEventEffect_}, gamePause{gamePause_}, levelEndActions{levelEndActions_}, characterSpawned{characterSpawned_}, playableDirectorTimeBeforePause{playableDirectorTimeBeforePause_}, animatorNormalizedTimeBeforePause{animatorNormalizedTimeBeforePause_}, despawnCharacterCoroutine{despawnCharacterCoroutine_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterSpawnAnimationController _characterSpawnAnimationController

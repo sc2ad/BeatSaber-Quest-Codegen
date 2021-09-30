@@ -51,8 +51,6 @@ namespace System::Net::NetworkInformation {
     System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>* addresses;
     // Field size check
     static_assert(sizeof(System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>*) == 0x8);
-    // Creating value type constructor for type: IPAddressCollection
-    IPAddressCollection(System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>* addresses_ = {}) noexcept : addresses{addresses_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<System::Net::IPAddress*>
     operator System::Collections::Generic::ICollection_1<System::Net::IPAddress*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<System::Net::IPAddress*>*>(this);

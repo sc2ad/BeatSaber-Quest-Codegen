@@ -70,8 +70,6 @@ namespace HMUI {
     HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0* $$8__1;
     // Field size check
     static_assert(sizeof(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0*) == 0x8);
-    // Creating value type constructor for type: $DoHorizontalTransition$d__5
-    $DoHorizontalTransition$d__5(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ViewController* toPresentViewController_ = {}, HMUI::ViewController* toDismissViewController_ = {}, float moveOffsetMultiplier_ = {}, HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0* $$8__1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, toPresentViewController{toPresentViewController_}, toDismissViewController{toDismissViewController_}, moveOffsetMultiplier{moveOffsetMultiplier_}, $$8__1{$$8__1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

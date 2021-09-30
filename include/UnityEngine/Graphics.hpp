@@ -64,8 +64,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70AF0
   class Graphics : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Graphics
-    Graphics() noexcept {}
     // Get static field: static readonly System.Int32 kMaxDrawMeshInstanceCount
     static int _get_kMaxDrawMeshInstanceCount();
     // Set static field: static readonly System.Int32 kMaxDrawMeshInstanceCount

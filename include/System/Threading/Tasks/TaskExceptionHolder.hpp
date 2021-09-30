@@ -77,8 +77,6 @@ namespace System::Threading::Tasks {
     bool m_isHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TaskExceptionHolder
-    TaskExceptionHolder(System::Threading::Tasks::Task* m_task_ = {}, System::Collections::Generic::List_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions_ = {}, System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException_ = {}, bool m_isHandled_ = {}) noexcept : m_task{m_task_}, m_faultExceptions{m_faultExceptions_}, m_cancellationException{m_cancellationException_}, m_isHandled{m_isHandled_} {}
     // Get static field: static private readonly System.Boolean s_failFastOnUnobservedException
     static bool _get_s_failFastOnUnobservedException();
     // Set static field: static private readonly System.Boolean s_failFastOnUnobservedException

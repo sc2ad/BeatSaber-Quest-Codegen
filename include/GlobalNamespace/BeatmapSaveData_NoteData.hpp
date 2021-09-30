@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteCutDirection cutDirection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutDirection) == 0x4);
-    // Creating value type constructor for type: NoteData
-    NoteData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::NoteLineLayer lineLayer_ = {}, GlobalNamespace::BeatmapSaveData::NoteType type_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, lineLayer{lineLayer_}, type{type_}, cutDirection{cutDirection_} {}
     // Creating interface conversion operator: operator GlobalNamespace::BeatmapSaveData::ITime
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);

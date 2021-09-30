@@ -28,8 +28,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60CA8
   class ExternalException : public System::SystemException {
     public:
-    // Creating value type constructor for type: ExternalException
-    ExternalException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AEE44
     // Implemented from: System.SystemException

@@ -30,8 +30,6 @@ namespace GlobalNamespace {
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MaterialPropertyBlockFloatAnimator
-    MaterialPropertyBlockFloatAnimator(float value_ = {}) noexcept : value{value_} {}
     // Get instance field reference: private System.Single _value
     float& dyn__value();
     // public System.Void .ctor()

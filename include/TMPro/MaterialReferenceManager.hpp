@@ -64,8 +64,6 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>* m_ColorGradientReferenceLookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>*) == 0x8);
-    // Creating value type constructor for type: MaterialReferenceManager
-    MaterialReferenceManager(System::Collections::Generic::Dictionary_2<int, UnityEngine::Material*>* m_FontMaterialReferenceLookup_ = {}, System::Collections::Generic::Dictionary_2<int, TMPro::TMP_FontAsset*>* m_FontAssetReferenceLookup_ = {}, System::Collections::Generic::Dictionary_2<int, TMPro::TMP_SpriteAsset*>* m_SpriteAssetReferenceLookup_ = {}, System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>* m_ColorGradientReferenceLookup_ = {}) noexcept : m_FontMaterialReferenceLookup{m_FontMaterialReferenceLookup_}, m_FontAssetReferenceLookup{m_FontAssetReferenceLookup_}, m_SpriteAssetReferenceLookup{m_SpriteAssetReferenceLookup_}, m_ColorGradientReferenceLookup{m_ColorGradientReferenceLookup_} {}
     // Get static field: static private TMPro.MaterialReferenceManager s_Instance
     static TMPro::MaterialReferenceManager* _get_s_Instance();
     // Set static field: static private TMPro.MaterialReferenceManager s_Instance

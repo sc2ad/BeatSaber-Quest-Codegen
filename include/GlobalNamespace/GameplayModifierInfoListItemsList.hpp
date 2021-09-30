@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifierInfoListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem*> {
     public:
-    // Creating value type constructor for type: GameplayModifierInfoListItemsList
-    GameplayModifierInfoListItemsList() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11E4DA4
     // Implemented from: HMUI.UIItemsList`1

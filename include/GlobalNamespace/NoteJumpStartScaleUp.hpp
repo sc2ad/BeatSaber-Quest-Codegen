@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteJump* noteJump;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteJump*) == 0x8);
-    // Creating value type constructor for type: NoteJumpStartScaleUp
-    NoteJumpStartScaleUp(float fullScaleJumpPart_ = {}, UnityEngine::Transform* targetTransform_ = {}, GlobalNamespace::NoteController* noteController_ = {}, GlobalNamespace::NoteJump* noteJump_ = {}) noexcept : fullScaleJumpPart{fullScaleJumpPart_}, targetTransform{targetTransform_}, noteController{noteController_}, noteJump{noteJump_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);

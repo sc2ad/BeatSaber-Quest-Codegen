@@ -42,8 +42,6 @@ namespace Zenject::Internal {
     System::Reflection::PropertyInfo* propInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::PropertyInfo*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(System::Reflection::FieldInfo* fieldInfo_ = {}, System::Reflection::PropertyInfo* propInfo_ = {}) noexcept : fieldInfo{fieldInfo_}, propInfo{propInfo_} {}
     // Get instance field reference: public System.Reflection.FieldInfo fieldInfo
     System::Reflection::FieldInfo*& dyn_fieldInfo();
     // Get instance field reference: public System.Reflection.PropertyInfo propInfo

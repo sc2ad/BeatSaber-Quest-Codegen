@@ -99,8 +99,6 @@ namespace MasterServer {
     MasterServer::AuthenticateDedicatedServerResponse::Result result;
     // Field size check
     static_assert(sizeof(MasterServer::AuthenticateDedicatedServerResponse::Result) == 0x4);
-    // Creating value type constructor for type: AuthenticateDedicatedServerResponse
-    AuthenticateDedicatedServerResponse(MasterServer::AuthenticateDedicatedServerResponse::Result result_ = {}) noexcept : result{result_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerAuthenticateResponse
     operator MasterServer::IMasterServerAuthenticateResponse() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAuthenticateResponse*>(this);

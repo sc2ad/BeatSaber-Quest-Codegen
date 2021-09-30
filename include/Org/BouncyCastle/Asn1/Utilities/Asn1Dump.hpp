@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Asn1::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1Dump : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Asn1Dump
-    Asn1Dump() noexcept {}
     // Get static field: static private readonly System.String NewLine
     static ::Il2CppString* _get_NewLine();
     // Set static field: static private readonly System.String NewLine

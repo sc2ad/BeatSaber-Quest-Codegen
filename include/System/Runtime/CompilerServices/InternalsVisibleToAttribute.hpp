@@ -33,8 +33,6 @@ namespace System::Runtime::CompilerServices {
     bool allInternalsVisible;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InternalsVisibleToAttribute
-    InternalsVisibleToAttribute(::Il2CppString* assemblyName_ = {}, bool allInternalsVisible_ = {}) noexcept : assemblyName{assemblyName_}, allInternalsVisible{allInternalsVisible_} {}
     // Get instance field reference: private System.String _assemblyName
     ::Il2CppString*& dyn__assemblyName();
     // Get instance field reference: private System.Boolean _allInternalsVisible

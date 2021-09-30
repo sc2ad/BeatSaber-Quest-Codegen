@@ -29,8 +29,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Color m_Color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: TrackColorAttribute
-    TrackColorAttribute(UnityEngine::Color m_Color_ = {}) noexcept : m_Color{m_Color_} {}
     // Creating conversion operator: operator UnityEngine::Color
     constexpr operator UnityEngine::Color() const noexcept {
       return m_Color;

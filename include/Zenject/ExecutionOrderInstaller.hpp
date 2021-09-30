@@ -38,8 +38,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* typeOrder;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
-    // Creating value type constructor for type: ExecutionOrderInstaller
-    ExecutionOrderInstaller(System::Collections::Generic::List_1<System::Type*>* typeOrder_ = {}) noexcept : typeOrder{typeOrder_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.Type> _typeOrder

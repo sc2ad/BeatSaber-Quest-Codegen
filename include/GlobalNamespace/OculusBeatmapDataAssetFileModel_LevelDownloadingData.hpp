@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
-    // Creating value type constructor for type: LevelDownloadingData
-    LevelDownloadingData(::Il2CppString* levelId_ = {}, ::Il2CppString* assetBundlePath_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS_ = {}) noexcept : levelId{levelId_}, assetBundlePath{assetBundlePath_}, downloadAssetBundleFileTCS{downloadAssetBundleFileTCS_} {}
     // Get instance field reference: public readonly System.String levelId
     ::Il2CppString*& dyn_levelId();
     // Get instance field reference: public readonly System.String assetBundlePath

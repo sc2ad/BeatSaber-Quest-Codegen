@@ -26,8 +26,6 @@ namespace OnlineServices::API {
     ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*> leaderboardsInfos;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>) == 0x8);
-    // Creating value type constructor for type: LeaderboardsInfoResultDto
-    LeaderboardsInfoResultDto(::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*> leaderboardsInfos_ = {}) noexcept : leaderboardsInfos{leaderboardsInfos_} {}
     // Creating conversion operator: operator ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>
     constexpr operator ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>() const noexcept {
       return leaderboardsInfos;

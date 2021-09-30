@@ -36,8 +36,6 @@ namespace System::Collections {
     System::Globalization::CompareInfo* m_compareInfo;
     // Field size check
     static_assert(sizeof(System::Globalization::CompareInfo*) == 0x8);
-    // Creating value type constructor for type: CaseInsensitiveComparer
-    CaseInsensitiveComparer(System::Globalization::CompareInfo* m_compareInfo_ = {}) noexcept : m_compareInfo{m_compareInfo_} {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

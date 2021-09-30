@@ -32,8 +32,6 @@ namespace RootMotion::FinalIK {
     class Settings;
     // Nested type: RootMotion::FinalIK::VRIKCalibrator::CalibrationData
     class CalibrationData;
-    // Creating value type constructor for type: VRIKCalibrator
-    VRIKCalibrator() noexcept {}
     // static public System.Void RecalibrateScale(RootMotion.FinalIK.VRIK ik, RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.Settings settings)
     // Offset: 0x1C68884
     static void RecalibrateScale(RootMotion::FinalIK::VRIK* ik, RootMotion::FinalIK::VRIKCalibrator::Settings* settings);

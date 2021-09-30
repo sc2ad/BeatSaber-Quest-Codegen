@@ -81,7 +81,6 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
       // Offset: 0x129A778
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel)
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
     #pragma pack(pop)
@@ -99,8 +98,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapDataAssetFileModel*) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelLoader
-    BeatmapLevelLoader(GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader_ = {}, GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel_ = {}) noexcept : beatmapLevelDataLoader{beatmapLevelDataLoader_}, beatmapDataAssetFileModel{beatmapDataAssetFileModel_} {}
     // Get instance field reference: private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
     GlobalNamespace::BeatmapLevelDataLoaderSO*& dyn__beatmapLevelDataLoader();
     // Get instance field reference: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel

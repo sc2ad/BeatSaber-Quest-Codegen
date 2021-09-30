@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* keyData;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: SubjectPublicKeyInfo
-    SubjectPublicKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID_ = {}, Org::BouncyCastle::Asn1::DerBitString* keyData_ = {}) noexcept : algID{algID_}, keyData{keyData_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algID();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString keyData

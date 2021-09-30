@@ -14,8 +14,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventBuilder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EventBuilder
-    EventBuilder() noexcept {}
   }; // System.Reflection.Emit.EventBuilder
   #pragma pack(pop)
 }

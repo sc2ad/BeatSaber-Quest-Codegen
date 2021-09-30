@@ -30,8 +30,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICurvesOwner {
     public:
-    // Creating value type constructor for type: ICurvesOwner
-    ICurvesOwner() noexcept {}
     // public UnityEngine.AnimationClip get_curves()
     // Offset: 0xFFFFFFFF
     UnityEngine::AnimationClip* get_curves();

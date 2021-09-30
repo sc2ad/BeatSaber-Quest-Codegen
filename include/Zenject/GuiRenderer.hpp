@@ -33,8 +33,6 @@ namespace Zenject {
     Zenject::GuiRenderableManager* renderableManager;
     // Field size check
     static_assert(sizeof(Zenject::GuiRenderableManager*) == 0x8);
-    // Creating value type constructor for type: GuiRenderer
-    GuiRenderer(Zenject::GuiRenderableManager* renderableManager_ = {}) noexcept : renderableManager{renderableManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.GuiRenderableManager _renderableManager

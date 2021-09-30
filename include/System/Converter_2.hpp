@@ -29,8 +29,6 @@ namespace System {
   template<typename TInput, typename TOutput>
   class Converter_2 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Converter_2
-    Converter_2() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

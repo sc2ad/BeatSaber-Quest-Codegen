@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarDataFileManagerSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: AvatarDataFileManagerSO
-    AvatarDataFileManagerSO() noexcept {}
     // static field const value: static private System.String kAvatarDataFileName
     static constexpr const char* kAvatarDataFileName = "AvatarData.dat";
     // Get static field: static private System.String kAvatarDataFileName

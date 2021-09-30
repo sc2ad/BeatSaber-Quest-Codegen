@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECEndomorphism {
     public:
-    // Creating value type constructor for type: ECEndomorphism
-    ECEndomorphism() noexcept {}
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();

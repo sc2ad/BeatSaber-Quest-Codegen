@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerLobbyAvatarPlaceManager
-    MultiplayerLobbyAvatarPlaceManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool* avatarPlacesPool_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace*>* allPlaces_ = {}, float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, avatarPlacesPool{avatarPlacesPool_}, allPlaces{allPlaces_}, innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel

@@ -75,8 +75,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HMUI::ViewController*>*) == 0x8);
-    // Creating value type constructor for type: ContainerViewController
-    ContainerViewController(UnityEngine::RectTransform* controllersContainer_ = {}, System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers_ = {}) noexcept : controllersContainer{controllersContainer_}, viewControllers{viewControllers_} {}
     // Get instance field reference: private UnityEngine.RectTransform _controllersContainer
     UnityEngine::RectTransform*& dyn__controllersContainer();
     // Get instance field reference: protected System.Collections.Generic.List`1<HMUI.ViewController> _viewControllers

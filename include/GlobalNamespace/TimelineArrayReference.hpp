@@ -139,8 +139,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
-    // Creating value type constructor for type: TimelineArrayReference
-    TimelineArrayReference(GlobalNamespace::TimelineArrayReference::ArrayTypes arrayType_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLightArray_ = {}, ::ArrayWrapper<UnityEngine::CanvasGroup*> canvasGroupArray_ = {}, ::ArrayWrapper<TMPro::TextMeshPro*> tmproArray_ = {}, ::ArrayWrapper<UnityEngine::Transform*> transformArray_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}) noexcept : arrayType{arrayType_}, tubeLightArray{tubeLightArray_}, canvasGroupArray{canvasGroupArray_}, tmproArray{tmproArray_}, transformArray{transformArray_}, directionalLights{directionalLights_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TimelineArrayReference/ArrayTypes arrayType

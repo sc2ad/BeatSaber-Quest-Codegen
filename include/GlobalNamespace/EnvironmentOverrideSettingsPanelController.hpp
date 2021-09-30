@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EnvironmentOverrideSettingsPanelController
-    EnvironmentOverrideSettingsPanelController(UnityEngine::UI::Toggle* overrideEnvironmentsToggle_ = {}, UnityEngine::GameObject* elementsGO_ = {}, ::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements_ = {}, HMUI::PanelAnimationSO* presentPanelAnimation_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, GlobalNamespace::EnvironmentsListSO* allEnvironments_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, bool initialized_ = {}) noexcept : overrideEnvironmentsToggle{overrideEnvironmentsToggle_}, elementsGO{elementsGO_}, elements{elements_}, presentPanelAnimation{presentPanelAnimation_}, dismissPanelAnimation{dismissPanelAnimation_}, allEnvironments{allEnvironments_}, analyticsModel{analyticsModel_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, initialized{initialized_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);

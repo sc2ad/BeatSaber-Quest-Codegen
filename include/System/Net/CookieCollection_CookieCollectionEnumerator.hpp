@@ -46,8 +46,6 @@ namespace System::Net {
     int m_version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CookieCollectionEnumerator
-    CookieCollectionEnumerator(System::Net::CookieCollection* m_cookies_ = {}, int m_count_ = {}, int m_index_ = {}, int m_version_ = {}) noexcept : m_cookies{m_cookies_}, m_count{m_count_}, m_index{m_index_}, m_version{m_version_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BGNetDebug::NetLogger : public ::Il2CppObject/*, public LiteNetLib::INetLogger*/ {
     public:
-    // Creating value type constructor for type: NetLogger
-    NetLogger() noexcept {}
     // Creating interface conversion operator: operator LiteNetLib::INetLogger
     operator LiteNetLib::INetLogger() noexcept {
       return *reinterpret_cast<LiteNetLib::INetLogger*>(this);

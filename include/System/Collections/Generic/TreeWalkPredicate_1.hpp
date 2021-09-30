@@ -31,8 +31,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class TreeWalkPredicate_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: TreeWalkPredicate_1
-    TreeWalkPredicate_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,8 +47,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>* bindings;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>*) == 0x8);
-    // Creating value type constructor for type: ValueChangedBinder_1
-    ValueChangedBinder_1(System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>* bindings_ = {}) noexcept : bindings{bindings_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>*
     constexpr operator System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>*() const noexcept {
       return bindings;

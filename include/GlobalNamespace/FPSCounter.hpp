@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     float minDeltaTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FPSCounter
-    FPSCounter(int currentFPS_ = {}, int lowestFPS_ = {}, int highestFPS_ = {}, int droppedFrames_ = {}, float timeBuffer_ = {}, int frameCounter_ = {}, float minDeltaTime_ = {}) noexcept : currentFPS{currentFPS_}, lowestFPS{lowestFPS_}, highestFPS{highestFPS_}, droppedFrames{droppedFrames_}, timeBuffer{timeBuffer_}, frameCounter{frameCounter_}, minDeltaTime{minDeltaTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 <currentFPS>k__BackingField

@@ -57,8 +57,6 @@ namespace Zenject {
     int activeCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StaticMemoryPoolBaseBase_1
-    StaticMemoryPoolBaseBase_1(System::Collections::Generic::Stack_1<TValue>* stack_ = {}, System::Action_1<TValue>* onDespawnedMethod_ = {}, int activeCount_ = {}) noexcept : stack{stack_}, onDespawnedMethod{onDespawnedMethod_}, activeCount{activeCount_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

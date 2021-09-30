@@ -36,8 +36,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlWriter : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: XmlWriter
-    XmlWriter() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -47,8 +47,6 @@ namespace System::Text {
     bool m_hasInitializedEncoding;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DefaultDecoder
-    DefaultDecoder(System::Text::Encoding* m_encoding_ = {}, bool m_hasInitializedEncoding_ = {}) noexcept : m_encoding{m_encoding_}, m_hasInitializedEncoding{m_hasInitializedEncoding_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

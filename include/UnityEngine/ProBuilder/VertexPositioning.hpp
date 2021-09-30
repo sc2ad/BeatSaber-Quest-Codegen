@@ -39,8 +39,6 @@ namespace UnityEngine::ProBuilder {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class VertexPositioning : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VertexPositioning
-    VertexPositioning() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<System.Int32> s_CoincidentVertices
     static System::Collections::Generic::List_1<int>* _get_s_CoincidentVertices();
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> s_CoincidentVertices

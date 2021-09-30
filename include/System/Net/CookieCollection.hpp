@@ -79,8 +79,6 @@ namespace System::Net {
     bool m_IsReadOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CookieCollection
-    CookieCollection(int m_version_ = {}, System::Collections::ArrayList* m_list_ = {}, System::DateTime m_TimeStamp_ = {}, bool m_has_other_versions_ = {}, bool m_IsReadOnly_ = {}) noexcept : m_version{m_version_}, m_list{m_list_}, m_TimeStamp{m_TimeStamp_}, m_has_other_versions{m_has_other_versions_}, m_IsReadOnly{m_IsReadOnly_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

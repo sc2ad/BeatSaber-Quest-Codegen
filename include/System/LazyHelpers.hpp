@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LazyHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LazyHelpers
-    LazyHelpers() noexcept {}
     // Get static field: static readonly System.Object PUBLICATION_ONLY_SENTINEL
     static ::Il2CppObject* _get_PUBLICATION_ONLY_SENTINEL();
     // Set static field: static readonly System.Object PUBLICATION_ONLY_SENTINEL

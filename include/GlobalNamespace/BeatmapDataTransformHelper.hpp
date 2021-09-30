@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataTransformHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapDataTransformHelper
-    BeatmapDataTransformHelper() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedBeatmapData(IReadonlyBeatmapData beatmapData, IPreviewBeatmapLevel beatmapLevel, GameplayModifiers gameplayModifiers, PracticeSettings practiceSettings, System.Boolean leftHanded, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions, System.Boolean screenDisplacementEffectsEnabled)
     // Offset: 0x127A354
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PracticeSettings* practiceSettings, bool leftHanded, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions, bool screenDisplacementEffectsEnabled);

@@ -32,8 +32,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C2EC
   class InvalidOperationException : public System::SystemException {
     public:
-    // Creating value type constructor for type: InvalidOperationException
-    InvalidOperationException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A0D7AC
     // Implemented from: System.SystemException

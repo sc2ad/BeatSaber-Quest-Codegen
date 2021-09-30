@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: SaberModelContainer
-    SaberModelContainer(GlobalNamespace::Saber* saber_ = {}, GlobalNamespace::SaberModelController* saberModelControllerPrefab_ = {}, Zenject::DiContainer* container_ = {}) noexcept : saber{saber_}, saberModelControllerPrefab{saberModelControllerPrefab_}, container{container_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Saber _saber

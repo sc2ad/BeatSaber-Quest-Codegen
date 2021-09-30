@@ -60,8 +60,6 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration;
-    // Creating value type constructor for type: RequestResponseWaiter
-    RequestResponseWaiter(System::Threading::Tasks::TaskCompletionSource_1<MasterServer::IMasterServerMessage*>* taskCompletionSource_ = {}, System::Threading::CancellationTokenRegistration disposedCancellationTokenRegistration_ = {}, System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration_ = {}) noexcept : taskCompletionSource{taskCompletionSource_}, disposedCancellationTokenRegistration{disposedCancellationTokenRegistration_}, requestCancellationTokenRegistration{requestCancellationTokenRegistration_} {}
     // Get instance field reference: private readonly System.Threading.Tasks.TaskCompletionSource`1<MasterServer.IMasterServerMessage> _taskCompletionSource
     System::Threading::Tasks::TaskCompletionSource_1<MasterServer::IMasterServerMessage*>*& dyn__taskCompletionSource();
     // Get instance field reference: private readonly System.Threading.CancellationTokenRegistration _disposedCancellationTokenRegistration

@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Keyframe
-    Keyframe(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*> positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
     // Get instance field reference: public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
     ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>& dyn_positionsAndRotations();
     // Get instance field reference: public System.Single time

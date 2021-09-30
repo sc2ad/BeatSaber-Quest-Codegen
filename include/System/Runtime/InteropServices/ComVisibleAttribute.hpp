@@ -28,8 +28,6 @@ namespace System::Runtime::InteropServices {
     bool val;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ComVisibleAttribute
-    ComVisibleAttribute(bool val_ = {}) noexcept : val{val_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return val;

@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty selectedDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
-    // Creating value type constructor for type: BeatmapDifficultySegmentedControlController
-    BeatmapDifficultySegmentedControlController(HMUI::TextSegmentedControl* difficultySegmentedControl_ = {}, System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* didSelectDifficultyEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>* difficulties_ = {}, GlobalNamespace::BeatmapDifficulty selectedDifficulty_ = {}) noexcept : difficultySegmentedControl{difficultySegmentedControl_}, didSelectDifficultyEvent{didSelectDifficultyEvent_}, difficulties{difficulties_}, selectedDifficulty{selectedDifficulty_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.TextSegmentedControl _difficultySegmentedControl

@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // Creating value type constructor for type: OculusPlatformLeaderboardsHandler
-    OculusPlatformLeaderboardsHandler(System::Collections::Generic::HashSet_1<uint64_t>* oculusRequestIds_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}) noexcept : oculusRequestIds{oculusRequestIds_}, gameplayModifiersModel{gameplayModifiersModel_} {}
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
     System::Collections::Generic::HashSet_1<uint64_t>*& dyn__oculusRequestIds();
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel

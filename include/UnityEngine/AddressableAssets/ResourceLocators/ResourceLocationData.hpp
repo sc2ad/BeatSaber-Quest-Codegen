@@ -75,8 +75,6 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     ::Il2CppObject* Data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: ResourceLocationData
-    ResourceLocationData(::ArrayWrapper<::Il2CppString*> m_Keys_ = {}, ::Il2CppString* m_InternalId_ = {}, ::Il2CppString* m_Provider_ = {}, ::ArrayWrapper<::Il2CppString*> m_Dependencies_ = {}, UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType_ = {}, ::ArrayWrapper<uint8_t> SerializedData_ = {}, ::Il2CppObject* Data_ = {}) noexcept : m_Keys{m_Keys_}, m_InternalId{m_InternalId_}, m_Provider{m_Provider_}, m_Dependencies{m_Dependencies_}, m_ResourceType{m_ResourceType_}, SerializedData{SerializedData_}, Data{Data_} {}
     // Get instance field reference: private System.String[] m_Keys
     ::ArrayWrapper<::Il2CppString*>& dyn_m_Keys();
     // Get instance field reference: private System.String m_InternalId

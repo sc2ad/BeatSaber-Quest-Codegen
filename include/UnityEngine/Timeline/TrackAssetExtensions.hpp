@@ -24,8 +24,6 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TrackAssetExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TrackAssetExtensions
-    TrackAssetExtensions() noexcept {}
     // static public UnityEngine.Timeline.GroupTrack GetGroup(UnityEngine.Timeline.TrackAsset asset)
     // Offset: 0x256B790
     static UnityEngine::Timeline::GroupTrack* GetGroup(UnityEngine::Timeline::TrackAsset* asset);

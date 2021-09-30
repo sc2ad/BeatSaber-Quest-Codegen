@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDsaKCalculator {
     public:
-    // Creating value type constructor for type: IDsaKCalculator
-    IDsaKCalculator() noexcept {}
     // public System.Boolean get_IsDeterministic()
     // Offset: 0xFFFFFFFF
     bool get_IsDeterministic();

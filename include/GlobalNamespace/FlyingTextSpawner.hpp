@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingTextEffect::Pool* flyingTextEffectPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingTextEffect::Pool*) == 0x8);
-    // Creating value type constructor for type: FlyingTextSpawner
-    FlyingTextSpawner(float duration_ = {}, float xSpread_ = {}, float targetYPos_ = {}, float targetZPos_ = {}, UnityEngine::Color color_ = {}, float fontSize_ = {}, bool shake_ = {}, GlobalNamespace::FlyingTextEffect::Pool* flyingTextEffectPool_ = {}) noexcept : duration{duration_}, xSpread{xSpread_}, targetYPos{targetYPos_}, targetZPos{targetZPos_}, color{color_}, fontSize{fontSize_}, shake{shake_}, flyingTextEffectPool{flyingTextEffectPool_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent
     operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);

@@ -75,8 +75,6 @@ namespace System::Net {
     int totalRead;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FtpDataStream
-    FtpDataStream(System::Net::FtpWebRequest* request_ = {}, System::IO::Stream* networkStream_ = {}, bool disposed_ = {}, bool isRead_ = {}, int totalRead_ = {}) noexcept : request{request_}, networkStream{networkStream_}, disposed{disposed_}, isRead{isRead_}, totalRead{totalRead_} {}
     // Get instance field reference: private System.Net.FtpWebRequest request
     System::Net::FtpWebRequest*& dyn_request();
     // Get instance field reference: private System.IO.Stream networkStream

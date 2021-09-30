@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::Il2CppString* localizedDescription;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PlayingTutorialPresenceData
-    PlayingTutorialPresenceData(::Il2CppString* localizedDescription_ = {}) noexcept : localizedDescription{localizedDescription_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRichPresenceData
     operator GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);

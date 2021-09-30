@@ -20,8 +20,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSectionGroup : public System::Configuration::ConfigurationSectionGroup {
     public:
-    // Creating value type constructor for type: NetSectionGroup
-    NetSectionGroup() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x157008C
     // Implemented from: System.Object

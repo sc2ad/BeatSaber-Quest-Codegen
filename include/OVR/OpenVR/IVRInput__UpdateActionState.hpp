@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB165C
   class IVRInput::_UpdateActionState : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _UpdateActionState
-    _UpdateActionState() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20F6140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

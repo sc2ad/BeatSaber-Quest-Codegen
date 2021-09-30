@@ -23,8 +23,6 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E61770
   class ICollection/*, public System::Collections::IEnumerable*/ {
     public:
-    // Creating value type constructor for type: ICollection
-    ICollection() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

@@ -102,8 +102,6 @@ namespace UnityEngine::Networking {
     bool disposeUploadHandlerOnDispose;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnityWebRequest
-    UnityWebRequest(System::IntPtr m_Ptr_ = {}, UnityEngine::Networking::DownloadHandler* m_DownloadHandler_ = {}, UnityEngine::Networking::UploadHandler* m_UploadHandler_ = {}, UnityEngine::Networking::CertificateHandler* m_CertificateHandler_ = {}, System::Uri* m_Uri_ = {}, bool disposeCertificateHandlerOnDispose_ = {}, bool disposeDownloadHandlerOnDispose_ = {}, bool disposeUploadHandlerOnDispose_ = {}) noexcept : m_Ptr{m_Ptr_}, m_DownloadHandler{m_DownloadHandler_}, m_UploadHandler{m_UploadHandler_}, m_CertificateHandler{m_CertificateHandler_}, m_Uri{m_Uri_}, disposeCertificateHandlerOnDispose{disposeCertificateHandlerOnDispose_}, disposeDownloadHandlerOnDispose{disposeDownloadHandlerOnDispose_}, disposeUploadHandlerOnDispose{disposeUploadHandlerOnDispose_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

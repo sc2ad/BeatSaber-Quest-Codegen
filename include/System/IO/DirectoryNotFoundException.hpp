@@ -28,8 +28,6 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E1D4
   class DirectoryNotFoundException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: DirectoryNotFoundException
-    DirectoryNotFoundException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1AB345C
     // Implemented from: System.IO.IOException

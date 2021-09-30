@@ -45,8 +45,6 @@ namespace System::Runtime::CompilerServices {
     System::Action* continuation;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(System::Threading::Tasks::Task* innerTask_ = {}, System::Action* continuation_ = {}) noexcept : innerTask{innerTask_}, continuation{continuation_} {}
     // Get instance field reference: public System.Threading.Tasks.Task innerTask
     System::Threading::Tasks::Task*& dyn_innerTask();
     // Get instance field reference: public System.Action continuation

@@ -21,8 +21,6 @@ namespace UnityEngine::_Scripting::APIUpdating {
   // [TokenAttribute] Offset: FFFFFFFF
   class APIUpdaterRuntimeHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: APIUpdaterRuntimeHelpers
-    APIUpdaterRuntimeHelpers() noexcept {}
     // static System.Boolean GetMovedFromAttributeDataForType(System.Type sourceType, out System.String assembly, out System.String nsp, out System.String klass)
     // Offset: 0x234EC28
     static bool GetMovedFromAttributeDataForType(System::Type* sourceType, ByRef<::Il2CppString*> assembly, ByRef<::Il2CppString*> nsp, ByRef<::Il2CppString*> klass);

@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassDoubleKawaseBlurTextureEffectSO
-    BloomPrePassDoubleKawaseBlurTextureEffectSO(GlobalNamespace::KawaseBlurRendererSO::KernelSize bloom1KernelSize_ = {}, float bloom1Boost_ = {}, GlobalNamespace::KawaseBlurRendererSO::KernelSize bloom2KernelSize_ = {}, float bloom2Boost_ = {}, float bloom2Alpha_ = {}, int downsample_ = {}, bool gammaCorrection_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}) noexcept : bloom1KernelSize{bloom1KernelSize_}, bloom1Boost{bloom1Boost_}, bloom2KernelSize{bloom2KernelSize_}, bloom2Boost{bloom2Boost_}, bloom2Alpha{bloom2Alpha_}, downsample{downsample_}, gammaCorrection{gammaCorrection_}, kawaseBlurRenderer{kawaseBlurRenderer_} {}
     // Get instance field reference: private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
     GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom1KernelSize();
     // Get instance field reference: private System.Single _bloom1Boost

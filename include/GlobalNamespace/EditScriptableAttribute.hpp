@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditScriptableAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: EditScriptableAttribute
-    EditScriptableAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x137E594
     // Implemented from: UnityEngine.PropertyAttribute

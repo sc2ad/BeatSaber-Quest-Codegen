@@ -29,8 +29,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestFilter::EmptyFilter : public NUnit::Framework::Internal::TestFilter {
     public:
-    // Creating value type constructor for type: EmptyFilter
-    EmptyFilter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x24A23A0
     // Implemented from: NUnit.Framework.Internal.TestFilter

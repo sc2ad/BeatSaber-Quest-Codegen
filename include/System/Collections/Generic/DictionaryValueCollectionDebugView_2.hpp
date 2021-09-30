@@ -14,8 +14,6 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   class DictionaryValueCollectionDebugView_2 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DictionaryValueCollectionDebugView_2
-    DictionaryValueCollectionDebugView_2() noexcept {}
   }; // System.Collections.Generic.DictionaryValueCollectionDebugView`2
   // Could not write size check! Type: System.Collections.Generic.DictionaryValueCollectionDebugView`2 is generic, or has no fields that are valid for size checks!
 }

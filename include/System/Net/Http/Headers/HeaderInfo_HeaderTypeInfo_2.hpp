@@ -44,8 +44,6 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::TryParseDelegate_1<T>* parser;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::TryParseDelegate_1<T>*) == 0x8);
-    // Creating value type constructor for type: HeaderTypeInfo_2
-    HeaderTypeInfo_2(System::Net::Http::Headers::TryParseDelegate_1<T>* parser_ = {}) noexcept : parser{parser_} {}
     // Creating conversion operator: operator System::Net::Http::Headers::TryParseDelegate_1<T>*
     constexpr operator System::Net::Http::Headers::TryParseDelegate_1<T>*() const noexcept {
       return parser;

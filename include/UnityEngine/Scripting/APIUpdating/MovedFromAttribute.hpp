@@ -29,8 +29,6 @@ namespace UnityEngine::Scripting::APIUpdating {
     UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
     // Field size check
     static_assert(sizeof(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData) == 0x1C);
-    // Creating value type constructor for type: MovedFromAttribute
-    MovedFromAttribute(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data_ = {}) noexcept : data{data_} {}
     // Creating conversion operator: operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData
     constexpr operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData() const noexcept {
       return data;

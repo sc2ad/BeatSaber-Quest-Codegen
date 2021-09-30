@@ -43,8 +43,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppString* uri;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ErrorMessage
-    ErrorMessage(::Il2CppString* uri_ = {}) noexcept : uri{uri_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodCallMessage
     operator System::Runtime::Remoting::Messaging::IMethodCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);

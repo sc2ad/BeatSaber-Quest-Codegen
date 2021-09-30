@@ -61,8 +61,6 @@ namespace Mono::Net {
     System::Threading::ManualResetEvent* evt;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
-    // Creating value type constructor for type: GetProxyData
-    GetProxyData(System::IntPtr script_ = {}, System::IntPtr targetUri_ = {}, System::IntPtr error_ = {}, System::IntPtr result_ = {}, System::Threading::ManualResetEvent* evt_ = {}) noexcept : script{script_}, targetUri{targetUri_}, error{error_}, result{result_}, evt{evt_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

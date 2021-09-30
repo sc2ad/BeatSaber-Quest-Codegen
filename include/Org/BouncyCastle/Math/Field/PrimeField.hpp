@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Math::Field {
     Org::BouncyCastle::Math::BigInteger* characteristic;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: PrimeField
-    PrimeField(Org::BouncyCastle::Math::BigInteger* characteristic_ = {}) noexcept : characteristic{characteristic_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IFiniteField
     operator Org::BouncyCastle::Math::Field::IFiniteField() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IFiniteField*>(this);

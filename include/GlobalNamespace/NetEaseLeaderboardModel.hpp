@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetEaseLeaderboardModel : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: NetEaseLeaderboardModel
-    NetEaseLeaderboardModel() noexcept {}
     // private System.Void Start()
     // Offset: 0x11366E0
     void Start();

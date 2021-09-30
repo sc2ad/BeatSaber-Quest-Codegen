@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     LIV::SDK::Unity::LIV* liv;
     // Field size check
     static_assert(sizeof(LIV::SDK::Unity::LIV*) == 0x8);
-    // Creating value type constructor for type: SmoothCameraController
-    SmoothCameraController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::SmoothCamera* smoothCamera_ = {}, LIV::SDK::Unity::LIV* liv_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, smoothCamera{smoothCamera_}, liv{liv_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel

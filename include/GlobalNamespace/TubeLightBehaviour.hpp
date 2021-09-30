@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     UnityEngine::Color firstFrameColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: TubeLightBehaviour
-    TubeLightBehaviour(bool noPredefinedStartValue_ = {}, GlobalNamespace::ColorSO* startColor_ = {}, GlobalNamespace::ColorSO* endColor_ = {}, float blend_ = {}, bool initialized_ = {}, UnityEngine::Color originalColor_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, bool started_ = {}, UnityEngine::Color firstFrameColor_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startColor{startColor_}, endColor{endColor_}, blend{blend_}, initialized{initialized_}, originalColor{originalColor_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, firstFrameColor{firstFrameColor_} {}
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
     bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public ColorSO startColor

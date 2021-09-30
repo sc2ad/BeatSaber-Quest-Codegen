@@ -48,8 +48,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebResponse : public System::MarshalByRefObject/*, public System::IDisposable, public System::Runtime::Serialization::ISerializable*/ {
     public:
-    // Creating value type constructor for type: WebResponse
-    WebResponse() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

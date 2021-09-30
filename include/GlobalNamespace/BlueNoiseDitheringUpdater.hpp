@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomValueToShader* randomValueToShader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomValueToShader*) == 0x8);
-    // Creating value type constructor for type: BlueNoiseDitheringUpdater
-    BlueNoiseDitheringUpdater(GlobalNamespace::BlueNoiseDithering* blueNoiseDithering_ = {}, GlobalNamespace::RandomValueToShader* randomValueToShader_ = {}) noexcept : blueNoiseDithering{blueNoiseDithering_}, randomValueToShader{randomValueToShader_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BlueNoiseDithering _blueNoiseDithering

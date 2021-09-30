@@ -13,8 +13,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISubsystemDescriptor {
     public:
-    // Creating value type constructor for type: ISubsystemDescriptor
-    ISubsystemDescriptor() noexcept {}
   }; // UnityEngine.ISubsystemDescriptor
   #pragma pack(pop)
 }

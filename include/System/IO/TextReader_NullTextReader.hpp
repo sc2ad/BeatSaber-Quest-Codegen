@@ -20,8 +20,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextReader::NullTextReader : public System::IO::TextReader {
     public:
-    // Creating value type constructor for type: NullTextReader
-    NullTextReader() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A060E0
     // Implemented from: System.IO.TextReader

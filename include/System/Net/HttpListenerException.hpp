@@ -27,8 +27,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerException : public System::ComponentModel::Win32Exception {
     public:
-    // Creating value type constructor for type: HttpListenerException
-    HttpListenerException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1842280
     // Implemented from: System.ComponentModel.Win32Exception

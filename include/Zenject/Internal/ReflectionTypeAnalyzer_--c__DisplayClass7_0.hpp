@@ -50,8 +50,6 @@ namespace Zenject::Internal {
     System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* $$9__2;
     // Field size check
     static_assert(sizeof(System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(System::Type* type_ = {}, System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* $$9__2_ = {}) noexcept : type{type_}, $$9__2{$$9__2_} {}
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public System.Func`2<System.Reflection.ParameterInfo,Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> <>9__2

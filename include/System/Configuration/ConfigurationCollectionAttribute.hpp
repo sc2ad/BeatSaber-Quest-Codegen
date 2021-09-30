@@ -28,8 +28,6 @@ namespace System::Configuration {
   // [AttributeUsageAttribute] Offset: E67DF0
   class ConfigurationCollectionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ConfigurationCollectionAttribute
-    ConfigurationCollectionAttribute() noexcept {}
     // public System.Void .ctor(System.Type itemType)
     // Offset: 0x26285BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -146,8 +146,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // Creating value type constructor for type: SimpleLevelStarter
-    SimpleLevelStarter(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, bool useTestNoteCutSoundEffects_ = {}, UnityEngine::TextAsset* recordingTextAsset_ = {}, ::ArrayWrapper<UnityEngine::Component*> prefabBindings_ = {}, UnityEngine::UI::Button* button_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, recordingTextAsset{recordingTextAsset_}, prefabBindings{prefabBindings_}, button{button_}, menuTransitionsHelper{menuTransitionsHelper_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_}, buttonBinder{buttonBinder_}, gameplayModifiers{gameplayModifiers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level

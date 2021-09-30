@@ -40,8 +40,6 @@ namespace System::Security::Policy {
     System::Collections::IEnumerator* assemblyEnum;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: EvidenceEnumerator
-    EvidenceEnumerator(System::Collections::IEnumerator* currentEnum_ = {}, System::Collections::IEnumerator* hostEnum_ = {}, System::Collections::IEnumerator* assemblyEnum_ = {}) noexcept : currentEnum{currentEnum_}, hostEnum{hostEnum_}, assemblyEnum{assemblyEnum_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

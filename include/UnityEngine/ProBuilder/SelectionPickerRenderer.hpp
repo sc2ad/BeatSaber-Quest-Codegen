@@ -77,8 +77,6 @@ namespace UnityEngine::ProBuilder {
     class $$c__DisplayClass19_0;
     // Nested type: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c
     class $$c;
-    // Creating value type constructor for type: SelectionPickerRenderer
-    SelectionPickerRenderer() noexcept {}
     // static field const value: static private System.String k_FacePickerOcclusionTintUniform
     static constexpr const char* k_FacePickerOcclusionTintUniform = "_Tint";
     // Get static field: static private System.String k_FacePickerOcclusionTintUniform

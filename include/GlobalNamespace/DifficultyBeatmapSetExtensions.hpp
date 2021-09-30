@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class DifficultyBeatmapSetExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DifficultyBeatmapSetExtensions
-    DifficultyBeatmapSetExtensions() noexcept {}
     // static public T[] GetDifficultyBeatmapSetsWithout360Movement(T[] difficultyBeatmapSets)
     // Offset: 0xFFFFFFFF
     template<class T>

@@ -32,8 +32,6 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::TimeUtility::$$c
     class $$c;
-    // Creating value type constructor for type: TimeUtility
-    TimeUtility() noexcept {}
     // Get static field: static public readonly System.Double kTimeEpsilon
     static double _get_kTimeEpsilon();
     // Set static field: static public readonly System.Double kTimeEpsilon

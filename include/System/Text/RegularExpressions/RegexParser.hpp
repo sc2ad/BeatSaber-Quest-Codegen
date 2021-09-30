@@ -172,8 +172,6 @@ namespace System::Text::RegularExpressions {
     bool ignoreNextParen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegexParser
-    RegexParser(System::Text::RegularExpressions::RegexNode* stack_ = {}, System::Text::RegularExpressions::RegexNode* group_ = {}, System::Text::RegularExpressions::RegexNode* alternation_ = {}, System::Text::RegularExpressions::RegexNode* concatenation_ = {}, System::Text::RegularExpressions::RegexNode* unit_ = {}, ::Il2CppString* pattern_ = {}, int currentPos_ = {}, System::Globalization::CultureInfo* culture_ = {}, int autocap_ = {}, int capcount_ = {}, int captop_ = {}, int capsize_ = {}, System::Collections::Hashtable* caps_ = {}, System::Collections::Hashtable* capnames_ = {}, ::ArrayWrapper<int> capnumlist_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* capnamelist_ = {}, System::Text::RegularExpressions::RegexOptions options_ = {}, System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions>* optionsStack_ = {}, bool ignoreNextParen_ = {}) noexcept : stack{stack_}, group{group_}, alternation{alternation_}, concatenation{concatenation_}, unit{unit_}, pattern{pattern_}, currentPos{currentPos_}, culture{culture_}, autocap{autocap_}, capcount{capcount_}, captop{captop_}, capsize{capsize_}, caps{caps_}, capnames{capnames_}, capnumlist{capnumlist_}, capnamelist{capnamelist_}, options{options_}, optionsStack{optionsStack_}, ignoreNextParen{ignoreNextParen_} {}
     // Get static field: static readonly System.Byte[] _category
     static ::ArrayWrapper<uint8_t> _get__category();
     // Set static field: static readonly System.Byte[] _category

@@ -16,8 +16,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayList::ArrayListDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ArrayListDebugView
-    ArrayListDebugView() noexcept {}
   }; // System.Collections.ArrayList/System.Collections.ArrayListDebugView
   #pragma pack(pop)
 }

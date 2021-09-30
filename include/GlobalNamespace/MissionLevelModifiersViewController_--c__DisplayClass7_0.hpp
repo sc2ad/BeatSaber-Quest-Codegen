@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList_ = {}) noexcept : modifierParamsList{modifierParamsList_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*() const noexcept {
       return modifierParamsList;

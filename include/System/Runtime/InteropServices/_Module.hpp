@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E61254
   class _Module {
     public:
-    // Creating value type constructor for type: _Module
-    _Module() noexcept {}
   }; // System.Runtime.InteropServices._Module
   #pragma pack(pop)
 }

@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Scrollbar::ScrollEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
-    // Creating value type constructor for type: ScrollEvent
-    ScrollEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B57B6C
     // Implemented from: UnityEngine.Events.UnityEvent`1

@@ -60,8 +60,6 @@ namespace System::Net {
     System::Net::WebExceptionInternalStatus m_InternalStatus;
     // Field size check
     static_assert(sizeof(System::Net::WebExceptionInternalStatus) == 0x4);
-    // Creating value type constructor for type: WebException
-    WebException(System::Net::WebExceptionStatus m_Status_ = {}, System::Net::WebResponse* m_Response_ = {}, System::Net::WebExceptionInternalStatus m_InternalStatus_ = {}) noexcept : m_Status{m_Status_}, m_Response{m_Response_}, m_InternalStatus{m_InternalStatus_} {}
     // Get instance field reference: private System.Net.WebExceptionStatus m_Status
     System::Net::WebExceptionStatus& dyn_m_Status();
     // Get instance field reference: private System.Net.WebResponse m_Response

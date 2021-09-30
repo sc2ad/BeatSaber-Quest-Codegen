@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
     public:
-    // Creating value type constructor for type: ScoreObjectiveValueFormatterSO
-    ScoreObjectiveValueFormatterSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x10FEBCC
     // Implemented from: ObjectiveValueFormatterSO

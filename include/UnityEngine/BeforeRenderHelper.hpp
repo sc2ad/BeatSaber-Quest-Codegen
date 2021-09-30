@@ -66,8 +66,6 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(BeforeRenderHelper::OrderBlock), 8 + sizeof(UnityEngine::Events::UnityAction*)> __UnityEngine_BeforeRenderHelper_OrderBlockSizeCheck;
     static_assert(sizeof(BeforeRenderHelper::OrderBlock) == 0x10);
-    // Creating value type constructor for type: BeforeRenderHelper
-    BeforeRenderHelper() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock> s_OrderBlocks
     static System::Collections::Generic::List_1<UnityEngine::BeforeRenderHelper::OrderBlock>* _get_s_OrderBlocks();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock> s_OrderBlocks

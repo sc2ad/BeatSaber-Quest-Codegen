@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFixedTickable {
     public:
-    // Creating value type constructor for type: IFixedTickable
-    IFixedTickable() noexcept {}
     // public System.Void FixedTick()
     // Offset: 0xFFFFFFFF
     void FixedTick();

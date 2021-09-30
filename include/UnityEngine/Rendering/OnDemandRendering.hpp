@@ -15,8 +15,6 @@ namespace UnityEngine::Rendering {
   // [RequiredByNativeCodeAttribute] Offset: E742B8
   class OnDemandRendering : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OnDemandRendering
-    OnDemandRendering() noexcept {}
     // Get static field: static private System.Int32 m_RenderFrameInterval
     static int _get_m_RenderFrameInterval();
     // Set static field: static private System.Int32 m_RenderFrameInterval

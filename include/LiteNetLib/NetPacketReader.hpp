@@ -51,8 +51,6 @@ namespace LiteNetLib {
     LiteNetLib::NetEvent* evt;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetEvent*) == 0x8);
-    // Creating value type constructor for type: NetPacketReader
-    NetPacketReader(LiteNetLib::NetPacket* packet_ = {}, LiteNetLib::NetManager* manager_ = {}, LiteNetLib::NetEvent* evt_ = {}) noexcept : packet{packet_}, manager{manager_}, evt{evt_} {}
     // Get instance field reference: private LiteNetLib.NetPacket _packet
     LiteNetLib::NetPacket*& dyn__packet();
     // Get instance field reference: private readonly LiteNetLib.NetManager _manager

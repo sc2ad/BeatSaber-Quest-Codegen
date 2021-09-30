@@ -14,8 +14,6 @@ namespace Unity::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class NativeLeakDetection : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NativeLeakDetection
-    NativeLeakDetection() noexcept {}
     // Get static field: static private System.Int32 s_NativeLeakDetectionMode
     static int _get_s_NativeLeakDetectionMode();
     // Set static field: static private System.Int32 s_NativeLeakDetectionMode

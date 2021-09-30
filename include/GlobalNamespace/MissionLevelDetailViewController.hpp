@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNode* missionNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNode*) == 0x8);
-    // Creating value type constructor for type: MissionLevelDetailViewController
-    MissionLevelDetailViewController(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, UnityEngine::UI::Button* playButton_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ObjectiveListItemsList* objectiveListItems_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList_ = {}, UnityEngine::GameObject* modifiersPanelGO_ = {}, System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* didPressPlayButtonEvent_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, playButton{playButton_}, levelBar{levelBar_}, objectiveListItems{objectiveListItems_}, gameplayModifierInfoListItemsList{gameplayModifierInfoListItemsList_}, modifiersPanelGO{modifiersPanelGO_}, didPressPlayButtonEvent{didPressPlayButtonEvent_}, missionNode{missionNode_} {}
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
     GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // Get instance field reference: private UnityEngine.UI.Button _playButton

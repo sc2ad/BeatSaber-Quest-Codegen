@@ -17,8 +17,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE8E0
   class TearDownAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: TearDownAttribute
-    TearDownAttribute() noexcept {}
   }; // NUnit.Framework.TearDownAttribute
   #pragma pack(pop)
 }

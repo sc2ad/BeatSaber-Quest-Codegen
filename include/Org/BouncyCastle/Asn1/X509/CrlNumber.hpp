@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlNumber : public Org::BouncyCastle::Asn1::DerInteger {
     public:
-    // Creating value type constructor for type: CrlNumber
-    CrlNumber() noexcept {}
     // public Org.BouncyCastle.Math.BigInteger get_Number()
     // Offset: 0x1BB7668
     Org::BouncyCastle::Math::BigInteger* get_Number();

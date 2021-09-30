@@ -53,7 +53,6 @@ namespace System::Collections {
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Object key, System.Object value)
     // Offset: 0x199A144
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value)
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)

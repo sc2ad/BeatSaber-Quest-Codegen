@@ -21,8 +21,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E604E0
   class CompilerGeneratedAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: CompilerGeneratedAttribute
-    CompilerGeneratedAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AD5F4
     // Implemented from: System.Attribute

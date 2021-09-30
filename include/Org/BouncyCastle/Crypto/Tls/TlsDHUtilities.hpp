@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsDHUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TlsDHUtilities
-    TlsDHUtilities() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Math.BigInteger Two
     static Org::BouncyCastle::Math::BigInteger* _get_Two();
     // Set static field: static readonly Org.BouncyCastle.Math.BigInteger Two

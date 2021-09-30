@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectCore : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MainEffectCore
-    MainEffectCore() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB860
     // Get static field: static private readonly System.Int32 _baseColorBoostID
     static int _get__baseColorBoostID();

@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [DisplayNameAttribute] Offset: EC90E0
   class JumpDestinationMarker : public UnityEngine::Timeline::Marker {
     public:
-    // Creating value type constructor for type: JumpDestinationMarker
-    JumpDestinationMarker() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x13867AC
     // Implemented from: UnityEngine.Timeline.Marker

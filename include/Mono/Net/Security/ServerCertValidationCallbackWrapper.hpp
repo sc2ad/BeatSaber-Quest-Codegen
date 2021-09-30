@@ -46,8 +46,6 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCertValidationCallbackWrapper : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ServerCertValidationCallbackWrapper
-    ServerCertValidationCallbackWrapper() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C1EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

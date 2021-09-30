@@ -14,8 +14,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathInternal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PathInternal
-    PathInternal() noexcept {}
     // static public System.Boolean IsPartiallyQualified(System.String path)
     // Offset: 0x1AC1C40
     static bool IsPartiallyQualified(::Il2CppString* path);

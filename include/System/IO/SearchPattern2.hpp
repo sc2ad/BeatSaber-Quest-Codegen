@@ -53,8 +53,6 @@ namespace System::IO {
     ::Il2CppString* pattern;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SearchPattern2
-    SearchPattern2(System::IO::SearchPattern2::Op* ops_ = {}, bool ignore_ = {}, bool hasWildcard_ = {}, ::Il2CppString* pattern_ = {}) noexcept : ops{ops_}, ignore{ignore_}, hasWildcard{hasWildcard_}, pattern{pattern_} {}
     // Get static field: static readonly System.Char[] WildcardChars
     static ::ArrayWrapper<::Il2CppChar> _get_WildcardChars();
     // Set static field: static readonly System.Char[] WildcardChars

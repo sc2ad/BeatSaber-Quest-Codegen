@@ -53,8 +53,6 @@ namespace Mono::Security::Authenticode {
     int keyType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PrivateKey
-    PrivateKey(bool encrypted_ = {}, System::Security::Cryptography::RSA* rsa_ = {}, bool weak_ = {}, int keyType_ = {}) noexcept : encrypted{encrypted_}, rsa{rsa_}, weak{weak_}, keyType{keyType_} {}
     // Get instance field reference: private System.Boolean encrypted
     bool& dyn_encrypted();
     // Get instance field reference: private System.Security.Cryptography.RSA rsa

@@ -32,8 +32,6 @@ namespace System::Security {
   // [ComVisibleAttribute] Offset: E5EF44
   class XmlSyntaxException : public System::SystemException {
     public:
-    // Creating value type constructor for type: XmlSyntaxException
-    XmlSyntaxException() noexcept {}
     // public System.Void .ctor(System.Int32 lineNumber)
     // Offset: 0x1DE5FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

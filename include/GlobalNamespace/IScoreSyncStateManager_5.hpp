@@ -56,8 +56,6 @@ namespace GlobalNamespace {
   template<typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
   class IScoreSyncStateManager_5 {
     public:
-    // Creating value type constructor for type: IScoreSyncStateManager_5
-    IScoreSyncStateManager_5() noexcept {}
     // public System.Single get_syncTime()
     // Offset: 0xFFFFFFFF
     float get_syncTime() {

@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0DB0
   class IVROverlay::_SetOverlaySortOrder : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetOverlaySortOrder
-    _SetOverlaySortOrder() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22D5218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

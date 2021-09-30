@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalSenderAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: SignalSenderAttribute
-    SignalSenderAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2599E48
     // Implemented from: UnityEngine.PropertyAttribute

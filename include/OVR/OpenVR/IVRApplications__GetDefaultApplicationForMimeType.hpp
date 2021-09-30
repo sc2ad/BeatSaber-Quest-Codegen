@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB05B8
   class IVRApplications::_GetDefaultApplicationForMimeType : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetDefaultApplicationForMimeType
-    _GetDefaultApplicationForMimeType() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1770634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

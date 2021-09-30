@@ -34,8 +34,6 @@ namespace RootMotion {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: DemoGUIMessage
-    DemoGUIMessage(::Il2CppString* text_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String text

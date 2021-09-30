@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F538
   class TripleDESCryptoServiceProvider : public System::Security::Cryptography::TripleDES {
     public:
-    // Creating value type constructor for type: TripleDESCryptoServiceProvider
-    TripleDESCryptoServiceProvider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CCE094
     // Implemented from: System.Security.Cryptography.TripleDES

@@ -21,8 +21,6 @@ namespace UnityEngine::Profiling {
   // [UsedByNativeCodeAttribute] Offset: E733EC
   class Profiler : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Profiler
-    Profiler() noexcept {}
     // static public System.Int64 GetMonoUsedSizeLong()
     // Offset: 0x1DFEAD0
     static int64_t GetMonoUsedSizeLong();

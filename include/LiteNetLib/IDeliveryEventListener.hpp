@@ -23,8 +23,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDeliveryEventListener {
     public:
-    // Creating value type constructor for type: IDeliveryEventListener
-    IDeliveryEventListener() noexcept {}
     // public System.Void OnMessageDelivered(LiteNetLib.NetPeer peer, System.Object userData)
     // Offset: 0xFFFFFFFF
     void OnMessageDelivered(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);

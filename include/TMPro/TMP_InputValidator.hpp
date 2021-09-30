@@ -20,8 +20,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputValidator : public UnityEngine::ScriptableObject {
     public:
-    // Creating value type constructor for type: TMP_InputValidator
-    TMP_InputValidator() noexcept {}
     // public System.Char Validate(ref System.String text, ref System.Int32 pos, System.Char ch)
     // Offset: 0xFFFFFFFF
     ::Il2CppChar Validate(ByRef<::Il2CppString*> text, ByRef<int> pos, ::Il2CppChar ch);

@@ -35,8 +35,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextEncodedRawTextWriter : public System::Xml::XmlEncodedRawTextWriter {
     public:
-    // Creating value type constructor for type: TextEncodedRawTextWriter
-    TextEncodedRawTextWriter() noexcept {}
     // override System.Boolean get_SupportsNamespaceDeclarationInChunks()
     // Offset: 0x1AFDA98
     // Implemented from: System.Xml.XmlEncodedRawTextWriter

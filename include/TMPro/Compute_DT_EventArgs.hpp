@@ -40,8 +40,6 @@ namespace TMPro {
     ::ArrayWrapper<UnityEngine::Color> Colors;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
-    // Creating value type constructor for type: Compute_DT_EventArgs
-    Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes EventType_ = {}, float ProgressPercentage_ = {}, ::ArrayWrapper<UnityEngine::Color> Colors_ = {}) noexcept : EventType{EventType_}, ProgressPercentage{ProgressPercentage_}, Colors{Colors_} {}
     // Get instance field reference: public TMPro.Compute_DistanceTransform_EventTypes EventType
     TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
     // Get instance field reference: public System.Single ProgressPercentage

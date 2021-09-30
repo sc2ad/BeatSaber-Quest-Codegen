@@ -40,8 +40,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* list;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*) == 0x8);
-    // Creating value type constructor for type: X509CertificateImplCollection
-    X509CertificateImplCollection(System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* list_ = {}) noexcept : list{list_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

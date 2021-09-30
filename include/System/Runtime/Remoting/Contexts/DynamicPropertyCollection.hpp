@@ -43,8 +43,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Collections::ArrayList* properties;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: DynamicPropertyCollection
-    DynamicPropertyCollection(System::Collections::ArrayList* properties_ = {}) noexcept : properties{properties_} {}
     // Creating conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return properties;

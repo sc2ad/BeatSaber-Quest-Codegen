@@ -32,8 +32,6 @@ namespace System::Net::Http {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HttpClientHandler::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Net.Http.HttpClientHandler/System.Net.Http.<>c <>9
     static System::Net::Http::HttpClientHandler::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.HttpClientHandler/System.Net.Http.<>c <>9

@@ -37,8 +37,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int assemblyIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BinaryCrossAppDomainAssembly
-    BinaryCrossAppDomainAssembly(int assemId_ = {}, int assemblyIndex_ = {}) noexcept : assemId{assemId_}, assemblyIndex{assemblyIndex_} {}
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // Get instance field reference: System.Int32 assemblyIndex

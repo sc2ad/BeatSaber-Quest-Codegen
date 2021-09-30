@@ -61,8 +61,6 @@ namespace System::Collections::Specialized {
     bool caseInsensitive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HybridDictionary
-    HybridDictionary(System::Collections::Specialized::ListDictionary* list_ = {}, System::Collections::Hashtable* hashtable_ = {}, bool caseInsensitive_ = {}) noexcept : list{list_}, hashtable{hashtable_}, caseInsensitive{caseInsensitive_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

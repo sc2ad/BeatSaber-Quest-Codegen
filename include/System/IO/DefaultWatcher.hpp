@@ -43,8 +43,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultWatcher : public ::Il2CppObject/*, public System::IO::IFileWatcher*/ {
     public:
-    // Creating value type constructor for type: DefaultWatcher
-    DefaultWatcher() noexcept {}
     // Creating interface conversion operator: operator System::IO::IFileWatcher
     operator System::IO::IFileWatcher() noexcept {
       return *reinterpret_cast<System::IO::IFileWatcher*>(this);

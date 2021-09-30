@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD680
   class ItemCanBeNullAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ItemCanBeNullAttribute
-    ItemCanBeNullAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610598
     // Implemented from: System.Attribute

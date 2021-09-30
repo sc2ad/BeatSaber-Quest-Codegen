@@ -17,8 +17,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE8A8
   class SetUpAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: SetUpAttribute
-    SetUpAttribute() noexcept {}
   }; // NUnit.Framework.SetUpAttribute
   #pragma pack(pop)
 }

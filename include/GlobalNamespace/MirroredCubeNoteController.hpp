@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* cubeNoteControllerDidInitEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*) == 0x8);
-    // Creating value type constructor for type: MirroredCubeNoteController
-    MirroredCubeNoteController(GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* cubeNoteControllerDidInitEvent_ = {}) noexcept : materialPropertyBlockController{materialPropertyBlockController_}, colorManager{colorManager_}, cubeNoteControllerDidInitEvent{cubeNoteControllerDidInitEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MirroredCubeNoteController*>
     operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MirroredCubeNoteController*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MirroredCubeNoteController*>*>(this);

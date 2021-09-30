@@ -76,8 +76,6 @@ namespace ModestTree {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ReflectionUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ReflectionUtil
-    ReflectionUtil() noexcept {}
     // static public System.Array CreateArray(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
     // Offset: 0x14EE11C
     static System::Array* CreateArray(System::Type* elementType, System::Collections::Generic::List_1<::Il2CppObject*>* instances);

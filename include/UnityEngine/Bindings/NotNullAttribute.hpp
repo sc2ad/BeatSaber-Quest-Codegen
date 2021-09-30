@@ -22,8 +22,6 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DCA8
   class NotNullAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NotNullAttribute
-    NotNullAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261F99C
     // Implemented from: System.Attribute

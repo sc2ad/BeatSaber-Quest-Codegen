@@ -31,8 +31,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Console::WindowsConsole::WindowsCancelHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: WindowsCancelHandler
-    WindowsCancelHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1B19054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

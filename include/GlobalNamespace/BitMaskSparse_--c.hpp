@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BitMaskSparse::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly BitMaskSparse/<>c <>9
     static GlobalNamespace::BitMaskSparse::$$c* _get_$$9();
     // Set static field: static public readonly BitMaskSparse/<>c <>9

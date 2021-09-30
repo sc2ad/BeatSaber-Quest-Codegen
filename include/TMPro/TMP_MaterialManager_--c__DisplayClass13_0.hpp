@@ -34,8 +34,6 @@ namespace TMPro {
     UnityEngine::Material* stencilMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(UnityEngine::Material* stencilMaterial_ = {}) noexcept : stencilMaterial{stencilMaterial_} {}
     // Creating conversion operator: operator UnityEngine::Material*
     constexpr operator UnityEngine::Material*() const noexcept {
       return stencilMaterial;

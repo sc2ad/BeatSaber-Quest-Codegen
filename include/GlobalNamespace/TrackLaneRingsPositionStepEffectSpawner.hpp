@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     bool prevWasMinStep;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TrackLaneRingsPositionStepEffectSpawner
-    TrackLaneRingsPositionStepEffectSpawner(GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float minPositionStep_ = {}, float maxPositionStep_ = {}, float moveSpeed_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool prevWasMinStep_ = {}) noexcept : trackLaneRingsManager{trackLaneRingsManager_}, beatmapEventType{beatmapEventType_}, minPositionStep{minPositionStep_}, maxPositionStep{maxPositionStep_}, moveSpeed{moveSpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, prevWasMinStep{prevWasMinStep_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsManager _trackLaneRingsManager

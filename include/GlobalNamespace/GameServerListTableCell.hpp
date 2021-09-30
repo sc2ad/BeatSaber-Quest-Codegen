@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMasksModel* songPackMasksModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMasksModel*) == 0x8);
-    // Creating value type constructor for type: GameServerListTableCell
-    GameServerListTableCell(HMUI::CurvedTextMeshPro* serverName_ = {}, HMUI::CurvedTextMeshPro* difficultiesText_ = {}, HMUI::CurvedTextMeshPro* musicPackText_ = {}, HMUI::CurvedTextMeshPro* playerCount_ = {}, UnityEngine::GameObject* passwordProtected_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}) noexcept : serverName{serverName_}, difficultiesText{difficultiesText_}, musicPackText{musicPackText_}, playerCount{playerCount_}, passwordProtected{passwordProtected_}, songPackMasksModel{songPackMasksModel_} {}
     // Get instance field reference: private HMUI.CurvedTextMeshPro _serverName
     HMUI::CurvedTextMeshPro*& dyn__serverName();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _difficultiesText

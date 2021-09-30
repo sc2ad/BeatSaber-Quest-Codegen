@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerLocalActivePlayerGameplayAnimator
-    MultiplayerLocalActivePlayerGameplayAnimator(GlobalNamespace::CoreGameHUDController* coreGameHUDController_ = {}, GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher_ = {}, Tweening::FloatTween* fadeOutHUDTween_ = {}, bool initialized_ = {}) noexcept : coreGameHUDController{coreGameHUDController_}, multiplayerPositionHUDController{multiplayerPositionHUDController_}, levelEndActionsPublisher{levelEndActionsPublisher_}, fadeOutHUDTween{fadeOutHUDTween_}, initialized{initialized_} {}
     // Get instance field reference: private CoreGameHUDController _coreGameHUDController
     GlobalNamespace::CoreGameHUDController*& dyn__coreGameHUDController();
     // Get instance field reference: private MultiplayerPositionHUDController _multiplayerPositionHUDController

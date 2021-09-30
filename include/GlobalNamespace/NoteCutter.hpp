@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*) == 0x8);
-    // Creating value type constructor for type: NoteCutter
-    NoteCutter(::ArrayWrapper<UnityEngine::Collider*> colliders_ = {}, ::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams_ = {}, GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer_ = {}) noexcept : colliders{colliders_}, cuttableBySaberSortParams{cuttableBySaberSortParams_}, comparer{comparer_} {}
     // static field const value: static private System.Int32 kMaxNumberOfColliders
     static constexpr const int kMaxNumberOfColliders = 16;
     // Get static field: static private System.Int32 kMaxNumberOfColliders

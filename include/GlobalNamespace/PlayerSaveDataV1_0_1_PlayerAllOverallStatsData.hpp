@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*) == 0x8);
-    // Creating value type constructor for type: PlayerAllOverallStatsData
-    PlayerAllOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* campaignOverallStatsData_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* soloFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData_ = {}) noexcept : campaignOverallStatsData{campaignOverallStatsData_}, soloFreePlayOverallStatsData{soloFreePlayOverallStatsData_}, partyFreePlayOverallStatsData{partyFreePlayOverallStatsData_} {}
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData

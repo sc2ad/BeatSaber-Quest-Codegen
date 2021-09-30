@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockScoreSyncStateSender*) == 0x8);
-    // Creating value type constructor for type: MockPlayerGamePoseGenerator
-    MockPlayerGamePoseGenerator(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, bool leftHanded_ = {}, GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender_ = {}, GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, leftHanded{leftHanded_}, mockNodePoseSyncStateSender{mockNodePoseSyncStateSender_}, mockScoreSyncStateSender{mockScoreSyncStateSender_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

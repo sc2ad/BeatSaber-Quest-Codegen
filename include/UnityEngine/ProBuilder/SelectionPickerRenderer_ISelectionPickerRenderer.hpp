@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectionPickerRenderer::ISelectionPickerRenderer {
     public:
-    // Creating value type constructor for type: ISelectionPickerRenderer
-    ISelectionPickerRenderer() noexcept {}
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
     // Offset: 0xFFFFFFFF
     UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);

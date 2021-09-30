@@ -25,8 +25,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C238
   class ICustomFormatter {
     public:
-    // Creating value type constructor for type: ICustomFormatter
-    ICustomFormatter() noexcept {}
     // public System.String Format(System.String format, System.Object arg, System.IFormatProvider formatProvider)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg, System::IFormatProvider* formatProvider);

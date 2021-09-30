@@ -26,8 +26,6 @@ namespace HMUI {
     bool interactable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Interactable
-    Interactable(bool interactable_ = {}) noexcept : interactable{interactable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _interactable

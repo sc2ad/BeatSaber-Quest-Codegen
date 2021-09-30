@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelCompletionResults*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass23_0
-    $$c__DisplayClass23_0(GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}) noexcept : $$4__this{$$4__this_}, standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, levelCompletionResults{levelCompletionResults_} {}
     // Get instance field reference: public MenuTransitionsHelper <>4__this
     GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
     // Get instance field reference: public StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData

@@ -40,8 +40,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CubemapHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CubemapHelpers
-    CubemapHelpers() noexcept {}
     // static field const value: static private System.String kCubemapHelpersShaderName
     static constexpr const char* kCubemapHelpersShaderName = "Hidden/CubemapHelpers";
     // Get static field: static private System.String kCubemapHelpersShaderName

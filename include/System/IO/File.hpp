@@ -51,8 +51,6 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E38C
   class File : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: File
-    File() noexcept {}
     // Get static field: static private System.Nullable`1<System.DateTime> defaultLocalFileTime
     static System::Nullable_1<System::DateTime> _get_defaultLocalFileTime();
     // Set static field: static private System.Nullable`1<System.DateTime> defaultLocalFileTime

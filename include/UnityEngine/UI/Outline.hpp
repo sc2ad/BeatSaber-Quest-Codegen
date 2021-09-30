@@ -28,8 +28,6 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: EA8780
   class Outline : public UnityEngine::UI::Shadow {
     public:
-    // Creating value type constructor for type: Outline
-    Outline() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1B4EB0C
     // Implemented from: UnityEngine.UI.Shadow

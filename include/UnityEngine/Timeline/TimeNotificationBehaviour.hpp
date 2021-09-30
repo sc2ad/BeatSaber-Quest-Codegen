@@ -142,8 +142,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Playables::Playable m_TimeSource;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
-    // Creating value type constructor for type: TimeNotificationBehaviour
-    TimeNotificationBehaviour(System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* m_Notifications_ = {}, double m_PreviousTime_ = {}, bool m_NeedSortNotifications_ = {}, UnityEngine::Playables::Playable m_TimeSource_ = {}) noexcept : m_Notifications{m_Notifications_}, m_PreviousTime{m_PreviousTime_}, m_NeedSortNotifications{m_NeedSortNotifications_}, m_TimeSource{m_TimeSource_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> m_Notifications
     System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>*& dyn_m_Notifications();
     // Get instance field reference: private System.Double m_PreviousTime

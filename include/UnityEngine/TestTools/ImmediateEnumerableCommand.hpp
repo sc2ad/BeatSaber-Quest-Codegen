@@ -33,8 +33,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class ImmediateEnumerableCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
-    // Creating value type constructor for type: ImmediateEnumerableCommand
-    ImmediateEnumerableCommand() noexcept {}
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     // Offset: 0x16648E8
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand

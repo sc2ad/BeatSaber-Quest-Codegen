@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyDataModelInstaller : public Zenject::MonoInstaller {
     public:
-    // Creating value type constructor for type: LobbyDataModelInstaller
-    LobbyDataModelInstaller() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1315910
     // Implemented from: Zenject.MonoInstaller

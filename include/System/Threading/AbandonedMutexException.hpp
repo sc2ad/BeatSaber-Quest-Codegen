@@ -49,8 +49,6 @@ namespace System::Threading {
     System::Threading::Mutex* m_Mutex;
     // Field size check
     static_assert(sizeof(System::Threading::Mutex*) == 0x8);
-    // Creating value type constructor for type: AbandonedMutexException
-    AbandonedMutexException(int m_MutexIndex_ = {}, System::Threading::Mutex* m_Mutex_ = {}) noexcept : m_MutexIndex{m_MutexIndex_}, m_Mutex{m_Mutex_} {}
     // Get instance field reference: private System.Int32 m_MutexIndex
     int& dyn_m_MutexIndex();
     // Get instance field reference: private System.Threading.Mutex m_Mutex

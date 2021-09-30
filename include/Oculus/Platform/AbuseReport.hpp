@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbuseReport : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AbuseReport
-    AbuseReport() noexcept {}
   }; // Oculus.Platform.AbuseReport
   #pragma pack(pop)
 }

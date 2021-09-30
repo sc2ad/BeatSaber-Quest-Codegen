@@ -44,8 +44,6 @@ namespace System::Reflection::Emit {
   // [ComVisibleAttribute] Offset: E62888
   class DynamicMethod : public System::Reflection::MethodInfo {
     public:
-    // Creating value type constructor for type: DynamicMethod
-    DynamicMethod() noexcept {}
     // public override System.Reflection.MethodAttributes get_Attributes()
     // Offset: 0x1EA5834
     // Implemented from: System.Reflection.MethodBase

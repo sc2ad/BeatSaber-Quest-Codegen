@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Transform*> otherTransforms;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
-    // Creating value type constructor for type: ResizeData
-    ResizeData(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType resizeType_ = {}, float offset_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, ::ArrayWrapper<UnityEngine::Transform*> otherTransforms_ = {}) noexcept : resizeType{resizeType_}, offset{offset_}, lights{lights_}, otherTransforms{otherTransforms_} {}
     // Get instance field reference: private MultiplayerEnvironmentResizeController/ResizeType _resizeType
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType& dyn__resizeType();
     // Get instance field reference: private System.Single _offset

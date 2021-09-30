@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Toggle::ToggleEvent : public UnityEngine::Events::UnityEvent_1<bool> {
     public:
-    // Creating value type constructor for type: ToggleEvent
-    ToggleEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25D77B0
     // Implemented from: UnityEngine.Events.UnityEvent`1

@@ -73,8 +73,6 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* m_Date;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SemVer
-    SemVer(int m_Major_ = {}, int m_Minor_ = {}, int m_Patch_ = {}, int m_Build_ = {}, ::Il2CppString* m_Type_ = {}, ::Il2CppString* m_Metadata_ = {}, ::Il2CppString* m_Date_ = {}) noexcept : m_Major{m_Major_}, m_Minor{m_Minor_}, m_Patch{m_Patch_}, m_Build{m_Build_}, m_Type{m_Type_}, m_Metadata{m_Metadata_}, m_Date{m_Date_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>*>(this);

@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X25519Field : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X25519Field
-    X25519Field() noexcept {}
     // Get static field: static private readonly System.Int32[] RootNegOne
     static ::ArrayWrapper<int> _get_RootNegOne();
     // Set static field: static private readonly System.Int32[] RootNegOne

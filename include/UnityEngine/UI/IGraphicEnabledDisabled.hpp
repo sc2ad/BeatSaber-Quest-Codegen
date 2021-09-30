@@ -14,8 +14,6 @@ namespace UnityEngine::UI {
   // [ObsoleteAttribute] Offset: EA7CF4
   class IGraphicEnabledDisabled {
     public:
-    // Creating value type constructor for type: IGraphicEnabledDisabled
-    IGraphicEnabledDisabled() noexcept {}
     // public System.Void OnSiblingGraphicEnabledDisabled()
     // Offset: 0xFFFFFFFF
     void OnSiblingGraphicEnabledDisabled();

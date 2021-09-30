@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float verticalOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: HeadBodyOffsetSO
-    HeadBodyOffsetSO(UnityEngine::Vector3 headNeckOffset_ = {}, float verticalOffset_ = {}) noexcept : headNeckOffset{headNeckOffset_}, verticalOffset{verticalOffset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _headNeckOffset

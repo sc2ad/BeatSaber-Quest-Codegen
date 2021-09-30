@@ -29,8 +29,6 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class AesCryptoServiceProvider : public System::Security::Cryptography::Aes {
     public:
-    // Creating value type constructor for type: AesCryptoServiceProvider
-    AesCryptoServiceProvider() noexcept {}
     // public override System.Byte[] get_IV()
     // Offset: 0x25C2A94
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm

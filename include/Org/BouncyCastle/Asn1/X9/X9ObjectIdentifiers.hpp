@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9ObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X9ObjectIdentifiers
-    X9ObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ansi_X9_62
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_ansi_X9_62();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ansi_X9_62

@@ -35,8 +35,6 @@ namespace System::Runtime::InteropServices {
     System::Type* val;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ComDefaultInterfaceAttribute
-    ComDefaultInterfaceAttribute(System::Type* val_ = {}) noexcept : val{val_} {}
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return val;

@@ -111,8 +111,6 @@ namespace Mono::Net::Security {
     Mono::Security::Interface::ICertificateValidator2* certificateValidator;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::ICertificateValidator2*) == 0x8);
-    // Creating value type constructor for type: MobileTlsContext
-    MobileTlsContext(Mono::Net::Security::MobileAuthenticatedStream* parent_ = {}, bool serverMode_ = {}, ::Il2CppString* targetHost_ = {}, ::Il2CppString* serverName_ = {}, System::Security::Authentication::SslProtocols enabledProtocols_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates_ = {}, bool askForClientCert_ = {}, Mono::Security::Interface::ICertificateValidator2* certificateValidator_ = {}) noexcept : parent{parent_}, serverMode{serverMode_}, targetHost{targetHost_}, serverName{serverName_}, enabledProtocols{enabledProtocols_}, serverCertificate{serverCertificate_}, clientCertificates{clientCertificates_}, askForClientCert{askForClientCert_}, certificateValidator{certificateValidator_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

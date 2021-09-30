@@ -28,8 +28,6 @@ namespace Mono::Net {
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: CFObject
-    CFObject(System::IntPtr Handle_ = {}) noexcept : Handle{Handle_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

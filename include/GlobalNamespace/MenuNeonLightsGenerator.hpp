@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 afterSpawnRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: MenuNeonLightsGenerator
-    MenuNeonLightsGenerator(bool generate_ = {}, float radius_ = {}, float angle_ = {}, int numberOfElements_ = {}, UnityEngine::AnimationCurve* intensityCurve_ = {}, float intensityMultiplier_ = {}, UnityEngine::AnimationCurve* lengthCurve_ = {}, float lengthMultiplier_ = {}, UnityEngine::AnimationCurve* widthCurve_ = {}, float widthMultiplier_ = {}, GlobalNamespace::TubeBloomPrePassLight* neonLightPrefab_ = {}, UnityEngine::Vector3 afterSpawnRotation_ = {}) noexcept : generate{generate_}, radius{radius_}, angle{angle_}, numberOfElements{numberOfElements_}, intensityCurve{intensityCurve_}, intensityMultiplier{intensityMultiplier_}, lengthCurve{lengthCurve_}, lengthMultiplier{lengthMultiplier_}, widthCurve{widthCurve_}, widthMultiplier{widthMultiplier_}, neonLightPrefab{neonLightPrefab_}, afterSpawnRotation{afterSpawnRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _generate

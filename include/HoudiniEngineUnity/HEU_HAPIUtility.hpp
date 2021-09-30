@@ -68,8 +68,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HAPIUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_HAPIUtility
-    HEU_HAPIUtility() noexcept {}
     // static public System.String GetHoudiniEngineInstallationInfo()
     // Offset: 0x15D7088
     static ::Il2CppString* GetHoudiniEngineInstallationInfo();

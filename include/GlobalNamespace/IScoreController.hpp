@@ -33,8 +33,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IScoreController {
     public:
-    // Creating value type constructor for type: IScoreController
-    IScoreController() noexcept {}
     // public System.Int32 get_prevFrameRawScore()
     // Offset: 0xFFFFFFFF
     int get_prevFrameRawScore();

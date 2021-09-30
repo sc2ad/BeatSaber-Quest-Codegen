@@ -31,8 +31,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemotingSurrogate : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializationSurrogate*/ {
     public:
-    // Creating value type constructor for type: RemotingSurrogate
-    RemotingSurrogate() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializationSurrogate
     operator System::Runtime::Serialization::ISerializationSurrogate() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializationSurrogate*>(this);

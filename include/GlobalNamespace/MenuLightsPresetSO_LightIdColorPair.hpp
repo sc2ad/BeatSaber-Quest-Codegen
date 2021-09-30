@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: LightIdColorPair
-    LightIdColorPair(int lightId_ = {}, GlobalNamespace::ColorSO* baseColor_ = {}, float intensity_ = {}) noexcept : lightId{lightId_}, baseColor{baseColor_}, intensity{intensity_} {}
     // Get instance field reference: public System.Int32 lightId
     int& dyn_lightId();
     // Get instance field reference: public ColorSO baseColor

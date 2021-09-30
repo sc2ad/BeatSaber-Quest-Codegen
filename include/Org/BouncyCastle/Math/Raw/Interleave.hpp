@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Math::Raw {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interleave : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Interleave
-    Interleave() noexcept {}
     // static System.UInt32 Expand8to16(System.UInt32 x)
     // Offset: 0x1F93184
     static uint Expand8to16(uint x);

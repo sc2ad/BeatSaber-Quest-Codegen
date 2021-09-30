@@ -28,8 +28,6 @@ namespace System::Reflection {
     ::Il2CppString* m_copyright;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssemblyCopyrightAttribute
-    AssemblyCopyrightAttribute(::Il2CppString* m_copyright_ = {}) noexcept : m_copyright{m_copyright_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_copyright;

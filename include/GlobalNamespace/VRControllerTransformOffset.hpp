@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllerTransformOffset : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: VRControllerTransformOffset
-    VRControllerTransformOffset() noexcept {}
     // public UnityEngine.Vector3 get_positionOffset()
     // Offset: 0xFFFFFFFF
     UnityEngine::Vector3 get_positionOffset();

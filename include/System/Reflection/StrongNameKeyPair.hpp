@@ -58,8 +58,6 @@ namespace System::Reflection {
     ::ArrayWrapper<uint8_t> keyPairArray;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: StrongNameKeyPair
-    StrongNameKeyPair(::ArrayWrapper<uint8_t> publicKey_ = {}, ::Il2CppString* keyPairContainer_ = {}, bool keyPairExported_ = {}, ::ArrayWrapper<uint8_t> keyPairArray_ = {}) noexcept : publicKey{publicKey_}, keyPairContainer{keyPairContainer_}, keyPairExported{keyPairExported_}, keyPairArray{keyPairArray_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 positionOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: AnchorIntoParent
-    AnchorIntoParent(UnityEngine::Transform* parentTransform_ = {}, UnityEngine::Vector3 positionOffset_ = {}) noexcept : parentTransform{parentTransform_}, positionOffset{positionOffset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _parentTransform

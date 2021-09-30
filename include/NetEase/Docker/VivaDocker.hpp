@@ -39,8 +39,6 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   class VivaDocker : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VivaDocker
-    VivaDocker() noexcept {}
     // Get static field: static private NetEase.Docker.IDock _activeDock
     static NetEase::Docker::IDock* _get__activeDock();
     // Set static field: static private NetEase.Docker.IDock _activeDock

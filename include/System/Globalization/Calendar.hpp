@@ -55,8 +55,6 @@ namespace System::Globalization {
     int twoDigitYearMax;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Calendar
-    Calendar(int m_currentEraValue_ = {}, bool m_isReadOnly_ = {}, int twoDigitYearMax_ = {}) noexcept : m_currentEraValue{m_currentEraValue_}, m_isReadOnly{m_isReadOnly_}, twoDigitYearMax{twoDigitYearMax_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

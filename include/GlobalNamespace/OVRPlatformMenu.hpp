@@ -101,8 +101,6 @@ namespace GlobalNamespace {
     System::Func_1<bool>* OnShortPress;
     // Field size check
     static_assert(sizeof(System::Func_1<bool>*) == 0x8);
-    // Creating value type constructor for type: OVRPlatformMenu
-    OVRPlatformMenu(GlobalNamespace::OVRInput::RawButton inputCode_ = {}, GlobalNamespace::OVRPlatformMenu::eHandler shortPressHandler_ = {}, System::Func_1<bool>* OnShortPress_ = {}) noexcept : inputCode{inputCode_}, shortPressHandler{shortPressHandler_}, OnShortPress{OnShortPress_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack

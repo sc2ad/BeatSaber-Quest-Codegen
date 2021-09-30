@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepPointComparator : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*/ {
     public:
-    // Creating value type constructor for type: DTSweepPointComparator
-    DTSweepPointComparator() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>
     operator System::Collections::Generic::IComparer_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>(this);

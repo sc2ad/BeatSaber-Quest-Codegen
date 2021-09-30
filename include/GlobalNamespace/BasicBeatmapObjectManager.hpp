@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*) == 0x8);
-    // Creating value type constructor for type: BasicBeatmapObjectManager
-    BasicBeatmapObjectManager(System::Nullable_1<float> firstBasicNoteTime_ = {}, GlobalNamespace::BasicBeatmapObjectManager::InitData* initData_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* gameNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* bombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer_ = {}) noexcept : firstBasicNoteTime{firstBasicNoteTime_}, initData{initData_}, gameNotePoolContainer{gameNotePoolContainer_}, bombNotePoolContainer{bombNotePoolContainer_}, obstaclePoolContainer{obstaclePoolContainer_} {}
     // Get instance field reference: private System.Nullable`1<System.Single> _firstBasicNoteTime
     System::Nullable_1<float>& dyn__firstBasicNoteTime();
     // Get instance field reference: private BasicBeatmapObjectManager/InitData _initData

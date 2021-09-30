@@ -45,8 +45,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* $$9__0;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::Triangle, bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(UnityEngine::ProBuilder::Triangle triangle_ = {}, System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* $$9__0_ = {}) noexcept : triangle{triangle_}, $$9__0{$$9__0_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Triangle triangle
     UnityEngine::ProBuilder::Triangle& dyn_triangle();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0

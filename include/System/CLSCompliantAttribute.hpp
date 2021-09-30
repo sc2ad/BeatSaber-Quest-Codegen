@@ -28,8 +28,6 @@ namespace System {
     bool m_compliant;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CLSCompliantAttribute
-    CLSCompliantAttribute(bool m_compliant_ = {}) noexcept : m_compliant{m_compliant_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_compliant;

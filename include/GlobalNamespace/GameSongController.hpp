@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     bool songDidFinish;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameSongController
-    GameSongController(GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool songDidFinish_ = {}) noexcept : audioTimeSyncController{audioTimeSyncController_}, failAudioPitchGainEffect{failAudioPitchGainEffect_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, songDidFinish{songDidFinish_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IStartSeekSongController
     operator GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);

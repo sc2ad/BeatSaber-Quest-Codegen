@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SteamVR_CameraFlip : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: SteamVR_CameraFlip
-    SteamVR_CameraFlip() noexcept {}
     // private System.Void Awake()
     // Offset: 0x15374E0
     void Awake();

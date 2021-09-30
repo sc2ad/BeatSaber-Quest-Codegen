@@ -28,7 +28,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: XmlCharType
-    constexpr XmlCharType(::ArrayWrapper<uint8_t> charProperties_ = {}) noexcept : charProperties{charProperties_} {}
+    constexpr XmlCharType(::ArrayWrapper<uint8_t> charProperties_ = {nullptr}) noexcept : charProperties{charProperties_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -55,7 +55,6 @@ namespace System::Xml {
     static System::Xml::XmlCharType get_Instance();
     // private System.Void .ctor(System.Byte[] charProperties)
     // Offset: 0x1AFFEC8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  XmlCharType(::ArrayWrapper<uint8_t> charProperties)
     // static private System.Void InitInstance()
     // Offset: 0x1AFFC38

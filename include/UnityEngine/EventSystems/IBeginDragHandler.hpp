@@ -22,8 +22,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeginDragHandler/*, public UnityEngine::EventSystems::IEventSystemHandler*/ {
     public:
-    // Creating value type constructor for type: IBeginDragHandler
-    IBeginDragHandler() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IEventSystemHandler
     operator UnityEngine::EventSystems::IEventSystemHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IEventSystemHandler*>(this);

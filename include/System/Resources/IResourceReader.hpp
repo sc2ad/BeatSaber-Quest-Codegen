@@ -25,8 +25,6 @@ namespace System::Resources {
   // [ComVisibleAttribute] Offset: E5CF94
   class IResourceReader/*, public System::IDisposable, public System::Collections::IEnumerable*/ {
     public:
-    // Creating value type constructor for type: IResourceReader
-    IResourceReader() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

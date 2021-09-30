@@ -99,8 +99,6 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Offset
-    Offset(::Il2CppString* name_ = {}, UnityEngine::Collider* collider_ = {}, float crossFadeTime_ = {}, float crossFader_ = {}, float timer_ = {}, UnityEngine::Vector3 force_ = {}, UnityEngine::Vector3 point_ = {}, float length_ = {}, float crossFadeSpeed_ = {}, float lastTime_ = {}) noexcept : name{name_}, collider{collider_}, crossFadeTime{crossFadeTime_}, crossFader{crossFader_}, timer{timer_}, force{force_}, point{point_}, length{length_}, crossFadeSpeed{crossFadeSpeed_}, lastTime{lastTime_} {}
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public UnityEngine.Collider collider

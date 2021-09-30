@@ -65,8 +65,6 @@ namespace MasterServer {
     ::ArrayWrapper<uint8_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: BaseMasterServerMultipartMessage
-    BaseMasterServerMultipartMessage(uint multipartMessageId_ = {}, int offset_ = {}, int length_ = {}, int totalLength_ = {}, ::ArrayWrapper<uint8_t> data_ = {}) noexcept : multipartMessageId{multipartMessageId_}, offset{offset_}, length{length_}, totalLength{totalLength_}, data{data_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerMultipartMessage
     operator MasterServer::IMasterServerMultipartMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerMultipartMessage*>(this);

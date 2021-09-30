@@ -17,8 +17,6 @@ namespace System {
   template<typename T>
   class IComparable_1 {
     public:
-    // Creating value type constructor for type: IComparable_1
-    IComparable_1() noexcept {}
     // public System.Int32 CompareTo(T other)
     // Offset: 0xFFFFFFFF
     int CompareTo(T other) {

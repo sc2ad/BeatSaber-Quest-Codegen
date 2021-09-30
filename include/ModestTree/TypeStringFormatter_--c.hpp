@@ -31,8 +31,6 @@ namespace ModestTree {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TypeStringFormatter::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly ModestTree.TypeStringFormatter/ModestTree.<>c <>9
     static ModestTree::TypeStringFormatter::$$c* _get_$$9();
     // Set static field: static public readonly ModestTree.TypeStringFormatter/ModestTree.<>c <>9

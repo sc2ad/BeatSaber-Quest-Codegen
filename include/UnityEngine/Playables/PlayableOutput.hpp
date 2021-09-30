@@ -63,7 +63,6 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1DFC3D4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
     // static private System.Void .cctor()
     // Offset: 0x1DFC504

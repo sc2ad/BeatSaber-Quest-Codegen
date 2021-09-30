@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeConverter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ColorSchemeConverter
-    ColorSchemeConverter() noexcept {}
     // static public ColorScheme FromNetSerializable(ColorSchemeNetSerializable serialized)
     // Offset: 0x119A90C
     static GlobalNamespace::ColorScheme* FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized);

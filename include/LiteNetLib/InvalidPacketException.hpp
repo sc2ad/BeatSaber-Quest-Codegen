@@ -26,8 +26,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidPacketException : public System::ArgumentException {
     public:
-    // Creating value type constructor for type: InvalidPacketException
-    InvalidPacketException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DD3BD8
     // Implemented from: System.ArgumentException

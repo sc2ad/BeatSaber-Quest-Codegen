@@ -102,8 +102,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<UnityEngine::Quaternion> rotations;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
-    // Creating value type constructor for type: IKSolverLeg
-    IKSolverLeg(float IKRotationWeight_ = {}, UnityEngine::Quaternion IKRotation_ = {}, RootMotion::FinalIK::IKSolver::Point* pelvis_ = {}, RootMotion::FinalIK::IKSolver::Point* thigh_ = {}, RootMotion::FinalIK::IKSolver::Point* calf_ = {}, RootMotion::FinalIK::IKSolver::Point* foot_ = {}, RootMotion::FinalIK::IKSolver::Point* toe_ = {}, RootMotion::FinalIK::IKSolverVR::Leg* leg_ = {}, UnityEngine::Vector3 heelOffset_ = {}, ::ArrayWrapper<UnityEngine::Vector3> positions_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> rotations_ = {}) noexcept : IKRotationWeight{IKRotationWeight_}, IKRotation{IKRotation_}, pelvis{pelvis_}, thigh{thigh_}, calf{calf_}, foot{foot_}, toe{toe_}, leg{leg_}, heelOffset{heelOffset_}, positions{positions_}, rotations{rotations_} {}
     // Get instance field reference: public System.Single IKRotationWeight
     float& dyn_IKRotationWeight();
     // Get instance field reference: public UnityEngine.Quaternion IKRotation

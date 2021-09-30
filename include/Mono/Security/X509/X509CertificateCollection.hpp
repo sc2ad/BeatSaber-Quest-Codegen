@@ -35,8 +35,6 @@ namespace Mono::Security::X509 {
     public:
     // Nested type: Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator
     class X509CertificateEnumerator;
-    // Creating value type constructor for type: X509CertificateCollection
-    X509CertificateCollection() noexcept {}
     // public Mono.Security.X509.X509Certificate get_Item(System.Int32 index)
     // Offset: 0x25DEB48
     Mono::Security::X509::X509Certificate* get_Item(int index);

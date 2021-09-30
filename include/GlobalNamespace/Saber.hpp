@@ -98,8 +98,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion handleRot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: Saber
-    Saber(UnityEngine::Transform* saberBladeTopTransform_ = {}, UnityEngine::Transform* saberBladeBottomTransform_ = {}, UnityEngine::Transform* handleTransform_ = {}, GlobalNamespace::SaberTypeObject* saberType_ = {}, bool disableCutting_ = {}, GlobalNamespace::SaberMovementData* movementData_ = {}, UnityEngine::Vector3 saberBladeTopPos_ = {}, UnityEngine::Vector3 saberBladeBottomPos_ = {}, UnityEngine::Vector3 handlePos_ = {}, UnityEngine::Quaternion handleRot_ = {}) noexcept : saberBladeTopTransform{saberBladeTopTransform_}, saberBladeBottomTransform{saberBladeBottomTransform_}, handleTransform{handleTransform_}, saberType{saberType_}, disableCutting{disableCutting_}, movementData{movementData_}, saberBladeTopPos{saberBladeTopPos_}, saberBladeBottomPos{saberBladeBottomPos_}, handlePos{handlePos_}, handleRot{handleRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _saberBladeTopTransform

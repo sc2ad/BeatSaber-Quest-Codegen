@@ -36,8 +36,6 @@ namespace NUnit::Framework::Internal::Commands {
     NUnit::Framework::Internal::Test* Test;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
-    // Creating value type constructor for type: TestCommand
-    TestCommand(NUnit::Framework::Internal::Test* Test_ = {}) noexcept : Test{Test_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept {
       return Test;

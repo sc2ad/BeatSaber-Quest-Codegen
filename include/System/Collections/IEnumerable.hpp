@@ -22,8 +22,6 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E617FC
   class IEnumerable {
     public:
-    // Creating value type constructor for type: IEnumerable
-    IEnumerable() noexcept {}
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* GetEnumerator();

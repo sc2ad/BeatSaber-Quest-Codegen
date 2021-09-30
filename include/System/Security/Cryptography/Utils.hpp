@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class Utils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Utils
-    Utils() noexcept {}
     // Get static field: static private System.Security.Cryptography.RNGCryptoServiceProvider _rng
     static System::Security::Cryptography::RNGCryptoServiceProvider* _get__rng();
     // Set static field: static private System.Security.Cryptography.RNGCryptoServiceProvider _rng

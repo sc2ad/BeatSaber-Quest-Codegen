@@ -21,8 +21,6 @@ namespace UnityEngine::Experimental::Rendering {
   // [NativeHeaderAttribute] Offset: E74D0C
   class BuiltinRuntimeReflectionSystem : public ::Il2CppObject/*, public UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*/ {
     public:
-    // Creating value type constructor for type: BuiltinRuntimeReflectionSystem
-    BuiltinRuntimeReflectionSystem() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem
     operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem() noexcept {
       return *reinterpret_cast<UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(this);

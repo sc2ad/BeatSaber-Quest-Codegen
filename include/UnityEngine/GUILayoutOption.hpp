@@ -148,8 +148,6 @@ namespace UnityEngine {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: GUILayoutOption
-    GUILayoutOption(UnityEngine::GUILayoutOption::Type type_ = {}, ::Il2CppObject* value_ = {}) noexcept : type{type_}, value{value_} {}
     // Get instance field reference: UnityEngine.GUILayoutOption/UnityEngine.Type type
     UnityEngine::GUILayoutOption::Type& dyn_type();
     // Get instance field reference: System.Object value

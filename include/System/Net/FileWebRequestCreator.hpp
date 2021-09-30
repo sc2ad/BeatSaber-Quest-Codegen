@@ -32,8 +32,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileWebRequestCreator : public ::Il2CppObject/*, public System::Net::IWebRequestCreate*/ {
     public:
-    // Creating value type constructor for type: FileWebRequestCreator
-    FileWebRequestCreator() noexcept {}
     // Creating interface conversion operator: operator System::Net::IWebRequestCreate
     operator System::Net::IWebRequestCreate() noexcept {
       return *reinterpret_cast<System::Net::IWebRequestCreate*>(this);

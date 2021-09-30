@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
-    // Creating value type constructor for type: CreateServerViewController
-    CreateServerViewController(UnityEngine::UI::Button* createServerButton_ = {}, UnityEngine::UI::Button* cancelCreateServerButton_ = {}, GlobalNamespace::CreateServerFormController* createServerFormController_ = {}, System::Action_2<bool, GlobalNamespace::CreateServerFormData>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : createServerButton{createServerButton_}, cancelCreateServerButton{cancelCreateServerButton_}, createServerFormController{createServerFormController_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // Get instance field reference: private UnityEngine.UI.Button _createServerButton
     UnityEngine::UI::Button*& dyn__createServerButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelCreateServerButton

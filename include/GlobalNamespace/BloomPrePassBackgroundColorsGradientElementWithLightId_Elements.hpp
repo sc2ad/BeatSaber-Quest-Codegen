@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     float minIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Elements
-    Elements(int elementNumber_ = {}, float intensity_ = {}, float minIntensity_ = {}) noexcept : elementNumber{elementNumber_}, intensity{intensity_}, minIntensity{minIntensity_} {}
     // Get instance field reference: public System.Int32 elementNumber
     int& dyn_elementNumber();
     // Get instance field reference: public System.Single intensity

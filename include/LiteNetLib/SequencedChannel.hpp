@@ -81,8 +81,6 @@ namespace LiteNetLib {
     int64_t lastPacketSendTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: SequencedChannel
-    SequencedChannel(int localSequence_ = {}, uint16_t remoteSequence_ = {}, bool reliable_ = {}, LiteNetLib::NetPacket* lastPacket_ = {}, LiteNetLib::NetPacket* ackPacket_ = {}, bool mustSendAck_ = {}, uint8_t id_ = {}, int64_t lastPacketSendTime_ = {}) noexcept : localSequence{localSequence_}, remoteSequence{remoteSequence_}, reliable{reliable_}, lastPacket{lastPacket_}, ackPacket{ackPacket_}, mustSendAck{mustSendAck_}, id{id_}, lastPacketSendTime{lastPacketSendTime_} {}
     // Get instance field reference: private System.Int32 _localSequence
     int& dyn__localSequence();
     // Get instance field reference: private System.UInt16 _remoteSequence

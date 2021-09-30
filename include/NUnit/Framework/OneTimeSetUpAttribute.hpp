@@ -17,8 +17,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE7C0
   class OneTimeSetUpAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: OneTimeSetUpAttribute
-    OneTimeSetUpAttribute() noexcept {}
   }; // NUnit.Framework.OneTimeSetUpAttribute
   #pragma pack(pop)
 }

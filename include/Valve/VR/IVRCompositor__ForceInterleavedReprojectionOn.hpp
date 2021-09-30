@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5C18
   class IVRCompositor::_ForceInterleavedReprojectionOn : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ForceInterleavedReprojectionOn
-    _ForceInterleavedReprojectionOn() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AB620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetworkConfig {
     public:
-    // Creating value type constructor for type: INetworkConfig
-    INetworkConfig() noexcept {}
     // public System.Int32 get_maxPartySize()
     // Offset: 0xFFFFFFFF
     int get_maxPartySize();

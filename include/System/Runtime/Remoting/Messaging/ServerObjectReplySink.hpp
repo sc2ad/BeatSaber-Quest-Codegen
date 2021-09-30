@@ -46,8 +46,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::ServerIdentity* identity;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::ServerIdentity*) == 0x8);
-    // Creating value type constructor for type: ServerObjectReplySink
-    ServerObjectReplySink(System::Runtime::Remoting::Messaging::IMessageSink* replySink_ = {}, System::Runtime::Remoting::ServerIdentity* identity_ = {}) noexcept : replySink{replySink_}, identity{identity_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IgnoreForReflectionProbeBaking : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: IgnoreForReflectionProbeBaking
-    IgnoreForReflectionProbeBaking() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1146E64
     // Implemented from: UnityEngine.MonoBehaviour

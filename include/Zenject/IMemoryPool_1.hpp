@@ -19,8 +19,6 @@ namespace Zenject {
   template<typename TValue>
   class IMemoryPool_1/*, public Zenject::IDespawnableMemoryPool_1<TValue>*/ {
     public:
-    // Creating value type constructor for type: IMemoryPool_1
-    IMemoryPool_1() noexcept {}
     // Creating interface conversion operator: operator Zenject::IDespawnableMemoryPool_1<TValue>
     operator Zenject::IDespawnableMemoryPool_1<TValue>() noexcept {
       return *reinterpret_cast<Zenject::IDespawnableMemoryPool_1<TValue>*>(this);

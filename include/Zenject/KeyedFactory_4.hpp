@@ -33,8 +33,6 @@ namespace Zenject {
   template<typename TBase, typename TKey, typename TParam1, typename TParam2>
   class KeyedFactory_4 : public Zenject::KeyedFactoryBase_2<TBase, TKey> {
     public:
-    // Creating value type constructor for type: KeyedFactory_4
-    KeyedFactory_4() noexcept {}
     // public TBase Create(TKey key, TParam1 param1, TParam2 param2)
     // Offset: 0xFFFFFFFF
     TBase Create(TKey key, TParam1 param1, TParam2 param2) {

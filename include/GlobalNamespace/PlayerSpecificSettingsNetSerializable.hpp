@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeNetSerializable colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeNetSerializable) == 0x70);
-    // Creating value type constructor for type: PlayerSpecificSettingsNetSerializable
-    PlayerSpecificSettingsNetSerializable(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool leftHanded_ = {}, bool automaticPlayerHeight_ = {}, float playerHeight_ = {}, float headPosToPlayerHeightOffset_ = {}, GlobalNamespace::ColorSchemeNetSerializable colorScheme_ = {}) noexcept : userId{userId_}, userName{userName_}, leftHanded{leftHanded_}, automaticPlayerHeight{automaticPlayerHeight_}, playerHeight{playerHeight_}, headPosToPlayerHeightOffset{headPosToPlayerHeightOffset_}, colorScheme{colorScheme_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

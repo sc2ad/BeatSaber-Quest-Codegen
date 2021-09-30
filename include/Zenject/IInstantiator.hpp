@@ -48,8 +48,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInstantiator {
     public:
-    // Creating value type constructor for type: IInstantiator
-    IInstantiator() noexcept {}
     // public T Instantiate()
     // Offset: 0xFFFFFFFF
     template<class T>

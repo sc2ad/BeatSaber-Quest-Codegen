@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDifficultyBeatmapSet {
     public:
-    // Creating value type constructor for type: IDifficultyBeatmapSet
-    IDifficultyBeatmapSet() noexcept {}
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();

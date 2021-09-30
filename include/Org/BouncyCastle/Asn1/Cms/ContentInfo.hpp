@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Asn1::Cms {
     Org::BouncyCastle::Asn1::Asn1Encodable* content;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
-    // Creating value type constructor for type: ContentInfo
-    ContentInfo(Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* content_ = {}) noexcept : contentType{contentType_}, content{content_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier contentType
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_contentType();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Encodable content

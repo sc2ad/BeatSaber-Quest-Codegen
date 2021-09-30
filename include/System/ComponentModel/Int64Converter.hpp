@@ -20,8 +20,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class Int64Converter : public System::ComponentModel::BaseNumberConverter {
     public:
-    // Creating value type constructor for type: Int64Converter
-    Int64Converter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A23198
     // Implemented from: System.ComponentModel.BaseNumberConverter

@@ -19,8 +19,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E9D50C
   class AssetBundleRecompressOperation : public UnityEngine::AsyncOperation {
     public:
-    // Creating value type constructor for type: AssetBundleRecompressOperation
-    AssetBundleRecompressOperation() noexcept {}
   }; // UnityEngine.AssetBundleRecompressOperation
   #pragma pack(pop)
 }

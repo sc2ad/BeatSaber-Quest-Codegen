@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // Creating value type constructor for type: MeshRendererSwitchEventEffect
-    MeshRendererSwitchEventEffect(GlobalNamespace::BeatmapEventType beatmapEvent_ = {}, ::ArrayWrapper<UnityEngine::MeshRenderer*> deactivateOnBoostRenderers_ = {}, ::ArrayWrapper<UnityEngine::MeshRenderer*> activateOnBoostRenderers_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : beatmapEvent{beatmapEvent_}, deactivateOnBoostRenderers{deactivateOnBoostRenderers_}, activateOnBoostRenderers{activateOnBoostRenderers_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEvent

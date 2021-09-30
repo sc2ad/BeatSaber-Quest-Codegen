@@ -16,8 +16,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class ModuleBuilder : public System::Reflection::Module {
     public:
-    // Creating value type constructor for type: ModuleBuilder
-    ModuleBuilder() noexcept {}
   }; // System.Reflection.Emit.ModuleBuilder
   #pragma pack(pop)
 }

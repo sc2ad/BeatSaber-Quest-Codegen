@@ -20,8 +20,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecimalConverter : public System::ComponentModel::BaseNumberConverter {
     public:
-    // Creating value type constructor for type: DecimalConverter
-    DecimalConverter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A21FC8
     // Implemented from: System.ComponentModel.BaseNumberConverter

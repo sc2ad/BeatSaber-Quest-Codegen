@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ObstacleData
-    ObstacleData(GlobalNamespace::ObstacleType obstacleType_ = {}, float duration_ = {}, int width_ = {}) noexcept : obstacleType{obstacleType_}, duration{duration_}, width{width_} {}
     // Get instance field reference: private ObstacleType <obstacleType>k__BackingField
     GlobalNamespace::ObstacleType& dyn_$obstacleType$k__BackingField();
     // Get instance field reference: private System.Single <duration>k__BackingField

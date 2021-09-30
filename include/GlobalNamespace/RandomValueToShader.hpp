@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     int lastFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RandomValueToShader
-    RandomValueToShader(int lastFrameNum_ = {}) noexcept : lastFrameNum{lastFrameNum_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA64

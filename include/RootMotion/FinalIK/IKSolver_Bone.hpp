@@ -64,8 +64,6 @@ namespace RootMotion::FinalIK {
     bool isLimited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Bone
-    Bone(float length_ = {}, float sqrMag_ = {}, UnityEngine::Vector3 axis_ = {}, RootMotion::FinalIK::RotationLimit* rotationLimit_ = {}, bool isLimited_ = {}) noexcept : length{length_}, sqrMag{sqrMag_}, axis{axis_}, rotationLimit{rotationLimit_}, isLimited{isLimited_} {}
     // Get instance field reference: public System.Single length
     float& dyn_length();
     // Get instance field reference: public System.Single sqrMag

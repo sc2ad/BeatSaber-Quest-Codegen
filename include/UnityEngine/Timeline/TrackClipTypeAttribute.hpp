@@ -40,8 +40,6 @@ namespace UnityEngine::Timeline {
     bool allowAutoCreate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TrackClipTypeAttribute
-    TrackClipTypeAttribute(System::Type* inspectedType_ = {}, bool allowAutoCreate_ = {}) noexcept : inspectedType{inspectedType_}, allowAutoCreate{allowAutoCreate_} {}
     // Get instance field reference: public readonly System.Type inspectedType
     System::Type*& dyn_inspectedType();
     // Get instance field reference: public readonly System.Boolean allowAutoCreate

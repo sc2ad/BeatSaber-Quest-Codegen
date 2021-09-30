@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*) == 0x8);
-    // Creating value type constructor for type: CreditsScenesTransitionSetupDataSO
-    CreditsScenesTransitionSetupDataSO(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent_ = {}) noexcept : didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)

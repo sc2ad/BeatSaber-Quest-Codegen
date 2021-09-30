@@ -73,8 +73,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* hInv;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: ECDomainParameters
-    ECDomainParameters(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, ::ArrayWrapper<uint8_t> seed_ = {}, Org::BouncyCastle::Math::EC::ECPoint* g_ = {}, Org::BouncyCastle::Math::BigInteger* n_ = {}, Org::BouncyCastle::Math::BigInteger* h_ = {}, Org::BouncyCastle::Math::BigInteger* hInv_ = {}) noexcept : curve{curve_}, seed{seed_}, g{g_}, n{n_}, h{h_}, hInv{hInv_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: private readonly System.Byte[] seed

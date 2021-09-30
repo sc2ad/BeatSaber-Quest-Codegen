@@ -95,8 +95,6 @@ namespace System::Linq {
         int $i$5__1;
         // Field size check
         static_assert(sizeof(int) == 0x4);
-        // Creating value type constructor for type: $GetEnumerator$d__7
-        $GetEnumerator$d__7(int $$1__state_ = {}, TElement $$2__current_ = {}, typename System::Linq::Lookup_2<TKey, TElement>::Grouping* $$4__this_ = {}, int $i$5__1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $i$5__1{$i$5__1_} {}
         // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<TElement>
         operator System::Collections::Generic::IEnumerator_1<TElement>() noexcept {
           return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<TElement>*>(this);
@@ -216,8 +214,6 @@ namespace System::Linq {
       typename System::Linq::Lookup_2<TKey, TElement>::Grouping* next;
       // Field size check
       static_assert(sizeof(typename System::Linq::Lookup_2<TKey, TElement>::Grouping*) == 0x8);
-      // Creating value type constructor for type: Grouping
-      Grouping(TKey key_ = {}, int hashCode_ = {}, ::ArrayWrapper<TElement> elements_ = {}, int count_ = {}, typename System::Linq::Lookup_2<TKey, TElement>::Grouping* hashNext_ = {}, typename System::Linq::Lookup_2<TKey, TElement>::Grouping* next_ = {}) noexcept : key{key_}, hashCode{hashCode_}, elements{elements_}, count{count_}, hashNext{hashNext_}, next{next_} {}
       // Creating interface conversion operator: operator System::Linq::IGrouping_2<TKey, TElement>
       operator System::Linq::IGrouping_2<TKey, TElement>() noexcept {
         return *reinterpret_cast<System::Linq::IGrouping_2<TKey, TElement>*>(this);
@@ -446,8 +442,6 @@ namespace System::Linq {
       typename System::Linq::Lookup_2<TKey, TElement>::Grouping* $g$5__1;
       // Field size check
       static_assert(sizeof(typename System::Linq::Lookup_2<TKey, TElement>::Grouping*) == 0x8);
-      // Creating value type constructor for type: $GetEnumerator$d__12
-      $GetEnumerator$d__12(int $$1__state_ = {}, System::Linq::IGrouping_2<TKey, TElement>* $$2__current_ = {}, System::Linq::Lookup_2<TKey, TElement>* $$4__this_ = {}, typename System::Linq::Lookup_2<TKey, TElement>::Grouping* $g$5__1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $g$5__1{$g$5__1_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey, TElement>*>
       operator System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey, TElement>*>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey, TElement>*>*>(this);
@@ -557,8 +551,6 @@ namespace System::Linq {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Lookup_2
-    Lookup_2(System::Collections::Generic::IEqualityComparer_1<TKey>* comparer_ = {}, ::ArrayWrapper<typename System::Linq::Lookup_2<TKey, TElement>::Grouping*> groupings_ = {}, typename System::Linq::Lookup_2<TKey, TElement>::Grouping* lastGrouping_ = {}, int count_ = {}) noexcept : comparer{comparer_}, groupings{groupings_}, lastGrouping{lastGrouping_}, count{count_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>
     operator System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>*>(this);

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Material*> materials;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
-    // Creating value type constructor for type: StaticEnvironmentLights
-    StaticEnvironmentLights(::ArrayWrapper<UnityEngine::Color> lightColors_ = {}, ::ArrayWrapper<UnityEngine::Material*> materials_ = {}) noexcept : lightColors{lightColors_}, materials{materials_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color[] _lightColors

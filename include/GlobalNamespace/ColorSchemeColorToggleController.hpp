@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // Creating value type constructor for type: ColorSchemeColorToggleController
-    ColorSchemeColorToggleController(::ArrayWrapper<UnityEngine::UI::Graphic*> colorGraphics_ = {}, UnityEngine::UI::Toggle* toggle_ = {}) noexcept : colorGraphics{colorGraphics_}, toggle{toggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Graphic[] _colorGraphics

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecurityUtilityException : public System::Exception {
     public:
-    // Creating value type constructor for type: SecurityUtilityException
-    SecurityUtilityException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14DD8D8
     // Implemented from: System.Exception

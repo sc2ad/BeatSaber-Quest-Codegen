@@ -176,8 +176,6 @@ namespace GlobalNamespace {
     Tweening::FloatTween* onPlatformTextAlphaTween;
     // Field size check
     static_assert(sizeof(Tweening::FloatTween*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerScoreDiffText
-    MultiplayerConnectedPlayerScoreDiffText(UnityEngine::Color activeTextColor_ = {}, UnityEngine::Color normalBackgroundColor_ = {}, UnityEngine::Color leadingBackgroundColor_ = {}, TMPro::TextMeshPro* onPlatformText_ = {}, UnityEngine::SpriteRenderer* backgroundSpriteRenderer_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider_ = {}, UnityEngine::Color currentBackgroundColor_ = {}, GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State state_ = {}, Tweening::FloatTween* onPlatformTextAlphaTween_ = {}) noexcept : activeTextColor{activeTextColor_}, normalBackgroundColor{normalBackgroundColor_}, leadingBackgroundColor{leadingBackgroundColor_}, onPlatformText{onPlatformText_}, backgroundSpriteRenderer{backgroundSpriteRenderer_}, tweeningManager{tweeningManager_}, connectedPlayer{connectedPlayer_}, leadPlayerProvider{leadPlayerProvider_}, currentBackgroundColor{currentBackgroundColor_}, state{state_}, onPlatformTextAlphaTween{onPlatformTextAlphaTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _activeTextColor

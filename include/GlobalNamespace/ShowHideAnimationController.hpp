@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     int showAnimatorParam;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ShowHideAnimationController
-    ShowHideAnimationController(UnityEngine::Animator* animator_ = {}, bool deactivateSelfAfterDelay_ = {}, float deactivationDelay_ = {}, bool show_ = {}, int showAnimatorParam_ = {}) noexcept : animator{animator_}, deactivateSelfAfterDelay{deactivateSelfAfterDelay_}, deactivationDelay{deactivationDelay_}, show{show_}, showAnimatorParam{showAnimatorParam_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Animator _animator

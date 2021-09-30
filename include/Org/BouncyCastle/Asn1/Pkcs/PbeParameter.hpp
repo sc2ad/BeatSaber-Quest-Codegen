@@ -50,8 +50,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerInteger* iterationCount;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: PbeParameter
-    PbeParameter(Org::BouncyCastle::Asn1::Asn1OctetString* salt_ = {}, Org::BouncyCastle::Asn1::DerInteger* iterationCount_ = {}) noexcept : salt{salt_}, iterationCount{iterationCount_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString salt
     Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_salt();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class DesParameters : public Org::BouncyCastle::Crypto::Parameters::KeyParameter {
     public:
-    // Creating value type constructor for type: DesParameters
-    DesParameters() noexcept {}
     // Get static field: static private readonly System.Byte[] DES_weak_keys
     static ::ArrayWrapper<uint8_t> _get_DES_weak_keys();
     // Set static field: static private readonly System.Byte[] DES_weak_keys

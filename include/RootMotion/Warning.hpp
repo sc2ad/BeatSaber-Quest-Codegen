@@ -26,8 +26,6 @@ namespace RootMotion {
     public:
     // Nested type: RootMotion::Warning::Logger
     class Logger;
-    // Creating value type constructor for type: Warning
-    Warning() noexcept {}
     // Get static field: static public System.Boolean logged
     static bool _get_logged();
     // Set static field: static public System.Boolean logged

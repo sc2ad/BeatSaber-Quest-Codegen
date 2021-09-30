@@ -45,8 +45,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BF3C
   class DBNull : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::IConvertible*/ {
     public:
-    // Creating value type constructor for type: DBNull
-    DBNull() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -15,8 +15,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Strings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Strings
-    Strings() noexcept {}
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
     // Offset: 0x2183AD0
     static bool IsOneOf(::Il2CppString* s, ::ArrayWrapper<::Il2CppString*> candidates);

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5920
   class IVRChaperoneSetup::_ReloadFromDisk : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ReloadFromDisk
-    _ReloadFromDisk() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21A85C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICubeNoteTypeProvider {
     public:
-    // Creating value type constructor for type: ICubeNoteTypeProvider
-    ICubeNoteTypeProvider() noexcept {}
     // public GameNoteController/GameNoteType get_gameNoteType()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();

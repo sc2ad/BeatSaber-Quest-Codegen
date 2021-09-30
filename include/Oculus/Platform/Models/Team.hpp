@@ -51,8 +51,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Team
-    Team(Oculus::Platform::Models::UserList* AssignedUsers_ = {}, int MaxUsers_ = {}, int MinUsers_ = {}, ::Il2CppString* Name_ = {}) noexcept : AssignedUsers{AssignedUsers_}, MaxUsers{MaxUsers_}, MinUsers{MinUsers_}, Name{Name_} {}
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList AssignedUsers
     Oculus::Platform::Models::UserList*& dyn_AssignedUsers();
     // Get instance field reference: public readonly System.Int32 MaxUsers

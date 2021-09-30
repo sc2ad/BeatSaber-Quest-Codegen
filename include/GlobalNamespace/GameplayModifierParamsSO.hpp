@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     bool isInBeta;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameplayModifierParamsSO
-    GameplayModifierParamsSO(::Il2CppString* modifierNameLocalizationKey_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, float multiplier_ = {}, bool multiplierConditionallyValid_ = {}, UnityEngine::Sprite* icon_ = {}, ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> mutuallyExclusives_ = {}, ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> _requires_ = {}, ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> requiredBy_ = {}, bool isInBeta_ = {}) noexcept : modifierNameLocalizationKey{modifierNameLocalizationKey_}, descriptionLocalizationKey{descriptionLocalizationKey_}, multiplier{multiplier_}, multiplierConditionallyValid{multiplierConditionallyValid_}, icon{icon_}, mutuallyExclusives{mutuallyExclusives_}, _requires{_requires_}, requiredBy{requiredBy_}, isInBeta{isInBeta_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _modifierNameLocalizationKey

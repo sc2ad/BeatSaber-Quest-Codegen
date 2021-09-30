@@ -96,8 +96,6 @@ namespace Mono::Math {
     ::ArrayWrapper<uint> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: BigInteger
-    BigInteger(uint length_ = {}, ::ArrayWrapper<uint> data_ = {}) noexcept : length{length_}, data{data_} {}
     // Get static field: static readonly System.UInt32[] smallPrimes
     static ::ArrayWrapper<uint> _get_smallPrimes();
     // Set static field: static readonly System.UInt32[] smallPrimes

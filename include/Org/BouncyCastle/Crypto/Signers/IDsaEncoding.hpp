@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDsaEncoding {
     public:
-    // Creating value type constructor for type: IDsaEncoding
-    IDsaEncoding() noexcept {}
     // public System.Byte[] Encode(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger s)
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<uint8_t> Encode(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* r, Org::BouncyCastle::Math::BigInteger* s);

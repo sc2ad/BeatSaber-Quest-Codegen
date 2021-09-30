@@ -53,8 +53,6 @@ namespace OnlineServices {
     int referencePlayerScoreIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LeaderboardEntriesResult
-    LeaderboardEntriesResult(bool isError_ = {}, ::Il2CppString* localizedErrorMessage_ = {}, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, localizedErrorMessage{localizedErrorMessage_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // Get instance field reference: public readonly System.Boolean isError
     bool& dyn_isError();
     // Get instance field reference: public readonly System.String localizedErrorMessage

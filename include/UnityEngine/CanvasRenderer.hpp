@@ -48,8 +48,6 @@ namespace UnityEngine {
     bool isMask;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CanvasRenderer
-    CanvasRenderer(bool isMask_ = {}) noexcept : isMask{isMask_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean <isMask>k__BackingField

@@ -31,8 +31,6 @@ namespace LiteNetLib::Utils {
   template<typename T>
   class NetSerializer::CharSerializer_1 : public LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2<T, ::Il2CppChar> {
     public:
-    // Creating value type constructor for type: CharSerializer_1
-    CharSerializer_1() noexcept {}
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref System.Char prop)
     // Offset: 0xFFFFFFFF
     void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, ByRef<::Il2CppChar> prop) {

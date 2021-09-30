@@ -45,8 +45,6 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: E5DF04
   class MonoModule : public System::Reflection::RuntimeModule {
     public:
-    // Creating value type constructor for type: MonoModule
-    MonoModule() noexcept {}
     // System.Reflection.RuntimeAssembly GetRuntimeAssembly()
     // Offset: 0x1EAE794
     System::Reflection::RuntimeAssembly* GetRuntimeAssembly();

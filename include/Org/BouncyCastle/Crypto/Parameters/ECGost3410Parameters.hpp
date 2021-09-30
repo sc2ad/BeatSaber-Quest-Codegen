@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: ECGost3410Parameters
-    ECGost3410Parameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet_ = {}) noexcept : publicKeyParamSet{publicKeyParamSet_}, digestParamSet{digestParamSet_}, encryptionParamSet{encryptionParamSet_} {}
     // Deleting conversion operator: operator Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet

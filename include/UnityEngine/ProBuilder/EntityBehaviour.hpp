@@ -41,8 +41,6 @@ namespace UnityEngine::ProBuilder {
     bool manageVisibility;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EntityBehaviour
-    EntityBehaviour(bool manageVisibility_ = {}) noexcept : manageVisibility{manageVisibility_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean manageVisibility

@@ -53,8 +53,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<uint8_t> body;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: DerObjectIdentifier
-    DerObjectIdentifier(::Il2CppString* identifier_ = {}, ::ArrayWrapper<uint8_t> body_ = {}) noexcept : identifier{identifier_}, body{body_} {}
     // Get static field: static private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier[] cache
     static ::ArrayWrapper<Org::BouncyCastle::Asn1::DerObjectIdentifier*> _get_cache();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier[] cache

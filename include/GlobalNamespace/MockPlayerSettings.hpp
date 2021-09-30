@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     UnityEngine::Color obstaclesColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: MockPlayerSettings
-    MockPlayerSettings(::Il2CppString* userName_ = {}, ::Il2CppString* userId_ = {}, int sortIndex_ = {}, float latency_ = {}, bool autoConnect_ = {}, bool inactiveByDefault_ = {}, GlobalNamespace::MockPlayerMovementType movementType_ = {}, ::Il2CppString* recodingFile_ = {}, float aiCubeHitChance_ = {}, bool leftHanded_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color obstaclesColor_ = {}) noexcept : userName{userName_}, userId{userId_}, sortIndex{sortIndex_}, latency{latency_}, autoConnect{autoConnect_}, inactiveByDefault{inactiveByDefault_}, movementType{movementType_}, recodingFile{recodingFile_}, aiCubeHitChance{aiCubeHitChance_}, leftHanded{leftHanded_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_} {}
     // Get instance field reference: private System.String _userName
     ::Il2CppString*& dyn__userName();
     // Get instance field reference: private System.String _userId

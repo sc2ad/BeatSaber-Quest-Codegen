@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DsaParameters*) == 0x8);
-    // Creating value type constructor for type: DsaKeyParameters
-    DsaKeyParameters(Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters_ = {}) noexcept : parameters{parameters_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters

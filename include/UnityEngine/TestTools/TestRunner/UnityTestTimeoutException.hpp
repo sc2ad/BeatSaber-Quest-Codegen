@@ -27,8 +27,6 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTestTimeoutException : public NUnit::Framework::ResultStateException {
     public:
-    // Creating value type constructor for type: UnityTestTimeoutException
-    UnityTestTimeoutException() noexcept {}
     // public System.Void .ctor(System.Int32 timeout)
     // Offset: 0x260A600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

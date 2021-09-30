@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     ::Il2CppString* msg;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_ScriptCallbackExample
-    HEU_ScriptCallbackExample(::Il2CppString* msg_ = {}) noexcept : msg{msg_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _msg

@@ -69,8 +69,6 @@ namespace System::Runtime::Serialization {
     bool m_current;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SerializationInfoEnumerator
-    SerializationInfoEnumerator(::ArrayWrapper<::Il2CppString*> m_members_ = {}, ::ArrayWrapper<::Il2CppObject*> m_data_ = {}, ::ArrayWrapper<System::Type*> m_types_ = {}, int m_numItems_ = {}, int m_currItem_ = {}, bool m_current_ = {}) noexcept : m_members{m_members_}, m_data{m_data_}, m_types{m_types_}, m_numItems{m_numItems_}, m_currItem{m_currItem_}, m_current{m_current_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

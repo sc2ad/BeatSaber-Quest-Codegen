@@ -35,8 +35,6 @@ namespace System::Net::NetworkInformation {
     uint ifa_flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: MacOsNetworkInterface
-    MacOsNetworkInterface(uint ifa_flags_ = {}) noexcept : ifa_flags{ifa_flags_} {}
     // Creating conversion operator: operator uint
     constexpr operator uint() const noexcept {
       return ifa_flags;

@@ -39,8 +39,6 @@ namespace System::ComponentModel {
     System::Type* type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: EnumConverter
-    EnumConverter(System::ComponentModel::TypeConverter::StandardValuesCollection* values_ = {}, System::Type* type_ = {}) noexcept : values{values_}, type{type_} {}
     // Get instance field reference: private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     System::ComponentModel::TypeConverter::StandardValuesCollection*& dyn_values();
     // Get instance field reference: private System.Type type

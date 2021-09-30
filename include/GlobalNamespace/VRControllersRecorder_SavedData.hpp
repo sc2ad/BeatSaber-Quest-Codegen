@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*> keyframes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>) == 0x8);
-    // Creating value type constructor for type: SavedData
-    SavedData(::ArrayWrapper<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*> keyframes_ = {}) noexcept : keyframes{keyframes_} {}
     // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>
     constexpr operator ::ArrayWrapper<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>() const noexcept {
       return keyframes;

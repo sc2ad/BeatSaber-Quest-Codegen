@@ -33,8 +33,6 @@ namespace UnityEngine {
     float max;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: RangeAttribute
-    RangeAttribute(float min_ = {}, float max_ = {}) noexcept : min{min_}, max{max_} {}
     // Get instance field reference: public readonly System.Single min
     float& dyn_min();
     // Get instance field reference: public readonly System.Single max

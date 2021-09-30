@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerObservable
-    MultiplayerConnectedPlayerObservable(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : connectedPlayer{connectedPlayer_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerObservable
     operator GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);

@@ -57,8 +57,6 @@ namespace UnityEngine::Bindings {
     bool HasExplicitThis;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NativeMethodAttribute
-    NativeMethodAttribute(::Il2CppString* Name_ = {}, bool IsThreadSafe_ = {}, bool IsFreeFunction_ = {}, bool ThrowsException_ = {}, bool HasExplicitThis_ = {}) noexcept : Name{Name_}, IsThreadSafe{IsThreadSafe_}, IsFreeFunction{IsFreeFunction_}, ThrowsException{ThrowsException_}, HasExplicitThis{HasExplicitThis_} {}
     // Get instance field reference: private System.String <Name>k__BackingField
     ::Il2CppString*& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.Boolean <IsThreadSafe>k__BackingField

@@ -49,8 +49,6 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: Gost3410PublicKeyAlgParameters
-    Gost3410PublicKeyAlgParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet_ = {}) noexcept : publicKeyParamSet{publicKeyParamSet_}, digestParamSet{digestParamSet_}, encryptionParamSet{encryptionParamSet_} {}
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet

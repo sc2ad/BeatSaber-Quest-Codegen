@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     bool spawnCenterDistanceFound;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerLocalActiveCenterRingLightsController
-    MultiplayerLocalActiveCenterRingLightsController(::ArrayWrapper<float> verticalLinePositions_ = {}, ::ArrayWrapper<UnityEngine::Transform*> horizontalLines_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, bool edgeDistanceFromCenterCalculated_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : verticalLinePositions{verticalLinePositions_}, horizontalLines{horizontalLines_}, centerResizeController{centerResizeController_}, layoutProvider{layoutProvider_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, edgeDistanceFromCenterCalculated{edgeDistanceFromCenterCalculated_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single[] _verticalLinePositions

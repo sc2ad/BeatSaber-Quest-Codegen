@@ -23,8 +23,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UriHelper
-    UriHelper() noexcept {}
     // Get static field: static private readonly System.Char[] HexUpperChars
     static ::ArrayWrapper<::Il2CppChar> _get_HexUpperChars();
     // Set static field: static private readonly System.Char[] HexUpperChars

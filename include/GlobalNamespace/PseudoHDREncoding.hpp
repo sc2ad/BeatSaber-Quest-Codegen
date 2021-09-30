@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PseudoHDREncoding : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PseudoHDREncoding
-    PseudoHDREncoding() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13C2C
     // static field const value: static private System.String kPseudoHDREncodingShaderName
     static constexpr const char* kPseudoHDREncodingShaderName = "Hidden/PseudoHDREncoding";

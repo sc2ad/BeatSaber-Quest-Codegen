@@ -45,8 +45,6 @@ namespace System::Threading {
     System::Random* random;
     // Field size check
     static_assert(sizeof(System::Random*) == 0x8);
-    // Creating value type constructor for type: ThreadPoolWorkQueueThreadLocals
-    ThreadPoolWorkQueueThreadLocals(System::Threading::ThreadPoolWorkQueue* workQueue_ = {}, System::Threading::ThreadPoolWorkQueue::WorkStealingQueue* workStealingQueue_ = {}, System::Random* random_ = {}) noexcept : workQueue{workQueue_}, workStealingQueue{workStealingQueue_}, random{random_} {}
     // Get static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
     static System::Threading::ThreadPoolWorkQueueThreadLocals* _get_threadLocals();
     // Set static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals

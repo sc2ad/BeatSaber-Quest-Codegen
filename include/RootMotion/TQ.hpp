@@ -34,8 +34,6 @@ namespace RootMotion {
     UnityEngine::Quaternion q;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: TQ
-    TQ(UnityEngine::Vector3 t_ = {}, UnityEngine::Quaternion q_ = {}) noexcept : t{t_}, q{q_} {}
     // Get instance field reference: public UnityEngine.Vector3 t
     UnityEngine::Vector3& dyn_t();
     // Get instance field reference: public UnityEngine.Quaternion q

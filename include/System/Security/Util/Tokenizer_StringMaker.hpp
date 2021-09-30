@@ -63,8 +63,6 @@ namespace System::Security::Util {
     int outIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StringMaker
-    StringMaker(::ArrayWrapper<::Il2CppString*> aStrings_ = {}, uint cStringsMax_ = {}, uint cStringsUsed_ = {}, System::Text::StringBuilder* outStringBuilder_ = {}, ::ArrayWrapper<::Il2CppChar> outChars_ = {}, int outIndex_ = {}) noexcept : aStrings{aStrings_}, cStringsMax{cStringsMax_}, cStringsUsed{cStringsUsed_}, outStringBuilder{outStringBuilder_}, outChars{outChars_}, outIndex{outIndex_} {}
     // Get instance field reference: private System.String[] aStrings
     ::ArrayWrapper<::Il2CppString*>& dyn_aStrings();
     // Get instance field reference: private System.UInt32 cStringsMax

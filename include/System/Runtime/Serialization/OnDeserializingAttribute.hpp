@@ -22,8 +22,6 @@ namespace System::Runtime::Serialization {
   // [AttributeUsageAttribute] Offset: E5F848
   class OnDeserializingAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: OnDeserializingAttribute
-    OnDeserializingAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1914C90
     // Implemented from: System.Attribute

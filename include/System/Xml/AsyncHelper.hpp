@@ -25,8 +25,6 @@ namespace System::Xml {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class AsyncHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AsyncHelper
-    AsyncHelper() noexcept {}
     // Get static field: static public readonly System.Threading.Tasks.Task DoneTask
     static System::Threading::Tasks::Task* _get_DoneTask();
     // Set static field: static public readonly System.Threading.Tasks.Task DoneTask

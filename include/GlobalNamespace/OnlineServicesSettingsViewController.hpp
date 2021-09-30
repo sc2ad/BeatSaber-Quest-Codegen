@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
-    // Creating value type constructor for type: OnlineServicesSettingsViewController
-    OnlineServicesSettingsViewController(GlobalNamespace::BoolSO* onlineServicesEnabled_ = {}, UnityEngine::UI::Toggle* enableOnlineServicesToggle_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : onlineServicesEnabled{onlineServicesEnabled_}, enableOnlineServicesToggle{enableOnlineServicesToggle_}, toggleBinder{toggleBinder_} {}
     // Get instance field reference: private BoolSO _onlineServicesEnabled
     GlobalNamespace::BoolSO*& dyn__onlineServicesEnabled();
     // Get instance field reference: private UnityEngine.UI.Toggle _enableOnlineServicesToggle

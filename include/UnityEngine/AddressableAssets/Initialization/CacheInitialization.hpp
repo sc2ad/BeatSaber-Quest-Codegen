@@ -40,8 +40,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
     class CacheInitOp;
     // Nested type: UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // Creating value type constructor for type: CacheInitialization
-    CacheInitialization() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::Util::IInitializableObject
     operator UnityEngine::ResourceManagement::Util::IInitializableObject() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);

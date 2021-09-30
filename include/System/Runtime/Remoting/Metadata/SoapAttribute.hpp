@@ -41,8 +41,6 @@ namespace System::Runtime::Remoting::Metadata {
     ::Il2CppObject* ReflectInfo;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: SoapAttribute
-    SoapAttribute(bool useAttribute_ = {}, ::Il2CppString* ProtXmlNamespace_ = {}, ::Il2CppObject* ReflectInfo_ = {}) noexcept : useAttribute{useAttribute_}, ProtXmlNamespace{ProtXmlNamespace_}, ReflectInfo{ReflectInfo_} {}
     // Get instance field reference: private System.Boolean _useAttribute
     bool& dyn__useAttribute();
     // Get instance field reference: protected System.String ProtXmlNamespace

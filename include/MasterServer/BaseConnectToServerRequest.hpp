@@ -62,8 +62,6 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* publicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
-    // Creating value type constructor for type: BaseConnectToServerRequest
-    BaseConnectToServerRequest(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, GlobalNamespace::ByteArrayNetSerializable* random_ = {}, GlobalNamespace::ByteArrayNetSerializable* publicKey_ = {}) noexcept : userId{userId_}, userName{userName_}, random{random_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator MasterServer::IUserClientToServerMessage
     operator MasterServer::IUserClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);

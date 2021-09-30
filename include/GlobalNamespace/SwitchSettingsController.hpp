@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     bool on;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SwitchSettingsController
-    SwitchSettingsController(UnityEngine::UI::Toggle* toggle_ = {}, bool on_ = {}) noexcept : toggle{toggle_}, on{on_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle

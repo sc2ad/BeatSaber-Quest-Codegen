@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // Creating value type constructor for type: StandardLevelRestartController
-    StandardLevelRestartController(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}) noexcept : standardLevelSceneSetupData{standardLevelSceneSetupData_}, prepareLevelCompletionResults{prepareLevelCompletionResults_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelRestartController
     operator GlobalNamespace::ILevelRestartController() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelRestartController*>(this);

@@ -58,8 +58,6 @@ namespace HMUI {
     float moveOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(::ArrayWrapper<float> startPositions_ = {}, HMUI::NavigationController* $$4__this_ = {}, ::ArrayWrapper<float> endPositions_ = {}, float moveOffset_ = {}) noexcept : startPositions{startPositions_}, $$4__this{$$4__this_}, endPositions{endPositions_}, moveOffset{moveOffset_} {}
     // Get instance field reference: public System.Single[] startPositions
     ::ArrayWrapper<float>& dyn_startPositions();
     // Get instance field reference: public HMUI.NavigationController <>4__this

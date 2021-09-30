@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDataLoader* beatmapDataLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDataLoader*) == 0x8);
-    // Creating value type constructor for type: BeatmapDataSO
-    BeatmapDataSO(::Il2CppString* jsonData_ = {}, GlobalNamespace::BeatmapData* beatmapData_ = {}, float beatsPerMinute_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, bool hasRequiredDataForLoad_ = {}, GlobalNamespace::BeatmapDataLoader* beatmapDataLoader_ = {}) noexcept : jsonData{jsonData_}, beatmapData{beatmapData_}, beatsPerMinute{beatsPerMinute_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, hasRequiredDataForLoad{hasRequiredDataForLoad_}, beatmapDataLoader{beatmapDataLoader_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _jsonData

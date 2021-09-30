@@ -99,8 +99,6 @@ namespace System {
     ::Il2CppString* display_fullname;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeSpec
-    TypeSpec(System::TypeIdentifier* name_ = {}, ::Il2CppString* assembly_name_ = {}, System::Collections::Generic::List_1<System::TypeIdentifier*>* nested_ = {}, System::Collections::Generic::List_1<System::TypeSpec*>* generic_params_ = {}, System::Collections::Generic::List_1<System::ModifierSpec*>* modifier_spec_ = {}, bool is_byref_ = {}, ::Il2CppString* display_fullname_ = {}) noexcept : name{name_}, assembly_name{assembly_name_}, nested{nested_}, generic_params{generic_params_}, modifier_spec{modifier_spec_}, is_byref{is_byref_}, display_fullname{display_fullname_} {}
     // Get instance field reference: private System.TypeIdentifier name
     System::TypeIdentifier*& dyn_name();
     // Get instance field reference: private System.String assembly_name

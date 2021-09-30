@@ -47,8 +47,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_0
-    $$c__DisplayClass6_0(Zenject::PrefabResourceBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}) noexcept : $$4__this{$$4__this_}, container{container_} {}
     // Get instance field reference: public Zenject.PrefabResourceBindingFinalizer <>4__this
     Zenject::PrefabResourceBindingFinalizer*& dyn_$$4__this();
     // Get instance field reference: public Zenject.DiContainer container

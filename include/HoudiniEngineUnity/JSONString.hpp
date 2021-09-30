@@ -40,8 +40,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* m_Data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: JSONString
-    JSONString(::Il2CppString* m_Data_ = {}) noexcept : m_Data{m_Data_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_Data;

@@ -54,7 +54,6 @@ namespace System::Threading {
     int& dyn_m_currArrayIndex();
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
     // Offset: 0x1A54BB4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex)
   }; // System.Threading.CancellationCallbackCoreWorkArguments
   #pragma pack(pop)

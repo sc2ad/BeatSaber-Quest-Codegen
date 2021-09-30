@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsBestGraphicsValues : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MainSettingsBestGraphicsValues
-    MainSettingsBestGraphicsValues() noexcept {}
     // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
     // Offset: 0x12638EC
     static void ApplyValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);

@@ -28,8 +28,6 @@ namespace System::Reflection {
     ::Il2CppString* m_informationalVersion;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssemblyInformationalVersionAttribute
-    AssemblyInformationalVersionAttribute(::Il2CppString* m_informationalVersion_ = {}) noexcept : m_informationalVersion{m_informationalVersion_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_informationalVersion;

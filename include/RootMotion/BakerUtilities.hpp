@@ -25,8 +25,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BakerUtilities
-    BakerUtilities() noexcept {}
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
     // Offset: 0x1EB4F54
     static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);

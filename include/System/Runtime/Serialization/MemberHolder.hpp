@@ -39,8 +39,6 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
-    // Creating value type constructor for type: MemberHolder
-    MemberHolder(System::Type* memberType_ = {}, System::Runtime::Serialization::StreamingContext context_ = {}) noexcept : memberType{memberType_}, context{context_} {}
     // Get instance field reference: System.Type memberType
     System::Type*& dyn_memberType();
     // Get instance field reference: System.Runtime.Serialization.StreamingContext context

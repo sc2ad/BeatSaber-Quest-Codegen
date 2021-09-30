@@ -53,8 +53,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     Org::BouncyCastle::Math::EC::ECPoint* m_point;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
-    // Creating value type constructor for type: MapPointCallback
-    MapPointCallback(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism_ = {}, Org::BouncyCastle::Math::EC::ECPoint* m_point_ = {}) noexcept : m_endomorphism{m_endomorphism_}, m_point{m_point_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

@@ -45,8 +45,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<HMUI::TableCell*>* cells;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*) == 0x8);
-    // Creating value type constructor for type: CellsGroup
-    CellsGroup(::Il2CppString* reuseIdentifier_ = {}, System::Collections::Generic::List_1<HMUI::TableCell*>* cells_ = {}) noexcept : reuseIdentifier{reuseIdentifier_}, cells{cells_} {}
     // Get instance field reference: private System.String _reuseIdentifier
     ::Il2CppString*& dyn__reuseIdentifier();
     // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells

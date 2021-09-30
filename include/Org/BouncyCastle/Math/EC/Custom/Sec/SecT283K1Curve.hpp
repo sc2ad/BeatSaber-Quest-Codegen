@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     Org::BouncyCastle::Math::EC::Custom::Sec::SecT283K1Point* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT283K1Point*) == 0x8);
-    // Creating value type constructor for type: SecT283K1Curve
-    SecT283K1Curve(Org::BouncyCastle::Math::EC::Custom::Sec::SecT283K1Point* m_infinity_ = {}) noexcept : m_infinity{m_infinity_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>
     constexpr operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>() const noexcept = delete;
     // Get static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] SECT283K1_AFFINE_ZS

@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate
     class CreateSessionFromTypeDelegate;
-    // Creating value type constructor for type: HEU_SessionManager
-    HEU_SessionManager() noexcept {}
     // Get static field: static private HoudiniEngineUnity.HEU_SessionBase _defaultSession
     static HoudiniEngineUnity::HEU_SessionBase* _get__defaultSession();
     // Set static field: static private HoudiniEngineUnity.HEU_SessionBase _defaultSession

@@ -50,8 +50,6 @@ namespace Org::BouncyCastle::Asn1::Anssi {
     public:
     // Nested type: Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder
     class Frp256v1Holder;
-    // Creating value type constructor for type: AnssiNamedCurves
-    AnssiNamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds

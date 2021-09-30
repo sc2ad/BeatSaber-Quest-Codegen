@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
-    // Creating value type constructor for type: NoteMissInfoNetSerializable
-    NoteMissInfoNetSerializable(GlobalNamespace::ColorType colorType_ = {}, float noteTime_ = {}, int noteLineIndex_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}) noexcept : colorType{colorType_}, noteTime{noteTime_}, noteLineIndex{noteLineIndex_}, noteLineLayer{noteLineLayer_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

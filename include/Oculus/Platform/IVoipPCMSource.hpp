@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class IVoipPCMSource {
     public:
-    // Creating value type constructor for type: IVoipPCMSource
-    IVoipPCMSource() noexcept {}
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
     // Offset: 0xFFFFFFFF
     int GetPCM(::ArrayWrapper<float> dest, int length);

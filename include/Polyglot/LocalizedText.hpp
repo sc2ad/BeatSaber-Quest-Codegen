@@ -37,8 +37,6 @@ namespace Polyglot {
   // [RequireComponent] Offset: EE4DD0
   class LocalizedText : public Polyglot::LocalizedTextComponent_1<UnityEngine::UI::Text*> {
     public:
-    // Creating value type constructor for type: LocalizedText
-    LocalizedText() noexcept {}
     // protected System.Void SetText(UnityEngine.UI.Text text, System.String value)
     // Offset: 0x2584B24
     void SetText(UnityEngine::UI::Text* text, ::Il2CppString* value);

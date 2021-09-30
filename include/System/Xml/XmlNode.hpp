@@ -16,8 +16,6 @@ namespace System::Xml {
   // [DefaultMemberAttribute] Offset: E687A4
   class XmlNode : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: XmlNode
-    XmlNode() noexcept {}
   }; // System.Xml.XmlNode
   #pragma pack(pop)
 }

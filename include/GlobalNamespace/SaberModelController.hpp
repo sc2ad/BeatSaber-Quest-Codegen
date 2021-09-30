@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // Creating value type constructor for type: SaberModelController
-    SaberModelController(GlobalNamespace::SaberTrail* saberTrail_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*> setSaberGlowColors_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors_ = {}, GlobalNamespace::TubeBloomPrePassLight* saberLight_ = {}, GlobalNamespace::SaberModelController::InitData* initData_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saberTrail{saberTrail_}, setSaberGlowColors{setSaberGlowColors_}, setSaberFakeGlowColors{setSaberFakeGlowColors_}, saberLight{saberLight_}, initData{initData_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTrail _saberTrail

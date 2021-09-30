@@ -92,8 +92,6 @@ namespace System::Runtime::InteropServices {
     int16_t SizeParamIndex;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
-    // Creating value type constructor for type: MarshalAsAttribute
-    MarshalAsAttribute(::Il2CppString* MarshalCookie_ = {}, ::Il2CppString* MarshalType_ = {}, System::Type* MarshalTypeRef_ = {}, System::Type* SafeArrayUserDefinedSubType_ = {}, System::Runtime::InteropServices::UnmanagedType utype_ = {}, System::Runtime::InteropServices::UnmanagedType ArraySubType_ = {}, System::Runtime::InteropServices::VarEnum SafeArraySubType_ = {}, int SizeConst_ = {}, int IidParameterIndex_ = {}, int16_t SizeParamIndex_ = {}) noexcept : MarshalCookie{MarshalCookie_}, MarshalType{MarshalType_}, MarshalTypeRef{MarshalTypeRef_}, SafeArrayUserDefinedSubType{SafeArrayUserDefinedSubType_}, utype{utype_}, ArraySubType{ArraySubType_}, SafeArraySubType{SafeArraySubType_}, SizeConst{SizeConst_}, IidParameterIndex{IidParameterIndex_}, SizeParamIndex{SizeParamIndex_} {}
     // Get instance field reference: public System.String MarshalCookie
     ::Il2CppString*& dyn_MarshalCookie();
     // Get instance field reference: public System.String MarshalType

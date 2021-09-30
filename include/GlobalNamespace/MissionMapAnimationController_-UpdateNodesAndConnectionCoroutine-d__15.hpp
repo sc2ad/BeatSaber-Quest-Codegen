@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     int $$7__wrap3;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $UpdateNodesAndConnectionCoroutine$d__15
-    $UpdateNodesAndConnectionCoroutine$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MissionMapAnimationController* $$4__this_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $newEnabledConnection$5__2_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $$7__wrap2_ = {}, int $$7__wrap3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $newEnabledConnection$5__2{$newEnabledConnection$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

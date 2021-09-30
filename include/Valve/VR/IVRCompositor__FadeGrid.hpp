@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5AD8
   class IVRCompositor::_FadeGrid : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _FadeGrid
-    _FadeGrid() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AAEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

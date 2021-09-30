@@ -38,8 +38,6 @@ namespace UnityEngine {
   // [NativeConditionalAttribute] Offset: E9B0D8
   class AndroidJNIHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AndroidJNIHelper
-    AndroidJNIHelper() noexcept {}
     // static public System.Boolean get_debug()
     // Offset: 0x25A74E0
     static bool get_debug();

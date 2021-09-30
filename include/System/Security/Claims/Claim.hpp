@@ -93,8 +93,6 @@ namespace System::Security::Claims {
     System::Security::Claims::ClaimsIdentity* m_subject;
     // Field size check
     static_assert(sizeof(System::Security::Claims::ClaimsIdentity*) == 0x8);
-    // Creating value type constructor for type: Claim
-    Claim(::Il2CppString* m_issuer_ = {}, ::Il2CppString* m_originalIssuer_ = {}, ::Il2CppString* m_type_ = {}, ::Il2CppString* m_value_ = {}, ::Il2CppString* m_valueType_ = {}, ::ArrayWrapper<uint8_t> m_userSerializationData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* m_properties_ = {}, ::Il2CppObject* m_propertyLock_ = {}, System::Security::Claims::ClaimsIdentity* m_subject_ = {}) noexcept : m_issuer{m_issuer_}, m_originalIssuer{m_originalIssuer_}, m_type{m_type_}, m_value{m_value_}, m_valueType{m_valueType_}, m_userSerializationData{m_userSerializationData_}, m_properties{m_properties_}, m_propertyLock{m_propertyLock_}, m_subject{m_subject_} {}
     // Get instance field reference: private System.String m_issuer
     ::Il2CppString*& dyn_m_issuer();
     // Get instance field reference: private System.String m_originalIssuer

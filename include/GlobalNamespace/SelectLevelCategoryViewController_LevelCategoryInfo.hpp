@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* categoryIcon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: LevelCategoryInfo
-    LevelCategoryInfo(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory_ = {}, ::Il2CppString* localizedKey_ = {}, UnityEngine::Sprite* categoryIcon_ = {}) noexcept : levelCategory{levelCategory_}, localizedKey{localizedKey_}, categoryIcon{categoryIcon_} {}
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory levelCategory
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
     // Get instance field reference: public System.String localizedKey

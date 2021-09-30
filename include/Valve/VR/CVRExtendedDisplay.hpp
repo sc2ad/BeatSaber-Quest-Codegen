@@ -35,8 +35,6 @@ namespace Valve::VR {
     Valve::VR::IVRExtendedDisplay FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRExtendedDisplay) == 0x18);
-    // Creating value type constructor for type: CVRExtendedDisplay
-    CVRExtendedDisplay(Valve::VR::IVRExtendedDisplay FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRExtendedDisplay
     constexpr operator Valve::VR::IVRExtendedDisplay() const noexcept {
       return FnTable;

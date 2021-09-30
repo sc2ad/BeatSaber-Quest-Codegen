@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GridView::IDataSource {
     public:
-    // Creating value type constructor for type: IDataSource
-    IDataSource() noexcept {}
     // public System.Int32 GetNumberOfCells()
     // Offset: 0xFFFFFFFF
     int GetNumberOfCells();

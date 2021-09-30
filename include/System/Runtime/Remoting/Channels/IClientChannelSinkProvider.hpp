@@ -14,8 +14,6 @@ namespace System::Runtime::Remoting::Channels {
   // [ComVisibleAttribute] Offset: E5FE20
   class IClientChannelSinkProvider {
     public:
-    // Creating value type constructor for type: IClientChannelSinkProvider
-    IClientChannelSinkProvider() noexcept {}
     // public System.Void set_Next(System.Runtime.Remoting.Channels.IClientChannelSinkProvider value)
     // Offset: 0xFFFFFFFF
     void set_Next(System::Runtime::Remoting::Channels::IClientChannelSinkProvider* value);

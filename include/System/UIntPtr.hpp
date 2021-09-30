@@ -69,7 +69,6 @@ namespace System {
     static int get_Size();
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x2535438
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     UIntPtr(uint64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -77,7 +76,6 @@ namespace System {
     }
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0x25354B8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     UIntPtr(uint value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));

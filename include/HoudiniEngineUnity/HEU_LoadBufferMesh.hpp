@@ -77,8 +77,6 @@ namespace HoudiniEngineUnity {
     bool bPartInstanced;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_LoadBufferMesh
-    HEU_LoadBufferMesh(HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoGroup*>* LODGroupMeshes_ = {}, int defaultMaterialKey_ = {}, bool bGenerateUVs_ = {}, bool bGenerateTangents_ = {}, bool bGenerateNormals_ = {}, bool bPartInstanced_ = {}) noexcept : geoCache{geoCache_}, LODGroupMeshes{LODGroupMeshes_}, defaultMaterialKey{defaultMaterialKey_}, bGenerateUVs{bGenerateUVs_}, bGenerateTangents{bGenerateTangents_}, bGenerateNormals{bGenerateNormals_}, bPartInstanced{bPartInstanced_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateGeoCache _geoCache
     HoudiniEngineUnity::HEU_GenerateGeoCache*& dyn__geoCache();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> _LODGroupMeshes

@@ -34,8 +34,6 @@ namespace Zenject {
     System::IDisposable* disposable;
     // Field size check
     static_assert(sizeof(System::IDisposable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(System::IDisposable* disposable_ = {}) noexcept : disposable{disposable_} {}
     // Creating conversion operator: operator System::IDisposable*
     constexpr operator System::IDisposable*() const noexcept {
       return disposable;

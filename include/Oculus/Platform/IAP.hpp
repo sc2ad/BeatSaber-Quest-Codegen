@@ -33,8 +33,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAP : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IAP
-    IAP() noexcept {}
     // static public Oculus.Platform.Request ConsumePurchase(System.String sku)
     // Offset: 0x16ACCB0
     static Oculus::Platform::Request* ConsumePurchase(::Il2CppString* sku);

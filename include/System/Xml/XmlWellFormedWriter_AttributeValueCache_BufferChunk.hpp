@@ -38,8 +38,6 @@ namespace System::Xml {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BufferChunk
-    BufferChunk(::ArrayWrapper<::Il2CppChar> buffer_ = {}, int index_ = {}, int count_ = {}) noexcept : buffer{buffer_}, index{index_}, count{count_} {}
     // Get instance field reference: System.Char[] buffer
     ::ArrayWrapper<::Il2CppChar>& dyn_buffer();
     // Get instance field reference: System.Int32 index

@@ -27,8 +27,6 @@ namespace UnityEngine::Audio {
   // [ExcludeFromObjectFactoryAttribute] Offset: FFFFFFFF
   class AudioMixer : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: AudioMixer
-    AudioMixer() noexcept {}
     // public System.Void set_updateMode(UnityEngine.Audio.AudioMixerUpdateMode value)
     // Offset: 0x2606824
     void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value);

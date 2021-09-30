@@ -42,8 +42,6 @@ namespace UnityEngine {
     int priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ContextMenu
-    ContextMenu(::Il2CppString* menuItem_ = {}, bool validate_ = {}, int priority_ = {}) noexcept : menuItem{menuItem_}, validate{validate_}, priority{priority_} {}
     // Get instance field reference: public readonly System.String menuItem
     ::Il2CppString*& dyn_menuItem();
     // Get instance field reference: public readonly System.Boolean validate

@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     bool selectedAndHighlightedState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EnabledTransitionSO
-    EnabledTransitionSO(bool normalState_ = {}, bool highlightedState_ = {}, bool pressedState_ = {}, bool disabledState_ = {}, bool selectedState_ = {}, bool selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
     // Get instance field reference: private System.Boolean _normalState
     bool& dyn__normalState();
     // Get instance field reference: private System.Boolean _highlightedState

@@ -31,8 +31,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::Callback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Callback
-    Callback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1776328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

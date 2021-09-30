@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* resetButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // Creating value type constructor for type: RoomAdjustSettingsViewController
-    RoomAdjustSettingsViewController(GlobalNamespace::Vector3SO* roomCenter_ = {}, GlobalNamespace::FloatSO* roomRotation_ = {}, GlobalNamespace::StepValuePicker* xStepValuePicker_ = {}, GlobalNamespace::StepValuePicker* yStepValuePicker_ = {}, GlobalNamespace::StepValuePicker* zStepValuePicker_ = {}, GlobalNamespace::StepValuePicker* rotStepValuePicker_ = {}, UnityEngine::UI::Button* resetButton_ = {}) noexcept : roomCenter{roomCenter_}, roomRotation{roomRotation_}, xStepValuePicker{xStepValuePicker_}, yStepValuePicker{yStepValuePicker_}, zStepValuePicker{zStepValuePicker_}, rotStepValuePicker{rotStepValuePicker_}, resetButton{resetButton_} {}
     // static field const value: static private System.Single kHorizontalMoveStep
     static constexpr const float kHorizontalMoveStep = 0.1;
     // Get static field: static private System.Single kHorizontalMoveStep

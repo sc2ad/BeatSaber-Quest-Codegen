@@ -28,8 +28,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::TreeInstance self;
     // Field size check
     static_assert(sizeof(UnityEngine::TreeInstance) == 0x28);
-    // Creating value type constructor for type: Test_TreeInstance
-    Test_TreeInstance(UnityEngine::TreeInstance self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>*>(this);

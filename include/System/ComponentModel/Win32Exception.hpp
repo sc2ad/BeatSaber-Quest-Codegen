@@ -39,8 +39,6 @@ namespace System::ComponentModel {
     int nativeErrorCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Win32Exception
-    Win32Exception(int nativeErrorCode_ = {}) noexcept : nativeErrorCode{nativeErrorCode_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return nativeErrorCode;

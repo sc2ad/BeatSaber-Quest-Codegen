@@ -17,8 +17,6 @@ namespace System {
   template<typename T>
   class IEquatable_1 {
     public:
-    // Creating value type constructor for type: IEquatable_1
-    IEquatable_1() noexcept {}
     // public System.Boolean Equals(T other)
     // Offset: 0xFFFFFFFF
     bool Equals(T other) {

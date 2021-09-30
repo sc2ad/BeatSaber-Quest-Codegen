@@ -31,8 +31,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class SByteEnumEqualityComparer_1 : public System::Collections::Generic::EnumEqualityComparer_1<T> {
     public:
-    // Creating value type constructor for type: SByteEnumEqualityComparer_1
-    SByteEnumEqualityComparer_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1

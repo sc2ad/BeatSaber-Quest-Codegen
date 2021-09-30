@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* achievementsIds;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>*) == 0x8);
-    // Creating value type constructor for type: AchievementIdsModelSO
-    AchievementIdsModelSO(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* achievementsIds_ = {}) noexcept : achievementsIds{achievementsIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds

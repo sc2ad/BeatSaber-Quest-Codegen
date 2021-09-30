@@ -16,8 +16,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerOutputStream : public Org::BouncyCastle::Asn1::DerOutputStream {
     public:
-    // Creating value type constructor for type: BerOutputStream
-    BerOutputStream() noexcept {}
   }; // Org.BouncyCastle.Asn1.BerOutputStream
   #pragma pack(pop)
 }

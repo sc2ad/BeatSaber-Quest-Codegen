@@ -108,8 +108,6 @@ namespace Mono::Security::X509 {
     ::ArrayWrapper<uint8_t> hash_value;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: X509Crl
-    X509Crl(::Il2CppString* issuer_ = {}, uint8_t version_ = {}, System::DateTime thisUpdate_ = {}, System::DateTime nextUpdate_ = {}, System::Collections::ArrayList* entries_ = {}, ::Il2CppString* signatureOID_ = {}, ::ArrayWrapper<uint8_t> signature_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}, ::ArrayWrapper<uint8_t> encoded_ = {}, ::ArrayWrapper<uint8_t> hash_value_ = {}) noexcept : issuer{issuer_}, version{version_}, thisUpdate{thisUpdate_}, nextUpdate{nextUpdate_}, entries{entries_}, signatureOID{signatureOID_}, signature{signature_}, extensions{extensions_}, encoded{encoded_}, hash_value{hash_value_} {}
     // Get instance field reference: private System.String issuer
     ::Il2CppString*& dyn_issuer();
     // Get instance field reference: private System.Byte version

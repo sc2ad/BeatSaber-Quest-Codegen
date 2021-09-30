@@ -37,8 +37,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E9B1F8
   class _AndroidJNIHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: _AndroidJNIHelper
-    _AndroidJNIHelper() noexcept {}
     // static public System.IntPtr CreateJavaProxy(System.IntPtr delegateHandle, UnityEngine.AndroidJavaProxy proxy)
     // Offset: 0x25A7E14
     static System::IntPtr CreateJavaProxy(System::IntPtr delegateHandle, UnityEngine::AndroidJavaProxy* proxy);

@@ -40,8 +40,6 @@ namespace System::Security::Principal {
     ::ArrayWrapper<::Il2CppString*> m_roles;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: GenericPrincipal
-    GenericPrincipal(System::Security::Principal::IIdentity* m_identity_ = {}, ::ArrayWrapper<::Il2CppString*> m_roles_ = {}) noexcept : m_identity{m_identity_}, m_roles{m_roles_} {}
     // Get instance field reference: private System.Security.Principal.IIdentity m_identity
     System::Security::Principal::IIdentity*& dyn_m_identity();
     // Get instance field reference: private System.String[] m_roles

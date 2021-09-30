@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Behaviour*> components;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Behaviour*>) == 0x8);
-    // Creating value type constructor for type: EnableOnVisible
-    EnableOnVisible(System::Action_1<bool>* VisibilityChangedEvent_ = {}, ::ArrayWrapper<UnityEngine::Behaviour*> components_ = {}) noexcept : VisibilityChangedEvent{VisibilityChangedEvent_}, components{components_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<System.Boolean> VisibilityChangedEvent

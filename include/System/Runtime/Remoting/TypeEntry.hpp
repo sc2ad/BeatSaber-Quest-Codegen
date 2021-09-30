@@ -31,8 +31,6 @@ namespace System::Runtime::Remoting {
     ::Il2CppString* type_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeEntry
-    TypeEntry(::Il2CppString* assembly_name_ = {}, ::Il2CppString* type_name_ = {}) noexcept : assembly_name{assembly_name_}, type_name{type_name_} {}
     // Get instance field reference: private System.String assembly_name
     ::Il2CppString*& dyn_assembly_name();
     // Get instance field reference: private System.String type_name

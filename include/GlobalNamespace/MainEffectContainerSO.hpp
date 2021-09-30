@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BoolSO* postProcessEnabled;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // Creating value type constructor for type: MainEffectContainerSO
-    MainEffectContainerSO(GlobalNamespace::MainEffectSO* mainEffect_ = {}, GlobalNamespace::BoolSO* postProcessEnabled_ = {}) noexcept : mainEffect{mainEffect_}, postProcessEnabled{postProcessEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainEffectSO _mainEffect

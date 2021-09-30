@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB60DC
   class IVROverlay::_GetOverlayMouseScale : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetOverlayMouseScale
-    _GetOverlayMouseScale() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B85C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

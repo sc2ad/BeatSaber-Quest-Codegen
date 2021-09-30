@@ -101,8 +101,6 @@ namespace GlobalNamespace {
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MissionNodesManager
-    MissionNodesManager(GlobalNamespace::MissionNode* rootMissionNode_ = {}, GlobalNamespace::MissionNode* finalMissionNode_ = {}, GlobalNamespace::MissionStagesManager* missionStagesManager_ = {}, UnityEngine::GameObject* connectionsParentObject_ = {}, UnityEngine::GameObject* missionNodesParentObject_ = {}, GlobalNamespace::CampaignProgressModel* missionProgressModel_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> allMissionNodeConnections_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNode*> allMissionNodes_ = {}, bool isInitialized_ = {}) noexcept : rootMissionNode{rootMissionNode_}, finalMissionNode{finalMissionNode_}, missionStagesManager{missionStagesManager_}, connectionsParentObject{connectionsParentObject_}, missionNodesParentObject{missionNodesParentObject_}, missionProgressModel{missionProgressModel_}, allMissionNodeConnections{allMissionNodeConnections_}, allMissionNodes{allMissionNodes_}, isInitialized{isInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNode _rootMissionNode

@@ -41,8 +41,6 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class SingleCallIdentity : public System::Runtime::Remoting::ServerIdentity {
     public:
-    // Creating value type constructor for type: SingleCallIdentity
-    SingleCallIdentity() noexcept {}
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
     // Offset: 0x17E1900
     // Implemented from: System.Runtime.Remoting.ServerIdentity

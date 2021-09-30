@@ -39,8 +39,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Mesh* m_Mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
-    // Creating value type constructor for type: MeshHandle
-    MeshHandle(UnityEngine::Transform* m_Transform_ = {}, UnityEngine::Mesh* m_Mesh_ = {}) noexcept : m_Transform{m_Transform_}, m_Mesh{m_Mesh_} {}
     // Get instance field reference: private UnityEngine.Transform m_Transform
     UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: private UnityEngine.Mesh m_Mesh

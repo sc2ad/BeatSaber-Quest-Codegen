@@ -50,8 +50,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions
     struct HEU_ReplacePrefabOptions;
-    // Creating value type constructor for type: HEU_EditorUtility
-    HEU_EditorUtility() noexcept {}
     // static public System.Void MarkSceneDirty()
     // Offset: 0x149778C
     static void MarkSceneDirty();

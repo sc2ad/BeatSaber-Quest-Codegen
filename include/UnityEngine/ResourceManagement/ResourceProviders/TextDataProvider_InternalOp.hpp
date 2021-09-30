@@ -75,8 +75,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_Complete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InternalOp
-    InternalOp(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider_ = {}, UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI_ = {}, bool m_IgnoreFailures_ = {}, bool m_Complete_ = {}) noexcept : m_Provider{m_Provider_}, m_RequestOperation{m_RequestOperation_}, m_RequestQueueOperation{m_RequestQueueOperation_}, m_PI{m_PI_}, m_IgnoreFailures{m_IgnoreFailures_}, m_Complete{m_Complete_} {}
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
     UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& dyn_m_Provider();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation

@@ -21,8 +21,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinHexEncoder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BinHexEncoder
-    BinHexEncoder() noexcept {}
     // static System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Xml.XmlWriter writer)
     // Offset: 0x1AF54C8
     static void Encode(::ArrayWrapper<uint8_t> buffer, int index, int count, System::Xml::XmlWriter* writer);

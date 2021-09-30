@@ -79,8 +79,6 @@ namespace NUnit::Framework::Internal::Commands {
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*) == 0x8);
-    // Creating value type constructor for type: OneTimeSetUpCommand
-    OneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Interfaces::ITypeInfo* typeInfo_ = {}, ::ArrayWrapper<::Il2CppObject*> arguments_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions_ = {}) noexcept : suite{suite_}, typeInfo{typeInfo_}, arguments{arguments_}, setUpTearDown{setUpTearDown_}, actions{actions_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite

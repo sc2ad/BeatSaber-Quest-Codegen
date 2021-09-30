@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class SystemClock : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemClock
-    SystemClock() noexcept {}
     // Get static field: static private readonly System.DateTime s_Epoch
     static System::DateTime _get_s_Epoch();
     // Set static field: static private readonly System.DateTime s_Epoch

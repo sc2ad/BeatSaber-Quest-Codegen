@@ -22,8 +22,6 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5BEB8
   class ContextStaticAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ContextStaticAttribute
-    ContextStaticAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B1980C
     // Implemented from: System.Attribute

@@ -67,7 +67,6 @@ namespace GlobalNamespace {
     UnityEngine::Color32& dyn__color();
     // public System.Void .ctor(UnityEngine.Color32 color)
     // Offset: 0x256F12C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Color32Serializable(UnityEngine::Color32 color)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x256F134

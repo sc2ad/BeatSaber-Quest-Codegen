@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller {
     public:
-    // Creating value type constructor for type: MultiplayerLevelNoTransitionInstaller
-    MultiplayerLevelNoTransitionInstaller() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x116B268
     // Implemented from: Zenject.NoTransitionInstaller

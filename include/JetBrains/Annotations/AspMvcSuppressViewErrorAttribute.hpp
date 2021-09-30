@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADAC0
   class AspMvcSuppressViewErrorAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMvcSuppressViewErrorAttribute
-    AspMvcSuppressViewErrorAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26102C4
     // Implemented from: System.Attribute

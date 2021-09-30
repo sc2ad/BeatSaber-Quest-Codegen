@@ -76,8 +76,6 @@ namespace ModestTree::Util {
     System::Collections::IEnumerator* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: $GetDirectChildrenAndSelf$d__20
-    $GetDirectChildrenAndSelf$d__20(int $$1__state_ = {}, UnityEngine::GameObject* $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::GameObject* obj_ = {}, UnityEngine::GameObject* $$3__obj_ = {}, System::Collections::IEnumerator* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, obj{obj_}, $$3__obj{$$3__obj_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*>(this);

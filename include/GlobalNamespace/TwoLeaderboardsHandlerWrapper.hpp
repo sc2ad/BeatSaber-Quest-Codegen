@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest* uploadScoreShadowAsyncRequest;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HMAsyncRequest*) == 0x8);
-    // Creating value type constructor for type: TwoLeaderboardsHandlerWrapper
-    TwoLeaderboardsHandlerWrapper(GlobalNamespace::PlatformLeaderboardsHandler* mainHandler_ = {}, GlobalNamespace::PlatformLeaderboardsHandler* shadowHandler_ = {}, GlobalNamespace::HMAsyncRequest* getScoresShadowAsyncRequest_ = {}, GlobalNamespace::HMAsyncRequest* uploadScoreShadowAsyncRequest_ = {}) noexcept : mainHandler{mainHandler_}, shadowHandler{shadowHandler_}, getScoresShadowAsyncRequest{getScoresShadowAsyncRequest_}, uploadScoreShadowAsyncRequest{uploadScoreShadowAsyncRequest_} {}
     // Get instance field reference: private PlatformLeaderboardsHandler _mainHandler
     GlobalNamespace::PlatformLeaderboardsHandler*& dyn__mainHandler();
     // Get instance field reference: private PlatformLeaderboardsHandler _shadowHandler

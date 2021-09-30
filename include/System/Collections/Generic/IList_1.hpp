@@ -21,8 +21,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class IList_1/*, public System::Collections::Generic::ICollection_1<T>*/ {
     public:
-    // Creating value type constructor for type: IList_1
-    IList_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<T>
     operator System::Collections::Generic::ICollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<T>*>(this);

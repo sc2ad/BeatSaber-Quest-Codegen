@@ -50,8 +50,6 @@ namespace UnityEngine::XR {
     System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
-    // Creating value type constructor for type: XRInputSubsystem
-    XRInputSubsystem(System::Action_1<UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated_ = {}, System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged_ = {}) noexcept : trackingOriginUpdated{trackingOriginUpdated_}, boundaryChanged{boundaryChanged_} {}
     // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
     System::Action_1<UnityEngine::XR::XRInputSubsystem*>*& dyn_trackingOriginUpdated();
     // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged

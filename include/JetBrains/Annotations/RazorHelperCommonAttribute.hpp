@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADE50
   class RazorHelperCommonAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: RazorHelperCommonAttribute
-    RazorHelperCommonAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26108B4
     // Implemented from: System.Attribute

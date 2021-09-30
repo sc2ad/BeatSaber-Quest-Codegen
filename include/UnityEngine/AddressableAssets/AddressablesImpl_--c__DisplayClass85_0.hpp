@@ -43,8 +43,6 @@ namespace UnityEngine::AddressableAssets {
     ::Il2CppObject* key;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass85_0
-    $$c__DisplayClass85_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppObject* key_ = {}) noexcept : $$4__this{$$4__this_}, key{key_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Object key

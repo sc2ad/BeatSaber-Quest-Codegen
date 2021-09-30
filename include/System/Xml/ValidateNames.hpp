@@ -16,8 +16,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidateNames : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ValidateNames
-    ValidateNames() noexcept {}
     // Get static field: static private System.Xml.XmlCharType xmlCharType
     static System::Xml::XmlCharType _get_xmlCharType();
     // Set static field: static private System.Xml.XmlCharType xmlCharType

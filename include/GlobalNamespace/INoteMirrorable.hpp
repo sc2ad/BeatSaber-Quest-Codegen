@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteMirrorable {
     public:
-    // Creating value type constructor for type: INoteMirrorable
-    INoteMirrorable() noexcept {}
     // public UnityEngine.Transform get_transform()
     // Offset: 0xFFFFFFFF
     UnityEngine::Transform* get_transform();

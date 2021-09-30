@@ -77,7 +77,6 @@ namespace Mono::Globalization::Unicode {
       int& dyn_IndexEnd();
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
       // Offset: 0x1C31C10
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       TableRange(int start, int end, int indexStart) {
         static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::TableRange::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(indexStart)})));
@@ -111,8 +110,6 @@ namespace Mono::Globalization::Unicode {
     int defaultCP;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CodePointIndexer
-    CodePointIndexer(::ArrayWrapper<Mono::Globalization::Unicode::CodePointIndexer::TableRange> ranges_ = {}, int TotalCount_ = {}, int defaultIndex_ = {}, int defaultCP_ = {}) noexcept : ranges{ranges_}, TotalCount{TotalCount_}, defaultIndex{defaultIndex_}, defaultCP{defaultCP_} {}
     // Get instance field reference: private readonly Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange[] ranges
     ::ArrayWrapper<Mono::Globalization::Unicode::CodePointIndexer::TableRange>& dyn_ranges();
     // Get instance field reference: public readonly System.Int32 TotalCount

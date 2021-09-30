@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E72A7C
   class SelectionBaseAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: SelectionBaseAttribute
-    SelectionBaseAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E0DC54
     // Implemented from: System.Attribute

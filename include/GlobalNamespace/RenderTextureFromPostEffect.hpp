@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
-    // Creating value type constructor for type: RenderTextureFromPostEffect
-    RenderTextureFromPostEffect(UnityEngine::RenderTexture* targetTexture_ = {}, UnityEngine::Camera* camera_ = {}) noexcept : targetTexture{targetTexture_}, camera{camera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.RenderTexture _targetTexture

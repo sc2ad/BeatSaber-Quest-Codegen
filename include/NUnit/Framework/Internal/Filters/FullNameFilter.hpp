@@ -27,8 +27,6 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class FullNameFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
-    // Creating value type constructor for type: FullNameFilter
-    FullNameFilter() noexcept {}
     // protected override System.String get_ElementName()
     // Offset: 0x194139C
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter

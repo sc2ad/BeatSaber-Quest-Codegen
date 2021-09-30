@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C4E0
   class OutOfMemoryException : public System::SystemException {
     public:
-    // Creating value type constructor for type: OutOfMemoryException
-    OutOfMemoryException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E9E018
     // Implemented from: System.SystemException

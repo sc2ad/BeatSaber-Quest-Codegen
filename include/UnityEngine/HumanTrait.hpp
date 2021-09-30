@@ -15,8 +15,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E8BA1C
   class HumanTrait : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HumanTrait
-    HumanTrait() noexcept {}
     // static public System.Int32 get_MuscleCount()
     // Offset: 0x2597F74
     static int get_MuscleCount();

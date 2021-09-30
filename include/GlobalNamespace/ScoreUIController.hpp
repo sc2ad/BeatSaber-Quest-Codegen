@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     System::Text::StringBuilder* stringBuilder;
     // Field size check
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
-    // Creating value type constructor for type: ScoreUIController
-    ScoreUIController(TMPro::TextMeshProUGUI* scoreText_ = {}, GlobalNamespace::ScoreUIController::InitData* initData_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, System::Text::StringBuilder* stringBuilder_ = {}) noexcept : scoreText{scoreText_}, initData{initData_}, scoreController{scoreController_}, stringBuilder{stringBuilder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfDigits

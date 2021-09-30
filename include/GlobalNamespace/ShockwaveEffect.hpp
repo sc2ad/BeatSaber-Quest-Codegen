@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     float prevShockwaveParticleSpawnTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ShockwaveEffect
-    ShockwaveEffect(UnityEngine::ParticleSystem* shockwavePS_ = {}, GlobalNamespace::IntSO* maxShockwaveParticles_ = {}, UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams_ = {}, float prevShockwaveParticleSpawnTime_ = {}) noexcept : shockwavePS{shockwavePS_}, maxShockwaveParticles{maxShockwaveParticles_}, shockwavePSEmitParams{shockwavePSEmitParams_}, prevShockwaveParticleSpawnTime{prevShockwaveParticleSpawnTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS

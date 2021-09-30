@@ -33,8 +33,6 @@ namespace UnityEngine {
     ::Il2CppString* function;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ContextMenuItemAttribute
-    ContextMenuItemAttribute(::Il2CppString* name_ = {}, ::Il2CppString* function_ = {}) noexcept : name{name_}, function{function_} {}
     // Get instance field reference: public readonly System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public readonly System.String function

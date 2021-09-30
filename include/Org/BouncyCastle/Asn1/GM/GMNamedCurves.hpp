@@ -52,8 +52,6 @@ namespace Org::BouncyCastle::Asn1::GM {
     class SM2P256V1Holder;
     // Nested type: Org::BouncyCastle::Asn1::GM::GMNamedCurves::WapiP192V1Holder
     class WapiP192V1Holder;
-    // Creating value type constructor for type: GMNamedCurves
-    GMNamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds

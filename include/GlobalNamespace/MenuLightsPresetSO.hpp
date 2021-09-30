@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> lightIdColorPairs;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>) == 0x8);
-    // Creating value type constructor for type: MenuLightsPresetSO
-    MenuLightsPresetSO(GlobalNamespace::ColorSO* playersPlaceNeonsColor_ = {}, float playersPlaceNeonsIntensity_ = {}, ::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> lightIdColorPairs_ = {}) noexcept : playersPlaceNeonsColor{playersPlaceNeonsColor_}, playersPlaceNeonsIntensity{playersPlaceNeonsIntensity_}, lightIdColorPairs{lightIdColorPairs_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _playersPlaceNeonsColor

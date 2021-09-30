@@ -38,8 +38,6 @@ namespace System::Net {
     ::Il2CppString* ModuleAuthenticationType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Authorization
-    Authorization(::Il2CppString* m_Message_ = {}, bool m_Complete_ = {}, ::Il2CppString* ModuleAuthenticationType_ = {}) noexcept : m_Message{m_Message_}, m_Complete{m_Complete_}, ModuleAuthenticationType{ModuleAuthenticationType_} {}
     // Get instance field reference: private System.String m_Message
     ::Il2CppString*& dyn_m_Message();
     // Get instance field reference: private System.Boolean m_Complete

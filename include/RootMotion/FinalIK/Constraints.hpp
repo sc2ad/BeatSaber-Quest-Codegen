@@ -77,8 +77,6 @@ namespace RootMotion::FinalIK {
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Constraints
-    Constraints(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Vector3 position_ = {}, float positionWeight_ = {}, UnityEngine::Vector3 rotationOffset_ = {}, UnityEngine::Vector3 rotation_ = {}, float rotationWeight_ = {}) noexcept : transform{transform_}, target{target_}, positionOffset{positionOffset_}, position{position_}, positionWeight{positionWeight_}, rotationOffset{rotationOffset_}, rotation{rotation_}, rotationWeight{rotationWeight_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform target

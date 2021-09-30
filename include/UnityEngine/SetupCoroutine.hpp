@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72710
   class SetupCoroutine : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SetupCoroutine
-    SetupCoroutine() noexcept {}
     // static public System.Void InvokeMoveNext(System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress)
     // Offset: 0x1E0DC90
     static void InvokeMoveNext(System::Collections::IEnumerator* enumerator, System::IntPtr returnValueAddress);

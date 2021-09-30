@@ -22,8 +22,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::InfiniteTimerQueue : public System::Net::TimerThread::Queue {
     public:
-    // Creating value type constructor for type: InfiniteTimerQueue
-    InfiniteTimerQueue() noexcept {}
     // System.Void .ctor()
     // Offset: 0x17760F0
     // Implemented from: System.Object

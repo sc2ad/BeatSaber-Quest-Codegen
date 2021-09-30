@@ -24,8 +24,6 @@ namespace GlobalNamespace {
     float speedMul;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SongSpeedData
-    SongSpeedData(float speedMul_ = {}) noexcept : speedMul{speedMul_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return speedMul;

@@ -38,8 +38,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AttributesStore::SetAttributeValueFunc : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SetAttributeValueFunc
-    SetAttributeValueFunc() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1441FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

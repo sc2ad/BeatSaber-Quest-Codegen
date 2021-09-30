@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverAim* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverAim*) == 0x8);
-    // Creating value type constructor for type: AimIK
-    AimIK(RootMotion::FinalIK::IKSolverAim* solver_ = {}) noexcept : solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverAim solver
     RootMotion::FinalIK::IKSolverAim*& dyn_solver();
     // private System.Void OpenSetupTutorial()

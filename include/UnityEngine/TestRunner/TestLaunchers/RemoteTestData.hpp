@@ -146,8 +146,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     ::Il2CppString* ParentFullName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RemoteTestData
-    RemoteTestData(::Il2CppString* id_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, int testCaseCount_ = {}, int ChildIndex_ = {}, bool hasChildren_ = {}, bool isSuite_ = {}, ::ArrayWrapper<::Il2CppString*> childrenIds_ = {}, int testCaseTimeout_ = {}, ::ArrayWrapper<::Il2CppString*> Categories_ = {}, bool IsTestAssembly_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* SkipReason_ = {}, ::Il2CppString* ParentId_ = {}, ::Il2CppString* UniqueName_ = {}, ::Il2CppString* ParentUniqueName_ = {}, ::Il2CppString* ParentFullName_ = {}) noexcept : id{id_}, name{name_}, fullName{fullName_}, testCaseCount{testCaseCount_}, ChildIndex{ChildIndex_}, hasChildren{hasChildren_}, isSuite{isSuite_}, childrenIds{childrenIds_}, testCaseTimeout{testCaseTimeout_}, Categories{Categories_}, IsTestAssembly{IsTestAssembly_}, RunState{RunState_}, Description{Description_}, SkipReason{SkipReason_}, ParentId{ParentId_}, UniqueName{UniqueName_}, ParentUniqueName{ParentUniqueName_}, ParentFullName{ParentFullName_} {}
     // Get instance field reference: public System.String id
     ::Il2CppString*& dyn_id();
     // Get instance field reference: public System.String name

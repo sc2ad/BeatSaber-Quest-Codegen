@@ -43,8 +43,6 @@ namespace Oculus::Platform {
     // Nested type: Oculus::Platform::Callback::RequestCallback_1<T>
     template<typename T>
     class RequestCallback_1;
-    // Creating value type constructor for type: Callback
-    Callback() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Request> requestIDsToRequests
     static System::Collections::Generic::Dictionary_2<uint64_t, Oculus::Platform::Request*>* _get_requestIDsToRequests();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Request> requestIDsToRequests

@@ -65,8 +65,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>* assemblyFilters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*) == 0x8);
-    // Creating value type constructor for type: ConventionBindInfo
-    ConventionBindInfo(System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>* typeFilters_ = {}, System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>* assemblyFilters_ = {}) noexcept : typeFilters{typeFilters_}, assemblyFilters{assemblyFilters_} {}
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
     static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayWrapper<System::Type*>>* _get__assemblyTypeCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache

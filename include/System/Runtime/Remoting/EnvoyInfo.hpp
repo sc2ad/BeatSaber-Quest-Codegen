@@ -33,8 +33,6 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::Messaging::IMessageSink* envoySinks;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
-    // Creating value type constructor for type: EnvoyInfo
-    EnvoyInfo(System::Runtime::Remoting::Messaging::IMessageSink* envoySinks_ = {}) noexcept : envoySinks{envoySinks_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::IEnvoyInfo
     operator System::Runtime::Remoting::IEnvoyInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IEnvoyInfo*>(this);

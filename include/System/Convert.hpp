@@ -35,8 +35,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Convert : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Convert
-    Convert() noexcept {}
     // Get static field: static readonly System.RuntimeType[] ConvertTypes
     static ::ArrayWrapper<System::RuntimeType*> _get_ConvertTypes();
     // Set static field: static readonly System.RuntimeType[] ConvertTypes

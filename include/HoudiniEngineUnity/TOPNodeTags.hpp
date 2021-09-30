@@ -30,8 +30,6 @@ namespace HoudiniEngineUnity {
     bool autoload;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TOPNodeTags
-    TOPNodeTags(bool show_ = {}, bool autoload_ = {}) noexcept : show{show_}, autoload{autoload_} {}
     // Get instance field reference: public System.Boolean _show
     bool& dyn__show();
     // Get instance field reference: public System.Boolean _autoload

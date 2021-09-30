@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
     uint8_t alertDescription;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: TlsFatalAlert
-    TlsFatalAlert(uint8_t alertDescription_ = {}) noexcept : alertDescription{alertDescription_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private readonly System.Byte alertDescription

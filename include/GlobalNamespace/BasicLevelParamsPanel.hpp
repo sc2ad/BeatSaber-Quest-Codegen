@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* bpmText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: BasicLevelParamsPanel
-    BasicLevelParamsPanel(TMPro::TextMeshProUGUI* durationText_ = {}, TMPro::TextMeshProUGUI* bpmText_ = {}) noexcept : durationText{durationText_}, bpmText{bpmText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _durationText

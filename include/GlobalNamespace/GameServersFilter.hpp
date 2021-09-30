@@ -82,8 +82,6 @@ namespace GlobalNamespace {
     bool showInternetGames;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameServersFilter
-    GameServersFilter(bool filterByDifficulty_ = {}, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty_ = {}, bool filterByModifiers_ = {}, GlobalNamespace::GameplayModifierMask filteredModifiers_ = {}, bool filterBySongPacks_ = {}, GlobalNamespace::SongPackMask filteredSongPacks_ = {}, bool showFull_ = {}, bool showProtected_ = {}, bool showInternetGames_ = {}) noexcept : filterByDifficulty{filterByDifficulty_}, filteredDifficulty{filteredDifficulty_}, filterByModifiers{filterByModifiers_}, filteredModifiers{filteredModifiers_}, filterBySongPacks{filterBySongPacks_}, filteredSongPacks{filteredSongPacks_}, showFull{showFull_}, showProtected{showProtected_}, showInternetGames{showInternetGames_} {}
     // Get instance field reference: public System.Boolean filterByDifficulty
     bool& dyn_filterByDifficulty();
     // Get instance field reference: public BeatmapDifficultyMask filteredDifficulty

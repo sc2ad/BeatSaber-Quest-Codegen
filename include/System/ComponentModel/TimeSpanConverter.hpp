@@ -20,8 +20,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeSpanConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: TimeSpanConverter
-    TimeSpanConverter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A234F4
     // Implemented from: System.ComponentModel.TypeConverter

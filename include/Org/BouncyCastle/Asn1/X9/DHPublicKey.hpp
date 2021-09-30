@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::DerInteger* y;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: DHPublicKey
-    DHPublicKey(Org::BouncyCastle::Asn1::DerInteger* y_ = {}) noexcept : y{y_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::DerInteger*
     constexpr operator Org::BouncyCastle::Asn1::DerInteger*() const noexcept {
       return y;

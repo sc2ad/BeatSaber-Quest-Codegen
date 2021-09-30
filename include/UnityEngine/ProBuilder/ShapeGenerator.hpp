@@ -34,8 +34,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShapeGenerator : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ShapeGenerator
-    ShapeGenerator() noexcept {}
     // Get static field: static private readonly UnityEngine.Vector3[] k_IcosphereVertices
     static ::ArrayWrapper<UnityEngine::Vector3> _get_k_IcosphereVertices();
     // Set static field: static private readonly UnityEngine.Vector3[] k_IcosphereVertices

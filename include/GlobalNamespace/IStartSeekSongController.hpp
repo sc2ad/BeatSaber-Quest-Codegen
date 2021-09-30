@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IStartSeekSongController {
     public:
-    // Creating value type constructor for type: IStartSeekSongController
-    IStartSeekSongController() noexcept {}
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
     // Offset: 0xFFFFFFFF
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();

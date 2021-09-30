@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: MoveBackWall
-    MoveBackWall(float fadeInRegion_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, float thisZ_ = {}, bool isVisible_ = {}, UnityEngine::Material* material_ = {}) noexcept : fadeInRegion{fadeInRegion_}, meshRenderer{meshRenderer_}, playerTransforms{playerTransforms_}, thisZ{thisZ_}, isVisible{isVisible_}, material{material_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _fadeInRegion

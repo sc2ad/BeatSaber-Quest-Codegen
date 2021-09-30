@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInstaller {
     public:
-    // Creating value type constructor for type: IInstaller
-    IInstaller() noexcept {}
     // public System.Boolean get_IsEnabled()
     // Offset: 0xFFFFFFFF
     bool get_IsEnabled();

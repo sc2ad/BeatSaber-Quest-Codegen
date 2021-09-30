@@ -28,8 +28,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EA9C
   class ThreadAbortException : public System::SystemException {
     public:
-    // Creating value type constructor for type: ThreadAbortException
-    ThreadAbortException() noexcept {}
     // private System.Void .ctor()
     // Offset: 0x19BE2B0
     // Implemented from: System.SystemException

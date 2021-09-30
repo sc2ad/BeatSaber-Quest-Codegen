@@ -20,8 +20,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAssetBundleResource {
     public:
-    // Creating value type constructor for type: IAssetBundleResource
-    IAssetBundleResource() noexcept {}
     // public UnityEngine.AssetBundle GetAssetBundle()
     // Offset: 0xFFFFFFFF
     UnityEngine::AssetBundle* GetAssetBundle();

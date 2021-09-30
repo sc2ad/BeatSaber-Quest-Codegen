@@ -125,8 +125,6 @@ namespace GlobalNamespace {
     float cutAngleTolerance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: GameNoteController
-    GameNoteController(::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> bigCuttableBySaberList_ = {}, ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> smallCuttableBySaberList_ = {}, UnityEngine::GameObject* wrapperGO_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::SaberSwingRatingCounter::Pool* saberSwingRatingCounterPool_ = {}, System::Action_1<GlobalNamespace::GameNoteController*>* cubeNoteControllerDidInitEvent_ = {}, GlobalNamespace::GameNoteController_GameNoteType gameNoteType_ = {}, bool hidden_ = {}, float cutAngleTolerance_ = {}) noexcept : bigCuttableBySaberList{bigCuttableBySaberList_}, smallCuttableBySaberList{smallCuttableBySaberList_}, wrapperGO{wrapperGO_}, audioTimeSyncController{audioTimeSyncController_}, saberSwingRatingCounterPool{saberSwingRatingCounterPool_}, cubeNoteControllerDidInitEvent{cubeNoteControllerDidInitEvent_}, gameNoteType{gameNoteType_}, hidden{hidden_}, cutAngleTolerance{cutAngleTolerance_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>
     operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>*>(this);

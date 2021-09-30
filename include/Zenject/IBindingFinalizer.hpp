@@ -22,8 +22,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBindingFinalizer {
     public:
-    // Creating value type constructor for type: IBindingFinalizer
-    IBindingFinalizer() noexcept {}
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
     // Offset: 0xFFFFFFFF
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();

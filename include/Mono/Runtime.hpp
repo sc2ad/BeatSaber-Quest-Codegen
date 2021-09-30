@@ -21,8 +21,6 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   class Runtime : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Runtime
-    Runtime() noexcept {}
     // static private System.Void mono_runtime_install_handlers()
     // Offset: 0x1C3F66C
     static void mono_runtime_install_handlers();

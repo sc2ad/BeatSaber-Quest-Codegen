@@ -66,8 +66,6 @@ namespace NUnit::Framework::Api {
     NUnit::Framework::Interfaces::ISuiteBuilder* defaultSuiteBuilder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ISuiteBuilder*) == 0x8);
-    // Creating value type constructor for type: DefaultTestAssemblyBuilder
-    DefaultTestAssemblyBuilder(NUnit::Framework::Interfaces::ISuiteBuilder* defaultSuiteBuilder_ = {}) noexcept : defaultSuiteBuilder{defaultSuiteBuilder_} {}
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept {
       return defaultSuiteBuilder;

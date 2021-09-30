@@ -101,8 +101,6 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* verticalScrollbar;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
-    // Creating value type constructor for type: GUIScrollGroup
-    GUIScrollGroup(float calcMinWidth_ = {}, float calcMaxWidth_ = {}, float calcMinHeight_ = {}, float calcMaxHeight_ = {}, float clientWidth_ = {}, float clientHeight_ = {}, bool allowHorizontalScroll_ = {}, bool allowVerticalScroll_ = {}, bool needsHorizontalScrollbar_ = {}, bool needsVerticalScrollbar_ = {}, UnityEngine::GUIStyle* horizontalScrollbar_ = {}, UnityEngine::GUIStyle* verticalScrollbar_ = {}) noexcept : calcMinWidth{calcMinWidth_}, calcMaxWidth{calcMaxWidth_}, calcMinHeight{calcMinHeight_}, calcMaxHeight{calcMaxHeight_}, clientWidth{clientWidth_}, clientHeight{clientHeight_}, allowHorizontalScroll{allowHorizontalScroll_}, allowVerticalScroll{allowVerticalScroll_}, needsHorizontalScrollbar{needsHorizontalScrollbar_}, needsVerticalScrollbar{needsVerticalScrollbar_}, horizontalScrollbar{horizontalScrollbar_}, verticalScrollbar{verticalScrollbar_} {}
     // Get instance field reference: public System.Single calcMinWidth
     float& dyn_calcMinWidth();
     // Get instance field reference: public System.Single calcMaxWidth

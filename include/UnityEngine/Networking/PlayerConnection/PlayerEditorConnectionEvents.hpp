@@ -75,8 +75,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* disconnectionEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent*) == 0x8);
-    // Creating value type constructor for type: PlayerEditorConnectionEvents
-    PlayerEditorConnectionEvents(System::Collections::Generic::List_1<UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*>* messageTypeSubscribers_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* connectionEvent_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* disconnectionEvent_ = {}) noexcept : messageTypeSubscribers{messageTypeSubscribers_}, connectionEvent{connectionEvent_}, disconnectionEvent{disconnectionEvent_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers> messageTypeSubscribers
     System::Collections::Generic::List_1<UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*>*& dyn_messageTypeSubscribers();
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.ConnectionChangeEvent connectionEvent

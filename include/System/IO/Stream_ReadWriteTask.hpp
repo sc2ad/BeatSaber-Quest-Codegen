@@ -86,8 +86,6 @@ namespace System::IO {
     System::Threading::ExecutionContext* context;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
-    // Creating value type constructor for type: ReadWriteTask
-    ReadWriteTask(bool isRead_ = {}, System::IO::Stream* stream_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int offset_ = {}, int count_ = {}, System::AsyncCallback* callback_ = {}, System::Threading::ExecutionContext* context_ = {}) noexcept : isRead{isRead_}, stream{stream_}, buffer{buffer_}, offset{offset_}, count{count_}, callback{callback_}, context{context_} {}
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);

@@ -36,8 +36,6 @@ namespace Zenject::Internal {
     UnityEngine::SceneManagement::Scene scene;
     // Field size check
     static_assert(sizeof(UnityEngine::SceneManagement::Scene) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(UnityEngine::SceneManagement::Scene scene_ = {}) noexcept : scene{scene_} {}
     // Creating conversion operator: operator UnityEngine::SceneManagement::Scene
     constexpr operator UnityEngine::SceneManagement::Scene() const noexcept {
       return scene;

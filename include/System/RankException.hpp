@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C5B4
   class RankException : public System::SystemException {
     public:
-    // Creating value type constructor for type: RankException
-    RankException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EA11F4
     // Implemented from: System.SystemException

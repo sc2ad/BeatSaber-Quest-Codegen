@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>) == 0x8);
-    // Creating value type constructor for type: Asn1Set
-    Asn1Set(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements_ = {}) noexcept : elements{elements_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

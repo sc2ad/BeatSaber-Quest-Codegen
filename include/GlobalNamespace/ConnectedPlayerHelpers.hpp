@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ConnectedPlayerHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConnectedPlayerHelpers
-    ConnectedPlayerHelpers() noexcept {}
     // static public System.Boolean WantsToPlayNextLevel(IConnectedPlayer connectedPlayer)
     // Offset: 0x144DE7C
     static bool WantsToPlayNextLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);

@@ -23,8 +23,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTween::ColorTweenCallback : public UnityEngine::Events::UnityEvent_1<UnityEngine::Color> {
     public:
-    // Creating value type constructor for type: ColorTweenCallback
-    ColorTweenCallback() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11E9FB8
     // Implemented from: UnityEngine.Events.UnityEvent`1

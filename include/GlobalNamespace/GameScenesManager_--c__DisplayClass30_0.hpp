@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     System::Action_1<Zenject::DiContainer*>* finishCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass30_0
-    $$c__DisplayClass30_0(GlobalNamespace::GameScenesManager::ScenesStackData* scenesStackData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* $$4__this_ = {}, System::Action_1<Zenject::DiContainer*>* finishCallback_ = {}) noexcept : scenesStackData{scenesStackData_}, scenesTransitionSetupData{scenesTransitionSetupData_}, $$4__this{$$4__this_}, finishCallback{finishCallback_} {}
     // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
     GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
     // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData

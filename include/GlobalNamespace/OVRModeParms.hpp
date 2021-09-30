@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawButton resetButton;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
-    // Creating value type constructor for type: OVRModeParms
-    OVRModeParms(GlobalNamespace::OVRInput::RawButton resetButton_ = {}) noexcept : resetButton{resetButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton resetButton

@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAvatarPart {
     public:
-    // Creating value type constructor for type: IAvatarPart
-    IAvatarPart() noexcept {}
     // public System.String get_id()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_id();

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRManager_InstantiateMrcCameraDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OVRManager_InstantiateMrcCameraDelegate
-    OVRManager_InstantiateMrcCameraDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1460238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

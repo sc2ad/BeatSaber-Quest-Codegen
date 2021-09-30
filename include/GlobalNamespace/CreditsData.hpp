@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*> creditsItems;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>) == 0x8);
-    // Creating value type constructor for type: CreditsData
-    CreditsData(::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*> creditsItems_ = {}) noexcept : creditsItems{creditsItems_} {}
     // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>
     constexpr operator ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>() const noexcept {
       return creditsItems;

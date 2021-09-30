@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayRpcManager::SetGameplaySceneReadyRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*> {
     public:
-    // Creating value type constructor for type: SetGameplaySceneReadyRpc
-    SetGameplaySceneReadyRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1459E60
     // Implemented from: RemoteProcedureCall`1

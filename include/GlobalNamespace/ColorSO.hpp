@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: ColorSO
-    ColorSO() noexcept {}
     // public UnityEngine.Color get_color()
     // Offset: 0xFFFFFFFF
     UnityEngine::Color get_color();

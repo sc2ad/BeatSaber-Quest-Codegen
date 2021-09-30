@@ -52,8 +52,6 @@ namespace System::Runtime::Remoting::Channels {
   // [ComVisibleAttribute] Offset: E5FD48
   class ChannelServices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ChannelServices
-    ChannelServices() noexcept {}
     // Get static field: static private System.Collections.ArrayList registeredChannels
     static System::Collections::ArrayList* _get_registeredChannels();
     // Set static field: static private System.Collections.ArrayList registeredChannels

@@ -204,8 +204,6 @@ namespace UnityEngine::UI {
     bool m_DelayedUpdateVisuals;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Scrollbar
-    Scrollbar(UnityEngine::RectTransform* m_HandleRect_ = {}, UnityEngine::UI::Scrollbar::Direction m_Direction_ = {}, float m_Value_ = {}, float m_Size_ = {}, int m_NumberOfSteps_ = {}, UnityEngine::UI::Scrollbar::ScrollEvent* m_OnValueChanged_ = {}, UnityEngine::RectTransform* m_ContainerRect_ = {}, UnityEngine::Vector2 m_Offset_ = {}, UnityEngine::DrivenRectTransformTracker m_Tracker_ = {}, UnityEngine::Coroutine* m_PointerDownRepeat_ = {}, bool isPointerDownAndNotDragging_ = {}, bool m_DelayedUpdateVisuals_ = {}) noexcept : m_HandleRect{m_HandleRect_}, m_Direction{m_Direction_}, m_Value{m_Value_}, m_Size{m_Size_}, m_NumberOfSteps{m_NumberOfSteps_}, m_OnValueChanged{m_OnValueChanged_}, m_ContainerRect{m_ContainerRect_}, m_Offset{m_Offset_}, m_Tracker{m_Tracker_}, m_PointerDownRepeat{m_PointerDownRepeat_}, isPointerDownAndNotDragging{isPointerDownAndNotDragging_}, m_DelayedUpdateVisuals{m_DelayedUpdateVisuals_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ICanvasElement
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);

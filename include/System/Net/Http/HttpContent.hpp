@@ -85,8 +85,6 @@ namespace System::Net::Http {
     System::Net::Http::Headers::HttpContentHeaders* headers;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::HttpContentHeaders*) == 0x8);
-    // Creating value type constructor for type: HttpContent
-    HttpContent(System::Net::Http::HttpContent::FixedMemoryStream* buffer_ = {}, bool disposed_ = {}, System::Net::Http::Headers::HttpContentHeaders* headers_ = {}) noexcept : buffer{buffer_}, disposed{disposed_}, headers{headers_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

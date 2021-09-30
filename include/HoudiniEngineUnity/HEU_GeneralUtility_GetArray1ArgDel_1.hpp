@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class HEU_GeneralUtility::GetArray1ArgDel_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: GetArray1ArgDel_1
-    GetArray1ArgDel_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -37,8 +37,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint8_t> raw;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: AsnEncodedData
-    AsnEncodedData(System::Security::Cryptography::Oid* oid_ = {}, ::ArrayWrapper<uint8_t> raw_ = {}) noexcept : oid{oid_}, raw{raw_} {}
     // Get instance field reference: System.Security.Cryptography.Oid _oid
     System::Security::Cryptography::Oid*& dyn__oid();
     // Get instance field reference: System.Byte[] _raw

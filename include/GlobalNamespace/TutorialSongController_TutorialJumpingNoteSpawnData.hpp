@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
-    // Creating value type constructor for type: TutorialJumpingNoteSpawnData
-    TutorialJumpingNoteSpawnData(GlobalNamespace::NoteLineLayer noteLineLayer_ = {}) noexcept : noteLineLayer{noteLineLayer_} {}
     // Creating conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept {
       return noteLineLayer;

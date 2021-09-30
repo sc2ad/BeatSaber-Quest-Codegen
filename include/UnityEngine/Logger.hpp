@@ -57,8 +57,6 @@ namespace UnityEngine {
     UnityEngine::LogType filterLogType;
     // Field size check
     static_assert(sizeof(UnityEngine::LogType) == 0x4);
-    // Creating value type constructor for type: Logger
-    Logger(UnityEngine::ILogHandler* logHandler_ = {}, bool logEnabled_ = {}, UnityEngine::LogType filterLogType_ = {}) noexcept : logHandler{logHandler_}, logEnabled{logEnabled_}, filterLogType{filterLogType_} {}
     // Creating interface conversion operator: operator UnityEngine::ILogger
     operator UnityEngine::ILogger() noexcept {
       return *reinterpret_cast<UnityEngine::ILogger*>(this);

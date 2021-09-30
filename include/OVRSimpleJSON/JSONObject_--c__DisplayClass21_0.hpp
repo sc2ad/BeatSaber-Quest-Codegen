@@ -40,8 +40,6 @@ namespace OVRSimpleJSON {
     OVRSimpleJSON::JSONNode* aNode;
     // Field size check
     static_assert(sizeof(OVRSimpleJSON::JSONNode*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass21_0
-    $$c__DisplayClass21_0(OVRSimpleJSON::JSONNode* aNode_ = {}) noexcept : aNode{aNode_} {}
     // Creating conversion operator: operator OVRSimpleJSON::JSONNode*
     constexpr operator OVRSimpleJSON::JSONNode*() const noexcept {
       return aNode;

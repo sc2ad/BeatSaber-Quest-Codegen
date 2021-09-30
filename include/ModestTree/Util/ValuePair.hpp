@@ -32,8 +32,6 @@ namespace ModestTree::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValuePair : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ValuePair
-    ValuePair() noexcept {}
     // static public ModestTree.Util.ValuePair`2<T1,T2> New(T1 first, T2 second)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>

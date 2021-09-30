@@ -75,8 +75,6 @@ namespace HMUI {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: RangeValuesTextSlider
-    RangeValuesTextSlider(float minValue_ = {}, float maxValue_ = {}, UnityEngine::UI::Button* decButton_ = {}, UnityEngine::UI::Button* incButton_ = {}, System::Action_2<HMUI::RangeValuesTextSlider*, float>* valueDidChangeEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : minValue{minValue_}, maxValue{maxValue_}, decButton{decButton_}, incButton{incButton_}, valueDidChangeEvent{valueDidChangeEvent_}, buttonBinder{buttonBinder_} {}
     // Get instance field reference: private System.Single _minValue
     float& dyn__minValue();
     // Get instance field reference: private System.Single _maxValue

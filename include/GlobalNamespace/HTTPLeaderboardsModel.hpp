@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     ::Il2CppString* platformUserId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HTTPLeaderboardsModel
-    HTTPLeaderboardsModel(OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource_ = {}, OnlineServices::API::IApiLeaderboardsModel* apiLeaderboardsModel_ = {}, System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}, ::Il2CppString* guid_ = {}, ::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, ::Il2CppString* platformUserId_ = {}) noexcept : userLoginDataSource{userLoginDataSource_}, apiLeaderboardsModel{apiLeaderboardsModel_}, scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_}, guid{guid_}, friendsUserIds{friendsUserIds_}, platformUserId{platformUserId_} {}
     // Creating interface conversion operator: operator OnlineServices::ILeaderboardsModel
     operator OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);

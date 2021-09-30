@@ -76,8 +76,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Metadata;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssetDetails
-    AssetDetails(uint64_t AssetId_ = {}, ::Il2CppString* AssetType_ = {}, ::Il2CppString* DownloadStatus_ = {}, ::Il2CppString* Filepath_ = {}, ::Il2CppString* IapStatus_ = {}, Oculus::Platform::Models::LanguagePackInfo* LanguageOptional_ = {}, Oculus::Platform::Models::LanguagePackInfo* Language_ = {}, ::Il2CppString* Metadata_ = {}) noexcept : AssetId{AssetId_}, AssetType{AssetType_}, DownloadStatus{DownloadStatus_}, Filepath{Filepath_}, IapStatus{IapStatus_}, LanguageOptional{LanguageOptional_}, Language{Language_}, Metadata{Metadata_} {}
     // Get instance field reference: public readonly System.UInt64 AssetId
     uint64_t& dyn_AssetId();
     // Get instance field reference: public readonly System.String AssetType

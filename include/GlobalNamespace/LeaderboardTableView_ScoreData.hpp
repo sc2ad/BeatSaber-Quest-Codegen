@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     bool fullCombo;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ScoreData
-    ScoreData(int score_ = {}, ::Il2CppString* playerName_ = {}, int rank_ = {}, bool fullCombo_ = {}) noexcept : score{score_}, playerName{playerName_}, rank{rank_}, fullCombo{fullCombo_} {}
     // Get instance field reference: private System.Int32 <score>k__BackingField
     int& dyn_$score$k__BackingField();
     // Get instance field reference: private System.String <playerName>k__BackingField

@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatmapObjectExecutionRating
-    BeatmapObjectExecutionRating(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType_ = {}, float time_ = {}) noexcept : beatmapObjectRatingType{beatmapObjectRatingType_}, time{time_} {}
     // Get instance field reference: private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType& dyn_$beatmapObjectRatingType$k__BackingField();
     // Get instance field reference: private System.Single <time>k__BackingField

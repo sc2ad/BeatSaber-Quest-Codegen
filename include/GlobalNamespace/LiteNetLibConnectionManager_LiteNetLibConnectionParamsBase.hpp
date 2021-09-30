@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     int disconnectTimeoutMs;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LiteNetLibConnectionParamsBase
-    LiteNetLibConnectionParamsBase(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Il2CppString* secret_ = {}, int port_ = {}, bool filterUnencryptedTraffic_ = {}, bool enableUnconnectedMessages_ = {}, bool enableBackgroundSentry_ = {}, bool enableStatistics_ = {}, int disconnectTimeoutMs_ = {}) noexcept : userId{userId_}, userName{userName_}, secret{secret_}, port{port_}, filterUnencryptedTraffic{filterUnencryptedTraffic_}, enableUnconnectedMessages{enableUnconnectedMessages_}, enableBackgroundSentry{enableBackgroundSentry_}, enableStatistics{enableStatistics_}, disconnectTimeoutMs{disconnectTimeoutMs_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*>(this);

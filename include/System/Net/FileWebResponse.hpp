@@ -90,8 +90,6 @@ namespace System::Net {
     System::Uri* m_uri;
     // Field size check
     static_assert(sizeof(System::Uri*) == 0x8);
-    // Creating value type constructor for type: FileWebResponse
-    FileWebResponse(bool m_closed_ = {}, int64_t m_contentLength_ = {}, System::IO::FileAccess m_fileAccess_ = {}, System::Net::WebHeaderCollection* m_headers_ = {}, System::IO::Stream* m_stream_ = {}, System::Uri* m_uri_ = {}) noexcept : m_closed{m_closed_}, m_contentLength{m_contentLength_}, m_fileAccess{m_fileAccess_}, m_headers{m_headers_}, m_stream{m_stream_}, m_uri{m_uri_} {}
     // Creating interface conversion operator: operator System::Net::ICloseEx
     operator System::Net::ICloseEx() noexcept {
       return *reinterpret_cast<System::Net::ICloseEx*>(this);

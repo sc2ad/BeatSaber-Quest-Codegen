@@ -30,8 +30,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidReflection : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AndroidReflection
-    AndroidReflection() noexcept {}
     // Get static field: static private readonly UnityEngine.GlobalJavaObjectRef s_ReflectionHelperClass
     static UnityEngine::GlobalJavaObjectRef* _get_s_ReflectionHelperClass();
     // Set static field: static private readonly UnityEngine.GlobalJavaObjectRef s_ReflectionHelperClass

@@ -52,8 +52,6 @@ namespace Zenject {
     System::Func_4<Zenject::DiContainer*, TParam1, TParam2, TValue>* method;
     // Field size check
     static_assert(sizeof(System::Func_4<Zenject::DiContainer*, TParam1, TParam2, TValue>*) == 0x8);
-    // Creating value type constructor for type: MethodProviderWithContainer_3
-    MethodProviderWithContainer_3(System::Func_4<Zenject::DiContainer*, TParam1, TParam2, TValue>* method_ = {}) noexcept : method{method_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

@@ -43,8 +43,6 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class SingletonIdentity : public System::Runtime::Remoting::ServerIdentity {
     public:
-    // Creating value type constructor for type: SingletonIdentity
-    SingletonIdentity() noexcept {}
     // public System.MarshalByRefObject GetServerObject()
     // Offset: 0x17E1D38
     System::MarshalByRefObject* GetServerObject();

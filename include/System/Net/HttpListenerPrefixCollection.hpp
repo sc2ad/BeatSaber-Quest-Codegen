@@ -53,8 +53,6 @@ namespace System::Net {
     System::Net::HttpListener* listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
-    // Creating value type constructor for type: HttpListenerPrefixCollection
-    HttpListenerPrefixCollection(System::Collections::Generic::List_1<::Il2CppString*>* prefixes_ = {}, System::Net::HttpListener* listener_ = {}) noexcept : prefixes{prefixes_}, listener{listener_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<::Il2CppString*>
     operator System::Collections::Generic::ICollection_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);

@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB156C
   class IVRScreenshots::_UpdateScreenshotProgress : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _UpdateScreenshotProgress
-    _UpdateScreenshotProgress() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22DF99C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

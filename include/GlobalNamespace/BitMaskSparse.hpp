@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::SortedSet_1<uint>* sparseSet;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::SortedSet_1<uint>*) == 0x8);
-    // Creating value type constructor for type: BitMaskSparse
-    BitMaskSparse(int bitCount_ = {}, System::Collections::Generic::SortedSet_1<uint>* sparseSet_ = {}) noexcept : bitCount{bitCount_}, sparseSet{sparseSet_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

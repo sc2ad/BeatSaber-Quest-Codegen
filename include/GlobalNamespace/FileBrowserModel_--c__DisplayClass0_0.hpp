@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>* callback;
     // Field size check
     static_assert(sizeof(System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(::ArrayWrapper<GlobalNamespace::FileBrowserItem*> items_ = {}, ::Il2CppString* direcotryPath_ = {}, ::ArrayWrapper<::Il2CppString*> extensions_ = {}, System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>* callback_ = {}) noexcept : items{items_}, direcotryPath{direcotryPath_}, extensions{extensions_}, callback{callback_} {}
     // Get instance field reference: public FileBrowserItem[] items
     ::ArrayWrapper<GlobalNamespace::FileBrowserItem*>& dyn_items();
     // Get instance field reference: public System.String direcotryPath

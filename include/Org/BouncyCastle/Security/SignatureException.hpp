@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignatureException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
-    // Creating value type constructor for type: SignatureException
-    SignatureException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14DD940
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException

@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRsenalLogger*) == 0x8);
-    // Creating value type constructor for type: PCArcadeAppInit
-    PCArcadeAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab_ = {}) noexcept : mainSystemInit{mainSystemInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, vrsenalLoggerPrefab{vrsenalLoggerPrefab_} {}
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private SteamInit _steamInit

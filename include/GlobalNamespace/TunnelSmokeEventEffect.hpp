@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>) == 0x8);
-    // Creating value type constructor for type: TunnelSmokeEventEffect
-    TunnelSmokeEventEffect(GlobalNamespace::BeatmapEventType event_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, UnityEngine::ParticleSystem::ShapeModule shapeModule_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles_ = {}) noexcept : event{event_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, mainModule{mainModule_}, shapeModule{shapeModule_}, particles{particles_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier

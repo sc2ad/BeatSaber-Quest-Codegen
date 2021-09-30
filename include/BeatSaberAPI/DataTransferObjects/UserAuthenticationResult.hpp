@@ -39,8 +39,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     BeatSaberAPI::DataTransferObjects::AccessToken* accessToken;
     // Field size check
     static_assert(sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*) == 0x8);
-    // Creating value type constructor for type: UserAuthenticationResult
-    UserAuthenticationResult(BeatSaberAPI::DataTransferObjects::UserInfo* userInfo_ = {}, BeatSaberAPI::DataTransferObjects::AccessToken* accessToken_ = {}) noexcept : userInfo{userInfo_}, accessToken{accessToken_} {}
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserInfo userInfo
     BeatSaberAPI::DataTransferObjects::UserInfo*& dyn_userInfo();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.AccessToken accessToken

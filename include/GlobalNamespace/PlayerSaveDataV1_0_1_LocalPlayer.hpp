@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* achievementsData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*) == 0x8);
-    // Creating value type constructor for type: LocalPlayer
-    LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* achievementsData_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, achievementsData{achievementsData_} {}
     // Get instance field reference: public System.String playerId
     ::Il2CppString*& dyn_playerId();
     // Get instance field reference: public System.String playerName

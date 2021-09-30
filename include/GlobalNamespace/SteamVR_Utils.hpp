@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     struct RigidTransform;
     // Nested type: GlobalNamespace::SteamVR_Utils::SystemFn
     class SystemFn;
-    // Creating value type constructor for type: SteamVR_Utils
-    SteamVR_Utils() noexcept {}
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion A, UnityEngine.Quaternion B, System.Single t)
     // Offset: 0x18808D8
     static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion A, UnityEngine::Quaternion B, float t);

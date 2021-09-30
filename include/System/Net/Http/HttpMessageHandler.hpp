@@ -40,8 +40,6 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpMessageHandler : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: HttpMessageHandler
-    HttpMessageHandler() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

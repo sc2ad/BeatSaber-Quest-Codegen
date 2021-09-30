@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD884
   class ProvidesContextAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ProvidesContextAttribute
-    ProvidesContextAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610824
     // Implemented from: System.Attribute

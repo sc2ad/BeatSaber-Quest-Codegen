@@ -22,8 +22,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C508
   class ParamArrayAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ParamArrayAttribute
-    ParamArrayAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E9E1C4
     // Implemented from: System.Attribute

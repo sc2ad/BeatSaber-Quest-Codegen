@@ -31,8 +31,6 @@ namespace TMPro::SpriteAssetUtilities {
     struct SpriteData;
     // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject
     class SpriteDataObject;
-    // Creating value type constructor for type: TexturePacker
-    TexturePacker() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11EEABC
     // Implemented from: System.Object

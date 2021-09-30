@@ -33,8 +33,6 @@ namespace System::ComponentModel {
     ::Il2CppString* typeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EditorAttribute
-    EditorAttribute(::Il2CppString* baseTypeName_ = {}, ::Il2CppString* typeName_ = {}) noexcept : baseTypeName{baseTypeName_}, typeName{typeName_} {}
     // Get instance field reference: private System.String baseTypeName
     ::Il2CppString*& dyn_baseTypeName();
     // Get instance field reference: private System.String typeName

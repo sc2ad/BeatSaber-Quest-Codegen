@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UrlInputFieldSettingsController : public GlobalNamespace::InputFieldSettingsController {
     public:
-    // Creating value type constructor for type: UrlInputFieldSettingsController
-    UrlInputFieldSettingsController() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1346384
     // Implemented from: InputFieldSettingsController

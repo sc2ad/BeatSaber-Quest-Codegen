@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // Creating value type constructor for type: JoinResponsePacket
-    JoinResponsePacket(::Il2CppString* userId_ = {}, ::Il2CppString* secret_ = {}, int multiplayerPort_ = {}, bool blocked_ = {}, bool isPartyOwner_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : userId{userId_}, secret{secret_}, multiplayerPort{multiplayerPort_}, blocked{blocked_}, isPartyOwner{isPartyOwner_}, selectionMask{selectionMask_}, configuration{configuration_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

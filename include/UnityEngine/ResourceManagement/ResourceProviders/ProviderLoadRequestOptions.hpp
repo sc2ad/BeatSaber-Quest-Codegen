@@ -24,8 +24,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_IgnoreFailures;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ProviderLoadRequestOptions
-    ProviderLoadRequestOptions(bool m_IgnoreFailures_ = {}) noexcept : m_IgnoreFailures{m_IgnoreFailures_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_IgnoreFailures;

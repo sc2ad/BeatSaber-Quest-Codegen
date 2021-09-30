@@ -58,8 +58,6 @@ namespace NUnit::Framework::Internal {
     ::ArrayWrapper<System::Type*> ParmTypes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: GenericMethodHelper
-    GenericMethodHelper(System::Reflection::MethodInfo* Method_ = {}, ::ArrayWrapper<System::Type*> TypeParms_ = {}, ::ArrayWrapper<System::Type*> TypeArgs_ = {}, ::ArrayWrapper<System::Type*> ParmTypes_ = {}) noexcept : Method{Method_}, TypeParms{TypeParms_}, TypeArgs{TypeArgs_}, ParmTypes{ParmTypes_} {}
     // Get instance field reference: private System.Reflection.MethodInfo <Method>k__BackingField
     System::Reflection::MethodInfo*& dyn_$Method$k__BackingField();
     // Get instance field reference: private System.Type[] <TypeParms>k__BackingField

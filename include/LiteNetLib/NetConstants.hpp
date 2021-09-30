@@ -20,8 +20,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetConstants : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetConstants
-    NetConstants() noexcept {}
     // static field const value: static public System.Int32 DefaultWindowSize
     static constexpr const int DefaultWindowSize = 64;
     // Get static field: static public System.Int32 DefaultWindowSize

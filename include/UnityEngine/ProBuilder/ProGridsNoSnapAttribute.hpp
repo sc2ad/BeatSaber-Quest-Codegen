@@ -21,8 +21,6 @@ namespace UnityEngine::ProBuilder {
   // [AttributeUsageAttribute] Offset: F25764
   class ProGridsNoSnapAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ProGridsNoSnapAttribute
-    ProGridsNoSnapAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1692330
     // Implemented from: System.Attribute

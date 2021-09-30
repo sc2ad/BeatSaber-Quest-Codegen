@@ -17,8 +17,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7>
   class IPoolable_7 {
     public:
-    // Creating value type constructor for type: IPoolable_7
-    IPoolable_7() noexcept {}
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
     void OnDespawned() {

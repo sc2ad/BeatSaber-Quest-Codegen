@@ -60,8 +60,6 @@ namespace UnityEngine::UI {
     ::Il2CppString* m_DisabledTrigger;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AnimationTriggers
-    AnimationTriggers(::Il2CppString* m_NormalTrigger_ = {}, ::Il2CppString* m_HighlightedTrigger_ = {}, ::Il2CppString* m_PressedTrigger_ = {}, ::Il2CppString* m_SelectedTrigger_ = {}, ::Il2CppString* m_DisabledTrigger_ = {}) noexcept : m_NormalTrigger{m_NormalTrigger_}, m_HighlightedTrigger{m_HighlightedTrigger_}, m_PressedTrigger{m_PressedTrigger_}, m_SelectedTrigger{m_SelectedTrigger_}, m_DisabledTrigger{m_DisabledTrigger_} {}
     // static field const value: static private System.String kDefaultNormalAnimName
     static constexpr const char* kDefaultNormalAnimName = "Normal";
     // Get static field: static private System.String kDefaultNormalAnimName

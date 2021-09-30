@@ -22,8 +22,6 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5C3C4
   class NonSerializedAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NonSerializedAttribute
-    NonSerializedAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A12E84
     // Implemented from: System.Attribute

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ProfanityFilter::TrieNode* trie;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ProfanityFilter::TrieNode*) == 0x8);
-    // Creating value type constructor for type: ProfanityFilter
-    ProfanityFilter(GlobalNamespace::ProfanityFilter::TrieNode* trie_ = {}) noexcept : trie{trie_} {}
     // Creating conversion operator: operator GlobalNamespace::ProfanityFilter::TrieNode*
     constexpr operator GlobalNamespace::ProfanityFilter::TrieNode*() const noexcept {
       return trie;

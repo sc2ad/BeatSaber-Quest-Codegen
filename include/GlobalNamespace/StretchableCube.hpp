@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     UnityEngine::Mesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
-    // Creating value type constructor for type: StretchableCube
-    StretchableCube(::ArrayWrapper<UnityEngine::Vector2> uvs_ = {}, UnityEngine::Mesh* mesh_ = {}) noexcept : uvs{uvs_}, mesh{mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLength

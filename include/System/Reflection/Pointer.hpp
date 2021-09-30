@@ -50,8 +50,6 @@ namespace System::Reflection {
     System::RuntimeType* ptrType;
     // Field size check
     static_assert(sizeof(System::RuntimeType*) == 0x8);
-    // Creating value type constructor for type: Pointer
-    Pointer(void* ptr_ = {}, System::RuntimeType* ptrType_ = {}) noexcept : ptr{ptr_}, ptrType{ptrType_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

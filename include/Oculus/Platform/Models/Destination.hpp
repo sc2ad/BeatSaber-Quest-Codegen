@@ -38,8 +38,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* DisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Destination
-    Destination(::Il2CppString* ApiName_ = {}, ::Il2CppString* DeeplinkMessage_ = {}, ::Il2CppString* DisplayName_ = {}) noexcept : ApiName{ApiName_}, DeeplinkMessage{DeeplinkMessage_}, DisplayName{DisplayName_} {}
     // Get instance field reference: public readonly System.String ApiName
     ::Il2CppString*& dyn_ApiName();
     // Get instance field reference: public readonly System.String DeeplinkMessage

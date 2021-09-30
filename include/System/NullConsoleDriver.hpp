@@ -22,8 +22,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class NullConsoleDriver : public ::Il2CppObject/*, public System::IConsoleDriver*/ {
     public:
-    // Creating value type constructor for type: NullConsoleDriver
-    NullConsoleDriver() noexcept {}
     // Creating interface conversion operator: operator System::IConsoleDriver
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);

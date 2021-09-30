@@ -31,8 +31,6 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class SkipCommand : public NUnit::Framework::Internal::Commands::TestCommand {
     public:
-    // Creating value type constructor for type: SkipCommand
-    SkipCommand() noexcept {}
     // private System.String GetSkipReason()
     // Offset: 0x193DFAC
     ::Il2CppString* GetSkipReason();

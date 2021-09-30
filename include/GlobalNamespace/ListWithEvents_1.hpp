@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     System::Action_1<T>* OnElementRemoved;
     // Field size check
     static_assert(sizeof(System::Action_1<T>*) == 0x8);
-    // Creating value type constructor for type: ListWithEvents_1
-    ListWithEvents_1(System::Collections::Generic::List_1<T>* m_List_ = {}, System::Action_1<T>* OnElementAdded_ = {}, System::Action_1<T>* OnElementRemoved_ = {}) noexcept : m_List{m_List_}, OnElementAdded{OnElementAdded_}, OnElementRemoved{OnElementRemoved_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);

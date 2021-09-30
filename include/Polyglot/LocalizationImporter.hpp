@@ -56,8 +56,6 @@ namespace Polyglot {
     class $$c__DisplayClass5_0;
     // Nested type: Polyglot::LocalizationImporter::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
-    // Creating value type constructor for type: LocalizationImporter
-    LocalizationImporter() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> languageStrings
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* _get_languageStrings();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> languageStrings

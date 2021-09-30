@@ -100,8 +100,6 @@ namespace LeaderboardsDTO {
     bool includedScoreWithModifiers;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LeaderboardQueryDTO
-    LeaderboardQueryDTO(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope scope_ = {}, ::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, bool includedScoreWithModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, includedScoreWithModifiers{includedScoreWithModifiers_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count

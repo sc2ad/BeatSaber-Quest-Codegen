@@ -67,8 +67,6 @@ namespace MasterServer {
     int unoccupiedServerSlots;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DedicatedServerHeartbeatRequest
-    DedicatedServerHeartbeatRequest(::Il2CppString* dedicatedServerId_ = {}, int64_t dedicatedServerCreationTime_ = {}, int cpuUtilization_ = {}, int occupiedServerSlots_ = {}, int unoccupiedServerSlots_ = {}) noexcept : dedicatedServerId{dedicatedServerId_}, dedicatedServerCreationTime{dedicatedServerCreationTime_}, cpuUtilization{cpuUtilization_}, occupiedServerSlots{occupiedServerSlots_}, unoccupiedServerSlots{unoccupiedServerSlots_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerUnreliableMessage
     operator MasterServer::IMasterServerUnreliableMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerUnreliableMessage*>(this);

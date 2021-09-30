@@ -82,8 +82,6 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     ::ArrayWrapper<uint8_t> blockBuffer;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Pkcs1Encoding
-    Pkcs1Encoding(Org::BouncyCastle::Security::SecureRandom* random_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine_ = {}, bool forEncryption_ = {}, bool forPrivateKey_ = {}, bool useStrictLength_ = {}, int pLen_ = {}, ::ArrayWrapper<uint8_t> fallback_ = {}, ::ArrayWrapper<uint8_t> blockBuffer_ = {}) noexcept : random{random_}, engine{engine_}, forEncryption{forEncryption_}, forPrivateKey{forPrivateKey_}, useStrictLength{useStrictLength_}, pLen{pLen_}, fallback{fallback_}, blockBuffer{blockBuffer_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);

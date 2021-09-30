@@ -16,8 +16,6 @@ namespace Microsoft::Extensions::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILogger {
     public:
-    // Creating value type constructor for type: ILogger
-    ILogger() noexcept {}
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
     void LogError(::Il2CppString* message);

@@ -99,8 +99,6 @@ namespace GlobalNamespace {
     bool cursorIsLocked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MouseLook
-    MouseLook(float xSensitivity_ = {}, float ySensitivity_ = {}, bool clampVerticalRotation_ = {}, float minimumX_ = {}, float maximumX_ = {}, bool smooth_ = {}, float smoothTime_ = {}, bool lockCursor_ = {}, UnityEngine::Quaternion characterTargetRot_ = {}, UnityEngine::Quaternion cameraTargetRot_ = {}, bool cursorIsLocked_ = {}) noexcept : xSensitivity{xSensitivity_}, ySensitivity{ySensitivity_}, clampVerticalRotation{clampVerticalRotation_}, minimumX{minimumX_}, maximumX{maximumX_}, smooth{smooth_}, smoothTime{smoothTime_}, lockCursor{lockCursor_}, characterTargetRot{characterTargetRot_}, cameraTargetRot{cameraTargetRot_}, cursorIsLocked{cursorIsLocked_} {}
     // Get instance field reference: private System.Single _xSensitivity
     float& dyn__xSensitivity();
     // Get instance field reference: private System.Single _ySensitivity

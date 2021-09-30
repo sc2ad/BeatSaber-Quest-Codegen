@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PlayerHeightSettingsController
-    PlayerHeightSettingsController(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Button* setButton_ = {}, GlobalNamespace::Vector3SO* roomCenter_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Action_1<float>* valueDidChangeEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, float value_ = {}) noexcept : text{text_}, setButton{setButton_}, roomCenter{roomCenter_}, vrPlatformHelper{vrPlatformHelper_}, valueDidChangeEvent{valueDidChangeEvent_}, buttonBinder{buttonBinder_}, value{value_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

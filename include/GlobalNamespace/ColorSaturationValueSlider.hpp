@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
-    // Creating value type constructor for type: ColorSaturationValueSlider
-    ColorSaturationValueSlider(float hue_ = {}, ::ArrayWrapper<UnityEngine::UI::Graphic*> graphics_ = {}, UnityEngine::Color darkColor_ = {}, UnityEngine::Color lightColor_ = {}, System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent_ = {}) noexcept : hue{hue_}, graphics{graphics_}, darkColor{darkColor_}, lightColor{lightColor_}, colorSaturationOrValueDidChangeEvent{colorSaturationOrValueDidChangeEvent_} {}
     // Get instance field reference: private System.Single _hue
     float& dyn__hue();
     // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics

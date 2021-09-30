@@ -57,8 +57,6 @@ namespace System::Net::NetworkInformation {
     System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::IPAddress*>*) == 0x8);
-    // Creating value type constructor for type: UnixIPInterfaceProperties
-    UnixIPInterfaceProperties(System::Net::NetworkInformation::UnixNetworkInterface* iface_ = {}, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses_ = {}) noexcept : iface{iface_}, addresses{addresses_} {}
     // Get static field: static private System.Text.RegularExpressions.Regex ns
     static System::Text::RegularExpressions::Regex* _get_ns();
     // Set static field: static private System.Text.RegularExpressions.Regex ns

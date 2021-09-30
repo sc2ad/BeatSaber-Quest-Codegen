@@ -51,8 +51,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: ECKeyGenerationParameters
-    ECKeyGenerationParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParams_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}) noexcept : domainParams{domainParams_}, publicKeyParamSet{publicKeyParamSet_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_domainParams();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet

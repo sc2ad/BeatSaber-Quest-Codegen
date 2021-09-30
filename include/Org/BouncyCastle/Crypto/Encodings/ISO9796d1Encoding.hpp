@@ -66,8 +66,6 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     Org::BouncyCastle::Math::BigInteger* modulus;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: ISO9796d1Encoding
-    ISO9796d1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine_ = {}, bool forEncryption_ = {}, int bitSize_ = {}, int padBits_ = {}, Org::BouncyCastle::Math::BigInteger* modulus_ = {}) noexcept : engine{engine_}, forEncryption{forEncryption_}, bitSize{bitSize_}, padBits{padBits_}, modulus{modulus_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);

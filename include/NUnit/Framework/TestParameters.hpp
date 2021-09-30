@@ -38,8 +38,6 @@ namespace NUnit::Framework {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: TestParameters
-    TestParameters(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* parameters_ = {}) noexcept : parameters{parameters_} {}
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*
     constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*() const noexcept {
       return parameters;

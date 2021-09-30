@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int counter;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DHValidationParameters
-    DHValidationParameters(::ArrayWrapper<uint8_t> seed_ = {}, int counter_ = {}) noexcept : seed{seed_}, counter{counter_} {}
     // Get instance field reference: private readonly System.Byte[] seed
     ::ArrayWrapper<uint8_t>& dyn_seed();
     // Get instance field reference: private readonly System.Int32 counter

@@ -16,8 +16,6 @@ namespace System::Security::Authentication::ExtendedProtection {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServiceNameCollection : public System::Collections::ReadOnlyCollectionBase {
     public:
-    // Creating value type constructor for type: ServiceNameCollection
-    ServiceNameCollection() noexcept {}
   }; // System.Security.Authentication.ExtendedProtection.ServiceNameCollection
   #pragma pack(pop)
 }

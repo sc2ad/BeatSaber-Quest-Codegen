@@ -61,8 +61,6 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ComparisonAdapter* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ComparisonAdapter*) == 0x8);
-    // Creating value type constructor for type: ComparisonConstraint
-    ComparisonConstraint(::Il2CppObject* expected_ = {}, bool lessComparisonResult_ = {}, bool equalComparisonResult_ = {}, bool greaterComparisonResult_ = {}, NUnit::Framework::Constraints::ComparisonAdapter* comparer_ = {}) noexcept : expected{expected_}, lessComparisonResult{lessComparisonResult_}, equalComparisonResult{equalComparisonResult_}, greaterComparisonResult{greaterComparisonResult_}, comparer{comparer_} {}
     // Get instance field reference: protected System.Object expected
     ::Il2CppObject*& dyn_expected();
     // Get instance field reference: protected System.Boolean lessComparisonResult

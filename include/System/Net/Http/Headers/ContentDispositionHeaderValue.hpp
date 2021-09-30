@@ -48,8 +48,6 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*) == 0x8);
-    // Creating value type constructor for type: ContentDispositionHeaderValue
-    ContentDispositionHeaderValue(::Il2CppString* dispositionType_ = {}, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters_ = {}) noexcept : dispositionType{dispositionType_}, parameters{parameters_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

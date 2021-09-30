@@ -52,8 +52,6 @@ namespace Mono::Security::Cryptography {
     ::ArrayWrapper<uint8_t> digest;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: MD4Managed
-    MD4Managed(::ArrayWrapper<uint> state_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, ::ArrayWrapper<uint> count_ = {}, ::ArrayWrapper<uint> x_ = {}, ::ArrayWrapper<uint8_t> digest_ = {}) noexcept : state{state_}, buffer{buffer_}, count{count_}, x{x_}, digest{digest_} {}
     // Get instance field reference: private System.UInt32[] state
     ::ArrayWrapper<uint>& dyn_state();
     // Get instance field reference: private System.Byte[] buffer

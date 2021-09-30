@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBlockCipherPadding {
     public:
-    // Creating value type constructor for type: IBlockCipherPadding
-    IBlockCipherPadding() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
     // Offset: 0xFFFFFFFF
     void Init(Org::BouncyCastle::Security::SecureRandom* random);

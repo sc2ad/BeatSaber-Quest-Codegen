@@ -38,8 +38,6 @@ namespace Oculus::Platform::Models {
     bool IsCompleted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HttpTransferUpdate
-    HttpTransferUpdate(uint64_t _ID_ = {}, ::ArrayWrapper<uint8_t> Payload_ = {}, bool IsCompleted_ = {}) noexcept : _ID{_ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.Byte[] Payload

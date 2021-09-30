@@ -191,8 +191,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Quaternion m_Rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: AnimationPlayableAsset
-    AnimationPlayableAsset(UnityEngine::AnimationClip* m_Clip_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_EulerAngles_ = {}, bool m_UseTrackMatchFields_ = {}, UnityEngine::Timeline::MatchTargetFields m_MatchTargetFields_ = {}, bool m_RemoveStartOffset_ = {}, bool m_ApplyFootIK_ = {}, UnityEngine::Timeline::AnimationPlayableAsset::LoopMode m_Loop_ = {}, UnityEngine::Timeline::AppliedOffsetMode appliedOffsetMode_ = {}, int m_Version_ = {}, UnityEngine::Quaternion m_Rotation_ = {}) noexcept : m_Clip{m_Clip_}, m_Position{m_Position_}, m_EulerAngles{m_EulerAngles_}, m_UseTrackMatchFields{m_UseTrackMatchFields_}, m_MatchTargetFields{m_MatchTargetFields_}, m_RemoveStartOffset{m_RemoveStartOffset_}, m_ApplyFootIK{m_ApplyFootIK_}, m_Loop{m_Loop_}, appliedOffsetMode{appliedOffsetMode_}, m_Version{m_Version_}, m_Rotation{m_Rotation_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

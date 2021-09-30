@@ -58,8 +58,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c
     class $$c;
-    // Creating value type constructor for type: SurfaceTopology
-    SurfaceTopology() noexcept {}
     // static public UnityEngine.ProBuilder.Face[] ToTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces)
     // Offset: 0x18FC48C
     static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> ToTriangles(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces);

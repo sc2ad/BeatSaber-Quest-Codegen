@@ -66,8 +66,6 @@ namespace Mono::Unity {
     struct unitytls_tlsctx_callbacks;
     // Nested type: Mono::Unity::UnityTls::unitytls_interface_struct
     class unitytls_interface_struct;
-    // Creating value type constructor for type: UnityTls
-    UnityTls() noexcept {}
     // Get static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
     static Mono::Unity::UnityTls::unitytls_interface_struct* _get_marshalledInterface();
     // Set static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface

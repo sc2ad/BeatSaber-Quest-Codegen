@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncryptionScheme : public Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
     public:
-    // Creating value type constructor for type: EncryptionScheme
-    EncryptionScheme() noexcept {}
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme GetInstance(System.Object obj)
     // Offset: 0x19704E0
     static Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::Il2CppObject* obj);

@@ -35,8 +35,6 @@ namespace NUnit::Framework::Constraints {
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* stack;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*) == 0x8);
-    // Creating value type constructor for type: OperatorStack
-    OperatorStack(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* stack_ = {}) noexcept : stack{stack_} {}
     // Creating conversion operator: operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*
     constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*() const noexcept {
       return stack;

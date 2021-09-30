@@ -124,8 +124,6 @@ namespace RootMotion::FinalIK {
     bool useFABRIK;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IKMappingSpine
-    IKMappingSpine(::ArrayWrapper<UnityEngine::Transform*> spineBones_ = {}, UnityEngine::Transform* leftUpperArmBone_ = {}, UnityEngine::Transform* rightUpperArmBone_ = {}, UnityEngine::Transform* leftThighBone_ = {}, UnityEngine::Transform* rightThighBone_ = {}, int iterations_ = {}, float twistWeight_ = {}, int rootNodeIndex_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKMapping::BoneMap*> spine_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* leftUpperArm_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* rightUpperArm_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* leftThigh_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* rightThigh_ = {}, bool useFABRIK_ = {}) noexcept : spineBones{spineBones_}, leftUpperArmBone{leftUpperArmBone_}, rightUpperArmBone{rightUpperArmBone_}, leftThighBone{leftThighBone_}, rightThighBone{rightThighBone_}, iterations{iterations_}, twistWeight{twistWeight_}, rootNodeIndex{rootNodeIndex_}, spine{spine_}, leftUpperArm{leftUpperArm_}, rightUpperArm{rightUpperArm_}, leftThigh{leftThigh_}, rightThigh{rightThigh_}, useFABRIK{useFABRIK_} {}
     // Get instance field reference: public UnityEngine.Transform[] spineBones
     ::ArrayWrapper<UnityEngine::Transform*>& dyn_spineBones();
     // Get instance field reference: public UnityEngine.Transform leftUpperArmBone

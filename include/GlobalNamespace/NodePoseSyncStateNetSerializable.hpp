@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: NodePoseSyncStateNetSerializable
-    NodePoseSyncStateNetSerializable(GlobalNamespace::NodePoseSyncState state_ = {}, GlobalNamespace::SyncStateId id_ = {}, float time_ = {}) noexcept : state{state_}, id{id_}, time{time_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

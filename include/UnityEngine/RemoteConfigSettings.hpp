@@ -41,8 +41,6 @@ namespace UnityEngine {
     System::Action_1<bool>* Updated;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // Creating value type constructor for type: RemoteConfigSettings
-    RemoteConfigSettings(System::IntPtr m_Ptr_ = {}, System::Action_1<bool>* Updated_ = {}) noexcept : m_Ptr{m_Ptr_}, Updated{Updated_} {}
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<System.Boolean> Updated

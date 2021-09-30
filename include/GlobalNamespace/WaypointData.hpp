@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
-    // Creating value type constructor for type: WaypointData
-    WaypointData(GlobalNamespace::OffsetDirection offsetDirection_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}) noexcept : offsetDirection{offsetDirection_}, noteLineLayer{noteLineLayer_} {}
     // Get instance field reference: private OffsetDirection <offsetDirection>k__BackingField
     GlobalNamespace::OffsetDirection& dyn_$offsetDirection$k__BackingField();
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField

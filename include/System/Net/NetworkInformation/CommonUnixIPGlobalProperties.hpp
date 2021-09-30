@@ -20,8 +20,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommonUnixIPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
-    // Creating value type constructor for type: CommonUnixIPGlobalProperties
-    CommonUnixIPGlobalProperties() noexcept {}
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
     // Offset: 0x1851BF8
     static int getdomainname(::ArrayWrapper<uint8_t> name, int len);

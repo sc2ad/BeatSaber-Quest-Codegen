@@ -74,8 +74,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* instances;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*) == 0x8);
-    // Creating value type constructor for type: HEU_ObjectInstanceInfo
-    HEU_ObjectInstanceInfo(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InstancedInput*>* instancedInputs_ = {}, HoudiniEngineUnity::HEU_PartData* partTarget_ = {}, int instancedObjectNodeID_ = {}, ::Il2CppString* instancedObjectPath_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* instances_ = {}) noexcept : instancedInputs{instancedInputs_}, partTarget{partTarget_}, instancedObjectNodeID{instancedObjectNodeID_}, instancedObjectPath{instancedObjectPath_}, instances{instances_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(this);

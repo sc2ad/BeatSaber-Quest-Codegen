@@ -95,8 +95,6 @@ namespace UnityEngine::UI {
     UnityEngine::Rendering::ColorWriteMask colorMask;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::ColorWriteMask) == 0x4);
-    // Creating value type constructor for type: MatEntry
-    MatEntry(UnityEngine::Material* baseMat_ = {}, UnityEngine::Material* customMat_ = {}, int count_ = {}, int stencilId_ = {}, UnityEngine::Rendering::StencilOp operation_ = {}, UnityEngine::Rendering::CompareFunction compareFunction_ = {}, int readMask_ = {}, int writeMask_ = {}, bool useAlphaClip_ = {}, UnityEngine::Rendering::ColorWriteMask colorMask_ = {}) noexcept : baseMat{baseMat_}, customMat{customMat_}, count{count_}, stencilId{stencilId_}, operation{operation_}, compareFunction{compareFunction_}, readMask{readMask_}, writeMask{writeMask_}, useAlphaClip{useAlphaClip_}, colorMask{colorMask_} {}
     // Get instance field reference: public UnityEngine.Material baseMat
     UnityEngine::Material*& dyn_baseMat();
     // Get instance field reference: public UnityEngine.Material customMat

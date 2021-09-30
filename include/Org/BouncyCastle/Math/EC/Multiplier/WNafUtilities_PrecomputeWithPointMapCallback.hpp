@@ -62,8 +62,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     bool m_includeNegated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PrecomputeWithPointMapCallback
-    PrecomputeWithPointMapCallback(Org::BouncyCastle::Math::EC::ECPoint* m_point_ = {}, Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap_ = {}, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* m_fromWNaf_ = {}, bool m_includeNegated_ = {}) noexcept : m_point{m_point_}, m_pointMap{m_pointMap_}, m_fromWNaf{m_fromWNaf_}, m_includeNegated{m_includeNegated_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

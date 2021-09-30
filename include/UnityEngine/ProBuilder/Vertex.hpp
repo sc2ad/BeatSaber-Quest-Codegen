@@ -100,8 +100,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::MeshArrays m_Attributes;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::MeshArrays) == 0x4);
-    // Creating value type constructor for type: Vertex
-    Vertex(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector4 m_Tangent_ = {}, UnityEngine::Vector2 m_UV0_ = {}, UnityEngine::Vector2 m_UV2_ = {}, UnityEngine::Vector4 m_UV3_ = {}, UnityEngine::Vector4 m_UV4_ = {}, UnityEngine::ProBuilder::MeshArrays m_Attributes_ = {}) noexcept : m_Position{m_Position_}, m_Color{m_Color_}, m_Normal{m_Normal_}, m_Tangent{m_Tangent_}, m_UV0{m_UV0_}, m_UV2{m_UV2_}, m_UV3{m_UV3_}, m_UV4{m_UV4_}, m_Attributes{m_Attributes_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::Vertex*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::Vertex*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Vertex*>*>(this);

@@ -25,8 +25,6 @@ namespace HMUI {
     ::Il2CppString* formatString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CustomFormatRangeValuesSlider
-    CustomFormatRangeValuesSlider(::Il2CppString* formatString_ = {}) noexcept : formatString{formatString_} {}
     // Get instance field reference: private System.String _formatString
     ::Il2CppString*& dyn__formatString();
     // public System.Void .ctor()

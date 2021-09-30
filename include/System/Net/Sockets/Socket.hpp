@@ -213,8 +213,6 @@ namespace System::Net::Sockets {
     bool connect_in_progress;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Socket
-    Socket(bool is_closed_ = {}, bool is_listening_ = {}, bool useOverlappedIO_ = {}, int linger_timeout_ = {}, System::Net::Sockets::AddressFamily addressFamily_ = {}, System::Net::Sockets::SocketType socketType_ = {}, System::Net::Sockets::ProtocolType protocolType_ = {}, System::Net::Sockets::SafeSocketHandle* m_Handle_ = {}, System::Net::EndPoint* seed_endpoint_ = {}, System::Threading::SemaphoreSlim* ReadSem_ = {}, System::Threading::SemaphoreSlim* WriteSem_ = {}, bool is_blocking_ = {}, bool is_bound_ = {}, bool is_connected_ = {}, int m_IntCleanedUp_ = {}, bool connect_in_progress_ = {}) noexcept : is_closed{is_closed_}, is_listening{is_listening_}, useOverlappedIO{useOverlappedIO_}, linger_timeout{linger_timeout_}, addressFamily{addressFamily_}, socketType{socketType_}, protocolType{protocolType_}, m_Handle{m_Handle_}, seed_endpoint{seed_endpoint_}, ReadSem{ReadSem_}, WriteSem{WriteSem_}, is_blocking{is_blocking_}, is_bound{is_bound_}, is_connected{is_connected_}, m_IntCleanedUp{m_IntCleanedUp_}, connect_in_progress{connect_in_progress_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

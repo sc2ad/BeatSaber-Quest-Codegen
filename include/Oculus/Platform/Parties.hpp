@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parties : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Parties
-    Parties() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Party> GetCurrent()
     // Offset: 0x25B74E8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* GetCurrent();

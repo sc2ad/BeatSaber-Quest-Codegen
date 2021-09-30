@@ -21,8 +21,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E60704
   class UnsafeValueTypeAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: UnsafeValueTypeAttribute
-    UnsafeValueTypeAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AE130
     // Implemented from: System.Attribute

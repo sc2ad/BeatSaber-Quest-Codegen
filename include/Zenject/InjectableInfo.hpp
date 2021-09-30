@@ -68,8 +68,6 @@ namespace Zenject {
     ::Il2CppObject* DefaultValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: InjectableInfo
-    InjectableInfo(bool Optional_ = {}, ::Il2CppObject* Identifier_ = {}, Zenject::InjectSources SourceType_ = {}, ::Il2CppString* MemberName_ = {}, System::Type* MemberType_ = {}, ::Il2CppObject* DefaultValue_ = {}) noexcept : Optional{Optional_}, Identifier{Identifier_}, SourceType{SourceType_}, MemberName{MemberName_}, MemberType{MemberType_}, DefaultValue{DefaultValue_} {}
     // Get instance field reference: public readonly System.Boolean Optional
     bool& dyn_Optional();
     // Get instance field reference: public readonly System.Object Identifier

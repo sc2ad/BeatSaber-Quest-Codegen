@@ -17,8 +17,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetLogger {
     public:
-    // Creating value type constructor for type: INetLogger
-    INetLogger() noexcept {}
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::ArrayWrapper<::Il2CppObject*> args);

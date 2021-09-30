@@ -42,8 +42,6 @@ namespace UnityEngine::ResourceManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestQueue : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: WebRequestQueue
-    WebRequestQueue() noexcept {}
     // Get static field: static System.Int32 s_MaxRequest
     static int _get_s_MaxRequest();
     // Set static field: static System.Int32 s_MaxRequest

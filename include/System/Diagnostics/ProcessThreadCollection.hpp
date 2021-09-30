@@ -17,8 +17,6 @@ namespace System::Diagnostics {
   // [DefaultMemberAttribute] Offset: E692B0
   class ProcessThreadCollection : public System::Collections::ReadOnlyCollectionBase {
     public:
-    // Creating value type constructor for type: ProcessThreadCollection
-    ProcessThreadCollection() noexcept {}
   }; // System.Diagnostics.ProcessThreadCollection
   #pragma pack(pop)
 }

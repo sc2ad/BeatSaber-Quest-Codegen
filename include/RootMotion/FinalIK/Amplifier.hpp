@@ -36,8 +36,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*> bodies;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>) == 0x8);
-    // Creating value type constructor for type: Amplifier
-    Amplifier(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*> bodies_ = {}) noexcept : bodies{bodies_} {}
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
     ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>& dyn_bodies();
     // public System.Void .ctor()

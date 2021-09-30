@@ -61,7 +61,6 @@ namespace UnityEngine::ProBuilder {
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
     // Offset: 0x1C7B640
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
     // Offset: 0x1C7B82C

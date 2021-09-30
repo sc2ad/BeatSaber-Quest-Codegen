@@ -40,8 +40,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Size: 0xFFFFFFFF
     // Offset: 0x98
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> m_sceneLoadHandle;
-    // Creating value type constructor for type: UnloadSceneOp
-    UnloadSceneOp(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance m_Instance_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> m_sceneLoadHandle_ = {}) noexcept : m_Instance{m_Instance_}, m_sceneLoadHandle{m_sceneLoadHandle_} {}
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Instance
     UnityEngine::ResourceManagement::ResourceProviders::SceneInstance& dyn_m_Instance();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle

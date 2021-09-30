@@ -50,8 +50,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stream::NullStream : public System::IO::Stream {
     public:
-    // Creating value type constructor for type: NullStream
-    NullStream() noexcept {}
     // Get static field: static private System.Threading.Tasks.Task`1<System.Int32> s_nullReadTask
     static System::Threading::Tasks::Task_1<int>* _get_s_nullReadTask();
     // Set static field: static private System.Threading.Tasks.Task`1<System.Int32> s_nullReadTask

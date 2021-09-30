@@ -21,8 +21,6 @@ namespace Zenject {
   // [AttributeUsageAttribute] Offset: EADEE8
   class ZenjectAllowDuringValidationAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ZenjectAllowDuringValidationAttribute
-    ZenjectAllowDuringValidationAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2611B98
     // Implemented from: System.Attribute

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*> textValuePairs;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>) == 0x8);
-    // Creating value type constructor for type: NamedIntListSettingsController
-    NamedIntListSettingsController(GlobalNamespace::IntSO* settingsValue_ = {}, ::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*> textValuePairs_ = {}) noexcept : settingsValue{settingsValue_}, textValuePairs{textValuePairs_} {}
     // Get instance field reference: private IntSO _settingsValue
     GlobalNamespace::IntSO*& dyn__settingsValue();
     // Get instance field reference: private NamedIntListSettingsController/TextValuePair[] _textValuePairs

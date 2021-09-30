@@ -98,7 +98,6 @@ namespace UnityEngine::TextCore {
     float get_horizontalAdvance();
     // public System.Void .ctor(System.Single width, System.Single height, System.Single bearingX, System.Single bearingY, System.Single advance)
     // Offset: 0x25FE600
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance)
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphMetrics other)
     // Offset: 0x25FE71C

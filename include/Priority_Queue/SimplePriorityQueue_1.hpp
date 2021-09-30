@@ -34,8 +34,6 @@ namespace Priority_Queue {
   template<typename TItem>
   class SimplePriorityQueue_1 : public Priority_Queue::SimplePriorityQueue_2<TItem, float> {
     public:
-    // Creating value type constructor for type: SimplePriorityQueue_1
-    SimplePriorityQueue_1() noexcept {}
     // public System.Void .ctor(System.Collections.Generic.IComparer`1<System.Single> comparer)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

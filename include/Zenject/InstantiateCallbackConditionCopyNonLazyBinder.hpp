@@ -39,8 +39,6 @@ namespace Zenject {
     // Nested type: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1<T>
     template<typename T>
     class $$c__DisplayClass2_0_1;
-    // Creating value type constructor for type: InstantiateCallbackConditionCopyNonLazyBinder
-    InstantiateCallbackConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.ConditionCopyNonLazyBinder OnInstantiated(System.Action`2<Zenject.InjectContext,System.Object> callback)
     // Offset: 0x1834F00
     Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* callback);

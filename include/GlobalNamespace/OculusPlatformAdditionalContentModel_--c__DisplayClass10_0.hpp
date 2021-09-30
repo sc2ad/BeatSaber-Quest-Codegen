@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>* launchCheckoutFlowTaskSource;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>* launchCheckoutFlowTaskSource_ = {}) noexcept : launchCheckoutFlowTaskSource{launchCheckoutFlowTaskSource_} {}
     // Creating conversion operator: operator System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>*
     constexpr operator System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>*() const noexcept {
       return launchCheckoutFlowTaskSource;

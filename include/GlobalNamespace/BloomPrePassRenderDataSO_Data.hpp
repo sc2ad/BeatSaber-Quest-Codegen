@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ToneMapping toneMapping;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ToneMapping) == 0x4);
-    // Creating value type constructor for type: Data
-    Data(UnityEngine::RenderTexture* bloomPrePassRenderTexture_ = {}, UnityEngine::Vector2 textureToScreenRatio_ = {}, UnityEngine::Matrix4x4 viewMatrix_ = {}, UnityEngine::Matrix4x4 projectionMatrix_ = {}, float stereoCameraEyeOffset_ = {}, GlobalNamespace::ToneMapping toneMapping_ = {}) noexcept : bloomPrePassRenderTexture{bloomPrePassRenderTexture_}, textureToScreenRatio{textureToScreenRatio_}, viewMatrix{viewMatrix_}, projectionMatrix{projectionMatrix_}, stereoCameraEyeOffset{stereoCameraEyeOffset_}, toneMapping{toneMapping_} {}
     // Get instance field reference: public UnityEngine.RenderTexture bloomPrePassRenderTexture
     UnityEngine::RenderTexture*& dyn_bloomPrePassRenderTexture();
     // Get instance field reference: public UnityEngine.Vector2 textureToScreenRatio

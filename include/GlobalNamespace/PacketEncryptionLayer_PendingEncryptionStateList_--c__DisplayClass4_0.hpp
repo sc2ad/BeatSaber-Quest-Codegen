@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     int port;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(int port_ = {}) noexcept : port{port_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return port;

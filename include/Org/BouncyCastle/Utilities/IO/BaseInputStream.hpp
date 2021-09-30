@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Utilities::IO {
     bool closed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BaseInputStream
-    BaseInputStream(bool closed_ = {}) noexcept : closed{closed_} {}
     // Get instance field reference: private System.Boolean closed
     bool& dyn_closed();
     // public override System.Boolean get_CanRead()

@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Iana {
   // [TokenAttribute] Offset: FFFFFFFF
   class IanaObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IanaObjectIdentifiers
-    IanaObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IsakmpOakley
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IsakmpOakley();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IsakmpOakley

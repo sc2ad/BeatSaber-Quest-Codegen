@@ -75,8 +75,6 @@ namespace MasterServer {
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(System::Threading::CancellationToken cancellationToken_ = {}, MasterServer::UserMessageHandler* $$4__this_ = {}, MasterServer::BaseConnectToServerRequest* request_ = {}, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess_ = {}, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed_ = {}) noexcept : cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, request{request_}, onSuccess{onSuccess_}, onConnectionFailed{onConnectionFailed_} {}
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public MasterServer.UserMessageHandler <>4__this

@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     ::Il2CppString* code;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: JoinMatchmakingPartyConfig
-    JoinMatchmakingPartyConfig(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}) noexcept : secret{secret_}, code{code_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>
     operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>*>(this);

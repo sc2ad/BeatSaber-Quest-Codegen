@@ -56,8 +56,6 @@ namespace TMPro {
     class $$c__DisplayClass13_0;
     // Nested type: TMPro::TMP_MaterialManager::$$c__DisplayClass14_0
     class $$c__DisplayClass14_0;
-    // Creating value type constructor for type: TMP_MaterialManager
-    TMP_MaterialManager() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<TMPro.TMP_MaterialManager/TMPro.MaskingMaterial> m_materialList
     static System::Collections::Generic::List_1<TMPro::TMP_MaterialManager::MaskingMaterial*>* _get_m_materialList();
     // Set static field: static private System.Collections.Generic.List`1<TMPro.TMP_MaterialManager/TMPro.MaskingMaterial> m_materialList

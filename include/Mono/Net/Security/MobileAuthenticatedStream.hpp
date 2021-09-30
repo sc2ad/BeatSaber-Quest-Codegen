@@ -197,8 +197,6 @@ namespace Mono::Net::Security {
     int _ID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MobileAuthenticatedStream
-    MobileAuthenticatedStream(Mono::Net::Security::MobileTlsContext* xobileTlsContext_ = {}, System::Runtime::ExceptionServices::ExceptionDispatchInfo* lastException_ = {}, Mono::Net::Security::AsyncProtocolRequest* asyncHandshakeRequest_ = {}, Mono::Net::Security::AsyncProtocolRequest* asyncReadRequest_ = {}, Mono::Net::Security::AsyncProtocolRequest* asyncWriteRequest_ = {}, Mono::Net::Security::BufferOffsetSize2* readBuffer_ = {}, Mono::Net::Security::BufferOffsetSize2* writeBuffer_ = {}, ::Il2CppObject* ioLock_ = {}, int closeRequested_ = {}, bool shutdown_ = {}, System::Net::Security::SslStream* SslStream_ = {}, Mono::Security::Interface::MonoTlsSettings* Settings_ = {}, Mono::Security::Interface::MonoTlsProvider* Provider_ = {}, int _ID_ = {}) noexcept : xobileTlsContext{xobileTlsContext_}, lastException{lastException_}, asyncHandshakeRequest{asyncHandshakeRequest_}, asyncReadRequest{asyncReadRequest_}, asyncWriteRequest{asyncWriteRequest_}, readBuffer{readBuffer_}, writeBuffer{writeBuffer_}, ioLock{ioLock_}, closeRequested{closeRequested_}, shutdown{shutdown_}, SslStream{SslStream_}, Settings{Settings_}, Provider{Provider_}, _ID{_ID_} {}
     // Creating interface conversion operator: operator Mono::Security::Interface::IMonoSslStream
     operator Mono::Security::Interface::IMonoSslStream() noexcept {
       return *reinterpret_cast<Mono::Security::Interface::IMonoSslStream*>(this);

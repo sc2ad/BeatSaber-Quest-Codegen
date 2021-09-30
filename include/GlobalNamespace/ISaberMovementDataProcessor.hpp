@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISaberMovementDataProcessor {
     public:
-    // Creating value type constructor for type: ISaberMovementDataProcessor
-    ISaberMovementDataProcessor() noexcept {}
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
     // Offset: 0xFFFFFFFF
     void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);

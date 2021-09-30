@@ -23,8 +23,6 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class IObjectInitializationDataProvider {
     public:
-    // Creating value type constructor for type: IObjectInitializationDataProvider
-    IObjectInitializationDataProvider() noexcept {}
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_Name();

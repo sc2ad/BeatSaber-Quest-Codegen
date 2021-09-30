@@ -34,8 +34,6 @@ namespace UnityEngine::AddressableAssets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UpdateCatalogsOperation::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.AddressableAssets.UpdateCatalogsOperation/UnityEngine.AddressableAssets.<>c <>9
     static UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.AddressableAssets.UpdateCatalogsOperation/UnityEngine.AddressableAssets.<>c <>9

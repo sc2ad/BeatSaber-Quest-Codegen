@@ -47,8 +47,6 @@ namespace UnityEngine::Tilemaps {
   // [NativeHeaderAttribute] Offset: ED2994
   class Tilemap : public UnityEngine::GridLayout {
     public:
-    // Creating value type constructor for type: Tilemap
-    Tilemap() noexcept {}
     // public UnityEngine.Grid get_layoutGrid()
     // Offset: 0x26229AC
     UnityEngine::Grid* get_layoutGrid();

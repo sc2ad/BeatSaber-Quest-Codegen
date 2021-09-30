@@ -60,8 +60,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Texture2D::EXRFlags
     struct EXRFlags;
-    // Creating value type constructor for type: Texture2D
-    Texture2D() noexcept {}
     // public UnityEngine.TextureFormat get_format()
     // Offset: 0x2341C0C
     UnityEngine::TextureFormat get_format();

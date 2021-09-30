@@ -27,8 +27,6 @@ namespace LiteNetLib::Layers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Crc32cLayer : public LiteNetLib::Layers::PacketLayerBase {
     public:
-    // Creating value type constructor for type: Crc32cLayer
-    Crc32cLayer() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DD3BF0
     // Implemented from: System.Object

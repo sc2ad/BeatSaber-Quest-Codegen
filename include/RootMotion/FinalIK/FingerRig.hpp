@@ -54,8 +54,6 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FingerRig
-    FingerRig(float weight_ = {}, ::ArrayWrapper<RootMotion::FinalIK::Finger*> fingers_ = {}, bool initiated_ = {}) noexcept : weight{weight_}, fingers{fingers_}, initiated{initiated_} {}
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public RootMotion.FinalIK.Finger[] fingers

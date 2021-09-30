@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
-    // Creating value type constructor for type: AudioLatencyViewController
-    AudioLatencyViewController(GlobalNamespace::FloatSO* audioLatency_ = {}, GlobalNamespace::BoolSO* overrideAudioLatency_ = {}, UnityEngine::CanvasGroup* setupCanvasGroup_ = {}, UnityEngine::UI::Toggle* overrideAudioLatencyToggle_ = {}, HMUI::RangeValuesTextSlider* slider_ = {}, GlobalNamespace::VisualMetronome* visualMetronome_ = {}, float disabledAlpha_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : audioLatency{audioLatency_}, overrideAudioLatency{overrideAudioLatency_}, setupCanvasGroup{setupCanvasGroup_}, overrideAudioLatencyToggle{overrideAudioLatencyToggle_}, slider{slider_}, visualMetronome{visualMetronome_}, disabledAlpha{disabledAlpha_}, songPreviewPlayer{songPreviewPlayer_}, toggleBinder{toggleBinder_} {}
     // Get instance field reference: private FloatSO _audioLatency
     GlobalNamespace::FloatSO*& dyn__audioLatency();
     // Get instance field reference: private BoolSO _overrideAudioLatency

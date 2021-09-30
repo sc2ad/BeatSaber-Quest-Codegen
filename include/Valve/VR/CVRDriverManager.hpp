@@ -35,8 +35,6 @@ namespace Valve::VR {
     Valve::VR::IVRDriverManager FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRDriverManager) == 0x10);
-    // Creating value type constructor for type: CVRDriverManager
-    CVRDriverManager(Valve::VR::IVRDriverManager FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRDriverManager
     constexpr operator Valve::VR::IVRDriverManager() const noexcept {
       return FnTable;

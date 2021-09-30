@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     bool isRegistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LightWithIds
-    LightWithIds(GlobalNamespace::LightWithIdManager* lightManager_ = {}, bool isRegistered_ = {}) noexcept : lightManager{lightManager_}, isRegistered{isRegistered_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly LightWithIdManager _lightManager

@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRefreshable {
     public:
-    // Creating value type constructor for type: IRefreshable
-    IRefreshable() noexcept {}
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFF
     void Refresh();

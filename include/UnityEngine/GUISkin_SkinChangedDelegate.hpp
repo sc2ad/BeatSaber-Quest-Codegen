@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUISkin::SkinChangedDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SkinChangedDelegate
-    SkinChangedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1CA0CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

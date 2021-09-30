@@ -23,8 +23,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CE18
   class ValueType : public System::Object {
     public:
-    // Creating value type constructor for type: ValueType
-    ValueType() noexcept {}
     // static private System.Boolean InternalEquals(System.Object o1, System.Object o2, out System.Object[] fields)
     // Offset: 0x25372A0
     static bool InternalEquals(::Il2CppObject* o1, ::Il2CppObject* o2, ByRef<::ArrayWrapper<::Il2CppObject*>> fields);

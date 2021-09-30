@@ -66,8 +66,6 @@ namespace Zenject::Internal {
     System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>*) == 0x8);
-    // Creating value type constructor for type: $GetAllSceneContexts$d__3
-    $GetAllSceneContexts$d__3(int $$1__state_ = {}, Zenject::SceneContext* $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>
     operator System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>*>(this);

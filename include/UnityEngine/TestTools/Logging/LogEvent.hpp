@@ -44,8 +44,6 @@ namespace UnityEngine::TestTools::Logging {
     bool IsHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LogEvent
-    LogEvent(::Il2CppString* Message_ = {}, ::Il2CppString* StackTrace_ = {}, UnityEngine::LogType LogType_ = {}, bool IsHandled_ = {}) noexcept : Message{Message_}, StackTrace{StackTrace_}, LogType{LogType_}, IsHandled{IsHandled_} {}
     // Get instance field reference: private System.String <Message>k__BackingField
     ::Il2CppString*& dyn_$Message$k__BackingField();
     // Get instance field reference: private System.String <StackTrace>k__BackingField

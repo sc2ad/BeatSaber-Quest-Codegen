@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     System::Action_1<float>* setSongStartSyncTimeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // Creating value type constructor for type: SongStartHandler
-    SongStartHandler(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* readyPlayers_ = {}, bool started_ = {}, float startTime_ = {}, System::Action_1<float>* setSongStartSyncTimeEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, playersAtGameStartModel{playersAtGameStartModel_}, readyPlayers{readyPlayers_}, started{started_}, startTime{startTime_}, setSongStartSyncTimeEvent{setSongStartSyncTimeEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

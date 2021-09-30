@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // Creating value type constructor for type: TutorialNoteCutEffectSpawner
-    TutorialNoteCutEffectSpawner(GlobalNamespace::FlyingTextSpawner* failFlyingTextSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : failFlyingTextSpawner{failFlyingTextSpawner_}, beatmapObjectManager{beatmapObjectManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingTextSpawner _failFlyingTextSpawner

@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialBeatmapObjectManager::InitData*) == 0x8);
-    // Creating value type constructor for type: TutorialBeatmapObjectManager
-    TutorialBeatmapObjectManager(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>* tutorialNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* bombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer_ = {}, GlobalNamespace::TutorialBeatmapObjectManager::InitData* initData_ = {}) noexcept : tutorialNotePoolContainer{tutorialNotePoolContainer_}, bombNotePoolContainer{bombNotePoolContainer_}, obstaclePoolContainer{obstaclePoolContainer_}, initData{initData_} {}
     // Get instance field reference: private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>*& dyn__tutorialNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer

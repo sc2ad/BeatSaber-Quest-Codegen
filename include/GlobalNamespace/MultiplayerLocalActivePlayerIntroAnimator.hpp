@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* introPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalActivePlayerIntroAnimator
-    MultiplayerLocalActivePlayerIntroAnimator(UnityEngine::Playables::PlayableDirector* introPlayableDirector_ = {}) noexcept : introPlayableDirector{introPlayableDirector_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector

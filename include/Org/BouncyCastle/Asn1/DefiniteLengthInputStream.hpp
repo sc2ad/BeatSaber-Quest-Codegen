@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Asn1 {
     int remaining;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DefiniteLengthInputStream
-    DefiniteLengthInputStream(int originalLength_ = {}, int remaining_ = {}) noexcept : originalLength{originalLength_}, remaining{remaining_} {}
     // Get static field: static private readonly System.Byte[] EmptyBytes
     static ::ArrayWrapper<uint8_t> _get_EmptyBytes();
     // Set static field: static private readonly System.Byte[] EmptyBytes

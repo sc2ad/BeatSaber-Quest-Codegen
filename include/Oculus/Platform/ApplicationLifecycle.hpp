@@ -28,8 +28,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class ApplicationLifecycle : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ApplicationLifecycle
-    ApplicationLifecycle() noexcept {}
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
     // Offset: 0x1D1A6F0
     static Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();

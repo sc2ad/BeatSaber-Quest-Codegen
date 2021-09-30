@@ -34,8 +34,6 @@ namespace System {
     ::Il2CppString* signature;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MissingMethodException
-    MissingMethodException(::Il2CppString* signature_ = {}) noexcept : signature{signature_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return signature;

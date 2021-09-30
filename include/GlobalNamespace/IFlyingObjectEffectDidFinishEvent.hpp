@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFlyingObjectEffectDidFinishEvent {
     public:
-    // Creating value type constructor for type: IFlyingObjectEffectDidFinishEvent
-    IFlyingObjectEffectDidFinishEvent() noexcept {}
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
     // Offset: 0xFFFFFFFF
     void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);

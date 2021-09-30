@@ -25,8 +25,6 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class CertHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CertHelper
-    CertHelper() noexcept {}
     // static public System.Void AddCertificatesToNativeChain(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* nativeCertificateChain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
     // Offset: 0x17C2148
     static void AddCertificatesToNativeChain(Mono::Unity::UnityTls::unitytls_x509list* nativeCertificateChain, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, Mono::Unity::UnityTls::unitytls_errorstate* errorState);

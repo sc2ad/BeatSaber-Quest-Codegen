@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockServerSettings : public GlobalNamespace::MockPlayerSettings {
     public:
-    // Creating value type constructor for type: MockServerSettings
-    MockServerSettings() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1207BEC
     // Implemented from: MockPlayerSettings

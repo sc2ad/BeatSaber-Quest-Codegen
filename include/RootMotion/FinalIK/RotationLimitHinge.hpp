@@ -60,8 +60,6 @@ namespace RootMotion::FinalIK {
     float lastAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: RotationLimitHinge
-    RotationLimitHinge(bool useLimits_ = {}, float min_ = {}, float max_ = {}, float zeroAxisDisplayOffset_ = {}, UnityEngine::Quaternion lastRotation_ = {}, float lastAngle_ = {}) noexcept : useLimits{useLimits_}, min{min_}, max{max_}, zeroAxisDisplayOffset{zeroAxisDisplayOffset_}, lastRotation{lastRotation_}, lastAngle{lastAngle_} {}
     // Get instance field reference: public System.Boolean useLimits
     bool& dyn_useLimits();
     // Get instance field reference: public System.Single min

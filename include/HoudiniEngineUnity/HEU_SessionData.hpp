@@ -103,8 +103,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::SessionMode sessionMode;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::SessionMode) == 0x4);
-    // Creating value type constructor for type: HEU_SessionData
-    HEU_SessionData(HoudiniEngineUnity::HAPI_Session HAPISession_ = {}, int serverProcessID_ = {}, bool initialized_ = {}, ::Il2CppString* pipeName_ = {}, int port_ = {}, ::Il2CppString* sessionClassType_ = {}, bool isDefaultSession_ = {}, HoudiniEngineUnity::HEU_SessionSyncData* sessionSync_ = {}, HoudiniEngineUnity::SessionConnectionState connectionState_ = {}, HoudiniEngineUnity::SessionMode sessionMode_ = {}) noexcept : HAPISession{HAPISession_}, serverProcessID{serverProcessID_}, initialized{initialized_}, pipeName{pipeName_}, port{port_}, sessionClassType{sessionClassType_}, isDefaultSession{isDefaultSession_}, sessionSync{sessionSync_}, connectionState{connectionState_}, sessionMode{sessionMode_} {}
     // Get static field: static public System.Int64 INVALID_SESSION_ID
     static int64_t _get_INVALID_SESSION_ID();
     // Set static field: static public System.Int64 INVALID_SESSION_ID

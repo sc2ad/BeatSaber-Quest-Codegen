@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1OutputStream : public Org::BouncyCastle::Asn1::DerOutputStream {
     public:
-    // Creating value type constructor for type: Asn1OutputStream
-    Asn1OutputStream() noexcept {}
     // public System.Void .ctor(System.IO.Stream os)
     // Offset: 0x18DE088
     // Implemented from: Org.BouncyCastle.Asn1.DerOutputStream

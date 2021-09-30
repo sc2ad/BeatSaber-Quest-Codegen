@@ -73,8 +73,6 @@ namespace UnityEngine {
     ::ArrayWrapper<UnityEngine::ContactPoint> m_LegacyContacts;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ContactPoint>) == 0x8);
-    // Creating value type constructor for type: Collision
-    Collision(UnityEngine::Vector3 m_Impulse_ = {}, UnityEngine::Vector3 m_RelativeVelocity_ = {}, UnityEngine::Rigidbody* m_Rigidbody_ = {}, UnityEngine::Collider* m_Collider_ = {}, int m_ContactCount_ = {}, ::ArrayWrapper<UnityEngine::ContactPoint> m_ReusedContacts_ = {}, ::ArrayWrapper<UnityEngine::ContactPoint> m_LegacyContacts_ = {}) noexcept : m_Impulse{m_Impulse_}, m_RelativeVelocity{m_RelativeVelocity_}, m_Rigidbody{m_Rigidbody_}, m_Collider{m_Collider_}, m_ContactCount{m_ContactCount_}, m_ReusedContacts{m_ReusedContacts_}, m_LegacyContacts{m_LegacyContacts_} {}
     // Get instance field reference: UnityEngine.Vector3 m_Impulse
     UnityEngine::Vector3& dyn_m_Impulse();
     // Get instance field reference: UnityEngine.Vector3 m_RelativeVelocity

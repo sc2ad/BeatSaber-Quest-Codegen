@@ -76,8 +76,6 @@ namespace OnlineServices::API {
     System::UriBuilder* uriBuilder;
     // Field size check
     static_assert(sizeof(System::UriBuilder*) == 0x8);
-    // Creating value type constructor for type: HTTPAdminLeaderboardsHelper
-    HTTPAdminLeaderboardsHelper(::Il2CppString* secret_ = {}, System::UriBuilder* uriBuilder_ = {}) noexcept : secret{secret_}, uriBuilder{uriBuilder_} {}
     // Get instance field reference: private System.String _secret
     ::Il2CppString*& dyn__secret();
     // Get instance field reference: private System.UriBuilder _uriBuilder

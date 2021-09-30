@@ -55,8 +55,6 @@ namespace TMPro {
     TMPro::TMP_Text* m_TextComponent;
     // Field size check
     static_assert(sizeof(TMPro::TMP_Text*) == 0x8);
-    // Creating value type constructor for type: TMP_SpriteAnimator
-    TMP_SpriteAnimator(System::Collections::Generic::Dictionary_2<int, bool>* m_animations_ = {}, TMPro::TMP_Text* m_TextComponent_ = {}) noexcept : m_animations{m_animations_}, m_TextComponent{m_TextComponent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations

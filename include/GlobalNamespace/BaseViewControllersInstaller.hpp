@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // Creating value type constructor for type: BaseViewControllersInstaller
-    BaseViewControllersInstaller(GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab_ = {}) noexcept : simpleDialogPromptViewControllerPrefab{simpleDialogPromptViewControllerPrefab_} {}
     // Get instance field reference: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewControllerPrefab();
     // public System.Void .ctor()

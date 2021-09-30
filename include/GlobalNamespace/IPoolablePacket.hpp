@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPoolablePacket {
     public:
-    // Creating value type constructor for type: IPoolablePacket
-    IPoolablePacket() noexcept {}
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();

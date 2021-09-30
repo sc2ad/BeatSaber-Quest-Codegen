@@ -26,8 +26,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class LateTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::ILateTickable*> {
     public:
-    // Creating value type constructor for type: LateTickablesTaskUpdater
-    LateTickablesTaskUpdater() noexcept {}
     // protected System.Void UpdateItem(Zenject.ILateTickable task)
     // Offset: 0x1894F6C
     void UpdateItem(Zenject::ILateTickable* task);

@@ -85,8 +85,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> workingKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: TwofishEngine
-    TwofishEngine(bool encrypting_ = {}, ::ArrayWrapper<int> gMDS0_ = {}, ::ArrayWrapper<int> gMDS1_ = {}, ::ArrayWrapper<int> gMDS2_ = {}, ::ArrayWrapper<int> gMDS3_ = {}, ::ArrayWrapper<int> gSubKeys_ = {}, ::ArrayWrapper<int> gSBox_ = {}, int k64Cnt_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}) noexcept : encrypting{encrypting_}, gMDS0{gMDS0_}, gMDS1{gMDS1_}, gMDS2{gMDS2_}, gMDS3{gMDS3_}, gSubKeys{gSubKeys_}, gSBox{gSBox_}, k64Cnt{k64Cnt_}, workingKey{workingKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

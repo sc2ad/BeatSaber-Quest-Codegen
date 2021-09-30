@@ -71,8 +71,6 @@ namespace UnityEngine::ProBuilder {
     int appliedOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FaceRebuildData
-    FaceRebuildData(UnityEngine::ProBuilder::Face* face_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices_ = {}, System::Collections::Generic::List_1<int>* sharedIndexes_ = {}, System::Collections::Generic::List_1<int>* sharedIndexesUV_ = {}, int appliedOffset_ = {}) noexcept : face{face_}, vertices{vertices_}, sharedIndexes{sharedIndexes_}, sharedIndexesUV{sharedIndexesUV_}, appliedOffset{appliedOffset_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Face face
     UnityEngine::ProBuilder::Face*& dyn_face();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices

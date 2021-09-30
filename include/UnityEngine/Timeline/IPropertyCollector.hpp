@@ -39,8 +39,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPropertyCollector {
     public:
-    // Creating value type constructor for type: IPropertyCollector
-    IPropertyCollector() noexcept {}
     // public System.Void PushActiveGameObject(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
     void PushActiveGameObject(UnityEngine::GameObject* gameObject);

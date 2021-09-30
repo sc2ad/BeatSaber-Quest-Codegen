@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     float timeToUpdateUI;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FPSCounterUIController
-    FPSCounterUIController(float uiUpdateTimeInterval_ = {}, TMPro::TextMeshProUGUI* currentFPSText_ = {}, TMPro::TextMeshProUGUI* lowestFPSText_ = {}, TMPro::TextMeshProUGUI* highestFPSText_ = {}, TMPro::TextMeshProUGUI* droppedFramesText_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::FPSCounter* fpsCounter_ = {}, float timeToUpdateUI_ = {}) noexcept : uiUpdateTimeInterval{uiUpdateTimeInterval_}, currentFPSText{currentFPSText_}, lowestFPSText{lowestFPSText_}, highestFPSText{highestFPSText_}, droppedFramesText{droppedFramesText_}, gameScenesManager{gameScenesManager_}, fpsCounter{fpsCounter_}, timeToUpdateUI{timeToUpdateUI_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _uiUpdateTimeInterval

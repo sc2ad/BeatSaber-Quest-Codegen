@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMultiplayerSpectatingSpot {
     public:
-    // Creating value type constructor for type: IMultiplayerSpectatingSpot
-    IMultiplayerSpectatingSpot() noexcept {}
     // public System.Boolean get_isMain()
     // Offset: 0xFFFFFFFF
     bool get_isMain();

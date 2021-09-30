@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5330
   class IVRSystem::_GetButtonIdNameFromEnum : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetButtonIdNameFromEnum
-    _GetButtonIdNameFromEnum() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDB3A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,8 +36,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ArgConditionCopyNonLazyBinder : public Zenject::InstantiateCallbackConditionCopyNonLazyBinder {
     public:
-    // Creating value type constructor for type: ArgConditionCopyNonLazyBinder
-    ArgConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(T param)
     // Offset: 0xFFFFFFFF
     template<class T>

@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     int m_confWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ConfigureBasepointCallback
-    ConfigureBasepointCallback(Org::BouncyCastle::Math::EC::ECCurve* m_curve_ = {}, int m_confWidth_ = {}) noexcept : m_curve{m_curve_}, m_confWidth{m_confWidth_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

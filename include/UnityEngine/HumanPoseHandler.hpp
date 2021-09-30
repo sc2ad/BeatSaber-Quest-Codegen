@@ -45,8 +45,6 @@ namespace UnityEngine {
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: HumanPoseHandler
-    HumanPoseHandler(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

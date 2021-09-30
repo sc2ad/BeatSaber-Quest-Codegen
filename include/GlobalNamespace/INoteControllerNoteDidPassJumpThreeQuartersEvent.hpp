@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteControllerNoteDidPassJumpThreeQuartersEvent {
     public:
-    // Creating value type constructor for type: INoteControllerNoteDidPassJumpThreeQuartersEvent
-    INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {}
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
     // Offset: 0xFFFFFFFF
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase* noteController);

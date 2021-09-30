@@ -36,8 +36,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionAssemblySelectionBinder::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.ConventionAssemblySelectionBinder/Zenject.<>c <>9
     static Zenject::ConventionAssemblySelectionBinder::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.ConventionAssemblySelectionBinder/Zenject.<>c <>9

@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Asn1 {
     int start;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DerInteger
-    DerInteger(::ArrayWrapper<uint8_t> bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
     // Get instance field reference: private readonly System.Byte[] bytes
     ::ArrayWrapper<uint8_t>& dyn_bytes();
     // Get instance field reference: private readonly System.Int32 start

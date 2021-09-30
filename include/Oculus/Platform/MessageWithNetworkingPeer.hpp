@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithNetworkingPeer : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*> {
     public:
-    // Creating value type constructor for type: MessageWithNetworkingPeer
-    MessageWithNetworkingPeer() noexcept {}
     // protected Oculus.Platform.Models.NetworkingPeer GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BB844
     Oculus::Platform::Models::NetworkingPeer* GetDataFromMessage(System::IntPtr c_message);

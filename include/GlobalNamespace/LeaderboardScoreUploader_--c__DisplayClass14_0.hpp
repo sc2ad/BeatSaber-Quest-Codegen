@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LeaderboardScoreUploader* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass14_0
-    $$c__DisplayClass14_0(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData_ = {}, GlobalNamespace::LeaderboardScoreUploader* $$4__this_ = {}) noexcept : scoreData{scoreData_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public LeaderboardScoreUploader/ScoreData scoreData
     GlobalNamespace::LeaderboardScoreUploader::ScoreData*& dyn_scoreData();
     // Get instance field reference: public LeaderboardScoreUploader <>4__this

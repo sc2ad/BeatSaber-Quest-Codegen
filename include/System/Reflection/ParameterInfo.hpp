@@ -101,8 +101,6 @@ namespace System::Reflection {
     System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::MarshalAsAttribute*) == 0x8);
-    // Creating value type constructor for type: ParameterInfo
-    ParameterInfo(System::Type* ClassImpl_ = {}, ::Il2CppObject* DefaultValueImpl_ = {}, System::Reflection::MemberInfo* MemberImpl_ = {}, ::Il2CppString* NameImpl_ = {}, int PositionImpl_ = {}, System::Reflection::ParameterAttributes AttrsImpl_ = {}, System::Runtime::InteropServices::MarshalAsAttribute* marshalAs_ = {}) noexcept : ClassImpl{ClassImpl_}, DefaultValueImpl{DefaultValueImpl_}, MemberImpl{MemberImpl_}, NameImpl{NameImpl_}, PositionImpl{PositionImpl_}, AttrsImpl{AttrsImpl_}, marshalAs{marshalAs_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::IObjectReference
     operator System::Runtime::Serialization::IObjectReference() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);

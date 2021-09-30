@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingAdminSnapshotCandidateList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate*> {
     public:
-    // Creating value type constructor for type: MatchmakingAdminSnapshotCandidateList
-    MatchmakingAdminSnapshotCandidateList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16BF2C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

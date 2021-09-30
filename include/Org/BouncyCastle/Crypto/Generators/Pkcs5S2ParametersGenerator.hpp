@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
     ::ArrayWrapper<uint8_t> state;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Pkcs5S2ParametersGenerator
-    Pkcs5S2ParametersGenerator(Org::BouncyCastle::Crypto::IMac* hMac_ = {}, ::ArrayWrapper<uint8_t> state_ = {}) noexcept : hMac{hMac_}, state{state_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac hMac
     Org::BouncyCastle::Crypto::IMac*& dyn_hMac();
     // Get instance field reference: private readonly System.Byte[] state

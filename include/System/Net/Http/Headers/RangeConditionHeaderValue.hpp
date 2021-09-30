@@ -40,8 +40,6 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::EntityTagHeaderValue* EntityTag;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::EntityTagHeaderValue*) == 0x8);
-    // Creating value type constructor for type: RangeConditionHeaderValue
-    RangeConditionHeaderValue(System::Nullable_1<System::DateTimeOffset> Date_ = {}, System::Net::Http::Headers::EntityTagHeaderValue* EntityTag_ = {}) noexcept : Date{Date_}, EntityTag{EntityTag_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

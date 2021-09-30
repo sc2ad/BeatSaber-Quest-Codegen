@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChaChaEngine : public Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
     public:
-    // Creating value type constructor for type: ChaChaEngine
-    ChaChaEngine() noexcept {}
     // static System.Void ChachaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
     // Offset: 0x1FCC1B0
     static void ChachaCore(int rounds, ::ArrayWrapper<uint> input, ::ArrayWrapper<uint> x);

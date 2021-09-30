@@ -36,8 +36,6 @@ namespace System::Text::RegularExpressions {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Capture
-    Capture(::Il2CppString* text_ = {}, int index_ = {}, int length_ = {}) noexcept : text{text_}, index{index_}, length{length_} {}
     // Get instance field reference: System.String _text
     ::Il2CppString*& dyn__text();
     // Get instance field reference: System.Int32 _index

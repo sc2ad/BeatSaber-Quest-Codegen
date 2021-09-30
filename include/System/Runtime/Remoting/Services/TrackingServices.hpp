@@ -27,8 +27,6 @@ namespace System::Runtime::Remoting::Services {
   // [ComVisibleAttribute] Offset: E5FBB4
   class TrackingServices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TrackingServices
-    TrackingServices() noexcept {}
     // Get static field: static private System.Collections.ArrayList _handlers
     static System::Collections::ArrayList* _get__handlers();
     // Set static field: static private System.Collections.ArrayList _handlers

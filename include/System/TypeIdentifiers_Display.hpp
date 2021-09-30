@@ -36,8 +36,6 @@ namespace System {
     ::Il2CppString* internal_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Display
-    Display(::Il2CppString* displayName_ = {}, ::Il2CppString* internal_name_ = {}) noexcept : displayName{displayName_}, internal_name{internal_name_} {}
     // Creating interface conversion operator: operator System::TypeIdentifier
     operator System::TypeIdentifier() noexcept {
       return *reinterpret_cast<System::TypeIdentifier*>(this);

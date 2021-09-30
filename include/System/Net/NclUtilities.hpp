@@ -23,8 +23,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class NclUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NclUtilities
-    NclUtilities() noexcept {}
     // Get static field: static private System.Net.IPAddress[] _LocalAddresses
     static ::ArrayWrapper<System::Net::IPAddress*> _get__LocalAddresses();
     // Set static field: static private System.Net.IPAddress[] _LocalAddresses

@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>*) == 0x8);
-    // Creating value type constructor for type: MissionConnectionsGenerator
-    MissionConnectionsGenerator(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, GlobalNamespace::MissionNodeConnection* nodeConnectionPref_ = {}, UnityEngine::GameObject* connectionsCanvas_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes_ = {}) noexcept : missionNodesManager{missionNodesManager_}, nodeConnectionPref{nodeConnectionPref_}, connectionsCanvas{connectionsCanvas_}, missionNodes{missionNodes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager

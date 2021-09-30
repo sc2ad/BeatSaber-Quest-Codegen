@@ -159,8 +159,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* nameCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: SteamVR_RenderModel
-    SteamVR_RenderModel(GlobalNamespace::SteamVR_TrackedObject::EIndex index_ = {}, ::Il2CppString* modelOverride_ = {}, UnityEngine::Shader* shader_ = {}, bool verbose_ = {}, bool createComponents_ = {}, bool updateDynamically_ = {}, Valve::VR::RenderModel_ControllerMode_State_t controllerModeState_ = {}, ::Il2CppString* renderModelName_ = {}, GlobalNamespace::SteamVR_Events::Action* deviceConnectedAction_ = {}, GlobalNamespace::SteamVR_Events::Action* hideRenderModelsAction_ = {}, GlobalNamespace::SteamVR_Events::Action* modelSkinSettingsHaveChangedAction_ = {}, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* nameCache_ = {}) noexcept : index{index_}, modelOverride{modelOverride_}, shader{shader_}, verbose{verbose_}, createComponents{createComponents_}, updateDynamically{updateDynamically_}, controllerModeState{controllerModeState_}, renderModelName{renderModelName_}, deviceConnectedAction{deviceConnectedAction_}, hideRenderModelsAction{hideRenderModelsAction_}, modelSkinSettingsHaveChangedAction{modelSkinSettingsHaveChangedAction_}, nameCache{nameCache_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.String modelOverrideWarning

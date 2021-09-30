@@ -16,8 +16,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vrcamera : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Vrcamera
-    Vrcamera() noexcept {}
     // static public System.Void SetGetSurfaceUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
     // Offset: 0x25BF788
     static void SetGetSurfaceUpdateNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);

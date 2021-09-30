@@ -461,8 +461,6 @@ namespace System {
     bool m_iriParsing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Uri
-    Uri(::Il2CppString* m_String_ = {}, ::Il2CppString* m_originalUnicodeString_ = {}, System::UriParser* m_Syntax_ = {}, ::Il2CppString* m_DnsSafeHost_ = {}, System::Uri::Flags m_Flags_ = {}, System::Uri::UriInfo* m_Info_ = {}, bool m_iriParsing_ = {}) noexcept : m_String{m_String_}, m_originalUnicodeString{m_originalUnicodeString_}, m_Syntax{m_Syntax_}, m_DnsSafeHost{m_DnsSafeHost_}, m_Flags{m_Flags_}, m_Info{m_Info_}, m_iriParsing{m_iriParsing_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

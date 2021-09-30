@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     float defaultFadeInDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FadeInOutController
-    FadeInOutController(GlobalNamespace::FloatSO* easeValue_ = {}, UnityEngine::AnimationCurve* fadeInCurve_ = {}, UnityEngine::AnimationCurve* fadeOutCurve_ = {}, float fadeInStartDelay_ = {}, float defaultFadeOutDuration_ = {}, float defaultFadeInDuration_ = {}) noexcept : easeValue{easeValue_}, fadeInCurve{fadeInCurve_}, fadeOutCurve{fadeOutCurve_}, fadeInStartDelay{fadeInStartDelay_}, defaultFadeOutDuration{defaultFadeOutDuration_}, defaultFadeInDuration{defaultFadeInDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _easeValue

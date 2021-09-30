@@ -124,8 +124,6 @@ namespace GlobalNamespace {
     uint64_t handle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: SteamVR_Overlay
-    SteamVR_Overlay(UnityEngine::Texture* texture_ = {}, bool curved_ = {}, bool antialias_ = {}, bool highquality_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, UnityEngine::Vector4 uvOffset_ = {}, UnityEngine::Vector2 mouseScale_ = {}, UnityEngine::Vector2 curvedRange_ = {}, Valve::VR::VROverlayInputMethod inputMethod_ = {}, uint64_t handle_ = {}) noexcept : texture{texture_}, curved{curved_}, antialias{antialias_}, highquality{highquality_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uvOffset{uvOffset_}, mouseScale{mouseScale_}, curvedRange{curvedRange_}, inputMethod{inputMethod_}, handle{handle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private SteamVR_Overlay <instance>k__BackingField

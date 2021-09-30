@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     float edgeDistanceFromCenter;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerCenterResizeController
-    MultiplayerCenterResizeController(float platformWidth_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, System::Action_1<float>* edgeDistanceFromCenterWasCalculatedEvent_ = {}, bool isEdgeDistanceFromCenterCalculated_ = {}, float edgeDistanceFromCenter_ = {}) noexcept : platformWidth{platformWidth_}, layoutProvider{layoutProvider_}, edgeDistanceFromCenterWasCalculatedEvent{edgeDistanceFromCenterWasCalculatedEvent_}, isEdgeDistanceFromCenterCalculated{isEdgeDistanceFromCenterCalculated_}, edgeDistanceFromCenter{edgeDistanceFromCenter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _platformWidth

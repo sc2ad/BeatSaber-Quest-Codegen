@@ -37,8 +37,6 @@ namespace Zenject {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class IProviderExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IProviderExtensions
-    IProviderExtensions() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_EmptyArgList();
     // Set static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList

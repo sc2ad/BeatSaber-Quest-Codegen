@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatEffectDidFinishEvent {
     public:
-    // Creating value type constructor for type: IBeatEffectDidFinishEvent
-    IBeatEffectDidFinishEvent() noexcept {}
     // public System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
     // Offset: 0xFFFFFFFF
     void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);

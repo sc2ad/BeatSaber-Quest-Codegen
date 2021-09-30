@@ -50,8 +50,6 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
-    // Creating value type constructor for type: SerializationObjectManager
-    SerializationObjectManager(System::Collections::Hashtable* m_objectSeenTable_ = {}, System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}) noexcept : m_objectSeenTable{m_objectSeenTable_}, m_onSerializedHandler{m_onSerializedHandler_}, m_context{m_context_} {}
     // Get instance field reference: private System.Collections.Hashtable m_objectSeenTable
     System::Collections::Hashtable*& dyn_m_objectSeenTable();
     // Get instance field reference: private System.Runtime.Serialization.SerializationEventHandler m_onSerializedHandler

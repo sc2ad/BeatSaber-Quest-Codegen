@@ -33,8 +33,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Dropdown* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass62_0
-    $$c__DisplayClass62_0(UnityEngine::UI::Dropdown::DropdownItem* item_ = {}, UnityEngine::UI::Dropdown* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     UnityEngine::UI::Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this

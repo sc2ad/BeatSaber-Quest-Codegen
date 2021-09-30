@@ -59,8 +59,6 @@ namespace HMUI {
     HMUI::ViewController* newTopViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass39_0
-    $$c__DisplayClass39_0(bool immediately_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* newTopViewController_ = {}) noexcept : immediately{immediately_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, newTopViewController{newTopViewController_} {}
     // Get instance field reference: public System.Boolean immediately
     bool& dyn_immediately();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this

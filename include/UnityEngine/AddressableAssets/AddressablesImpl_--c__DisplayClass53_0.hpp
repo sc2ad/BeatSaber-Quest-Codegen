@@ -34,8 +34,6 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass53_0
-    $$c__DisplayClass53_0(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc_ = {}) noexcept : loc{loc_} {}
     // Creating conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*
     constexpr operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() const noexcept {
       return loc;

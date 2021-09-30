@@ -92,8 +92,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
-    // Creating value type constructor for type: BezierShape
-    BezierShape(System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>* points_ = {}, bool closeLoop_ = {}, float radius_ = {}, int rows_ = {}, int columns_ = {}, bool smooth_ = {}, bool m_IsEditing_ = {}, UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh_ = {}) noexcept : points{points_}, closeLoop{closeLoop_}, radius{radius_}, rows{rows_}, columns{columns_}, smooth{smooth_}, m_IsEditing{m_IsEditing_}, m_Mesh{m_Mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points

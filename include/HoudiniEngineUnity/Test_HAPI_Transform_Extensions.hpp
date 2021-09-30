@@ -24,8 +24,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_HAPI_Transform_Extensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Test_HAPI_Transform_Extensions
-    Test_HAPI_Transform_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_HAPI_Transform ToTestObject(HoudiniEngineUnity.HAPI_Transform self)
     // Offset: 0x25D0108
     static HoudiniEngineUnity::Test_HAPI_Transform* ToTestObject(HoudiniEngineUnity::HAPI_Transform self);

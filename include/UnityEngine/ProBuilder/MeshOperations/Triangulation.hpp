@@ -46,8 +46,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass7_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
-    // Creating value type constructor for type: Triangulation
-    Triangulation() noexcept {}
     // Get static field: static private UnityEngine.ProBuilder.Poly2Tri.TriangulationContext s_TriangulationContext
     static UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _get_s_TriangulationContext();
     // Set static field: static private UnityEngine.ProBuilder.Poly2Tri.TriangulationContext s_TriangulationContext

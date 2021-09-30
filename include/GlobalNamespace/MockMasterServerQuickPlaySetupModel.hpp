@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*) == 0x8);
-    // Creating value type constructor for type: MockMasterServerQuickPlaySetupModel
-    MockMasterServerQuickPlaySetupModel(GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData_ = {}) noexcept : masterServerQuickPlaySetupData{masterServerQuickPlaySetupData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMasterServerQuickPlaySetupModel
     operator GlobalNamespace::IMasterServerQuickPlaySetupModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMasterServerQuickPlaySetupModel*>(this);

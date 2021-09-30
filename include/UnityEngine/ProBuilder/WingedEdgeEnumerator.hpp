@@ -39,8 +39,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::WingedEdge* m_Current;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
-    // Creating value type constructor for type: WingedEdgeEnumerator
-    WingedEdgeEnumerator(UnityEngine::ProBuilder::WingedEdge* m_Start_ = {}, UnityEngine::ProBuilder::WingedEdge* m_Current_ = {}) noexcept : m_Start{m_Start_}, m_Current{m_Current_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);

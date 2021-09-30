@@ -117,8 +117,6 @@ namespace System::Security::Cryptography::X509Certificates {
     Mono::Security::X509::X509Certificate* cert;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509Certificate*) == 0x8);
-    // Creating value type constructor for type: X509Certificate2ImplMono
-    X509Certificate2ImplMono(bool archived_ = {}, System::Security::Cryptography::X509Certificates::X509ExtensionCollection* extensions_ = {}, System::Security::Cryptography::X509Certificates::PublicKey* publicKey_ = {}, System::Security::Cryptography::X509Certificates::X500DistinguishedName* issuer_name_ = {}, System::Security::Cryptography::X509Certificates::X500DistinguishedName* subject_name_ = {}, System::Security::Cryptography::Oid* signature_algorithm_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* intermediateCerts_ = {}, Mono::Security::X509::X509Certificate* cert_ = {}) noexcept : archived{archived_}, extensions{extensions_}, publicKey{publicKey_}, issuer_name{issuer_name_}, subject_name{subject_name_}, signature_algorithm{signature_algorithm_}, intermediateCerts{intermediateCerts_}, cert{cert_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get static field: static private System.String empty_error

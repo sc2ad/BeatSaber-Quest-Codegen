@@ -51,8 +51,6 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1<T>
     template<typename T>
     class RequireClass_1;
-    // Creating value type constructor for type: HEU_TestHelpers
-    HEU_TestHelpers() noexcept {}
     // static public System.Boolean AssertTrueLogEquivalent(T a, T b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireStruct`1<T> _)
     // Offset: 0xFFFFFFFF
     template<class T>

@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> levelProductsData;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>) == 0x8);
-    // Creating value type constructor for type: LevelPackProductData
-    LevelPackProductData(::Il2CppString* sku_ = {}, ::Il2CppString* levelPackId_ = {}, ::ArrayWrapper<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> levelProductsData_ = {}) noexcept : sku{sku_}, levelPackId{levelPackId_}, levelProductsData{levelProductsData_} {}
     // Get instance field reference: private System.String _sku
     ::Il2CppString*& dyn__sku();
     // Get instance field reference: private System.String _levelPackId

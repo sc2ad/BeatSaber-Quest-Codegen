@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* parentingTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: EnvironmentShaderWarmup
-    EnvironmentShaderWarmup(::ArrayWrapper<UnityEngine::Material*> materials_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, UnityEngine::Transform* parentingTransform_ = {}) noexcept : materials{materials_}, mainCamera{mainCamera_}, gameScenesManager{gameScenesManager_}, parentingTransform{parentingTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kNumberOfColumns

@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GhostEffectBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour*) == 0x8);
-    // Creating value type constructor for type: GhostEffectAsset
-    GhostEffectAsset(GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType_ = {}, UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference*> arrayReference_ = {}, GlobalNamespace::GhostEffectBehaviour* _template_ = {}) noexcept : ghostEffectType{ghostEffectType_}, arrayReference{arrayReference_}, _template{_template_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

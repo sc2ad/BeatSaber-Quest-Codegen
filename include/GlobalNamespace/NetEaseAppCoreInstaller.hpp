@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NetEaseManager* netEaseManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetEaseManager*) == 0x8);
-    // Creating value type constructor for type: NetEaseAppCoreInstaller
-    NetEaseAppCoreInstaller(GlobalNamespace::NetEaseManager* netEaseManagerPrefab_ = {}) noexcept : netEaseManagerPrefab{netEaseManagerPrefab_} {}
     // Get instance field reference: private NetEaseManager _netEaseManagerPrefab
     GlobalNamespace::NetEaseManager*& dyn__netEaseManagerPrefab();
     // public System.Void .ctor()

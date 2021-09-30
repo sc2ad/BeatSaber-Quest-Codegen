@@ -23,8 +23,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemNetworkInterface : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemNetworkInterface
-    SystemNetworkInterface() noexcept {}
     // Get static field: static private readonly System.Net.NetworkInformation.NetworkInterfaceFactory nif
     static System::Net::NetworkInformation::NetworkInterfaceFactory* _get_nif();
     // Set static field: static private readonly System.Net.NetworkInformation.NetworkInterfaceFactory nif

@@ -41,8 +41,6 @@ namespace UnityEngine {
     ::Il2CppString* m_CachedToString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssetReferenceUILabelRestriction
-    AssetReferenceUILabelRestriction(::ArrayWrapper<::Il2CppString*> m_AllowedLabels_ = {}, ::Il2CppString* m_CachedToString_ = {}) noexcept : m_AllowedLabels{m_AllowedLabels_}, m_CachedToString{m_CachedToString_} {}
     // Get instance field reference: public System.String[] m_AllowedLabels
     ::ArrayWrapper<::Il2CppString*>& dyn_m_AllowedLabels();
     // Get instance field reference: public System.String m_CachedToString

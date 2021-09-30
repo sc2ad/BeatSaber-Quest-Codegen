@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 pos;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: FlyingCar
-    FlyingCar(float startZ_ = {}, float endZ_ = {}, float speed_ = {}, float progress_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : startZ{startZ_}, endZ{endZ_}, speed{speed_}, progress{progress_}, pos{pos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _startZ

@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecT571R1Point : public Org::BouncyCastle::Math::EC::AbstractF2mPoint {
     public:
-    // Creating value type constructor for type: SecT571R1Point
-    SecT571R1Point() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
     // Offset: 0x2311994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

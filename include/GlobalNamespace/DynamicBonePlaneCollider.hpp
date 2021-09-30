@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [AddComponentMenu] Offset: EF07D8
   class DynamicBonePlaneCollider : public GlobalNamespace::DynamicBoneColliderBase {
     public:
-    // Creating value type constructor for type: DynamicBonePlaneCollider
-    DynamicBonePlaneCollider() noexcept {}
     // private System.Void OnValidate()
     // Offset: 0x2604A6C
     void OnValidate();

@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* rankText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: ResultsTableCell
-    ResultsTableCell(UnityEngine::GameObject* border_ = {}, TMPro::TextMeshProUGUI* orderText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}) noexcept : border{border_}, orderText{orderText_}, nameText{nameText_}, scoreText{scoreText_}, rankText{rankText_} {}
     // Get instance field reference: private UnityEngine.GameObject _border
     UnityEngine::GameObject*& dyn__border();
     // Get instance field reference: private TMPro.TextMeshProUGUI _orderText

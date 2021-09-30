@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     bool isClient;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass18_0
-    $$c__DisplayClass18_0(::ArrayWrapper<uint8_t> preMasterSecret_ = {}, ::ArrayWrapper<uint8_t> serverSeed_ = {}, ::ArrayWrapper<uint8_t> clientSeed_ = {}, bool isClient_ = {}) noexcept : preMasterSecret{preMasterSecret_}, serverSeed{serverSeed_}, clientSeed{clientSeed_}, isClient{isClient_} {}
     // Get instance field reference: public System.Byte[] preMasterSecret
     ::ArrayWrapper<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverSeed

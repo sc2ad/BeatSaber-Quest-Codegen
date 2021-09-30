@@ -45,8 +45,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MessageHandlerAnalyticsManagerExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MessageHandlerAnalyticsManagerExtensions
-    MessageHandlerAnalyticsManagerExtensions() noexcept {}
     // static field const value: static private System.String kReceivedMessagesMetricName
     static constexpr const char* kReceivedMessagesMetricName = "ReceivedMessages";
     // Get static field: static private System.String kReceivedMessagesMetricName

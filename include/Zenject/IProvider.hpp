@@ -38,8 +38,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IProvider {
     public:
-    // Creating value type constructor for type: IProvider
-    IProvider() noexcept {}
     // public System.Boolean get_TypeVariesBasedOnMemberType()
     // Offset: 0xFFFFFFFF
     bool get_TypeVariesBasedOnMemberType();

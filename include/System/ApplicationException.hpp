@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BC6C
   class ApplicationException : public System::Exception {
     public:
-    // Creating value type constructor for type: ApplicationException
-    ApplicationException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19868B8
     // Implemented from: System.Exception

@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::TutorialBombNoteSpawnData : public GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData {
     public:
-    // Creating value type constructor for type: TutorialBombNoteSpawnData
-    TutorialBombNoteSpawnData() noexcept {}
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     // Offset: 0x133CE34
     // Implemented from: TutorialSongController/TutorialJumpingNoteSpawnData

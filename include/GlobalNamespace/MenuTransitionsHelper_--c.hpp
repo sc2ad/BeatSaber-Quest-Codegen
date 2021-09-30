@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MenuTransitionsHelper::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly MenuTransitionsHelper/<>c <>9
     static GlobalNamespace::MenuTransitionsHelper::$$c* _get_$$9();
     // Set static field: static public readonly MenuTransitionsHelper/<>c <>9

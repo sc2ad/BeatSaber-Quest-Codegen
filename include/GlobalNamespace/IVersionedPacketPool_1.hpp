@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   template<typename T>
   class IVersionedPacketPool_1/*, public GlobalNamespace::IPacketPool*/ {
     public:
-    // Creating value type constructor for type: IVersionedPacketPool_1
-    IVersionedPacketPool_1() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IPacketPool
     operator GlobalNamespace::IPacketPool() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPacketPool*>(this);

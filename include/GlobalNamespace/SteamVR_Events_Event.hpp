@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events::Event : public UnityEngine::Events::UnityEvent {
     public:
-    // Creating value type constructor for type: Event
-    Event() noexcept {}
     // public System.Void Listen(UnityEngine.Events.UnityAction action)
     // Offset: 0x1539E04
     void Listen(UnityEngine::Events::UnityAction* action);

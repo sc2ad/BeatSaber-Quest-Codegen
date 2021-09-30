@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRGearVrControllerTest : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: OVRGearVrControllerTest
-    OVRGearVrControllerTest() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x16C100C
     // Implemented from: UnityEngine.MonoBehaviour

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB56A0
   class IVRApplications::_SetDefaultApplicationForMimeType : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetDefaultApplicationForMimeType
-    _SetDefaultApplicationForMimeType() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1892CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

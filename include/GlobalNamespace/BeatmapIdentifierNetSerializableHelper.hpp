@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BeatmapIdentifierNetSerializableHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapIdentifierNetSerializableHelper
-    BeatmapIdentifierNetSerializableHelper() noexcept {}
     // static public BeatmapIdentifierNetSerializable GetIdentifier(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x127BF00
     static GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);

@@ -37,8 +37,6 @@ namespace System {
     System::TimeZoneInfo* LocalTimeZone;
     // Field size check
     static_assert(sizeof(System::TimeZoneInfo*) == 0x8);
-    // Creating value type constructor for type: CurrentSystemTimeZone
-    CurrentSystemTimeZone(System::TimeZoneInfo* LocalTimeZone_ = {}) noexcept : LocalTimeZone{LocalTimeZone_} {}
     // Creating conversion operator: operator System::TimeZoneInfo*
     constexpr operator System::TimeZoneInfo*() const noexcept {
       return LocalTimeZone;

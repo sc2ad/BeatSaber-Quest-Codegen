@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RectangleFakeGlow* rectangleFakeGlow;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RectangleFakeGlow*) == 0x8);
-    // Creating value type constructor for type: RectangleFakeGlowLightWithId
-    RectangleFakeGlowLightWithId(float minAlpha_ = {}, float alphaMul_ = {}, GlobalNamespace::RectangleFakeGlow* rectangleFakeGlow_ = {}) noexcept : minAlpha{minAlpha_}, alphaMul{alphaMul_}, rectangleFakeGlow{rectangleFakeGlow_} {}
     // Get instance field reference: private System.Single _minAlpha
     float& dyn__minAlpha();
     // Get instance field reference: private System.Single _alphaMul

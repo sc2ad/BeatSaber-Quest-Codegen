@@ -69,8 +69,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OpenPgpCfbBlockCipher
-    OpenPgpCfbBlockCipher(::ArrayWrapper<uint8_t> IV_ = {}, ::ArrayWrapper<uint8_t> FR_ = {}, ::ArrayWrapper<uint8_t> FRE_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, int blockSize_ = {}, int count_ = {}, bool forEncryption_ = {}) noexcept : IV{IV_}, FR{FR_}, FRE{FRE_}, cipher{cipher_}, blockSize{blockSize_}, count{count_}, forEncryption{forEncryption_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

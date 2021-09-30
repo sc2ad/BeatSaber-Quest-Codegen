@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerSongTimeSyncController
-    MultiplayerConnectedPlayerSongTimeSyncController(float audioSyncLerpSpeed_ = {}, float forcedSyncDeltaTime_ = {}, float startSyncDeltaTime_ = {}, float stopSyncDeltaTime_ = {}, GlobalNamespace::FloatSO* audioLatency_ = {}, GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, float songTime_ = {}, float lastFrameDeltaSongTime_ = {}, float timeScale_ = {}, float startSongSyncTime_ = {}, bool fixingAudioSyncError_ = {}, bool isReady_ = {}) noexcept : audioSyncLerpSpeed{audioSyncLerpSpeed_}, forcedSyncDeltaTime{forcedSyncDeltaTime_}, startSyncDeltaTime{startSyncDeltaTime_}, stopSyncDeltaTime{stopSyncDeltaTime_}, audioLatency{audioLatency_}, initData{initData_}, connectedPlayer{connectedPlayer_}, songTime{songTime_}, lastFrameDeltaSongTime{lastFrameDeltaSongTime_}, timeScale{timeScale_}, startSongSyncTime{startSongSyncTime_}, fixingAudioSyncError{fixingAudioSyncError_}, isReady{isReady_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

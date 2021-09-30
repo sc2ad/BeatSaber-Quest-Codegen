@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     UnityEngine::Animation* animation;
     // Field size check
     static_assert(sizeof(UnityEngine::Animation*) == 0x8);
-    // Creating value type constructor for type: AnimationStartParams
-    AnimationStartParams(float timeOffset_ = {}, float speed_ = {}, UnityEngine::Animation* animation_ = {}) noexcept : timeOffset{timeOffset_}, speed{speed_}, animation{animation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _timeOffset

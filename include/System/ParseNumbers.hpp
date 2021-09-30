@@ -21,8 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParseNumbers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ParseNumbers
-    ParseNumbers() noexcept {}
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags)
     // Offset: 0x1E9F7F0
     static int StringToInt(::Il2CppString* value, int fromBase, int flags);

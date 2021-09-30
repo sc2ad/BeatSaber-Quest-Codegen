@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IX509AttributeCertificate {
     public:
-    // Creating value type constructor for type: IX509AttributeCertificate
-    IX509AttributeCertificate() noexcept {}
   }; // Org.BouncyCastle.X509.IX509AttributeCertificate
   #pragma pack(pop)
 }

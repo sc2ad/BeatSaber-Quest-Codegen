@@ -43,8 +43,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: MemberPrimitiveUnTyped
-    MemberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation_ = {}, ::Il2CppObject* value_ = {}) noexcept : typeInformation{typeInformation_}, value{value_} {}
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation
     System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_typeInformation();
     // Get instance field reference: System.Object value

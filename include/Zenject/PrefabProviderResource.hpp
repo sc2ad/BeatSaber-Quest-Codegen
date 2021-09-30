@@ -34,8 +34,6 @@ namespace Zenject {
     ::Il2CppString* resourcePath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PrefabProviderResource
-    PrefabProviderResource(::Il2CppString* resourcePath_ = {}) noexcept : resourcePath{resourcePath_} {}
     // Creating interface conversion operator: operator Zenject::IPrefabProvider
     operator Zenject::IPrefabProvider() noexcept {
       return *reinterpret_cast<Zenject::IPrefabProvider*>(this);

@@ -140,8 +140,6 @@ namespace System::Net::Sockets {
     System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
     // Field size check
     static_assert(sizeof(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*) == 0x8);
-    // Creating value type constructor for type: SocketAsyncEventArgs
-    SocketAsyncEventArgs(bool disposed_ = {}, int in_progress_ = {}, System::Net::EndPoint* remote_ep_ = {}, System::Net::Sockets::Socket* current_socket_ = {}, System::Net::Sockets::SocketAsyncResult* socket_async_result_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* m_BufferList_ = {}, int BytesTransferred_ = {}, int Count_ = {}, System::Net::Sockets::SocketAsyncOperation LastOperation_ = {}, int SendPacketsSendSize_ = {}, System::Net::Sockets::SocketError SocketError_ = {}, ::Il2CppObject* UserToken_ = {}, System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* Completed_ = {}) noexcept : disposed{disposed_}, in_progress{in_progress_}, remote_ep{remote_ep_}, current_socket{current_socket_}, socket_async_result{socket_async_result_}, AcceptSocket{AcceptSocket_}, m_BufferList{m_BufferList_}, BytesTransferred{BytesTransferred_}, Count{Count_}, LastOperation{LastOperation_}, SendPacketsSendSize{SendPacketsSendSize_}, SocketError{SocketError_}, UserToken{UserToken_}, Completed{Completed_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

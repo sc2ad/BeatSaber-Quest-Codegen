@@ -50,8 +50,6 @@ namespace System::Net {
     System::Security::SecureString* m_password;
     // Field size check
     static_assert(sizeof(System::Security::SecureString*) == 0x8);
-    // Creating value type constructor for type: NetworkCredential
-    NetworkCredential(::Il2CppString* m_domain_ = {}, ::Il2CppString* m_userName_ = {}, System::Security::SecureString* m_password_ = {}) noexcept : m_domain{m_domain_}, m_userName{m_userName_}, m_password{m_password_} {}
     // Creating interface conversion operator: operator System::Net::ICredentials
     operator System::Net::ICredentials() noexcept {
       return *reinterpret_cast<System::Net::ICredentials*>(this);

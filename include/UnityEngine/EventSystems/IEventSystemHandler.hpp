@@ -13,8 +13,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class IEventSystemHandler {
     public:
-    // Creating value type constructor for type: IEventSystemHandler
-    IEventSystemHandler() noexcept {}
   }; // UnityEngine.EventSystems.IEventSystemHandler
   #pragma pack(pop)
 }

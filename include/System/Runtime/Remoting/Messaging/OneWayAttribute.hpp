@@ -18,8 +18,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E601D4
   class OneWayAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: OneWayAttribute
-    OneWayAttribute() noexcept {}
   }; // System.Runtime.Remoting.Messaging.OneWayAttribute
   #pragma pack(pop)
 }

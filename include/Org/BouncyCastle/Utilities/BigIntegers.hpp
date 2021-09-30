@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class BigIntegers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BigIntegers
-    BigIntegers() noexcept {}
     // static public System.Byte[] AsUnsignedByteArray(Org.BouncyCastle.Math.BigInteger n)
     // Offset: 0x14EA54C
     static ::ArrayWrapper<uint8_t> AsUnsignedByteArray(Org::BouncyCastle::Math::BigInteger* n);

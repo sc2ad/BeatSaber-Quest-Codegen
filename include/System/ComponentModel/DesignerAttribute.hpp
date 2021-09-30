@@ -40,8 +40,6 @@ namespace System::ComponentModel {
     ::Il2CppString* designerBaseTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DesignerAttribute
-    DesignerAttribute(::Il2CppString* designerTypeName_ = {}, ::Il2CppString* designerBaseTypeName_ = {}) noexcept : designerTypeName{designerTypeName_}, designerBaseTypeName{designerBaseTypeName_} {}
     // Get instance field reference: private readonly System.String designerTypeName
     ::Il2CppString*& dyn_designerTypeName();
     // Get instance field reference: private readonly System.String designerBaseTypeName

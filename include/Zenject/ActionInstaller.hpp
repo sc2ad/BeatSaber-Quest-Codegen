@@ -38,8 +38,6 @@ namespace Zenject {
     System::Action_1<Zenject::DiContainer*>* installMethod;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
-    // Creating value type constructor for type: ActionInstaller
-    ActionInstaller(System::Action_1<Zenject::DiContainer*>* installMethod_ = {}) noexcept : installMethod{installMethod_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installMethod

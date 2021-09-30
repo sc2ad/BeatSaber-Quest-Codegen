@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     ::Il2CppString* achievementId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(GlobalNamespace::AchievementsModelSO* $$4__this_ = {}, ::Il2CppString* achievementId_ = {}) noexcept : $$4__this{$$4__this_}, achievementId{achievementId_} {}
     // Get instance field reference: public AchievementsModelSO <>4__this
     GlobalNamespace::AchievementsModelSO*& dyn_$$4__this();
     // Get instance field reference: public System.String achievementId

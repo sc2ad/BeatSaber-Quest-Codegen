@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleValueMissionObjectiveChecker : public GlobalNamespace::MissionObjectiveChecker {
     public:
-    // Creating value type constructor for type: SimpleValueMissionObjectiveChecker
-    SimpleValueMissionObjectiveChecker() noexcept {}
     // protected System.Void CheckAndUpdateStatus()
     // Offset: 0x1107F30
     void CheckAndUpdateStatus();

@@ -55,8 +55,6 @@ namespace Zenject {
     Zenject::SubContainerBinder* $$4__this;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerBinder*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass15_0
-    $$c__DisplayClass15_0(Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, System::Type* installerType_ = {}, Zenject::SubContainerBinder* $$4__this_ = {}) noexcept : gameObjectInfo{gameObjectInfo_}, installerType{installerType_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
     Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
     // Get instance field reference: public System.Type installerType

@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     float heightFogHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BloomFogEnvironmentParams
-    BloomFogEnvironmentParams(float attenuation_ = {}, float offset_ = {}, float heightFogStartY_ = {}, float heightFogHeight_ = {}) noexcept : attenuation{attenuation_}, offset{offset_}, heightFogStartY{heightFogStartY_}, heightFogHeight{heightFogHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single attenuation

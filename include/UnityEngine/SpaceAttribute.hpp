@@ -27,8 +27,6 @@ namespace UnityEngine {
     float height;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SpaceAttribute
-    SpaceAttribute(float height_ = {}) noexcept : height{height_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return height;

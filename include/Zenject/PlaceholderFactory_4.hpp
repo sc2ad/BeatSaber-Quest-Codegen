@@ -70,8 +70,6 @@ namespace Zenject {
       int $$l__initialThreadId;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // Creating value type constructor for type: $get_ParamTypes$d__2
-      $get_ParamTypes$d__2(int $$1__state_ = {}, System::Type* $$2__current_ = {}, int $$l__initialThreadId_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Type*>
       operator System::Collections::Generic::IEnumerable_1<System::Type*>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this);
@@ -169,8 +167,6 @@ namespace Zenject {
       }
     }; // Zenject.PlaceholderFactory`4/Zenject.<get_ParamTypes>d__2
     // Could not write size check! Type: Zenject.PlaceholderFactory`4/Zenject.<get_ParamTypes>d__2 is generic, or has no fields that are valid for size checks!
-    // Creating value type constructor for type: PlaceholderFactory_4
-    PlaceholderFactory_4() noexcept {}
     // Creating interface conversion operator: operator Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>
     operator Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>*>(this);

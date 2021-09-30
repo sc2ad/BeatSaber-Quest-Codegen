@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
-    // Creating value type constructor for type: BasicUIAudioManager
-    BasicUIAudioManager(::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents_ = {}, UnityEngine::AudioSource* audioSource_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> clickSounds_ = {}, float minPitch_ = {}, float maxPitch_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : buttonClickEvents{buttonClickEvents_}, audioSource{audioSource_}, clickSounds{clickSounds_}, minPitch{minPitch_}, maxPitch{maxPitch_}, randomSoundPicker{randomSoundPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal[] _buttonClickEvents

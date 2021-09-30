@@ -22,8 +22,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TableView::IDataSource {
     public:
-    // Creating value type constructor for type: IDataSource
-    IDataSource() noexcept {}
     // public System.Single CellSize()
     // Offset: 0xFFFFFFFF
     float CellSize();

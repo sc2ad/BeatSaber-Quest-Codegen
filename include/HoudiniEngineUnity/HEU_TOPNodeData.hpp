@@ -166,8 +166,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_WorkItemTally* workItemTally;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_WorkItemTally*) == 0x8);
-    // Creating value type constructor for type: HEU_TOPNodeData
-    HEU_TOPNodeData(int nodeID_ = {}, ::Il2CppString* nodeName_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::GameObject* workResultParentGO_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPWorkResult*>* workResults_ = {}, HoudiniEngineUnity::TOPNodeTags* tags_ = {}, bool showResults_ = {}, HoudiniEngineUnity::HEU_TOPNodeData::PDGState pdgState_ = {}, HoudiniEngineUnity::HEU_WorkItemTally* workItemTally_ = {}) noexcept : nodeID{nodeID_}, nodeName{nodeName_}, parentName{parentName_}, workResultParentGO{workResultParentGO_}, workResults{workResults_}, tags{tags_}, showResults{showResults_}, pdgState{pdgState_}, workItemTally{workItemTally_} {}
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName

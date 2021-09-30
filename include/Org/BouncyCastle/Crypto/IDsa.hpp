@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDsa {
     public:
-    // Creating value type constructor for type: IDsa
-    IDsa() noexcept {}
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);

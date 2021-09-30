@@ -33,8 +33,6 @@ namespace System::Runtime::CompilerServices {
     ::Il2CppObject* m_wrappedException;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: RuntimeWrappedException
-    RuntimeWrappedException(::Il2CppObject* m_wrappedException_ = {}) noexcept : m_wrappedException{m_wrappedException_} {}
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return m_wrappedException;

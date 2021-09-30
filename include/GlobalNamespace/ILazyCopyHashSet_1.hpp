@@ -17,8 +17,6 @@ namespace GlobalNamespace {
   template<typename T>
   class ILazyCopyHashSet_1 {
     public:
-    // Creating value type constructor for type: ILazyCopyHashSet_1
-    ILazyCopyHashSet_1() noexcept {}
     // public System.Void Add(T listener)
     // Offset: 0xFFFFFFFF
     void Add(T listener) {

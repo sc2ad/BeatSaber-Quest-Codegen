@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // Creating value type constructor for type: MockPlayerLobbyPoseGeneratorMirror
-    MockPlayerLobbyPoseGeneratorMirror(GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager_ = {}) noexcept : nodePoseSyncStateManager{nodePoseSyncStateManager_} {}
     // Creating conversion operator: operator GlobalNamespace::NodePoseSyncStateManager*
     constexpr operator GlobalNamespace::NodePoseSyncStateManager*() const noexcept {
       return nodePoseSyncStateManager;

@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // Creating value type constructor for type: ParametricBoxController
-    ParametricBoxController(float width_ = {}, float height_ = {}, float length_ = {}, float heightCenter_ = {}, UnityEngine::Color color_ = {}, float alphaMultiplier_ = {}, float minAlpha_ = {}, float alphaStart_ = {}, float alphaEnd_ = {}, float widthStart_ = {}, float widthEnd_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}) noexcept : width{width_}, height{height_}, length{length_}, heightCenter{heightCenter_}, color{color_}, alphaMultiplier{alphaMultiplier_}, minAlpha{minAlpha_}, alphaStart{alphaStart_}, alphaEnd{alphaEnd_}, widthStart{widthStart_}, widthEnd{widthEnd_}, meshRenderer{meshRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock

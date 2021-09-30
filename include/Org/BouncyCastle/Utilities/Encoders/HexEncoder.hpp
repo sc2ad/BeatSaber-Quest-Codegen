@@ -37,8 +37,6 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     ::ArrayWrapper<uint8_t> decodingTable;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: HexEncoder
-    HexEncoder(::ArrayWrapper<uint8_t> encodingTable_ = {}, ::ArrayWrapper<uint8_t> decodingTable_ = {}) noexcept : encodingTable{encodingTable_}, decodingTable{decodingTable_} {}
     // Get instance field reference: protected readonly System.Byte[] encodingTable
     ::ArrayWrapper<uint8_t>& dyn_encodingTable();
     // Get instance field reference: protected readonly System.Byte[] decodingTable

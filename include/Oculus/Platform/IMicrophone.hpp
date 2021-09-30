@@ -13,8 +13,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMicrophone {
     public:
-    // Creating value type constructor for type: IMicrophone
-    IMicrophone() noexcept {}
     // public System.Void Start()
     // Offset: 0xFFFFFFFF
     void Start();

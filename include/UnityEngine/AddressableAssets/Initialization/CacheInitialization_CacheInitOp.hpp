@@ -43,8 +43,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
     bool m_UpdateRequired;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CacheInitOp
-    CacheInitOp(System::Func_1<bool>* m_Callback_ = {}, bool m_UpdateRequired_ = {}) noexcept : m_Callback{m_Callback_}, m_UpdateRequired{m_UpdateRequired_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::IUpdateReceiver
     operator UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);

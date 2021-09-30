@@ -81,8 +81,6 @@ namespace RootMotion::FinalIK {
     int LOD;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BodyPart
-    BodyPart(float sqrMag_ = {}, float mag_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones_ = {}, bool initiated_ = {}, UnityEngine::Vector3 rootPosition_ = {}, UnityEngine::Quaternion rootRotation_ = {}, int index_ = {}, int LOD_ = {}) noexcept : sqrMag{sqrMag_}, mag{mag_}, bones{bones_}, initiated{initiated_}, rootPosition{rootPosition_}, rootRotation{rootRotation_}, index{index_}, LOD{LOD_} {}
     // Get instance field reference: private System.Single <sqrMag>k__BackingField
     float& dyn_$sqrMag$k__BackingField();
     // Get instance field reference: private System.Single <mag>k__BackingField

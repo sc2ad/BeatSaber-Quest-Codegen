@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB106C
   class IVROverlay::_MoveGamepadFocusToNeighbor : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _MoveGamepadFocusToNeighbor
-    _MoveGamepadFocusToNeighbor() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2100DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

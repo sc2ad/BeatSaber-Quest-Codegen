@@ -43,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CuttableBySaber::WasCutBySaberDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: WasCutBySaberDelegate
-    WasCutBySaberDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x11A4240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

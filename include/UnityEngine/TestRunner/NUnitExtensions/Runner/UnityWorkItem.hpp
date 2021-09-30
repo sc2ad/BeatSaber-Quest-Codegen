@@ -130,8 +130,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* Actions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*) == 0x8);
-    // Creating value type constructor for type: UnityWorkItem
-    UnityWorkItem(UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* m_Factory_ = {}, bool m_ExecuteTestStartEvent_ = {}, bool m_DontRunRestoringResult_ = {}, System::EventHandler* Completed_ = {}, bool ResultedInDomainReload_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* Context_ = {}, NUnit::Framework::Internal::Test* Test_ = {}, NUnit::Framework::Internal::TestResult* Result_ = {}, NUnit::Framework::Internal::Execution::WorkItemState State_ = {}, System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* Actions_ = {}) noexcept : m_Factory{m_Factory_}, m_ExecuteTestStartEvent{m_ExecuteTestStartEvent_}, m_DontRunRestoringResult{m_DontRunRestoringResult_}, Completed{Completed_}, ResultedInDomainReload{ResultedInDomainReload_}, Context{Context_}, Test{Test_}, Result{Result_}, State{State_}, Actions{Actions_} {}
     // static field const value: static protected System.Int32 k_DefaultTimeout
     static constexpr const int k_DefaultTimeout = 180000;
     // Get static field: static protected System.Int32 k_DefaultTimeout

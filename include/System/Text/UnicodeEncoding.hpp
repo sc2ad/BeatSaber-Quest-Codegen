@@ -60,8 +60,6 @@ namespace System::Text {
     bool byteOrderMark;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnicodeEncoding
-    UnicodeEncoding(bool isThrowException_ = {}, bool bigEndian_ = {}, bool byteOrderMark_ = {}) noexcept : isThrowException{isThrowException_}, bigEndian{bigEndian_}, byteOrderMark{byteOrderMark_} {}
     // Get static field: static private readonly System.UInt64 highLowPatternMask
     static uint64_t _get_highLowPatternMask();
     // Set static field: static private readonly System.UInt64 highLowPatternMask

@@ -92,8 +92,6 @@ namespace System::IO {
     System::AsyncCallback* realcb;
     // Field size check
     static_assert(sizeof(System::AsyncCallback*) == 0x8);
-    // Creating value type constructor for type: FileStreamAsyncResult
-    FileStreamAsyncResult(::Il2CppObject* state_ = {}, bool completed_ = {}, System::Threading::ManualResetEvent* wh_ = {}, System::AsyncCallback* cb_ = {}, bool completedSynch_ = {}, int Count_ = {}, int OriginalCount_ = {}, int BytesRead_ = {}, System::AsyncCallback* realcb_ = {}) noexcept : state{state_}, completed{completed_}, wh{wh_}, cb{cb_}, completedSynch{completedSynch_}, Count{Count_}, OriginalCount{OriginalCount_}, BytesRead{BytesRead_}, realcb{realcb_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

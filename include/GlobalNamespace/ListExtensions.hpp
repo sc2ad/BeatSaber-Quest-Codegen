@@ -35,8 +35,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ListExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ListExtensions
-    ListExtensions() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13C6C
     // Get static field: static private readonly System.Random _random
     static System::Random* _get__random();

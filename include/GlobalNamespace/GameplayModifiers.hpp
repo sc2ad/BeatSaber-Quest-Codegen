@@ -292,8 +292,6 @@ namespace GlobalNamespace {
     bool smallCubes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameplayModifiers
-    GameplayModifiers(GlobalNamespace::GameplayModifiers::EnergyType energyType_ = {}, bool noFailOn0Energy_ = {}, bool demoNoFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType_ = {}, bool demoNoObstacles_ = {}, bool fastNotes_ = {}, bool strictAngles_ = {}, bool disappearingArrows_ = {}, bool ghostNotes_ = {}, bool noBombs_ = {}, GlobalNamespace::GameplayModifiers::SongSpeed songSpeed_ = {}, bool noArrows_ = {}, bool proMode_ = {}, bool zenMode_ = {}, bool smallCubes_ = {}) noexcept : energyType{energyType_}, noFailOn0Energy{noFailOn0Energy_}, demoNoFail{demoNoFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_}, enabledObstacleType{enabledObstacleType_}, demoNoObstacles{demoNoObstacles_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_}, noBombs{noBombs_}, songSpeed{songSpeed_}, noArrows{noArrows_}, proMode{proMode_}, zenMode{zenMode_}, smallCubes{smallCubes_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>*>(this);

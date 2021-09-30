@@ -74,8 +74,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set* signerInfos;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
-    // Creating value type constructor for type: SignedData
-    SignedData(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms_ = {}, Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo_ = {}, Org::BouncyCastle::Asn1::Asn1Set* certificates_ = {}, Org::BouncyCastle::Asn1::Asn1Set* crls_ = {}, Org::BouncyCastle::Asn1::Asn1Set* signerInfos_ = {}) noexcept : version{version_}, digestAlgorithms{digestAlgorithms_}, contentInfo{contentInfo_}, certificates{certificates_}, crls{crls_}, signerInfos{signerInfos_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set digestAlgorithms

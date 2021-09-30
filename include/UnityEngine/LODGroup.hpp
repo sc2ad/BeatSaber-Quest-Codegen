@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71540
   class LODGroup : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: LODGroup
-    LODGroup() noexcept {}
     // public System.Single get_size()
     // Offset: 0x1D9DDB8
     float get_size();

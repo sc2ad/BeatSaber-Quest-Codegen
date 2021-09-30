@@ -23,8 +23,6 @@ namespace Mono::Security::Cryptography {
     class PrivateKeyInfo;
     // Nested type: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo
     class EncryptedPrivateKeyInfo;
-    // Creating value type constructor for type: PKCS8
-    PKCS8() noexcept {}
   }; // Mono.Security.Cryptography.PKCS8
   #pragma pack(pop)
 }

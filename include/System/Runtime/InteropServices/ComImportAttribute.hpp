@@ -22,8 +22,6 @@ namespace System::Runtime::InteropServices {
   // [AttributeUsageAttribute] Offset: E60968
   class ComImportAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ComImportAttribute
-    ComImportAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AEABC
     // Implemented from: System.Attribute

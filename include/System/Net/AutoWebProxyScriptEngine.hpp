@@ -27,8 +27,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutoWebProxyScriptEngine : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AutoWebProxyScriptEngine
-    AutoWebProxyScriptEngine() noexcept {}
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList)
     // Offset: 0x156E0C4
     bool GetProxies(System::Uri* destination, ByRef<System::Collections::Generic::IList_1<::Il2CppString*>*> proxyList);

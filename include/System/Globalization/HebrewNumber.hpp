@@ -173,8 +173,6 @@ namespace System::Globalization {
     #pragma pack(pop)
     static check_size<sizeof(HebrewNumber::HS), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HSSizeCheck;
     static_assert(sizeof(HebrewNumber::HS) == 0x4);
-    // Creating value type constructor for type: HebrewNumber
-    HebrewNumber() noexcept {}
     // Get static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
     static ::ArrayWrapper<System::Globalization::HebrewNumber::HebrewValue*> _get_HebrewValues();
     // Set static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues

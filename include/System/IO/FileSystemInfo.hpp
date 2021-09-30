@@ -75,8 +75,6 @@ namespace System::IO {
     ::Il2CppString* displayPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: FileSystemInfo
-    FileSystemInfo(System::IO::MonoIOStat data_ = {}, int dataInitialised_ = {}, ::Il2CppString* FullPath_ = {}, ::Il2CppString* OriginalPath_ = {}, ::Il2CppString* displayPath_ = {}) noexcept : data{data_}, dataInitialised{dataInitialised_}, FullPath{FullPath_}, OriginalPath{OriginalPath_}, displayPath{displayPath_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Math::Raw {
   // [TokenAttribute] Offset: FFFFFFFF
   class Nat512 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Nat512
-    Nat512() noexcept {}
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
     // Offset: 0x14BAAB8
     static void Mul(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> zz);

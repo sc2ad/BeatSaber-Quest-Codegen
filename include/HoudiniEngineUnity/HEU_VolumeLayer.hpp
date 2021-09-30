@@ -108,8 +108,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_DetailPrototype* detailPrototype;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_DetailPrototype*) == 0x8);
-    // Creating value type constructor for type: HEU_VolumeLayer
-    HEU_VolumeLayer(::Il2CppString* layerName_ = {}, HoudiniEngineUnity::HEU_PartData* part_ = {}, float strength_ = {}, bool uiExpanded_ = {}, int tile_ = {}, int xLength_ = {}, int yLength_ = {}, bool hasLayerAttributes_ = {}, UnityEngine::TerrainLayer* terrainLayer_ = {}, HoudiniEngineUnity::HFLayerType layerType_ = {}, HoudiniEngineUnity::HEU_DetailPrototype* detailPrototype_ = {}) noexcept : layerName{layerName_}, part{part_}, strength{strength_}, uiExpanded{uiExpanded_}, tile{tile_}, xLength{xLength_}, yLength{yLength_}, hasLayerAttributes{hasLayerAttributes_}, terrainLayer{terrainLayer_}, layerType{layerType_}, detailPrototype{detailPrototype_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);

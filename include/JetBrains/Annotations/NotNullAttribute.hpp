@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: E6FFE4
   class NotNullAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NotNullAttribute
-    NotNullAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9B00
     // Implemented from: System.Attribute

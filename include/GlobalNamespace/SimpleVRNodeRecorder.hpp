@@ -60,8 +60,6 @@ namespace GlobalNamespace {
       ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*> keyframes;
       // Field size check
       static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>) == 0x8);
-      // Creating value type constructor for type: SavedData
-      SavedData(::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*> keyframes_ = {}) noexcept : keyframes{keyframes_} {}
       // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>
       constexpr operator ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>() const noexcept {
         return keyframes;
@@ -200,8 +198,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion prevRot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: SimpleVRNodeRecorder
-    SimpleVRNodeRecorder(GlobalNamespace::FloatSO* songTime_ = {}, ::Il2CppString* saveFilename_ = {}, GlobalNamespace::SimpleVRNodeRecorder::RecordMode mode_ = {}, UnityEngine::XR::XRNode node_ = {}, UnityEngine::Transform* playbackTransform_ = {}, float smooth_ = {}, float forwardOffset_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Collections::Generic::List_1<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* keyframes_ = {}, int keyframeIndex_ = {}, UnityEngine::Vector3 prevPos_ = {}, UnityEngine::Quaternion prevRot_ = {}) noexcept : songTime{songTime_}, saveFilename{saveFilename_}, mode{mode_}, node{node_}, playbackTransform{playbackTransform_}, smooth{smooth_}, forwardOffset{forwardOffset_}, vrPlatformHelper{vrPlatformHelper_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_}, prevPos{prevPos_}, prevRot{prevRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime

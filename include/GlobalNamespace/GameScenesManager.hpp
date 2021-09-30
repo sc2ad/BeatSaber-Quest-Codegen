@@ -141,8 +141,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<::Il2CppString*>* neverUnloadScenes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: GameScenesManager
-    GameScenesManager(GlobalNamespace::SceneInfo* emptyTransitionSceneInfo_ = {}, Zenject::ZenjectSceneLoader* zenjectSceneLoader_ = {}, System::Action_1<float>* transitionDidStartEvent_ = {}, System::Action* beforeDismissingScenesEvent_ = {}, System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* transitionDidFinishEvent_ = {}, System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* installEarlyBindingsEvent_ = {}, bool inTransition_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameScenesManager::ScenesStackData*>* scenesStack_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* neverUnloadScenes_ = {}) noexcept : emptyTransitionSceneInfo{emptyTransitionSceneInfo_}, zenjectSceneLoader{zenjectSceneLoader_}, transitionDidStartEvent{transitionDidStartEvent_}, beforeDismissingScenesEvent{beforeDismissingScenesEvent_}, transitionDidFinishEvent{transitionDidFinishEvent_}, installEarlyBindingsEvent{installEarlyBindingsEvent_}, inTransition{inTransition_}, scenesStack{scenesStack_}, neverUnloadScenes{neverUnloadScenes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kStandardTransitionLength

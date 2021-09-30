@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelPack* levelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelPack*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass53_0
-    $$c__DisplayClass53_0(GlobalNamespace::IBeatmapLevelPack* levelPack_ = {}) noexcept : levelPack{levelPack_} {}
     // Creating conversion operator: operator GlobalNamespace::IBeatmapLevelPack*
     constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return levelPack;

@@ -82,7 +82,7 @@ namespace UnityEngine::ResourceManagement::Util {
       // Field size check
       static_assert(sizeof(float) == 0x4);
       // Creating value type constructor for type: DelegateInfo
-      constexpr DelegateInfo(int m_Id_ = {}, System::Delegate* m_Delegate_ = {}, ::ArrayWrapper<::Il2CppObject*> m_Target_ = {}, float InvocationTime_ = {}) noexcept : m_Id{m_Id_}, m_Delegate{m_Delegate_}, m_Target{m_Target_}, InvocationTime{InvocationTime_} {}
+      constexpr DelegateInfo(int m_Id_ = {}, System::Delegate* m_Delegate_ = {}, ::ArrayWrapper<::Il2CppObject*> m_Target_ = {nullptr}, float InvocationTime_ = {}) noexcept : m_Id{m_Id_}, m_Delegate{m_Delegate_}, m_Target{m_Target_}, InvocationTime{InvocationTime_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -107,19 +107,17 @@ namespace UnityEngine::ResourceManagement::Util {
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
       // Offset: 0x1B6DC58
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayWrapper<::Il2CppObject*> p) {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(d), ::il2cpp_utils::ExtractType(invocationTime), ::il2cpp_utils::ExtractType(p)})));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, d, invocationTime, p);
       }
       // Creating initializer_list -> params proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       DelegateInfo(System::Delegate* d, float invocationTime, std::initializer_list<::Il2CppObject*> p) {
         DelegateInfo(d, invocationTime, ::ArrayWrapper<::Il2CppObject*>(p));
       }
       // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
+      template<class ...TParams>
       DelegateInfo(System::Delegate* d, float invocationTime, TParams&&... p) {
         DelegateInfo(d, invocationTime, {p...});
       }
@@ -165,8 +163,6 @@ namespace UnityEngine::ResourceManagement::Util {
     bool m_DestroyOnCompletion;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DelayedActionManager
-    DelayedActionManager(::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*> m_Actions_ = {}, System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* m_DelayedActions_ = {}, System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_NodeCache_ = {}, int m_CollectionIndex_ = {}, bool m_DestroyOnCompletion_ = {}) noexcept : m_Actions{m_Actions_}, m_DelayedActions{m_DelayedActions_}, m_NodeCache{m_NodeCache_}, m_CollectionIndex{m_CollectionIndex_}, m_DestroyOnCompletion{m_DestroyOnCompletion_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions

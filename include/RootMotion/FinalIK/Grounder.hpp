@@ -68,8 +68,6 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Grounder
-    Grounder(float weight_ = {}, RootMotion::FinalIK::Grounding* solver_ = {}, RootMotion::FinalIK::Grounder::GrounderDelegate* OnPreGrounder_ = {}, RootMotion::FinalIK::Grounder::GrounderDelegate* OnPostGrounder_ = {}, bool initiated_ = {}) noexcept : weight{weight_}, solver{solver_}, OnPreGrounder{OnPreGrounder_}, OnPostGrounder{OnPostGrounder_}, initiated{initiated_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight

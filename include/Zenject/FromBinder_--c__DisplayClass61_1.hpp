@@ -51,8 +51,6 @@ namespace Zenject {
     Zenject::FromBinder::$$c__DisplayClass61_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(Zenject::FromBinder::$$c__DisplayClass61_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass61_1
-    $$c__DisplayClass61_1(System::Type* concreteType_ = {}, Zenject::FromBinder::$$c__DisplayClass61_0* CS$$$8__locals1_ = {}) noexcept : concreteType{concreteType_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public System.Type concreteType
     System::Type*& dyn_concreteType();
     // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass61_0 CS$<>8__locals1

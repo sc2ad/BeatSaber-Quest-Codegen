@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     float lastFrameDeltaSongTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MockAudioTimeSource
-    MockAudioTimeSource(float songTime_ = {}, float lastFrameDeltaSongTime_ = {}) noexcept : songTime{songTime_}, lastFrameDeltaSongTime{lastFrameDeltaSongTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

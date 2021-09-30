@@ -50,8 +50,6 @@ namespace NUnit::Framework::Constraints {
     bool ActualHasData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FailurePoint
-    FailurePoint(int64_t Position_ = {}, ::Il2CppObject* ExpectedValue_ = {}, ::Il2CppObject* ActualValue_ = {}, bool ExpectedHasData_ = {}, bool ActualHasData_ = {}) noexcept : Position{Position_}, ExpectedValue{ExpectedValue_}, ActualValue{ActualValue_}, ExpectedHasData{ExpectedHasData_}, ActualHasData{ActualHasData_} {}
     // Get instance field reference: public System.Int64 Position
     int64_t& dyn_Position();
     // Get instance field reference: public System.Object ExpectedValue

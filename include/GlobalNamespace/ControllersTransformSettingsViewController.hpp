@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     HMUI::RangeValuesTextSlider* rotZSlider;
     // Field size check
     static_assert(sizeof(HMUI::RangeValuesTextSlider*) == 0x8);
-    // Creating value type constructor for type: ControllersTransformSettingsViewController
-    ControllersTransformSettingsViewController(GlobalNamespace::Vector3SO* controllerPosition_ = {}, GlobalNamespace::Vector3SO* controllerRotation_ = {}, HMUI::RangeValuesTextSlider* posXSlider_ = {}, HMUI::RangeValuesTextSlider* posYSlider_ = {}, HMUI::RangeValuesTextSlider* posZSlider_ = {}, HMUI::RangeValuesTextSlider* rotXSlider_ = {}, HMUI::RangeValuesTextSlider* rotYSlider_ = {}, HMUI::RangeValuesTextSlider* rotZSlider_ = {}) noexcept : controllerPosition{controllerPosition_}, controllerRotation{controllerRotation_}, posXSlider{posXSlider_}, posYSlider{posYSlider_}, posZSlider{posZSlider_}, rotXSlider{rotXSlider_}, rotYSlider{rotYSlider_}, rotZSlider{rotZSlider_} {}
     // static field const value: static private System.Single kPositionStep
     static constexpr const float kPositionStep = 0.1;
     // Get static field: static private System.Single kPositionStep

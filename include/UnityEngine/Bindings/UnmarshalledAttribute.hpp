@@ -22,8 +22,6 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class UnmarshalledAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: UnmarshalledAttribute
-    UnmarshalledAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261FA48
     // Implemented from: System.Attribute

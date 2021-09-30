@@ -91,8 +91,6 @@ namespace GlobalNamespace {
     bool hasScoresData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NetEaseLeaderboardViewController
-    NetEaseLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool hasScoresData_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, loadingControl{loadingControl_}, netEaseManager{netEaseManager_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, hasScoresData{hasScoresData_} {}
     // Get instance field reference: private LeaderboardTableView _leaderboardTableView
     GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
     // Get instance field reference: private LoadingControl _loadingControl

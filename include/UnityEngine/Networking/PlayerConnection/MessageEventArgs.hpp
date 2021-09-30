@@ -32,8 +32,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     ::ArrayWrapper<uint8_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: MessageEventArgs
-    MessageEventArgs(int playerId_ = {}, ::ArrayWrapper<uint8_t> data_ = {}) noexcept : playerId{playerId_}, data{data_} {}
     // Get instance field reference: public System.Int32 playerId
     int& dyn_playerId();
     // Get instance field reference: public System.Byte[] data

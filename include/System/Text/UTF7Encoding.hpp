@@ -72,8 +72,6 @@ namespace System::Text {
     bool m_allowOptionals;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UTF7Encoding
-    UTF7Encoding(::ArrayWrapper<uint8_t> base64Bytes_ = {}, ::ArrayWrapper<int8_t> base64Values_ = {}, ::ArrayWrapper<bool> directEncode_ = {}, bool m_allowOptionals_ = {}) noexcept : base64Bytes{base64Bytes_}, base64Values{base64Values_}, directEncode{directEncode_}, m_allowOptionals{m_allowOptionals_} {}
     // Get instance field reference: private System.Byte[] base64Bytes
     ::ArrayWrapper<uint8_t>& dyn_base64Bytes();
     // Get instance field reference: private System.SByte[] base64Values

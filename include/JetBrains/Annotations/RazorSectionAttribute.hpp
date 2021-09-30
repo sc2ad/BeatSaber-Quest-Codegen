@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADB88
   class RazorSectionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: RazorSectionAttribute
-    RazorSectionAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26109DC
     // Implemented from: System.Attribute

@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     bool startColorWasSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InstancedMaterialLightWithId
-    InstancedMaterialLightWithId(GlobalNamespace::MaterialPropertyBlockColorSetter* materialPropertyBlockColorSetter_ = {}, bool setColorOnly_ = {}, float intensity_ = {}, float minAlpha_ = {}, UnityEngine::Color color_ = {}, bool startColorWasSet_ = {}) noexcept : materialPropertyBlockColorSetter{materialPropertyBlockColorSetter_}, setColorOnly{setColorOnly_}, intensity{intensity_}, minAlpha{minAlpha_}, color{color_}, startColorWasSet{startColorWasSet_} {}
     // Get instance field reference: private MaterialPropertyBlockColorSetter _materialPropertyBlockColorSetter
     GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__materialPropertyBlockColorSetter();
     // Get instance field reference: private System.Boolean _setColorOnly

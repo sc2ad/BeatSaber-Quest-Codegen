@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuDestination : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MenuDestination
-    MenuDestination() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x117FBA0
     // Implemented from: System.Object

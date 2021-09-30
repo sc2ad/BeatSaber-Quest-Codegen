@@ -30,8 +30,6 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: EABBD4
   class XRDevice : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: XRDevice
-    XRDevice() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xEABCC8
     // Get static field: static private System.Action`1<System.String> deviceLoaded
     static System::Action_1<::Il2CppString*>* _get_deviceLoaded();

@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Security::Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class CertificateException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
-    // Creating value type constructor for type: CertificateException
-    CertificateException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14C28FC
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException

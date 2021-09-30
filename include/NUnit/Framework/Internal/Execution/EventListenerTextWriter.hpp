@@ -39,8 +39,6 @@ namespace NUnit::Framework::Internal::Execution {
     ::Il2CppString* streamName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EventListenerTextWriter
-    EventListenerTextWriter(System::IO::TextWriter* defaultWriter_ = {}, ::Il2CppString* streamName_ = {}) noexcept : defaultWriter{defaultWriter_}, streamName{streamName_} {}
     // Get instance field reference: private System.IO.TextWriter _defaultWriter
     System::IO::TextWriter*& dyn__defaultWriter();
     // Get instance field reference: private System.String _streamName

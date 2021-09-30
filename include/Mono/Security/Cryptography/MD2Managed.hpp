@@ -54,8 +54,6 @@ namespace Mono::Security::Cryptography {
     ::ArrayWrapper<uint8_t> x;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: MD2Managed
-    MD2Managed(::ArrayWrapper<uint8_t> state_ = {}, ::ArrayWrapper<uint8_t> checksum_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int count_ = {}, ::ArrayWrapper<uint8_t> x_ = {}) noexcept : state{state_}, checksum{checksum_}, buffer{buffer_}, count{count_}, x{x_} {}
     // Get static field: static private readonly System.Byte[] PI_SUBST
     static ::ArrayWrapper<uint8_t> _get_PI_SUBST();
     // Set static field: static private readonly System.Byte[] PI_SUBST

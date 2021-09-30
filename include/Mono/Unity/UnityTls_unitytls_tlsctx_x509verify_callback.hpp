@@ -32,8 +32,6 @@ namespace Mono::Unity {
   // [UnmanagedFunctionPointerAttribute] Offset: E68C64
   class UnityTls::unitytls_tlsctx_x509verify_callback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: unitytls_tlsctx_x509verify_callback
-    unitytls_tlsctx_x509verify_callback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C99F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

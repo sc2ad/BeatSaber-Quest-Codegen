@@ -35,8 +35,6 @@ namespace System::Net {
     public:
     // Nested type: System::Net::WebUtility::UrlDecoder
     class UrlDecoder;
-    // Creating value type constructor for type: WebUtility
-    WebUtility() noexcept {}
     // Get static field: static private readonly System.Char[] _htmlEntityEndingChars
     static ::ArrayWrapper<::Il2CppChar> _get__htmlEntityEndingChars();
     // Set static field: static private readonly System.Char[] _htmlEntityEndingChars

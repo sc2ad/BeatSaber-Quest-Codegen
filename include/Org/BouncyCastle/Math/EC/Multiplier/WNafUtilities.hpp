@@ -39,8 +39,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     class PrecomputeCallback;
     // Nested type: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback
     class PrecomputeWithPointMapCallback;
-    // Creating value type constructor for type: WNafUtilities
-    WNafUtilities() noexcept {}
     // Get static field: static public readonly System.String PRECOMP_NAME
     static ::Il2CppString* _get_PRECOMP_NAME();
     // Set static field: static public readonly System.String PRECOMP_NAME

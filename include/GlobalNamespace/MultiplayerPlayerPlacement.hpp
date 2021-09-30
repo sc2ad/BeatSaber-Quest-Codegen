@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerPlayerPlacement::$$c
     class $$c;
-    // Creating value type constructor for type: MultiplayerPlayerPlacement
-    MultiplayerPlayerPlacement() noexcept {}
     // static public UnityEngine.Vector3 GetPlayerWorldPosition(System.Single outerCircleRadius, System.Single outerCirclePositionAngle, MultiplayerPlayerLayout layout)
     // Offset: 0x11280DC
     static UnityEngine::Vector3 GetPlayerWorldPosition(float outerCircleRadius, float outerCirclePositionAngle, GlobalNamespace::MultiplayerPlayerLayout layout);

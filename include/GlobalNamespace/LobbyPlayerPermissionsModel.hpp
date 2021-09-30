@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     System::Action* permissionsChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: LobbyPlayerPermissionsModel
-    LobbyPlayerPermissionsModel(GlobalNamespace::IMenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, bool isPartyOwner_ = {}, bool hasRecommendBeatmapPermission_ = {}, bool hasRecommendModifiersPermission_ = {}, bool hasKickVotePermission_ = {}, bool hasInvitePermission_ = {}, System::Action* permissionsChangedEvent_ = {}) noexcept : menuRpcManager{menuRpcManager_}, multiplayerSessionManager{multiplayerSessionManager_}, isPartyOwner{isPartyOwner_}, hasRecommendBeatmapPermission{hasRecommendBeatmapPermission_}, hasRecommendModifiersPermission{hasRecommendModifiersPermission_}, hasKickVotePermission{hasKickVotePermission_}, hasInvitePermission{hasInvitePermission_}, permissionsChangedEvent{permissionsChangedEvent_} {}
     // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
     GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager

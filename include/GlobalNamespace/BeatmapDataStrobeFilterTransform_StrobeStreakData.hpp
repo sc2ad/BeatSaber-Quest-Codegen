@@ -95,8 +95,6 @@ namespace GlobalNamespace {
     bool foundFirstColoredEventData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: StrobeStreakData
-    StrobeStreakData(bool isActive_ = {}, float strobeStartTime_ = {}, GlobalNamespace::ColorType startColorType_ = {}, float lastSwitchTime_ = {}, GlobalNamespace::ColorType lastColorType_ = {}, bool lastIsOn_ = {}, int lastSwitchBeatmapIndex_ = {}, GlobalNamespace::BeatmapEventData* originalBeatmapEventData_ = {}, int originalBeatmapDataIndex_ = {}, bool foundFirstColoredEventData_ = {}) noexcept : isActive{isActive_}, strobeStartTime{strobeStartTime_}, startColorType{startColorType_}, lastSwitchTime{lastSwitchTime_}, lastColorType{lastColorType_}, lastIsOn{lastIsOn_}, lastSwitchBeatmapIndex{lastSwitchBeatmapIndex_}, originalBeatmapEventData{originalBeatmapEventData_}, originalBeatmapDataIndex{originalBeatmapDataIndex_}, foundFirstColoredEventData{foundFirstColoredEventData_} {}
     // Get instance field reference: public System.Boolean isActive
     bool& dyn_isActive();
     // Get instance field reference: public System.Single strobeStartTime

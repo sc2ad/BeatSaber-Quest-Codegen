@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: PresentServerSettingsAfterNClicks
-    PresentServerSettingsAfterNClicks(UnityEngine::UI::Button* serverSettingsButton_ = {}, HMUI::ViewController* serverSettingsViewController_ = {}, int numberOfClicksRequired_ = {}, GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator_ = {}, int currentNumberOfClicks_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : serverSettingsButton{serverSettingsButton_}, serverSettingsViewController{serverSettingsViewController_}, numberOfClicksRequired{numberOfClicksRequired_}, settingsFlowCoordinator{settingsFlowCoordinator_}, currentNumberOfClicks{currentNumberOfClicks_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _serverSettingsButton

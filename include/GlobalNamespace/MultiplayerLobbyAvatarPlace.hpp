@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool
     class Pool;
-    // Creating value type constructor for type: MultiplayerLobbyAvatarPlace
-    MultiplayerLobbyAvatarPlace() noexcept {}
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 worldPos, UnityEngine.Quaternion rotation)
     // Offset: 0x116D778
     void SetPositionAndRotation(UnityEngine::Vector3 worldPos, UnityEngine::Quaternion rotation);

@@ -52,8 +52,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* bakeTargets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*) == 0x8);
-    // Creating value type constructor for type: HEU_HoudiniAssetRoot
-    HEU_HoudiniAssetRoot(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* bakeTargets_ = {}) noexcept : houdiniAsset{houdiniAsset_}, bakeTargets{bakeTargets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset _houdiniAsset

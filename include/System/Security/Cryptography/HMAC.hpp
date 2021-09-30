@@ -71,8 +71,6 @@ namespace System::Security::Cryptography {
     bool m_hashing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HMAC
-    HMAC(int blockSizeValue_ = {}, ::Il2CppString* m_hashName_ = {}, System::Security::Cryptography::HashAlgorithm* m_hash1_ = {}, System::Security::Cryptography::HashAlgorithm* m_hash2_ = {}, ::ArrayWrapper<uint8_t> m_inner_ = {}, ::ArrayWrapper<uint8_t> m_outer_ = {}, bool m_hashing_ = {}) noexcept : blockSizeValue{blockSizeValue_}, m_hashName{m_hashName_}, m_hash1{m_hash1_}, m_hash2{m_hash2_}, m_inner{m_inner_}, m_outer{m_outer_}, m_hashing{m_hashing_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private System.Int32 blockSizeValue

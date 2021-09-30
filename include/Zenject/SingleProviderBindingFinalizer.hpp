@@ -46,8 +46,6 @@ namespace Zenject {
     System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory;
     // Field size check
     static_assert(sizeof(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*) == 0x8);
-    // Creating value type constructor for type: SingleProviderBindingFinalizer
-    SingleProviderBindingFinalizer(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory_ = {}) noexcept : providerFactory{providerFactory_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory

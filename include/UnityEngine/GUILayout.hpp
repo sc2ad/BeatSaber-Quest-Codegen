@@ -32,8 +32,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUILayout : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GUILayout
-    GUILayout() noexcept {}
     // static public System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C97AE8
     static void Label(::Il2CppString* text, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);

@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     class $$c__DisplayClass0_0;
     // Nested type: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // Creating value type constructor for type: FileCompressionHelper
-    FileCompressionHelper() noexcept {}
     // static public System.Void CreateZipFromDirectoryAsync(System.String sourceDirectoryName, System.String destinationArchiveFileName, System.Action`1<System.Boolean> finishCallback)
     // Offset: 0x137FD08
     static void CreateZipFromDirectoryAsync(::Il2CppString* sourceDirectoryName, ::Il2CppString* destinationArchiveFileName, System::Action_1<bool>* finishCallback);

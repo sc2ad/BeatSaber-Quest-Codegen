@@ -42,8 +42,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass2_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c
     class $$c;
-    // Creating value type constructor for type: DeleteElements
-    DeleteElements() noexcept {}
     // static public System.Void DeleteVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> distinctIndexes)
     // Offset: 0x1715B70
     static void DeleteVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* distinctIndexes);

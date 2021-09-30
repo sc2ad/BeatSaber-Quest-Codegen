@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* valid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_0
-    $$c__DisplayClass6_0(::Il2CppString* valid_ = {}) noexcept : valid{valid_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return valid;

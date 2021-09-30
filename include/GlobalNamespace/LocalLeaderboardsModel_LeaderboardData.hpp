@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*) == 0x8);
-    // Creating value type constructor for type: LeaderboardData
-    LeaderboardData(::Il2CppString* leaderboardId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores_ = {}) noexcept : leaderboardId{leaderboardId_}, scores{scores_} {}
     // Get instance field reference: public System.String _leaderboardId
     ::Il2CppString*& dyn__leaderboardId();
     // Get instance field reference: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores

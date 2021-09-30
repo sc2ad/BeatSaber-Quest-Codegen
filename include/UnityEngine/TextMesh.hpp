@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E89D30
   class TextMesh : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: TextMesh
-    TextMesh() noexcept {}
     // public System.Void set_text(System.String value)
     // Offset: 0x261BDC4
     void set_text(::Il2CppString* value);

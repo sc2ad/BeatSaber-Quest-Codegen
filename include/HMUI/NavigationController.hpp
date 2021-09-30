@@ -170,8 +170,6 @@ namespace HMUI {
     float viewControllersSeparator;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: NavigationController
-    NavigationController(HMUI::NavigationController::Orientation orientation_ = {}, bool reversedStacking_ = {}, HMUI::NavigationController::Alignment alignment_ = {}, float edgeSize_ = {}, float viewControllersSeparator_ = {}) noexcept : orientation{orientation_}, reversedStacking{reversedStacking_}, alignment{alignment_}, edgeSize{edgeSize_}, viewControllersSeparator{viewControllersSeparator_} {}
     // Get instance field reference: private HMUI.NavigationController/HMUI.Orientation _orientation
     HMUI::NavigationController::Orientation& dyn__orientation();
     // Get instance field reference: private System.Boolean _reversedStacking

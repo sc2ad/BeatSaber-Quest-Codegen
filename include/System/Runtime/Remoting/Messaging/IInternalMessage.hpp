@@ -23,8 +23,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInternalMessage {
     public:
-    // Creating value type constructor for type: IInternalMessage
-    IInternalMessage() noexcept {}
     // public System.Runtime.Remoting.Identity get_TargetIdentity()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Identity* get_TargetIdentity();

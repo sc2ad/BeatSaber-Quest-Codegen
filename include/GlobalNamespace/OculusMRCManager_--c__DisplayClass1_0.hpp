@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass1_0
-    $$c__DisplayClass1_0(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject_ = {}, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject_ = {}) noexcept : instantiateMixedRealityBackgroundCameraGameObject{instantiateMixedRealityBackgroundCameraGameObject_}, instantiateMixedRealityForegroundCameraGameObject{instantiateMixedRealityForegroundCameraGameObject_} {}
     // Get instance field reference: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject
     System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*& dyn_instantiateMixedRealityBackgroundCameraGameObject();
     // Get instance field reference: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject

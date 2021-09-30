@@ -48,8 +48,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* args;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(Zenject::SubContainerCreatorByNewGameObjectInstaller* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}) noexcept : $$4__this{$$4__this_}, args{args_} {}
     // Get instance field reference: public Zenject.SubContainerCreatorByNewGameObjectInstaller <>4__this
     Zenject::SubContainerCreatorByNewGameObjectInstaller*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args

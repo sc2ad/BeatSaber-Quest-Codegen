@@ -13,8 +13,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IClipper {
     public:
-    // Creating value type constructor for type: IClipper
-    IClipper() noexcept {}
     // public System.Void PerformClipping()
     // Offset: 0xFFFFFFFF
     void PerformClipping();

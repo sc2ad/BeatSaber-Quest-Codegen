@@ -20,8 +20,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectEqualityComparer : public ::Il2CppObject/*, public System::Collections::IEqualityComparer*/ {
     public:
-    // Creating value type constructor for type: ObjectEqualityComparer
-    ObjectEqualityComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);

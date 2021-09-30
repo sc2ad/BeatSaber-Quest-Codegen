@@ -26,8 +26,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultipleDisplayUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MultipleDisplayUtilities
-    MultipleDisplayUtilities() noexcept {}
     // static public System.Boolean GetRelativeMousePositionForDrag(UnityEngine.EventSystems.PointerEventData eventData, ref UnityEngine.Vector2 position)
     // Offset: 0x1B47478
     static bool GetRelativeMousePositionForDrag(UnityEngine::EventSystems::PointerEventData* eventData, ByRef<UnityEngine::Vector2> position);

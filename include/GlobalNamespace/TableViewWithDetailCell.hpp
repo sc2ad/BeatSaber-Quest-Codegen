@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     int selectedId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TableViewWithDetailCell
-    TableViewWithDetailCell(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* didSelectContentCellEvent_ = {}, System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* didDeselectContentCellEvent_ = {}, GlobalNamespace::TableViewWithDetailCell::IDataSource* dataSource_ = {}, int selectedId_ = {}) noexcept : didSelectContentCellEvent{didSelectContentCellEvent_}, didDeselectContentCellEvent{didDeselectContentCellEvent_}, dataSource{dataSource_}, selectedId{selectedId_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

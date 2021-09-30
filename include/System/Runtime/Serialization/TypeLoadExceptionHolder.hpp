@@ -24,8 +24,6 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* m_typeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeLoadExceptionHolder
-    TypeLoadExceptionHolder(::Il2CppString* m_typeName_ = {}) noexcept : m_typeName{m_typeName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_typeName;

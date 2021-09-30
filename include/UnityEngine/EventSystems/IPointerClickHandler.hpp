@@ -22,8 +22,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPointerClickHandler/*, public UnityEngine::EventSystems::IEventSystemHandler*/ {
     public:
-    // Creating value type constructor for type: IPointerClickHandler
-    IPointerClickHandler() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IEventSystemHandler
     operator UnityEngine::EventSystems::IEventSystemHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IEventSystemHandler*>(this);

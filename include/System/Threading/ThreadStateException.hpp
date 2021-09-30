@@ -28,8 +28,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EB50
   class ThreadStateException : public System::SystemException {
     public:
-    // Creating value type constructor for type: ThreadStateException
-    ThreadStateException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19C0F64
     // Implemented from: System.SystemException

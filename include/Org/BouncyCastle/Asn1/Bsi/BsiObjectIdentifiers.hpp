@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Bsi {
   // [TokenAttribute] Offset: FFFFFFFF
   class BsiObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BsiObjectIdentifiers
-    BsiObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier bsi_de
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_bsi_de();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier bsi_de

@@ -18,8 +18,6 @@ namespace Unity::Collections {
   // [RequiredByNativeCodeAttribute] Offset: E6FA30
   class ReadOnlyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ReadOnlyAttribute
-    ReadOnlyAttribute() noexcept {}
   }; // Unity.Collections.ReadOnlyAttribute
   #pragma pack(pop)
 }

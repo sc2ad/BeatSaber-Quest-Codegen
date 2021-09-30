@@ -56,8 +56,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* signatureValue;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: AttributeCertificate
-    AttributeCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerBitString* signatureValue_ = {}) noexcept : acinfo{acinfo_}, signatureAlgorithm{signatureAlgorithm_}, signatureValue{signatureValue_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
     Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& dyn_acinfo();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signatureAlgorithm

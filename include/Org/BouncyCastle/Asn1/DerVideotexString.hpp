@@ -34,8 +34,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<uint8_t> mString;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: DerVideotexString
-    DerVideotexString(::ArrayWrapper<uint8_t> mString_ = {}) noexcept : mString{mString_} {}
     // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return mString;

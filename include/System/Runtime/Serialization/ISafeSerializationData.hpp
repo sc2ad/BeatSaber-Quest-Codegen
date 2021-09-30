@@ -16,8 +16,6 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISafeSerializationData {
     public:
-    // Creating value type constructor for type: ISafeSerializationData
-    ISafeSerializationData() noexcept {}
     // public System.Void CompleteDeserialization(System.Object deserialized)
     // Offset: 0xFFFFFFFF
     void CompleteDeserialization(::Il2CppObject* deserialized);

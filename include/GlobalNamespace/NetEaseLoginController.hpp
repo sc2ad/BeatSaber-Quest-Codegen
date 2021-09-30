@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NetEaseManager* netEaseManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetEaseManager*) == 0x8);
-    // Creating value type constructor for type: NetEaseLoginController
-    NetEaseLoginController(GlobalNamespace::MenuScenesTransitionSetupDataSO* arcadeMenuTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}) noexcept : arcadeMenuTransitionSetupData{arcadeMenuTransitionSetupData_}, gameScenesManager{gameScenesManager_}, netEaseManager{netEaseManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuScenesTransitionSetupDataSO _arcadeMenuTransitionSetupData

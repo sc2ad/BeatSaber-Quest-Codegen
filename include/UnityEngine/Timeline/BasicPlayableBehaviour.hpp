@@ -49,8 +49,6 @@ namespace UnityEngine::Timeline {
   // [ObsoleteAttribute] Offset: EB9528
   class BasicPlayableBehaviour : public UnityEngine::ScriptableObject/*, public UnityEngine::Playables::IPlayableAsset, public UnityEngine::Playables::IPlayableBehaviour*/ {
     public:
-    // Creating value type constructor for type: BasicPlayableBehaviour
-    BasicPlayableBehaviour() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::Playables::IPlayableAsset
     operator UnityEngine::Playables::IPlayableAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::IPlayableAsset*>(this);

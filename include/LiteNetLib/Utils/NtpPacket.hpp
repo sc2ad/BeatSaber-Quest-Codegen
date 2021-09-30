@@ -45,8 +45,6 @@ namespace LiteNetLib::Utils {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<System::DateTime> DestinationTimestamp;
-    // Creating value type constructor for type: NtpPacket
-    NtpPacket(::ArrayWrapper<uint8_t> Bytes_ = {}, System::Nullable_1<System::DateTime> DestinationTimestamp_ = {}) noexcept : Bytes{Bytes_}, DestinationTimestamp{DestinationTimestamp_} {}
     // Get static field: static private readonly System.DateTime Epoch
     static System::DateTime _get_Epoch();
     // Set static field: static private readonly System.DateTime Epoch

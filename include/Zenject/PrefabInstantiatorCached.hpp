@@ -62,8 +62,6 @@ namespace Zenject {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: PrefabInstantiatorCached
-    PrefabInstantiatorCached(Zenject::IPrefabInstantiator* subInstantiator_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : subInstantiator{subInstantiator_}, gameObject{gameObject_} {}
     // Creating interface conversion operator: operator Zenject::IPrefabInstantiator
     operator Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);

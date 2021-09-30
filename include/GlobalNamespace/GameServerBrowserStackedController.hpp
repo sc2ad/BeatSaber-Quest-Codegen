@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerBrowserStackedController : public HMUI::StackedController {
     public:
-    // Creating value type constructor for type: GameServerBrowserStackedController
-    GameServerBrowserStackedController() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11D7480
     // Implemented from: HMUI.StackedController

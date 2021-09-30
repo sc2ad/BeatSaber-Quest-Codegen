@@ -51,8 +51,6 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DHParameters*) == 0x8);
-    // Creating value type constructor for type: DHBasicAgreement
-    DHBasicAgreement(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* key_ = {}, Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams_ = {}) noexcept : key{key_}, dhParams{dhParams_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBasicAgreement
     operator Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBasicAgreement*>(this);

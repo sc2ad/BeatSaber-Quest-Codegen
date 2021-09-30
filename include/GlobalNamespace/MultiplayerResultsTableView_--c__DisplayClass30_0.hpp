@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cell;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass30_0
-    $$c__DisplayClass30_0(UnityEngine::RectTransform* rectTransform_ = {}, GlobalNamespace::MultiplayerResultsTableCell* cell_ = {}) noexcept : rectTransform{rectTransform_}, cell{cell_} {}
     // Get instance field reference: public UnityEngine.RectTransform rectTransform
     UnityEngine::RectTransform*& dyn_rectTransform();
     // Get instance field reference: public MultiplayerResultsTableCell cell

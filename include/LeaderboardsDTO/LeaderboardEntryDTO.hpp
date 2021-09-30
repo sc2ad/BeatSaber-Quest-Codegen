@@ -66,8 +66,6 @@ namespace LeaderboardsDTO {
     ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
-    // Creating value type constructor for type: LeaderboardEntryDTO
-    LeaderboardEntryDTO(int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers_ = {}) noexcept : score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public System.Int32 score
     int& dyn_score();
     // Get instance field reference: public System.Int32 unmodifiedScore

@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB138C
   class IVRRenderModels::_GetComponentStateForDevicePath : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetComponentStateForDevicePath
-    _GetComponentStateForDevicePath() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22DAC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

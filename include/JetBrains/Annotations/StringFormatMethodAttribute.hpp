@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* FormatParameterName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StringFormatMethodAttribute
-    StringFormatMethodAttribute(::Il2CppString* FormatParameterName_ = {}) noexcept : FormatParameterName{FormatParameterName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return FormatParameterName;

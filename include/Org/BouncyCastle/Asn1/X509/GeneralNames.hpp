@@ -42,8 +42,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> names;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>) == 0x8);
-    // Creating value type constructor for type: GeneralNames
-    GeneralNames(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> names_ = {}) noexcept : names{names_} {}
     // Creating conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>
     constexpr operator ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>() const noexcept {
       return names;

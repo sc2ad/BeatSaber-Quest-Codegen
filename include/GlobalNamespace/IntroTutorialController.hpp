@@ -135,8 +135,6 @@ namespace GlobalNamespace {
     bool blueRingWrapperActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IntroTutorialController
-    IntroTutorialController(GlobalNamespace::IntroTutorialRing* redRing_ = {}, GlobalNamespace::IntroTutorialRing* blueRing_ = {}, UnityEngine::GameObject* redRingWrapper_ = {}, UnityEngine::GameObject* blueRingWrapper_ = {}, UnityEngine::CanvasGroup* textCanvasGroup_ = {}, UnityEngine::ParticleSystem* shockWavePS_ = {}, GlobalNamespace::BloomFogEnvironmentParams* finishForParams_ = {}, GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, System::Action* introTutorialDidFinishEvent_ = {}, bool showingFinishAnimation_ = {}, bool redRingWrapperActive_ = {}, bool blueRingWrapperActive_ = {}) noexcept : redRing{redRing_}, blueRing{blueRing_}, redRingWrapper{redRingWrapper_}, blueRingWrapper{blueRingWrapper_}, textCanvasGroup{textCanvasGroup_}, shockWavePS{shockWavePS_}, finishForParams{finishForParams_}, bloomFogAnimator{bloomFogAnimator_}, gamePause{gamePause_}, introTutorialDidFinishEvent{introTutorialDidFinishEvent_}, showingFinishAnimation{showingFinishAnimation_}, redRingWrapperActive{redRingWrapperActive_}, blueRingWrapperActive{blueRingWrapperActive_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IntroTutorialRing _redRing

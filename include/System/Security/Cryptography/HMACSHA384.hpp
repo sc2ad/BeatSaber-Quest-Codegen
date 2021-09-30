@@ -27,8 +27,6 @@ namespace System::Security::Cryptography {
     bool m_useLegacyBlockSize;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HMACSHA384
-    HMACSHA384(bool m_useLegacyBlockSize_ = {}) noexcept : m_useLegacyBlockSize{m_useLegacyBlockSize_} {}
     // Get instance field reference: private System.Boolean m_useLegacyBlockSize
     bool& dyn_m_useLegacyBlockSize();
     // private System.Int32 get_BlockSize()

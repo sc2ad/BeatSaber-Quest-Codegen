@@ -28,8 +28,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_TransformEuler self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_TransformEuler) == 0x28);
-    // Creating value type constructor for type: Test_HAPI_TransformEuler
-    Test_HAPI_TransformEuler(HoudiniEngineUnity::HAPI_TransformEuler self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>*>(this);

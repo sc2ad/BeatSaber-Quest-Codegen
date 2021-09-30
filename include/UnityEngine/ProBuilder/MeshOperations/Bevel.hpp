@@ -56,8 +56,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass0_2;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c
     class $$c;
-    // Creating value type constructor for type: Bevel
-    Bevel() noexcept {}
     // Get static field: static private readonly System.Int32[] k_BridgeIndexesTri
     static ::ArrayWrapper<int> _get_k_BridgeIndexesTri();
     // Set static field: static private readonly System.Int32[] k_BridgeIndexesTri

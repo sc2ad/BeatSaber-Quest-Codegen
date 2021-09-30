@@ -134,8 +134,6 @@ namespace GlobalNamespace {
     bool dontTickThisFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: VisualMetronome
-    VisualMetronome(UnityEngine::AudioSource* audioSource_ = {}, float leftPadding_ = {}, float rightPadding_ = {}, UnityEngine::RectTransform* ticker_ = {}, UnityEngine::RectTransform* movingTicker_ = {}, UnityEngine::UI::Image* tickerImage_ = {}, UnityEngine::UI::Image* movingTickerImage_ = {}, float metronomeInterval_ = {}, UnityEngine::Vector2 normalTickerSize_ = {}, UnityEngine::Vector2 tickTickerSize0_ = {}, UnityEngine::Vector2 tickTickerSize1_ = {}, float smooth_ = {}, float prevAudioTime_ = {}, float zeroOffset_ = {}, float direction_ = {}, bool dontTickThisFrame_ = {}) noexcept : audioSource{audioSource_}, leftPadding{leftPadding_}, rightPadding{rightPadding_}, ticker{ticker_}, movingTicker{movingTicker_}, tickerImage{tickerImage_}, movingTickerImage{movingTickerImage_}, metronomeInterval{metronomeInterval_}, normalTickerSize{normalTickerSize_}, tickTickerSize0{tickTickerSize0_}, tickTickerSize1{tickTickerSize1_}, smooth{smooth_}, prevAudioTime{prevAudioTime_}, zeroOffset{zeroOffset_}, direction{direction_}, dontTickThisFrame{dontTickThisFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

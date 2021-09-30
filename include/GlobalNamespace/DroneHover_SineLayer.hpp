@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SineLayer
-    SineLayer(float multiplier_ = {}, float offset_ = {}) noexcept : multiplier{multiplier_}, offset{offset_} {}
     // Get instance field reference: public System.Single multiplier
     float& dyn_multiplier();
     // Get instance field reference: public System.Single offset

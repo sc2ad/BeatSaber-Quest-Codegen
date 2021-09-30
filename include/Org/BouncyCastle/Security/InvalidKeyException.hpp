@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidKeyException : public Org::BouncyCastle::Security::KeyException {
     public:
-    // Creating value type constructor for type: InvalidKeyException
-    InvalidKeyException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14CED54
     // Implemented from: Org.BouncyCastle.Security.KeyException

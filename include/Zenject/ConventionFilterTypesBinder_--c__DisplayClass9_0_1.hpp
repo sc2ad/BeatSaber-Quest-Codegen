@@ -39,8 +39,6 @@ namespace Zenject {
     System::Func_2<T, bool>* predicate;
     // Field size check
     static_assert(sizeof(System::Func_2<T, bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0_1
-    $$c__DisplayClass9_0_1(System::Func_2<T, bool>* predicate_ = {}) noexcept : predicate{predicate_} {}
     // Creating conversion operator: operator System::Func_2<T, bool>*
     constexpr operator System::Func_2<T, bool>*() const noexcept {
       return predicate;

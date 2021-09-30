@@ -28,8 +28,6 @@ namespace System {
   // [TypeForwardedFromAttribute] Offset: E5C314
   class InvalidTimeZoneException : public System::Exception {
     public:
-    // Creating value type constructor for type: InvalidTimeZoneException
-    InvalidTimeZoneException() noexcept {}
     // public System.Void .ctor(System.String message)
     // Offset: 0x1A0D90C
     // Implemented from: System.Exception

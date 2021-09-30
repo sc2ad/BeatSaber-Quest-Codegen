@@ -29,8 +29,6 @@ namespace UnityEngine::Timeline {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TimeUtility::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c <>9
     static UnityEngine::Timeline::TimeUtility::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c <>9

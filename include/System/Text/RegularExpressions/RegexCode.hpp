@@ -96,8 +96,6 @@ namespace System::Text::RegularExpressions {
     bool rightToLeft;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegexCode
-    RegexCode(::ArrayWrapper<int> codes_ = {}, ::ArrayWrapper<::Il2CppString*> strings_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexPrefix* fcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix_ = {}, int anchors_ = {}, bool rightToLeft_ = {}) noexcept : codes{codes_}, strings{strings_}, trackcount{trackcount_}, caps{caps_}, capsize{capsize_}, fcPrefix{fcPrefix_}, bmPrefix{bmPrefix_}, anchors{anchors_}, rightToLeft{rightToLeft_} {}
     // Get instance field reference: System.Int32[] _codes
     ::ArrayWrapper<int>& dyn__codes();
     // Get instance field reference: System.String[] _strings

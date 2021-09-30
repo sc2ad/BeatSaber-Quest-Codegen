@@ -32,8 +32,6 @@ namespace System::Text::RegularExpressions {
     ::Il2CppChar last;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: SingleRange
-    SingleRange(::Il2CppChar first_ = {}, ::Il2CppChar last_ = {}) noexcept : first{first_}, last{last_} {}
     // Get instance field reference: System.Char _first
     ::Il2CppChar& dyn__first();
     // Get instance field reference: System.Char _last

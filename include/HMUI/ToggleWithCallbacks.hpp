@@ -100,8 +100,6 @@ namespace HMUI {
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*) == 0x8);
-    // Creating value type constructor for type: ToggleWithCallbacks
-    ToggleWithCallbacks(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent_ = {}) noexcept : stateDidChangeEvent{stateDidChangeEvent_} {}
     // Get instance field reference: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*& dyn_stateDidChangeEvent();
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()

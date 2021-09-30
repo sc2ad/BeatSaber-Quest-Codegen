@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioSettings::AudioConfigurationChangeHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: AudioConfigurationChangeHandler
-    AudioConfigurationChangeHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x26089D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

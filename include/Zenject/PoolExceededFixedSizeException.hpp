@@ -21,8 +21,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class PoolExceededFixedSizeException : public System::Exception {
     public:
-    // Creating value type constructor for type: PoolExceededFixedSizeException
-    PoolExceededFixedSizeException() noexcept {}
     // public System.Void .ctor(System.String errorMessage)
     // Offset: 0x18965AC
     // Implemented from: System.Exception

@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass75_0
-    $$c__DisplayClass75_0(GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this_ = {}, ::Il2CppString* userId_ = {}) noexcept : $$4__this{$$4__this_}, userId{userId_} {}
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
     GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.String userId

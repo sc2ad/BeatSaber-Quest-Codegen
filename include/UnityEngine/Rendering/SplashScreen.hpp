@@ -15,8 +15,6 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: E74380
   class SplashScreen : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SplashScreen
-    SplashScreen() noexcept {}
     // static public System.Boolean get_isFinished()
     // Offset: 0x1E0A638
     static bool get_isFinished();

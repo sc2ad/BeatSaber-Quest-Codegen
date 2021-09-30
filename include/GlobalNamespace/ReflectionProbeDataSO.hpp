@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     UnityEngine::Cubemap* reflectionProbeCubemap2;
     // Field size check
     static_assert(sizeof(UnityEngine::Cubemap*) == 0x8);
-    // Creating value type constructor for type: ReflectionProbeDataSO
-    ReflectionProbeDataSO(UnityEngine::Cubemap* reflectionProbeCubemap1_ = {}, UnityEngine::Cubemap* reflectionProbeCubemap2_ = {}) noexcept : reflectionProbeCubemap1{reflectionProbeCubemap1_}, reflectionProbeCubemap2{reflectionProbeCubemap2_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Cubemap _reflectionProbeCubemap1

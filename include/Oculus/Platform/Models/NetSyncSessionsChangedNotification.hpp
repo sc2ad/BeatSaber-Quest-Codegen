@@ -39,8 +39,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::NetSyncSessionList* Sessions;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::NetSyncSessionList*) == 0x8);
-    // Creating value type constructor for type: NetSyncSessionsChangedNotification
-    NetSyncSessionsChangedNotification(int64_t ConnectionId_ = {}, Oculus::Platform::Models::NetSyncSessionList* Sessions_ = {}) noexcept : ConnectionId{ConnectionId_}, Sessions{Sessions_} {}
     // Get instance field reference: public readonly System.Int64 ConnectionId
     int64_t& dyn_ConnectionId();
     // Get instance field reference: public readonly Oculus.Platform.Models.NetSyncSessionList Sessions

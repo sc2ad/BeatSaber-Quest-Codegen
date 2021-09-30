@@ -71,8 +71,6 @@ namespace OVRSimpleJSON {
     System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* $$7__wrap2;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>*) == 0x8);
-    // Creating value type constructor for type: $get_DeepChildren$d__42
-    $get_DeepChildren$d__42(int $$1__state_ = {}, OVRSimpleJSON::JSONNode* $$2__current_ = {}, int $$l__initialThreadId_ = {}, OVRSimpleJSON::JSONNode* $$4__this_ = {}, System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* $$7__wrap1_ = {}, System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>*>(this);

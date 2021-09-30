@@ -32,8 +32,6 @@ namespace Mono::Xml {
     int column;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SmallXmlParserException
-    SmallXmlParserException(int line_ = {}, int column_ = {}) noexcept : line{line_}, column{column_} {}
     // Get instance field reference: private System.Int32 line
     int& dyn_line();
     // Get instance field reference: private System.Int32 column

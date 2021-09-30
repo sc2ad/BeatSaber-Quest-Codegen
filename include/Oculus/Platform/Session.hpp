@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Session : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Session
-    Session() noexcept {}
   }; // Oculus.Platform.Session
   #pragma pack(pop)
 }

@@ -19,8 +19,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TValue>
   class IFactory_3/*, public Zenject::IFactory*/ {
     public:
-    // Creating value type constructor for type: IFactory_3
-    IFactory_3() noexcept {}
     // Creating interface conversion operator: operator Zenject::IFactory
     operator Zenject::IFactory() noexcept {
       return *reinterpret_cast<Zenject::IFactory*>(this);

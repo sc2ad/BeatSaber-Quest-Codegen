@@ -178,8 +178,6 @@ namespace System::Net {
     bool IsQuotedDomain;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Cookie
-    Cookie(::Il2CppString* m_comment_ = {}, System::Uri* m_commentUri_ = {}, System::Net::CookieVariant m_cookieVariant_ = {}, bool m_discard_ = {}, ::Il2CppString* m_domain_ = {}, bool m_domain_implicit_ = {}, System::DateTime m_expires_ = {}, ::Il2CppString* m_name_ = {}, ::Il2CppString* m_path_ = {}, bool m_path_implicit_ = {}, ::Il2CppString* m_port_ = {}, bool m_port_implicit_ = {}, ::ArrayWrapper<int> m_port_list_ = {}, bool m_secure_ = {}, bool m_httpOnly_ = {}, System::DateTime m_timeStamp_ = {}, ::Il2CppString* m_value_ = {}, int m_version_ = {}, ::Il2CppString* m_domainKey_ = {}, bool IsQuotedVersion_ = {}, bool IsQuotedDomain_ = {}) noexcept : m_comment{m_comment_}, m_commentUri{m_commentUri_}, m_cookieVariant{m_cookieVariant_}, m_discard{m_discard_}, m_domain{m_domain_}, m_domain_implicit{m_domain_implicit_}, m_expires{m_expires_}, m_name{m_name_}, m_path{m_path_}, m_path_implicit{m_path_implicit_}, m_port{m_port_}, m_port_implicit{m_port_implicit_}, m_port_list{m_port_list_}, m_secure{m_secure_}, m_httpOnly{m_httpOnly_}, m_timeStamp{m_timeStamp_}, m_value{m_value_}, m_version{m_version_}, m_domainKey{m_domainKey_}, IsQuotedVersion{IsQuotedVersion_}, IsQuotedDomain{IsQuotedDomain_} {}
     // Get static field: static readonly System.Char[] PortSplitDelimiters
     static ::ArrayWrapper<::Il2CppChar> _get_PortSplitDelimiters();
     // Set static field: static readonly System.Char[] PortSplitDelimiters

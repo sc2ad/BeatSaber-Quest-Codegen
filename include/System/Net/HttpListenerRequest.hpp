@@ -152,8 +152,6 @@ namespace System::Net {
     bool keep_alive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HttpListenerRequest
-    HttpListenerRequest(::ArrayWrapper<::Il2CppString*> accept_types_ = {}, int64_t content_length_ = {}, bool cl_set_ = {}, System::Net::CookieCollection* cookies_ = {}, System::Net::WebHeaderCollection* headers_ = {}, ::Il2CppString* method_ = {}, System::IO::Stream* input_stream_ = {}, System::Version* version_ = {}, System::Collections::Specialized::NameValueCollection* query_string_ = {}, ::Il2CppString* raw_url_ = {}, System::Uri* url_ = {}, System::Uri* referrer_ = {}, ::ArrayWrapper<::Il2CppString*> user_languages_ = {}, System::Net::HttpListenerContext* context_ = {}, bool is_chunked_ = {}, bool ka_set_ = {}, bool keep_alive_ = {}) noexcept : accept_types{accept_types_}, content_length{content_length_}, cl_set{cl_set_}, cookies{cookies_}, headers{headers_}, method{method_}, input_stream{input_stream_}, version{version_}, query_string{query_string_}, raw_url{raw_url_}, url{url_}, referrer{referrer_}, user_languages{user_languages_}, context{context_}, is_chunked{is_chunked_}, ka_set{ka_set_}, keep_alive{keep_alive_} {}
     // Get static field: static private System.Byte[] _100continue
     static ::ArrayWrapper<uint8_t> _get__100continue();
     // Set static field: static private System.Byte[] _100continue

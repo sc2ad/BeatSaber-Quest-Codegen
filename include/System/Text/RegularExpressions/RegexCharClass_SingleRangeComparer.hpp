@@ -22,8 +22,6 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexCharClass::SingleRangeComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*/ {
     public:
-    // Creating value type constructor for type: SingleRangeComparer
-    SingleRangeComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>
     operator System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);

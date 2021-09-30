@@ -116,8 +116,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<::Il2CppString*> eventMessageColorCode;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: HEU_PDGSession
-    HEU_PDGSession(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PDGAssetLink*>* pdgAssets_ = {}, int pdgMaxProcessEvents_ = {}, ::ArrayWrapper<HoudiniEngineUnity::HAPI_PDG_EventInfo> pdgQueryEvents_ = {}, int pdgContextSize_ = {}, ::ArrayWrapper<int> pdgContextIDs_ = {}, bool errored_ = {}, ::Il2CppString* errorMsg_ = {}, HoudiniEngineUnity::HAPI_PDG_State pdgState_ = {}, System::Text::StringBuilder* pdgEventMessages_ = {}, ::ArrayWrapper<::Il2CppString*> eventMessageColorCode_ = {}) noexcept : pdgAssets{pdgAssets_}, pdgMaxProcessEvents{pdgMaxProcessEvents_}, pdgQueryEvents{pdgQueryEvents_}, pdgContextSize{pdgContextSize_}, pdgContextIDs{pdgContextIDs_}, errored{errored_}, errorMsg{errorMsg_}, pdgState{pdgState_}, pdgEventMessages{pdgEventMessages_}, eventMessageColorCode{eventMessageColorCode_} {}
     // Get static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession
     static HoudiniEngineUnity::HEU_PDGSession* _get__pdgSession();
     // Set static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession

@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectExecutionRatingsRecorder_CutScoreHandler
-    BeatmapObjectExecutionRatingsRecorder_CutScoreHandler(GlobalNamespace::NoteExecutionRating* noteExecutionRating_ = {}, GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter_ = {}, float cutDistanceToCenter_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* didFinishEvent_ = {}) noexcept : noteExecutionRating{noteExecutionRating_}, saberSwingRatingCounter{saberSwingRatingCounter_}, cutDistanceToCenter{cutDistanceToCenter_}, didFinishEvent{didFinishEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver
     operator GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);

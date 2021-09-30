@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5B28
   class IVRCompositor::_CompositorBringToFront : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _CompositorBringToFront
-    _CompositorBringToFront() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AA570
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

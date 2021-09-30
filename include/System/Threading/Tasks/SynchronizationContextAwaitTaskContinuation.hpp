@@ -49,8 +49,6 @@ namespace System::Threading::Tasks {
     System::Threading::SynchronizationContext* m_syncContext;
     // Field size check
     static_assert(sizeof(System::Threading::SynchronizationContext*) == 0x8);
-    // Creating value type constructor for type: SynchronizationContextAwaitTaskContinuation
-    SynchronizationContextAwaitTaskContinuation(System::Threading::SynchronizationContext* m_syncContext_ = {}) noexcept : m_syncContext{m_syncContext_} {}
     // Creating conversion operator: operator System::Threading::SynchronizationContext*
     constexpr operator System::Threading::SynchronizationContext*() const noexcept {
       return m_syncContext;

@@ -29,8 +29,6 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TimelineClipExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimelineClipExtensions
-    TimelineClipExtensions() noexcept {}
     // Get static field: static private readonly System.String k_UndoSetParentTrackText
     static ::Il2CppString* _get_k_UndoSetParentTrackText();
     // Set static field: static private readonly System.String k_UndoSetParentTrackText

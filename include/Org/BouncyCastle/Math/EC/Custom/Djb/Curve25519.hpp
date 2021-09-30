@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*) == 0x8);
-    // Creating value type constructor for type: Curve25519
-    Curve25519(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* m_infinity_ = {}) noexcept : m_infinity{m_infinity_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*
     constexpr operator Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*() const noexcept {
       return m_infinity;

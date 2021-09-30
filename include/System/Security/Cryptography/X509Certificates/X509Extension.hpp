@@ -26,8 +26,6 @@ namespace System::Security::Cryptography::X509Certificates {
     bool critical;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: X509Extension
-    X509Extension(bool critical_ = {}) noexcept : critical{critical_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return critical;

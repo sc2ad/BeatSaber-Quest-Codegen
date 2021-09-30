@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EA2128
   class ImageConversion : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ImageConversion
-    ImageConversion() noexcept {}
     // static public System.Byte[] EncodeToTGA(UnityEngine.Texture2D tex)
     // Offset: 0x262A2B4
     static ::ArrayWrapper<uint8_t> EncodeToTGA(UnityEngine::Texture2D* tex);

@@ -87,8 +87,6 @@ namespace System::Collections {
     int getObjectRetType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SortedListEnumerator
-    SortedListEnumerator(System::Collections::SortedList* sortedList_ = {}, ::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, int index_ = {}, int startIndex_ = {}, int endIndex_ = {}, int version_ = {}, bool current_ = {}, int getObjectRetType_ = {}) noexcept : sortedList{sortedList_}, key{key_}, value{value_}, index{index_}, startIndex{startIndex_}, endIndex{endIndex_}, version{version_}, current{current_}, getObjectRetType{getObjectRetType_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -39,8 +39,6 @@ namespace Zenject::Internal {
     System::Reflection::ConstructorInfo* c;
     // Field size check
     static_assert(sizeof(System::Reflection::ConstructorInfo*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass11_0
-    $$c__DisplayClass11_0(System::Reflection::ConstructorInfo* c_ = {}) noexcept : c{c_} {}
     // Creating conversion operator: operator System::Reflection::ConstructorInfo*
     constexpr operator System::Reflection::ConstructorInfo*() const noexcept {
       return c;

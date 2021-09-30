@@ -21,8 +21,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FD20
   class IDynamicMessageSink {
     public:
-    // Creating value type constructor for type: IDynamicMessageSink
-    IDynamicMessageSink() noexcept {}
     // public System.Void ProcessMessageFinish(System.Runtime.Remoting.Messaging.IMessage replyMsg, System.Boolean bCliSide, System.Boolean bAsync)
     // Offset: 0xFFFFFFFF
     void ProcessMessageFinish(System::Runtime::Remoting::Messaging::IMessage* replyMsg, bool bCliSide, bool bAsync);

@@ -24,8 +24,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C274
   class IFormattable {
     public:
-    // Creating value type constructor for type: IFormattable
-    IFormattable() noexcept {}
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);

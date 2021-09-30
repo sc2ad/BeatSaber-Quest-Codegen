@@ -113,8 +113,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*) == 0x8);
-    // Creating value type constructor for type: ObjectMap
-    ObjectMap(::Il2CppString* objectName_ = {}, System::Type* objectType_ = {}, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA_ = {}, ::ArrayWrapper<::Il2CppObject*> typeInformationA_ = {}, ::ArrayWrapper<System::Type*> memberTypes_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo_ = {}, bool isInitObjectInfo_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader_ = {}, int objectId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo_ = {}) noexcept : objectName{objectName_}, objectType{objectType_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberTypes{memberTypes_}, memberNames{memberNames_}, objectInfo{objectInfo_}, isInitObjectInfo{isInitObjectInfo_}, objectReader{objectReader_}, objectId{objectId_}, assemblyInfo{assemblyInfo_} {}
     // Get instance field reference: System.String objectName
     ::Il2CppString*& dyn_objectName();
     // Get instance field reference: System.Type objectType

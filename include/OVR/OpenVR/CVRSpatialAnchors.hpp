@@ -44,8 +44,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRSpatialAnchors FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSpatialAnchors) == 0x20);
-    // Creating value type constructor for type: CVRSpatialAnchors
-    CVRSpatialAnchors(OVR::OpenVR::IVRSpatialAnchors FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRSpatialAnchors
     constexpr operator OVR::OpenVR::IVRSpatialAnchors() const noexcept {
       return FnTable;

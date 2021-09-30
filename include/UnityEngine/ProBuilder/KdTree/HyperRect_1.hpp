@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<T>) == 0x8);
     // Creating value type constructor for type: HyperRect_1
-    constexpr HyperRect_1(::ArrayWrapper<T> minPoint_ = {}, ::ArrayWrapper<T> maxPoint_ = {}) noexcept : minPoint{minPoint_}, maxPoint{maxPoint_} {}
+    constexpr HyperRect_1(::ArrayWrapper<T> minPoint_ = {nullptr}, ::ArrayWrapper<T> maxPoint_ = {nullptr}) noexcept : minPoint{minPoint_}, maxPoint{maxPoint_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

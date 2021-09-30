@@ -147,8 +147,6 @@ namespace System::Threading {
     bool fDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ReaderWriterLockSlim
-    ReaderWriterLockSlim(bool fIsReentrant_ = {}, int myLock_ = {}, uint numWriteWaiters_ = {}, uint numReadWaiters_ = {}, uint numWriteUpgradeWaiters_ = {}, uint numUpgradeWaiters_ = {}, bool fNoWaiters_ = {}, int upgradeLockOwnerId_ = {}, int writeLockOwnerId_ = {}, System::Threading::EventWaitHandle* writeEvent_ = {}, System::Threading::EventWaitHandle* readEvent_ = {}, System::Threading::EventWaitHandle* upgradeEvent_ = {}, System::Threading::EventWaitHandle* waitUpgradeEvent_ = {}, int64_t lockID_ = {}, bool fUpgradeThreadHoldingRead_ = {}, uint owners_ = {}, bool fDisposed_ = {}) noexcept : fIsReentrant{fIsReentrant_}, myLock{myLock_}, numWriteWaiters{numWriteWaiters_}, numReadWaiters{numReadWaiters_}, numWriteUpgradeWaiters{numWriteUpgradeWaiters_}, numUpgradeWaiters{numUpgradeWaiters_}, fNoWaiters{fNoWaiters_}, upgradeLockOwnerId{upgradeLockOwnerId_}, writeLockOwnerId{writeLockOwnerId_}, writeEvent{writeEvent_}, readEvent{readEvent_}, upgradeEvent{upgradeEvent_}, waitUpgradeEvent{waitUpgradeEvent_}, lockID{lockID_}, fUpgradeThreadHoldingRead{fUpgradeThreadHoldingRead_}, owners{owners_}, fDisposed{fDisposed_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

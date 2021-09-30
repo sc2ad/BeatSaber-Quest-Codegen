@@ -50,8 +50,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class OVRExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRExtensions
-    OVRExtensions() noexcept {}
     // static public OVRPose ToTrackingSpacePose(UnityEngine.Transform transform, UnityEngine.Camera camera)
     // Offset: 0x13C0D00
     static GlobalNamespace::OVRPose ToTrackingSpacePose(UnityEngine::Transform* transform, UnityEngine::Camera* camera);

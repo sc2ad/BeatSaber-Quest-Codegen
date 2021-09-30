@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70E58
   class QualitySettings : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: QualitySettings
-    QualitySettings() noexcept {}
     // static public System.Void set_vSyncCount(System.Int32 value)
     // Offset: 0x1DFED48
     static void set_vSyncCount(int value);

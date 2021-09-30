@@ -21,8 +21,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditModeTestCallbacks : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EditModeTestCallbacks
-    EditModeTestCallbacks() noexcept {}
     // Get static field: static private System.Action <RestoringTestContext>k__BackingField
     static System::Action* _get_$RestoringTestContext$k__BackingField();
     // Set static field: static private System.Action <RestoringTestContext>k__BackingField

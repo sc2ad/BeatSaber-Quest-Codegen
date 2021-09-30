@@ -34,8 +34,6 @@ namespace OnlineServices {
     int uploadAttemptCountLeft;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LevelScoreResultsDataUploadInfo
-    LevelScoreResultsDataUploadInfo(OnlineServices::LevelScoreResultsData levelScoreResultsData_ = {}, int uploadAttemptCountLeft_ = {}) noexcept : levelScoreResultsData{levelScoreResultsData_}, uploadAttemptCountLeft{uploadAttemptCountLeft_} {}
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
     OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
     // Get instance field reference: public System.Int32 uploadAttemptCountLeft

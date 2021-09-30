@@ -14,8 +14,6 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SurrogateForCyclicalReference : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SurrogateForCyclicalReference
-    SurrogateForCyclicalReference() noexcept {}
   }; // System.Runtime.Serialization.SurrogateForCyclicalReference
   #pragma pack(pop)
 }

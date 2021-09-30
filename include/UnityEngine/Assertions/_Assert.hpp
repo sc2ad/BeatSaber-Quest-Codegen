@@ -32,8 +32,6 @@ namespace UnityEngine::Assertions {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class _Assert : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: _Assert
-    _Assert() noexcept {}
     // [ObsoleteAttribute] Offset: 0xE777C8
     // Get static field: static public System.Boolean raiseExceptions
     static bool _get_raiseExceptions();

@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::TrackLaneRing*> rings;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TrackLaneRing*>) == 0x8);
-    // Creating value type constructor for type: TrackLaneRingsManager
-    TrackLaneRingsManager(GlobalNamespace::TrackLaneRing* trackLaneRingPrefab_ = {}, int ringCount_ = {}, float ringPositionStep_ = {}, bool spawnAsChildren_ = {}, ::ArrayWrapper<GlobalNamespace::TrackLaneRing*> rings_ = {}) noexcept : trackLaneRingPrefab{trackLaneRingPrefab_}, ringCount{ringCount_}, ringPositionStep{ringPositionStep_}, spawnAsChildren{spawnAsChildren_}, rings{rings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRing _trackLaneRingPrefab

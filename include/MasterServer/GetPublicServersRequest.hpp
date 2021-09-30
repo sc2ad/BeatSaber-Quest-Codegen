@@ -79,8 +79,6 @@ namespace MasterServer {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // Creating value type constructor for type: GetPublicServersRequest
-    GetPublicServersRequest(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, int offset_ = {}, int count_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : userId{userId_}, userName{userName_}, offset{offset_}, count{count_}, selectionMask{selectionMask_}, configuration{configuration_} {}
     // Creating interface conversion operator: operator MasterServer::IUserClientToServerMessage
     operator MasterServer::IUserClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);

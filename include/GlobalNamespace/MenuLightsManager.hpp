@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* preset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // Creating value type constructor for type: MenuLightsManager
-    MenuLightsManager(GlobalNamespace::MenuLightsPresetSO* defaultPreset_ = {}, float smooth_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, GlobalNamespace::MenuLightsPresetSO* preset_ = {}) noexcept : defaultPreset{defaultPreset_}, smooth{smooth_}, lightManager{lightManager_}, preset{preset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuLightsPresetSO _defaultPreset

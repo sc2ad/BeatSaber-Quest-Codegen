@@ -104,8 +104,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*) == 0x8);
-    // Creating value type constructor for type: PatternFightScenesTransitionSetupDataSO
-    PatternFightScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* patternFightSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* didFinishEvent_ = {}) noexcept : environmentInfo{environmentInfo_}, patternFightSceneInfo{patternFightSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
     GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private SceneInfo _patternFightSceneInfo

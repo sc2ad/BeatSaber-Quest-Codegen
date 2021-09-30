@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TableViewWithDetailCell::IDataSource {
     public:
-    // Creating value type constructor for type: IDataSource
-    IDataSource() noexcept {}
     // public System.Single CellSize()
     // Offset: 0xFFFFFFFF
     float CellSize();

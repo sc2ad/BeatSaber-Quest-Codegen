@@ -28,8 +28,6 @@ namespace Mono::Net::Security {
     int InitialSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BufferOffsetSize2
-    BufferOffsetSize2(int InitialSize_ = {}) noexcept : InitialSize{InitialSize_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return InitialSize;

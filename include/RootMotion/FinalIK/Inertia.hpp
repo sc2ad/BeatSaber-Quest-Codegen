@@ -43,8 +43,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>) == 0x8);
-    // Creating value type constructor for type: Inertia
-    Inertia(::ArrayWrapper<RootMotion::FinalIK::Inertia::Body*> bodies_ = {}, ::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits_ = {}) noexcept : bodies{bodies_}, limits{limits_} {}
     // Get instance field reference: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
     ::ArrayWrapper<RootMotion::FinalIK::Inertia::Body*>& dyn_bodies();
     // Get instance field reference: public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits

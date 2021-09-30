@@ -245,7 +245,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> op)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle_1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op)})));
@@ -253,7 +252,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle_1(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op)})));
@@ -261,7 +259,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle_1(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(version)})));
@@ -269,7 +266,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.String locationName)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle_1(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(locationName)})));
@@ -277,7 +273,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version, System.String locationName)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle_1(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(version), ::il2cpp_utils::ExtractType(locationName)})));

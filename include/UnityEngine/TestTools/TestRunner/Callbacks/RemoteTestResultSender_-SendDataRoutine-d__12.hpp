@@ -55,8 +55,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     bool $$7__wrap2;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $SendDataRoutine$d__12
-    $SendDataRoutine$d__12(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender* $$4__this_ = {}, ::Il2CppObject* $$7__wrap1_ = {}, bool $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

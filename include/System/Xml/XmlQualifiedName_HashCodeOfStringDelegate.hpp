@@ -31,8 +31,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlQualifiedName::HashCodeOfStringDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: HashCodeOfStringDelegate
-    HashCodeOfStringDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1B059E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

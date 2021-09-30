@@ -52,8 +52,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* ignoredPools;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
-    // Creating value type constructor for type: PoolCleanupChecker
-    PoolCleanupChecker(System::Collections::Generic::List_1<Zenject::IMemoryPool*>* poolFactories_ = {}, System::Collections::Generic::List_1<System::Type*>* ignoredPools_ = {}) noexcept : poolFactories{poolFactories_}, ignoredPools{ignoredPools_} {}
     // Creating interface conversion operator: operator Zenject::ILateDisposable
     operator Zenject::ILateDisposable() noexcept {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);

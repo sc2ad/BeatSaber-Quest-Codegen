@@ -40,8 +40,6 @@ namespace UnityEngine::Events {
     UnityEngine::Events::UnityAction_2<T1, T2>* Delegate;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityAction_2<T1, T2>*) == 0x8);
-    // Creating value type constructor for type: InvokableCall_2
-    InvokableCall_2(UnityEngine::Events::UnityAction_2<T1, T2>* Delegate_ = {}) noexcept : Delegate{Delegate_} {}
     // Creating conversion operator: operator UnityEngine::Events::UnityAction_2<T1, T2>*
     constexpr operator UnityEngine::Events::UnityAction_2<T1, T2>*() const noexcept {
       return Delegate;

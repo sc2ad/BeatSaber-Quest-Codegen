@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // Creating value type constructor for type: Mirror
-    Mirror(GlobalNamespace::MirrorRendererSO* mirrorRenderer_ = {}, UnityEngine::MeshRenderer* renderer_ = {}, UnityEngine::Material* mirrorMaterial_ = {}, UnityEngine::Material* noMirrorMaterial_ = {}, bool isEnabled_ = {}, System::Action_1<bool>* mirrorDidChangeEnabledStateEvent_ = {}) noexcept : mirrorRenderer{mirrorRenderer_}, renderer{renderer_}, mirrorMaterial{mirrorMaterial_}, noMirrorMaterial{noMirrorMaterial_}, isEnabled{isEnabled_}, mirrorDidChangeEnabledStateEvent{mirrorDidChangeEnabledStateEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEBAF8

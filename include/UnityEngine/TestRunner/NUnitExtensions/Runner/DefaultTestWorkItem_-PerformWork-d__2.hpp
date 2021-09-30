@@ -82,8 +82,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     System::Collections::IEnumerator* $enumerator$5__4;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: $PerformWork$d__2
-    $PerformWork$d__2(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem* $$4__this_ = {}, System::Collections::IEnumerator* $$7__wrap1_ = {}, UnityEngine::TestTools::IEditModeTestYieldInstruction* $editModeTestYieldInstruction$5__3_ = {}, System::Collections::IEnumerator* $enumerator$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $editModeTestYieldInstruction$5__3{$editModeTestYieldInstruction$5__3_}, $enumerator$5__4{$enumerator$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(this);

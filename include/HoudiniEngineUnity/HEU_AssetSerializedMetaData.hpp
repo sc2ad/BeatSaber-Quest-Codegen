@@ -52,8 +52,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* savedCurveNodeData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*) == 0x8);
-    // Creating value type constructor for type: HEU_AssetSerializedMetaData
-    HEU_AssetSerializedMetaData(bool softDeleted_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* savedCurveNodeData_ = {}) noexcept : softDeleted{softDeleted_}, savedCurveNodeData{savedCurveNodeData_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(this);

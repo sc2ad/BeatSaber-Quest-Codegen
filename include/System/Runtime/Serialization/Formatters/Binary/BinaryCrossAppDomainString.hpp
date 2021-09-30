@@ -37,8 +37,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BinaryCrossAppDomainString
-    BinaryCrossAppDomainString(int objectId_ = {}, int value_ = {}) noexcept : objectId{objectId_}, value{value_} {}
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.Int32 value

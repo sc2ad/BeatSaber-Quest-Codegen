@@ -39,8 +39,6 @@ namespace UnityEngine::TestTools::TestRunner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlaymodeTestsController::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestTools.TestRunner.PlaymodeTestsController/UnityEngine.TestTools.TestRunner.<>c <>9
     static UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.TestRunner.PlaymodeTestsController/UnityEngine.TestTools.TestRunner.<>c <>9

@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     int numberOfElementsLimit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PresetsSettingsController
-    PresetsSettingsController(GlobalNamespace::IntSO* settingsValue_ = {}, GlobalNamespace::NamedPresetsSO* presets_ = {}, bool limitNumberOfElements_ = {}, int numberOfElementsLimit_ = {}) noexcept : settingsValue{settingsValue_}, presets{presets_}, limitNumberOfElements{limitNumberOfElements_}, numberOfElementsLimit{numberOfElementsLimit_} {}
     // Get instance field reference: private IntSO _settingsValue
     GlobalNamespace::IntSO*& dyn__settingsValue();
     // Get instance field reference: private NamedPresetsSO _presets

@@ -32,8 +32,6 @@ namespace System::Diagnostics::Contracts {
   // [TokenAttribute] Offset: FFFFFFFF
   class Contract : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Contract
-    Contract() noexcept {}
     // static public System.Boolean ForAll(System.Collections.Generic.IEnumerable`1<T> collection, System.Predicate`1<T> predicate)
     // Offset: 0xFFFFFFFF
     template<class T>

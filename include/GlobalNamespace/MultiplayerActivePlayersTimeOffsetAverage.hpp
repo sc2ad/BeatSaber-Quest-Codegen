@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     float timeOfLastValidReturnedTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerActivePlayersTimeOffsetAverage
-    MultiplayerActivePlayersTimeOffsetAverage(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, float lastReturnedOffsetSyncTime_ = {}, float timeOfLastValidReturnedTime_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, lastReturnedOffsetSyncTime{lastReturnedOffsetSyncTime_}, timeOfLastValidReturnedTime{timeOfLastValidReturnedTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerObservable
     operator GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);

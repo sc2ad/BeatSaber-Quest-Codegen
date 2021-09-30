@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72C3C
   class WaitForEndOfFrame : public UnityEngine::YieldInstruction {
     public:
-    // Creating value type constructor for type: WaitForEndOfFrame
-    WaitForEndOfFrame() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x234EA78
     // Implemented from: UnityEngine.YieldInstruction

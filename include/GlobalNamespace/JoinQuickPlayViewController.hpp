@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
-    // Creating value type constructor for type: JoinQuickPlayViewController
-    JoinQuickPlayViewController(GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, GlobalNamespace::QuickPlaySongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Toggle* levelSelectionToggle_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelJoinButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, songPacksDropdown{songPacksDropdown_}, levelSelectionToggle{levelSelectionToggle_}, joinButton{joinButton_}, cancelJoinButton{cancelJoinButton_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
     GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
     // Get instance field reference: private QuickPlaySongPacksDropdown _songPacksDropdown

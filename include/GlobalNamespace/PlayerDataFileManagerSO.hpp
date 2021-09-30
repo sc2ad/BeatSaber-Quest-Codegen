@@ -96,8 +96,6 @@ namespace GlobalNamespace {
     ::Il2CppString* allSongPackSerializedName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PlayerDataFileManagerSO
-    PlayerDataFileManagerSO(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::ColorSchemesListSO* defaultColorSchemes_ = {}, GlobalNamespace::EnvironmentsListSO* allEnvironmentInfos_ = {}, GlobalNamespace::EnvironmentTypeSO* normalEnvironmentType_ = {}, GlobalNamespace::EnvironmentTypeSO* a360DegreesEnvironmentType_ = {}, GlobalNamespace::BeatmapCharacteristicSO* defaultLastSelectedBeatmapCharacteristic_ = {}, ::Il2CppString* buildInSongPackSerializedName_ = {}, ::Il2CppString* allSongPackSerializedName_ = {}) noexcept : beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, defaultColorSchemes{defaultColorSchemes_}, allEnvironmentInfos{allEnvironmentInfos_}, normalEnvironmentType{normalEnvironmentType_}, a360DegreesEnvironmentType{a360DegreesEnvironmentType_}, defaultLastSelectedBeatmapCharacteristic{defaultLastSelectedBeatmapCharacteristic_}, buildInSongPackSerializedName{buildInSongPackSerializedName_}, allSongPackSerializedName{allSongPackSerializedName_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kPlayerDataFileName

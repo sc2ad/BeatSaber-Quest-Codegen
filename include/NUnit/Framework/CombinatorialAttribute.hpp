@@ -21,8 +21,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE808
   class CombinatorialAttribute : public NUnit::Framework::CombiningStrategyAttribute {
     public:
-    // Creating value type constructor for type: CombinatorialAttribute
-    CombinatorialAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x192875C
     // Implemented from: NUnit.Framework.NUnitAttribute

@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     System::Collections::IList* lookupPowX2;
     // Field size check
     static_assert(sizeof(System::Collections::IList*) == 0x8);
-    // Creating value type constructor for type: Tables1kGcmExponentiator
-    Tables1kGcmExponentiator(System::Collections::IList* lookupPowX2_ = {}) noexcept : lookupPowX2{lookupPowX2_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator
     operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*>(this);

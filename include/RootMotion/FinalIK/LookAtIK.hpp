@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverLookAt* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLookAt*) == 0x8);
-    // Creating value type constructor for type: LookAtIK
-    LookAtIK(RootMotion::FinalIK::IKSolverLookAt* solver_ = {}) noexcept : solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt solver
     RootMotion::FinalIK::IKSolverLookAt*& dyn_solver();
     // private System.Void SupportGroup()

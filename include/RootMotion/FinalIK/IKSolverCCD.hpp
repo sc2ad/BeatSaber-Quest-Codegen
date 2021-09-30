@@ -32,8 +32,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolver::IterationDelegate*) == 0x8);
-    // Creating value type constructor for type: IKSolverCCD
-    IKSolverCCD(RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}) noexcept : OnPreIteration{OnPreIteration_} {}
     // Creating conversion operator: operator RootMotion::FinalIK::IKSolver::IterationDelegate*
     constexpr operator RootMotion::FinalIK::IKSolver::IterationDelegate*() const noexcept {
       return OnPreIteration;

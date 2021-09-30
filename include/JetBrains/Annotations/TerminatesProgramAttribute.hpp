@@ -22,8 +22,6 @@ namespace JetBrains::Annotations {
   // [ObsoleteAttribute] Offset: EADBE8
   class TerminatesProgramAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: TerminatesProgramAttribute
-    TerminatesProgramAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610A48
     // Implemented from: System.Attribute

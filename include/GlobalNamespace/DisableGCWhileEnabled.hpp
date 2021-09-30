@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisableGCWhileEnabled : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: DisableGCWhileEnabled
-    DisableGCWhileEnabled() noexcept {}
     // protected System.Void OnEnable()
     // Offset: 0x137D114
     void OnEnable();

@@ -34,8 +34,6 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DiagnosticEventCollectorSingleton::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c <>9
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c <>9

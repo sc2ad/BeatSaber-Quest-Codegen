@@ -30,7 +30,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>) == 0x8);
     // Creating value type constructor for type: LeaderboardEntriesDTO
-    constexpr LeaderboardEntriesDTO(::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*> entries_ = {}) noexcept : entries{entries_} {}
+    constexpr LeaderboardEntriesDTO(::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*> entries_ = {nullptr}) noexcept : entries{entries_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

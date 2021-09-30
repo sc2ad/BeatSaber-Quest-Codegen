@@ -20,8 +20,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionHAPI : public HoudiniEngineUnity::HEU_SessionBase {
     public:
-    // Creating value type constructor for type: HEU_SessionHAPI
-    HEU_SessionHAPI() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x17D3494
     // Implemented from: HoudiniEngineUnity.HEU_SessionBase

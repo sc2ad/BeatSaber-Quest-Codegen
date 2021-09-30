@@ -47,8 +47,6 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::ProductHeaderValue* Product;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::ProductHeaderValue*) == 0x8);
-    // Creating value type constructor for type: ProductInfoHeaderValue
-    ProductInfoHeaderValue(::Il2CppString* Comment_ = {}, System::Net::Http::Headers::ProductHeaderValue* Product_ = {}) noexcept : Comment{Comment_}, Product{Product_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

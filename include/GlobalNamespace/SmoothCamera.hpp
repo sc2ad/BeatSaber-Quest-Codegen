@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     float positionSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SmoothCamera
-    SmoothCamera(UnityEngine::Camera* camera_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, UnityEngine::Vector3 thirdPersonPosition_ = {}, UnityEngine::Vector3 thirdPersonEulerAngles_ = {}, bool thirdPersonEnabled_ = {}, float rotationSmooth_ = {}, float positionSmooth_ = {}) noexcept : camera{camera_}, mainCamera{mainCamera_}, thirdPersonPosition{thirdPersonPosition_}, thirdPersonEulerAngles{thirdPersonEulerAngles_}, thirdPersonEnabled{thirdPersonEnabled_}, rotationSmooth{rotationSmooth_}, positionSmooth{positionSmooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Camera _camera

@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB09DC
   class IVRCompositor::_FadeGrid : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _FadeGrid
-    _FadeGrid() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20E8254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

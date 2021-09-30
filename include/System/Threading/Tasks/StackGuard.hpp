@@ -26,8 +26,6 @@ namespace System::Threading::Tasks {
     int m_inliningDepth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StackGuard
-    StackGuard(int m_inliningDepth_ = {}) noexcept : m_inliningDepth{m_inliningDepth_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_inliningDepth;

@@ -103,8 +103,6 @@ namespace UnityEngine {
     UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimatorClipInfo) == 0x8);
-    // Creating value type constructor for type: AnimationEvent
-    AnimationEvent(float m_Time_ = {}, ::Il2CppString* m_FunctionName_ = {}, ::Il2CppString* m_StringParameter_ = {}, UnityEngine::Object* m_ObjectReferenceParameter_ = {}, float m_FloatParameter_ = {}, int m_IntParameter_ = {}, int m_MessageOptions_ = {}, UnityEngine::AnimationEventSource m_Source_ = {}, UnityEngine::AnimationState* m_StateSender_ = {}, UnityEngine::AnimatorStateInfo m_AnimatorStateInfo_ = {}, UnityEngine::AnimatorClipInfo m_AnimatorClipInfo_ = {}) noexcept : m_Time{m_Time_}, m_FunctionName{m_FunctionName_}, m_StringParameter{m_StringParameter_}, m_ObjectReferenceParameter{m_ObjectReferenceParameter_}, m_FloatParameter{m_FloatParameter_}, m_IntParameter{m_IntParameter_}, m_MessageOptions{m_MessageOptions_}, m_Source{m_Source_}, m_StateSender{m_StateSender_}, m_AnimatorStateInfo{m_AnimatorStateInfo_}, m_AnimatorClipInfo{m_AnimatorClipInfo_} {}
     // Get instance field reference: System.Single m_Time
     float& dyn_m_Time();
     // Get instance field reference: System.String m_FunctionName

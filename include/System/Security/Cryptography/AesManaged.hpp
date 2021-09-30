@@ -39,8 +39,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::RijndaelManaged* m_rijndael;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RijndaelManaged*) == 0x8);
-    // Creating value type constructor for type: AesManaged
-    AesManaged(System::Security::Cryptography::RijndaelManaged* m_rijndael_ = {}) noexcept : m_rijndael{m_rijndael_} {}
     // Creating conversion operator: operator System::Security::Cryptography::RijndaelManaged*
     constexpr operator System::Security::Cryptography::RijndaelManaged*() const noexcept {
       return m_rijndael;

@@ -35,8 +35,6 @@ namespace System::Text {
     int bits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: UTF8Decoder
-    UTF8Decoder(int bits_ = {}) noexcept : bits{bits_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return bits;

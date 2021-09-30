@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [GuidAttribute] Offset: E61164
   class _MethodBase {
     public:
-    // Creating value type constructor for type: _MethodBase
-    _MethodBase() noexcept {}
   }; // System.Runtime.InteropServices._MethodBase
   #pragma pack(pop)
 }

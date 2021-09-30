@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Format;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AspMvcAreaMasterLocationFormatAttribute
-    AspMvcAreaMasterLocationFormatAttribute(::Il2CppString* Format_ = {}) noexcept : Format{Format_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Format;

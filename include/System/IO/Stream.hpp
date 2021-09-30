@@ -78,8 +78,6 @@ namespace System::IO {
     System::Threading::SemaphoreSlim* asyncActiveSemaphore;
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim*) == 0x8);
-    // Creating value type constructor for type: Stream
-    Stream(System::IO::Stream::ReadWriteTask* activeReadWriteTask_ = {}, System::Threading::SemaphoreSlim* asyncActiveSemaphore_ = {}) noexcept : activeReadWriteTask{activeReadWriteTask_}, asyncActiveSemaphore{asyncActiveSemaphore_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -40,8 +40,6 @@ namespace TMPro {
     uint second;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(uint first_ = {}, uint second_ = {}) noexcept : first{first_}, second{second_} {}
     // Get instance field reference: public System.UInt32 first
     uint& dyn_first();
     // Get instance field reference: public System.UInt32 second

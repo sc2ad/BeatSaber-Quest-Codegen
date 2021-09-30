@@ -36,8 +36,6 @@ namespace UnityEngine::EventSystems {
     System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*) == 0x8);
-    // Creating value type constructor for type: MouseState
-    MouseState(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons_ = {}) noexcept : m_TrackedButtons{m_TrackedButtons_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*() const noexcept {
       return m_TrackedButtons;

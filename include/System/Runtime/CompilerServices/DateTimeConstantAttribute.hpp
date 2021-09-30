@@ -26,8 +26,6 @@ namespace System::Runtime::CompilerServices {
     System::DateTime date;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: DateTimeConstantAttribute
-    DateTimeConstantAttribute(System::DateTime date_ = {}) noexcept : date{date_} {}
     // Creating conversion operator: operator System::DateTime
     constexpr operator System::DateTime() const noexcept {
       return date;

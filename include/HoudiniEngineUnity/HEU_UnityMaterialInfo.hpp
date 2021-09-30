@@ -36,8 +36,6 @@ namespace HoudiniEngineUnity {
     int substanceIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_UnityMaterialInfo
-    HEU_UnityMaterialInfo(::Il2CppString* unityMaterialPath_ = {}, ::Il2CppString* substancePath_ = {}, int substanceIndex_ = {}) noexcept : unityMaterialPath{unityMaterialPath_}, substancePath{substancePath_}, substanceIndex{substanceIndex_} {}
     // Get instance field reference: public System.String _unityMaterialPath
     ::Il2CppString*& dyn__unityMaterialPath();
     // Get instance field reference: public System.String _substancePath

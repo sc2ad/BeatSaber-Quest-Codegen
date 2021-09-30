@@ -45,8 +45,6 @@ namespace UnityEngine::Bindings {
     UnityEngine::Bindings::CodegenOptions CodegenOptions;
     // Field size check
     static_assert(sizeof(UnityEngine::Bindings::CodegenOptions) == 0x4);
-    // Creating value type constructor for type: NativeTypeAttribute
-    NativeTypeAttribute(::Il2CppString* Header_ = {}, ::Il2CppString* IntermediateScriptingStructName_ = {}, UnityEngine::Bindings::CodegenOptions CodegenOptions_ = {}) noexcept : Header{Header_}, IntermediateScriptingStructName{IntermediateScriptingStructName_}, CodegenOptions{CodegenOptions_} {}
     // Get instance field reference: private System.String <Header>k__BackingField
     ::Il2CppString*& dyn_$Header$k__BackingField();
     // Get instance field reference: private System.String <IntermediateScriptingStructName>k__BackingField

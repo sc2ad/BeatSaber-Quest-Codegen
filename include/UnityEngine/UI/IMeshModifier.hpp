@@ -25,8 +25,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMeshModifier {
     public:
-    // Creating value type constructor for type: IMeshModifier
-    IMeshModifier() noexcept {}
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
     // Offset: 0xFFFFFFFF
     void ModifyMesh(UnityEngine::Mesh* mesh);

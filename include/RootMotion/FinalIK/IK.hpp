@@ -27,8 +27,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IK : public RootMotion::SolverManager {
     public:
-    // Creating value type constructor for type: IK
-    IK() noexcept {}
     // public RootMotion.FinalIK.IKSolver GetIKSolver()
     // Offset: 0xFFFFFFFF
     RootMotion::FinalIK::IKSolver* GetIKSolver();

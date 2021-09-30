@@ -42,8 +42,6 @@ namespace System::Threading::Tasks {
     System::IAsyncResult* asyncResult;
     // Field size check
     static_assert(sizeof(System::IAsyncResult*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(System::AsyncCallback* callback_ = {}, System::IAsyncResult* asyncResult_ = {}) noexcept : callback{callback_}, asyncResult{asyncResult_} {}
     // Get instance field reference: public System.AsyncCallback callback
     System::AsyncCallback*& dyn_callback();
     // Get instance field reference: public System.IAsyncResult asyncResult

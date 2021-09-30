@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     uint overrideVersion;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: VersionedPacketPool_2
-    VersionedPacketPool_2(GlobalNamespace::PacketPool_1<T>* basePool_ = {}, GlobalNamespace::PacketPool_1<T2>* overridePool_ = {}, uint overrideVersion_ = {}) noexcept : basePool{basePool_}, overridePool{overridePool_}, overrideVersion{overrideVersion_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IVersionedPacketPool_1<T>
     operator GlobalNamespace::IVersionedPacketPool_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVersionedPacketPool_1<T>*>(this);

@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(bool searchByText_ = {}, ::ArrayWrapper<::Il2CppString*> searchTexts_ = {}, GlobalNamespace::LevelFilterParams* levelFilterParams_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : searchByText{searchByText_}, searchTexts{searchTexts_}, levelFilterParams{levelFilterParams_}, playerDataModel{playerDataModel_} {}
     // Get instance field reference: public System.Boolean searchByText
     bool& dyn_searchByText();
     // Get instance field reference: public System.String[] searchTexts

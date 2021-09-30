@@ -36,8 +36,6 @@ namespace VRUIControls {
     UnityEngine::MeshRenderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // Creating value type constructor for type: VRLaserPointer
-    VRLaserPointer(UnityEngine::MeshRenderer* renderer_ = {}) noexcept : renderer{renderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEDB50

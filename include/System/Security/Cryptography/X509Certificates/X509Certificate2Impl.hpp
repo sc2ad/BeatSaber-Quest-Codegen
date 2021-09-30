@@ -46,8 +46,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Certificate2Impl : public System::Security::Cryptography::X509Certificates::X509CertificateImpl {
     public:
-    // Creating value type constructor for type: X509Certificate2Impl
-    X509Certificate2Impl() noexcept {}
     // public System.Security.Cryptography.X509Certificates.X509ExtensionCollection get_Extensions()
     // Offset: 0xFFFFFFFF
     System::Security::Cryptography::X509Certificates::X509ExtensionCollection* get_Extensions();

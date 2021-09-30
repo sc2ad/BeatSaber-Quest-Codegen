@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::Il2CppString* operationName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: OperationTimer
-    OperationTimer(System::Diagnostics::Stopwatch* stopwatch_ = {}, ::Il2CppString* operationName_ = {}) noexcept : stopwatch{stopwatch_}, operationName{operationName_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

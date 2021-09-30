@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodesManager* missionNodesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodesManager*) == 0x8);
-    // Creating value type constructor for type: MissionNodeNameGenerator
-    MissionNodeNameGenerator(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}) noexcept : missionNodesManager{missionNodesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager

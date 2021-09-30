@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetCountdownEndTimeRpc : public GlobalNamespace::RemoteProcedureCall_1<float> {
     public:
-    // Creating value type constructor for type: SetCountdownEndTimeRpc
-    SetCountdownEndTimeRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8B0C
     // Implemented from: RemoteProcedureCall`1

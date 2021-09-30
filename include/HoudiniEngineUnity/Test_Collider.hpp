@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Collider* self;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // Creating value type constructor for type: Test_Collider
-    Test_Collider(UnityEngine::Collider* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Collider*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Collider*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Collider*>*>(this);

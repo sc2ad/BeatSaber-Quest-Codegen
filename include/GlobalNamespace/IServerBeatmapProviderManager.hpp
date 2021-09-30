@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IServerBeatmapProviderManager/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: IServerBeatmapProviderManager
-    IServerBeatmapProviderManager() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -36,8 +36,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* valueStr;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StoreData
-    StoreData(HoudiniEngineUnity::HEU_PluginStorage::DataType type_ = {}, ::Il2CppString* valueStr_ = {}) noexcept : type{type_}, valueStr{valueStr_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
     // Get instance field reference: public System.String _valueStr

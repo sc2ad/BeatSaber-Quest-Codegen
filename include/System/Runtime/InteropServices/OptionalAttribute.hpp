@@ -22,8 +22,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60AD8
   class OptionalAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: OptionalAttribute
-    OptionalAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15B05EC
     // Implemented from: System.Attribute

@@ -31,8 +31,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TestExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TestExtensions
-    TestExtensions() noexcept {}
     // static private System.Collections.Generic.IEnumerable`1<System.String> GetTestCategories(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x16676A0
     static System::Collections::Generic::IEnumerable_1<::Il2CppString*>* GetTestCategories(NUnit::Framework::Interfaces::ITest* test);

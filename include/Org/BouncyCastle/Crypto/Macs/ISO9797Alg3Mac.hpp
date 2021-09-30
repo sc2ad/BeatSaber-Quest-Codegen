@@ -91,8 +91,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey3;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*) == 0x8);
-    // Creating value type constructor for type: ISO9797Alg3Mac
-    ISO9797Alg3Mac(::ArrayWrapper<uint8_t> mac_ = {}, ::ArrayWrapper<uint8_t> buf_ = {}, int bufOff_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding_ = {}, int macSize_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey2_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey3_ = {}) noexcept : mac{mac_}, buf{buf_}, bufOff{bufOff_}, cipher{cipher_}, padding{padding_}, macSize{macSize_}, lastKey2{lastKey2_}, lastKey3{lastKey3_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

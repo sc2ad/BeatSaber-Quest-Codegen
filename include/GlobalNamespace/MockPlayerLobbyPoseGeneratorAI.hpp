@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1
     struct $SendPoses$d__1;
-    // Creating value type constructor for type: MockPlayerLobbyPoseGeneratorAI
-    MockPlayerLobbyPoseGeneratorAI() noexcept {}
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
     // Offset: 0x25E605C
     // Implemented from: MockPlayerLobbyPoseGenerator

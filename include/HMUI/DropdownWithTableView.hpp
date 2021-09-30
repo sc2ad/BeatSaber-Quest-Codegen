@@ -79,8 +79,6 @@ namespace HMUI {
     int selectedIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DropdownWithTableView
-    DropdownWithTableView(UnityEngine::UI::Button* button_ = {}, HMUI::TableView* tableView_ = {}, HMUI::ModalView* modalView_ = {}, int numberOfVisibleCells_ = {}, System::Action_2<HMUI::DropdownWithTableView*, int>* didSelectCellWithIdxEvent_ = {}, int selectedIndex_ = {}) noexcept : button{button_}, tableView{tableView_}, modalView{modalView_}, numberOfVisibleCells{numberOfVisibleCells_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, selectedIndex{selectedIndex_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _button

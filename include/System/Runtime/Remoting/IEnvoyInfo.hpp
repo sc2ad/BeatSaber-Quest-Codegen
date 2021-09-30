@@ -21,8 +21,6 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FAB0
   class IEnvoyInfo {
     public:
-    // Creating value type constructor for type: IEnvoyInfo
-    IEnvoyInfo() noexcept {}
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();

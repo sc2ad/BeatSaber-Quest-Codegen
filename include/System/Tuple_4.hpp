@@ -56,8 +56,6 @@ namespace System {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T4 m_Item4;
-    // Creating value type constructor for type: Tuple_4
-    Tuple_4(T1 m_Item1_ = {}, T2 m_Item2_ = {}, T3 m_Item3_ = {}, T4 m_Item4_ = {}) noexcept : m_Item1{m_Item1_}, m_Item2{m_Item2_}, m_Item3{m_Item3_}, m_Item4{m_Item4_} {}
     // Creating interface conversion operator: operator System::Collections::IStructuralEquatable
     operator System::Collections::IStructuralEquatable() noexcept {
       return *reinterpret_cast<System::Collections::IStructuralEquatable*>(this);

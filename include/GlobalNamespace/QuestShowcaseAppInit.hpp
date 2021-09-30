@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // Creating value type constructor for type: QuestShowcaseAppInit
-    QuestShowcaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, menuTransitionSetupData{menuTransitionSetupData_}, mainSettingsModel{mainSettingsModel_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_} {}
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private OculusInit _oculusInit

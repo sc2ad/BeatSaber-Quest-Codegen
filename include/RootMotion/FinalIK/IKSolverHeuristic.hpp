@@ -77,8 +77,6 @@ namespace RootMotion::FinalIK {
     float chainLength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: IKSolverHeuristic
-    IKSolverHeuristic(UnityEngine::Transform* target_ = {}, float tolerance_ = {}, int maxIterations_ = {}, bool useRotationLimits_ = {}, bool XY_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*> bones_ = {}, UnityEngine::Vector3 lastLocalDirection_ = {}, float chainLength_ = {}) noexcept : target{target_}, tolerance{tolerance_}, maxIterations{maxIterations_}, useRotationLimits{useRotationLimits_}, XY{XY_}, bones{bones_}, lastLocalDirection{lastLocalDirection_}, chainLength{chainLength_} {}
     // Get instance field reference: public UnityEngine.Transform target
     UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public System.Single tolerance

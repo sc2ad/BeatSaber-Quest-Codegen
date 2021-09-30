@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SerializationHelpers
-    SerializationHelpers() noexcept {}
     // static public T DeserializeData(System.Byte[] data)
     // Offset: 0xFFFFFFFF
     template<class T>

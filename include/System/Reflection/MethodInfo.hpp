@@ -38,8 +38,6 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: E5D848
   class MethodInfo : public System::Reflection::MethodBase/*, public System::Runtime::InteropServices::_MethodInfo*/ {
     public:
-    // Creating value type constructor for type: MethodInfo
-    MethodInfo() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_MethodInfo
     operator System::Runtime::InteropServices::_MethodInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_MethodInfo*>(this);

@@ -69,8 +69,6 @@ namespace System::Runtime::Remoting {
     System::Collections::Hashtable* customProperties;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: ChannelData
-    ChannelData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, ::Il2CppString* DelayLoadAsClientChannel_ = {}, System::Collections::ArrayList* serverProviders_ = {}, System::Collections::ArrayList* clientProviders_ = {}, System::Collections::Hashtable* customProperties_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, DelayLoadAsClientChannel{DelayLoadAsClientChannel_}, serverProviders{serverProviders_}, clientProviders{clientProviders_}, customProperties{customProperties_} {}
     // Get instance field reference: System.String Ref
     ::Il2CppString*& dyn_Ref();
     // Get instance field reference: System.String Type

@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithCalApplicationFinalized : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationFinalized*> {
     public:
-    // Creating value type constructor for type: MessageWithCalApplicationFinalized
-    MessageWithCalApplicationFinalized() noexcept {}
     // protected Oculus.Platform.Models.CalApplicationFinalized GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B5DA8
     Oculus::Platform::Models::CalApplicationFinalized* GetDataFromMessage(System::IntPtr c_message);

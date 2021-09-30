@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     System::Action* incButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: ColorStepValuePicker
-    ColorStepValuePicker(UnityEngine::UI::Button* decButton_ = {}, UnityEngine::UI::Button* incButton_ = {}, HMUI::ImageView* valueImage_ = {}, System::Action* decButtonWasPressedEvent_ = {}, System::Action* incButtonWasPressedEvent_ = {}) noexcept : decButton{decButton_}, incButton{incButton_}, valueImage{valueImage_}, decButtonWasPressedEvent{decButtonWasPressedEvent_}, incButtonWasPressedEvent{incButtonWasPressedEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _decButton

@@ -29,8 +29,6 @@ namespace UnityEngine::EventSystems {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class PointerEventDataExtension : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PointerEventDataExtension
-    PointerEventDataExtension() noexcept {}
     // static public System.Boolean IsVRPointer(UnityEngine.EventSystems.PointerEventData pointerEventData)
     // Offset: 0x20E3760
     static bool IsVRPointer(UnityEngine::EventSystems::PointerEventData* pointerEventData);

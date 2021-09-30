@@ -27,8 +27,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreferenceKeys : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PreferenceKeys
-    PreferenceKeys() noexcept {}
     // static field const value: static public System.String pluginTitle
     static constexpr const char* pluginTitle = "ProBuilder";
     // Get static field: static public System.String pluginTitle

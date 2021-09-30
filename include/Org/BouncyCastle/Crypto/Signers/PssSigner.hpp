@@ -124,8 +124,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     uint8_t trailer;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: PssSigner
-    PssSigner(Org::BouncyCastle::Crypto::IDigest* contentDigest1_ = {}, Org::BouncyCastle::Crypto::IDigest* contentDigest2_ = {}, Org::BouncyCastle::Crypto::IDigest* mgfDigest_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}, int hLen_ = {}, int mgfhLen_ = {}, int sLen_ = {}, bool sSet_ = {}, int emBits_ = {}, ::ArrayWrapper<uint8_t> salt_ = {}, ::ArrayWrapper<uint8_t> mDash_ = {}, ::ArrayWrapper<uint8_t> block_ = {}, uint8_t trailer_ = {}) noexcept : contentDigest1{contentDigest1_}, contentDigest2{contentDigest2_}, mgfDigest{mgfDigest_}, cipher{cipher_}, random{random_}, hLen{hLen_}, mgfhLen{mgfhLen_}, sLen{sLen_}, sSet{sSet_}, emBits{emBits_}, salt{salt_}, mDash{mDash_}, block{block_}, trailer{trailer_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

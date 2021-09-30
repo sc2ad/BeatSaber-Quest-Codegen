@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerConnectionManager::StartClientParams : public GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase {
     public:
-    // Creating value type constructor for type: StartClientParams
-    StartClientParams() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x12E92EC
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase

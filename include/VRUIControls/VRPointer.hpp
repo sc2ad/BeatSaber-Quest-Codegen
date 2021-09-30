@@ -112,8 +112,6 @@ namespace VRUIControls {
     UnityEngine::EventSystems::PointerEventData* pointerData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
-    // Creating value type constructor for type: VRPointer
-    VRPointer(GlobalNamespace::VRController* leftVRController_ = {}, GlobalNamespace::VRController* rightVRController_ = {}, VRUIControls::VRLaserPointer* laserPointerPrefab_ = {}, UnityEngine::Transform* cursorPrefab_ = {}, float defaultLaserPointerLength_ = {}, float laserPointerWidth_ = {}, VRUIControls::VRLaserPointer* laserPointer_ = {}, UnityEngine::Transform* cursorTransform_ = {}, UnityEngine::EventSystems::EventSystem* eventSystem_ = {}, GlobalNamespace::VRController* vrController_ = {}, UnityEngine::EventSystems::PointerEventData* pointerData_ = {}) noexcept : leftVRController{leftVRController_}, rightVRController{rightVRController_}, laserPointerPrefab{laserPointerPrefab_}, cursorPrefab{cursorPrefab_}, defaultLaserPointerLength{defaultLaserPointerLength_}, laserPointerWidth{laserPointerWidth_}, laserPointer{laserPointer_}, cursorTransform{cursorTransform_}, eventSystem{eventSystem_}, vrController{vrController_}, pointerData{pointerData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kScrollMultiplier

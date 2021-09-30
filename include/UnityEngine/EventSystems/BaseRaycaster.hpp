@@ -46,8 +46,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::BaseRaycaster* m_RootRaycaster;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseRaycaster*) == 0x8);
-    // Creating value type constructor for type: BaseRaycaster
-    BaseRaycaster(UnityEngine::EventSystems::BaseRaycaster* m_RootRaycaster_ = {}) noexcept : m_RootRaycaster{m_RootRaycaster_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster

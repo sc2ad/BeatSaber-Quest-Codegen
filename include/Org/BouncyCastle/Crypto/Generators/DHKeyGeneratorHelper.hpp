@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHKeyGeneratorHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DHKeyGeneratorHelper
-    DHKeyGeneratorHelper() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance
     static Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance

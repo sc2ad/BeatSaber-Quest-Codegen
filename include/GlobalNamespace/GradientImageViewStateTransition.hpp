@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     Tweening::ColorTween* colorTweenB;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
-    // Creating value type constructor for type: GradientImageViewStateTransition
-    GradientImageViewStateTransition(GlobalNamespace::GradientTransitionSO* transition_ = {}, Tweening::ColorTween* colorTweenA_ = {}, Tweening::ColorTween* colorTweenB_ = {}) noexcept : transition{transition_}, colorTweenA{colorTweenA_}, colorTweenB{colorTweenB_} {}
     // Get instance field reference: private GradientTransitionSO _transition
     GlobalNamespace::GradientTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTweenA

@@ -32,8 +32,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageEnd : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MessageEnd
-    MessageEnd() noexcept {}
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x17EC998
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);

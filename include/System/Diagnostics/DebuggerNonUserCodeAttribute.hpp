@@ -22,8 +22,6 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: E6256C
   class DebuggerNonUserCodeAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: DebuggerNonUserCodeAttribute
-    DebuggerNonUserCodeAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CEB434
     // Implemented from: System.Attribute

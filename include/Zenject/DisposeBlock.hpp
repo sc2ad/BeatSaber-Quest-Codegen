@@ -119,8 +119,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>* objectPoolPairs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*) == 0x8);
-    // Creating value type constructor for type: DisposeBlock
-    DisposeBlock(System::Collections::Generic::List_1<System::IDisposable*>* disposables_ = {}, System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>* objectPoolPairs_ = {}) noexcept : disposables{disposables_}, objectPoolPairs{objectPoolPairs_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

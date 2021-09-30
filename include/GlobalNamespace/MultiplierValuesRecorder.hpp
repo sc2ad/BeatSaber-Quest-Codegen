@@ -68,7 +68,6 @@ namespace GlobalNamespace {
       float& dyn_time();
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
       // Offset: 0x1134534
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time)
     }; // MultiplierValuesRecorder/MultiplierValue
     #pragma pack(pop)
@@ -94,8 +93,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*) == 0x8);
-    // Creating value type constructor for type: MultiplierValuesRecorder
-    MultiplierValuesRecorder(GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues_ = {}) noexcept : scoreController{scoreController_}, audioTimeSyncController{audioTimeSyncController_}, multiplierValues{multiplierValues_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IScoreController _scoreController

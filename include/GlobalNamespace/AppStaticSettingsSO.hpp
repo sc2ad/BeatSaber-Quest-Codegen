@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     bool disableMultiplayer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AppStaticSettingsSO
-    AppStaticSettingsSO(bool requirePrivacyPolicy_ = {}, bool enable360DegreeLevels_ = {}, bool enableCustomLevels_ = {}, bool disableMultiplayer_ = {}) noexcept : requirePrivacyPolicy{requirePrivacyPolicy_}, enable360DegreeLevels{enable360DegreeLevels_}, enableCustomLevels{enableCustomLevels_}, disableMultiplayer{disableMultiplayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean requirePrivacyPolicy

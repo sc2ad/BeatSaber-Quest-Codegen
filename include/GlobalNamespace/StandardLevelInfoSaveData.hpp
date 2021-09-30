@@ -133,8 +133,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*> difficultyBeatmapSets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>) == 0x8);
-    // Creating value type constructor for type: StandardLevelInfoSaveData
-    StandardLevelInfoSaveData(::Il2CppString* version_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* songAuthorName_ = {}, ::Il2CppString* levelAuthorName_ = {}, float beatsPerMinute_ = {}, float songTimeOffset_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, float previewStartTime_ = {}, float previewDuration_ = {}, ::Il2CppString* songFilename_ = {}, ::Il2CppString* coverImageFilename_ = {}, ::Il2CppString* environmentName_ = {}, ::Il2CppString* allDirectionsEnvironmentName_ = {}, ::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*> difficultyBeatmapSets_ = {}) noexcept : version{version_}, songName{songName_}, songSubName{songSubName_}, songAuthorName{songAuthorName_}, levelAuthorName{levelAuthorName_}, beatsPerMinute{beatsPerMinute_}, songTimeOffset{songTimeOffset_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, previewStartTime{previewStartTime_}, previewDuration{previewDuration_}, songFilename{songFilename_}, coverImageFilename{coverImageFilename_}, environmentName{environmentName_}, allDirectionsEnvironmentName{allDirectionsEnvironmentName_}, difficultyBeatmapSets{difficultyBeatmapSets_} {}
     // static field const value: static private System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.0.0";
     // Get static field: static private System.String kCurrentVersion

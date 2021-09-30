@@ -27,8 +27,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TDerived>
   class MonoInstaller_4 : public Zenject::MonoInstallerBase {
     public:
-    // Creating value type constructor for type: MonoInstaller_4
-    MonoInstaller_4() noexcept {}
     // static public TDerived InstallFromResource(Zenject.DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3) {

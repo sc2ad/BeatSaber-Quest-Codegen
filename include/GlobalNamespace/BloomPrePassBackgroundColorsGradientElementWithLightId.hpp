@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*> elements;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundColorsGradientElementWithLightId
-    BloomPrePassBackgroundColorsGradientElementWithLightId(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*> elements_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, elements{elements_} {}
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
     // Get instance field reference: private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements

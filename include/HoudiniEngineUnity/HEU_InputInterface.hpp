@@ -38,8 +38,6 @@ namespace HoudiniEngineUnity {
     int priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_InputInterface
-    HEU_InputInterface(int priority_ = {}) noexcept : priority{priority_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return priority;

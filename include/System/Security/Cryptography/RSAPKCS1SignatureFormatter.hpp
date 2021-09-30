@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F59C
   class RSAPKCS1SignatureFormatter : public System::Security::Cryptography::AsymmetricSignatureFormatter {
     public:
-    // Creating value type constructor for type: RSAPKCS1SignatureFormatter
-    RSAPKCS1SignatureFormatter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CC410C
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureFormatter

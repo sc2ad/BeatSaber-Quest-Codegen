@@ -46,8 +46,6 @@ namespace UnityEngine {
     UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // Field size check
     static_assert(sizeof(UnityEngine::Font::FontTextureRebuildCallback*) == 0x8);
-    // Creating value type constructor for type: Font
-    Font(UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback_ = {}) noexcept : m_FontTextureRebuildCallback{m_FontTextureRebuildCallback_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DebuggerBrowsableAttribute] Offset: 0xE89ED4

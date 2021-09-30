@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     float targetFrequency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MainAudioEffects
-    MainAudioEffects(UnityEngine::AudioLowPassFilter* audioLowPassFilter_ = {}, float smooth_ = {}, float targetFrequency_ = {}) noexcept : audioLowPassFilter{audioLowPassFilter_}, smooth{smooth_}, targetFrequency{targetFrequency_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kDefaultCutoffFrequency

@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     bool wireframe;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SteamVR_Camera
-    SteamVR_Camera(UnityEngine::Transform* head_ = {}, UnityEngine::Camera* camera_ = {}, UnityEngine::Transform* ears_ = {}, bool wireframe_ = {}) noexcept : head{head_}, camera{camera_}, ears{ears_}, wireframe{wireframe_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Hashtable values

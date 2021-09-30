@@ -60,8 +60,6 @@ namespace System::IO {
     System::IFormatProvider* InternalFormatProvider;
     // Field size check
     static_assert(sizeof(System::IFormatProvider*) == 0x8);
-    // Creating value type constructor for type: TextWriter
-    TextWriter(::ArrayWrapper<::Il2CppChar> CoreNewLine_ = {}, System::IFormatProvider* InternalFormatProvider_ = {}) noexcept : CoreNewLine{CoreNewLine_}, InternalFormatProvider{InternalFormatProvider_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

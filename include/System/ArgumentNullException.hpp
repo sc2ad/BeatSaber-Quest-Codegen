@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BC94
   class ArgumentNullException : public System::ArgumentException {
     public:
-    // Creating value type constructor for type: ArgumentNullException
-    ArgumentNullException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1986F24
     // Implemented from: System.ArgumentException

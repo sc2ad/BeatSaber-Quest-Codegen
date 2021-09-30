@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* wrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: MenuEnvironmentObjects
-    MenuEnvironmentObjects(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType_ = {}, UnityEngine::GameObject* wrapper_ = {}) noexcept : menuEnvironmentType{menuEnvironmentType_}, wrapper{wrapper_} {}
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__menuEnvironmentType();
     // Get instance field reference: private UnityEngine.GameObject _wrapper

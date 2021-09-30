@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float nextActionTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: OVRAudioSourceTest
-    OVRAudioSourceTest(float period_ = {}, float nextActionTime_ = {}) noexcept : period{period_}, nextActionTime{nextActionTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single period

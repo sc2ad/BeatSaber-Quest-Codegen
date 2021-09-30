@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersPanelController*) == 0x8);
-    // Creating value type constructor for type: SelectModifiersViewController
-    SelectModifiersViewController(GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController_ = {}) noexcept : gameplayModifiersPanelController{gameplayModifiersPanelController_} {}
     // Get instance field reference: private GameplayModifiersPanelController _gameplayModifiersPanelController
     GlobalNamespace::GameplayModifiersPanelController*& dyn__gameplayModifiersPanelController();
     // public GameplayModifiers get_gameplayModifiers()

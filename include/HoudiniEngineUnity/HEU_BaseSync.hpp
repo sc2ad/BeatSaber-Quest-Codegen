@@ -169,8 +169,6 @@ namespace HoudiniEngineUnity {
     bool firstSyncComplete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_BaseSync
-    HEU_BaseSync(int cookNodeID_ = {}, int64_t sessionID_ = {}, ::Il2CppString* nodeName_ = {}, bool initialized_ = {}, bool syncing_ = {}, bool deleteParent_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeneratedOutput*>* generatedOutputs_ = {}, ::Il2CppString* outputCacheDirectory_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* outputCacheFilePaths_ = {}, HoudiniEngineUnity::HEU_GenerateOptions generateOptions_ = {}, System::Text::StringBuilder* log_ = {}, System::Text::StringBuilder* error_ = {}, bool sessionSyncAutoCook_ = {}, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* loadTask_ = {}, int totalCookCount_ = {}, bool firstSyncComplete_ = {}) noexcept : cookNodeID{cookNodeID_}, sessionID{sessionID_}, nodeName{nodeName_}, initialized{initialized_}, syncing{syncing_}, deleteParent{deleteParent_}, generatedOutputs{generatedOutputs_}, outputCacheDirectory{outputCacheDirectory_}, outputCacheFilePaths{outputCacheFilePaths_}, generateOptions{generateOptions_}, log{log_}, error{error_}, sessionSyncAutoCook{sessionSyncAutoCook_}, loadTask{loadTask_}, totalCookCount{totalCookCount_}, firstSyncComplete{firstSyncComplete_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 _cookNodeID

@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ITime {
     public:
-    // Creating value type constructor for type: ITime
-    ITime() noexcept {}
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
     float get_time();

@@ -40,8 +40,6 @@ namespace System::IO {
     ::Il2CppString* parent;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DirectoryInfo
-    DirectoryInfo(::Il2CppString* current_ = {}, ::Il2CppString* parent_ = {}) noexcept : current{current_}, parent{parent_} {}
     // Get instance field reference: private System.String current
     ::Il2CppString*& dyn_current();
     // Get instance field reference: private System.String parent

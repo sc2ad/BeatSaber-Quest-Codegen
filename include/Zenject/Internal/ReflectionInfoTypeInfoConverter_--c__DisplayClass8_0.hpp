@@ -46,8 +46,6 @@ namespace Zenject::Internal {
     System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* writeableFields;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass8_0
-    $$c__DisplayClass8_0(::Il2CppString* propertyName_ = {}, System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* writeableFields_ = {}) noexcept : propertyName{propertyName_}, writeableFields{writeableFields_} {}
     // Get instance field reference: public System.String propertyName
     ::Il2CppString*& dyn_propertyName();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields

@@ -76,8 +76,6 @@ namespace OnlineServices {
     ::Il2CppString* localizedMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PlatformServicesAvailabilityInfo
-    PlatformServicesAvailabilityInfo(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability_ = {}, ::Il2CppString* localizedMessage_ = {}) noexcept : availability{availability_}, localizedMessage{localizedMessage_} {}
     // Get instance field reference: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability& dyn_availability();
     // Get instance field reference: public readonly System.String localizedMessage

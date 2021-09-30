@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteSettings::UpdatedEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UpdatedEventHandler
-    UpdatedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2626FBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

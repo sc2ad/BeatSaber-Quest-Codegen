@@ -66,8 +66,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 axis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: VirtualBone
-    VirtualBone(UnityEngine::Vector3 readPosition_ = {}, UnityEngine::Quaternion readRotation_ = {}, UnityEngine::Vector3 solverPosition_ = {}, UnityEngine::Quaternion solverRotation_ = {}, float length_ = {}, float sqrMag_ = {}, UnityEngine::Vector3 axis_ = {}) noexcept : readPosition{readPosition_}, readRotation{readRotation_}, solverPosition{solverPosition_}, solverRotation{solverRotation_}, length{length_}, sqrMag{sqrMag_}, axis{axis_} {}
     // Get instance field reference: public UnityEngine.Vector3 readPosition
     UnityEngine::Vector3& dyn_readPosition();
     // Get instance field reference: public UnityEngine.Quaternion readRotation

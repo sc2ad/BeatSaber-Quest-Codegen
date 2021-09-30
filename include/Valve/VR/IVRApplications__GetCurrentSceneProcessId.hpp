@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB577C
   class IVRApplications::_GetCurrentSceneProcessId : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetCurrentSceneProcessId
-    _GetCurrentSceneProcessId() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x18924A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

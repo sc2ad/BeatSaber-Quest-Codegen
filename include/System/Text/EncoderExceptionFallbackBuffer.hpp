@@ -20,8 +20,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncoderExceptionFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
-    // Creating value type constructor for type: EncoderExceptionFallbackBuffer
-    EncoderExceptionFallbackBuffer() noexcept {}
     // public override System.Int32 get_Remaining()
     // Offset: 0x1DFAE98
     // Implemented from: System.Text.EncoderFallbackBuffer

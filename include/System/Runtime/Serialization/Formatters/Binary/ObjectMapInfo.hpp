@@ -49,8 +49,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::ArrayWrapper<System::Type*> memberTypes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: ObjectMapInfo
-    ObjectMapInfo(int objectId_ = {}, int numMembers_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, ::ArrayWrapper<System::Type*> memberTypes_ = {}) noexcept : objectId{objectId_}, numMembers{numMembers_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: private System.Int32 numMembers

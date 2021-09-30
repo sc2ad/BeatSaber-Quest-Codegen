@@ -83,8 +83,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     uint cW2;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: Salsa20Engine
-    Salsa20Engine(int rounds_ = {}, int index_ = {}, ::ArrayWrapper<uint> engineState_ = {}, ::ArrayWrapper<uint> x_ = {}, ::ArrayWrapper<uint8_t> keyStream_ = {}, bool initialised_ = {}, uint cW0_ = {}, uint cW1_ = {}, uint cW2_ = {}) noexcept : rounds{rounds_}, index{index_}, engineState{engineState_}, x{x_}, keyStream{keyStream_}, initialised{initialised_}, cW0{cW0_}, cW1{cW1_}, cW2{cW2_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);

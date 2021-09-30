@@ -77,11 +77,9 @@ namespace GlobalNamespace {
     static GlobalNamespace::BitMask128 get_maxValue();
     // public System.Void .ctor(System.UInt64 d0, System.UInt64 d1)
     // Offset: 0x256D994
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BitMask128(uint64_t d0, uint64_t d1)
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x256D99C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     BitMask128(uint64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMask128::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));

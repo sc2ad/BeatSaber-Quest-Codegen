@@ -20,8 +20,6 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class HEU_TestHelpers::RequireClass_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RequireClass_1
-    RequireClass_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object

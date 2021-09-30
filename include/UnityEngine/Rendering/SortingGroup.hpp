@@ -18,8 +18,6 @@ namespace UnityEngine::Rendering {
   // [RequireComponent] Offset: E745E0
   class SortingGroup : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: SortingGroup
-    SortingGroup() noexcept {}
   }; // UnityEngine.Rendering.SortingGroup
   #pragma pack(pop)
 }

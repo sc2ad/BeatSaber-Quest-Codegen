@@ -39,8 +39,6 @@ namespace System {
     ::ArrayWrapper<int> SeedArray;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: Random
-    Random(int inext_ = {}, int inextp_ = {}, ::ArrayWrapper<int> SeedArray_ = {}) noexcept : inext{inext_}, inextp{inextp_}, SeedArray{SeedArray_} {}
     // static field const value: static private System.Int32 MBIG
     static constexpr const int MBIG = 2147483647;
     // Get static field: static private System.Int32 MBIG

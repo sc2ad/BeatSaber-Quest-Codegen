@@ -51,8 +51,6 @@ namespace NUnit::Framework::Internal {
     NUnit::Framework::Internal::TestCaseParameters* parms;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestCaseParameters*) == 0x8);
-    // Creating value type constructor for type: TestMethod
-    TestMethod(NUnit::Framework::Internal::TestCaseParameters* parms_ = {}) noexcept : parms{parms_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::TestCaseParameters*
     constexpr operator NUnit::Framework::Internal::TestCaseParameters*() const noexcept {
       return parms;

@@ -49,8 +49,6 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::ISurrogateSelector* m_nextSelector;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::ISurrogateSelector*) == 0x8);
-    // Creating value type constructor for type: SurrogateSelector
-    SurrogateSelector(System::Runtime::Serialization::SurrogateHashtable* m_surrogates_ = {}, System::Runtime::Serialization::ISurrogateSelector* m_nextSelector_ = {}) noexcept : m_surrogates{m_surrogates_}, m_nextSelector{m_nextSelector_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISurrogateSelector
     operator System::Runtime::Serialization::ISurrogateSelector() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISurrogateSelector*>(this);

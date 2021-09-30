@@ -36,8 +36,6 @@ namespace Zenject {
     Zenject::DiContainer* Container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: MonoInstallerBase
-    MonoInstallerBase(Zenject::DiContainer* Container_ = {}) noexcept : Container{Container_} {}
     // Creating interface conversion operator: operator Zenject::IInstaller
     operator Zenject::IInstaller() noexcept {
       return *reinterpret_cast<Zenject::IInstaller*>(this);

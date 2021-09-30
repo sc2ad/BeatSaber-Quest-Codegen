@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*) == 0x8);
-    // Creating value type constructor for type: BerApplicationSpecificParser
-    BerApplicationSpecificParser(int tag_ = {}, Org::BouncyCastle::Asn1::Asn1StreamParser* parser_ = {}) noexcept : tag{tag_}, parser{parser_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Convertible
     operator Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);

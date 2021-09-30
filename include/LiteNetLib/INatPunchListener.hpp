@@ -28,8 +28,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class INatPunchListener {
     public:
-    // Creating value type constructor for type: INatPunchListener
-    INatPunchListener() noexcept {}
     // public System.Void OnNatIntroductionRequest(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
     // Offset: 0xFFFFFFFF
     void OnNatIntroductionRequest(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);

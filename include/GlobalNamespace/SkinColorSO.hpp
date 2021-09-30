@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: SkinColorSO
-    SkinColorSO(::Il2CppString* id_ = {}, UnityEngine::Color color_ = {}) noexcept : id{id_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _id

@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     bool finished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HMTask
-    HMTask(System::Threading::Thread* thread_ = {}, System::Action* job_ = {}, System::Action* finishCallback_ = {}, bool canceled_ = {}, bool started_ = {}, bool finished_ = {}) noexcept : thread{thread_}, job{job_}, finishCallback{finishCallback_}, canceled{canceled_}, started{started_}, finished{finished_} {}
     // Get instance field reference: private System.Threading.Thread _thread
     System::Threading::Thread*& dyn__thread();
     // Get instance field reference: private System.Action _job

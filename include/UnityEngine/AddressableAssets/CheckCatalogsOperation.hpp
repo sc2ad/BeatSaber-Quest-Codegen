@@ -59,8 +59,6 @@ namespace UnityEngine::AddressableAssets {
     // Size: 0xFFFFFFFF
     // Offset: 0x98
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
-    // Creating value type constructor for type: CheckCatalogsOperation
-    CheckCatalogsOperation(UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* m_LocalHashes_ = {}, System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* m_LocatorInfos_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp_ = {}) noexcept : m_Addressables{m_Addressables_}, m_LocalHashes{m_LocalHashes_}, m_LocatorInfos{m_LocatorInfos_}, m_DepOp{m_DepOp_} {}
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> m_LocalHashes

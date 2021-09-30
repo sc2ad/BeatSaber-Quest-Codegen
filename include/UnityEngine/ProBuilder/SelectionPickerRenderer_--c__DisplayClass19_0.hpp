@@ -42,8 +42,6 @@ namespace UnityEngine::ProBuilder {
     ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedVertices;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass19_0
-    $$c__DisplayClass19_0(::ArrayWrapper<UnityEngine::Vector3> positions_ = {}, ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedVertices_ = {}) noexcept : positions{positions_}, sharedVertices{sharedVertices_} {}
     // Get instance field reference: public UnityEngine.Vector3[] positions
     ::ArrayWrapper<UnityEngine::Vector3>& dyn_positions();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices

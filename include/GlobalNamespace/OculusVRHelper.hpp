@@ -136,8 +136,6 @@ namespace GlobalNamespace {
     UnityEngine::EventSystems::EventSystem* disabledEventSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventSystem*) == 0x8);
-    // Creating value type constructor for type: OculusVRHelper
-    OculusVRHelper(System::Action* inputFocusWasCapturedEvent_ = {}, System::Action* inputFocusWasReleasedEvent_ = {}, System::Action* vrFocusWasCapturedEvent_ = {}, System::Action* vrFocusWasReleasedEvent_ = {}, System::Action* hmdUnmountedEvent_ = {}, System::Action* hmdMountedEvent_ = {}, System::Action* joystickWasCenteredThisFrameEvent_ = {}, System::Action_1<UnityEngine::Vector2>* joystickWasNotCenteredThisFrameEvent_ = {}, bool hasInputFocus_ = {}, bool hasVrFocus_ = {}, bool userPresent_ = {}, bool scrollingLastFrame_ = {}, UnityEngine::EventSystems::EventSystem* disabledEventSystem_ = {}) noexcept : inputFocusWasCapturedEvent{inputFocusWasCapturedEvent_}, inputFocusWasReleasedEvent{inputFocusWasReleasedEvent_}, vrFocusWasCapturedEvent{vrFocusWasCapturedEvent_}, vrFocusWasReleasedEvent{vrFocusWasReleasedEvent_}, hmdUnmountedEvent{hmdUnmountedEvent_}, hmdMountedEvent{hmdMountedEvent_}, joystickWasCenteredThisFrameEvent{joystickWasCenteredThisFrameEvent_}, joystickWasNotCenteredThisFrameEvent{joystickWasNotCenteredThisFrameEvent_}, hasInputFocus{hasInputFocus_}, hasVrFocus{hasVrFocus_}, userPresent{userPresent_}, scrollingLastFrame{scrollingLastFrame_}, disabledEventSystem{disabledEventSystem_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IVRPlatformHelper
     operator GlobalNamespace::IVRPlatformHelper() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVRPlatformHelper*>(this);

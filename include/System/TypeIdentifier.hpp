@@ -18,8 +18,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeIdentifier/*, public System::TypeName*/ {
     public:
-    // Creating value type constructor for type: TypeIdentifier
-    TypeIdentifier() noexcept {}
     // Creating interface conversion operator: operator System::TypeName
     operator System::TypeName() noexcept {
       return *reinterpret_cast<System::TypeName*>(this);

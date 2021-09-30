@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreModel : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ScoreModel
-    ScoreModel() noexcept {}
     // static field const value: static public System.Int32 kMaxMultiplier
     static constexpr const int kMaxMultiplier = 8;
     // Get static field: static public System.Int32 kMaxMultiplier

@@ -67,8 +67,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*> reachCones;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>) == 0x8);
-    // Creating value type constructor for type: RotationLimitPolygonal
-    RotationLimitPolygonal(float twistLimit_ = {}, int smoothIterations_ = {}, ::ArrayWrapper<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*> points_ = {}, ::ArrayWrapper<UnityEngine::Vector3> P_ = {}, ::ArrayWrapper<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*> reachCones_ = {}) noexcept : twistLimit{twistLimit_}, smoothIterations{smoothIterations_}, points{points_}, P{P_}, reachCones{reachCones_} {}
     // Get instance field reference: public System.Single twistLimit
     float& dyn_twistLimit();
     // Get instance field reference: public System.Int32 smoothIterations

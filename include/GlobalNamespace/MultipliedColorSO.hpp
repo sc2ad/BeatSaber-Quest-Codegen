@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::Color multiplierColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: MultipliedColorSO
-    MultipliedColorSO(GlobalNamespace::SimpleColorSO* baseColor_ = {}, UnityEngine::Color multiplierColor_ = {}) noexcept : baseColor{baseColor_}, multiplierColor{multiplierColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SimpleColorSO _baseColor

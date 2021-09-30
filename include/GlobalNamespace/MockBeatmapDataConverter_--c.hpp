@@ -42,8 +42,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MockBeatmapDataConverter::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly MockBeatmapDataConverter/<>c <>9
     static GlobalNamespace::MockBeatmapDataConverter::$$c* _get_$$9();
     // Set static field: static public readonly MockBeatmapDataConverter/<>c <>9

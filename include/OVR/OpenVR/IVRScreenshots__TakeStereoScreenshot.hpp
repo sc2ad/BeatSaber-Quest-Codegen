@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1580
   class IVRScreenshots::_TakeStereoScreenshot : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _TakeStereoScreenshot
-    _TakeStereoScreenshot() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22DF61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

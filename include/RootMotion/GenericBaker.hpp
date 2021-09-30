@@ -89,8 +89,6 @@ namespace RootMotion {
     int rootChildIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GenericBaker
-    GenericBaker(bool markAsLegacy_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::Transform* rootNode_ = {}, ::ArrayWrapper<UnityEngine::Transform*> ignoreList_ = {}, ::ArrayWrapper<UnityEngine::Transform*> bakePositionList_ = {}, ::ArrayWrapper<RootMotion::BakerTransform*> children_ = {}, RootMotion::BakerTransform* rootChild_ = {}, int rootChildIndex_ = {}) noexcept : markAsLegacy{markAsLegacy_}, root{root_}, rootNode{rootNode_}, ignoreList{ignoreList_}, bakePositionList{bakePositionList_}, children{children_}, rootChild{rootChild_}, rootChildIndex{rootChildIndex_} {}
     // Get instance field reference: public System.Boolean markAsLegacy
     bool& dyn_markAsLegacy();
     // Get instance field reference: public UnityEngine.Transform root

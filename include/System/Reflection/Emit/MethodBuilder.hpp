@@ -43,8 +43,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class MethodBuilder : public System::Reflection::MethodInfo {
     public:
-    // Creating value type constructor for type: MethodBuilder
-    MethodBuilder() noexcept {}
     // public override System.Reflection.MethodAttributes get_Attributes()
     // Offset: 0x1EA7078
     // Implemented from: System.Reflection.MethodBase

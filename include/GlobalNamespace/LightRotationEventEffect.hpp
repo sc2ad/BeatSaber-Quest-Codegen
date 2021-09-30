@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     float rotationSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: LightRotationEventEffect
-    LightRotationEventEffect(GlobalNamespace::BeatmapEventType event_ = {}, UnityEngine::Vector3 rotationVector_ = {}, float rotationSpeedMultiplier_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion startRotation_ = {}, float rotationSpeed_ = {}) noexcept : event{event_}, rotationVector{rotationVector_}, rotationSpeedMultiplier{rotationSpeedMultiplier_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, transform{transform_}, startRotation{startRotation_}, rotationSpeed{rotationSpeed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier

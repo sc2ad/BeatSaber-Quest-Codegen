@@ -30,8 +30,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EB00
   class ThreadStart : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ThreadStart
-    ThreadStart() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x19BD730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

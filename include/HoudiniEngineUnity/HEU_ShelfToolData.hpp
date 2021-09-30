@@ -124,8 +124,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* jsonPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_ShelfToolData
-    HEU_ShelfToolData(::Il2CppString* name_ = {}, HoudiniEngineUnity::HEU_ShelfToolData::ToolType toolType_ = {}, ::Il2CppString* toolTip_ = {}, ::Il2CppString* iconPath_ = {}, ::Il2CppString* assetPath_ = {}, ::Il2CppString* helpURL_ = {}, ::ArrayWrapper<::Il2CppString*> targets_ = {}, ::Il2CppString* jsonPath_ = {}) noexcept : name{name_}, toolType{toolType_}, toolTip{toolTip_}, iconPath{iconPath_}, assetPath{assetPath_}, helpURL{helpURL_}, targets{targets_}, jsonPath{jsonPath_} {}
     // Get instance field reference: public System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType _toolType

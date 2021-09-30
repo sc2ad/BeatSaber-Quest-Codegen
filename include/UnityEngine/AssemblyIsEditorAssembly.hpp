@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E72588
   class AssemblyIsEditorAssembly : public System::Attribute {
     public:
-    // Creating value type constructor for type: AssemblyIsEditorAssembly
-    AssemblyIsEditorAssembly() noexcept {}
   }; // UnityEngine.AssemblyIsEditorAssembly
   #pragma pack(pop)
 }

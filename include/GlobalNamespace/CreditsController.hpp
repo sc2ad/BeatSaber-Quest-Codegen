@@ -116,8 +116,6 @@ namespace GlobalNamespace {
     bool isPaused;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CreditsController
-    CreditsController(GlobalNamespace::CreditsScenesTransitionSetupDataSO* creditsSceneSetupDataSO_ = {}, GlobalNamespace::AudioPlayerBase* audioPlayer_ = {}, UnityEngine::UI::Button* continueButton_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, float overflowHeight_ = {}, UnityEngine::RectTransform* contentWrapper_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, bool didFinish_ = {}, bool isPaused_ = {}) noexcept : creditsSceneSetupDataSO{creditsSceneSetupDataSO_}, audioPlayer{audioPlayer_}, continueButton{continueButton_}, contentRectTransform{contentRectTransform_}, overflowHeight{overflowHeight_}, contentWrapper{contentWrapper_}, vrPlatformHelper{vrPlatformHelper_}, buttonBinder{buttonBinder_}, didFinish{didFinish_}, isPaused{isPaused_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO

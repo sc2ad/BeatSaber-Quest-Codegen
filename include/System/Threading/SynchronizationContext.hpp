@@ -38,8 +38,6 @@ namespace System::Threading {
     System::Threading::SynchronizationContextProperties props;
     // Field size check
     static_assert(sizeof(System::Threading::SynchronizationContextProperties) == 0x4);
-    // Creating value type constructor for type: SynchronizationContext
-    SynchronizationContext(System::Threading::SynchronizationContextProperties props_ = {}) noexcept : props{props_} {}
     // Creating conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept {
       return props;

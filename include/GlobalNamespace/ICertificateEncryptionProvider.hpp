@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICertificateEncryptionProvider/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: ICertificateEncryptionProvider
-    ICertificateEncryptionProvider() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

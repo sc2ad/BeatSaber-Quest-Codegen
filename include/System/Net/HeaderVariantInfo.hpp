@@ -53,7 +53,6 @@ namespace System::Net {
     System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
     // Offset: 0x183BC18
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
   }; // System.Net.HeaderVariantInfo
   #pragma pack(pop)

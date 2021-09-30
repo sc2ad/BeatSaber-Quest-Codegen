@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // Creating value type constructor for type: TextMeshProButton
-    TextMeshProButton(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Button* button_ = {}) noexcept : text{text_}, button{button_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

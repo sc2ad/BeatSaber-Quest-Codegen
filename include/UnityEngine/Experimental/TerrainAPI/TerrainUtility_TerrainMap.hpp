@@ -82,7 +82,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
       int& dyn_tileZ();
       // public System.Void .ctor(System.Int32 tileX, System.Int32 tileZ)
       // Offset: 0x25E8F30
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  TileCoord(int tileX, int tileZ)
     }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord
     #pragma pack(pop)
@@ -158,8 +157,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
     System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>* m_terrainTiles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>*) == 0x8);
-    // Creating value type constructor for type: TerrainMap
-    TerrainMap(UnityEngine::Vector3 m_patchSize_ = {}, UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::ErrorCode m_errorCode_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>* m_terrainTiles_ = {}) noexcept : m_patchSize{m_patchSize_}, m_errorCode{m_errorCode_}, m_terrainTiles{m_terrainTiles_} {}
     // Get instance field reference: private UnityEngine.Vector3 m_patchSize
     UnityEngine::Vector3& dyn_m_patchSize();
     // Get instance field reference: public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.ErrorCode m_errorCode

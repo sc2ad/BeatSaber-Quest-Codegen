@@ -58,8 +58,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*) == 0x8);
-    // Creating value type constructor for type: Config
-    Config(Org::BouncyCastle::Math::EC::ECCurve* outer_ = {}, int coord_ = {}, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism_ = {}, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier_ = {}) noexcept : outer{outer_}, coord{coord_}, endomorphism{endomorphism_}, multiplier{multiplier_} {}
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECCurve outer
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_outer();
     // Get instance field reference: protected System.Int32 coord

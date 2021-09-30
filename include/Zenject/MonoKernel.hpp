@@ -64,8 +64,6 @@ namespace Zenject {
     bool isDestroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MonoKernel
-    MonoKernel(Zenject::TickableManager* tickableManager_ = {}, Zenject::InitializableManager* initializableManager_ = {}, Zenject::DisposableManager* disposablesManager_ = {}, bool hasInitialized_ = {}, bool isDestroyed_ = {}) noexcept : tickableManager{tickableManager_}, initializableManager{initializableManager_}, disposablesManager{disposablesManager_}, hasInitialized{hasInitialized_}, isDestroyed{isDestroyed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.TickableManager _tickableManager

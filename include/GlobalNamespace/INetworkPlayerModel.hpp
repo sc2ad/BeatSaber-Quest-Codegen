@@ -45,8 +45,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetworkPlayerModel {
     public:
-    // Creating value type constructor for type: INetworkPlayerModel
-    INetworkPlayerModel() noexcept {}
     // public System.Boolean get_discoveryEnabled()
     // Offset: 0xFFFFFFFF
     bool get_discoveryEnabled();

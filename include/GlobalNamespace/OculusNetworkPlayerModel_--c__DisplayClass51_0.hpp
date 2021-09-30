@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusNetworkPlayerModel* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusNetworkPlayerModel*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass51_0
-    $$c__DisplayClass51_0(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* player_ = {}, GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}) noexcept : player{player_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public OculusNetworkPlayerModel/OculusNetworkPlayer player
     GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*& dyn_player();
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this

@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E85A4C
   class Collider : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: Collider
-    Collider() noexcept {}
     // public System.Boolean get_enabled()
     // Offset: 0x260BC7C
     bool get_enabled();

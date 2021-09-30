@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1::Misc {
   // [TokenAttribute] Offset: FFFFFFFF
   class VerisignCzagExtension : public Org::BouncyCastle::Asn1::DerIA5String {
     public:
-    // Creating value type constructor for type: VerisignCzagExtension
-    VerisignCzagExtension() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
     // Offset: 0x196CD18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

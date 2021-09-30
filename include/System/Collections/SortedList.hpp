@@ -105,8 +105,6 @@ namespace System::Collections {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: SortedList
-    SortedList(::ArrayWrapper<::Il2CppObject*> keys_ = {}, ::ArrayWrapper<::Il2CppObject*> values_ = {}, int size_ = {}, int version_ = {}, System::Collections::IComparer* comparer_ = {}, System::Collections::SortedList::KeyList* keyList_ = {}, System::Collections::SortedList::ValueList* valueList_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : keys{keys_}, values{values_}, size{size_}, version{version_}, comparer{comparer_}, keyList{keyList_}, valueList{valueList_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

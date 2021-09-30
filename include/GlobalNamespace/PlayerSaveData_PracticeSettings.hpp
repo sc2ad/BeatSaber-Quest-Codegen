@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     float songSpeedMul;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PracticeSettings
-    PracticeSettings(float startSongTime_ = {}, float songSpeedMul_ = {}) noexcept : startSongTime{startSongTime_}, songSpeedMul{songSpeedMul_} {}
     // Get instance field reference: public System.Single startSongTime
     float& dyn_startSongTime();
     // Get instance field reference: public System.Single songSpeedMul

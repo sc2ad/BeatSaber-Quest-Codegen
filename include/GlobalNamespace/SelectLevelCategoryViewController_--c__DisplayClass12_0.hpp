@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories_ = {}) noexcept : enabledLevelCategories{enabledLevelCategories_} {}
     // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>
     constexpr operator ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>() const noexcept {
       return enabledLevelCategories;

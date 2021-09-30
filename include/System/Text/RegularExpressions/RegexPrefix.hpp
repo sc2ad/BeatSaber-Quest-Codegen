@@ -30,8 +30,6 @@ namespace System::Text::RegularExpressions {
     bool caseInsensitive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegexPrefix
-    RegexPrefix(::Il2CppString* prefix_ = {}, bool caseInsensitive_ = {}) noexcept : prefix{prefix_}, caseInsensitive{caseInsensitive_} {}
     // Get static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static System::Text::RegularExpressions::RegexPrefix* _get__empty();
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty

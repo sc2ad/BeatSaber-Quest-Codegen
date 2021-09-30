@@ -41,8 +41,6 @@ namespace System::Security {
     ::ArrayWrapper<uint8_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: SecureString
-    SecureString(int length_ = {}, bool disposed_ = {}, ::ArrayWrapper<uint8_t> data_ = {}) noexcept : length{length_}, disposed{disposed_}, data{data_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

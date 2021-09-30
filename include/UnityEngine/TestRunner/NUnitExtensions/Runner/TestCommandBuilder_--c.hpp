@@ -42,8 +42,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TestCommandBuilder::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c <>9
     static UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c <>9

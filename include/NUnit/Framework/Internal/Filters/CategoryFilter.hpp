@@ -27,8 +27,6 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class CategoryFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
-    // Creating value type constructor for type: CategoryFilter
-    CategoryFilter() noexcept {}
     // protected override System.String get_ElementName()
     // Offset: 0x1940F60
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter

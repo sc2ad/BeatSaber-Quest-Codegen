@@ -63,8 +63,6 @@ namespace UnityEngine {
     float maxExposureValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ColorUsageAttribute
-    ColorUsageAttribute(bool showAlpha_ = {}, bool hdr_ = {}, float minBrightness_ = {}, float maxBrightness_ = {}, float minExposureValue_ = {}, float maxExposureValue_ = {}) noexcept : showAlpha{showAlpha_}, hdr{hdr_}, minBrightness{minBrightness_}, maxBrightness{maxBrightness_}, minExposureValue{minExposureValue_}, maxExposureValue{maxExposureValue_} {}
     // Get instance field reference: public readonly System.Boolean showAlpha
     bool& dyn_showAlpha();
     // Get instance field reference: public readonly System.Boolean hdr

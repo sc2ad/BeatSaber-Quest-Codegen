@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // Creating value type constructor for type: RankedPlayer
-    RankedPlayer(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* multiplayerSyncState_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager_ = {}) noexcept : multiplayerSyncState{multiplayerSyncState_}, scoreSyncManager{scoreSyncManager_} {}
     // Creating interface conversion operator: operator System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>
     operator System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>() noexcept {
       return *reinterpret_cast<System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*>(this);

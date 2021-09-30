@@ -33,8 +33,6 @@ namespace UnityEngine::Timeline {
     int intervalBit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RuntimeElement
-    RuntimeElement(int intervalBit_ = {}) noexcept : intervalBit{intervalBit_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::IInterval
     operator UnityEngine::Timeline::IInterval() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::IInterval*>(this);

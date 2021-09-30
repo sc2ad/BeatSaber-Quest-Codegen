@@ -38,8 +38,6 @@ namespace System::Collections::Specialized {
     System::Collections::Specialized::ListDictionary::DictionaryNode* next;
     // Field size check
     static_assert(sizeof(System::Collections::Specialized::ListDictionary::DictionaryNode*) == 0x8);
-    // Creating value type constructor for type: DictionaryNode
-    DictionaryNode(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, System::Collections::Specialized::ListDictionary::DictionaryNode* next_ = {}) noexcept : key{key_}, value{value_}, next{next_} {}
     // Get instance field reference: public System.Object key
     ::Il2CppObject*& dyn_key();
     // Get instance field reference: public System.Object value

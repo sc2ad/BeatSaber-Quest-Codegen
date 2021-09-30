@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<System::Action*>* unsubscribes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Action*>*) == 0x8);
-    // Creating value type constructor for type: EventBinder
-    EventBinder(System::Collections::Generic::List_1<System::Action*>* unsubscribes_ = {}) noexcept : unsubscribes{unsubscribes_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Action*>*
     constexpr operator System::Collections::Generic::List_1<System::Action*>*() const noexcept {
       return unsubscribes;

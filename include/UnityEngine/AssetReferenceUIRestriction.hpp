@@ -28,8 +28,6 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: EEC12C
   class AssetReferenceUIRestriction : public System::Attribute {
     public:
-    // Creating value type constructor for type: AssetReferenceUIRestriction
-    AssetReferenceUIRestriction() noexcept {}
     // public System.Boolean ValidateAsset(UnityEngine.Object obj)
     // Offset: 0x25F0B4C
     bool ValidateAsset(UnityEngine::Object* obj);

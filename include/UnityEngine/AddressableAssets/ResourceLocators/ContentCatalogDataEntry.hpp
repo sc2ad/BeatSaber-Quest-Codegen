@@ -70,8 +70,6 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     System::Type* ResourceType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ContentCatalogDataEntry
-    ContentCatalogDataEntry(::Il2CppString* InternalId_ = {}, ::Il2CppString* Provider_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* Keys_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* Dependencies_ = {}, ::Il2CppObject* Data_ = {}, System::Type* ResourceType_ = {}) noexcept : InternalId{InternalId_}, Provider{Provider_}, Keys{Keys_}, Dependencies{Dependencies_}, Data{Data_}, ResourceType{ResourceType_} {}
     // Get instance field reference: private System.String <InternalId>k__BackingField
     ::Il2CppString*& dyn_$InternalId$k__BackingField();
     // Get instance field reference: private System.String <Provider>k__BackingField

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteMovementProvider {
     public:
-    // Creating value type constructor for type: INoteMovementProvider
-    INoteMovementProvider() noexcept {}
     // public NoteMovement get_noteMovement()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::NoteMovement* get_noteMovement();

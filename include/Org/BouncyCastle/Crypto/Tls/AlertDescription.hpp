@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class AlertDescription : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AlertDescription
-    AlertDescription() noexcept {}
     // static public System.String GetName(System.Byte alertDescription)
     // Offset: 0x13A3BE4
     static ::Il2CppString* GetName(uint8_t alertDescription);

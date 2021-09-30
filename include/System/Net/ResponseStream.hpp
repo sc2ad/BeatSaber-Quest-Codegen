@@ -73,8 +73,6 @@ namespace System::Net {
     System::IO::Stream* stream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: ResponseStream
-    ResponseStream(System::Net::HttpListenerResponse* response_ = {}, bool ignore_errors_ = {}, bool disposed_ = {}, bool trailer_sent_ = {}, System::IO::Stream* stream_ = {}) noexcept : response{response_}, ignore_errors{ignore_errors_}, disposed{disposed_}, trailer_sent{trailer_sent_}, stream{stream_} {}
     // Get static field: static private System.Byte[] crlf
     static ::ArrayWrapper<uint8_t> _get_crlf();
     // Set static field: static private System.Byte[] crlf

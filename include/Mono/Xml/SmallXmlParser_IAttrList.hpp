@@ -16,8 +16,6 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParser::IAttrList {
     public:
-    // Creating value type constructor for type: IAttrList
-    IAttrList() noexcept {}
     // public System.Int32 get_Length()
     // Offset: 0xFFFFFFFF
     int get_Length();

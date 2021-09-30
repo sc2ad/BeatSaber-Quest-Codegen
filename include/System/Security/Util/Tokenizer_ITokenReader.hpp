@@ -16,8 +16,6 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tokenizer::ITokenReader {
     public:
-    // Creating value type constructor for type: ITokenReader
-    ITokenReader() noexcept {}
     // public System.Int32 Read()
     // Offset: 0xFFFFFFFF
     int Read();

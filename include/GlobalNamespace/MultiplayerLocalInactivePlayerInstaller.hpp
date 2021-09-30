@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     DataModels::Levels::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel;
     // Field size check
     static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalInactivePlayerInstaller
-    MultiplayerLocalInactivePlayerInstaller(GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel_ = {}) noexcept : audioManager{audioManager_}, sceneSetupData{sceneSetupData_}, beatmapLoudnessModel{beatmapLoudnessModel_} {}
     // Get instance field reference: private AudioManagerSO _audioManager
     GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData

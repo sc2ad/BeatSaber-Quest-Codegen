@@ -43,8 +43,6 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* m_SourceStyle;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
-    // Creating value type constructor for type: GUIStyleState
-    GUIStyleState(System::IntPtr m_Ptr_ = {}, UnityEngine::GUIStyle* m_SourceStyle_ = {}) noexcept : m_Ptr{m_Ptr_}, m_SourceStyle{m_SourceStyle_} {}
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private readonly UnityEngine.GUIStyle m_SourceStyle

@@ -25,8 +25,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Math : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Math
-    Math() noexcept {}
     // Get static field: static private System.Double doubleRoundLimit
     static double _get_doubleRoundLimit();
     // Set static field: static private System.Double doubleRoundLimit

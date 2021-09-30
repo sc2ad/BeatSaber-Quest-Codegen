@@ -31,8 +31,6 @@ namespace LiteNetLib::Utils {
   template<typename T>
   class NetSerializer::ULongSerializer_1 : public LiteNetLib::Utils::NetSerializer::FastCallSpecific_2<T, uint64_t> {
     public:
-    // Creating value type constructor for type: ULongSerializer_1
-    ULongSerializer_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecific`2

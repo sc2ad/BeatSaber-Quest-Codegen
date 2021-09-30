@@ -45,8 +45,6 @@ namespace System::Runtime::Remoting {
     System::Type* obj_type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ActivatedClientTypeEntry
-    ActivatedClientTypeEntry(::Il2CppString* applicationUrl_ = {}, System::Type* obj_type_ = {}) noexcept : applicationUrl{applicationUrl_}, obj_type{obj_type_} {}
     // Get instance field reference: private System.String applicationUrl
     ::Il2CppString*& dyn_applicationUrl();
     // Get instance field reference: private System.Type obj_type

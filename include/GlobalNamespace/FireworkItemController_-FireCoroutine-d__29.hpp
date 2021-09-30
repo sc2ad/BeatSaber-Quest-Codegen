@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     bool $explosionSoundFired$5__4;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $FireCoroutine$d__29
-    $FireCoroutine$d__29(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::FireworkItemController* $$4__this_ = {}, float $soundTimeToCenter$5__2_ = {}, float $elapsedTime$5__3_ = {}, bool $explosionSoundFired$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $soundTimeToCenter$5__2{$soundTimeToCenter$5__2_}, $elapsedTime$5__3{$elapsedTime$5__3_}, $explosionSoundFired$5__4{$explosionSoundFired$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

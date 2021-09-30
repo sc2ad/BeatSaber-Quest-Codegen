@@ -90,8 +90,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>* inputAssetPresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>*) == 0x8);
-    // Creating value type constructor for type: HEU_InputPreset
-    HEU_InputPreset(HoudiniEngineUnity::HEU_InputNode::InputObjectType inputObjectType_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset*>* inputObjectPresets_ = {}, ::Il2CppString* inputAssetName_ = {}, int inputIndex_ = {}, ::Il2CppString* inputName_ = {}, bool keepWorldTransform_ = {}, bool packGeometryBeforeMerging_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>* inputAssetPresets_ = {}) noexcept : inputObjectType{inputObjectType_}, inputObjectPresets{inputObjectPresets_}, inputAssetName{inputAssetName_}, inputIndex{inputIndex_}, inputName{inputName_}, keepWorldTransform{keepWorldTransform_}, packGeometryBeforeMerging{packGeometryBeforeMerging_}, inputAssetPresets{inputAssetPresets_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
     HoudiniEngineUnity::HEU_InputNode::InputObjectType& dyn__inputObjectType();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectPreset> _inputObjectPresets

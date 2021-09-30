@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayerModel* partyManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayerModel*) == 0x8);
-    // Creating value type constructor for type: PartyConfig
-    PartyConfig(GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, GlobalNamespace::INetworkPlayerModel* partyManager_ = {}) noexcept : selectionMask{selectionMask_}, configuration{configuration_}, partyManager{partyManager_} {}
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration

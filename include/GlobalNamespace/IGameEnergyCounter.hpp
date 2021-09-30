@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGameEnergyCounter {
     public:
-    // Creating value type constructor for type: IGameEnergyCounter
-    IGameEnergyCounter() noexcept {}
     // public System.Boolean get_isInitialized()
     // Offset: 0xFFFFFFFF
     bool get_isInitialized();

@@ -22,8 +22,6 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class NativeAsStructAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeAsStructAttribute
-    NativeAsStructAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261F3D8
     // Implemented from: System.Attribute

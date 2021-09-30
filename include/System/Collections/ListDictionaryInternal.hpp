@@ -60,8 +60,6 @@ namespace System::Collections {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ListDictionaryInternal
-    ListDictionaryInternal(System::Collections::ListDictionaryInternal::DictionaryNode* head_ = {}, int version_ = {}, int count_ = {}) noexcept : head{head_}, version{version_}, count{count_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

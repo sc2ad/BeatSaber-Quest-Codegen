@@ -26,8 +26,6 @@ namespace Oculus::Platform {
     bool IsPersistantBetweenSceneLoads;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CallbackRunner
-    CallbackRunner(bool IsPersistantBetweenSceneLoads_ = {}) noexcept : IsPersistantBetweenSceneLoads{IsPersistantBetweenSceneLoads_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean IsPersistantBetweenSceneLoads

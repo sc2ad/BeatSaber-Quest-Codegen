@@ -31,8 +31,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int crossAppDomainArrayIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BinaryCrossAppDomainMap
-    BinaryCrossAppDomainMap(int crossAppDomainArrayIndex_ = {}) noexcept : crossAppDomainArrayIndex{crossAppDomainArrayIndex_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return crossAppDomainArrayIndex;

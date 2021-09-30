@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerOctetString : public Org::BouncyCastle::Asn1::Asn1OctetString {
     public:
-    // Creating value type constructor for type: DerOctetString
-    DerOctetString() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable obj)
     // Offset: 0x18F1ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

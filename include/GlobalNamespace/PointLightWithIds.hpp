@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PointLight* pointLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PointLight*) == 0x8);
-    // Creating value type constructor for type: PointLightWithIds
-    PointLightWithIds(GlobalNamespace::PointLight* pointLight_ = {}) noexcept : pointLight{pointLight_} {}
     // Get instance field reference: private PointLight _pointLight
     GlobalNamespace::PointLight*& dyn__pointLight();
     // public System.Void .ctor()

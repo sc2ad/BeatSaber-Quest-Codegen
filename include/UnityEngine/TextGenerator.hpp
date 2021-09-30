@@ -131,8 +131,6 @@ namespace UnityEngine {
     bool m_CachedLines;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TextGenerator
-    TextGenerator(System::IntPtr m_Ptr_ = {}, ::Il2CppString* m_LastString_ = {}, UnityEngine::TextGenerationSettings m_LastSettings_ = {}, bool m_HasGenerated_ = {}, UnityEngine::TextGenerationError m_LastValid_ = {}, System::Collections::Generic::List_1<UnityEngine::UIVertex>* m_Verts_ = {}, System::Collections::Generic::List_1<UnityEngine::UICharInfo>* m_Characters_ = {}, System::Collections::Generic::List_1<UnityEngine::UILineInfo>* m_Lines_ = {}, bool m_CachedVerts_ = {}, bool m_CachedCharacters_ = {}, bool m_CachedLines_ = {}) noexcept : m_Ptr{m_Ptr_}, m_LastString{m_LastString_}, m_LastSettings{m_LastSettings_}, m_HasGenerated{m_HasGenerated_}, m_LastValid{m_LastValid_}, m_Verts{m_Verts_}, m_Characters{m_Characters_}, m_Lines{m_Lines_}, m_CachedVerts{m_CachedVerts_}, m_CachedCharacters{m_CachedCharacters_}, m_CachedLines{m_CachedLines_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

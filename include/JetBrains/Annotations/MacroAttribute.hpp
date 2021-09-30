@@ -41,8 +41,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Target;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MacroAttribute
-    MacroAttribute(::Il2CppString* Expression_ = {}, int Editable_ = {}, ::Il2CppString* Target_ = {}) noexcept : Expression{Expression_}, Editable{Editable_}, Target{Target_} {}
     // Get instance field reference: private System.String <Expression>k__BackingField
     ::Il2CppString*& dyn_$Expression$k__BackingField();
     // Get instance field reference: private System.Int32 <Editable>k__BackingField

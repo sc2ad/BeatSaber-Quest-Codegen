@@ -43,8 +43,6 @@ namespace System::Runtime::Serialization {
     ::ArrayWrapper<::Il2CppObject*> m_objs;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: ObjectIDGenerator
-    ObjectIDGenerator(int m_currentCount_ = {}, int m_currentSize_ = {}, ::ArrayWrapper<int64_t> m_ids_ = {}, ::ArrayWrapper<::Il2CppObject*> m_objs_ = {}) noexcept : m_currentCount{m_currentCount_}, m_currentSize{m_currentSize_}, m_ids{m_ids_}, m_objs{m_objs_} {}
     // Get static field: static private readonly System.Int32[] sizes
     static ::ArrayWrapper<int> _get_sizes();
     // Set static field: static private readonly System.Int32[] sizes

@@ -16,8 +16,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineAsset::TimelineAssetUpgrade : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimelineAssetUpgrade
-    TimelineAssetUpgrade() noexcept {}
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.TimelineAssetUpgrade
   #pragma pack(pop)
 }

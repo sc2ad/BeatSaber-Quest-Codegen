@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EAFFDC
   class IVRSystem::_GetDXGIOutputInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetDXGIOutputInfo
-    _GetDXGIOutputInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E7358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusConnectionManager::OculusConnection* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusConnectionManager::OculusConnection*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass15_0
-    $$c__DisplayClass15_0(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>* onPingResult_ = {}, GlobalNamespace::OculusConnectionManager::OculusConnection* $$4__this_ = {}) noexcept : onPingResult{onPingResult_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult
     System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*& dyn_onPingResult();
     // Get instance field reference: public OculusConnectionManager/OculusConnection <>4__this

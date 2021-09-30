@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     UnityEngine::KeyCode keyCode;
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
-    // Creating value type constructor for type: ResetPlayerPrefsOnButton
-    ResetPlayerPrefsOnButton(UnityEngine::KeyCode keyCode_ = {}) noexcept : keyCode{keyCode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.KeyCode _keyCode

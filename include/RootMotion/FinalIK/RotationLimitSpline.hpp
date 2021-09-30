@@ -47,8 +47,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::AnimationCurve* spline;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // Creating value type constructor for type: RotationLimitSpline
-    RotationLimitSpline(float twistLimit_ = {}, UnityEngine::AnimationCurve* spline_ = {}) noexcept : twistLimit{twistLimit_}, spline{spline_} {}
     // Get instance field reference: public System.Single twistLimit
     float& dyn_twistLimit();
     // Get instance field reference: public UnityEngine.AnimationCurve spline

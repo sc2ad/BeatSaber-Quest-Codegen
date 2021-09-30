@@ -41,8 +41,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class PropertyBuilder : public System::Reflection::PropertyInfo {
     public:
-    // Creating value type constructor for type: PropertyBuilder
-    PropertyBuilder() noexcept {}
     // public override System.Reflection.PropertyAttributes get_Attributes()
     // Offset: 0x1EA73E8
     // Implemented from: System.Reflection.PropertyInfo

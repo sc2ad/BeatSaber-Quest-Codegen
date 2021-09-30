@@ -26,8 +26,6 @@ namespace Mono::Security::X509::Extensions {
     ::ArrayWrapper<uint8_t> aki;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: AuthorityKeyIdentifierExtension
-    AuthorityKeyIdentifierExtension(::ArrayWrapper<uint8_t> aki_ = {}) noexcept : aki{aki_} {}
     // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return aki;

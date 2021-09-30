@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Pack : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Pack
-    Pack() noexcept {}
     // static System.Void UInt32_To_BE(System.UInt32 n, System.Byte[] bs, System.Int32 off)
     // Offset: 0x13A5C44
     static void UInt32_To_BE(uint n, ::ArrayWrapper<uint8_t> bs, int off);

@@ -49,8 +49,6 @@ namespace Zenject {
     Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_1
-    $$c__DisplayClass6_1(Zenject::PrefabInstantiatorCached* prefabCreator_ = {}, Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0* CS$$$8__locals1_ = {}) noexcept : prefabCreator{prefabCreator_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public Zenject.PrefabInstantiatorCached prefabCreator
     Zenject::PrefabInstantiatorCached*& dyn_prefabCreator();
     // Get instance field reference: public Zenject.PrefabBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1

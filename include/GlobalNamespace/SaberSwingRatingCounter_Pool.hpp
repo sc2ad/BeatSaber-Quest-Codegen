@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSwingRatingCounter::Pool : public Zenject::MemoryPool_1<GlobalNamespace::SaberSwingRatingCounter*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11CBE54
     // Implemented from: Zenject.MemoryPool`1

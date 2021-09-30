@@ -38,8 +38,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: GetRayIntersectionAllNonAllocCallback
-    GetRayIntersectionAllNonAllocCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1B51D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

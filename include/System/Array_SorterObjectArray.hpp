@@ -49,7 +49,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
     // Creating value type constructor for type: SorterObjectArray
-    constexpr SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys_ = {}, ::ArrayWrapper<::Il2CppObject*> items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys_ = {nullptr}, ::ArrayWrapper<::Il2CppObject*> items_ = {nullptr}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -62,7 +62,6 @@ namespace System {
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
     // Offset: 0x198BA28
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys, ::ArrayWrapper<::Il2CppObject*> items, System::Collections::IComparer* comparer)
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
     // Offset: 0x198CA24

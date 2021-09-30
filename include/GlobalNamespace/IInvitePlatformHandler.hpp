@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInvitePlatformHandler {
     public:
-    // Creating value type constructor for type: IInvitePlatformHandler
-    IInvitePlatformHandler() noexcept {}
     // public System.Boolean get_isSupported()
     // Offset: 0xFFFFFFFF
     bool get_isSupported();

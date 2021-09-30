@@ -96,8 +96,6 @@ namespace GlobalNamespace {
     bool hideCancelButton;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UIKeyboard
-    UIKeyboard(GlobalNamespace::TextMeshProButton* keyButtonPrefab_ = {}, System::Action_1<::Il2CppChar>* textKeyWasPressedEvent_ = {}, System::Action* deleteButtonWasPressedEvent_ = {}, System::Action* okButtonWasPressedEvent_ = {}, System::Action* cancelButtonWasPressedEvent_ = {}, UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, bool okButtonInteractivity_ = {}, bool hideCancelButton_ = {}) noexcept : keyButtonPrefab{keyButtonPrefab_}, textKeyWasPressedEvent{textKeyWasPressedEvent_}, deleteButtonWasPressedEvent{deleteButtonWasPressedEvent_}, okButtonWasPressedEvent{okButtonWasPressedEvent_}, cancelButtonWasPressedEvent{cancelButtonWasPressedEvent_}, okButton{okButton_}, cancelButton{cancelButton_}, okButtonInteractivity{okButtonInteractivity_}, hideCancelButton{hideCancelButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TextMeshProButton _keyButtonPrefab

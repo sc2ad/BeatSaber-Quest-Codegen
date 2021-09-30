@@ -33,8 +33,6 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SerializationEventHandler
-    SerializationEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1915DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

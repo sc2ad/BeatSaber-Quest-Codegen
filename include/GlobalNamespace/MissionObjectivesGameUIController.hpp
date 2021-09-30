@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>*) == 0x8);
-    // Creating value type constructor for type: MissionObjectivesGameUIController
-    MissionObjectivesGameUIController(GlobalNamespace::MissionObjectiveGameUIView* missionObjectiveGameUIViewPrefab_ = {}, float separator_ = {}, float elementWidth_ = {}, GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews_ = {}) noexcept : missionObjectiveGameUIViewPrefab{missionObjectiveGameUIViewPrefab_}, separator{separator_}, elementWidth{elementWidth_}, missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, missionObjectiveGameUIViews{missionObjectiveGameUIViews_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab

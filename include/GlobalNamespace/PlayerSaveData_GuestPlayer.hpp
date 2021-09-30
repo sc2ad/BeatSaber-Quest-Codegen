@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     ::Il2CppString* playerName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: GuestPlayer
-    GuestPlayer(::Il2CppString* playerName_ = {}) noexcept : playerName{playerName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return playerName;

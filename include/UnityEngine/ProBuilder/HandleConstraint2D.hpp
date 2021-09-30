@@ -37,8 +37,6 @@ namespace UnityEngine::ProBuilder {
     int y;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HandleConstraint2D
-    HandleConstraint2D(int x_ = {}, int y_ = {}) noexcept : x{x_}, y{y_} {}
     // Get static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
     static UnityEngine::ProBuilder::HandleConstraint2D* _get_None();
     // Set static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None

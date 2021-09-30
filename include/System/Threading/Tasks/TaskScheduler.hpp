@@ -49,8 +49,6 @@ namespace System::Threading::Tasks {
     int m_taskSchedulerId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TaskScheduler
-    TaskScheduler(int m_taskSchedulerId_ = {}) noexcept : m_taskSchedulerId{m_taskSchedulerId_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_taskSchedulerId;

@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C3B0
   class MulticastNotSupportedException : public System::SystemException {
     public:
-    // Creating value type constructor for type: MulticastNotSupportedException
-    MulticastNotSupportedException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A12DD4
     // Implemented from: System.SystemException

@@ -26,8 +26,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReflectionOnlyType : public System::RuntimeType {
     public:
-    // Creating value type constructor for type: ReflectionOnlyType
-    ReflectionOnlyType() noexcept {}
     // public override System.RuntimeTypeHandle get_TypeHandle()
     // Offset: 0x15A5018
     // Implemented from: System.RuntimeType

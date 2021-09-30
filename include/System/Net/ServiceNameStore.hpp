@@ -43,8 +43,6 @@ namespace System::Net {
     System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
     // Field size check
     static_assert(sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*) == 0x8);
-    // Creating value type constructor for type: ServiceNameStore
-    ServiceNameStore(System::Collections::Generic::List_1<::Il2CppString*>* serviceNames_ = {}, System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection_ = {}) noexcept : serviceNames{serviceNames_}, serviceNameCollection{serviceNameCollection_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> serviceNames
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_serviceNames();
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5790
   class IVRChaperone::_GetCalibrationState : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetCalibrationState
-    _GetCalibrationState() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1892F88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

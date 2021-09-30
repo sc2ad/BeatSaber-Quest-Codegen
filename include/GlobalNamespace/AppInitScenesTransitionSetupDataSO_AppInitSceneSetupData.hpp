@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MockPlayersModel* overrideMockPlayersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockPlayersModel*) == 0x8);
-    // Creating value type constructor for type: AppInitSceneSetupData
-    AppInitSceneSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType_ = {}, GlobalNamespace::MockPlayersModel* overrideMockPlayersModel_ = {}) noexcept : appInitOverrideStartType{appInitOverrideStartType_}, overrideMockPlayersModel{overrideMockPlayersModel_} {}
     // Get instance field reference: private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType& dyn_$appInitOverrideStartType$k__BackingField();
     // Get instance field reference: private MockPlayersModel <overrideMockPlayersModel>k__BackingField

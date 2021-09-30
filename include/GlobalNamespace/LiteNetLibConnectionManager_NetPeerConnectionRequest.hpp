@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     LiteNetLib::ConnectionRequest* request;
     // Field size check
     static_assert(sizeof(LiteNetLib::ConnectionRequest*) == 0x8);
-    // Creating value type constructor for type: NetPeerConnectionRequest
-    NetPeerConnectionRequest(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isConnectionOwner_ = {}, LiteNetLib::ConnectionRequest* request_ = {}) noexcept : userId{userId_}, userName{userName_}, isConnectionOwner{isConnectionOwner_}, request{request_} {}
     // Get instance field reference: private readonly System.String _userId
     ::Il2CppString*& dyn__userId();
     // Get instance field reference: private readonly System.String _userName

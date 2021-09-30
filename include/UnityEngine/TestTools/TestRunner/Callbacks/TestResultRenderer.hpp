@@ -62,8 +62,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     UnityEngine::Vector2 m_ScrollPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // Creating value type constructor for type: TestResultRenderer
-    TestResultRenderer(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* m_FailedTestCollection_ = {}, bool m_ShowResults_ = {}, UnityEngine::Vector2 m_ScrollPosition_ = {}) noexcept : m_FailedTestCollection{m_FailedTestCollection_}, m_ShowResults{m_ShowResults_}, m_ScrollPosition{m_ScrollPosition_} {}
     // static field const value: static private System.Int32 k_MaxStringLength
     static constexpr const int k_MaxStringLength = 15000;
     // Get static field: static private System.Int32 k_MaxStringLength

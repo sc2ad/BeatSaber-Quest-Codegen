@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILevelRestartController {
     public:
-    // Creating value type constructor for type: ILevelRestartController
-    ILevelRestartController() noexcept {}
     // public System.Void RestartLevel()
     // Offset: 0xFFFFFFFF
     void RestartLevel();

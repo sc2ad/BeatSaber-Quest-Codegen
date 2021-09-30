@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TransitionTimingSO* transitionTiming;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TransitionTimingSO*) == 0x8);
-    // Creating value type constructor for type: BaseTransitionSO
-    BaseTransitionSO(GlobalNamespace::TransitionTimingSO* transitionTiming_ = {}) noexcept : transitionTiming{transitionTiming_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TransitionTimingSO _transitionTiming

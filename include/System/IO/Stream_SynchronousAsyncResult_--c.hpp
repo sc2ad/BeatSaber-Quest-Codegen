@@ -34,8 +34,6 @@ namespace System::IO {
   // [CompilerGeneratedAttribute] Offset: E5E2B0
   class Stream::SynchronousAsyncResult::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.IO.Stream/System.IO.SynchronousAsyncResult/System.IO.<>c <>9
     static System::IO::Stream::SynchronousAsyncResult::$$c* _get_$$9();
     // Set static field: static public readonly System.IO.Stream/System.IO.SynchronousAsyncResult/System.IO.<>c <>9

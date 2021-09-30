@@ -34,8 +34,6 @@ namespace Polyglot {
     Polyglot::Localization* settings;
     // Field size check
     static_assert(sizeof(Polyglot::Localization*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(Polyglot::Localization* settings_ = {}) noexcept : settings{settings_} {}
     // Creating conversion operator: operator Polyglot::Localization*
     constexpr operator Polyglot::Localization*() const noexcept {
       return settings;

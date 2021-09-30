@@ -200,7 +200,6 @@ namespace System {
     int& dyn_mid();
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0x1CE13F8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -208,7 +207,6 @@ namespace System {
     }
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0x1CE141C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(uint value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -216,7 +214,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0x1CE1428
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(int64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -224,7 +221,6 @@ namespace System {
     }
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x1CE1450
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(uint64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -232,7 +228,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Single value)
     // Offset: 0x1CE1460
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(float value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -240,7 +235,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Double value)
     // Offset: 0x1CE1464
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(double value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -248,7 +242,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32[] bits)
     // Offset: 0x1CE1468
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(::ArrayWrapper<int> bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bits)})));
@@ -256,7 +249,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Boolean isNegative, System.Byte scale)
     // Offset: 0x1CE16E8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(mid), ::il2cpp_utils::ExtractType(hi), ::il2cpp_utils::ExtractType(isNegative), ::il2cpp_utils::ExtractType(scale)})));
@@ -264,7 +256,6 @@ namespace System {
     }
     // private System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Int32 flags)
     // Offset: 0x1CE1B14
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Decimal(int lo, int mid, int hi, int flags)
     // static private System.Void .cctor()
     // Offset: 0x1CE37A8

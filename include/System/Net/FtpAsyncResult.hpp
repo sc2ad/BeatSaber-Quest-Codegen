@@ -102,8 +102,6 @@ namespace System::Net {
     ::Il2CppObject* locker;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: FtpAsyncResult
-    FtpAsyncResult(System::Net::FtpWebResponse* response_ = {}, System::Threading::ManualResetEvent* waitHandle_ = {}, System::Exception* exception_ = {}, System::AsyncCallback* callback_ = {}, System::IO::Stream* stream_ = {}, ::Il2CppObject* state_ = {}, bool completed_ = {}, bool synch_ = {}, ::Il2CppObject* locker_ = {}) noexcept : response{response_}, waitHandle{waitHandle_}, exception{exception_}, callback{callback_}, stream{stream_}, state{state_}, completed{completed_}, synch{synch_}, locker{locker_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

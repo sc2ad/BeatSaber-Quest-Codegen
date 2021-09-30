@@ -116,8 +116,6 @@ namespace System::Net {
     System::Net::TimerThread::TimerNode* prev;
     // Field size check
     static_assert(sizeof(System::Net::TimerThread::TimerNode*) == 0x8);
-    // Creating value type constructor for type: TimerNode
-    TimerNode(System::Net::TimerThread::TimerNode::TimerState m_TimerState_ = {}, System::Net::TimerThread::Callback* m_Callback_ = {}, ::Il2CppObject* m_Context_ = {}, ::Il2CppObject* m_QueueLock_ = {}, System::Net::TimerThread::TimerNode* next_ = {}, System::Net::TimerThread::TimerNode* prev_ = {}) noexcept : m_TimerState{m_TimerState_}, m_Callback{m_Callback_}, m_Context{m_Context_}, m_QueueLock{m_QueueLock_}, next{next_}, prev{prev_} {}
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
     System::Net::TimerThread::TimerNode::TimerState& dyn_m_TimerState();
     // Get instance field reference: private System.Net.TimerThread/System.Net.Callback m_Callback

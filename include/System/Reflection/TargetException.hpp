@@ -28,8 +28,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DA04
   class TargetException : public System::ApplicationException {
     public:
-    // Creating value type constructor for type: TargetException
-    TargetException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15A4894
     // Implemented from: System.ApplicationException

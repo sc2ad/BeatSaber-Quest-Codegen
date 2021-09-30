@@ -121,8 +121,6 @@ namespace UnityEngine::TestTools::Logging {
     ::Il2CppString* NUnitExceptionMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LogScope
-    LogScope(::Il2CppObject* m_Lock_ = {}, bool m_Disposed_ = {}, bool m_NeedToProcessLogs_ = {}, System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* ExpectedLogs_ = {}, System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* AllLogs_ = {}, System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* FailingLogs_ = {}, bool IgnoreFailingMessages_ = {}, bool IsNUnitException_ = {}, bool IsNUnitSuccessException_ = {}, bool IsNUnitInconclusiveException_ = {}, bool IsNUnitIgnoreException_ = {}, ::Il2CppString* NUnitExceptionMessage_ = {}) noexcept : m_Lock{m_Lock_}, m_Disposed{m_Disposed_}, m_NeedToProcessLogs{m_NeedToProcessLogs_}, ExpectedLogs{ExpectedLogs_}, AllLogs{AllLogs_}, FailingLogs{FailingLogs_}, IgnoreFailingMessages{IgnoreFailingMessages_}, IsNUnitException{IsNUnitException_}, IsNUnitSuccessException{IsNUnitSuccessException_}, IsNUnitInconclusiveException{IsNUnitInconclusiveException_}, IsNUnitIgnoreException{IsNUnitIgnoreException_}, NUnitExceptionMessage{NUnitExceptionMessage_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

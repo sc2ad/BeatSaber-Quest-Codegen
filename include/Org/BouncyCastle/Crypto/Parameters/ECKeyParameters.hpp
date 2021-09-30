@@ -52,8 +52,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: ECKeyParameters
-    ECKeyParameters(::Il2CppString* algorithm_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_}, publicKeyParamSet{publicKeyParamSet_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static private readonly System.String[] algorithms

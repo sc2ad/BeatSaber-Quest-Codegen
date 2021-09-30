@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsn1Convertible {
     public:
-    // Creating value type constructor for type: IAsn1Convertible
-    IAsn1Convertible() noexcept {}
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

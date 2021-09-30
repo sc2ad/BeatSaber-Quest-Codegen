@@ -33,8 +33,6 @@ namespace UnityEngine::Experimental::Rendering {
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*) == 0x8);
-    // Creating value type constructor for type: ScriptableRuntimeReflectionSystemWrapper
-    ScriptableRuntimeReflectionSystemWrapper(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation_ = {}) noexcept : implementation{implementation_} {}
     // Creating conversion operator: operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*
     constexpr operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() const noexcept {
       return implementation;

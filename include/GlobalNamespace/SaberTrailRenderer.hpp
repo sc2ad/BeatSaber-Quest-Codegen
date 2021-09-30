@@ -114,8 +114,6 @@ namespace GlobalNamespace {
     float whiteSectionMaxDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SaberTrailRenderer
-    SaberTrailRenderer(UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Mesh* mesh_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, ::ArrayWrapper<int> indices_ = {}, ::ArrayWrapper<UnityEngine::Vector2> uvs_ = {}, ::ArrayWrapper<UnityEngine::Color> colors_ = {}, float trailWidth_ = {}, float trailDuration_ = {}, float segmentDuration_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}) noexcept : meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, mesh{mesh_}, vertices{vertices_}, indices{indices_}, uvs{uvs_}, colors{colors_}, trailWidth{trailWidth_}, trailDuration{trailDuration_}, segmentDuration{segmentDuration_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF061E8

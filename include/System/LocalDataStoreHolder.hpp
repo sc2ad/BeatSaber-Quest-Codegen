@@ -31,8 +31,6 @@ namespace System {
     System::LocalDataStore* m_Store;
     // Field size check
     static_assert(sizeof(System::LocalDataStore*) == 0x8);
-    // Creating value type constructor for type: LocalDataStoreHolder
-    LocalDataStoreHolder(System::LocalDataStore* m_Store_ = {}) noexcept : m_Store{m_Store_} {}
     // Creating conversion operator: operator System::LocalDataStore*
     constexpr operator System::LocalDataStore*() const noexcept {
       return m_Store;

@@ -15,8 +15,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAeadBlockCipher/*, public Org::BouncyCastle::Crypto::Modes::IAeadCipher*/ {
     public:
-    // Creating value type constructor for type: IAeadBlockCipher
-    IAeadBlockCipher() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::IAeadCipher
     operator Org::BouncyCastle::Crypto::Modes::IAeadCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);

@@ -14,8 +14,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventSystemHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EventSystemHelpers
-    EventSystemHelpers() noexcept {}
     // static public System.Boolean IsInputFieldSelected()
     // Offset: 0x1486A34
     static bool IsInputFieldSelected();

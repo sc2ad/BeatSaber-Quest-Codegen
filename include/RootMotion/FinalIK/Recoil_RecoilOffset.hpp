@@ -79,8 +79,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 lastOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: RecoilOffset
-    RecoilOffset(UnityEngine::Vector3 offset_ = {}, float additivity_ = {}, float maxAdditiveOffsetMag_ = {}, ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks_ = {}, UnityEngine::Vector3 additiveOffset_ = {}, UnityEngine::Vector3 lastOffset_ = {}) noexcept : offset{offset_}, additivity{additivity_}, maxAdditiveOffsetMag{maxAdditiveOffsetMag_}, effectorLinks{effectorLinks_}, additiveOffset{additiveOffset_}, lastOffset{lastOffset_} {}
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public System.Single additivity

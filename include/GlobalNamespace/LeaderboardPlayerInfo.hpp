@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     bool succeeded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LeaderboardPlayerInfo
-    LeaderboardPlayerInfo(::Il2CppString* serverKey_ = {}, ::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, ::Il2CppString* playerKey_ = {}, ::Il2CppString* authType_ = {}, ::Il2CppString* playerFriends_ = {}, bool succeeded_ = {}) noexcept : serverKey{serverKey_}, playerId{playerId_}, playerName{playerName_}, playerKey{playerKey_}, authType{authType_}, playerFriends{playerFriends_}, succeeded{succeeded_} {}
     // Get instance field reference: public System.String serverKey
     ::Il2CppString*& dyn_serverKey();
     // Get instance field reference: private System.String <playerId>k__BackingField

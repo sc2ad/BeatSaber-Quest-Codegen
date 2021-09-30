@@ -55,8 +55,6 @@ namespace UnityEngine::ProBuilder {
     float m_AreaError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: UnwrapParameters
-    UnwrapParameters(float m_HardAngle_ = {}, float m_PackMargin_ = {}, float m_AngleError_ = {}, float m_AreaError_ = {}) noexcept : m_HardAngle{m_HardAngle_}, m_PackMargin{m_PackMargin_}, m_AngleError{m_AngleError_}, m_AreaError{m_AreaError_} {}
     // static field const value: static System.Single k_HardAngle
     static constexpr const float k_HardAngle = 88;
     // Get static field: static System.Single k_HardAngle

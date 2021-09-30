@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: MultiplayerBadgeDataSO
-    MultiplayerBadgeDataSO(::Il2CppString* titleLocalizationKey_ = {}, ::Il2CppString* subtitleLocalizationKey_ = {}, UnityEngine::Sprite* icon_ = {}) noexcept : titleLocalizationKey{titleLocalizationKey_}, subtitleLocalizationKey{subtitleLocalizationKey_}, icon{icon_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _titleLocalizationKey

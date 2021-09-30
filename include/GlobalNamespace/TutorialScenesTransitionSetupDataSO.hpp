@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*) == 0x8);
-    // Creating value type constructor for type: TutorialScenesTransitionSetupDataSO
-    TutorialScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* tutorialSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* didFinishEvent_ = {}) noexcept : environmentInfo{environmentInfo_}, tutorialSceneInfo{tutorialSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
     GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private SceneInfo _tutorialSceneInfo

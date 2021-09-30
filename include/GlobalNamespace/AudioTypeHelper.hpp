@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioTypeHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AudioTypeHelper
-    AudioTypeHelper() noexcept {}
     // static public UnityEngine.AudioType GetAudioTypeFromPath(System.String path)
     // Offset: 0x25F7804
     static UnityEngine::AudioType GetAudioTypeFromPath(::Il2CppString* path);

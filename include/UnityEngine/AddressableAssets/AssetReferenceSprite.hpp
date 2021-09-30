@@ -26,8 +26,6 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetReferenceSprite : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite*> {
     public:
-    // Creating value type constructor for type: AssetReferenceSprite
-    AssetReferenceSprite() noexcept {}
     // public System.Void .ctor(System.String guid)
     // Offset: 0x1599550
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1

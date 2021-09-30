@@ -79,8 +79,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> m_Vertices;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Vertex*>) == 0x8);
-    // Creating value type constructor for type: MeshImporter
-    MeshImporter(UnityEngine::Mesh* m_SourceMesh_ = {}, ::ArrayWrapper<UnityEngine::Material*> m_SourceMaterials_ = {}, UnityEngine::ProBuilder::ProBuilderMesh* m_Destination_ = {}, ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> m_Vertices_ = {}) noexcept : m_SourceMesh{m_SourceMesh_}, m_SourceMaterials{m_SourceMaterials_}, m_Destination{m_Destination_}, m_Vertices{m_Vertices_} {}
     // Get static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
     static UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* _get_k_DefaultImportSettings();
     // Set static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings

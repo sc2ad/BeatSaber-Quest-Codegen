@@ -141,8 +141,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<UnityEngine::Vector3> eyeForward;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: IKSolverLookAt
-    IKSolverLookAt(UnityEngine::Transform* target_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*> spine_ = {}, RootMotion::FinalIK::IKSolverLookAt::LookAtBone* head_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*> eyes_ = {}, float bodyWeight_ = {}, float headWeight_ = {}, float eyesWeight_ = {}, float clampWeight_ = {}, float clampWeightHead_ = {}, float clampWeightEyes_ = {}, int clampSmoothing_ = {}, UnityEngine::AnimationCurve* spineWeightCurve_ = {}, UnityEngine::Vector3 spineTargetOffset_ = {}, ::ArrayWrapper<UnityEngine::Vector3> spineForwards_ = {}, ::ArrayWrapper<UnityEngine::Vector3> headForwards_ = {}, ::ArrayWrapper<UnityEngine::Vector3> eyeForward_ = {}) noexcept : target{target_}, spine{spine_}, head{head_}, eyes{eyes_}, bodyWeight{bodyWeight_}, headWeight{headWeight_}, eyesWeight{eyesWeight_}, clampWeight{clampWeight_}, clampWeightHead{clampWeightHead_}, clampWeightEyes{clampWeightEyes_}, clampSmoothing{clampSmoothing_}, spineWeightCurve{spineWeightCurve_}, spineTargetOffset{spineTargetOffset_}, spineForwards{spineForwards_}, headForwards{headForwards_}, eyeForward{eyeForward_} {}
     // Get instance field reference: public UnityEngine.Transform target
     UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] spine

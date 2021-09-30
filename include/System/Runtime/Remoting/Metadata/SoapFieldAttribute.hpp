@@ -34,8 +34,6 @@ namespace System::Runtime::Remoting::Metadata {
     bool isElement;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SoapFieldAttribute
-    SoapFieldAttribute(::Il2CppString* elementName_ = {}, bool isElement_ = {}) noexcept : elementName{elementName_}, isElement{isElement_} {}
     // Get instance field reference: private System.String _elementName
     ::Il2CppString*& dyn__elementName();
     // Get instance field reference: private System.Boolean _isElement

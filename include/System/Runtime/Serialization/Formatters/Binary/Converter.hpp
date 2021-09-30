@@ -32,8 +32,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class Converter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Converter
-    Converter() noexcept {}
     // Get static field: static private System.Int32 primitiveTypeEnumLength
     static int _get_primitiveTypeEnumLength();
     // Set static field: static private System.Int32 primitiveTypeEnumLength

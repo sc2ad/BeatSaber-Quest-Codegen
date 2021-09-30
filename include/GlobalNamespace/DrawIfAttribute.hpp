@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DrawIfAttribute::DisablingType disablingType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DrawIfAttribute::DisablingType) == 0x4);
-    // Creating value type constructor for type: DrawIfAttribute
-    DrawIfAttribute(::Il2CppString* propertyName_ = {}, ::Il2CppObject* value_ = {}, ::Il2CppObject* orValue_ = {}, GlobalNamespace::DrawIfAttribute::DisablingType disablingType_ = {}) noexcept : propertyName{propertyName_}, value{value_}, orValue{orValue_}, disablingType{disablingType_} {}
     // Get instance field reference: public readonly System.String propertyName
     ::Il2CppString*& dyn_propertyName();
     // Get instance field reference: public readonly System.Object value

@@ -22,8 +22,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPv6AddressHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IPv6AddressHelper
-    IPv6AddressHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, ref System.Boolean isLoopback, ref System.String scopeId)
     // Offset: 0x156B090
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, ByRef<bool> isLoopback, ByRef<::Il2CppString*> scopeId);

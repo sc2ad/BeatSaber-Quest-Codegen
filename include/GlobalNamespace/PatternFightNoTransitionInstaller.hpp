@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PatternFightScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*) == 0x8);
-    // Creating value type constructor for type: PatternFightNoTransitionInstaller
-    PatternFightNoTransitionInstaller(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PatternFightScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : playerSpecificSettings{playerSpecificSettings_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings

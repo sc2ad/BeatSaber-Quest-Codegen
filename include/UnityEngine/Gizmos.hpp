@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: E7096C
   class Gizmos : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Gizmos
-    Gizmos() noexcept {}
     // static public System.Void set_color(UnityEngine.Color value)
     // Offset: 0x1CBE83C
     static void set_color(UnityEngine::Color value);

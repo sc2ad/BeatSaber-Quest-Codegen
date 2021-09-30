@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
-    // Creating value type constructor for type: GhostDuplicationEffect
-    GhostDuplicationEffect(::ArrayWrapper<UnityEngine::CanvasGroup*> canvases_ = {}, bool isInitialized_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}) noexcept : canvases{canvases_}, isInitialized{isInitialized_}, tweeningManager{tweeningManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.CanvasGroup[] _canvases

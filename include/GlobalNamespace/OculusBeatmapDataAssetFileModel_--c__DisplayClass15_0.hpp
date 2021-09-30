@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusBeatmapDataAssetFileModel*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass15_0
-    $$c__DisplayClass15_0(System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource_ = {}, GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}) noexcept : cancellationToken{cancellationToken_}, taskSource{taskSource_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource

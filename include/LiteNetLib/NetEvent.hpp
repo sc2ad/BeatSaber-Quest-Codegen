@@ -192,8 +192,6 @@ namespace LiteNetLib {
     LiteNetLib::NetPacketReader* DataReader;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPacketReader*) == 0x8);
-    // Creating value type constructor for type: NetEvent
-    NetEvent(LiteNetLib::NetEvent::EType Type_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}, ::Il2CppObject* UserData_ = {}, int Latency_ = {}, System::Net::Sockets::SocketError ErrorCode_ = {}, LiteNetLib::DisconnectReason DisconnectReason_ = {}, LiteNetLib::ConnectionRequest* ConnectionRequest_ = {}, LiteNetLib::DeliveryMethod DeliveryMethod_ = {}, LiteNetLib::NetPacketReader* DataReader_ = {}) noexcept : Type{Type_}, Peer{Peer_}, RemoteEndPoint{RemoteEndPoint_}, UserData{UserData_}, Latency{Latency_}, ErrorCode{ErrorCode_}, DisconnectReason{DisconnectReason_}, ConnectionRequest{ConnectionRequest_}, DeliveryMethod{DeliveryMethod_}, DataReader{DataReader_} {}
     // Get instance field reference: public LiteNetLib.NetEvent/LiteNetLib.EType Type
     LiteNetLib::NetEvent::EType& dyn_Type();
     // Get instance field reference: public LiteNetLib.NetPeer Peer

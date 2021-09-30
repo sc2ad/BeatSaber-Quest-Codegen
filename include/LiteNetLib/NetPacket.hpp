@@ -40,8 +40,6 @@ namespace LiteNetLib {
     ::Il2CppObject* UserData;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: NetPacket
-    NetPacket(::ArrayWrapper<uint8_t> RawData_ = {}, int Size_ = {}, ::Il2CppObject* UserData_ = {}) noexcept : RawData{RawData_}, Size{Size_}, UserData{UserData_} {}
     // Get static field: static private readonly System.Int32 LastProperty
     static int _get_LastProperty();
     // Set static field: static private readonly System.Int32 LastProperty

@@ -16,8 +16,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreloadData : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: PreloadData
-    PreloadData() noexcept {}
     // System.Void PreloadDataDontStripMe()
     // Offset: 0x1DFE628
     void PreloadDataDontStripMe();

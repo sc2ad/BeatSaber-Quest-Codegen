@@ -39,8 +39,6 @@ namespace Polyglot {
     Polyglot::GoogleDriveDownloadFormat format;
     // Field size check
     static_assert(sizeof(Polyglot::GoogleDriveDownloadFormat) == 0x4);
-    // Creating value type constructor for type: LocalizationAsset
-    LocalizationAsset(UnityEngine::TextAsset* textAsset_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}) noexcept : textAsset{textAsset_}, format{format_} {}
     // Get instance field reference: private UnityEngine.TextAsset textAsset
     UnityEngine::TextAsset*& dyn_textAsset();
     // Get instance field reference: private Polyglot.GoogleDriveDownloadFormat format

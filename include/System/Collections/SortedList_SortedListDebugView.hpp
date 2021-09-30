@@ -16,8 +16,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortedList::SortedListDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SortedListDebugView
-    SortedListDebugView() noexcept {}
   }; // System.Collections.SortedList/System.Collections.SortedListDebugView
   #pragma pack(pop)
 }

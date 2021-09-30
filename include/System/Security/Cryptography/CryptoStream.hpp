@@ -126,8 +126,6 @@ namespace System::Security::Cryptography {
     bool finalBlockTransformed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CryptoStream
-    CryptoStream(System::IO::Stream* stream_ = {}, System::Security::Cryptography::ICryptoTransform* Transform_ = {}, ::ArrayWrapper<uint8_t> InputBuffer_ = {}, int InputBufferIndex_ = {}, int InputBlockSize_ = {}, ::ArrayWrapper<uint8_t> OutputBuffer_ = {}, int OutputBufferIndex_ = {}, int OutputBlockSize_ = {}, System::Security::Cryptography::CryptoStreamMode transformMode_ = {}, bool canRead_ = {}, bool canWrite_ = {}, bool finalBlockTransformed_ = {}) noexcept : stream{stream_}, Transform{Transform_}, InputBuffer{InputBuffer_}, InputBufferIndex{InputBufferIndex_}, InputBlockSize{InputBlockSize_}, OutputBuffer{OutputBuffer_}, OutputBufferIndex{OutputBufferIndex_}, OutputBlockSize{OutputBlockSize_}, transformMode{transformMode_}, canRead{canRead_}, canWrite{canWrite_}, finalBlockTransformed{finalBlockTransformed_} {}
     // Get instance field reference: private System.IO.Stream _stream
     System::IO::Stream*& dyn__stream();
     // Get instance field reference: private System.Security.Cryptography.ICryptoTransform _Transform

@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TextValuePair
-    TextValuePair(::Il2CppString* text_ = {}, int value_ = {}) noexcept : text{text_}, value{value_} {}
     // Get instance field reference: public System.String text
     ::Il2CppString*& dyn_text();
     // Get instance field reference: public System.Int32 value

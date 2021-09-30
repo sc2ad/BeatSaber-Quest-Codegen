@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnterPlayerGuestNameViewController::FinishDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: FinishDelegate
-    FinishDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x11AFB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

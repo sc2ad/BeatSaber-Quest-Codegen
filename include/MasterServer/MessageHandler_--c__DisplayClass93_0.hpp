@@ -66,8 +66,6 @@ namespace MasterServer {
     System::Threading::CancellationToken cancellationToken;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass93_0
-    $$c__DisplayClass93_0(MasterServer::MessageHandler* $$4__this_ = {}, uint protocolVersion_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, System::Threading::CancellationToken cancellationToken_ = {}) noexcept : $$4__this{$$4__this_}, protocolVersion{protocolVersion_}, remoteEndPoint{remoteEndPoint_}, cancellationToken{cancellationToken_} {}
     // Get instance field reference: public MasterServer.MessageHandler <>4__this
     MasterServer::MessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.UInt32 protocolVersion

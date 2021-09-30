@@ -17,8 +17,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMediaAsyncLoader/*, public GlobalNamespace::IAudioClipAsyncLoader, public GlobalNamespace::ISpriteAsyncLoader*/ {
     public:
-    // Creating value type constructor for type: IMediaAsyncLoader
-    IMediaAsyncLoader() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IAudioClipAsyncLoader
     operator GlobalNamespace::IAudioClipAsyncLoader() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioClipAsyncLoader*>(this);

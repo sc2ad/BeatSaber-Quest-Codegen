@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C288
   class IndexOutOfRangeException : public System::SystemException {
     public:
-    // Creating value type constructor for type: IndexOutOfRangeException
-    IndexOutOfRangeException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A0AC90
     // Implemented from: System.SystemException

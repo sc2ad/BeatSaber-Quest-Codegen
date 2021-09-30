@@ -42,8 +42,6 @@ namespace System::IO {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: FileSystemEventArgs
-    FileSystemEventArgs(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* directory_ = {}, ::Il2CppString* name_ = {}) noexcept : changeType{changeType_}, directory{directory_}, name{name_} {}
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
     System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String directory

@@ -54,8 +54,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool IsInterior;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DelaunayTriangle
-    DelaunayTriangle(UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> Points_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> Neighbors_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsConstrained_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsDelaunay_ = {}, bool IsInterior_ = {}) noexcept : Points{Points_}, Neighbors{Neighbors_}, EdgeIsConstrained{EdgeIsConstrained_}, EdgeIsDelaunay{EdgeIsDelaunay_}, IsInterior{IsInterior_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
     UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>& dyn_Points();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Neighbors

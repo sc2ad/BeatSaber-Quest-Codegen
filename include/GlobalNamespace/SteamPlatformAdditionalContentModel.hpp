@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     bool isDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SteamPlatformAdditionalContentModel
-    SteamPlatformAdditionalContentModel(GlobalNamespace::SteamLevelProductsModelSO* steamLevelProductsModel_ = {}, System::Collections::Generic::HashSet_1<uint>* entitlementsAppIds_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* dataIsValidTaskCompletionSource_ = {}, System::Threading::SemaphoreSlim* semaphoreSlim_ = {}, bool isDataValid_ = {}) noexcept : steamLevelProductsModel{steamLevelProductsModel_}, entitlementsAppIds{entitlementsAppIds_}, dataIsValidTaskCompletionSource{dataIsValidTaskCompletionSource_}, semaphoreSlim{semaphoreSlim_}, isDataValid{isDataValid_} {}
     // Get instance field reference: private SteamLevelProductsModelSO _steamLevelProductsModel
     GlobalNamespace::SteamLevelProductsModelSO*& dyn__steamLevelProductsModel();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.UInt32> _entitlementsAppIds

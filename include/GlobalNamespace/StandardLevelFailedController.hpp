@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // Creating value type constructor for type: StandardLevelFailedController
-    StandardLevelFailedController(GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::StandardLevelFailedController::InitData* initData_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : levelFailedTextEffect{levelFailedTextEffect_}, standardLevelSceneSetupData{standardLevelSceneSetupData_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, initData{initData_}, gameplayManager{gameplayManager_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, gameSongController{gameSongController_}, environmentSpawnRotation{environmentSpawnRotation_}, beatmapObjectManager{beatmapObjectManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LevelFailedTextEffect _levelFailedTextEffect

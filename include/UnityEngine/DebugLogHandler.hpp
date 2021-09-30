@@ -36,8 +36,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70694
   class DebugLogHandler : public ::Il2CppObject/*, public UnityEngine::ILogHandler*/ {
     public:
-    // Creating value type constructor for type: DebugLogHandler
-    DebugLogHandler() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ILogHandler
     operator UnityEngine::ILogHandler() noexcept {
       return *reinterpret_cast<UnityEngine::ILogHandler*>(this);

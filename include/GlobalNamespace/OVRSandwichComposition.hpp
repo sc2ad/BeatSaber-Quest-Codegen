@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSandwichComposition : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRSandwichComposition
-    OVRSandwichComposition() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1809ECC
     // Implemented from: System.Object

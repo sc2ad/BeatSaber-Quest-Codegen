@@ -60,8 +60,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     ::Il2CppString* subObjectName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: InternalOp
-    InternalOp(UnityEngine::AssetBundleRequest* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle_ = {}, ::Il2CppString* subObjectName_ = {}) noexcept : m_RequestOperation{m_RequestOperation_}, m_ProvideHandle{m_ProvideHandle_}, subObjectName{subObjectName_} {}
     // Get instance field reference: private UnityEngine.AssetBundleRequest m_RequestOperation
     UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle

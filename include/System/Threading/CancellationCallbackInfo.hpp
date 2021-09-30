@@ -67,8 +67,6 @@ namespace System::Threading {
     System::Threading::CancellationTokenSource* CancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // Creating value type constructor for type: CancellationCallbackInfo
-    CancellationCallbackInfo(System::Action_1<::Il2CppObject*>* Callback_ = {}, ::Il2CppObject* StateForCallback_ = {}, System::Threading::SynchronizationContext* TargetSyncContext_ = {}, System::Threading::ExecutionContext* TargetExecutionContext_ = {}, System::Threading::CancellationTokenSource* CancellationTokenSource_ = {}) noexcept : Callback{Callback_}, StateForCallback{StateForCallback_}, TargetSyncContext{TargetSyncContext_}, TargetExecutionContext{TargetExecutionContext_}, CancellationTokenSource{CancellationTokenSource_} {}
     // Get static field: static private System.Threading.ContextCallback s_executionContextCallback
     static System::Threading::ContextCallback* _get_s_executionContextCallback();
     // Set static field: static private System.Threading.ContextCallback s_executionContextCallback

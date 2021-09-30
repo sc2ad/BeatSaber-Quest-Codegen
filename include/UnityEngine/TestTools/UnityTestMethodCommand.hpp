@@ -31,8 +31,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTestMethodCommand : public NUnit::Framework::Internal::Commands::TestMethodCommand {
     public:
-    // Creating value type constructor for type: UnityTestMethodCommand
-    UnityTestMethodCommand() noexcept {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x260A75C
     // Implemented from: NUnit.Framework.Internal.Commands.TestMethodCommand

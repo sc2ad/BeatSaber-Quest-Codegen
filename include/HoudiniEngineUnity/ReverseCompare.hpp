@@ -20,8 +20,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReverseCompare : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: ReverseCompare
-    ReverseCompare() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

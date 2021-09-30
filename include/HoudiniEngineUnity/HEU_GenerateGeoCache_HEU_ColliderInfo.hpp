@@ -158,8 +158,6 @@ namespace HoudiniEngineUnity {
     bool isTrigger;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_ColliderInfo
-    HEU_ColliderInfo(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType colliderType_ = {}, UnityEngine::Vector3 colliderCenter_ = {}, UnityEngine::Vector3 colliderSize_ = {}, float colliderRadius_ = {}, bool convexCollider_ = {}, ::Il2CppString* collisionGroupName_ = {}, ::ArrayWrapper<UnityEngine::Vector3> collisionVertices_ = {}, ::ArrayWrapper<int> collisionIndices_ = {}, UnityEngine::MeshTopology meshTopology_ = {}, bool isTrigger_ = {}) noexcept : colliderType{colliderType_}, colliderCenter{colliderCenter_}, colliderSize{colliderSize_}, colliderRadius{colliderRadius_}, convexCollider{convexCollider_}, collisionGroupName{collisionGroupName_}, collisionVertices{collisionVertices_}, collisionIndices{collisionIndices_}, meshTopology{meshTopology_}, isTrigger{isTrigger_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType _colliderType
     HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType& dyn__colliderType();
     // Get instance field reference: public UnityEngine.Vector3 _colliderCenter

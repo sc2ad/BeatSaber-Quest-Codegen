@@ -27,8 +27,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class NullFileWatcher : public ::Il2CppObject/*, public System::IO::IFileWatcher*/ {
     public:
-    // Creating value type constructor for type: NullFileWatcher
-    NullFileWatcher() noexcept {}
     // Creating interface conversion operator: operator System::IO::IFileWatcher
     operator System::IO::IFileWatcher() noexcept {
       return *reinterpret_cast<System::IO::IFileWatcher*>(this);

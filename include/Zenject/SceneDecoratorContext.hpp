@@ -83,8 +83,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*) == 0x8);
-    // Creating value type constructor for type: SceneDecoratorContext
-    SceneDecoratorContext(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* lateInstallers_ = {}, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* lateInstallerPrefabs_ = {}, System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* lateScriptableObjectInstallers_ = {}, ::Il2CppString* decoratedContractName_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours_ = {}) noexcept : lateInstallers{lateInstallers_}, lateInstallerPrefabs{lateInstallerPrefabs_}, lateScriptableObjectInstallers{lateScriptableObjectInstallers_}, decoratedContractName{decoratedContractName_}, container{container_}, injectableMonoBehaviours{injectableMonoBehaviours_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
     System::Collections::Generic::List_1<Zenject::MonoInstaller*>*& dyn__lateInstallers();
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallerPrefabs

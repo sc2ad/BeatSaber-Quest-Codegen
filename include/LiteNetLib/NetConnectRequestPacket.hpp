@@ -65,8 +65,6 @@ namespace LiteNetLib {
     LiteNetLib::Utils::NetDataReader* Data;
     // Field size check
     static_assert(sizeof(LiteNetLib::Utils::NetDataReader*) == 0x8);
-    // Creating value type constructor for type: NetConnectRequestPacket
-    NetConnectRequestPacket(int64_t ConnectionTime_ = {}, uint8_t ConnectionNumber_ = {}, ::ArrayWrapper<uint8_t> TargetAddress_ = {}, LiteNetLib::Utils::NetDataReader* Data_ = {}) noexcept : ConnectionTime{ConnectionTime_}, ConnectionNumber{ConnectionNumber_}, TargetAddress{TargetAddress_}, Data{Data_} {}
     // static field const value: static public System.Int32 HeaderSize
     static constexpr const int HeaderSize = 14;
     // Get static field: static public System.Int32 HeaderSize

@@ -30,8 +30,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetPropertyUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SetPropertyUtility
-    SetPropertyUtility() noexcept {}
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
     // Offset: 0x1B5B6C8
     static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue);

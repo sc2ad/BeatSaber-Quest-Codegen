@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADC88
   class XamlItemsControlAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: XamlItemsControlAttribute
-    XamlItemsControlAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610B7C
     // Implemented from: System.Attribute

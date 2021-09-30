@@ -31,8 +31,6 @@ namespace Org::BouncyCastle::Asn1::Nist {
   // [TokenAttribute] Offset: FFFFFFFF
   class NistNamedCurves : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NistNamedCurves
-    NistNamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds

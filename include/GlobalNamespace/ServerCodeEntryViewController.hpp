@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     HMUI::InputFieldViewChangeBinder* inputFieldViewChangeBinder;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldViewChangeBinder*) == 0x8);
-    // Creating value type constructor for type: ServerCodeEntryViewController
-    ServerCodeEntryViewController(HMUI::UIKeyboard* uiKeyboard_ = {}, HMUI::InputFieldView* codeInputField_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_2<bool, ::Il2CppString*>* didFinishEvent_ = {}, HMUI::InputFieldViewChangeBinder* inputFieldViewChangeBinder_ = {}) noexcept : uiKeyboard{uiKeyboard_}, codeInputField{codeInputField_}, joinButton{joinButton_}, cancelButton{cancelButton_}, didFinishEvent{didFinishEvent_}, inputFieldViewChangeBinder{inputFieldViewChangeBinder_} {}
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
     HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private HMUI.InputFieldView _codeInputField

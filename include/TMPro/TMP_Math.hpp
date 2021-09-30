@@ -20,8 +20,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Math : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TMP_Math
-    TMP_Math() noexcept {}
     // static field const value: static public System.Single FLOAT_MAX
     static constexpr const float FLOAT_MAX = 32767;
     // Get static field: static public System.Single FLOAT_MAX

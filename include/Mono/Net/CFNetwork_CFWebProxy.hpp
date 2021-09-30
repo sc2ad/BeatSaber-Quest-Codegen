@@ -55,8 +55,6 @@ namespace Mono::Net {
     bool userSpecified;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CFWebProxy
-    CFWebProxy(System::Net::ICredentials* credentials_ = {}, bool userSpecified_ = {}) noexcept : credentials{credentials_}, userSpecified{userSpecified_} {}
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);

@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class Kdf2BytesGenerator : public Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator {
     public:
-    // Creating value type constructor for type: Kdf2BytesGenerator
-    Kdf2BytesGenerator() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1A81284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

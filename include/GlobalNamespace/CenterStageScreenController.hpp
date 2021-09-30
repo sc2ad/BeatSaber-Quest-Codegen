@@ -119,8 +119,6 @@ namespace GlobalNamespace {
     float countdownEndTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: CenterStageScreenController
-    CenterStageScreenController(GlobalNamespace::MenuLightsPresetSO* defaultMenuLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* lobbyLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset_ = {}, GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}, GlobalNamespace::CountdownController* countdownController_ = {}, GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, bool countdownShown_ = {}, float countdownEndTime_ = {}) noexcept : defaultMenuLightsPreset{defaultMenuLightsPreset_}, lobbyLightsPreset{lobbyLightsPreset_}, countdownMenuLightsPreset{countdownMenuLightsPreset_}, beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, countdownController{countdownController_}, multiplayerLobbyCenterScreenLayoutAnimator{multiplayerLobbyCenterScreenLayoutAnimator_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, menuLightsManager{menuLightsManager_}, countdownShown{countdownShown_}, countdownEndTime{countdownEndTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected MenuLightsPresetSO _defaultMenuLightsPreset

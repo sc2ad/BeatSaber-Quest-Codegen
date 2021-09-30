@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     System::Text::StringBuilder* sb;
     // Field size check
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
-    // Creating value type constructor for type: OnlineServicesInfoViewController
-    OnlineServicesInfoViewController(HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::BeatmapLevelSO* testBeatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* testBeatmapCharacteristic_ = {}, UnityEngine::UI::Button* refreshButton_ = {}, OnlineServices::ServerManager* serverManager_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, System::Text::StringBuilder* sb_ = {}) noexcept : textPageScrollView{textPageScrollView_}, testBeatmapLevel{testBeatmapLevel_}, testBeatmapCharacteristic{testBeatmapCharacteristic_}, refreshButton{refreshButton_}, serverManager{serverManager_}, platformUserModel{platformUserModel_}, sb{sb_} {}
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
     HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private BeatmapLevelSO _testBeatmapLevel

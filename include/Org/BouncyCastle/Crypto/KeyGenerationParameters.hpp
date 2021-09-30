@@ -37,8 +37,6 @@ namespace Org::BouncyCastle::Crypto {
     int strength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: KeyGenerationParameters
-    KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom* random_ = {}, int strength_ = {}) noexcept : random{random_}, strength{strength_} {}
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // Get instance field reference: private System.Int32 strength

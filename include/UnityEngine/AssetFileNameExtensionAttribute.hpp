@@ -45,8 +45,6 @@ namespace UnityEngine {
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: AssetFileNameExtensionAttribute
-    AssetFileNameExtensionAttribute(::Il2CppString* preferredExtension_ = {}, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions_ = {}) noexcept : preferredExtension{preferredExtension_}, otherExtensions{otherExtensions_} {}
     // Get instance field reference: private readonly System.String <preferredExtension>k__BackingField
     ::Il2CppString*& dyn_$preferredExtension$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.IEnumerable`1<System.String> <otherExtensions>k__BackingField

@@ -29,8 +29,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class SendOrPostCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SendOrPostCallback
-    SendOrPostCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1A56E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

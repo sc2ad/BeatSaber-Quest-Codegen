@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     class $$c__DisplayClass2_0;
     // Nested type: GlobalNamespace::HMMainThreadDispatcher::$ActionCoroutine$d__4
     class $ActionCoroutine$d__4;
-    // Creating value type constructor for type: HMMainThreadDispatcher
-    HMMainThreadDispatcher() noexcept {}
     // Get static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static System::Collections::Generic::Queue_1<System::Action*>* _get__mainThreadExecutionQueue();
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue

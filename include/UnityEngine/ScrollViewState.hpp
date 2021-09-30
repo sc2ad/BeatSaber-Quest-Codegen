@@ -50,8 +50,6 @@ namespace UnityEngine {
     bool apply;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ScrollViewState
-    ScrollViewState(UnityEngine::Rect position_ = {}, UnityEngine::Rect visibleRect_ = {}, UnityEngine::Rect viewRect_ = {}, UnityEngine::Vector2 scrollPosition_ = {}, bool apply_ = {}) noexcept : position{position_}, visibleRect{visibleRect_}, viewRect{viewRect_}, scrollPosition{scrollPosition_}, apply{apply_} {}
     // Get instance field reference: public UnityEngine.Rect position
     UnityEngine::Rect& dyn_position();
     // Get instance field reference: public UnityEngine.Rect visibleRect

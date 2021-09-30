@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     float duration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $MainCoroutine$d__9
-    $MainCoroutine$d__9(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::VFXController* $$4__this_ = {}, bool deactivateAfterDuration_ = {}, float duration_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, deactivateAfterDuration{deactivateAfterDuration_}, duration{duration_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

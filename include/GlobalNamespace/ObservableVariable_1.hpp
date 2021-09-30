@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T value;
-    // Creating value type constructor for type: ObservableVariable_1
-    ObservableVariable_1(System::Action* didChangeEvent_ = {}, T value_ = {}) noexcept : didChangeEvent{didChangeEvent_}, value{value_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IValue_1<T>
     operator GlobalNamespace::IValue_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IValue_1<T>*>(this);

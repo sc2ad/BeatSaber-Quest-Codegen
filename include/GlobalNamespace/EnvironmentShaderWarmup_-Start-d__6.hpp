@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentShaderWarmup* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentShaderWarmup*) == 0x8);
-    // Creating value type constructor for type: $Start$d__6
-    $Start$d__6(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::EnvironmentShaderWarmup* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

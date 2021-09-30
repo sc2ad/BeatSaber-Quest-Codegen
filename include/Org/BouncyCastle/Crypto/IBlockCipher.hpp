@@ -24,8 +24,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBlockCipher {
     public:
-    // Creating value type constructor for type: IBlockCipher
-    IBlockCipher() noexcept {}
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AlgorithmName();

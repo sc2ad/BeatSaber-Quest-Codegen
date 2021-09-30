@@ -58,8 +58,6 @@ namespace Zenject::Internal {
     class $GetAllSceneContexts$d__3;
     // Nested type: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0
     class $$c__DisplayClass10_0;
-    // Creating value type constructor for type: ZenUtilInternal
-    ZenUtilInternal() noexcept {}
     // static public System.Boolean IsNull(System.Object obj)
     // Offset: 0x1893628
     static bool IsNull(::Il2CppObject* obj);

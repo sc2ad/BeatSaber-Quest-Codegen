@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5F24
   class IVROverlay::_SetOverlayTextureColorSpace : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetOverlayTextureColorSpace
-    _SetOverlayTextureColorSpace() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ECCA24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

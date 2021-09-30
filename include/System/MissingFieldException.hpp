@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C374
   class MissingFieldException : public System::MissingMemberException {
     public:
-    // Creating value type constructor for type: MissingFieldException
-    MissingFieldException() noexcept {}
     // public System.Void .ctor(System.String className, System.String fieldName)
     // Offset: 0x1A0FDD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

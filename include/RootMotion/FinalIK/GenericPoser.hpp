@@ -40,8 +40,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*> maps;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>) == 0x8);
-    // Creating value type constructor for type: GenericPoser
-    GenericPoser(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*> maps_ = {}) noexcept : maps{maps_} {}
     // Get instance field reference: public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
     ::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>& dyn_maps();
     // private System.Void StoreDefaultState()

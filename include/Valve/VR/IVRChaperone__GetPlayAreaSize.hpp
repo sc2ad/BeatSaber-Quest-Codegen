@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB57A4
   class IVRChaperone::_GetPlayAreaSize : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetPlayAreaSize
-    _GetPlayAreaSize() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x18930CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

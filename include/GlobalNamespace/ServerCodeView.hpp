@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     bool codeIsShown;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ServerCodeView
-    ServerCodeView(TMPro::TextMeshProUGUI* serverCodeText_ = {}, UnityEngine::UI::Button* button_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, ::Il2CppString* serverCode_ = {}, bool codeIsShown_ = {}) noexcept : serverCodeText{serverCodeText_}, button{button_}, buttonBinder{buttonBinder_}, serverCode{serverCode_}, codeIsShown{codeIsShown_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _serverCodeText

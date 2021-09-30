@@ -26,8 +26,6 @@ namespace System::Threading {
     ::ArrayWrapper<T> m_array;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<T>) == 0x8);
-    // Creating value type constructor for type: SparseArray_1
-    SparseArray_1(::ArrayWrapper<T> m_array_ = {}) noexcept : m_array{m_array_} {}
     // Creating conversion operator: operator ::ArrayWrapper<T>
     constexpr operator ::ArrayWrapper<T>() const noexcept {
       return m_array;

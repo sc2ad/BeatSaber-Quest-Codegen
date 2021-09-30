@@ -21,8 +21,6 @@ namespace System::Security {
   // [AttributeUsageAttribute] Offset: E5EE9C
   class SecurityCriticalAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: SecurityCriticalAttribute
-    SecurityCriticalAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CD2C48
     // Implemented from: System.Attribute

@@ -30,8 +30,6 @@ namespace System::Threading {
   // [AttributeUsageAttribute] Offset: E5E9D8
   class OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: MonoPInvokeCallbackAttribute
-    MonoPInvokeCallbackAttribute() noexcept {}
     // public System.Void .ctor(System.Type t)
     // Offset: 0x1A5B80C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

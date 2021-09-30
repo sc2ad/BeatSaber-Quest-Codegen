@@ -122,8 +122,6 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // Creating value type constructor for type: TestResult
-    TestResult(System::Text::StringBuilder* output_ = {}, double duration_ = {}, int InternalAssertCount_ = {}, NUnit::Framework::Interfaces::ResultState* resultState_ = {}, ::Il2CppString* message_ = {}, ::Il2CppString* stackTrace_ = {}, NUnit::Framework::Interfaces::ITest* Test_ = {}, System::DateTime StartTime_ = {}, System::DateTime EndTime_ = {}, System::IO::TextWriter* OutWriter_ = {}) noexcept : output{output_}, duration{duration_}, InternalAssertCount{InternalAssertCount_}, resultState{resultState_}, message{message_}, stackTrace{stackTrace_}, Test{Test_}, StartTime{StartTime_}, EndTime{EndTime_}, OutWriter{OutWriter_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestResult
     operator NUnit::Framework::Interfaces::ITestResult() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestResult*>(this);

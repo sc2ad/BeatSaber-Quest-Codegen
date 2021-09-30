@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     bool isRegistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LightData
-    LightData(int lightId_ = {}, UnityEngine::Color color_ = {}, bool isRegistered_ = {}) noexcept : lightId{lightId_}, color{color_}, isRegistered{isRegistered_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILightWithId
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);

@@ -47,8 +47,6 @@ namespace ModestTree {
   // [TokenAttribute] Offset: FFFFFFFF
   class _Assert : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: _Assert
-    _Assert() noexcept {}
     // static public System.Void That(System.Boolean condition)
     // Offset: 0x14EC17C
     static void That(bool condition);

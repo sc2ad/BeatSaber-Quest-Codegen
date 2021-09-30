@@ -21,8 +21,6 @@ namespace System::Runtime::ExceptionServices {
   // [AttributeUsageAttribute] Offset: E6023C
   class HandleProcessCorruptedStateExceptionsAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: HandleProcessCorruptedStateExceptionsAttribute
-    HandleProcessCorruptedStateExceptionsAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AE794
     // Implemented from: System.Attribute

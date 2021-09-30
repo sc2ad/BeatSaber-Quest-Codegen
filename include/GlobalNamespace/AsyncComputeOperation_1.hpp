@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<T>*) == 0x8);
-    // Creating value type constructor for type: AsyncComputeOperation_1
-    AsyncComputeOperation_1(System::Threading::Tasks::TaskCompletionSource_1<T>* tcs_ = {}) noexcept : tcs{tcs_} {}
     // Creating conversion operator: operator System::Threading::Tasks::TaskCompletionSource_1<T>*
     constexpr operator System::Threading::Tasks::TaskCompletionSource_1<T>*() const noexcept {
       return tcs;

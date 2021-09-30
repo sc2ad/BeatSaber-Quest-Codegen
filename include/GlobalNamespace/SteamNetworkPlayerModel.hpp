@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamNetworkPlayerModel : public GlobalNamespace::PlatformNetworkPlayerModel {
     public:
-    // Creating value type constructor for type: SteamNetworkPlayerModel
-    SteamNetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1158D98
     // Implemented from: PlatformNetworkPlayerModel

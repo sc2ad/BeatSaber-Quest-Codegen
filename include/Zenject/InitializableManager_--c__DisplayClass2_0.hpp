@@ -45,8 +45,6 @@ namespace Zenject {
     Zenject::IInitializable* initializable;
     // Field size check
     static_assert(sizeof(Zenject::IInitializable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(Zenject::IInitializable* initializable_ = {}) noexcept : initializable{initializable_} {}
     // Creating conversion operator: operator Zenject::IInitializable*
     constexpr operator Zenject::IInitializable*() const noexcept {
       return initializable;

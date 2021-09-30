@@ -52,8 +52,6 @@ namespace System::Text {
     bool isThrowException;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UTF8Encoding
-    UTF8Encoding(bool emitUTF8Identifier_ = {}, bool isThrowException_ = {}) noexcept : emitUTF8Identifier{emitUTF8Identifier_}, isThrowException{isThrowException_} {}
     // Get instance field reference: private System.Boolean emitUTF8Identifier
     bool& dyn_emitUTF8Identifier();
     // Get instance field reference: private System.Boolean isThrowException

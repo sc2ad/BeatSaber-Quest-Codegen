@@ -30,8 +30,6 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseInvokableCall : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BaseInvokableCall
-    BaseInvokableCall() noexcept {}
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
     // Offset: 0x1CB9174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

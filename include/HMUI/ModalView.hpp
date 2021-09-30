@@ -131,8 +131,6 @@ namespace HMUI {
     int test;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ModalView
-    ModalView(HMUI::PanelAnimationSO* presentPanelAnimations_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, bool animateParentCanvas_ = {}, Zenject::DiContainer* container_ = {}, System::Action* blockerClickedEvent_ = {}, UnityEngine::Transform* previousParent_ = {}, bool isShown_ = {}, bool viewIsValid_ = {}, UnityEngine::Canvas* mainCanvas_ = {}, UnityEngine::CanvasGroup* parentCanvasGroup_ = {}, UnityEngine::GameObject* blockerGO_ = {}, int test_ = {}) noexcept : presentPanelAnimations{presentPanelAnimations_}, dismissPanelAnimation{dismissPanelAnimation_}, animateParentCanvas{animateParentCanvas_}, container{container_}, blockerClickedEvent{blockerClickedEvent_}, previousParent{previousParent_}, isShown{isShown_}, viewIsValid{viewIsValid_}, mainCanvas{mainCanvas_}, parentCanvasGroup{parentCanvasGroup_}, blockerGO{blockerGO_}, test{test_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimations

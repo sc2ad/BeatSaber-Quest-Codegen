@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class HEU_GeneralUtility::SetAttributeArrayFunc_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SetAttributeArrayFunc_1
-    SetAttributeArrayFunc_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

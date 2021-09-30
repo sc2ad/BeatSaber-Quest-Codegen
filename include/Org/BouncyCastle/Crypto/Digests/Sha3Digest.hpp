@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class Sha3Digest : public Org::BouncyCastle::Crypto::Digests::KeccakDigest {
     public:
-    // Creating value type constructor for type: Sha3Digest
-    Sha3Digest() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha3Digest source)
     // Offset: 0x1A9DE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72C7C
   class SerializePrivateVariables : public System::Attribute {
     public:
-    // Creating value type constructor for type: SerializePrivateVariables
-    SerializePrivateVariables() noexcept {}
   }; // UnityEngine.SerializePrivateVariables
   #pragma pack(pop)
 }

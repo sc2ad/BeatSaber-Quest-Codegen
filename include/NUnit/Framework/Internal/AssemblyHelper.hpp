@@ -21,8 +21,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AssemblyHelper
-    AssemblyHelper() noexcept {}
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
     // Offset: 0x1926970
     static ::Il2CppString* GetAssemblyPath(System::Reflection::Assembly* assembly);

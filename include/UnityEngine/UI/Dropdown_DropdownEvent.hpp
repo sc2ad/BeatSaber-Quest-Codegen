@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Dropdown::DropdownEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
-    // Creating value type constructor for type: DropdownEvent
-    DropdownEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1AC7AEC
     // Implemented from: UnityEngine.Events.UnityEvent`1

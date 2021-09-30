@@ -37,7 +37,7 @@ namespace SFB {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: ExtensionFilter
-    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayWrapper<::Il2CppString*> extensions_ = {}) noexcept : name{name_}, extensions{extensions_} {}
+    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayWrapper<::Il2CppString*> extensions_ = {nullptr}) noexcept : name{name_}, extensions{extensions_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -48,7 +48,6 @@ namespace SFB {
     ::ArrayWrapper<::Il2CppString*>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
     // Offset: 0x11C52AC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayWrapper<::Il2CppString*> filterExtensions)
   }; // SFB.ExtensionFilter
   #pragma pack(pop)

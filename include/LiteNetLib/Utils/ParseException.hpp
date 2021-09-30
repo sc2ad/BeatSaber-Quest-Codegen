@@ -20,8 +20,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParseException : public System::Exception {
     public:
-    // Creating value type constructor for type: ParseException
-    ParseException() noexcept {}
     // public System.Void .ctor(System.String message)
     // Offset: 0x2618400
     // Implemented from: System.Exception

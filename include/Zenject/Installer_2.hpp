@@ -27,8 +27,6 @@ namespace Zenject {
   template<typename TParam1, typename TDerived>
   class Installer_2 : public Zenject::InstallerBase {
     public:
-    // Creating value type constructor for type: Installer_2
-    Installer_2() noexcept {}
     // static public System.Void Install(Zenject.DiContainer container, TParam1 p1)
     // Offset: 0xFFFFFFFF
     static void Install(Zenject::DiContainer* container, TParam1 p1) {

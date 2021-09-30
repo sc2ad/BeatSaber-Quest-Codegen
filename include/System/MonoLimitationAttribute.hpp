@@ -21,8 +21,6 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5B8A4
   class MonoLimitationAttribute : public System::MonoTODOAttribute {
     public:
-    // Creating value type constructor for type: MonoLimitationAttribute
-    MonoLimitationAttribute() noexcept {}
     // public System.Void .ctor(System.String comment)
     // Offset: 0x1A12378
     // Implemented from: System.MonoTODOAttribute

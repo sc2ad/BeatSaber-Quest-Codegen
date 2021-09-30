@@ -50,8 +50,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint> buff;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: SHA1Internal
-    SHA1Internal(::ArrayWrapper<uint> H_ = {}, uint64_t count_ = {}, ::ArrayWrapper<uint8_t> ProcessingBuffer_ = {}, int ProcessingBufferCount_ = {}, ::ArrayWrapper<uint> buff_ = {}) noexcept : H{H_}, count{count_}, ProcessingBuffer{ProcessingBuffer_}, ProcessingBufferCount{ProcessingBufferCount_}, buff{buff_} {}
     // Get instance field reference: private System.UInt32[] _H
     ::ArrayWrapper<uint>& dyn__H();
     // Get instance field reference: private System.UInt64 count

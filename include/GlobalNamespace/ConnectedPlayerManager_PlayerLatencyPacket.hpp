@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     float latency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PlayerLatencyPacket
-    PlayerLatencyPacket(float latency_ = {}) noexcept : latency{latency_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

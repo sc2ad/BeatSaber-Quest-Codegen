@@ -36,8 +36,6 @@ namespace UnityEngine::EventSystems {
   template<typename T1>
   class ExecuteEvents::EventFunction_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: EventFunction_1
-    EventFunction_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

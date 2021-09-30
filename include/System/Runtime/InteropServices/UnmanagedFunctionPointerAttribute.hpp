@@ -56,8 +56,6 @@ namespace System::Runtime::InteropServices {
     bool SetLastError;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnmanagedFunctionPointerAttribute
-    UnmanagedFunctionPointerAttribute(System::Runtime::InteropServices::CallingConvention m_callingConvention_ = {}, System::Runtime::InteropServices::CharSet CharSet_ = {}, bool BestFitMapping_ = {}, bool ThrowOnUnmappableChar_ = {}, bool SetLastError_ = {}) noexcept : m_callingConvention{m_callingConvention_}, CharSet{CharSet_}, BestFitMapping{BestFitMapping_}, ThrowOnUnmappableChar{ThrowOnUnmappableChar_}, SetLastError{SetLastError_} {}
     // Get instance field reference: private System.Runtime.InteropServices.CallingConvention m_callingConvention
     System::Runtime::InteropServices::CallingConvention& dyn_m_callingConvention();
     // Get instance field reference: public System.Runtime.InteropServices.CharSet CharSet

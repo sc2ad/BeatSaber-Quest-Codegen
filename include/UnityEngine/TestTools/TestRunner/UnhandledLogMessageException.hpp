@@ -44,8 +44,6 @@ namespace UnityEngine::TestTools::TestRunner {
     ::Il2CppString* m_CustomStackTrace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UnhandledLogMessageException
-    UnhandledLogMessageException(UnityEngine::TestTools::Logging::LogEvent* LogEvent_ = {}, ::Il2CppString* m_CustomStackTrace_ = {}) noexcept : LogEvent{LogEvent_}, m_CustomStackTrace{m_CustomStackTrace_} {}
     // Get instance field reference: public UnityEngine.TestTools.Logging.LogEvent LogEvent
     UnityEngine::TestTools::Logging::LogEvent*& dyn_LogEvent();
     // Get instance field reference: private readonly System.String m_CustomStackTrace

@@ -53,8 +53,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*> boneHitPoints;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*>) == 0x8);
-    // Creating value type constructor for type: HitReaction
-    HitReaction(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*> boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector*>& dyn_effectorHitPoints();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints

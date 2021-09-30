@@ -25,8 +25,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestCaseBuilder {
     public:
-    // Creating value type constructor for type: ITestCaseBuilder
-    ITestCaseBuilder() noexcept {}
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
     // Offset: 0xFFFFFFFF
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);

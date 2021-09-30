@@ -72,8 +72,6 @@ namespace Org::BouncyCastle::X509 {
     System::IO::Stream* currentCrlStream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: X509CrlParser
-    X509CrlParser(bool lazyAsn1_ = {}, Org::BouncyCastle::Asn1::Asn1Set* sCrlData_ = {}, int sCrlDataObjectCount_ = {}, System::IO::Stream* currentCrlStream_ = {}) noexcept : lazyAsn1{lazyAsn1_}, sCrlData{sCrlData_}, sCrlDataObjectCount{sCrlDataObjectCount_}, currentCrlStream{currentCrlStream_} {}
     // Get static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
     static Org::BouncyCastle::X509::PemParser* _get_PemCrlParser();
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser

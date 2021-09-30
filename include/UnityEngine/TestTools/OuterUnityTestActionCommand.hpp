@@ -51,8 +51,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class OuterUnityTestActionCommand : public UnityEngine::TestTools::BeforeAfterTestCommandBase_1<UnityEngine::TestTools::IOuterUnityTestAction*> {
     public:
-    // Creating value type constructor for type: OuterUnityTestActionCommand
-    OuterUnityTestActionCommand() noexcept {}
     // static private UnityEngine.TestTools.IOuterUnityTestAction[] GetUnityTestActionsFromMethod(System.Reflection.MethodInfo method)
     // Offset: 0x1670EBC
     static ::ArrayWrapper<UnityEngine::TestTools::IOuterUnityTestAction*> GetUnityTestActionsFromMethod(System::Reflection::MethodInfo* method);

@@ -30,8 +30,6 @@ namespace UnityEngine {
     UnityEngine::RuntimeInitializeLoadType m_LoadType;
     // Field size check
     static_assert(sizeof(UnityEngine::RuntimeInitializeLoadType) == 0x4);
-    // Creating value type constructor for type: RuntimeInitializeOnLoadMethodAttribute
-    RuntimeInitializeOnLoadMethodAttribute(UnityEngine::RuntimeInitializeLoadType m_LoadType_ = {}) noexcept : m_LoadType{m_LoadType_} {}
     // Creating conversion operator: operator UnityEngine::RuntimeInitializeLoadType
     constexpr operator UnityEngine::RuntimeInitializeLoadType() const noexcept {
       return m_LoadType;

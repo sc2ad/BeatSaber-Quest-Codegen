@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReasonFlags : public Org::BouncyCastle::Asn1::DerBitString {
     public:
-    // Creating value type constructor for type: ReasonFlags
-    ReasonFlags() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString reasons)
     // Offset: 0x1BB7DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

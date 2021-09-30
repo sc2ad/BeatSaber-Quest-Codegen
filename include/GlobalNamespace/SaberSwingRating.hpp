@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSwingRating : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SaberSwingRating
-    SaberSwingRating() noexcept {}
     // static field const value: static public System.Single kMaxNormalAngleDiff
     static constexpr const float kMaxNormalAngleDiff = 90;
     // Get static field: static public System.Single kMaxNormalAngleDiff

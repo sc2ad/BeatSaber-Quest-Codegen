@@ -18,8 +18,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandalonePlatformSettings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StandalonePlatformSettings
-    StandalonePlatformSettings() noexcept {}
     // static public System.String get_OculusPlatformTestUserEmail()
     // Offset: 0x25BBBE0
     static ::Il2CppString* get_OculusPlatformTestUserEmail();

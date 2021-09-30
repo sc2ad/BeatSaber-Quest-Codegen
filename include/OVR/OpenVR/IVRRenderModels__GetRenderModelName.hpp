@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1314
   class IVRRenderModels::_GetRenderModelName : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetRenderModelName
-    _GetRenderModelName() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22DB7B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,8 +33,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* PageName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RazorPageBaseTypeAttribute
-    RazorPageBaseTypeAttribute(::Il2CppString* BaseType_ = {}, ::Il2CppString* PageName_ = {}) noexcept : BaseType{BaseType_}, PageName{PageName_} {}
     // Get instance field reference: private System.String <BaseType>k__BackingField
     ::Il2CppString*& dyn_$BaseType$k__BackingField();
     // Get instance field reference: private System.String <PageName>k__BackingField

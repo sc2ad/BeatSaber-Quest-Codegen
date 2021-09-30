@@ -35,8 +35,6 @@ namespace MasterServer {
     System::Func_2<uint, T>* obtain;
     // Field size check
     static_assert(sizeof(System::Func_2<uint, T>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass65_0_1
-    $$c__DisplayClass65_0_1(System::Func_2<uint, T>* obtain_ = {}) noexcept : obtain{obtain_} {}
     // Creating conversion operator: operator System::Func_2<uint, T>*
     constexpr operator System::Func_2<uint, T>*() const noexcept {
       return obtain;

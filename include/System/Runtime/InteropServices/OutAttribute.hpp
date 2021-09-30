@@ -22,8 +22,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60A90
   class OutAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: OutAttribute
-    OutAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15B05F4
     // Implemented from: System.Attribute

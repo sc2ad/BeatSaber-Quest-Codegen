@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::Rigidbody2D* rigidbody2D;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody2D*) == 0x8);
-    // Creating value type constructor for type: SleepRigidbody2DWhenInvisible
-    SleepRigidbody2DWhenInvisible(UnityEngine::Rigidbody2D* rigidbody2D_ = {}) noexcept : rigidbody2D{rigidbody2D_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Rigidbody2D _rigidbody2D

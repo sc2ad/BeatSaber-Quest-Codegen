@@ -122,8 +122,6 @@ namespace System {
     int Permilles;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CustomInfo
-    CustomInfo(bool UseGroup_ = {}, int DecimalDigits_ = {}, int DecimalPointPos_ = {}, int DecimalTailSharpDigits_ = {}, int IntegerDigits_ = {}, int IntegerHeadSharpDigits_ = {}, int IntegerHeadPos_ = {}, bool UseExponent_ = {}, int ExponentDigits_ = {}, int ExponentTailSharpDigits_ = {}, bool ExponentNegativeSignOnly_ = {}, int DividePlaces_ = {}, int Percents_ = {}, int Permilles_ = {}) noexcept : UseGroup{UseGroup_}, DecimalDigits{DecimalDigits_}, DecimalPointPos{DecimalPointPos_}, DecimalTailSharpDigits{DecimalTailSharpDigits_}, IntegerDigits{IntegerDigits_}, IntegerHeadSharpDigits{IntegerHeadSharpDigits_}, IntegerHeadPos{IntegerHeadPos_}, UseExponent{UseExponent_}, ExponentDigits{ExponentDigits_}, ExponentTailSharpDigits{ExponentTailSharpDigits_}, ExponentNegativeSignOnly{ExponentNegativeSignOnly_}, DividePlaces{DividePlaces_}, Percents{Percents_}, Permilles{Permilles_} {}
     // Get instance field reference: public System.Boolean UseGroup
     bool& dyn_UseGroup();
     // Get instance field reference: public System.Int32 DecimalDigits

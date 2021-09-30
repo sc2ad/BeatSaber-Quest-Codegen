@@ -54,8 +54,6 @@ namespace UnityEngine::TestTools {
     public:
     // Nested type: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::$ExecuteEnumerable$d__1
     class $ExecuteEnumerable$d__1;
-    // Creating value type constructor for type: EnumerableApplyChangesToContextCommand
-    EnumerableApplyChangesToContextCommand() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

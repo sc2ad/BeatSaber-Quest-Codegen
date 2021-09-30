@@ -91,8 +91,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     class C2pnb368w1Holder;
     // Nested type: Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2tnb431r1Holder
     class C2tnb431r1Holder;
-    // Creating value type constructor for type: X962NamedCurves
-    X962NamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds

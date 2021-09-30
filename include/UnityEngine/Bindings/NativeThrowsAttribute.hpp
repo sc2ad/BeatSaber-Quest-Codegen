@@ -29,8 +29,6 @@ namespace UnityEngine::Bindings {
     bool ThrowsException;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NativeThrowsAttribute
-    NativeThrowsAttribute(bool ThrowsException_ = {}) noexcept : ThrowsException{ThrowsException_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return ThrowsException;

@@ -56,8 +56,6 @@ namespace UnityEngine::TestTools {
     public:
     // Nested type: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c
     class $$c;
-    // Creating value type constructor for type: EnumerableSetUpTearDownCommand
-    EnumerableSetUpTearDownCommand() noexcept {}
     // static private System.Reflection.MethodInfo[] GetMethodsWithAttributeFromFixture(System.Type fixtureType, System.Type setUpType)
     // Offset: 0x166DE24
     static ::ArrayWrapper<System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(System::Type* fixtureType, System::Type* setUpType);

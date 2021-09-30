@@ -30,8 +30,6 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemCertificateValidator : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemCertificateValidator
-    SystemCertificateValidator() noexcept {}
     // Get static field: static private System.Boolean is_macosx
     static bool _get_is_macosx();
     // Set static field: static private System.Boolean is_macosx

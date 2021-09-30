@@ -38,8 +38,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::OidGroup m_group;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::OidGroup) == 0x4);
-    // Creating value type constructor for type: Oid
-    Oid(::Il2CppString* m_value_ = {}, ::Il2CppString* m_friendlyName_ = {}, System::Security::Cryptography::OidGroup m_group_ = {}) noexcept : m_value{m_value_}, m_friendlyName{m_friendlyName_}, m_group{m_group_} {}
     // Get instance field reference: private System.String m_value
     ::Il2CppString*& dyn_m_value();
     // Get instance field reference: private System.String m_friendlyName

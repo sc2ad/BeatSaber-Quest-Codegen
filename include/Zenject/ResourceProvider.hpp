@@ -59,8 +59,6 @@ namespace Zenject {
     bool matchSingle;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ResourceProvider
-    ResourceProvider(System::Type* resourceType_ = {}, ::Il2CppString* resourcePath_ = {}, bool matchSingle_ = {}) noexcept : resourceType{resourceType_}, resourcePath{resourcePath_}, matchSingle{matchSingle_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

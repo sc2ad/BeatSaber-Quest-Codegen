@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithShareMediaResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::ShareMediaResult*> {
     public:
-    // Creating value type constructor for type: MessageWithShareMediaResult
-    MessageWithShareMediaResult() noexcept {}
     // protected Oculus.Platform.Models.ShareMediaResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BDC8C
     Oculus::Platform::Models::ShareMediaResult* GetDataFromMessage(System::IntPtr c_message);

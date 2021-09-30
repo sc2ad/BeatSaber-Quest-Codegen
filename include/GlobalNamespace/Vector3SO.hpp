@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector3SO : public GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector3> {
     public:
-    // Creating value type constructor for type: Vector3SO
-    Vector3SO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x259E5E8
     // Implemented from: ObservableVariableSO`1

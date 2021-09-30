@@ -43,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalNetworkDiscoveryManager::InviteRequestedDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: InviteRequestedDelegate
-    InviteRequestedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x125BBFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

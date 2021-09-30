@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB11C0
   class IVROverlay::_ShowKeyboard : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ShowKeyboard
-    _ShowKeyboard() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22D7948
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

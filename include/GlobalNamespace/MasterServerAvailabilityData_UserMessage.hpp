@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*> localizations;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>) == 0x8);
-    // Creating value type constructor for type: UserMessage
-    UserMessage(::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*> localizations_ = {}) noexcept : localizations{localizations_} {}
     // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>
     constexpr operator ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>() const noexcept {
       return localizations;

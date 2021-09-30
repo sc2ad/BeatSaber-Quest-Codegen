@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1184
   class IVROverlay::_GetDashboardOverlaySceneProcess : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetDashboardOverlaySceneProcess
-    _GetDashboardOverlaySceneProcess() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20F881C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

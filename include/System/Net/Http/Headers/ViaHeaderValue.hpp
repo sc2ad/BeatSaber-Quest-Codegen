@@ -59,8 +59,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* ReceivedBy;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ViaHeaderValue
-    ViaHeaderValue(::Il2CppString* Comment_ = {}, ::Il2CppString* ProtocolName_ = {}, ::Il2CppString* ProtocolVersion_ = {}, ::Il2CppString* ReceivedBy_ = {}) noexcept : Comment{Comment_}, ProtocolName{ProtocolName_}, ProtocolVersion{ProtocolVersion_}, ReceivedBy{ReceivedBy_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

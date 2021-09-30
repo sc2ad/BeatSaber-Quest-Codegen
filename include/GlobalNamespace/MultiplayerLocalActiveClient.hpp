@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalActiveClient
-    MultiplayerLocalActiveClient(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IGameplayRpcManager* rpcManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, scoreSyncStateManager{scoreSyncStateManager_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, rpcManager{rpcManager_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms

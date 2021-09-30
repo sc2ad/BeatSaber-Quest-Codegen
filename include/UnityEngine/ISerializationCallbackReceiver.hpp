@@ -14,8 +14,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72D50
   class ISerializationCallbackReceiver {
     public:
-    // Creating value type constructor for type: ISerializationCallbackReceiver
-    ISerializationCallbackReceiver() noexcept {}
     // public System.Void OnBeforeSerialize()
     // Offset: 0xFFFFFFFF
     void OnBeforeSerialize();

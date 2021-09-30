@@ -39,8 +39,6 @@ namespace UnityEngine {
     float m_BendFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TreePrototype
-    TreePrototype(UnityEngine::GameObject* m_Prefab_ = {}, float m_BendFactor_ = {}) noexcept : m_Prefab{m_Prefab_}, m_BendFactor{m_BendFactor_} {}
     // Get instance field reference: UnityEngine.GameObject m_Prefab
     UnityEngine::GameObject*& dyn_m_Prefab();
     // Get instance field reference: System.Single m_BendFactor

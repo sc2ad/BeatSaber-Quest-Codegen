@@ -35,8 +35,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_BoundingVolume : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: HEU_BoundingVolume
-    HEU_BoundingVolume() noexcept {}
     // public UnityEngine.Collider get_BoundingCollider()
     // Offset: 0x14364C4
     UnityEngine::Collider* get_BoundingCollider();

@@ -71,8 +71,6 @@ namespace System::Net::Http {
     bool contentCopied;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: StreamContent
-    StreamContent(System::IO::Stream* content_ = {}, int bufferSize_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, int64_t startPosition_ = {}, bool contentCopied_ = {}) noexcept : content{content_}, bufferSize{bufferSize_}, cancellationToken{cancellationToken_}, startPosition{startPosition_}, contentCopied{contentCopied_} {}
     // Get instance field reference: private readonly System.IO.Stream content
     System::IO::Stream*& dyn_content();
     // Get instance field reference: private readonly System.Int32 bufferSize

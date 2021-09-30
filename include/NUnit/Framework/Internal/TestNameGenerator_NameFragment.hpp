@@ -37,8 +37,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestNameGenerator::NameFragment : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NameFragment
-    NameFragment() noexcept {}
     // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
     // Offset: 0x24A45D4
     ::Il2CppString* GetText(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayWrapper<::Il2CppObject*> args);

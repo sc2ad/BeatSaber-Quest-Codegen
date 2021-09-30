@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     bool valid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: KeyframeTransform
-    KeyframeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) noexcept : pos{pos_}, rot{rot_}, valid{valid_} {}
     // Get instance field reference: public UnityEngine.Vector3 _pos
     UnityEngine::Vector3& dyn__pos();
     // Get instance field reference: public UnityEngine.Quaternion _rot

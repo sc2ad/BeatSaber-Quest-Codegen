@@ -50,8 +50,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* $$9__1;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass8_0
-    $$c__DisplayClass8_0(int index_ = {}, System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* $$9__1_ = {}) noexcept : index{index_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // Get instance field reference: public System.Func`2<UnityEngine.Vector2,UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> <>9__1

@@ -43,8 +43,6 @@ namespace UnityEngine {
     System::IntPtr proxyObject;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: AndroidJavaProxy
-    AndroidJavaProxy(UnityEngine::AndroidJavaClass* javaInterface_ = {}, System::IntPtr proxyObject_ = {}) noexcept : javaInterface{javaInterface_}, proxyObject{proxyObject_} {}
     // Get static field: static private readonly UnityEngine.GlobalJavaObjectRef s_JavaLangSystemClass
     static UnityEngine::GlobalJavaObjectRef* _get_s_JavaLangSystemClass();
     // Set static field: static private readonly UnityEngine.GlobalJavaObjectRef s_JavaLangSystemClass

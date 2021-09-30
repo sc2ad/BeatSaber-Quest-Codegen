@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5074
   class IVRSystem::_GetProjectionRaw : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetProjectionRaw
-    _GetProjectionRaw() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDEC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

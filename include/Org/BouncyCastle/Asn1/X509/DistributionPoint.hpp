@@ -61,8 +61,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::GeneralNames*) == 0x8);
-    // Creating value type constructor for type: DistributionPoint
-    DistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons_ = {}, Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer_ = {}) noexcept : distributionPoint{distributionPoint_}, reasons{reasons_}, cRLIssuer{cRLIssuer_} {}
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.DistributionPointName distributionPoint
     Org::BouncyCastle::Asn1::X509::DistributionPointName*& dyn_distributionPoint();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.ReasonFlags reasons

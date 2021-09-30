@@ -59,7 +59,6 @@ namespace UnityEngine::XR {
     uint64_t get_deviceId();
     // System.Void .ctor(System.UInt64 deviceId)
     // Offset: 0x2611F10
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     InputDevice(uint64_t deviceId) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::InputDevice::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(deviceId)})));

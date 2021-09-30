@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelDetailViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelDetailViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass48_0
-    $$c__DisplayClass48_0(System::Action* handleDidPressRefreshButton_ = {}, System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* handleDidChangeDifficultyBeatmap_ = {}, System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* handleDidFavoriteToggleChange_ = {}, GlobalNamespace::StandardLevelDetailViewController* $$4__this_ = {}) noexcept : handleDidPressRefreshButton{handleDidPressRefreshButton_}, handleDidChangeDifficultyBeatmap{handleDidChangeDifficultyBeatmap_}, handleDidFavoriteToggleChange{handleDidFavoriteToggleChange_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Action handleDidPressRefreshButton
     System::Action*& dyn_handleDidPressRefreshButton();
     // Get instance field reference: public System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> handleDidChangeDifficultyBeatmap

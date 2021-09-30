@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBadgeDataSO* badgeData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgeDataSO*) == 0x8);
-    // Creating value type constructor for type: MultiplayerBadgeAwardData
-    MultiplayerBadgeAwardData(GlobalNamespace::IConnectedPlayer* awardedPlayer_ = {}, float weight_ = {}, ::Il2CppString* title_ = {}, ::Il2CppString* subtitle_ = {}, UnityEngine::Sprite* icon_ = {}, GlobalNamespace::MultiplayerBadgeDataSO* badgeData_ = {}) noexcept : awardedPlayer{awardedPlayer_}, weight{weight_}, title{title_}, subtitle{subtitle_}, icon{icon_}, badgeData{badgeData_} {}
     // Creating interface conversion operator: operator System::IComparable
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);

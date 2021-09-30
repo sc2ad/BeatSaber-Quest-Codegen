@@ -23,8 +23,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509NameEntryConverter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X509NameEntryConverter
-    X509NameEntryConverter() noexcept {}
     // public Org.BouncyCastle.Asn1.Asn1Object GetConvertedValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String value)
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* value);

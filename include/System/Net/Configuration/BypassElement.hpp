@@ -16,8 +16,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class BypassElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: BypassElement
-    BypassElement() noexcept {}
   }; // System.Net.Configuration.BypassElement
   #pragma pack(pop)
 }

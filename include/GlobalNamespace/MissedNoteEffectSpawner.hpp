@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     float spawnPosZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MissedNoteEffectSpawner
-    MissedNoteEffectSpawner(GlobalNamespace::FlyingSpriteSpawner* missedNoteFlyingSpriteSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}, float spawnPosZ_ = {}) noexcept : missedNoteFlyingSpriteSpawner{missedNoteFlyingSpriteSpawner_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_}, spawnPosZ{spawnPosZ_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingSpriteSpawner _missedNoteFlyingSpriteSpawner

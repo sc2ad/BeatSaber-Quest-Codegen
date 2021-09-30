@@ -29,8 +29,6 @@ namespace Zenject {
   template<typename TValue>
   class StaticMemoryPoolBase_1 : public Zenject::StaticMemoryPoolBaseBase_1<TValue> {
     public:
-    // Creating value type constructor for type: StaticMemoryPoolBase_1
-    StaticMemoryPoolBase_1() noexcept {}
     // public System.Void .ctor(System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1

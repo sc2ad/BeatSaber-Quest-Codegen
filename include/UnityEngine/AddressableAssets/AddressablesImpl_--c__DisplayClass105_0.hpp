@@ -56,8 +56,6 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters) == 0x2A);
-    // Creating value type constructor for type: $$c__DisplayClass105_0
-    $$c__DisplayClass105_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppObject* key_ = {}, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters_ = {}) noexcept : $$4__this{$$4__this_}, key{key_}, instantiateParameters{instantiateParameters_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Object key

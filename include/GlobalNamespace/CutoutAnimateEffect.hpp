@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     bool animating;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CutoutAnimateEffect
-    CutoutAnimateEffect(::ArrayWrapper<GlobalNamespace::CutoutEffect*> cuttoutEffects_ = {}, UnityEngine::AnimationCurve* transitionCurve_ = {}, bool animating_ = {}) noexcept : cuttoutEffects{cuttoutEffects_}, transitionCurve{transitionCurve_}, animating{animating_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CutoutEffect[] _cuttoutEffects

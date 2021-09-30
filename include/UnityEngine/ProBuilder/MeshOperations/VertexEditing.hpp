@@ -49,8 +49,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class VertexEditing : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VertexEditing
-    VertexEditing() noexcept {}
     // static public System.Int32 MergeVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, System.Boolean collapseToFirst)
     // Offset: 0x1904320
     static int MergeVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes, bool collapseToFirst);

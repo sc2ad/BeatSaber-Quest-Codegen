@@ -63,8 +63,6 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* fragments;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*) == 0x8);
-    // Creating value type constructor for type: TestNameGenerator
-    TestNameGenerator(::Il2CppString* pattern_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* fragments_ = {}) noexcept : pattern{pattern_}, fragments{fragments_} {}
     // Get static field: static public System.String DefaultTestNamePattern
     static ::Il2CppString* _get_DefaultTestNamePattern();
     // Set static field: static public System.String DefaultTestNamePattern

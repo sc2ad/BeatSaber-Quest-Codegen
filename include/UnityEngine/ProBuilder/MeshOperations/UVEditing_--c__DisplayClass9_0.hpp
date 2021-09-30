@@ -42,8 +42,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::Face* f2;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(UnityEngine::ProBuilder::Face* f1_ = {}, UnityEngine::ProBuilder::Face* f2_ = {}) noexcept : f1{f1_}, f2{f2_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Face f1
     UnityEngine::ProBuilder::Face*& dyn_f1();
     // Get instance field reference: public UnityEngine.ProBuilder.Face f2

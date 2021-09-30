@@ -19,8 +19,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class NonRandomizedStringEqualityComparer : public System::Collections::Generic::EqualityComparer_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: NonRandomizedStringEqualityComparer
-    NonRandomizedStringEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.String x, System.String y)
     // Offset: 0x199B0B0
     bool Equals(::Il2CppString* x, ::Il2CppString* y);

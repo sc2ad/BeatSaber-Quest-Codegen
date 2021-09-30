@@ -45,8 +45,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::ITestExecutionContext* context;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* enumerableTestMethodCommand_ = {}, NUnit::Framework::Internal::ITestExecutionContext* context_ = {}) noexcept : enumerableTestMethodCommand{enumerableTestMethodCommand_}, context{context_} {}
     // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand enumerableTestMethodCommand
     UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*& dyn_enumerableTestMethodCommand();
     // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context

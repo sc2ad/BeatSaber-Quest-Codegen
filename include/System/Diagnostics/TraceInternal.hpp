@@ -21,8 +21,6 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class TraceInternal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TraceInternal
-    TraceInternal() noexcept {}
     // Get static field: static private System.String appName
     static ::Il2CppString* _get_appName();
     // Set static field: static private System.String appName

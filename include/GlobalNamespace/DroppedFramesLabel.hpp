@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     int frameCountInInterval;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DroppedFramesLabel
-    DroppedFramesLabel(TMPro::TextMeshProUGUI* text_ = {}, int expectedFrameRate_ = {}, int resetInterval_ = {}, int totalNumberOfDroppedFrames_ = {}, float syncedFrameTime_ = {}, float intervalTime_ = {}, float maxFrameTimeInInterval_ = {}, int frameCountInInterval_ = {}) noexcept : text{text_}, expectedFrameRate{expectedFrameRate_}, resetInterval{resetInterval_}, totalNumberOfDroppedFrames{totalNumberOfDroppedFrames_}, syncedFrameTime{syncedFrameTime_}, intervalTime{intervalTime_}, maxFrameTimeInInterval{maxFrameTimeInInterval_}, frameCountInInterval{frameCountInInterval_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

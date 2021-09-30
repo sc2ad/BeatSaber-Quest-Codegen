@@ -58,8 +58,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass26_0
-    $$c__DisplayClass26_0(System::Collections::Generic::HashSet_1<int>* common_ = {}, System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__1_ = {}, System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2_ = {}) noexcept : common{common_}, $$9__1{$$9__1_}, $$9__2{$$9__2_} {}
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
     System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__1

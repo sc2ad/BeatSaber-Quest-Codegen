@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapLevel/*, public GlobalNamespace::IPreviewBeatmapLevel*/ {
     public:
-    // Creating value type constructor for type: IBeatmapLevel
-    IBeatmapLevel() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IPreviewBeatmapLevel
     operator GlobalNamespace::IPreviewBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPreviewBeatmapLevel*>(this);

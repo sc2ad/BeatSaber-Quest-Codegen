@@ -60,8 +60,6 @@ namespace UnityEngine::TestTools {
     class $InvokeBefore$d__2;
     // Nested type: UnityEngine::TestTools::SetUpTearDownCommand::$InvokeAfter$d__3
     class $InvokeAfter$d__3;
-    // Creating value type constructor for type: SetUpTearDownCommand
-    SetUpTearDownCommand() noexcept {}
     // static private System.Reflection.MethodInfo[] GetMethodsWithAttributeFromFixture(System.Type fixtureType, System.Type setUpType)
     // Offset: 0x1671188
     static ::ArrayWrapper<System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(System::Type* fixtureType, System::Type* setUpType);

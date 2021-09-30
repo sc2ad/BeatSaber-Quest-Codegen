@@ -180,8 +180,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_Task::TaskCallback* taskCompletedDelegate;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_Task::TaskCallback*) == 0x8);
-    // Creating value type constructor for type: HEU_Task
-    HEU_Task(HoudiniEngineUnity::HEU_Task::TaskStatus status_ = {}, HoudiniEngineUnity::HEU_Task::TaskResult result_ = {}, System::Guid guid_ = {}, HoudiniEngineUnity::HEU_Task::TaskCallback* taskCompletedDelegate_ = {}) noexcept : status{status_}, result{result_}, guid{guid_}, taskCompletedDelegate{taskCompletedDelegate_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
     HoudiniEngineUnity::HEU_Task::TaskStatus& dyn__status();
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult _result

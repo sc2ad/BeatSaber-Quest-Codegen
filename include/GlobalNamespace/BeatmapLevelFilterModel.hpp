@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     struct $FilerBeatmapLevelPackCollectionAsync$d__0;
     // Nested type: GlobalNamespace::BeatmapLevelFilterModel::$GetAllBeatmapLevelsAsync$d__2
     struct $GetAllBeatmapLevelsAsync$d__2;
-    // Creating value type constructor for type: BeatmapLevelFilterModel
-    BeatmapLevelFilterModel() noexcept {}
     // static public System.Threading.Tasks.Task`1<IBeatmapLevelCollection> FilerBeatmapLevelPackCollectionAsync(IBeatmapLevelPack[] beatmapLevelPacks, LevelFilterParams levelFilterParams, PlayerDataModel playerDataModel, AdditionalContentModel additionalContentModel, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1298CA0
     static System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelCollection*>* FilerBeatmapLevelPackCollectionAsync(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks, GlobalNamespace::LevelFilterParams* levelFilterParams, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::AdditionalContentModel* additionalContentModel, System::Threading::CancellationToken cancellationToken);

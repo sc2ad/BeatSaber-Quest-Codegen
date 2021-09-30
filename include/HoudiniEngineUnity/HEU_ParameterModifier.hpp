@@ -124,8 +124,6 @@ namespace HoudiniEngineUnity {
     int intValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_ParameterModifier
-    HEU_ParameterModifier(int parameterIndex_ = {}, HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action_ = {}, int instanceIndex_ = {}, int modifierValue_ = {}, float floatValue_ = {}, int intValue_ = {}) noexcept : parameterIndex{parameterIndex_}, action{action_}, instanceIndex{instanceIndex_}, modifierValue{modifierValue_}, floatValue{floatValue_}, intValue{intValue_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>*>(this);

@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     float headPosToPlayerHeightOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(float headPosToPlayerHeightOffset_ = {}) noexcept : headPosToPlayerHeightOffset{headPosToPlayerHeightOffset_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return headPosToPlayerHeightOffset;

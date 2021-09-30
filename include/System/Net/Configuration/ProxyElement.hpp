@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProxyElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: ProxyElement
-    ProxyElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x157018C
     // Implemented from: System.Configuration.ConfigurationElement

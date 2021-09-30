@@ -111,7 +111,6 @@ namespace VRUIControls {
       UnityEngine::Vector2& dyn_insideRootCanvasPosition();
       // public System.Void .ctor(UnityEngine.UI.Graphic graphic, System.Single distance, UnityEngine.Vector3 position, UnityEngine.Vector2 insideRootCanvasPosition)
       // Offset: 0x25A0678
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic, float distance, UnityEngine::Vector3 position, UnityEngine::Vector2 insideRootCanvasPosition)
     }; // VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult
     #pragma pack(pop)
@@ -150,8 +149,6 @@ namespace VRUIControls {
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
-    // Creating value type constructor for type: VRGraphicRaycaster
-    VRGraphicRaycaster(UnityEngine::LayerMask blockingMask_ = {}, VRUIControls::PhysicsRaycasterWithCache* physicsRaycaster_ = {}, UnityEngine::Canvas* canvas_ = {}, System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* raycastResults_ = {}, HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : blockingMask{blockingMask_}, physicsRaycaster{physicsRaycaster_}, canvas{canvas_}, raycastResults{raycastResults_}, curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
     // static field const value: static private System.Single kPhysics3DRaycastDistance
     static constexpr const float kPhysics3DRaycastDistance = 6;
     // Get static field: static private System.Single kPhysics3DRaycastDistance

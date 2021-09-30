@@ -55,8 +55,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverFullBodyBiped* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverFullBodyBiped*) == 0x8);
-    // Creating value type constructor for type: FullBodyBipedIK
-    FullBodyBipedIK(RootMotion::BipedReferences* references_ = {}, RootMotion::FinalIK::IKSolverFullBodyBiped* solver_ = {}) noexcept : references{references_}, solver{solver_} {}
     // Get instance field reference: public RootMotion.BipedReferences references
     RootMotion::BipedReferences*& dyn_references();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverFullBodyBiped solver

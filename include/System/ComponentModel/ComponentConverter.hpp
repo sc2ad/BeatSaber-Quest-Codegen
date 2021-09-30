@@ -16,8 +16,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComponentConverter : public System::ComponentModel::ReferenceConverter {
     public:
-    // Creating value type constructor for type: ComponentConverter
-    ComponentConverter() noexcept {}
   }; // System.ComponentModel.ComponentConverter
   #pragma pack(pop)
 }

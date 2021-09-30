@@ -62,8 +62,6 @@ namespace MasterServer {
     int certificateCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ServerCertificateRequest
-    ServerCertificateRequest(::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*> certificateList_ = {}, int certificateCount_ = {}) noexcept : certificateList{certificateList_}, certificateCount{certificateCount_} {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);

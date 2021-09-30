@@ -34,8 +34,6 @@ namespace TMPro {
     UnityEngine::Material* baseMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass14_0
-    $$c__DisplayClass14_0(UnityEngine::Material* baseMaterial_ = {}) noexcept : baseMaterial{baseMaterial_} {}
     // Creating conversion operator: operator UnityEngine::Material*
     constexpr operator UnityEngine::Material*() const noexcept {
       return baseMaterial;

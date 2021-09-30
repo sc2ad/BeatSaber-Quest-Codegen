@@ -87,11 +87,9 @@ namespace UnityEngine::ProBuilder {
     void set_common(UnityEngine::ProBuilder::Edge value);
     // public System.Void .ctor(UnityEngine.ProBuilder.Edge common, UnityEngine.ProBuilder.Edge local)
     // Offset: 0x1C734B8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  EdgeLookup(UnityEngine::ProBuilder::Edge common, UnityEngine::ProBuilder::Edge local)
     // public System.Void .ctor(System.Int32 cx, System.Int32 cy, System.Int32 x, System.Int32 y)
     // Offset: 0x1C734C0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EdgeLookup(int cx, int cy, int x, int y) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::EdgeLookup::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cx), ::il2cpp_utils::ExtractType(cy), ::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));

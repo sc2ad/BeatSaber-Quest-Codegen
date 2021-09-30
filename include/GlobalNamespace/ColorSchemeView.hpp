@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* obstacleColorImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: ColorSchemeView
-    ColorSchemeView(UnityEngine::UI::Image* saberAColorImage_ = {}, UnityEngine::UI::Image* saberBColorImage_ = {}, UnityEngine::UI::Image* environment0ColorImage_ = {}, UnityEngine::UI::Image* environment1ColorImage_ = {}, UnityEngine::UI::Image* obstacleColorImage_ = {}) noexcept : saberAColorImage{saberAColorImage_}, saberBColorImage{saberBColorImage_}, environment0ColorImage{environment0ColorImage_}, environment1ColorImage{environment1ColorImage_}, obstacleColorImage{obstacleColorImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _saberAColorImage

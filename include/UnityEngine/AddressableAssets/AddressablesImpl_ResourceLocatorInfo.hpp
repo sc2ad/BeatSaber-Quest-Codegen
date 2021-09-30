@@ -56,8 +56,6 @@ namespace UnityEngine::AddressableAssets {
     bool ContentUpdateAvailable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ResourceLocatorInfo
-    ResourceLocatorInfo(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* Locator_ = {}, ::Il2CppString* LocalHash_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* CatalogLocation_ = {}, bool ContentUpdateAvailable_ = {}) noexcept : Locator{Locator_}, LocalHash{LocalHash_}, CatalogLocation{CatalogLocation_}, ContentUpdateAvailable{ContentUpdateAvailable_} {}
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <Locator>k__BackingField
     UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_$Locator$k__BackingField();
     // Get instance field reference: private System.String <LocalHash>k__BackingField

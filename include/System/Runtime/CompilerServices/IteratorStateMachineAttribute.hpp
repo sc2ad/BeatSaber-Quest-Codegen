@@ -28,8 +28,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E60380
   class IteratorStateMachineAttribute : public System::Runtime::CompilerServices::StateMachineAttribute {
     public:
-    // Creating value type constructor for type: IteratorStateMachineAttribute
-    IteratorStateMachineAttribute() noexcept {}
     // public System.Void .ctor(System.Type stateMachineType)
     // Offset: 0x15AD964
     // Implemented from: System.Runtime.CompilerServices.StateMachineAttribute

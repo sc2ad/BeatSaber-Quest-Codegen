@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     int shortestWord;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TrieNode
-    TrieNode(System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* children_ = {}, int shortestWord_ = {}) noexcept : children{children_}, shortestWord{shortestWord_} {}
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
     System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
     // Get instance field reference: private System.Int32 _shortestWord

@@ -31,8 +31,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class NullableEqualityComparer_1 : public System::Collections::Generic::EqualityComparer_1<System::Nullable_1<T>> {
     public:
-    // Creating value type constructor for type: NullableEqualityComparer_1
-    NullableEqualityComparer_1() noexcept {}
     // public System.Boolean Equals(System.Nullable`1<T> x, System.Nullable`1<T> y)
     // Offset: 0xFFFFFFFF
     bool Equals(System::Nullable_1<T> x, System::Nullable_1<T> y) {

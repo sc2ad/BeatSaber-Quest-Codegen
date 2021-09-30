@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB12B0
   class IVRRenderModels::_LoadTexture_Async : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _LoadTexture_Async
-    _LoadTexture_Async() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22DD1D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

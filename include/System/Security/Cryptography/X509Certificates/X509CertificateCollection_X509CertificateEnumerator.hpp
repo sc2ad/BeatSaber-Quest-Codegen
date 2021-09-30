@@ -35,8 +35,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Collections::IEnumerator* enumerator;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: X509CertificateEnumerator
-    X509CertificateEnumerator(System::Collections::IEnumerator* enumerator_ = {}) noexcept : enumerator{enumerator_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

@@ -66,8 +66,6 @@ namespace OVR::OpenVR {
     public:
     // Nested type: OVR::OpenVR::OpenVR::COpenVRContext
     class COpenVRContext;
-    // Creating value type constructor for type: OpenVR
-    OpenVR() noexcept {}
     // static field const value: static public System.UInt32 k_nDriverNone
     static constexpr const uint k_nDriverNone = 4294967295u;
     // Get static field: static public System.UInt32 k_nDriverNone

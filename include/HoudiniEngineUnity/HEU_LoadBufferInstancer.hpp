@@ -52,8 +52,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<::Il2CppString*> collisionAssetPaths;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: HEU_LoadBufferInstancer
-    HEU_LoadBufferInstancer(::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform> instanceTransforms_ = {}, ::ArrayWrapper<::Il2CppString*> instancePrefixes_ = {}, ::ArrayWrapper<int> instanceNodeIDs_ = {}, ::ArrayWrapper<::Il2CppString*> assetPaths_ = {}, ::ArrayWrapper<::Il2CppString*> collisionAssetPaths_ = {}) noexcept : instanceTransforms{instanceTransforms_}, instancePrefixes{instancePrefixes_}, instanceNodeIDs{instanceNodeIDs_}, assetPaths{assetPaths_}, collisionAssetPaths{collisionAssetPaths_} {}
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
     ::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
     // Get instance field reference: public System.String[] _instancePrefixes

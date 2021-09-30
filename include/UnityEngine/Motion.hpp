@@ -28,8 +28,6 @@ namespace UnityEngine {
     bool isAnimatorMotion;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Motion
-    Motion(bool isAnimatorMotion_ = {}) noexcept : isAnimatorMotion{isAnimatorMotion_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Boolean <isAnimatorMotion>k__BackingField

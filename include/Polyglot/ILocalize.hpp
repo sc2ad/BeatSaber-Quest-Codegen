@@ -13,8 +13,6 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILocalize {
     public:
-    // Creating value type constructor for type: ILocalize
-    ILocalize() noexcept {}
     // public System.Void OnLocalize()
     // Offset: 0xFFFFFFFF
     void OnLocalize();

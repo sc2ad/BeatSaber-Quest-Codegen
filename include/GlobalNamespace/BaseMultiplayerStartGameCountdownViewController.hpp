@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
-    // Creating value type constructor for type: BaseMultiplayerStartGameCountdownViewController
-    BaseMultiplayerStartGameCountdownViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}, UnityEngine::UI::Toggle* spectateToggle_ = {}, System::Action_1<bool>* playerActiveStateChangedEvent_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, spectateToggle{spectateToggle_}, playerActiveStateChangedEvent{playerActiveStateChangedEvent_}, toggleBinder{toggleBinder_} {}
     // Get instance field reference: private BeatmapSelectionView _beatmapSelectionView
     GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
     // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView

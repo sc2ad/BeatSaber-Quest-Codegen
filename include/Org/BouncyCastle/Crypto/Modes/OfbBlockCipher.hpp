@@ -59,8 +59,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     Org::BouncyCastle::Crypto::IBlockCipher* cipher;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::IBlockCipher*) == 0x8);
-    // Creating value type constructor for type: OfbBlockCipher
-    OfbBlockCipher(::ArrayWrapper<uint8_t> IV_ = {}, ::ArrayWrapper<uint8_t> ofbV_ = {}, ::ArrayWrapper<uint8_t> ofbOutV_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}) noexcept : IV{IV_}, ofbV{ofbV_}, ofbOutV{ofbOutV_}, blockSize{blockSize_}, cipher{cipher_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

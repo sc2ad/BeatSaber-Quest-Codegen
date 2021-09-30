@@ -21,8 +21,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetPresetUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_AssetPresetUtility
-    HEU_AssetPresetUtility() noexcept {}
     // Get static field: static public System.Char[] PRESET_IDENTIFIER
     static ::ArrayWrapper<::Il2CppChar> _get_PRESET_IDENTIFIER();
     // Set static field: static public System.Char[] PRESET_IDENTIFIER

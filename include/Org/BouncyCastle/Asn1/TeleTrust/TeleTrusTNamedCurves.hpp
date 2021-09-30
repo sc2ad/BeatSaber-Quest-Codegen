@@ -76,8 +76,6 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     class BrainpoolP512r1Holder;
     // Nested type: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP512t1Holder
     class BrainpoolP512t1Holder;
-    // Creating value type constructor for type: TeleTrusTNamedCurves
-    TeleTrusTNamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds

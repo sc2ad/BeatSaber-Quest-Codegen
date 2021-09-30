@@ -21,8 +21,6 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSON : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: JSON
-    JSON() noexcept {}
     // static public OVRSimpleJSON.JSONNode Parse(System.String aJSON)
     // Offset: 0x180CBAC
     static OVRSimpleJSON::JSONNode* Parse(::Il2CppString* aJSON);

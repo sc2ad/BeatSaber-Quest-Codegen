@@ -52,8 +52,6 @@ namespace System::Net::Http::Headers {
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: HeaderBucket
-    HeaderBucket(::Il2CppObject* Parsed_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* values_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : Parsed{Parsed_}, values{values_}, CustomToString{CustomToString_} {}
     // Get instance field reference: public System.Object Parsed
     ::Il2CppObject*& dyn_Parsed();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> values

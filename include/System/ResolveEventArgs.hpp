@@ -40,8 +40,6 @@ namespace System {
     System::Reflection::Assembly* m_Requesting;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
-    // Creating value type constructor for type: ResolveEventArgs
-    ResolveEventArgs(::Il2CppString* m_Name_ = {}, System::Reflection::Assembly* m_Requesting_ = {}) noexcept : m_Name{m_Name_}, m_Requesting{m_Requesting_} {}
     // Get instance field reference: private System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: private System.Reflection.Assembly m_Requesting

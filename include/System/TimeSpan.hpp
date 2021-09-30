@@ -124,11 +124,9 @@ namespace System {
     static bool get_LegacyMode();
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0x19C48A0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TimeSpan(int64_t ticks)
     // public System.Void .ctor(System.Int32 hours, System.Int32 minutes, System.Int32 seconds)
     // Offset: 0x19C48A8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeSpan(int hours, int minutes, int seconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hours), ::il2cpp_utils::ExtractType(minutes), ::il2cpp_utils::ExtractType(seconds)})));
@@ -136,7 +134,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 days, System.Int32 hours, System.Int32 minutes, System.Int32 seconds, System.Int32 milliseconds)
     // Offset: 0x19BEABC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(days), ::il2cpp_utils::ExtractType(hours), ::il2cpp_utils::ExtractType(minutes), ::il2cpp_utils::ExtractType(seconds), ::il2cpp_utils::ExtractType(milliseconds)})));

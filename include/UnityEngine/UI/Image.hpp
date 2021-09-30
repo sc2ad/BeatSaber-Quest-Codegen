@@ -278,8 +278,6 @@ namespace UnityEngine::UI {
     float m_CachedReferencePixelsPerUnit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Image
-    Image(UnityEngine::Sprite* m_Sprite_ = {}, UnityEngine::Sprite* m_OverrideSprite_ = {}, UnityEngine::UI::Image::Type m_Type_ = {}, bool m_PreserveAspect_ = {}, bool m_FillCenter_ = {}, UnityEngine::UI::Image::FillMethod m_FillMethod_ = {}, float m_FillAmount_ = {}, bool m_FillClockwise_ = {}, int m_FillOrigin_ = {}, float m_AlphaHitTestMinimumThreshold_ = {}, bool m_Tracked_ = {}, bool m_UseSpriteMesh_ = {}, float m_PixelsPerUnitMultiplier_ = {}, float m_CachedReferencePixelsPerUnit_ = {}) noexcept : m_Sprite{m_Sprite_}, m_OverrideSprite{m_OverrideSprite_}, m_Type{m_Type_}, m_PreserveAspect{m_PreserveAspect_}, m_FillCenter{m_FillCenter_}, m_FillMethod{m_FillMethod_}, m_FillAmount{m_FillAmount_}, m_FillClockwise{m_FillClockwise_}, m_FillOrigin{m_FillOrigin_}, m_AlphaHitTestMinimumThreshold{m_AlphaHitTestMinimumThreshold_}, m_Tracked{m_Tracked_}, m_UseSpriteMesh{m_UseSpriteMesh_}, m_PixelsPerUnitMultiplier{m_PixelsPerUnitMultiplier_}, m_CachedReferencePixelsPerUnit{m_CachedReferencePixelsPerUnit_} {}
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

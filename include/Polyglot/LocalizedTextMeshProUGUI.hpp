@@ -34,8 +34,6 @@ namespace Polyglot {
   // [RequireComponent] Offset: EE4F70
   class LocalizedTextMeshProUGUI : public Polyglot::LocalizedTextComponent_1<TMPro::TextMeshProUGUI*> {
     public:
-    // Creating value type constructor for type: LocalizedTextMeshProUGUI
-    LocalizedTextMeshProUGUI() noexcept {}
     // protected System.Void SetText(TMPro.TextMeshProUGUI text, System.String value)
     // Offset: 0x25851E8
     void SetText(TMPro::TextMeshProUGUI* text, ::Il2CppString* value);

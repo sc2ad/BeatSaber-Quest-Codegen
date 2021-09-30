@@ -62,7 +62,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
     // Creating value type constructor for type: HAPI_TransformEuler
-    constexpr HAPI_TransformEuler(::ArrayWrapper<float> position_ = {}, ::ArrayWrapper<float> rotationEuler_ = {}, ::ArrayWrapper<float> scale_ = {}, ::ArrayWrapper<float> shear_ = {}, HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_TransformEuler(::ArrayWrapper<float> position_ = {nullptr}, ::ArrayWrapper<float> rotationEuler_ = {nullptr}, ::ArrayWrapper<float> scale_ = {nullptr}, ::ArrayWrapper<float> shear_ = {nullptr}, HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -81,7 +81,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
     // Offset: 0x1439D34
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HAPI_TransformEuler(bool initializeFields) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_TransformEuler::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));

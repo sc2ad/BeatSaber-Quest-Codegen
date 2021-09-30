@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     bool chromatic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRChromaticAberration
-    OVRChromaticAberration(GlobalNamespace::OVRInput::RawButton toggleButton_ = {}, bool chromatic_ = {}) noexcept : toggleButton{toggleButton_}, chromatic{chromatic_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton toggleButton

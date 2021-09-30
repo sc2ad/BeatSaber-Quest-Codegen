@@ -144,8 +144,6 @@ namespace RootMotion {
     #pragma pack(pop)
     static check_size<sizeof(BipedNaming::BoneSide), 0 + sizeof(int)> __RootMotion_BipedNaming_BoneSideSizeCheck;
     static_assert(sizeof(BipedNaming::BoneSide) == 0x4);
-    // Creating value type constructor for type: BipedNaming
-    BipedNaming() noexcept {}
     // Get static field: static public System.String[] typeLeft
     static ::ArrayWrapper<::Il2CppString*> _get_typeLeft();
     // Set static field: static public System.String[] typeLeft

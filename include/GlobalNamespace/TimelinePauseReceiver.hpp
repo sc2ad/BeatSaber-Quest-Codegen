@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     System::Action* timelinePauseEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: TimelinePauseReceiver
-    TimelinePauseReceiver(System::Action* timelinePauseEvent_ = {}) noexcept : timelinePauseEvent{timelinePauseEvent_} {}
     // Creating interface conversion operator: operator UnityEngine::Playables::INotificationReceiver
     operator UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotificationReceiver*>(this);

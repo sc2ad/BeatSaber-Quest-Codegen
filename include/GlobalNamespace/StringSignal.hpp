@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringSignal : public GlobalNamespace::GenericSignal_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: StringSignal
-    StringSignal() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x259B024
     // Implemented from: GenericSignal`1

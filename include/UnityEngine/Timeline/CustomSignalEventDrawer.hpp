@@ -20,8 +20,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomSignalEventDrawer : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: CustomSignalEventDrawer
-    CustomSignalEventDrawer() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19F9694
     // Implemented from: UnityEngine.PropertyAttribute

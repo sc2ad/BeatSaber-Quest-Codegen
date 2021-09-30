@@ -47,8 +47,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::GameObject* m_Instance;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: PrefabControlPlayable
-    PrefabControlPlayable(UnityEngine::GameObject* m_Instance_ = {}) noexcept : m_Instance{m_Instance_} {}
     // Creating conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return m_Instance;

@@ -29,8 +29,6 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncHandshakeRequest : public Mono::Net::Security::AsyncProtocolRequest {
     public:
-    // Creating value type constructor for type: AsyncHandshakeRequest
-    AsyncHandshakeRequest() noexcept {}
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
     // Offset: 0x17BA47C
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest

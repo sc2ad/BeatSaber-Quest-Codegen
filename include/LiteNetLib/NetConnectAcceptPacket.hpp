@@ -45,8 +45,6 @@ namespace LiteNetLib {
     bool IsReusedPeer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NetConnectAcceptPacket
-    NetConnectAcceptPacket(int64_t ConnectionId_ = {}, uint8_t ConnectionNumber_ = {}, bool IsReusedPeer_ = {}) noexcept : ConnectionId{ConnectionId_}, ConnectionNumber{ConnectionNumber_}, IsReusedPeer{IsReusedPeer_} {}
     // static field const value: static public System.Int32 Size
     static constexpr const int Size = 11;
     // Get static field: static public System.Int32 Size

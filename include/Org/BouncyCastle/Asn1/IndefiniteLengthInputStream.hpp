@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Asn1 {
     bool eofOn00;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IndefiniteLengthInputStream
-    IndefiniteLengthInputStream(int lookAhead_ = {}, bool eofOn00_ = {}) noexcept : lookAhead{lookAhead_}, eofOn00{eofOn00_} {}
     // Get instance field reference: private System.Int32 _lookAhead
     int& dyn__lookAhead();
     // Get instance field reference: private System.Boolean _eofOn00

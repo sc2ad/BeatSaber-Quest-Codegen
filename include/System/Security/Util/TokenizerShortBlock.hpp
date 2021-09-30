@@ -30,8 +30,6 @@ namespace System::Security::Util {
     System::Security::Util::TokenizerShortBlock* m_next;
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
-    // Creating value type constructor for type: TokenizerShortBlock
-    TokenizerShortBlock(::ArrayWrapper<int16_t> m_block_ = {}, System::Security::Util::TokenizerShortBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // Get instance field reference: System.Int16[] m_block
     ::ArrayWrapper<int16_t>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next

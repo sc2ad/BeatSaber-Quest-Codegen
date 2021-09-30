@@ -109,8 +109,6 @@ namespace UnityEngine::TestTools {
     int64_t Timestamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: BeforeAfterTestCommandState
-    BeforeAfterTestCommandState(int NextBeforeStepIndex_ = {}, int NextBeforeStepPc_ = {}, int NextAfterStepIndex_ = {}, int NextAfterStepPc_ = {}, bool TestHasRun_ = {}, NUnit::Framework::Interfaces::TestStatus CurrentTestResultStatus_ = {}, ::Il2CppString* CurrentTestResultLabel_ = {}, NUnit::Framework::Interfaces::FailureSite CurrentTestResultSite_ = {}, ::Il2CppString* CurrentTestMessage_ = {}, ::Il2CppString* CurrentTestStrackTrace_ = {}, bool TestAfterStarted_ = {}, int64_t Timestamp_ = {}) noexcept : NextBeforeStepIndex{NextBeforeStepIndex_}, NextBeforeStepPc{NextBeforeStepPc_}, NextAfterStepIndex{NextAfterStepIndex_}, NextAfterStepPc{NextAfterStepPc_}, TestHasRun{TestHasRun_}, CurrentTestResultStatus{CurrentTestResultStatus_}, CurrentTestResultLabel{CurrentTestResultLabel_}, CurrentTestResultSite{CurrentTestResultSite_}, CurrentTestMessage{CurrentTestMessage_}, CurrentTestStrackTrace{CurrentTestStrackTrace_}, TestAfterStarted{TestAfterStarted_}, Timestamp{Timestamp_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 NextBeforeStepIndex

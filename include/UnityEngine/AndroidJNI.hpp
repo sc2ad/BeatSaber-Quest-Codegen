@@ -19,8 +19,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E9B170
   class AndroidJNI : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AndroidJNI
-    AndroidJNI() noexcept {}
     // static public System.Int32 AttachCurrentThread()
     // Offset: 0x25A43A4
     static int AttachCurrentThread();

@@ -14,8 +14,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyValuePair : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: KeyValuePair
-    KeyValuePair() noexcept {}
     // static System.String PairToString(System.Object key, System.Object value)
     // Offset: 0x199AFE8
     static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);

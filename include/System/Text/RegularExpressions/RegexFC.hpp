@@ -48,8 +48,6 @@ namespace System::Text::RegularExpressions {
     bool caseInsensitive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegexFC
-    RegexFC(System::Text::RegularExpressions::RegexCharClass* cc_ = {}, bool nullable_ = {}, bool caseInsensitive_ = {}) noexcept : cc{cc_}, nullable{nullable_}, caseInsensitive{caseInsensitive_} {}
     // Get instance field reference: System.Text.RegularExpressions.RegexCharClass _cc
     System::Text::RegularExpressions::RegexCharClass*& dyn__cc();
     // Get instance field reference: System.Boolean _nullable

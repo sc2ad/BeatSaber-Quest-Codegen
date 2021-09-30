@@ -62,8 +62,6 @@ namespace Zenject::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenPools : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ZenPools
-    ZenPools() noexcept {}
     // Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.InjectContext> _contextPool
     static Zenject::StaticMemoryPool_1<Zenject::InjectContext*>* _get__contextPool();
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.InjectContext> _contextPool

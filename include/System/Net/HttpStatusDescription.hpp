@@ -21,8 +21,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpStatusDescription : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HttpStatusDescription
-    HttpStatusDescription() noexcept {}
     // static System.String Get(System.Net.HttpStatusCode code)
     // Offset: 0x18463E8
     static ::Il2CppString* Get(System::Net::HttpStatusCode code);

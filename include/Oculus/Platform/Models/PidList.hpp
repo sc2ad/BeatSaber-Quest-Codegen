@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PidList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Pid*> {
     public:
-    // Creating value type constructor for type: PidList
-    PidList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16BC370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

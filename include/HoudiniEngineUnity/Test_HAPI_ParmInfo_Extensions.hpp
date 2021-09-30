@@ -24,8 +24,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_HAPI_ParmInfo_Extensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Test_HAPI_ParmInfo_Extensions
-    Test_HAPI_ParmInfo_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_HAPI_ParmInfo ToTestObject(HoudiniEngineUnity.HAPI_ParmInfo self)
     // Offset: 0x25CFC28
     static HoudiniEngineUnity::Test_HAPI_ParmInfo* ToTestObject(HoudiniEngineUnity::HAPI_ParmInfo self);

@@ -56,8 +56,6 @@ namespace Org::BouncyCastle::X509 {
     System::DateTime notAfter;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: X509V2AttributeCertificate
-    X509V2AttributeCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert_ = {}, System::DateTime notBefore_ = {}, System::DateTime notAfter_ = {}) noexcept : cert{cert_}, notBefore{notBefore_}, notAfter{notAfter_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::X509::IX509AttributeCertificate
     operator Org::BouncyCastle::X509::IX509AttributeCertificate() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::X509::IX509AttributeCertificate*>(this);

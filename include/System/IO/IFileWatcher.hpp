@@ -20,8 +20,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFileWatcher {
     public:
-    // Creating value type constructor for type: IFileWatcher
-    IFileWatcher() noexcept {}
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
     // Offset: 0xFFFFFFFF
     void StartDispatching(System::IO::FileSystemWatcher* fsw);

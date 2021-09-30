@@ -34,8 +34,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class OnRemoveWriter : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OnRemoveWriter
-    OnRemoveWriter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1AFC244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

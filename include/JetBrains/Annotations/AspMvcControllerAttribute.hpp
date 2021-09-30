@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* AnonymousProperty;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AspMvcControllerAttribute
-    AspMvcControllerAttribute(::Il2CppString* AnonymousProperty_ = {}) noexcept : AnonymousProperty{AnonymousProperty_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return AnonymousProperty;

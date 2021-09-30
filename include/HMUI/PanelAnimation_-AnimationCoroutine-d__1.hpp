@@ -121,8 +121,6 @@ namespace HMUI {
     float $elapsedTime$5__3;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $AnimationCoroutine$d__1
-    $AnimationCoroutine$d__1(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float duration_ = {}, UnityEngine::CanvasGroup* parentCanvasGroup_ = {}, UnityEngine::AnimationCurve* parentAlphaAnimationCurve_ = {}, UnityEngine::AnimationCurve* alphaAnimationCurve_ = {}, UnityEngine::AnimationCurve* scaleXAnimationCurve_ = {}, UnityEngine::AnimationCurve* scaleYAnimationCurve_ = {}, HMUI::PanelAnimation* $$4__this_ = {}, System::Action* finishedCallback_ = {}, UnityEngine::Transform* $canvasTransform$5__2_ = {}, float $elapsedTime$5__3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, canvasGroup{canvasGroup_}, duration{duration_}, parentCanvasGroup{parentCanvasGroup_}, parentAlphaAnimationCurve{parentAlphaAnimationCurve_}, alphaAnimationCurve{alphaAnimationCurve_}, scaleXAnimationCurve{scaleXAnimationCurve_}, scaleYAnimationCurve{scaleYAnimationCurve_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, $canvasTransform$5__2{$canvasTransform$5__2_}, $elapsedTime$5__3{$elapsedTime$5__3_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

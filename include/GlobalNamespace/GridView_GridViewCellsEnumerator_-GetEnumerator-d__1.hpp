@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     typename System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>::Enumerator $$7__wrap2;
-    // Creating value type constructor for type: $GetEnumerator$d__1
-    $GetEnumerator$d__1(int $$1__state_ = {}, UnityEngine::MonoBehaviour* $$2__current_ = {}, GlobalNamespace::GridView::GridViewCellsEnumerator* $$4__this_ = {}, typename System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>::KeyCollection::Enumerator $$7__wrap1_ = {}, typename System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>::Enumerator $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>*>(this);

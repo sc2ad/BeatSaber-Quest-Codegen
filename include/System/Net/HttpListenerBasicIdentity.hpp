@@ -26,8 +26,6 @@ namespace System::Net {
     ::Il2CppString* password;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HttpListenerBasicIdentity
-    HttpListenerBasicIdentity(::Il2CppString* password_ = {}) noexcept : password{password_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return password;

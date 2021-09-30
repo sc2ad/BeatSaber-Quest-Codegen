@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C438
   class NullReferenceException : public System::SystemException {
     public:
-    // Creating value type constructor for type: NullReferenceException
-    NullReferenceException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A13078
     // Implemented from: System.SystemException

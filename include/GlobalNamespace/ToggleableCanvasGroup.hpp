@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     bool invertToggle;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ToggleableCanvasGroup
-    ToggleableCanvasGroup(UnityEngine::CanvasGroup* canvasGroup_ = {}, UnityEngine::UI::Toggle* toggle_ = {}, bool invertToggle_ = {}) noexcept : canvasGroup{canvasGroup_}, toggle{toggle_}, invertToggle{invertToggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup

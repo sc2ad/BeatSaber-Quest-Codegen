@@ -23,8 +23,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E904
   class EventWaitHandle : public System::Threading::WaitHandle {
     public:
-    // Creating value type constructor for type: EventWaitHandle
-    EventWaitHandle() noexcept {}
     // public System.Void .ctor(System.Boolean initialState, System.Threading.EventResetMode mode)
     // Offset: 0x1A54BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

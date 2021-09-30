@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     int progressPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RingRotationEffect
-    RingRotationEffect(float rotationAngle_ = {}, float rotationStep_ = {}, float rotationFlexySpeed_ = {}, int rotationPropagationSpeed_ = {}, int progressPos_ = {}) noexcept : rotationAngle{rotationAngle_}, rotationStep{rotationStep_}, rotationFlexySpeed{rotationFlexySpeed_}, rotationPropagationSpeed{rotationPropagationSpeed_}, progressPos{progressPos_} {}
     // Get instance field reference: public System.Single rotationAngle
     float& dyn_rotationAngle();
     // Get instance field reference: public System.Single rotationStep

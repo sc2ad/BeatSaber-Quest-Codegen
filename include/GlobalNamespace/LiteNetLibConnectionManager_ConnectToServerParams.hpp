@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     bool serverIsConnectionOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ConnectToServerParams
-    ConnectToServerParams(System::Net::IPEndPoint* endPoint_ = {}, ::Il2CppString* serverUserId_ = {}, ::Il2CppString* serverUserName_ = {}, bool serverIsConnectionOwner_ = {}) noexcept : endPoint{endPoint_}, serverUserId{serverUserId_}, serverUserName{serverUserName_}, serverIsConnectionOwner{serverIsConnectionOwner_} {}
     // Get instance field reference: public System.Net.IPEndPoint endPoint
     System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.String serverUserId

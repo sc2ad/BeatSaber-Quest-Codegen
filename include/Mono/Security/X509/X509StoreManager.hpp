@@ -21,8 +21,6 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509StoreManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X509StoreManager
-    X509StoreManager() noexcept {}
     // Get static field: static private System.String _userPath
     static ::Il2CppString* _get__userPath();
     // Set static field: static private System.String _userPath

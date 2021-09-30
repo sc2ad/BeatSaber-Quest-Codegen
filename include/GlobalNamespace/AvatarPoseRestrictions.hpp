@@ -98,8 +98,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController*) == 0x8);
-    // Creating value type constructor for type: AvatarPoseRestrictions
-    AvatarPoseRestrictions(float maxHeadSquareDistanceFromCenter_ = {}, float minHeadYPos_ = {}, float maxHeadYPos_ = {}, float minHandXZSquareDistanceFromHeadCenter_ = {}, float maxHandXZSquareDistanceFromHeadCenter_ = {}, float minHandYDistanceFromHeadCenter_ = {}, float maxHandYDistanceFromHeadCenter_ = {}, bool forceHeadPosition_ = {}, UnityEngine::Vector3 centerHeadOffset_ = {}, GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}) noexcept : maxHeadSquareDistanceFromCenter{maxHeadSquareDistanceFromCenter_}, minHeadYPos{minHeadYPos_}, maxHeadYPos{maxHeadYPos_}, minHandXZSquareDistanceFromHeadCenter{minHandXZSquareDistanceFromHeadCenter_}, maxHandXZSquareDistanceFromHeadCenter{maxHandXZSquareDistanceFromHeadCenter_}, minHandYDistanceFromHeadCenter{minHandYDistanceFromHeadCenter_}, maxHandYDistanceFromHeadCenter{maxHandYDistanceFromHeadCenter_}, forceHeadPosition{forceHeadPosition_}, centerHeadOffset{centerHeadOffset_}, avatarPoseController{avatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _maxHeadSquareDistanceFromCenter

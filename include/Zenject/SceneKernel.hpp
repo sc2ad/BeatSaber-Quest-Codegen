@@ -20,8 +20,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneKernel : public Zenject::MonoKernel {
     public:
-    // Creating value type constructor for type: SceneKernel
-    SceneKernel() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x189F21C
     // Implemented from: Zenject.MonoKernel

@@ -21,8 +21,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Dropdown::DropdownEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
-    // Creating value type constructor for type: DropdownEvent
-    DropdownEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11F154C
     // Implemented from: UnityEngine.Events.UnityEvent`1

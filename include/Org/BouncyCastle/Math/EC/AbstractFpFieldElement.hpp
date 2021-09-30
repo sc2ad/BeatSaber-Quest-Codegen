@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractFpFieldElement : public Org::BouncyCastle::Math::EC::ECFieldElement {
     public:
-    // Creating value type constructor for type: AbstractFpFieldElement
-    AbstractFpFieldElement() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1F57B3C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement

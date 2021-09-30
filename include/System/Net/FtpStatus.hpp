@@ -34,8 +34,6 @@ namespace System::Net {
     ::Il2CppString* statusDescription;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: FtpStatus
-    FtpStatus(System::Net::FtpStatusCode statusCode_ = {}, ::Il2CppString* statusDescription_ = {}) noexcept : statusCode{statusCode_}, statusDescription{statusDescription_} {}
     // Get instance field reference: private readonly System.Net.FtpStatusCode statusCode
     System::Net::FtpStatusCode& dyn_statusCode();
     // Get instance field reference: private readonly System.String statusDescription

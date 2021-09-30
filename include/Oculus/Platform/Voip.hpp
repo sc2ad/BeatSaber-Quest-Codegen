@@ -45,8 +45,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Voip : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Voip
-    Voip() noexcept {}
     // static public System.Void Start(System.UInt64 userID)
     // Offset: 0x25BD804
     static void Start(uint64_t userID);

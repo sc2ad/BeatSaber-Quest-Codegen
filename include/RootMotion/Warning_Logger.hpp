@@ -31,8 +31,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Warning::Logger : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Logger
-    Logger() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1C72458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

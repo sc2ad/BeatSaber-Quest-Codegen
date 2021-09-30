@@ -131,8 +131,6 @@ namespace System::Threading {
     bool m_ExecutionContextBelongsToOuterScope;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Thread
-    Thread(System::Threading::InternalThread* internal_thread_ = {}, ::Il2CppObject* m_ThreadStartArg_ = {}, ::Il2CppObject* pending_exception_ = {}, System::Security::Principal::IPrincipal* principal_ = {}, int principal_version_ = {}, System::MulticastDelegate* m_Delegate_ = {}, System::Threading::ExecutionContext* m_ExecutionContext_ = {}, bool m_ExecutionContextBelongsToOuterScope_ = {}) noexcept : internal_thread{internal_thread_}, m_ThreadStartArg{m_ThreadStartArg_}, pending_exception{pending_exception_}, principal{principal_}, principal_version{principal_version_}, m_Delegate{m_Delegate_}, m_ExecutionContext{m_ExecutionContext_}, m_ExecutionContextBelongsToOuterScope{m_ExecutionContextBelongsToOuterScope_} {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_Thread
     operator System::Runtime::InteropServices::_Thread() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_Thread*>(this);

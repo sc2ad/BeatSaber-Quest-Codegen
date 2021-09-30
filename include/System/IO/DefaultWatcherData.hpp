@@ -88,8 +88,6 @@ namespace System::IO {
     System::Collections::Hashtable* Files;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: DefaultWatcherData
-    DefaultWatcherData(System::IO::FileSystemWatcher* FSW_ = {}, ::Il2CppString* Directory_ = {}, ::Il2CppString* FileMask_ = {}, bool IncludeSubdirs_ = {}, bool Enabled_ = {}, bool NoWildcards_ = {}, System::DateTime DisabledTime_ = {}, ::Il2CppObject* FilesLock_ = {}, System::Collections::Hashtable* Files_ = {}) noexcept : FSW{FSW_}, Directory{Directory_}, FileMask{FileMask_}, IncludeSubdirs{IncludeSubdirs_}, Enabled{Enabled_}, NoWildcards{NoWildcards_}, DisabledTime{DisabledTime_}, FilesLock{FilesLock_}, Files{Files_} {}
     // Get instance field reference: public System.IO.FileSystemWatcher FSW
     System::IO::FileSystemWatcher*& dyn_FSW();
     // Get instance field reference: public System.String Directory

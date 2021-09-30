@@ -20,8 +20,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class INotificationOptionProvider {
     public:
-    // Creating value type constructor for type: INotificationOptionProvider
-    INotificationOptionProvider() noexcept {}
     // public UnityEngine.Timeline.NotificationFlags get_flags()
     // Offset: 0xFFFFFFFF
     UnityEngine::Timeline::NotificationFlags get_flags();

@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISubsystemDescriptorImpl/*, public UnityEngine::ISubsystemDescriptor*/ {
     public:
-    // Creating value type constructor for type: ISubsystemDescriptorImpl
-    ISubsystemDescriptorImpl() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptor
     operator UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptor*>(this);

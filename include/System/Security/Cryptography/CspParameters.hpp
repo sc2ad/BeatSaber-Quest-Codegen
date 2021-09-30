@@ -53,8 +53,6 @@ namespace System::Security::Cryptography {
     int m_flags;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CspParameters
-    CspParameters(int ProviderType_ = {}, ::Il2CppString* ProviderName_ = {}, ::Il2CppString* KeyContainerName_ = {}, int KeyNumber_ = {}, int m_flags_ = {}) noexcept : ProviderType{ProviderType_}, ProviderName{ProviderName_}, KeyContainerName{KeyContainerName_}, KeyNumber{KeyNumber_}, m_flags{m_flags_} {}
     // Get instance field reference: public System.Int32 ProviderType
     int& dyn_ProviderType();
     // Get instance field reference: public System.String ProviderName

@@ -47,8 +47,6 @@ namespace TMPro {
     int materialHashCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TMP_Asset
-    TMP_Asset(int hashCode_ = {}, UnityEngine::Material* material_ = {}, int materialHashCode_ = {}) noexcept : hashCode{hashCode_}, material{material_}, materialHashCode{materialHashCode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 hashCode

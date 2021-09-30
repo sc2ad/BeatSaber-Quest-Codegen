@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICanvasRaycastFilter {
     public:
-    // Creating value type constructor for type: ICanvasRaycastFilter
-    ICanvasRaycastFilter() noexcept {}
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     // Offset: 0xFFFFFFFF
     bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);

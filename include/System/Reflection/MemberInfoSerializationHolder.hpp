@@ -78,8 +78,6 @@ namespace System::Reflection {
     System::Runtime::Serialization::SerializationInfo* m_info;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
-    // Creating value type constructor for type: MemberInfoSerializationHolder
-    MemberInfoSerializationHolder(::Il2CppString* m_memberName_ = {}, System::RuntimeType* m_reflectedType_ = {}, ::Il2CppString* m_signature_ = {}, ::Il2CppString* m_signature2_ = {}, System::Reflection::MemberTypes m_memberType_ = {}, System::Runtime::Serialization::SerializationInfo* m_info_ = {}) noexcept : m_memberName{m_memberName_}, m_reflectedType{m_reflectedType_}, m_signature{m_signature_}, m_signature2{m_signature2_}, m_memberType{m_memberType_}, m_info{m_info_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

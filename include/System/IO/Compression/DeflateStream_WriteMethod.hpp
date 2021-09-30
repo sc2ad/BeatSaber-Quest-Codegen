@@ -31,8 +31,6 @@ namespace System::IO::Compression {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeflateStream::WriteMethod : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: WriteMethod
-    WriteMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1A2D838
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

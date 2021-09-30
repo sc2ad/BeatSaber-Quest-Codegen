@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*) == 0x8);
-    // Creating value type constructor for type: DerSequenceParser
-    DerSequenceParser(Org::BouncyCastle::Asn1::Asn1StreamParser* parser_ = {}) noexcept : parser{parser_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::Asn1SequenceParser
     operator Org::BouncyCastle::Asn1::Asn1SequenceParser() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::Asn1SequenceParser*>(this);

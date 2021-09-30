@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputField::OnChangeEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: OnChangeEvent
-    OnChangeEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B4763C
     // Implemented from: UnityEngine.Events.UnityEvent`1

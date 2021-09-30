@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::TypeSerializationBinder : public System::Runtime::Serialization::SerializationBinder {
     public:
-    // Creating value type constructor for type: TypeSerializationBinder
-    TypeSerializationBinder() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x13491E4
     // Implemented from: System.Runtime.Serialization.SerializationBinder

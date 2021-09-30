@@ -26,8 +26,6 @@ namespace Oculus::Platform::Models {
     bool StreamingEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LivestreamingApplicationStatus
-    LivestreamingApplicationStatus(bool StreamingEnabled_ = {}) noexcept : StreamingEnabled{StreamingEnabled_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return StreamingEnabled;

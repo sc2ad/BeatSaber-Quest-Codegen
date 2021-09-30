@@ -36,8 +36,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
-    // Creating value type constructor for type: Entry
-    Entry(UnityEngine::EventSystems::EventTriggerType eventID_ = {}, UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback_ = {}) noexcept : eventID{eventID_}, callback{callback_} {}
     // Get instance field reference: public UnityEngine.EventSystems.EventTriggerType eventID
     UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
     // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback

@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDeeplinkManager {
     public:
-    // Creating value type constructor for type: IDeeplinkManager
-    IDeeplinkManager() noexcept {}
     // public Deeplink get_currentDeeplink()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::Deeplink* get_currentDeeplink();

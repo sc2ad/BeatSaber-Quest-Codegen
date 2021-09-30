@@ -37,8 +37,6 @@ namespace System::Threading::Tasks {
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: WhenAllPromise
-    WhenAllPromise(::ArrayWrapper<System::Threading::Tasks::Task*> m_tasks_ = {}, int m_count_ = {}) noexcept : m_tasks{m_tasks_}, m_count{m_count_} {}
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);

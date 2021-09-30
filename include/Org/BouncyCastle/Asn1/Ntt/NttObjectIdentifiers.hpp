@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Ntt {
   // [TokenAttribute] Offset: FFFFFFFF
   class NttObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NttObjectIdentifiers
-    NttObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdCamellia128Cbc
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdCamellia128Cbc();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdCamellia128Cbc

@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Filepath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssetFileDownloadResult
-    AssetFileDownloadResult(uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}) noexcept : AssetId{AssetId_}, Filepath{Filepath_} {}
     // Get instance field reference: public readonly System.UInt64 AssetId
     uint64_t& dyn_AssetId();
     // Get instance field reference: public readonly System.String Filepath

@@ -43,8 +43,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::MoveDirection moveDir;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::MoveDirection) == 0x4);
-    // Creating value type constructor for type: AxisEventData
-    AxisEventData(UnityEngine::Vector2 moveVector_ = {}, UnityEngine::EventSystems::MoveDirection moveDir_ = {}) noexcept : moveVector{moveVector_}, moveDir{moveDir_} {}
     // Get instance field reference: private UnityEngine.Vector2 <moveVector>k__BackingField
     UnityEngine::Vector2& dyn_$moveVector$k__BackingField();
     // Get instance field reference: private UnityEngine.EventSystems.MoveDirection <moveDir>k__BackingField

@@ -40,8 +40,6 @@ namespace Mono::Http {
     Mono::Security::Protocol::Ntlm::MessageBase* message;
     // Field size check
     static_assert(sizeof(Mono::Security::Protocol::Ntlm::MessageBase*) == 0x8);
-    // Creating value type constructor for type: NtlmSession
-    NtlmSession(Mono::Security::Protocol::Ntlm::MessageBase* message_ = {}) noexcept : message{message_} {}
     // Creating conversion operator: operator Mono::Security::Protocol::Ntlm::MessageBase*
     constexpr operator Mono::Security::Protocol::Ntlm::MessageBase*() const noexcept {
       return message;

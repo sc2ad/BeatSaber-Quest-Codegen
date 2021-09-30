@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* alternativeMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: MaterialPairs
-    MaterialPairs(int materialIndex_ = {}, UnityEngine::Material* defaultMaterial_ = {}, UnityEngine::Material* alternativeMaterial_ = {}) noexcept : materialIndex{materialIndex_}, defaultMaterial{defaultMaterial_}, alternativeMaterial{alternativeMaterial_} {}
     // Get instance field reference: public System.Int32 materialIndex
     int& dyn_materialIndex();
     // Get instance field reference: public UnityEngine.Material defaultMaterial

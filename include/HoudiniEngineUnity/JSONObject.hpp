@@ -60,8 +60,6 @@ namespace HoudiniEngineUnity {
     bool _inline;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: JSONObject
-    JSONObject(System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>* m_Dict_ = {}, bool _inline_ = {}) noexcept : m_Dict{m_Dict_}, _inline{_inline_} {}
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.JSONNode> m_Dict
     System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>*& dyn_m_Dict();
     // Get instance field reference: private System.Boolean inline

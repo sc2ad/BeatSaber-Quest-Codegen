@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0AB8
   class IVRCompositor::_ShowMirrorWindow : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ShowMirrorWindow
-    _ShowMirrorWindow() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EDFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::UIKeyboard* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::UIKeyboard*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass21_0
-    $$c__DisplayClass21_0(::Il2CppString* key_ = {}, GlobalNamespace::UIKeyboard* $$4__this_ = {}) noexcept : key{key_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.String key
     ::Il2CppString*& dyn_key();
     // Get instance field reference: public UIKeyboard <>4__this

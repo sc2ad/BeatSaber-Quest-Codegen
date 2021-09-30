@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
-    // Creating value type constructor for type: $PerformSongStartSync$d__37
-    $PerformSongStartSync$d__37(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MultiplayerController* $$4__this_ = {}, GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, localPlayerSyncState{localPlayerSyncState_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

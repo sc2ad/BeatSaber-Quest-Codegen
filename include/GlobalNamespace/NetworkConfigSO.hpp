@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     ::Il2CppString* masterServerStatusUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NetworkConfigSO
-    NetworkConfigSO(int maxPartySize_ = {}, int discoveryPort_ = {}, int partyPort_ = {}, int multiplayerPort_ = {}, int masterServerPort_ = {}, ::Il2CppString* masterServerHostName_ = {}, ::Il2CppString* masterServerStatusUrl_ = {}) noexcept : maxPartySize{maxPartySize_}, discoveryPort{discoveryPort_}, partyPort{partyPort_}, multiplayerPort{multiplayerPort_}, masterServerPort{masterServerPort_}, masterServerHostName{masterServerHostName_}, masterServerStatusUrl{masterServerStatusUrl_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkConfig
     operator GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkConfig*>(this);

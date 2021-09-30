@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71954
   class Cursor : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Cursor
-    Cursor() noexcept {}
     // static public System.Boolean get_visible()
     // Offset: 0x1CB6858
     static bool get_visible();

@@ -23,8 +23,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F70C
   class ISerializable {
     public:
-    // Creating value type constructor for type: ISerializable
-    ISerializable() noexcept {}
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

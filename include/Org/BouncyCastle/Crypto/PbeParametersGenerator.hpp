@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Crypto {
     int mIterationCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PbeParametersGenerator
-    PbeParametersGenerator(::ArrayWrapper<uint8_t> mPassword_ = {}, ::ArrayWrapper<uint8_t> mSalt_ = {}, int mIterationCount_ = {}) noexcept : mPassword{mPassword_}, mSalt{mSalt_}, mIterationCount{mIterationCount_} {}
     // Get instance field reference: protected System.Byte[] mPassword
     ::ArrayWrapper<uint8_t>& dyn_mPassword();
     // Get instance field reference: protected System.Byte[] mSalt

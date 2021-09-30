@@ -54,8 +54,6 @@ namespace System::Collections::Specialized {
     ::ArrayWrapper<::Il2CppString*> allKeys;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: NameValueCollection
-    NameValueCollection(::ArrayWrapper<::Il2CppString*> all_ = {}, ::ArrayWrapper<::Il2CppString*> allKeys_ = {}) noexcept : all{all_}, allKeys{allKeys_} {}
     // Get instance field reference: private System.String[] _all
     ::ArrayWrapper<::Il2CppString*>& dyn__all();
     // Get instance field reference: private System.String[] _allKeys

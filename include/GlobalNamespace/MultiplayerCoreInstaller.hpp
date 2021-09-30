@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // Creating value type constructor for type: MultiplayerCoreInstaller
-    MultiplayerCoreInstaller(GlobalNamespace::ScoreSyncStateManager* scoreSyncStateManagerPrefab_ = {}, GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : scoreSyncStateManagerPrefab{scoreSyncStateManagerPrefab_}, multiplayerBadgesModel{multiplayerBadgesModel_}, sceneSetupData{sceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_} {}
     // Get instance field reference: private ScoreSyncStateManager _scoreSyncStateManagerPrefab
     GlobalNamespace::ScoreSyncStateManager*& dyn__scoreSyncStateManagerPrefab();
     // Get instance field reference: private MultiplayerBadgesModelSO _multiplayerBadgesModel

@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* guestPlayers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>*) == 0x8);
-    // Creating value type constructor for type: PlayerSaveData
-    PlayerSaveData(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::LocalPlayer*>* localPlayers_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* guestPlayers_ = {}) noexcept : localPlayers{localPlayers_}, guestPlayers{guestPlayers_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // static field const value: static public System.String kCurrentVersion

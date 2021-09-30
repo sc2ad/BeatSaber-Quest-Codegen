@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   template<typename T>
   class ISyncStateDeltaSerializable_1 {
     public:
-    // Creating value type constructor for type: ISyncStateDeltaSerializable_1
-    ISyncStateDeltaSerializable_1() noexcept {}
     // public SyncStateId get_baseId()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::SyncStateId get_baseId() {

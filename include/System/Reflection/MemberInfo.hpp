@@ -47,8 +47,6 @@ namespace System::Reflection {
   // [ClassInterfaceAttribute] Offset: E5D668
   class MemberInfo : public ::Il2CppObject/*, public System::Reflection::ICustomAttributeProvider, public System::Runtime::InteropServices::_MemberInfo*/ {
     public:
-    // Creating value type constructor for type: MemberInfo
-    MemberInfo() noexcept {}
     // Creating interface conversion operator: operator System::Reflection::ICustomAttributeProvider
     operator System::Reflection::ICustomAttributeProvider() noexcept {
       return *reinterpret_cast<System::Reflection::ICustomAttributeProvider*>(this);

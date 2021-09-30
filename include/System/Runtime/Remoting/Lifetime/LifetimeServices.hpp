@@ -29,8 +29,6 @@ namespace System::Runtime::Remoting::Lifetime {
   // [ComVisibleAttribute] Offset: E5FC58
   class LifetimeServices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LifetimeServices
-    LifetimeServices() noexcept {}
     // Get static field: static private System.TimeSpan _leaseManagerPollTime
     static System::TimeSpan _get__leaseManagerPollTime();
     // Set static field: static private System.TimeSpan _leaseManagerPollTime

@@ -35,8 +35,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRManager_$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRManager_$$c
-    OVRManager_$$c() noexcept {}
     // Get static field: static public readonly OVRManager/<>c <>9
     static GlobalNamespace::OVRManager_$$c* _get_$$9();
     // Set static field: static public readonly OVRManager/<>c <>9

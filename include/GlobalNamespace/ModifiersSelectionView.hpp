@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // Creating value type constructor for type: ModifiersSelectionView
-    ModifiersSelectionView(GlobalNamespace::GameplayModifierInfoListItemsList* modifierInfoList_ = {}, TMPro::TextMeshProUGUI* noModifiersText_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}) noexcept : modifierInfoList{modifierInfoList_}, noModifiersText{noModifiersText_}, gameplayModifiersModel{gameplayModifiersModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierInfoListItemsList _modifierInfoList

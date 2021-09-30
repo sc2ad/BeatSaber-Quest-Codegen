@@ -36,8 +36,6 @@ namespace Org::BouncyCastle::Security {
     public:
     // Nested type: Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm
     struct DigestAlgorithm;
-    // Creating value type constructor for type: DigestUtilities
-    DigestUtilities() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary algorithms
     static System::Collections::IDictionary* _get_algorithms();
     // Set static field: static private readonly System.Collections.IDictionary algorithms

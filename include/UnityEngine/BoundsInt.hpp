@@ -118,7 +118,6 @@ namespace UnityEngine {
     UnityEngine::BoundsInt::PositionEnumerator get_allPositionsWithin();
     // public System.Void .ctor(UnityEngine.Vector3Int position, UnityEngine.Vector3Int size)
     // Offset: 0x1CAFB24
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BoundsInt(UnityEngine::Vector3Int position, UnityEngine::Vector3Int size)
     // public System.Boolean Equals(UnityEngine.BoundsInt other)
     // Offset: 0x1CAFD0C

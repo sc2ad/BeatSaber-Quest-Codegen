@@ -40,8 +40,6 @@ namespace System::Security::Cryptography::X509Certificates {
     ::ArrayWrapper<uint8_t> canonEncoding;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: X500DistinguishedName
-    X500DistinguishedName(::Il2CppString* name_ = {}, ::ArrayWrapper<uint8_t> canonEncoding_ = {}) noexcept : name{name_}, canonEncoding{canonEncoding_} {}
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: private System.Byte[] canonEncoding

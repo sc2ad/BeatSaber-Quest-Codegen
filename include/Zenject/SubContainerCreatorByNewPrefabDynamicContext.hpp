@@ -49,8 +49,6 @@ namespace Zenject {
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorByNewPrefabDynamicContext
-    SubContainerCreatorByNewPrefabDynamicContext(Zenject::IPrefabProvider* prefabProvider_ = {}, Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}) noexcept : prefabProvider{prefabProvider_}, gameObjectBindInfo{gameObjectBindInfo_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly Zenject.IPrefabProvider _prefabProvider

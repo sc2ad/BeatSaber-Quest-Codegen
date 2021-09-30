@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     int lastRefreshFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LightManager
-    LightManager(::ArrayWrapper<UnityEngine::Vector4> directionalLightDirections_ = {}, ::ArrayWrapper<UnityEngine::Vector4> directionalLightColors_ = {}, ::ArrayWrapper<UnityEngine::Vector4> directionalLightPositions_ = {}, ::ArrayWrapper<float> directionalLightRadii_ = {}, ::ArrayWrapper<UnityEngine::Vector4> pointLightPositions_ = {}, ::ArrayWrapper<UnityEngine::Vector4> pointLightColors_ = {}, int lastRefreshFrameNum_ = {}) noexcept : directionalLightDirections{directionalLightDirections_}, directionalLightColors{directionalLightColors_}, directionalLightPositions{directionalLightPositions_}, directionalLightRadii{directionalLightRadii_}, pointLightPositions{pointLightPositions_}, pointLightColors{pointLightColors_}, lastRefreshFrameNum{lastRefreshFrameNum_} {}
     // Creating interface conversion operator: operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks
     operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks() noexcept {
       return *reinterpret_cast<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>(this);

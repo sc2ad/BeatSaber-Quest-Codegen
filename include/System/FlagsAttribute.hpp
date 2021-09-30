@@ -22,8 +22,6 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5C0F0
   class FlagsAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: FlagsAttribute
-    FlagsAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19A7954
     // Implemented from: System.Attribute

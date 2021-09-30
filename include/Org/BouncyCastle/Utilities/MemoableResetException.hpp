@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemoableResetException : public System::InvalidCastException {
     public:
-    // Creating value type constructor for type: MemoableResetException
-    MemoableResetException() noexcept {}
     // public System.Void .ctor(System.String msg)
     // Offset: 0x21836FC
     // Implemented from: System.InvalidCastException

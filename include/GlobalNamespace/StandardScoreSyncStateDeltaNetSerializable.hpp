@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     int timeOffsetMs;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StandardScoreSyncStateDeltaNetSerializable
-    StandardScoreSyncStateDeltaNetSerializable(GlobalNamespace::StandardScoreSyncState delta_ = {}, GlobalNamespace::SyncStateId baseId_ = {}, int timeOffsetMs_ = {}) noexcept : delta{delta_}, baseId{baseId_}, timeOffsetMs{timeOffsetMs_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

@@ -29,8 +29,6 @@ namespace System::Runtime::Remoting::Activation {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstructionLevelActivator : public ::Il2CppObject/*, public System::Runtime::Remoting::Activation::IActivator*/ {
     public:
-    // Creating value type constructor for type: ConstructionLevelActivator
-    ConstructionLevelActivator() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IActivator
     operator System::Runtime::Remoting::Activation::IActivator() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);

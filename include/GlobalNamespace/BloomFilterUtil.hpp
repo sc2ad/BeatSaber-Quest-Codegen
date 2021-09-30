@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BloomFilterUtil::$$c__DisplayClass2_0_1<T>
     template<typename T>
     class $$c__DisplayClass2_0_1;
-    // Creating value type constructor for type: BloomFilterUtil
-    BloomFilterUtil() noexcept {}
     // static private System.UInt32 MurmurHash2(System.String key)
     // Offset: 0x256EF98
     static uint MurmurHash2(::Il2CppString* key);

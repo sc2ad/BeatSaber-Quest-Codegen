@@ -230,7 +230,6 @@ namespace UnityEngine {
     static UnityEngine::Matrix4x4 get_identity();
     // public System.Void .ctor(UnityEngine.Vector4 column0, UnityEngine.Vector4 column1, UnityEngine.Vector4 column2, UnityEngine.Vector4 column3)
     // Offset: 0x1DA5EBC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Matrix4x4(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Matrix4x4::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(column0), ::il2cpp_utils::ExtractType(column1), ::il2cpp_utils::ExtractType(column2), ::il2cpp_utils::ExtractType(column3)})));

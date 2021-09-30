@@ -49,8 +49,6 @@ namespace UnityEngine::TestTools {
     int repeatCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EnumerableRepeatedTestCommand
-    EnumerableRepeatedTestCommand(int repeatCount_ = {}) noexcept : repeatCount{repeatCount_} {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

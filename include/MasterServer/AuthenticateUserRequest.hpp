@@ -47,8 +47,6 @@ namespace MasterServer {
     GlobalNamespace::AuthenticationToken authenticationToken;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AuthenticationToken) == 0x20);
-    // Creating value type constructor for type: AuthenticateUserRequest
-    AuthenticateUserRequest(GlobalNamespace::AuthenticationToken authenticationToken_ = {}) noexcept : authenticationToken{authenticationToken_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerAuthenticateRequest
     operator MasterServer::IMasterServerAuthenticateRequest() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAuthenticateRequest*>(this);

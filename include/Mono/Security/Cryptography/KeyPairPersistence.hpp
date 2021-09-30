@@ -49,8 +49,6 @@ namespace Mono::Security::Cryptography {
     ::Il2CppString* container;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: KeyPairPersistence
-    KeyPairPersistence(System::Security::Cryptography::CspParameters* params_ = {}, ::Il2CppString* keyvalue_ = {}, ::Il2CppString* filename_ = {}, ::Il2CppString* container_ = {}) noexcept : params{params_}, keyvalue{keyvalue_}, filename{filename_}, container{container_} {}
     // Get static field: static private System.Boolean _userPathExists
     static bool _get__userPathExists();
     // Set static field: static private System.Boolean _userPathExists

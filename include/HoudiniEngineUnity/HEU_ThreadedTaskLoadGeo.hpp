@@ -217,8 +217,6 @@ namespace HoudiniEngineUnity {
       System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>*) == 0x8);
-      // Creating value type constructor for type: HEU_LoadData
-      HEU_LoadData(int cookNodeID_ = {}, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus loadStatus_ = {}, System::Text::StringBuilder* logStr_ = {}, HoudiniEngineUnity::HEU_SessionBase* session_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject*>* loadedObjects_ = {}, System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap_ = {}) noexcept : cookNodeID{cookNodeID_}, loadStatus{loadStatus_}, logStr{logStr_}, session{session_}, loadedObjects{loadedObjects_}, idBuffersMap{idBuffersMap_} {}
       // Get instance field reference: public System.Int32 _cookNodeID
       int& dyn__cookNodeID();
       // Get instance field reference: public HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus _loadStatus
@@ -290,8 +288,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* loadCallback;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*) == 0x8);
-    // Creating value type constructor for type: HEU_ThreadedTaskLoadGeo
-    HEU_ThreadedTaskLoadGeo(HoudiniEngineUnity::HEU_BaseSync* ownerSync_ = {}, HoudiniEngineUnity::HEU_SessionBase* session_ = {}, HoudiniEngineUnity::HEU_GenerateOptions generateOptions_ = {}, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType loadType_ = {}, ::Il2CppString* filePath_ = {}, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData_ = {}, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* loadCallback_ = {}) noexcept : ownerSync{ownerSync_}, session{session_}, generateOptions{generateOptions_}, loadType{loadType_}, filePath{filePath_}, loadData{loadData_}, loadCallback{loadCallback_} {}
     // Get instance field reference: private HoudiniEngineUnity.HEU_BaseSync _ownerSync
     HoudiniEngineUnity::HEU_BaseSync*& dyn__ownerSync();
     // Get instance field reference: private HoudiniEngineUnity.HEU_SessionBase _session

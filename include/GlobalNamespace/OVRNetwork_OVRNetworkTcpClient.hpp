@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     System::Threading::ManualResetEvent* readyReceiveDataEvent;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
-    // Creating value type constructor for type: OVRNetworkTcpClient
-    OVRNetworkTcpClient(System::Action* connectionStateChangedCallback_ = {}, System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>* payloadReceivedCallback_ = {}, System::Net::Sockets::TcpClient* tcpClient_ = {}, ::ArrayWrapper<::ArrayWrapper<uint8_t>> receivedBuffers_ = {}, int receivedBufferIndex_ = {}, int receivedBufferDataSize_ = {}, System::Threading::ManualResetEvent* readyReceiveDataEvent_ = {}) noexcept : connectionStateChangedCallback{connectionStateChangedCallback_}, payloadReceivedCallback{payloadReceivedCallback_}, tcpClient{tcpClient_}, receivedBuffers{receivedBuffers_}, receivedBufferIndex{receivedBufferIndex_}, receivedBufferDataSize{receivedBufferDataSize_}, readyReceiveDataEvent{readyReceiveDataEvent_} {}
     // Get instance field reference: public System.Action connectionStateChangedCallback
     System::Action*& dyn_connectionStateChangedCallback();
     // Get instance field reference: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback

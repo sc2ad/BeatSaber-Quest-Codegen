@@ -28,8 +28,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IOUtil
-    IOUtil() noexcept {}
     // static System.Boolean FlagTest(System.Runtime.Serialization.Formatters.Binary.MessageEnum flag, System.Runtime.Serialization.Formatters.Binary.MessageEnum target)
     // Offset: 0x17E9AB4
     static bool FlagTest(System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, System::Runtime::Serialization::Formatters::Binary::MessageEnum target);

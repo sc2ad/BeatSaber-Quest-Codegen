@@ -67,7 +67,7 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: RSAParameters
-    constexpr RSAParameters(::ArrayWrapper<uint8_t> Exponent_ = {}, ::ArrayWrapper<uint8_t> Modulus_ = {}, ::ArrayWrapper<uint8_t> P_ = {}, ::ArrayWrapper<uint8_t> Q_ = {}, ::ArrayWrapper<uint8_t> DP_ = {}, ::ArrayWrapper<uint8_t> DQ_ = {}, ::ArrayWrapper<uint8_t> InverseQ_ = {}, ::ArrayWrapper<uint8_t> D_ = {}) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
+    constexpr RSAParameters(::ArrayWrapper<uint8_t> Exponent_ = {nullptr}, ::ArrayWrapper<uint8_t> Modulus_ = {nullptr}, ::ArrayWrapper<uint8_t> P_ = {nullptr}, ::ArrayWrapper<uint8_t> Q_ = {nullptr}, ::ArrayWrapper<uint8_t> DP_ = {nullptr}, ::ArrayWrapper<uint8_t> DQ_ = {nullptr}, ::ArrayWrapper<uint8_t> InverseQ_ = {nullptr}, ::ArrayWrapper<uint8_t> D_ = {nullptr}) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

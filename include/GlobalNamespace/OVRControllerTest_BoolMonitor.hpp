@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     float m_displayTimer;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BoolMonitor
-    BoolMonitor(::Il2CppString* m_name_ = {}, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* m_generator_ = {}, bool m_prevValue_ = {}, bool m_currentValue_ = {}, bool m_currentValueRecentlyChanged_ = {}, float m_displayTimeout_ = {}, float m_displayTimer_ = {}) noexcept : m_name{m_name_}, m_generator{m_generator_}, m_prevValue{m_prevValue_}, m_currentValue{m_currentValue_}, m_currentValueRecentlyChanged{m_currentValueRecentlyChanged_}, m_displayTimeout{m_displayTimeout_}, m_displayTimer{m_displayTimer_} {}
     // Get instance field reference: private System.String m_name
     ::Il2CppString*& dyn_m_name();
     // Get instance field reference: private OVRControllerTest/BoolMonitor/BoolGenerator m_generator

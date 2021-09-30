@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::PeerConnectionState State;
     // Field size check
     static_assert(sizeof(Oculus::Platform::PeerConnectionState) == 0x4);
-    // Creating value type constructor for type: NetworkingPeer
-    NetworkingPeer(uint64_t _ID_ = {}, Oculus::Platform::PeerConnectionState State_ = {}) noexcept : _ID{_ID_}, State{State_} {}
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private Oculus.Platform.PeerConnectionState <State>k__BackingField

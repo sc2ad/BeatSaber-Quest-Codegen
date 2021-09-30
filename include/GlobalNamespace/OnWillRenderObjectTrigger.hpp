@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // Creating value type constructor for type: OnWillRenderObjectTrigger
-    OnWillRenderObjectTrigger(UnityEngine::Shader* overrideShader_ = {}, int renderQueue_ = {}, UnityEngine::Material* material_ = {}, UnityEngine::Mesh* mesh_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}) noexcept : overrideShader{overrideShader_}, renderQueue{renderQueue_}, material{material_}, mesh{mesh_}, meshFilter{meshFilter_}, meshRenderer{meshRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Shader _overrideShader

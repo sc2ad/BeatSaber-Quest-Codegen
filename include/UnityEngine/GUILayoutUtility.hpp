@@ -44,8 +44,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::GUILayoutUtility::LayoutCache
     class LayoutCache;
-    // Creating value type constructor for type: GUILayoutUtility
-    GUILayoutUtility() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/UnityEngine.LayoutCache> s_StoredLayouts
     static System::Collections::Generic::Dictionary_2<int, UnityEngine::GUILayoutUtility::LayoutCache*>* _get_s_StoredLayouts();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/UnityEngine.LayoutCache> s_StoredLayouts

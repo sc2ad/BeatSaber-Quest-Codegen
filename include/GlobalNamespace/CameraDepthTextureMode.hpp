@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     UnityEngine::DepthTextureMode depthTextureMode;
     // Field size check
     static_assert(sizeof(UnityEngine::DepthTextureMode) == 0x4);
-    // Creating value type constructor for type: CameraDepthTextureMode
-    CameraDepthTextureMode(UnityEngine::DepthTextureMode depthTextureMode_ = {}) noexcept : depthTextureMode{depthTextureMode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.DepthTextureMode _depthTextureMode

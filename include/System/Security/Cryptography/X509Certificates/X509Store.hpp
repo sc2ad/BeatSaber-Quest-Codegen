@@ -74,8 +74,6 @@ namespace System::Security::Cryptography::X509Certificates {
     Mono::Security::X509::X509Store* store;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509Store*) == 0x8);
-    // Creating value type constructor for type: X509Store
-    X509Store(::Il2CppString* name_ = {}, System::Security::Cryptography::X509Certificates::StoreLocation location_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2Collection* list_ = {}, System::Security::Cryptography::X509Certificates::OpenFlags flags_ = {}, Mono::Security::X509::X509Store* store_ = {}) noexcept : name{name_}, location{location_}, list{list_}, flags{flags_}, store{store_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

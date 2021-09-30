@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     ::Il2CppString* leaderboardId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LeaderboardIdData
-    LeaderboardIdData(uint ps4LeaderboardId_ = {}, ::Il2CppString* leaderboardId_ = {}) noexcept : ps4LeaderboardId{ps4LeaderboardId_}, leaderboardId{leaderboardId_} {}
     // Get instance field reference: private System.UInt32 _ps4LeaderboardId
     uint& dyn__ps4LeaderboardId();
     // Get instance field reference: private System.String _leaderboardId

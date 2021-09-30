@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
-    // Creating value type constructor for type: ISO10126d2Padding
-    ISO10126d2Padding(Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : random{random_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding
     operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);

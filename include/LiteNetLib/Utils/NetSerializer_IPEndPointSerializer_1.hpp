@@ -36,8 +36,6 @@ namespace LiteNetLib::Utils {
   template<typename T>
   class NetSerializer::IPEndPointSerializer_1 : public LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2<T, System::Net::IPEndPoint*> {
     public:
-    // Creating value type constructor for type: IPEndPointSerializer_1
-    IPEndPointSerializer_1() noexcept {}
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref System.Net.IPEndPoint prop)
     // Offset: 0xFFFFFFFF
     void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, ByRef<System::Net::IPEndPoint*> prop) {

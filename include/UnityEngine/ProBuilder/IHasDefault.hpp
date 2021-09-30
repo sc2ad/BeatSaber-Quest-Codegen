@@ -13,8 +13,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class IHasDefault {
     public:
-    // Creating value type constructor for type: IHasDefault
-    IHasDefault() noexcept {}
     // public System.Void SetDefaultValues()
     // Offset: 0xFFFFFFFF
     void SetDefaultValues();

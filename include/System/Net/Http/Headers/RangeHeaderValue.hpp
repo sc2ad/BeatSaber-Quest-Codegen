@@ -48,8 +48,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* unit;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RangeHeaderValue
-    RangeHeaderValue(System::Collections::Generic::List_1<System::Net::Http::Headers::RangeItemHeaderValue*>* ranges_ = {}, ::Il2CppString* unit_ = {}) noexcept : ranges{ranges_}, unit{unit_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

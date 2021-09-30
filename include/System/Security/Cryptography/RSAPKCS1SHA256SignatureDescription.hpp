@@ -20,8 +20,6 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RSAPKCS1SHA256SignatureDescription : public System::Security::Cryptography::RSAPKCS1SignatureDescription {
     public:
-    // Creating value type constructor for type: RSAPKCS1SHA256SignatureDescription
-    RSAPKCS1SHA256SignatureDescription() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CC3D04
     // Implemented from: System.Security.Cryptography.SignatureDescription

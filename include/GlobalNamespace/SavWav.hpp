@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SavWav : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SavWav
-    SavWav() noexcept {}
     // static field const value: static private System.UInt32 HeaderSize
     static constexpr const uint HeaderSize = 44u;
     // Get static field: static private System.UInt32 HeaderSize

@@ -46,8 +46,6 @@ namespace System::Security::Util {
     System::Security::Util::Tokenizer* t;
     // Field size check
     static_assert(sizeof(System::Security::Util::Tokenizer*) == 0x8);
-    // Creating value type constructor for type: Parser
-    Parser(System::Security::SecurityDocument* doc_ = {}, System::Security::Util::Tokenizer* t_ = {}) noexcept : doc{doc_}, t{t_} {}
     // Get instance field reference: private System.Security.SecurityDocument _doc
     System::Security::SecurityDocument*& dyn__doc();
     // Get instance field reference: private System.Security.Util.Tokenizer _t

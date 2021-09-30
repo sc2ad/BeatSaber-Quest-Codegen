@@ -130,8 +130,6 @@ namespace UnityEngine::Tilemaps {
     UnityEngine::Tilemaps::Tile::ColliderType m_ColliderType;
     // Field size check
     static_assert(sizeof(UnityEngine::Tilemaps::Tile::ColliderType) == 0x4);
-    // Creating value type constructor for type: Tile
-    Tile(UnityEngine::Sprite* m_Sprite_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Matrix4x4 m_Transform_ = {}, UnityEngine::GameObject* m_InstancedGameObject_ = {}, UnityEngine::Tilemaps::TileFlags m_Flags_ = {}, UnityEngine::Tilemaps::Tile::ColliderType m_ColliderType_ = {}) noexcept : m_Sprite{m_Sprite_}, m_Color{m_Color_}, m_Transform{m_Transform_}, m_InstancedGameObject{m_InstancedGameObject_}, m_Flags{m_Flags_}, m_ColliderType{m_ColliderType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite m_Sprite

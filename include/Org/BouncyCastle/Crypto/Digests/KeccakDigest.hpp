@@ -58,8 +58,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     bool squeezing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: KeccakDigest
-    KeccakDigest(::ArrayWrapper<uint64_t> state_ = {}, ::ArrayWrapper<uint8_t> dataQueue_ = {}, int rate_ = {}, int bitsInQueue_ = {}, int fixedOutputLength_ = {}, bool squeezing_ = {}) noexcept : state{state_}, dataQueue{dataQueue_}, rate{rate_}, bitsInQueue{bitsInQueue_}, fixedOutputLength{fixedOutputLength_}, squeezing{squeezing_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

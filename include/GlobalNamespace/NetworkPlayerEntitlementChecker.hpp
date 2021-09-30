@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // Creating value type constructor for type: NetworkPlayerEntitlementChecker
-    NetworkPlayerEntitlementChecker(GlobalNamespace::IMenuRpcManager* rpcManager_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}) noexcept : rpcManager{rpcManager_}, additionalContentModel{additionalContentModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IMenuRpcManager _rpcManager

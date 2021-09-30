@@ -57,8 +57,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>* tools;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*) == 0x8);
-    // Creating value type constructor for type: HEU_Shelf
-    HEU_Shelf(::Il2CppString* shelfName_ = {}, ::Il2CppString* shelfPath_ = {}, bool defaultShelf_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>* tools_ = {}) noexcept : shelfName{shelfName_}, shelfPath{shelfPath_}, defaultShelf{defaultShelf_}, tools{tools_} {}
     // Get instance field reference: public System.String _shelfName
     ::Il2CppString*& dyn__shelfName();
     // Get instance field reference: public System.String _shelfPath

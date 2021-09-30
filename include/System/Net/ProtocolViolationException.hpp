@@ -27,8 +27,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProtocolViolationException : public System::InvalidOperationException {
     public:
-    // Creating value type constructor for type: ProtocolViolationException
-    ProtocolViolationException() noexcept {}
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Offset: 0x164A818
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

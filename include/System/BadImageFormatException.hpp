@@ -44,8 +44,6 @@ namespace System {
     ::Il2CppString* fusionLog;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: BadImageFormatException
-    BadImageFormatException(::Il2CppString* fileName_ = {}, ::Il2CppString* fusionLog_ = {}) noexcept : fileName{fileName_}, fusionLog{fusionLog_} {}
     // Get instance field reference: private System.String _fileName
     ::Il2CppString*& dyn__fileName();
     // Get instance field reference: private System.String _fusionLog

@@ -77,8 +77,6 @@ namespace System::Collections {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Queue
-    Queue(::ArrayWrapper<::Il2CppObject*> array_ = {}, int head_ = {}, int tail_ = {}, int size_ = {}, int growFactor_ = {}, int version_ = {}) noexcept : array{array_}, head{head_}, tail{tail_}, size{size_}, growFactor{growFactor_}, version{version_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteDebris*) == 0x8);
-    // Creating value type constructor for type: EffectPoolsManualInstaller
-    EffectPoolsManualInstaller(GlobalNamespace::FlyingTextEffect* flyingTextEffectPrefab_ = {}, GlobalNamespace::FlyingScoreEffect* flyingScoreEffectPrefab_ = {}, GlobalNamespace::BeatEffect* beatEffectPrefab_ = {}, GlobalNamespace::BeatEffect* shortBeatEffectPrefab_ = {}, GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffectPrefab_ = {}, GlobalNamespace::BombCutSoundEffect* bombCutSoundEffectPrefab_ = {}, GlobalNamespace::FlyingSpriteEffect* flyingSpriteEffectPrefab_ = {}, GlobalNamespace::BoolSO* noteDebrisHDConditionVariable_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : flyingTextEffectPrefab{flyingTextEffectPrefab_}, flyingScoreEffectPrefab{flyingScoreEffectPrefab_}, beatEffectPrefab{beatEffectPrefab_}, shortBeatEffectPrefab{shortBeatEffectPrefab_}, noteCutSoundEffectPrefab{noteCutSoundEffectPrefab_}, bombCutSoundEffectPrefab{bombCutSoundEffectPrefab_}, flyingSpriteEffectPrefab{flyingSpriteEffectPrefab_}, noteDebrisHDConditionVariable{noteDebrisHDConditionVariable_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingTextEffect _flyingTextEffectPrefab

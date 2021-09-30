@@ -60,8 +60,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::SignalAsset* m_Asset;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::SignalAsset*) == 0x8);
-    // Creating value type constructor for type: SignalEmitter
-    SignalEmitter(bool m_Retroactive_ = {}, bool m_EmitOnce_ = {}, UnityEngine::Timeline::SignalAsset* m_Asset_ = {}) noexcept : m_Retroactive{m_Retroactive_}, m_EmitOnce{m_EmitOnce_}, m_Asset{m_Asset_} {}
     // Creating interface conversion operator: operator UnityEngine::Playables::INotification
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);

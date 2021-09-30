@@ -102,8 +102,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* TopLevelWorkItem;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*) == 0x8);
-    // Creating value type constructor for type: UnityTestAssemblyRunner
-    UnityTestAssemblyRunner(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* unityBuilder_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* m_Factory_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* Context_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* Settings_ = {}, NUnit::Framework::Interfaces::ITest* LoadedTest_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* TopLevelWorkItem_ = {}) noexcept : unityBuilder{unityBuilder_}, m_Factory{m_Factory_}, Context{Context_}, Settings{Settings_}, LoadedTest{LoadedTest_}, TopLevelWorkItem{TopLevelWorkItem_} {}
     // Get instance field reference: private readonly UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder unityBuilder
     UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_unityBuilder();
     // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory

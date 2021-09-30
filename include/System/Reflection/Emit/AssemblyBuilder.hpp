@@ -16,8 +16,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyBuilder : public System::Reflection::Assembly {
     public:
-    // Creating value type constructor for type: AssemblyBuilder
-    AssemblyBuilder() noexcept {}
   }; // System.Reflection.Emit.AssemblyBuilder
   #pragma pack(pop)
 }

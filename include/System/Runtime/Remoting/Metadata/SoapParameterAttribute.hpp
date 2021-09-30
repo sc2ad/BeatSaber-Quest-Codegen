@@ -22,8 +22,6 @@ namespace System::Runtime::Remoting::Metadata {
   // [ComVisibleAttribute] Offset: E5FF2C
   class SoapParameterAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
-    // Creating value type constructor for type: SoapParameterAttribute
-    SoapParameterAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1C0F8C0
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute

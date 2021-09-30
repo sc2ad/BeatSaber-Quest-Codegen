@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [CLSCompliantAttribute] Offset: E61434
   class _Type {
     public:
-    // Creating value type constructor for type: _Type
-    _Type() noexcept {}
   }; // System.Runtime.InteropServices._Type
   #pragma pack(pop)
 }

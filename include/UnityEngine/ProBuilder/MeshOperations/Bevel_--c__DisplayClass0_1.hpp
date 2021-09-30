@@ -36,8 +36,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::EdgeLookup lup;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::EdgeLookup) == 0x10);
-    // Creating value type constructor for type: $$c__DisplayClass0_1
-    $$c__DisplayClass0_1(UnityEngine::ProBuilder::EdgeLookup lup_ = {}) noexcept : lup{lup_} {}
     // Creating conversion operator: operator UnityEngine::ProBuilder::EdgeLookup
     constexpr operator UnityEngine::ProBuilder::EdgeLookup() const noexcept {
       return lup;

@@ -75,8 +75,6 @@ namespace System::Collections {
     ::Il2CppObject* currentValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: HashtableEnumerator
-    HashtableEnumerator(System::Collections::Hashtable* hashtable_ = {}, int bucket_ = {}, int version_ = {}, bool current_ = {}, int getObjectRetType_ = {}, ::Il2CppObject* currentKey_ = {}, ::Il2CppObject* currentValue_ = {}) noexcept : hashtable{hashtable_}, bucket{bucket_}, version{version_}, current{current_}, getObjectRetType{getObjectRetType_}, currentKey{currentKey_}, currentValue{currentValue_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB545C
   class IVRTrackedCamera::_GetCameraFrameSize : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetCameraFrameSize
-    _GetCameraFrameSize() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE3F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

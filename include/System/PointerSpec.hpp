@@ -38,8 +38,6 @@ namespace System {
     int pointer_level;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PointerSpec
-    PointerSpec(int pointer_level_ = {}) noexcept : pointer_level{pointer_level_} {}
     // Creating interface conversion operator: operator System::ModifierSpec
     operator System::ModifierSpec() noexcept {
       return *reinterpret_cast<System::ModifierSpec*>(this);

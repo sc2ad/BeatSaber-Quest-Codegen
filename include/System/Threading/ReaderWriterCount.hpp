@@ -50,8 +50,6 @@ namespace System::Threading {
     System::Threading::ReaderWriterCount* next;
     // Field size check
     static_assert(sizeof(System::Threading::ReaderWriterCount*) == 0x8);
-    // Creating value type constructor for type: ReaderWriterCount
-    ReaderWriterCount(int64_t lockID_ = {}, int readercount_ = {}, int writercount_ = {}, int upgradecount_ = {}, System::Threading::ReaderWriterCount* next_ = {}) noexcept : lockID{lockID_}, readercount{readercount_}, writercount{writercount_}, upgradecount{upgradecount_}, next{next_} {}
     // Get instance field reference: public System.Int64 lockID
     int64_t& dyn_lockID();
     // Get instance field reference: public System.Int32 readercount

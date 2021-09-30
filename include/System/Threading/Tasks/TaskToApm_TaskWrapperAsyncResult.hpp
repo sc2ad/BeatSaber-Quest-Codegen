@@ -52,8 +52,6 @@ namespace System::Threading::Tasks {
     bool m_completedSynchronously;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TaskWrapperAsyncResult
-    TaskWrapperAsyncResult(System::Threading::Tasks::Task* Task_ = {}, ::Il2CppObject* m_state_ = {}, bool m_completedSynchronously_ = {}) noexcept : Task{Task_}, m_state{m_state_}, m_completedSynchronously{m_completedSynchronously_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

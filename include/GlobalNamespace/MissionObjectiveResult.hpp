@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MissionObjectiveResult
-    MissionObjectiveResult(GlobalNamespace::MissionObjective* missionObjective_ = {}, bool cleared_ = {}, int value_ = {}) noexcept : missionObjective{missionObjective_}, cleared{cleared_}, value{value_} {}
     // Get instance field reference: private MissionObjective <missionObjective>k__BackingField
     GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
     // Get instance field reference: private System.Boolean <cleared>k__BackingField

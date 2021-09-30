@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // Creating value type constructor for type: MissionLevelScenesTransitionSetupDataSO
-    MissionLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* missionGameplaySceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* didFinishEvent_ = {}, ::Il2CppString* missionId_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : missionGameplaySceneInfo{missionGameplaySceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_}, missionId{missionId_}, difficultyBeatmap{difficultyBeatmap_} {}
     // Get instance field reference: private SceneInfo _missionGameplaySceneInfo
     GlobalNamespace::SceneInfo*& dyn__missionGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo

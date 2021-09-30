@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
-    // Creating value type constructor for type: EventAudioBinding
-    EventAudioBinding(GlobalNamespace::Signal* signal_ = {}, float delay_ = {}, ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips_ = {}, GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker_ = {}) noexcept : signal{signal_}, delay{delay_}, localizedAudioClips{localizedAudioClips_}, audioClipQueue{audioClipQueue_}, randomObjectPicker{randomObjectPicker_} {}
     // Get instance field reference: private Signal _signal
     GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.Single _delay

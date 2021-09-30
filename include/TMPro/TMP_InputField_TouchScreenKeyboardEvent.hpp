@@ -23,8 +23,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::TouchScreenKeyboardEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::TouchScreenKeyboard::Status> {
     public:
-    // Creating value type constructor for type: TouchScreenKeyboardEvent
-    TouchScreenKeyboardEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x121DF60
     // Implemented from: UnityEngine.Events.UnityEvent`1

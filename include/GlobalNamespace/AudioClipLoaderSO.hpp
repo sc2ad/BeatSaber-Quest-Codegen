@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     bool isLoading;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AudioClipLoaderSO
-    AudioClipLoaderSO(bool isLoading_ = {}) noexcept : isLoading{isLoading_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isLoading

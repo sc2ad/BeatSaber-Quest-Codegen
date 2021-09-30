@@ -34,8 +34,6 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class KerningTable::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly TMPro.KerningTable/TMPro.<>c <>9
     static TMPro::KerningTable::$$c* _get_$$9();
     // Set static field: static public readonly TMPro.KerningTable/TMPro.<>c <>9

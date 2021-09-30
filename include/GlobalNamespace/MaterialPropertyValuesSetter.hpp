@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*> ints;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>) == 0x8);
-    // Creating value type constructor for type: MaterialPropertyValuesSetter
-    MaterialPropertyValuesSetter(GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*> floats_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*> vectors_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*> colors_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*> ints_ = {}) noexcept : materialPropertyBlockController{materialPropertyBlockController_}, floats{floats_}, vectors{vectors_}, colors{colors_}, ints{ints_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController

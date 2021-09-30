@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::GameObject*> visualObjects;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
-    // Creating value type constructor for type: MultiplayerLobbyAvatarController
-    MultiplayerLobbyAvatarController(UnityEngine::Playables::PlayableDirector* spawnEffect_ = {}, GlobalNamespace::VFXController* despawnVFXController_ = {}, float spawnAvatarDelay_ = {}, float despawnAvatarDelay_ = {}, float destroyAvatarDelay_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> visualObjects_ = {}) noexcept : spawnEffect{spawnEffect_}, despawnVFXController{despawnVFXController_}, spawnAvatarDelay{spawnAvatarDelay_}, despawnAvatarDelay{despawnAvatarDelay_}, destroyAvatarDelay{destroyAvatarDelay_}, visualObjects{visualObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnEffect

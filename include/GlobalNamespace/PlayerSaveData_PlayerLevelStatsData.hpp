@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     int playCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PlayerLevelStatsData
-    PlayerLevelStatsData(::Il2CppString* levelId_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}, ::Il2CppString* beatmapCharacteristicName_ = {}, int highScore_ = {}, int maxCombo_ = {}, bool fullCombo_ = {}, GlobalNamespace::RankModel::Rank maxRank_ = {}, bool validScore_ = {}, int playCount_ = {}) noexcept : levelId{levelId_}, difficulty{difficulty_}, beatmapCharacteristicName{beatmapCharacteristicName_}, highScore{highScore_}, maxCombo{maxCombo_}, fullCombo{fullCombo_}, maxRank{maxRank_}, validScore{validScore_}, playCount{playCount_} {}
     // Get instance field reference: public System.String levelId
     ::Il2CppString*& dyn_levelId();
     // Get instance field reference: public BeatmapDifficulty difficulty

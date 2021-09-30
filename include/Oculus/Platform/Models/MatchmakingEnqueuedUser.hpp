@@ -52,8 +52,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* User;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // Creating value type constructor for type: MatchmakingEnqueuedUser
-    MatchmakingEnqueuedUser(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* CustomData_ = {}, Oculus::Platform::Models::User* UserOptional_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : CustomData{CustomData_}, UserOptional{UserOptional_}, User{User_} {}
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_CustomData();
     // Get instance field reference: public readonly Oculus.Platform.Models.User UserOptional

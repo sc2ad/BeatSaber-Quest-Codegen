@@ -158,11 +158,9 @@ namespace UnityEngine {
     void set_yMax(float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single width, System.Single height)
     // Offset: 0x1E011DC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Rect(float x, float y, float width, float height)
     // public System.Void .ctor(UnityEngine.Vector2 position, UnityEngine.Vector2 size)
     // Offset: 0x1E011E8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Rect(UnityEngine::Vector2 position, UnityEngine::Vector2 size) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rect::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(size)})));
@@ -170,7 +168,6 @@ namespace UnityEngine {
     }
     // public System.Void .ctor(UnityEngine.Rect source)
     // Offset: 0x1E011F4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: is copy constructor.  Rect(UnityEngine::Rect source)
     // static public UnityEngine.Rect MinMaxRect(System.Single xmin, System.Single ymin, System.Single xmax, System.Single ymax)
     // Offset: 0x1E01214

@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CameraRenderCallbacksManager::ICameraRenderCallbacks {
     public:
-    // Creating value type constructor for type: ICameraRenderCallbacks
-    ICameraRenderCallbacks() noexcept {}
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
     // Offset: 0xFFFFFFFF
     void OnCameraPostRender(UnityEngine::Camera* camera);

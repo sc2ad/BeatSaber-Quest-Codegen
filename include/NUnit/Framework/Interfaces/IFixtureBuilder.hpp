@@ -31,8 +31,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFixtureBuilder {
     public:
-    // Creating value type constructor for type: IFixtureBuilder
-    IFixtureBuilder() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);

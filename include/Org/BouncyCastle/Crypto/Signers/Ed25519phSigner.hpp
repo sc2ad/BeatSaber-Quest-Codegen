@@ -68,8 +68,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*) == 0x8);
-    // Creating value type constructor for type: Ed25519phSigner
-    Ed25519phSigner(Org::BouncyCastle::Crypto::IDigest* prehash_ = {}, ::ArrayWrapper<uint8_t> context_ = {}, bool forSigning_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey_ = {}) noexcept : prehash{prehash_}, context{context_}, forSigning{forSigning_}, privateKey{privateKey_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

@@ -73,8 +73,6 @@ namespace System::Resources {
     bool haveReadFromReader;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RuntimeResourceSet
-    RuntimeResourceSet(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache_ = {}, System::Resources::ResourceReader* defaultReader_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* caseInsensitiveTable_ = {}, bool haveReadFromReader_ = {}) noexcept : resCache{resCache_}, defaultReader{defaultReader_}, caseInsensitiveTable{caseInsensitiveTable_}, haveReadFromReader{haveReadFromReader_} {}
     // static field const value: static System.Int32 Version
     static constexpr const int Version = 2;
     // Get static field: static System.Int32 Version

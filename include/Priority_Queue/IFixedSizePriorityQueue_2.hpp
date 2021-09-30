@@ -27,8 +27,6 @@ namespace Priority_Queue {
   template<typename TItem, typename TPriority>
   class IFixedSizePriorityQueue_2/*, public Priority_Queue::IPriorityQueue_2<TItem, TPriority>*/ {
     public:
-    // Creating value type constructor for type: IFixedSizePriorityQueue_2
-    IFixedSizePriorityQueue_2() noexcept {}
     // Creating interface conversion operator: operator Priority_Queue::IPriorityQueue_2<TItem, TPriority>
     operator Priority_Queue::IPriorityQueue_2<TItem, TPriority>() noexcept {
       return *reinterpret_cast<Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(this);

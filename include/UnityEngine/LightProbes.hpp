@@ -19,8 +19,6 @@ namespace UnityEngine {
   // [NativeAsStructAttribute] Offset: FFFFFFFF
   class LightProbes : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: LightProbes
-    LightProbes() noexcept {}
   }; // UnityEngine.LightProbes
   #pragma pack(pop)
 }

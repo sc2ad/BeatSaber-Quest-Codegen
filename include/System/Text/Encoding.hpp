@@ -106,8 +106,6 @@ namespace System::Text {
     System::Text::DecoderFallback* decoderFallback;
     // Field size check
     static_assert(sizeof(System::Text::DecoderFallback*) == 0x8);
-    // Creating value type constructor for type: Encoding
-    Encoding(int m_codePage_ = {}, System::Globalization::CodePageDataItem* dataItem_ = {}, bool m_deserializedFromEverett_ = {}, bool m_isReadOnly_ = {}, System::Text::EncoderFallback* encoderFallback_ = {}, System::Text::DecoderFallback* decoderFallback_ = {}) noexcept : m_codePage{m_codePage_}, dataItem{dataItem_}, m_deserializedFromEverett{m_deserializedFromEverett_}, m_isReadOnly{m_isReadOnly_}, encoderFallback{encoderFallback_}, decoderFallback{decoderFallback_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

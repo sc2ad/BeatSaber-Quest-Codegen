@@ -102,8 +102,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_ClearOtherCachedVersionsWhenLoaded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AssetBundleRequestOptions
-    AssetBundleRequestOptions(::Il2CppString* m_Hash_ = {}, uint m_Crc_ = {}, int m_Timeout_ = {}, bool m_ChunkedTransfer_ = {}, int m_RedirectLimit_ = {}, int m_RetryCount_ = {}, ::Il2CppString* m_BundleName_ = {}, int64_t m_BundleSize_ = {}, bool m_UseCrcForCachedBundles_ = {}, bool m_ClearOtherCachedVersionsWhenLoaded_ = {}) noexcept : m_Hash{m_Hash_}, m_Crc{m_Crc_}, m_Timeout{m_Timeout_}, m_ChunkedTransfer{m_ChunkedTransfer_}, m_RedirectLimit{m_RedirectLimit_}, m_RetryCount{m_RetryCount_}, m_BundleName{m_BundleName_}, m_BundleSize{m_BundleSize_}, m_UseCrcForCachedBundles{m_UseCrcForCachedBundles_}, m_ClearOtherCachedVersionsWhenLoaded{m_ClearOtherCachedVersionsWhenLoaded_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData
     operator UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(this);

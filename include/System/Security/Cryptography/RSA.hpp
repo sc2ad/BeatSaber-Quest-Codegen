@@ -37,8 +37,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F434
   class RSA : public System::Security::Cryptography::AsymmetricAlgorithm {
     public:
-    // Creating value type constructor for type: RSA
-    RSA() noexcept {}
     // static public System.Security.Cryptography.RSA Create()
     // Offset: 0x1CC1D50
     static System::Security::Cryptography::RSA* Create();

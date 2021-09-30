@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionHelpSO* missionHelp;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
-    // Creating value type constructor for type: MissionDataSO
-    MissionDataSO(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, missionHelp{missionHelp_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level

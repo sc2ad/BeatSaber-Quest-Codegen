@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICertificateValidator {
     public:
-    // Creating value type constructor for type: ICertificateValidator
-    ICertificateValidator() noexcept {}
     // public System.Void ValidateCertificateChain(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     // Offset: 0xFFFFFFFF
     void ValidateCertificateChain(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certificateChain);

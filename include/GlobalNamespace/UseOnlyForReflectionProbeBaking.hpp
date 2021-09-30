@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UseOnlyForReflectionProbeBaking : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: UseOnlyForReflectionProbeBaking
-    UseOnlyForReflectionProbeBaking() noexcept {}
     // protected System.Void Awake()
     // Offset: 0x134638C
     void Awake();

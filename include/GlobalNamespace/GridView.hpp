@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>* spawnedCellsPerPrefabDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>*) == 0x8);
-    // Creating value type constructor for type: GridView
-    GridView(UnityEngine::RectTransform* contentTransform_ = {}, GlobalNamespace::GridView::GridViewCellsEnumerator* cellsEnumerator_ = {}, GlobalNamespace::GridView::IDataSource* dataSource_ = {}, int columnCount_ = {}, int rowCount_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::Queue_1<UnityEngine::MonoBehaviour*>*>* availableCellsPerPrefabDictionary_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>* spawnedCellsPerPrefabDictionary_ = {}) noexcept : contentTransform{contentTransform_}, cellsEnumerator{cellsEnumerator_}, dataSource{dataSource_}, columnCount{columnCount_}, rowCount{rowCount_}, availableCellsPerPrefabDictionary{availableCellsPerPrefabDictionary_}, spawnedCellsPerPrefabDictionary{spawnedCellsPerPrefabDictionary_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _contentTransform

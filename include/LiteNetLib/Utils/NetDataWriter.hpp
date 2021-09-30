@@ -55,8 +55,6 @@ namespace LiteNetLib::Utils {
     bool autoResize;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NetDataWriter
-    NetDataWriter(::ArrayWrapper<uint8_t> data_ = {}, int position_ = {}, bool autoResize_ = {}) noexcept : data{data_}, position{position_}, autoResize{autoResize_} {}
     // static field const value: static private System.Int32 InitialSize
     static constexpr const int InitialSize = 64;
     // Get static field: static private System.Int32 InitialSize

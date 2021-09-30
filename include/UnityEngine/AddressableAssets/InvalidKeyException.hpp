@@ -44,8 +44,6 @@ namespace UnityEngine::AddressableAssets {
     System::Type* Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: InvalidKeyException
-    InvalidKeyException(::Il2CppObject* Key_ = {}, System::Type* Type_ = {}) noexcept : Key{Key_}, Type{Type_} {}
     // Get instance field reference: private System.Object <Key>k__BackingField
     ::Il2CppObject*& dyn_$Key$k__BackingField();
     // Get instance field reference: private System.Type <Type>k__BackingField

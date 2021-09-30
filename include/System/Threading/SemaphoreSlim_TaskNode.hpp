@@ -40,8 +40,6 @@ namespace System::Threading {
     System::Threading::SemaphoreSlim::TaskNode* Next;
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
-    // Creating value type constructor for type: TaskNode
-    TaskNode(System::Threading::SemaphoreSlim::TaskNode* Prev_ = {}, System::Threading::SemaphoreSlim::TaskNode* Next_ = {}) noexcept : Prev{Prev_}, Next{Next_} {}
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
     System::Threading::SemaphoreSlim::TaskNode*& dyn_Prev();
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next

@@ -17,8 +17,6 @@ namespace System::ComponentModel {
   // [DefaultMemberAttribute] Offset: E69680
   class TypeConverter::StandardValuesCollection : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StandardValuesCollection
-    StandardValuesCollection() noexcept {}
   }; // System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection
   #pragma pack(pop)
 }

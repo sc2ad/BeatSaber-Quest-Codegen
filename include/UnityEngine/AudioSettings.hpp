@@ -27,8 +27,6 @@ namespace UnityEngine {
     class AudioConfigurationChangeHandler;
     // Nested type: UnityEngine::AudioSettings::Mobile
     class Mobile;
-    // Creating value type constructor for type: AudioSettings
-    AudioSettings() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE9F264
     // Get static field: static private UnityEngine.AudioSettings/UnityEngine.AudioConfigurationChangeHandler OnAudioConfigurationChanged
     static UnityEngine::AudioSettings::AudioConfigurationChangeHandler* _get_OnAudioConfigurationChanged();

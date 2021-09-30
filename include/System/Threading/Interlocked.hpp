@@ -25,8 +25,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interlocked : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Interlocked
-    Interlocked() noexcept {}
     // static public System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand)
     // Offset: 0x1A5693C
     static int CompareExchange(ByRef<int> location1, int value, int comparand);

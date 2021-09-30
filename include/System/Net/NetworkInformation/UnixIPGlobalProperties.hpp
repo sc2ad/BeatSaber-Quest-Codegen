@@ -20,8 +20,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixIPGlobalProperties : public System::Net::NetworkInformation::CommonUnixIPGlobalProperties {
     public:
-    // Creating value type constructor for type: UnixIPGlobalProperties
-    UnixIPGlobalProperties() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1645918
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties

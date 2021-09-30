@@ -55,8 +55,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E90394
   class GUIUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GUIUtility
-    GUIUtility() noexcept {}
     // Get static field: static System.Int32 s_SkinMode
     static int _get_s_SkinMode();
     // Set static field: static System.Int32 s_SkinMode

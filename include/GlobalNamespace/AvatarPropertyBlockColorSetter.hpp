@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     bool highlighted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AvatarPropertyBlockColorSetter
-    AvatarPropertyBlockColorSetter(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}, bool editInPlayMode_ = {}, UnityEngine::Renderer* renderer_ = {}, UnityEngine::Color rimLightColor_ = {}, UnityEngine::Color mainColor_ = {}, UnityEngine::Color boostColor_ = {}, bool highlighted_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_}, editInPlayMode{editInPlayMode_}, renderer{renderer_}, rimLightColor{rimLightColor_}, mainColor{mainColor_}, boostColor{boostColor_}, highlighted{highlighted_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00968

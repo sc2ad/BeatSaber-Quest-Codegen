@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>* data;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>*) == 0x8);
-    // Creating value type constructor for type: OverrideEnvironmentSettings
-    OverrideEnvironmentSettings(bool overrideEnvironments_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>* data_ = {}) noexcept : overrideEnvironments{overrideEnvironments_}, data{data_} {}
     // Get instance field reference: public System.Boolean overrideEnvironments
     bool& dyn_overrideEnvironments();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data

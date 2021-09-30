@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* SocialContext;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CalApplicationSuggestion
-    CalApplicationSuggestion(uint64_t _ID_ = {}, ::Il2CppString* SocialContext_ = {}) noexcept : _ID{_ID_}, SocialContext{SocialContext_} {}
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.String SocialContext

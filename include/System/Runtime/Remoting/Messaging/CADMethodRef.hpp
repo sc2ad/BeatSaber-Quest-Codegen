@@ -67,8 +67,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayWrapper<::Il2CppString*> generic_arg_names;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: CADMethodRef
-    CADMethodRef(bool ctor_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::ArrayWrapper<::Il2CppString*> param_names_ = {}, ::ArrayWrapper<::Il2CppString*> generic_arg_names_ = {}) noexcept : ctor{ctor_}, typeName{typeName_}, methodName{methodName_}, param_names{param_names_}, generic_arg_names{generic_arg_names_} {}
     // Get instance field reference: private System.Boolean ctor
     bool& dyn_ctor();
     // Get instance field reference: private System.String typeName

@@ -28,8 +28,6 @@ namespace System::Reflection {
     ::Il2CppString* m_company;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssemblyCompanyAttribute
-    AssemblyCompanyAttribute(::Il2CppString* m_company_ = {}) noexcept : m_company{m_company_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_company;

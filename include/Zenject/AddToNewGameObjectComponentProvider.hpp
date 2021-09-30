@@ -57,8 +57,6 @@ namespace Zenject {
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
-    // Creating value type constructor for type: AddToNewGameObjectComponentProvider
-    AddToNewGameObjectComponentProvider(Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}) noexcept : gameObjectBindInfo{gameObjectBindInfo_} {}
     // Creating conversion operator: operator Zenject::GameObjectCreationParameters*
     constexpr operator Zenject::GameObjectCreationParameters*() const noexcept {
       return gameObjectBindInfo;

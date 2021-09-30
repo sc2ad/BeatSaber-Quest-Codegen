@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworkItemController::Pool* fireworkItemPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworkItemController::Pool*) == 0x8);
-    // Creating value type constructor for type: FireworksController
-    FireworksController(UnityEngine::Vector3 spawnSize_ = {}, float minSpawnInterval_ = {}, float maxSpawnInterval_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, float lightsIntensity_ = {}, int currentLightId_ = {}, GlobalNamespace::FireworkItemController::Pool* fireworkItemPool_ = {}) noexcept : spawnSize{spawnSize_}, minSpawnInterval{minSpawnInterval_}, maxSpawnInterval{maxSpawnInterval_}, directionalLights{directionalLights_}, lightsIntensity{lightsIntensity_}, currentLightId{currentLightId_}, fireworkItemPool{fireworkItemPool_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _spawnSize

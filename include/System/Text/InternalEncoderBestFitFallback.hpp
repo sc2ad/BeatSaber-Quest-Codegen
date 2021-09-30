@@ -43,8 +43,6 @@ namespace System::Text {
     ::ArrayWrapper<::Il2CppChar> arrayBestFit;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
-    // Creating value type constructor for type: InternalEncoderBestFitFallback
-    InternalEncoderBestFitFallback(System::Text::Encoding* encoding_ = {}, ::ArrayWrapper<::Il2CppChar> arrayBestFit_ = {}) noexcept : encoding{encoding_}, arrayBestFit{arrayBestFit_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: System.Text.Encoding encoding

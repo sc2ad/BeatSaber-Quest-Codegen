@@ -18,8 +18,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FD1C
   class NativeContainerIsAtomicWriteOnlyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeContainerIsAtomicWriteOnlyAttribute
-    NativeContainerIsAtomicWriteOnlyAttribute() noexcept {}
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerIsAtomicWriteOnlyAttribute
   #pragma pack(pop)
 }

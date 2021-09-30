@@ -37,8 +37,6 @@ namespace RootMotion::FinalIK {
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Constraint
-    Constraint(UnityEngine::Transform* transform_ = {}, float weight_ = {}) noexcept : transform{transform_}, weight{weight_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight

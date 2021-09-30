@@ -60,8 +60,6 @@ namespace Valve::VR {
     Valve::VR::IVRCompositor FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRCompositor) == 0x158);
-    // Creating value type constructor for type: CVRCompositor
-    CVRCompositor(Valve::VR::IVRCompositor FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRCompositor
     constexpr operator Valve::VR::IVRCompositor() const noexcept {
       return FnTable;

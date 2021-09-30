@@ -59,8 +59,6 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* m_serializationName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SerializationFieldInfo
-    SerializationFieldInfo(System::Reflection::RuntimeFieldInfo* m_field_ = {}, ::Il2CppString* m_serializationName_ = {}) noexcept : m_field{m_field_}, m_serializationName{m_serializationName_} {}
     // Get instance field reference: private System.Reflection.RuntimeFieldInfo m_field
     System::Reflection::RuntimeFieldInfo*& dyn_m_field();
     // Get instance field reference: private System.String m_serializationName

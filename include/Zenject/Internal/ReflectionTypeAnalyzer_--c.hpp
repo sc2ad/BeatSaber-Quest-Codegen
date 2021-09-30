@@ -40,8 +40,6 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionTypeAnalyzer::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c <>9
     static Zenject::Internal::ReflectionTypeAnalyzer::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c <>9

@@ -48,8 +48,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* LatestName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ApplicationVersion
-    ApplicationVersion(int CurrentCode_ = {}, ::Il2CppString* CurrentName_ = {}, int LatestCode_ = {}, ::Il2CppString* LatestName_ = {}) noexcept : CurrentCode{CurrentCode_}, CurrentName{CurrentName_}, LatestCode{LatestCode_}, LatestName{LatestName_} {}
     // Get instance field reference: public readonly System.Int32 CurrentCode
     int& dyn_CurrentCode();
     // Get instance field reference: public readonly System.String CurrentName

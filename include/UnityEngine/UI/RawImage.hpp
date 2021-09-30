@@ -48,8 +48,6 @@ namespace UnityEngine::UI {
     UnityEngine::Rect m_UVRect;
     // Field size check
     static_assert(sizeof(UnityEngine::Rect) == 0x10);
-    // Creating value type constructor for type: RawImage
-    RawImage(UnityEngine::Texture* m_Texture_ = {}, UnityEngine::Rect m_UVRect_ = {}) noexcept : m_Texture{m_Texture_}, m_UVRect{m_UVRect_} {}
     // Get instance field reference: private UnityEngine.Texture m_Texture
     UnityEngine::Texture*& dyn_m_Texture();
     // Get instance field reference: private UnityEngine.Rect m_UVRect

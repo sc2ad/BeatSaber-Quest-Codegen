@@ -20,8 +20,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixNoLibCIPGlobalProperties : public System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
-    // Creating value type constructor for type: UnixNoLibCIPGlobalProperties
-    UnixNoLibCIPGlobalProperties() noexcept {}
     // public override System.String get_DomainName()
     // Offset: 0x16493AC
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties

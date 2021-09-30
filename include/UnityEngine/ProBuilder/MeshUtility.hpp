@@ -56,8 +56,6 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshUtility::$$c
     class $$c;
-    // Creating value type constructor for type: MeshUtility
-    MeshUtility() noexcept {}
     // static UnityEngine.ProBuilder.Vertex[] GeneratePerTriangleMesh(UnityEngine.Mesh mesh)
     // Offset: 0x1905FEC
     static ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> GeneratePerTriangleMesh(UnityEngine::Mesh* mesh);

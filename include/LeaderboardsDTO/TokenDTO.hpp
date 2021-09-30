@@ -30,8 +30,6 @@ namespace LeaderboardsDTO {
     int expireIn;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TokenDTO
-    TokenDTO(::Il2CppString* token_ = {}, int expireIn_ = {}) noexcept : token{token_}, expireIn{expireIn_} {}
     // Get instance field reference: public System.String token
     ::Il2CppString*& dyn_token();
     // Get instance field reference: public System.Int32 expireIn

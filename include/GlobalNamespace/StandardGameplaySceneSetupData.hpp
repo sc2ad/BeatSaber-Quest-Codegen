@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // Creating value type constructor for type: StandardGameplaySceneSetupData
-    StandardGameplaySceneSetupData(bool autoRestart_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::Il2CppString* backButtonText_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : autoRestart{autoRestart_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, backButtonText{backButtonText_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public readonly System.Boolean autoRestart
     bool& dyn_autoRestart();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

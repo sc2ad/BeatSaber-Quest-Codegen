@@ -21,8 +21,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CredentialCache : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CredentialCache
-    CredentialCache() noexcept {}
     // static public System.Net.ICredentials get_DefaultCredentials()
     // Offset: 0x1577E78
     static System::Net::ICredentials* get_DefaultCredentials();

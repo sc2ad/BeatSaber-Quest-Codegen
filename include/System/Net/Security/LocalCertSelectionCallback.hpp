@@ -36,8 +36,6 @@ namespace System::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalCertSelectionCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: LocalCertSelectionCallback
-    LocalCertSelectionCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x164C8C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -97,8 +97,6 @@ namespace System {
     int m_unityType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: UnitySerializationHolder
-    UnitySerializationHolder(::ArrayWrapper<System::Type*> m_instantiation_ = {}, ::ArrayWrapper<int> m_elementTypes_ = {}, int m_genericParameterPosition_ = {}, System::Type* m_declaringType_ = {}, System::Reflection::MethodBase* m_declaringMethod_ = {}, ::Il2CppString* m_data_ = {}, ::Il2CppString* m_assemblyName_ = {}, int m_unityType_ = {}) noexcept : m_instantiation{m_instantiation_}, m_elementTypes{m_elementTypes_}, m_genericParameterPosition{m_genericParameterPosition_}, m_declaringType{m_declaringType_}, m_declaringMethod{m_declaringMethod_}, m_data{m_data_}, m_assemblyName{m_assemblyName_}, m_unityType{m_unityType_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

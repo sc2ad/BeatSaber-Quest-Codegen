@@ -156,8 +156,6 @@ namespace System {
     ::ArrayWrapper<System::IntPtr> native_trace_ips;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::IntPtr>) == 0x8);
-    // Creating value type constructor for type: Exception
-    Exception(::Il2CppString* className_ = {}, ::Il2CppString* message_ = {}, System::Collections::IDictionary* data_ = {}, System::Exception* innerException_ = {}, ::Il2CppString* helpURL_ = {}, ::Il2CppObject* stackTrace_ = {}, ::Il2CppString* stackTraceString_ = {}, ::Il2CppString* remoteStackTraceString_ = {}, int remoteStackIndex_ = {}, ::Il2CppObject* dynamicMethods_ = {}, int HResult_ = {}, ::Il2CppString* source_ = {}, System::Runtime::Serialization::SafeSerializationManager* safeSerializationManager_ = {}, ::ArrayWrapper<System::Diagnostics::StackTrace*> captured_traces_ = {}, ::ArrayWrapper<System::IntPtr> native_trace_ips_ = {}) noexcept : className{className_}, message{message_}, data{data_}, innerException{innerException_}, helpURL{helpURL_}, stackTrace{stackTrace_}, stackTraceString{stackTraceString_}, remoteStackTraceString{remoteStackTraceString_}, remoteStackIndex{remoteStackIndex_}, dynamicMethods{dynamicMethods_}, HResult{HResult_}, source{source_}, safeSerializationManager{safeSerializationManager_}, captured_traces{captured_traces_}, native_trace_ips{native_trace_ips_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

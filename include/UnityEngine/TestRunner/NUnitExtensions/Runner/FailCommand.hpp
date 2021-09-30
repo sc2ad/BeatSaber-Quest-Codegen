@@ -60,8 +60,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     ::Il2CppString* m_Message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: FailCommand
-    FailCommand(NUnit::Framework::Interfaces::ResultState* m_ResultState_ = {}, ::Il2CppString* m_Message_ = {}) noexcept : m_ResultState{m_ResultState_}, m_Message{m_Message_} {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

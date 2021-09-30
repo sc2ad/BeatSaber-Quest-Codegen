@@ -28,8 +28,6 @@ namespace System::Xml {
     System::Xml::XmlWellFormedWriter* wfWriter;
     // Field size check
     static_assert(sizeof(System::Xml::XmlWellFormedWriter*) == 0x8);
-    // Creating value type constructor for type: NamespaceResolverProxy
-    NamespaceResolverProxy(System::Xml::XmlWellFormedWriter* wfWriter_ = {}) noexcept : wfWriter{wfWriter_} {}
     // Creating interface conversion operator: operator System::Xml::IXmlNamespaceResolver
     operator System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<System::Xml::IXmlNamespaceResolver*>(this);

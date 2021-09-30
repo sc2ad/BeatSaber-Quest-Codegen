@@ -32,8 +32,6 @@ namespace Zenject {
   template<typename TParam1, typename TContract>
   class FactoryToChoiceIdBinder_2 : public Zenject::FactoryArgumentsToChoiceBinder_2<TParam1, TContract> {
     public:
-    // Creating value type constructor for type: FactoryToChoiceIdBinder_2
-    FactoryToChoiceIdBinder_2() noexcept {}
     // public Zenject.FactoryArgumentsToChoiceBinder`2<TParam1,TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
     Zenject::FactoryArgumentsToChoiceBinder_2<TParam1, TContract>* WithId(::Il2CppObject* identifier) {

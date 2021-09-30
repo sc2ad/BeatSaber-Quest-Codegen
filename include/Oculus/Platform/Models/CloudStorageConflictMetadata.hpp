@@ -39,8 +39,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::CloudStorageMetadata* Remote;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
-    // Creating value type constructor for type: CloudStorageConflictMetadata
-    CloudStorageConflictMetadata(Oculus::Platform::Models::CloudStorageMetadata* Local_ = {}, Oculus::Platform::Models::CloudStorageMetadata* Remote_ = {}) noexcept : Local{Local_}, Remote{Remote_} {}
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
     Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote

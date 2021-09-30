@@ -59,8 +59,6 @@ namespace System::IO {
   // [CompilerGeneratedAttribute] Offset: E5E2C0
   class Stream::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.IO.Stream/System.IO.<>c <>9
     static System::IO::Stream::$$c* _get_$$9();
     // Set static field: static public readonly System.IO.Stream/System.IO.<>c <>9

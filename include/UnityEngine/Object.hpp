@@ -51,8 +51,6 @@ namespace UnityEngine {
     System::IntPtr m_CachedPtr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: Object
-    Object(System::IntPtr m_CachedPtr_ = {}) noexcept : m_CachedPtr{m_CachedPtr_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return m_CachedPtr;

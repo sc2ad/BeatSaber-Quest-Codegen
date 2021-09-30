@@ -43,8 +43,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Graphic* m_Graphic;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Graphic*) == 0x8);
-    // Creating value type constructor for type: BaseMeshEffect
-    BaseMeshEffect(UnityEngine::UI::Graphic* m_Graphic_ = {}) noexcept : m_Graphic{m_Graphic_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::IMeshModifier
     operator UnityEngine::UI::IMeshModifier() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IMeshModifier*>(this);

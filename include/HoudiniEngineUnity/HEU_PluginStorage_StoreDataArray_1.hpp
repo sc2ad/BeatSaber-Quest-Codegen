@@ -26,8 +26,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<T> array;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<T>) == 0x8);
-    // Creating value type constructor for type: StoreDataArray_1
-    StoreDataArray_1(::ArrayWrapper<T> array_ = {}) noexcept : array{array_} {}
     // Creating conversion operator: operator ::ArrayWrapper<T>
     constexpr operator ::ArrayWrapper<T>() const noexcept {
       return array;

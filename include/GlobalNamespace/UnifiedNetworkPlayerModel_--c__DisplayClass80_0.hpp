@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration localConfiguration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // Creating value type constructor for type: $$c__DisplayClass80_0
-    $$c__DisplayClass80_0(bool clearCurrentList_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* $$4__this_ = {}, GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration localConfiguration_ = {}) noexcept : clearCurrentList{clearCurrentList_}, $$4__this{$$4__this_}, localSelectionMask{localSelectionMask_}, localConfiguration{localConfiguration_} {}
     // Get instance field reference: public System.Boolean clearCurrentList
     bool& dyn_clearCurrentList();
     // Get instance field reference: public UnifiedNetworkPlayerModel <>4__this

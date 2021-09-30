@@ -144,8 +144,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRProgressIndicator* progressIndicator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRProgressIndicator*) == 0x8);
-    // Creating value type constructor for type: OVRGazePointer
-    OVRGazePointer(UnityEngine::Transform* gazeIcon_ = {}, bool hideByDefault_ = {}, float showTimeoutPeriod_ = {}, float hideTimeoutPeriod_ = {}, bool dimOnHideRequest_ = {}, float depthScaleMultiplier_ = {}, bool matchNormalOnPhysicsColliders_ = {}, UnityEngine::Transform* rayTransform_ = {}, bool hidden_ = {}, float currentScale_ = {}, float depth_ = {}, float hideUntilTime_ = {}, int positionSetsThisFrame_ = {}, float lastShowRequestTime_ = {}, float lastHideRequestTime_ = {}, GlobalNamespace::OVRProgressIndicator* progressIndicator_ = {}) noexcept : gazeIcon{gazeIcon_}, hideByDefault{hideByDefault_}, showTimeoutPeriod{showTimeoutPeriod_}, hideTimeoutPeriod{hideTimeoutPeriod_}, dimOnHideRequest{dimOnHideRequest_}, depthScaleMultiplier{depthScaleMultiplier_}, matchNormalOnPhysicsColliders{matchNormalOnPhysicsColliders_}, rayTransform{rayTransform_}, hidden{hidden_}, currentScale{currentScale_}, depth{depth_}, hideUntilTime{hideUntilTime_}, positionSetsThisFrame{positionSetsThisFrame_}, lastShowRequestTime{lastShowRequestTime_}, lastHideRequestTime{lastHideRequestTime_}, progressIndicator{progressIndicator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private OVRGazePointer _instance

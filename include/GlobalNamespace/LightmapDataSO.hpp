@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* lightmap2;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
-    // Creating value type constructor for type: LightmapDataSO
-    LightmapDataSO(UnityEngine::Texture2D* lightmap1_ = {}, UnityEngine::Texture2D* lightmap2_ = {}) noexcept : lightmap1{lightmap1_}, lightmap2{lightmap2_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Texture2D _lightmap1

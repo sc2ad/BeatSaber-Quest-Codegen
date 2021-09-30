@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     bool showLevelBar;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitData
-    InitData(::Il2CppString* backButtonText_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, bool showRestartButton_ = {}, bool showLevelBar_ = {}) noexcept : backButtonText{backButtonText_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, showRestartButton{showRestartButton_}, showLevelBar{showLevelBar_} {}
     // Get instance field reference: public readonly System.String backButtonText
     ::Il2CppString*& dyn_backButtonText();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

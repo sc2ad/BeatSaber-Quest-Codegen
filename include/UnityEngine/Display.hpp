@@ -37,8 +37,6 @@ namespace UnityEngine {
     System::IntPtr nativeDisplay;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: Display
-    Display(System::IntPtr nativeDisplay_ = {}) noexcept : nativeDisplay{nativeDisplay_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return nativeDisplay;

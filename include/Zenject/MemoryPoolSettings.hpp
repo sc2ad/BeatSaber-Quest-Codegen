@@ -38,8 +38,6 @@ namespace Zenject {
     Zenject::PoolExpandMethods ExpandMethod;
     // Field size check
     static_assert(sizeof(Zenject::PoolExpandMethods) == 0x4);
-    // Creating value type constructor for type: MemoryPoolSettings
-    MemoryPoolSettings(int InitialSize_ = {}, int MaxSize_ = {}, Zenject::PoolExpandMethods ExpandMethod_ = {}) noexcept : InitialSize{InitialSize_}, MaxSize{MaxSize_}, ExpandMethod{ExpandMethod_} {}
     // Get static field: static public readonly Zenject.MemoryPoolSettings Default
     static Zenject::MemoryPoolSettings* _get_Default();
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default

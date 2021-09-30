@@ -99,7 +99,6 @@ namespace UnityEngine::ProBuilder {
     void set_Item(int i, float value);
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
     // Offset: 0x24F375C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector3Mask(UnityEngine::Vector3 v, float epsilon) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector3Mask::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v), ::il2cpp_utils::ExtractType(epsilon)})));
@@ -107,7 +106,6 @@ namespace UnityEngine::ProBuilder {
     }
     // public System.Void .ctor(System.Byte mask)
     // Offset: 0x24F3858
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask)
     // static private System.Void .cctor()
     // Offset: 0x24F3F04

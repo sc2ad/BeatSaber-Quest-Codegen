@@ -29,8 +29,6 @@ namespace UnityEngine::Events {
   template<typename T0, typename T1, typename T2>
   class UnityAction_3 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UnityAction_3
-    UnityAction_3() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

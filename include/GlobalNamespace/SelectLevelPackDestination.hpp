@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelPack*) == 0x8);
-    // Creating value type constructor for type: SelectLevelPackDestination
-    SelectLevelPackDestination(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack_ = {}) noexcept : beatmapLevelPack{beatmapLevelPack_} {}
     // Creating conversion operator: operator GlobalNamespace::IBeatmapLevelPack*
     constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return beatmapLevelPack;

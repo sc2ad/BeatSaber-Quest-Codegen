@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1508
   class IVRSettings::_RemoveKeyInSection : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _RemoveKeyInSection
-    _RemoveKeyInSection() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E14DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

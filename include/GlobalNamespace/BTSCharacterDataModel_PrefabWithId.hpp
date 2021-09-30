@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::AddressableAssets::AssetReference* prefabAssetReference;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
-    // Creating value type constructor for type: PrefabWithId
-    PrefabWithId(int id_ = {}, UnityEngine::AddressableAssets::AssetReference* prefabAssetReference_ = {}) noexcept : id{id_}, prefabAssetReference{prefabAssetReference_} {}
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference

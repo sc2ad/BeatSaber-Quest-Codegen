@@ -47,8 +47,6 @@ namespace Mono::Security::Protocol::Ntlm {
     ::ArrayWrapper<uint8_t> ntpwd;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: ChallengeResponse
-    ChallengeResponse(bool disposed_ = {}, ::ArrayWrapper<uint8_t> challenge_ = {}, ::ArrayWrapper<uint8_t> lmpwd_ = {}, ::ArrayWrapper<uint8_t> ntpwd_ = {}) noexcept : disposed{disposed_}, challenge{challenge_}, lmpwd{lmpwd_}, ntpwd{ntpwd_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapDifficulty>) == 0x8);
-    // Creating value type constructor for type: PreviewDifficultyBeatmapSet
-    PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulties{beatmapDifficulties_} {}
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
     GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private BeatmapDifficulty[] _beatmapDifficulties

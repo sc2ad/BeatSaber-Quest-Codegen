@@ -83,8 +83,6 @@ namespace System::Net {
     ::Il2CppString* m_fqdnMyDomain;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CookieContainer
-    CookieContainer(System::Collections::Hashtable* m_domainTable_ = {}, int m_maxCookieSize_ = {}, int m_maxCookies_ = {}, int m_maxCookiesPerDomain_ = {}, int m_count_ = {}, ::Il2CppString* m_fqdnMyDomain_ = {}) noexcept : m_domainTable{m_domainTable_}, m_maxCookieSize{m_maxCookieSize_}, m_maxCookies{m_maxCookies_}, m_maxCookiesPerDomain{m_maxCookiesPerDomain_}, m_count{m_count_}, m_fqdnMyDomain{m_fqdnMyDomain_} {}
     // Get static field: static private readonly System.Net.HeaderVariantInfo[] HeaderInfo
     static ::ArrayWrapper<System::Net::HeaderVariantInfo> _get_HeaderInfo();
     // Set static field: static private readonly System.Net.HeaderVariantInfo[] HeaderInfo

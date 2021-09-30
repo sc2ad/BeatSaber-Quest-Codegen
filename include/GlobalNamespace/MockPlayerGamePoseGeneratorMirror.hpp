@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     System::Action* onSongFinished;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: MockPlayerGamePoseGeneratorMirror
-    MockPlayerGamePoseGeneratorMirror(GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IConnectedPlayer* mirroredPlayer_ = {}, System::Action* onSongFinished_ = {}) noexcept : nodePoseSyncStateManager{nodePoseSyncStateManager_}, mirroredPlayer{mirroredPlayer_}, onSongFinished{onSongFinished_} {}
     // Get instance field reference: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // Get instance field reference: private IConnectedPlayer _mirroredPlayer

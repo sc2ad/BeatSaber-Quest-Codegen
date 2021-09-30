@@ -35,8 +35,6 @@ namespace NUnit::Framework::Internal {
     int maxStringLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ArgListFragment
-    ArgListFragment(int maxStringLength_ = {}) noexcept : maxStringLength{maxStringLength_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return maxStringLength;

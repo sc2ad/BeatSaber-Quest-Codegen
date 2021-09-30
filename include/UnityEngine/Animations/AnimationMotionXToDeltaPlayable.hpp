@@ -71,7 +71,6 @@ namespace UnityEngine::Animations {
     UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // private System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x258F544
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AnimationMotionXToDeltaPlayable(UnityEngine::Playables::PlayableHandle handle)
     // static private System.Void .cctor()
     // Offset: 0x258F894

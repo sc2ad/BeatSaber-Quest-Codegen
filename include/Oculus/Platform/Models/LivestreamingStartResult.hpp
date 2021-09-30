@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::LivestreamingStartStatus StreamingResult;
     // Field size check
     static_assert(sizeof(Oculus::Platform::LivestreamingStartStatus) == 0x4);
-    // Creating value type constructor for type: LivestreamingStartResult
-    LivestreamingStartResult(Oculus::Platform::LivestreamingStartStatus StreamingResult_ = {}) noexcept : StreamingResult{StreamingResult_} {}
     // Creating conversion operator: operator Oculus::Platform::LivestreamingStartStatus
     constexpr operator Oculus::Platform::LivestreamingStartStatus() const noexcept {
       return StreamingResult;

@@ -16,8 +16,6 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKeyEvaluator {
     public:
-    // Creating value type constructor for type: IKeyEvaluator
-    IKeyEvaluator() noexcept {}
     // public System.Object get_RuntimeKey()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_RuntimeKey();

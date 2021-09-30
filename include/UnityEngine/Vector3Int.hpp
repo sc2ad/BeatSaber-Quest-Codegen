@@ -119,7 +119,6 @@ namespace UnityEngine {
     static UnityEngine::Vector3Int get_one();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 z)
     // Offset: 0x234D604
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Vector3Int(int x, int y, int z)
     // static private System.Void .cctor()
     // Offset: 0x234DCB4

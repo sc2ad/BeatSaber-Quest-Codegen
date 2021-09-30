@@ -20,8 +20,6 @@ namespace UnityEngine::ProBuilder::KdTree {
   // [TokenAttribute] Offset: FFFFFFFF
   class DuplicateNodeError : public System::Exception {
     public:
-    // Creating value type constructor for type: DuplicateNodeError
-    DuplicateNodeError() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2629ED8
     // Implemented from: System.Exception

@@ -54,8 +54,6 @@ namespace System::Threading {
     ::Il2CppObject* m_OSSynchronizationContext;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: OSSpecificSynchronizationContext
-    OSSpecificSynchronizationContext(::Il2CppObject* m_OSSynchronizationContext_ = {}) noexcept : m_OSSynchronizationContext{m_OSSynchronizationContext_} {}
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache

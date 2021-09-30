@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB039C
   class IVRTrackedCamera::_AcquireVideoStreamingService : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _AcquireVideoStreamingService
-    _AcquireVideoStreamingService() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x13AF830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

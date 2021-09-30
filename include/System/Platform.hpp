@@ -21,8 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Platform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Platform
-    Platform() noexcept {}
     // Get static field: static private System.Boolean checkedOS
     static bool _get_checkedOS();
     // Set static field: static private System.Boolean checkedOS

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6654
   class IVRScreenshots::_UpdateScreenshotProgress : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _UpdateScreenshotProgress
-    _UpdateScreenshotProgress() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED5E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

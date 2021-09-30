@@ -15,8 +15,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
   // [CLSCompliantAttribute] Offset: EC7F58
   class X448Field : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X448Field
-    X448Field() noexcept {}
     // static public System.Void Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
     // Offset: 0x1F89C5C
     static void Add(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);

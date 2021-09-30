@@ -14,8 +14,6 @@ namespace System {
   template<typename T>
   class System_LazyDebugView_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: System_LazyDebugView_1
-    System_LazyDebugView_1() noexcept {}
   }; // System.System_LazyDebugView`1
   // Could not write size check! Type: System.System_LazyDebugView`1 is generic, or has no fields that are valid for size checks!
 }

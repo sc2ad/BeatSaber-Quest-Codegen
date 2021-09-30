@@ -136,8 +136,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: ColorsOverrideSettingsPanelController
-    ColorsOverrideSettingsPanelController(UnityEngine::UI::Toggle* overrideColorsToggle_ = {}, UnityEngine::GameObject* detailsPanelGO_ = {}, GlobalNamespace::ColorSchemeDropdown* colorSchemeDropDown_ = {}, GlobalNamespace::EditColorSchemeController* editColorSchemeController_ = {}, HMUI::ModalView* editColorSchemeModalView_ = {}, UnityEngine::UI::Button* editColorSchemeButton_ = {}, HMUI::PanelAnimationSO* presentPanelAnimation_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::ColorSchemesSettings* colorSchemesSettings_ = {}, bool initialized_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : overrideColorsToggle{overrideColorsToggle_}, detailsPanelGO{detailsPanelGO_}, colorSchemeDropDown{colorSchemeDropDown_}, editColorSchemeController{editColorSchemeController_}, editColorSchemeModalView{editColorSchemeModalView_}, editColorSchemeButton{editColorSchemeButton_}, presentPanelAnimation{presentPanelAnimation_}, dismissPanelAnimation{dismissPanelAnimation_}, analyticsModel{analyticsModel_}, colorSchemesSettings{colorSchemesSettings_}, initialized{initialized_}, buttonBinder{buttonBinder_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);

@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     int propertyId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MaterialLightWithId
-    MaterialLightWithId(UnityEngine::MeshRenderer* meshRenderer_ = {}, bool setAlphaOnly_ = {}, bool alphaIntoColor_ = {}, bool setColorOnly_ = {}, ::Il2CppString* colorProperty_ = {}, float alphaIntensity_ = {}, bool multiplyColorWithAlpha_ = {}, bool multiplyColor_ = {}, float colorMultiplier_ = {}, UnityEngine::Color color_ = {}, float alpha_ = {}, int propertyId_ = {}) noexcept : meshRenderer{meshRenderer_}, setAlphaOnly{setAlphaOnly_}, alphaIntoColor{alphaIntoColor_}, setColorOnly{setColorOnly_}, colorProperty{colorProperty_}, alphaIntensity{alphaIntensity_}, multiplyColorWithAlpha{multiplyColorWithAlpha_}, multiplyColor{multiplyColor_}, colorMultiplier{colorMultiplier_}, color{color_}, alpha{alpha_}, propertyId{propertyId_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF2C4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();

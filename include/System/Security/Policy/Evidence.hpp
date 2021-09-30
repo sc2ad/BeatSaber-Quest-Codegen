@@ -61,8 +61,6 @@ namespace System::Security::Policy {
     System::Collections::ArrayList* assemblyEvidenceList;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: Evidence
-    Evidence(bool locked_ = {}, System::Collections::ArrayList* hostEvidenceList_ = {}, System::Collections::ArrayList* assemblyEvidenceList_ = {}) noexcept : locked{locked_}, hostEvidenceList{hostEvidenceList_}, assemblyEvidenceList{assemblyEvidenceList_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

@@ -47,8 +47,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* method;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
-    // Creating value type constructor for type: ArgInfo
-    ArgInfo(::ArrayWrapper<int> paramMap_ = {}, int inoutArgCount_ = {}, System::Reflection::MethodBase* method_ = {}) noexcept : paramMap{paramMap_}, inoutArgCount{inoutArgCount_}, method{method_} {}
     // Get instance field reference: private System.Int32[] _paramMap
     ::ArrayWrapper<int>& dyn__paramMap();
     // Get instance field reference: private System.Int32 _inoutArgCount

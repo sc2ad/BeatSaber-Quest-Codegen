@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     System::Action_1<int>* valueChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
-    // Creating value type constructor for type: IntListSettingsController
-    IntListSettingsController(int customNumberOfElements_ = {}, int customIndex_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : customNumberOfElements{customNumberOfElements_}, customIndex{customIndex_}, valueChangedEvent{valueChangedEvent_} {}
     // Get instance field reference: private System.Int32 _customNumberOfElements
     int& dyn__customNumberOfElements();
     // Get instance field reference: private System.Int32 _customIndex

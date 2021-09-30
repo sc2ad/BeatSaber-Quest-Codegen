@@ -23,8 +23,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestResultRenderer::Styles : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Styles
-    Styles() noexcept {}
     // Get static field: static public readonly UnityEngine.GUIStyle SucceedLabelStyle
     static UnityEngine::GUIStyle* _get_SucceedLabelStyle();
     // Set static field: static public readonly UnityEngine.GUIStyle SucceedLabelStyle

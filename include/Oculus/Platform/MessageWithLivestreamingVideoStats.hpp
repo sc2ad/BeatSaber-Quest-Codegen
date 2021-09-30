@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithLivestreamingVideoStats : public Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingVideoStats*> {
     public:
-    // Creating value type constructor for type: MessageWithLivestreamingVideoStats
-    MessageWithLivestreamingVideoStats() noexcept {}
     // protected Oculus.Platform.Models.LivestreamingVideoStats GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B9C54
     Oculus::Platform::Models::LivestreamingVideoStats* GetDataFromMessage(System::IntPtr c_message);

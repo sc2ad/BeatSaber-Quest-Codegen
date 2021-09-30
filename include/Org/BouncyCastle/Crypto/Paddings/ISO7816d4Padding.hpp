@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISO7816d4Padding : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*/ {
     public:
-    // Creating value type constructor for type: ISO7816d4Padding
-    ISO7816d4Padding() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding
     operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);

@@ -71,8 +71,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass18_0
-    $$c__DisplayClass18_0(UnityEngine::AddressableAssets::Initialization::InitializationOperation* $$4__this_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap_ = {}, int index_ = {}) noexcept : $$4__this{$$4__this_}, catalogs{catalogs_}, locMap{locMap_}, index{index_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.Initialization.InitializationOperation <>4__this
     UnityEngine::AddressableAssets::Initialization::InitializationOperation*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> catalogs

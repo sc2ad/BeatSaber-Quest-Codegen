@@ -69,8 +69,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<int, int>* $$9__8;
     // Field size check
     static_assert(sizeof(System::Func_2<int, int>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>* ignore_ = {}, ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedIndexes_ = {}, System::Func_2<int, int>* $$9__7_ = {}, System::Func_2<int, int>* $$9__8_ = {}) noexcept : ignore{ignore_}, sharedIndexes{sharedIndexes_}, $$9__7{$$9__7_}, $$9__8{$$9__8_} {}
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
     System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>*& dyn_ignore();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes

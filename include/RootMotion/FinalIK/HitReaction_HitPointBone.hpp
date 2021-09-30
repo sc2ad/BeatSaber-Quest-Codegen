@@ -58,8 +58,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // Creating value type constructor for type: HitPointBone
-    HitPointBone(UnityEngine::AnimationCurve* aroundCenterOfMass_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*> boneLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : aroundCenterOfMass{aroundCenterOfMass_}, boneLinks{boneLinks_}, rigidbody{rigidbody_} {}
     // Get instance field reference: public UnityEngine.AnimationCurve aroundCenterOfMass
     UnityEngine::AnimationCurve*& dyn_aroundCenterOfMass();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks

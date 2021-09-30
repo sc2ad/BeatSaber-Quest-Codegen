@@ -100,8 +100,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* idsToStarTextPositionDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*) == 0x8);
-    // Creating value type constructor for type: BTSStarTextEventEffect
-    BTSStarTextEventEffect(::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*> starTextSprites_ = {}, ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* startStarTextAnimationEvent_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* idsToStarTextSpriteDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* idsToStarTextPositionDictionary_ = {}) noexcept : starTextSprites{starTextSprites_}, startTextPositions{startTextPositions_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, audioTimeSource{audioTimeSource_}, startStarTextAnimationEvent{startStarTextAnimationEvent_}, idsToStarTextSpriteDictionary{idsToStarTextSpriteDictionary_}, idsToStarTextPositionDictionary{idsToStarTextPositionDictionary_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private BeatmapEventType kStarTextAppearEventType

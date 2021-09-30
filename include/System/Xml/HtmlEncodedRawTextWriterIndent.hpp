@@ -62,8 +62,6 @@ namespace System::Xml {
     bool newLineOnAttributes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HtmlEncodedRawTextWriterIndent
-    HtmlEncodedRawTextWriterIndent(int indentLevel_ = {}, int endBlockPos_ = {}, ::Il2CppString* indentChars_ = {}, bool newLineOnAttributes_ = {}) noexcept : indentLevel{indentLevel_}, endBlockPos{endBlockPos_}, indentChars{indentChars_}, newLineOnAttributes{newLineOnAttributes_} {}
     // Get instance field reference: private System.Int32 indentLevel
     int& dyn_indentLevel();
     // Get instance field reference: private System.Int32 endBlockPos

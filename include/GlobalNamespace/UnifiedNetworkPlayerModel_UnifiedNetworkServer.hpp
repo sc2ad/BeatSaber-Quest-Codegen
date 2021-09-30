@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     float lastUpdateTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: UnifiedNetworkServer
-    UnifiedNetworkServer(GlobalNamespace::UnifiedNetworkPlayerModel* playerModel_ = {}, ::Il2CppString* code_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, int currentPlayerCount_ = {}, float lastUpdateTime_ = {}) noexcept : playerModel{playerModel_}, code{code_}, selectionMask{selectionMask_}, configuration{configuration_}, currentPlayerCount{currentPlayerCount_}, lastUpdateTime{lastUpdateTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayer
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);

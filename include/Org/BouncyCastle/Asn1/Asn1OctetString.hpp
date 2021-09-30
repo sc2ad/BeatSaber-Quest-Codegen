@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<uint8_t> str;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Asn1OctetString
-    Asn1OctetString(::ArrayWrapper<uint8_t> str_ = {}) noexcept : str{str_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::Asn1OctetStringParser
     operator Org::BouncyCastle::Asn1::Asn1OctetStringParser() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::Asn1OctetStringParser*>(this);

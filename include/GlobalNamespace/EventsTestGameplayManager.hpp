@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     bool rotatingLasers;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EventsTestGameplayManager
-    EventsTestGameplayManager(GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float floatValue_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>* beatmapEventTypeBindings_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>* beatmapValuesBindings_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, float>* floatValuesBindings_ = {}, bool rotatingLasers_ = {}) noexcept : beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapEventType{beatmapEventType_}, floatValue{floatValue_}, beatmapEventTypeBindings{beatmapEventTypeBindings_}, beatmapValuesBindings{beatmapValuesBindings_}, floatValuesBindings{floatValuesBindings_}, rotatingLasers{rotatingLasers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController

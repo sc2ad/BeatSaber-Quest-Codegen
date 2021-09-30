@@ -209,7 +209,6 @@ namespace System::Collections::Generic {
       }
       // System.Void .ctor(System.Collections.Generic.HashSet`1<T> set)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Collections::Generic::HashSet_1<T>* set) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::HashSet_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(set)})));
@@ -286,8 +285,6 @@ namespace System::Collections::Generic {
     System::Runtime::Serialization::SerializationInfo* siInfo;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
-    // Creating value type constructor for type: HashSet_1
-    HashSet_1(::ArrayWrapper<int> buckets_ = {}, ::ArrayWrapper<typename System::Collections::Generic::HashSet_1<T>::Slot> slots_ = {}, int count_ = {}, int lastIndex_ = {}, int freeList_ = {}, System::Collections::Generic::IEqualityComparer_1<T>* comparer_ = {}, int version_ = {}, System::Runtime::Serialization::SerializationInfo* siInfo_ = {}) noexcept : buckets{buckets_}, slots{slots_}, count{count_}, lastIndex{lastIndex_}, freeList{freeList_}, comparer{comparer_}, version{version_}, siInfo{siInfo_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<T>
     operator System::Collections::Generic::ICollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<T>*>(this);

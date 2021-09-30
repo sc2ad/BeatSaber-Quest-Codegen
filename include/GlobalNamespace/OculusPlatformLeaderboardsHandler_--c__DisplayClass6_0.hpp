@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_0
-    $$c__DisplayClass6_0(GlobalNamespace::OculusPlatformLeaderboardsHandler* $$4__this_ = {}, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler_ = {}) noexcept : $$4__this{$$4__this_}, completionHandler{completionHandler_} {}
     // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
     GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
     // Get instance field reference: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler

@@ -54,8 +54,6 @@ namespace Mono::Security::Cryptography {
     bool m_disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ARC4Managed
-    ARC4Managed(::ArrayWrapper<uint8_t> key_ = {}, ::ArrayWrapper<uint8_t> state_ = {}, uint8_t x_ = {}, uint8_t y_ = {}, bool m_disposed_ = {}) noexcept : key{key_}, state{state_}, x{x_}, y{y_}, m_disposed{m_disposed_} {}
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);

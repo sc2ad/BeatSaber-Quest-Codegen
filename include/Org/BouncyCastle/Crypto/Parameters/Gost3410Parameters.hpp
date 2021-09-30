@@ -56,8 +56,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters*) == 0x8);
-    // Creating value type constructor for type: Gost3410Parameters
-    Gost3410Parameters(Org::BouncyCastle::Math::BigInteger* p_ = {}, Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Math::BigInteger* a_ = {}, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation_ = {}) noexcept : p{p_}, q{q_}, a{a_}, validation{validation_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

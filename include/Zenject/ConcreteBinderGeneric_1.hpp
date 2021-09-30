@@ -71,8 +71,6 @@ namespace Zenject {
       System::Type* concreteType;
       // Field size check
       static_assert(sizeof(System::Type*) == 0x8);
-      // Creating value type constructor for type: $$c__DisplayClass5_0
-      $$c__DisplayClass5_0(System::Type* concreteType_ = {}) noexcept : concreteType{concreteType_} {}
       // Creating conversion operator: operator System::Type*
       constexpr operator System::Type*() const noexcept {
         return concreteType;
@@ -104,8 +102,6 @@ namespace Zenject {
       }
     }; // Zenject.ConcreteBinderGeneric`1/Zenject.<>c__DisplayClass5_0
     // Could not write size check! Type: Zenject.ConcreteBinderGeneric`1/Zenject.<>c__DisplayClass5_0 is generic, or has no fields that are valid for size checks!
-    // Creating value type constructor for type: ConcreteBinderGeneric_1
-    ConcreteBinderGeneric_1() noexcept {}
     // public Zenject.FromBinderGeneric`1<TContract> ToSelf()
     // Offset: 0xFFFFFFFF
     Zenject::FromBinderGeneric_1<TContract>* ToSelf() {

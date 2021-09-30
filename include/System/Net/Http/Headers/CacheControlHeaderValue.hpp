@@ -127,8 +127,6 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x68
     System::Nullable_1<System::TimeSpan> SharedMaxAge;
-    // Creating value type constructor for type: CacheControlHeaderValue
-    CacheControlHeaderValue(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* extensions_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* no_cache_headers_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* private_headers_ = {}, System::Nullable_1<System::TimeSpan> MaxAge_ = {}, bool MaxStale_ = {}, System::Nullable_1<System::TimeSpan> MaxStaleLimit_ = {}, System::Nullable_1<System::TimeSpan> MinFresh_ = {}, bool MustRevalidate_ = {}, bool NoCache_ = {}, bool NoStore_ = {}, bool NoTransform_ = {}, bool OnlyIfCached_ = {}, bool Private_ = {}, bool ProxyRevalidate_ = {}, bool Public_ = {}, System::Nullable_1<System::TimeSpan> SharedMaxAge_ = {}) noexcept : extensions{extensions_}, no_cache_headers{no_cache_headers_}, private_headers{private_headers_}, MaxAge{MaxAge_}, MaxStale{MaxStale_}, MaxStaleLimit{MaxStaleLimit_}, MinFresh{MinFresh_}, MustRevalidate{MustRevalidate_}, NoCache{NoCache_}, NoStore{NoStore_}, NoTransform{NoTransform_}, OnlyIfCached{OnlyIfCached_}, Private{Private_}, ProxyRevalidate{ProxyRevalidate_}, Public{Public_}, SharedMaxAge{SharedMaxAge_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -43,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILobbyPlayersDataModel {
     public:
-    // Creating value type constructor for type: ILobbyPlayersDataModel
-    ILobbyPlayersDataModel() noexcept {}
     // public System.String get_localUserId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_localUserId();

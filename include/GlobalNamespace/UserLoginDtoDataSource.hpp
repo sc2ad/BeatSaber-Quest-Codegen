@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IPlatformUserModel* platformUserModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPlatformUserModel*) == 0x8);
-    // Creating value type constructor for type: UserLoginDtoDataSource
-    UserLoginDtoDataSource(GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}) noexcept : platformUserModel{platformUserModel_} {}
     // Creating interface conversion operator: operator OnlineServices::API::IUserLoginDtoDataSource
     operator OnlineServices::API::IUserLoginDtoDataSource() noexcept {
       return *reinterpret_cast<OnlineServices::API::IUserLoginDtoDataSource*>(this);

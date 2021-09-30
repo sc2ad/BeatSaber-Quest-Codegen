@@ -65,7 +65,6 @@ namespace UnityEngine::Animations {
     UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x2590BAC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle handle)
     // static private System.Void .cctor()
     // Offset: 0x2590CF8

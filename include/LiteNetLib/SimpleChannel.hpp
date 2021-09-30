@@ -29,8 +29,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleChannel : public LiteNetLib::BaseChannel {
     public:
-    // Creating value type constructor for type: SimpleChannel
-    SimpleChannel() noexcept {}
     // public System.Void .ctor(LiteNetLib.NetPeer peer)
     // Offset: 0x1DE1A78
     // Implemented from: LiteNetLib.BaseChannel

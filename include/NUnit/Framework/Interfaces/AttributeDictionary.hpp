@@ -20,8 +20,6 @@ namespace NUnit::Framework::Interfaces {
   // [DefaultMemberAttribute] Offset: EEEAA0
   class AttributeDictionary : public System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*> {
     public:
-    // Creating value type constructor for type: AttributeDictionary
-    AttributeDictionary() noexcept {}
     // public System.String get_Item(System.String key)
     // Offset: 0x1935828
     ::Il2CppString* get_Item(::Il2CppString* key);

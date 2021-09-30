@@ -39,8 +39,6 @@ namespace System::Globalization {
     // Size: 0xFFFFFFFF
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
-    // Creating value type constructor for type: CultureNotFoundException
-    CultureNotFoundException(::Il2CppString* m_invalidCultureName_ = {}, System::Nullable_1<int> m_invalidCultureId_ = {}) noexcept : m_invalidCultureName{m_invalidCultureName_}, m_invalidCultureId{m_invalidCultureId_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.String m_invalidCultureName

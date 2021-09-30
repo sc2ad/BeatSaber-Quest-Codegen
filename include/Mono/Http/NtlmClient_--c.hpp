@@ -35,8 +35,6 @@ namespace Mono::Http {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class NtlmClient::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Mono.Http.NtlmClient/Mono.Http.<>c <>9
     static Mono::Http::NtlmClient::$$c* _get_$$9();
     // Set static field: static public readonly Mono.Http.NtlmClient/Mono.Http.<>c <>9

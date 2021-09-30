@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
-    // Creating value type constructor for type: RsaBlindedEngine
-    RsaBlindedEngine(Org::BouncyCastle::Crypto::IRsa* core_ = {}, Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : core{core_}, key{key_}, random{random_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);

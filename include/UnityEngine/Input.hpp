@@ -30,8 +30,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E93D98
   class Input : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Input
-    Input() noexcept {}
     // static public System.Boolean get_anyKeyDown()
     // Offset: 0x26210E0
     static bool get_anyKeyDown();

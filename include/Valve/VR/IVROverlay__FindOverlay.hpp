@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5D1C
   class IVROverlay::_FindOverlay : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _FindOverlay
-    _FindOverlay() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B4E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,8 +43,6 @@ namespace TMPro {
     public:
     // Nested type: TMPro::TMP_TextUtilities::LineSegment
     struct LineSegment;
-    // Creating value type constructor for type: TMP_TextUtilities
-    TMP_TextUtilities() noexcept {}
     // Get static field: static private UnityEngine.Vector3[] m_rectWorldCorners
     static ::ArrayWrapper<UnityEngine::Vector3> _get_m_rectWorldCorners();
     // Set static field: static private UnityEngine.Vector3[] m_rectWorldCorners

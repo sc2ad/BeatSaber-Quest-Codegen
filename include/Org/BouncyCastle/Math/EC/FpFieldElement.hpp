@@ -49,8 +49,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::BigInteger* x;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: FpFieldElement
-    FpFieldElement(Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Math::BigInteger* r_ = {}, Org::BouncyCastle::Math::BigInteger* x_ = {}) noexcept : q{q_}, r{r_}, x{x_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger q
     Org::BouncyCastle::Math::BigInteger*& dyn_q();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger r

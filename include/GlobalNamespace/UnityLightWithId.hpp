@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     float minAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: UnityLightWithId
-    UnityLightWithId(UnityEngine::Light* light_ = {}, float intensity_ = {}, float minAlpha_ = {}) noexcept : light{light_}, intensity{intensity_}, minAlpha{minAlpha_} {}
     // Get instance field reference: private UnityEngine.Light _light
     UnityEngine::Light*& dyn__light();
     // Get instance field reference: private System.Single _intensity

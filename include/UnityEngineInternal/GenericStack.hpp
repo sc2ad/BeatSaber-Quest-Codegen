@@ -20,8 +20,6 @@ namespace UnityEngineInternal {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericStack : public System::Collections::Stack {
     public:
-    // Creating value type constructor for type: GenericStack
-    GenericStack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x234EFE0
     // Implemented from: System.Collections.Stack

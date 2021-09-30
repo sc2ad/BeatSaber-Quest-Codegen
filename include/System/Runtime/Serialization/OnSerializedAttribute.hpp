@@ -18,8 +18,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F800
   class OnSerializedAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: OnSerializedAttribute
-    OnSerializedAttribute() noexcept {}
   }; // System.Runtime.Serialization.OnSerializedAttribute
   #pragma pack(pop)
 }

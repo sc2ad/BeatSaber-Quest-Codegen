@@ -101,7 +101,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
     // Offset: 0x144DBE8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ColorSchemeNetSerializable(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemeNetSerializable::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(saberAColor), ::il2cpp_utils::ExtractType(saberBColor), ::il2cpp_utils::ExtractType(obstaclesColor), ::il2cpp_utils::ExtractType(environmentColor0), ::il2cpp_utils::ExtractType(environmentColor1), ::il2cpp_utils::ExtractType(environmentColor0Boost), ::il2cpp_utils::ExtractType(environmentColor1Boost)})));

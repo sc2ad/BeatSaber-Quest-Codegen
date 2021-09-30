@@ -26,8 +26,6 @@ namespace System::Runtime::Remoting::Lifetime {
   // [ComVisibleAttribute] Offset: E5FC30
   class ISponsor {
     public:
-    // Creating value type constructor for type: ISponsor
-    ISponsor() noexcept {}
     // public System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease lease)
     // Offset: 0xFFFFFFFF
     System::TimeSpan Renewal(System::Runtime::Remoting::Lifetime::ILease* lease);

@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class PreviewDifficultyBeatmapSetExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PreviewDifficultyBeatmapSetExtensions
-    PreviewDifficultyBeatmapSetExtensions() noexcept {}
     // static public BeatmapCharacteristicSO[] GetBeatmapCharacteristics(PreviewDifficultyBeatmapSet[] previewDifficultyBeatmapSet)
     // Offset: 0x11BE218
     static ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> GetBeatmapCharacteristics(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSet);

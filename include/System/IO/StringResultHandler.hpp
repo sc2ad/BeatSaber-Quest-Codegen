@@ -38,8 +38,6 @@ namespace System::IO {
     bool includeDirs;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: StringResultHandler
-    StringResultHandler(bool includeFiles_ = {}, bool includeDirs_ = {}) noexcept : includeFiles{includeFiles_}, includeDirs{includeDirs_} {}
     // Get instance field reference: private System.Boolean _includeFiles
     bool& dyn__includeFiles();
     // Get instance field reference: private System.Boolean _includeDirs

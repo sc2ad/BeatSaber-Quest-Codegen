@@ -16,8 +16,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJNISafe : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AndroidJNISafe
-    AndroidJNISafe() noexcept {}
     // static public System.Void CheckException()
     // Offset: 0x25A9A58
     static void CheckException();

@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleOpenVrOpenVrHaptics : public ::Il2CppObject/*, public GlobalNamespace::IOpenVRHaptics*/ {
     public:
-    // Creating value type constructor for type: SimpleOpenVrOpenVrHaptics
-    SimpleOpenVrOpenVrHaptics() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IOpenVRHaptics
     operator GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);

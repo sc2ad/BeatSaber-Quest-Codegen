@@ -38,8 +38,6 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class Marshal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Marshal
-    Marshal() noexcept {}
     // Get static field: static public readonly System.Int32 SystemMaxDBCSCharSize
     static int _get_SystemMaxDBCSCharSize();
     // Set static field: static public readonly System.Int32 SystemMaxDBCSCharSize

@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD6E0
   class InvokerParameterNameAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: InvokerParameterNameAttribute
-    InvokerParameterNameAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610590
     // Implemented from: System.Attribute

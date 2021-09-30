@@ -40,8 +40,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* remove;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* remove_ = {}) noexcept : remove{remove_} {}
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*
     constexpr operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*() const noexcept {
       return remove;

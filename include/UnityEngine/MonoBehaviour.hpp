@@ -37,8 +37,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E7290C
   class MonoBehaviour : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: MonoBehaviour
-    MonoBehaviour() noexcept {}
     // public System.Boolean get_useGUILayout()
     // Offset: 0x1DAED20
     bool get_useGUILayout();

@@ -52,8 +52,6 @@ namespace Mono::Security::X509 {
     Mono::Security::X509::X509ExtensionCollection* extensions;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509ExtensionCollection*) == 0x8);
-    // Creating value type constructor for type: X509CrlEntry
-    X509CrlEntry(::ArrayWrapper<uint8_t> sn_ = {}, System::DateTime revocationDate_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}) noexcept : sn{sn_}, revocationDate{revocationDate_}, extensions{extensions_} {}
     // Get instance field reference: private System.Byte[] sn
     ::ArrayWrapper<uint8_t>& dyn_sn();
     // Get instance field reference: private System.DateTime revocationDate

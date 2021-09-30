@@ -27,8 +27,6 @@ namespace System::Runtime::CompilerServices {
     ::Il2CppString* assemblyFullName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeForwardedFromAttribute
-    TypeForwardedFromAttribute(::Il2CppString* assemblyFullName_ = {}) noexcept : assemblyFullName{assemblyFullName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return assemblyFullName;

@@ -112,8 +112,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: ProjectContext
-    ProjectContext(System::Action* PreInstall_ = {}, System::Action* PostInstall_ = {}, System::Action* PreResolve_ = {}, System::Action* PostResolve_ = {}, bool parentNewObjectsUnderContext_ = {}, Zenject::ReflectionBakingCoverageModes editorReflectionBakingCoverageMode_ = {}, Zenject::ReflectionBakingCoverageModes buildsReflectionBakingCoverageMode_ = {}, Zenject::ZenjectSettings* settings_ = {}, Zenject::DiContainer* container_ = {}) noexcept : PreInstall{PreInstall_}, PostInstall{PostInstall_}, PreResolve{PreResolve_}, PostResolve{PostResolve_}, parentNewObjectsUnderContext{parentNewObjectsUnderContext_}, editorReflectionBakingCoverageMode{editorReflectionBakingCoverageMode_}, buildsReflectionBakingCoverageMode{buildsReflectionBakingCoverageMode_}, settings{settings_}, container{container_} {}
     // static field const value: static public System.String ProjectContextResourcePath
     static constexpr const char* ProjectContextResourcePath = "ProjectContext";
     // Get static field: static public System.String ProjectContextResourcePath

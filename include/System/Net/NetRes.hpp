@@ -21,8 +21,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetRes : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetRes
-    NetRes() noexcept {}
     // static public System.String GetWebStatusString(System.String Res, System.Net.WebExceptionStatus Status)
     // Offset: 0x1851824
     static ::Il2CppString* GetWebStatusString(::Il2CppString* Res, System::Net::WebExceptionStatus Status);

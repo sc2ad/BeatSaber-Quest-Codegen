@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     int currentSegmentIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BezierSplineEvaluator
-    BezierSplineEvaluator(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* segments_ = {}, int currentSegmentIndex_ = {}) noexcept : segments{segments_}, currentSegmentIndex{currentSegmentIndex_} {}
     // static field const value: static private System.Single kSlightAboveOne
     static constexpr const float kSlightAboveOne = 1.0005;
     // Get static field: static private System.Single kSlightAboveOne

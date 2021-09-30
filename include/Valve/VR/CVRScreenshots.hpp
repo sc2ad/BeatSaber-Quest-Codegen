@@ -44,8 +44,6 @@ namespace Valve::VR {
     Valve::VR::IVRScreenshots FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRScreenshots) == 0x38);
-    // Creating value type constructor for type: CVRScreenshots
-    CVRScreenshots(Valve::VR::IVRScreenshots FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRScreenshots
     constexpr operator Valve::VR::IVRScreenshots() const noexcept {
       return FnTable;

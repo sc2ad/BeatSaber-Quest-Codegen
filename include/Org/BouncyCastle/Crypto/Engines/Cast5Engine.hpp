@@ -59,8 +59,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int rounds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Cast5Engine
-    Cast5Engine(::ArrayWrapper<int> Kr_ = {}, ::ArrayWrapper<uint> Km_ = {}, bool encrypting_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}, int rounds_ = {}) noexcept : Kr{Kr_}, Km{Km_}, encrypting{encrypting_}, workingKey{workingKey_}, rounds{rounds_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

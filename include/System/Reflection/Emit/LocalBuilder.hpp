@@ -52,8 +52,6 @@ namespace System::Reflection::Emit {
     int endOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LocalBuilder
-    LocalBuilder(::Il2CppString* name_ = {}, System::Reflection::Emit::ILGenerator* ilgen_ = {}, int startOffset_ = {}, int endOffset_ = {}) noexcept : name{name_}, ilgen{ilgen_}, startOffset{startOffset_}, endOffset{endOffset_} {}
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: System.Reflection.Emit.ILGenerator ilgen

@@ -13,8 +13,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITweenValue {
     public:
-    // Creating value type constructor for type: ITweenValue
-    ITweenValue() noexcept {}
     // public System.Boolean get_ignoreTimeScale()
     // Offset: 0xFFFFFFFF
     bool get_ignoreTimeScale();

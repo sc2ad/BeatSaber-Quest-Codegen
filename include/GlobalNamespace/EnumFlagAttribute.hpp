@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     ::Il2CppString* enumName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EnumFlagAttribute
-    EnumFlagAttribute(::Il2CppString* enumName_ = {}) noexcept : enumName{enumName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return enumName;

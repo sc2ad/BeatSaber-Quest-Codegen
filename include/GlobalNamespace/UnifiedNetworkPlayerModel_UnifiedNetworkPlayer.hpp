@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: UnifiedNetworkPlayer
-    UnifiedNetworkPlayer(GlobalNamespace::UnifiedNetworkPlayerModel* playerModel_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : playerModel{playerModel_}, connectedPlayer{connectedPlayer_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayer
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);

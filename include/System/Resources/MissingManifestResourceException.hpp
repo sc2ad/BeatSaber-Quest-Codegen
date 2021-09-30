@@ -28,8 +28,6 @@ namespace System::Resources {
   // [ComVisibleAttribute] Offset: E5CFA8
   class MissingManifestResourceException : public System::SystemException {
     public:
-    // Creating value type constructor for type: MissingManifestResourceException
-    MissingManifestResourceException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15A5F10
     // Implemented from: System.SystemException

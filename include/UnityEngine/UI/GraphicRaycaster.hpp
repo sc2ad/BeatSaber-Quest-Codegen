@@ -148,8 +148,6 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* m_RaycastResults;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*) == 0x8);
-    // Creating value type constructor for type: GraphicRaycaster
-    GraphicRaycaster(bool m_IgnoreReversedGraphics_ = {}, UnityEngine::UI::GraphicRaycaster::BlockingObjects m_BlockingObjects_ = {}, UnityEngine::LayerMask m_BlockingMask_ = {}, UnityEngine::Canvas* m_Canvas_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* m_RaycastResults_ = {}) noexcept : m_IgnoreReversedGraphics{m_IgnoreReversedGraphics_}, m_BlockingObjects{m_BlockingObjects_}, m_BlockingMask{m_BlockingMask_}, m_Canvas{m_Canvas_}, m_RaycastResults{m_RaycastResults_} {}
     // static field const value: static protected System.Int32 kNoEventMaskSet
     static constexpr const int kNoEventMaskSet = -1;
     // Get static field: static protected System.Int32 kNoEventMaskSet

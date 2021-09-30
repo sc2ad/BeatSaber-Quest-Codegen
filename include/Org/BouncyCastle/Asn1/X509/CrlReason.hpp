@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlReason : public Org::BouncyCastle::Asn1::DerEnumerated {
     public:
-    // Creating value type constructor for type: CrlReason
-    CrlReason() noexcept {}
     // Get static field: static private readonly System.String[] ReasonString
     static ::ArrayWrapper<::Il2CppString*> _get_ReasonString();
     // Set static field: static private readonly System.String[] ReasonString

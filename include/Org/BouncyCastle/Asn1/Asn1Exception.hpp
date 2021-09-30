@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1Exception : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: Asn1Exception
-    Asn1Exception() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18DEC4C
     // Implemented from: System.IO.IOException

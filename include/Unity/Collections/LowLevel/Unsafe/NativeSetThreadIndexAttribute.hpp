@@ -18,8 +18,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FE0C
   class NativeSetThreadIndexAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeSetThreadIndexAttribute
-    NativeSetThreadIndexAttribute() noexcept {}
   }; // Unity.Collections.LowLevel.Unsafe.NativeSetThreadIndexAttribute
   #pragma pack(pop)
 }

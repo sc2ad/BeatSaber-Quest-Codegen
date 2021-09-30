@@ -107,8 +107,6 @@ namespace System::Collections::Concurrent {
     int currentAdders;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BlockingCollection_1
-    BlockingCollection_1(System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection_ = {}, int boundedCapacity_ = {}, System::Threading::SemaphoreSlim* freeNodes_ = {}, System::Threading::SemaphoreSlim* occupiedNodes_ = {}, bool isDisposed_ = {}, System::Threading::CancellationTokenSource* consumersCancellationTokenSource_ = {}, System::Threading::CancellationTokenSource* producersCancellationTokenSource_ = {}, int currentAdders_ = {}) noexcept : collection{collection_}, boundedCapacity{boundedCapacity_}, freeNodes{freeNodes_}, occupiedNodes{occupiedNodes_}, isDisposed{isDisposed_}, consumersCancellationTokenSource{consumersCancellationTokenSource_}, producersCancellationTokenSource{producersCancellationTokenSource_}, currentAdders{currentAdders_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<T>
     operator System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);

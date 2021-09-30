@@ -39,8 +39,6 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x38
     System::Nullable_1<int64_t> To;
-    // Creating value type constructor for type: ContentRangeHeaderValue
-    ContentRangeHeaderValue(::Il2CppString* unit_ = {}, System::Nullable_1<int64_t> From_ = {}, System::Nullable_1<int64_t> Length_ = {}, System::Nullable_1<int64_t> To_ = {}) noexcept : unit{unit_}, From{From_}, Length{Length_}, To{To_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

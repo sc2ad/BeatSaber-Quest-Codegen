@@ -13,8 +13,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITimeControl {
     public:
-    // Creating value type constructor for type: ITimeControl
-    ITimeControl() noexcept {}
     // public System.Void SetTime(System.Double time)
     // Offset: 0xFFFFFFFF
     void SetTime(double time);

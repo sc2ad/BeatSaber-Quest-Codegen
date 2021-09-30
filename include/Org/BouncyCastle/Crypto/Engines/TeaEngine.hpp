@@ -63,8 +63,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TeaEngine
-    TeaEngine(uint a_ = {}, uint b_ = {}, uint c_ = {}, uint d_ = {}, bool initialised_ = {}, bool forEncryption_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d{d_}, initialised{initialised_}, forEncryption{forEncryption_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

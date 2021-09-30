@@ -53,8 +53,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::Commands::TestCommand* command;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
-    // Creating value type constructor for type: DefaultTestWorkItem
-    DefaultTestWorkItem(NUnit::Framework::Internal::Commands::TestCommand* command_ = {}) noexcept : command{command_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::Commands::TestCommand*
     constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const noexcept {
       return command;

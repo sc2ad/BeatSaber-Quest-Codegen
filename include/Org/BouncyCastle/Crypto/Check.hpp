@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class Check : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Check
-    Check() noexcept {}
     // static System.Void DataLength(System.Boolean condition, System.String msg)
     // Offset: 0x1EF9D98
     static void DataLength(bool condition, ::Il2CppString* msg);

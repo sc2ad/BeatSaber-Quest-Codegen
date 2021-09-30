@@ -71,8 +71,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X9::DHValidationParms*) == 0x8);
-    // Creating value type constructor for type: DHDomainParameters
-    DHDomainParameters(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* j_ = {}, Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms_ = {}) noexcept : p{p_}, g{g_}, q{q_}, j{j_}, validationParms{validationParms_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger p
     Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger g

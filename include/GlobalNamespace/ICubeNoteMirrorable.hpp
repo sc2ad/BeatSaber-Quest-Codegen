@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICubeNoteMirrorable/*, public GlobalNamespace::INoteMirrorable*/ {
     public:
-    // Creating value type constructor for type: ICubeNoteMirrorable
-    ICubeNoteMirrorable() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteMirrorable
     operator GlobalNamespace::INoteMirrorable() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteMirrorable*>(this);

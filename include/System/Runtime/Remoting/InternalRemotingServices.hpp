@@ -27,8 +27,6 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FAD8
   class InternalRemotingServices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: InternalRemotingServices
-    InternalRemotingServices() noexcept {}
     // Get static field: static private System.Collections.Hashtable _soapAttributes
     static System::Collections::Hashtable* _get__soapAttributes();
     // Set static field: static private System.Collections.Hashtable _soapAttributes

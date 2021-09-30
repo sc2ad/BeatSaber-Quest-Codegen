@@ -37,8 +37,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_AssetDatabase::HEU_ImportAssetOptions
     struct HEU_ImportAssetOptions;
-    // Creating value type constructor for type: HEU_AssetDatabase
-    HEU_AssetDatabase() noexcept {}
     // static public System.String GetAssetCachePath()
     // Offset: 0x1439FC0
     static ::Il2CppString* GetAssetCachePath();

@@ -30,8 +30,6 @@ namespace UnityEngine {
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: IntegratedSubsystemDescriptor
-    IntegratedSubsystemDescriptor(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptorImpl
     operator UnityEngine::ISubsystemDescriptorImpl() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptorImpl*>(this);

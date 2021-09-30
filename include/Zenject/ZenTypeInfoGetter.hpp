@@ -34,8 +34,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenTypeInfoGetter : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ZenTypeInfoGetter
-    ZenTypeInfoGetter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25EE298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -17,8 +17,6 @@ namespace System::Runtime::Remoting::Channels {
   // [ComVisibleAttribute] Offset: E5FD94
   class IChannel {
     public:
-    // Creating value type constructor for type: IChannel
-    IChannel() noexcept {}
     // public System.String get_ChannelName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_ChannelName();

@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapLevelData {
     public:
-    // Creating value type constructor for type: IBeatmapLevelData
-    IBeatmapLevelData() noexcept {}
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0xFFFFFFFF
     UnityEngine::AudioClip* get_audioClip();

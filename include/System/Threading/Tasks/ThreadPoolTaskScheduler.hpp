@@ -32,8 +32,6 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPoolTaskScheduler : public System::Threading::Tasks::TaskScheduler {
     public:
-    // Creating value type constructor for type: ThreadPoolTaskScheduler
-    ThreadPoolTaskScheduler() noexcept {}
     // Get static field: static private readonly System.Threading.ParameterizedThreadStart s_longRunningThreadWork
     static System::Threading::ParameterizedThreadStart* _get_s_longRunningThreadWork();
     // Set static field: static private readonly System.Threading.ParameterizedThreadStart s_longRunningThreadWork

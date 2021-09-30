@@ -42,8 +42,6 @@ namespace Zenject {
     Zenject::InjectSources Source;
     // Field size check
     static_assert(sizeof(Zenject::InjectSources) == 0x4);
-    // Creating value type constructor for type: InjectAttributeBase
-    InjectAttributeBase(bool Optional_ = {}, ::Il2CppObject* Id_ = {}, Zenject::InjectSources Source_ = {}) noexcept : Optional{Optional_}, Id{Id_}, Source{Source_} {}
     // Get instance field reference: private System.Boolean <Optional>k__BackingField
     bool& dyn_$Optional$k__BackingField();
     // Get instance field reference: private System.Object <Id>k__BackingField

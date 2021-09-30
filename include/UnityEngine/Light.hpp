@@ -37,8 +37,6 @@ namespace UnityEngine {
     int m_BakedIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Light
-    Light(int m_BakedIndex_ = {}) noexcept : m_BakedIndex{m_BakedIndex_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 m_BakedIndex

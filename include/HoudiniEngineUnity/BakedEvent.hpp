@@ -37,8 +37,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakedEvent : public UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset*, bool, System::Collections::Generic::List_1<UnityEngine::GameObject*>*> {
     public:
-    // Creating value type constructor for type: BakedEvent
-    BakedEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1439124
     // Implemented from: UnityEngine.Events.UnityEvent`3

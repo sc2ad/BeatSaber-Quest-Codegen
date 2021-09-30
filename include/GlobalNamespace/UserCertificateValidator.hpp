@@ -32,8 +32,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserCertificateValidator : public ::Il2CppObject/*, public GlobalNamespace::ICertificateValidator*/ {
     public:
-    // Creating value type constructor for type: UserCertificateValidator
-    UserCertificateValidator() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::ICertificateValidator
     operator GlobalNamespace::ICertificateValidator() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICertificateValidator*>(this);

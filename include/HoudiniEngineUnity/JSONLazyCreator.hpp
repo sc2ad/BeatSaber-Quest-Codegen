@@ -51,8 +51,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* m_Key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: JSONLazyCreator
-    JSONLazyCreator(HoudiniEngineUnity::JSONNode* m_Node_ = {}, ::Il2CppString* m_Key_ = {}) noexcept : m_Node{m_Node_}, m_Key{m_Key_} {}
     // Get instance field reference: private HoudiniEngineUnity.JSONNode m_Node
     HoudiniEngineUnity::JSONNode*& dyn_m_Node();
     // Get instance field reference: private System.String m_Key

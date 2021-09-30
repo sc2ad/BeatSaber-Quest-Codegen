@@ -52,8 +52,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::$$c
     class $$c;
-    // Creating value type constructor for type: ExtrudeElements
-    ExtrudeElements() noexcept {}
     // static public UnityEngine.ProBuilder.Face[] Extrude(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, UnityEngine.ProBuilder.ExtrudeMethod method, System.Single distance)
     // Offset: 0x171B760
     static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::ProBuilder::ExtrudeMethod method, float distance);

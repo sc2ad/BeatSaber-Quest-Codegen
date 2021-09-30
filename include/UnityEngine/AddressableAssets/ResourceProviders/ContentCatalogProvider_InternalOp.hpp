@@ -86,8 +86,6 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*) == 0x8);
-    // Creating value type constructor for type: InternalOp
-    InternalOp(::Il2CppString* m_LocalDataPath_ = {}, ::Il2CppString* m_RemoteHashValue_ = {}, ::Il2CppString* m_LocalHashValue_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_ContentCatalogData_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> m_ContentCatalogDataLoadOp_ = {}, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog_ = {}) noexcept : m_LocalDataPath{m_LocalDataPath_}, m_RemoteHashValue{m_RemoteHashValue_}, m_LocalHashValue{m_LocalHashValue_}, m_ProviderInterface{m_ProviderInterface_}, m_ContentCatalogData{m_ContentCatalogData_}, m_ContentCatalogDataLoadOp{m_ContentCatalogDataLoadOp_}, m_BundledCatalog{m_BundledCatalog_} {}
     // Get instance field reference: private System.String m_LocalDataPath
     ::Il2CppString*& dyn_m_LocalDataPath();
     // Get instance field reference: private System.String m_RemoteHashValue

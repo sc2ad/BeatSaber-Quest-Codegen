@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithLaunchFriendRequestFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
     public:
-    // Creating value type constructor for type: MessageWithLaunchFriendRequestFlowResult
-    MessageWithLaunchFriendRequestFlowResult() noexcept {}
     // protected Oculus.Platform.Models.LaunchFriendRequestFlowResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B8630
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(System::IntPtr c_message);

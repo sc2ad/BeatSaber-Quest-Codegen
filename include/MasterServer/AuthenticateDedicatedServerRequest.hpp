@@ -65,8 +65,6 @@ namespace MasterServer {
     int64_t timestamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: AuthenticateDedicatedServerRequest
-    AuthenticateDedicatedServerRequest(::Il2CppString* dedicatedServerId_ = {}, GlobalNamespace::ByteArrayNetSerializable* nonce_ = {}, GlobalNamespace::ByteArrayNetSerializable* hash_ = {}, int64_t timestamp_ = {}) noexcept : dedicatedServerId{dedicatedServerId_}, nonce{nonce_}, hash{hash_}, timestamp{timestamp_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerAuthenticateRequest
     operator MasterServer::IMasterServerAuthenticateRequest() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAuthenticateRequest*>(this);

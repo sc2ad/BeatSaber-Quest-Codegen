@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* playersWithoutEntitlements;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: PlayersMissingEntitlementsNetSerializable
-    PlayersMissingEntitlementsNetSerializable(System::Collections::Generic::List_1<::Il2CppString*>* playersWithoutEntitlements_ = {}) noexcept : playersWithoutEntitlements{playersWithoutEntitlements_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

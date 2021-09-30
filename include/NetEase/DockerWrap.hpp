@@ -37,8 +37,6 @@ namespace NetEase {
   // [TokenAttribute] Offset: FFFFFFFF
   class DockerWrap : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DockerWrap
-    DockerWrap() noexcept {}
     // static public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callback)
     // Offset: 0x1134F58
     static void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callback);

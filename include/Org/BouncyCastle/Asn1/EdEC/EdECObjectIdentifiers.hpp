@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::EdEC {
   // [TokenAttribute] Offset: FFFFFFFF
   class EdECObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EdECObjectIdentifiers
-    EdECObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_edwards_curve_algs
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_edwards_curve_algs();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_edwards_curve_algs

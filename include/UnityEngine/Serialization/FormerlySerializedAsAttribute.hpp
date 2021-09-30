@@ -28,8 +28,6 @@ namespace UnityEngine::Serialization {
     ::Il2CppString* m_oldName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: FormerlySerializedAsAttribute
-    FormerlySerializedAsAttribute(::Il2CppString* m_oldName_ = {}) noexcept : m_oldName{m_oldName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_oldName;

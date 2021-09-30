@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     System::Random* random;
     // Field size check
     static_assert(sizeof(System::Random*) == 0x8);
-    // Creating value type constructor for type: BasicMockPlayerScoreCalculator
-    BasicMockPlayerScoreCalculator(float hitFrequency_ = {}, int minScore_ = {}, int maxScore_ = {}, System::Random* random_ = {}) noexcept : hitFrequency{hitFrequency_}, minScore{minScore_}, maxScore{maxScore_}, random{random_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMockPlayerScoreCalculator
     operator GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockPlayerScoreCalculator*>(this);

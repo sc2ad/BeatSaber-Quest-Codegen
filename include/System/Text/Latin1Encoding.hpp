@@ -38,8 +38,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class Latin1Encoding : public System::Text::EncodingNLS/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
-    // Creating value type constructor for type: Latin1Encoding
-    Latin1Encoding() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

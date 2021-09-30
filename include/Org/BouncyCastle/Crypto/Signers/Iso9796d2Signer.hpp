@@ -99,8 +99,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     ::ArrayWrapper<uint8_t> preBlock;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Iso9796d2Signer
-    Iso9796d2Signer(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher_ = {}, int trailer_ = {}, int keyBits_ = {}, ::ArrayWrapper<uint8_t> block_ = {}, ::ArrayWrapper<uint8_t> mBuf_ = {}, int messageLength_ = {}, bool fullMessage_ = {}, ::ArrayWrapper<uint8_t> recoveredMessage_ = {}, ::ArrayWrapper<uint8_t> preSig_ = {}, ::ArrayWrapper<uint8_t> preBlock_ = {}) noexcept : digest{digest_}, cipher{cipher_}, trailer{trailer_}, keyBits{keyBits_}, block{block_}, mBuf{mBuf_}, messageLength{messageLength_}, fullMessage{fullMessage_}, recoveredMessage{recoveredMessage_}, preSig{preSig_}, preBlock{preBlock_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5CCC
   class IVRCompositor::_GetVulkanInstanceExtensionsRequired : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetVulkanInstanceExtensionsRequired
-    _GetVulkanInstanceExtensionsRequired() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AE81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

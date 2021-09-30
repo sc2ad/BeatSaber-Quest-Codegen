@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     ::ArrayWrapper<int> t;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: PointExt
-    PointExt(::ArrayWrapper<int> x_ = {}, ::ArrayWrapper<int> y_ = {}, ::ArrayWrapper<int> z_ = {}, ::ArrayWrapper<int> t_ = {}) noexcept : x{x_}, y{y_}, z{z_}, t{t_} {}
     // Get instance field reference: System.Int32[] x
     ::ArrayWrapper<int>& dyn_x();
     // Get instance field reference: System.Int32[] y

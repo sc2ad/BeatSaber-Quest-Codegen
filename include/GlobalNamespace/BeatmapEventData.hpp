@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     float floatValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatmapEventData
-    BeatmapEventData(GlobalNamespace::BeatmapEventType type_ = {}, float time_ = {}, GlobalNamespace::BeatmapEventData* nextSameTypeEvent_ = {}, int value_ = {}, float floatValue_ = {}) noexcept : type{type_}, time{time_}, nextSameTypeEvent{nextSameTypeEvent_}, value{value_}, floatValue{floatValue_} {}
     // Get instance field reference: public readonly BeatmapEventType type
     GlobalNamespace::BeatmapEventType& dyn_type();
     // Get instance field reference: public readonly System.Single time

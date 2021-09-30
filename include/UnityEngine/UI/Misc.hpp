@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Misc : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Misc
-    Misc() noexcept {}
     // static public System.Void Destroy(UnityEngine.Object obj)
     // Offset: 0x1B4E598
     static void Destroy(UnityEngine::Object* obj);

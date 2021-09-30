@@ -31,8 +31,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ProviderBindingFinalizer::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.ProviderBindingFinalizer/Zenject.<>c <>9
     static Zenject::ProviderBindingFinalizer::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.ProviderBindingFinalizer/Zenject.<>c <>9

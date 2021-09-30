@@ -20,8 +20,6 @@ namespace System::Reflection::Emit {
   // [ObsoleteAttribute] Offset: E62838
   class UnmanagedMarshal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnmanagedMarshal
-    UnmanagedMarshal() noexcept {}
     // System.Void .ctor()
     // Offset: 0x1EA8214
     // Implemented from: System.Object

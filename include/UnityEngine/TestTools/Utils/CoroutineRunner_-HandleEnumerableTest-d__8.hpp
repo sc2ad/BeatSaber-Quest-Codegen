@@ -55,8 +55,6 @@ namespace UnityEngine::TestTools::Utils {
     System::Collections::IEnumerator* testEnumerator;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: $HandleEnumerableTest$d__8
-    $HandleEnumerableTest$d__8(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::TestTools::Utils::CoroutineRunner* $$4__this_ = {}, System::Collections::IEnumerator* testEnumerator_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, testEnumerator{testEnumerator_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

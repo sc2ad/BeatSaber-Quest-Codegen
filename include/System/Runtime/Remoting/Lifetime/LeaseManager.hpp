@@ -52,8 +52,6 @@ namespace System::Runtime::Remoting::Lifetime {
     System::Threading::Timer* timer;
     // Field size check
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
-    // Creating value type constructor for type: LeaseManager
-    LeaseManager(System::Collections::ArrayList* objects_ = {}, System::Threading::Timer* timer_ = {}) noexcept : objects{objects_}, timer{timer_} {}
     // Get instance field reference: private System.Collections.ArrayList _objects
     System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Threading.Timer _timer

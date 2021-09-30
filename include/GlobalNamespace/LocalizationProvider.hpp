@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     Polyglot::Localization* localization;
     // Field size check
     static_assert(sizeof(Polyglot::Localization*) == 0x8);
-    // Creating value type constructor for type: LocalizationProvider
-    LocalizationProvider(Polyglot::Localization* localization_ = {}) noexcept : localization{localization_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private LocalizationProvider _instance

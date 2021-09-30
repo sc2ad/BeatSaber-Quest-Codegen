@@ -37,8 +37,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMixedRealityCaptureConfiguration {
     public:
-    // Creating value type constructor for type: OVRMixedRealityCaptureConfiguration
-    OVRMixedRealityCaptureConfiguration() noexcept {}
     // public System.Boolean get_enableMixedReality()
     // Offset: 0xFFFFFFFF
     bool get_enableMixedReality();

@@ -34,8 +34,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECPointBase : public Org::BouncyCastle::Math::EC::ECPoint {
     public:
-    // Creating value type constructor for type: ECPointBase
-    ECPointBase() noexcept {}
     // protected internal System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Offset: 0x23181F0
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint

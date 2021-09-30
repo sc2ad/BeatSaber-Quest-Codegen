@@ -78,8 +78,6 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // Creating value type constructor for type: MainMenuDestinationRequestController
-    MainMenuDestinationRequestController(GlobalNamespace::IDestinationRequestManager* destinationRequestManager_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : destinationRequestManager{destinationRequestManager_}, menuScenesTransitionSetupData{menuScenesTransitionSetupData_}, gameScenesManager{gameScenesManager_}, cancellationTokenSource{cancellationTokenSource_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

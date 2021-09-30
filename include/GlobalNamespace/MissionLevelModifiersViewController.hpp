@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // Creating value type constructor for type: MissionLevelModifiersViewController
-    MissionLevelModifiersViewController(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList_ = {}, UnityEngine::GameObject* modifiersPanel_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, gameplayModifierInfoListItemsList{gameplayModifierInfoListItemsList_}, modifiersPanel{modifiersPanel_}, titleText{titleText_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
     GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // Get instance field reference: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList

@@ -41,8 +41,6 @@ namespace System::Security::Util {
     int numCharRead;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StreamTokenReader
-    StreamTokenReader(System::IO::StreamReader* in_ = {}, int numCharRead_ = {}) noexcept : in{in_}, numCharRead{numCharRead_} {}
     // Creating interface conversion operator: operator System::Security::Util::Tokenizer::ITokenReader
     operator System::Security::Util::Tokenizer::ITokenReader() noexcept {
       return *reinterpret_cast<System::Security::Util::Tokenizer::ITokenReader*>(this);

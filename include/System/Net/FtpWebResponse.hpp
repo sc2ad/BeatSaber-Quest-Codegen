@@ -121,8 +121,6 @@ namespace System::Net {
     int64_t contentLength;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: FtpWebResponse
-    FtpWebResponse(System::IO::Stream* stream_ = {}, System::Uri* uri_ = {}, System::Net::FtpStatusCode statusCode_ = {}, System::DateTime lastModified_ = {}, ::Il2CppString* bannerMessage_ = {}, ::Il2CppString* welcomeMessage_ = {}, ::Il2CppString* exitMessage_ = {}, ::Il2CppString* statusDescription_ = {}, ::Il2CppString* method_ = {}, bool disposed_ = {}, System::Net::FtpWebRequest* request_ = {}, int64_t contentLength_ = {}) noexcept : stream{stream_}, uri{uri_}, statusCode{statusCode_}, lastModified{lastModified_}, bannerMessage{bannerMessage_}, welcomeMessage{welcomeMessage_}, exitMessage{exitMessage_}, statusDescription{statusDescription_}, method{method_}, disposed{disposed_}, request{request_}, contentLength{contentLength_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.IO.Stream stream

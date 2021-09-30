@@ -32,8 +32,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BCBC
   class ArithmeticException : public System::SystemException {
     public:
-    // Creating value type constructor for type: ArithmeticException
-    ArithmeticException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19874F8
     // Implemented from: System.SystemException

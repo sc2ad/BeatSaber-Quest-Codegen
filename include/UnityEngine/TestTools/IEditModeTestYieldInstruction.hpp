@@ -20,8 +20,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class IEditModeTestYieldInstruction {
     public:
-    // Creating value type constructor for type: IEditModeTestYieldInstruction
-    IEditModeTestYieldInstruction() noexcept {}
     // public System.Collections.IEnumerator Perform()
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* Perform();

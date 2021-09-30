@@ -40,8 +40,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IUnifiedNetworkPlayerModel/*, public GlobalNamespace::INetworkPlayerModel*/ {
     public:
-    // Creating value type constructor for type: IUnifiedNetworkPlayerModel
-    IUnifiedNetworkPlayerModel() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayerModel
     operator GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModel*>(this);

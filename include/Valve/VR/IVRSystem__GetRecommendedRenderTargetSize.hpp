@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB504C
   class IVRSystem::_GetRecommendedRenderTargetSize : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetRecommendedRenderTargetSize
-    _GetRecommendedRenderTargetSize() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDF684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,8 +71,6 @@ namespace Zenject {
     Zenject::InjectContext* context;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass11_0
-    $$c__DisplayClass11_0(Zenject::TransientProvider* $$4__this_ = {}, ::Il2CppObject* instance_ = {}, System::Type* instanceType_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs_ = {}, Zenject::InjectContext* context_ = {}) noexcept : $$4__this{$$4__this_}, instance{instance_}, instanceType{instanceType_}, extraArgs{extraArgs_}, context{context_} {}
     // Get instance field reference: public Zenject.TransientProvider <>4__this
     Zenject::TransientProvider*& dyn_$$4__this();
     // Get instance field reference: public System.Object instance

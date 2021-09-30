@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlvEndomorphism/*, public Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*/ {
     public:
-    // Creating value type constructor for type: GlvEndomorphism
-    GlvEndomorphism() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Endo::ECEndomorphism
     operator Org::BouncyCastle::Math::EC::Endo::ECEndomorphism() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(this);

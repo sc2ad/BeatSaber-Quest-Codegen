@@ -36,8 +36,6 @@ namespace System::Resources {
     System::Resources::UltimateResourceFallbackLocation fallbackLoc;
     // Field size check
     static_assert(sizeof(System::Resources::UltimateResourceFallbackLocation) == 0x4);
-    // Creating value type constructor for type: NeutralResourcesLanguageAttribute
-    NeutralResourcesLanguageAttribute(::Il2CppString* culture_ = {}, System::Resources::UltimateResourceFallbackLocation fallbackLoc_ = {}) noexcept : culture{culture_}, fallbackLoc{fallbackLoc_} {}
     // Get instance field reference: private System.String _culture
     ::Il2CppString*& dyn__culture();
     // Get instance field reference: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Asn1::Misc {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetscapeRevocationUrl : public Org::BouncyCastle::Asn1::DerIA5String {
     public:
-    // Creating value type constructor for type: NetscapeRevocationUrl
-    NetscapeRevocationUrl() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
     // Offset: 0x196CC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

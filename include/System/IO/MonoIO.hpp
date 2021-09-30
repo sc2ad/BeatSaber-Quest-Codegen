@@ -49,8 +49,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoIO : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MonoIO
-    MonoIO() noexcept {}
     // Get static field: static public readonly System.IntPtr InvalidHandle
     static System::IntPtr _get_InvalidHandle();
     // Set static field: static public readonly System.IntPtr InvalidHandle

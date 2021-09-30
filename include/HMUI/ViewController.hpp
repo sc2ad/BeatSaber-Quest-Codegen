@@ -150,8 +150,6 @@ namespace HMUI {
     UnityEngine::EventSystems::BaseRaycaster* graphicRaycaster;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseRaycaster*) == 0x8);
-    // Creating value type constructor for type: ViewController
-    ViewController(HMUI::ViewController::DidActivateDelegate* didActivateEvent_ = {}, HMUI::ViewController::DidDeactivateDelegate* didDeactivateEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, HMUI::ContainerViewController* containerViewController_ = {}, HMUI::ViewController* parentViewController_ = {}, HMUI::ViewController* childViewController_ = {}, HMUI::Screen* screen_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, bool wasActivatedBefore_ = {}, bool isActivated_ = {}, bool isInTransition_ = {}, UnityEngine::EventSystems::BaseRaycaster* graphicRaycaster_ = {}) noexcept : didActivateEvent{didActivateEvent_}, didDeactivateEvent{didDeactivateEvent_}, buttonBinder{buttonBinder_}, containerViewController{containerViewController_}, parentViewController{parentViewController_}, childViewController{childViewController_}, screen{screen_}, rectTransform{rectTransform_}, canvasGroup{canvasGroup_}, wasActivatedBefore{wasActivatedBefore_}, isActivated{isActivated_}, isInTransition{isInTransition_}, graphicRaycaster{graphicRaycaster_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kTransitionDuration

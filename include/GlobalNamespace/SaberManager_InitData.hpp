@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberType oneSaberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(bool oneSaberMode_ = {}, GlobalNamespace::SaberType oneSaberType_ = {}) noexcept : oneSaberMode{oneSaberMode_}, oneSaberType{oneSaberType_} {}
     // Get instance field reference: public readonly System.Boolean oneSaberMode
     bool& dyn_oneSaberMode();
     // Get instance field reference: public readonly SaberType oneSaberType

@@ -25,8 +25,6 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlayableBehaviour {
     public:
-    // Creating value type constructor for type: IPlayableBehaviour
-    IPlayableBehaviour() noexcept {}
     // public System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
     void OnGraphStart(UnityEngine::Playables::Playable playable);

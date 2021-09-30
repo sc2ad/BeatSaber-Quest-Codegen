@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509SignatureUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X509SignatureUtilities
-    X509SignatureUtilities() noexcept {}
     // Get static field: static private readonly Org.BouncyCastle.Asn1.Asn1Null derNull
     static Org::BouncyCastle::Asn1::Asn1Null* _get_derNull();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.Asn1Null derNull

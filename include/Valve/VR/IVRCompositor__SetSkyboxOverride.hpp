@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5B00
   class IVRCompositor::_SetSkyboxOverride : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetSkyboxOverride
-    _SetSkyboxOverride() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B0340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

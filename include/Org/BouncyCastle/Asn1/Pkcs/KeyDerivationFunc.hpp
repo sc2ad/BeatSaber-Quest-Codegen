@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyDerivationFunc : public Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
     public:
-    // Creating value type constructor for type: KeyDerivationFunc
-    KeyDerivationFunc() noexcept {}
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1970778
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier

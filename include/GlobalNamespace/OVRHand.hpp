@@ -218,8 +218,6 @@ namespace GlobalNamespace {
     bool IsDominantHand;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRHand
-    OVRHand(GlobalNamespace::OVRHand::Hand HandType_ = {}, UnityEngine::Transform* pointerPoseRoot_ = {}, UnityEngine::GameObject* pointerPoseGO_ = {}, GlobalNamespace::OVRPlugin::HandState handState_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool IsTracked_ = {}, bool IsSystemGestureInProgress_ = {}, bool IsPointerPoseValid_ = {}, UnityEngine::Transform* PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRHand::TrackingConfidence HandConfidence_ = {}, bool IsDominantHand_ = {}) noexcept : HandType{HandType_}, pointerPoseRoot{pointerPoseRoot_}, pointerPoseGO{pointerPoseGO_}, handState{handState_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, IsTracked{IsTracked_}, IsSystemGestureInProgress{IsSystemGestureInProgress_}, IsPointerPoseValid{IsPointerPoseValid_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, IsDominantHand{IsDominantHand_} {}
     // Creating interface conversion operator: operator GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider
     operator GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*>(this);

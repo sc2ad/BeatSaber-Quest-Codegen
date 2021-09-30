@@ -40,8 +40,6 @@ namespace UnityEngine::UI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LayoutRebuilder::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.UI.LayoutRebuilder/UnityEngine.UI.<>c <>9
     static UnityEngine::UI::LayoutRebuilder::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.UI.LayoutRebuilder/UnityEngine.UI.<>c <>9

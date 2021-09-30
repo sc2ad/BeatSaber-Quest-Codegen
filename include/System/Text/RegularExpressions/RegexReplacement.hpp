@@ -65,8 +65,6 @@ namespace System::Text::RegularExpressions {
     System::Collections::Generic::List_1<int>* rules;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
-    // Creating value type constructor for type: RegexReplacement
-    RegexReplacement(::Il2CppString* rep_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* strings_ = {}, System::Collections::Generic::List_1<int>* rules_ = {}) noexcept : rep{rep_}, strings{strings_}, rules{rules_} {}
     // Get instance field reference: System.String _rep
     ::Il2CppString*& dyn__rep();
     // Get instance field reference: System.Collections.Generic.List`1<System.String> _strings

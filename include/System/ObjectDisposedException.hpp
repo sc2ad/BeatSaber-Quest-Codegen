@@ -34,8 +34,6 @@ namespace System {
     ::Il2CppString* objectName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ObjectDisposedException
-    ObjectDisposedException(::Il2CppString* objectName_ = {}) noexcept : objectName{objectName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return objectName;

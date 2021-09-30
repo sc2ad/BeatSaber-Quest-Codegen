@@ -60,8 +60,6 @@ namespace HMUI {
     ::ArrayWrapper<UnityEngine::Vector3> worldCornersTemp;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: HoverHint
-    HoverHint(::Il2CppString* text_ = {}, HMUI::HoverHintController* hoverHintController_ = {}, ::ArrayWrapper<UnityEngine::Vector3> worldCornersTemp_ = {}) noexcept : text{text_}, hoverHintController{hoverHintController_}, worldCornersTemp{worldCornersTemp_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

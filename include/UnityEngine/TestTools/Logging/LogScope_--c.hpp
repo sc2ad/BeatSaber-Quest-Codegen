@@ -34,8 +34,6 @@ namespace UnityEngine::TestTools::Logging {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LogScope::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c <>9
     static UnityEngine::TestTools::Logging::LogScope::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c <>9

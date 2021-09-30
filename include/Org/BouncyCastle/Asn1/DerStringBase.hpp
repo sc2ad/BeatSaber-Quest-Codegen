@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerStringBase : public Org::BouncyCastle::Asn1::Asn1Object/*, public Org::BouncyCastle::Asn1::IAsn1String*/ {
     public:
-    // Creating value type constructor for type: DerStringBase
-    DerStringBase() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1String
     operator Org::BouncyCastle::Asn1::IAsn1String() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1String*>(this);

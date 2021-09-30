@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB17C4
   class IVRIOBuffer::_PropertyContainer : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _PropertyContainer
-    _PropertyContainer() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20F1098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

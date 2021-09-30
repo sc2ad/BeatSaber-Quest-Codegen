@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler_ = {}) noexcept : completionHandler{completionHandler_} {}
     // Creating conversion operator: operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*
     constexpr operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*() const noexcept {
       return completionHandler;

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class VmpcKsa3Engine : public Org::BouncyCastle::Crypto::Engines::VmpcEngine {
     public:
-    // Creating value type constructor for type: VmpcKsa3Engine
-    VmpcKsa3Engine() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A7F838
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine

@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BF88
   class DllNotFoundException : public System::TypeLoadException {
     public:
-    // Creating value type constructor for type: DllNotFoundException
-    DllNotFoundException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x199F270
     // Implemented from: System.TypeLoadException

@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* gameplayModifiersData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>*) == 0x8);
-    // Creating value type constructor for type: GameplayModifiersDropdown
-    GameplayModifiersDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* gameplayModifiersData_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, gameplayModifiersModel{gameplayModifiersModel_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, gameplayModifiersData{gameplayModifiersData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

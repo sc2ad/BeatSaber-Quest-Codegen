@@ -20,8 +20,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConsoleDriver {
     public:
-    // Creating value type constructor for type: IConsoleDriver
-    IConsoleDriver() noexcept {}
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
     // Offset: 0xFFFFFFFF
     System::ConsoleKeyInfo ReadKey(bool intercept);

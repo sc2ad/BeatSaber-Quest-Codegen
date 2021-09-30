@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask allSongPackMask;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
-    // Creating value type constructor for type: SongPackMasksModel
-    SongPackMasksModel(GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::SongPackMask allSongPackMask_ = {}) noexcept : songPackMaskModel{songPackMaskModel_}, allSongPackMask{allSongPackMask_} {}
     // Get instance field reference: private readonly SongPackMaskModelSO _songPackMaskModel
     GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
     // Get instance field reference: private readonly SongPackMask _allSongPackMask

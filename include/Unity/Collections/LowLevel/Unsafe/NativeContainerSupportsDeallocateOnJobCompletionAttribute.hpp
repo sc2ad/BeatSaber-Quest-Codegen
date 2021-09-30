@@ -22,8 +22,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FD94
   class NativeContainerSupportsDeallocateOnJobCompletionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeContainerSupportsDeallocateOnJobCompletionAttribute
-    NativeContainerSupportsDeallocateOnJobCompletionAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9B78
     // Implemented from: System.Attribute

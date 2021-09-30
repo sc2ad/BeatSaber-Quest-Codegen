@@ -96,8 +96,6 @@ namespace Mono::Net::Security {
     ::Il2CppObject* locker;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: AsyncProtocolRequest
-    AsyncProtocolRequest(Mono::Net::Security::MobileAuthenticatedStream* Parent_ = {}, bool RunSynchronously_ = {}, int UserResult_ = {}, int Started_ = {}, int RequestedSize_ = {}, int WriteRequested_ = {}, ::Il2CppObject* locker_ = {}) noexcept : Parent{Parent_}, RunSynchronously{RunSynchronously_}, UserResult{UserResult_}, Started{Started_}, RequestedSize{RequestedSize_}, WriteRequested{WriteRequested_}, locker{locker_} {}
     // Get instance field reference: private readonly Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField
     Mono::Net::Security::MobileAuthenticatedStream*& dyn_$Parent$k__BackingField();
     // Get instance field reference: private readonly System.Boolean <RunSynchronously>k__BackingField

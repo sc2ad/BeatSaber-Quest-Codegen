@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB59D4
   class IVRCompositor::_GetTrackingSpace : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetTrackingSpace
-    _GetTrackingSpace() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AE210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -46,8 +46,6 @@ namespace UnityEngine {
     System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::AsyncOperation*>*) == 0x8);
-    // Creating value type constructor for type: AsyncOperation
-    AsyncOperation(System::IntPtr m_Ptr_ = {}, System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback_ = {}) noexcept : m_Ptr{m_Ptr_}, m_completeCallback{m_completeCallback_} {}
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback

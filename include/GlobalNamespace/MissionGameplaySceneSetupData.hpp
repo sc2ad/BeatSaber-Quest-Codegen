@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     ::Il2CppString* backButtonText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MissionGameplaySceneSetupData
-    MissionGameplaySceneSetupData(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, bool autoRestart_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, ::Il2CppString* backButtonText_ = {}) noexcept : missionObjectives{missionObjectives_}, autoRestart{autoRestart_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, gameplayModifiers{gameplayModifiers_}, backButtonText{backButtonText_} {}
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
     ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public readonly System.Boolean autoRestart

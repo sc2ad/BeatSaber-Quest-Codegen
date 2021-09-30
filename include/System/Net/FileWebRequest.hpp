@@ -193,8 +193,6 @@ namespace System::Net {
     int m_Aborted;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FileWebRequest
-    FileWebRequest(::Il2CppString* m_connectionGroupName_ = {}, int64_t m_contentLength_ = {}, System::Net::ICredentials* m_credentials_ = {}, System::IO::FileAccess m_fileAccess_ = {}, System::Net::WebHeaderCollection* m_headers_ = {}, ::Il2CppString* m_method_ = {}, bool m_preauthenticate_ = {}, System::Net::IWebProxy* m_proxy_ = {}, System::Threading::ManualResetEvent* m_readerEvent_ = {}, bool m_readPending_ = {}, System::Net::WebResponse* m_response_ = {}, System::IO::Stream* m_stream_ = {}, bool m_syncHint_ = {}, int m_timeout_ = {}, System::Uri* m_uri_ = {}, bool m_writePending_ = {}, bool m_writing_ = {}, System::Net::LazyAsyncResult* m_WriteAResult_ = {}, System::Net::LazyAsyncResult* m_ReadAResult_ = {}, int m_Aborted_ = {}) noexcept : m_connectionGroupName{m_connectionGroupName_}, m_contentLength{m_contentLength_}, m_credentials{m_credentials_}, m_fileAccess{m_fileAccess_}, m_headers{m_headers_}, m_method{m_method_}, m_preauthenticate{m_preauthenticate_}, m_proxy{m_proxy_}, m_readerEvent{m_readerEvent_}, m_readPending{m_readPending_}, m_response{m_response_}, m_stream{m_stream_}, m_syncHint{m_syncHint_}, m_timeout{m_timeout_}, m_uri{m_uri_}, m_writePending{m_writePending_}, m_writing{m_writing_}, m_WriteAResult{m_WriteAResult_}, m_ReadAResult{m_ReadAResult_}, m_Aborted{m_Aborted_} {}
     // Get static field: static private System.Threading.WaitCallback s_GetRequestStreamCallback
     static System::Threading::WaitCallback* _get_s_GetRequestStreamCallback();
     // Set static field: static private System.Threading.WaitCallback s_GetRequestStreamCallback

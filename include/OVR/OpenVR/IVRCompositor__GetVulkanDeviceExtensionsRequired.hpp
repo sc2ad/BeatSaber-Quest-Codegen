@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0BE4
   class IVRCompositor::_GetVulkanDeviceExtensionsRequired : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetVulkanDeviceExtensionsRequired
-    _GetVulkanDeviceExtensionsRequired() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EB820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

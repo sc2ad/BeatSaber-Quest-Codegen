@@ -34,8 +34,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5984
   class IVRChaperoneSetup::_GetLivePhysicalBoundsInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetLivePhysicalBoundsInfo
-    _GetLivePhysicalBoundsInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21A69B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

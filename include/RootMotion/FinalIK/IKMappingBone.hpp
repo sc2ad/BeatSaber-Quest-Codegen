@@ -55,8 +55,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKMapping::BoneMap* boneMap;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
-    // Creating value type constructor for type: IKMappingBone
-    IKMappingBone(UnityEngine::Transform* bone_ = {}, float maintainRotationWeight_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap_ = {}) noexcept : bone{bone_}, maintainRotationWeight{maintainRotationWeight_}, boneMap{boneMap_} {}
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public System.Single maintainRotationWeight

@@ -29,8 +29,6 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RuntimeHelpers
-    RuntimeHelpers() noexcept {}
     // static public System.Int32 get_OffsetToStringData()
     // Offset: 0x15ADA44
     static int get_OffsetToStringData();

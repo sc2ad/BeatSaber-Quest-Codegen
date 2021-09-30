@@ -25,8 +25,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestAction {
     public:
-    // Creating value type constructor for type: ITestAction
-    ITestAction() noexcept {}
     // public NUnit.Framework.ActionTargets get_Targets()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::ActionTargets get_Targets();

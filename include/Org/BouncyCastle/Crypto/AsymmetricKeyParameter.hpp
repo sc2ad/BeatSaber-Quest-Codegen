@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto {
     bool privateKey;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AsymmetricKeyParameter
-    AsymmetricKeyParameter(bool privateKey_ = {}) noexcept : privateKey{privateKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

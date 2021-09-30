@@ -41,8 +41,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRNotifications FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRNotifications) == 0x10);
-    // Creating value type constructor for type: CVRNotifications
-    CVRNotifications(OVR::OpenVR::IVRNotifications FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRNotifications
     constexpr operator OVR::OpenVR::IVRNotifications() const noexcept {
       return FnTable;

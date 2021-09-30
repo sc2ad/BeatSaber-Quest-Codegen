@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::GetIsStartButtonEnabledRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
-    // Creating value type constructor for type: GetIsStartButtonEnabledRpc
-    GetIsStartButtonEnabledRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C88DC
     // Implemented from: RemoteProcedureCall

@@ -42,8 +42,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalKeySizesValue;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Security::Cryptography::KeySizes*>) == 0x8);
-    // Creating value type constructor for type: AsymmetricAlgorithm
-    AsymmetricAlgorithm(int KeySizeValue_ = {}, ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalKeySizesValue_ = {}) noexcept : KeySizeValue{KeySizeValue_}, LegalKeySizesValue{LegalKeySizesValue_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

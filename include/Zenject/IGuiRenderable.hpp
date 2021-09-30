@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGuiRenderable {
     public:
-    // Creating value type constructor for type: IGuiRenderable
-    IGuiRenderable() noexcept {}
     // public System.Void GuiRender()
     // Offset: 0xFFFFFFFF
     void GuiRender();

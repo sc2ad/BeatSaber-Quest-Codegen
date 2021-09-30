@@ -29,8 +29,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestFixture : public NUnit::Framework::Internal::TestSuite/*, public NUnit::Framework::Interfaces::IDisposableFixture*/ {
     public:
-    // Creating value type constructor for type: TestFixture
-    TestFixture() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IDisposableFixture
     operator NUnit::Framework::Interfaces::IDisposableFixture() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IDisposableFixture*>(this);

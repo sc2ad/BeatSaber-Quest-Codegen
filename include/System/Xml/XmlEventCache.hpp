@@ -359,8 +359,6 @@ namespace System::Xml {
     ::Il2CppString* baseUri;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: XmlEventCache
-    XmlEventCache(System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>* pages_ = {}, ::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent> pageCurr_ = {}, int pageSize_ = {}, bool hasRootNode_ = {}, System::Xml::Xsl::Runtime::StringConcat singleText_ = {}, ::Il2CppString* baseUri_ = {}) noexcept : pages{pages_}, pageCurr{pageCurr_}, pageSize{pageSize_}, hasRootNode{hasRootNode_}, singleText{singleText_}, baseUri{baseUri_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
     System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>*& dyn_pages();
     // Get instance field reference: private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr

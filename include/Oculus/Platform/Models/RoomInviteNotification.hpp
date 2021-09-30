@@ -46,8 +46,6 @@ namespace Oculus::Platform::Models {
     System::DateTime SentTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: RoomInviteNotification
-    RoomInviteNotification(uint64_t _ID_ = {}, uint64_t RoomID_ = {}, uint64_t SenderID_ = {}, System::DateTime SentTime_ = {}) noexcept : _ID{_ID_}, RoomID{RoomID_}, SenderID{SenderID_}, SentTime{SentTime_} {}
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.UInt64 RoomID

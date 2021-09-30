@@ -79,8 +79,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::TOPNodeTags* tags;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::TOPNodeTags*) == 0x8);
-    // Creating value type constructor for type: HEU_TOPNetworkData
-    HEU_TOPNetworkData(int nodeID_ = {}, ::Il2CppString* nodeName_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>* topNodes_ = {}, ::ArrayWrapper<::Il2CppString*> topNodeNames_ = {}, int selectedTOPIndex_ = {}, ::Il2CppString* parentName_ = {}, HoudiniEngineUnity::TOPNodeTags* tags_ = {}) noexcept : nodeID{nodeID_}, nodeName{nodeName_}, topNodes{topNodes_}, topNodeNames{topNodeNames_}, selectedTOPIndex{selectedTOPIndex_}, parentName{parentName_}, tags{tags_} {}
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName

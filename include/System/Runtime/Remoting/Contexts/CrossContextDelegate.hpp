@@ -30,8 +30,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FC80
   class CrossContextDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: CrossContextDelegate
-    CrossContextDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1C0E160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

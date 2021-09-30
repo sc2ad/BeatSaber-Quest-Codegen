@@ -30,8 +30,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interp : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Interp
-    Interp() noexcept {}
     // static public System.Single Float(System.Single t, RootMotion.InterpolationMode mode)
     // Offset: 0x1C6E468
     static float Float(float t, RootMotion::InterpolationMode mode);

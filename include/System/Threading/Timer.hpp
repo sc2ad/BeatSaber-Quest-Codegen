@@ -74,8 +74,6 @@ namespace System::Threading {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Timer
-    Timer(System::Threading::TimerCallback* callback_ = {}, ::Il2CppObject* state_ = {}, int64_t due_time_ms_ = {}, int64_t period_ms_ = {}, int64_t next_run_ = {}, bool disposed_ = {}) noexcept : callback{callback_}, state{state_}, due_time_ms{due_time_ms_}, period_ms{period_ms_}, next_run{next_run_}, disposed{disposed_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

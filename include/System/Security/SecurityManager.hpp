@@ -15,8 +15,6 @@ namespace System::Security {
   // [ComVisibleAttribute] Offset: E5EF30
   class SecurityManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SecurityManager
-    SecurityManager() noexcept {}
     // static System.Boolean CheckElevatedPermissions()
     // Offset: 0x1CD539C
     static bool CheckElevatedPermissions();

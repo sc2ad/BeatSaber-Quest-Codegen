@@ -21,8 +21,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSON : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: JSON
-    JSON() noexcept {}
     // static public HoudiniEngineUnity.JSONNode Parse(System.String aJSON)
     // Offset: 0x16FFDCC
     static HoudiniEngineUnity::JSONNode* Parse(::Il2CppString* aJSON);

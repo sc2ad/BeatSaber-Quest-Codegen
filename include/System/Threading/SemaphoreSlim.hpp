@@ -95,8 +95,6 @@ namespace System::Threading {
     System::Threading::SemaphoreSlim::TaskNode* m_asyncTail;
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
-    // Creating value type constructor for type: SemaphoreSlim
-    SemaphoreSlim(int m_currentCount_ = {}, int m_maxCount_ = {}, int m_waitCount_ = {}, ::Il2CppObject* m_lockObj_ = {}, System::Threading::ManualResetEvent* m_waitHandle_ = {}, System::Threading::SemaphoreSlim::TaskNode* m_asyncHead_ = {}, System::Threading::SemaphoreSlim::TaskNode* m_asyncTail_ = {}) noexcept : m_currentCount{m_currentCount_}, m_maxCount{m_maxCount_}, m_waitCount{m_waitCount_}, m_lockObj{m_lockObj_}, m_waitHandle{m_waitHandle_}, m_asyncHead{m_asyncHead_}, m_asyncTail{m_asyncTail_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

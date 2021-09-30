@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAuthenticationTokenProvider {
     public:
-    // Creating value type constructor for type: IAuthenticationTokenProvider
-    IAuthenticationTokenProvider() noexcept {}
     // public System.String get_hashedUserId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_hashedUserId();

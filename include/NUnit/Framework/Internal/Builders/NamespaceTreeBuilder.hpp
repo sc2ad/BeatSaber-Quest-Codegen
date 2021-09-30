@@ -48,8 +48,6 @@ namespace NUnit::Framework::Internal::Builders {
     NUnit::Framework::Internal::TestSuite* rootSuite;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestSuite*) == 0x8);
-    // Creating value type constructor for type: NamespaceTreeBuilder
-    NamespaceTreeBuilder(System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>* namespaceSuites_ = {}, NUnit::Framework::Internal::TestSuite* rootSuite_ = {}) noexcept : namespaceSuites{namespaceSuites_}, rootSuite{rootSuite_} {}
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
     System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>*& dyn_namespaceSuites();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite rootSuite

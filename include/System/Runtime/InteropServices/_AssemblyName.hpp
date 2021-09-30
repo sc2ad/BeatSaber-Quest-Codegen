@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60E94
   class _AssemblyName {
     public:
-    // Creating value type constructor for type: _AssemblyName
-    _AssemblyName() noexcept {}
   }; // System.Runtime.InteropServices._AssemblyName
   #pragma pack(pop)
 }

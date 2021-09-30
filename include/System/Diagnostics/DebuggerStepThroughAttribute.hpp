@@ -22,8 +22,6 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: E624DC
   class DebuggerStepThroughAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: DebuggerStepThroughAttribute
-    DebuggerStepThroughAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CEB43C
     // Implemented from: System.Attribute

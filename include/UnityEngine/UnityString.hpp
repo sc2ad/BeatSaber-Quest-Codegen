@@ -16,8 +16,6 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: E6DA44
   class UnityString : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityString
-    UnityString() noexcept {}
     // static public System.String Format(System.String fmt, params System.Object[] args)
     // Offset: 0x261FBC8
     static ::Il2CppString* Format(::Il2CppString* fmt, ::ArrayWrapper<::Il2CppObject*> args);

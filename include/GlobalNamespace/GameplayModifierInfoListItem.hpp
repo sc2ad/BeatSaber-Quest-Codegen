@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* iconImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: GameplayModifierInfoListItem
-    GameplayModifierInfoListItem(HMUI::HoverHint* hoverHint_ = {}, UnityEngine::UI::Image* iconImage_ = {}) noexcept : hoverHint{hoverHint_}, iconImage{iconImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.HoverHint _hoverHint

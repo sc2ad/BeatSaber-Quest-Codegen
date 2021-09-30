@@ -29,8 +29,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyReadOnlyDictionaryInternal::NodeEnumerator : public ::Il2CppObject/*, public System::Collections::IDictionaryEnumerator*/ {
     public:
-    // Creating value type constructor for type: NodeEnumerator
-    NodeEnumerator() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IDictionaryEnumerator
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);

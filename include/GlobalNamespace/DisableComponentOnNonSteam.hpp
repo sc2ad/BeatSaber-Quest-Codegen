@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     UnityEngine::MonoBehaviour* component;
     // Field size check
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
-    // Creating value type constructor for type: DisableComponentOnNonSteam
-    DisableComponentOnNonSteam(UnityEngine::MonoBehaviour* component_ = {}) noexcept : component{component_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MonoBehaviour _component

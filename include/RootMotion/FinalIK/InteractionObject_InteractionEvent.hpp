@@ -76,8 +76,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Events::UnityEvent* unityEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEvent*) == 0x8);
-    // Creating value type constructor for type: InteractionEvent
-    InteractionEvent(float time_ = {}, bool pause_ = {}, bool pickUp_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::AnimatorEvent*> animations_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::Message*> messages_ = {}, UnityEngine::Events::UnityEvent* unityEvent_ = {}) noexcept : time{time_}, pause{pause_}, pickUp{pickUp_}, animations{animations_}, messages{messages_}, unityEvent{unityEvent_} {}
     // Get instance field reference: public System.Single time
     float& dyn_time();
     // Get instance field reference: public System.Boolean pause

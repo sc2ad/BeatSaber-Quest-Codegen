@@ -25,8 +25,6 @@ namespace UnityEngine::Sprites {
   // [TokenAttribute] Offset: FFFFFFFF
   class DataUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DataUtility
-    DataUtility() noexcept {}
     // static public UnityEngine.Vector4 GetInnerUV(UnityEngine.Sprite sprite)
     // Offset: 0x233FE94
     static UnityEngine::Vector4 GetInnerUV(UnityEngine::Sprite* sprite);

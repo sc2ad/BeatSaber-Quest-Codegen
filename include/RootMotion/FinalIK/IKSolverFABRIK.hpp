@@ -45,8 +45,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<UnityEngine::Vector3> solverLocalPositions;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: IKSolverFABRIK
-    IKSolverFABRIK(RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, ::ArrayWrapper<bool> limitedBones_ = {}, ::ArrayWrapper<UnityEngine::Vector3> solverLocalPositions_ = {}) noexcept : OnPreIteration{OnPreIteration_}, limitedBones{limitedBones_}, solverLocalPositions{solverLocalPositions_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPreIteration();
     // Get instance field reference: private System.Boolean[] limitedBones

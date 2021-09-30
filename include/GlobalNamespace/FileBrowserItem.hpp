@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     bool isDirectory;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FileBrowserItem
-    FileBrowserItem(::Il2CppString* displayName_ = {}, ::Il2CppString* fullPath_ = {}, bool isDirectory_ = {}) noexcept : displayName{displayName_}, fullPath{fullPath_}, isDirectory{isDirectory_} {}
     // Get instance field reference: private System.String <displayName>k__BackingField
     ::Il2CppString*& dyn_$displayName$k__BackingField();
     // Get instance field reference: private System.String <fullPath>k__BackingField

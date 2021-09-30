@@ -110,8 +110,6 @@ namespace MasterServer {
     System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* publicServers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>*) == 0x8);
-    // Creating value type constructor for type: GetPublicServersResponse
-    GetPublicServersResponse(MasterServer::GetPublicServersResponse::Result result_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* publicServers_ = {}) noexcept : result{result_}, publicServers{publicServers_} {}
     // Creating interface conversion operator: operator MasterServer::IUserServerToClientMessage
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);

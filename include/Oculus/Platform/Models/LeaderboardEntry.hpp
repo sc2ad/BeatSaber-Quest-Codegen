@@ -82,8 +82,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* User;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // Creating value type constructor for type: LeaderboardEntry
-    LeaderboardEntry(::Il2CppString* DisplayScore_ = {}, ::ArrayWrapper<uint8_t> ExtraData_ = {}, int Rank_ = {}, int64_t Score_ = {}, Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional_ = {}, Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetric_ = {}, System::DateTime Timestamp_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : DisplayScore{DisplayScore_}, ExtraData{ExtraData_}, Rank{Rank_}, Score{Score_}, SupplementaryMetricOptional{SupplementaryMetricOptional_}, SupplementaryMetric{SupplementaryMetric_}, Timestamp{Timestamp_}, User{User_} {}
     // Get instance field reference: public readonly System.String DisplayScore
     ::Il2CppString*& dyn_DisplayScore();
     // Get instance field reference: public readonly System.Byte[] ExtraData

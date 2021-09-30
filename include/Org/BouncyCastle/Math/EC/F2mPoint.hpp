@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class F2mPoint : public Org::BouncyCastle::Math::EC::AbstractF2mPoint {
     public:
-    // Creating value type constructor for type: F2mPoint
-    F2mPoint() noexcept {}
     // public override Org.BouncyCastle.Math.EC.ECFieldElement get_YCoord()
     // Offset: 0x231ACD4
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint

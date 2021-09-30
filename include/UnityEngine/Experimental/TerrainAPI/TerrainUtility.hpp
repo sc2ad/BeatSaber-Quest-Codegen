@@ -27,8 +27,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
     class $$c__DisplayClass4_0;
     // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1
     class $$c__DisplayClass4_1;
-    // Creating value type constructor for type: TerrainUtility
-    TerrainUtility() noexcept {}
     // static System.Boolean HasValidTerrains()
     // Offset: 0x25E828C
     static bool HasValidTerrains();

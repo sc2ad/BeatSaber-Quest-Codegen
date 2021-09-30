@@ -13,8 +13,6 @@ namespace System::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConfigurationSectionHandler {
     public:
-    // Creating value type constructor for type: IConfigurationSectionHandler
-    IConfigurationSectionHandler() noexcept {}
   }; // System.Configuration.IConfigurationSectionHandler
   #pragma pack(pop)
 }

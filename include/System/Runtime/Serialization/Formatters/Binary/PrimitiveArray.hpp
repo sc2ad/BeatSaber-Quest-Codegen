@@ -101,8 +101,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::ArrayWrapper<uint64_t> uint64A;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
-    // Creating value type constructor for type: PrimitiveArray
-    PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code_ = {}, ::ArrayWrapper<bool> booleanA_ = {}, ::ArrayWrapper<::Il2CppChar> charA_ = {}, ::ArrayWrapper<double> doubleA_ = {}, ::ArrayWrapper<int16_t> int16A_ = {}, ::ArrayWrapper<int> int32A_ = {}, ::ArrayWrapper<int64_t> int64A_ = {}, ::ArrayWrapper<int8_t> sbyteA_ = {}, ::ArrayWrapper<float> singleA_ = {}, ::ArrayWrapper<uint16_t> uint16A_ = {}, ::ArrayWrapper<uint> uint32A_ = {}, ::ArrayWrapper<uint64_t> uint64A_ = {}) noexcept : code{code_}, booleanA{booleanA_}, charA{charA_}, doubleA{doubleA_}, int16A{int16A_}, int32A{int32A_}, int64A{int64A_}, sbyteA{sbyteA_}, singleA{singleA_}, uint16A{uint16A_}, uint32A{uint32A_}, uint64A{uint64A_} {}
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
     System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
     // Get instance field reference: private System.Boolean[] booleanA

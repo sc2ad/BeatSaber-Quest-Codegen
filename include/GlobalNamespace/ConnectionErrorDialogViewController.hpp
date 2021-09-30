@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
-    // Creating value type constructor for type: ConnectionErrorDialogViewController
-    ConnectionErrorDialogViewController() noexcept {}
     // public System.Void Init(DisconnectedReason reason, System.Action buttonAction)
     // Offset: 0x119DDC4
     void Init(GlobalNamespace::DisconnectedReason reason, System::Action* buttonAction);

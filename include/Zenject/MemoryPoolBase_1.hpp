@@ -81,8 +81,6 @@ namespace Zenject {
     int activeCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MemoryPoolBase_1
-    MemoryPoolBase_1(System::Collections::Generic::Stack_1<TContract>* inactiveItems_ = {}, Zenject::IFactory_1<TContract>* factory_ = {}, Zenject::MemoryPoolSettings* settings_ = {}, Zenject::DiContainer* container_ = {}, int activeCount_ = {}) noexcept : inactiveItems{inactiveItems_}, factory{factory_}, settings{settings_}, container{container_}, activeCount{activeCount_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

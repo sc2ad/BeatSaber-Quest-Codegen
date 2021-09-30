@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* activePlayersAtGameStart;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
-    // Creating value type constructor for type: PlayerSpecificSettingsAtStartNetSerializable
-    PlayerSpecificSettingsAtStartNetSerializable(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* activePlayerSpecificSettingsAtGameStart_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* activePlayersAtGameStart_ = {}) noexcept : activePlayerSpecificSettingsAtGameStart{activePlayerSpecificSettingsAtGameStart_}, activePlayersAtGameStart{activePlayersAtGameStart_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

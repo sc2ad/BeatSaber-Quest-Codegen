@@ -14,8 +14,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityAssetsHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityAssetsHelper
-    UnityAssetsHelper() noexcept {}
   }; // UnityAssetsHelper
   #pragma pack(pop)
 }

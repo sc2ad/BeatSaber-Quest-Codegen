@@ -54,8 +54,6 @@ namespace System {
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* m_innerExceptions;
     // Field size check
     static_assert(sizeof(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*) == 0x8);
-    // Creating value type constructor for type: AggregateException
-    AggregateException(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* m_innerExceptions_ = {}) noexcept : m_innerExceptions{m_innerExceptions_} {}
     // Creating conversion operator: operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*
     constexpr operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*() const noexcept {
       return m_innerExceptions;

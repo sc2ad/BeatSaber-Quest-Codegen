@@ -60,8 +60,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRCompositor FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRCompositor) == 0x158);
-    // Creating value type constructor for type: CVRCompositor
-    CVRCompositor(OVR::OpenVR::IVRCompositor FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRCompositor
     constexpr operator OVR::OpenVR::IVRCompositor() const noexcept {
       return FnTable;

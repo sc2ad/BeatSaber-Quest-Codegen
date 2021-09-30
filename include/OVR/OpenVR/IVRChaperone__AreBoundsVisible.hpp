@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB070C
   class IVRChaperone::_AreBoundsVisible : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _AreBoundsVisible
-    _AreBoundsVisible() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1770E78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

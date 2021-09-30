@@ -20,8 +20,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Glyph : public TMPro::TMP_TextElement_Legacy {
     public:
-    // Creating value type constructor for type: TMP_Glyph
-    TMP_Glyph() noexcept {}
     // static public TMPro.TMP_Glyph Clone(TMPro.TMP_Glyph source)
     // Offset: 0x11FA764
     static TMPro::TMP_Glyph* Clone(TMPro::TMP_Glyph* source);

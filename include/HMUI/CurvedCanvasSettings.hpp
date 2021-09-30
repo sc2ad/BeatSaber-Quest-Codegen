@@ -50,8 +50,6 @@ namespace HMUI {
     bool useFlatInEditMode;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CurvedCanvasSettings
-    CurvedCanvasSettings(float radius_ = {}, bool useFlatInEditMode_ = {}) noexcept : radius{radius_}, useFlatInEditMode{useFlatInEditMode_} {}
     // static field const value: static public System.Single kMaxElementWidth
     static constexpr const float kMaxElementWidth = 10;
     // Get static field: static public System.Single kMaxElementWidth

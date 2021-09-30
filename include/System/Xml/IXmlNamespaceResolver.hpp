@@ -16,8 +16,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class IXmlNamespaceResolver {
     public:
-    // Creating value type constructor for type: IXmlNamespaceResolver
-    IXmlNamespaceResolver() noexcept {}
     // public System.String LookupNamespace(System.String prefix)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* LookupNamespace(::Il2CppString* prefix);

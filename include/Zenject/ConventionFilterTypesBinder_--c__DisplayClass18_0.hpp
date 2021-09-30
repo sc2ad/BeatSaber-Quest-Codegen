@@ -39,8 +39,6 @@ namespace Zenject {
     System::Text::RegularExpressions::Regex* regex;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::Regex*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass18_0
-    $$c__DisplayClass18_0(System::Text::RegularExpressions::Regex* regex_ = {}) noexcept : regex{regex_} {}
     // Creating conversion operator: operator System::Text::RegularExpressions::Regex*
     constexpr operator System::Text::RegularExpressions::Regex*() const noexcept {
       return regex;

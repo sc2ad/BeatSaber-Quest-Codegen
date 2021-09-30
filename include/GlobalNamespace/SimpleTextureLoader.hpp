@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2
     class $LoadTextureCoroutine$d__2;
-    // Creating value type constructor for type: SimpleTextureLoader
-    SimpleTextureLoader() noexcept {}
     // Get static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
     static GlobalNamespace::HMCache_2<::Il2CppString*, UnityEngine::Texture2D*>* _get__cache();
     // Set static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache

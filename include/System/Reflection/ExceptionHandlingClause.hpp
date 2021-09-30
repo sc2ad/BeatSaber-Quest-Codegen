@@ -71,8 +71,6 @@ namespace System::Reflection {
     int handler_length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ExceptionHandlingClause
-    ExceptionHandlingClause(System::Type* catch_type_ = {}, int filter_offset_ = {}, System::Reflection::ExceptionHandlingClauseOptions flags_ = {}, int try_offset_ = {}, int try_length_ = {}, int handler_offset_ = {}, int handler_length_ = {}) noexcept : catch_type{catch_type_}, filter_offset{filter_offset_}, flags{flags_}, try_offset{try_offset_}, try_length{try_length_}, handler_offset{handler_offset_}, handler_length{handler_length_} {}
     // Get instance field reference: System.Type catch_type
     System::Type*& dyn_catch_type();
     // Get instance field reference: System.Int32 filter_offset

@@ -21,8 +21,6 @@ namespace HMUI {
   // [RequireComponent] Offset: EE14E4
   class ScrollViewItemForVisibilityController : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: ScrollViewItemForVisibilityController
-    ScrollViewItemForVisibilityController() noexcept {}
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
     // Offset: 0x1418060
     void GetWorldCorners(::ArrayWrapper<UnityEngine::Vector3> fourCornersArray);

@@ -29,8 +29,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Notifications : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Notifications
-    Notifications() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetRoomInviteNotifications()
     // Offset: 0x25B6DEC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* GetRoomInviteNotifications();

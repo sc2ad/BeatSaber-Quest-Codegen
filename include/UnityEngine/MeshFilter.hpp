@@ -25,8 +25,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E713A0
   class MeshFilter : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: MeshFilter
-    MeshFilter() noexcept {}
     // public UnityEngine.Mesh get_sharedMesh()
     // Offset: 0x1DAE134
     UnityEngine::Mesh* get_sharedMesh();

@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     float currentAnimationDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BTSStarTextEffectController
-    BTSStarTextEffectController(UnityEngine::Transform* transform_ = {}, UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::Animation* animation_ = {}, float currentAnimationDuration_ = {}) noexcept : transform{transform_}, spriteRenderer{spriteRenderer_}, animation{animation_}, currentAnimationDuration{currentAnimationDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kAnimationName

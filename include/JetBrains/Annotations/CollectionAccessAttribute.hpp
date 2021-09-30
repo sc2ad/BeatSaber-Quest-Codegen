@@ -29,8 +29,6 @@ namespace JetBrains::Annotations {
     JetBrains::Annotations::CollectionAccessType CollectionAccessType;
     // Field size check
     static_assert(sizeof(JetBrains::Annotations::CollectionAccessType) == 0x4);
-    // Creating value type constructor for type: CollectionAccessAttribute
-    CollectionAccessAttribute(JetBrains::Annotations::CollectionAccessType CollectionAccessType_ = {}) noexcept : CollectionAccessType{CollectionAccessType_} {}
     // Creating conversion operator: operator JetBrains::Annotations::CollectionAccessType
     constexpr operator JetBrains::Annotations::CollectionAccessType() const noexcept {
       return CollectionAccessType;

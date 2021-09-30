@@ -48,8 +48,6 @@ namespace UnityEngine::ProBuilder {
     float b;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: CIELabColor
-    CIELabColor(float L_ = {}, float a_ = {}, float b_ = {}) noexcept : L{L_}, a{a_}, b{b_} {}
     // Get instance field reference: public System.Single L
     float& dyn_L();
     // Get instance field reference: public System.Single a

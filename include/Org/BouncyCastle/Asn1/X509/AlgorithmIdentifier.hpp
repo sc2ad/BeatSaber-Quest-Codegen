@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Encodable* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
-    // Creating value type constructor for type: AlgorithmIdentifier
-    AlgorithmIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* parameters_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_algorithm();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Encodable parameters

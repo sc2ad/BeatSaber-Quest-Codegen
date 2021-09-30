@@ -71,8 +71,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> workingKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: BlowfishEngine
-    BlowfishEngine(::ArrayWrapper<uint> S0_ = {}, ::ArrayWrapper<uint> S1_ = {}, ::ArrayWrapper<uint> S2_ = {}, ::ArrayWrapper<uint> S3_ = {}, ::ArrayWrapper<uint> P_ = {}, bool encrypting_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}) noexcept : S0{S0_}, S1{S1_}, S2{S2_}, S3{S3_}, P{P_}, encrypting{encrypting_}, workingKey{workingKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

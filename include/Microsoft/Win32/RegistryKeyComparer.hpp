@@ -20,8 +20,6 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegistryKeyComparer : public ::Il2CppObject/*, public System::Collections::IEqualityComparer*/ {
     public:
-    // Creating value type constructor for type: RegistryKeyComparer
-    RegistryKeyComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);

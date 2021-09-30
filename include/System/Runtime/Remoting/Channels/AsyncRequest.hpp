@@ -39,8 +39,6 @@ namespace System::Runtime::Remoting::Channels {
     System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
-    // Creating value type constructor for type: AsyncRequest
-    AsyncRequest(System::Runtime::Remoting::Messaging::IMessageSink* ReplySink_ = {}, System::Runtime::Remoting::Messaging::IMessage* MsgRequest_ = {}) noexcept : ReplySink{ReplySink_}, MsgRequest{MsgRequest_} {}
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
     System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessage MsgRequest

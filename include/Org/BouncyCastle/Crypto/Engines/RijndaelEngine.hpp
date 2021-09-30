@@ -103,8 +103,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> shifts1SC;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: RijndaelEngine
-    RijndaelEngine(int BC_ = {}, int64_t BC_MASK_ = {}, int ROUNDS_ = {}, int blockBits_ = {}, ::ArrayWrapper<::ArrayWrapper<int64_t>> workingKey_ = {}, int64_t A0_ = {}, int64_t A1_ = {}, int64_t A2_ = {}, int64_t A3_ = {}, bool forEncryption_ = {}, ::ArrayWrapper<uint8_t> shifts0SC_ = {}, ::ArrayWrapper<uint8_t> shifts1SC_ = {}) noexcept : BC{BC_}, BC_MASK{BC_MASK_}, ROUNDS{ROUNDS_}, blockBits{blockBits_}, workingKey{workingKey_}, A0{A0_}, A1{A1_}, A2{A2_}, A3{A3_}, forEncryption{forEncryption_}, shifts0SC{shifts0SC_}, shifts1SC{shifts1SC_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

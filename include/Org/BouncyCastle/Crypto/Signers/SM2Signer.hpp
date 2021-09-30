@@ -102,8 +102,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     ::ArrayWrapper<uint8_t> z;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: SM2Signer
-    SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator_ = {}, Org::BouncyCastle::Crypto::IDigest* digest_ = {}, Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams_ = {}, Org::BouncyCastle::Math::EC::ECPoint* pubPoint_ = {}, Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ecKey_ = {}, ::ArrayWrapper<uint8_t> z_ = {}) noexcept : kCalculator{kCalculator_}, digest{digest_}, encoding{encoding_}, ecParams{ecParams_}, pubPoint{pubPoint_}, ecKey{ecKey_}, z{z_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

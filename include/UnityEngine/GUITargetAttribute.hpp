@@ -30,8 +30,6 @@ namespace UnityEngine {
     int displayMask;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GUITargetAttribute
-    GUITargetAttribute(int displayMask_ = {}) noexcept : displayMask{displayMask_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return displayMask;

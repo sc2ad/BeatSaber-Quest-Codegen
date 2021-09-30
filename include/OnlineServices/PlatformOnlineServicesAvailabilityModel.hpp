@@ -50,8 +50,6 @@ namespace OnlineServices {
     System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*) == 0x8);
-    // Creating value type constructor for type: PlatformOnlineServicesAvailabilityModel
-    PlatformOnlineServicesAvailabilityModel(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent_ = {}) noexcept : platformServicesAvailabilityInfoChangedEvent{platformServicesAvailabilityInfoChangedEvent_} {}
     // Creating conversion operator: operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*
     constexpr operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*() const noexcept {
       return platformServicesAvailabilityInfoChangedEvent;

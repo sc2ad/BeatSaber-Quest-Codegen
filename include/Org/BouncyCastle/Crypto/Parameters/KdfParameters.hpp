@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ::ArrayWrapper<uint8_t> shared;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: KdfParameters
-    KdfParameters(::ArrayWrapper<uint8_t> iv_ = {}, ::ArrayWrapper<uint8_t> shared_ = {}) noexcept : iv{iv_}, shared{shared_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDerivationParameters
     operator Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);

@@ -75,8 +75,6 @@ namespace Microsoft::Win32 {
     bool dirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: KeyHandler
-    KeyHandler(::Il2CppString* Dir_ = {}, ::Il2CppString* ActualDir_ = {}, bool IsVolatile_ = {}, System::Collections::Hashtable* values_ = {}, ::Il2CppString* file_ = {}, bool dirty_ = {}) noexcept : Dir{Dir_}, ActualDir{ActualDir_}, IsVolatile{IsVolatile_}, values{values_}, file{file_}, dirty{dirty_} {}
     // Get static field: static private System.Collections.Hashtable key_to_handler
     static System::Collections::Hashtable* _get_key_to_handler();
     // Set static field: static private System.Collections.Hashtable key_to_handler

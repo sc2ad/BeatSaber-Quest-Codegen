@@ -39,8 +39,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlaymodeWorkItemFactory : public UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory {
     public:
-    // Creating value type constructor for type: PlaymodeWorkItemFactory
-    PlaymodeWorkItemFactory() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1663EC0
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory

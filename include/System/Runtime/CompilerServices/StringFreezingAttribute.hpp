@@ -21,8 +21,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E60718
   class StringFreezingAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: StringFreezingAttribute
-    StringFreezingAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15ADD4C
     // Implemented from: System.Attribute

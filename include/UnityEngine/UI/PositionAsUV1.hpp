@@ -28,8 +28,6 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: EA87BC
   class PositionAsUV1 : public UnityEngine::UI::BaseMeshEffect {
     public:
-    // Creating value type constructor for type: PositionAsUV1
-    PositionAsUV1() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1B4F008
     // Implemented from: UnityEngine.UI.BaseMeshEffect

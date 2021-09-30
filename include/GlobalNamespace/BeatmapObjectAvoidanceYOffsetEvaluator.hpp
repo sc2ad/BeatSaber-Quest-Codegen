@@ -67,7 +67,6 @@ namespace GlobalNamespace {
       float& dyn_yOffset();
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
       // Offset: 0x129E2E0
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
     #pragma pack(pop)
@@ -103,8 +102,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectSpawnController*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectAvoidanceYOffsetEvaluator
-    BeatmapObjectAvoidanceYOffsetEvaluator(int currentYJumpOffsetBufferEndIndex_ = {}, float jumpDurationToDesiredZPosition_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData> yJumpOffsetBuffer_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}) noexcept : currentYJumpOffsetBufferEndIndex{currentYJumpOffsetBufferEndIndex_}, jumpDurationToDesiredZPosition{jumpDurationToDesiredZPosition_}, yJumpOffsetBuffer{yJumpOffsetBuffer_}, audioTimeSource{audioTimeSource_}, beatmapObjectSpawnController{beatmapObjectSpawnController_} {}
     // static field const value: static private System.Int32 kYJumpOffsetBufferLength
     static constexpr const int kYJumpOffsetBufferLength = 2000;
     // Get static field: static private System.Int32 kYJumpOffsetBufferLength

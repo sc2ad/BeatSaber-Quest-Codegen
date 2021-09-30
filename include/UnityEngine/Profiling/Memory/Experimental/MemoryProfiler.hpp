@@ -42,8 +42,6 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   // [NativeHeaderAttribute] Offset: E734EC
   class MemoryProfiler : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MemoryProfiler
-    MemoryProfiler() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE76534
     // Get static field: static private System.Action`2<System.String,System.Boolean> m_SnapshotFinished
     static System::Action_2<::Il2CppString*, bool>* _get_m_SnapshotFinished();

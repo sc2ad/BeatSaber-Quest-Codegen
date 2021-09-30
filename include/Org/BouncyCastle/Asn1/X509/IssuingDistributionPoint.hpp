@@ -87,8 +87,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
-    // Creating value type constructor for type: IssuingDistributionPoint
-    IssuingDistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, bool onlyContainsUserCerts_ = {}, bool onlyContainsCACerts_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons_ = {}, bool indirectCRL_ = {}, bool onlyContainsAttributeCerts_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}) noexcept : distributionPoint{distributionPoint_}, onlyContainsUserCerts{onlyContainsUserCerts_}, onlyContainsCACerts{onlyContainsCACerts_}, onlySomeReasons{onlySomeReasons_}, indirectCRL{indirectCRL_}, onlyContainsAttributeCerts{onlyContainsAttributeCerts_}, seq{seq_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.DistributionPointName _distributionPoint
     Org::BouncyCastle::Asn1::X509::DistributionPointName*& dyn__distributionPoint();
     // Get instance field reference: private readonly System.Boolean _onlyContainsUserCerts

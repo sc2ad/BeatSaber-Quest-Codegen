@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 hsvColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: HSVPanelController
-    HSVPanelController(GlobalNamespace::ColorSaturationValueSlider* colorSaturationValueSlider_ = {}, GlobalNamespace::ColorHueSlider* colorHueSlider_ = {}, System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent_ = {}, UnityEngine::Vector3 hsvColor_ = {}) noexcept : colorSaturationValueSlider{colorSaturationValueSlider_}, colorHueSlider{colorHueSlider_}, colorDidChangeEvent{colorDidChangeEvent_}, hsvColor{hsvColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSaturationValueSlider _colorSaturationValueSlider

@@ -94,8 +94,6 @@ namespace RootMotion::FinalIK {
     int chain2Index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ChildConstraint
-    ChildConstraint(float pushElasticity_ = {}, float pullElasticity_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, float nominalDistance_ = {}, bool isRigid_ = {}, float crossFade_ = {}, float inverseCrossFade_ = {}, int chain1Index_ = {}, int chain2Index_ = {}) noexcept : pushElasticity{pushElasticity_}, pullElasticity{pullElasticity_}, bone1{bone1_}, bone2{bone2_}, nominalDistance{nominalDistance_}, isRigid{isRigid_}, crossFade{crossFade_}, inverseCrossFade{inverseCrossFade_}, chain1Index{chain1Index_}, chain2Index{chain2Index_} {}
     // Get instance field reference: public System.Single pushElasticity
     float& dyn_pushElasticity();
     // Get instance field reference: public System.Single pullElasticity

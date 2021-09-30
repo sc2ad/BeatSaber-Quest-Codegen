@@ -86,8 +86,6 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* m_Style;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
-    // Creating value type constructor for type: GUILayoutEntry
-    GUILayoutEntry(float minWidth_ = {}, float maxWidth_ = {}, float minHeight_ = {}, float maxHeight_ = {}, UnityEngine::Rect rect_ = {}, int stretchWidth_ = {}, int stretchHeight_ = {}, bool consideredForMargin_ = {}, UnityEngine::GUIStyle* m_Style_ = {}) noexcept : minWidth{minWidth_}, maxWidth{maxWidth_}, minHeight{minHeight_}, maxHeight{maxHeight_}, rect{rect_}, stretchWidth{stretchWidth_}, stretchHeight{stretchHeight_}, consideredForMargin{consideredForMargin_}, m_Style{m_Style_} {}
     // Get static field: static UnityEngine.Rect kDummyRect
     static UnityEngine::Rect _get_kDummyRect();
     // Set static field: static UnityEngine.Rect kDummyRect

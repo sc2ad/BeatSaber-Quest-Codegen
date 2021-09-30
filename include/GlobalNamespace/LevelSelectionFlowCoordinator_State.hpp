@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // Creating value type constructor for type: State
-    State(System::Nullable_1<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> levelCategory_ = {}, GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : levelCategory{levelCategory_}, beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevel{previewBeatmapLevel_}, difficultyBeatmap{difficultyBeatmap_} {}
     // Get instance field reference: public readonly System.Nullable`1<SelectLevelCategoryViewController/LevelCategory> levelCategory
     System::Nullable_1<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_levelCategory();
     // Get instance field reference: public readonly IBeatmapLevelPack beatmapLevelPack

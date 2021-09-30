@@ -26,8 +26,6 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class RunFinishedEvent : public UnityEngine::Events::UnityEvent_1<NUnit::Framework::Interfaces::ITestResult*> {
     public:
-    // Creating value type constructor for type: RunFinishedEvent
-    RunFinishedEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x16760D0
     // Implemented from: UnityEngine.Events.UnityEvent`1

@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: Panel
-    Panel(::Il2CppString* title_ = {}, GlobalNamespace::IRefreshable* refreshable_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : title{title_}, refreshable{refreshable_}, gameObject{gameObject_} {}
     // Get instance field reference: public readonly System.String title
     ::Il2CppString*& dyn_title();
     // Get instance field reference: public readonly IRefreshable refreshable

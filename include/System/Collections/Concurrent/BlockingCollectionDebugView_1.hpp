@@ -14,8 +14,6 @@ namespace System::Collections::Concurrent {
   template<typename T>
   class BlockingCollectionDebugView_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BlockingCollectionDebugView_1
-    BlockingCollectionDebugView_1() noexcept {}
   }; // System.Collections.Concurrent.BlockingCollectionDebugView`1
   // Could not write size check! Type: System.Collections.Concurrent.BlockingCollectionDebugView`1 is generic, or has no fields that are valid for size checks!
 }

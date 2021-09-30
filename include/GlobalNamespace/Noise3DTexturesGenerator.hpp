@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>) == 0x8);
       // Creating value type constructor for type: MaterialTextureParamsCouple
-      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = {}) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
+      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = {nullptr}) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -112,8 +112,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>) == 0x8);
-    // Creating value type constructor for type: Noise3DTexturesGenerator
-    Noise3DTexturesGenerator(::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple> data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Texture3D _texture

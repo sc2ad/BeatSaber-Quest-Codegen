@@ -51,8 +51,6 @@ namespace System {
     class BinderState;
     // Nested type: System::DefaultBinder::$$c
     class $$c;
-    // Creating value type constructor for type: DefaultBinder
-    DefaultBinder() noexcept {}
     // static public System.Reflection.MethodBase ExactBinding(System.Reflection.MethodBase[] match, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
     // Offset: 0x1CE7F70
     static System::Reflection::MethodBase* ExactBinding(::ArrayWrapper<System::Reflection::MethodBase*> match, ::ArrayWrapper<System::Type*> types, ::ArrayWrapper<System::Reflection::ParameterModifier> modifiers);

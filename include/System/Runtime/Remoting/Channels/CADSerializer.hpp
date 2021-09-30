@@ -28,8 +28,6 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADSerializer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CADSerializer
-    CADSerializer() noexcept {}
     // static System.Runtime.Remoting.Messaging.IMessage DeserializeMessage(System.IO.MemoryStream mem, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x15B4708
     static System::Runtime::Remoting::Messaging::IMessage* DeserializeMessage(System::IO::MemoryStream* mem, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);

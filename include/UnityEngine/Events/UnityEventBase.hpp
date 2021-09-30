@@ -71,8 +71,6 @@ namespace UnityEngine::Events {
     bool m_CallsDirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnityEventBase
-    UnityEventBase(UnityEngine::Events::InvokableCallList* m_Calls_ = {}, UnityEngine::Events::PersistentCallGroup* m_PersistentCalls_ = {}, bool m_CallsDirty_ = {}) noexcept : m_Calls{m_Calls_}, m_PersistentCalls{m_PersistentCalls_}, m_CallsDirty{m_CallsDirty_} {}
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

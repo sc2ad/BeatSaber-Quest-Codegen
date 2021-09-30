@@ -38,8 +38,6 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::IKMapping::BoneMap
     class BoneMap;
-    // Creating value type constructor for type: IKMapping
-    IKMapping() noexcept {}
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     // Offset: 0x1E97508
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ByRef<::Il2CppString*> message);

@@ -37,8 +37,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
     Org::BouncyCastle::Crypto::IDigest* digest;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::IDigest*) == 0x8);
-    // Creating value type constructor for type: Pkcs5S1ParametersGenerator
-    Pkcs5S1ParametersGenerator(Org::BouncyCastle::Crypto::IDigest* digest_ = {}) noexcept : digest{digest_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::IDigest*
     constexpr operator Org::BouncyCastle::Crypto::IDigest*() const noexcept {
       return digest;

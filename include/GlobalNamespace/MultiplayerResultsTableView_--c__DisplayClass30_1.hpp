@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* winnerRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass30_1
-    $$c__DisplayClass30_1(UnityEngine::RectTransform* winnerRectTransform_ = {}) noexcept : winnerRectTransform{winnerRectTransform_} {}
     // Creating conversion operator: operator UnityEngine::RectTransform*
     constexpr operator UnityEngine::RectTransform*() const noexcept {
       return winnerRectTransform;

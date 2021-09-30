@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> beatmapCharacteristics;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
-    // Creating value type constructor for type: BeatmapCharacteristicCollectionSO
-    BeatmapCharacteristicCollectionSO(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> beatmapCharacteristics_ = {}) noexcept : beatmapCharacteristics{beatmapCharacteristics_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicSO[] _beatmapCharacteristics

@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CustomTweenBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CustomTweenBehaviour*) == 0x8);
-    // Creating value type constructor for type: SinglePositionTween
-    SinglePositionTween(UnityEngine::ExposedReference_1<UnityEngine::Transform*> transformReference_ = {}, GlobalNamespace::CustomTweenBehaviour* _template_ = {}) noexcept : transformReference{transformReference_}, _template{_template_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

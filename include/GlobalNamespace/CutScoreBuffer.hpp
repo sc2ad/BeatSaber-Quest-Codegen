@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>*) == 0x8);
-    // Creating value type constructor for type: CutScoreBuffer
-    CutScoreBuffer(int afterCutScoreWithMultiplier_ = {}, int beforeCutScoreWithMultiplier_ = {}, int cutDistanceScoreWithMultiplier_ = {}, int multiplier_ = {}, GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter_ = {}, float cutDistanceToCenter_ = {}, bool initialized_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* didFinishEvent_ = {}) noexcept : afterCutScoreWithMultiplier{afterCutScoreWithMultiplier_}, beforeCutScoreWithMultiplier{beforeCutScoreWithMultiplier_}, cutDistanceScoreWithMultiplier{cutDistanceScoreWithMultiplier_}, multiplier{multiplier_}, saberSwingRatingCounter{saberSwingRatingCounter_}, cutDistanceToCenter{cutDistanceToCenter_}, initialized{initialized_}, didFinishEvent{didFinishEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver
     operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>(this);

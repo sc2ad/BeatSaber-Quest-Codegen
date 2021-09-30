@@ -68,8 +68,6 @@ namespace HMUI {
     UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // Creating value type constructor for type: PanelAnimationSO
-    PanelAnimationSO(float duration_ = {}, UnityEngine::AnimationCurve* scaleXAnimationCurve_ = {}, UnityEngine::AnimationCurve* scaleYAnimationCurve_ = {}, UnityEngine::AnimationCurve* alphaAnimationCurve_ = {}, UnityEngine::AnimationCurve* parentAlphaAnimationCurve_ = {}) noexcept : duration{duration_}, scaleXAnimationCurve{scaleXAnimationCurve_}, scaleYAnimationCurve{scaleYAnimationCurve_}, alphaAnimationCurve{alphaAnimationCurve_}, parentAlphaAnimationCurve{parentAlphaAnimationCurve_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _duration

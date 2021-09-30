@@ -40,8 +40,6 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass51_0
-    $$c__DisplayClass51_0(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parents_ = {}) noexcept : parents{parents_} {}
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*
     constexpr operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*() const noexcept {
       return parents;

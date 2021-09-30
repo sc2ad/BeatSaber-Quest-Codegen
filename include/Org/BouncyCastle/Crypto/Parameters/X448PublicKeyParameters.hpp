@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ::ArrayWrapper<uint8_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: X448PublicKeyParameters
-    X448PublicKeyParameters(::ArrayWrapper<uint8_t> data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static public readonly System.Int32 KeySize

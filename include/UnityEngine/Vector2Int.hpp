@@ -99,7 +99,6 @@ namespace UnityEngine {
     void set_y(int value);
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
     // Offset: 0x234B410
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Vector2Int(int x, int y)
     // static private System.Void .cctor()
     // Offset: 0x234B690

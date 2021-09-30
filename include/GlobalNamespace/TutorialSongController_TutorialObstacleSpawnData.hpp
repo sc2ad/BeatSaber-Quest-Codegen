@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ObstacleType obstacleType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObstacleType) == 0x4);
-    // Creating value type constructor for type: TutorialObstacleSpawnData
-    TutorialObstacleSpawnData(int width_ = {}, GlobalNamespace::ObstacleType obstacleType_ = {}) noexcept : width{width_}, obstacleType{obstacleType_} {}
     // Get instance field reference: public readonly System.Int32 width
     int& dyn_width();
     // Get instance field reference: public readonly ObstacleType obstacleType

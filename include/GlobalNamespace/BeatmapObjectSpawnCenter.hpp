@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     float spawnCenterDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatmapObjectSpawnCenter
-    BeatmapObjectSpawnCenter(::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*> distances_ = {}, float defaultDistnace_ = {}, System::Action_1<float>* spawnCenterDistanceWasFoundEvent_ = {}, bool spawnCenterDistanceWasFound_ = {}, float spawnCenterDistance_ = {}) noexcept : distances{distances_}, defaultDistnace{defaultDistnace_}, spawnCenterDistanceWasFoundEvent{spawnCenterDistanceWasFoundEvent_}, spawnCenterDistanceWasFound{spawnCenterDistanceWasFound_}, spawnCenterDistance{spawnCenterDistance_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances

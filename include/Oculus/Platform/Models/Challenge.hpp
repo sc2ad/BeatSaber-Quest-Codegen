@@ -111,8 +111,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::ChallengeVisibility Visibility;
     // Field size check
     static_assert(sizeof(Oculus::Platform::ChallengeVisibility) == 0x4);
-    // Creating value type constructor for type: Challenge
-    Challenge(Oculus::Platform::ChallengeCreationType CreationType_ = {}, ::Il2CppString* Description_ = {}, System::DateTime EndDate_ = {}, uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::Leaderboard* Leaderboard_ = {}, Oculus::Platform::Models::UserList* ParticipantsOptional_ = {}, Oculus::Platform::Models::UserList* Participants_ = {}, System::DateTime StartDate_ = {}, ::Il2CppString* Title_ = {}, Oculus::Platform::ChallengeVisibility Visibility_ = {}) noexcept : CreationType{CreationType_}, Description{Description_}, EndDate{EndDate_}, _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, Leaderboard{Leaderboard_}, ParticipantsOptional{ParticipantsOptional_}, Participants{Participants_}, StartDate{StartDate_}, Title{Title_}, Visibility{Visibility_} {}
     // Get instance field reference: public readonly Oculus.Platform.ChallengeCreationType CreationType
     Oculus::Platform::ChallengeCreationType& dyn_CreationType();
     // Get instance field reference: public readonly System.String Description

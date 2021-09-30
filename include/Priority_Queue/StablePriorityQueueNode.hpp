@@ -26,8 +26,6 @@ namespace Priority_Queue {
     int64_t InsertionIndex;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: StablePriorityQueueNode
-    StablePriorityQueueNode(int64_t InsertionIndex_ = {}) noexcept : InsertionIndex{InsertionIndex_} {}
     // Creating conversion operator: operator int64_t
     constexpr operator int64_t() const noexcept {
       return InsertionIndex;

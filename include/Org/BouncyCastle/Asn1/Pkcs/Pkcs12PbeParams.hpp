@@ -50,8 +50,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1OctetString* iv;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
-    // Creating value type constructor for type: Pkcs12PbeParams
-    Pkcs12PbeParams(Org::BouncyCastle::Asn1::DerInteger* iterations_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* iv_ = {}) noexcept : iterations{iterations_}, iv{iv_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger iterations
     Org::BouncyCastle::Asn1::DerInteger*& dyn_iterations();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString iv

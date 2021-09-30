@@ -27,8 +27,6 @@ namespace UnityEngine::AddressableAssets {
     ::Il2CppString* m_LabelString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssetLabelReference
-    AssetLabelReference(::Il2CppString* m_LabelString_ = {}) noexcept : m_LabelString{m_LabelString_} {}
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::IKeyEvaluator
     operator UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::IKeyEvaluator*>(this);

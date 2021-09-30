@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakedLightWithIdBase : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: BakedLightWithIdBase
-    BakedLightWithIdBase() noexcept {}
     // public System.Int32 get_id()
     // Offset: 0xFFFFFFFF
     int get_id();

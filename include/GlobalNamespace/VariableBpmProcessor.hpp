@@ -31,8 +31,6 @@ namespace GlobalNamespace {
     float currentBpm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: VariableBpmProcessor
-    VariableBpmProcessor(float currentBpm_ = {}) noexcept : currentBpm{currentBpm_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return currentBpm;

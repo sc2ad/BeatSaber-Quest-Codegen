@@ -46,8 +46,6 @@ namespace Zenject {
     System::Type* KernelType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorBindInfo
-    SubContainerCreatorBindInfo(::Il2CppString* DefaultParentName_ = {}, bool CreateKernel_ = {}, System::Type* KernelType_ = {}) noexcept : DefaultParentName{DefaultParentName_}, CreateKernel{CreateKernel_}, KernelType{KernelType_} {}
     // Get instance field reference: private System.String <DefaultParentName>k__BackingField
     ::Il2CppString*& dyn_$DefaultParentName$k__BackingField();
     // Get instance field reference: private System.Boolean <CreateKernel>k__BackingField

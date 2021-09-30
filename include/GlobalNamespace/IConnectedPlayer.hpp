@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConnectedPlayer {
     public:
-    // Creating value type constructor for type: IConnectedPlayer
-    IConnectedPlayer() noexcept {}
     // public System.Boolean get_isMe()
     // Offset: 0xFFFFFFFF
     bool get_isMe();

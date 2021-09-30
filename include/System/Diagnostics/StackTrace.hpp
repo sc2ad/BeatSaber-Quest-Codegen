@@ -64,8 +64,6 @@ namespace System::Diagnostics {
     bool debug_info;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: StackTrace
-    StackTrace(::ArrayWrapper<System::Diagnostics::StackFrame*> frames_ = {}, ::ArrayWrapper<System::Diagnostics::StackTrace*> captured_traces_ = {}, bool debug_info_ = {}) noexcept : frames{frames_}, captured_traces{captured_traces_}, debug_info{debug_info_} {}
     // static field const value: static public System.Int32 METHODS_TO_SKIP
     static constexpr const int METHODS_TO_SKIP = 0;
     // Get static field: static public System.Int32 METHODS_TO_SKIP

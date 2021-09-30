@@ -74,8 +74,6 @@ namespace System {
     System::DelegateSerializationHolder::DelegateEntry* delegateEntry;
     // Field size check
     static_assert(sizeof(System::DelegateSerializationHolder::DelegateEntry*) == 0x8);
-    // Creating value type constructor for type: DelegateEntry
-    DelegateEntry(::Il2CppString* type_ = {}, ::Il2CppString* assembly_ = {}, ::Il2CppObject* target_ = {}, ::Il2CppString* targetTypeAssembly_ = {}, ::Il2CppString* targetTypeName_ = {}, ::Il2CppString* methodName_ = {}, System::DelegateSerializationHolder::DelegateEntry* delegateEntry_ = {}) noexcept : type{type_}, assembly{assembly_}, target{target_}, targetTypeAssembly{targetTypeAssembly_}, targetTypeName{targetTypeName_}, methodName{methodName_}, delegateEntry{delegateEntry_} {}
     // Get instance field reference: private System.String type
     ::Il2CppString*& dyn_type();
     // Get instance field reference: private System.String assembly

@@ -29,8 +29,6 @@ namespace UnityEngineInternal {
     ::Il2CppString* rule;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeInferenceRuleAttribute
-    TypeInferenceRuleAttribute(::Il2CppString* rule_ = {}) noexcept : rule{rule_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return rule;

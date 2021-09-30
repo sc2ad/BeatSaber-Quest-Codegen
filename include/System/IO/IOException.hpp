@@ -38,8 +38,6 @@ namespace System::IO {
     ::Il2CppString* maybeFullPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: IOException
-    IOException(::Il2CppString* maybeFullPath_ = {}) noexcept : maybeFullPath{maybeFullPath_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return maybeFullPath;

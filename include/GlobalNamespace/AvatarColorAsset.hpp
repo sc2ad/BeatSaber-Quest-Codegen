@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarColorBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarColorBehaviour*) == 0x8);
-    // Creating value type constructor for type: AvatarColorAsset
-    AvatarColorAsset(GlobalNamespace::AvatarColorBehaviour* _template_ = {}) noexcept : _template{_template_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

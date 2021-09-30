@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MissionNode*> childNodes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
-    // Creating value type constructor for type: MissionNode
-    MissionNode(GlobalNamespace::MissionDataSO* missionDataSO_ = {}, ::Il2CppString* letterPartName_ = {}, int numberPartName_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, GlobalNamespace::MissionNodeVisualController* missionNodeVisualController_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNode*> childNodes_ = {}) noexcept : missionDataSO{missionDataSO_}, letterPartName{letterPartName_}, numberPartName{numberPartName_}, rectTransform{rectTransform_}, missionNodeVisualController{missionNodeVisualController_}, childNodes{childNodes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionDataSO _missionDataSO

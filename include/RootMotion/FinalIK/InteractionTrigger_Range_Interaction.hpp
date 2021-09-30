@@ -43,8 +43,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector> effectors;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>) == 0x8);
-    // Creating value type constructor for type: Interaction
-    Interaction(RootMotion::FinalIK::InteractionObject* interactionObject_ = {}, ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector> effectors_ = {}) noexcept : interactionObject{interactionObject_}, effectors{effectors_} {}
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject interactionObject
     RootMotion::FinalIK::InteractionObject*& dyn_interactionObject();
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors

@@ -120,8 +120,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // Creating value type constructor for type: NetEaseArcadeFlowCoordinator
-    NetEaseArcadeFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::NetEaseLeaderboardViewController* netEaseLeaderboardViewController_ = {}, GlobalNamespace::TabBarViewController* tabBarViewController_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::LocalLeaderboardViewController* localLeaderboardViewController_ = {}, GlobalNamespace::HowToPlayViewController* howToPlayViewController_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, netEaseLeaderboardViewController{netEaseLeaderboardViewController_}, tabBarViewController{tabBarViewController_}, netEaseManager{netEaseManager_}, menuLightsManager{menuLightsManager_}, resultsViewController{resultsViewController_}, localLeaderboardViewController{localLeaderboardViewController_}, howToPlayViewController{howToPlayViewController_}, menuTransitionsHelper{menuTransitionsHelper_} {}
     // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
     GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
     // Get instance field reference: private NetEaseLeaderboardViewController _netEaseLeaderboardViewController

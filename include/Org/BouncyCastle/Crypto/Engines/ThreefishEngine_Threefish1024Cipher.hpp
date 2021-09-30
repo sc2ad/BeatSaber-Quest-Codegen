@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreefishEngine::Threefish1024Cipher : public Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher {
     public:
-    // Creating value type constructor for type: Threefish1024Cipher
-    Threefish1024Cipher() noexcept {}
     // public System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
     // Offset: 0x2049418
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher

@@ -39,8 +39,6 @@ namespace Zenject {
     int MaxSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MemoryPoolBindInfo
-    MemoryPoolBindInfo(Zenject::PoolExpandMethods ExpandMethod_ = {}, int InitialSize_ = {}, int MaxSize_ = {}) noexcept : ExpandMethod{ExpandMethod_}, InitialSize{InitialSize_}, MaxSize{MaxSize_} {}
     // Get instance field reference: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
     Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
     // Get instance field reference: private System.Int32 <InitialSize>k__BackingField

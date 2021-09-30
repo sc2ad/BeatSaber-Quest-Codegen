@@ -46,8 +46,6 @@ namespace NUnit::Framework::Internal {
     ::ArrayWrapper<::Il2CppObject*> args;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(System::Reflection::MethodInfo* method_ = {}, ::Il2CppObject* fixture_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}) noexcept : method{method_}, fixture{fixture_}, args{args_} {}
     // Get instance field reference: public System.Reflection.MethodInfo method
     System::Reflection::MethodInfo*& dyn_method();
     // Get instance field reference: public System.Object fixture

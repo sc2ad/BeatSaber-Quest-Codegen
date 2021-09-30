@@ -32,8 +32,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E600F4
   class IMethodMessage/*, public System::Runtime::Remoting::Messaging::IMessage*/ {
     public:
-    // Creating value type constructor for type: IMethodMessage
-    IMethodMessage() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessage
     operator System::Runtime::Remoting::Messaging::IMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessage*>(this);

@@ -38,8 +38,6 @@ namespace UnityEngine::TestTools::TestRunner {
     NUnit::Framework::Internal::TestMethod* m_TestMethod;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestMethod*) == 0x8);
-    // Creating value type constructor for type: TestEnumeratorWrapper
-    TestEnumeratorWrapper(NUnit::Framework::Internal::TestMethod* m_TestMethod_ = {}) noexcept : m_TestMethod{m_TestMethod_} {}
     // Creating conversion operator: operator NUnit::Framework::Internal::TestMethod*
     constexpr operator NUnit::Framework::Internal::TestMethod*() const noexcept {
       return m_TestMethod;

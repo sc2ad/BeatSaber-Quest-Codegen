@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataPrecisionSO : public GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
     public:
-    // Creating value type constructor for type: MultiplayerBadgeDataPrecisionSO
-    MultiplayerBadgeDataPrecisionSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x120BBA8
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO

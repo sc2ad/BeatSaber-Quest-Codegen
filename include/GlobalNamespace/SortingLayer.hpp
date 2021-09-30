@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // Creating value type constructor for type: SortingLayer
-    SortingLayer(UnityEngine::Renderer* renderer_ = {}) noexcept : renderer{renderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Renderer _renderer

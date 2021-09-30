@@ -48,8 +48,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Serialization::ISurrogateSelector* next;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::ISurrogateSelector*) == 0x8);
-    // Creating value type constructor for type: RemotingSurrogateSelector
-    RemotingSurrogateSelector(System::Runtime::Serialization::ISurrogateSelector* next_ = {}) noexcept : next{next_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISurrogateSelector
     operator System::Runtime::Serialization::ISurrogateSelector() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISurrogateSelector*>(this);

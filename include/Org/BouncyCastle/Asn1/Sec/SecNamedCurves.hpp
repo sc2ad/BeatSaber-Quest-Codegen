@@ -119,8 +119,6 @@ namespace Org::BouncyCastle::Asn1::Sec {
     class Sect571k1Holder;
     // Nested type: Org::BouncyCastle::Asn1::Sec::SecNamedCurves::Sect571r1Holder
     class Sect571r1Holder;
-    // Creating value type constructor for type: SecNamedCurves
-    SecNamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds

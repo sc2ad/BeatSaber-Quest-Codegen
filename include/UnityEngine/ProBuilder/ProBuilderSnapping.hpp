@@ -38,8 +38,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProBuilderSnapping : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ProBuilderSnapping
-    ProBuilderSnapping() noexcept {}
     // Get static field: static private System.Single k_MaxRaySnapDistance
     static float _get_k_MaxRaySnapDistance();
     // Set static field: static private System.Single k_MaxRaySnapDistance

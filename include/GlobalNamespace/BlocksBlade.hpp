@@ -158,8 +158,6 @@ namespace GlobalNamespace {
     int layer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BlocksBlade
-    BlocksBlade(UnityEngine::Mesh* elementMesh_ = {}, UnityEngine::Material* material_ = {}, int numberOfElements_ = {}, float radius_ = {}, float length_ = {}, float minVelocity_ = {}, float maxVelocity_ = {}, float elementWidth_ = {}, float minElementLength_ = {}, float maxElementLength_ = {}, UnityEngine::Color color_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* elements_ = {}, ::ArrayWrapper<UnityEngine::Vector4> positions_ = {}, ::ArrayWrapper<UnityEngine::Vector4> sizes_ = {}, ::ArrayWrapper<UnityEngine::Vector4> colors_ = {}, ::ArrayWrapper<UnityEngine::Matrix4x4> matrices_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, int layer_ = {}) noexcept : elementMesh{elementMesh_}, material{material_}, numberOfElements{numberOfElements_}, radius{radius_}, length{length_}, minVelocity{minVelocity_}, maxVelocity{maxVelocity_}, elementWidth{elementWidth_}, minElementLength{minElementLength_}, maxElementLength{maxElementLength_}, color{color_}, elements{elements_}, positions{positions_}, sizes{sizes_}, colors{colors_}, matrices{matrices_}, materialPropertyBlock{materialPropertyBlock_}, layer{layer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0A93C

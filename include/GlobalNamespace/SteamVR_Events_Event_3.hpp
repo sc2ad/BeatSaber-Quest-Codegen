@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   template<typename T0, typename T1, typename T2>
   class SteamVR_Events::Event_3 : public UnityEngine::Events::UnityEvent_3<T0, T1, T2> {
     public:
-    // Creating value type constructor for type: Event_3
-    Event_3() noexcept {}
     // public System.Void Listen(UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
     // Offset: 0xFFFFFFFF
     void Listen(UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {

@@ -72,8 +72,6 @@ namespace System::Runtime::Remoting::Proxies {
     System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::ConstructionCall*) == 0x8);
-    // Creating value type constructor for type: RemotingProxy
-    RemotingProxy(System::Runtime::Remoting::Messaging::IMessageSink* sink_ = {}, bool hasEnvoySink_ = {}, System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall_ = {}) noexcept : sink{sink_}, hasEnvoySink{hasEnvoySink_}, ctorCall{ctorCall_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::IRemotingTypeInfo
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);

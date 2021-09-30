@@ -46,8 +46,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PoolableManager::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.PoolableManager/Zenject.<>c <>9
     static Zenject::PoolableManager::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.PoolableManager/Zenject.<>c <>9

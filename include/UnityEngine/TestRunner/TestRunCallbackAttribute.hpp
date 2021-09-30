@@ -35,8 +35,6 @@ namespace UnityEngine::TestRunner {
     System::Type* m_Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: TestRunCallbackAttribute
-    TestRunCallbackAttribute(System::Type* m_Type_ = {}) noexcept : m_Type{m_Type_} {}
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return m_Type;

@@ -35,8 +35,6 @@ namespace UnityEngine {
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: AnimationCurve
-    AnimationCurve(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::AnimationCurve*>
     operator System::IEquatable_1<UnityEngine::AnimationCurve*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::AnimationCurve*>*>(this);

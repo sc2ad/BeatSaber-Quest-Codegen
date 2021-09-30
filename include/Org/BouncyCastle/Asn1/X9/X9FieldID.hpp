@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::Asn1Object* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
-    // Creating value type constructor for type: X9FieldID
-    X9FieldID(Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ = {}, Org::BouncyCastle::Asn1::Asn1Object* parameters_ = {}) noexcept : id{id_}, parameters{parameters_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_id();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object parameters

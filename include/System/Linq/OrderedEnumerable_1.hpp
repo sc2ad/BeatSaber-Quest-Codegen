@@ -93,8 +93,6 @@ namespace System::Linq {
       int $i$5__3;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // Creating value type constructor for type: $GetEnumerator$d__1
-      $GetEnumerator$d__1(int $$1__state_ = {}, TElement $$2__current_ = {}, System::Linq::OrderedEnumerable_1<TElement>* $$4__this_ = {}, System::Linq::Buffer_1<TElement> $buffer$5__1_ = {}, ::ArrayWrapper<int> $map$5__2_ = {}, int $i$5__3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $buffer$5__1{$buffer$5__1_}, $map$5__2{$map$5__2_}, $i$5__3{$i$5__3_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<TElement>
       operator System::Collections::Generic::IEnumerator_1<TElement>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<TElement>*>(this);
@@ -202,8 +200,6 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerable_1<TElement>* source;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<TElement>*) == 0x8);
-    // Creating value type constructor for type: OrderedEnumerable_1
-    OrderedEnumerable_1(System::Collections::Generic::IEnumerable_1<TElement>* source_ = {}) noexcept : source{source_} {}
     // Creating interface conversion operator: operator System::Linq::IOrderedEnumerable_1<TElement>
     operator System::Linq::IOrderedEnumerable_1<TElement>() noexcept {
       return *reinterpret_cast<System::Linq::IOrderedEnumerable_1<TElement>*>(this);

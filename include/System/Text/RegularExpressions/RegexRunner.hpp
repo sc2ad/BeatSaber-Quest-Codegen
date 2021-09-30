@@ -151,8 +151,6 @@ namespace System::Text::RegularExpressions {
     int timeoutChecksToSkip;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RegexRunner
-    RegexRunner(int runtextbeg_ = {}, int runtextend_ = {}, int runtextstart_ = {}, ::Il2CppString* runtext_ = {}, int runtextpos_ = {}, ::ArrayWrapper<int> runtrack_ = {}, int runtrackpos_ = {}, ::ArrayWrapper<int> runstack_ = {}, int runstackpos_ = {}, ::ArrayWrapper<int> runcrawl_ = {}, int runcrawlpos_ = {}, int runtrackcount_ = {}, System::Text::RegularExpressions::Match* runmatch_ = {}, System::Text::RegularExpressions::Regex* runregex_ = {}, int timeout_ = {}, bool ignoreTimeout_ = {}, int timeoutOccursAt_ = {}, int timeoutChecksToSkip_ = {}) noexcept : runtextbeg{runtextbeg_}, runtextend{runtextend_}, runtextstart{runtextstart_}, runtext{runtext_}, runtextpos{runtextpos_}, runtrack{runtrack_}, runtrackpos{runtrackpos_}, runstack{runstack_}, runstackpos{runstackpos_}, runcrawl{runcrawl_}, runcrawlpos{runcrawlpos_}, runtrackcount{runtrackcount_}, runmatch{runmatch_}, runregex{runregex_}, timeout{timeout_}, ignoreTimeout{ignoreTimeout_}, timeoutOccursAt{timeoutOccursAt_}, timeoutChecksToSkip{timeoutChecksToSkip_} {}
     // Get instance field reference: protected internal System.Int32 runtextbeg
     int& dyn_runtextbeg();
     // Get instance field reference: protected internal System.Int32 runtextend

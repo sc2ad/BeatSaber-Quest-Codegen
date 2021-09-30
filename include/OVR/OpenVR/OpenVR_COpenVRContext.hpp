@@ -129,8 +129,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::CVRSpatialAnchors*) == 0x8);
-    // Creating value type constructor for type: COpenVRContext
-    COpenVRContext(OVR::OpenVR::CVRSystem* m_pVRSystem_ = {}, OVR::OpenVR::CVRChaperone* m_pVRChaperone_ = {}, OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup_ = {}, OVR::OpenVR::CVRCompositor* m_pVRCompositor_ = {}, OVR::OpenVR::CVROverlay* m_pVROverlay_ = {}, OVR::OpenVR::CVRRenderModels* m_pVRRenderModels_ = {}, OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay_ = {}, OVR::OpenVR::CVRSettings* m_pVRSettings_ = {}, OVR::OpenVR::CVRApplications* m_pVRApplications_ = {}, OVR::OpenVR::CVRScreenshots* m_pVRScreenshots_ = {}, OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera_ = {}, OVR::OpenVR::CVRInput* m_pVRInput_ = {}, OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRTrackedCamera{m_pVRTrackedCamera_}, m_pVRInput{m_pVRInput_}, m_pVRSpatialAnchors{m_pVRSpatialAnchors_} {}
     // Get instance field reference: private OVR.OpenVR.CVRSystem m_pVRSystem
     OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private OVR.OpenVR.CVRChaperone m_pVRChaperone

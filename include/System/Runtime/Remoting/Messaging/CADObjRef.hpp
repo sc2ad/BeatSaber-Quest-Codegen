@@ -45,8 +45,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayWrapper<uint8_t> TypeInfo;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: CADObjRef
-    CADObjRef(System::Runtime::Remoting::ObjRef* objref_ = {}, int SourceDomain_ = {}, ::ArrayWrapper<uint8_t> TypeInfo_ = {}) noexcept : objref{objref_}, SourceDomain{SourceDomain_}, TypeInfo{TypeInfo_} {}
     // Get instance field reference: System.Runtime.Remoting.ObjRef objref
     System::Runtime::Remoting::ObjRef*& dyn_objref();
     // Get instance field reference: System.Int32 SourceDomain

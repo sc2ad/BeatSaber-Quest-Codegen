@@ -63,8 +63,6 @@ namespace System::Threading {
     bool hasThreadAffinity;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: WaitHandle
-    WaitHandle(System::IntPtr waitHandle_ = {}, Microsoft::Win32::SafeHandles::SafeWaitHandle* safeWaitHandle_ = {}, bool hasThreadAffinity_ = {}) noexcept : waitHandle{waitHandle_}, safeWaitHandle{safeWaitHandle_}, hasThreadAffinity{hasThreadAffinity_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

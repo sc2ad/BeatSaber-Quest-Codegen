@@ -35,8 +35,6 @@ namespace NUnit::Framework::Internal {
     public:
     // Nested type: NUnit::Framework::Internal::ExceptionHelper::$$c
     class $$c;
-    // Creating value type constructor for type: ExceptionHelper
-    ExceptionHelper() noexcept {}
     // Get static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
     static System::Action_1<System::Exception*>* _get_PreserveStackTrace();
     // Set static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace

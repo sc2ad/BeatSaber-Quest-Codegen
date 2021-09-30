@@ -16,8 +16,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stack::StackDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StackDebugView
-    StackDebugView() noexcept {}
   }; // System.Collections.Stack/System.Collections.StackDebugView
   #pragma pack(pop)
 }

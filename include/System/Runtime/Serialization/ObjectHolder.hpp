@@ -130,8 +130,6 @@ namespace System::Runtime::Serialization {
     bool m_reachable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ObjectHolder
-    ObjectHolder(::Il2CppObject* m_object_ = {}, int64_t m_id_ = {}, int m_missingElementsRemaining_ = {}, int m_missingDecendents_ = {}, System::Runtime::Serialization::SerializationInfo* m_serInfo_ = {}, System::Runtime::Serialization::ISerializationSurrogate* m_surrogate_ = {}, System::Runtime::Serialization::FixupHolderList* m_missingElements_ = {}, System::Runtime::Serialization::LongList* m_dependentObjects_ = {}, System::Runtime::Serialization::ObjectHolder* m_next_ = {}, int m_flags_ = {}, bool m_markForFixupWhenAvailable_ = {}, System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup_ = {}, System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad_ = {}, bool m_reachable_ = {}) noexcept : m_object{m_object_}, m_id{m_id_}, m_missingElementsRemaining{m_missingElementsRemaining_}, m_missingDecendents{m_missingDecendents_}, m_serInfo{m_serInfo_}, m_surrogate{m_surrogate_}, m_missingElements{m_missingElements_}, m_dependentObjects{m_dependentObjects_}, m_next{m_next_}, m_flags{m_flags_}, m_markForFixupWhenAvailable{m_markForFixupWhenAvailable_}, m_valueFixup{m_valueFixup_}, m_typeLoad{m_typeLoad_}, m_reachable{m_reachable_} {}
     // Get instance field reference: private System.Object m_object
     ::Il2CppObject*& dyn_m_object();
     // Get instance field reference: System.Int64 m_id

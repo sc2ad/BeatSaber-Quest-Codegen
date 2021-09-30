@@ -88,8 +88,6 @@ namespace Zenject {
     bool hasInjected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ZenAutoInjecter
-    ZenAutoInjecter(Zenject::ZenAutoInjecter::ContainerSources containerSource_ = {}, bool hasInjected_ = {}) noexcept : containerSource{containerSource_}, hasInjected{hasInjected_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource

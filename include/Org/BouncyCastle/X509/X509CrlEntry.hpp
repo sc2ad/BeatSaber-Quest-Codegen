@@ -81,8 +81,6 @@ namespace Org::BouncyCastle::X509 {
     int hashValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: X509CrlEntry
-    X509CrlEntry(Org::BouncyCastle::Asn1::X509::CrlEntry* c_ = {}, bool isIndirect_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* certificateIssuer_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, isIndirect{isIndirect_}, previousCertificateIssuer{previousCertificateIssuer_}, certificateIssuer{certificateIssuer_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
     // Get instance field reference: private Org.BouncyCastle.Asn1.X509.CrlEntry c
     Org::BouncyCastle::Asn1::X509::CrlEntry*& dyn_c();
     // Get instance field reference: private System.Boolean isIndirect

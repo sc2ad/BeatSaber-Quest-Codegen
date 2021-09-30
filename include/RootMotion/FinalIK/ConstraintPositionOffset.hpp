@@ -53,8 +53,6 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ConstraintPositionOffset
-    ConstraintPositionOffset(UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Vector3 lastLocalPosition_ = {}, bool initiated_ = {}) noexcept : offset{offset_}, defaultLocalPosition{defaultLocalPosition_}, lastLocalPosition{lastLocalPosition_}, initiated{initiated_} {}
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalPosition

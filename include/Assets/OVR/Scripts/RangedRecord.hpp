@@ -38,8 +38,6 @@ namespace Assets::OVR::Scripts {
     float max;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: RangedRecord
-    RangedRecord(float value_ = {}, float min_ = {}, float max_ = {}) noexcept : value{value_}, min{min_}, max{max_} {}
     // Get instance field reference: public System.Single value
     float& dyn_value();
     // Get instance field reference: public System.Single min

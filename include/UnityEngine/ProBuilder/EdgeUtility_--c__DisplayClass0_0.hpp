@@ -36,8 +36,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}) noexcept : mesh{mesh_} {}
     // Creating conversion operator: operator UnityEngine::ProBuilder::ProBuilderMesh*
     constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const noexcept {
       return mesh;

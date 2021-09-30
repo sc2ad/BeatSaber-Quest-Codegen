@@ -80,8 +80,6 @@ namespace System::Runtime::Serialization {
     System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState;
     // Field size check
     static_assert(sizeof(System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>*) == 0x8);
-    // Creating value type constructor for type: SafeSerializationManager
-    SafeSerializationManager(System::Collections::Generic::IList_1<::Il2CppObject*>* m_serializedStates_ = {}, System::Runtime::Serialization::SerializationInfo* m_savedSerializationInfo_ = {}, ::Il2CppObject* m_realObject_ = {}, System::RuntimeType* m_realType_ = {}, System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState_ = {}) noexcept : m_serializedStates{m_serializedStates_}, m_savedSerializationInfo{m_savedSerializationInfo_}, m_realObject{m_realObject_}, m_realType{m_realType_}, SerializeObjectState{SerializeObjectState_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

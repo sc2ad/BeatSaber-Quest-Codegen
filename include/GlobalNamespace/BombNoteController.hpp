@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     bool hidden;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BombNoteController
-    BombNoteController(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, UnityEngine::GameObject* wrapperGO_ = {}, bool hidden_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, wrapperGO{wrapperGO_}, hidden{hidden_} {}
     // Get instance field reference: private CuttableBySaber _cuttableBySaber
     GlobalNamespace::CuttableBySaber*& dyn__cuttableBySaber();
     // Get instance field reference: private UnityEngine.GameObject _wrapperGO

@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Vector3SerializationSurrogate : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializationSurrogate*/ {
     public:
-    // Creating value type constructor for type: HEU_Vector3SerializationSurrogate
-    HEU_Vector3SerializationSurrogate() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializationSurrogate
     operator System::Runtime::Serialization::ISerializationSurrogate() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializationSurrogate*>(this);

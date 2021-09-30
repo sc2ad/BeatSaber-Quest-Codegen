@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILateDisposable {
     public:
-    // Creating value type constructor for type: ILateDisposable
-    ILateDisposable() noexcept {}
     // public System.Void LateDispose()
     // Offset: 0xFFFFFFFF
     void LateDispose();

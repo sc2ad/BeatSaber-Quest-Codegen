@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* wasCutBySaberEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate*) == 0x8);
-    // Creating value type constructor for type: CuttableBySaber
-    CuttableBySaber(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* wasCutBySaberEvent_ = {}) noexcept : wasCutBySaberEvent{wasCutBySaberEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CuttableBySaber/WasCutBySaberDelegate wasCutBySaberEvent

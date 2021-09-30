@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     int nextEventIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BeatmapEventCallbackData
-    BeatmapEventCallbackData(GlobalNamespace::BeatmapEventCallback* callback_ = {}, float aheadTime_ = {}, int nextEventIndex_ = {}) noexcept : callback{callback_}, aheadTime{aheadTime_}, nextEventIndex{nextEventIndex_} {}
     // Get instance field reference: public readonly BeatmapEventCallback callback
     GlobalNamespace::BeatmapEventCallback*& dyn_callback();
     // Get instance field reference: public System.Single aheadTime

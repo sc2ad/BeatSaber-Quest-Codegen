@@ -14,8 +14,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class ICollectionDebugView_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ICollectionDebugView_1
-    ICollectionDebugView_1() noexcept {}
   }; // System.Collections.Generic.ICollectionDebugView`1
   // Could not write size check! Type: System.Collections.Generic.ICollectionDebugView`1 is generic, or has no fields that are valid for size checks!
 }

@@ -55,8 +55,6 @@ namespace System::Resources {
     int dataPosition;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ResourceEnumerator
-    ResourceEnumerator(System::Resources::ResourceReader* reader_ = {}, bool currentIsValid_ = {}, int currentName_ = {}, int dataPosition_ = {}) noexcept : reader{reader_}, currentIsValid{currentIsValid_}, currentName{currentName_}, dataPosition{dataPosition_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionaryEnumerator
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);

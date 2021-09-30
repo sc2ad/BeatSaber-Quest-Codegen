@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     bool showDebris;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitData
-    InitData(bool showDebris_ = {}) noexcept : showDebris{showDebris_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return showDebris;

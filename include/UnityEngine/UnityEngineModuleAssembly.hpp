@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: E6D9C0
   class UnityEngineModuleAssembly : public System::Attribute {
     public:
-    // Creating value type constructor for type: UnityEngineModuleAssembly
-    UnityEngineModuleAssembly() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261FBC0
     // Implemented from: System.Attribute

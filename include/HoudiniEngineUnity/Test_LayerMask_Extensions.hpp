@@ -27,8 +27,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_LayerMask_Extensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Test_LayerMask_Extensions
-    Test_LayerMask_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_LayerMask ToTestObject(UnityEngine.LayerMask self)
     // Offset: 0x25D08F4
     static HoudiniEngineUnity::Test_LayerMask* ToTestObject(UnityEngine::LayerMask self);

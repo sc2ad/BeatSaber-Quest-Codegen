@@ -14,8 +14,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VersionStringHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VersionStringHelper
-    VersionStringHelper() noexcept {}
     // static public System.Int32 GetMajorVersionNumber(System.String versionString)
     // Offset: 0x259E638
     static int GetMajorVersionNumber(::Il2CppString* versionString);

@@ -117,8 +117,6 @@ namespace GlobalNamespace {
     float fade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TextFadeTransitions
-    TextFadeTransitions(TMPro::TextMeshProUGUI* textLabel_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float fadeDuration_ = {}, GlobalNamespace::TextFadeTransitions::State state_ = {}, ::Il2CppString* nextText_ = {}, float fade_ = {}) noexcept : textLabel{textLabel_}, canvasGroup{canvasGroup_}, fadeDuration{fadeDuration_}, state{state_}, nextText{nextText_}, fade{fade_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _textLabel

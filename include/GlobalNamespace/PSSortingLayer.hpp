@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EC907C
   class PSSortingLayer : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: PSSortingLayer
-    PSSortingLayer() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x138ABA0
     // Implemented from: UnityEngine.MonoBehaviour

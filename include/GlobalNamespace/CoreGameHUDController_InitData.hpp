@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     bool advancedHUD;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitData
-    InitData(bool hide_ = {}, bool showEnergyPanel_ = {}, bool advancedHUD_ = {}) noexcept : hide{hide_}, showEnergyPanel{showEnergyPanel_}, advancedHUD{advancedHUD_} {}
     // Get instance field reference: public readonly System.Boolean hide
     bool& dyn_hide();
     // Get instance field reference: public readonly System.Boolean showEnergyPanel

@@ -91,8 +91,6 @@ namespace LiteNetLib {
     System::Net::IPEndPoint* RemoteEndPoint;
     // Field size check
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
-    // Creating value type constructor for type: ConnectionRequest
-    ConnectionRequest(LiteNetLib::NetManager* listener_ = {}, int used_ = {}, LiteNetLib::Utils::NetDataReader* Data_ = {}, LiteNetLib::ConnectionRequestResult Result_ = {}, int64_t ConnectionTime_ = {}, uint8_t ConnectionNumber_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}) noexcept : listener{listener_}, used{used_}, Data{Data_}, Result{Result_}, ConnectionTime{ConnectionTime_}, ConnectionNumber{ConnectionNumber_}, RemoteEndPoint{RemoteEndPoint_} {}
     // Get instance field reference: private readonly LiteNetLib.NetManager _listener
     LiteNetLib::NetManager*& dyn__listener();
     // Get instance field reference: private System.Int32 _used

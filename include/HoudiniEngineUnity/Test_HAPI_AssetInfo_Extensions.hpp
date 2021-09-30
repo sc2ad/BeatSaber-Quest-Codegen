@@ -24,8 +24,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_HAPI_AssetInfo_Extensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Test_HAPI_AssetInfo_Extensions
-    Test_HAPI_AssetInfo_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_HAPI_AssetInfo ToTestObject(HoudiniEngineUnity.HAPI_AssetInfo self)
     // Offset: 0x1709534
     static HoudiniEngineUnity::Test_HAPI_AssetInfo* ToTestObject(HoudiniEngineUnity::HAPI_AssetInfo self);

@@ -163,8 +163,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     uint h4;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: Poly1305
-    Poly1305(Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, ::ArrayWrapper<uint8_t> singleByte_ = {}, uint r0_ = {}, uint r1_ = {}, uint r2_ = {}, uint r3_ = {}, uint r4_ = {}, uint s1_ = {}, uint s2_ = {}, uint s3_ = {}, uint s4_ = {}, uint k0_ = {}, uint k1_ = {}, uint k2_ = {}, uint k3_ = {}, ::ArrayWrapper<uint8_t> currentBlock_ = {}, int currentBlockOffset_ = {}, uint h0_ = {}, uint h1_ = {}, uint h2_ = {}, uint h3_ = {}, uint h4_ = {}) noexcept : cipher{cipher_}, singleByte{singleByte_}, r0{r0_}, r1{r1_}, r2{r2_}, r3{r3_}, r4{r4_}, s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, k0{k0_}, k1{k1_}, k2{k2_}, k3{k3_}, currentBlock{currentBlock_}, currentBlockOffset{currentBlockOffset_}, h0{h0_}, h1{h1_}, h2{h2_}, h3{h3_}, h4{h4_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

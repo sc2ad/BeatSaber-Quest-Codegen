@@ -50,8 +50,6 @@ namespace UnityEngine::Playables {
   // [AssetFileNameExtensionAttribute] Offset: E74698
   class PlayableAsset : public UnityEngine::ScriptableObject/*, public UnityEngine::Playables::IPlayableAsset*/ {
     public:
-    // Creating value type constructor for type: PlayableAsset
-    PlayableAsset() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::Playables::IPlayableAsset
     operator UnityEngine::Playables::IPlayableAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::IPlayableAsset*>(this);

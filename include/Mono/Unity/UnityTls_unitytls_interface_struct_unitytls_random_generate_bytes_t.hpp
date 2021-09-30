@@ -34,8 +34,6 @@ namespace Mono::Unity {
   // [UnmanagedFunctionPointerAttribute] Offset: E68EBC
   class UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: unitytls_random_generate_bytes_t
-    unitytls_random_generate_bytes_t() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C4398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

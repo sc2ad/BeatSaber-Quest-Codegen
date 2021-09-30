@@ -77,8 +77,6 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceManager* m_RM;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
-    // Creating value type constructor for type: ContentCatalogProvider
-    ContentCatalogProvider(bool DisableCatalogUpdateOnStart_ = {}, bool IsLocalCatalogInBundle_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*>* m_LocationToCatalogLoadOpMap_ = {}, UnityEngine::ResourceManagement::ResourceManager* m_RM_ = {}) noexcept : DisableCatalogUpdateOnStart{DisableCatalogUpdateOnStart_}, IsLocalCatalogInBundle{IsLocalCatalogInBundle_}, m_LocationToCatalogLoadOpMap{m_LocationToCatalogLoadOpMap_}, m_RM{m_RM_} {}
     // Get instance field reference: public System.Boolean DisableCatalogUpdateOnStart
     bool& dyn_DisableCatalogUpdateOnStart();
     // Get instance field reference: public System.Boolean IsLocalCatalogInBundle

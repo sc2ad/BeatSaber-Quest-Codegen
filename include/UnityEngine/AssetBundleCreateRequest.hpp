@@ -30,8 +30,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E9D4C0
   class AssetBundleCreateRequest : public UnityEngine::AsyncOperation {
     public:
-    // Creating value type constructor for type: AssetBundleCreateRequest
-    AssetBundleCreateRequest() noexcept {}
     // public UnityEngine.AssetBundle get_assetBundle()
     // Offset: 0x2624A0C
     UnityEngine::AssetBundle* get_assetBundle();

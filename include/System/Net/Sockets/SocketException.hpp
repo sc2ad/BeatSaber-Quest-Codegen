@@ -42,8 +42,6 @@ namespace System::Net::Sockets {
     System::Net::EndPoint* m_EndPoint;
     // Field size check
     static_assert(sizeof(System::Net::EndPoint*) == 0x8);
-    // Creating value type constructor for type: SocketException
-    SocketException(System::Net::EndPoint* m_EndPoint_ = {}) noexcept : m_EndPoint{m_EndPoint_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private System.Net.EndPoint m_EndPoint

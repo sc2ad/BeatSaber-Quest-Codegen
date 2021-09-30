@@ -20,8 +20,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class CollectionConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: CollectionConverter
-    CollectionConverter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A216B0
     // Implemented from: System.ComponentModel.TypeConverter

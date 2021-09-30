@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [GuidAttribute] Offset: E613BC
   class _Thread {
     public:
-    // Creating value type constructor for type: _Thread
-    _Thread() noexcept {}
   }; // System.Runtime.InteropServices._Thread
   #pragma pack(pop)
 }

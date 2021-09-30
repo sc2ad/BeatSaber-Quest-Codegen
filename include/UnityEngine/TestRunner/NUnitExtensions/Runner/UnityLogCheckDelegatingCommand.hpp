@@ -74,8 +74,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     class $$c__DisplayClass3_1;
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$ExecuteEnumerable$d__3
     class $ExecuteEnumerable$d__3;
-    // Creating value type constructor for type: UnityLogCheckDelegatingCommand
-    UnityLogCheckDelegatingCommand() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

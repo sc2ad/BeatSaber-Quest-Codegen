@@ -34,8 +34,6 @@ namespace System::Threading::Tasks {
   // [CompilerGeneratedAttribute] Offset: E5ED84
   class Task::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Threading.Tasks.Task/System.Threading.Tasks.<>c <>9
     static System::Threading::Tasks::Task::$$c* _get_$$9();
     // Set static field: static public readonly System.Threading.Tasks.Task/System.Threading.Tasks.<>c <>9

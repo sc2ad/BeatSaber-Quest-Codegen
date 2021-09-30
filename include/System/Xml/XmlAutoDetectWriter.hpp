@@ -80,8 +80,6 @@ namespace System::Xml {
     System::IO::Stream* strm;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: XmlAutoDetectWriter
-    XmlAutoDetectWriter(System::Xml::XmlRawWriter* wrapped_ = {}, System::Xml::OnRemoveWriter* onRemove_ = {}, System::Xml::XmlWriterSettings* writerSettings_ = {}, System::Xml::XmlEventCache* eventCache_ = {}, System::IO::TextWriter* textWriter_ = {}, System::IO::Stream* strm_ = {}) noexcept : wrapped{wrapped_}, onRemove{onRemove_}, writerSettings{writerSettings_}, eventCache{eventCache_}, textWriter{textWriter_}, strm{strm_} {}
     // Get instance field reference: private System.Xml.XmlRawWriter wrapped
     System::Xml::XmlRawWriter*& dyn_wrapped();
     // Get instance field reference: private System.Xml.OnRemoveWriter onRemove

@@ -34,8 +34,6 @@ namespace UnityEngine {
     System::IntPtr m_jobject;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: GlobalJavaObjectRef
-    GlobalJavaObjectRef(bool m_disposed_ = {}, System::IntPtr m_jobject_ = {}) noexcept : m_disposed{m_disposed_}, m_jobject{m_jobject_} {}
     // Get instance field reference: private System.Boolean m_disposed
     bool& dyn_m_disposed();
     // Get instance field reference: protected System.IntPtr m_jobject

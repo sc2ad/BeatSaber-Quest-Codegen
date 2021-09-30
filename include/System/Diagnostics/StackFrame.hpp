@@ -86,8 +86,6 @@ namespace System::Diagnostics {
     ::Il2CppString* internalMethodName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StackFrame
-    StackFrame(int ilOffset_ = {}, int nativeOffset_ = {}, int64_t methodAddress_ = {}, uint methodIndex_ = {}, System::Reflection::MethodBase* methodBase_ = {}, ::Il2CppString* fileName_ = {}, int lineNumber_ = {}, int columnNumber_ = {}, ::Il2CppString* internalMethodName_ = {}) noexcept : ilOffset{ilOffset_}, nativeOffset{nativeOffset_}, methodAddress{methodAddress_}, methodIndex{methodIndex_}, methodBase{methodBase_}, fileName{fileName_}, lineNumber{lineNumber_}, columnNumber{columnNumber_}, internalMethodName{internalMethodName_} {}
     // static field const value: static public System.Int32 OFFSET_UNKNOWN
     static constexpr const int OFFSET_UNKNOWN = -1;
     // Get static field: static public System.Int32 OFFSET_UNKNOWN

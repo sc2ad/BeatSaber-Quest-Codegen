@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* noiseTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
-    // Creating value type constructor for type: BlueNoiseDithering
-    BlueNoiseDithering(UnityEngine::Texture2D* noiseTexture_ = {}) noexcept : noiseTexture{noiseTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA24

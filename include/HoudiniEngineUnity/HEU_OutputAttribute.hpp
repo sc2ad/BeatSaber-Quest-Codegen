@@ -70,8 +70,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<::Il2CppString*> stringValues;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: HEU_OutputAttribute
-    HEU_OutputAttribute(::Il2CppString* name_ = {}, HoudiniEngineUnity::HAPI_AttributeOwner _class_ = {}, HoudiniEngineUnity::HAPI_StorageType type_ = {}, int count_ = {}, int tupleSize_ = {}, ::ArrayWrapper<int> intValues_ = {}, ::ArrayWrapper<float> floatValues_ = {}, ::ArrayWrapper<::Il2CppString*> stringValues_ = {}) noexcept : name{name_}, _class{_class_}, type{type_}, count{count_}, tupleSize{tupleSize_}, intValues{intValues_}, floatValues{floatValues_}, stringValues{stringValues_} {}
     // Get instance field reference: public System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeOwner _class

@@ -16,8 +16,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsn1String {
     public:
-    // Creating value type constructor for type: IAsn1String
-    IAsn1String() noexcept {}
     // public System.String GetString()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetString();

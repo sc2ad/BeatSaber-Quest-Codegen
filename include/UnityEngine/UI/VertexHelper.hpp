@@ -103,8 +103,6 @@ namespace UnityEngine::UI {
     bool m_ListsInitalized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: VertexHelper
-    VertexHelper(System::Collections::Generic::List_1<UnityEngine::Vector3>* m_Positions_ = {}, System::Collections::Generic::List_1<UnityEngine::Color32>* m_Colors_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector2>* m_Uv0S_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector2>* m_Uv1S_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector2>* m_Uv2S_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector2>* m_Uv3S_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* m_Normals_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector4>* m_Tangents_ = {}, System::Collections::Generic::List_1<int>* m_Indices_ = {}, bool m_ListsInitalized_ = {}) noexcept : m_Positions{m_Positions_}, m_Colors{m_Colors_}, m_Uv0S{m_Uv0S_}, m_Uv1S{m_Uv1S_}, m_Uv2S{m_Uv2S_}, m_Uv3S{m_Uv3S_}, m_Normals{m_Normals_}, m_Tangents{m_Tangents_}, m_Indices{m_Indices_}, m_ListsInitalized{m_ListsInitalized_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

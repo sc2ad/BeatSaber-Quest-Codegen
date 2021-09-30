@@ -34,8 +34,6 @@ namespace OnlineServices::API {
   // [TokenAttribute] Offset: FFFFFFFF
   class IUserLoginDtoDataSource {
     public:
-    // Creating value type constructor for type: IUserLoginDtoDataSource
-    IUserLoginDtoDataSource() noexcept {}
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);

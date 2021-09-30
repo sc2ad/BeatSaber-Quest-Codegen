@@ -33,8 +33,6 @@ namespace NUnit::Framework {
     int repeatCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RepeatedTestCommand
-    RepeatedTestCommand(int repeatCount_ = {}) noexcept : repeatCount{repeatCount_} {}
     // Get instance field reference: private System.Int32 repeatCount
     int& dyn_repeatCount();
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     uint64_t serverId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: ConnectToServerParams
-    ConnectToServerParams(GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModel_ = {}, uint64_t serverId_ = {}) noexcept : oculusNetworkPlayerModel{oculusNetworkPlayerModel_}, serverId{serverId_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*>(this);

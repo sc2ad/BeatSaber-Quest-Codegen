@@ -39,8 +39,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int mapId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BinaryObject
-    BinaryObject(int objectId_ = {}, int mapId_ = {}) noexcept : objectId{objectId_}, mapId{mapId_} {}
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.Int32 mapId

@@ -14,8 +14,6 @@ namespace System::Security::Principal {
   // [ComVisibleAttribute] Offset: E5EFE4
   class IPrincipal {
     public:
-    // Creating value type constructor for type: IPrincipal
-    IPrincipal() noexcept {}
   }; // System.Security.Principal.IPrincipal
   #pragma pack(pop)
 }

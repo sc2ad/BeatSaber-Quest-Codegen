@@ -41,8 +41,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::Vector2 swipeStart;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // Creating value type constructor for type: OVRPointerEventData
-    OVRPointerEventData(UnityEngine::Ray worldSpaceRay_ = {}, UnityEngine::Vector2 swipeStart_ = {}) noexcept : worldSpaceRay{worldSpaceRay_}, swipeStart{swipeStart_} {}
     // Get instance field reference: public UnityEngine.Ray worldSpaceRay
     UnityEngine::Ray& dyn_worldSpaceRay();
     // Get instance field reference: public UnityEngine.Vector2 swipeStart

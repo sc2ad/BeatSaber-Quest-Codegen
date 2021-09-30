@@ -21,8 +21,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerConnectionMessageIds : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlayerConnectionMessageIds
-    PlayerConnectionMessageIds() noexcept {}
     // static public System.Guid get_runStartedMessageId()
     // Offset: 0x16698C4
     static System::Guid get_runStartedMessageId();

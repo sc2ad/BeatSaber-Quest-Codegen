@@ -72,8 +72,6 @@ namespace TMPro {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TMP_TextElement_Legacy
-    TMP_TextElement_Legacy(int id_ = {}, float x_ = {}, float y_ = {}, float width_ = {}, float height_ = {}, float xOffset_ = {}, float yOffset_ = {}, float xAdvance_ = {}, float scale_ = {}) noexcept : id{id_}, x{x_}, y{y_}, width{width_}, height{height_}, xOffset{xOffset_}, yOffset{yOffset_}, xAdvance{xAdvance_}, scale{scale_} {}
     // Get instance field reference: public System.Int32 id
     int& dyn_id();
     // Get instance field reference: public System.Single x

@@ -42,8 +42,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int64_t byteCount;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: GeneralDigest
-    GeneralDigest(::ArrayWrapper<uint8_t> xBuf_ = {}, int xBufOff_ = {}, int64_t byteCount_ = {}) noexcept : xBuf{xBuf_}, xBufOff{xBufOff_}, byteCount{byteCount_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

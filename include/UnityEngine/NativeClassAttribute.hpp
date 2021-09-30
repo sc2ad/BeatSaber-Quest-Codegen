@@ -36,8 +36,6 @@ namespace UnityEngine {
     ::Il2CppString* Declaration;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NativeClassAttribute
-    NativeClassAttribute(::Il2CppString* QualifiedNativeName_ = {}, ::Il2CppString* Declaration_ = {}) noexcept : QualifiedNativeName{QualifiedNativeName_}, Declaration{Declaration_} {}
     // Get instance field reference: private System.String <QualifiedNativeName>k__BackingField
     ::Il2CppString*& dyn_$QualifiedNativeName$k__BackingField();
     // Get instance field reference: private System.String <Declaration>k__BackingField

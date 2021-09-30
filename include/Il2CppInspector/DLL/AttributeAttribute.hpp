@@ -36,8 +36,6 @@ namespace Il2CppInspector::DLL {
     ::Il2CppString* Offset;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AttributeAttribute
-    AttributeAttribute(::Il2CppString* Name_ = {}, ::Il2CppString* RVA_ = {}, ::Il2CppString* Offset_ = {}) noexcept : Name{Name_}, RVA{RVA_}, Offset{Offset_} {}
     // Get instance field reference: public System.String Name
     ::Il2CppString*& dyn_Name();
     // Get instance field reference: public System.String RVA

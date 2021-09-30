@@ -24,8 +24,6 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class Task::SetOnInvokeMres : public System::Threading::ManualResetEventSlim/*, public System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
-    // Creating value type constructor for type: SetOnInvokeMres
-    SetOnInvokeMres() noexcept {}
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);

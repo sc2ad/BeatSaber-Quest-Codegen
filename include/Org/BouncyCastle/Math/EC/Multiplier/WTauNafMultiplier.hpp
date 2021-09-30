@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     public:
     // Nested type: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback
     class WTauNafCallback;
-    // Creating value type constructor for type: WTauNafMultiplier
-    WTauNafMultiplier() noexcept {}
     // Get static field: static readonly System.String PRECOMP_NAME
     static ::Il2CppString* _get_PRECOMP_NAME();
     // Set static field: static readonly System.String PRECOMP_NAME

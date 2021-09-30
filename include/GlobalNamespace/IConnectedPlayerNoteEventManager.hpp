@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConnectedPlayerNoteEventManager {
     public:
-    // Creating value type constructor for type: IConnectedPlayerNoteEventManager
-    IConnectedPlayerNoteEventManager() noexcept {}
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
     void add_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);

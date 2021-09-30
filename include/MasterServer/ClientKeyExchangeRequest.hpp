@@ -45,8 +45,6 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* clientPublicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
-    // Creating value type constructor for type: ClientKeyExchangeRequest
-    ClientKeyExchangeRequest(GlobalNamespace::ByteArrayNetSerializable* clientPublicKey_ = {}) noexcept : clientPublicKey{clientPublicKey_} {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeClientToServerMessage
     operator MasterServer::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeClientToServerMessage*>(this);

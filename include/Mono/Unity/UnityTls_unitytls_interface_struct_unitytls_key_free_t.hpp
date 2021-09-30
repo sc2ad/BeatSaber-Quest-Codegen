@@ -34,8 +34,6 @@ namespace Mono::Unity {
   // [UnmanagedFunctionPointerAttribute] Offset: E68CDC
   class UnityTls::unitytls_interface_struct::unitytls_key_free_t : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: unitytls_key_free_t
-    unitytls_key_free_t() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C36C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,8 +34,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     ::ArrayWrapper<uint8_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: QueueData
-    QueueData(System::Guid id_ = {}, ::ArrayWrapper<uint8_t> data_ = {}) noexcept : id{id_}, data{data_} {}
     // Get instance field reference: private System.Guid <id>k__BackingField
     System::Guid& dyn_$id$k__BackingField();
     // Get instance field reference: private System.Byte[] <data>k__BackingField

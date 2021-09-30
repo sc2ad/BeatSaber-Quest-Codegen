@@ -45,8 +45,6 @@ namespace Zenject {
     Zenject::ILateTickable* tickable;
     // Field size check
     static_assert(sizeof(Zenject::ILateTickable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass19_0
-    $$c__DisplayClass19_0(Zenject::ILateTickable* tickable_ = {}) noexcept : tickable{tickable_} {}
     // Creating conversion operator: operator Zenject::ILateTickable*
     constexpr operator Zenject::ILateTickable*() const noexcept {
       return tickable;

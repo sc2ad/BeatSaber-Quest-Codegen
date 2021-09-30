@@ -64,8 +64,6 @@ namespace Mono::Security::Cryptography {
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: PrivateKeyInfo
-    PrivateKeyInfo(int version_ = {}, ::Il2CppString* algorithm_ = {}, ::ArrayWrapper<uint8_t> key_ = {}, System::Collections::ArrayList* list_ = {}) noexcept : version{version_}, algorithm{algorithm_}, key{key_}, list{list_} {}
     // Get instance field reference: private System.Int32 _version
     int& dyn__version();
     // Get instance field reference: private System.String _algorithm

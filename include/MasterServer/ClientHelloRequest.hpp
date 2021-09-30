@@ -45,8 +45,6 @@ namespace MasterServer {
     ::ArrayWrapper<uint8_t> random;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: ClientHelloRequest
-    ClientHelloRequest(::ArrayWrapper<uint8_t> random_ = {}) noexcept : random{random_} {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeClientToServerMessage
     operator MasterServer::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeClientToServerMessage*>(this);

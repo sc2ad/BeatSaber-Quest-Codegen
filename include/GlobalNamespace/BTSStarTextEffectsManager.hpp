@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSStarTextEffectController::Pool* btsStarTextEffectControllerPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSStarTextEffectController::Pool*) == 0x8);
-    // Creating value type constructor for type: BTSStarTextEffectsManager
-    BTSStarTextEffectsManager(GlobalNamespace::BTSStarTextEventEffect* btsStarTextEventEffect_ = {}, GlobalNamespace::BTSStarTextEffectController::Pool* btsStarTextEffectControllerPool_ = {}) noexcept : btsStarTextEventEffect{btsStarTextEventEffect_}, btsStarTextEffectControllerPool{btsStarTextEffectControllerPool_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSStarTextEventEffect _btsStarTextEventEffect

@@ -45,8 +45,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D49C
   class Binder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Binder
-    Binder() noexcept {}
     // public System.Reflection.MethodBase BindToMethod(System.Reflection.BindingFlags bindingAttr, System.Reflection.MethodBase[] match, ref System.Object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, System.String[] names, out System.Object state)
     // Offset: 0xFFFFFFFF
     System::Reflection::MethodBase* BindToMethod(System::Reflection::BindingFlags bindingAttr, ::ArrayWrapper<System::Reflection::MethodBase*> match, ByRef<::ArrayWrapper<::Il2CppObject*>> args, ::ArrayWrapper<System::Reflection::ParameterModifier> modifiers, System::Globalization::CultureInfo* culture, ::ArrayWrapper<::Il2CppString*> names, ByRef<::Il2CppObject*> state);

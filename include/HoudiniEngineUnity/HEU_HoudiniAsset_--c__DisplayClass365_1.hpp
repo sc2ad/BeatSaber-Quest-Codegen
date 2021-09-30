@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass365_1
-    $$c__DisplayClass365_1(int i_ = {}, HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0* CS$$$8__locals1_ = {}) noexcept : i{i_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public System.Int32 i
     int& dyn_i();
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c__DisplayClass365_0 CS$<>8__locals1

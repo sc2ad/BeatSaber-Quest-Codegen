@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
-    // Creating value type constructor for type: HEU_RecookPreset
-    HEU_RecookPreset(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>* inputPresets_ = {}) noexcept : volumeCachePresets{volumeCachePresets_}, inputPresets{inputPresets_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> _volumeCachePresets
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn__volumeCachePresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> _inputPresets

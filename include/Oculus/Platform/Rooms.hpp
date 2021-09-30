@@ -49,8 +49,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Rooms : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Rooms
-    Rooms() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdateDataStore(System.UInt64 roomID, System.Collections.Generic.Dictionary`2<System.String,System.String> data)
     // Offset: 0x25B9AD4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* UpdateDataStore(uint64_t roomID, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* data);

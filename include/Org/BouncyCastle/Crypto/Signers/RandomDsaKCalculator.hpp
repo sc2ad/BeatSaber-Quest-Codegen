@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
-    // Creating value type constructor for type: RandomDsaKCalculator
-    RandomDsaKCalculator(Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : q{q_}, random{random_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Signers::IDsaKCalculator
     operator Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);

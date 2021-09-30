@@ -46,8 +46,6 @@ namespace System::Globalization {
     int lcid;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SortKey
-    SortKey(::Il2CppString* source_ = {}, ::ArrayWrapper<uint8_t> key_ = {}, System::Globalization::CompareOptions options_ = {}, int lcid_ = {}) noexcept : source{source_}, key{key_}, options{options_}, lcid{lcid_} {}
     // Get instance field reference: private readonly System.String source
     ::Il2CppString*& dyn_source();
     // Get instance field reference: private readonly System.Byte[] key

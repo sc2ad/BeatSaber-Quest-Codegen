@@ -27,8 +27,6 @@ namespace Zenject {
   template<typename TValue>
   class PoolableStaticMemoryPool_1 : public Zenject::StaticMemoryPool_1<TValue> {
     public:
-    // Creating value type constructor for type: PoolableStaticMemoryPool_1
-    PoolableStaticMemoryPool_1() noexcept {}
     // static private System.Void OnSpawned(TValue value)
     // Offset: 0xFFFFFFFF
     static void OnSpawned(TValue value) {

@@ -183,8 +183,6 @@ namespace System::IO {
     System::IO::RenamedEventHandler* Renamed;
     // Field size check
     static_assert(sizeof(System::IO::RenamedEventHandler*) == 0x8);
-    // Creating value type constructor for type: FileSystemWatcher
-    FileSystemWatcher(bool enableRaisingEvents_ = {}, ::Il2CppString* filter_ = {}, bool includeSubdirectories_ = {}, int internalBufferSize_ = {}, System::IO::NotifyFilters notifyFilter_ = {}, ::Il2CppString* path_ = {}, ::Il2CppString* fullpath_ = {}, System::ComponentModel::ISynchronizeInvoke* synchronizingObject_ = {}, System::IO::WaitForChangedResult lastData_ = {}, bool waiting_ = {}, System::IO::SearchPattern2* pattern_ = {}, bool disposed_ = {}, ::Il2CppString* mangledFilter_ = {}, System::IO::FileSystemEventHandler* Changed_ = {}, System::IO::FileSystemEventHandler* Created_ = {}, System::IO::FileSystemEventHandler* Deleted_ = {}, System::IO::ErrorEventHandler* Error_ = {}, System::IO::RenamedEventHandler* Renamed_ = {}) noexcept : enableRaisingEvents{enableRaisingEvents_}, filter{filter_}, includeSubdirectories{includeSubdirectories_}, internalBufferSize{internalBufferSize_}, notifyFilter{notifyFilter_}, path{path_}, fullpath{fullpath_}, synchronizingObject{synchronizingObject_}, lastData{lastData_}, waiting{waiting_}, pattern{pattern_}, disposed{disposed_}, mangledFilter{mangledFilter_}, Changed{Changed_}, Created{Created_}, Deleted{Deleted_}, Error{Error_}, Renamed{Renamed_} {}
     // Get static field: static private System.IO.IFileWatcher watcher
     static System::IO::IFileWatcher* _get_watcher();
     // Set static field: static private System.IO.IFileWatcher watcher

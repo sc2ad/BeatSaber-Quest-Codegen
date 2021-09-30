@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Math::Raw {
   // [TokenAttribute] Offset: FFFFFFFF
   class Mod : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Mod
-    Mod() noexcept {}
     // Get static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource
     static Org::BouncyCastle::Security::SecureRandom* _get_RandomSource();
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource

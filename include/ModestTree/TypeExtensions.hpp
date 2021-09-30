@@ -68,8 +68,6 @@ namespace ModestTree {
     class $$c__DisplayClass39_0;
     // Nested type: ModestTree::TypeExtensions::$$c__DisplayClass39_1
     class $$c__DisplayClass39_1;
-    // Creating value type constructor for type: TypeExtensions
-    TypeExtensions() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Boolean> _isClosedGenericType
     static System::Collections::Generic::Dictionary_2<System::Type*, bool>* _get__isClosedGenericType();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Boolean> _isClosedGenericType

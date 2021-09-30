@@ -39,8 +39,6 @@ namespace System::IO {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StringReader
-    StringReader(::Il2CppString* s_ = {}, int pos_ = {}, int length_ = {}) noexcept : s{s_}, pos{pos_}, length{length_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.String _s

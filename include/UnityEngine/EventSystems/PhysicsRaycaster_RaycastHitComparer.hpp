@@ -24,8 +24,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class PhysicsRaycaster::RaycastHitComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>*/ {
     public:
-    // Creating value type constructor for type: RaycastHitComparer
-    RaycastHitComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>
     operator System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>*>(this);

@@ -29,8 +29,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MeshTransform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MeshTransform
-    MeshTransform() noexcept {}
     // static System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 firstVertexIndex)
     // Offset: 0x18F99B0
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::PivotLocation pivotType, int firstVertexIndex);

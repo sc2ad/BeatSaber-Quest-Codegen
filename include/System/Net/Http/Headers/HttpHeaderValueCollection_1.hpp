@@ -73,8 +73,6 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<::Il2CppString*>* invalidValues;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: HttpHeaderValueCollection_1
-    HttpHeaderValueCollection_1(System::Collections::Generic::List_1<T>* list_ = {}, System::Net::Http::Headers::HttpHeaders* headers_ = {}, System::Net::Http::Headers::HeaderInfo* headerInfo_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* invalidValues_ = {}) noexcept : list{list_}, headers{headers_}, headerInfo{headerInfo_}, invalidValues{invalidValues_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<T>
     operator System::Collections::Generic::ICollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<T>*>(this);

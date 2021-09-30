@@ -16,8 +16,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class GC : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GC
-    GC() noexcept {}
     // Get static field: static readonly System.Object EPHEMERON_TOMBSTONE
     static ::Il2CppObject* _get_EPHEMERON_TOMBSTONE();
     // Set static field: static readonly System.Object EPHEMERON_TOMBSTONE

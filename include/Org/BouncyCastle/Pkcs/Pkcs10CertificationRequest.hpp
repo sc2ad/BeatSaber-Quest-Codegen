@@ -42,8 +42,6 @@ namespace Org::BouncyCastle::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class Pkcs10CertificationRequest : public Org::BouncyCastle::Asn1::Pkcs::CertificationRequest {
     public:
-    // Creating value type constructor for type: Pkcs10CertificationRequest
-    Pkcs10CertificationRequest() noexcept {}
     // Get static field: static protected readonly System.Collections.IDictionary algorithms
     static System::Collections::IDictionary* _get_algorithms();
     // Set static field: static protected readonly System.Collections.IDictionary algorithms

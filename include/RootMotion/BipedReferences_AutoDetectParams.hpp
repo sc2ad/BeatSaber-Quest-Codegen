@@ -50,7 +50,6 @@ namespace RootMotion {
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
     // Offset: 0x1EBCF54
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes)
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams
   #pragma pack(pop)

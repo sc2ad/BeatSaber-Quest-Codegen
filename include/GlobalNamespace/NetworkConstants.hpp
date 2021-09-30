@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkConstants : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetworkConstants
-    NetworkConstants() noexcept {}
     // static field const value: static public System.UInt32 kProtocolVersion
     static constexpr const uint kProtocolVersion = 5u;
     // Get static field: static public System.UInt32 kProtocolVersion

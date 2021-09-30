@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     int markedTriggerId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MarkableUIButton
-    MarkableUIButton(UnityEngine::Animator* animator_ = {}, bool marked_ = {}, int markedTriggerId_ = {}) noexcept : animator{animator_}, marked{marked_}, markedTriggerId{markedTriggerId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator

@@ -52,8 +52,6 @@ namespace HMUI {
     HMUI::FlowCoordinator* flowCoordinatorToReplace;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass37_0
-    $$c__DisplayClass37_0(System::Action* finishedCallback_ = {}, HMUI::FlowCoordinator* flowCoordinator_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, HMUI::FlowCoordinator* flowCoordinatorToReplace_ = {}) noexcept : finishedCallback{finishedCallback_}, flowCoordinator{flowCoordinator_}, $$4__this{$$4__this_}, flowCoordinatorToReplace{flowCoordinatorToReplace_} {}
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: public HMUI.FlowCoordinator flowCoordinator

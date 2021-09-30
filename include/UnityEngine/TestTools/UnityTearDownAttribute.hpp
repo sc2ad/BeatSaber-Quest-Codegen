@@ -17,8 +17,6 @@ namespace UnityEngine::TestTools {
   // [AttributeUsageAttribute] Offset: F28FE0
   class UnityTearDownAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: UnityTearDownAttribute
-    UnityTearDownAttribute() noexcept {}
   }; // UnityEngine.TestTools.UnityTearDownAttribute
   #pragma pack(pop)
 }

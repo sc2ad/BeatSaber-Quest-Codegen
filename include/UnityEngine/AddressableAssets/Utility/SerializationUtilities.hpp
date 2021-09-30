@@ -27,8 +27,6 @@ namespace UnityEngine::AddressableAssets::Utility {
     public:
     // Nested type: UnityEngine::AddressableAssets::Utility::SerializationUtilities::ObjectType
     struct ObjectType;
-    // Creating value type constructor for type: SerializationUtilities
-    SerializationUtilities() noexcept {}
     // static System.Int32 ReadInt32FromByteArray(System.Byte[] data, System.Int32 offset)
     // Offset: 0x25EFA50
     static int ReadInt32FromByteArray(::ArrayWrapper<uint8_t> data, int offset);

@@ -39,8 +39,6 @@ namespace Oculus::Platform::Models {
     double MyCurrentThreshold;
     // Field size check
     static_assert(sizeof(double) == 0x8);
-    // Creating value type constructor for type: MatchmakingAdminSnapshot
-    MatchmakingAdminSnapshot(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* Candidates_ = {}, double MyCurrentThreshold_ = {}) noexcept : Candidates{Candidates_}, MyCurrentThreshold{MyCurrentThreshold_} {}
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
     Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*& dyn_Candidates();
     // Get instance field reference: public readonly System.Double MyCurrentThreshold

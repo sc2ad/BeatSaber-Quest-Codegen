@@ -27,8 +27,6 @@ namespace UnityEngine {
     int lines;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MultilineAttribute
-    MultilineAttribute(int lines_ = {}) noexcept : lines{lines_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return lines;

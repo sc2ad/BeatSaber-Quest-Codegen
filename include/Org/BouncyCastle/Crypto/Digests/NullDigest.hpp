@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     System::IO::MemoryStream* bOut;
     // Field size check
     static_assert(sizeof(System::IO::MemoryStream*) == 0x8);
-    // Creating value type constructor for type: NullDigest
-    NullDigest(System::IO::MemoryStream* bOut_ = {}) noexcept : bOut{bOut_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

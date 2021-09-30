@@ -29,8 +29,6 @@ namespace System::ComponentModel {
     System::ComponentModel::EditorBrowsableState browsableState;
     // Field size check
     static_assert(sizeof(System::ComponentModel::EditorBrowsableState) == 0x4);
-    // Creating value type constructor for type: EditorBrowsableAttribute
-    EditorBrowsableAttribute(System::ComponentModel::EditorBrowsableState browsableState_ = {}) noexcept : browsableState{browsableState_} {}
     // Creating conversion operator: operator System::ComponentModel::EditorBrowsableState
     constexpr operator System::ComponentModel::EditorBrowsableState() const noexcept {
       return browsableState;

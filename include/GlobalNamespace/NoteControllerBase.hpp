@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteControllerBase : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: NoteControllerBase
-    NoteControllerBase() noexcept {}
     // public ILazyCopyHashSet`1<INoteControllerDidInitEvent> get_didInitEvent()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent();

@@ -106,7 +106,6 @@ namespace UnityEngine::Rendering {
     int& dyn_m_DepthSlice();
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
     // Offset: 0x1E09CBC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
@@ -114,7 +113,6 @@ namespace UnityEngine::Rendering {
     }
     // public System.Void .ctor(System.Int32 nameID)
     // Offset: 0x1E09D24
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(int nameID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nameID)})));
@@ -122,7 +120,6 @@ namespace UnityEngine::Rendering {
     }
     // public System.Void .ctor(UnityEngine.Texture tex)
     // Offset: 0x1E09D8C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Texture* tex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tex)})));

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>) == 0x8);
-    // Creating value type constructor for type: VRControllersRecorderSaveData
-    VRControllersRecorderSaveData(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*> nodesInfo_ = {}, ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
     // Get instance field reference: public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
     ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
     // Get instance field reference: public VRControllersRecorderSaveData/Keyframe[] keyframes

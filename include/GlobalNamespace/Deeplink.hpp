@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     uint64_t MultiplayerRoomId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: Deeplink
-    Deeplink(::Il2CppString* Destination_ = {}, ::Il2CppString* LevelID_ = {}, ::Il2CppString* PackID_ = {}, ::Il2CppString* Difficulty_ = {}, ::Il2CppString* Characteristic_ = {}, ::Il2CppString* MultiplayerLobbyCode_ = {}, ::Il2CppString* MultiplayerSecret_ = {}, uint64_t MultiplayerRoomId_ = {}) noexcept : Destination{Destination_}, LevelID{LevelID_}, PackID{PackID_}, Difficulty{Difficulty_}, Characteristic{Characteristic_}, MultiplayerLobbyCode{MultiplayerLobbyCode_}, MultiplayerSecret{MultiplayerSecret_}, MultiplayerRoomId{MultiplayerRoomId_} {}
     // Get instance field reference: public System.String Destination
     ::Il2CppString*& dyn_Destination();
     // Get instance field reference: public System.String LevelID

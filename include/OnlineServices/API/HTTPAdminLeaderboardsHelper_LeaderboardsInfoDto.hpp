@@ -26,8 +26,6 @@ namespace OnlineServices::API {
     bool exist;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LeaderboardsInfoDto
-    LeaderboardsInfoDto(bool exist_ = {}) noexcept : exist{exist_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return exist;

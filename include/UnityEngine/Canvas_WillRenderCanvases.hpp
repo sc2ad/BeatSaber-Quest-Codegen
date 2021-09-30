@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Canvas::WillRenderCanvases : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: WillRenderCanvases
-    WillRenderCanvases() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2616018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

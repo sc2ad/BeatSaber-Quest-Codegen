@@ -42,8 +42,6 @@ namespace Zenject {
     Zenject::InjectableInfo* Info;
     // Field size check
     static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
-    // Creating value type constructor for type: InjectMemberInfo
-    InjectMemberInfo(Zenject::ZenMemberSetterMethod* Setter_ = {}, Zenject::InjectableInfo* Info_ = {}) noexcept : Setter{Setter_}, Info{Info_} {}
     // Get instance field reference: public readonly Zenject.ZenMemberSetterMethod Setter
     Zenject::ZenMemberSetterMethod*& dyn_Setter();
     // Get instance field reference: public readonly Zenject.InjectableInfo Info

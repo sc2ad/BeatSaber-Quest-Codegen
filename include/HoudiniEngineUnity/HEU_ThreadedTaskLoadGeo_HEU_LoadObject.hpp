@@ -67,8 +67,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>* instancerBuffers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>*) == 0x8);
-    // Creating value type constructor for type: HEU_LoadObject
-    HEU_LoadObject(int objectNodeID_ = {}, int displayNodeID_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolume*>* terrainBuffers_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferMesh*>* meshBuffers_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>* instancerBuffers_ = {}) noexcept : objectNodeID{objectNodeID_}, displayNodeID{displayNodeID_}, terrainBuffers{terrainBuffers_}, meshBuffers{meshBuffers_}, instancerBuffers{instancerBuffers_} {}
     // Get instance field reference: public System.Int32 _objectNodeID
     int& dyn__objectNodeID();
     // Get instance field reference: public System.Int32 _displayNodeID

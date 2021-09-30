@@ -38,8 +38,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     float m_SmoothingThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MeshImportSettings
-    MeshImportSettings(bool m_Quads_ = {}, bool m_Smoothing_ = {}, float m_SmoothingThreshold_ = {}) noexcept : m_Quads{m_Quads_}, m_Smoothing{m_Smoothing_}, m_SmoothingThreshold{m_SmoothingThreshold_} {}
     // Get instance field reference: private System.Boolean m_Quads
     bool& dyn_m_Quads();
     // Get instance field reference: private System.Boolean m_Smoothing

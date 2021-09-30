@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     int numberOfColors;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BeatmapCharacteristicSO
-    BeatmapCharacteristicSO(UnityEngine::Sprite* icon_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, ::Il2CppString* characteristicNameLocalizationKey_ = {}, ::Il2CppString* serializedName_ = {}, ::Il2CppString* compoundIdPartName_ = {}, int sortingOrder_ = {}, bool containsRotationEvents_ = {}, bool requires360Movement_ = {}, int numberOfColors_ = {}) noexcept : icon{icon_}, descriptionLocalizationKey{descriptionLocalizationKey_}, characteristicNameLocalizationKey{characteristicNameLocalizationKey_}, serializedName{serializedName_}, compoundIdPartName{compoundIdPartName_}, sortingOrder{sortingOrder_}, containsRotationEvents{containsRotationEvents_}, requires360Movement{requires360Movement_}, numberOfColors{numberOfColors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _icon

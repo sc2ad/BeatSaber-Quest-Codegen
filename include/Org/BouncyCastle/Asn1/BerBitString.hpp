@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerBitString : public Org::BouncyCastle::Asn1::DerBitString {
     public:
-    // Creating value type constructor for type: BerBitString
-    BerBitString() noexcept {}
     // public System.Void .ctor(System.Byte[] data, System.Int32 padBits)
     // Offset: 0x18E6484
     // Implemented from: Org.BouncyCastle.Asn1.DerBitString

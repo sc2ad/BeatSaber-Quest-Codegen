@@ -138,8 +138,6 @@ namespace GlobalNamespace {
     bool disableChecking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MissionObjectiveChecker
-    MissionObjectiveChecker(GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType_ = {}, System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* statusDidChangeEvent_ = {}, System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* checkedValueDidChangeEvent_ = {}, GlobalNamespace::MissionObjectiveChecker::Status status_ = {}, int checkedValue_ = {}, GlobalNamespace::MissionObjective* missionObjective_ = {}, bool disableChecking_ = {}) noexcept : missionObjectiveType{missionObjectiveType_}, statusDidChangeEvent{statusDidChangeEvent_}, checkedValueDidChangeEvent{checkedValueDidChangeEvent_}, status{status_}, checkedValue{checkedValue_}, missionObjective{missionObjective_}, disableChecking{disableChecking_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveTypeSO _missionObjectiveType

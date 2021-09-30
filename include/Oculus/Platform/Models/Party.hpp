@@ -89,8 +89,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* Users;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // Creating value type constructor for type: Party
-    Party(uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::User* LeaderOptional_ = {}, Oculus::Platform::Models::User* Leader_ = {}, Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}) noexcept : _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, LeaderOptional{LeaderOptional_}, Leader{Leader_}, RoomOptional{RoomOptional_}, Room{Room_}, UsersOptional{UsersOptional_}, Users{Users_} {}
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional

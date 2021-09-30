@@ -104,8 +104,6 @@ namespace System::Collections::Specialized {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NameObjectCollectionBase
-    NameObjectCollectionBase(bool readOnly_ = {}, System::Collections::ArrayList* entriesArray_ = {}, System::Collections::IEqualityComparer* keyComparer_ = {}, System::Collections::Hashtable* entriesTable_ = {}, System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* nullKeyEntry_ = {}, System::Runtime::Serialization::SerializationInfo* serializationInfo_ = {}, int version_ = {}) noexcept : readOnly{readOnly_}, entriesArray{entriesArray_}, keyComparer{keyComparer_}, entriesTable{entriesTable_}, nullKeyEntry{nullKeyEntry_}, serializationInfo{serializationInfo_}, version{version_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

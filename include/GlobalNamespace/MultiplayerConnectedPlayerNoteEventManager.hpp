@@ -87,7 +87,6 @@ namespace GlobalNamespace {
       GlobalNamespace::NoteCutInfoNetSerializable*& dyn_noteCutInfo();
       // public System.Void .ctor(System.Single time, NoteCutInfoNetSerializable noteCutInfo)
       // Offset: 0x1213198
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  NoteCutEvent(float time, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo)
     }; // MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent
     #pragma pack(pop)
@@ -127,7 +126,6 @@ namespace GlobalNamespace {
       GlobalNamespace::NoteMissInfoNetSerializable*& dyn_noteMissInfo();
       // public System.Void .ctor(System.Single time, NoteMissInfoNetSerializable noteMissInfo)
       // Offset: 0x1213318
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  NoteMissEvent(float time, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo)
     }; // MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent
     #pragma pack(pop)
@@ -178,8 +176,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>* noteMissQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerNoteEventManager
-    MultiplayerConnectedPlayerNoteEventManager(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeController_ = {}, System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* connectedPlayerNoteWasCutEvent_ = {}, System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* connectedPlayerNoteWasMissedEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent>* noteCutQueue_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>* noteMissQueue_ = {}) noexcept : connectedPlayer{connectedPlayer_}, gameplayRpcManager{gameplayRpcManager_}, songTimeController{songTimeController_}, connectedPlayerNoteWasCutEvent{connectedPlayerNoteWasCutEvent_}, connectedPlayerNoteWasMissedEvent{connectedPlayerNoteWasMissedEvent_}, noteCutQueue{noteCutQueue_}, noteMissQueue{noteMissQueue_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayerNoteEventManager
     operator GlobalNamespace::IConnectedPlayerNoteEventManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayerNoteEventManager*>(this);

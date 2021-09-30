@@ -36,8 +36,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c
     class $$c;
-    // Creating value type constructor for type: TestCommandBuilder
-    TestCommandBuilder() noexcept {}
     // static public NUnit.Framework.Internal.Commands.TestCommand BuildTestCommand(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
     // Offset: 0x1661F98
     static NUnit::Framework::Internal::Commands::TestCommand* BuildTestCommand(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);

@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* didStartDissolvingEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*) == 0x8);
-    // Creating value type constructor for type: ObstacleControllerBase
-    ObstacleControllerBase(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* didInitEvent_ = {}, System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* didStartDissolvingEvent_ = {}) noexcept : didInitEvent{didInitEvent_}, didStartDissolvingEvent{didStartDissolvingEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<ObstacleControllerBase> didInitEvent

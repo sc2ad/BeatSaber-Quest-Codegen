@@ -39,8 +39,6 @@ namespace Zenject {
     Zenject::InjectContext* context;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass86_0
-    $$c__DisplayClass86_0(Zenject::InjectContext* context_ = {}) noexcept : context{context_} {}
     // Creating conversion operator: operator Zenject::InjectContext*
     constexpr operator Zenject::InjectContext*() const noexcept {
       return context;

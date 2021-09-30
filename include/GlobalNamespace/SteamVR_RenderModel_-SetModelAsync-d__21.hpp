@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<::Il2CppString*> $renderModelNames$5__4;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: $SetModelAsync$d__21
-    $SetModelAsync$d__21(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, ::Il2CppString* renderModelName_ = {}, GlobalNamespace::SteamVR_RenderModel* $$4__this_ = {}, GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* $holder$5__2_ = {}, Valve::VR::CVRRenderModels* $renderModels$5__3_ = {}, ::ArrayWrapper<::Il2CppString*> $renderModelNames$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, renderModelName{renderModelName_}, $$4__this{$$4__this_}, $holder$5__2{$holder$5__2_}, $renderModels$5__3{$renderModels$5__3_}, $renderModelNames$5__4{$renderModelNames$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

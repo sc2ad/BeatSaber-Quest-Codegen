@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     float remainingBufferTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BufferedAudioStream
-    BufferedAudioStream(UnityEngine::AudioSource* audio_ = {}, ::ArrayWrapper<float> audioBuffer_ = {}, int writePos_ = {}, float playbackDelayRemaining_ = {}, float remainingBufferTime_ = {}) noexcept : audio{audio_}, audioBuffer{audioBuffer_}, writePos{writePos_}, playbackDelayRemaining{playbackDelayRemaining_}, remainingBufferTime{remainingBufferTime_} {}
     // static field const value: static private System.Boolean VerboseLogging
     static constexpr const bool VerboseLogging = false;
     // Get static field: static private System.Boolean VerboseLogging

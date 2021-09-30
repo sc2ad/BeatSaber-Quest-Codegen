@@ -60,8 +60,6 @@ namespace HMUI {
     HMUI::ViewController* originalTopViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass41_0
-    $$c__DisplayClass41_0(HMUI::ViewController::AnimationType animationType_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* originalTopViewController_ = {}) noexcept : animationType{animationType_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, originalTopViewController{originalTopViewController_} {}
     // Get instance field reference: public HMUI.ViewController/HMUI.AnimationType animationType
     HMUI::ViewController::AnimationType& dyn_animationType();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this

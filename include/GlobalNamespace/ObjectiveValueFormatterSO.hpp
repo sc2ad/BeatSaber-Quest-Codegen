@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectiveValueFormatterSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: ObjectiveValueFormatterSO
-    ObjectiveValueFormatterSO() noexcept {}
     // public System.String FormatValue(System.Int32 value)
     // Offset: 0x135ABD4
     ::Il2CppString* FormatValue(int value);

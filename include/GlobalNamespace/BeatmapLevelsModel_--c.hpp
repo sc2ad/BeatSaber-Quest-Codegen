@@ -42,8 +42,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelsModel::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly BeatmapLevelsModel/<>c <>9
     static GlobalNamespace::BeatmapLevelsModel::$$c* _get_$$9();
     // Set static field: static public readonly BeatmapLevelsModel/<>c <>9

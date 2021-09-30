@@ -50,8 +50,6 @@ namespace LiteNetLib {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NetPacketPool
-    NetPacketPool(::ArrayWrapper<LiteNetLib::NetPacket*> pool_ = {}, System::Threading::ReaderWriterLockSlim* lock_ = {}, int count_ = {}) noexcept : pool{pool_}, lock{lock_}, count{count_} {}
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _pool
     ::ArrayWrapper<LiteNetLib::NetPacket*>& dyn__pool();
     // Get instance field reference: private readonly System.Threading.ReaderWriterLockSlim _lock

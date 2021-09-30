@@ -103,8 +103,6 @@ namespace GlobalNamespace {
     bool stopBlinkingCursor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: VRTextEntryController
-    VRTextEntryController(GlobalNamespace::UIKeyboard* uiKeyboard_ = {}, TMPro::TextMeshProUGUI* text_ = {}, TMPro::TextMeshProUGUI* cursorText_ = {}, int maxLength_ = {}, bool allowBlank_ = {}, System::Action_1<::Il2CppString*>* textDidChangeEvent_ = {}, System::Action* okButtonWasPressedEvent_ = {}, System::Action* cancelButtonWasPressedEvent_ = {}, bool stopBlinkingCursor_ = {}) noexcept : uiKeyboard{uiKeyboard_}, text{text_}, cursorText{cursorText_}, maxLength{maxLength_}, allowBlank{allowBlank_}, textDidChangeEvent{textDidChangeEvent_}, okButtonWasPressedEvent{okButtonWasPressedEvent_}, cancelButtonWasPressedEvent{cancelButtonWasPressedEvent_}, stopBlinkingCursor{stopBlinkingCursor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UIKeyboard _uiKeyboard

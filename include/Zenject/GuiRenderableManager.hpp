@@ -54,8 +54,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* renderables;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*) == 0x8);
-    // Creating value type constructor for type: GuiRenderableManager
-    GuiRenderableManager(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* renderables_ = {}) noexcept : renderables{renderables_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*
     constexpr operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*() const noexcept {
       return renderables;

@@ -113,8 +113,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::RenderTexture*> blurTextures;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
-    // Creating value type constructor for type: KawaseBlurRendererSO
-    KawaseBlurRendererSO(UnityEngine::Shader* kawaseBlurShader_ = {}, UnityEngine::Shader* additiveShader_ = {}, UnityEngine::Shader* tintShader_ = {}, UnityEngine::Material* kawaseBlurMaterial_ = {}, UnityEngine::Material* additiveMaterial_ = {}, UnityEngine::Material* tintMaterial_ = {}, UnityEngine::Material* commandBuffersMaterial_ = {}, ::ArrayWrapper<::ArrayWrapper<int>> kernels_ = {}, ::ArrayWrapper<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*> bloomKernels_ = {}, ::ArrayWrapper<UnityEngine::RenderTexture*> blurTextures_ = {}) noexcept : kawaseBlurShader{kawaseBlurShader_}, additiveShader{additiveShader_}, tintShader{tintShader_}, kawaseBlurMaterial{kawaseBlurMaterial_}, additiveMaterial{additiveMaterial_}, tintMaterial{tintMaterial_}, commandBuffersMaterial{commandBuffersMaterial_}, kernels{kernels_}, bloomKernels{bloomKernels_}, blurTextures{blurTextures_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxBloomIterations

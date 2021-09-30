@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRControllerGamepadMac
-    OVRControllerGamepadMac(bool initialized_ = {}) noexcept : initialized{initialized_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return initialized;

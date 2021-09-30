@@ -71,8 +71,6 @@ namespace HoudiniEngineUnity {
     int tile;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_VolumeCachePreset
-    HEU_VolumeCachePreset(::Il2CppString* objName_ = {}, ::Il2CppString* geoName_ = {}, bool uiExpanded_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>* volumeLayersPresets_ = {}, ::Il2CppString* terrainDataPath_ = {}, int tile_ = {}) noexcept : objName{objName_}, geoName{geoName_}, uiExpanded{uiExpanded_}, volumeLayersPresets{volumeLayersPresets_}, terrainDataPath{terrainDataPath_}, tile{tile_} {}
     // Get instance field reference: public System.String _objName
     ::Il2CppString*& dyn__objName();
     // Get instance field reference: public System.String _geoName

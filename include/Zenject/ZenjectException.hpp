@@ -22,8 +22,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ZenjectException : public System::Exception {
     public:
-    // Creating value type constructor for type: ZenjectException
-    ZenjectException() noexcept {}
     // public System.Void .ctor(System.String message)
     // Offset: 0x25EE37C
     // Implemented from: System.Exception

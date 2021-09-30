@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion m_InitLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: Particle
-    Particle(UnityEngine::Transform* m_Transform_ = {}, int m_ParentIndex_ = {}, float m_Damping_ = {}, float m_Elasticity_ = {}, float m_Stiffness_ = {}, float m_Inert_ = {}, float m_Radius_ = {}, float m_BoneLength_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_PrevPosition_ = {}, UnityEngine::Vector3 m_EndOffset_ = {}, UnityEngine::Vector3 m_InitLocalPosition_ = {}, UnityEngine::Quaternion m_InitLocalRotation_ = {}) noexcept : m_Transform{m_Transform_}, m_ParentIndex{m_ParentIndex_}, m_Damping{m_Damping_}, m_Elasticity{m_Elasticity_}, m_Stiffness{m_Stiffness_}, m_Inert{m_Inert_}, m_Radius{m_Radius_}, m_BoneLength{m_BoneLength_}, m_Position{m_Position_}, m_PrevPosition{m_PrevPosition_}, m_EndOffset{m_EndOffset_}, m_InitLocalPosition{m_InitLocalPosition_}, m_InitLocalRotation{m_InitLocalRotation_} {}
     // Get instance field reference: public UnityEngine.Transform m_Transform
     UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: public System.Int32 m_ParentIndex

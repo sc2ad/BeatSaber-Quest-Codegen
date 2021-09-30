@@ -28,8 +28,6 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E288
   class PathTooLongException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: PathTooLongException
-    PathTooLongException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1AC1C48
     // Implemented from: System.IO.IOException

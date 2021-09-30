@@ -34,8 +34,6 @@ namespace System::Net {
     int m_DurationMilliseconds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Timer
-    Timer(int m_StartTimeMilliseconds_ = {}, int m_DurationMilliseconds_ = {}) noexcept : m_StartTimeMilliseconds{m_StartTimeMilliseconds_}, m_DurationMilliseconds{m_DurationMilliseconds_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

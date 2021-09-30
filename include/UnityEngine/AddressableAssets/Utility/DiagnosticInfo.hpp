@@ -47,8 +47,6 @@ namespace UnityEngine::AddressableAssets::Utility {
     ::ArrayWrapper<int> Dependencies;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: DiagnosticInfo
-    DiagnosticInfo(::Il2CppString* DisplayName_ = {}, int ObjectId_ = {}, ::ArrayWrapper<int> Dependencies_ = {}) noexcept : DisplayName{DisplayName_}, ObjectId{ObjectId_}, Dependencies{Dependencies_} {}
     // Get instance field reference: public System.String DisplayName
     ::Il2CppString*& dyn_DisplayName();
     // Get instance field reference: public System.Int32 ObjectId

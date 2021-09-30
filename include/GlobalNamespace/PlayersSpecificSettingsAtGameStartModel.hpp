@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // Creating value type constructor for type: PlayersSpecificSettingsAtGameStartModel
-    PlayersSpecificSettingsAtGameStartModel(GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings_ = {}, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : localPlayerSpecificSettings{localPlayerSpecificSettings_}, playersAtGameStartNetSerializable{playersAtGameStartNetSerializable_}, multiplayerSessionManager{multiplayerSessionManager_} {}
     // Get instance field reference: private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
     GlobalNamespace::PlayerSpecificSettingsNetSerializable*& dyn_$localPlayerSpecificSettings$k__BackingField();
     // Get instance field reference: private PlayerSpecificSettingsAtStartNetSerializable <playersAtGameStartNetSerializable>k__BackingField

@@ -31,8 +31,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseInput : public UnityEngine::EventSystems::UIBehaviour {
     public:
-    // Creating value type constructor for type: BaseInput
-    BaseInput() noexcept {}
     // public System.String get_compositionString()
     // Offset: 0x15ED53C
     ::Il2CppString* get_compositionString();

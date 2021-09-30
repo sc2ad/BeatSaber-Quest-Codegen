@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     int maxLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ByteArrayNetSerializable
-    ByteArrayNetSerializable(::ArrayWrapper<uint8_t> data_ = {}, ::Il2CppString* name_ = {}, bool allowNull_ = {}, int minLength_ = {}, int maxLength_ = {}) noexcept : data{data_}, name{name_}, allowNull{allowNull_}, minLength{minLength_}, maxLength{maxLength_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

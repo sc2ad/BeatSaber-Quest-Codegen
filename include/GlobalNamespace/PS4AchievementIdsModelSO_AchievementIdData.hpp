@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* achievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // Creating value type constructor for type: AchievementIdData
-    AchievementIdData(int trophyId_ = {}, GlobalNamespace::AchievementSO* achievement_ = {}) noexcept : trophyId{trophyId_}, achievement{achievement_} {}
     // Get instance field reference: private System.Int32 _trophyId
     int& dyn__trophyId();
     // Get instance field reference: private AchievementSO _achievement

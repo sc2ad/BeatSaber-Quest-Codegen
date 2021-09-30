@@ -22,8 +22,6 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DD5C
   class ThreadSafeAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
     public:
-    // Creating value type constructor for type: ThreadSafeAttribute
-    ThreadSafeAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261FA1C
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute

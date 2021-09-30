@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithCloudStorageUpdateResponse : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageUpdateResponse*> {
     public:
-    // Creating value type constructor for type: MessageWithCloudStorageUpdateResponse
-    MessageWithCloudStorageUpdateResponse() noexcept {}
     // protected Oculus.Platform.Models.CloudStorageUpdateResponse GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B749C
     Oculus::Platform::Models::CloudStorageUpdateResponse* GetDataFromMessage(System::IntPtr c_message);

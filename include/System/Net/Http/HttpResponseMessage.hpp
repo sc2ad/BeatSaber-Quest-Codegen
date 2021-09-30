@@ -87,8 +87,6 @@ namespace System::Net::Http {
     System::Net::Http::HttpRequestMessage* RequestMessage;
     // Field size check
     static_assert(sizeof(System::Net::Http::HttpRequestMessage*) == 0x8);
-    // Creating value type constructor for type: HttpResponseMessage
-    HttpResponseMessage(System::Net::Http::Headers::HttpResponseHeaders* headers_ = {}, ::Il2CppString* reasonPhrase_ = {}, System::Net::HttpStatusCode statusCode_ = {}, System::Version* version_ = {}, bool disposed_ = {}, System::Net::Http::HttpContent* Content_ = {}, System::Net::Http::HttpRequestMessage* RequestMessage_ = {}) noexcept : headers{headers_}, reasonPhrase{reasonPhrase_}, statusCode{statusCode_}, version{version_}, disposed{disposed_}, Content{Content_}, RequestMessage{RequestMessage_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

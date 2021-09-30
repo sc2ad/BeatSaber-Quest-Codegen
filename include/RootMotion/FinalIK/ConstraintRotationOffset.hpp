@@ -65,8 +65,6 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ConstraintRotationOffset
-    ConstraintRotationOffset(UnityEngine::Quaternion offset_ = {}, UnityEngine::Quaternion defaultRotation_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, UnityEngine::Quaternion lastLocalRotation_ = {}, UnityEngine::Quaternion defaultTargetLocalRotation_ = {}, bool initiated_ = {}) noexcept : offset{offset_}, defaultRotation{defaultRotation_}, defaultLocalRotation{defaultLocalRotation_}, lastLocalRotation{lastLocalRotation_}, defaultTargetLocalRotation{defaultTargetLocalRotation_}, initiated{initiated_} {}
     // Get instance field reference: public UnityEngine.Quaternion offset
     UnityEngine::Quaternion& dyn_offset();
     // Get instance field reference: private UnityEngine.Quaternion defaultRotation

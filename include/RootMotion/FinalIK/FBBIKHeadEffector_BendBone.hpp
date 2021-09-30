@@ -50,8 +50,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: BendBone
-    BendBone(UnityEngine::Transform* transform_ = {}, float weight_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : transform{transform_}, weight{weight_}, defaultLocalRotation{defaultLocalRotation_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight

@@ -97,8 +97,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::X509Extensions* crlExtensions;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
-    // Creating value type constructor for type: TbsCertificateList
-    TbsCertificateList(Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}, Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* issuer_ = {}, Org::BouncyCastle::Asn1::X509::Time* thisUpdate_ = {}, Org::BouncyCastle::Asn1::X509::Time* nextUpdate_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* revokedCertificates_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* crlExtensions_ = {}) noexcept : seq{seq_}, version{version_}, signature{signature_}, issuer{issuer_}, thisUpdate{thisUpdate_}, nextUpdate{nextUpdate_}, revokedCertificates{revokedCertificates_}, crlExtensions{crlExtensions_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Sequence seq
     Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version

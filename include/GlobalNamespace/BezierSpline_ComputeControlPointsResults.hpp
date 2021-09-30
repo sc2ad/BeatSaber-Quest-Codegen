@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: ComputeControlPointsResults
-    constexpr ComputeControlPointsResults(::ArrayWrapper<float> p1_ = {}, ::ArrayWrapper<float> p2_ = {}) noexcept : p1{p1_}, p2{p2_} {}
+    constexpr ComputeControlPointsResults(::ArrayWrapper<float> p1_ = {nullptr}, ::ArrayWrapper<float> p2_ = {nullptr}) noexcept : p1{p1_}, p2{p2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -48,7 +48,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<float>& dyn_p2();
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
     // Offset: 0x12A8748
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::ArrayWrapper<float> p1, ::ArrayWrapper<float> p2)
   }; // BezierSpline/ComputeControlPointsResults
   #pragma pack(pop)

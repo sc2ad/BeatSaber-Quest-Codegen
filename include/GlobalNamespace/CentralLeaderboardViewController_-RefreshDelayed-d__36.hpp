@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     bool showLoadingIndicator;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $RefreshDelayed$d__36
-    $RefreshDelayed$d__36(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, bool clear_ = {}, GlobalNamespace::CentralLeaderboardViewController* $$4__this_ = {}, bool showLoadingIndicator_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, clear{clear_}, $$4__this{$$4__this_}, showLoadingIndicator{showLoadingIndicator_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

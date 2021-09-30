@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::GM {
   // [TokenAttribute] Offset: FFFFFFFF
   class GMObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GMObjectIdentifiers
-    GMObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier sm_scheme
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_sm_scheme();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier sm_scheme

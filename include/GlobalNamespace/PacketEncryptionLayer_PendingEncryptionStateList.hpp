@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>* pendingStatesByPort;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*) == 0x8);
-    // Creating value type constructor for type: PendingEncryptionStateList
-    PendingEncryptionStateList(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>* pendingStatesByPort_ = {}) noexcept : pendingStatesByPort{pendingStatesByPort_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

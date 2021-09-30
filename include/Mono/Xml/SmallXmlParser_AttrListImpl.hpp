@@ -42,8 +42,6 @@ namespace Mono::Xml {
     System::Collections::Generic::List_1<::Il2CppString*>* attrValues;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: AttrListImpl
-    AttrListImpl(System::Collections::Generic::List_1<::Il2CppString*>* attrNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* attrValues_ = {}) noexcept : attrNames{attrNames_}, attrValues{attrValues_} {}
     // Creating interface conversion operator: operator Mono::Xml::SmallXmlParser::IAttrList
     operator Mono::Xml::SmallXmlParser::IAttrList() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IAttrList*>(this);

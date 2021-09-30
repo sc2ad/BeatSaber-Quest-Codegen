@@ -85,8 +85,6 @@ namespace System::Net {
     ::Il2CppObject* m_Event;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: LazyAsyncResult
-    LazyAsyncResult(::Il2CppObject* m_AsyncObject_ = {}, ::Il2CppObject* m_AsyncState_ = {}, System::AsyncCallback* m_AsyncCallback_ = {}, ::Il2CppObject* m_Result_ = {}, int m_IntCompleted_ = {}, bool m_UserEvent_ = {}, ::Il2CppObject* m_Event_ = {}) noexcept : m_AsyncObject{m_AsyncObject_}, m_AsyncState{m_AsyncState_}, m_AsyncCallback{m_AsyncCallback_}, m_Result{m_Result_}, m_IntCompleted{m_IntCompleted_}, m_UserEvent{m_UserEvent_}, m_Event{m_Event_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

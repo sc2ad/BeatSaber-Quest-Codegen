@@ -33,8 +33,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataObstaclesMergingTransform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapDataObstaclesMergingTransform
-    BeatmapDataObstaclesMergingTransform() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
     // Offset: 0x1278B28
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);

@@ -26,8 +26,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Pid
-    Pid(::Il2CppString* Id_ = {}) noexcept : Id{Id_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Id;

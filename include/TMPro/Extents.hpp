@@ -47,7 +47,6 @@ namespace TMPro {
     UnityEngine::Vector2& dyn_max();
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
     // Offset: 0x11EA090
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max)
     // public override System.String ToString()
     // Offset: 0x11EA09C

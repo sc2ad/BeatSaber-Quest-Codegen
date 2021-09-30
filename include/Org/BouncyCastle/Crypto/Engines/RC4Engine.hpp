@@ -51,8 +51,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> workingKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: RC4Engine
-    RC4Engine(::ArrayWrapper<uint8_t> engineState_ = {}, int x_ = {}, int y_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}) noexcept : engineState{engineState_}, x{x_}, y{y_}, workingKey{workingKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);

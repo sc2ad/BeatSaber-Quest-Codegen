@@ -25,8 +25,6 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FAC4
   class IRemotingTypeInfo {
     public:
-    // Creating value type constructor for type: IRemotingTypeInfo
-    IRemotingTypeInfo() noexcept {}
     // public System.String get_TypeName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_TypeName();

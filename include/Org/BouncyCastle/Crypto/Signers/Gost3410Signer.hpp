@@ -54,8 +54,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
-    // Creating value type constructor for type: Gost3410Signer
-    Gost3410Signer(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* key_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : key{key_}, random{random_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDsaExt
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);

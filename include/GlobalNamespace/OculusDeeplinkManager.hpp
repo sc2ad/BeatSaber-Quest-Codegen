@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     bool oculusPlatformWasInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OculusDeeplinkManager
-    OculusDeeplinkManager(System::Action_1<GlobalNamespace::Deeplink*>* didReceiveDeeplinkEvent_ = {}, GlobalNamespace::Deeplink* currentDeeplink_ = {}, bool oculusPlatformWasInitialized_ = {}) noexcept : didReceiveDeeplinkEvent{didReceiveDeeplinkEvent_}, currentDeeplink{currentDeeplink_}, oculusPlatformWasInitialized{oculusPlatformWasInitialized_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDeeplinkManager
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);

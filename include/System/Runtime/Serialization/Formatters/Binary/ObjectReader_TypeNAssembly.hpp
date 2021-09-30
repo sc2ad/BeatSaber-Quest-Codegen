@@ -39,8 +39,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* assemblyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeNAssembly
-    TypeNAssembly(System::Type* type_ = {}, ::Il2CppString* assemblyName_ = {}) noexcept : type{type_}, assemblyName{assemblyName_} {}
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public System.String assemblyName

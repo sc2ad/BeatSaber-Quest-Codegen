@@ -24,8 +24,6 @@ namespace System::Xml {
     ::ArrayWrapper<uint8_t> nodeBuffer;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: TernaryTreeReadOnly
-    TernaryTreeReadOnly(::ArrayWrapper<uint8_t> nodeBuffer_ = {}) noexcept : nodeBuffer{nodeBuffer_} {}
     // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return nodeBuffer;

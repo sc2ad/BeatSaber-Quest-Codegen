@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     bool randomSongIfNoneSuggested;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AutoSetupData
-    AutoSetupData(bool selectBasedOnSuggestions_ = {}, bool autoStartWhenAllReady_ = {}, bool forceAutoStartAfterSongSelection_ = {}, bool randomSongIfNoneSuggested_ = {}) noexcept : selectBasedOnSuggestions{selectBasedOnSuggestions_}, autoStartWhenAllReady{autoStartWhenAllReady_}, forceAutoStartAfterSongSelection{forceAutoStartAfterSongSelection_}, randomSongIfNoneSuggested{randomSongIfNoneSuggested_} {}
     // Get instance field reference: public System.Boolean selectBasedOnSuggestions
     bool& dyn_selectBasedOnSuggestions();
     // Get instance field reference: public System.Boolean autoStartWhenAllReady

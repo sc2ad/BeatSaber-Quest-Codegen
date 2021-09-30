@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AdditionalContentModel::EntitlementStatus status;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus) == 0x4);
-    // Creating value type constructor for type: Entitlement
-    Entitlement(::Il2CppString* id_ = {}, GlobalNamespace::AdditionalContentModel::EntitlementStatus status_ = {}) noexcept : id{id_}, status{status_} {}
     // Get instance field reference: public System.String id
     ::Il2CppString*& dyn_id();
     // Get instance field reference: public AdditionalContentModel/EntitlementStatus status

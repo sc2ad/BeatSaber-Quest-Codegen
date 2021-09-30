@@ -42,8 +42,6 @@ namespace Mono::Security::Interface {
     ::Il2CppString* PeerDomainName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MonoTlsConnectionInfo
-    MonoTlsConnectionInfo(Mono::Security::Interface::CipherSuiteCode CipherSuiteCode_ = {}, Mono::Security::Interface::TlsProtocols ProtocolVersion_ = {}, ::Il2CppString* PeerDomainName_ = {}) noexcept : CipherSuiteCode{CipherSuiteCode_}, ProtocolVersion{ProtocolVersion_}, PeerDomainName{PeerDomainName_} {}
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField

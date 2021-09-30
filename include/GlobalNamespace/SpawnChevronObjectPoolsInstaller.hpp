@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SpawnRotationChevron* spawnRotationChevronPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SpawnRotationChevron*) == 0x8);
-    // Creating value type constructor for type: SpawnChevronObjectPoolsInstaller
-    SpawnChevronObjectPoolsInstaller(GlobalNamespace::SpawnRotationChevron* spawnRotationChevronPrefab_ = {}) noexcept : spawnRotationChevronPrefab{spawnRotationChevronPrefab_} {}
     // Get instance field reference: private SpawnRotationChevron _spawnRotationChevronPrefab
     GlobalNamespace::SpawnRotationChevron*& dyn__spawnRotationChevronPrefab();
     // public System.Void .ctor()

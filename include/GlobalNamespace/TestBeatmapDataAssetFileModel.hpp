@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*) == 0x8);
-    // Creating value type constructor for type: TestBeatmapDataAssetFileModel
-    TestBeatmapDataAssetFileModel(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent_ = {}) noexcept : levelDataAssetDownloadUpdateEvent{levelDataAssetDownloadUpdateEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapDataAssetFileModel
     operator GlobalNamespace::IBeatmapDataAssetFileModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapDataAssetFileModel*>(this);

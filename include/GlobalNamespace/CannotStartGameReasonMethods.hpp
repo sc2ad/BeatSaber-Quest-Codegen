@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class CannotStartGameReasonMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CannotStartGameReasonMethods
-    CannotStartGameReasonMethods() noexcept {}
     // [LocalizationKeyAttribute] Offset: 0xF02C3C
     // static field const value: static private System.String kAllPlayersSpectating
     static constexpr const char* kAllPlayersSpectating = "LABEL_CANT_START_GAME_ALL_PLAYERS_SPECTATING";

@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestPlatformLeaderboardsHandler : public GlobalNamespace::PlatformLeaderboardsHandler {
     public:
-    // Creating value type constructor for type: TestPlatformLeaderboardsHandler
-    TestPlatformLeaderboardsHandler() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x115FAB8
     // Implemented from: PlatformLeaderboardsHandler

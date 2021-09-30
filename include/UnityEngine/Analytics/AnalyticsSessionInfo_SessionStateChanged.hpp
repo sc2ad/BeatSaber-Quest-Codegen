@@ -36,8 +36,6 @@ namespace UnityEngine::Analytics {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnalyticsSessionInfo::SessionStateChanged : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SessionStateChanged
-    SessionStateChanged() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2626ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

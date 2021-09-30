@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB57CC
   class IVRChaperone::_ReloadInfo : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ReloadInfo
-    _ReloadInfo() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x18931C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

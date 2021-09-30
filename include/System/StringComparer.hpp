@@ -27,8 +27,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C73C
   class StringComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<::Il2CppString*>, public System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>, public System::Collections::IEqualityComparer, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: StringComparer
-    StringComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<::Il2CppString*>
     operator System::Collections::Generic::IComparer_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<::Il2CppString*>*>(this);

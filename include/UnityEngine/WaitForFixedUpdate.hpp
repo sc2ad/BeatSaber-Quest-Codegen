@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72C4C
   class WaitForFixedUpdate : public UnityEngine::YieldInstruction {
     public:
-    // Creating value type constructor for type: WaitForFixedUpdate
-    WaitForFixedUpdate() noexcept {}
   }; // UnityEngine.WaitForFixedUpdate
   #pragma pack(pop)
 }

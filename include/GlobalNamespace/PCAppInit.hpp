@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     ::Il2CppString* goStraightToMenuCommandArgument;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PCAppInit
-    PCAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, ::Il2CppString* goStraightToMenuCommandArgument_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, goStraightToMenuCommandArgument{goStraightToMenuCommandArgument_} {}
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private OculusInit _oculusInit

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5A60
   class IVRCompositor::_GetFrameTiming : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetFrameTiming
-    _GetFrameTiming() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21AC9B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

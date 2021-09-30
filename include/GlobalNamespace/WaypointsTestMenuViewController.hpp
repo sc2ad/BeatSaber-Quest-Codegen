@@ -139,8 +139,6 @@ namespace GlobalNamespace {
     bool waitingForLevelFinish;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: WaypointsTestMenuViewController
-    WaypointsTestMenuViewController(UnityEngine::UI::Button* btsButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, TMPro::TextMeshProUGUI* progressText_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* waypointsTestScenesTransitionSetupData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* levels_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* characteristics_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, bool isCancelled_ = {}, bool waitingForLevelFinish_ = {}) noexcept : btsButton{btsButton_}, cancelButton{cancelButton_}, progressText{progressText_}, waypointsTestScenesTransitionSetupData{waypointsTestScenesTransitionSetupData_}, levels{levels_}, characteristics{characteristics_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_}, buttonBinder{buttonBinder_}, isCancelled{isCancelled_}, waitingForLevelFinish{waitingForLevelFinish_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _btsButton

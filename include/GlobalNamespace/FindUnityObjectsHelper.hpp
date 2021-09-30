@@ -38,8 +38,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FindUnityObjectsHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: FindUnityObjectsHelper
-    FindUnityObjectsHelper() noexcept {}
     // static public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetMonoBehavioursInLoadedScenes()
     // Offset: 0x13809CC
     static System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* GetMonoBehavioursInLoadedScenes();

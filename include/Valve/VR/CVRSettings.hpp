@@ -40,8 +40,6 @@ namespace Valve::VR {
     Valve::VR::IVRSettings FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSettings) == 0x60);
-    // Creating value type constructor for type: CVRSettings
-    CVRSettings(Valve::VR::IVRSettings FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRSettings
     constexpr operator Valve::VR::IVRSettings() const noexcept {
       return FnTable;

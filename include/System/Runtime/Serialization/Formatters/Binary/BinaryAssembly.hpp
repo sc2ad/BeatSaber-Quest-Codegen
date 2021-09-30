@@ -41,8 +41,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* assemblyString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: BinaryAssembly
-    BinaryAssembly(int assemId_ = {}, ::Il2CppString* assemblyString_ = {}) noexcept : assemId{assemId_}, assemblyString{assemblyString_} {}
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // Get instance field reference: System.String assemblyString

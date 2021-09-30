@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: TlsException
-    TlsException() noexcept {}
     // public System.Void .ctor(System.String message, System.Exception cause)
     // Offset: 0x13A56EC
     // Implemented from: System.IO.IOException

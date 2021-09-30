@@ -57,8 +57,6 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     ::Il2CppString* m_ProductName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UnityTestAssemblyBuilder
-    UnityTestAssemblyBuilder(::Il2CppString* m_ProductName_ = {}) noexcept : m_ProductName{m_ProductName_} {}
     // Deleting conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept = delete;
     // Get instance field reference: private readonly System.String m_ProductName

@@ -40,8 +40,6 @@ namespace Zenject {
     System::Reflection::Assembly* assembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_0
-    $$c__DisplayClass6_0(System::Reflection::Assembly* assembly_ = {}) noexcept : assembly{assembly_} {}
     // Creating conversion operator: operator System::Reflection::Assembly*
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return assembly;

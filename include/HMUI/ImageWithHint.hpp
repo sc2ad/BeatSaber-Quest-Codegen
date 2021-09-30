@@ -49,8 +49,6 @@ namespace HMUI {
     HMUI::HoverHint* hoverHint;
     // Field size check
     static_assert(sizeof(HMUI::HoverHint*) == 0x8);
-    // Creating value type constructor for type: ImageWithHint
-    ImageWithHint(UnityEngine::UI::Image* image_ = {}, HMUI::HoverHint* hoverHint_ = {}) noexcept : image{image_}, hoverHint{hoverHint_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _image

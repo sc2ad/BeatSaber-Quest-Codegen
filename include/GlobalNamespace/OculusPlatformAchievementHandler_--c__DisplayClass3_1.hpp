@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     Oculus::Platform::Models::AchievementProgress* achievement;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::AchievementProgress*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_1
-    $$c__DisplayClass3_1(Oculus::Platform::Models::AchievementProgress* achievement_ = {}) noexcept : achievement{achievement_} {}
     // Creating conversion operator: operator Oculus::Platform::Models::AchievementProgress*
     constexpr operator Oculus::Platform::Models::AchievementProgress*() const noexcept {
       return achievement;

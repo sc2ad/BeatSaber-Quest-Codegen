@@ -33,8 +33,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::NetSyncSession* Session;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::NetSyncSession*) == 0x8);
-    // Creating value type constructor for type: NetSyncSetSessionPropertyResult
-    NetSyncSetSessionPropertyResult(Oculus::Platform::Models::NetSyncSession* Session_ = {}) noexcept : Session{Session_} {}
     // Creating conversion operator: operator Oculus::Platform::Models::NetSyncSession*
     constexpr operator Oculus::Platform::Models::NetSyncSession*() const noexcept {
       return Session;

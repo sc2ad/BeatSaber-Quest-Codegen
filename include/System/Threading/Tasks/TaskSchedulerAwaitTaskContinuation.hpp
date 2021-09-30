@@ -42,8 +42,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::TaskScheduler* m_scheduler;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskScheduler*) == 0x8);
-    // Creating value type constructor for type: TaskSchedulerAwaitTaskContinuation
-    TaskSchedulerAwaitTaskContinuation(System::Threading::Tasks::TaskScheduler* m_scheduler_ = {}) noexcept : m_scheduler{m_scheduler_} {}
     // Creating conversion operator: operator System::Threading::Tasks::TaskScheduler*
     constexpr operator System::Threading::Tasks::TaskScheduler*() const noexcept {
       return m_scheduler;

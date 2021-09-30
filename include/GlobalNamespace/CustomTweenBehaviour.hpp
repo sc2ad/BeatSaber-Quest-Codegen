@@ -160,8 +160,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<float> randomizedDuration;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
-    // Creating value type constructor for type: CustomTweenBehaviour
-    CustomTweenBehaviour(::ArrayWrapper<UnityEngine::Transform*> transforms_ = {}, bool startLocationCurrentPosition_ = {}, UnityEngine::Vector3 startLocalPos_ = {}, UnityEngine::Vector3 endLocalPos_ = {}, Tweening::EaseType easeType_ = {}, bool endXRelativeToSelfRotation_ = {}, float elementDelay_ = {}, bool lockX_ = {}, bool lockY_ = {}, bool lockZ_ = {}, bool randomizeOrder_ = {}, float randomizedMinDurationMultiplier_ = {}, float duration_ = {}, float perItemDuration_ = {}, ::ArrayWrapper<UnityEngine::Vector3> originalLocalPos_ = {}, bool initialized_ = {}, ::ArrayWrapper<int> randomizedOrder_ = {}, ::ArrayWrapper<float> randomizedDuration_ = {}) noexcept : transforms{transforms_}, startLocationCurrentPosition{startLocationCurrentPosition_}, startLocalPos{startLocalPos_}, endLocalPos{endLocalPos_}, easeType{easeType_}, endXRelativeToSelfRotation{endXRelativeToSelfRotation_}, elementDelay{elementDelay_}, lockX{lockX_}, lockY{lockY_}, lockZ{lockZ_}, randomizeOrder{randomizeOrder_}, randomizedMinDurationMultiplier{randomizedMinDurationMultiplier_}, duration{duration_}, perItemDuration{perItemDuration_}, originalLocalPos{originalLocalPos_}, initialized{initialized_}, randomizedOrder{randomizedOrder_}, randomizedDuration{randomizedDuration_} {}
     // Get instance field reference: public UnityEngine.Transform[] _transforms
     ::ArrayWrapper<UnityEngine::Transform*>& dyn__transforms();
     // Get instance field reference: public System.Boolean startLocationCurrentPosition

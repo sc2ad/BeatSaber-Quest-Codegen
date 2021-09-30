@@ -20,8 +20,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICloseEx {
     public:
-    // Creating value type constructor for type: ICloseEx
-    ICloseEx() noexcept {}
     // public System.Void CloseEx(System.Net.CloseExState closeState)
     // Offset: 0xFFFFFFFF
     void CloseEx(System::Net::CloseExState closeState);

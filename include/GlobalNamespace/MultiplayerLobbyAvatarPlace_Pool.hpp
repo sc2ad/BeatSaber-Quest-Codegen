@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyAvatarPlace::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerLobbyAvatarPlace*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x116D7FC
     // Implemented from: Zenject.MonoMemoryPool`1

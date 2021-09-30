@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: ConnectedPlayerName
-    ConnectedPlayerName(TMPro::TextMeshProUGUI* nameText_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : nameText{nameText_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText

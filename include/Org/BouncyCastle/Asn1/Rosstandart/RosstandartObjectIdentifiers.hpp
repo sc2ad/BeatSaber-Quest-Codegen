@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Rosstandart {
   // [TokenAttribute] Offset: FFFFFFFF
   class RosstandartObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RosstandartObjectIdentifiers
-    RosstandartObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier rosstandart
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_rosstandart();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier rosstandart

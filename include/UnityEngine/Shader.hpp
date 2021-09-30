@@ -69,8 +69,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71150
   class Shader : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Shader
-    Shader() noexcept {}
     // static public UnityEngine.Rendering.ShaderHardwareTier get_globalShaderHardwareTier()
     // Offset: 0x1E0DEC4
     static UnityEngine::Rendering::ShaderHardwareTier get_globalShaderHardwareTier();

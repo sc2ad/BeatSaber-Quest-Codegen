@@ -59,8 +59,6 @@ namespace System::Net {
     System::DateTime idleSince;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: ConnectionState
-    ConnectionState(System::Net::WebConnection* Connection_ = {}, System::Net::WebConnectionGroup* Group_ = {}, bool busy_ = {}, System::DateTime idleSince_ = {}) noexcept : Connection{Connection_}, Group{Group_}, busy{busy_}, idleSince{idleSince_} {}
     // Creating interface conversion operator: operator System::Net::IWebConnectionState
     operator System::Net::IWebConnectionState() noexcept {
       return *reinterpret_cast<System::Net::IWebConnectionState*>(this);

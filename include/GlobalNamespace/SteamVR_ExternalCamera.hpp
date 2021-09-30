@@ -292,8 +292,6 @@ namespace GlobalNamespace {
     float sceneResolutionScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SteamVR_ExternalCamera
-    SteamVR_ExternalCamera(GlobalNamespace::SteamVR_ExternalCamera::Config config_ = {}, ::Il2CppString* configPath_ = {}, System::IO::FileSystemWatcher* watcher_ = {}, UnityEngine::Camera* cam_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::GameObject* clipQuad_ = {}, UnityEngine::Material* clipMaterial_ = {}, UnityEngine::Material* colorMat_ = {}, UnityEngine::Material* alphaMat_ = {}, ::ArrayWrapper<UnityEngine::Camera*> cameras_ = {}, ::ArrayWrapper<UnityEngine::Rect> cameraRects_ = {}, float sceneResolutionScale_ = {}) noexcept : config{config_}, configPath{configPath_}, watcher{watcher_}, cam{cam_}, target{target_}, clipQuad{clipQuad_}, clipMaterial{clipMaterial_}, colorMat{colorMat_}, alphaMat{alphaMat_}, cameras{cameras_}, cameraRects{cameraRects_}, sceneResolutionScale{sceneResolutionScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_ExternalCamera/Config config

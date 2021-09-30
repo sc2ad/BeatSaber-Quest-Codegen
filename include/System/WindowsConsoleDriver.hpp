@@ -53,8 +53,6 @@ namespace System {
     int16_t defaultAttribute;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
-    // Creating value type constructor for type: WindowsConsoleDriver
-    WindowsConsoleDriver(System::IntPtr inputHandle_ = {}, System::IntPtr outputHandle_ = {}, int16_t defaultAttribute_ = {}) noexcept : inputHandle{inputHandle_}, outputHandle{outputHandle_}, defaultAttribute{defaultAttribute_} {}
     // Creating interface conversion operator: operator System::IConsoleDriver
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);

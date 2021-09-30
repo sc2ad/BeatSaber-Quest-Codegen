@@ -41,8 +41,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Log : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Log
-    Log() noexcept {}
     // static field const value: static public System.String k_ProBuilderLogFileName
     static constexpr const char* k_ProBuilderLogFileName = "ProBuilderLog.txt";
     // Get static field: static public System.String k_ProBuilderLogFileName

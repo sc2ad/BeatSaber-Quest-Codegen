@@ -60,8 +60,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRInput FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRInput) == 0x90);
-    // Creating value type constructor for type: CVRInput
-    CVRInput(OVR::OpenVR::IVRInput FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRInput
     constexpr operator OVR::OpenVR::IVRInput() const noexcept {
       return FnTable;

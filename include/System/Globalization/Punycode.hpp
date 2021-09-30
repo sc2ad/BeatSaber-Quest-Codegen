@@ -20,8 +20,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class Punycode : public System::Globalization::Bootstring {
     public:
-    // Creating value type constructor for type: Punycode
-    Punycode() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1BD6E68
     // Implemented from: System.Object

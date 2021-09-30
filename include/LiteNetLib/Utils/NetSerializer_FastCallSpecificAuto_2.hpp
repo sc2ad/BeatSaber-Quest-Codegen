@@ -31,8 +31,6 @@ namespace LiteNetLib::Utils {
   template<typename TClass, typename TProperty>
   class NetSerializer::FastCallSpecificAuto_2 : public LiteNetLib::Utils::NetSerializer::FastCallSpecific_2<TClass, TProperty> {
     public:
-    // Creating value type constructor for type: FastCallSpecificAuto_2
-    FastCallSpecificAuto_2() noexcept {}
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out TProperty prop)
     // Offset: 0xFFFFFFFF
     void ElementRead(LiteNetLib::Utils::NetDataReader* r, ByRef<TProperty> prop) {

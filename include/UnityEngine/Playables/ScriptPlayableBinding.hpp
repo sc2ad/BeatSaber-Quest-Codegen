@@ -35,8 +35,6 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScriptPlayableBinding : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ScriptPlayableBinding
-    ScriptPlayableBinding() noexcept {}
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key, System.Type type)
     // Offset: 0x1DFD09C
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key, System::Type* type);

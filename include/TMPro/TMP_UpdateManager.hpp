@@ -80,8 +80,6 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, int>* m_InternalUpdateLookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
-    // Creating value type constructor for type: TMP_UpdateManager
-    TMP_UpdateManager(System::Collections::Generic::List_1<TMPro::TMP_Text*>* m_LayoutRebuildQueue_ = {}, System::Collections::Generic::Dictionary_2<int, int>* m_LayoutQueueLookup_ = {}, System::Collections::Generic::List_1<TMPro::TMP_Text*>* m_GraphicRebuildQueue_ = {}, System::Collections::Generic::Dictionary_2<int, int>* m_GraphicQueueLookup_ = {}, System::Collections::Generic::List_1<TMPro::TMP_Text*>* m_InternalUpdateQueue_ = {}, System::Collections::Generic::Dictionary_2<int, int>* m_InternalUpdateLookup_ = {}) noexcept : m_LayoutRebuildQueue{m_LayoutRebuildQueue_}, m_LayoutQueueLookup{m_LayoutQueueLookup_}, m_GraphicRebuildQueue{m_GraphicRebuildQueue_}, m_GraphicQueueLookup{m_GraphicQueueLookup_}, m_InternalUpdateQueue{m_InternalUpdateQueue_}, m_InternalUpdateLookup{m_InternalUpdateLookup_} {}
     // Get static field: static private TMPro.TMP_UpdateManager s_Instance
     static TMPro::TMP_UpdateManager* _get_s_Instance();
     // Set static field: static private TMPro.TMP_UpdateManager s_Instance

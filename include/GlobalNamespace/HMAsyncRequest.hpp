@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HMAsyncRequest::CancelHander*) == 0x8);
-    // Creating value type constructor for type: HMAsyncRequest
-    HMAsyncRequest(bool cancelled_ = {}, GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander_ = {}) noexcept : cancelled{cancelled_}, cancelHander{cancelHander_} {}
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // Get instance field reference: private System.Boolean _cancelled

@@ -22,8 +22,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [RequiredByNativeCodeAttribute] Offset: E6FCA4
   class NativeContainerAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeContainerAttribute
-    NativeContainerAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9B70
     // Implemented from: System.Attribute

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DistanceObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
     public:
-    // Creating value type constructor for type: DistanceObjectiveValueFormatterSO
-    DistanceObjectiveValueFormatterSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11A89F4
     // Implemented from: ObjectiveValueFormatterSO

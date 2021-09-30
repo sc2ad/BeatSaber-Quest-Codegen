@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputMeshUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_InputMeshUtility
-    HEU_InputMeshUtility() noexcept {}
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, System.Boolean bConvertToHoudiniCoordinateSystem)
     // Offset: 0x1520028
     static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, ::ArrayWrapper<UnityEngine::Vector3> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);

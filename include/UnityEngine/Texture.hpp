@@ -54,8 +54,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71658
   class Texture : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Texture
-    Texture() noexcept {}
     // Get static field: static public readonly System.Int32 GenerateAllMips
     static int _get_GenerateAllMips();
     // Set static field: static public readonly System.Int32 GenerateAllMips

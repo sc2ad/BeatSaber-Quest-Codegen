@@ -49,8 +49,6 @@ namespace Zenject {
     Zenject::IPrefabInstantiator* prefabCreator;
     // Field size check
     static_assert(sizeof(Zenject::IPrefabInstantiator*) == 0x8);
-    // Creating value type constructor for type: PrefabGameObjectProvider
-    PrefabGameObjectProvider(Zenject::IPrefabInstantiator* prefabCreator_ = {}) noexcept : prefabCreator{prefabCreator_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

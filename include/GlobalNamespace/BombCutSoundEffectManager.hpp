@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
-    // Creating value type constructor for type: BombCutSoundEffectManager
-    BombCutSoundEffectManager(float volume_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> bombExplosionAudioClips_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::BombCutSoundEffect::Pool* bombCutSoundEffectPool_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : volume{volume_}, bombExplosionAudioClips{bombExplosionAudioClips_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, bombCutSoundEffectPool{bombCutSoundEffectPool_}, randomSoundPicker{randomSoundPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _volume

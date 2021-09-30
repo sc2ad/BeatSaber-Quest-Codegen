@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     bool DidSendRequest;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LaunchFriendRequestFlowResult
-    LaunchFriendRequestFlowResult(bool DidCancel_ = {}, bool DidSendRequest_ = {}) noexcept : DidCancel{DidCancel_}, DidSendRequest{DidSendRequest_} {}
     // Get instance field reference: public readonly System.Boolean DidCancel
     bool& dyn_DidCancel();
     // Get instance field reference: public readonly System.Boolean DidSendRequest

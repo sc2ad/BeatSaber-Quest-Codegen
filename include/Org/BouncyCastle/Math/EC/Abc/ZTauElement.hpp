@@ -37,8 +37,6 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     Org::BouncyCastle::Math::BigInteger* v;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: ZTauElement
-    ZTauElement(Org::BouncyCastle::Math::BigInteger* u_ = {}, Org::BouncyCastle::Math::BigInteger* v_ = {}) noexcept : u{u_}, v{v_} {}
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger u
     Org::BouncyCastle::Math::BigInteger*& dyn_u();
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger v

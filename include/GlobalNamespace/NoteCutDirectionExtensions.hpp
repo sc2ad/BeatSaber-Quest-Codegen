@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class NoteCutDirectionExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NoteCutDirectionExtensions
-    NoteCutDirectionExtensions() noexcept {}
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
     // Offset: 0x26148D8
     static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection);

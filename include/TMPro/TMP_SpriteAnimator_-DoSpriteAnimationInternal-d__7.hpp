@@ -130,8 +130,6 @@ namespace TMPro {
     float $targetTime$5__8;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $DoSpriteAnimationInternal$d__7
-    $DoSpriteAnimationInternal$d__7(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, TMPro::TMP_SpriteAnimator* $$4__this_ = {}, int start_ = {}, int end_ = {}, TMPro::TMP_SpriteAsset* spriteAsset_ = {}, int currentCharacter_ = {}, int framerate_ = {}, int $currentFrame$5__2_ = {}, TMPro::TMP_CharacterInfo $charInfo$5__3_ = {}, int $materialIndex$5__4_ = {}, int $vertexIndex$5__5_ = {}, TMPro::TMP_MeshInfo $meshInfo$5__6_ = {}, float $elapsedTime$5__7_ = {}, float $targetTime$5__8_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, start{start_}, end{end_}, spriteAsset{spriteAsset_}, currentCharacter{currentCharacter_}, framerate{framerate_}, $currentFrame$5__2{$currentFrame$5__2_}, $charInfo$5__3{$charInfo$5__3_}, $materialIndex$5__4{$materialIndex$5__4_}, $vertexIndex$5__5{$vertexIndex$5__5_}, $meshInfo$5__6{$meshInfo$5__6_}, $elapsedTime$5__7{$elapsedTime$5__7_}, $targetTime$5__8{$targetTime$5__8_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

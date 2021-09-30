@@ -113,8 +113,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::ActivationMixerPlayable*) == 0x8);
-    // Creating value type constructor for type: ActivationTrack
-    ActivationTrack(UnityEngine::Timeline::ActivationTrack::PostPlaybackState m_PostPlaybackState_ = {}, UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer_ = {}) noexcept : m_PostPlaybackState{m_PostPlaybackState_}, m_ActivationMixer{m_ActivationMixer_} {}
     // Get instance field reference: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState& dyn_m_PostPlaybackState();
     // Get instance field reference: private UnityEngine.Timeline.ActivationMixerPlayable m_ActivationMixer

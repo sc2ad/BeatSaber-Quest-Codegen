@@ -31,8 +31,6 @@ namespace System::ComponentModel {
     public:
     // Nested type: System::ComponentModel::TypeConverter::StandardValuesCollection
     class StandardValuesCollection;
-    // Creating value type constructor for type: TypeConverter
-    TypeConverter() noexcept {}
     // static field const value: static private System.String s_UseCompatibleTypeConverterBehavior
     static constexpr const char* s_UseCompatibleTypeConverterBehavior = "UseCompatibleTypeConverterBehavior";
     // Get static field: static private System.String s_UseCompatibleTypeConverterBehavior

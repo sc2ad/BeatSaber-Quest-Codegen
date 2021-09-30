@@ -42,8 +42,6 @@ namespace Org::BouncyCastle::Asn1 {
     int mPadBits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DerBitString
-    DerBitString(::ArrayWrapper<uint8_t> mData_ = {}, int mPadBits_ = {}) noexcept : mData{mData_}, mPadBits{mPadBits_} {}
     // Get static field: static private readonly System.Char[] table
     static ::ArrayWrapper<::Il2CppChar> _get_table();
     // Set static field: static private readonly System.Char[] table

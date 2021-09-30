@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* text;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: SimpleTextTableCell
-    SimpleTextTableCell(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // public System.String get_text()

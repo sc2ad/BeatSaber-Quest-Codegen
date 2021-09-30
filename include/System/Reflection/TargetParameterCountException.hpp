@@ -28,8 +28,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DA2C
   class TargetParameterCountException : public System::ApplicationException {
     public:
-    // Creating value type constructor for type: TargetParameterCountException
-    TargetParameterCountException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15A4A38
     // Implemented from: System.ApplicationException

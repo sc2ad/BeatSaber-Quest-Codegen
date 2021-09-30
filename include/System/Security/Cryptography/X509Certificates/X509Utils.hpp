@@ -21,8 +21,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Utils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X509Utils
-    X509Utils() noexcept {}
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
     // Offset: 0x19E10D0
     static ::Il2CppString* FindOidInfo(uint keyType, ::Il2CppString* keyValue, System::Security::Cryptography::OidGroup oidGroup);

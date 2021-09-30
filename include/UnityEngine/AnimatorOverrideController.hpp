@@ -47,8 +47,6 @@ namespace UnityEngine {
     UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*) == 0x8);
-    // Creating value type constructor for type: AnimatorOverrideController
-    AnimatorOverrideController(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty_ = {}) noexcept : OnOverrideControllerDirty{OnOverrideControllerDirty_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty

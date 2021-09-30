@@ -57,8 +57,6 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* signature;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
-    // Creating value type constructor for type: ServerHelloRequest
-    ServerHelloRequest(GlobalNamespace::ByteArrayNetSerializable* random_ = {}, GlobalNamespace::ByteArrayNetSerializable* publicKey_ = {}, GlobalNamespace::ByteArrayNetSerializable* signature_ = {}) noexcept : random{random_}, publicKey{publicKey_}, signature{signature_} {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);

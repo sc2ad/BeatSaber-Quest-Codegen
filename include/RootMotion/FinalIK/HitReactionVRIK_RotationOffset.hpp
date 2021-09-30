@@ -60,8 +60,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // Creating value type constructor for type: RotationOffset
-    RotationOffset(int curveIndex_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*> offsetLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : curveIndex{curveIndex_}, offsetLinks{offsetLinks_}, rigidbody{rigidbody_} {}
     // Get instance field reference: public System.Int32 curveIndex
     int& dyn_curveIndex();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink[] offsetLinks

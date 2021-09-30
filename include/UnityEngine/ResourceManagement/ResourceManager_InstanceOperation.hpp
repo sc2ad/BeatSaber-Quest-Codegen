@@ -78,8 +78,6 @@ namespace UnityEngine::ResourceManagement {
     UnityEngine::SceneManagement::Scene m_scene;
     // Field size check
     static_assert(sizeof(UnityEngine::SceneManagement::Scene) == 0x4);
-    // Creating value type constructor for type: InstanceOperation
-    InstanceOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> m_dependency_ = {}, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters m_instantiationParams_ = {}, UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_instanceProvider_ = {}, UnityEngine::GameObject* m_instance_ = {}, UnityEngine::SceneManagement::Scene m_scene_ = {}) noexcept : m_dependency{m_dependency_}, m_instantiationParams{m_instantiationParams_}, m_instanceProvider{m_instanceProvider_}, m_instance{m_instance_}, m_scene{m_scene_} {}
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> m_dependency
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>& dyn_m_dependency();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters m_instantiationParams

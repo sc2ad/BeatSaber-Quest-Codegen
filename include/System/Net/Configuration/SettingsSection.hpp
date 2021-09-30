@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class SettingsSection : public System::Configuration::ConfigurationSection {
     public:
-    // Creating value type constructor for type: SettingsSection
-    SettingsSection() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x157028C
     // Implemented from: System.Configuration.ConfigurationElement

@@ -20,8 +20,6 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpRequestException : public System::Exception {
     public:
-    // Creating value type constructor for type: HttpRequestException
-    HttpRequestException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x175DF74
     // Implemented from: System.Exception

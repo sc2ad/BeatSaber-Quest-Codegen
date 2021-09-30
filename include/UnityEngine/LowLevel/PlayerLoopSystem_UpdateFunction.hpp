@@ -31,8 +31,6 @@ namespace UnityEngine::LowLevel {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerLoopSystem::UpdateFunction : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UpdateFunction
-    UpdateFunction() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1D9EFDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

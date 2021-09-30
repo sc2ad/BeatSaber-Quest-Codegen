@@ -56,8 +56,6 @@ namespace HMUI {
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
-    // Creating value type constructor for type: GradientImage
-    GradientImage(UnityEngine::Color color0_ = {}, UnityEngine::Color color1_ = {}, HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : color0{color0_}, color1{color1_}, curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2AD0
     // Get static field: static private readonly UnityEngine.Vector2 kVec2Zero
     static UnityEngine::Vector2 _get_kVec2Zero();

@@ -139,8 +139,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     ::ArrayWrapper<uint8_t> W;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Gost3411Digest
-    Gost3411Digest(::ArrayWrapper<uint8_t> H_ = {}, ::ArrayWrapper<uint8_t> L_ = {}, ::ArrayWrapper<uint8_t> M_ = {}, ::ArrayWrapper<uint8_t> Sum_ = {}, ::ArrayWrapper<::ArrayWrapper<uint8_t>> C_ = {}, ::ArrayWrapper<uint8_t> xBuf_ = {}, int xBufOff_ = {}, uint64_t byteCount_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, ::ArrayWrapper<uint8_t> sBox_ = {}, ::ArrayWrapper<uint8_t> K_ = {}, ::ArrayWrapper<uint8_t> a_ = {}, ::ArrayWrapper<int16_t> wS_ = {}, ::ArrayWrapper<int16_t> w_S_ = {}, ::ArrayWrapper<uint8_t> S_ = {}, ::ArrayWrapper<uint8_t> U_ = {}, ::ArrayWrapper<uint8_t> V_ = {}, ::ArrayWrapper<uint8_t> W_ = {}) noexcept : H{H_}, L{L_}, M{M_}, Sum{Sum_}, C{C_}, xBuf{xBuf_}, xBufOff{xBufOff_}, byteCount{byteCount_}, cipher{cipher_}, sBox{sBox_}, K{K_}, a{a_}, wS{wS_}, w_S{w_S_}, S{S_}, U{U_}, V{V_}, W{W_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

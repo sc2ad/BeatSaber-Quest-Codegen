@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x78
     GlobalNamespace::MetricIdentifier $$3__$$4__this;
-    // Creating value type constructor for type: $GetTags$d__13
-    $GetTags$d__13(int $$1__state_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> $$2__current_ = {}, int $$l__initialThreadId_ = {}, GlobalNamespace::MetricIdentifier $$4__this_ = {}, GlobalNamespace::MetricIdentifier $$3__$$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$3__$$4__this{$$3__$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>
     operator System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>*>(this);

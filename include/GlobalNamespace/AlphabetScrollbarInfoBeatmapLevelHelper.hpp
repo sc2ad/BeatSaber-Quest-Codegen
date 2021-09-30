@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c
     class $$c;
-    // Creating value type constructor for type: AlphabetScrollbarInfoBeatmapLevelHelper
-    AlphabetScrollbarInfoBeatmapLevelHelper() noexcept {}
     // static field const value: static private System.String kFirstAlphabet
     static constexpr const char* kFirstAlphabet = "A";
     // Get static field: static private System.String kFirstAlphabet

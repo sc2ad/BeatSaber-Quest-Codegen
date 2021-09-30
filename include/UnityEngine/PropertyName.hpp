@@ -51,7 +51,6 @@ namespace UnityEngine {
     int& dyn_id();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1DFEB0C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PropertyName(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::PropertyName::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
@@ -59,7 +58,6 @@ namespace UnityEngine {
     }
     // public System.Void .ctor(UnityEngine.PropertyName other)
     // Offset: 0x1DFEBC4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other)
     // public System.Boolean Equals(UnityEngine.PropertyName other)
     // Offset: 0x1DFEC68

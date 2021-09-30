@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: Element
-    Element(bool loadFromColorScheme_ = {}, GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor_ = {}, float intensity_ = {}, UnityEngine::Color color_ = {}) noexcept : loadFromColorScheme{loadFromColorScheme_}, environmentColor{environmentColor_}, intensity{intensity_}, color{color_} {}
     // Get instance field reference: public System.Boolean loadFromColorScheme
     bool& dyn_loadFromColorScheme();
     // Get instance field reference: public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor

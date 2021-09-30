@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>) == 0x8);
-    // Creating value type constructor for type: MissionCompletionResults
-    MissionCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults_ = {}) noexcept : levelCompletionResults{levelCompletionResults_}, missionObjectiveResults{missionObjectiveResults_} {}
     // Get instance field reference: public readonly LevelCompletionResults levelCompletionResults
     GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // Get instance field reference: public readonly MissionObjectiveResult[] missionObjectiveResults

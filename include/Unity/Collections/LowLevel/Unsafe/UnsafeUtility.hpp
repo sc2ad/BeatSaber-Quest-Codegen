@@ -36,8 +36,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [StaticAccessorAttribute] Offset: E6FF80
   class UnsafeUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnsafeUtility
-    UnsafeUtility() noexcept {}
     // static public System.Boolean IsBlittable()
     // Offset: 0xFFFFFFFF
     template<class T>

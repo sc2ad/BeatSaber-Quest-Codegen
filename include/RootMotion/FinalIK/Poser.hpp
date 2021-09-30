@@ -62,8 +62,6 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Poser
-    Poser(UnityEngine::Transform* poseRoot_ = {}, float weight_ = {}, float localRotationWeight_ = {}, float localPositionWeight_ = {}, bool initiated_ = {}) noexcept : poseRoot{poseRoot_}, weight{weight_}, localRotationWeight{localRotationWeight_}, localPositionWeight{localPositionWeight_}, initiated{initiated_} {}
     // Get instance field reference: public UnityEngine.Transform poseRoot
     UnityEngine::Transform*& dyn_poseRoot();
     // Get instance field reference: public System.Single weight

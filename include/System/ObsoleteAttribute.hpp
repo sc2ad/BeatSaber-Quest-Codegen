@@ -34,8 +34,6 @@ namespace System {
     bool error;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ObsoleteAttribute
-    ObsoleteAttribute(::Il2CppString* message_ = {}, bool error_ = {}) noexcept : message{message_}, error{error_} {}
     // Get instance field reference: private System.String _message
     ::Il2CppString*& dyn__message();
     // Get instance field reference: private System.Boolean _error

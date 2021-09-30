@@ -57,8 +57,6 @@ namespace Zenject {
     Zenject::FromBinder* $$4__this;
     // Field size check
     static_assert(sizeof(Zenject::FromBinder*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass36_0
-    $$c__DisplayClass36_0(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter_ = {}, Zenject::FromBinder* $$4__this_ = {}) noexcept : gameObjectGetter{gameObjectGetter_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
     System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*& dyn_gameObjectGetter();
     // Get instance field reference: public Zenject.FromBinder <>4__this

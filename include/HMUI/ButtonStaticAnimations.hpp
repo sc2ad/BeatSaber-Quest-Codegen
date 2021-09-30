@@ -66,8 +66,6 @@ namespace HMUI {
     bool didStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ButtonStaticAnimations
-    ButtonStaticAnimations(HMUI::NoTransitionsButton* button_ = {}, UnityEngine::AnimationClip* normalClip_ = {}, UnityEngine::AnimationClip* highlightedClip_ = {}, UnityEngine::AnimationClip* pressedClip_ = {}, UnityEngine::AnimationClip* disabledClip_ = {}, bool didStart_ = {}) noexcept : button{button_}, normalClip{normalClip_}, highlightedClip{highlightedClip_}, pressedClip{pressedClip_}, disabledClip{disabledClip_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.NoTransitionsButton _button

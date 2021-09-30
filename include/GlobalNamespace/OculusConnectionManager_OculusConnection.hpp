@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     bool isConnectionOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OculusConnection
-    OculusConnection(uint64_t id_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isConnectionOwner_ = {}) noexcept : id{id_}, userId{userId_}, userName{userName_}, isConnectionOwner{isConnectionOwner_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>
     operator System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>*>(this);

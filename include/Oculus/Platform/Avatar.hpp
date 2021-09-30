@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Avatar : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Avatar
-    Avatar() noexcept {}
   }; // Oculus.Platform.Avatar
   #pragma pack(pop)
 }

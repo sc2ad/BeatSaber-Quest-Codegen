@@ -65,8 +65,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::DESTransform* D3;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::DESTransform*) == 0x8);
-    // Creating value type constructor for type: TripleDESTransform
-    TripleDESTransform(System::Security::Cryptography::DESTransform* E1_ = {}, System::Security::Cryptography::DESTransform* D2_ = {}, System::Security::Cryptography::DESTransform* E3_ = {}, System::Security::Cryptography::DESTransform* D1_ = {}, System::Security::Cryptography::DESTransform* E2_ = {}, System::Security::Cryptography::DESTransform* D3_ = {}) noexcept : E1{E1_}, D2{D2_}, E3{E3_}, D1{D1_}, E2{E2_}, D3{D3_} {}
     // Get instance field reference: private System.Security.Cryptography.DESTransform E1
     System::Security::Cryptography::DESTransform*& dyn_E1();
     // Get instance field reference: private System.Security.Cryptography.DESTransform D2

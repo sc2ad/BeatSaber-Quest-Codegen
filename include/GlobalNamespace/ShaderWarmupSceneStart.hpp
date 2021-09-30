@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // Creating value type constructor for type: ShaderWarmupSceneStart
-    ShaderWarmupSceneStart(GlobalNamespace::ShaderWarmupSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : sceneSetupData{sceneSetupData_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly ShaderWarmupSceneSetupData _sceneSetupData

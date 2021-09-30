@@ -32,8 +32,6 @@ namespace DataModels::PlayerAvatar {
     ::ArrayWrapper<int> colorIndices;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: RandomizeAvatarColorMap
-    RandomizeAvatarColorMap(int totalIndices_ = {}, ::ArrayWrapper<int> colorIndices_ = {}) noexcept : totalIndices{totalIndices_}, colorIndices{colorIndices_} {}
     // Get instance field reference: private readonly System.Int32 <totalIndices>k__BackingField
     int& dyn_$totalIndices$k__BackingField();
     // Get instance field reference: private readonly System.Int32[] <colorIndices>k__BackingField

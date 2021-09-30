@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Core : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Core
-    Core() noexcept {}
     // Get static field: static private System.Boolean IsPlatformInitialized
     static bool _get_IsPlatformInitialized();
     // Set static field: static private System.Boolean IsPlatformInitialized

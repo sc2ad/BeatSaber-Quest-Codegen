@@ -72,8 +72,6 @@ namespace HMUI {
     bool didStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InputFieldViewStaticAnimations
-    InputFieldViewStaticAnimations(HMUI::InputFieldView* inputFieldView_ = {}, UnityEngine::AnimationClip* normalClip_ = {}, UnityEngine::AnimationClip* highlightedClip_ = {}, UnityEngine::AnimationClip* pressedClip_ = {}, UnityEngine::AnimationClip* disabledClip_ = {}, UnityEngine::AnimationClip* selectedClip_ = {}, bool didStart_ = {}) noexcept : inputFieldView{inputFieldView_}, normalClip{normalClip_}, highlightedClip{highlightedClip_}, pressedClip{pressedClip_}, disabledClip{disabledClip_}, selectedClip{selectedClip_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.InputFieldView _inputFieldView

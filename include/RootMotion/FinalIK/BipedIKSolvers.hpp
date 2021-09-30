@@ -100,8 +100,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::IKSolver*> ikSolvers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolver*>) == 0x8);
-    // Creating value type constructor for type: BipedIKSolvers
-    BipedIKSolvers(RootMotion::FinalIK::IKSolverLimb* leftFoot_ = {}, RootMotion::FinalIK::IKSolverLimb* rightFoot_ = {}, RootMotion::FinalIK::IKSolverLimb* leftHand_ = {}, RootMotion::FinalIK::IKSolverLimb* rightHand_ = {}, RootMotion::FinalIK::IKSolverFABRIK* spine_ = {}, RootMotion::FinalIK::IKSolverLookAt* lookAt_ = {}, RootMotion::FinalIK::IKSolverAim* aim_ = {}, RootMotion::FinalIK::Constraints* pelvis_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb*> limbs_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolver*> ikSolvers_ = {}) noexcept : leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftHand{leftHand_}, rightHand{rightHand_}, spine{spine_}, lookAt{lookAt_}, aim{aim_}, pelvis{pelvis_}, limbs{limbs_}, ikSolvers{ikSolvers_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb leftFoot
     RootMotion::FinalIK::IKSolverLimb*& dyn_leftFoot();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb rightFoot

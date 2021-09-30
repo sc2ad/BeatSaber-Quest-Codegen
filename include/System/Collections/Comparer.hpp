@@ -45,8 +45,6 @@ namespace System::Collections {
     System::Globalization::CompareInfo* m_compareInfo;
     // Field size check
     static_assert(sizeof(System::Globalization::CompareInfo*) == 0x8);
-    // Creating value type constructor for type: Comparer
-    Comparer(System::Globalization::CompareInfo* m_compareInfo_ = {}) noexcept : m_compareInfo{m_compareInfo_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithPartyUpdateNotification : public Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*> {
     public:
-    // Creating value type constructor for type: MessageWithPartyUpdateNotification
-    MessageWithPartyUpdateNotification() noexcept {}
     // protected Oculus.Platform.Models.PartyUpdateNotification GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BC10C
     Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(System::IntPtr c_message);

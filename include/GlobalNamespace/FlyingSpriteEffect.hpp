@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: FlyingSpriteEffect
-    FlyingSpriteEffect(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::Color color_ = {}) noexcept : spriteRenderer{spriteRenderer_}, fadeAnimationCurve{fadeAnimationCurve_}, color{color_} {}
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve

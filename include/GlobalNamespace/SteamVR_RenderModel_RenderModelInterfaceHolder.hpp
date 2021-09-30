@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     Valve::VR::CVRRenderModels* instance;
     // Field size check
     static_assert(sizeof(Valve::VR::CVRRenderModels*) == 0x8);
-    // Creating value type constructor for type: RenderModelInterfaceHolder
-    RenderModelInterfaceHolder(bool needsShutdown_ = {}, bool failedLoadInterface_ = {}, Valve::VR::CVRRenderModels* instance_ = {}) noexcept : needsShutdown{needsShutdown_}, failedLoadInterface{failedLoadInterface_}, instance{instance_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

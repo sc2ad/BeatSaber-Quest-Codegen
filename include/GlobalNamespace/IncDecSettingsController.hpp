@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::StepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StepValuePicker*) == 0x8);
-    // Creating value type constructor for type: IncDecSettingsController
-    IncDecSettingsController(GlobalNamespace::StepValuePicker* stepValuePicker_ = {}) noexcept : stepValuePicker{stepValuePicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StepValuePicker _stepValuePicker

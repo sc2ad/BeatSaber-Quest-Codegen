@@ -20,8 +20,6 @@ namespace System::ComponentModel {
   // [DesignerAttribute] Offset: E694F4
   class IComponent/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: IComponent
-    IComponent() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

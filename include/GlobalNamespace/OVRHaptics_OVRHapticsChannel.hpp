@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRHaptics::OVRHapticsOutput* m_output;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHaptics::OVRHapticsOutput*) == 0x8);
-    // Creating value type constructor for type: OVRHapticsChannel
-    OVRHapticsChannel(GlobalNamespace::OVRHaptics::OVRHapticsOutput* m_output_ = {}) noexcept : m_output{m_output_} {}
     // Creating conversion operator: operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*
     constexpr operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*() const noexcept {
       return m_output;

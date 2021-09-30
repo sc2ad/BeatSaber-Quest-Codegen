@@ -71,8 +71,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int minorVersion;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SerializationHeaderRecord
-    SerializationHeaderRecord(int binaryFormatterMajorVersion_ = {}, int binaryFormatterMinorVersion_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int topId_ = {}, int headerId_ = {}, int majorVersion_ = {}, int minorVersion_ = {}) noexcept : binaryFormatterMajorVersion{binaryFormatterMajorVersion_}, binaryFormatterMinorVersion{binaryFormatterMinorVersion_}, binaryHeaderEnum{binaryHeaderEnum_}, topId{topId_}, headerId{headerId_}, majorVersion{majorVersion_}, minorVersion{minorVersion_} {}
     // Get instance field reference: System.Int32 binaryFormatterMajorVersion
     int& dyn_binaryFormatterMajorVersion();
     // Get instance field reference: System.Int32 binaryFormatterMinorVersion

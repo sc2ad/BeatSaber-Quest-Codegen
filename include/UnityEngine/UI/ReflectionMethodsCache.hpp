@@ -71,8 +71,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*) == 0x8);
-    // Creating value type constructor for type: ReflectionMethodsCache
-    ReflectionMethodsCache(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback* raycast3D_ = {}, UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback* raycast3DAll_ = {}, UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback* getRaycastNonAlloc_ = {}, UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback* raycast2D_ = {}, UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback* getRayIntersectionAll_ = {}, UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc_ = {}) noexcept : raycast3D{raycast3D_}, raycast3DAll{raycast3DAll_}, getRaycastNonAlloc{getRaycastNonAlloc_}, raycast2D{raycast2D_}, getRayIntersectionAll{getRayIntersectionAll_}, getRayIntersectionAllNonAlloc{getRayIntersectionAllNonAlloc_} {}
     // Get static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
     static UnityEngine::UI::ReflectionMethodsCache* _get_s_ReflectionMethodsCache();
     // Set static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache

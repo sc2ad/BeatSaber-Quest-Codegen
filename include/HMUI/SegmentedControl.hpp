@@ -109,8 +109,6 @@ namespace HMUI {
     System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* callbacks;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>*) == 0x8);
-    // Creating value type constructor for type: SegmentedControl
-    SegmentedControl(UnityEngine::Transform* separatorPrefab_ = {}, System::Action_2<HMUI::SegmentedControl*, int>* didSelectCellEvent_ = {}, int numberOfCells_ = {}, System::Collections::Generic::List_1<HMUI::SegmentedControlCell*>* cells_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* separators_ = {}, HMUI::SegmentedControl::IDataSource* dataSource_ = {}, int selectedCellNumber_ = {}, System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* callbacks_ = {}) noexcept : separatorPrefab{separatorPrefab_}, didSelectCellEvent{didSelectCellEvent_}, numberOfCells{numberOfCells_}, cells{cells_}, separators{separators_}, dataSource{dataSource_}, selectedCellNumber{selectedCellNumber_}, callbacks{callbacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _separatorPrefab

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestInvitePlatformHandler : public ::Il2CppObject/*, public GlobalNamespace::IInvitePlatformHandler*/ {
     public:
-    // Creating value type constructor for type: TestInvitePlatformHandler
-    TestInvitePlatformHandler() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IInvitePlatformHandler
     operator GlobalNamespace::IInvitePlatformHandler() noexcept {
       return *reinterpret_cast<GlobalNamespace::IInvitePlatformHandler*>(this);

@@ -25,8 +25,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AlphabetScrollInfo::Data
     class Data;
-    // Creating value type constructor for type: AlphabetScrollInfo
-    AlphabetScrollInfo() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1378640
     // Implemented from: System.Object

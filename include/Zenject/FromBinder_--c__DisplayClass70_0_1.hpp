@@ -52,8 +52,6 @@ namespace Zenject {
     System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>* method;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass70_0_1
-    $$c__DisplayClass70_0_1(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>* method_ = {}) noexcept : method{method_} {}
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*
     constexpr operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*() const noexcept {
       return method;

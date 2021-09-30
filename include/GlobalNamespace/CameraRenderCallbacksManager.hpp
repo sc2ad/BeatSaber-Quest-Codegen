@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
-    // Creating value type constructor for type: CameraRenderCallbacksManager
-    CameraRenderCallbacksManager(System::Collections::Generic::HashSet_1<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>* observers_ = {}, UnityEngine::Camera* camera_ = {}) noexcept : observers{observers_}, camera{camera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers

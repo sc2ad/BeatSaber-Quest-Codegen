@@ -31,8 +31,6 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E5C1F8
   class IConvertible {
     public:
-    // Creating value type constructor for type: IConvertible
-    IConvertible() noexcept {}
     // public System.TypeCode GetTypeCode()
     // Offset: 0xFFFFFFFF
     System::TypeCode GetTypeCode();

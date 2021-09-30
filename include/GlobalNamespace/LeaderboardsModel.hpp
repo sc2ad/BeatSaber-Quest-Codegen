@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardsModel : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LeaderboardsModel
-    LeaderboardsModel() noexcept {}
     // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x114AD94
     static ::Il2CppString* GetLeaderboardID(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);

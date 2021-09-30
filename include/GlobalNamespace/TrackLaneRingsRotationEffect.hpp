@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<int>* ringRotationEffectsToDelete;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
-    // Creating value type constructor for type: TrackLaneRingsRotationEffect
-    TrackLaneRingsRotationEffect(GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager_ = {}, float startupRotationAngle_ = {}, float startupRotationStep_ = {}, int startupRotationPropagationSpeed_ = {}, float startupRotationFlexySpeed_ = {}, System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* activeRingRotationEffects_ = {}, System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* ringRotationEffectsPool_ = {}, System::Collections::Generic::List_1<int>* ringRotationEffectsToDelete_ = {}) noexcept : trackLaneRingsManager{trackLaneRingsManager_}, startupRotationAngle{startupRotationAngle_}, startupRotationStep{startupRotationStep_}, startupRotationPropagationSpeed{startupRotationPropagationSpeed_}, startupRotationFlexySpeed{startupRotationFlexySpeed_}, activeRingRotationEffects{activeRingRotationEffects_}, ringRotationEffectsPool{ringRotationEffectsPool_}, ringRotationEffectsToDelete{ringRotationEffectsToDelete_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsManager _trackLaneRingsManager

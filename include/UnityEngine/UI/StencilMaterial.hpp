@@ -41,8 +41,6 @@ namespace UnityEngine::UI {
     public:
     // Nested type: UnityEngine::UI::StencilMaterial::MatEntry
     class MatEntry;
-    // Creating value type constructor for type: StencilMaterial
-    StencilMaterial() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry> m_List
     static System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* _get_m_List();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry> m_List

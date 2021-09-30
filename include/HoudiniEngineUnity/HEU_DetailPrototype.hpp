@@ -88,8 +88,6 @@ namespace HoudiniEngineUnity {
     int renderMode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_DetailPrototype
-    HEU_DetailPrototype(::Il2CppString* prototypePrefab_ = {}, ::Il2CppString* prototypeTexture_ = {}, float bendFactor_ = {}, UnityEngine::Color dryColor_ = {}, UnityEngine::Color healthyColor_ = {}, float maxHeight_ = {}, float maxWidth_ = {}, float minHeight_ = {}, float minWidth_ = {}, float noiseSpread_ = {}, int renderMode_ = {}) noexcept : prototypePrefab{prototypePrefab_}, prototypeTexture{prototypeTexture_}, bendFactor{bendFactor_}, dryColor{dryColor_}, healthyColor{healthyColor_}, maxHeight{maxHeight_}, maxWidth{maxWidth_}, minHeight{minHeight_}, minWidth{minWidth_}, noiseSpread{noiseSpread_}, renderMode{renderMode_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);

@@ -68,8 +68,6 @@ namespace System::Xml {
     int lastItem;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AttributeValueCache
-    AttributeValueCache(System::Text::StringBuilder* stringValue_ = {}, ::Il2CppString* singleStringValue_ = {}, ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*> items_ = {}, int firstItem_ = {}, int lastItem_ = {}) noexcept : stringValue{stringValue_}, singleStringValue{singleStringValue_}, items{items_}, firstItem{firstItem_}, lastItem{lastItem_} {}
     // Get instance field reference: private System.Text.StringBuilder stringValue
     System::Text::StringBuilder*& dyn_stringValue();
     // Get instance field reference: private System.String singleStringValue

@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::GetSelectedBeatmapRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
-    // Creating value type constructor for type: GetSelectedBeatmapRpc
-    GetSelectedBeatmapRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C890C
     // Implemented from: RemoteProcedureCall

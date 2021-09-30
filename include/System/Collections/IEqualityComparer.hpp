@@ -17,8 +17,6 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E6189C
   class IEqualityComparer {
     public:
-    // Creating value type constructor for type: IEqualityComparer
-    IEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
     bool Equals(::Il2CppObject* x, ::Il2CppObject* y);

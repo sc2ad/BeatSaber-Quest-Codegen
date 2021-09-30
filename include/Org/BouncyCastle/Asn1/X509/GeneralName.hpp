@@ -41,8 +41,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     int tag;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GeneralName
-    GeneralName(Org::BouncyCastle::Asn1::Asn1Encodable* obj_ = {}, int tag_ = {}) noexcept : obj{obj_}, tag{tag_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     float yAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FlyingGameHUDRotation
-    FlyingGameHUDRotation(float smooth_ = {}, GlobalNamespace::BeatLineManager* beatLineManager_ = {}, GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation_ = {}, float prevYAngle_ = {}, float yAngle_ = {}) noexcept : smooth{smooth_}, beatLineManager{beatLineManager_}, environmentSpawnRotation{environmentSpawnRotation_}, prevYAngle{prevYAngle_}, yAngle{yAngle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _smooth

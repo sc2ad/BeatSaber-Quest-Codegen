@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Attribute;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AspRequiredAttributeAttribute
-    AspRequiredAttributeAttribute(::Il2CppString* Attribute_ = {}) noexcept : Attribute{Attribute_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Attribute;

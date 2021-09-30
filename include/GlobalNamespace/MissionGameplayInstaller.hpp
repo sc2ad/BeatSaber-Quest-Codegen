@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionGameplaySceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionGameplaySceneSetupData*) == 0x8);
-    // Creating value type constructor for type: MissionGameplayInstaller
-    MissionGameplayInstaller(GlobalNamespace::MissionGameplaySceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private readonly MissionGameplaySceneSetupData _sceneSetupData
     GlobalNamespace::MissionGameplaySceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

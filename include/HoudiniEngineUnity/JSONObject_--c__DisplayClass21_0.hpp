@@ -40,8 +40,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::JSONNode* aNode;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::JSONNode*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass21_0
-    $$c__DisplayClass21_0(HoudiniEngineUnity::JSONNode* aNode_ = {}) noexcept : aNode{aNode_} {}
     // Creating conversion operator: operator HoudiniEngineUnity::JSONNode*
     constexpr operator HoudiniEngineUnity::JSONNode*() const noexcept {
       return aNode;

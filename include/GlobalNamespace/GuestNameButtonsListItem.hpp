@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     System::Action* buttonPressed;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: GuestNameButtonsListItem
-    GuestNameButtonsListItem(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Button* button_ = {}, System::Action* buttonPressed_ = {}) noexcept : nameText{nameText_}, button{button_}, buttonPressed{buttonPressed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText

@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Arrays : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Arrays
-    Arrays() noexcept {}
     // Get static field: static public readonly System.Byte[] EmptyBytes
     static ::ArrayWrapper<uint8_t> _get_EmptyBytes();
     // Set static field: static public readonly System.Byte[] EmptyBytes

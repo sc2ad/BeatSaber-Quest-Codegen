@@ -16,8 +16,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileSystemEnumerableHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: FileSystemEnumerableHelpers
-    FileSystemEnumerableHelpers() noexcept {}
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
     // Offset: 0x1ABBDB4
     static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);

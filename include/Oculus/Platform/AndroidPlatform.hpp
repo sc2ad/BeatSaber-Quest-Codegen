@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidPlatform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AndroidPlatform
-    AndroidPlatform() noexcept {}
     // public System.Boolean Initialize(System.String appId)
     // Offset: 0x1D1A074
     bool Initialize(::Il2CppString* appId);

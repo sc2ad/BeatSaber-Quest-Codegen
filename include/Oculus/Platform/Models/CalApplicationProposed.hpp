@@ -26,8 +26,6 @@ namespace Oculus::Platform::Models {
     uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: CalApplicationProposed
-    CalApplicationProposed(uint64_t _ID_ = {}) noexcept : _ID{_ID_} {}
     // Creating conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept {
       return _ID;

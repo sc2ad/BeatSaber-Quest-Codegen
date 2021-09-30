@@ -39,8 +39,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Challenges : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Challenges
-    Challenges() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetNextEntries(Oculus.Platform.Models.ChallengeEntryList list)
     // Offset: 0x16A9658
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetNextEntries(Oculus::Platform::Models::ChallengeEntryList* list);

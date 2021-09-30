@@ -49,8 +49,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverVR* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverVR*) == 0x8);
-    // Creating value type constructor for type: VRIK
-    VRIK(RootMotion::FinalIK::VRIK::References* references_ = {}, RootMotion::FinalIK::IKSolverVR* solver_ = {}) noexcept : references{references_}, solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references
     RootMotion::FinalIK::VRIK::References*& dyn_references();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR solver

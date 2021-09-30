@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class CalApplicationSuggestionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CalApplicationSuggestion*> {
     public:
-    // Creating value type constructor for type: CalApplicationSuggestionList
-    CalApplicationSuggestionList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16B6194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

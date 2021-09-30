@@ -30,8 +30,6 @@ namespace System {
   // [ClassInterfaceAttribute] Offset: E5CCAC
   class Object {
     public:
-    // Creating value type constructor for type: Object
-    Object() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E9D158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

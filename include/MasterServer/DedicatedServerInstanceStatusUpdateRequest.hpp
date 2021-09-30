@@ -71,8 +71,6 @@ namespace MasterServer {
     GlobalNamespace::GameStateType gameState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameStateType) == 0x4);
-    // Creating value type constructor for type: DedicatedServerInstanceStatusUpdateRequest
-    DedicatedServerInstanceStatusUpdateRequest(::Il2CppString* dedicatedServerId_ = {}, int64_t dedicatedServerCreationTime_ = {}, ::Il2CppString* id_ = {}, int currentPlayerCount_ = {}, GlobalNamespace::GameStateType gameState_ = {}) noexcept : dedicatedServerId{dedicatedServerId_}, dedicatedServerCreationTime{dedicatedServerCreationTime_}, id{id_}, currentPlayerCount{currentPlayerCount_}, gameState{gameState_} {}
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerClientToServerMessage
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);

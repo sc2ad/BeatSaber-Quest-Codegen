@@ -39,8 +39,6 @@ namespace UnityEngine::Playables {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class PlayableExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlayableExtensions
-    PlayableExtensions() noexcept {}
     // static public System.Boolean IsValid(U playable)
     // Offset: 0xFFFFFFFF
     template<class U>

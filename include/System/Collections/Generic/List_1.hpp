@@ -159,7 +159,6 @@ namespace System::Collections::Generic {
       }
       // System.Void .ctor(System.Collections.Generic.List`1<T> list)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Collections::Generic::List_1<T>* list) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
@@ -219,8 +218,6 @@ namespace System::Collections::Generic {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: List_1
-    List_1(::ArrayWrapper<T> items_ = {}, int size_ = {}, int version_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : items{items_}, size{size_}, version{version_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);

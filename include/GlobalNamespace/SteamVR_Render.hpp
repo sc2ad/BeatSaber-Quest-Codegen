@@ -124,8 +124,6 @@ namespace GlobalNamespace {
     float timeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SteamVR_Render
-    SteamVR_Render(bool pauseGameWhenDashboardIsVisible_ = {}, bool lockPhysicsUpdateRateToRenderFrequency_ = {}, GlobalNamespace::SteamVR_ExternalCamera* externalCamera_ = {}, ::Il2CppString* externalCameraConfigPath_ = {}, Valve::VR::ETrackingUniverseOrigin trackingSpace_ = {}, ::ArrayWrapper<GlobalNamespace::SteamVR_Camera*> cameras_ = {}, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses_ = {}, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> gamePoses_ = {}, UnityEngine::WaitForEndOfFrame* waitForEndOfFrame_ = {}, float sceneResolutionScale_ = {}, float timeScale_ = {}) noexcept : pauseGameWhenDashboardIsVisible{pauseGameWhenDashboardIsVisible_}, lockPhysicsUpdateRateToRenderFrequency{lockPhysicsUpdateRateToRenderFrequency_}, externalCamera{externalCamera_}, externalCameraConfigPath{externalCameraConfigPath_}, trackingSpace{trackingSpace_}, cameras{cameras_}, poses{poses_}, gamePoses{gamePoses_}, waitForEndOfFrame{waitForEndOfFrame_}, sceneResolutionScale{sceneResolutionScale_}, timeScale{timeScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private Valve.VR.EVREye <eye>k__BackingField

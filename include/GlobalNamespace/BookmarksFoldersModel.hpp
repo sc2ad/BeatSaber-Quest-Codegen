@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> bookmarksFolders;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>) == 0x8);
-    // Creating value type constructor for type: BookmarksFoldersModel
-    BookmarksFoldersModel(::ArrayWrapper<::Il2CppString*> myFolders_ = {}, ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> bookmarksFolders_ = {}) noexcept : myFolders{myFolders_}, bookmarksFolders{bookmarksFolders_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] myFolders

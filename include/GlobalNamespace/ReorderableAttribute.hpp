@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     bool ElementSingleLine;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ReorderableAttribute
-    ReorderableAttribute(::Il2CppString* ElementHeader_ = {}, bool HeaderZeroIndex_ = {}, bool ElementSingleLine_ = {}) noexcept : ElementHeader{ElementHeader_}, HeaderZeroIndex{HeaderZeroIndex_}, ElementSingleLine{ElementSingleLine_} {}
     // Get instance field reference: private System.String <ElementHeader>k__BackingField
     ::Il2CppString*& dyn_$ElementHeader$k__BackingField();
     // Get instance field reference: private System.Boolean <HeaderZeroIndex>k__BackingField

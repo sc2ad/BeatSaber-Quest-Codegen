@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E7203C
   class PropertyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: PropertyAttribute
-    PropertyAttribute() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1DFEB04
     // Implemented from: System.Attribute

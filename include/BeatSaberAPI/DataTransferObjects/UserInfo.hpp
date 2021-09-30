@@ -30,8 +30,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* publicPlatformDisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UserInfo
-    UserInfo(::Il2CppString* platformUserId_ = {}, ::Il2CppString* publicPlatformDisplayName_ = {}) noexcept : platformUserId{platformUserId_}, publicPlatformDisplayName{publicPlatformDisplayName_} {}
     // Get instance field reference: public System.String platformUserId
     ::Il2CppString*& dyn_platformUserId();
     // Get instance field reference: public System.String publicPlatformDisplayName

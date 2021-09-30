@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class XRNodeExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: XRNodeExtensions
-    XRNodeExtensions() noexcept {}
     // static public OVRPlugin/Node OculusNode(UnityEngine.XR.XRNode node)
     // Offset: 0x259E9C8
     static GlobalNamespace::OVRPlugin::Node OculusNode(UnityEngine::XR::XRNode node);

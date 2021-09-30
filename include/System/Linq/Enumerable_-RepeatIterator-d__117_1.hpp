@@ -73,8 +73,6 @@ namespace System::Linq {
     int $$3__count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $RepeatIterator$d__117_1
-    $RepeatIterator$d__117_1(int $$1__state_ = {}, TResult $$2__current_ = {}, int $$l__initialThreadId_ = {}, TResult element_ = {}, TResult $$3__element_ = {}, int $i$5__1_ = {}, int count_ = {}, int $$3__count_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, element{element_}, $$3__element{$$3__element_}, $i$5__1{$i$5__1_}, count{count_}, $$3__count{$$3__count_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TResult>
     operator System::Collections::Generic::IEnumerable_1<TResult>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TResult>*>(this);

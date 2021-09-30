@@ -62,8 +62,6 @@ namespace NUnit::Framework::Constraints {
     bool ClipStrings;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EqualConstraint
-    EqualConstraint(::Il2CppObject* expected_ = {}, NUnit::Framework::Constraints::Tolerance* tolerance_ = {}, NUnit::Framework::Constraints::NUnitEqualityComparer* comparer_ = {}, bool ClipStrings_ = {}) noexcept : expected{expected_}, tolerance{tolerance_}, comparer{comparer_}, ClipStrings{ClipStrings_} {}
     // Get instance field reference: private readonly System.Object _expected
     ::Il2CppObject*& dyn__expected();
     // Get instance field reference: private NUnit.Framework.Constraints.Tolerance _tolerance

@@ -15,8 +15,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWrapSetUpTearDown/*, public NUnit::Framework::Interfaces::ICommandWrapper*/ {
     public:
-    // Creating value type constructor for type: IWrapSetUpTearDown
-    IWrapSetUpTearDown() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ICommandWrapper
     operator NUnit::Framework::Interfaces::ICommandWrapper() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ICommandWrapper*>(this);

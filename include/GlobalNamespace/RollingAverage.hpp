@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RollingAverage
-    RollingAverage(int64_t currentTotal_ = {}, float currentAverage_ = {}, ::ArrayWrapper<int64_t> buffer_ = {}, int index_ = {}, int length_ = {}) noexcept : currentTotal{currentTotal_}, currentAverage{currentAverage_}, buffer{buffer_}, index{index_}, length{length_} {}
     // static field const value: static private System.Int64 kGranularity
     static constexpr const int64_t kGranularity = 1000;
     // Get static field: static private System.Int64 kGranularity

@@ -50,8 +50,6 @@ namespace HoudiniEngineUnity {
     class HEU_InputDataMeshes;
     // Nested type: HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh
     class HEU_InputDataMesh;
-    // Creating value type constructor for type: HEU_InputInterfaceMesh
-    HEU_InputInterfaceMesh() noexcept {}
     // static public System.Void GetUVsFromMesh(UnityEngine.Mesh mesh, UnityEngine.Vector2[] srcUVs, System.Collections.Generic.List`1<UnityEngine.Vector3> destUVs, System.Int32 index)
     // Offset: 0x151FF7C
     static void GetUVsFromMesh(UnityEngine::Mesh* mesh, ::ArrayWrapper<UnityEngine::Vector2> srcUVs, System::Collections::Generic::List_1<UnityEngine::Vector3>* destUVs, int index);

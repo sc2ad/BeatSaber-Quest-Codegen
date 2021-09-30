@@ -29,8 +29,6 @@ namespace JetBrains::Annotations {
     JetBrains::Annotations::AssertionConditionType ConditionType;
     // Field size check
     static_assert(sizeof(JetBrains::Annotations::AssertionConditionType) == 0x4);
-    // Creating value type constructor for type: AssertionConditionAttribute
-    AssertionConditionAttribute(JetBrains::Annotations::AssertionConditionType ConditionType_ = {}) noexcept : ConditionType{ConditionType_} {}
     // Creating conversion operator: operator JetBrains::Annotations::AssertionConditionType
     constexpr operator JetBrains::Annotations::AssertionConditionType() const noexcept {
       return ConditionType;

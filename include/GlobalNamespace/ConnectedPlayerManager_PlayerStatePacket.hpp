@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerStateHash playerState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerStateHash) == 0x10);
-    // Creating value type constructor for type: PlayerStatePacket
-    PlayerStatePacket(GlobalNamespace::PlayerStateHash playerState_ = {}) noexcept : playerState{playerState_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

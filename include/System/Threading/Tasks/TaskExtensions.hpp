@@ -27,8 +27,6 @@ namespace System::Threading::Tasks {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TaskExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TaskExtensions
-    TaskExtensions() noexcept {}
     // static public System.Threading.Tasks.Task`1<TResult> Unwrap(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<TResult>> task)
     // Offset: 0xFFFFFFFF
     template<class TResult>

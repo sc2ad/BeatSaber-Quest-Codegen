@@ -44,8 +44,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     ::ArrayWrapper<int> offset;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Collections::Generic::List_1<int>* sorted_ = {}, ::ArrayWrapper<int> offset_ = {}) noexcept : sorted{sorted_}, offset{offset_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> sorted
     System::Collections::Generic::List_1<int>*& dyn_sorted();
     // Get instance field reference: public System.Int32[] offset

@@ -39,8 +39,6 @@ namespace Zenject {
     ::ArrayWrapper<System::Type*> targets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(::ArrayWrapper<System::Type*> targets_ = {}) noexcept : targets{targets_} {}
     // Creating conversion operator: operator ::ArrayWrapper<System::Type*>
     constexpr operator ::ArrayWrapper<System::Type*>() const noexcept {
       return targets;

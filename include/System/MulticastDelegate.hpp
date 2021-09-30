@@ -39,8 +39,6 @@ namespace System {
     ::ArrayWrapper<System::Delegate*> delegates;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Delegate*>) == 0x8);
-    // Creating value type constructor for type: MulticastDelegate
-    MulticastDelegate(::ArrayWrapper<System::Delegate*> delegates_ = {}) noexcept : delegates{delegates_} {}
     // Creating conversion operator: operator ::ArrayWrapper<System::Delegate*>
     constexpr operator ::ArrayWrapper<System::Delegate*>() const noexcept {
       return delegates;

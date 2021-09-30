@@ -36,8 +36,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::Face* face;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass24_0
-    $$c__DisplayClass24_0(UnityEngine::ProBuilder::Face* face_ = {}) noexcept : face{face_} {}
     // Creating conversion operator: operator UnityEngine::ProBuilder::Face*
     constexpr operator UnityEngine::ProBuilder::Face*() const noexcept {
       return face;

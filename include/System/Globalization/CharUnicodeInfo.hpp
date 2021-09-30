@@ -23,8 +23,6 @@ namespace System::Globalization {
     public:
     // Nested type: System::Globalization::CharUnicodeInfo::Debug
     class Debug;
-    // Creating value type constructor for type: CharUnicodeInfo
-    CharUnicodeInfo() noexcept {}
     // Get static field: static private System.UInt16[] s_pCategoryLevel1Index
     static ::ArrayWrapper<uint16_t> _get_s_pCategoryLevel1Index();
     // Set static field: static private System.UInt16[] s_pCategoryLevel1Index

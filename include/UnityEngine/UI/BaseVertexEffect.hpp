@@ -29,8 +29,6 @@ namespace UnityEngine::UI {
   // [ObsoleteAttribute] Offset: EA86E0
   class BaseVertexEffect : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BaseVertexEffect
-    BaseVertexEffect() noexcept {}
     // public System.Void ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex> vertices)
     // Offset: 0xFFFFFFFF
     void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vertices);

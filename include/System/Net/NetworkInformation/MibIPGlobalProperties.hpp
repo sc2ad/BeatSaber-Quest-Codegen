@@ -56,8 +56,6 @@ namespace System::Net::NetworkInformation {
     ::Il2CppString* Udp6File;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MibIPGlobalProperties
-    MibIPGlobalProperties(::Il2CppString* StatisticsFile_ = {}, ::Il2CppString* StatisticsFileIPv6_ = {}, ::Il2CppString* TcpFile_ = {}, ::Il2CppString* Tcp6File_ = {}, ::Il2CppString* UdpFile_ = {}, ::Il2CppString* Udp6File_ = {}) noexcept : StatisticsFile{StatisticsFile_}, StatisticsFileIPv6{StatisticsFileIPv6_}, TcpFile{TcpFile_}, Tcp6File{Tcp6File_}, UdpFile{UdpFile_}, Udp6File{Udp6File_} {}
     // Get static field: static private readonly System.Char[] wsChars
     static ::ArrayWrapper<::Il2CppChar> _get_wsChars();
     // Set static field: static private readonly System.Char[] wsChars

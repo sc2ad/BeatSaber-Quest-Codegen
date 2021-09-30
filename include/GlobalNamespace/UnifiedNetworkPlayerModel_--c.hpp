@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnifiedNetworkPlayerModel::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnifiedNetworkPlayerModel/<>c <>9
     static GlobalNamespace::UnifiedNetworkPlayerModel::$$c* _get_$$9();
     // Set static field: static public readonly UnifiedNetworkPlayerModel/<>c <>9

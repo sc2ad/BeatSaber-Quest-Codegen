@@ -25,8 +25,6 @@ namespace UnityEngine {
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: ComputeBuffer
-    ComputeBuffer(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;

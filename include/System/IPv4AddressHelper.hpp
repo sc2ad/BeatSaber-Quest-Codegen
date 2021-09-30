@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPv4AddressHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IPv4AddressHelper
-    IPv4AddressHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean isLoopback)
     // Offset: 0x156A7E0
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> isLoopback);

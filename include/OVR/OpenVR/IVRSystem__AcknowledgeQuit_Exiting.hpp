@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB02D4
   class IVRSystem::_AcknowledgeQuit_Exiting : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _AcknowledgeQuit_Exiting
-    _AcknowledgeQuit_Exiting() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E4704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

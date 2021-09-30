@@ -77,8 +77,6 @@ namespace System::Net::Http::Headers {
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: HeaderInfo
-    HeaderInfo(bool AllowsMany_ = {}, System::Net::Http::Headers::HttpHeaderKind HeaderKind_ = {}, ::Il2CppString* Name_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : AllowsMany{AllowsMany_}, HeaderKind{HeaderKind_}, Name{Name_}, CustomToString{CustomToString_} {}
     // Get instance field reference: public System.Boolean AllowsMany
     bool& dyn_AllowsMany();
     // Get instance field reference: public readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind

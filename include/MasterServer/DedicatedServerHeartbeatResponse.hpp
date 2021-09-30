@@ -37,8 +37,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class DedicatedServerHeartbeatResponse : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IDedicatedServerServerToClientMessage*/ {
     public:
-    // Creating value type constructor for type: DedicatedServerHeartbeatResponse
-    DedicatedServerHeartbeatResponse() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerUnreliableMessage
     operator MasterServer::IMasterServerUnreliableMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerUnreliableMessage*>(this);

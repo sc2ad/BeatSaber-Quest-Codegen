@@ -124,8 +124,6 @@ namespace System::Linq {
     // Nested type: System::Linq::Enumerable::$RepeatIterator$d__117_1<TResult>
     template<typename TResult>
     class $RepeatIterator$d__117_1;
-    // Creating value type constructor for type: Enumerable
-    Enumerable() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<TSource> Where(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     template<class TSource>

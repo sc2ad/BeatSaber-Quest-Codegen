@@ -20,8 +20,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ItemForFocussedScrolling : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: ItemForFocussedScrolling
-    ItemForFocussedScrolling() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14116D4
     // Implemented from: UnityEngine.MonoBehaviour

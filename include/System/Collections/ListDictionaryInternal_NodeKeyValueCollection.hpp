@@ -48,8 +48,6 @@ namespace System::Collections {
     bool isKeys;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NodeKeyValueCollection
-    NodeKeyValueCollection(System::Collections::ListDictionaryInternal* list_ = {}, bool isKeys_ = {}) noexcept : list{list_}, isKeys{isKeys_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDerivationParameters {
     public:
-    // Creating value type constructor for type: IDerivationParameters
-    IDerivationParameters() noexcept {}
   }; // Org.BouncyCastle.Crypto.IDerivationParameters
   #pragma pack(pop)
 }

@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // Creating value type constructor for type: MissionLevelAnalytics
-    MissionLevelAnalytics(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}) noexcept : missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, analyticsModel{analyticsModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData

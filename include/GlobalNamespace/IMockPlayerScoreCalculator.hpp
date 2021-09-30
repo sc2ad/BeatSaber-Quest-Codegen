@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMockPlayerScoreCalculator {
     public:
-    // Creating value type constructor for type: IMockPlayerScoreCalculator
-    IMockPlayerScoreCalculator() noexcept {}
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
     // Offset: 0xFFFFFFFF
     int GetScoreForNote(GlobalNamespace::MockNoteData* noteData);

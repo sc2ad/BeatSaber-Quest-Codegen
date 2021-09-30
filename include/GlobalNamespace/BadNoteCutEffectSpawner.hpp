@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CoreGameHUDController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CoreGameHUDController::InitData*) == 0x8);
-    // Creating value type constructor for type: BadNoteCutEffectSpawner
-    BadNoteCutEffectSpawner(GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}) noexcept : failFlyingSpriteSpawner{failFlyingSpriteSpawner_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingSpriteSpawner _failFlyingSpriteSpawner

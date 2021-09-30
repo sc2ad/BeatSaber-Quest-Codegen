@@ -36,8 +36,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmapperUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LightmapperUtils
-    LightmapperUtils() noexcept {}
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor ExtractIndirect(UnityEngine.Light l)
     // Offset: 0x1CBB240
     static UnityEngine::Experimental::GlobalIllumination::LinearColor ExtractIndirect(UnityEngine::Light* l);

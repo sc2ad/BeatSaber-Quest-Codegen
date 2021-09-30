@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelDataSO
-    BeatmapLevelDataSO(UnityEngine::AudioClip* audioClip_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> difficultyBeatmapSets_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets_ = {}) noexcept : audioClip{audioClip_}, difficultyBeatmapSets{difficultyBeatmapSets_}, no360MovementDifficultyBeatmapSets{no360MovementDifficultyBeatmapSets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip _audioClip

@@ -32,8 +32,6 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTlsConversions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UnityTlsConversions
-    UnityTlsConversions() noexcept {}
     // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol GetMinProtocol(System.Security.Authentication.SslProtocols protocols)
     // Offset: 0x1A1B3C0
     static Mono::Unity::UnityTls::unitytls_protocol GetMinProtocol(System::Security::Authentication::SslProtocols protocols);

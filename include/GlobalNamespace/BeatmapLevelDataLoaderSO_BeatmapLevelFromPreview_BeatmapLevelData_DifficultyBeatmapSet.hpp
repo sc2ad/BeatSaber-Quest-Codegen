@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet* difficultyBeatmapSet;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*) == 0x8);
-    // Creating value type constructor for type: DifficultyBeatmapSet
-    DifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*> difficultyBeatmaps_ = {}, GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet* difficultyBeatmapSet_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, difficultyBeatmaps{difficultyBeatmaps_}, difficultyBeatmapSet{difficultyBeatmapSet_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDifficultyBeatmapSet
     operator GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);

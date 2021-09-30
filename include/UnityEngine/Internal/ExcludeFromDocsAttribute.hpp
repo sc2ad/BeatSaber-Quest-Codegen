@@ -20,8 +20,6 @@ namespace UnityEngine::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExcludeFromDocsAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ExcludeFromDocsAttribute
-    ExcludeFromDocsAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1D9DD3C
     // Implemented from: System.Attribute

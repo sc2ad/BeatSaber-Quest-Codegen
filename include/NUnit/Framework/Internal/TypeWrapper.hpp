@@ -53,8 +53,6 @@ namespace NUnit::Framework::Internal {
     System::Type* Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: TypeWrapper
-    TypeWrapper(System::Type* Type_ = {}) noexcept : Type{Type_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITypeInfo
     operator NUnit::Framework::Interfaces::ITypeInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITypeInfo*>(this);

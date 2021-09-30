@@ -44,8 +44,6 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*) == 0x8);
-    // Creating value type constructor for type: NameValueWithParametersHeaderValue
-    NameValueWithParametersHeaderValue(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters_ = {}) noexcept : parameters{parameters_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*
     constexpr operator System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*() const noexcept {
       return parameters;

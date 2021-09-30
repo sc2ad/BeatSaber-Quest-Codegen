@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0BBC
   class IVRCompositor::_UnlockGLSharedTextureForAccess : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _UnlockGLSharedTextureForAccess
-    _UnlockGLSharedTextureForAccess() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EEBB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

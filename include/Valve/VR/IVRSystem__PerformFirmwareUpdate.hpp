@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB53BC
   class IVRSystem::_PerformFirmwareUpdate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _PerformFirmwareUpdate
-    _PerformFirmwareUpdate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE2004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

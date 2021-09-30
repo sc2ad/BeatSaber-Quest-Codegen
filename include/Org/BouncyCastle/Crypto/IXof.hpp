@@ -16,8 +16,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IXof/*, public Org::BouncyCastle::Crypto::IDigest*/ {
     public:
-    // Creating value type constructor for type: IXof
-    IXof() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

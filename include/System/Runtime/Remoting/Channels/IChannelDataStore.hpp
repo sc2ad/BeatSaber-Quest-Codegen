@@ -15,8 +15,6 @@ namespace System::Runtime::Remoting::Channels {
   // [DefaultMemberAttribute] Offset: E5FDA8
   class IChannelDataStore {
     public:
-    // Creating value type constructor for type: IChannelDataStore
-    IChannelDataStore() noexcept {}
   }; // System.Runtime.Remoting.Channels.IChannelDataStore
   #pragma pack(pop)
 }

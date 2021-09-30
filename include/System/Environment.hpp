@@ -46,8 +46,6 @@ namespace System {
     struct SpecialFolder;
     // Nested type: System::Environment::SpecialFolderOption
     struct SpecialFolderOption;
-    // Creating value type constructor for type: Environment
-    Environment() noexcept {}
     // static field const value: static private System.Int32 mono_corlib_version
     static constexpr const int mono_corlib_version = 1051100001;
     // Get static field: static private System.Int32 mono_corlib_version

@@ -19,8 +19,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F108
   class AsymmetricSignatureFormatter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AsymmetricSignatureFormatter
-    AsymmetricSignatureFormatter() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1A6CD2C
     // Implemented from: System.Object

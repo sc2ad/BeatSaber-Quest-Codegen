@@ -46,8 +46,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E9D30C
   class AssetBundle : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: AssetBundle
-    AssetBundle() noexcept {}
     // static UnityEngine.AssetBundleCreateRequest LoadFromFileAsync_Internal(System.String path, System.UInt32 crc, System.UInt64 offset)
     // Offset: 0x262421C
     static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::Il2CppString* path, uint crc, uint64_t offset);

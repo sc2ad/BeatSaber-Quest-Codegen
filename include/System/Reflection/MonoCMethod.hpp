@@ -80,8 +80,6 @@ namespace System::Reflection {
     System::Type* reftype;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: MonoCMethod
-    MonoCMethod(System::IntPtr mhandle_ = {}, ::Il2CppString* name_ = {}, System::Type* reftype_ = {}) noexcept : mhandle{mhandle_}, name{name_}, reftype{reftype_} {}
     // Get instance field reference: System.IntPtr mhandle
     System::IntPtr& dyn_mhandle();
     // Get instance field reference: private System.String name

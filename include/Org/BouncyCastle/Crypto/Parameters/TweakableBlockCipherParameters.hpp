@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*) == 0x8);
-    // Creating value type constructor for type: TweakableBlockCipherParameters
-    TweakableBlockCipherParameters(::ArrayWrapper<uint8_t> tweak_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* key_ = {}) noexcept : tweak{tweak_}, key{key_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

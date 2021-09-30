@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     bool doingOutroTransition;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TutorialController
-    TutorialController(GlobalNamespace::TutorialSongController* tutorialSongController_ = {}, GlobalNamespace::IntroTutorialController* introTutorialController_ = {}, GlobalNamespace::AudioFading* audioFading_ = {}, GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData_ = {}, GlobalNamespace::Signal* tutorialIntroStartedSignal_ = {}, GlobalNamespace::Signal* tutorialFinishedSignal_ = {}, GlobalNamespace::PauseController* pauseController_ = {}, bool paused_ = {}, bool doingOutroTransition_ = {}) noexcept : tutorialSongController{tutorialSongController_}, introTutorialController{introTutorialController_}, audioFading{audioFading_}, tutorialSceneSetupData{tutorialSceneSetupData_}, tutorialIntroStartedSignal{tutorialIntroStartedSignal_}, tutorialFinishedSignal{tutorialFinishedSignal_}, pauseController{pauseController_}, paused{paused_}, doingOutroTransition{doingOutroTransition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialSongController _tutorialSongController

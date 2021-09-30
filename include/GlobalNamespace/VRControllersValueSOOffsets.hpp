@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     bool mirror;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: VRControllersValueSOOffsets
-    VRControllersValueSOOffsets(GlobalNamespace::Vector3SO* positionOffset_ = {}, GlobalNamespace::Vector3SO* rotationOffset_ = {}, bool mirror_ = {}) noexcept : positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, mirror{mirror_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Vector3SO _positionOffset

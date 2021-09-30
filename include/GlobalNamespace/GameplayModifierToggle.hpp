@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     UnityEngine::Color positiveColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: GameplayModifierToggle
-    GameplayModifierToggle(GlobalNamespace::GameplayModifierParamsSO* gameplayModifier_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* multiplierText_ = {}, HMUI::HoverTextSetter* hoverTextSetter_ = {}, UnityEngine::UI::Image* icon_ = {}, UnityEngine::UI::Toggle* toggle_ = {}, UnityEngine::Color positiveColor_ = {}) noexcept : gameplayModifier{gameplayModifier_}, nameText{nameText_}, multiplierText{multiplierText_}, hoverTextSetter{hoverTextSetter_}, icon{icon_}, toggle{toggle_}, positiveColor{positiveColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierParamsSO _gameplayModifier

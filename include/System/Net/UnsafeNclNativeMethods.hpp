@@ -23,8 +23,6 @@ namespace System::Net {
     class HttpApi;
     // Nested type: System::Net::UnsafeNclNativeMethods::SecureStringHelper
     class SecureStringHelper;
-    // Creating value type constructor for type: UnsafeNclNativeMethods
-    UnsafeNclNativeMethods() noexcept {}
   }; // System.Net.UnsafeNclNativeMethods
   #pragma pack(pop)
 }

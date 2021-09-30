@@ -24,8 +24,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D61C
   class ICustomAttributeProvider {
     public:
-    // Creating value type constructor for type: ICustomAttributeProvider
-    ICustomAttributeProvider() noexcept {}
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);

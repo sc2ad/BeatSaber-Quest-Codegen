@@ -46,8 +46,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(System::Collections::Generic::Dictionary_2<int, int>* lookup_ = {}, UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}) noexcept : lookup{lookup_}, mesh{mesh_} {}
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh

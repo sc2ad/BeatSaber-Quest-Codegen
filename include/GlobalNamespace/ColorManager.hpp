@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
-    // Creating value type constructor for type: ColorManager
-    ColorManager(GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : colorScheme{colorScheme_} {}
     // Creating conversion operator: operator GlobalNamespace::ColorScheme*
     constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;

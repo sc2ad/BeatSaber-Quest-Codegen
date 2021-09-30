@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F45C
   class SHA1 : public System::Security::Cryptography::HashAlgorithm {
     public:
-    // Creating value type constructor for type: SHA1
-    SHA1() noexcept {}
     // static public System.Security.Cryptography.SHA1 Create()
     // Offset: 0x1CC39D4
     static System::Security::Cryptography::SHA1* Create();

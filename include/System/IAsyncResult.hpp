@@ -24,8 +24,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C1BC
   class IAsyncResult {
     public:
-    // Creating value type constructor for type: IAsyncResult
-    IAsyncResult() noexcept {}
     // public System.Boolean get_IsCompleted()
     // Offset: 0xFFFFFFFF
     bool get_IsCompleted();

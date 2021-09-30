@@ -44,8 +44,6 @@ namespace System::Xml {
     System::Threading::Tasks::Task* lastTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: XmlAsyncCheckWriter
-    XmlAsyncCheckWriter(System::Xml::XmlWriter* coreWriter_ = {}, System::Threading::Tasks::Task* lastTask_ = {}) noexcept : coreWriter{coreWriter_}, lastTask{lastTask_} {}
     // Get instance field reference: private readonly System.Xml.XmlWriter coreWriter
     System::Xml::XmlWriter*& dyn_coreWriter();
     // Get instance field reference: private System.Threading.Tasks.Task lastTask

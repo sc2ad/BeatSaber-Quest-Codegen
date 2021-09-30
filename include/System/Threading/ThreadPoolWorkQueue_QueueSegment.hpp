@@ -47,8 +47,6 @@ namespace System::Threading {
     System::Threading::ThreadPoolWorkQueue::QueueSegment* Next;
     // Field size check
     static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
-    // Creating value type constructor for type: QueueSegment
-    QueueSegment(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> nodes_ = {}, int indexes_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* Next_ = {}) noexcept : nodes{nodes_}, indexes{indexes_}, Next{Next_} {}
     // Get instance field reference: readonly System.Threading.IThreadPoolWorkItem[] nodes
     ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>& dyn_nodes();
     // Get instance field reference: private System.Int32 indexes

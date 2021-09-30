@@ -118,8 +118,6 @@ namespace Mono::Globalization::Unicode {
     bool frenchSort;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SimpleCollator
-    SimpleCollator(System::Globalization::TextInfo* textInfo_ = {}, Mono::Globalization::Unicode::CodePointIndexer* cjkIndexer_ = {}, ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*> contractions_ = {}, ::ArrayWrapper<Mono::Globalization::Unicode::Level2Map*> level2Maps_ = {}, ::ArrayWrapper<uint8_t> unsafeFlags_ = {}, uint8_t* cjkCatTable_ = {}, uint8_t* cjkLv1Table_ = {}, uint8_t* cjkLv2Table_ = {}, Mono::Globalization::Unicode::CodePointIndexer* cjkLv2Indexer_ = {}, int lcid_ = {}, bool frenchSort_ = {}) noexcept : textInfo{textInfo_}, cjkIndexer{cjkIndexer_}, contractions{contractions_}, level2Maps{level2Maps_}, unsafeFlags{unsafeFlags_}, cjkCatTable{cjkCatTable_}, cjkLv1Table{cjkLv1Table_}, cjkLv2Table{cjkLv2Table_}, cjkLv2Indexer{cjkLv2Indexer_}, lcid{lcid_}, frenchSort{frenchSort_} {}
     // Get static field: static private System.Boolean QuickCheckDisabled
     static bool _get_QuickCheckDisabled();
     // Set static field: static private System.Boolean QuickCheckDisabled

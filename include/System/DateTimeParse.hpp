@@ -322,8 +322,6 @@ namespace System {
     #pragma pack(pop)
     static check_size<sizeof(DateTimeParse::DS), 0 + sizeof(int)> __System_DateTimeParse_DSSizeCheck;
     static_assert(sizeof(DateTimeParse::DS) == 0x4);
-    // Creating value type constructor for type: DateTimeParse
-    DateTimeParse() noexcept {}
     // Get static field: static System.DateTimeParse/System.MatchNumberDelegate m_hebrewNumberParser
     static System::DateTimeParse::MatchNumberDelegate* _get_m_hebrewNumberParser();
     // Set static field: static System.DateTimeParse/System.MatchNumberDelegate m_hebrewNumberParser

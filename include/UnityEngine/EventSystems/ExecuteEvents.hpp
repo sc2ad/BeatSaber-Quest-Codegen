@@ -90,8 +90,6 @@ namespace UnityEngine::EventSystems {
     class EventFunction_1;
     // Nested type: UnityEngine::EventSystems::ExecuteEvents::$$c
     class $$c;
-    // Creating value type constructor for type: ExecuteEvents
-    ExecuteEvents() noexcept {}
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> s_PointerEnterHandler
     static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* _get_s_PointerEnterHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> s_PointerEnterHandler

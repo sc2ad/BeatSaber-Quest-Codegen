@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerResultsData
-    MultiplayerResultsData(::Il2CppString* gameId_ = {}, GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData_ = {}) noexcept : gameId{gameId_}, localPlayerResultData{localPlayerResultData_}, otherPlayersData{otherPlayersData_}, allPlayersSortedData{allPlayersSortedData_} {}
     // Get instance field reference: private readonly System.String _gameId
     ::Il2CppString*& dyn__gameId();
     // Get instance field reference: private readonly MultiplayerPlayerResultsData _localPlayerResultData

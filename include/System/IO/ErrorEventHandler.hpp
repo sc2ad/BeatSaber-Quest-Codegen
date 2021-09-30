@@ -34,8 +34,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class ErrorEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ErrorEventHandler
-    ErrorEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1A32240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

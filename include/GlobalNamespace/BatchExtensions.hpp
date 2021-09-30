@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BatchExtensions::$Batch$d__0_1<T>
     template<typename T>
     class $Batch$d__0_1;
-    // Creating value type constructor for type: BatchExtensions
-    BatchExtensions() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.List`1<T>> Batch(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 batchSize)
     // Offset: 0xFFFFFFFF
     template<class T>

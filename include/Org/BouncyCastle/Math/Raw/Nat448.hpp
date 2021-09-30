@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Math::Raw {
   // [TokenAttribute] Offset: FFFFFFFF
   class Nat448 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Nat448
-    Nat448() noexcept {}
     // static public System.Void Copy64(System.UInt64[] x, System.UInt64[] z)
     // Offset: 0x14BA5A8
     static void Copy64(::ArrayWrapper<uint64_t> x, ::ArrayWrapper<uint64_t> z);

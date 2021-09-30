@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     UnityEngine::TextAsset* localizedText;
     // Field size check
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
-    // Creating value type constructor for type: TextInfo
-    TextInfo(Polyglot::Language language_ = {}, UnityEngine::TextAsset* localizedText_ = {}) noexcept : language{language_}, localizedText{localizedText_} {}
     // Get instance field reference: public Polyglot.Language language
     Polyglot::Language& dyn_language();
     // Get instance field reference: public UnityEngine.TextAsset localizedText

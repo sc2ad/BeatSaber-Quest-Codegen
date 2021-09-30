@@ -38,8 +38,6 @@ namespace System::IO {
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData;
     // Field size check
     static_assert(sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*) == 0x8);
-    // Creating value type constructor for type: SearchResult
-    SearchResult(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, findData{findData_} {}
     // Get instance field reference: private System.String fullPath
     ::Il2CppString*& dyn_fullPath();
     // Get instance field reference: private System.String userPath

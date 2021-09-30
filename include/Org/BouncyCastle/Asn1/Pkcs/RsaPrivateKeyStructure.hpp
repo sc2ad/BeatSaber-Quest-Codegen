@@ -82,8 +82,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Math::BigInteger* coefficient;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: RsaPrivateKeyStructure
-    RsaPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger* modulus_ = {}, Org::BouncyCastle::Math::BigInteger* publicExponent_ = {}, Org::BouncyCastle::Math::BigInteger* privateExponent_ = {}, Org::BouncyCastle::Math::BigInteger* prime1_ = {}, Org::BouncyCastle::Math::BigInteger* prime2_ = {}, Org::BouncyCastle::Math::BigInteger* exponent1_ = {}, Org::BouncyCastle::Math::BigInteger* exponent2_ = {}, Org::BouncyCastle::Math::BigInteger* coefficient_ = {}) noexcept : modulus{modulus_}, publicExponent{publicExponent_}, privateExponent{privateExponent_}, prime1{prime1_}, prime2{prime2_}, exponent1{exponent1_}, exponent2{exponent2_}, coefficient{coefficient_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger modulus
     Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger publicExponent

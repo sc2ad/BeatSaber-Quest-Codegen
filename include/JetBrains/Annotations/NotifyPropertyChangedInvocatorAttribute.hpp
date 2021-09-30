@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* ParameterName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NotifyPropertyChangedInvocatorAttribute
-    NotifyPropertyChangedInvocatorAttribute(::Il2CppString* ParameterName_ = {}) noexcept : ParameterName{ParameterName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return ParameterName;

@@ -151,8 +151,6 @@ namespace NUnit::Framework::Internal {
     bool RequiresThread;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Test
-    Test(::ArrayWrapper<System::Reflection::MethodInfo*> setUpMethods_ = {}, ::ArrayWrapper<System::Reflection::MethodInfo*> tearDownMethods_ = {}, NUnit::Framework::Interfaces::ITypeInfo* DeclaringTypeInfo_ = {}, NUnit::Framework::Interfaces::IMethodInfo* method_ = {}, ::Il2CppString* Id_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppString* FullName_ = {}, NUnit::Framework::Interfaces::ITypeInfo* TypeInfo_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, NUnit::Framework::Interfaces::IPropertyBag* Properties_ = {}, NUnit::Framework::Interfaces::ITest* Parent_ = {}, ::Il2CppObject* Fixture_ = {}, int Seed_ = {}, bool RequiresThread_ = {}) noexcept : setUpMethods{setUpMethods_}, tearDownMethods{tearDownMethods_}, DeclaringTypeInfo{DeclaringTypeInfo_}, method{method_}, Id{Id_}, Name{Name_}, FullName{FullName_}, TypeInfo{TypeInfo_}, RunState{RunState_}, Properties{Properties_}, Parent{Parent_}, Fixture{Fixture_}, Seed{Seed_}, RequiresThread{RequiresThread_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITest
     operator NUnit::Framework::Interfaces::ITest() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITest*>(this);

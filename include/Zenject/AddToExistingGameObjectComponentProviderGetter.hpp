@@ -58,8 +58,6 @@ namespace Zenject {
     System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*) == 0x8);
-    // Creating value type constructor for type: AddToExistingGameObjectComponentProviderGetter
-    AddToExistingGameObjectComponentProviderGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter_ = {}) noexcept : gameObjectGetter{gameObjectGetter_} {}
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*
     constexpr operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*() const noexcept {
       return gameObjectGetter;

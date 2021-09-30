@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // Creating value type constructor for type: PackLevelListHeaderTableCell
-    PackLevelListHeaderTableCell(UnityEngine::Color selectedHighlightElementsColor_ = {}, TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, UnityEngine::UI::Image* arrowImage_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : selectedHighlightElementsColor{selectedHighlightElementsColor_}, text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_}, arrowImage{arrowImage_}, cancellationTokenSource{cancellationTokenSource_} {}
     // Get instance field reference: private UnityEngine.Color _selectedHighlightElementsColor
     UnityEngine::Color& dyn__selectedHighlightElementsColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

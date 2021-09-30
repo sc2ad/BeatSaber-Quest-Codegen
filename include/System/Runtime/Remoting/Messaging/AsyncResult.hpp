@@ -150,8 +150,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Threading::WaitCallback* orig_cb;
     // Field size check
     static_assert(sizeof(System::Threading::WaitCallback*) == 0x8);
-    // Creating value type constructor for type: AsyncResult
-    AsyncResult(::Il2CppObject* async_state_ = {}, System::Threading::WaitHandle* handle_ = {}, ::Il2CppObject* async_delegate_ = {}, System::IntPtr data_ = {}, ::Il2CppObject* object_data_ = {}, bool sync_completed_ = {}, bool completed_ = {}, bool endinvoke_called_ = {}, ::Il2CppObject* async_callback_ = {}, System::Threading::ExecutionContext* current_ = {}, System::Threading::ExecutionContext* original_ = {}, int64_t add_time_ = {}, System::Runtime::Remoting::Messaging::MonoMethodMessage* call_message_ = {}, System::Runtime::Remoting::Messaging::IMessageCtrl* message_ctrl_ = {}, System::Runtime::Remoting::Messaging::IMessage* reply_message_ = {}, System::Threading::WaitCallback* orig_cb_ = {}) noexcept : async_state{async_state_}, handle{handle_}, async_delegate{async_delegate_}, data{data_}, object_data{object_data_}, sync_completed{sync_completed_}, completed{completed_}, endinvoke_called{endinvoke_called_}, async_callback{async_callback_}, current{current_}, original{original_}, add_time{add_time_}, call_message{call_message_}, message_ctrl{message_ctrl_}, reply_message{reply_message_}, orig_cb{orig_cb_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

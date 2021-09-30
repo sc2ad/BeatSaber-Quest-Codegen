@@ -66,8 +66,6 @@ namespace System::Threading::Tasks {
     System::Action* m_action;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: AwaitTaskContinuation
-    AwaitTaskContinuation(System::Threading::ExecutionContext* m_capturedContext_ = {}, System::Action* m_action_ = {}) noexcept : m_capturedContext{m_capturedContext_}, m_action{m_action_} {}
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

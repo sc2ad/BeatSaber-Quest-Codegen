@@ -16,8 +16,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsyncLocal {
     public:
-    // Creating value type constructor for type: IAsyncLocal
-    IAsyncLocal() noexcept {}
     // public System.Void OnValueChanged(System.Object previousValue, System.Object currentValue, System.Boolean contextChanged)
     // Offset: 0xFFFFFFFF
     void OnValueChanged(::Il2CppObject* previousValue, ::Il2CppObject* currentValue, bool contextChanged);

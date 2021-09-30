@@ -118,8 +118,6 @@ namespace TMPro {
     TMPro::TextMeshPro* m_textMeshPro;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshPro*) == 0x8);
-    // Creating value type constructor for type: TextContainer
-    TextContainer(bool m_hasChanged_ = {}, UnityEngine::Vector2 m_pivot_ = {}, TMPro::TextContainerAnchors m_anchorPosition_ = {}, UnityEngine::Rect m_rect_ = {}, bool m_isDefaultWidth_ = {}, bool m_isDefaultHeight_ = {}, bool m_isAutoFitting_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_corners_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_worldCorners_ = {}, UnityEngine::Vector4 m_margins_ = {}, UnityEngine::RectTransform* m_rectTransform_ = {}, TMPro::TextMeshPro* m_textMeshPro_ = {}) noexcept : m_hasChanged{m_hasChanged_}, m_pivot{m_pivot_}, m_anchorPosition{m_anchorPosition_}, m_rect{m_rect_}, m_isDefaultWidth{m_isDefaultWidth_}, m_isDefaultHeight{m_isDefaultHeight_}, m_isAutoFitting{m_isAutoFitting_}, m_corners{m_corners_}, m_worldCorners{m_worldCorners_}, m_margins{m_margins_}, m_rectTransform{m_rectTransform_}, m_textMeshPro{m_textMeshPro_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Vector2 k_defaultSize

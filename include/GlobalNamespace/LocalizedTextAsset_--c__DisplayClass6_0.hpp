@@ -29,8 +29,6 @@ namespace GlobalNamespace {
     Polyglot::Language language;
     // Field size check
     static_assert(sizeof(Polyglot::Language) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass6_0
-    $$c__DisplayClass6_0(Polyglot::Language language_ = {}) noexcept : language{language_} {}
     // Creating conversion operator: operator Polyglot::Language
     constexpr operator Polyglot::Language() const noexcept {
       return language;

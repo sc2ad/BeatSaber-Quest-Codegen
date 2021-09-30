@@ -41,7 +41,7 @@ namespace System::Linq {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Buffer_1
-    constexpr Buffer_1(::ArrayWrapper<TElement> items_ = {}, int count_ = {}) noexcept : items{items_}, count{count_} {}
+    constexpr Buffer_1(::ArrayWrapper<TElement> items_ = {nullptr}, int count_ = {}) noexcept : items{items_}, count{count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -64,7 +64,6 @@ namespace System::Linq {
     }
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Buffer_1(System::Collections::Generic::IEnumerable_1<TElement>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Buffer_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));

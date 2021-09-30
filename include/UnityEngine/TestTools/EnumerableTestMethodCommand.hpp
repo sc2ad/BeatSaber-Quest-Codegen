@@ -53,8 +53,6 @@ namespace UnityEngine::TestTools {
     NUnit::Framework::Internal::TestMethod* testMethod;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestMethod*) == 0x8);
-    // Creating value type constructor for type: EnumerableTestMethodCommand
-    EnumerableTestMethodCommand(NUnit::Framework::Internal::TestMethod* testMethod_ = {}) noexcept : testMethod{testMethod_} {}
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

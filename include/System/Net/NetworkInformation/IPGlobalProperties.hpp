@@ -18,8 +18,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPGlobalProperties : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IPGlobalProperties
-    IPGlobalProperties() noexcept {}
     // Get static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static bool _get_$PlatformNeedsLibCWorkaround$k__BackingField();
     // Set static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField

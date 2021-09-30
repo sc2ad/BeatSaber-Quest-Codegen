@@ -76,8 +76,6 @@ namespace Zenject {
     Zenject::InjectTypeInfo* BaseTypeInfo;
     // Field size check
     static_assert(sizeof(Zenject::InjectTypeInfo*) == 0x8);
-    // Creating value type constructor for type: InjectTypeInfo
-    InjectTypeInfo(System::Type* Type_ = {}, ::ArrayWrapper<Zenject::InjectTypeInfo::InjectMethodInfo*> InjectMethods_ = {}, ::ArrayWrapper<Zenject::InjectTypeInfo::InjectMemberInfo*> InjectMembers_ = {}, Zenject::InjectTypeInfo::InjectConstructorInfo* InjectConstructor_ = {}, Zenject::InjectTypeInfo* BaseTypeInfo_ = {}) noexcept : Type{Type_}, InjectMethods{InjectMethods_}, InjectMembers{InjectMembers_}, InjectConstructor{InjectConstructor_}, BaseTypeInfo{BaseTypeInfo_} {}
     // Get static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMemberInfo,Zenject.InjectableInfo> CS$<>9__CachedAnonymousMethodDelegate2
     static System::Func_2<Zenject::InjectTypeInfo::InjectMemberInfo*, Zenject::InjectableInfo*>* _get_CS$$$9__CachedAnonymousMethodDelegate2();
     // Set static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMemberInfo,Zenject.InjectableInfo> CS$<>9__CachedAnonymousMethodDelegate2

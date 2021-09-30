@@ -33,8 +33,6 @@ namespace NUnit::Framework::Interfaces {
   // [DefaultMemberAttribute] Offset: EEEA58
   class IPropertyBag/*, public NUnit::Framework::Interfaces::IXmlNodeBuilder*/ {
     public:
-    // Creating value type constructor for type: IPropertyBag
-    IPropertyBag() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IXmlNodeBuilder
     operator NUnit::Framework::Interfaces::IXmlNodeBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);

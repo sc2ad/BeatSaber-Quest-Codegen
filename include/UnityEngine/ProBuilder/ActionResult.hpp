@@ -94,8 +94,6 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* notification;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ActionResult
-    ActionResult(UnityEngine::ProBuilder::ActionResult::Status status_ = {}, ::Il2CppString* notification_ = {}) noexcept : status{status_}, notification{notification_} {}
     // Get instance field reference: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
     UnityEngine::ProBuilder::ActionResult::Status& dyn_$status$k__BackingField();
     // Get instance field reference: private System.String <notification>k__BackingField

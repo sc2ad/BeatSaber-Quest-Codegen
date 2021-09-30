@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMultiplayerSessionManager {
     public:
-    // Creating value type constructor for type: IMultiplayerSessionManager
-    IMultiplayerSessionManager() noexcept {}
     // public IConnectedPlayer get_localPlayer()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::IConnectedPlayer* get_localPlayer();

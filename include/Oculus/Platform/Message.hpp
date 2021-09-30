@@ -1341,8 +1341,6 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::Error* error;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Error*) == 0x8);
-    // Creating value type constructor for type: Message
-    Message(Oculus::Platform::Message::MessageType type_ = {}, uint64_t requestID_ = {}, Oculus::Platform::Models::Error* error_ = {}) noexcept : type{type_}, requestID{requestID_}, error{error_} {}
     // Get static field: static private Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField
     static Oculus::Platform::Message::ExtraMessageTypesHandler* _get_$HandleExtraMessageTypes$k__BackingField();
     // Set static field: static private Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField

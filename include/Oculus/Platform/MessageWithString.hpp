@@ -19,8 +19,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithString : public Oculus::Platform::Message_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: MessageWithString
-    MessageWithString() noexcept {}
     // protected System.String GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BDDF4
     ::Il2CppString* GetDataFromMessage(System::IntPtr c_message);

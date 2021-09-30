@@ -164,8 +164,6 @@ namespace NUnit::Framework::Internal {
     bool IsSingleThreaded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestExecutionContext
-    TestExecutionContext(NUnit::Framework::Internal::TestExecutionContext* priorContext_ = {}, NUnit::Framework::Interfaces::ITestListener* listener_ = {}, int assertCount_ = {}, System::Globalization::CultureInfo* currentCulture_ = {}, System::Globalization::CultureInfo* currentUICulture_ = {}, NUnit::Framework::Internal::TestResult* currentResult_ = {}, System::Security::Principal::IPrincipal* currentPrincipal_ = {}, NUnit::Framework::Internal::Test* CurrentTest_ = {}, System::IO::TextWriter* OutWriter_ = {}, ::Il2CppObject* TestObject_ = {}, int TestCaseTimeout_ = {}, System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* UpstreamActions_ = {}, NUnit::Framework::Constraints::ValueFormatter* CurrentValueFormatter_ = {}, bool IsSingleThreaded_ = {}) noexcept : priorContext{priorContext_}, listener{listener_}, assertCount{assertCount_}, currentCulture{currentCulture_}, currentUICulture{currentUICulture_}, currentResult{currentResult_}, currentPrincipal{currentPrincipal_}, CurrentTest{CurrentTest_}, OutWriter{OutWriter_}, TestObject{TestObject_}, TestCaseTimeout{TestCaseTimeout_}, UpstreamActions{UpstreamActions_}, CurrentValueFormatter{CurrentValueFormatter_}, IsSingleThreaded{IsSingleThreaded_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext
     operator NUnit::Framework::Internal::ITestExecutionContext() noexcept {
       return *reinterpret_cast<NUnit::Framework::Internal::ITestExecutionContext*>(this);

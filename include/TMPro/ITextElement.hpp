@@ -25,8 +25,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITextElement {
     public:
-    // Creating value type constructor for type: ITextElement
-    ITextElement() noexcept {}
     // public UnityEngine.Material get_sharedMaterial()
     // Offset: 0xFFFFFFFF
     UnityEngine::Material* get_sharedMaterial();

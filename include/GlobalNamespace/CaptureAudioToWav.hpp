@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     System::IO::FileStream* fileStream;
     // Field size check
     static_assert(sizeof(System::IO::FileStream*) == 0x8);
-    // Creating value type constructor for type: CaptureAudioToWav
-    CaptureAudioToWav(::Il2CppString* fileName_ = {}, int sampleRate_ = {}, int headerSize_ = {}, bool recording_ = {}, System::IO::FileStream* fileStream_ = {}) noexcept : fileName{fileName_}, sampleRate{sampleRate_}, headerSize{headerSize_}, recording{recording_}, fileStream{fileStream_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _fileName

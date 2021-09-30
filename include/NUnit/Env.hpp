@@ -14,8 +14,6 @@ namespace NUnit {
   // [TokenAttribute] Offset: FFFFFFFF
   class Env : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Env
-    Env() noexcept {}
     // Get static field: static public readonly System.String NewLine
     static ::Il2CppString* _get_NewLine();
     // Set static field: static public readonly System.String NewLine

@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalAppContextSwitches : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LocalAppContextSwitches
-    LocalAppContextSwitches() noexcept {}
     // Get static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs
     static bool _get_DontThrowOnInvalidSurrogatePairs();
     // Set static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs

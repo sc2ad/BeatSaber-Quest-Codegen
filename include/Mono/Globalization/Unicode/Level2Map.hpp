@@ -30,8 +30,6 @@ namespace Mono::Globalization::Unicode {
     uint8_t Replace;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: Level2Map
-    Level2Map(uint8_t Source_ = {}, uint8_t Replace_ = {}) noexcept : Source{Source_}, Replace{Replace_} {}
     // Get instance field reference: public System.Byte Source
     uint8_t& dyn_Source();
     // Get instance field reference: public System.Byte Replace

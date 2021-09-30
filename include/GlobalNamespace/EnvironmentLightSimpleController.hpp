@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LightWithIdManager*) == 0x8);
-    // Creating value type constructor for type: EnvironmentLightSimpleController
-    EnvironmentLightSimpleController(UnityEngine::Color color_ = {}, int colorId_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}) noexcept : color{color_}, colorId{colorId_}, lightManager{lightManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _color

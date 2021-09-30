@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: EA8194
   class VerticalLayoutGroup : public UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
     public:
-    // Creating value type constructor for type: VerticalLayoutGroup
-    VerticalLayoutGroup() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x25D9680
     // Implemented from: UnityEngine.UI.HorizontalOrVerticalLayoutGroup

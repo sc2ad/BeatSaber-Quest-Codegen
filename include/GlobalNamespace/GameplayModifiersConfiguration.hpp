@@ -25,8 +25,6 @@ namespace GlobalNamespace {
     class CutAngleTolerance;
     // Nested type: GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale
     class NoteUniformScale;
-    // Creating value type constructor for type: GameplayModifiersConfiguration
-    GameplayModifiersConfiguration() noexcept {}
   }; // GameplayModifiersConfiguration
   #pragma pack(pop)
 }

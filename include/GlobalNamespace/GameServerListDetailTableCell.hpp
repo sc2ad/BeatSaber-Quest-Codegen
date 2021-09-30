@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: GameServerListDetailTableCell
-    GameServerListDetailTableCell(UnityEngine::UI::Button* joinServerButton_ = {}, System::Action* joinServerButtonWasPressedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : joinServerButton{joinServerButton_}, joinServerButtonWasPressedEvent{joinServerButtonWasPressedEvent_}, buttonBinder{buttonBinder_} {}
     // Get instance field reference: private UnityEngine.UI.Button _joinServerButton
     UnityEngine::UI::Button*& dyn__joinServerButton();
     // Get instance field reference: private System.Action joinServerButtonWasPressedEvent

@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::OpenSsl {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPasswordFinder {
     public:
-    // Creating value type constructor for type: IPasswordFinder
-    IPasswordFinder() noexcept {}
     // public System.Char[] GetPassword()
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<::Il2CppChar> GetPassword();

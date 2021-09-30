@@ -80,8 +80,6 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::RegexNode* next;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::RegexNode*) == 0x8);
-    // Creating value type constructor for type: RegexNode
-    RegexNode(int type_ = {}, System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>* children_ = {}, ::Il2CppString* str_ = {}, ::Il2CppChar ch_ = {}, int m_ = {}, int n_ = {}, System::Text::RegularExpressions::RegexOptions options_ = {}, System::Text::RegularExpressions::RegexNode* next_ = {}) noexcept : type{type_}, children{children_}, str{str_}, ch{ch_}, m{m_}, n{n_}, options{options_}, next{next_} {}
     // Get instance field reference: System.Int32 _type
     int& dyn__type();
     // Get instance field reference: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children

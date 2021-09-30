@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteDebris*) == 0x8);
-    // Creating value type constructor for type: MultiplayerEffectPoolsInstaller
-    MultiplayerEffectPoolsInstaller(GlobalNamespace::BoolSO* noteDebrisHDConditionVariable_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : noteDebrisHDConditionVariable{noteDebrisHDConditionVariable_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
     // Get instance field reference: private BoolSO _noteDebrisHDConditionVariable
     GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
     // Get instance field reference: private NoteDebris _noteDebrisHDPrefab

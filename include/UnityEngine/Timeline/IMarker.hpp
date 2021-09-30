@@ -20,8 +20,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMarker {
     public:
-    // Creating value type constructor for type: IMarker
-    IMarker() noexcept {}
     // public System.Double get_time()
     // Offset: 0xFFFFFFFF
     double get_time();

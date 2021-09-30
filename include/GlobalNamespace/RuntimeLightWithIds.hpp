@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     bool multiplyColorByAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RuntimeLightWithIds
-    RuntimeLightWithIds(::ArrayWrapper<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*> lightIntensityData_ = {}, float intensity_ = {}, float maxIntensity_ = {}, bool multiplyColorByAlpha_ = {}) noexcept : lightIntensityData{lightIntensityData_}, intensity{intensity_}, maxIntensity{maxIntensity_}, multiplyColorByAlpha{multiplyColorByAlpha_} {}
     // Get instance field reference: private RuntimeLightWithIds/LightIntensitiesData[] _lightIntensityData
     ::ArrayWrapper<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
     // Get instance field reference: private System.Single _intensity

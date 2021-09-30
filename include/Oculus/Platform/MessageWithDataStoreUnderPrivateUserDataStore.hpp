@@ -27,8 +27,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithDataStoreUnderPrivateUserDataStore : public Oculus::Platform::Message_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*> {
     public:
-    // Creating value type constructor for type: MessageWithDataStoreUnderPrivateUserDataStore
-    MessageWithDataStoreUnderPrivateUserDataStore() noexcept {}
     // protected System.Collections.Generic.Dictionary`2<System.String,System.String> GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B7634
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetDataFromMessage(System::IntPtr c_message);

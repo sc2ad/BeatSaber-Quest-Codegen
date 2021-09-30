@@ -65,8 +65,6 @@ namespace HoudiniEngineUnity {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator $$7__wrap1;
-    // Creating value type constructor for type: $get_Children$d__23
-    $get_Children$d__23(int $$1__state_ = {}, HoudiniEngineUnity::JSONNode* $$2__current_ = {}, int $$l__initialThreadId_ = {}, HoudiniEngineUnity::JSONObject* $$4__this_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>*>(this);

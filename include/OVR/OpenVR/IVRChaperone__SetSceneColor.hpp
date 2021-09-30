@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB06E4
   class IVRChaperone::_SetSceneColor : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetSceneColor
-    _SetSceneColor() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1771330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

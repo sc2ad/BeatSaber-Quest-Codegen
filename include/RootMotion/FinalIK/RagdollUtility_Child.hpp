@@ -49,8 +49,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion localRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: Child
-    Child(UnityEngine::Transform* t_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localRotation_ = {}) noexcept : t{t_}, localPosition{localPosition_}, localRotation{localRotation_} {}
     // Get instance field reference: public UnityEngine.Transform t
     UnityEngine::Transform*& dyn_t();
     // Get instance field reference: public UnityEngine.Vector3 localPosition

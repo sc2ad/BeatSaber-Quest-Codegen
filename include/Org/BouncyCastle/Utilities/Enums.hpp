@@ -25,8 +25,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Enums : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Enums
-    Enums() noexcept {}
     // static System.Enum GetEnumValue(System.Type enumType, System.String s)
     // Offset: 0x2181CE0
     static System::Enum* GetEnumValue(System::Type* enumType, ::Il2CppString* s);

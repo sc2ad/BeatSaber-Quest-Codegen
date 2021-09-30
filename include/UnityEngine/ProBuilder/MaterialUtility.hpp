@@ -29,8 +29,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MaterialUtility
-    MaterialUtility() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
     static System::Collections::Generic::List_1<UnityEngine::Material*>* _get_s_MaterialArray();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray

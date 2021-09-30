@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     float $elapsedTime$5__2;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $AnimationCoroutine$d__2
-    $AnimationCoroutine$d__2(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, float duration_ = {}, GlobalNamespace::BloomFogParamsAnimator* $$4__this_ = {}, GlobalNamespace::BloomFogEnvironmentParams* envFogParams_ = {}, float $elapsedTime$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, duration{duration_}, $$4__this{$$4__this_}, envFogParams{envFogParams_}, $elapsedTime$5__2{$elapsedTime$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

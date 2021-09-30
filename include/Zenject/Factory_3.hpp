@@ -21,8 +21,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TValue>
   class Factory_3 : public Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue> {
     public:
-    // Creating value type constructor for type: Factory_3
-    Factory_3() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PlaceholderFactory`3

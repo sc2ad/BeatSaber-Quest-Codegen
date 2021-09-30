@@ -14,8 +14,6 @@ namespace System::Numerics::Hashing {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HashHelpers
-    HashHelpers() noexcept {}
     // Get static field: static public readonly System.Int32 RandomSeed
     static int _get_RandomSeed();
     // Set static field: static public readonly System.Int32 RandomSeed

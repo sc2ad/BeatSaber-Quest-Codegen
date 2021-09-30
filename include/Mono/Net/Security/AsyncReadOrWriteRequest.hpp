@@ -41,8 +41,6 @@ namespace Mono::Net::Security {
     int CurrentSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AsyncReadOrWriteRequest
-    AsyncReadOrWriteRequest(Mono::Net::Security::BufferOffsetSize* UserBuffer_ = {}, int CurrentSize_ = {}) noexcept : UserBuffer{UserBuffer_}, CurrentSize{CurrentSize_} {}
     // Get instance field reference: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
     Mono::Net::Security::BufferOffsetSize*& dyn_$UserBuffer$k__BackingField();
     // Get instance field reference: private System.Int32 <CurrentSize>k__BackingField

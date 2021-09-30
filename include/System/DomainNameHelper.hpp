@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DomainNameHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DomainNameHelper
-    DomainNameHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
     // Offset: 0x1A2B87C
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> loopback);

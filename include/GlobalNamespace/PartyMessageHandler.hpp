@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* connectToMasterServerEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*) == 0x8);
-    // Creating value type constructor for type: PartyMessageHandler
-    PartyMessageHandler(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::PartyMessageHandler::MessageType, GlobalNamespace::IConnectedPlayer*>* serializer_ = {}, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager_ = {}, GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* connectToMasterServerEvent_ = {}) noexcept : serializer{serializer_}, connectedPlayerManager{connectedPlayerManager_}, connectToMasterServerEvent{connectToMasterServerEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

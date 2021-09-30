@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     ::Il2CppChar $$3__c;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: $GetLookalikeLetters$d__4
-    $GetLookalikeLetters$d__4(int $$1__state_ = {}, ::Il2CppChar $$2__current_ = {}, int $$l__initialThreadId_ = {}, ::Il2CppChar c_ = {}, ::Il2CppChar $$3__c_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, c{c_}, $$3__c{$$3__c_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppChar>
     operator System::Collections::Generic::IEnumerable_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementIdsModelSO* achievementIdsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementIdsModelSO*) == 0x8);
-    // Creating value type constructor for type: OculusPlatformAchievementHandler
-    OculusPlatformAchievementHandler(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel_ = {}) noexcept : achievementIdsModel{achievementIdsModel_} {}
     // Creating conversion operator: operator GlobalNamespace::AchievementIdsModelSO*
     constexpr operator GlobalNamespace::AchievementIdsModelSO*() const noexcept {
       return achievementIdsModel;

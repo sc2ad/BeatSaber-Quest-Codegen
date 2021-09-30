@@ -33,8 +33,6 @@ namespace TMPro {
     UnityEngine::Sprite* sprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: TMP_SpriteGlyph
-    TMP_SpriteGlyph(UnityEngine::Sprite* sprite_ = {}) noexcept : sprite{sprite_} {}
     // Creating conversion operator: operator UnityEngine::Sprite*
     constexpr operator UnityEngine::Sprite*() const noexcept {
       return sprite;

@@ -49,8 +49,6 @@ namespace Zenject {
     Zenject::SubContainerBindingFinalizer::$$c__DisplayClass6_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerBindingFinalizer::$$c__DisplayClass6_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_1
-    $$c__DisplayClass6_1(Zenject::SubContainerCreatorCached* containerCreator_ = {}, Zenject::SubContainerBindingFinalizer::$$c__DisplayClass6_0* CS$$$8__locals1_ = {}) noexcept : containerCreator{containerCreator_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public Zenject.SubContainerCreatorCached containerCreator
     Zenject::SubContainerCreatorCached*& dyn_containerCreator();
     // Get instance field reference: public Zenject.SubContainerBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1

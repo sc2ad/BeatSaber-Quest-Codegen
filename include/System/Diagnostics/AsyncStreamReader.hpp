@@ -83,8 +83,6 @@ namespace System::Diagnostics {
     ::Il2CppObject* syncObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: AsyncStreamReader
-    AsyncStreamReader(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Decoder* decoder_ = {}, ::ArrayWrapper<uint8_t> byteBuffer_ = {}, ::ArrayWrapper<::Il2CppChar> charBuffer_ = {}, bool cancelOperation_ = {}, System::Threading::ManualResetEvent* eofEvent_ = {}, ::Il2CppObject* syncObject_ = {}) noexcept : stream{stream_}, encoding{encoding_}, decoder{decoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, cancelOperation{cancelOperation_}, eofEvent{eofEvent_}, syncObject{syncObject_} {}
     // Get instance field reference: private System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Text.Encoding encoding

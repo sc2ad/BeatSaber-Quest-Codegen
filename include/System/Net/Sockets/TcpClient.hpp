@@ -70,8 +70,6 @@ namespace System::Net::Sockets {
     bool m_CleanedUp;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TcpClient
-    TcpClient(System::Net::Sockets::Socket* m_ClientSocket_ = {}, bool m_Active_ = {}, System::Net::Sockets::NetworkStream* m_DataStream_ = {}, System::Net::Sockets::AddressFamily m_Family_ = {}, bool m_CleanedUp_ = {}) noexcept : m_ClientSocket{m_ClientSocket_}, m_Active{m_Active_}, m_DataStream{m_DataStream_}, m_Family{m_Family_}, m_CleanedUp{m_CleanedUp_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

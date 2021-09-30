@@ -16,8 +16,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class ErrorEventArgs : public System::EventArgs {
     public:
-    // Creating value type constructor for type: ErrorEventArgs
-    ErrorEventArgs() noexcept {}
   }; // System.IO.ErrorEventArgs
   #pragma pack(pop)
 }

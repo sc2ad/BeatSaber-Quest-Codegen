@@ -20,8 +20,6 @@ namespace Microsoft::Win32::SafeHandles {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeProcessHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
-    // Creating value type constructor for type: SafeProcessHandle
-    SafeProcessHandle() noexcept {}
     // Get static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static Microsoft::Win32::SafeHandles::SafeProcessHandle* _get_InvalidHandle();
     // Set static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle

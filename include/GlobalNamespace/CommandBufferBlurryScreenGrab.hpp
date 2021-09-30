@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     int downsample;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CommandBufferBlurryScreenGrab
-    CommandBufferBlurryScreenGrab(GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize_ = {}, UnityEngine::Rendering::CameraEvent cameraEvent_ = {}, int downsample_ = {}) noexcept : kawaseBlurRenderer{kawaseBlurRenderer_}, kernelSize{kernelSize_}, cameraEvent{cameraEvent_}, downsample{downsample_} {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* _get__cameras();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras

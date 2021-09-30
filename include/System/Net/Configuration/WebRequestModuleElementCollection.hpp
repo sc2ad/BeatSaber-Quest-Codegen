@@ -22,8 +22,6 @@ namespace System::Net::Configuration {
   // [DefaultMemberAttribute] Offset: E6A384
   class WebRequestModuleElementCollection : public System::Configuration::ConfigurationElementCollection {
     public:
-    // Creating value type constructor for type: WebRequestModuleElementCollection
-    WebRequestModuleElementCollection() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15704C8
     // Implemented from: System.Object

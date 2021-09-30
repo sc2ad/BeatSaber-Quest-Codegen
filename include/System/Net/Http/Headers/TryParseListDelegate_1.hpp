@@ -35,8 +35,6 @@ namespace System::Net::Http::Headers {
   template<typename T>
   class TryParseListDelegate_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: TryParseListDelegate_1
-    TryParseListDelegate_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

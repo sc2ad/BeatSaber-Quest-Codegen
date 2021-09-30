@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     float lightAmount;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SpawnRotationChevron
-    SpawnRotationChevron(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, UnityEngine::Color color_ = {}, float lightAmount_ = {}) noexcept : lights{lights_}, color{color_}, lightAmount{lightAmount_} {}
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
     ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Color _color

@@ -27,8 +27,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAuthenticationModule {
     public:
-    // Creating value type constructor for type: IAuthenticationModule
-    IAuthenticationModule() noexcept {}
     // public System.String get_AuthenticationType()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AuthenticationType();

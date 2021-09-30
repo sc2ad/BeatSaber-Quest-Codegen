@@ -36,8 +36,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*> avoiders;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>) == 0x8);
-    // Creating value type constructor for type: PenetrationAvoidance
-    PenetrationAvoidance(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*> avoiders_ = {}) noexcept : avoiders{avoiders_} {}
     // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
     ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>& dyn_avoiders();
     // public System.Void .ctor()

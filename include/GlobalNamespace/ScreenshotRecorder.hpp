@@ -212,8 +212,6 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* cameraRenderTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
-    // Creating value type constructor for type: ScreenshotRecorder
-    ScreenshotRecorder(::Il2CppString* folder_ = {}, UnityEngine::Camera* camera_ = {}, int frameRate_ = {}, bool forceFixedFramerate_ = {}, int interval_ = {}, GlobalNamespace::ScreenshotRecorder::RecordingType recordingType_ = {}, bool pauseWithPButton_ = {}, int antiAlias_ = {}, int screenshotWidth_ = {}, int screenshotHeight_ = {}, int counter_ = {}, float originalTimeScale_ = {}, bool paused_ = {}, int frameNum_ = {}, UnityEngine::RenderTexture* cubemapLeftEye_ = {}, UnityEngine::RenderTexture* cubemapRighEye_ = {}, UnityEngine::RenderTexture* equirectTexture_ = {}, UnityEngine::RenderTexture* cameraRenderTexture_ = {}) noexcept : folder{folder_}, camera{camera_}, frameRate{frameRate_}, forceFixedFramerate{forceFixedFramerate_}, interval{interval_}, recordingType{recordingType_}, pauseWithPButton{pauseWithPButton_}, antiAlias{antiAlias_}, screenshotWidth{screenshotWidth_}, screenshotHeight{screenshotHeight_}, counter{counter_}, originalTimeScale{originalTimeScale_}, paused{paused_}, frameNum{frameNum_}, cubemapLeftEye{cubemapLeftEye_}, cubemapRighEye{cubemapRighEye_}, equirectTexture{equirectTexture_}, cameraRenderTexture{cameraRenderTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _folder

@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Crypto {
     System::IO::MemoryStream* buffer;
     // Field size check
     static_assert(sizeof(System::IO::MemoryStream*) == 0x8);
-    // Creating value type constructor for type: BufferedIesCipher
-    BufferedIesCipher(Org::BouncyCastle::Crypto::Engines::IesEngine* engine_ = {}, bool forEncryption_ = {}, System::IO::MemoryStream* buffer_ = {}) noexcept : engine{engine_}, forEncryption{forEncryption_}, buffer{buffer_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Engines.IesEngine engine
     Org::BouncyCastle::Crypto::Engines::IesEngine*& dyn_engine();
     // Get instance field reference: private System.Boolean forEncryption

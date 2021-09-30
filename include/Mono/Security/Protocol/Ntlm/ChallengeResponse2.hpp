@@ -23,8 +23,6 @@ namespace Mono::Security::Protocol::Ntlm {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChallengeResponse2 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ChallengeResponse2
-    ChallengeResponse2() noexcept {}
     // Get static field: static private System.Byte[] magic
     static ::ArrayWrapper<uint8_t> _get_magic();
     // Set static field: static private System.Byte[] magic

@@ -39,8 +39,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71748
   class Cubemap : public UnityEngine::Texture {
     public:
-    // Creating value type constructor for type: Cubemap
-    Cubemap() noexcept {}
     // public UnityEngine.TextureFormat get_format()
     // Offset: 0x1CB5690
     UnityEngine::TextureFormat get_format();

@@ -54,8 +54,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Messaging::IMessage* call;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
-    // Creating value type constructor for type: ContextRestoreSink
-    ContextRestoreSink(System::Runtime::Remoting::Messaging::IMessageSink* next_ = {}, System::Runtime::Remoting::Contexts::Context* context_ = {}, System::Runtime::Remoting::Messaging::IMessage* call_ = {}) noexcept : next{next_}, context{context_}, call{call_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

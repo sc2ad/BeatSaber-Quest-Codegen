@@ -41,8 +41,6 @@ namespace LiteNetLib::Utils {
   template<typename T>
   class NetSerializer::EnumIntSerializer_1 : public LiteNetLib::Utils::NetSerializer::EnumByteSerializer_1<T> {
     public:
-    // Creating value type constructor for type: EnumIntSerializer_1
-    EnumIntSerializer_1() noexcept {}
     // public System.Void .ctor(System.Reflection.PropertyInfo property, System.Type propertyType)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.EnumByteSerializer`1

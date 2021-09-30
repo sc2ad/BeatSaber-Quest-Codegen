@@ -26,8 +26,6 @@ namespace System::IO {
     public:
     // Nested type: System::IO::Directory::SearchData
     class SearchData;
-    // Creating value type constructor for type: Directory
-    Directory() noexcept {}
     // static public System.String[] GetFiles(System.String path)
     // Offset: 0x1AB02A4
     static ::ArrayWrapper<::Il2CppString*> GetFiles(::Il2CppString* path);

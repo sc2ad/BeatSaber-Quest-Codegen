@@ -62,8 +62,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
-    // Creating value type constructor for type: FactoryBindInfo
-    FactoryBindInfo(System::Type* FactoryType_ = {}, System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* ProviderFunc_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments_ = {}) noexcept : FactoryType{FactoryType_}, ProviderFunc{ProviderFunc_}, Arguments{Arguments_} {}
     // Get instance field reference: private System.Type <FactoryType>k__BackingField
     System::Type*& dyn_$FactoryType$k__BackingField();
     // Get instance field reference: private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField

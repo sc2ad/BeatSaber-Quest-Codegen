@@ -38,8 +38,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetEventReceiverTest : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: HEU_AssetEventReceiverTest
-    HEU_AssetEventReceiverTest() noexcept {}
     // public System.Void ReloadCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
     // Offset: 0x1436024
     void ReloadCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);

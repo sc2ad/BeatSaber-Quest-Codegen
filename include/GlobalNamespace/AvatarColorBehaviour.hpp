@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     float duration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AvatarColorBehaviour
-    AvatarColorBehaviour(UnityEngine::Color startColor_ = {}, UnityEngine::Color endColor_ = {}, Tweening::EaseType easeType_ = {}, GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, float duration_ = {}) noexcept : startColor{startColor_}, endColor{endColor_}, easeType{easeType_}, avatarVisualController{avatarVisualController_}, duration{duration_} {}
     // Get instance field reference: public UnityEngine.Color _startColor
     UnityEngine::Color& dyn__startColor();
     // Get instance field reference: public UnityEngine.Color _endColor

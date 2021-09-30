@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ::ArrayWrapper<uint8_t> seed;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Iso18033KdfParameters
-    Iso18033KdfParameters(::ArrayWrapper<uint8_t> seed_ = {}) noexcept : seed{seed_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDerivationParameters
     operator Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);

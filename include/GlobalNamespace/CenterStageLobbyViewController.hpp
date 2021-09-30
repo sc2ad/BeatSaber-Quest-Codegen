@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // Creating value type constructor for type: CenterStageLobbyViewController
-    CenterStageLobbyViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_} {}
     // Get instance field reference: private BeatmapSelectionView _beatmapSelectionView
     GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
     // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView

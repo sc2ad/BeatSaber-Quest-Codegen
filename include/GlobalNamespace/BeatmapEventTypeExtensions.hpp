@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BeatmapEventTypeExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapEventTypeExtensions
-    BeatmapEventTypeExtensions() noexcept {}
     // static field const value: static public BeatmapEventType kEarlyRotationEvent
     static constexpr const int kEarlyRotationEvent = 14;
     // Get static field: static public BeatmapEventType kEarlyRotationEvent

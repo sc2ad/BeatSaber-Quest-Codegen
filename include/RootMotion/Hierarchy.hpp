@@ -27,8 +27,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hierarchy : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Hierarchy
-    Hierarchy() noexcept {}
     // static public System.Boolean HierarchyIsValid(UnityEngine.Transform[] bones)
     // Offset: 0x1C6C7EC
     static bool HierarchyIsValid(::ArrayWrapper<UnityEngine::Transform*> bones);

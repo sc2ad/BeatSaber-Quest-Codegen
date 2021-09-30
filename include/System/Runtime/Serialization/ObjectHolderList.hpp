@@ -39,8 +39,6 @@ namespace System::Runtime::Serialization {
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ObjectHolderList
-    ObjectHolderList(::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*> m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
     // Get instance field reference: System.Runtime.Serialization.ObjectHolder[] m_values
     ::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*>& dyn_m_values();
     // Get instance field reference: System.Int32 m_count

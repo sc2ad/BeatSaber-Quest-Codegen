@@ -37,8 +37,6 @@ namespace System::Security::Cryptography {
     int m_skipSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: KeySizes
-    KeySizes(int m_minSize_ = {}, int m_maxSize_ = {}, int m_skipSize_ = {}) noexcept : m_minSize{m_minSize_}, m_maxSize{m_maxSize_}, m_skipSize{m_skipSize_} {}
     // Get instance field reference: private System.Int32 m_minSize
     int& dyn_m_minSize();
     // Get instance field reference: private System.Int32 m_maxSize

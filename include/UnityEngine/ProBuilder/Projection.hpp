@@ -49,8 +49,6 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::Projection::$$c
     class $$c;
-    // Creating value type constructor for type: Projection
-    Projection() noexcept {}
     // static public UnityEngine.Vector2[] PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x1692338
     static ::ArrayWrapper<UnityEngine::Vector2> PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes);

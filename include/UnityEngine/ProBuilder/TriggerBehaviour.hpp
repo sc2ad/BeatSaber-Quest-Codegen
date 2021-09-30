@@ -30,8 +30,6 @@ namespace UnityEngine::ProBuilder {
   // [DisallowMultipleComponent] Offset: FFFFFFFF
   class TriggerBehaviour : public UnityEngine::ProBuilder::EntityBehaviour {
     public:
-    // Creating value type constructor for type: TriggerBehaviour
-    TriggerBehaviour() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x24F1B68
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour

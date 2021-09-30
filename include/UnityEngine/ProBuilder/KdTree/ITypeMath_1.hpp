@@ -17,8 +17,6 @@ namespace UnityEngine::ProBuilder::KdTree {
   template<typename T>
   class ITypeMath_1 {
     public:
-    // Creating value type constructor for type: ITypeMath_1
-    ITypeMath_1() noexcept {}
     // public T get_MinValue()
     // Offset: 0xFFFFFFFF
     T get_MinValue() {

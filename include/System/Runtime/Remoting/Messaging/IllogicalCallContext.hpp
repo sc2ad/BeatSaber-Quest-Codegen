@@ -42,8 +42,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppObject* m_HostContext;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: IllogicalCallContext
-    IllogicalCallContext(System::Collections::Hashtable* m_Datastore_ = {}, ::Il2CppObject* m_HostContext_ = {}) noexcept : m_Datastore{m_Datastore_}, m_HostContext{m_HostContext_} {}
     // Get instance field reference: private System.Collections.Hashtable m_Datastore
     System::Collections::Hashtable*& dyn_m_Datastore();
     // Get instance field reference: private System.Object m_HostContext

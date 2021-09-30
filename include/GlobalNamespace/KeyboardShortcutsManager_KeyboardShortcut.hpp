@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     UnityEngine::KeyCode combinationKey2;
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
-    // Creating value type constructor for type: KeyboardShortcut
-    KeyboardShortcut(UnityEngine::KeyCode mainKey_ = {}, UnityEngine::KeyCode combinationKey1_ = {}, UnityEngine::KeyCode combinationKey2_ = {}) noexcept : mainKey{mainKey_}, combinationKey1{combinationKey1_}, combinationKey2{combinationKey2_} {}
     // Get instance field reference: public UnityEngine.KeyCode mainKey
     UnityEngine::KeyCode& dyn_mainKey();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey1

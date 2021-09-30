@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     float lastReportedHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PlayerHeightDetector
-    PlayerHeightDetector(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, GlobalNamespace::PlayerHeightDetector::InitData* initData_ = {}, System::Action_1<float>* playerHeightDidChangeEvent_ = {}, GlobalNamespace::BeatmapObjectCallbackData* beatmapObjectCallbackData_ = {}, float noTopObstaclesStartTime_ = {}, float computedPlayerHeight_ = {}, float changeWeight_ = {}, float lastReportedHeight_ = {}) noexcept : playerTransforms{playerTransforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_}, playerHeightDidChangeEvent{playerHeightDidChangeEvent_}, beatmapObjectCallbackData{beatmapObjectCallbackData_}, noTopObstaclesStartTime{noTopObstaclesStartTime_}, computedPlayerHeight{computedPlayerHeight_}, changeWeight{changeWeight_}, lastReportedHeight{lastReportedHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms

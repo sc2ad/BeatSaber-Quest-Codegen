@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::OpenSsl {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemException : public System::IO::IOException {
     public:
-    // Creating value type constructor for type: PemException
-    PemException() noexcept {}
     // public System.Void .ctor(System.String message)
     // Offset: 0x14BB288
     // Implemented from: System.IO.IOException

@@ -18,8 +18,6 @@ namespace Unity::Collections {
   // [AttributeUsageAttribute] Offset: E6FB5C
   class NativeDisableParallelForRestrictionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeDisableParallelForRestrictionAttribute
-    NativeDisableParallelForRestrictionAttribute() noexcept {}
   }; // Unity.Collections.NativeDisableParallelForRestrictionAttribute
   #pragma pack(pop)
 }

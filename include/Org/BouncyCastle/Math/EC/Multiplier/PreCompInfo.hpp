@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreCompInfo {
     public:
-    // Creating value type constructor for type: PreCompInfo
-    PreCompInfo() noexcept {}
   }; // Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo
   #pragma pack(pop)
 }

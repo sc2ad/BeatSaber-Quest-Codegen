@@ -27,8 +27,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrueConstraint : public NUnit::Framework::Constraints::Constraint {
     public:
-    // Creating value type constructor for type: TrueConstraint
-    TrueConstraint() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1935414
     // Implemented from: System.Object

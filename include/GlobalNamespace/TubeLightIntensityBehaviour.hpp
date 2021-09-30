@@ -144,8 +144,6 @@ namespace GlobalNamespace {
     float firstFrameLaserIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TubeLightIntensityBehaviour
-    TubeLightIntensityBehaviour(bool noPredefinedStartValue_ = {}, float startLightIntensity_ = {}, float startLaserIntensity_ = {}, float endLightIntensity_ = {}, float endLaserIntensity_ = {}, bool disableWhenFinished_ = {}, float blend_ = {}, bool initialized_ = {}, float originalLightIntensity_ = {}, float originalLaserIntensity_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, bool started_ = {}, bool finished_ = {}, float firstFrameLightIntensity_ = {}, float firstFrameLaserIntensity_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startLightIntensity{startLightIntensity_}, startLaserIntensity{startLaserIntensity_}, endLightIntensity{endLightIntensity_}, endLaserIntensity{endLaserIntensity_}, disableWhenFinished{disableWhenFinished_}, blend{blend_}, initialized{initialized_}, originalLightIntensity{originalLightIntensity_}, originalLaserIntensity{originalLaserIntensity_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, finished{finished_}, firstFrameLightIntensity{firstFrameLightIntensity_}, firstFrameLaserIntensity{firstFrameLaserIntensity_} {}
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
     bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public System.Single _startLightIntensity

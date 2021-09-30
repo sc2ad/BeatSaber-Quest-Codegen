@@ -51,8 +51,6 @@ namespace System {
     public:
     // Nested type: System::MonoCustomAttrs::AttributeInfo
     class AttributeInfo;
-    // Creating value type constructor for type: MonoCustomAttrs
-    MonoCustomAttrs() noexcept {}
     // Get static field: static private System.Reflection.Assembly corlib
     static System::Reflection::Assembly* _get_corlib();
     // Set static field: static private System.Reflection.Assembly corlib

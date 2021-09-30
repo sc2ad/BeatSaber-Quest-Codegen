@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TrailElement
-    TrailElement(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, float distance_ = {}, float time_ = {}) noexcept : position{position_}, normal{normal_}, distance{distance_}, time{time_} {}
     // Get instance field reference: private UnityEngine.Vector3 <position>k__BackingField
     UnityEngine::Vector3& dyn_$position$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <normal>k__BackingField

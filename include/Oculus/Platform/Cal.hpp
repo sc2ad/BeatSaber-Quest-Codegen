@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Cal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Cal
-    Cal() noexcept {}
   }; // Oculus.Platform.Cal
   #pragma pack(pop)
 }

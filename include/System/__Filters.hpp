@@ -25,8 +25,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class __Filters : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: __Filters
-    __Filters() noexcept {}
     // Get static field: static readonly System.__Filters Instance
     static System::__Filters* _get_Instance();
     // Set static field: static readonly System.__Filters Instance

@@ -35,8 +35,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class EnumEqualityComparer_1 : public System::Collections::Generic::EqualityComparer_1<T>/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
-    // Creating value type constructor for type: EnumEqualityComparer_1
-    EnumEqualityComparer_1() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

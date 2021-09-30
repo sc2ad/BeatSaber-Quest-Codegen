@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     float startAnimationTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MissionStageLockView
-    MissionStageLockView(TMPro::TMP_Text* text_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, float dstPosY_ = {}, float animationDuration_ = {}, float startAnimationTime_ = {}) noexcept : text{text_}, rectTransform{rectTransform_}, dstPosY{dstPosY_}, animationDuration{animationDuration_}, startAnimationTime{startAnimationTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_Text _text

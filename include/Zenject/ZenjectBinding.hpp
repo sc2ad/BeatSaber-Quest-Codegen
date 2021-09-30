@@ -131,8 +131,6 @@ namespace Zenject {
     Zenject::ZenjectBinding::BindTypes bindType;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectBinding::BindTypes) == 0x4);
-    // Creating value type constructor for type: ZenjectBinding
-    ZenjectBinding(::ArrayWrapper<UnityEngine::Component*> components_ = {}, ::Il2CppString* identifier_ = {}, bool useSceneContext_ = {}, bool ifNotBound_ = {}, Zenject::Context* context_ = {}, Zenject::ZenjectBinding::BindTypes bindType_ = {}) noexcept : components{components_}, identifier{identifier_}, useSceneContext{useSceneContext_}, ifNotBound{ifNotBound_}, context{context_}, bindType{bindType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Component[] _components

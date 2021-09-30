@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: InstantMenuButtonTrigger
-    InstantMenuButtonTrigger(GlobalNamespace::VRControllersInputManager* vrControllersInputManager_ = {}, System::Action* menuButtonTriggeredEvent_ = {}) noexcept : vrControllersInputManager{vrControllersInputManager_}, menuButtonTriggeredEvent{menuButtonTriggeredEvent_} {}
     // Creating interface conversion operator: operator Zenject::ITickable
     operator Zenject::ITickable() noexcept {
       return *reinterpret_cast<Zenject::ITickable*>(this);

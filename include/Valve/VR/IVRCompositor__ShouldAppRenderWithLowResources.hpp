@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5C04
   class IVRCompositor::_ShouldAppRenderWithLowResources : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ShouldAppRenderWithLowResources
-    _ShouldAppRenderWithLowResources() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B09A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

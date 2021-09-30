@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*) == 0x8);
-    // Creating value type constructor for type: BeatmapLineData
-    BeatmapLineData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData_ = {}) noexcept : beatmapObjectsData{beatmapObjectsData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IReadonlyBeatmapLineData
     operator GlobalNamespace::IReadonlyBeatmapLineData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReadonlyBeatmapLineData*>(this);

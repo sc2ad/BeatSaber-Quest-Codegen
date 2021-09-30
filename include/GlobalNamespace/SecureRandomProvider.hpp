@@ -21,8 +21,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SecureRandomProvider::SecureRandomState
     class SecureRandomState;
-    // Creating value type constructor for type: SecureRandomProvider
-    SecureRandomProvider() noexcept {}
     // Get static field: static private SecureRandomProvider/SecureRandomState _secureRandomState
     static GlobalNamespace::SecureRandomProvider::SecureRandomState* _get__secureRandomState();
     // Set static field: static private SecureRandomProvider/SecureRandomState _secureRandomState

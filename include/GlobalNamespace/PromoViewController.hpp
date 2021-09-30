@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
-    // Creating value type constructor for type: PromoViewController
-    PromoViewController(::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*> elements_ = {}, System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent_ = {}) noexcept : elements{elements_}, promoButtonWasPressedEvent{promoButtonWasPressedEvent_} {}
     // Get instance field reference: private PromoViewController/ButtonPromoTypePair[] _elements
     ::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>& dyn__elements();
     // Get instance field reference: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent

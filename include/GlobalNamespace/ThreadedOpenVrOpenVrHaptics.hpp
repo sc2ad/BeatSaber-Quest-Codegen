@@ -68,7 +68,6 @@ namespace GlobalNamespace {
       float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
       // Offset: 0x259B168
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength)
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     #pragma pack(pop)
@@ -100,8 +99,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData rightHandHaptics;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
-    // Creating value type constructor for type: ThreadedOpenVrOpenVrHaptics
-    ThreadedOpenVrOpenVrHaptics(float currentTime_ = {}, System::Threading::Thread* hapticThread_ = {}, GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData leftHandHaptics_ = {}, GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData rightHandHaptics_ = {}) noexcept : currentTime{currentTime_}, hapticThread{hapticThread_}, leftHandHaptics{leftHandHaptics_}, rightHandHaptics{rightHandHaptics_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IOpenVRHaptics
     operator GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);

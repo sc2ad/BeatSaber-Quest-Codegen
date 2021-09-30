@@ -38,8 +38,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionSystem::InteractionDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: InteractionDelegate
-    InteractionDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1FEDC00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

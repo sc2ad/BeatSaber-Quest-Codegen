@@ -50,8 +50,6 @@ namespace UnityEngine::Timeline {
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AudioMixerProperties
-    AudioMixerProperties(float volume_ = {}, float stereoPan_ = {}, float spatialBlend_ = {}) noexcept : volume{volume_}, stereoPan{stereoPan_}, spatialBlend{spatialBlend_} {}
     // Get instance field reference: public System.Single volume
     float& dyn_volume();
     // Get instance field reference: public System.Single stereoPan

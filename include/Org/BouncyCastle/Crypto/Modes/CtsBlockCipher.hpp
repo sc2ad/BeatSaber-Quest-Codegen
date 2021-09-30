@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     int blockSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CtsBlockCipher
-    CtsBlockCipher(int blockSize_ = {}) noexcept : blockSize{blockSize_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return blockSize;

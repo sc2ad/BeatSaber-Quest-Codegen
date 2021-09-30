@@ -27,8 +27,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_HoudiniAsset* newAsset;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass365_0
-    $$c__DisplayClass365_0(HoudiniEngineUnity::HEU_HoudiniAsset* newAsset_ = {}) noexcept : newAsset{newAsset_} {}
     // Creating conversion operator: operator HoudiniEngineUnity::HEU_HoudiniAsset*
     constexpr operator HoudiniEngineUnity::HEU_HoudiniAsset*() const noexcept {
       return newAsset;

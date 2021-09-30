@@ -41,8 +41,6 @@ namespace UnityEngine::TestTools::Utils {
     System::Reflection::AssemblyName* Name;
     // Field size check
     static_assert(sizeof(System::Reflection::AssemblyName*) == 0x8);
-    // Creating value type constructor for type: AssemblyWrapper
-    AssemblyWrapper(System::Reflection::Assembly* Assembly_ = {}, System::Reflection::AssemblyName* Name_ = {}) noexcept : Assembly{Assembly_}, Name{Name_} {}
     // Creating interface conversion operator: operator UnityEngine::TestTools::Utils::IAssemblyWrapper
     operator UnityEngine::TestTools::Utils::IAssemblyWrapper() noexcept {
       return *reinterpret_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);

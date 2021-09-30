@@ -64,8 +64,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_AssetEventType EventType;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
-    // Creating value type constructor for type: HEU_AssetEventData
-    HEU_AssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset* Asset_ = {}, bool CookSuccess_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* OutputObjects_ = {}, HoudiniEngineUnity::HEU_AssetEventType EventType_ = {}) noexcept : Asset{Asset_}, CookSuccess{CookSuccess_}, OutputObjects{OutputObjects_}, EventType{EventType_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
     // Get instance field reference: public System.Boolean CookSuccess

@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentInfoSO*) == 0x8);
-    // Creating value type constructor for type: StandardLevelScenesTransitionSetupDataSO
-    StandardLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* standardGameplaySceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* didFinishEvent_ = {}, ::Il2CppString* gameMode_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::PracticeSettings* practiceSettings_ = {}, bool usingOverrideColorScheme_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}, bool usingOverrideEnvironment_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}) noexcept : standardGameplaySceneInfo{standardGameplaySceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_}, gameMode{gameMode_}, difficultyBeatmap{difficultyBeatmap_}, practiceSettings{practiceSettings_}, usingOverrideColorScheme{usingOverrideColorScheme_}, colorScheme{colorScheme_}, usingOverrideEnvironment{usingOverrideEnvironment_}, environmentInfo{environmentInfo_} {}
     // Get instance field reference: private SceneInfo _standardGameplaySceneInfo
     GlobalNamespace::SceneInfo*& dyn__standardGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo

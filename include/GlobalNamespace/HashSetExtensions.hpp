@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::HashSetExtensions::HashSetDelegateHolder_1<T>
     template<typename T>
     class HashSetDelegateHolder_1;
-    // Creating value type constructor for type: HashSetExtensions
-    HashSetExtensions() noexcept {}
     // static public System.Void SetCapacity(System.Collections.Generic.HashSet`1<T> hs, System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     template<class T>

@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetUpdater : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_AssetUpdater
-    HEU_AssetUpdater() noexcept {}
     // static private System.Void .cctor()
     // Offset: 0x143DC58
     static void _cctor();

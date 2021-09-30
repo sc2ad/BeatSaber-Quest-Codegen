@@ -39,8 +39,6 @@ namespace LiteNetLib {
     ::Il2CppString* Token;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NatIntroduceRequestPacket
-    NatIntroduceRequestPacket(System::Net::IPEndPoint* Internal_ = {}, ::Il2CppString* Token_ = {}) noexcept : Internal{Internal_}, Token{Token_} {}
     // Get instance field reference: private System.Net.IPEndPoint <Internal>k__BackingField
     System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
     // Get instance field reference: private System.String <Token>k__BackingField

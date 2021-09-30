@@ -99,8 +99,6 @@ namespace System::Net {
     System::Net::HttpWebRequest* AsyncObject;
     // Field size check
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
-    // Creating value type constructor for type: WebAsyncResult
-    WebAsyncResult(int nbytes_ = {}, System::IAsyncResult* innerAsyncResult_ = {}, System::Net::HttpWebResponse* response_ = {}, System::IO::Stream* writeStream_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int offset_ = {}, int size_ = {}, bool EndCalled_ = {}, bool AsyncWriteAll_ = {}, System::Net::HttpWebRequest* AsyncObject_ = {}) noexcept : nbytes{nbytes_}, innerAsyncResult{innerAsyncResult_}, response{response_}, writeStream{writeStream_}, buffer{buffer_}, offset{offset_}, size{size_}, EndCalled{EndCalled_}, AsyncWriteAll{AsyncWriteAll_}, AsyncObject{AsyncObject_} {}
     // Get instance field reference: private System.Int32 nbytes
     int& dyn_nbytes();
     // Get instance field reference: private System.IAsyncResult innerAsyncResult

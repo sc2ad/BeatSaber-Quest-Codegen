@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     bool quickPlayEnableLevelSelection;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerModeSettings
-    MultiplayerModeSettings(int createServerPlayersCount_ = {}, GlobalNamespace::BeatmapDifficultyMask quickPlayBeatmapDifficulty_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerPlayersCount{createServerPlayersCount_}, quickPlayBeatmapDifficulty{quickPlayBeatmapDifficulty_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
     // Get instance field reference: public System.Int32 createServerPlayersCount
     int& dyn_createServerPlayersCount();
     // Get instance field reference: public BeatmapDifficultyMask quickPlayBeatmapDifficulty

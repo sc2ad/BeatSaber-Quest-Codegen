@@ -36,8 +36,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AvatarUtility
-    AvatarUtility() noexcept {}
     // static public UnityEngine.Quaternion GetPostRotation(UnityEngine.Avatar avatar, UnityEngine.AvatarIKGoal avatarIKGoal)
     // Offset: 0x1EB2C88
     static UnityEngine::Quaternion GetPostRotation(UnityEngine::Avatar* avatar, UnityEngine::AvatarIKGoal avatarIKGoal);

@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0E00
   class IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetOverlayAutoCurveDistanceRangeInMeters
-    _SetOverlayAutoCurveDistanceRangeInMeters() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22D22E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

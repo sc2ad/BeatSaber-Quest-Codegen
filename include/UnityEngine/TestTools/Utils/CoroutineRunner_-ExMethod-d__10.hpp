@@ -61,8 +61,6 @@ namespace UnityEngine::TestTools::Utils {
     int timeout;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $ExMethod$d__10
-    $ExMethod$d__10(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::TestTools::Utils::CoroutineRunner* $$4__this_ = {}, System::Collections::IEnumerator* e_ = {}, int timeout_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, e{e_}, timeout{timeout_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

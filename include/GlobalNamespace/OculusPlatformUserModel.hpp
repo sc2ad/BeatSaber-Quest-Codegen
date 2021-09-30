@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     GlobalNamespace::UserInfo* userInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::UserInfo*) == 0x8);
-    // Creating value type constructor for type: OculusPlatformUserModel
-    OculusPlatformUserModel(::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, GlobalNamespace::UserInfo* userInfo_ = {}) noexcept : friendsUserIds{friendsUserIds_}, userInfo{userInfo_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IPlatformUserModel
     operator GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);

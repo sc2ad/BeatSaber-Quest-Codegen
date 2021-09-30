@@ -23,8 +23,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TriangulationUtil
-    TriangulationUtil() noexcept {}
     // Get static field: static public System.Double EPSILON
     static double _get_EPSILON();
     // Set static field: static public System.Double EPSILON

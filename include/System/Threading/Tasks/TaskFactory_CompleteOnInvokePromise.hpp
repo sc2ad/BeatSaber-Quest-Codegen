@@ -47,8 +47,6 @@ namespace System::Threading::Tasks {
     int m_firstTaskAlreadyCompleted;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CompleteOnInvokePromise
-    CompleteOnInvokePromise(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks_ = {}, int m_firstTaskAlreadyCompleted_ = {}) noexcept : tasks{tasks_}, m_firstTaskAlreadyCompleted{m_firstTaskAlreadyCompleted_} {}
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);

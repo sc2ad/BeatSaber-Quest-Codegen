@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* lines;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: MonoLogger
-    MonoLogger(System::Collections::Generic::List_1<::Il2CppString*>* lines_ = {}) noexcept : lines{lines_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _lines

@@ -105,8 +105,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion lastRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: Rigidbone
-    Rigidbone(UnityEngine::Rigidbody* r_ = {}, UnityEngine::Transform* t_ = {}, UnityEngine::Collider* collider_ = {}, UnityEngine::Joint* joint_ = {}, UnityEngine::Rigidbody* c_ = {}, bool updateAnchor_ = {}, UnityEngine::Vector3 deltaPosition_ = {}, UnityEngine::Quaternion deltaRotation_ = {}, float deltaTime_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Quaternion lastRotation_ = {}) noexcept : r{r_}, t{t_}, collider{collider_}, joint{joint_}, c{c_}, updateAnchor{updateAnchor_}, deltaPosition{deltaPosition_}, deltaRotation{deltaRotation_}, deltaTime{deltaTime_}, lastPosition{lastPosition_}, lastRotation{lastRotation_} {}
     // Get instance field reference: public UnityEngine.Rigidbody r
     UnityEngine::Rigidbody*& dyn_r();
     // Get instance field reference: public UnityEngine.Transform t

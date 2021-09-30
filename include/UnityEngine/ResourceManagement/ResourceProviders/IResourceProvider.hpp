@@ -36,8 +36,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class IResourceProvider {
     public:
-    // Creating value type constructor for type: IResourceProvider
-    IResourceProvider() noexcept {}
     // public System.String get_ProviderId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_ProviderId();

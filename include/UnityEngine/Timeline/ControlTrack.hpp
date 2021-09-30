@@ -21,8 +21,6 @@ namespace UnityEngine::Timeline {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   class ControlTrack : public UnityEngine::Timeline::TrackAsset {
     public:
-    // Creating value type constructor for type: ControlTrack
-    ControlTrack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19F962C
     // Implemented from: UnityEngine.Timeline.TrackAsset

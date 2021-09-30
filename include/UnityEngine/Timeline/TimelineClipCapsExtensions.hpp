@@ -24,8 +24,6 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TimelineClipCapsExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimelineClipCapsExtensions
-    TimelineClipCapsExtensions() noexcept {}
     // static public System.Boolean SupportsLooping(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x2562110
     static bool SupportsLooping(UnityEngine::Timeline::TimelineClip* clip);

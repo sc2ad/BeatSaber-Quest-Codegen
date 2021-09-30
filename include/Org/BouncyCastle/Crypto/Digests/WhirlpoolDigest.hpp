@@ -78,8 +78,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     ::ArrayWrapper<int64_t> state;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
-    // Creating value type constructor for type: WhirlpoolDigest
-    WhirlpoolDigest(::ArrayWrapper<int64_t> rc_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int bufferPos_ = {}, ::ArrayWrapper<int16_t> bitCount_ = {}, ::ArrayWrapper<int64_t> hash_ = {}, ::ArrayWrapper<int64_t> K_ = {}, ::ArrayWrapper<int64_t> L_ = {}, ::ArrayWrapper<int64_t> block_ = {}, ::ArrayWrapper<int64_t> state_ = {}) noexcept : rc{rc_}, buffer{buffer_}, bufferPos{bufferPos_}, bitCount{bitCount_}, hash{hash_}, K{K_}, L{L_}, block{block_}, state{state_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

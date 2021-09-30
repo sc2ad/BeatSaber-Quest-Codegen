@@ -62,8 +62,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryExtensions;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
-    // Creating value type constructor for type: CrlEntry
-    CrlEntry(Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}, Org::BouncyCastle::Asn1::DerInteger* userCertificate_ = {}, Org::BouncyCastle::Asn1::X509::Time* revocationDate_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryExtensions_ = {}) noexcept : seq{seq_}, userCertificate{userCertificate_}, revocationDate{revocationDate_}, crlEntryExtensions{crlEntryExtensions_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Sequence seq
     Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger userCertificate

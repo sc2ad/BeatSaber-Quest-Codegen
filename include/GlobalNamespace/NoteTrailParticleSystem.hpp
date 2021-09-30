@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem::EmitParams emitParams;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
-    // Creating value type constructor for type: NoteTrailParticleSystem
-    NoteTrailParticleSystem(UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::ParticleSystem::EmitParams emitParams_ = {}) noexcept : particleSystem{particleSystem_}, emitParams{emitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem

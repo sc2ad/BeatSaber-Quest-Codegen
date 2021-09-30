@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardViewController : public HMUI::ViewController {
     public:
-    // Creating value type constructor for type: LeaderboardViewController
-    LeaderboardViewController() noexcept {}
     // public System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);

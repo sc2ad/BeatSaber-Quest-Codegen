@@ -76,7 +76,6 @@ namespace System {
     bool& dyn_sign();
     // public System.Void .ctor(System.Byte* stackBuffer)
     // Offset: 0x1A140B8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     NumberBuffer(uint8_t* stackBuffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Number::NumberBuffer::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stackBuffer)})));

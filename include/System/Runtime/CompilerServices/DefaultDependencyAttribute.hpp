@@ -29,8 +29,6 @@ namespace System::Runtime::CompilerServices {
     System::Runtime::CompilerServices::LoadHint loadHint;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::LoadHint) == 0x4);
-    // Creating value type constructor for type: DefaultDependencyAttribute
-    DefaultDependencyAttribute(System::Runtime::CompilerServices::LoadHint loadHint_ = {}) noexcept : loadHint{loadHint_} {}
     // Creating conversion operator: operator System::Runtime::CompilerServices::LoadHint
     constexpr operator System::Runtime::CompilerServices::LoadHint() const noexcept {
       return loadHint;

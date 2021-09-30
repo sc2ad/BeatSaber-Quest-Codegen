@@ -104,8 +104,6 @@ namespace GlobalNamespace {
     float cutDirDeviation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: NoteExecutionRating
-    NoteExecutionRating(GlobalNamespace::NoteExecutionRating::Rating rating_ = {}, int cutScore_ = {}, int cutDistanceScore_ = {}, float cutTimeDeviation_ = {}, float cutDirDeviation_ = {}) noexcept : rating{rating_}, cutScore{cutScore_}, cutDistanceScore{cutDistanceScore_}, cutTimeDeviation{cutTimeDeviation_}, cutDirDeviation{cutDirDeviation_} {}
     // Get instance field reference: private NoteExecutionRating/Rating <rating>k__BackingField
     GlobalNamespace::NoteExecutionRating::Rating& dyn_$rating$k__BackingField();
     // Get instance field reference: private System.Int32 <cutScore>k__BackingField

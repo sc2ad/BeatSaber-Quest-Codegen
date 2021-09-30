@@ -36,8 +36,6 @@ namespace TMPro::SpriteAssetUtilities {
     System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*) == 0x8);
-    // Creating value type constructor for type: SpriteDataObject
-    SpriteDataObject(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames_ = {}) noexcept : frames{frames_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*
     constexpr operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*() const noexcept {
       return frames;

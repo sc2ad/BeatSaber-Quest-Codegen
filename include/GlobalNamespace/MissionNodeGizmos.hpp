@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CampaignProgressModel* missionProgressModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CampaignProgressModel*) == 0x8);
-    // Creating value type constructor for type: MissionNodeGizmos
-    MissionNodeGizmos(GlobalNamespace::MissionNode* missionNode_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::CampaignProgressModel* missionProgressModel_ = {}) noexcept : missionNode{missionNode_}, gameplayModifiersModel{gameplayModifiersModel_}, missionProgressModel{missionProgressModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNode _missionNode

@@ -37,8 +37,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Playables::Playable m_Playable;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
-    // Creating value type constructor for type: InfiniteRuntimeClip
-    InfiniteRuntimeClip(UnityEngine::Playables::Playable m_Playable_ = {}) noexcept : m_Playable{m_Playable_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get static field: static private readonly System.Int64 kIntervalEnd

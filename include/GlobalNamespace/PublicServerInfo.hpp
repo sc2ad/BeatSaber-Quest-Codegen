@@ -57,7 +57,6 @@ namespace GlobalNamespace {
     int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
     // Offset: 0x18D57A4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x18D57B0

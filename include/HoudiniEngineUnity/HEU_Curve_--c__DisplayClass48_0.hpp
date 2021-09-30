@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::Vector3>* points;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass48_0
-    $$c__DisplayClass48_0(System::Collections::Generic::List_1<UnityEngine::Vector3>* points_ = {}) noexcept : points{points_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Vector3>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const noexcept {
       return points;

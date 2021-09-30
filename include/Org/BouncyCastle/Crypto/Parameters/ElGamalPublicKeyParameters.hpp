@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* y;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: ElGamalPublicKeyParameters
-    ElGamalPublicKeyParameters(Org::BouncyCastle::Math::BigInteger* y_ = {}) noexcept : y{y_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger y
     Org::BouncyCastle::Math::BigInteger*& dyn_y();
     // public Org.BouncyCastle.Math.BigInteger get_Y()

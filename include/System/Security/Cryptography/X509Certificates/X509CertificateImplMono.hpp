@@ -38,8 +38,6 @@ namespace System::Security::Cryptography::X509Certificates {
     Mono::Security::X509::X509Certificate* x509;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509Certificate*) == 0x8);
-    // Creating value type constructor for type: X509CertificateImplMono
-    X509CertificateImplMono(Mono::Security::X509::X509Certificate* x509_ = {}) noexcept : x509{x509_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private Mono.Security.X509.X509Certificate x509

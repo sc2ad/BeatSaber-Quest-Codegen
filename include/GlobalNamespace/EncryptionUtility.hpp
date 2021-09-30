@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     class EncryptionState;
     // Nested type: GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
-    // Creating value type constructor for type: EncryptionUtility
-    EncryptionUtility() noexcept {}
     // static field const value: static private System.Int32 kMacHashSize
     static constexpr const int kMacHashSize = 10;
     // Get static field: static private System.Int32 kMacHashSize

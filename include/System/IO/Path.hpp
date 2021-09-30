@@ -28,8 +28,6 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E4B8
   class Path : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Path
-    Path() noexcept {}
     // [ObsoleteAttribute] Offset: 0xE62E48
     // Get static field: static public readonly System.Char[] InvalidPathChars
     static ::ArrayWrapper<::Il2CppChar> _get_InvalidPathChars();

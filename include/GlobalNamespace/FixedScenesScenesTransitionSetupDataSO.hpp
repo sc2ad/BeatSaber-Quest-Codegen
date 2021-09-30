@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::SceneInfo*> sceneInfos;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SceneInfo*>) == 0x8);
-    // Creating value type constructor for type: FixedScenesScenesTransitionSetupDataSO
-    FixedScenesScenesTransitionSetupDataSO(::ArrayWrapper<GlobalNamespace::SceneInfo*> sceneInfos_ = {}) noexcept : sceneInfos{sceneInfos_} {}
     // Get instance field reference: private SceneInfo[] _sceneInfos
     ::ArrayWrapper<GlobalNamespace::SceneInfo*>& dyn__sceneInfos();
     // public System.Void Init()

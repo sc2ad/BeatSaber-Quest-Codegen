@@ -45,8 +45,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
-    // Creating value type constructor for type: AdvancingFront
-    AdvancingFront(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search_ = {}) noexcept : Head{Head_}, Tail{Tail_}, Search{Search_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Head
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Head();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Tail

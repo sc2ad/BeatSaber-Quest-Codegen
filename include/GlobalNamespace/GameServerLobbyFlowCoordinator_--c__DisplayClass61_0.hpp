@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     System::Action* finishedCallback;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass61_0
-    $$c__DisplayClass61_0(GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}) noexcept : $$4__this{$$4__this_}, finishedCallback{finishedCallback_} {}
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
     GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback

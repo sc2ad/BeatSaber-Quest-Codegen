@@ -43,8 +43,6 @@ namespace System::Diagnostics {
     bool is_running;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Stopwatch
-    Stopwatch(int64_t elapsed_ = {}, int64_t started_ = {}, bool is_running_ = {}) noexcept : elapsed{elapsed_}, started{started_}, is_running{is_running_} {}
     // Get static field: static public readonly System.Int64 Frequency
     static int64_t _get_Frequency();
     // Set static field: static public readonly System.Int64 Frequency

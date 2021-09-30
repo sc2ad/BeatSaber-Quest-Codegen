@@ -47,8 +47,6 @@ namespace RootMotion {
     ::Il2CppString* propertyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: BakerMuscle
-    BakerMuscle(UnityEngine::AnimationCurve* curve_ = {}, int muscleIndex_ = {}, ::Il2CppString* propertyName_ = {}) noexcept : curve{curve_}, muscleIndex{muscleIndex_}, propertyName{propertyName_} {}
     // Get instance field reference: public UnityEngine.AnimationCurve curve
     UnityEngine::AnimationCurve*& dyn_curve();
     // Get instance field reference: private System.Int32 muscleIndex

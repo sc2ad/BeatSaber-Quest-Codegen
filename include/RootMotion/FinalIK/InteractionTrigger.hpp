@@ -47,8 +47,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*> ranges;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*>) == 0x8);
-    // Creating value type constructor for type: InteractionTrigger
-    InteractionTrigger(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*> ranges_ = {}) noexcept : ranges{ranges_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges

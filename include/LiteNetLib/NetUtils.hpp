@@ -42,8 +42,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetUtils
-    NetUtils() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.List`1<System.String> IpList
     static System::Collections::Generic::List_1<::Il2CppString*>* _get_IpList();
     // Set static field: static private readonly System.Collections.Generic.List`1<System.String> IpList

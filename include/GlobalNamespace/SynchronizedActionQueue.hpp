@@ -69,7 +69,6 @@ namespace GlobalNamespace {
       System::Action*& dyn_action();
       // public System.Void .ctor(System.Single time, System.Action action)
       // Offset: 0x18DA8F0
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action)
     }; // SynchronizedActionQueue/SynchronizedAction
     #pragma pack(pop)
@@ -81,8 +80,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* synchronizedActionQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*) == 0x8);
-    // Creating value type constructor for type: SynchronizedActionQueue
-    SynchronizedActionQueue(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* synchronizedActionQueue_ = {}) noexcept : synchronizedActionQueue{synchronizedActionQueue_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*() const noexcept {
       return synchronizedActionQueue;

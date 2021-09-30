@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_LODGroup_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_LODGroup_Extensions
-    Test_LODGroup_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_LODGroup ToTestObject(UnityEngine.LODGroup self)
     // Offset: 0x25D047C
     static HoudiniEngineUnity::Test_LODGroup* ToTestObject(UnityEngine::LODGroup* self);

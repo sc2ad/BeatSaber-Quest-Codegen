@@ -44,8 +44,6 @@ namespace Zenject {
     System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>* map;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*) == 0x8);
-    // Creating value type constructor for type: SceneContextRegistry
-    SceneContextRegistry(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>* map_ = {}) noexcept : map{map_} {}
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*
     constexpr operator System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*() const noexcept {
       return map;

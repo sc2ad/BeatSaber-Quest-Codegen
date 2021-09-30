@@ -53,8 +53,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
     ::Il2CppString* providerSuffix;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass16_0
-    $$c__DisplayClass16_0(UnityEngine::AddressableAssets::AddressablesImpl* addressables_ = {}, ::Il2CppString* providerSuffix_ = {}) noexcept : addressables{addressables_}, providerSuffix{providerSuffix_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl addressables
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_addressables();
     // Get instance field reference: public System.String providerSuffix

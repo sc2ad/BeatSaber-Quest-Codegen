@@ -22,8 +22,6 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICriticalNotifyCompletion/*, public System::Runtime::CompilerServices::INotifyCompletion*/ {
     public:
-    // Creating value type constructor for type: ICriticalNotifyCompletion
-    ICriticalNotifyCompletion() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::CompilerServices::INotifyCompletion
     operator System::Runtime::CompilerServices::INotifyCompletion() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::INotifyCompletion*>(this);

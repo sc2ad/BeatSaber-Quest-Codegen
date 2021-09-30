@@ -46,7 +46,7 @@ namespace TMPro {
     // Offset: 0x0
     T m_DefaultItem;
     // Creating value type constructor for type: TMP_RichTextTagStack_1
-    constexpr TMP_RichTextTagStack_1(::ArrayWrapper<T> m_ItemStack_ = {}, int m_Index_ = {}, int m_Capacity_ = {}, T m_DefaultItem_ = {}) noexcept : m_ItemStack{m_ItemStack_}, m_Index{m_Index_}, m_Capacity{m_Capacity_}, m_DefaultItem{m_DefaultItem_} {}
+    constexpr TMP_RichTextTagStack_1(::ArrayWrapper<T> m_ItemStack_ = {nullptr}, int m_Index_ = {}, int m_Capacity_ = {}, T m_DefaultItem_ = {}) noexcept : m_ItemStack{m_ItemStack_}, m_Index{m_Index_}, m_Capacity{m_Capacity_}, m_DefaultItem{m_DefaultItem_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -97,7 +97,6 @@ namespace TMPro {
     }
     // public System.Void .ctor(T[] tagStack)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_RichTextTagStack_1(::ArrayWrapper<T> tagStack) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_RichTextTagStack_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tagStack)})));
@@ -105,7 +104,6 @@ namespace TMPro {
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_RichTextTagStack_1(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_RichTextTagStack_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));

@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: BasicConstraints
-    BasicConstraints(Org::BouncyCastle::Asn1::DerBoolean* cA_ = {}, Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint_ = {}) noexcept : cA{cA_}, pathLenConstraint{pathLenConstraint_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBoolean cA
     Org::BouncyCastle::Asn1::DerBoolean*& dyn_cA();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger pathLenConstraint

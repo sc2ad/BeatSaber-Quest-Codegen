@@ -57,8 +57,6 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* cookie;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
-    // Creating value type constructor for type: ClientHelloWithCookieRequest
-    ClientHelloWithCookieRequest(uint certificateResponseId_ = {}, GlobalNamespace::ByteArrayNetSerializable* random_ = {}, GlobalNamespace::ByteArrayNetSerializable* cookie_ = {}) noexcept : certificateResponseId{certificateResponseId_}, random{random_}, cookie{cookie_} {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeClientToServerMessage
     operator MasterServer::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeClientToServerMessage*>(this);

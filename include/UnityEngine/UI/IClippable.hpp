@@ -26,8 +26,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IClippable {
     public:
-    // Creating value type constructor for type: IClippable
-    IClippable() noexcept {}
     // public UnityEngine.GameObject get_gameObject()
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* get_gameObject();

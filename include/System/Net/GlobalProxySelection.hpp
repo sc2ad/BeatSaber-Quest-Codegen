@@ -22,8 +22,6 @@ namespace System::Net {
   // [ObsoleteAttribute] Offset: E69AE8
   class GlobalProxySelection : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GlobalProxySelection
-    GlobalProxySelection() noexcept {}
     // static public System.Net.IWebProxy get_Select()
     // Offset: 0x1839D14
     static System::Net::IWebProxy* get_Select();

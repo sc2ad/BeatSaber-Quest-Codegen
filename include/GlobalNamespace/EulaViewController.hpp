@@ -82,8 +82,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EulaViewController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EulaViewController::InitData*) == 0x8);
-    // Creating value type constructor for type: EulaViewController
-    EulaViewController(UnityEngine::UI::Button* agreeButton_ = {}, UnityEngine::UI::Button* doNotAgreeButton_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::EulaViewController::InitData* initData_ = {}) noexcept : agreeButton{agreeButton_}, doNotAgreeButton{doNotAgreeButton_}, textPageScrollView{textPageScrollView_}, eulaLocalizedTextAsset{eulaLocalizedTextAsset_}, didFinishEvent{didFinishEvent_}, initData{initData_} {}
     // Get instance field reference: private UnityEngine.UI.Button _agreeButton
     UnityEngine::UI::Button*& dyn__agreeButton();
     // Get instance field reference: private UnityEngine.UI.Button _doNotAgreeButton

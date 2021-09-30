@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
-    // Creating value type constructor for type: PatternFightSceneSetupData
-    PatternFightSceneSetupData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : playerSpecificSettings{playerSpecificSettings_}, colorScheme{colorScheme_} {}
     // Get instance field reference: public readonly PlayerSpecificSettings playerSpecificSettings
     GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public readonly ColorScheme colorScheme

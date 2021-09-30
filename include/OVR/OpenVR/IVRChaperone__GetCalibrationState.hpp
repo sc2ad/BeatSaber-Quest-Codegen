@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0694
   class IVRChaperone::_GetCalibrationState : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetCalibrationState
-    _GetCalibrationState() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17710B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

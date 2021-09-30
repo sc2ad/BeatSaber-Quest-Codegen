@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0
     class $ExecuteAfterDelayCoroutine$d__0;
-    // Creating value type constructor for type: CoroutineHelpers
-    CoroutineHelpers() noexcept {}
     // static public System.Collections.IEnumerator ExecuteAfterDelayCoroutine(System.Action action, System.Single time)
     // Offset: 0x137A5F0
     static System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(System::Action* action, float time);

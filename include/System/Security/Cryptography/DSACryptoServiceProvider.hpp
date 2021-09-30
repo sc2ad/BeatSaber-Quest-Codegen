@@ -78,8 +78,6 @@ namespace System::Security::Cryptography {
     Mono::Security::Cryptography::DSAManaged* dsa;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::DSAManaged*) == 0x8);
-    // Creating value type constructor for type: DSACryptoServiceProvider
-    DSACryptoServiceProvider(Mono::Security::Cryptography::KeyPairPersistence* store_ = {}, bool persistKey_ = {}, bool persisted_ = {}, bool privateKeyExportable_ = {}, bool m_disposed_ = {}, Mono::Security::Cryptography::DSAManaged* dsa_ = {}) noexcept : store{store_}, persistKey{persistKey_}, persisted{persisted_}, privateKeyExportable{privateKeyExportable_}, m_disposed{m_disposed_}, dsa{dsa_} {}
     // Get static field: static private System.Boolean useMachineKeyStore
     static bool _get_useMachineKeyStore();
     // Set static field: static private System.Boolean useMachineKeyStore

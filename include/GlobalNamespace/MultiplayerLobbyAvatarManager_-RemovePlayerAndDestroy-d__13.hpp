@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarController*) == 0x8);
-    // Creating value type constructor for type: $RemovePlayerAndDestroy$d__13
-    $RemovePlayerAndDestroy$d__13(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MultiplayerLobbyAvatarManager* $$4__this_ = {}, ::Il2CppString* userId_ = {}, GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, userId{userId_}, multiplayerAvatar{multiplayerAvatar_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

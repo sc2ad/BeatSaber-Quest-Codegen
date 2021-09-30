@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlatformAuthenticationTokenProvider::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly PlatformAuthenticationTokenProvider/<>c <>9
     static GlobalNamespace::PlatformAuthenticationTokenProvider::$$c* _get_$$9();
     // Set static field: static public readonly PlatformAuthenticationTokenProvider/<>c <>9

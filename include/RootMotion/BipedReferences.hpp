@@ -140,8 +140,6 @@ namespace RootMotion {
     ::ArrayWrapper<UnityEngine::Transform*> eyes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
-    // Creating value type constructor for type: BipedReferences
-    BipedReferences(UnityEngine::Transform* root_ = {}, UnityEngine::Transform* pelvis_ = {}, UnityEngine::Transform* leftThigh_ = {}, UnityEngine::Transform* leftCalf_ = {}, UnityEngine::Transform* leftFoot_ = {}, UnityEngine::Transform* rightThigh_ = {}, UnityEngine::Transform* rightCalf_ = {}, UnityEngine::Transform* rightFoot_ = {}, UnityEngine::Transform* leftUpperArm_ = {}, UnityEngine::Transform* leftForearm_ = {}, UnityEngine::Transform* leftHand_ = {}, UnityEngine::Transform* rightUpperArm_ = {}, UnityEngine::Transform* rightForearm_ = {}, UnityEngine::Transform* rightHand_ = {}, UnityEngine::Transform* head_ = {}, ::ArrayWrapper<UnityEngine::Transform*> spine_ = {}, ::ArrayWrapper<UnityEngine::Transform*> eyes_ = {}) noexcept : root{root_}, pelvis{pelvis_}, leftThigh{leftThigh_}, leftCalf{leftCalf_}, leftFoot{leftFoot_}, rightThigh{rightThigh_}, rightCalf{rightCalf_}, rightFoot{rightFoot_}, leftUpperArm{leftUpperArm_}, leftForearm{leftForearm_}, leftHand{leftHand_}, rightUpperArm{rightUpperArm_}, rightForearm{rightForearm_}, rightHand{rightHand_}, head{head_}, spine{spine_}, eyes{eyes_} {}
     // Get instance field reference: public UnityEngine.Transform root
     UnityEngine::Transform*& dyn_root();
     // Get instance field reference: public UnityEngine.Transform pelvis

@@ -65,8 +65,6 @@ namespace System::Net {
     System::Net::HttpListener* Listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
-    // Creating value type constructor for type: ListenerPrefix
-    ListenerPrefix(::Il2CppString* original_ = {}, ::Il2CppString* host_ = {}, uint16_t port_ = {}, ::Il2CppString* path_ = {}, bool secure_ = {}, System::Net::HttpListener* Listener_ = {}) noexcept : original{original_}, host{host_}, port{port_}, path{path_}, secure{secure_}, Listener{Listener_} {}
     // Get instance field reference: private System.String original
     ::Il2CppString*& dyn_original();
     // Get instance field reference: private System.String host

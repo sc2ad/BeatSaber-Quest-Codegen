@@ -80,8 +80,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* Users;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // Creating value type constructor for type: LaunchDetails
-    LaunchDetails(::Il2CppString* DeeplinkMessage_ = {}, ::Il2CppString* DestinationApiName_ = {}, ::Il2CppString* LaunchSource_ = {}, Oculus::Platform::LaunchType LaunchType_ = {}, uint64_t RoomID_ = {}, ::Il2CppString* TrackingID_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}) noexcept : DeeplinkMessage{DeeplinkMessage_}, DestinationApiName{DestinationApiName_}, LaunchSource{LaunchSource_}, LaunchType{LaunchType_}, RoomID{RoomID_}, TrackingID{TrackingID_}, UsersOptional{UsersOptional_}, Users{Users_} {}
     // Get instance field reference: public readonly System.String DeeplinkMessage
     ::Il2CppString*& dyn_DeeplinkMessage();
     // Get instance field reference: public readonly System.String DestinationApiName

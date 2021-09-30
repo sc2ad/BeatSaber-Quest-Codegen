@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     Tweening::ColorTween* colorTween;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
-    // Creating value type constructor for type: ColorGraphicStateTransition
-    ColorGraphicStateTransition(GlobalNamespace::ColorTransitionSO* transition_ = {}, Tweening::ColorTween* colorTween_ = {}) noexcept : transition{transition_}, colorTween{colorTween_} {}
     // Get instance field reference: private ColorTransitionSO _transition
     GlobalNamespace::ColorTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTween

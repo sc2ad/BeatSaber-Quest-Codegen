@@ -38,8 +38,6 @@ namespace Zenject {
     System::Guid factoryId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // Creating value type constructor for type: $$c__DisplayClass0_0_4
-    $$c__DisplayClass0_0_4(System::Guid factoryId_ = {}) noexcept : factoryId{factoryId_} {}
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return factoryId;

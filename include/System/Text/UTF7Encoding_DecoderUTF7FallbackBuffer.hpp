@@ -42,8 +42,6 @@ namespace System::Text {
     int iSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DecoderUTF7FallbackBuffer
-    DecoderUTF7FallbackBuffer(::Il2CppChar cFallback_ = {}, int iCount_ = {}, int iSize_ = {}) noexcept : cFallback{cFallback_}, iCount{iCount_}, iSize{iSize_} {}
     // Get instance field reference: private System.Char cFallback
     ::Il2CppChar& dyn_cFallback();
     // Get instance field reference: private System.Int32 iCount

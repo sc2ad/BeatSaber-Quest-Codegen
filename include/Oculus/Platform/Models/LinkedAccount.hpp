@@ -42,8 +42,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* UserId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LinkedAccount
-    LinkedAccount(::Il2CppString* AccessToken_ = {}, Oculus::Platform::ServiceProvider ServiceProvider_ = {}, ::Il2CppString* UserId_ = {}) noexcept : AccessToken{AccessToken_}, ServiceProvider{ServiceProvider_}, UserId{UserId_} {}
     // Get instance field reference: public readonly System.String AccessToken
     ::Il2CppString*& dyn_AccessToken();
     // Get instance field reference: public readonly Oculus.Platform.ServiceProvider ServiceProvider

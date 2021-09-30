@@ -55,8 +55,6 @@ namespace Zenject {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TMemoryPool pool;
-    // Creating value type constructor for type: PoolableMemoryPoolProvider_7
-    PoolableMemoryPoolProvider_7(TMemoryPool pool_ = {}) noexcept : pool{pool_} {}
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);

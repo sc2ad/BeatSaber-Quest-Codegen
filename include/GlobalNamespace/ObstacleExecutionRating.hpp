@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ObstacleExecutionRating::Rating rating;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObstacleExecutionRating::Rating) == 0x4);
-    // Creating value type constructor for type: ObstacleExecutionRating
-    ObstacleExecutionRating(GlobalNamespace::ObstacleExecutionRating::Rating rating_ = {}) noexcept : rating{rating_} {}
     // Creating conversion operator: operator GlobalNamespace::ObstacleExecutionRating::Rating
     constexpr operator GlobalNamespace::ObstacleExecutionRating::Rating() const noexcept {
       return rating;

@@ -21,8 +21,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackFilter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StackFilter
-    StackFilter() noexcept {}
     // Get static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex
     static System::Text::RegularExpressions::Regex* _get_assertOrAssumeRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex

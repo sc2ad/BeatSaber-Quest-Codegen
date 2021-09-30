@@ -44,8 +44,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   class Lightmapping::RequestLightsDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: RequestLightsDelegate
-    RequestLightsDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1CBC194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -38,8 +38,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Tag;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LanguagePackInfo
-    LanguagePackInfo(::Il2CppString* EnglishName_ = {}, ::Il2CppString* NativeName_ = {}, ::Il2CppString* Tag_ = {}) noexcept : EnglishName{EnglishName_}, NativeName{NativeName_}, Tag{Tag_} {}
     // Get instance field reference: public readonly System.String EnglishName
     ::Il2CppString*& dyn_EnglishName();
     // Get instance field reference: public readonly System.String NativeName

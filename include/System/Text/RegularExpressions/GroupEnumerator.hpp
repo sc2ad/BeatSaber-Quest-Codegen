@@ -41,8 +41,6 @@ namespace System::Text::RegularExpressions {
     int curindex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GroupEnumerator
-    GroupEnumerator(System::Text::RegularExpressions::GroupCollection* rgc_ = {}, int curindex_ = {}) noexcept : rgc{rgc_}, curindex{curindex_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

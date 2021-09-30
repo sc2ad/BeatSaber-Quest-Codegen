@@ -55,8 +55,6 @@ namespace ModestTree {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T $$3__item;
-    // Creating value type constructor for type: $Yield$d__0_1
-    $Yield$d__0_1(int $$1__state_ = {}, T $$2__current_ = {}, int $$l__initialThreadId_ = {}, T item_ = {}, T $$3__item_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, item{item_}, $$3__item{$$3__item_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<T>
     operator System::Collections::Generic::IEnumerable_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<T>*>(this);

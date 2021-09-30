@@ -50,8 +50,6 @@ namespace Zenject {
     ::Il2CppString* resourcePath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass31_0
-    $$c__DisplayClass31_0(Zenject::FactoryFromBinderBase* $$4__this_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, ::Il2CppString* resourcePath_ = {}) noexcept : $$4__this{$$4__this_}, gameObjectInfo{gameObjectInfo_}, resourcePath{resourcePath_} {}
     // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
     Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo

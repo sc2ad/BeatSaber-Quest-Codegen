@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayerStartState startState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
-    // Creating value type constructor for type: MultiplayerLocalPlayerInstaller
-    MultiplayerLocalPlayerInstaller(GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerPlayerStartState startState_ = {}) noexcept : levelSceneSetupData{levelSceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_}, startState{startState_} {}
     // Get instance field reference: private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
     GlobalNamespace::MultiplayerLevelSceneSetupData*& dyn__levelSceneSetupData();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager

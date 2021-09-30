@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // Creating value type constructor for type: NoteCutScoreSpawner
-    NoteCutScoreSpawner(GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : flyingScoreSpawner{flyingScoreSpawner_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingScoreSpawner _flyingScoreSpawner

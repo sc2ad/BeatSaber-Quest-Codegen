@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PointLight
-    PointLight(UnityEngine::Color color_ = {}, float intensity_ = {}) noexcept : color{color_}, intensity{intensity_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Int32 kMaxLights

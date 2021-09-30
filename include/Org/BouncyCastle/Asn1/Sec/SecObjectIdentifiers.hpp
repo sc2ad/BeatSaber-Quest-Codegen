@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SecObjectIdentifiers
-    SecObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier EllipticCurve
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_EllipticCurve();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier EllipticCurve

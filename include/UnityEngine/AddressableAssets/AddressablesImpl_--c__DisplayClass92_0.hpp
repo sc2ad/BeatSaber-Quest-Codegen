@@ -59,8 +59,6 @@ namespace UnityEngine::AddressableAssets {
     System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass92_0
-    $$c__DisplayClass92_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations_ = {}) noexcept : $$4__this{$$4__this_}, locations{locations_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations

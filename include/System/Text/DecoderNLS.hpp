@@ -62,8 +62,6 @@ namespace System::Text {
     int m_bytesUsed;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DecoderNLS
-    DecoderNLS(System::Text::Encoding* m_encoding_ = {}, bool m_mustFlush_ = {}, bool m_throwOnOverflow_ = {}, int m_bytesUsed_ = {}) noexcept : m_encoding{m_encoding_}, m_mustFlush{m_mustFlush_}, m_throwOnOverflow{m_throwOnOverflow_}, m_bytesUsed{m_bytesUsed_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -54,8 +54,6 @@ namespace System::IO {
     System::DateTime LastWriteTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: FileData
-    FileData(::Il2CppString* Directory_ = {}, System::IO::FileAttributes Attributes_ = {}, bool NotExists_ = {}, System::DateTime CreationTime_ = {}, System::DateTime LastWriteTime_ = {}) noexcept : Directory{Directory_}, Attributes{Attributes_}, NotExists{NotExists_}, CreationTime{CreationTime_}, LastWriteTime{LastWriteTime_} {}
     // Get instance field reference: public System.String Directory
     ::Il2CppString*& dyn_Directory();
     // Get instance field reference: public System.IO.FileAttributes Attributes

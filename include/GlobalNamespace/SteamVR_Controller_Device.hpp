@@ -104,8 +104,6 @@ namespace GlobalNamespace {
     bool hairTriggerPrevState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Device
-    Device(uint index_ = {}, bool valid_ = {}, Valve::VR::VRControllerState_t state_ = {}, Valve::VR::VRControllerState_t prevState_ = {}, Valve::VR::TrackedDevicePose_t pose_ = {}, int prevFrameCount_ = {}, float hairTriggerDelta_ = {}, float hairTriggerLimit_ = {}, bool hairTriggerState_ = {}, bool hairTriggerPrevState_ = {}) noexcept : index{index_}, valid{valid_}, state{state_}, prevState{prevState_}, pose{pose_}, prevFrameCount{prevFrameCount_}, hairTriggerDelta{hairTriggerDelta_}, hairTriggerLimit{hairTriggerLimit_}, hairTriggerState{hairTriggerState_}, hairTriggerPrevState{hairTriggerPrevState_} {}
     // Get instance field reference: private System.UInt32 <index>k__BackingField
     uint& dyn_$index$k__BackingField();
     // Get instance field reference: private System.Boolean <valid>k__BackingField

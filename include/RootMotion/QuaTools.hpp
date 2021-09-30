@@ -23,8 +23,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuaTools : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: QuaTools
-    QuaTools() noexcept {}
     // static public UnityEngine.Quaternion Lerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
     // Offset: 0x1C6F7FC
     static UnityEngine::Quaternion Lerp(UnityEngine::Quaternion fromRotation, UnityEngine::Quaternion toRotation, float weight);

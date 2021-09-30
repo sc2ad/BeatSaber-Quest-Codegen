@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithInstalledApplicationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::InstalledApplicationList*> {
     public:
-    // Creating value type constructor for type: MessageWithInstalledApplicationList
-    MessageWithInstalledApplicationList() noexcept {}
     // protected Oculus.Platform.Models.InstalledApplicationList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B8034
     Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(System::IntPtr c_message);

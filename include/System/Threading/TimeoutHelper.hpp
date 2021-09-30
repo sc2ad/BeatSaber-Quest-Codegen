@@ -14,8 +14,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeoutHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimeoutHelper
-    TimeoutHelper() noexcept {}
     // static public System.UInt32 GetTime()
     // Offset: 0x19C1058
     static uint GetTime();

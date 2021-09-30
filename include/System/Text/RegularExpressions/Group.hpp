@@ -41,8 +41,6 @@ namespace System::Text::RegularExpressions {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Group
-    Group(::ArrayWrapper<int> caps_ = {}, int capcount_ = {}, ::Il2CppString* name_ = {}) noexcept : caps{caps_}, capcount{capcount_}, name{name_} {}
     // Get static field: static System.Text.RegularExpressions.Group _emptygroup
     static System::Text::RegularExpressions::Group* _get__emptygroup();
     // Set static field: static System.Text.RegularExpressions.Group _emptygroup

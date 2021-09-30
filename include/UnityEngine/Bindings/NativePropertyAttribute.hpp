@@ -31,8 +31,6 @@ namespace UnityEngine::Bindings {
     UnityEngine::Bindings::TargetType TargetType;
     // Field size check
     static_assert(sizeof(UnityEngine::Bindings::TargetType) == 0x4);
-    // Creating value type constructor for type: NativePropertyAttribute
-    NativePropertyAttribute(UnityEngine::Bindings::TargetType TargetType_ = {}) noexcept : TargetType{TargetType_} {}
     // Creating conversion operator: operator UnityEngine::Bindings::TargetType
     constexpr operator UnityEngine::Bindings::TargetType() const noexcept {
       return TargetType;

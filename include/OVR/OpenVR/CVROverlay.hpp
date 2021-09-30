@@ -82,8 +82,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVROverlay FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVROverlay) == 0x290);
-    // Creating value type constructor for type: CVROverlay
-    CVROverlay(OVR::OpenVR::IVROverlay FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVROverlay
     constexpr operator OVR::OpenVR::IVROverlay() const noexcept {
       return FnTable;

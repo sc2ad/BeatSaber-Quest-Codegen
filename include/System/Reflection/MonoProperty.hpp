@@ -101,8 +101,6 @@ namespace System::Reflection {
     System::Reflection::MonoProperty::GetterAdapter* cached_getter;
     // Field size check
     static_assert(sizeof(System::Reflection::MonoProperty::GetterAdapter*) == 0x8);
-    // Creating value type constructor for type: MonoProperty
-    MonoProperty(System::IntPtr klass_ = {}, System::IntPtr prop_ = {}, System::Reflection::MonoPropertyInfo info_ = {}, System::Reflection::PInfo cached_ = {}, System::Reflection::MonoProperty::GetterAdapter* cached_getter_ = {}) noexcept : klass{klass_}, prop{prop_}, info{info_}, cached{cached_}, cached_getter{cached_getter_} {}
     // Get instance field reference: System.IntPtr klass
     System::IntPtr& dyn_klass();
     // Get instance field reference: System.IntPtr prop

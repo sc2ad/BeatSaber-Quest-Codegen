@@ -41,8 +41,6 @@ namespace NUnit::Compatibility {
     public:
     // Nested type: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
-    // Creating value type constructor for type: AdditionalTypeExtensions
-    AdditionalTypeExtensions() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
     static System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::List_1<System::Type*>*>* _get_convertibleValueTypes();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes

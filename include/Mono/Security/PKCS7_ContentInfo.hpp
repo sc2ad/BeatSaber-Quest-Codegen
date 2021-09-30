@@ -39,8 +39,6 @@ namespace Mono::Security {
     Mono::Security::ASN1* content;
     // Field size check
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
-    // Creating value type constructor for type: ContentInfo
-    ContentInfo(::Il2CppString* contentType_ = {}, Mono::Security::ASN1* content_ = {}) noexcept : contentType{contentType_}, content{content_} {}
     // Get instance field reference: private System.String contentType
     ::Il2CppString*& dyn_contentType();
     // Get instance field reference: private Mono.Security.ASN1 content

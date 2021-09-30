@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     HMUI::ImageView* image;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // Creating value type constructor for type: StartMiddleEndButtonBackgroundController
-    StartMiddleEndButtonBackgroundController(UnityEngine::Sprite* startSprite_ = {}, UnityEngine::Sprite* middleSprite_ = {}, UnityEngine::Sprite* endSprite_ = {}, HMUI::ImageView* image_ = {}) noexcept : startSprite{startSprite_}, middleSprite{middleSprite_}, endSprite{endSprite_}, image{image_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _startSprite

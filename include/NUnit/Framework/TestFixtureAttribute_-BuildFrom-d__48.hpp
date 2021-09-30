@@ -81,8 +81,6 @@ namespace NUnit::Framework {
     NUnit::Framework::TestFixtureAttribute* $$4__this;
     // Field size check
     static_assert(sizeof(NUnit::Framework::TestFixtureAttribute*) == 0x8);
-    // Creating value type constructor for type: $BuildFrom$d__48
-    $BuildFrom$d__48(int $$1__state_ = {}, NUnit::Framework::Internal::TestSuite* $$2__current_ = {}, int $$l__initialThreadId_ = {}, NUnit::Framework::Interfaces::ITypeInfo* typeInfo_ = {}, NUnit::Framework::Interfaces::ITypeInfo* $$3__typeInfo_ = {}, NUnit::Framework::TestFixtureAttribute* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, typeInfo{typeInfo_}, $$3__typeInfo{$$3__typeInfo_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>
     operator System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>*>(this);

@@ -31,8 +31,6 @@ namespace System::Reflection {
   template<typename R>
   class MonoProperty::StaticGetter_1 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: StaticGetter_1
-    StaticGetter_1() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

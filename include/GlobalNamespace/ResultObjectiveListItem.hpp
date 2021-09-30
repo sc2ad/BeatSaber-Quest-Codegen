@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* valueText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: ResultObjectiveListItem
-    ResultObjectiveListItem(UnityEngine::UI::Image* icon_ = {}, UnityEngine::UI::Image* iconGlow_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* conditionText_ = {}, TMPro::TextMeshProUGUI* valueText_ = {}) noexcept : icon{icon_}, iconGlow{iconGlow_}, titleText{titleText_}, conditionText{conditionText_}, valueText{valueText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _icon

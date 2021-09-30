@@ -21,8 +21,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TerrainUtility::TerrainGroups : public System::Collections::Generic::Dictionary_2<int, UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap*> {
     public:
-    // Creating value type constructor for type: TerrainGroups
-    TerrainGroups() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25E86FC
     // Implemented from: System.Collections.Generic.Dictionary`2

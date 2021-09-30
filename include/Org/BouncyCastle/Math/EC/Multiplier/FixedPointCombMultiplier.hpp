@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixedPointCombMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
     public:
-    // Creating value type constructor for type: FixedPointCombMultiplier
-    FixedPointCombMultiplier() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1F84AF8
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier

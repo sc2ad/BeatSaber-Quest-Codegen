@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuShockwave* shockwaveEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuShockwave*) == 0x8);
-    // Creating value type constructor for type: MissionMapAnimationController
-    MissionMapAnimationController(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, HMUI::ScrollView* mapScrollView_ = {}, float startDelay_ = {}, float stageAnimationStartDelay_ = {}, float missionConnectionAnimationStartDelay_ = {}, float missionConnectionAnimationSeparationTime_ = {}, float stageAnimationDuration_ = {}, GlobalNamespace::MenuShockwave* shockwaveEffect_ = {}) noexcept : missionNodesManager{missionNodesManager_}, mapScrollView{mapScrollView_}, startDelay{startDelay_}, stageAnimationStartDelay{stageAnimationStartDelay_}, missionConnectionAnimationStartDelay{missionConnectionAnimationStartDelay_}, missionConnectionAnimationSeparationTime{missionConnectionAnimationSeparationTime_}, stageAnimationDuration{stageAnimationDuration_}, shockwaveEffect{shockwaveEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager

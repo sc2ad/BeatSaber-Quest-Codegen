@@ -132,7 +132,6 @@ namespace RootMotion::FinalIK {
       float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
       // Offset: 0x1E6A5AC
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis) {
         static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::AxisDirection::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(direction), ::il2cpp_utils::ExtractType(axis)})));
@@ -244,8 +243,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb::AxisDirection> axisDirectionsRight;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb::AxisDirection>) == 0x8);
-    // Creating value type constructor for type: IKSolverLimb
-    IKSolverLimb(UnityEngine::AvatarIKGoal goal_ = {}, RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier_ = {}, float maintainRotationWeight_ = {}, float bendModifierWeight_ = {}, UnityEngine::Transform* bendGoal_ = {}, bool maintainBendFor1Frame_ = {}, bool maintainRotationFor1Frame_ = {}, UnityEngine::Quaternion defaultRootRotation_ = {}, UnityEngine::Quaternion parentDefaultRotation_ = {}, UnityEngine::Quaternion bone3RotationBeforeSolve_ = {}, UnityEngine::Quaternion maintainRotation_ = {}, UnityEngine::Quaternion bone3DefaultRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, UnityEngine::Vector3 animationNormal_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb::AxisDirection> axisDirectionsLeft_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb::AxisDirection> axisDirectionsRight_ = {}) noexcept : goal{goal_}, bendModifier{bendModifier_}, maintainRotationWeight{maintainRotationWeight_}, bendModifierWeight{bendModifierWeight_}, bendGoal{bendGoal_}, maintainBendFor1Frame{maintainBendFor1Frame_}, maintainRotationFor1Frame{maintainRotationFor1Frame_}, defaultRootRotation{defaultRootRotation_}, parentDefaultRotation{parentDefaultRotation_}, bone3RotationBeforeSolve{bone3RotationBeforeSolve_}, maintainRotation{maintainRotation_}, bone3DefaultRotation{bone3DefaultRotation_}, bendNormal{bendNormal_}, animationNormal{animationNormal_}, axisDirectionsLeft{axisDirectionsLeft_}, axisDirectionsRight{axisDirectionsRight_} {}
     // Get instance field reference: public UnityEngine.AvatarIKGoal goal
     UnityEngine::AvatarIKGoal& dyn_goal();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier bendModifier

@@ -20,8 +20,6 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E61900
   class IList/*, public System::Collections::ICollection*/ {
     public:
-    // Creating value type constructor for type: IList
-    IList() noexcept {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

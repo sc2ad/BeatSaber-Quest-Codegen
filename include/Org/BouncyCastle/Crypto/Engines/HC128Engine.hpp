@@ -79,8 +79,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int idx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HC128Engine
-    HC128Engine(::ArrayWrapper<uint> p_ = {}, ::ArrayWrapper<uint> q_ = {}, uint cnt_ = {}, ::ArrayWrapper<uint8_t> key_ = {}, ::ArrayWrapper<uint8_t> iv_ = {}, bool initialised_ = {}, ::ArrayWrapper<uint8_t> buf_ = {}, int idx_ = {}) noexcept : p{p_}, q{q_}, cnt{cnt_}, key{key_}, iv{iv_}, initialised{initialised_}, buf{buf_}, idx{idx_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);

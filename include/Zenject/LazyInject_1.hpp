@@ -53,8 +53,6 @@ namespace Zenject {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T value;
-    // Creating value type constructor for type: LazyInject_1
-    LazyInject_1(Zenject::DiContainer* container_ = {}, Zenject::InjectContext* context_ = {}, bool hasValue_ = {}, T value_ = {}) noexcept : container{container_}, context{context_}, hasValue{hasValue_}, value{value_} {}
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);

@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::Events::UnityEvent* unityEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEvent*) == 0x8);
-    // Creating value type constructor for type: SignalListener
-    SignalListener(GlobalNamespace::Signal* signal_ = {}, UnityEngine::Events::UnityEvent* unityEvent_ = {}) noexcept : signal{signal_}, unityEvent{unityEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal _signal

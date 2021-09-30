@@ -22,8 +22,6 @@ namespace System::Text::RegularExpressions {
   // [EditorBrowsableAttribute] Offset: E69120
   class RegexRunnerFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RegexRunnerFactory
-    RegexRunnerFactory() noexcept {}
     // protected internal System.Text.RegularExpressions.RegexRunner CreateInstance()
     // Offset: 0xFFFFFFFF
     System::Text::RegularExpressions::RegexRunner* CreateInstance();

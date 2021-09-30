@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     LiteNetLib::NetPeer* netPeer;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPeer*) == 0x8);
-    // Creating value type constructor for type: NetPeerConnection
-    NetPeerConnection(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isConnectionOwner_ = {}, LiteNetLib::NetPeer* netPeer_ = {}) noexcept : userId{userId_}, userName{userName_}, isConnectionOwner{isConnectionOwner_}, netPeer{netPeer_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>
     operator System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);

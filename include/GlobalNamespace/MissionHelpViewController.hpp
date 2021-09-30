@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionHelpSO* missionHelp;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
-    // Creating value type constructor for type: MissionHelpViewController
-    MissionHelpViewController(UnityEngine::UI::Button* okButton_ = {}, ::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*> missionHelpGameObjectPairs_ = {}, System::Action_1<GlobalNamespace::MissionHelpViewController*>* didFinishEvent_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : okButton{okButton_}, missionHelpGameObjectPairs{missionHelpGameObjectPairs_}, didFinishEvent{didFinishEvent_}, missionHelp{missionHelp_} {}
     // Get instance field reference: private UnityEngine.UI.Button _okButton
     UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs

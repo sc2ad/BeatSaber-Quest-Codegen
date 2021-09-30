@@ -37,8 +37,6 @@ namespace UnityEngine::Tilemaps {
     UnityEngine::Tilemaps::Tilemap* m_Tilemap;
     // Field size check
     static_assert(sizeof(UnityEngine::Tilemaps::Tilemap*) == 0x8);
-    // Creating value type constructor for type: ITilemap
-    ITilemap(UnityEngine::Tilemaps::Tilemap* m_Tilemap_ = {}) noexcept : m_Tilemap{m_Tilemap_} {}
     // Creating conversion operator: operator UnityEngine::Tilemaps::Tilemap*
     constexpr operator UnityEngine::Tilemaps::Tilemap*() const noexcept {
       return m_Tilemap;

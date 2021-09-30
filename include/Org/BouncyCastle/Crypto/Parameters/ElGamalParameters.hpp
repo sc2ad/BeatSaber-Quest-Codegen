@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int l;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ElGamalParameters
-    ElGamalParameters(Org::BouncyCastle::Math::BigInteger* p_ = {}, Org::BouncyCastle::Math::BigInteger* g_ = {}, int l_ = {}) noexcept : p{p_}, g{g_}, l{l_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

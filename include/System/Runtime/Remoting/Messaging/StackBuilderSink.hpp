@@ -51,8 +51,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Proxies::RealProxy* rp;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Proxies::RealProxy*) == 0x8);
-    // Creating value type constructor for type: StackBuilderSink
-    StackBuilderSink(System::MarshalByRefObject* target_ = {}, System::Runtime::Remoting::Proxies::RealProxy* rp_ = {}) noexcept : target{target_}, rp{rp_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

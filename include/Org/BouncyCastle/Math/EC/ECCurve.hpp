@@ -112,8 +112,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* m_multiplier;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*) == 0x8);
-    // Creating value type constructor for type: ECCurve
-    ECCurve(Org::BouncyCastle::Math::Field::IFiniteField* m_field_ = {}, Org::BouncyCastle::Math::EC::ECFieldElement* m_a_ = {}, Org::BouncyCastle::Math::EC::ECFieldElement* m_b_ = {}, Org::BouncyCastle::Math::BigInteger* m_order_ = {}, Org::BouncyCastle::Math::BigInteger* m_cofactor_ = {}, int m_coord_ = {}, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism_ = {}, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* m_multiplier_ = {}) noexcept : m_field{m_field_}, m_a{m_a_}, m_b{m_b_}, m_order{m_order_}, m_cofactor{m_cofactor_}, m_coord{m_coord_}, m_endomorphism{m_endomorphism_}, m_multiplier{m_multiplier_} {}
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.Field.IFiniteField m_field
     Org::BouncyCastle::Math::Field::IFiniteField*& dyn_m_field();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECFieldElement m_a

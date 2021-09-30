@@ -34,8 +34,6 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: E992AC
   class InputDevices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: InputDevices
-    InputDevices() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE99958
     // Get static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConnected
     static System::Action_1<UnityEngine::XR::InputDevice>* _get_deviceConnected();

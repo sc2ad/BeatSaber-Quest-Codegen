@@ -80,8 +80,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::WingedEdge* opposite;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
-    // Creating value type constructor for type: WingedEdge
-    WingedEdge(UnityEngine::ProBuilder::EdgeLookup edge_ = {}, UnityEngine::ProBuilder::Face* face_ = {}, UnityEngine::ProBuilder::WingedEdge* next_ = {}, UnityEngine::ProBuilder::WingedEdge* previous_ = {}, UnityEngine::ProBuilder::WingedEdge* opposite_ = {}) noexcept : edge{edge_}, face{face_}, next{next_}, previous{previous_}, opposite{opposite_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::WingedEdge*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);

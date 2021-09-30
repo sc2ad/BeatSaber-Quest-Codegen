@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly LiteNetLibConnectionManager/<>c <>9
     static GlobalNamespace::LiteNetLibConnectionManager::$$c* _get_$$9();
     // Set static field: static public readonly LiteNetLibConnectionManager/<>c <>9

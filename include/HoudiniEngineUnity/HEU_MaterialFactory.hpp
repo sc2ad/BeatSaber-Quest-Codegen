@@ -43,8 +43,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_MaterialFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_MaterialFactory
-    HEU_MaterialFactory() noexcept {}
     // Get static field: static public UnityEngine.Material _defaultStandardMaterial
     static UnityEngine::Material* _get__defaultStandardMaterial();
     // Set static field: static public UnityEngine.Material _defaultStandardMaterial

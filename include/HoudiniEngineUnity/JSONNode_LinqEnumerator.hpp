@@ -43,8 +43,6 @@ namespace HoudiniEngineUnity {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     HoudiniEngineUnity::JSONNode::Enumerator m_Enumerator;
-    // Creating value type constructor for type: LinqEnumerator
-    LinqEnumerator(HoudiniEngineUnity::JSONNode* m_Node_ = {}, HoudiniEngineUnity::JSONNode::Enumerator m_Enumerator_ = {}) noexcept : m_Node{m_Node_}, m_Enumerator{m_Enumerator_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>>
     operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>>*>(this);

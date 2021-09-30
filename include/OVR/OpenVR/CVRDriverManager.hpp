@@ -35,8 +35,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRDriverManager FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRDriverManager) == 0x18);
-    // Creating value type constructor for type: CVRDriverManager
-    CVRDriverManager(OVR::OpenVR::IVRDriverManager FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRDriverManager
     constexpr operator OVR::OpenVR::IVRDriverManager() const noexcept {
       return FnTable;

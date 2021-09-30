@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     UnityEngine::Rendering::CommandBuffer* commandBuffer;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::CommandBuffer*) == 0x8);
-    // Creating value type constructor for type: CommandBufferOwners
-    CommandBufferOwners(System::Collections::Generic::HashSet_1<UnityEngine::Object*>* owners_ = {}, UnityEngine::Rendering::CommandBuffer* commandBuffer_ = {}) noexcept : owners{owners_}, commandBuffer{commandBuffer_} {}
     // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
     System::Collections::Generic::HashSet_1<UnityEngine::Object*>*& dyn__owners();
     // Get instance field reference: public UnityEngine.Rendering.CommandBuffer commandBuffer

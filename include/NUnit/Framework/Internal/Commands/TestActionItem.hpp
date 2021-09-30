@@ -42,8 +42,6 @@ namespace NUnit::Framework::Internal::Commands {
     bool beforeTestWasRun;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestActionItem
-    TestActionItem(NUnit::Framework::ITestAction* action_ = {}, bool beforeTestWasRun_ = {}) noexcept : action{action_}, beforeTestWasRun{beforeTestWasRun_} {}
     // Get instance field reference: private readonly NUnit.Framework.ITestAction _action
     NUnit::Framework::ITestAction*& dyn__action();
     // Get instance field reference: private System.Boolean _beforeTestWasRun

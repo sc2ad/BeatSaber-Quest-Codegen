@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1OctetStringParser/*, public Org::BouncyCastle::Asn1::IAsn1Convertible*/ {
     public:
-    // Creating value type constructor for type: Asn1OctetStringParser
-    Asn1OctetStringParser() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Convertible
     operator Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);

@@ -47,8 +47,6 @@ namespace HMUI {
     UnityEngine::Canvas* canvas;
     // Field size check
     static_assert(sizeof(UnityEngine::Canvas*) == 0x8);
-    // Creating value type constructor for type: RaycastUITopLevelChecker
-    RaycastUITopLevelChecker(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* results_ = {}, UnityEngine::Canvas* canvas_ = {}) noexcept : results{results_}, canvas{canvas_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> results

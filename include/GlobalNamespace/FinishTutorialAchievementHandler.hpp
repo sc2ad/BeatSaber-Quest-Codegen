@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* finishTutorialAchievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // Creating value type constructor for type: FinishTutorialAchievementHandler
-    FinishTutorialAchievementHandler(GlobalNamespace::AchievementsModelSO* achievementsModel_ = {}, GlobalNamespace::Signal* tutorialFinishedSignal_ = {}, GlobalNamespace::AchievementSO* finishTutorialAchievement_ = {}) noexcept : achievementsModel{achievementsModel_}, tutorialFinishedSignal{tutorialFinishedSignal_}, finishTutorialAchievement{finishTutorialAchievement_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AchievementsModelSO _achievementsModel

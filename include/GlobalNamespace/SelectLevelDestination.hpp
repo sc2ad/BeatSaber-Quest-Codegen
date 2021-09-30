@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
-    // Creating value type constructor for type: SelectLevelDestination
-    SelectLevelDestination(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}) noexcept : beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_} {}
     // Get instance field reference: public readonly IBeatmapLevelPack beatmapLevelPack
     GlobalNamespace::IBeatmapLevelPack*& dyn_beatmapLevelPack();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

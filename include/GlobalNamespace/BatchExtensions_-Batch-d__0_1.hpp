@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::IEnumerator_1<T>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<T>*) == 0x8);
-    // Creating value type constructor for type: $Batch$d__0_1
-    $Batch$d__0_1(int $$1__state_ = {}, System::Collections::Generic::List_1<T>* $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEnumerable_1<T>* enumerable_ = {}, System::Collections::Generic::IEnumerable_1<T>* $$3__enumerable_ = {}, int batchSize_ = {}, int $$3__batchSize_ = {}, System::Collections::Generic::IEnumerator_1<T>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, enumerable{enumerable_}, $$3__enumerable{$$3__enumerable_}, batchSize{batchSize_}, $$3__batchSize{$$3__batchSize_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>
     operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>*>(this);

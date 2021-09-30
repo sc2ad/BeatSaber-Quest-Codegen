@@ -47,8 +47,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(Zenject::ScopableBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}) noexcept : $$4__this{$$4__this_}, container{container_} {}
     // Get instance field reference: public Zenject.ScopableBindingFinalizer <>4__this
     Zenject::ScopableBindingFinalizer*& dyn_$$4__this();
     // Get instance field reference: public Zenject.DiContainer container

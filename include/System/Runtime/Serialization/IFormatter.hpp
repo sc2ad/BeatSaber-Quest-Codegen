@@ -29,8 +29,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F6A4
   class IFormatter {
     public:
-    // Creating value type constructor for type: IFormatter
-    IFormatter() noexcept {}
     // public System.Void set_SurrogateSelector(System.Runtime.Serialization.ISurrogateSelector value)
     // Offset: 0xFFFFFFFF
     void set_SurrogateSelector(System::Runtime::Serialization::ISurrogateSelector* value);

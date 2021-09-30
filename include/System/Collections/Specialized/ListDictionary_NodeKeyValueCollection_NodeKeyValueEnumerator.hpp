@@ -54,8 +54,6 @@ namespace System::Collections::Specialized {
     bool start;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NodeKeyValueEnumerator
-    NodeKeyValueEnumerator(System::Collections::Specialized::ListDictionary* list_ = {}, System::Collections::Specialized::ListDictionary::DictionaryNode* current_ = {}, int version_ = {}, bool isKeys_ = {}, bool start_ = {}) noexcept : list{list_}, current{current_}, version{version_}, isKeys{isKeys_}, start{start_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

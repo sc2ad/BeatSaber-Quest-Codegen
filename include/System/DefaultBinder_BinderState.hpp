@@ -38,8 +38,6 @@ namespace System {
     bool m_isParamArray;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BinderState
-    BinderState(::ArrayWrapper<int> m_argsMap_ = {}, int m_originalSize_ = {}, bool m_isParamArray_ = {}) noexcept : m_argsMap{m_argsMap_}, m_originalSize{m_originalSize_}, m_isParamArray{m_isParamArray_} {}
     // Get instance field reference: System.Int32[] m_argsMap
     ::ArrayWrapper<int>& dyn_m_argsMap();
     // Get instance field reference: System.Int32 m_originalSize

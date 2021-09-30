@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Integers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Integers
-    Integers() noexcept {}
     // static public System.Int32 NumberOfLeadingZeros(System.Int32 i)
     // Offset: 0x2183624
     static int NumberOfLeadingZeros(int i);

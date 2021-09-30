@@ -41,8 +41,6 @@ namespace System::Collections {
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: ReadOnlyCollectionBase
-    ReadOnlyCollectionBase(System::Collections::ArrayList* list_ = {}) noexcept : list{list_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

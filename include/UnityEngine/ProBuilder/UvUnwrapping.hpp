@@ -41,8 +41,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class UvUnwrapping : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UvUnwrapping
-    UvUnwrapping() noexcept {}
     // Get static field: static private UnityEngine.Vector2 s_TempVector2
     static UnityEngine::Vector2 _get_s_TempVector2();
     // Set static field: static private UnityEngine.Vector2 s_TempVector2

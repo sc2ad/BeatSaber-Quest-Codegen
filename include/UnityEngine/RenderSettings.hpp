@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E710A4
   class RenderSettings : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: RenderSettings
-    RenderSettings() noexcept {}
   }; // UnityEngine.RenderSettings
   #pragma pack(pop)
 }

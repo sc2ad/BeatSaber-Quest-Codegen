@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::InvalidateLevelEntitlementStatusesRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
-    // Creating value type constructor for type: InvalidateLevelEntitlementStatusesRpc
-    InvalidateLevelEntitlementStatusesRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8924
     // Implemented from: RemoteProcedureCall

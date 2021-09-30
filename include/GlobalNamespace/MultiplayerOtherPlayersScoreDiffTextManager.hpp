@@ -87,8 +87,6 @@ namespace GlobalNamespace {
     float timeToNextUpdate;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerOtherPlayersScoreDiffTextManager
-    MultiplayerOtherPlayersScoreDiffTextManager(GlobalNamespace::MultiplayerController* multiplayerController_ = {}, GlobalNamespace::MultiplayerPlayersManager* playersManager_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}, float timeToNextUpdate_ = {}) noexcept : multiplayerController{multiplayerController_}, playersManager{playersManager_}, scoreProvider{scoreProvider_}, multiplayerSessionManager{multiplayerSessionManager_}, layoutProvider{layoutProvider_}, initData{initData_}, timeToNextUpdate{timeToNextUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kUpdateInterval

@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetector;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectSpawnControllerPlayerHeightSetter
-    BeatmapObjectSpawnControllerPlayerHeightSetter(GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetector_ = {}) noexcept : beatmapObjectSpawnController{beatmapObjectSpawnController_}, playerHeightDetector{playerHeightDetector_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController

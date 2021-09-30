@@ -69,8 +69,6 @@ namespace Zenject {
     bool resolveAll;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SubContainerDependencyProvider
-    SubContainerDependencyProvider(Zenject::ISubContainerCreator* subContainerCreator_ = {}, System::Type* dependencyType_ = {}, ::Il2CppObject* identifier_ = {}, bool resolveAll_ = {}) noexcept : subContainerCreator{subContainerCreator_}, dependencyType{dependencyType_}, identifier{identifier_}, resolveAll{resolveAll_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

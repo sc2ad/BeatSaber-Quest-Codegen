@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     UnityEngine::Color obstaclesColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: ColorScheme
-    ColorScheme(::Il2CppString* colorSchemeId_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color environmentColor0_ = {}, UnityEngine::Color environmentColor1_ = {}, UnityEngine::Color obstaclesColor_ = {}) noexcept : colorSchemeId{colorSchemeId_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, obstaclesColor{obstaclesColor_} {}
     // Get instance field reference: public System.String colorSchemeId
     ::Il2CppString*& dyn_colorSchemeId();
     // Get instance field reference: public UnityEngine.Color saberAColor

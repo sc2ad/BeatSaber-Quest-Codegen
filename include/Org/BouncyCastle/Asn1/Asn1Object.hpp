@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1Object : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    // Creating value type constructor for type: Asn1Object
-    Asn1Object() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromByteArray(System.Byte[] data)
     // Offset: 0x18E2660
     static Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::ArrayWrapper<uint8_t> data);

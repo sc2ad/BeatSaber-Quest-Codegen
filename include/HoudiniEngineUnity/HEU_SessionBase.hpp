@@ -138,8 +138,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_Result LastCallResultCode;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_Result) == 0x4);
-    // Creating value type constructor for type: HEU_SessionBase
-    HEU_SessionBase(HoudiniEngineUnity::HEU_SessionData* sessionData_ = {}, bool UserNotifiedSessionInvalid_ = {}, ::Il2CppString* sessionErrorMsg_ = {}, bool LogErrorOverride_ = {}, bool ThrowErrorOverride_ = {}, HoudiniEngineUnity::HAPI_Result LastCallResultCode_ = {}) noexcept : sessionData{sessionData_}, UserNotifiedSessionInvalid{UserNotifiedSessionInvalid_}, sessionErrorMsg{sessionErrorMsg_}, LogErrorOverride{LogErrorOverride_}, ThrowErrorOverride{ThrowErrorOverride_}, LastCallResultCode{LastCallResultCode_} {}
     // Get instance field reference: protected HoudiniEngineUnity.HEU_SessionData _sessionData
     HoudiniEngineUnity::HEU_SessionData*& dyn__sessionData();
     // Get instance field reference: private System.Boolean <UserNotifiedSessionInvalid>k__BackingField

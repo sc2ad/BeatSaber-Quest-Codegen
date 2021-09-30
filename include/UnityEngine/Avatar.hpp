@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E8B69C
   class Avatar : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Avatar
-    Avatar() noexcept {}
     // public System.Boolean get_isValid()
     // Offset: 0x2597368
     bool get_isValid();

@@ -27,8 +27,6 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ArrayExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ArrayExtensions
-    ArrayExtensions() noexcept {}
     // static public System.Void Init(T[] array, T defaultValue)
     // Offset: 0xFFFFFFFF
     template<class T>

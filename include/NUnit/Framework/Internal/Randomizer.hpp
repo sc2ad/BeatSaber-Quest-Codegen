@@ -38,8 +38,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class Randomizer : public System::Random {
     public:
-    // Creating value type constructor for type: Randomizer
-    Randomizer() noexcept {}
     // Get static field: static private System.Random _seedGenerator
     static System::Random* _get__seedGenerator();
     // Set static field: static private System.Random _seedGenerator

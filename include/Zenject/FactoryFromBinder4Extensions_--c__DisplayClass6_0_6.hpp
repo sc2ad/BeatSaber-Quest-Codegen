@@ -46,8 +46,6 @@ namespace Zenject {
     System::Guid poolId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // Creating value type constructor for type: $$c__DisplayClass6_0_6
-    $$c__DisplayClass6_0_6(System::Guid poolId_ = {}) noexcept : poolId{poolId_} {}
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return poolId;

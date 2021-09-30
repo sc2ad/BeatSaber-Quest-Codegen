@@ -41,8 +41,6 @@ namespace HMUI {
     class $$c;
     // Nested type: HMUI::StackedController::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    // Creating value type constructor for type: StackedController
-    StackedController() noexcept {}
     // public HMUI.ViewController get_topStackedViewController()
     // Offset: 0x141D388
     HMUI::ViewController* get_topStackedViewController();

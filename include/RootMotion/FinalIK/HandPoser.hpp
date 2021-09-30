@@ -59,8 +59,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<UnityEngine::Quaternion> defaultLocalRotations;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
-    // Creating value type constructor for type: HandPoser
-    HandPoser(::ArrayWrapper<UnityEngine::Transform*> children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::ArrayWrapper<UnityEngine::Transform*> poseChildren_ = {}, ::ArrayWrapper<UnityEngine::Vector3> defaultLocalPositions_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
     // Get instance field reference: protected UnityEngine.Transform[] children
     ::ArrayWrapper<UnityEngine::Transform*>& dyn_children();
     // Get instance field reference: private UnityEngine.Transform _poseRoot

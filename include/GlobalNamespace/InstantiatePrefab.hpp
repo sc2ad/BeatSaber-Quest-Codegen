@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* prefab;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: InstantiatePrefab
-    InstantiatePrefab(UnityEngine::GameObject* prefab_ = {}) noexcept : prefab{prefab_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject _prefab

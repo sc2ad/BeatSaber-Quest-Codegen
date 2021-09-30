@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteDebrisPhysics : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: NoteDebrisPhysics
-    NoteDebrisPhysics() noexcept {}
     // public UnityEngine.Vector3 get_position()
     // Offset: 0xFFFFFFFF
     UnityEngine::Vector3 get_position();

@@ -34,8 +34,6 @@ namespace Oculus::Platform {
   // [UnmanagedFunctionPointerAttribute] Offset: EE8158
   class CAPI::FilterCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: FilterCallback
-    FilterCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16A7C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

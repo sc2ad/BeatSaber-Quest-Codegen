@@ -45,8 +45,6 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder_ = {}) noexcept : builder{builder_} {}
     // Creating conversion operator: operator System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*
     constexpr operator System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*() const noexcept {
       return builder;

@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreSyncStateManager : public GlobalNamespace::MultiplayerSyncStateManager_5<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int, GlobalNamespace::StandardScoreSyncStateNetSerializable*, GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>/*, public GlobalNamespace::IScoreSyncStateManager*/ {
     public:
-    // Creating value type constructor for type: ScoreSyncStateManager
-    ScoreSyncStateManager() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IScoreSyncStateManager
     operator GlobalNamespace::IScoreSyncStateManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IScoreSyncStateManager*>(this);

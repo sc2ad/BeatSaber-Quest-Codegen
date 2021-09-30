@@ -40,8 +40,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryConverter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BinaryConverter
-    BinaryConverter() noexcept {}
     // static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetBinaryTypeInfo(System.Type type, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.String typeName, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, out System.Object typeInformation, out System.Int32 assemId)
     // Offset: 0x17E741C
     static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(System::Type* type, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::Il2CppString* typeName, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ByRef<::Il2CppObject*> typeInformation, ByRef<int> assemId);

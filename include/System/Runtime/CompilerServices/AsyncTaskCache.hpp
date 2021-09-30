@@ -26,8 +26,6 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncTaskCache : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AsyncTaskCache
-    AsyncTaskCache() noexcept {}
     // Get static field: static readonly System.Threading.Tasks.Task`1<System.Boolean> TrueTask
     static System::Threading::Tasks::Task_1<bool>* _get_TrueTask();
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Boolean> TrueTask

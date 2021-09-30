@@ -38,8 +38,6 @@ namespace UnityEngine::Networking {
     UnityEngine::Networking::UnityWebRequest* webRequest;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
-    // Creating value type constructor for type: UnityWebRequestAsyncOperation
-    UnityWebRequestAsyncOperation(UnityEngine::Networking::UnityWebRequest* webRequest_ = {}) noexcept : webRequest{webRequest_} {}
     // Creating conversion operator: operator UnityEngine::Networking::UnityWebRequest*
     constexpr operator UnityEngine::Networking::UnityWebRequest*() const noexcept {
       return webRequest;

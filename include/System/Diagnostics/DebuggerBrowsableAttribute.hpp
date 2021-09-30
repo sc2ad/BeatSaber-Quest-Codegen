@@ -30,8 +30,6 @@ namespace System::Diagnostics {
     System::Diagnostics::DebuggerBrowsableState state;
     // Field size check
     static_assert(sizeof(System::Diagnostics::DebuggerBrowsableState) == 0x4);
-    // Creating value type constructor for type: DebuggerBrowsableAttribute
-    DebuggerBrowsableAttribute(System::Diagnostics::DebuggerBrowsableState state_ = {}) noexcept : state{state_} {}
     // Creating conversion operator: operator System::Diagnostics::DebuggerBrowsableState
     constexpr operator System::Diagnostics::DebuggerBrowsableState() const noexcept {
       return state;

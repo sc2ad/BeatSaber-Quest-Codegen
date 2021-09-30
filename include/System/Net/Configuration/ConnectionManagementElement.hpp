@@ -16,8 +16,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectionManagementElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: ConnectionManagementElement
-    ConnectionManagementElement() noexcept {}
   }; // System.Net.Configuration.ConnectionManagementElement
   #pragma pack(pop)
 }

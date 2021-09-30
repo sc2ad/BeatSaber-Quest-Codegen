@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // Creating value type constructor for type: MasterServerConnectionManagerParamsBase
-    MasterServerConnectionManagerParamsBase(GlobalNamespace::MasterServerEndPoint* masterServerEndPoint_ = {}, GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : masterServerEndPoint{masterServerEndPoint_}, authenticationTokenProvider{authenticationTokenProvider_}, userId{userId_}, userName{userName_}, selectionMask{selectionMask_}, configuration{configuration_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*>(this);

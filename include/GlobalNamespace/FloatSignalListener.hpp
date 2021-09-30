@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatUnityEvent* unityEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatUnityEvent*) == 0x8);
-    // Creating value type constructor for type: FloatSignalListener
-    FloatSignalListener(GlobalNamespace::FloatSignal* floatSignal_ = {}, GlobalNamespace::FloatUnityEvent* unityEvent_ = {}) noexcept : floatSignal{floatSignal_}, unityEvent{unityEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSignal _floatSignal

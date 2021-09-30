@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Asn1 {
     int start;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DerEnumerated
-    DerEnumerated(::ArrayWrapper<uint8_t> bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
     // Get static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
     static ::ArrayWrapper<Org::BouncyCastle::Asn1::DerEnumerated*> _get_cache();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache

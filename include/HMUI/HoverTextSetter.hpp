@@ -48,8 +48,6 @@ namespace HMUI {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HoverTextSetter
-    HoverTextSetter(HMUI::HoverTextController* hoverTextController_ = {}, ::Il2CppString* text_ = {}) noexcept : hoverTextController{hoverTextController_}, text{text_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

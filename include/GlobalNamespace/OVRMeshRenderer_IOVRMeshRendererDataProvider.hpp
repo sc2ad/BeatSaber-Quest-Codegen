@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMeshRenderer::IOVRMeshRendererDataProvider {
     public:
-    // Creating value type constructor for type: IOVRMeshRendererDataProvider
-    IOVRMeshRendererDataProvider() noexcept {}
     // public OVRMeshRenderer/MeshRendererData GetMeshRendererData()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::OVRMeshRenderer::MeshRendererData GetMeshRendererData();

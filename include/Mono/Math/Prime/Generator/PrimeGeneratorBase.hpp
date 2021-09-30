@@ -32,8 +32,6 @@ namespace Mono::Math::Prime::Generator {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrimeGeneratorBase : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PrimeGeneratorBase
-    PrimeGeneratorBase() noexcept {}
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
     // Offset: 0x1F97654
     Mono::Math::Prime::ConfidenceFactor get_Confidence();

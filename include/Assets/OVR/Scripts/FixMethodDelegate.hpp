@@ -34,8 +34,6 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixMethodDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: FixMethodDelegate
-    FixMethodDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x175EB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

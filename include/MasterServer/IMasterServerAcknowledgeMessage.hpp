@@ -15,8 +15,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMasterServerAcknowledgeMessage/*, public MasterServer::IMasterServerResponse*/ {
     public:
-    // Creating value type constructor for type: IMasterServerAcknowledgeMessage
-    IMasterServerAcknowledgeMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerResponse
     operator MasterServer::IMasterServerResponse() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerResponse*>(this);

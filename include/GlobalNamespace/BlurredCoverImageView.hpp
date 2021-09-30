@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* blurredCoverTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
-    // Creating value type constructor for type: BlurredCoverImageView
-    BlurredCoverImageView(HMUI::ImageView* coverImage_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, ::Il2CppString* settingTextureForLevelId_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, UnityEngine::Texture2D* blurredCoverTexture_ = {}) noexcept : coverImage{coverImage_}, kawaseBlurRenderer{kawaseBlurRenderer_}, settingTextureForLevelId{settingTextureForLevelId_}, cancellationTokenSource{cancellationTokenSource_}, blurredCoverTexture{blurredCoverTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ImageView _coverImage

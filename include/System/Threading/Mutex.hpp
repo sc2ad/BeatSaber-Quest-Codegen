@@ -17,8 +17,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EBA0
   class Mutex : public System::Threading::WaitHandle {
     public:
-    // Creating value type constructor for type: Mutex
-    Mutex() noexcept {}
   }; // System.Threading.Mutex
   #pragma pack(pop)
 }

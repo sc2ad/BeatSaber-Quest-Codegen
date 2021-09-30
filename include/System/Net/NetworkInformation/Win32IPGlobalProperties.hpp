@@ -20,8 +20,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32IPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
-    // Creating value type constructor for type: Win32IPGlobalProperties
-    Win32IPGlobalProperties() noexcept {}
     // public override System.String get_DomainName()
     // Offset: 0x16493FC
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties

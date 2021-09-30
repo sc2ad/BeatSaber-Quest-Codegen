@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
     System::IntPtr handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: RNGCryptoServiceProvider
-    RNGCryptoServiceProvider(System::IntPtr handle_ = {}) noexcept : handle{handle_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return handle;

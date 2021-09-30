@@ -50,8 +50,6 @@ namespace System::Runtime::CompilerServices {
     System::Threading::Tasks::Task* m_innerTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: ContinuationWrapper
-    ContinuationWrapper(System::Action* m_continuation_ = {}, System::Action* m_invokeAction_ = {}, System::Threading::Tasks::Task* m_innerTask_ = {}) noexcept : m_continuation{m_continuation_}, m_invokeAction{m_invokeAction_}, m_innerTask{m_innerTask_} {}
     // Get instance field reference: readonly System.Action m_continuation
     System::Action*& dyn_m_continuation();
     // Get instance field reference: private readonly System.Action m_invokeAction

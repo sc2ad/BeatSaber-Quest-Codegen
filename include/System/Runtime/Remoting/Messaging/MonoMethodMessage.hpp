@@ -144,8 +144,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Identity* identity;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Identity*) == 0x8);
-    // Creating value type constructor for type: MonoMethodMessage
-    MonoMethodMessage(System::Reflection::MonoMethod* method_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}, ::ArrayWrapper<::Il2CppString*> names_ = {}, ::ArrayWrapper<uint8_t> arg_types_ = {}, System::Runtime::Remoting::Messaging::LogicalCallContext* ctx_ = {}, ::Il2CppObject* rval_ = {}, System::Exception* exc_ = {}, System::Runtime::Remoting::Messaging::AsyncResult* asyncResult_ = {}, System::Runtime::Remoting::Messaging::CallType call_type_ = {}, ::Il2CppString* uri_ = {}, System::Runtime::Remoting::Messaging::MCMDictionary* properties_ = {}, ::ArrayWrapper<System::Type*> methodSignature_ = {}, System::Runtime::Remoting::Identity* identity_ = {}) noexcept : method{method_}, args{args_}, names{names_}, arg_types{arg_types_}, ctx{ctx_}, rval{rval_}, exc{exc_}, asyncResult{asyncResult_}, call_type{call_type_}, uri{uri_}, properties{properties_}, methodSignature{methodSignature_}, identity{identity_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodReturnMessage
     operator System::Runtime::Remoting::Messaging::IMethodReturnMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);

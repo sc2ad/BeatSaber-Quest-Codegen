@@ -47,8 +47,6 @@ namespace Zenject {
     bool excludeSelf;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass61_0
-    $$c__DisplayClass61_0(bool includeInactive_ = {}, bool excludeSelf_ = {}) noexcept : includeInactive{includeInactive_}, excludeSelf{excludeSelf_} {}
     // Get instance field reference: public System.Boolean includeInactive
     bool& dyn_includeInactive();
     // Get instance field reference: public System.Boolean excludeSelf

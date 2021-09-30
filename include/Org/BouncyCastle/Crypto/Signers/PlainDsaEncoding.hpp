@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlainDsaEncoding : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::Signers::IDsaEncoding*/ {
     public:
-    // Creating value type constructor for type: PlainDsaEncoding
-    PlainDsaEncoding() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Signers::IDsaEncoding
     operator Org::BouncyCastle::Crypto::Signers::IDsaEncoding() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(this);

@@ -20,8 +20,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWebConnectionState {
     public:
-    // Creating value type constructor for type: IWebConnectionState
-    IWebConnectionState() noexcept {}
     // public System.Net.WebConnectionGroup get_Group()
     // Offset: 0xFFFFFFFF
     System::Net::WebConnectionGroup* get_Group();

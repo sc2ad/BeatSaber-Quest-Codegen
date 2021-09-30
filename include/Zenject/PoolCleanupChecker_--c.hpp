@@ -31,8 +31,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PoolCleanupChecker::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.PoolCleanupChecker/Zenject.<>c <>9
     static Zenject::PoolCleanupChecker::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.PoolCleanupChecker/Zenject.<>c <>9

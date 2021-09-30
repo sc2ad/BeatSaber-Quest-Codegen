@@ -78,8 +78,6 @@ namespace Zenject {
     Zenject::InjectSources sourceType;
     // Field size check
     static_assert(sizeof(Zenject::InjectSources) == 0x4);
-    // Creating value type constructor for type: GetterProvider_2
-    GetterProvider_2(Zenject::DiContainer* container_ = {}, ::Il2CppObject* identifier_ = {}, System::Func_2<TObj, TResult>* method_ = {}, bool matchAll_ = {}, Zenject::InjectSources sourceType_ = {}) noexcept : container{container_}, identifier{identifier_}, method{method_}, matchAll{matchAll_}, sourceType{sourceType_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

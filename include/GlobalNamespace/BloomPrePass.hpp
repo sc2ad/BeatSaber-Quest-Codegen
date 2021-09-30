@@ -110,8 +110,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*) == 0x8);
-    // Creating value type constructor for type: BloomPrePass
-    BloomPrePass(GlobalNamespace::BloomPrePassRendererSO* bloomPrepassRenderer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::BloomPrePassRenderDataSO* bloomPrePassRenderData_ = {}, GlobalNamespace::BloomPrePass::Mode mode_ = {}, GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData_ = {}) noexcept : bloomPrepassRenderer{bloomPrepassRenderer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, bloomPrePassRenderData{bloomPrePassRenderData_}, mode{mode_}, renderData{renderData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassRendererSO _bloomPrepassRenderer

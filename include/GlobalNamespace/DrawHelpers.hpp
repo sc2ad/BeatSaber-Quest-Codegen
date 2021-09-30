@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DrawHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DrawHelpers
-    DrawHelpers() noexcept {}
     // static public System.Void DrawTexture(UnityEngine.Texture texture, System.Single x, System.Single y, System.Single w, System.Single h, UnityEngine.Material mat, System.Single sx, System.Single sy, System.Single sw, System.Single sh)
     // Offset: 0x137D18C
     static void DrawTexture(UnityEngine::Texture* texture, float x, float y, float w, float h, UnityEngine::Material* mat, float sx, float sy, float sw, float sh);

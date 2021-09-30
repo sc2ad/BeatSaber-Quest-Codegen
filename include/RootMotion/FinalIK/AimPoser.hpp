@@ -45,8 +45,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*> poses;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*>) == 0x8);
-    // Creating value type constructor for type: AimPoser
-    AimPoser(float angleBuffer_ = {}, ::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*> poses_ = {}) noexcept : angleBuffer{angleBuffer_}, poses{poses_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single angleBuffer

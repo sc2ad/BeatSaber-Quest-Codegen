@@ -68,8 +68,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::ArrayWrapper<System::Type*> memberTypes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: SerObjectInfoCache
-    SerObjectInfoCache(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}, ::ArrayWrapper<System::Reflection::MemberInfo*> memberInfos_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, ::ArrayWrapper<System::Type*> memberTypes_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_}, memberInfos{memberInfos_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
     // Get instance field reference: System.String fullTypeName
     ::Il2CppString*& dyn_fullTypeName();
     // Get instance field reference: System.String assemblyString

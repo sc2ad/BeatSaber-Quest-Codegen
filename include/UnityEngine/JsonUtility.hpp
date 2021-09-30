@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EBCABC
   class JsonUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: JsonUtility
-    JsonUtility() noexcept {}
     // static private System.String ToJsonInternal(System.Object obj, System.Boolean prettyPrint)
     // Offset: 0x2629B18
     static ::Il2CppString* ToJsonInternal(::Il2CppObject* obj, bool prettyPrint);

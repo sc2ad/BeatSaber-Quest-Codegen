@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     float jumpOffsetY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(float beatsPerMinute_ = {}, int noteLinesCount_ = {}, float noteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}, float jumpOffsetY_ = {}) noexcept : beatsPerMinute{beatsPerMinute_}, noteLinesCount{noteLinesCount_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, jumpOffsetY{jumpOffsetY_} {}
     // Get instance field reference: public readonly System.Single beatsPerMinute
     float& dyn_beatsPerMinute();
     // Get instance field reference: public readonly System.Int32 noteLinesCount

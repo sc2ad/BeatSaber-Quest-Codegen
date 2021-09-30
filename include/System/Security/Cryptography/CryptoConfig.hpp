@@ -16,8 +16,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F54C
   class CryptoConfig : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CryptoConfig
-    CryptoConfig() noexcept {}
     // static public System.Boolean get_AllowOnlyFipsAlgorithms()
     // Offset: 0x1A6D324
     static bool get_AllowOnlyFipsAlgorithms();

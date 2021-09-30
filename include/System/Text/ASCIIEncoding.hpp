@@ -34,8 +34,6 @@ namespace System::Text {
   // [ComVisibleAttribute] Offset: E5CE7C
   class ASCIIEncoding : public System::Text::Encoding {
     public:
-    // Creating value type constructor for type: ASCIIEncoding
-    ASCIIEncoding() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DF5A48
     // Implemented from: System.Text.Encoding

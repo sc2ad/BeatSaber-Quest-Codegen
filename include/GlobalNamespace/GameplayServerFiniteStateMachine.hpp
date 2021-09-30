@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     bool enteringState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameplayServerFiniteStateMachine
-    GameplayServerFiniteStateMachine(MasterServer::ITimeProvider* timeProvider_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, ::Il2CppString* ownerUserId_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, GlobalNamespace::IServerBeatmapProvider* beatmapProvider_ = {}, GlobalNamespace::MenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::GameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::GameState* state_ = {}, bool enteringState_ = {}) noexcept : timeProvider{timeProvider_}, multiplayerSessionManager{multiplayerSessionManager_}, ownerUserId{ownerUserId_}, selectionMask{selectionMask_}, configuration{configuration_}, beatmapProvider{beatmapProvider_}, menuRpcManager{menuRpcManager_}, gameplayRpcManager{gameplayRpcManager_}, state{state_}, enteringState{enteringState_} {}
     // Get instance field reference: private MasterServer.ITimeProvider <timeProvider>k__BackingField
     MasterServer::ITimeProvider*& dyn_$timeProvider$k__BackingField();
     // Get instance field reference: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField

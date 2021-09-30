@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* players;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerScoreProvider
-    MultiplayerScoreProvider(GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager_ = {}, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer_ = {}, System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* firstPlayerDidChangeEvent_ = {}, float sharedOffsetSyncTime_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* rankedPlayers_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* players_ = {}) noexcept : scoreSyncStateManager{scoreSyncStateManager_}, firstPlayer{firstPlayer_}, firstPlayerDidChangeEvent{firstPlayerDidChangeEvent_}, sharedOffsetSyncTime{sharedOffsetSyncTime_}, rankedPlayers{rankedPlayers_}, players{players_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IScoreSyncStateManager _scoreSyncStateManager

@@ -55,8 +55,6 @@ namespace Zenject {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: AddToExistingGameObjectComponentProvider
-    AddToExistingGameObjectComponentProvider(UnityEngine::GameObject* gameObject_ = {}) noexcept : gameObject{gameObject_} {}
     // Creating conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return gameObject;

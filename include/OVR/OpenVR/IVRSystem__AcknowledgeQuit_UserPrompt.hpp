@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB02E8
   class IVRSystem::_AcknowledgeQuit_UserPrompt : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _AcknowledgeQuit_UserPrompt
-    _AcknowledgeQuit_UserPrompt() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E4958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

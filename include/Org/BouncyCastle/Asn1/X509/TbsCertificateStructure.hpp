@@ -118,8 +118,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
-    // Creating value type constructor for type: TbsCertificateStructure
-    TbsCertificateStructure(Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}, Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::DerInteger* serialNumber_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* issuer_ = {}, Org::BouncyCastle::Asn1::X509::Time* startDate_ = {}, Org::BouncyCastle::Asn1::X509::Time* endDate_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* subject_ = {}, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPublicKeyInfo_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID_ = {}, Org::BouncyCastle::Asn1::DerBitString* subjectUniqueID_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* extensions_ = {}) noexcept : seq{seq_}, version{version_}, serialNumber{serialNumber_}, signature{signature_}, issuer{issuer_}, startDate{startDate_}, endDate{endDate_}, subject{subject_}, subjectPublicKeyInfo{subjectPublicKeyInfo_}, issuerUniqueID{issuerUniqueID_}, subjectUniqueID{subjectUniqueID_}, extensions{extensions_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Sequence seq
     Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version

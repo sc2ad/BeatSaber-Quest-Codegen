@@ -21,8 +21,6 @@ namespace System::Collections::Specialized {
   // [DefaultMemberAttribute] Offset: E69DF8
   class CaseSensitiveStringDictionary : public System::Collections::Specialized::StringDictionary {
     public:
-    // Creating value type constructor for type: CaseSensitiveStringDictionary
-    CaseSensitiveStringDictionary() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A1C578
     // Implemented from: System.Collections.Specialized.StringDictionary

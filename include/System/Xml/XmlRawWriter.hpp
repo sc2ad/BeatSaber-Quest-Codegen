@@ -47,8 +47,6 @@ namespace System::Xml {
     System::Xml::IXmlNamespaceResolver* resolver;
     // Field size check
     static_assert(sizeof(System::Xml::IXmlNamespaceResolver*) == 0x8);
-    // Creating value type constructor for type: XmlRawWriter
-    XmlRawWriter(System::Xml::XmlRawWriterBase64Encoder* base64Encoder_ = {}, System::Xml::IXmlNamespaceResolver* resolver_ = {}) noexcept : base64Encoder{base64Encoder_}, resolver{resolver_} {}
     // Get instance field reference: protected System.Xml.XmlRawWriterBase64Encoder base64Encoder
     System::Xml::XmlRawWriterBase64Encoder*& dyn_base64Encoder();
     // Get instance field reference: protected System.Xml.IXmlNamespaceResolver resolver

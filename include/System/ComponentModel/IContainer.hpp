@@ -23,8 +23,6 @@ namespace System::ComponentModel {
   // [ComVisibleAttribute] Offset: E69630
   class IContainer/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: IContainer
-    IContainer() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

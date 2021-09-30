@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     ::Il2CppString* levelAssetPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: BeatmapEditorSceneSetupData
-    BeatmapEditorSceneSetupData(::Il2CppString* levelDirPath_ = {}, ::Il2CppString* levelAssetPath_ = {}) noexcept : levelDirPath{levelDirPath_}, levelAssetPath{levelAssetPath_} {}
     // Get instance field reference: private System.String _levelDirPath
     ::Il2CppString*& dyn__levelDirPath();
     // Get instance field reference: private System.String _levelAssetPath

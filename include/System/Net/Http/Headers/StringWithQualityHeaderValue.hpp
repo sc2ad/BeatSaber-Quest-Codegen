@@ -46,8 +46,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StringWithQualityHeaderValue
-    StringWithQualityHeaderValue(System::Nullable_1<double> Quality_ = {}, ::Il2CppString* Value_ = {}) noexcept : Quality{Quality_}, Value{Value_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

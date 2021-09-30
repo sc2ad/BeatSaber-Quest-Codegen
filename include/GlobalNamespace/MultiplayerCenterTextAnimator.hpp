@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     Tweening::Tween_1<UnityEngine::Vector3>* offsetTween;
     // Field size check
     static_assert(sizeof(Tweening::Tween_1<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerCenterTextAnimator
-    MultiplayerCenterTextAnimator(TMPro::TextMeshPro* text_ = {}, UnityEngine::Transform* scalingTarget_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* fadeInTween_ = {}, Tweening::Tween_1<float>* fadeOutTween_ = {}, Tweening::Tween_1<float>* fontSizeTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* colorTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* offsetTween_ = {}) noexcept : text{text_}, scalingTarget{scalingTarget_}, tweeningManager{tweeningManager_}, fadeInTween{fadeInTween_}, fadeOutTween{fadeOutTween_}, fontSizeTween{fontSizeTween_}, colorTween{colorTween_}, offsetTween{offsetTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _text

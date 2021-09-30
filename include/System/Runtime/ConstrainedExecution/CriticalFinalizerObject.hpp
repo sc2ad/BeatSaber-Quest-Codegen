@@ -19,8 +19,6 @@ namespace System::Runtime::ConstrainedExecution {
   // [ComVisibleAttribute] Offset: E60270
   class CriticalFinalizerObject : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CriticalFinalizerObject
-    CriticalFinalizerObject() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x15AE610
     // Implemented from: System.Object

@@ -58,8 +58,6 @@ namespace System::Reflection {
   // [ClassInterfaceAttribute] Offset: E5D76C
   class MethodBase : public System::Reflection::MemberInfo/*, public System::Runtime::InteropServices::_MethodBase*/ {
     public:
-    // Creating value type constructor for type: MethodBase
-    MethodBase() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_MethodBase
     operator System::Runtime::InteropServices::_MethodBase() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_MethodBase*>(this);

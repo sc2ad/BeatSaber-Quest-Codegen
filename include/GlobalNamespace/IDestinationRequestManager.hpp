@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDestinationRequestManager {
     public:
-    // Creating value type constructor for type: IDestinationRequestManager
-    IDestinationRequestManager() noexcept {}
     // public MenuDestination get_currentMenuDestinationRequest()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();

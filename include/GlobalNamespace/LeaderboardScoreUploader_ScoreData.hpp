@@ -103,8 +103,6 @@ namespace GlobalNamespace {
     int currentUploadAttemptCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ScoreData
-    ScoreData(::Il2CppString* playerId_ = {}, GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, int uploadAttemptCount_ = {}, int currentUploadAttemptCount_ = {}) noexcept : playerId{playerId_}, beatmap{beatmap_}, gameplayModifiers{gameplayModifiers_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, uploadAttemptCount{uploadAttemptCount_}, currentUploadAttemptCount{currentUploadAttemptCount_} {}
     // Get instance field reference: private System.String <playerId>k__BackingField
     ::Il2CppString*& dyn_$playerId$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap <beatmap>k__BackingField

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     System::Action* action;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: TabBarItem
-    TabBarItem(::Il2CppString* title_ = {}, System::Action* action_ = {}) noexcept : title{title_}, action{action_} {}
     // Get instance field reference: public readonly System.String title
     ::Il2CppString*& dyn_title();
     // Get instance field reference: public readonly System.Action action

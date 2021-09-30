@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeSO* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // Creating value type constructor for type: LightmappingSceneSetup
-    LightmappingSceneSetup(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoTransitionColorSchemeProvider
     operator GlobalNamespace::INoTransitionColorSchemeProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoTransitionColorSchemeProvider*>(this);

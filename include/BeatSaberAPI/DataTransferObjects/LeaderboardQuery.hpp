@@ -68,8 +68,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
-    // Creating value type constructor for type: LeaderboardQuery
-    LeaderboardQuery(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, BeatSaberAPI::DataTransferObjects::ScoresScope scope_ = {}, ::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, bool onlyWithSpecificGameplayModifiers_ = {}, ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, onlyWithSpecificGameplayModifiers{onlyWithSpecificGameplayModifiers_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count

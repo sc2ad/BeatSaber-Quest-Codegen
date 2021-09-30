@@ -56,8 +56,6 @@ namespace UnityEngine::Networking {
     bool mNonReadable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DownloadHandlerTexture
-    DownloadHandlerTexture(UnityEngine::Texture2D* mTexture_ = {}, bool mHasTexture_ = {}, bool mNonReadable_ = {}) noexcept : mTexture{mTexture_}, mHasTexture{mHasTexture_}, mNonReadable{mNonReadable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Texture2D mTexture

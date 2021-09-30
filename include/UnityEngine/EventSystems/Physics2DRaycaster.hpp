@@ -43,8 +43,6 @@ namespace UnityEngine::EventSystems {
     ::ArrayWrapper<UnityEngine::RaycastHit2D> m_Hits;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::RaycastHit2D>) == 0x8);
-    // Creating value type constructor for type: Physics2DRaycaster
-    Physics2DRaycaster(::ArrayWrapper<UnityEngine::RaycastHit2D> m_Hits_ = {}) noexcept : m_Hits{m_Hits_} {}
     // Get instance field reference: private UnityEngine.RaycastHit2D[] m_Hits
     ::ArrayWrapper<UnityEngine::RaycastHit2D>& dyn_m_Hits();
     // protected System.Void .ctor()

@@ -28,8 +28,6 @@ namespace System::Resources {
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
     // Field size check
     static_assert(sizeof(System::Resources::ResourceManager::ResourceManagerMediator*) == 0x8);
-    // Creating value type constructor for type: FileBasedResourceGroveler
-    FileBasedResourceGroveler(System::Resources::ResourceManager::ResourceManagerMediator* mediator_ = {}) noexcept : mediator{mediator_} {}
     // Creating interface conversion operator: operator System::Resources::IResourceGroveler
     operator System::Resources::IResourceGroveler() noexcept {
       return *reinterpret_cast<System::Resources::IResourceGroveler*>(this);

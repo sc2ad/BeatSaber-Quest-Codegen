@@ -31,8 +31,6 @@ namespace UnityEngine::XR::WSA {
   // [TokenAttribute] Offset: FFFFFFFF
   class WorldAnchor::OnTrackingChangedDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OnTrackingChangedDelegate
-    OnTrackingChangedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x262520C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

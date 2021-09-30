@@ -26,8 +26,6 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: E5FC94
   class IContextAttribute {
     public:
-    // Creating value type constructor for type: IContextAttribute
-    IContextAttribute() noexcept {}
     // public System.Void GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
     // Offset: 0xFFFFFFFF
     void GetPropertiesForNewContext(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);

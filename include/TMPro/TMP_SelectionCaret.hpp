@@ -27,8 +27,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_SelectionCaret : public UnityEngine::UI::MaskableGraphic {
     public:
-    // Creating value type constructor for type: TMP_SelectionCaret
-    TMP_SelectionCaret() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1223A54
     // Implemented from: UnityEngine.UI.MaskableGraphic

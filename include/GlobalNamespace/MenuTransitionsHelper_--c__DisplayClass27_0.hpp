@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuTransitionsHelper* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass27_0
-    $$c__DisplayClass27_0(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState_ = {}, GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}) noexcept : endState{endState_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState
     GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType& dyn_endState();
     // Get instance field reference: public MenuTransitionsHelper <>4__this

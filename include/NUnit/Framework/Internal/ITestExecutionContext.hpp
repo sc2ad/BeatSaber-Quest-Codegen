@@ -33,8 +33,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestExecutionContext {
     public:
-    // Creating value type constructor for type: ITestExecutionContext
-    ITestExecutionContext() noexcept {}
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestResult* get_CurrentResult();

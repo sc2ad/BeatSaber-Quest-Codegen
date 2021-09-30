@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Security {
     Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Prng::IRandomGenerator*) == 0x8);
-    // Creating value type constructor for type: SecureRandom
-    SecureRandom(Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator_ = {}) noexcept : generator{generator_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator*
     constexpr operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() const noexcept {
       return generator;

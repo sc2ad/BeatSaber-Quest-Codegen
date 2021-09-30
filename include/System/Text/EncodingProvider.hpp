@@ -26,8 +26,6 @@ namespace System::Text {
   // [ComVisibleAttribute] Offset: E5CEE0
   class EncodingProvider : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EncodingProvider
-    EncodingProvider() noexcept {}
     // Get static field: static private System.Object s_InternalSyncObject
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject

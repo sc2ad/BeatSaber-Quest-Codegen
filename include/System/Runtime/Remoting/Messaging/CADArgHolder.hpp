@@ -24,8 +24,6 @@ namespace System::Runtime::Remoting::Messaging {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CADArgHolder
-    CADArgHolder(int index_ = {}) noexcept : index{index_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return index;

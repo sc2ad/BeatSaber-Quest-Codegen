@@ -41,8 +41,6 @@ namespace System::Runtime::Remoting::Activation {
     System::Runtime::Remoting::Activation::IActivator* next;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Activation::IActivator*) == 0x8);
-    // Creating value type constructor for type: AppDomainLevelActivator
-    AppDomainLevelActivator(::Il2CppString* activationUrl_ = {}, System::Runtime::Remoting::Activation::IActivator* next_ = {}) noexcept : activationUrl{activationUrl_}, next{next_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IActivator
     operator System::Runtime::Remoting::Activation::IActivator() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);

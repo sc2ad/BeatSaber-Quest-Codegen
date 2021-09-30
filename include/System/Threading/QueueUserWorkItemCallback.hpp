@@ -53,8 +53,6 @@ namespace System::Threading {
     ::Il2CppObject* state;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: QueueUserWorkItemCallback
-    QueueUserWorkItemCallback(System::Threading::WaitCallback* callback_ = {}, System::Threading::ExecutionContext* context_ = {}, ::Il2CppObject* state_ = {}) noexcept : callback{callback_}, context{context_}, state{state_} {}
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerPlayerPlacement::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly MultiplayerPlayerPlacement/<>c <>9
     static GlobalNamespace::MultiplayerPlayerPlacement::$$c* _get_$$9();
     // Set static field: static public readonly MultiplayerPlayerPlacement/<>c <>9

@@ -30,8 +30,6 @@ namespace System::Runtime::InteropServices {
     System::Runtime::InteropServices::ClassInterfaceType val;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::ClassInterfaceType) == 0x4);
-    // Creating value type constructor for type: ClassInterfaceAttribute
-    ClassInterfaceAttribute(System::Runtime::InteropServices::ClassInterfaceType val_ = {}) noexcept : val{val_} {}
     // Creating conversion operator: operator System::Runtime::InteropServices::ClassInterfaceType
     constexpr operator System::Runtime::InteropServices::ClassInterfaceType() const noexcept {
       return val;

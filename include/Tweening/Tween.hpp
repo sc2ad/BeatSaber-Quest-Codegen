@@ -122,8 +122,6 @@ namespace Tweening {
     UnityEngine::AnimationCurve* animationCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // Creating value type constructor for type: Tween
-    Tween(float progress_ = {}, float startTime_ = {}, float duration_ = {}, bool loop_ = {}, float delay_ = {}, System::Action* onStart_ = {}, System::Action* onCompleted_ = {}, System::Action* onKilled_ = {}, bool isStarted_ = {}, bool isKilled_ = {}, Tweening::InterpolationType interpolationType_ = {}, Tweening::EaseType easeType_ = {}, UnityEngine::AnimationCurve* animationCurve_ = {}) noexcept : progress{progress_}, startTime{startTime_}, duration{duration_}, loop{loop_}, delay{delay_}, onStart{onStart_}, onCompleted{onCompleted_}, onKilled{onKilled_}, isStarted{isStarted_}, isKilled{isKilled_}, interpolationType{interpolationType_}, easeType{easeType_}, animationCurve{animationCurve_} {}
     // static field const value: static protected System.Single kEpsilon
     static constexpr const float kEpsilon = 0.001;
     // Get static field: static protected System.Single kEpsilon

@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Rendering::IndexFormat indexFormat;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::IndexFormat) == 0x4);
-    // Creating value type constructor for type: HEU_MeshIndexFormat
-    HEU_MeshIndexFormat(UnityEngine::Rendering::IndexFormat indexFormat_ = {}) noexcept : indexFormat{indexFormat_} {}
     // Creating conversion operator: operator UnityEngine::Rendering::IndexFormat
     constexpr operator UnityEngine::Rendering::IndexFormat() const noexcept {
       return indexFormat;

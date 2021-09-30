@@ -38,8 +38,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RpcPool : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RpcPool
-    RpcPool() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
     static System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* _get__pools();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools

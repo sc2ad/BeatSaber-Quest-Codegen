@@ -44,8 +44,6 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FB00
   class RemotingConfiguration : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RemotingConfiguration
-    RemotingConfiguration() noexcept {}
     // Get static field: static private System.String applicationID
     static ::Il2CppString* _get_applicationID();
     // Set static field: static private System.String applicationID

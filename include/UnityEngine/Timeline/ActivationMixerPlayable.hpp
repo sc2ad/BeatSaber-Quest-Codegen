@@ -61,8 +61,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::GameObject* m_BoundGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: ActivationMixerPlayable
-    ActivationMixerPlayable(UnityEngine::Timeline::ActivationTrack::PostPlaybackState m_PostPlaybackState_ = {}, bool m_BoundGameObjectInitialStateIsActive_ = {}, UnityEngine::GameObject* m_BoundGameObject_ = {}) noexcept : m_PostPlaybackState{m_PostPlaybackState_}, m_BoundGameObjectInitialStateIsActive{m_BoundGameObjectInitialStateIsActive_}, m_BoundGameObject{m_BoundGameObject_} {}
     // Get instance field reference: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState& dyn_m_PostPlaybackState();
     // Get instance field reference: private System.Boolean m_BoundGameObjectInitialStateIsActive

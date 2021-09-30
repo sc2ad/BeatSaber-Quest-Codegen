@@ -52,8 +52,6 @@ namespace System {
     int ResourceId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TypeLoadException
-    TypeLoadException(::Il2CppString* ClassName_ = {}, ::Il2CppString* AssemblyName_ = {}, ::Il2CppString* MessageArg_ = {}, int ResourceId_ = {}) noexcept : ClassName{ClassName_}, AssemblyName{AssemblyName_}, MessageArg{MessageArg_}, ResourceId{ResourceId_} {}
     // Get instance field reference: private System.String ClassName
     ::Il2CppString*& dyn_ClassName();
     // Get instance field reference: private System.String AssemblyName

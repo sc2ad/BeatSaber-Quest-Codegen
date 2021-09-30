@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShaderWarmupScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
-    // Creating value type constructor for type: ShaderWarmupScenesTransitionSetupDataSO
-    ShaderWarmupScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init(ShaderWarmupSceneSetupData shaderWarmupSceneSetupData)
     // Offset: 0x1103EC4
     void Init(GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);

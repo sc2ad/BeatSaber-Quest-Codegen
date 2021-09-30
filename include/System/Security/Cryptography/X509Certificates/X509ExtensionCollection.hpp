@@ -53,8 +53,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: X509ExtensionCollection
-    X509ExtensionCollection(System::Collections::ArrayList* list_ = {}) noexcept : list{list_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

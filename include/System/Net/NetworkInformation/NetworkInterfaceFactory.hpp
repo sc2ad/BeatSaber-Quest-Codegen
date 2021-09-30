@@ -33,8 +33,6 @@ namespace System::Net::NetworkInformation {
     class LinuxNetworkInterfaceAPI;
     // Nested type: System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI
     class Win32NetworkInterfaceAPI;
-    // Creating value type constructor for type: NetworkInterfaceFactory
-    NetworkInterfaceFactory() noexcept {}
     // public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();

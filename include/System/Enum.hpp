@@ -54,8 +54,6 @@ namespace System {
     struct EnumResult;
     // Nested type: System::Enum::ValuesAndNames
     class ValuesAndNames;
-    // Creating value type constructor for type: Enum
-    Enum() noexcept {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

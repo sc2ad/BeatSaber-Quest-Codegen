@@ -14,8 +14,6 @@ namespace UnityEngine::Assertions {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssertionMessageUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AssertionMessageUtil
-    AssertionMessageUtil() noexcept {}
     // static public System.String GetMessage(System.String failureMessage)
     // Offset: 0x1CACFA0
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage);

@@ -29,8 +29,6 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncWriteRequest : public Mono::Net::Security::AsyncReadOrWriteRequest {
     public:
-    // Creating value type constructor for type: AsyncWriteRequest
-    AsyncWriteRequest() noexcept {}
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x17BBDA8
     // Implemented from: Mono.Net.Security.AsyncReadOrWriteRequest

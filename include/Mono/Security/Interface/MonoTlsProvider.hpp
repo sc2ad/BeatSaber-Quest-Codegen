@@ -58,8 +58,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsProvider : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MonoTlsProvider
-    MonoTlsProvider() noexcept {}
     // public System.Guid get_ID()
     // Offset: 0xFFFFFFFF
     System::Guid get_ID();

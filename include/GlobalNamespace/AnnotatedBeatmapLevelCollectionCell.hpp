@@ -130,8 +130,6 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // Creating value type constructor for type: AnnotatedBeatmapLevelCollectionCell
-    AnnotatedBeatmapLevelCollectionCell(TMPro::TextMeshProUGUI* infoText_ = {}, HMUI::ImageView* coverImage_ = {}, HMUI::ImageView* selectionImage_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> newPromoRibbonObjects_ = {}, UnityEngine::GameObject* downloadIconObject_ = {}, UnityEngine::Color selectedColor0_ = {}, UnityEngine::Color selectedColor1_ = {}, UnityEngine::Color highlightedColor0_ = {}, UnityEngine::Color highlightedColor1_ = {}, int cellIndex_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : infoText{infoText_}, coverImage{coverImage_}, selectionImage{selectionImage_}, newPromoRibbonObjects{newPromoRibbonObjects_}, downloadIconObject{downloadIconObject_}, selectedColor0{selectedColor0_}, selectedColor1{selectedColor1_}, highlightedColor0{highlightedColor0_}, highlightedColor1{highlightedColor1_}, cellIndex{cellIndex_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_}, cancellationTokenSource{cancellationTokenSource_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _infoText
     TMPro::TextMeshProUGUI*& dyn__infoText();
     // Get instance field reference: private HMUI.ImageView _coverImage

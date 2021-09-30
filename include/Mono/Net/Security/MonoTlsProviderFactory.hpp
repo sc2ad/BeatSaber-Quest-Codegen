@@ -35,8 +35,6 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsProviderFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MonoTlsProviderFactory
-    MonoTlsProviderFactory() noexcept {}
     // Get static field: static private System.Object locker
     static ::Il2CppObject* _get_locker();
     // Set static field: static private System.Object locker

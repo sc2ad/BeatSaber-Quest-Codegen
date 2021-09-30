@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetMultiplayerGameStateRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::MultiplayerGameState> {
     public:
-    // Creating value type constructor for type: SetMultiplayerGameStateRpc
-    SetMultiplayerGameStateRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8C9C
     // Implemented from: RemoteProcedureCall`1

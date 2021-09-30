@@ -21,8 +21,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsProviderFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MonoTlsProviderFactory
-    MonoTlsProviderFactory() noexcept {}
     // static public Mono.Security.Interface.MonoTlsProvider GetProvider()
     // Offset: 0x1FA12E8
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();

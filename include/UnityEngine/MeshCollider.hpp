@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85B1C
   class MeshCollider : public UnityEngine::Collider {
     public:
-    // Creating value type constructor for type: MeshCollider
-    MeshCollider() noexcept {}
     // public UnityEngine.Mesh get_sharedMesh()
     // Offset: 0x260C11C
     UnityEngine::Mesh* get_sharedMesh();

@@ -37,8 +37,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 baseForwardOffsetEuler;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: LookAtBone
-    LookAtBone(UnityEngine::Vector3 baseForwardOffsetEuler_ = {}) noexcept : baseForwardOffsetEuler{baseForwardOffsetEuler_} {}
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return baseForwardOffsetEuler;

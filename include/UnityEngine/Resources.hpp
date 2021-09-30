@@ -36,8 +36,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E722FC
   class Resources : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Resources
-    Resources() noexcept {}
     // static T[] ConvertObjects(UnityEngine.Object[] rawObjects)
     // Offset: 0xFFFFFFFF
     template<class T>

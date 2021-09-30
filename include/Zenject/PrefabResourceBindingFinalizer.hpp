@@ -76,8 +76,6 @@ namespace Zenject {
     System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory;
     // Field size check
     static_assert(sizeof(System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*) == 0x8);
-    // Creating value type constructor for type: PrefabResourceBindingFinalizer
-    PrefabResourceBindingFinalizer(Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}, ::Il2CppString* resourcePath_ = {}, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory_ = {}) noexcept : gameObjectBindInfo{gameObjectBindInfo_}, resourcePath{resourcePath_}, providerFactory{providerFactory_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo

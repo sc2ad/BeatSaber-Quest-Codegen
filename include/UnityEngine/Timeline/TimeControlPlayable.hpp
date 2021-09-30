@@ -51,8 +51,6 @@ namespace UnityEngine::Timeline {
     bool m_started;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TimeControlPlayable
-    TimeControlPlayable(UnityEngine::Timeline::ITimeControl* m_timeControl_ = {}, bool m_started_ = {}) noexcept : m_timeControl{m_timeControl_}, m_started{m_started_} {}
     // Get instance field reference: private UnityEngine.Timeline.ITimeControl m_timeControl
     UnityEngine::Timeline::ITimeControl*& dyn_m_timeControl();
     // Get instance field reference: private System.Boolean m_started

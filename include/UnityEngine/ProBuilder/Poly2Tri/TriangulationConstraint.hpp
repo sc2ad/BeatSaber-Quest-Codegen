@@ -37,8 +37,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
-    // Creating value type constructor for type: TriangulationConstraint
-    TriangulationConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q_ = {}) noexcept : P{P_}, Q{Q_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_P();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q

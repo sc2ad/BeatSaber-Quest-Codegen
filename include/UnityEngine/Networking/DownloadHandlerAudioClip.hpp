@@ -40,8 +40,6 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: ED6A70
   class DownloadHandlerAudioClip : public UnityEngine::Networking::DownloadHandler {
     public:
-    // Creating value type constructor for type: DownloadHandlerAudioClip
-    DownloadHandlerAudioClip() noexcept {}
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x2628404
     UnityEngine::AudioClip* get_audioClip();

@@ -36,8 +36,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int top;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SerStack
-    SerStack(::ArrayWrapper<::Il2CppObject*> objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
     // Get instance field reference: System.Object[] objects
     ::ArrayWrapper<::Il2CppObject*>& dyn_objects();
     // Get instance field reference: System.String stackId

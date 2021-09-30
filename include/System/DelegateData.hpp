@@ -43,8 +43,6 @@ namespace System {
     bool curried_first_arg;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DelegateData
-    DelegateData(System::Type* target_type_ = {}, ::Il2CppString* method_name_ = {}, bool curried_first_arg_ = {}) noexcept : target_type{target_type_}, method_name{method_name_}, curried_first_arg{curried_first_arg_} {}
     // Get instance field reference: public System.Type target_type
     System::Type*& dyn_target_type();
     // Get instance field reference: public System.String method_name

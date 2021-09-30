@@ -27,8 +27,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkInterfaceFactory::UnixNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
-    // Creating value type constructor for type: UnixNetworkInterfaceAPI
-    UnixNetworkInterfaceAPI() noexcept {}
     // static protected System.Int32 getifaddrs(out System.IntPtr ifap)
     // Offset: 0x1647368
     static int getifaddrs(ByRef<System::IntPtr> ifap);

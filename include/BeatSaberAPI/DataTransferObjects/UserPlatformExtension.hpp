@@ -27,8 +27,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class UserPlatformExtension : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UserPlatformExtension
-    UserPlatformExtension() noexcept {}
     // static field const value: static public System.String kTest
     static constexpr const char* kTest = "Test";
     // Get static field: static public System.String kTest

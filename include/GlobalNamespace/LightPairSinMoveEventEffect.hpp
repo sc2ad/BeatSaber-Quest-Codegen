@@ -130,8 +130,6 @@ namespace GlobalNamespace {
     float randomStartOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: LightPairSinMoveEventEffect
-    LightPairSinMoveEventEffect(GlobalNamespace::BeatmapEventType eventL_ = {}, GlobalNamespace::BeatmapEventType eventR_ = {}, GlobalNamespace::BeatmapEventType switchOverrideRandomValuesEvent_ = {}, bool overrideRandomValues_ = {}, float startValueOffset_ = {}, UnityEngine::Vector3 startPositionOffset_ = {}, UnityEngine::Vector3 endPositionOffset_ = {}, UnityEngine::Transform* transformL_ = {}, UnityEngine::Transform* transformR_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::LightPairSinMoveEventEffect::MovementData* movementDataL_ = {}, GlobalNamespace::LightPairSinMoveEventEffect::MovementData* movementDataR_ = {}, int randomGenerationFrameNum_ = {}, float randomStartOffset_ = {}) noexcept : eventL{eventL_}, eventR{eventR_}, switchOverrideRandomValuesEvent{switchOverrideRandomValuesEvent_}, overrideRandomValues{overrideRandomValues_}, startValueOffset{startValueOffset_}, startPositionOffset{startPositionOffset_}, endPositionOffset{endPositionOffset_}, transformL{transformL_}, transformR{transformR_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, movementDataL{movementDataL_}, movementDataR{movementDataR_}, randomGenerationFrameNum{randomGenerationFrameNum_}, randomStartOffset{randomStartOffset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier

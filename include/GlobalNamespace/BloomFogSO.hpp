@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogEnvironmentParams* transitionFogParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // Creating value type constructor for type: BloomFogSO
-    BloomFogSO(bool bloomFogEnabled_ = {}, float transition_ = {}, GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams_ = {}, GlobalNamespace::BloomFogEnvironmentParams* transitionFogParams_ = {}) noexcept : bloomFogEnabled{bloomFogEnabled_}, transition{transition_}, defaultFogParams{defaultFogParams_}, transitionFogParams{transitionFogParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kBloomFogEnabledKeyword

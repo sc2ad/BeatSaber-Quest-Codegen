@@ -19,8 +19,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE960
   class TheoryAttribute : public NUnit::Framework::CombiningStrategyAttribute/*, public NUnit::Framework::Interfaces::IImplyFixture*/ {
     public:
-    // Creating value type constructor for type: TheoryAttribute
-    TheoryAttribute() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IImplyFixture
     operator NUnit::Framework::Interfaces::IImplyFixture() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IImplyFixture*>(this);

@@ -97,8 +97,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Proxies::RemotingProxy* sourceProxy;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Proxies::RemotingProxy*) == 0x8);
-    // Creating value type constructor for type: ConstructionCall
-    ConstructionCall(System::Runtime::Remoting::Activation::IActivator* activator_ = {}, ::ArrayWrapper<::Il2CppObject*> activationAttributes_ = {}, System::Collections::IList* contextProperties_ = {}, System::Type* activationType_ = {}, ::Il2CppString* activationTypeName_ = {}, bool isContextOk_ = {}, System::Runtime::Remoting::Proxies::RemotingProxy* sourceProxy_ = {}) noexcept : activator{activator_}, activationAttributes{activationAttributes_}, contextProperties{contextProperties_}, activationType{activationType_}, activationTypeName{activationTypeName_}, isContextOk{isContextOk_}, sourceProxy{sourceProxy_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IConstructionCallMessage
     operator System::Runtime::Remoting::Activation::IConstructionCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IConstructionCallMessage*>(this);

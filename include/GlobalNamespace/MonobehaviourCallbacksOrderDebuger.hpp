@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonobehaviourCallbacksOrderDebuger : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: MonobehaviourCallbacksOrderDebuger
-    MonobehaviourCallbacksOrderDebuger() noexcept {}
     // protected System.Void Awake()
     // Offset: 0x1387640
     void Awake();

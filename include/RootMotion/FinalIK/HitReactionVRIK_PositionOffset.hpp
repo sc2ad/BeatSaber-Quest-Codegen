@@ -57,8 +57,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*> offsetLinks;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>) == 0x8);
-    // Creating value type constructor for type: PositionOffset
-    PositionOffset(int forceDirCurveIndex_ = {}, int upDirCurveIndex_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*> offsetLinks_ = {}) noexcept : forceDirCurveIndex{forceDirCurveIndex_}, upDirCurveIndex{upDirCurveIndex_}, offsetLinks{offsetLinks_} {}
     // Get instance field reference: public System.Int32 forceDirCurveIndex
     int& dyn_forceDirCurveIndex();
     // Get instance field reference: public System.Int32 upDirCurveIndex

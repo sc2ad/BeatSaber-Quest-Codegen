@@ -21,8 +21,6 @@ namespace Mono::Net {
   // [DefaultMemberAttribute] Offset: E68ED0
   class CFArray : public Mono::Net::CFObject {
     public:
-    // Creating value type constructor for type: CFArray
-    CFArray() noexcept {}
     // Get static field: static private readonly System.IntPtr kCFTypeArrayCallbacks
     static System::IntPtr _get_kCFTypeArrayCallbacks();
     // Set static field: static private readonly System.IntPtr kCFTypeArrayCallbacks

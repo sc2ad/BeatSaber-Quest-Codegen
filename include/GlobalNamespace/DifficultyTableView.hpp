@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>) == 0x8);
-    // Creating value type constructor for type: DifficultyTableView
-    DifficultyTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::DifficultyTableCell* cellPrefab_ = {}, GlobalNamespace::DifficultyTableCell* nonSelectableCellPrefab_ = {}, float cellHeight_ = {}, System::Action_2<GlobalNamespace::DifficultyTableView*, int>* didSelectRow_ = {}, ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, nonSelectableCellPrefab{nonSelectableCellPrefab_}, cellHeight{cellHeight_}, didSelectRow{didSelectRow_}, difficultyBeatmaps{difficultyBeatmaps_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

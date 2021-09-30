@@ -47,8 +47,6 @@ namespace System::Reflection {
     uint16_t position;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    // Creating value type constructor for type: LocalVariableInfo
-    LocalVariableInfo(System::Type* type_ = {}, bool is_pinned_ = {}, uint16_t position_ = {}) noexcept : type{type_}, is_pinned{is_pinned_}, position{position_} {}
     // Get instance field reference: System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: System.Boolean is_pinned

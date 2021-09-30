@@ -83,8 +83,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E8B4CC
   class Animator : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: Animator
-    Animator() noexcept {}
     // public System.Boolean get_isOptimizable()
     // Offset: 0x2591048
     bool get_isOptimizable();

@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioSettings::Mobile : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Mobile
-    Mobile() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE9F2A0
     // Get static field: static private System.Boolean <muteState>k__BackingField
     static bool _get_$muteState$k__BackingField();

@@ -50,8 +50,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
-    // Creating value type constructor for type: SerObjectInfoInit
-    SerObjectInfoInit(System::Collections::Hashtable* seenBeforeTable_ = {}, int objectInfoIdCount_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool_ = {}) noexcept : seenBeforeTable{seenBeforeTable_}, objectInfoIdCount{objectInfoIdCount_}, oiPool{oiPool_} {}
     // Get instance field reference: System.Collections.Hashtable seenBeforeTable
     System::Collections::Hashtable*& dyn_seenBeforeTable();
     // Get instance field reference: System.Int32 objectInfoIdCount

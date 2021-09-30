@@ -45,8 +45,6 @@ namespace System::Globalization {
     System::Globalization::GregorianCalendarHelper* helper;
     // Field size check
     static_assert(sizeof(System::Globalization::GregorianCalendarHelper*) == 0x8);
-    // Creating value type constructor for type: JapaneseCalendar
-    JapaneseCalendar(System::Globalization::GregorianCalendarHelper* helper_ = {}) noexcept : helper{helper_} {}
     // Creating conversion operator: operator System::Globalization::GregorianCalendarHelper*
     constexpr operator System::Globalization::GregorianCalendarHelper*() const noexcept {
       return helper;

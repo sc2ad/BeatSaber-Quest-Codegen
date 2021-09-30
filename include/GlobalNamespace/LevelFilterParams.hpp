@@ -137,8 +137,6 @@ namespace GlobalNamespace {
     float filteredMaxBpm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: LevelFilterParams
-    LevelFilterParams(bool filterByLevelIds_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* beatmapLevelIds_ = {}, bool filterByOwned_ = {}, ::Il2CppString* searchText_ = {}, bool filterByDifficulty_ = {}, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty_ = {}, bool filterBySongPacks_ = {}, GlobalNamespace::SongPackMask filteredSongPacks_ = {}, bool filterByCharacteristic_ = {}, GlobalNamespace::BeatmapCharacteristicSO* filteredCharacteristic_ = {}, bool filterByNotPlayedYet_ = {}, bool filterByMinBpm_ = {}, float filteredMinBpm_ = {}, bool filterByMaxBpm_ = {}, float filteredMaxBpm_ = {}) noexcept : filterByLevelIds{filterByLevelIds_}, beatmapLevelIds{beatmapLevelIds_}, filterByOwned{filterByOwned_}, searchText{searchText_}, filterByDifficulty{filterByDifficulty_}, filteredDifficulty{filteredDifficulty_}, filterBySongPacks{filterBySongPacks_}, filteredSongPacks{filteredSongPacks_}, filterByCharacteristic{filterByCharacteristic_}, filteredCharacteristic{filteredCharacteristic_}, filterByNotPlayedYet{filterByNotPlayedYet_}, filterByMinBpm{filterByMinBpm_}, filteredMinBpm{filteredMinBpm_}, filterByMaxBpm{filterByMaxBpm_}, filteredMaxBpm{filteredMaxBpm_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF021B4
     // Get static field: static public readonly System.Single[] bpmValues
     static ::ArrayWrapper<float> _get_bpmValues();

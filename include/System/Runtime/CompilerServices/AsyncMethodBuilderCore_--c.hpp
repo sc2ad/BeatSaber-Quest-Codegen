@@ -30,8 +30,6 @@ namespace System::Runtime::CompilerServices {
   // [CompilerGeneratedAttribute] Offset: E6033C
   class AsyncMethodBuilderCore::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.<>c <>9
     static System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c* _get_$$9();
     // Set static field: static public readonly System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.<>c <>9

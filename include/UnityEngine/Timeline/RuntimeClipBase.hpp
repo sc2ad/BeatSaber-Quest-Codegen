@@ -20,8 +20,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeClipBase : public UnityEngine::Timeline::RuntimeElement {
     public:
-    // Creating value type constructor for type: RuntimeClipBase
-    RuntimeClipBase() noexcept {}
     // public System.Double get_start()
     // Offset: 0xFFFFFFFF
     double get_start();

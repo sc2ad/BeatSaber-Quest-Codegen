@@ -14,8 +14,6 @@ namespace System::Collections::Concurrent {
   template<typename T>
   class IProducerConsumerCollectionDebugView_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IProducerConsumerCollectionDebugView_1
-    IProducerConsumerCollectionDebugView_1() noexcept {}
   }; // System.Collections.Concurrent.IProducerConsumerCollectionDebugView`1
   // Could not write size check! Type: System.Collections.Concurrent.IProducerConsumerCollectionDebugView`1 is generic, or has no fields that are valid for size checks!
 }

@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // Creating value type constructor for type: EventsTestScenesTransitionSetupDataSO
-    EventsTestScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* eventsTestSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}) noexcept : environmentInfo{environmentInfo_}, eventsTestSceneInfo{eventsTestSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_} {}
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
     GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private SceneInfo _eventsTestSceneInfo

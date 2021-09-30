@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* lightReductionAmountData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>*) == 0x8);
-    // Creating value type constructor for type: EnvironmentEffectsFilterPresetDropdown
-    EnvironmentEffectsFilterPresetDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* lightReductionAmountData_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, lightReductionAmountData{lightReductionAmountData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

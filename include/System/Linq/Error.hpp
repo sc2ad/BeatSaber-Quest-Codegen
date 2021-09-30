@@ -21,8 +21,6 @@ namespace System::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   class Error : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Error
-    Error() noexcept {}
     // static System.Exception ArgumentNull(System.String s)
     // Offset: 0x25C145C
     static System::Exception* ArgumentNull(::Il2CppString* s);

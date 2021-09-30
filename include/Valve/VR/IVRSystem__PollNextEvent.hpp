@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB52A4
   class IVRSystem::_PollNextEvent : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _PollNextEvent
-    _PollNextEvent() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE2334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

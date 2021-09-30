@@ -20,8 +20,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class IReadOnlyCollection_1/*, public System::Collections::Generic::IEnumerable_1<T>*/ {
     public:
-    // Creating value type constructor for type: IReadOnlyCollection_1
-    IReadOnlyCollection_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<T>
     operator System::Collections::Generic::IEnumerable_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<T>*>(this);

@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithAssetFileDownloadCancelResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*> {
     public:
-    // Creating value type constructor for type: MessageWithAssetFileDownloadCancelResult
-    MessageWithAssetFileDownloadCancelResult() noexcept {}
     // protected Oculus.Platform.Models.AssetFileDownloadCancelResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B58E8
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetDataFromMessage(System::IntPtr c_message);

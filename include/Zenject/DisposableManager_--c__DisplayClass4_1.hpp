@@ -45,8 +45,6 @@ namespace Zenject {
     Zenject::ILateDisposable* lateDisposable;
     // Field size check
     static_assert(sizeof(Zenject::ILateDisposable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_1
-    $$c__DisplayClass4_1(Zenject::ILateDisposable* lateDisposable_ = {}) noexcept : lateDisposable{lateDisposable_} {}
     // Creating conversion operator: operator Zenject::ILateDisposable*
     constexpr operator Zenject::ILateDisposable*() const noexcept {
       return lateDisposable;

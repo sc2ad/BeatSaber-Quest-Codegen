@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     uint requestId;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: BaseMasterServerReliableRequest
-    BaseMasterServerReliableRequest(uint requestId_ = {}) noexcept : requestId{requestId_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerReliableRequest
     operator MasterServer::IMasterServerReliableRequest() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerReliableRequest*>(this);

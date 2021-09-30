@@ -53,7 +53,6 @@ namespace UnityEngine {
     UnityEngine::Vector2 get_direction();
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
     // Offset: 0x1E00FC8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction)
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
     // Offset: 0x1E0100C

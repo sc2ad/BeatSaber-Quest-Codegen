@@ -126,11 +126,9 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0x1CB31D8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Color(float r, float g, float b, float a)
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
     // Offset: 0x1CB31E4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Color(float r, float g, float b) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Color::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractType(g), ::il2cpp_utils::ExtractType(b)})));

@@ -29,8 +29,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompositeWorkItem::UnityWorkItemOrderComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*/ {
     public:
-    // Creating value type constructor for type: UnityWorkItemOrderComparer
-    UnityWorkItemOrderComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>
     operator System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);

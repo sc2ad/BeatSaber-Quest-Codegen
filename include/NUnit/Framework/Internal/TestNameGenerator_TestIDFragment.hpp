@@ -34,8 +34,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestNameGenerator::TestIDFragment : public NUnit::Framework::Internal::TestNameGenerator::NameFragment {
     public:
-    // Creating value type constructor for type: TestIDFragment
-    TestIDFragment() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x24A361C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment

@@ -30,8 +30,6 @@ namespace UnityEngine::XR {
   // [NativeTypeAttribute] Offset: E99554
   class XRInputSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRInputSubsystem*> {
     public:
-    // Creating value type constructor for type: XRInputSubsystemDescriptor
-    XRInputSubsystemDescriptor() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2612E34
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor`1

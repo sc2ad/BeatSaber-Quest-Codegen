@@ -32,8 +32,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CAF0
   class UnhandledExceptionEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UnhandledExceptionEventHandler
-    UnhandledExceptionEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2535924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -93,8 +93,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: HEU_InputDataMesh
-    HEU_InputDataMesh(UnityEngine::Mesh* mesh_ = {}, ::ArrayWrapper<UnityEngine::Material*> materials_ = {}, ::Il2CppString* meshPath_ = {}, ::Il2CppString* meshName_ = {}, int numVertices_ = {}, int numSubMeshes_ = {}, ::ArrayWrapper<uint> indexStart_ = {}, ::ArrayWrapper<uint> indexCount_ = {}, float LODScreenTransition_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mesh{mesh_}, materials{materials_}, meshPath{meshPath_}, meshName{meshName_}, numVertices{numVertices_}, numSubMeshes{numSubMeshes_}, indexStart{indexStart_}, indexCount{indexCount_}, LODScreenTransition{LODScreenTransition_}, transform{transform_} {}
     // Get instance field reference: public UnityEngine.Mesh _mesh
     UnityEngine::Mesh*& dyn__mesh();
     // Get instance field reference: public UnityEngine.Material[] _materials

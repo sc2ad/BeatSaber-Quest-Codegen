@@ -27,8 +27,6 @@ namespace NUnit::Framework::Constraints {
     class DefaultComparisonAdapter;
     // Nested type: NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter
     class ComparerAdapter;
-    // Creating value type constructor for type: ComparisonAdapter
-    ComparisonAdapter() noexcept {}
     // static public NUnit.Framework.Constraints.ComparisonAdapter get_Default()
     // Offset: 0x192A758
     static NUnit::Framework::Constraints::ComparisonAdapter* get_Default();

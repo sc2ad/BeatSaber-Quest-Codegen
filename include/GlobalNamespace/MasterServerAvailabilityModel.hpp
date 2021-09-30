@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     System::DateTime lastRequestTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: MasterServerAvailabilityModel
-    MasterServerAvailabilityModel(GlobalNamespace::INetworkConfig* networkConfig_ = {}, System::Net::Http::HttpClient* client_ = {}, System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* request_ = {}, System::DateTime lastRequestTime_ = {}) noexcept : networkConfig{networkConfig_}, client{client_}, request{request_}, lastRequestTime{lastRequestTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMasterServerAvailabilityModel
     operator GlobalNamespace::IMasterServerAvailabilityModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMasterServerAvailabilityModel*>(this);

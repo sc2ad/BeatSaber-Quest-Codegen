@@ -79,7 +79,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask& dyn_songPacks();
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
     // Offset: 0x144D0F0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks)
     // public System.Boolean Equals(BeatmapLevelSelectionMask other)
     // Offset: 0x144D1A0

@@ -14,8 +14,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PlatformWin : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_PlatformWin
-    HEU_PlatformWin() noexcept {}
   }; // HoudiniEngineUnity.HEU_PlatformWin
   #pragma pack(pop)
 }

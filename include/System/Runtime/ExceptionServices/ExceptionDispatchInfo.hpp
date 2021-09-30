@@ -37,8 +37,6 @@ namespace System::Runtime::ExceptionServices {
     ::Il2CppObject* m_stackTrace;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: ExceptionDispatchInfo
-    ExceptionDispatchInfo(System::Exception* m_Exception_ = {}, ::Il2CppObject* m_stackTrace_ = {}) noexcept : m_Exception{m_Exception_}, m_stackTrace{m_stackTrace_} {}
     // Get instance field reference: private System.Exception m_Exception
     System::Exception*& dyn_m_Exception();
     // Get instance field reference: private System.Object m_stackTrace

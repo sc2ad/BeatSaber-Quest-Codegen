@@ -172,8 +172,6 @@ namespace System::Net {
     bool force_close_chunked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HttpListenerResponse
-    HttpListenerResponse(bool disposed_ = {}, System::Text::Encoding* content_encoding_ = {}, int64_t content_length_ = {}, bool cl_set_ = {}, ::Il2CppString* content_type_ = {}, System::Net::CookieCollection* cookies_ = {}, System::Net::WebHeaderCollection* headers_ = {}, bool keep_alive_ = {}, System::Net::ResponseStream* output_stream_ = {}, System::Version* version_ = {}, ::Il2CppString* location_ = {}, int status_code_ = {}, ::Il2CppString* status_description_ = {}, bool chunked_ = {}, System::Net::HttpListenerContext* context_ = {}, bool HeadersSent_ = {}, ::Il2CppObject* headers_lock_ = {}, bool force_close_chunked_ = {}) noexcept : disposed{disposed_}, content_encoding{content_encoding_}, content_length{content_length_}, cl_set{cl_set_}, content_type{content_type_}, cookies{cookies_}, headers{headers_}, keep_alive{keep_alive_}, output_stream{output_stream_}, version{version_}, location{location_}, status_code{status_code_}, status_description{status_description_}, chunked{chunked_}, context{context_}, HeadersSent{HeadersSent_}, headers_lock{headers_lock_}, force_close_chunked{force_close_chunked_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

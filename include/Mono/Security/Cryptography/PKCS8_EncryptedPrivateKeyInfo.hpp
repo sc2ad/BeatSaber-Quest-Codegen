@@ -46,8 +46,6 @@ namespace Mono::Security::Cryptography {
     ::ArrayWrapper<uint8_t> data;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: EncryptedPrivateKeyInfo
-    EncryptedPrivateKeyInfo(::Il2CppString* algorithm_ = {}, ::ArrayWrapper<uint8_t> salt_ = {}, int iterations_ = {}, ::ArrayWrapper<uint8_t> data_ = {}) noexcept : algorithm{algorithm_}, salt{salt_}, iterations{iterations_}, data{data_} {}
     // Get instance field reference: private System.String _algorithm
     ::Il2CppString*& dyn__algorithm();
     // Get instance field reference: private System.Byte[] _salt

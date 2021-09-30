@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5088
   class IVRSystem::_ComputeDistortion : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ComputeDistortion
-    _ComputeDistortion() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDA3C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

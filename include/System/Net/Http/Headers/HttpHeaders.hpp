@@ -82,8 +82,6 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x1E
     System::Nullable_1<bool> transferEncodingChunked;
-    // Creating value type constructor for type: HttpHeaders
-    HttpHeaders(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>* headers_ = {}, System::Net::Http::Headers::HttpHeaderKind HeaderKind_ = {}, System::Nullable_1<bool> connectionclose_ = {}, System::Nullable_1<bool> transferEncodingChunked_ = {}) noexcept : headers{headers_}, HeaderKind{HeaderKind_}, connectionclose{connectionclose_}, transferEncodingChunked{transferEncodingChunked_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>
     operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>*>(this);

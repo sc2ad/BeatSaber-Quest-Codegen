@@ -91,8 +91,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::MeshTopology meshTopology;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshTopology) == 0x4);
-    // Creating value type constructor for type: HEU_MeshData
-    HEU_MeshData(System::Collections::Generic::List_1<int>* indices_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* vertices_ = {}, System::Collections::Generic::List_1<UnityEngine::Color32>* colors_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* normals_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents_ = {}, ::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::Vector4>*> uvs_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* triangleNormals_ = {}, System::Collections::Generic::Dictionary_2<int, int>* pointIndexToMeshIndexMap_ = {}, UnityEngine::MeshTopology meshTopology_ = {}) noexcept : indices{indices_}, vertices{vertices_}, colors{colors_}, normals{normals_}, tangents{tangents_}, uvs{uvs_}, triangleNormals{triangleNormals_}, pointIndexToMeshIndexMap{pointIndexToMeshIndexMap_}, meshTopology{meshTopology_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> _indices
     System::Collections::Generic::List_1<int>*& dyn__indices();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _vertices

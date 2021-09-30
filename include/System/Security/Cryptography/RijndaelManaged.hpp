@@ -31,8 +31,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F3D0
   class RijndaelManaged : public System::Security::Cryptography::Rijndael {
     public:
-    // Creating value type constructor for type: RijndaelManaged
-    RijndaelManaged() noexcept {}
     // private System.Security.Cryptography.ICryptoTransform NewEncryptor(System.Byte[] rgbKey, System.Security.Cryptography.CipherMode mode, System.Byte[] rgbIV, System.Int32 feedbackSize, System.Security.Cryptography.RijndaelManagedTransformMode encryptMode)
     // Offset: 0x1CC47D0
     System::Security::Cryptography::ICryptoTransform* NewEncryptor(::ArrayWrapper<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayWrapper<uint8_t> rgbIV, int feedbackSize, System::Security::Cryptography::RijndaelManagedTransformMode encryptMode);

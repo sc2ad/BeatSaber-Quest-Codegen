@@ -62,8 +62,6 @@ namespace System::Security {
     System::Collections::ArrayList* children;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: SecurityElement
-    SecurityElement(::Il2CppString* text_ = {}, ::Il2CppString* tag_ = {}, System::Collections::ArrayList* attributes_ = {}, System::Collections::ArrayList* children_ = {}) noexcept : text{text_}, tag{tag_}, attributes{attributes_}, children{children_} {}
     // Get static field: static private readonly System.Char[] invalid_tag_chars
     static ::ArrayWrapper<::Il2CppChar> _get_invalid_tag_chars();
     // Set static field: static private readonly System.Char[] invalid_tag_chars

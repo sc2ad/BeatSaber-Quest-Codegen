@@ -83,8 +83,6 @@ namespace Zenject {
     bool matchAll;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ResolveProvider
-    ResolveProvider(::Il2CppObject* identifier_ = {}, Zenject::DiContainer* container_ = {}, System::Type* contractType_ = {}, bool isOptional_ = {}, Zenject::InjectSources source_ = {}, bool matchAll_ = {}) noexcept : identifier{identifier_}, container{container_}, contractType{contractType_}, isOptional{isOptional_}, source{source_}, matchAll{matchAll_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

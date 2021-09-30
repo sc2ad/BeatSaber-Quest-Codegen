@@ -64,7 +64,6 @@ namespace UnityEngine::Rendering {
     UnityEngine::Rendering::LODParameters& dyn_lodParameters();
     // public System.Void .ctor(Unity.Collections.NativeArray`1<UnityEngine.Plane> inCullingPlanes, Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> inOutBatchVisibility, Unity.Collections.NativeArray`1<System.Int32> outVisibleIndices, UnityEngine.Rendering.LODParameters inLodParameters)
     // Offset: 0x1E064E4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> inCullingPlanes, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility, Unity::Collections::NativeArray_1<int> outVisibleIndices, UnityEngine::Rendering::LODParameters inLodParameters)
   }; // UnityEngine.Rendering.BatchCullingContext
   // WARNING Not writing size check since size may be invalid!

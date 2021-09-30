@@ -21,8 +21,6 @@ namespace System::Diagnostics {
   // [AttributeUsageAttribute] Offset: E692E8
   class MonitoringDescriptionAttribute : public System::ComponentModel::DescriptionAttribute {
     public:
-    // Creating value type constructor for type: MonitoringDescriptionAttribute
-    MonitoringDescriptionAttribute() noexcept {}
     // public override System.String get_Description()
     // Offset: 0x1A25A04
     // Implemented from: System.ComponentModel.DescriptionAttribute

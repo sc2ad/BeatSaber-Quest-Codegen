@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     float cutAngleTolerance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TutorialNoteController
-    TutorialNoteController(GlobalNamespace::BoxCuttableBySaber* cuttableBySaberCore_ = {}, GlobalNamespace::BoxCuttableBySaber* cuttableBySaberBeforeNote_ = {}, UnityEngine::GameObject* wrapperGO_ = {}, bool beforeNoteCutWasOk_ = {}, bool hidden_ = {}, float cutAngleTolerance_ = {}) noexcept : cuttableBySaberCore{cuttableBySaberCore_}, cuttableBySaberBeforeNote{cuttableBySaberBeforeNote_}, wrapperGO{wrapperGO_}, beforeNoteCutWasOk{beforeNoteCutWasOk_}, hidden{hidden_}, cutAngleTolerance{cutAngleTolerance_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteMirrorable
     operator GlobalNamespace::ICubeNoteMirrorable() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteMirrorable*>(this);

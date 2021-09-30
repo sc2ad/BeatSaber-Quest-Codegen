@@ -67,8 +67,6 @@ namespace Org::BouncyCastle::OpenSsl {
     Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::OpenSsl::IPasswordFinder*) == 0x8);
-    // Creating value type constructor for type: PemReader
-    PemReader(Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder_ = {}) noexcept : pFinder{pFinder_} {}
     // Deleting conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder

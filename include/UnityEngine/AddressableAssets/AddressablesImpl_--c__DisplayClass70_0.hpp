@@ -80,8 +80,6 @@ namespace UnityEngine::AddressableAssets {
     System::Type* type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass70_0
-    $$c__DisplayClass70_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, System::Collections::IEnumerable* keys_ = {}, UnityEngine::AddressableAssets::Addressables::MergeMode mode_ = {}, System::Type* type_ = {}) noexcept : $$4__this{$$4__this_}, keys{keys_}, mode{mode_}, type{type_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.IEnumerable keys

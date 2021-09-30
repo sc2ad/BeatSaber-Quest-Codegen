@@ -44,8 +44,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*) == 0x8);
-    // Creating value type constructor for type: DigestInfo
-    DigestInfo(::ArrayWrapper<uint8_t> digest_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID_ = {}) noexcept : digest{digest_}, algID{algID_} {}
     // Get instance field reference: private readonly System.Byte[] digest
     ::ArrayWrapper<uint8_t>& dyn_digest();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID

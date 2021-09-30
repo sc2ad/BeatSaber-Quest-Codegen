@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSStarTextEffectController* btsStarTextEffectController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSStarTextEffectController*) == 0x8);
-    // Creating value type constructor for type: BTSStarTextEventInstaller
-    BTSStarTextEventInstaller(GlobalNamespace::BTSStarTextEffectController* btsStarTextEffectController_ = {}) noexcept : btsStarTextEffectController{btsStarTextEffectController_} {}
     // Get instance field reference: private BTSStarTextEffectController _btsStarTextEffectController
     GlobalNamespace::BTSStarTextEffectController*& dyn__btsStarTextEffectController();
     // public System.Void .ctor()

@@ -49,7 +49,6 @@ namespace TMPro {
     UnityEngine::Vector3& dyn_Point2();
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0x15C2E20
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2)
   }; // TMPro.TMP_TextUtilities/TMPro.LineSegment
   #pragma pack(pop)

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     float spawningStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, float spawningStartTime_ = {}) noexcept : beatmapData{beatmapData_}, spawningStartTime{spawningStartTime_} {}
     // Get instance field reference: public readonly IReadonlyBeatmapData beatmapData
     GlobalNamespace::IReadonlyBeatmapData*& dyn_beatmapData();
     // Get instance field reference: public readonly System.Single spawningStartTime

@@ -52,8 +52,6 @@ namespace HMUI {
     class $DoVerticalTransition$d__6;
     // Nested type: HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8
     class $AnimationCoroutine$d__8;
-    // Creating value type constructor for type: ViewControllerTransitionHelpers
-    ViewControllerTransitionHelpers() noexcept {}
     // static field const value: static private System.Single kTransitionDuration
     static constexpr const float kTransitionDuration = 0.4;
     // Get static field: static private System.Single kTransitionDuration

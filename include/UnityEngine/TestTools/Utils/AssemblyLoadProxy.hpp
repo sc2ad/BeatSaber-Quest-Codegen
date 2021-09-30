@@ -27,8 +27,6 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyLoadProxy : public ::Il2CppObject/*, public UnityEngine::TestTools::Utils::IAssemblyLoadProxy*/ {
     public:
-    // Creating value type constructor for type: AssemblyLoadProxy
-    AssemblyLoadProxy() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::TestTools::Utils::IAssemblyLoadProxy
     operator UnityEngine::TestTools::Utils::IAssemblyLoadProxy() noexcept {
       return *reinterpret_cast<UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);

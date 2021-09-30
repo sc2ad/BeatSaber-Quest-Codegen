@@ -31,8 +31,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     System::Guid messageId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(System::Guid messageId_ = {}) noexcept : messageId{messageId_} {}
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return messageId;

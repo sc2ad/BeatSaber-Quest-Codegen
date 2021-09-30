@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ParameterUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_ParameterUtility
-    HEU_ParameterUtility() noexcept {}
     // static public System.Boolean GetToggle(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Boolean outValue)
     // Offset: 0x17A50A0
     static bool GetToggle(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<bool> outValue);

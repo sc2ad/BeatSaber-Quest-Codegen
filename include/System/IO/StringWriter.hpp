@@ -49,8 +49,6 @@ namespace System::IO {
     bool isOpen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: StringWriter
-    StringWriter(System::Text::StringBuilder* sb_ = {}, bool isOpen_ = {}) noexcept : sb{sb_}, isOpen{isOpen_} {}
     // Get static field: static private System.Text.UnicodeEncoding m_encoding
     static System::Text::UnicodeEncoding* _get_m_encoding();
     // Set static field: static private System.Text.UnicodeEncoding m_encoding

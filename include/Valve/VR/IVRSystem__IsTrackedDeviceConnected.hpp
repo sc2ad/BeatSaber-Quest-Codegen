@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB51F0
   class IVRSystem::_IsTrackedDeviceConnected : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _IsTrackedDeviceConnected
-    _IsTrackedDeviceConnected() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE1CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

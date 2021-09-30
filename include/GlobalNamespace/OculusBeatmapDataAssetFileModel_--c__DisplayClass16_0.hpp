@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     Oculus::Platform::Models::AssetDetails* assetDetails;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::AssetDetails*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass16_0
-    $$c__DisplayClass16_0(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* taskSource_ = {}, GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}, Oculus::Platform::Models::AssetDetails* assetDetails_ = {}) noexcept : taskSource{taskSource_}, $$4__this{$$4__this_}, assetDetails{assetDetails_} {}
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_taskSource();
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this

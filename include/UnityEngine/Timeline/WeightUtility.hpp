@@ -21,8 +21,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class WeightUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: WeightUtility
-    WeightUtility() noexcept {}
     // static public System.Single NormalizeMixer(UnityEngine.Playables.Playable mixer)
     // Offset: 0x256BD3C
     static float NormalizeMixer(UnityEngine::Playables::Playable mixer);

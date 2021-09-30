@@ -39,8 +39,6 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_Image;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: OptionData
-    OptionData(::Il2CppString* m_Text_ = {}, UnityEngine::Sprite* m_Image_ = {}) noexcept : m_Text{m_Text_}, m_Image{m_Image_} {}
     // Get instance field reference: private System.String m_Text
     ::Il2CppString*& dyn_m_Text();
     // Get instance field reference: private UnityEngine.Sprite m_Image

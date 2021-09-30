@@ -14,8 +14,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class __Error : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: __Error
-    __Error() noexcept {}
     // static System.Void EndOfFile()
     // Offset: 0x1A0A2A8
     static void EndOfFile();

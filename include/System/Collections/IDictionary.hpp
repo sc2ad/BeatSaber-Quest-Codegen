@@ -27,8 +27,6 @@ namespace System::Collections {
   // [DefaultMemberAttribute] Offset: E61798
   class IDictionary/*, public System::Collections::ICollection*/ {
     public:
-    // Creating value type constructor for type: IDictionary
-    IDictionary() noexcept {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

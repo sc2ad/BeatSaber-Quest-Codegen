@@ -34,8 +34,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E714C0
   class SkinnedMeshRenderer : public UnityEngine::Renderer {
     public:
-    // Creating value type constructor for type: SkinnedMeshRenderer
-    SkinnedMeshRenderer() noexcept {}
     // public UnityEngine.SkinQuality get_quality()
     // Offset: 0x233E71C
     UnityEngine::SkinQuality get_quality();

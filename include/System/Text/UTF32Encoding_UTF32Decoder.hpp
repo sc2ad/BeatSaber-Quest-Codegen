@@ -34,8 +34,6 @@ namespace System::Text {
     int readByteCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: UTF32Decoder
-    UTF32Decoder(int iChar_ = {}, int readByteCount_ = {}) noexcept : iChar{iChar_}, readByteCount{readByteCount_} {}
     // Get instance field reference: System.Int32 iChar
     int& dyn_iChar();
     // Get instance field reference: System.Int32 readByteCount

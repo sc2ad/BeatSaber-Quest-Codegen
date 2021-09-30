@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Texture2D_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Texture2D_Extensions
-    Test_Texture2D_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Texture2D ToTestObject(UnityEngine.Texture2D self)
     // Offset: 0x25D320C
     static HoudiniEngineUnity::Test_Texture2D* ToTestObject(UnityEngine::Texture2D* self);

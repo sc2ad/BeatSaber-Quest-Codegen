@@ -39,8 +39,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     ::Il2CppString* data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* $$4__this_ = {}, ::Il2CppString* id_ = {}, ::Il2CppString* data_ = {}) noexcept : $$4__this{$$4__this_}, id{id_}, data{data_} {}
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.String id

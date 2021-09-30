@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // Creating value type constructor for type: TutorialNoTransitionInstaller
-    TutorialNoTransitionInstaller(GlobalNamespace::TutorialScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData

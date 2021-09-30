@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::Vector3>* cachedGeometryList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: OVRBoundary
-    OVRBoundary(System::Collections::Generic::List_1<UnityEngine::Vector3>* cachedGeometryList_ = {}) noexcept : cachedGeometryList{cachedGeometryList_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Vector3>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const noexcept {
       return cachedGeometryList;

@@ -64,8 +64,6 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OaepEncoding
-    OaepEncoding(::ArrayWrapper<uint8_t> defHash_ = {}, Org::BouncyCastle::Crypto::IDigest* mgf1Hash_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}, bool forEncryption_ = {}) noexcept : defHash{defHash_}, mgf1Hash{mgf1Hash_}, engine{engine_}, random{random_}, forEncryption{forEncryption_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);

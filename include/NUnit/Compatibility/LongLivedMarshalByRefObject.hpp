@@ -20,8 +20,6 @@ namespace NUnit::Compatibility {
   // [TokenAttribute] Offset: FFFFFFFF
   class LongLivedMarshalByRefObject : public System::MarshalByRefObject {
     public:
-    // Creating value type constructor for type: LongLivedMarshalByRefObject
-    LongLivedMarshalByRefObject() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19266A8
     // Implemented from: System.MarshalByRefObject

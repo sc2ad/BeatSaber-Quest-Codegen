@@ -30,8 +30,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E8BA8C
   class RuntimeAnimatorController : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: RuntimeAnimatorController
-    RuntimeAnimatorController() noexcept {}
     // public UnityEngine.AnimationClip[] get_animationClips()
     // Offset: 0x259849C
     ::ArrayWrapper<UnityEngine::AnimationClip*> get_animationClips();

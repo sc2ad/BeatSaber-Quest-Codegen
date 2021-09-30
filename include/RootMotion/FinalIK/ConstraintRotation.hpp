@@ -35,8 +35,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: ConstraintRotation
-    ConstraintRotation(UnityEngine::Quaternion rotation_ = {}) noexcept : rotation{rotation_} {}
     // Creating conversion operator: operator UnityEngine::Quaternion
     constexpr operator UnityEngine::Quaternion() const noexcept {
       return rotation;

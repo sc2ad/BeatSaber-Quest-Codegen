@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::Il2CppString* time;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DerGeneralizedTime
-    DerGeneralizedTime(::Il2CppString* time_ = {}) noexcept : time{time_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return time;

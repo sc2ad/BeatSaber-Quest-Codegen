@@ -35,8 +35,6 @@ namespace System::Runtime::Remoting::Activation {
     System::Runtime::Remoting::Activation::IActivator* m_NextActivator;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Activation::IActivator*) == 0x8);
-    // Creating value type constructor for type: ContextLevelActivator
-    ContextLevelActivator(System::Runtime::Remoting::Activation::IActivator* m_NextActivator_ = {}) noexcept : m_NextActivator{m_NextActivator_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IActivator
     operator System::Runtime::Remoting::Activation::IActivator() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);

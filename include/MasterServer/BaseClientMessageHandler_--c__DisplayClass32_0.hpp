@@ -57,8 +57,6 @@ namespace MasterServer {
     ::ArrayWrapper<uint8_t> signature;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass32_0
-    $$c__DisplayClass32_0(::ArrayWrapper<uint8_t> clientRandom_ = {}, ::ArrayWrapper<uint8_t> serverRandom_ = {}, ::ArrayWrapper<uint8_t> serverKey_ = {}, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certData_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::ArrayWrapper<uint8_t> signature_ = {}) noexcept : clientRandom{clientRandom_}, serverRandom{serverRandom_}, serverKey{serverKey_}, certData{certData_}, $$4__this{$$4__this_}, signature{signature_} {}
     // Get instance field reference: public System.Byte[] clientRandom
     ::ArrayWrapper<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.Byte[] serverRandom

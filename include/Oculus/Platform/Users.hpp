@@ -43,8 +43,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Users : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Users
-    Users() noexcept {}
     // static public System.String GetLoggedInUserLocale()
     // Offset: 0x25BC830
     static ::Il2CppString* GetLoggedInUserLocale();

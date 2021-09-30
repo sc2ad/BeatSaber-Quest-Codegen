@@ -28,8 +28,6 @@ namespace System::Diagnostics {
     ::Il2CppString* m_conditionString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ConditionalAttribute
-    ConditionalAttribute(::Il2CppString* m_conditionString_ = {}) noexcept : m_conditionString{m_conditionString_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_conditionString;

@@ -49,8 +49,6 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
-    // Creating value type constructor for type: InternalUtility
-    InternalUtility() noexcept {}
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> gameObjects)
     // Offset: 0xFFFFFFFF
     template<class T>

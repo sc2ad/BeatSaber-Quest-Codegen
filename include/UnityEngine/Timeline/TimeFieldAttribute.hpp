@@ -76,8 +76,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode) == 0x4);
-    // Creating value type constructor for type: TimeFieldAttribute
-    TimeFieldAttribute(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode_ = {}) noexcept : useEditMode{useEditMode_} {}
     // Creating conversion operator: operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode
     constexpr operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode() const noexcept {
       return useEditMode;

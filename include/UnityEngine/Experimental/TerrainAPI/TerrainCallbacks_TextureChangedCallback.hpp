@@ -38,8 +38,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TerrainCallbacks::TextureChangedCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: TextureChangedCallback
-    TextureChangedCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25E81AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

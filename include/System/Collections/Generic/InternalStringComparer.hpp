@@ -19,8 +19,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalStringComparer : public System::Collections::Generic::EqualityComparer_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: InternalStringComparer
-    InternalStringComparer() noexcept {}
     // public System.Int32 GetHashCode(System.String obj)
     // Offset: 0x199AE30
     int GetHashCode(::Il2CppString* obj);

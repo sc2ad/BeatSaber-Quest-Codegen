@@ -22,8 +22,6 @@ namespace Polyglot {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class LanguageExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LanguageExtensions
-    LanguageExtensions() noexcept {}
     // static public System.String ToSerializedName(Polyglot.Language lang)
     // Offset: 0x2581DD8
     static ::Il2CppString* ToSerializedName(Polyglot::Language lang);

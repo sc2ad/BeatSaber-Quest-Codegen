@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     System::Action_1<HMUI::ViewController*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<HMUI::ViewController*>*) == 0x8);
-    // Creating value type constructor for type: PlayerOptionsViewController
-    PlayerOptionsViewController(GlobalNamespace::PlayerSettingsPanelController* playerSettingsPanelController_ = {}, UnityEngine::UI::Button* okButton_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action_1<HMUI::ViewController*>* didFinishEvent_ = {}) noexcept : playerSettingsPanelController{playerSettingsPanelController_}, okButton{okButton_}, playerDataModel{playerDataModel_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private PlayerSettingsPanelController _playerSettingsPanelController
     GlobalNamespace::PlayerSettingsPanelController*& dyn__playerSettingsPanelController();
     // Get instance field reference: private UnityEngine.UI.Button _okButton

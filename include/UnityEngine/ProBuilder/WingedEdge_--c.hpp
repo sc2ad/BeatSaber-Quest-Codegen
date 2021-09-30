@@ -31,8 +31,6 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WingedEdge::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c <>9
     static UnityEngine::ProBuilder::WingedEdge::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c <>9

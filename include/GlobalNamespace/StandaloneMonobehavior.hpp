@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     int lastFrameTimeCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StandaloneMonobehavior
-    StandaloneMonobehavior(bool isReady_ = {}, float startTime_ = {}, ::ArrayWrapper<UnityEngine::FrameTiming> lastFrameTimings_ = {}, int lastFrameTimeCount_ = {}) noexcept : isReady{isReady_}, startTime{startTime_}, lastFrameTimings{lastFrameTimings_}, lastFrameTimeCount{lastFrameTimeCount_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isReady

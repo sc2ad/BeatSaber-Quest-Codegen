@@ -22,8 +22,6 @@ namespace UnityEngine::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestRunCallback {
     public:
-    // Creating value type constructor for type: ITestRunCallback
-    ITestRunCallback() noexcept {}
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0xFFFFFFFF
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

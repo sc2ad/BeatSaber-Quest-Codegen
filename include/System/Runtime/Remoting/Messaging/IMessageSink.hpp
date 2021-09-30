@@ -23,8 +23,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E600CC
   class IMessageSink {
     public:
-    // Creating value type constructor for type: IMessageSink
-    IMessageSink() noexcept {}
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);

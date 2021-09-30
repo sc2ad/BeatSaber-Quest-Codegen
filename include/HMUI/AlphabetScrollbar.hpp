@@ -134,8 +134,6 @@ namespace HMUI {
     bool pointerIsDown;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AlphabetScrollbar
-    AlphabetScrollbar(HMUI::TableView* tableView_ = {}, float characterHeight_ = {}, UnityEngine::Color normalColor_ = {}, TMPro::TextMeshProUGUI* textPrefab_ = {}, ::ArrayWrapper<TMPro::TextMeshProUGUI*> prealocatedTexts_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, ::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*> characterScrollData_ = {}, System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* texts_ = {}, int highlightedCharactedIndex_ = {}, bool pointerIsDown_ = {}) noexcept : tableView{tableView_}, characterHeight{characterHeight_}, normalColor{normalColor_}, textPrefab{textPrefab_}, prealocatedTexts{prealocatedTexts_}, highlightImage{highlightImage_}, characterScrollData{characterScrollData_}, texts{texts_}, highlightedCharactedIndex{highlightedCharactedIndex_}, pointerIsDown{pointerIsDown_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerDownHandler
     operator UnityEngine::EventSystems::IPointerDownHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerDownHandler*>(this);

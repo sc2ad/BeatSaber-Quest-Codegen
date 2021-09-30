@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71818
   class CubemapArray : public UnityEngine::Texture {
     public:
-    // Creating value type constructor for type: CubemapArray
-    CubemapArray() noexcept {}
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x1CB61A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

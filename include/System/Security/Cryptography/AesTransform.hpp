@@ -45,8 +45,6 @@ namespace System::Security::Cryptography {
     int Nr;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AesTransform
-    AesTransform(::ArrayWrapper<uint> expandedKey_ = {}, int Nk_ = {}, int Nr_ = {}) noexcept : expandedKey{expandedKey_}, Nk{Nk_}, Nr{Nr_} {}
     // Get static field: static private readonly System.UInt32[] Rcon
     static ::ArrayWrapper<uint> _get_Rcon();
     // Set static field: static private readonly System.UInt32[] Rcon

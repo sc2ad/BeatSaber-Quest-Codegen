@@ -55,8 +55,6 @@ namespace HoudiniEngineUnity {
     bool uniqueStrOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_CookLogs
-    HEU_CookLogs(System::Text::StringBuilder* cookLogs_ = {}, int currentCookLogCount_ = {}, ::Il2CppString* lastLogStr_ = {}, bool uniqueStrOnly_ = {}) noexcept : cookLogs{cookLogs_}, currentCookLogCount{currentCookLogCount_}, lastLogStr{lastLogStr_}, uniqueStrOnly{uniqueStrOnly_} {}
     // Get static field: static private HoudiniEngineUnity.HEU_CookLogs _instance
     static HoudiniEngineUnity::HEU_CookLogs* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_CookLogs _instance

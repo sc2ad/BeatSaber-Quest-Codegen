@@ -91,8 +91,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*) == 0x8);
-    // Creating value type constructor for type: CountdownController
-    CountdownController(UnityEngine::AudioSource* audioSource_ = {}, ::ArrayWrapper<GlobalNamespace::CountdownElementController*> countdownElementControllers_ = {}, GlobalNamespace::ITimeProvider* timeProvider_ = {}, float countdownEndTime_ = {}, int currentRemainingSecond_ = {}, bool gongSounded_ = {}, bool countdownRunning_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue_ = {}) noexcept : audioSource{audioSource_}, countdownElementControllers{countdownElementControllers_}, timeProvider{timeProvider_}, countdownEndTime{countdownEndTime_}, currentRemainingSecond{currentRemainingSecond_}, gongSounded{gongSounded_}, countdownRunning{countdownRunning_}, countdownElementControllerQueue{countdownElementControllerQueue_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kGongTime

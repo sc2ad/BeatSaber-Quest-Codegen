@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentScriptableObject : public UnityEngine::ScriptableObject {
     public:
-    // Creating value type constructor for type: PersistentScriptableObject
-    PersistentScriptableObject() noexcept {}
     // protected System.Void OnEnable()
     // Offset: 0x1378FA0
     void OnEnable();

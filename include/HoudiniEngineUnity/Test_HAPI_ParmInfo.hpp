@@ -28,8 +28,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_ParmInfo self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_ParmInfo) == 0x90);
-    // Creating value type constructor for type: Test_HAPI_ParmInfo
-    Test_HAPI_ParmInfo(HoudiniEngineUnity::HAPI_ParmInfo self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>*>(this);

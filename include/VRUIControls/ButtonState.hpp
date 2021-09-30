@@ -47,8 +47,6 @@ namespace VRUIControls {
     float pressedValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ButtonState
-    ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button_ = {}, VRUIControls::MouseButtonEventData* eventData_ = {}, float pressedValue_ = {}) noexcept : button{button_}, eventData{eventData_}, pressedValue{pressedValue_} {}
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
     UnityEngine::EventSystems::PointerEventData::InputButton& dyn__button();
     // Get instance field reference: private VRUIControls.MouseButtonEventData _eventData

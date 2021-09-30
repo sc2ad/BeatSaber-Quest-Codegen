@@ -17,8 +17,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class IComparer_1 {
     public:
-    // Creating value type constructor for type: IComparer_1
-    IComparer_1() noexcept {}
     // public System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     int Compare(T x, T y) {

@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     System::Action* TriggerCheckerOnStayEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: TriggerChecker
-    TriggerChecker(System::Action* TriggerCheckerOnEnterEvent_ = {}, System::Action* TriggerCheckerOnExitEvent_ = {}, System::Action* TriggerCheckerOnStayEvent_ = {}) noexcept : TriggerCheckerOnEnterEvent{TriggerCheckerOnEnterEvent_}, TriggerCheckerOnExitEvent{TriggerCheckerOnExitEvent_}, TriggerCheckerOnStayEvent{TriggerCheckerOnStayEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Action TriggerCheckerOnEnterEvent

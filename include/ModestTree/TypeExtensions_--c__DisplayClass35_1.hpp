@@ -36,8 +36,6 @@ namespace ModestTree {
     System::Attribute* a;
     // Field size check
     static_assert(sizeof(System::Attribute*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass35_1
-    $$c__DisplayClass35_1(System::Attribute* a_ = {}) noexcept : a{a_} {}
     // Creating conversion operator: operator System::Attribute*
     constexpr operator System::Attribute*() const noexcept {
       return a;

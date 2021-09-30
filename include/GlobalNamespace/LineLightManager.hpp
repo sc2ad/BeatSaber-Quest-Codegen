@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Vector4> colors;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
-    // Creating value type constructor for type: LineLightManager
-    LineLightManager(::ArrayWrapper<UnityEngine::Vector4> points_ = {}, ::ArrayWrapper<UnityEngine::Vector4> dirs_ = {}, ::ArrayWrapper<float> dirLengths_ = {}, ::ArrayWrapper<UnityEngine::Vector4> colors_ = {}) noexcept : points{points_}, dirs{dirs_}, dirLengths{dirLengths_}, colors{colors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfLights

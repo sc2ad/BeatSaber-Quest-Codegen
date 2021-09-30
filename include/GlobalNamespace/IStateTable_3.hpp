@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3 {
     public:
-    // Creating value type constructor for type: IStateTable_3
-    IStateTable_3() noexcept {}
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type) {

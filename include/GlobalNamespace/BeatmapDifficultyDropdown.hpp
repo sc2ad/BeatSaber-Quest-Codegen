@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     bool includeAllDifficulties;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BeatmapDifficultyDropdown
-    BeatmapDifficultyDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>* beatmapDifficultyData_ = {}, bool includeAllDifficulties_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, beatmapDifficultyData{beatmapDifficultyData_}, includeAllDifficulties{includeAllDifficulties_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

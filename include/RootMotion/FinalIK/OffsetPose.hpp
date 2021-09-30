@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*> effectorLinks;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>) == 0x8);
-    // Creating value type constructor for type: OffsetPose
-    OffsetPose(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*> effectorLinks_ = {}) noexcept : effectorLinks{effectorLinks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks

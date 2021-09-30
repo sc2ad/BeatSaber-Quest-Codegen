@@ -42,8 +42,6 @@ namespace System::Globalization {
     uint m_flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: CodePageDataItem
-    CodePageDataItem(int m_dataIndex_ = {}, int m_uiFamilyCodePage_ = {}, ::Il2CppString* m_webName_ = {}, uint m_flags_ = {}) noexcept : m_dataIndex{m_dataIndex_}, m_uiFamilyCodePage{m_uiFamilyCodePage_}, m_webName{m_webName_}, m_flags{m_flags_} {}
     // Get static field: static private readonly System.Char[] sep
     static ::ArrayWrapper<::Il2CppChar> _get_sep();
     // Set static field: static private readonly System.Char[] sep

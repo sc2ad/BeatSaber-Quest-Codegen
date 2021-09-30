@@ -26,8 +26,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: FileHelpers
-    FileHelpers() noexcept {}
     // static public System.String GetEscapedURLForFilePath(System.String filePath)
     // Offset: 0x1380308
     static ::Il2CppString* GetEscapedURLForFilePath(::Il2CppString* filePath);

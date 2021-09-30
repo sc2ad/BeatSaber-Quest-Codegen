@@ -51,8 +51,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ConcreteBinderNonGeneric : public Zenject::FromBinderNonGeneric {
     public:
-    // Creating value type constructor for type: ConcreteBinderNonGeneric
-    ConcreteBinderNonGeneric() noexcept {}
     // public Zenject.FromBinderNonGeneric ToSelf()
     // Offset: 0x14F7D28
     Zenject::FromBinderNonGeneric* ToSelf();

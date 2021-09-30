@@ -59,8 +59,6 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* m_PreviewComponents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*) == 0x8);
-    // Creating value type constructor for type: AnimationPreviewUpdateCallback
-    AnimationPreviewUpdateCallback(UnityEngine::Animations::AnimationPlayableOutput m_Output_ = {}, UnityEngine::Playables::PlayableGraph m_Graph_ = {}, System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* m_PreviewComponents_ = {}) noexcept : m_Output{m_Output_}, m_Graph{m_Graph_}, m_PreviewComponents{m_PreviewComponents_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineEvaluateCallback
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);

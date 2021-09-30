@@ -25,8 +25,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWebRequestCreate {
     public:
-    // Creating value type constructor for type: IWebRequestCreate
-    IWebRequestCreate() noexcept {}
     // public System.Net.WebRequest Create(System.Uri uri)
     // Offset: 0xFFFFFFFF
     System::Net::WebRequest* Create(System::Uri* uri);

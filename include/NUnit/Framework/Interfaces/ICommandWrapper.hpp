@@ -20,8 +20,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICommandWrapper {
     public:
-    // Creating value type constructor for type: ICommandWrapper
-    ICommandWrapper() noexcept {}
     // public NUnit.Framework.Internal.Commands.TestCommand Wrap(NUnit.Framework.Internal.Commands.TestCommand command)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::Commands::TestCommand* Wrap(NUnit::Framework::Internal::Commands::TestCommand* command);

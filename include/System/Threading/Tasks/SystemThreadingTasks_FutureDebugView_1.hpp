@@ -14,8 +14,6 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class SystemThreadingTasks_FutureDebugView_1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemThreadingTasks_FutureDebugView_1
-    SystemThreadingTasks_FutureDebugView_1() noexcept {}
   }; // System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1
   // Could not write size check! Type: System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1 is generic, or has no fields that are valid for size checks!
 }

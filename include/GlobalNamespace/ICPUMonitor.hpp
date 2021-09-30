@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICPUMonitor {
     public:
-    // Creating value type constructor for type: ICPUMonitor
-    ICPUMonitor() noexcept {}
     // public System.Single get_utilization()
     // Offset: 0xFFFFFFFF
     float get_utilization();

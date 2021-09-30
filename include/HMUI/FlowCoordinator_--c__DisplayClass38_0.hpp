@@ -48,8 +48,6 @@ namespace HMUI {
     System::Action* finishedCallback;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass38_0
-    $$c__DisplayClass38_0(bool immediately_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}) noexcept : immediately{immediately_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_} {}
     // Get instance field reference: public System.Boolean immediately
     bool& dyn_immediately();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this

@@ -41,8 +41,6 @@ namespace Mono::Net::Security::Private {
     Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass8_0
-    $$c__DisplayClass8_0(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback_ = {}) noexcept : callback{callback_} {}
     // Creating conversion operator: operator Mono::Security::Interface::MonoLocalCertificateSelectionCallback*
     constexpr operator Mono::Security::Interface::MonoLocalCertificateSelectionCallback*() const noexcept {
       return callback;

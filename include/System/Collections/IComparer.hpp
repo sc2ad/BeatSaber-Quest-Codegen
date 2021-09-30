@@ -17,8 +17,6 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E61784
   class IComparer {
     public:
-    // Creating value type constructor for type: IComparer
-    IComparer() noexcept {}
     // public System.Int32 Compare(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);

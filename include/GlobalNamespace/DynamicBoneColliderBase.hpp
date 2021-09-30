@@ -128,8 +128,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound) == 0x4);
-    // Creating value type constructor for type: DynamicBoneColliderBase
-    DynamicBoneColliderBase(GlobalNamespace::DynamicBoneColliderBase::Direction m_Direction_ = {}, UnityEngine::Vector3 m_Center_ = {}, GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound_ = {}) noexcept : m_Direction{m_Direction_}, m_Center{m_Center_}, m_Bound{m_Bound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public DynamicBoneColliderBase/Direction m_Direction

@@ -93,8 +93,6 @@ namespace System {
     ::Il2CppChar m_firstChar;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: String
-    String(int m_stringLength_ = {}, ::Il2CppChar m_firstChar_ = {}) noexcept : m_stringLength{m_stringLength_}, m_firstChar{m_firstChar_} {}
     // Creating interface conversion operator: operator System::IComparable_1<::Il2CppString*>
     operator System::IComparable_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::IComparable_1<::Il2CppString*>*>(this);

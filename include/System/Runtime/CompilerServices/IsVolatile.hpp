@@ -15,8 +15,6 @@ namespace System::Runtime::CompilerServices {
   // [ComVisibleAttribute] Offset: E606B8
   class IsVolatile : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IsVolatile
-    IsVolatile() noexcept {}
   }; // System.Runtime.CompilerServices.IsVolatile
   #pragma pack(pop)
 }

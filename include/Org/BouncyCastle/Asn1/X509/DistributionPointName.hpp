@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     int type;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DistributionPointName
-    DistributionPointName(Org::BouncyCastle::Asn1::Asn1Encodable* name_ = {}, int type_ = {}) noexcept : name{name_}, type{type_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

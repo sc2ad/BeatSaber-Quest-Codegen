@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*> perceivedLoudnessPerLevel;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>) == 0x8);
-    // Creating value type constructor for type: PerceivedLoudnessPerLevelSO
-    PerceivedLoudnessPerLevelSO(::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*> perceivedLoudnessPerLevel_ = {}) noexcept : perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel

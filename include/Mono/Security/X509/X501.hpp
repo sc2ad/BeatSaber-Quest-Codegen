@@ -26,8 +26,6 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X501 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X501
-    X501() noexcept {}
     // Get static field: static private System.Byte[] countryName
     static ::ArrayWrapper<uint8_t> _get_countryName();
     // Set static field: static private System.Byte[] countryName

@@ -33,8 +33,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int idRef;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MemberReference
-    MemberReference(int idRef_ = {}) noexcept : idRef{idRef_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return idRef;

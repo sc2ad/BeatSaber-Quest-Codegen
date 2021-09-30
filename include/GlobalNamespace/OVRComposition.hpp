@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPose lastAttachedNodePose;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPose) == 0x1C);
-    // Creating value type constructor for type: OVRComposition
-    OVRComposition(bool cameraInTrackingSpace_ = {}, GlobalNamespace::OVRCameraRig* cameraRig_ = {}, bool usingLastAttachedNodePose_ = {}, GlobalNamespace::OVRPose lastAttachedNodePose_ = {}) noexcept : cameraInTrackingSpace{cameraInTrackingSpace_}, cameraRig{cameraRig_}, usingLastAttachedNodePose{usingLastAttachedNodePose_}, lastAttachedNodePose{lastAttachedNodePose_} {}
     // Get instance field reference: public System.Boolean cameraInTrackingSpace
     bool& dyn_cameraInTrackingSpace();
     // Get instance field reference: public OVRCameraRig cameraRig

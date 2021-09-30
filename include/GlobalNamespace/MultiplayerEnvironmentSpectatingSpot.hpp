@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* hasBeenRemovedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerEnvironmentSpectatingSpot
-    MultiplayerEnvironmentSpectatingSpot(bool preferredSpectatingSpot_ = {}, bool displaySpotNumber_ = {}, int spotNumber_ = {}, GlobalNamespace::MultiplayerSpectatingSpotManager* spectatingSpotManager_ = {}, GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* activePlayersTimeOffsetAverage_ = {}, System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* hasBeenRemovedEvent_ = {}) noexcept : preferredSpectatingSpot{preferredSpectatingSpot_}, displaySpotNumber{displaySpotNumber_}, spotNumber{spotNumber_}, spectatingSpotManager{spectatingSpotManager_}, activePlayersTimeOffsetAverage{activePlayersTimeOffsetAverage_}, hasBeenRemovedEvent{hasBeenRemovedEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerSpectatingSpot
     operator GlobalNamespace::IMultiplayerSpectatingSpot() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerSpectatingSpot*>(this);

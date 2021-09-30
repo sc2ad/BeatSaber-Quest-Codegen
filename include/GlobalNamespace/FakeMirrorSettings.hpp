@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     float vertexDistortionZposMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FakeMirrorSettings
-    FakeMirrorSettings(float fakeMirrorTransparency_ = {}, float vertexDistortionNoiseScale_ = {}, float vertexDistortionStrength_ = {}, UnityEngine::Vector3 vertexDistortionDirectionality_ = {}, float vertexDistortionZposMultiplier_ = {}) noexcept : fakeMirrorTransparency{fakeMirrorTransparency_}, vertexDistortionNoiseScale{vertexDistortionNoiseScale_}, vertexDistortionStrength{vertexDistortionStrength_}, vertexDistortionDirectionality{vertexDistortionDirectionality_}, vertexDistortionZposMultiplier{vertexDistortionZposMultiplier_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB638

@@ -42,8 +42,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::BindInfo*>* secondaryBindInfos;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::BindInfo*>*) == 0x8);
-    // Creating value type constructor for type: CopyNonLazyBinder
-    CopyNonLazyBinder(System::Collections::Generic::List_1<Zenject::BindInfo*>* secondaryBindInfos_ = {}) noexcept : secondaryBindInfos{secondaryBindInfos_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.BindInfo> _secondaryBindInfos

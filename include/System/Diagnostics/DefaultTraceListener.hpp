@@ -26,8 +26,6 @@ namespace System::Diagnostics {
     ::Il2CppString* logFileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DefaultTraceListener
-    DefaultTraceListener(::Il2CppString* logFileName_ = {}) noexcept : logFileName{logFileName_} {}
     // Get static field: static private readonly System.Boolean OnWin32
     static bool _get_OnWin32();
     // Set static field: static private readonly System.Boolean OnWin32

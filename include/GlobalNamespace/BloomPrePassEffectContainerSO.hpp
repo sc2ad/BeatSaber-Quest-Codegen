@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassEffectSO*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassEffectContainerSO
-    BloomPrePassEffectContainerSO(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect_ = {}) noexcept : bloomPrePassEffect{bloomPrePassEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassEffectSO _bloomPrePassEffect

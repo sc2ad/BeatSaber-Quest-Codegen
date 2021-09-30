@@ -40,8 +40,6 @@ namespace System::IO {
     System::IO::SearchOption searchOption;
     // Field size check
     static_assert(sizeof(System::IO::SearchOption) == 0x4);
-    // Creating value type constructor for type: SearchData
-    SearchData(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, System::IO::SearchOption searchOption_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, searchOption{searchOption_} {}
     // Get instance field reference: public readonly System.String fullPath
     ::Il2CppString*& dyn_fullPath();
     // Get instance field reference: public readonly System.String userPath

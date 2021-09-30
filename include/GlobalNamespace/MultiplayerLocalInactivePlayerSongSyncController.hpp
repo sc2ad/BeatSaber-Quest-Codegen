@@ -119,8 +119,6 @@ namespace GlobalNamespace {
     float lastLatencyOffsetTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerLocalInactivePlayerSongSyncController
-    MultiplayerLocalInactivePlayerSongSyncController(GlobalNamespace::CrossFadeAudioSource* audioSource_ = {}, GlobalNamespace::FloatSO* audioLatency_ = {}, GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* initData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, float timeScale_ = {}, float startSongTime_ = {}, float songTimeOffset_ = {}, float songTime_ = {}, bool audioStarted_ = {}, bool currentObservableIsFailed_ = {}, GlobalNamespace::IMultiplayerObservable* observable_ = {}, float lastLatencyOffsetTime_ = {}) noexcept : audioSource{audioSource_}, audioLatency{audioLatency_}, initData{initData_}, multiplayerSessionManager{multiplayerSessionManager_}, timeScale{timeScale_}, startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, songTime{songTime_}, audioStarted{audioStarted_}, currentObservableIsFailed{currentObservableIsFailed_}, observable{observable_}, lastLatencyOffsetTime{lastLatencyOffsetTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IStartSeekSongController
     operator GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);

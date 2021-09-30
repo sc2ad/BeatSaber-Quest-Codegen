@@ -82,8 +82,6 @@ namespace GlobalNamespace {
     HMUI::InputFieldView* selectedInput;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView*) == 0x8);
-    // Creating value type constructor for type: UIKeyboardManager
-    UIKeyboardManager(HMUI::UIKeyboard* uiKeyboard_ = {}, HMUI::ModalView* keyboardModalView_ = {}, UnityEngine::RectTransform* keyboardContainerTransform_ = {}, UnityEngine::Transform* parentContainerTransform_ = {}, VRUIControls::VRInputModule* vrInputModule_ = {}, HMUI::InputFieldView* selectedInput_ = {}) noexcept : uiKeyboard{uiKeyboard_}, keyboardModalView{keyboardModalView_}, keyboardContainerTransform{keyboardContainerTransform_}, parentContainerTransform{parentContainerTransform_}, vrInputModule{vrInputModule_}, selectedInput{selectedInput_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kKeyboardTopOffset

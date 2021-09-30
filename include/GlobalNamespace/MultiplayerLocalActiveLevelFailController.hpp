@@ -87,8 +87,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalActiveLevelFailController
-    MultiplayerLocalActiveLevelFailController(GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}) noexcept : levelFailedTextEffect{levelFailedTextEffect_}, levelEndActionsPublisher{levelEndActionsPublisher_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, gameSongController{gameSongController_}, beatmapObjectManager{beatmapObjectManager_}, multiplayerPlayersManager{multiplayerPlayersManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LevelFailedTextEffect _levelFailedTextEffect

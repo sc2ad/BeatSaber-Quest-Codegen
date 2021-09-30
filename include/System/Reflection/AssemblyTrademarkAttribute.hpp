@@ -28,8 +28,6 @@ namespace System::Reflection {
     ::Il2CppString* m_trademark;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssemblyTrademarkAttribute
-    AssemblyTrademarkAttribute(::Il2CppString* m_trademark_ = {}) noexcept : m_trademark{m_trademark_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_trademark;

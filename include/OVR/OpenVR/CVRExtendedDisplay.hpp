@@ -35,8 +35,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRExtendedDisplay FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRExtendedDisplay) == 0x18);
-    // Creating value type constructor for type: CVRExtendedDisplay
-    CVRExtendedDisplay(OVR::OpenVR::IVRExtendedDisplay FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRExtendedDisplay
     constexpr operator OVR::OpenVR::IVRExtendedDisplay() const noexcept {
       return FnTable;

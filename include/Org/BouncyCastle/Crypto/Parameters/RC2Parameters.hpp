@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int bits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RC2Parameters
-    RC2Parameters(int bits_ = {}) noexcept : bits{bits_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 bits

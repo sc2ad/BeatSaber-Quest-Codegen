@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADAE8
   class AspMvcEditorTemplateAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMvcEditorTemplateAttribute
-    AspMvcEditorTemplateAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261022C
     // Implemented from: System.Attribute

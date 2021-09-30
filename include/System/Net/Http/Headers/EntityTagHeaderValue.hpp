@@ -49,8 +49,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Tag;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: EntityTagHeaderValue
-    EntityTagHeaderValue(bool IsWeak_ = {}, ::Il2CppString* Tag_ = {}) noexcept : IsWeak{IsWeak_}, Tag{Tag_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

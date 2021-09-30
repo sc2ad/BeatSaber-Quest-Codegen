@@ -34,8 +34,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EBDE64
   class Terrain : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: Terrain
-    Terrain() noexcept {}
     // public UnityEngine.TerrainData get_terrainData()
     // Offset: 0x25E8F40
     UnityEngine::TerrainData* get_terrainData();

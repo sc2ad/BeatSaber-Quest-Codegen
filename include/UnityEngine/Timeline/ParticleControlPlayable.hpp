@@ -67,8 +67,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // Creating value type constructor for type: ParticleControlPlayable
-    ParticleControlPlayable(float m_LastPlayableTime_ = {}, float m_LastParticleTime_ = {}, uint m_RandomSeed_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}) noexcept : m_LastPlayableTime{m_LastPlayableTime_}, m_LastParticleTime{m_LastParticleTime_}, m_RandomSeed{m_RandomSeed_}, particleSystem{particleSystem_} {}
     // static field const value: static private System.Single kUnsetTime
     static constexpr const float kUnsetTime = 3.4028235e+38;
     // Get static field: static private System.Single kUnsetTime

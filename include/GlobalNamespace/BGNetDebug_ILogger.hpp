@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BGNetDebug::ILogger {
     public:
-    // Creating value type constructor for type: ILogger
-    ILogger() noexcept {}
     // public System.Void LogInfo(System.String message)
     // Offset: 0xFFFFFFFF
     void LogInfo(::Il2CppString* message);

@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BeatmapDifficultyMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapDifficultyMethods
-    BeatmapDifficultyMethods() noexcept {}
     // static public System.String Name(BeatmapDifficulty difficulty)
     // Offset: 0x127A858
     static ::Il2CppString* Name(GlobalNamespace::BeatmapDifficulty difficulty);

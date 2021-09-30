@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0734
   class IVRChaperoneSetup::_CommitWorkingCopy : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _CommitWorkingCopy
-    _CommitWorkingCopy() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17713DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

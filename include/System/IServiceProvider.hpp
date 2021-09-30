@@ -23,8 +23,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IServiceProvider {
     public:
-    // Creating value type constructor for type: IServiceProvider
-    IServiceProvider() noexcept {}
     // public System.Object GetService(System.Type serviceType)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetService(System::Type* serviceType);

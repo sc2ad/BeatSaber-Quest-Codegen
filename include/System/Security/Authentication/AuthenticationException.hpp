@@ -31,8 +31,6 @@ namespace System::Security::Authentication {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticationException : public System::SystemException {
     public:
-    // Creating value type constructor for type: AuthenticationException
-    AuthenticationException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x17897C4
     // Implemented from: System.SystemException

@@ -30,8 +30,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* expiration;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AccessToken
-    AccessToken(::Il2CppString* token_ = {}, ::Il2CppString* expiration_ = {}) noexcept : token{token_}, expiration{expiration_} {}
     // Get instance field reference: public System.String token
     ::Il2CppString*& dyn_token();
     // Get instance field reference: public System.String expiration

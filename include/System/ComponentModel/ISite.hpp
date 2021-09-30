@@ -26,8 +26,6 @@ namespace System::ComponentModel {
   // [ComVisibleAttribute] Offset: E69644
   class ISite/*, public System::IServiceProvider*/ {
     public:
-    // Creating value type constructor for type: ISite
-    ISite() noexcept {}
     // Creating interface conversion operator: operator System::IServiceProvider
     operator System::IServiceProvider() noexcept {
       return *reinterpret_cast<System::IServiceProvider*>(this);

@@ -53,8 +53,6 @@ namespace System::Security::Cryptography {
     int ProcessingBufferCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MD5CryptoServiceProvider
-    MD5CryptoServiceProvider(::ArrayWrapper<uint> H_ = {}, ::ArrayWrapper<uint> buff_ = {}, uint64_t count_ = {}, ::ArrayWrapper<uint8_t> ProcessingBuffer_ = {}, int ProcessingBufferCount_ = {}) noexcept : H{H_}, buff{buff_}, count{count_}, ProcessingBuffer{ProcessingBuffer_}, ProcessingBufferCount{ProcessingBufferCount_} {}
     // Get static field: static private readonly System.UInt32[] K
     static ::ArrayWrapper<uint> _get_K();
     // Set static field: static private readonly System.UInt32[] K

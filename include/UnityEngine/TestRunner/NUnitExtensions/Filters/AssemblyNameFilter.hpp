@@ -27,8 +27,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyNameFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
-    // Creating value type constructor for type: AssemblyNameFilter
-    AssemblyNameFilter() noexcept {}
     // protected override System.String get_ElementName()
     // Offset: 0x165DD24
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter

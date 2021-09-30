@@ -39,8 +39,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractFpCurve : public Org::BouncyCastle::Math::EC::ECCurve {
     public:
-    // Creating value type constructor for type: AbstractFpCurve
-    AbstractFpCurve() noexcept {}
     // protected System.Void .ctor(Org.BouncyCastle.Math.BigInteger q)
     // Offset: 0x1F57760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworkItemController*) == 0x8);
-    // Creating value type constructor for type: FireworksItemPoolInstaller
-    FireworksItemPoolInstaller(GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}) noexcept : fireworksController{fireworksController_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_} {}
     // Get instance field reference: private FireworksController _fireworksController
     GlobalNamespace::FireworksController*& dyn__fireworksController();
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab

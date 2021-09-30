@@ -66,8 +66,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* objectDigest;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: ObjectDigestInfo
-    ObjectDigestInfo(Org::BouncyCastle::Asn1::DerEnumerated* digestedObjectType_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* otherObjectTypeID_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerBitString* objectDigest_ = {}) noexcept : digestedObjectType{digestedObjectType_}, otherObjectTypeID{otherObjectTypeID_}, digestAlgorithm{digestAlgorithm_}, objectDigest{objectDigest_} {}
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerEnumerated digestedObjectType
     Org::BouncyCastle::Asn1::DerEnumerated*& dyn_digestedObjectType();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerObjectIdentifier otherObjectTypeID

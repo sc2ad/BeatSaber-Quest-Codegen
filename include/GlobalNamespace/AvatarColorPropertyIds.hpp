@@ -14,8 +14,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarColorPropertyIds : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AvatarColorPropertyIds
-    AvatarColorPropertyIds() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF006F0
     // Get static field: static public readonly System.Int32 colorPropertyId
     static int _get_colorPropertyId();

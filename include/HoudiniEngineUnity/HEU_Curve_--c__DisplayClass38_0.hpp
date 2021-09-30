@@ -56,8 +56,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::Vector3>* scales;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass38_0
-    $$c__DisplayClass38_0(System::Collections::Generic::List_1<UnityEngine::Vector3>* positions_ = {}, System::Collections::Generic::List_1<UnityEngine::Quaternion>* rotations_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* scales_ = {}) noexcept : positions{positions_}, rotations{rotations_}, scales{scales_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> positions
     System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_positions();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Quaternion> rotations

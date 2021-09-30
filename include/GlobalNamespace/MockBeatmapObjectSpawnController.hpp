@@ -99,8 +99,6 @@ namespace GlobalNamespace {
     System::Action* didInitEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: MockBeatmapObjectSpawnController
-    MockBeatmapObjectSpawnController(float jumpOffsetY_ = {}, float currentBpm_ = {}, float moveDuration_ = {}, float jumpDuration_ = {}, float jumpDistance_ = {}, float verticalLayerDistance_ = {}, float noteJumpMovementSpeed_ = {}, float noteLinesDistance_ = {}, GlobalNamespace::BeatmapObjectSpawnMovementData* beatmapObjectSpawnMovementData_ = {}, System::Action* didInitEvent_ = {}) noexcept : jumpOffsetY{jumpOffsetY_}, currentBpm{currentBpm_}, moveDuration{moveDuration_}, jumpDuration{jumpDuration_}, jumpDistance{jumpDistance_}, verticalLayerDistance{verticalLayerDistance_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteLinesDistance{noteLinesDistance_}, beatmapObjectSpawnMovementData{beatmapObjectSpawnMovementData_}, didInitEvent{didInitEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapObjectSpawnController
     operator GlobalNamespace::IBeatmapObjectSpawnController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapObjectSpawnController*>(this);

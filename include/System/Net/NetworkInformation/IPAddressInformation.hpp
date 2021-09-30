@@ -25,8 +25,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPAddressInformation : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IPAddressInformation
-    IPAddressInformation() noexcept {}
     // public System.Net.IPAddress get_Address()
     // Offset: 0xFFFFFFFF
     System::Net::IPAddress* get_Address();

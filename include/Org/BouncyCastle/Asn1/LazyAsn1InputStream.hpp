@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class LazyAsn1InputStream : public Org::BouncyCastle::Asn1::Asn1InputStream {
     public:
-    // Creating value type constructor for type: LazyAsn1InputStream
-    LazyAsn1InputStream() noexcept {}
     // public System.Void .ctor(System.Byte[] input)
     // Offset: 0x196BBD0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream

@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*) == 0x8);
-    // Creating value type constructor for type: SavedLeaderboardsData
-    SavedLeaderboardsData(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData_ = {}) noexcept : leaderboardsData{leaderboardsData_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*() const noexcept {
       return leaderboardsData;

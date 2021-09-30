@@ -34,8 +34,6 @@ namespace UnityEngine::Timeline {
     ::Il2CppString* result;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass0_1
-    $$c__DisplayClass0_1(::Il2CppString* result_ = {}) noexcept : result{result_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return result;

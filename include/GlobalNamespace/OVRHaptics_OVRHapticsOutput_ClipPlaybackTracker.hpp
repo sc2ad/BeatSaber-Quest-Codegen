@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRHapticsClip* Clip;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHapticsClip*) == 0x8);
-    // Creating value type constructor for type: ClipPlaybackTracker
-    ClipPlaybackTracker(int ReadCount_ = {}, GlobalNamespace::OVRHapticsClip* Clip_ = {}) noexcept : ReadCount{ReadCount_}, Clip{Clip_} {}
     // Get instance field reference: private System.Int32 <ReadCount>k__BackingField
     int& dyn_$ReadCount$k__BackingField();
     // Get instance field reference: private OVRHapticsClip <Clip>k__BackingField

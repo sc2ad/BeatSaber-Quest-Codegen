@@ -63,8 +63,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     int m_width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: WNafPreCompInfo
-    WNafPreCompInfo(int m_promotionCountdown_ = {}, int m_confWidth_ = {}, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> m_preComp_ = {}, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> m_preCompNeg_ = {}, Org::BouncyCastle::Math::EC::ECPoint* m_twice_ = {}, int m_width_ = {}) noexcept : m_promotionCountdown{m_promotionCountdown_}, m_confWidth{m_confWidth_}, m_preComp{m_preComp_}, m_preCompNeg{m_preCompNeg_}, m_twice{m_twice_}, m_width{m_width_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

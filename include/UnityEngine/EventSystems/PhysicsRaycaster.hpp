@@ -82,8 +82,6 @@ namespace UnityEngine::EventSystems {
     ::ArrayWrapper<UnityEngine::RaycastHit> m_Hits;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::RaycastHit>) == 0x8);
-    // Creating value type constructor for type: PhysicsRaycaster
-    PhysicsRaycaster(UnityEngine::Camera* m_EventCamera_ = {}, UnityEngine::LayerMask m_EventMask_ = {}, int m_MaxRayIntersections_ = {}, int m_LastMaxRayIntersections_ = {}, ::ArrayWrapper<UnityEngine::RaycastHit> m_Hits_ = {}) noexcept : m_EventCamera{m_EventCamera_}, m_EventMask{m_EventMask_}, m_MaxRayIntersections{m_MaxRayIntersections_}, m_LastMaxRayIntersections{m_LastMaxRayIntersections_}, m_Hits{m_Hits_} {}
     // static field const value: static protected System.Int32 kNoEventMaskSet
     static constexpr const int kNoEventMaskSet = -1;
     // Get static field: static protected System.Int32 kNoEventMaskSet

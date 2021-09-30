@@ -54,8 +54,6 @@ namespace NUnit::Framework::Internal {
     System::Reflection::MethodInfo* MethodInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
-    // Creating value type constructor for type: MethodWrapper
-    MethodWrapper(NUnit::Framework::Interfaces::ITypeInfo* TypeInfo_ = {}, System::Reflection::MethodInfo* MethodInfo_ = {}) noexcept : TypeInfo{TypeInfo_}, MethodInfo{MethodInfo_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IMethodInfo
     operator NUnit::Framework::Interfaces::IMethodInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IMethodInfo*>(this);

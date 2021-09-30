@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
-    // Creating value type constructor for type: MenuShockwave
-    MenuShockwave(UnityEngine::ParticleSystem* shockwavePS_ = {}, VRUIControls::VRPointer* vrPointer_ = {}, ::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents_ = {}, UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams_ = {}) noexcept : shockwavePS{shockwavePS_}, vrPointer{vrPointer_}, buttonClickEvents{buttonClickEvents_}, shockwavePSEmitParams{shockwavePSEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS

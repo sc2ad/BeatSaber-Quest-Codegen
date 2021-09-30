@@ -45,8 +45,6 @@ namespace System::Net {
     System::Net::SimpleAsyncResult* result;
     // Field size check
     static_assert(sizeof(System::Net::SimpleAsyncResult*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass76_0
-    $$c__DisplayClass76_0(System::Net::WebConnectionStream* $$4__this_ = {}, System::Net::SimpleAsyncResult* result_ = {}) noexcept : $$4__this{$$4__this_}, result{result_} {}
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
     System::Net::WebConnectionStream*& dyn_$$4__this();
     // Get instance field reference: public System.Net.SimpleAsyncResult result

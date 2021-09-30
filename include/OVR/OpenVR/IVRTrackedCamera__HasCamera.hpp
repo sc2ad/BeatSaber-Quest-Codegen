@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB034C
   class IVRTrackedCamera::_HasCamera : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _HasCamera
-    _HasCamera() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x13B1C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

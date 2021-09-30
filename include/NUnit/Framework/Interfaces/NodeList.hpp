@@ -26,8 +26,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class NodeList : public System::Collections::Generic::List_1<NUnit::Framework::Interfaces::TNode*> {
     public:
-    // Creating value type constructor for type: NodeList
-    NodeList() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19358F0
     // Implemented from: System.Collections.Generic.List`1

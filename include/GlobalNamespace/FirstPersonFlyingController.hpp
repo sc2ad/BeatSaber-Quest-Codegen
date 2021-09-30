@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* cameraTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: FirstPersonFlyingController
-    FirstPersonFlyingController(float moveSensitivity_ = {}, UnityEngine::Camera* camera_ = {}, float cameraFov_ = {}, GlobalNamespace::VRCenterAdjust* centerAdjust_ = {}, GlobalNamespace::VRController* controller0_ = {}, GlobalNamespace::VRController* controller1_ = {}, VRUIControls::VRInputModule* vrInputModule_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> controllerModels_ = {}, GlobalNamespace::MouseLook* mouseLook_ = {}, UnityEngine::Transform* cameraTransform_ = {}) noexcept : moveSensitivity{moveSensitivity_}, camera{camera_}, cameraFov{cameraFov_}, centerAdjust{centerAdjust_}, controller0{controller0_}, controller1{controller1_}, vrInputModule{vrInputModule_}, controllerModels{controllerModels_}, mouseLook{mouseLook_}, cameraTransform{cameraTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _moveSensitivity

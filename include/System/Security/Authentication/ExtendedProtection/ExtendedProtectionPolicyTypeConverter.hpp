@@ -17,8 +17,6 @@ namespace System::Security::Authentication::ExtendedProtection {
   // [MonoTODOAttribute] Offset: E69838
   class ExtendedProtectionPolicyTypeConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: ExtendedProtectionPolicyTypeConverter
-    ExtendedProtectionPolicyTypeConverter() noexcept {}
   }; // System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter
   #pragma pack(pop)
 }

@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     float linesWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BloomPrePassEffectSO
-    BloomPrePassEffectSO(int textureWidth_ = {}, int textureHeight_ = {}, UnityEngine::Vector2 fov_ = {}, float linesWidth_ = {}) noexcept : textureWidth{textureWidth_}, textureHeight{textureHeight_}, fov{fov_}, linesWidth{linesWidth_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBloomPrePassParams
     operator GlobalNamespace::IBloomPrePassParams() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBloomPrePassParams*>(this);

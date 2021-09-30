@@ -54,8 +54,6 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* writer;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // Creating value type constructor for type: Logger
-    Logger(::Il2CppString* name_ = {}, ::Il2CppString* fullname_ = {}, NUnit::Framework::Internal::InternalTraceLevel maxLevel_ = {}, System::IO::TextWriter* writer_ = {}) noexcept : name{name_}, fullname{fullname_}, maxLevel{maxLevel_}, writer{writer_} {}
     // Get static field: static private readonly System.String TIME_FMT
     static ::Il2CppString* _get_TIME_FMT();
     // Set static field: static private readonly System.String TIME_FMT

@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AsyncComputeManager
-    AsyncComputeManager(System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation*>* asyncComputeRequests_ = {}, System::Threading::Thread* computeThread_ = {}, bool disposed_ = {}) noexcept : asyncComputeRequests{asyncComputeRequests_}, computeThread{computeThread_}, disposed{disposed_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAsyncComputeManager
     operator GlobalNamespace::IAsyncComputeManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAsyncComputeManager*>(this);

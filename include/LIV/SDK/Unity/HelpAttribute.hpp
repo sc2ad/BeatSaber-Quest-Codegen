@@ -27,8 +27,6 @@ namespace LIV::SDK::Unity {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HelpAttribute
-    HelpAttribute(::Il2CppString* text_ = {}) noexcept : text{text_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return text;

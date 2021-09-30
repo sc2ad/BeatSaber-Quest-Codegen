@@ -101,8 +101,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSpectatingSpot* currentSpot;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSpectatingSpot*) == 0x8);
-    // Creating value type constructor for type: MultiplayerSpectatorController
-    MultiplayerSpectatorController(GlobalNamespace::MultiplayerSpectatingSpotManager* spotManager_ = {}, GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* songController_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, GlobalNamespace::FadeInOutController* fadeInOutController_ = {}, System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpotDidChangeEvent_ = {}, UnityEngine::Transform* transform_ = {}, GlobalNamespace::IMultiplayerSpectatingSpot* currentSpot_ = {}) noexcept : spotManager{spotManager_}, songController{songController_}, multiplayerController{multiplayerController_}, fadeInOutController{fadeInOutController_}, spectatingSpotDidChangeEvent{spectatingSpotDidChangeEvent_}, transform{transform_}, currentSpot{currentSpot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MultiplayerSpectatingSpotManager _spotManager

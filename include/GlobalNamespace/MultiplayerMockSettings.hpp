@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*) == 0x8);
-    // Creating value type constructor for type: MultiplayerMockSettings
-    MultiplayerMockSettings(bool isEnabled_ = {}, GlobalNamespace::MockPlayerSettings* localPlayer_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* otherPlayers_ = {}, GlobalNamespace::MockServerSettings* quickplayServer_ = {}, GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData_ = {}, GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData_ = {}) noexcept : isEnabled{isEnabled_}, localPlayer{localPlayer_}, otherPlayers{otherPlayers_}, quickplayServer{quickplayServer_}, masterServerAvailabilityData{masterServerAvailabilityData_}, masterServerQuickPlaySetupData{masterServerQuickPlaySetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isEnabled

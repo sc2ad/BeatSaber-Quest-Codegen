@@ -39,8 +39,6 @@ namespace UnityEngine {
     bool selfCollision;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Cloth
-    Cloth(float useContinuousCollision_ = {}, bool selfCollision_ = {}) noexcept : useContinuousCollision{useContinuousCollision_}, selfCollision{selfCollision_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single <useContinuousCollision>k__BackingField

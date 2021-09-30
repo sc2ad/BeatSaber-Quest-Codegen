@@ -32,8 +32,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class NoteJumpStartBeatOffsetDropdown::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly NoteJumpStartBeatOffsetDropdown/<>c <>9
     static GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c* _get_$$9();
     // Set static field: static public readonly NoteJumpStartBeatOffsetDropdown/<>c <>9

@@ -17,8 +17,6 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE83C
   class PropertyAttribute : public NUnit::Framework::NUnitAttribute {
     public:
-    // Creating value type constructor for type: PropertyAttribute
-    PropertyAttribute() noexcept {}
   }; // NUnit.Framework.PropertyAttribute
   #pragma pack(pop)
 }

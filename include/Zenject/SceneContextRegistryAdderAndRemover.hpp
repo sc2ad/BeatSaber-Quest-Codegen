@@ -43,8 +43,6 @@ namespace Zenject {
     Zenject::SceneContext* sceneContext;
     // Field size check
     static_assert(sizeof(Zenject::SceneContext*) == 0x8);
-    // Creating value type constructor for type: SceneContextRegistryAdderAndRemover
-    SceneContextRegistryAdderAndRemover(Zenject::SceneContextRegistry* registry_ = {}, Zenject::SceneContext* sceneContext_ = {}) noexcept : registry{registry_}, sceneContext{sceneContext_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

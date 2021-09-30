@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     ::Il2CppString* message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LocalizedMessage
-    LocalizedMessage(::Il2CppString* language_ = {}, ::Il2CppString* message_ = {}) noexcept : language{language_}, message{message_} {}
     // Get instance field reference: public System.String language
     ::Il2CppString*& dyn_language();
     // Get instance field reference: public System.String message

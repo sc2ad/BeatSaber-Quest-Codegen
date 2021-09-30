@@ -110,8 +110,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::BaseEventData* m_DummyData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseEventData*) == 0x8);
-    // Creating value type constructor for type: EventSystem
-    EventSystem(System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule*>* m_SystemInputModules_ = {}, UnityEngine::EventSystems::BaseInputModule* m_CurrentInputModule_ = {}, UnityEngine::GameObject* m_FirstSelected_ = {}, bool m_sendNavigationEvents_ = {}, int m_DragThreshold_ = {}, UnityEngine::GameObject* m_CurrentSelected_ = {}, bool m_HasFocus_ = {}, bool m_SelectionGuard_ = {}, UnityEngine::EventSystems::BaseEventData* m_DummyData_ = {}) noexcept : m_SystemInputModules{m_SystemInputModules_}, m_CurrentInputModule{m_CurrentInputModule_}, m_FirstSelected{m_FirstSelected_}, m_sendNavigationEvents{m_sendNavigationEvents_}, m_DragThreshold{m_DragThreshold_}, m_CurrentSelected{m_CurrentSelected_}, m_HasFocus{m_HasFocus_}, m_SelectionGuard{m_SelectionGuard_}, m_DummyData{m_DummyData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems

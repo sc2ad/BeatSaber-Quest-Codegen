@@ -57,8 +57,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::BipedIKSolvers* solvers;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::BipedIKSolvers*) == 0x8);
-    // Creating value type constructor for type: BipedIK
-    BipedIK(RootMotion::BipedReferences* references_ = {}, RootMotion::FinalIK::BipedIKSolvers* solvers_ = {}) noexcept : references{references_}, solvers{solvers_} {}
     // Get instance field reference: public RootMotion.BipedReferences references
     RootMotion::BipedReferences*& dyn_references();
     // Get instance field reference: public RootMotion.FinalIK.BipedIKSolvers solvers

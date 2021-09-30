@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<uint8_t> encoded;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: LazyDerSequence
-    LazyDerSequence(::ArrayWrapper<uint8_t> encoded_ = {}) noexcept : encoded{encoded_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>
     constexpr operator ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept = delete;
     // Get instance field reference: private System.Byte[] encoded

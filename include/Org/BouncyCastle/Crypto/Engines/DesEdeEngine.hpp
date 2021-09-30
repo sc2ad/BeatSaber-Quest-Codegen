@@ -51,8 +51,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DesEdeEngine
-    DesEdeEngine(::ArrayWrapper<int> workingKey1_ = {}, ::ArrayWrapper<int> workingKey2_ = {}, ::ArrayWrapper<int> workingKey3_ = {}, bool forEncryption_ = {}) noexcept : workingKey1{workingKey1_}, workingKey2{workingKey2_}, workingKey3{workingKey3_}, forEncryption{forEncryption_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<int>
     constexpr operator ::ArrayWrapper<int>() const noexcept = delete;
     // Get instance field reference: private System.Int32[] workingKey1

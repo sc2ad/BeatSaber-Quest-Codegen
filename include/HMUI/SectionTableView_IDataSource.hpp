@@ -22,8 +22,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class SectionTableView::IDataSource {
     public:
-    // Creating value type constructor for type: IDataSource
-    IDataSource() noexcept {}
     // public System.Single RowHeight()
     // Offset: 0xFFFFFFFF
     float RowHeight();

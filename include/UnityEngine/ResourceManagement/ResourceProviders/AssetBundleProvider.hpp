@@ -38,8 +38,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [DisplayNameAttribute] Offset: EE5650
   class AssetBundleProvider : public UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
     public:
-    // Creating value type constructor for type: AssetBundleProvider
-    AssetBundleProvider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B67648
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase

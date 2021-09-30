@@ -42,8 +42,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_FontAssetUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TMP_FontAssetUtilities
-    TMP_FontAssetUtilities() noexcept {}
     // Get static field: static private readonly TMPro.TMP_FontAssetUtilities s_Instance
     static TMPro::TMP_FontAssetUtilities* _get_s_Instance();
     // Set static field: static private readonly TMPro.TMP_FontAssetUtilities s_Instance

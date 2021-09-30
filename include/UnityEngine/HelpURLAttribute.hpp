@@ -28,8 +28,6 @@ namespace UnityEngine {
     ::Il2CppString* m_Url;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HelpURLAttribute
-    HelpURLAttribute(::Il2CppString* m_Url_ = {}) noexcept : m_Url{m_Url_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_Url;

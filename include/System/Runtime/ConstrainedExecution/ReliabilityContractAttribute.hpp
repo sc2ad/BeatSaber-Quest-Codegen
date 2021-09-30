@@ -37,8 +37,6 @@ namespace System::Runtime::ConstrainedExecution {
     System::Runtime::ConstrainedExecution::Cer cer;
     // Field size check
     static_assert(sizeof(System::Runtime::ConstrainedExecution::Cer) == 0x4);
-    // Creating value type constructor for type: ReliabilityContractAttribute
-    ReliabilityContractAttribute(System::Runtime::ConstrainedExecution::Consistency consistency_ = {}, System::Runtime::ConstrainedExecution::Cer cer_ = {}) noexcept : consistency{consistency_}, cer{cer_} {}
     // Get instance field reference: private System.Runtime.ConstrainedExecution.Consistency _consistency
     System::Runtime::ConstrainedExecution::Consistency& dyn__consistency();
     // Get instance field reference: private System.Runtime.ConstrainedExecution.Cer _cer

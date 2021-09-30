@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     bool netDiscoverable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CreateServerFormController
-    CreateServerFormController(GlobalNamespace::FormattedFloatListSettingsController* maxPlayersList_ = {}, bool netDiscoverable_ = {}) noexcept : maxPlayersList{maxPlayersList_}, netDiscoverable{netDiscoverable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMinPlayers

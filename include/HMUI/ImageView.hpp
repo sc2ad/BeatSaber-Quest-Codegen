@@ -128,8 +128,6 @@ namespace HMUI {
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
-    // Creating value type constructor for type: ImageView
-    ImageView(float skew_ = {}, bool gradient_ = {}, UnityEngine::Color color0_ = {}, UnityEngine::Color color1_ = {}, HMUI::ImageView::GradientDirection gradientDirection_ = {}, bool flipGradientColors_ = {}, HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : skew{skew_}, gradient{gradient_}, color0{color0_}, color1{color1_}, gradientDirection{gradientDirection_}, flipGradientColors{flipGradientColors_}, curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2BB0
     // Get static field: static private readonly UnityEngine.Vector2 kVec2Zero
     static UnityEngine::Vector2 _get_kVec2Zero();

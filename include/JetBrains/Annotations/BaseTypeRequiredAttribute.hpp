@@ -35,8 +35,6 @@ namespace JetBrains::Annotations {
     System::Type* BaseType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: BaseTypeRequiredAttribute
-    BaseTypeRequiredAttribute(System::Type* BaseType_ = {}) noexcept : BaseType{BaseType_} {}
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return BaseType;

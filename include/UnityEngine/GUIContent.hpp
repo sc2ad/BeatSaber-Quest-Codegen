@@ -46,8 +46,6 @@ namespace UnityEngine {
     ::Il2CppString* m_Tooltip;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: GUIContent
-    GUIContent(::Il2CppString* m_Text_ = {}, UnityEngine::Texture* m_Image_ = {}, ::Il2CppString* m_Tooltip_ = {}) noexcept : m_Text{m_Text_}, m_Image{m_Image_}, m_Tooltip{m_Tooltip_} {}
     // Get static field: static private readonly UnityEngine.GUIContent s_Text
     static UnityEngine::GUIContent* _get_s_Text();
     // Set static field: static private readonly UnityEngine.GUIContent s_Text

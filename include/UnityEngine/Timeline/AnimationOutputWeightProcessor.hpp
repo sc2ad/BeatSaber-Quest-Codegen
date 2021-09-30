@@ -103,8 +103,6 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* m_Mixers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*) == 0x8);
-    // Creating value type constructor for type: AnimationOutputWeightProcessor
-    AnimationOutputWeightProcessor(UnityEngine::Animations::AnimationPlayableOutput m_Output_ = {}, UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* m_Mixers_ = {}) noexcept : m_Output{m_Output_}, m_MotionXPlayable{m_MotionXPlayable_}, m_Mixers{m_Mixers_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineEvaluateCallback
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);

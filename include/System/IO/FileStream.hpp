@@ -166,8 +166,6 @@ namespace System::IO {
     int64_t buf_start;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: FileStream
-    FileStream(::ArrayWrapper<uint8_t> buf_ = {}, ::Il2CppString* name_ = {}, Microsoft::Win32::SafeHandles::SafeFileHandle* safeHandle_ = {}, bool isExposed_ = {}, int64_t append_startpos_ = {}, System::IO::FileAccess access_ = {}, bool owner_ = {}, bool async_ = {}, bool canseek_ = {}, bool anonymous_ = {}, bool buf_dirty_ = {}, int buf_size_ = {}, int buf_length_ = {}, int buf_offset_ = {}, int64_t buf_start_ = {}) noexcept : buf{buf_}, name{name_}, safeHandle{safeHandle_}, isExposed{isExposed_}, append_startpos{append_startpos_}, access{access_}, owner{owner_}, async{async_}, canseek{canseek_}, anonymous{anonymous_}, buf_dirty{buf_dirty_}, buf_size{buf_size_}, buf_length{buf_length_}, buf_offset{buf_offset_}, buf_start{buf_start_} {}
     // static field const value: static System.Int32 DefaultBufferSize
     static constexpr const int DefaultBufferSize = 4096;
     // Get static field: static System.Int32 DefaultBufferSize

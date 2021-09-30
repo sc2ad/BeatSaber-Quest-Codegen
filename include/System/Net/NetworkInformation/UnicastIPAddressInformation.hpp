@@ -20,8 +20,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnicastIPAddressInformation : public System::Net::NetworkInformation::IPAddressInformation {
     public:
-    // Creating value type constructor for type: UnicastIPAddressInformation
-    UnicastIPAddressInformation() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1646774
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation

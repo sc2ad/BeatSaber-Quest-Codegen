@@ -32,8 +32,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [DefaultMemberAttribute] Offset: E69908
   class X509Certificate2Collection : public System::Security::Cryptography::X509Certificates::X509CertificateCollection {
     public:
-    // Creating value type constructor for type: X509Certificate2Collection
-    X509Certificate2Collection() noexcept {}
     // Get static field: static private System.String[] newline_split
     static ::ArrayWrapper<::Il2CppString*> _get_newline_split();
     // Set static field: static private System.String[] newline_split

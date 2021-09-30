@@ -32,8 +32,6 @@ namespace System::IO {
     ::Il2CppString* oldFullPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RenamedEventArgs
-    RenamedEventArgs(::Il2CppString* oldName_ = {}, ::Il2CppString* oldFullPath_ = {}) noexcept : oldName{oldName_}, oldFullPath{oldFullPath_} {}
     // Get instance field reference: private System.String oldName
     ::Il2CppString*& dyn_oldName();
     // Get instance field reference: private System.String oldFullPath

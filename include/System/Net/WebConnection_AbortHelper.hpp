@@ -33,8 +33,6 @@ namespace System::Net {
     System::Net::WebConnection* Connection;
     // Field size check
     static_assert(sizeof(System::Net::WebConnection*) == 0x8);
-    // Creating value type constructor for type: AbortHelper
-    AbortHelper(System::Net::WebConnection* Connection_ = {}) noexcept : Connection{Connection_} {}
     // Creating conversion operator: operator System::Net::WebConnection*
     constexpr operator System::Net::WebConnection*() const noexcept {
       return Connection;

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::Il2CppString* stackTrace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CrashManagerSO
-    CrashManagerSO(::Il2CppString* logString_ = {}, ::Il2CppString* stackTrace_ = {}) noexcept : logString{logString_}, stackTrace{stackTrace_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _logString

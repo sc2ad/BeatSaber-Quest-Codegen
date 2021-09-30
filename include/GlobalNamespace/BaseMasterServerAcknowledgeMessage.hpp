@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     bool messageHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BaseMasterServerAcknowledgeMessage
-    BaseMasterServerAcknowledgeMessage(bool messageHandled_ = {}) noexcept : messageHandled{messageHandled_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerAcknowledgeMessage
     operator MasterServer::IMasterServerAcknowledgeMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAcknowledgeMessage*>(this);

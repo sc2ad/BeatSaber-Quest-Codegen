@@ -39,8 +39,6 @@ namespace System {
     int inheritanceLevel;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AttributeInfo
-    AttributeInfo(System::AttributeUsageAttribute* usage_ = {}, int inheritanceLevel_ = {}) noexcept : usage{usage_}, inheritanceLevel{inheritanceLevel_} {}
     // Get instance field reference: private System.AttributeUsageAttribute _usage
     System::AttributeUsageAttribute*& dyn__usage();
     // Get instance field reference: private System.Int32 _inheritanceLevel

@@ -73,7 +73,6 @@ namespace GlobalNamespace {
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
       // Offset: 0x1250254
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time)
     }; // AveragingValueRecorder/AverageValueData
     #pragma pack(pop)
@@ -141,8 +140,6 @@ namespace GlobalNamespace {
     float lastValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AveragingValueRecorder
-    AveragingValueRecorder(float averageWindowDuration_ = {}, float historyValuesPerSecond_ = {}, int historyValuesCount_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::AveragingValueRecorder::AverageValueData>* averageWindowValues_ = {}, System::Collections::Generic::Queue_1<float>* historyValues_ = {}, float time_ = {}, float historyTime_ = {}, float averageValue_ = {}, float averageWindowValuesDuration_ = {}, float lastValue_ = {}) noexcept : averageWindowDuration{averageWindowDuration_}, historyValuesPerSecond{historyValuesPerSecond_}, historyValuesCount{historyValuesCount_}, averageWindowValues{averageWindowValues_}, historyValues{historyValues_}, time{time_}, historyTime{historyTime_}, averageValue{averageValue_}, averageWindowValuesDuration{averageWindowValuesDuration_}, lastValue{lastValue_} {}
     // Get instance field reference: private System.Single _averageWindowDuration
     float& dyn__averageWindowDuration();
     // Get instance field reference: private System.Single _historyValuesPerSecond

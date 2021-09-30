@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     System::Action_1<float>* globalIntensityDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // Creating value type constructor for type: LightmapLightsWithIds
-    LightmapLightsWithIds(float maxTotalIntensity_ = {}, ::ArrayWrapper<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*> lightIntensityData_ = {}, System::Action_1<float>* globalIntensityDidChangeEvent_ = {}) noexcept : maxTotalIntensity{maxTotalIntensity_}, lightIntensityData{lightIntensityData_}, globalIntensityDidChangeEvent{globalIntensityDidChangeEvent_} {}
     // Get instance field reference: private System.Single _maxTotalIntensity
     float& dyn__maxTotalIntensity();
     // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesData[] _lightIntensityData

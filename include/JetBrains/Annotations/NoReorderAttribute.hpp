@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADC74
   class NoReorderAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NoReorderAttribute
-    NoReorderAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261078C
     // Implemented from: System.Attribute

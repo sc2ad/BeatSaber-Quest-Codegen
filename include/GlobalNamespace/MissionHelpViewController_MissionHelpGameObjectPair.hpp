@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: MissionHelpGameObjectPair
-    MissionHelpGameObjectPair(GlobalNamespace::MissionHelpSO* missionHelp_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : missionHelp{missionHelp_}, gameObject{gameObject_} {}
     // Get instance field reference: public MissionHelpSO missionHelp
     GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
     // Get instance field reference: public UnityEngine.GameObject gameObject

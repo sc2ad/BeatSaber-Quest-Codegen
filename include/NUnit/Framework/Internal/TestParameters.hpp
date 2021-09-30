@@ -73,8 +73,6 @@ namespace NUnit::Framework::Internal {
     ::ArrayWrapper<::Il2CppObject*> OriginalArguments;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: TestParameters
-    TestParameters(NUnit::Framework::Interfaces::RunState RunState_ = {}, ::ArrayWrapper<::Il2CppObject*> Arguments_ = {}, ::Il2CppString* TestName_ = {}, NUnit::Framework::Interfaces::IPropertyBag* Properties_ = {}, ::ArrayWrapper<::Il2CppObject*> OriginalArguments_ = {}) noexcept : RunState{RunState_}, Arguments{Arguments_}, TestName{TestName_}, Properties{Properties_}, OriginalArguments{OriginalArguments_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IApplyToTest
     operator NUnit::Framework::Interfaces::IApplyToTest() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IApplyToTest*>(this);

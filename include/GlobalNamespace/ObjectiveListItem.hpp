@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* conditionText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: ObjectiveListItem
-    ObjectiveListItem(TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* conditionText_ = {}) noexcept : titleText{titleText_}, conditionText{conditionText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText

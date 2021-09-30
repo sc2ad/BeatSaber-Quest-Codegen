@@ -27,8 +27,6 @@ namespace Priority_Queue {
   template<typename TItem, typename TPriority>
   class IPriorityQueue_2/*, public System::Collections::Generic::IEnumerable_1<TItem>*/ {
     public:
-    // Creating value type constructor for type: IPriorityQueue_2
-    IPriorityQueue_2() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TItem>
     operator System::Collections::Generic::IEnumerable_1<TItem>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TItem>*>(this);

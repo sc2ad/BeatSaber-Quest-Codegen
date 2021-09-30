@@ -60,8 +60,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector2 m_Extents;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // Creating value type constructor for type: Bounds2D
-    Bounds2D(UnityEngine::Vector2 center_ = {}, UnityEngine::Vector2 m_Size_ = {}, UnityEngine::Vector2 m_Extents_ = {}) noexcept : center{center_}, m_Size{m_Size_}, m_Extents{m_Extents_} {}
     // Get instance field reference: public UnityEngine.Vector2 center
     UnityEngine::Vector2& dyn_center();
     // Get instance field reference: private UnityEngine.Vector2 m_Size

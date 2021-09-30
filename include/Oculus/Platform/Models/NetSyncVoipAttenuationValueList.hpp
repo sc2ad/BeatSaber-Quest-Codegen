@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSyncVoipAttenuationValueList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::NetSyncVoipAttenuationValue*> {
     public:
-    // Creating value type constructor for type: NetSyncVoipAttenuationValueList
-    NetSyncVoipAttenuationValueList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16BB630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

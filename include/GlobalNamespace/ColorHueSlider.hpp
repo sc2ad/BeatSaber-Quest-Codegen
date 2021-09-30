@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
-    // Creating value type constructor for type: ColorHueSlider
-    ColorHueSlider(UnityEngine::Color darkColor_ = {}, UnityEngine::Color lightColor_ = {}, System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent_ = {}) noexcept : darkColor{darkColor_}, lightColor{lightColor_}, colorHueDidChangeEvent{colorHueDidChangeEvent_} {}
     // Get instance field reference: private UnityEngine.Color _darkColor
     UnityEngine::Color& dyn__darkColor();
     // Get instance field reference: private UnityEngine.Color _lightColor

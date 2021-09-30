@@ -244,8 +244,6 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* m_CanvasGroupCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*) == 0x8);
-    // Creating value type constructor for type: Selectable
-    Selectable(bool m_EnableCalled_ = {}, UnityEngine::UI::Navigation m_Navigation_ = {}, UnityEngine::UI::Selectable::Transition m_Transition_ = {}, UnityEngine::UI::ColorBlock m_Colors_ = {}, UnityEngine::UI::SpriteState m_SpriteState_ = {}, UnityEngine::UI::AnimationTriggers* m_AnimationTriggers_ = {}, bool m_Interactable_ = {}, UnityEngine::UI::Graphic* m_TargetGraphic_ = {}, bool m_GroupsAllowInteraction_ = {}, int m_CurrentIndex_ = {}, bool isPointerInside_ = {}, bool isPointerDown_ = {}, bool hasSelection_ = {}, System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* m_CanvasGroupCache_ = {}) noexcept : m_EnableCalled{m_EnableCalled_}, m_Navigation{m_Navigation_}, m_Transition{m_Transition_}, m_Colors{m_Colors_}, m_SpriteState{m_SpriteState_}, m_AnimationTriggers{m_AnimationTriggers_}, m_Interactable{m_Interactable_}, m_TargetGraphic{m_TargetGraphic_}, m_GroupsAllowInteraction{m_GroupsAllowInteraction_}, m_CurrentIndex{m_CurrentIndex_}, isPointerInside{isPointerInside_}, isPointerDown{isPointerDown_}, hasSelection{hasSelection_}, m_CanvasGroupCache{m_CanvasGroupCache_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

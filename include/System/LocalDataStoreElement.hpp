@@ -30,8 +30,6 @@ namespace System {
     int64_t m_cookie;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: LocalDataStoreElement
-    LocalDataStoreElement(::Il2CppObject* m_value_ = {}, int64_t m_cookie_ = {}) noexcept : m_value{m_value_}, m_cookie{m_cookie_} {}
     // Get instance field reference: private System.Object m_value
     ::Il2CppObject*& dyn_m_value();
     // Get instance field reference: private System.Int64 m_cookie

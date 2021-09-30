@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
-    // Creating value type constructor for type: VFXAnimationEvent
-    VFXAnimationEvent(::Il2CppString* name_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}) noexcept : name{name_}, particleSystems{particleSystems_} {}
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems

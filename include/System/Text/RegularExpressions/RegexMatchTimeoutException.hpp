@@ -47,8 +47,6 @@ namespace System::Text::RegularExpressions {
     System::TimeSpan matchTimeout;
     // Field size check
     static_assert(sizeof(System::TimeSpan) == 0x8);
-    // Creating value type constructor for type: RegexMatchTimeoutException
-    RegexMatchTimeoutException(::Il2CppString* regexInput_ = {}, ::Il2CppString* regexPattern_ = {}, System::TimeSpan matchTimeout_ = {}) noexcept : regexInput{regexInput_}, regexPattern{regexPattern_}, matchTimeout{matchTimeout_} {}
     // Get instance field reference: private System.String regexInput
     ::Il2CppString*& dyn_regexInput();
     // Get instance field reference: private System.String regexPattern

@@ -44,8 +44,6 @@ namespace System::Runtime::Serialization {
     System::Type* type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(System::Type* type_ = {}) noexcept : type{type_} {}
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return type;

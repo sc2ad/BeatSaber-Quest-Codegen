@@ -49,8 +49,6 @@ namespace HMUI {
     UnityEngine::RectTransform* containerRect;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // Creating value type constructor for type: CircleTouchable
-    CircleTouchable(float minRadius_ = {}, float maxRadius_ = {}, UnityEngine::RectTransform* containerRect_ = {}) noexcept : minRadius{minRadius_}, maxRadius{maxRadius_}, containerRect{containerRect_} {}
     // Get instance field reference: private System.Single _minRadius
     float& dyn__minRadius();
     // Get instance field reference: private System.Single _maxRadius

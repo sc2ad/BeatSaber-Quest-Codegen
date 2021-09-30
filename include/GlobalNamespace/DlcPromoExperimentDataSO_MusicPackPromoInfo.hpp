@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* bannerImage;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: MusicPackPromoInfo
-    MusicPackPromoInfo(GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, UnityEngine::Sprite* bannerImage_ = {}) noexcept : previewBeatmapLevelPack{previewBeatmapLevelPack_}, bannerImage{bannerImage_} {}
     // Get instance field reference: private PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
     // Get instance field reference: private UnityEngine.Sprite _bannerImage

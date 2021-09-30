@@ -32,8 +32,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultStateException : public System::Exception {
     public:
-    // Creating value type constructor for type: ResultStateException
-    ResultStateException() noexcept {}
     // public NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::ResultState* get_ResultState();

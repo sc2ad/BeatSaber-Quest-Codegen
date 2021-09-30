@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     float timeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(float startSongTime_ = {}, float songTimeOffset_ = {}, float timeScale_ = {}) noexcept : startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, timeScale{timeScale_} {}
     // Get instance field reference: public readonly System.Single startSongTime
     float& dyn_startSongTime();
     // Get instance field reference: public readonly System.Single songTimeOffset

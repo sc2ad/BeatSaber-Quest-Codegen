@@ -214,8 +214,6 @@ namespace GlobalNamespace {
     int retryAttemptsLeft;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MultiplayerLobbyConnectionController
-    MultiplayerLobbyConnectionController(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Action* connectionSuccessEvent_ = {}, System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent_ = {}, GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState connectionState_ = {}, GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType_ = {}, GlobalNamespace::ConnectionFailedReason connectionFailedReason_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig* partyConfig_ = {}, int retryAttemptsLeft_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, connectionSuccessEvent{connectionSuccessEvent_}, connectionFailedEvent{connectionFailedEvent_}, connectionState{connectionState_}, connectionType{connectionType_}, connectionFailedReason{connectionFailedReason_}, partyConfig{partyConfig_}, retryAttemptsLeft{retryAttemptsLeft_} {}
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel

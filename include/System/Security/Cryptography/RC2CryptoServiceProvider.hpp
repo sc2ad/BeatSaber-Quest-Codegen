@@ -36,8 +36,6 @@ namespace System::Security::Cryptography {
     bool m_use40bitSalt;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RC2CryptoServiceProvider
-    RC2CryptoServiceProvider(bool m_use40bitSalt_ = {}) noexcept : m_use40bitSalt{m_use40bitSalt_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes

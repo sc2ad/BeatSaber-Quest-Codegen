@@ -21,8 +21,6 @@ namespace UnityEngine::UI::CoroutineTween {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatTween::FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float> {
     public:
-    // Creating value type constructor for type: FloatTweenCallback
-    FloatTweenCallback() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15FC4A4
     // Implemented from: UnityEngine.Events.UnityEvent`1

@@ -36,8 +36,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TerrainUtility::TerrainMap::TerrainFilter : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: TerrainFilter
-    TerrainFilter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25E87D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

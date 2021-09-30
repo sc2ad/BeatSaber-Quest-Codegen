@@ -26,8 +26,6 @@ namespace Mono::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class ASN1Convert : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ASN1Convert
-    ASN1Convert() noexcept {}
     // static public Mono.Security.ASN1 FromInt32(System.Int32 value)
     // Offset: 0x1F995F8
     static Mono::Security::ASN1* FromInt32(int value);

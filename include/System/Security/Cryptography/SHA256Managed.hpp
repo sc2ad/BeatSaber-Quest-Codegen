@@ -47,8 +47,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint> W;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: SHA256Managed
-    SHA256Managed(::ArrayWrapper<uint8_t> buffer_ = {}, int64_t count_ = {}, ::ArrayWrapper<uint> stateSHA256_ = {}, ::ArrayWrapper<uint> W_ = {}) noexcept : buffer{buffer_}, count{count_}, stateSHA256{stateSHA256_}, W{W_} {}
     // Get static field: static private readonly System.UInt32[] _K
     static ::ArrayWrapper<uint> _get__K();
     // Set static field: static private readonly System.UInt32[] _K

@@ -19,8 +19,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E955FC
   class Collider2D : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: Collider2D
-    Collider2D() noexcept {}
   }; // UnityEngine.Collider2D
   #pragma pack(pop)
 }

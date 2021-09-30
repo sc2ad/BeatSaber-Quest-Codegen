@@ -57,8 +57,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 current;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: EffectorLink
-    EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float weight_ = {}, UnityEngine::Vector3 lastValue_ = {}, UnityEngine::Vector3 current_ = {}) noexcept : effector{effector_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight

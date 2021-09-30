@@ -47,8 +47,6 @@ namespace System::Collections {
     ::Il2CppObject* root;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: SyncSortedList
-    SyncSortedList(System::Collections::SortedList* list_ = {}, ::Il2CppObject* root_ = {}) noexcept : list{list_}, root{root_} {}
     // Get instance field reference: private System.Collections.SortedList _list
     System::Collections::SortedList*& dyn__list();
     // Get instance field reference: private System.Object _root

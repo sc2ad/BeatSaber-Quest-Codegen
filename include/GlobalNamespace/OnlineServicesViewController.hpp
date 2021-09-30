@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     System::Action_1<bool>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // Creating value type constructor for type: OnlineServicesViewController
-    OnlineServicesViewController(UnityEngine::UI::Button* enableButton_ = {}, UnityEngine::UI::Button* dontEnableButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}) noexcept : enableButton{enableButton_}, dontEnableButton{dontEnableButton_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _enableButton
     UnityEngine::UI::Button*& dyn__enableButton();
     // Get instance field reference: private UnityEngine.UI.Button _dontEnableButton

@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuantizedMathf : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: QuantizedMathf
-    QuantizedMathf() noexcept {}
     // static field const value: static public System.Int32 kQuaternionSerializableScaleFactor
     static constexpr const int kQuaternionSerializableScaleFactor = 16383;
     // Get static field: static public System.Int32 kQuaternionSerializableScaleFactor

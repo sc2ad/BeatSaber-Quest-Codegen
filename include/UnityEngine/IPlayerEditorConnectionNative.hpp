@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlayerEditorConnectionNative {
     public:
-    // Creating value type constructor for type: IPlayerEditorConnectionNative
-    IPlayerEditorConnectionNative() noexcept {}
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
     void Initialize();

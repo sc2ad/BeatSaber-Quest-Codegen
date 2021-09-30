@@ -131,7 +131,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
     // Offset: 0x17FAFD4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState2::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cs)})));

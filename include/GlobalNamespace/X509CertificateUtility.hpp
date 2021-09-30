@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     class RSACertificateEncryptionProvider;
     // Nested type: GlobalNamespace::X509CertificateUtility::$$c
     class $$c;
-    // Creating value type constructor for type: X509CertificateUtility
-    X509CertificateUtility() noexcept {}
     // static public ICertificateEncryptionProvider GetCertificateEncryptionProvider(System.String privateKeyPem, System.String password)
     // Offset: 0x18DAC74
     static GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::Il2CppString* privateKeyPem, ::Il2CppString* password);

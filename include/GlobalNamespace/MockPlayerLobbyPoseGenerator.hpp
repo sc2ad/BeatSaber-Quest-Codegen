@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockNodePoseSyncStateSender*) == 0x8);
-    // Creating value type constructor for type: MockPlayerLobbyPoseGenerator
-    MockPlayerLobbyPoseGenerator(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, mockNodePoseSyncStateSender{mockNodePoseSyncStateSender_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

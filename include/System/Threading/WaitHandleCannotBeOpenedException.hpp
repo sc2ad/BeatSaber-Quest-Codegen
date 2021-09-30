@@ -28,8 +28,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EB8C
   class WaitHandleCannotBeOpenedException : public System::ApplicationException {
     public:
-    // Creating value type constructor for type: WaitHandleCannotBeOpenedException
-    WaitHandleCannotBeOpenedException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19C3D80
     // Implemented from: System.ApplicationException

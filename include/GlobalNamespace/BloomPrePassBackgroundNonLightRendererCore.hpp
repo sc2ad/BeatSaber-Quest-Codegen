@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     UnityEngine::Rendering::CommandBuffer* commandBuffer;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::CommandBuffer*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundNonLightRendererCore
-    BloomPrePassBackgroundNonLightRendererCore(bool keepDefaultRendering_ = {}, UnityEngine::Rendering::CommandBuffer* commandBuffer_ = {}) noexcept : keepDefaultRendering{keepDefaultRendering_}, commandBuffer{commandBuffer_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE23C
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayRpcManager::LevelFinishedRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::MultiplayerLevelCompletionResults*> {
     public:
-    // Creating value type constructor for type: LevelFinishedRpc
-    LevelFinishedRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1459D60
     // Implemented from: RemoteProcedureCall`1

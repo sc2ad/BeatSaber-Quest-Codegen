@@ -31,8 +31,6 @@ namespace NUnit::Framework::Internal {
     public:
     // Nested type: NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass
     class NonmatchingTypeClass;
-    // Creating value type constructor for type: TypeHelper
-    TypeHelper() noexcept {}
     // Get static field: static public readonly System.Type NonmatchingType
     static System::Type* _get_NonmatchingType();
     // Set static field: static public readonly System.Type NonmatchingType

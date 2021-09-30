@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithHttpTransferUpdate : public Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*> {
     public:
-    // Creating value type constructor for type: MessageWithHttpTransferUpdate
-    MessageWithHttpTransferUpdate() noexcept {}
     // protected Oculus.Platform.Models.HttpTransferUpdate GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B7DAC
     Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(System::IntPtr c_message);

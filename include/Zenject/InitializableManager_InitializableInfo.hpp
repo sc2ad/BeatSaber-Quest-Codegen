@@ -39,8 +39,6 @@ namespace Zenject {
     int Priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: InitializableInfo
-    InitializableInfo(Zenject::IInitializable* Initializable_ = {}, int Priority_ = {}) noexcept : Initializable{Initializable_}, Priority{Priority_} {}
     // Get instance field reference: public Zenject.IInitializable Initializable
     Zenject::IInitializable*& dyn_Initializable();
     // Get instance field reference: public System.Int32 Priority

@@ -133,8 +133,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     System::Collections::Generic::HashSet_1<::Il2CppString*>* m_CachedDependencyLocations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: GroupOperation
-    GroupOperation(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_InternalOnComplete_ = {}, int m_LoadedCount_ = {}, UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings m_Settings_ = {}, ::Il2CppString* debugName_ = {}, int Hash_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* m_CachedDependencyLocations_ = {}) noexcept : m_InternalOnComplete{m_InternalOnComplete_}, m_LoadedCount{m_LoadedCount_}, m_Settings{m_Settings_}, debugName{debugName_}, Hash{Hash_}, m_CachedDependencyLocations{m_CachedDependencyLocations_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::AsyncOperations::ICachable
     operator UnityEngine::ResourceManagement::AsyncOperations::ICachable() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(this);

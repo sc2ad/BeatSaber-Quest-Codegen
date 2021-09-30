@@ -42,8 +42,6 @@ namespace UnityEngine::ResourceManagement::Exceptions {
     UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*) == 0x8);
-    // Creating value type constructor for type: UnknownResourceProviderException
-    UnknownResourceProviderException(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location_ = {}) noexcept : Location{Location_} {}
     // Creating conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*
     constexpr operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() const noexcept {
       return Location;

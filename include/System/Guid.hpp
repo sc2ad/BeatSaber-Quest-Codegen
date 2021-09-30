@@ -178,7 +178,6 @@ namespace System {
     uint8_t& dyn__k();
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0x1BDE768
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Guid(::ArrayWrapper<uint8_t> b) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(b)})));
@@ -186,7 +185,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte[] d)
     // Offset: 0x1BDE970
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Guid(int a, int16_t b, int16_t c, ::ArrayWrapper<uint8_t> d) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(c), ::il2cpp_utils::ExtractType(d)})));
@@ -194,11 +192,9 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
     // Offset: 0x1BDEB64
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k)
     // public System.Void .ctor(System.String g)
     // Offset: 0x1BDEBA4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Guid(::Il2CppString* g) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(g)})));

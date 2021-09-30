@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IObservableChange {
     public:
-    // Creating value type constructor for type: IObservableChange
-    IObservableChange() noexcept {}
     // public System.Void add_didChangeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_didChangeEvent(System::Action* value);

@@ -136,8 +136,6 @@ namespace RootMotion::FinalIK {
     float pelvisRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Settings
-    Settings(float scaleMlp_ = {}, UnityEngine::Vector3 headTrackerForward_ = {}, UnityEngine::Vector3 headTrackerUp_ = {}, UnityEngine::Vector3 bodyTrackerForward_ = {}, UnityEngine::Vector3 bodyTrackerUp_ = {}, UnityEngine::Vector3 handTrackerForward_ = {}, UnityEngine::Vector3 handTrackerUp_ = {}, UnityEngine::Vector3 footTrackerForward_ = {}, UnityEngine::Vector3 footTrackerUp_ = {}, UnityEngine::Vector3 headOffset_ = {}, UnityEngine::Vector3 handOffset_ = {}, float footForwardOffset_ = {}, float footInwardOffset_ = {}, float footHeadingOffset_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}) noexcept : scaleMlp{scaleMlp_}, headTrackerForward{headTrackerForward_}, headTrackerUp{headTrackerUp_}, bodyTrackerForward{bodyTrackerForward_}, bodyTrackerUp{bodyTrackerUp_}, handTrackerForward{handTrackerForward_}, handTrackerUp{handTrackerUp_}, footTrackerForward{footTrackerForward_}, footTrackerUp{footTrackerUp_}, headOffset{headOffset_}, handOffset{handOffset_}, footForwardOffset{footForwardOffset_}, footInwardOffset{footInwardOffset_}, footHeadingOffset{footHeadingOffset_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_} {}
     // Get instance field reference: public System.Single scaleMlp
     float& dyn_scaleMlp();
     // Get instance field reference: public UnityEngine.Vector3 headTrackerForward

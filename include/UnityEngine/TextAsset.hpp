@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E72AC4
   class TextAsset : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: TextAsset
-    TextAsset() noexcept {}
     // public System.String get_text()
     // Offset: 0x23411E8
     ::Il2CppString* get_text();

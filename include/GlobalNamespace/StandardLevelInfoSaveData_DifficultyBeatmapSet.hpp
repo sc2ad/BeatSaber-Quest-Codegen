@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>) == 0x8);
-    // Creating value type constructor for type: DifficultyBeatmapSet
-    DifficultyBeatmapSet(::Il2CppString* beatmapCharacteristicName_ = {}, ::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*> difficultyBeatmaps_ = {}) noexcept : beatmapCharacteristicName{beatmapCharacteristicName_}, difficultyBeatmaps{difficultyBeatmaps_} {}
     // Get instance field reference: private System.String _beatmapCharacteristicName
     ::Il2CppString*& dyn__beatmapCharacteristicName();
     // Get instance field reference: private StandardLevelInfoSaveData/DifficultyBeatmap[] _difficultyBeatmaps

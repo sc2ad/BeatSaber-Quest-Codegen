@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Vector4> viewPos;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
-    // Creating value type constructor for type: LightsRenderingData
-    LightsRenderingData(UnityEngine::Mesh* mesh_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, ::ArrayWrapper<UnityEngine::Color> colors_ = {}, ::ArrayWrapper<UnityEngine::Vector4> viewPos_ = {}) noexcept : mesh{mesh_}, vertices{vertices_}, colors{colors_}, viewPos{viewPos_} {}
     // Get instance field reference: public UnityEngine.Mesh mesh
     UnityEngine::Mesh*& dyn_mesh();
     // Get instance field reference: public UnityEngine.Vector3[] vertices

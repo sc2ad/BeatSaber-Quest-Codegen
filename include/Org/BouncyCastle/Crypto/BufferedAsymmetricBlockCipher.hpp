@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Crypto {
     int bufOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BufferedAsymmetricBlockCipher
-    BufferedAsymmetricBlockCipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int bufOff_ = {}) noexcept : cipher{cipher_}, buffer{buffer_}, bufOff{bufOff_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
     Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_cipher();
     // Get instance field reference: private System.Byte[] buffer

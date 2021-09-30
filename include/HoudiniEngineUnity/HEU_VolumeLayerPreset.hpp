@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
     int tile;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_VolumeLayerPreset
-    HEU_VolumeLayerPreset(::Il2CppString* layerName_ = {}, float strength_ = {}, bool uiExpanded_ = {}, int tile_ = {}) noexcept : layerName{layerName_}, strength{strength_}, uiExpanded{uiExpanded_}, tile{tile_} {}
     // Get instance field reference: public System.String _layerName
     ::Il2CppString*& dyn__layerName();
     // Get instance field reference: public System.Single _strength

@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     float syncTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SyncTimePacket
-    SyncTimePacket(float syncTime_ = {}) noexcept : syncTime{syncTime_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

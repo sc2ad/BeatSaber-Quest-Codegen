@@ -56,7 +56,6 @@ namespace UnityEngine {
     UnityEngine::Hash128 get_hash();
     // public System.Void .ctor(System.String name, UnityEngine.Hash128 hash)
     // Offset: 0x1CB03F8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CachedAssetBundle(::Il2CppString* name, UnityEngine::Hash128 hash)
   }; // UnityEngine.CachedAssetBundle
   #pragma pack(pop)

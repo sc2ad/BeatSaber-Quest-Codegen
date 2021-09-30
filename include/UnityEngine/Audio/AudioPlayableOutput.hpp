@@ -71,7 +71,6 @@ namespace UnityEngine::Audio {
     static UnityEngine::Audio::AudioPlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x2606F68
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
     // static public UnityEngine.Audio.AudioPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.AudioSource target)
     // Offset: 0x2606D9C

@@ -50,8 +50,6 @@ namespace UnityEngine::UI {
     UnityEngine::RectTransform* rectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // Creating value type constructor for type: $DelayedSetDirty$d__56
-    $DelayedSetDirty$d__56(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::RectTransform* rectTransform_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, rectTransform{rectTransform_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

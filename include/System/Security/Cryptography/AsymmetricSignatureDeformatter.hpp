@@ -26,8 +26,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F0F4
   class AsymmetricSignatureDeformatter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AsymmetricSignatureDeformatter
-    AsymmetricSignatureDeformatter() noexcept {}
     // public System.Void SetKey(System.Security.Cryptography.AsymmetricAlgorithm key)
     // Offset: 0xFFFFFFFF
     void SetKey(System::Security::Cryptography::AsymmetricAlgorithm* key);

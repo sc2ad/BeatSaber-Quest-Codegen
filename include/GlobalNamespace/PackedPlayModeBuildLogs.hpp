@@ -65,7 +65,6 @@ namespace GlobalNamespace {
       ::Il2CppString*& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
       // Offset: 0x1589034
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::Il2CppString* message)
     }; // PackedPlayModeBuildLogs/RuntimeBuildLog
     #pragma pack(pop)
@@ -77,8 +76,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* m_RuntimeBuildLogs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*) == 0x8);
-    // Creating value type constructor for type: PackedPlayModeBuildLogs
-    PackedPlayModeBuildLogs(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* m_RuntimeBuildLogs_ = {}) noexcept : m_RuntimeBuildLogs{m_RuntimeBuildLogs_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*() const noexcept {
       return m_RuntimeBuildLogs;

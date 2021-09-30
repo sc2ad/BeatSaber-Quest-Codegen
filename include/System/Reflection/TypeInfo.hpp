@@ -21,8 +21,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DA90
   class TypeInfo : public System::Type {
     public:
-    // Creating value type constructor for type: TypeInfo
-    TypeInfo() noexcept {}
     // System.Void .ctor()
     // Offset: 0x15A4F48
     // Implemented from: System.Type

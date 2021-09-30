@@ -22,8 +22,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Button::ButtonClickedEvent : public UnityEngine::Events::UnityEvent {
     public:
-    // Creating value type constructor for type: ButtonClickedEvent
-    ButtonClickedEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15F8EA0
     // Implemented from: UnityEngine.Events.UnityEvent

@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     bool valid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TransformSerializable
-    TransformSerializable(float xPos_ = {}, float yPos_ = {}, float zPos_ = {}, float xRot_ = {}, float yRot_ = {}, float zRot_ = {}, float wRot_ = {}, bool valid_ = {}) noexcept : xPos{xPos_}, yPos{yPos_}, zPos{zPos_}, xRot{xRot_}, yRot{yRot_}, zRot{zRot_}, wRot{wRot_}, valid{valid_} {}
     // Get instance field reference: public System.Single _xPos
     float& dyn__xPos();
     // Get instance field reference: public System.Single _yPos

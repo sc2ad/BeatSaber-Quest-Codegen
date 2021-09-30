@@ -62,8 +62,6 @@ namespace Assets::OVR::Scripts {
     bool complete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: FixRecord
-    FixRecord(Assets::OVR::Scripts::FixMethodDelegate* fixMethod_ = {}, UnityEngine::Object* targetObject_ = {}, ::ArrayWrapper<::Il2CppString*> buttonNames_ = {}, bool editModeRequired_ = {}, bool complete_ = {}) noexcept : fixMethod{fixMethod_}, targetObject{targetObject_}, buttonNames{buttonNames_}, editModeRequired{editModeRequired_}, complete{complete_} {}
     // Get instance field reference: public Assets.OVR.Scripts.FixMethodDelegate fixMethod
     Assets::OVR::Scripts::FixMethodDelegate*& dyn_fixMethod();
     // Get instance field reference: public UnityEngine.Object targetObject

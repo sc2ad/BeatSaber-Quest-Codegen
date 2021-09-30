@@ -14,8 +14,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataAssetsModel : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapDataAssetsModel
-    BeatmapDataAssetsModel() noexcept {}
     // static public System.String BeatmapLevelDataAssetNameForBeatmapLevel(System.String levelID)
     // Offset: 0x12761C0
     static ::Il2CppString* BeatmapLevelDataAssetNameForBeatmapLevel(::Il2CppString* levelID);

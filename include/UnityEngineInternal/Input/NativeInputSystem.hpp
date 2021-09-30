@@ -39,8 +39,6 @@ namespace UnityEngineInternal::Input {
   // [NativeHeaderAttribute] Offset: ED02D8
   class NativeInputSystem : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NativeInputSystem
-    NativeInputSystem() noexcept {}
     // Get static field: static public UnityEngineInternal.Input.NativeUpdateCallback onUpdate
     static UnityEngineInternal::Input::NativeUpdateCallback* _get_onUpdate();
     // Set static field: static public UnityEngineInternal.Input.NativeUpdateCallback onUpdate

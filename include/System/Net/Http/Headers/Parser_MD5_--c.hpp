@@ -21,8 +21,6 @@ namespace System::Net::Http::Headers {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Parser::MD5::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9
     static System::Net::Http::Headers::Parser::MD5::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9

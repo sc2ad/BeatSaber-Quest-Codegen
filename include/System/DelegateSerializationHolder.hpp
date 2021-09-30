@@ -44,8 +44,6 @@ namespace System {
     System::Delegate* delegate;
     // Field size check
     static_assert(sizeof(System::Delegate*) == 0x8);
-    // Creating value type constructor for type: DelegateSerializationHolder
-    DelegateSerializationHolder(System::Delegate* delegate_ = {}) noexcept : delegate{delegate_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

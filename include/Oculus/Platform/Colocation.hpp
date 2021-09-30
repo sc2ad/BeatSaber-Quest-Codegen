@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Colocation : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Colocation
-    Colocation() noexcept {}
   }; // Oculus.Platform.Colocation
   #pragma pack(pop)
 }

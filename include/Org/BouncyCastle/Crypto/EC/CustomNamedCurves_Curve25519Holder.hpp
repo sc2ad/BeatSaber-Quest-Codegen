@@ -29,8 +29,6 @@ namespace Org::BouncyCastle::Crypto::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomNamedCurves::Curve25519Holder : public Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
     public:
-    // Creating value type constructor for type: Curve25519Holder
-    Curve25519Holder() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance

@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::Asn1Object* params;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
-    // Creating value type constructor for type: X962Parameters
-    X962Parameters(Org::BouncyCastle::Asn1::Asn1Object* params_ = {}) noexcept : params{params_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

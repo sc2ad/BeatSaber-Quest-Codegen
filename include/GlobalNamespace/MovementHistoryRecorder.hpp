@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     float accum;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MovementHistoryRecorder
-    MovementHistoryRecorder(GlobalNamespace::AveragingValueRecorder* averagingValueRecorer_ = {}, float increaseSpeed_ = {}, float decreaseSpeed_ = {}, float accum_ = {}) noexcept : averagingValueRecorer{averagingValueRecorer_}, increaseSpeed{increaseSpeed_}, decreaseSpeed{decreaseSpeed_}, accum{accum_} {}
     // Get instance field reference: private AveragingValueRecorder _averagingValueRecorer
     GlobalNamespace::AveragingValueRecorder*& dyn__averagingValueRecorer();
     // Get instance field reference: private System.Single _increaseSpeed

@@ -72,8 +72,6 @@ namespace NUnit::Framework {
     NUnit::Framework::Interfaces::IParameterDataProvider* dataProvider;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IParameterDataProvider*) == 0x8);
-    // Creating value type constructor for type: CombiningStrategyAttribute
-    CombiningStrategyAttribute(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* builder_ = {}, NUnit::Framework::Interfaces::ICombiningStrategy* strategy_ = {}, NUnit::Framework::Interfaces::IParameterDataProvider* dataProvider_ = {}) noexcept : builder{builder_}, strategy{strategy_}, dataProvider{dataProvider_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestBuilder
     operator NUnit::Framework::Interfaces::ITestBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestBuilder*>(this);

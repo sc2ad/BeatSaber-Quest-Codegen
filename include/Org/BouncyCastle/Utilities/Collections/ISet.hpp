@@ -18,8 +18,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISet/*, public System::Collections::ICollection*/ {
     public:
-    // Creating value type constructor for type: ISet
-    ISet() noexcept {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

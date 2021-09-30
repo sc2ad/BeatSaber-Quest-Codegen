@@ -43,8 +43,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackAsset* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TrackAsset*) == 0x8);
-    // Creating value type constructor for type: Marker
-    Marker(double m_Time_ = {}, UnityEngine::Timeline::TrackAsset* parent_ = {}) noexcept : m_Time{m_Time_}, parent{parent_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::IMarker
     operator UnityEngine::Timeline::IMarker() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::IMarker*>(this);

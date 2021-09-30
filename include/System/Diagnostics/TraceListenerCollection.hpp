@@ -46,8 +46,6 @@ namespace System::Diagnostics {
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: TraceListenerCollection
-    TraceListenerCollection(System::Collections::ArrayList* list_ = {}) noexcept : list{list_} {}
     // Creating interface conversion operator: operator System::Collections::IList
     operator System::Collections::IList() noexcept {
       return *reinterpret_cast<System::Collections::IList*>(this);

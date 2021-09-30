@@ -39,8 +39,6 @@ namespace NUnit::Framework::Internal {
     ::ArrayWrapper<System::Type*> argTypes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass36_0
-    $$c__DisplayClass36_0(::ArrayWrapper<System::Type*> argTypes_ = {}) noexcept : argTypes{argTypes_} {}
     // Creating conversion operator: operator ::ArrayWrapper<System::Type*>
     constexpr operator ::ArrayWrapper<System::Type*>() const noexcept {
       return argTypes;

@@ -47,8 +47,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Scheme;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AuthenticationHeaderValue
-    AuthenticationHeaderValue(::Il2CppString* Parameter_ = {}, ::Il2CppString* Scheme_ = {}) noexcept : Parameter{Parameter_}, Scheme{Scheme_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

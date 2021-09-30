@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerformanceCountersElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: PerformanceCountersElement
-    PerformanceCountersElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x157010C
     // Implemented from: System.Configuration.ConfigurationElement

@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerApplicationSpecific : public Org::BouncyCastle::Asn1::DerApplicationSpecific {
     public:
-    // Creating value type constructor for type: BerApplicationSpecific
-    BerApplicationSpecific() noexcept {}
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
     // Offset: 0x18E62B8
     // Implemented from: Org.BouncyCastle.Asn1.DerApplicationSpecific

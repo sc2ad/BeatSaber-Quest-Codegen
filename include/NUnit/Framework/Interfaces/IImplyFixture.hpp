@@ -13,8 +13,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IImplyFixture {
     public:
-    // Creating value type constructor for type: IImplyFixture
-    IImplyFixture() noexcept {}
   }; // NUnit.Framework.Interfaces.IImplyFixture
   #pragma pack(pop)
 }

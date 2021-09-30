@@ -65,8 +65,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     bool forSigning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ECGost3410Signer
-    ECGost3410Signer(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* key_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}, bool forSigning_ = {}) noexcept : key{key_}, random{random_}, forSigning{forSigning_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDsaExt
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);

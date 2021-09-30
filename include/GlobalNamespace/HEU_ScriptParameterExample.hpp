@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: HEU_ScriptParameterExample
-    HEU_ScriptParameterExample(UnityEngine::GameObject* evergreenGameObject_ = {}, HoudiniEngineUnity::HEU_HoudiniAsset* evergreenAsset_ = {}, float updateRate_ = {}, float scale_ = {}) noexcept : evergreenGameObject{evergreenGameObject_}, evergreenAsset{evergreenAsset_}, updateRate{updateRate_}, scale{scale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject _evergreenGameObject

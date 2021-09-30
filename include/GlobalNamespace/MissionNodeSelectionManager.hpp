@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeVisualController* selectedNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // Creating value type constructor for type: MissionNodeSelectionManager
-    MissionNodeSelectionManager(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* didSelectMissionNodeEvent_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNode*> missionNodes_ = {}, GlobalNamespace::MissionNodeVisualController* selectedNode_ = {}) noexcept : missionNodesManager{missionNodesManager_}, didSelectMissionNodeEvent{didSelectMissionNodeEvent_}, missionNodes{missionNodes_}, selectedNode{selectedNode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager

@@ -58,8 +58,6 @@ namespace HoudiniEngineUnity {
     bool _inline;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: JSONArray
-    JSONArray(System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>* m_List_ = {}, bool _inline_ = {}) noexcept : m_List{m_List_}, _inline{_inline_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.JSONNode> m_List
     System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>*& dyn_m_List();
     // Get instance field reference: private System.Boolean inline

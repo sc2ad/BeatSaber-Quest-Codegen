@@ -16,8 +16,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineClip::TimelineClipUpgrade : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimelineClipUpgrade
-    TimelineClipUpgrade() noexcept {}
     // static public System.Void UpgradeClipInFromGlobalToLocal(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x255FAC0
     static void UpgradeClipInFromGlobalToLocal(UnityEngine::Timeline::TimelineClip* clip);

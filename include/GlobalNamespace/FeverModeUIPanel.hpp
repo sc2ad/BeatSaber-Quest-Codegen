@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     float feverTextRectWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FeverModeUIPanel
-    FeverModeUIPanel(UnityEngine::RectTransform* feverBGTextRectTransform_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, float feverTextRectWidth_ = {}) noexcept : feverBGTextRectTransform{feverBGTextRectTransform_}, scoreController{scoreController_}, feverTextRectWidth{feverTextRectWidth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _feverBGTextRectTransform

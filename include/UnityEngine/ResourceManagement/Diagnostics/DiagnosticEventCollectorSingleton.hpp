@@ -87,8 +87,6 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     float fpsAvg;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: DiagnosticEventCollectorSingleton
-    DiagnosticEventCollectorSingleton(System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* m_CreatedEvents_ = {}, System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* m_UnhandledEvents_ = {}, GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* s_EventHandlers_ = {}, float m_lastTickSent_ = {}, int m_lastFrame_ = {}, float fpsAvg_ = {}) noexcept : m_CreatedEvents{m_CreatedEvents_}, m_UnhandledEvents{m_UnhandledEvents_}, s_EventHandlers{s_EventHandlers_}, m_lastTickSent{m_lastTickSent_}, m_lastFrame{m_lastFrame_}, fpsAvg{fpsAvg_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Guid s_editorConnectionGuid

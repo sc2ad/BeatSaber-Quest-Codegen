@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BCD0
   class ArrayTypeMismatchException : public System::SystemException {
     public:
-    // Creating value type constructor for type: ArrayTypeMismatchException
-    ArrayTypeMismatchException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x198B9AC
     // Implemented from: System.SystemException

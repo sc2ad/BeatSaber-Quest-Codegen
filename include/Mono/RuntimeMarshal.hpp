@@ -28,8 +28,6 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeMarshal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RuntimeMarshal
-    RuntimeMarshal() noexcept {}
     // static System.String PtrToUtf8String(System.IntPtr ptr)
     // Offset: 0x1C3FC8C
     static ::Il2CppString* PtrToUtf8String(System::IntPtr ptr);

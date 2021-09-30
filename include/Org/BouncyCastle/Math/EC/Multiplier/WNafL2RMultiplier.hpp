@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafL2RMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
     public:
-    // Creating value type constructor for type: WNafL2RMultiplier
-    WNafL2RMultiplier() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1F85CC0
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier

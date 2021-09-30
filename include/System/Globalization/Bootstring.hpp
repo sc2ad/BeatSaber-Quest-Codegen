@@ -68,8 +68,6 @@ namespace System::Globalization {
     int initial_n;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Bootstring
-    Bootstring(::Il2CppChar delimiter_ = {}, int base_num_ = {}, int tmin_ = {}, int tmax_ = {}, int skew_ = {}, int damp_ = {}, int initial_bias_ = {}, int initial_n_ = {}) noexcept : delimiter{delimiter_}, base_num{base_num_}, tmin{tmin_}, tmax{tmax_}, skew{skew_}, damp{damp_}, initial_bias{initial_bias_}, initial_n{initial_n_} {}
     // Get instance field reference: private readonly System.Char delimiter
     ::Il2CppChar& dyn_delimiter();
     // Get instance field reference: private readonly System.Int32 base_num

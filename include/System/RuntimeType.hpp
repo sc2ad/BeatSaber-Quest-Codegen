@@ -135,8 +135,6 @@ namespace System {
     System::Reflection::RuntimeConstructorInfo* m_serializationCtor;
     // Field size check
     static_assert(sizeof(System::Reflection::RuntimeConstructorInfo*) == 0x8);
-    // Creating value type constructor for type: RuntimeType
-    RuntimeType(System::MonoTypeInfo* type_info_ = {}, ::Il2CppObject* GenericCache_ = {}, System::Reflection::RuntimeConstructorInfo* m_serializationCtor_ = {}) noexcept : type_info{type_info_}, GenericCache{GenericCache_}, m_serializationCtor{m_serializationCtor_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

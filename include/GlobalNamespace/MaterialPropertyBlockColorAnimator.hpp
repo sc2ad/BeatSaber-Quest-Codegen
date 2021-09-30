@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: MaterialPropertyBlockColorAnimator
-    MaterialPropertyBlockColorAnimator(UnityEngine::Color color_ = {}) noexcept : color{color_} {}
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()

@@ -28,8 +28,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E71FCC
   class PlayerConnectionInternal : public ::Il2CppObject/*, public UnityEngine::IPlayerEditorConnectionNative*/ {
     public:
-    // Creating value type constructor for type: PlayerConnectionInternal
-    PlayerConnectionInternal() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::IPlayerEditorConnectionNative
     operator UnityEngine::IPlayerEditorConnectionNative() noexcept {
       return *reinterpret_cast<UnityEngine::IPlayerEditorConnectionNative*>(this);

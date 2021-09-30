@@ -76,8 +76,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskContinuationOptions) == 0x4);
-    // Creating value type constructor for type: TaskFactory
-    TaskFactory(System::Threading::CancellationToken m_defaultCancellationToken_ = {}, System::Threading::Tasks::TaskScheduler* m_defaultScheduler_ = {}, System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions_ = {}, System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions_ = {}) noexcept : m_defaultCancellationToken{m_defaultCancellationToken_}, m_defaultScheduler{m_defaultScheduler_}, m_defaultCreationOptions{m_defaultCreationOptions_}, m_defaultContinuationOptions{m_defaultContinuationOptions_} {}
     // Get instance field reference: private System.Threading.CancellationToken m_defaultCancellationToken
     System::Threading::CancellationToken& dyn_m_defaultCancellationToken();
     // Get instance field reference: private System.Threading.Tasks.TaskScheduler m_defaultScheduler

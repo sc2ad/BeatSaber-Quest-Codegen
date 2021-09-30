@@ -16,8 +16,6 @@ namespace System::Runtime::ExceptionServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class FirstChanceExceptionEventArgs : public System::EventArgs {
     public:
-    // Creating value type constructor for type: FirstChanceExceptionEventArgs
-    FirstChanceExceptionEventArgs() noexcept {}
   }; // System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
   #pragma pack(pop)
 }

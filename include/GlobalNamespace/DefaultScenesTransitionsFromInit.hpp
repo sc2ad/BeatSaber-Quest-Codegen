@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // Creating value type constructor for type: DefaultScenesTransitionsFromInit
-    DefaultScenesTransitionsFromInit(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* healthWarningScenesTransitionSetupData_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* mainMenuScenesTransitionSetupData_ = {}, GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : healthWarningScenesTransitionSetupData{healthWarningScenesTransitionSetupData_}, mainMenuScenesTransitionSetupData{mainMenuScenesTransitionSetupData_}, shaderWarmupScenesTransitionSetupData{shaderWarmupScenesTransitionSetupData_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HealthWarningScenesTransitionSetupDataSO _healthWarningScenesTransitionSetupData

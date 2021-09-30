@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverTrigonometric* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverTrigonometric*) == 0x8);
-    // Creating value type constructor for type: TrigonometricIK
-    TrigonometricIK(RootMotion::FinalIK::IKSolverTrigonometric* solver_ = {}) noexcept : solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverTrigonometric solver
     RootMotion::FinalIK::IKSolverTrigonometric*& dyn_solver();
     // private System.Void SupportGroup()

@@ -125,8 +125,6 @@ namespace GlobalNamespace {
     bool result_mesh_RH;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRHandTest
-    OVRHandTest(UnityEngine::UI::Text* uiText_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRHandTest::BoolMonitor*>* monitors_ = {}, System::Text::StringBuilder* data_ = {}, GlobalNamespace::OVRPlugin::HandState hs_LH_ = {}, GlobalNamespace::OVRPlugin::HandState hs_RH_ = {}, GlobalNamespace::OVRPlugin::Skeleton skel_LH_ = {}, GlobalNamespace::OVRPlugin::Skeleton skel_RH_ = {}, GlobalNamespace::OVRPlugin::Mesh* mesh_LH_ = {}, GlobalNamespace::OVRPlugin::Mesh* mesh_RH_ = {}, bool result_skel_LH_ = {}, bool result_skel_RH_ = {}, bool result_mesh_LH_ = {}, bool result_mesh_RH_ = {}) noexcept : uiText{uiText_}, monitors{monitors_}, data{data_}, hs_LH{hs_LH_}, hs_RH{hs_RH_}, skel_LH{skel_LH_}, skel_RH{skel_RH_}, mesh_LH{mesh_LH_}, mesh_RH{mesh_RH_}, result_skel_LH{result_skel_LH_}, result_skel_RH{result_skel_RH_}, result_mesh_LH{result_mesh_LH_}, result_mesh_RH{result_mesh_RH_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String prevConnected

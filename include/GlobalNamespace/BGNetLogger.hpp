@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*> loggers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*>) == 0x8);
-    // Creating value type constructor for type: BGNetLogger
-    BGNetLogger(::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*> loggers_ = {}) noexcept : loggers{loggers_} {}
     // Creating interface conversion operator: operator GlobalNamespace::BGNetDebug::ILogger
     operator GlobalNamespace::BGNetDebug::ILogger() noexcept {
       return *reinterpret_cast<GlobalNamespace::BGNetDebug::ILogger*>(this);

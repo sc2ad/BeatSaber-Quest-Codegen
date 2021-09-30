@@ -14,8 +14,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class Guard : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Guard
-    Guard() noexcept {}
     // static public System.Void ArgumentNotNull(System.Object value, System.String name)
     // Offset: 0x1935598
     static void ArgumentNotNull(::Il2CppObject* value, ::Il2CppString* name);

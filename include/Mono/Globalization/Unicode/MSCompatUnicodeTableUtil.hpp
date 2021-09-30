@@ -21,8 +21,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class MSCompatUnicodeTableUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MSCompatUnicodeTableUtil
-    MSCompatUnicodeTableUtil() noexcept {}
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Ignorable
     static Mono::Globalization::Unicode::CodePointIndexer* _get_Ignorable();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Ignorable

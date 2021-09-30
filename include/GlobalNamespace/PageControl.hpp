@@ -87,8 +87,6 @@ namespace GlobalNamespace {
     int pagesCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PageControl
-    PageControl(UnityEngine::RectTransform* content_ = {}, float spacing_ = {}, GlobalNamespace::PageControlElement* elementPrefab_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PageControlElement*>* activeElements_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::PageControlElement*>* inactiveElements_ = {}, int selectedPage_ = {}, int pagesCount_ = {}) noexcept : content{content_}, spacing{spacing_}, elementPrefab{elementPrefab_}, activeElements{activeElements_}, inactiveElements{inactiveElements_}, selectedPage{selectedPage_}, pagesCount{pagesCount_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _content

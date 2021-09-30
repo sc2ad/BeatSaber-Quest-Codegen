@@ -50,8 +50,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<UnityEngine::Transform*> feet;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
-    // Creating value type constructor for type: GrounderVRIK
-    GrounderVRIK(RootMotion::FinalIK::VRIK* ik_ = {}, ::ArrayWrapper<UnityEngine::Transform*> feet_ = {}) noexcept : ik{ik_}, feet{feet_} {}
     // Get instance field reference: public RootMotion.FinalIK.VRIK ik
     RootMotion::FinalIK::VRIK*& dyn_ik();
     // Get instance field reference: private UnityEngine.Transform[] feet

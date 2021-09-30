@@ -55,8 +55,6 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::List_1<UnityEngine::Color>* m_Colors;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Color>*) == 0x8);
-    // Creating value type constructor for type: ColorPalette
-    ColorPalette(UnityEngine::Color current_ = {}, System::Collections::Generic::List_1<UnityEngine::Color>* m_Colors_ = {}) noexcept : current{current_}, m_Colors{m_Colors_} {}
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::IHasDefault
     operator UnityEngine::ProBuilder::IHasDefault() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::IHasDefault*>(this);

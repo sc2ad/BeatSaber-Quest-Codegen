@@ -13,8 +13,6 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPolynomial {
     public:
-    // Creating value type constructor for type: IPolynomial
-    IPolynomial() noexcept {}
     // public System.Int32 get_Degree()
     // Offset: 0xFFFFFFFF
     int get_Degree();

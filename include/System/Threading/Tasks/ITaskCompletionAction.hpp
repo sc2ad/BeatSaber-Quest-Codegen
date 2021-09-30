@@ -20,8 +20,6 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITaskCompletionAction {
     public:
-    // Creating value type constructor for type: ITaskCompletionAction
-    ITaskCompletionAction() noexcept {}
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
     // Offset: 0xFFFFFFFF
     void Invoke(System::Threading::Tasks::Task* completingTask);

@@ -206,8 +206,6 @@ namespace System::Security::Util {
     ::Il2CppString* inNestedString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Tokenizer
-    Tokenizer(int LineNo_ = {}, int inProcessingTag_ = {}, ::ArrayWrapper<uint8_t> inBytes_ = {}, ::ArrayWrapper<::Il2CppChar> inChars_ = {}, ::Il2CppString* inString_ = {}, int inIndex_ = {}, int inSize_ = {}, int inSavedCharacter_ = {}, System::Security::Util::Tokenizer::TokenSource inTokenSource_ = {}, System::Security::Util::Tokenizer::ITokenReader* inTokenReader_ = {}, System::Security::Util::Tokenizer::StringMaker* maker_ = {}, ::ArrayWrapper<::Il2CppString*> searchStrings_ = {}, ::ArrayWrapper<::Il2CppString*> replaceStrings_ = {}, int inNestedIndex_ = {}, int inNestedSize_ = {}, ::Il2CppString* inNestedString_ = {}) noexcept : LineNo{LineNo_}, inProcessingTag{inProcessingTag_}, inBytes{inBytes_}, inChars{inChars_}, inString{inString_}, inIndex{inIndex_}, inSize{inSize_}, inSavedCharacter{inSavedCharacter_}, inTokenSource{inTokenSource_}, inTokenReader{inTokenReader_}, maker{maker_}, searchStrings{searchStrings_}, replaceStrings{replaceStrings_}, inNestedIndex{inNestedIndex_}, inNestedSize{inNestedSize_}, inNestedString{inNestedString_} {}
     // Get instance field reference: public System.Int32 LineNo
     int& dyn_LineNo();
     // Get instance field reference: private System.Int32 _inProcessingTag

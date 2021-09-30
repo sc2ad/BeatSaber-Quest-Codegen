@@ -48,8 +48,6 @@ namespace Mono::Net::Security {
     bool Complete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BufferOffsetSize
-    BufferOffsetSize(::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Size_ = {}, int TotalBytes_ = {}, bool Complete_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, TotalBytes{TotalBytes_}, Complete{Complete_} {}
     // Get instance field reference: public System.Byte[] Buffer
     ::ArrayWrapper<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset

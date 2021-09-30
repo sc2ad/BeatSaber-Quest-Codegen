@@ -71,8 +71,6 @@ namespace NUnit::Framework::Internal {
     bool MaintainTestOrder;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestSuite
-    TestSuite(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* tests_ = {}, ::ArrayWrapper<::Il2CppObject*> Arguments_ = {}, bool MaintainTestOrder_ = {}) noexcept : tests{tests_}, Arguments{Arguments_}, MaintainTestOrder{MaintainTestOrder_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>*& dyn_tests();
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField

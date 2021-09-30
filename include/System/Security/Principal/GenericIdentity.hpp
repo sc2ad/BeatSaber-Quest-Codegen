@@ -50,8 +50,6 @@ namespace System::Security::Principal {
     ::Il2CppString* m_type;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: GenericIdentity
-    GenericIdentity(::Il2CppString* m_name_ = {}, ::Il2CppString* m_type_ = {}) noexcept : m_name{m_name_}, m_type{m_type_} {}
     // Get instance field reference: private System.String m_name
     ::Il2CppString*& dyn_m_name();
     // Get instance field reference: private System.String m_type

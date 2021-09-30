@@ -35,8 +35,6 @@ namespace HMUI {
     float depth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: EmptyBoxGraphic
-    EmptyBoxGraphic(float depth_ = {}) noexcept : depth{depth_} {}
     // Get instance field reference: private System.Single _depth
     float& dyn__depth();
     // protected System.Void OnDrawGizmosSelected()

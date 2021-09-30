@@ -18,8 +18,6 @@ namespace Unity::Collections {
   // [AttributeUsageAttribute] Offset: E6FAA8
   class DeallocateOnJobCompletionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: DeallocateOnJobCompletionAttribute
-    DeallocateOnJobCompletionAttribute() noexcept {}
   }; // Unity.Collections.DeallocateOnJobCompletionAttribute
   #pragma pack(pop)
 }

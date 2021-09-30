@@ -31,8 +31,6 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRegistryApi {
     public:
-    // Creating value type constructor for type: IRegistryApi
-    IRegistryApi() noexcept {}
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writtable)
     // Offset: 0xFFFFFFFF
     Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writtable);

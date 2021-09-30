@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     float startVolume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AudioPitchGainEffect
-    AudioPitchGainEffect(UnityEngine::AudioSource* audioSource_ = {}, float duration_ = {}, UnityEngine::AnimationCurve* pitchCurve_ = {}, UnityEngine::AnimationCurve* gainCurve_ = {}, UnityEngine::Coroutine* currentCoroutine_ = {}, float startPitch_ = {}, float startVolume_ = {}) noexcept : audioSource{audioSource_}, duration{duration_}, pitchCurve{pitchCurve_}, gainCurve{gainCurve_}, currentCoroutine{currentCoroutine_}, startPitch{startPitch_}, startVolume{startVolume_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

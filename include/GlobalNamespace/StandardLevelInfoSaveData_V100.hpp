@@ -127,8 +127,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>) == 0x8);
-    // Creating value type constructor for type: StandardLevelInfoSaveData_V100
-    StandardLevelInfoSaveData_V100(::Il2CppString* version_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* songAuthorName_ = {}, ::Il2CppString* levelAuthorName_ = {}, float beatsPerMinute_ = {}, float songTimeOffset_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, float previewStartTime_ = {}, float previewDuration_ = {}, ::Il2CppString* songFilename_ = {}, ::Il2CppString* coverImageFilename_ = {}, ::Il2CppString* environmentName_ = {}, ::ArrayWrapper<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps_ = {}) noexcept : version{version_}, songName{songName_}, songSubName{songSubName_}, songAuthorName{songAuthorName_}, levelAuthorName{levelAuthorName_}, beatsPerMinute{beatsPerMinute_}, songTimeOffset{songTimeOffset_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, previewStartTime{previewStartTime_}, previewDuration{previewDuration_}, songFilename{songFilename_}, coverImageFilename{coverImageFilename_}, environmentName{environmentName_}, difficultyBeatmaps{difficultyBeatmaps_} {}
     // static field const value: static public System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "1.0.0";
     // Get static field: static public System.String kCurrentVersion

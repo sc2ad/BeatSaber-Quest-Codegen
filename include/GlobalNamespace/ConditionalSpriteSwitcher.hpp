@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // Creating value type constructor for type: ConditionalSpriteSwitcher
-    ConditionalSpriteSwitcher(UnityEngine::Sprite* sprite0_ = {}, UnityEngine::Material* material0_ = {}, UnityEngine::Sprite* sprite1_ = {}, UnityEngine::Material* material1_ = {}, GlobalNamespace::BoolSO* value_ = {}, UnityEngine::SpriteRenderer* spriteRenderer_ = {}) noexcept : sprite0{sprite0_}, material0{material0_}, sprite1{sprite1_}, material1{material1_}, value{value_}, spriteRenderer{spriteRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _sprite0

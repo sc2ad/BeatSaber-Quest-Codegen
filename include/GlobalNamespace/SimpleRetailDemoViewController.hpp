@@ -121,8 +121,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>*) == 0x8);
-    // Creating value type constructor for type: SimpleRetailDemoViewController
-    SimpleRetailDemoViewController(UnityEngine::UI::Button* tutorialButton_ = {}, UnityEngine::UI::Button* playLevel1Button_ = {}, UnityEngine::UI::Button* playLevel2Button_ = {}, UnityEngine::UI::Button* exitButton_ = {}, System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* didFinishEvent_ = {}) noexcept : tutorialButton{tutorialButton_}, playLevel1Button{playLevel1Button_}, playLevel2Button{playLevel2Button_}, exitButton{exitButton_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _tutorialButton
     UnityEngine::UI::Button*& dyn__tutorialButton();
     // Get instance field reference: private UnityEngine.UI.Button _playLevel1Button

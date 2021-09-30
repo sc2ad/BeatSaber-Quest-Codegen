@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
-    // Creating value type constructor for type: InitData
-    InitData(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}) noexcept : missionObjectives{missionObjectives_} {}
     // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::MissionObjective*>
     constexpr operator ::ArrayWrapper<GlobalNamespace::MissionObjective*>() const noexcept {
       return missionObjectives;

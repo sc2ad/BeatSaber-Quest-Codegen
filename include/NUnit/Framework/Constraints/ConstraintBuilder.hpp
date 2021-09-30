@@ -43,8 +43,6 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppObject* lastPushed;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: ConstraintBuilder
-    ConstraintBuilder(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops_ = {}, NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints_ = {}, ::Il2CppObject* lastPushed_ = {}) noexcept : ops{ops_}, constraints{constraints_}, lastPushed{lastPushed_} {}
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*& dyn_ops();
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints

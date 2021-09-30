@@ -29,8 +29,6 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x20
     System::Nullable_1<int64_t> To;
-    // Creating value type constructor for type: RangeItemHeaderValue
-    RangeItemHeaderValue(System::Nullable_1<int64_t> From_ = {}, System::Nullable_1<int64_t> To_ = {}) noexcept : From{From_}, To{To_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     float whiteBoost;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ColorData
-    ColorData(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_} {}
     // Get instance field reference: private UnityEngine.Color _defaultColor
     UnityEngine::Color& dyn__defaultColor();
     // Get instance field reference: private System.Single _darkerColorMultiplier

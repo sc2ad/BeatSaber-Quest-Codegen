@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     int pixelsHeight;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType_ = {}, float screenCaptureTime_ = {}, int pixelsWidth_ = {}, int pixelsHeight_ = {}) noexcept : screenshotType{screenshotType_}, screenCaptureTime{screenCaptureTime_}, pixelsWidth{pixelsWidth_}, pixelsHeight{pixelsHeight_} {}
     // Get instance field reference: public readonly ScreenCaptureCache/ScreenshotType screenshotType
     GlobalNamespace::ScreenCaptureCache::ScreenshotType& dyn_screenshotType();
     // Get instance field reference: public readonly System.Single screenCaptureTime

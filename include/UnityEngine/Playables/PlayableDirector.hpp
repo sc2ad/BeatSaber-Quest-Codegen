@@ -67,8 +67,6 @@ namespace UnityEngine::Playables {
     System::Action_1<UnityEngine::Playables::PlayableDirector*>* stopped;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::Playables::PlayableDirector*>*) == 0x8);
-    // Creating value type constructor for type: PlayableDirector
-    PlayableDirector(System::Action_1<UnityEngine::Playables::PlayableDirector*>* played_ = {}, System::Action_1<UnityEngine::Playables::PlayableDirector*>* paused_ = {}, System::Action_1<UnityEngine::Playables::PlayableDirector*>* stopped_ = {}) noexcept : played{played_}, paused{paused_}, stopped{stopped_} {}
     // Creating interface conversion operator: operator UnityEngine::IExposedPropertyTable
     operator UnityEngine::IExposedPropertyTable() noexcept {
       return *reinterpret_cast<UnityEngine::IExposedPropertyTable*>(this);

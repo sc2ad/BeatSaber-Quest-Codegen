@@ -241,7 +241,6 @@ namespace MasterServer {
       uint& dyn_requestId();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
       // Offset: 0x12DF850
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RequestWaiterId(System::Net::IPEndPoint* endPoint, uint requestId)
       // public System.Boolean Equals(MasterServer.MessageHandler/MasterServer.RequestWaiterId other)
       // Offset: 0x12E3AE4
@@ -292,7 +291,6 @@ namespace MasterServer {
       uint& dyn_protocolVersion();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 protocolVersion)
       // Offset: 0x12E0E10
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  MessageOrigin(System::Net::IPEndPoint* endPoint, uint protocolVersion)
     }; // MasterServer.MessageHandler/MasterServer.MessageOrigin
     #pragma pack(pop)
@@ -652,8 +650,6 @@ namespace MasterServer {
     System::Threading::CancellationTokenSource* disposedTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // Creating value type constructor for type: MessageHandler
-    MessageHandler(GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::HandshakeMessageType, MasterServer::MessageHandler::MessageOrigin>* handshakeMessageSerializer_ = {}, GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::UserMessageType, MasterServer::MessageHandler::MessageOrigin>* userMessageSerializer_ = {}, GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::DedicatedServerMessageType, MasterServer::MessageHandler::MessageOrigin>* dedicatedServerMessageSerializer_ = {}, LiteNetLib::Utils::NetDataWriter* dataWriter_ = {}, LiteNetLib::Utils::NetDataReader* multipartReader_ = {}, GlobalNamespace::IUnconnectedSenderReceiver* sender_ = {}, MasterServer::IAnalyticsManager* analytics_ = {}, MasterServer::ITimeProvider* timeProvider_ = {}, GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::SentRequestWaiter*>* sentRequestWaiters_ = {}, GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::RequestResponseWaiter*>* requestResponseWaiters_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, MasterServer::MessageHandler::ConnectionState*>* connectionStates_ = {}, GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::MultipartMessageWaiter*>* multipartMessageBuffer_ = {}, GlobalNamespace::SmallBufferPool* bufferPool_ = {}, System::Threading::CancellationTokenSource* disposedTokenSource_ = {}) noexcept : handshakeMessageSerializer{handshakeMessageSerializer_}, userMessageSerializer{userMessageSerializer_}, dedicatedServerMessageSerializer{dedicatedServerMessageSerializer_}, dataWriter{dataWriter_}, multipartReader{multipartReader_}, sender{sender_}, analytics{analytics_}, timeProvider{timeProvider_}, sentRequestWaiters{sentRequestWaiters_}, requestResponseWaiters{requestResponseWaiters_}, connectionStates{connectionStates_}, multipartMessageBuffer{multipartMessageBuffer_}, bufferPool{bufferPool_}, disposedTokenSource{disposedTokenSource_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

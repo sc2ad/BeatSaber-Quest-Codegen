@@ -57,8 +57,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*> effectorLinks;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>) == 0x8);
-    // Creating value type constructor for type: HitPointEffector
-    HitPointEffector(UnityEngine::AnimationCurve* offsetInForceDirection_ = {}, UnityEngine::AnimationCurve* offsetInUpDirection_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*> effectorLinks_ = {}) noexcept : offsetInForceDirection{offsetInForceDirection_}, offsetInUpDirection{offsetInUpDirection_}, effectorLinks{effectorLinks_} {}
     // Get instance field reference: public UnityEngine.AnimationCurve offsetInForceDirection
     UnityEngine::AnimationCurve*& dyn_offsetInForceDirection();
     // Get instance field reference: public UnityEngine.AnimationCurve offsetInUpDirection

@@ -92,7 +92,6 @@ namespace VRUIControls {
       int& dyn_layerMask();
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
       // Offset: 0x259F390
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask)
     }; // VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast
     #pragma pack(pop)
@@ -110,8 +109,6 @@ namespace VRUIControls {
     int lastFrameCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PhysicsRaycasterWithCache
-    PhysicsRaycasterWithCache(System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* cachedRaycasts_ = {}, int lastFrameCount_ = {}) noexcept : cachedRaycasts{cachedRaycasts_}, lastFrameCount{lastFrameCount_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>*& dyn__cachedRaycasts();
     // Get instance field reference: private System.Int32 _lastFrameCount

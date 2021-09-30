@@ -77,8 +77,6 @@ namespace HMUI {
     bool didStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ButtonSpriteSwap
-    ButtonSpriteSwap(UnityEngine::Sprite* normalStateSprite_ = {}, UnityEngine::Sprite* highlightStateSprite_ = {}, UnityEngine::Sprite* pressedStateSprite_ = {}, UnityEngine::Sprite* disabledStateSprite_ = {}, HMUI::NoTransitionsButton* button_ = {}, ::ArrayWrapper<UnityEngine::UI::Image*> images_ = {}, bool didStart_ = {}) noexcept : normalStateSprite{normalStateSprite_}, highlightStateSprite{highlightStateSprite_}, pressedStateSprite{pressedStateSprite_}, disabledStateSprite{disabledStateSprite_}, button{button_}, images{images_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected UnityEngine.Sprite _normalStateSprite

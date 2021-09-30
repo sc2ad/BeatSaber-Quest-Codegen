@@ -32,8 +32,6 @@ namespace System {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LowLevelStack
-    LowLevelStack(::ArrayWrapper<System::ParameterizedStrings::FormatParam> arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
     ::ArrayWrapper<System::ParameterizedStrings::FormatParam>& dyn__arr();
     // Get instance field reference: private System.Int32 _count

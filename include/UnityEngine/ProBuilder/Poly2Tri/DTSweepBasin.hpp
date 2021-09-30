@@ -55,8 +55,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool leftHighest;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DTSweepBasin
-    DTSweepBasin(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode_ = {}, double width_ = {}, bool leftHighest_ = {}) noexcept : leftNode{leftNode_}, bottomNode{bottomNode_}, rightNode{rightNode_}, width{width_}, leftHighest{leftHighest_} {}
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_leftNode();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode

@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     System::Action* $$9__1;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass37_0
-    $$c__DisplayClass37_0(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* $$4__this_ = {}, System::Action* beforeSceneSwitchCallback_ = {}, bool practice_ = {}, System::Action* $$9__1_ = {}) noexcept : $$4__this{$$4__this_}, beforeSceneSwitchCallback{beforeSceneSwitchCallback_}, practice{practice_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public SinglePlayerLevelSelectionFlowCoordinator <>4__this
     GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action beforeSceneSwitchCallback

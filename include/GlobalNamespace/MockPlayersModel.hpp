@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayersModel : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MockPlayersModel
-    MockPlayersModel() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1207BE4
     // Implemented from: System.Object

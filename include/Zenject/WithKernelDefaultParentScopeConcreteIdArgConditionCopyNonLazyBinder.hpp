@@ -32,8 +32,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
-    // Creating value type constructor for type: WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
-    WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
     // Offset: 0x25EDF64
     Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();

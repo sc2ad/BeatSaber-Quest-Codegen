@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExitGUIException : public System::Exception {
     public:
-    // Creating value type constructor for type: ExitGUIException
-    ExitGUIException() noexcept {}
     // System.Void .ctor(System.String message)
     // Offset: 0x1C8E398
     // Implemented from: System.Exception

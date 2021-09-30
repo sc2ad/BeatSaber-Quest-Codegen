@@ -34,8 +34,6 @@ namespace UnityEngine::Timeline {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Extrapolation::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.Timeline.Extrapolation/UnityEngine.Timeline.<>c <>9
     static UnityEngine::Timeline::Extrapolation::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.Timeline.Extrapolation/UnityEngine.Timeline.<>c <>9

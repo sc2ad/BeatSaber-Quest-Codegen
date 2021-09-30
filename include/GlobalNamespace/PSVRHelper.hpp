@@ -120,8 +120,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*) == 0x8);
-    // Creating value type constructor for type: PSVRHelper
-    PSVRHelper(System::Action* inputFocusWasCapturedEvent_ = {}, System::Action* inputFocusWasReleasedEvent_ = {}, System::Action* vrFocusWasCapturedEvent_ = {}, System::Action* vrFocusWasReleasedEvent_ = {}, System::Action* hmdUnmountedEvent_ = {}, System::Action* hmdMountedEvent_ = {}, System::Action* joystickWasCenteredThisFrameEvent_ = {}, System::Action_1<UnityEngine::Vector2>* joystickWasNotCenteredThisFrameEvent_ = {}, bool didGetNodeStatesThisFrame_ = {}, System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates_ = {}) noexcept : inputFocusWasCapturedEvent{inputFocusWasCapturedEvent_}, inputFocusWasReleasedEvent{inputFocusWasReleasedEvent_}, vrFocusWasCapturedEvent{vrFocusWasCapturedEvent_}, vrFocusWasReleasedEvent{vrFocusWasReleasedEvent_}, hmdUnmountedEvent{hmdUnmountedEvent_}, hmdMountedEvent{hmdMountedEvent_}, joystickWasCenteredThisFrameEvent{joystickWasCenteredThisFrameEvent_}, joystickWasNotCenteredThisFrameEvent{joystickWasNotCenteredThisFrameEvent_}, didGetNodeStatesThisFrame{didGetNodeStatesThisFrame_}, nodeStates{nodeStates_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IVRPlatformHelper
     operator GlobalNamespace::IVRPlatformHelper() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVRPlatformHelper*>(this);

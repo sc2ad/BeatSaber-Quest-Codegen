@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerTaggedObject : public Org::BouncyCastle::Asn1::DerTaggedObject {
     public:
-    // Creating value type constructor for type: BerTaggedObject
-    BerTaggedObject() noexcept {}
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     // Offset: 0x18E80DC
     // Implemented from: Org.BouncyCastle.Asn1.DerTaggedObject

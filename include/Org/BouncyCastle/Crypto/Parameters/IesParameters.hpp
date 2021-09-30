@@ -34,8 +34,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int macKeySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: IesParameters
-    IesParameters(::ArrayWrapper<uint8_t> derivation_ = {}, ::ArrayWrapper<uint8_t> encoding_ = {}, int macKeySize_ = {}) noexcept : derivation{derivation_}, encoding{encoding_}, macKeySize{macKeySize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

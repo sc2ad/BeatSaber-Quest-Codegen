@@ -107,8 +107,6 @@ namespace Mono::Security::Cryptography {
     Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* KeyGenerated;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*) == 0x8);
-    // Creating value type constructor for type: RSAManaged
-    RSAManaged(bool isCRTpossible_ = {}, bool keypairGenerated_ = {}, bool m_disposed_ = {}, Mono::Math::BigInteger* d_ = {}, Mono::Math::BigInteger* p_ = {}, Mono::Math::BigInteger* q_ = {}, Mono::Math::BigInteger* dp_ = {}, Mono::Math::BigInteger* dq_ = {}, Mono::Math::BigInteger* qInv_ = {}, Mono::Math::BigInteger* n_ = {}, Mono::Math::BigInteger* e_ = {}, Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* KeyGenerated_ = {}) noexcept : isCRTpossible{isCRTpossible_}, keypairGenerated{keypairGenerated_}, m_disposed{m_disposed_}, d{d_}, p{p_}, q{q_}, dp{dp_}, dq{dq_}, qInv{qInv_}, n{n_}, e{e_}, KeyGenerated{KeyGenerated_} {}
     // Get instance field reference: private System.Boolean isCRTpossible
     bool& dyn_isCRTpossible();
     // Get instance field reference: private System.Boolean keypairGenerated

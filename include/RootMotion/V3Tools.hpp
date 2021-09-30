@@ -23,8 +23,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class V3Tools : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: V3Tools
-    V3Tools() noexcept {}
     // static public UnityEngine.Vector3 Lerp(UnityEngine.Vector3 fromVector, UnityEngine.Vector3 toVector, System.Single weight)
     // Offset: 0x1C70F2C
     static UnityEngine::Vector3 Lerp(UnityEngine::Vector3 fromVector, UnityEngine::Vector3 toVector, float weight);

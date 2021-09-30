@@ -48,8 +48,6 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* m_StyleDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>*) == 0x8);
-    // Creating value type constructor for type: TMP_StyleSheet
-    TMP_StyleSheet(System::Collections::Generic::List_1<TMPro::TMP_Style*>* m_StyleList_ = {}, System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* m_StyleDictionary_ = {}) noexcept : m_StyleList{m_StyleList_}, m_StyleDictionary{m_StyleDictionary_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private TMPro.TMP_StyleSheet s_Instance

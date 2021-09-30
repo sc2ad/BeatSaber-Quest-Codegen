@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E7275C
   class ExtensionOfNativeClassAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ExtensionOfNativeClassAttribute
-    ExtensionOfNativeClassAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CBCDBC
     // Implemented from: System.Attribute

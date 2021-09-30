@@ -84,8 +84,6 @@ namespace Org::BouncyCastle::X509 {
     int hashValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: X509Crl
-    X509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::ArrayWrapper<uint8_t> sigAlgParams_ = {}, bool isIndirect_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, isIndirect{isIndirect_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.CertificateList c
     Org::BouncyCastle::Asn1::X509::CertificateList*& dyn_c();
     // Get instance field reference: private readonly System.String sigAlgName

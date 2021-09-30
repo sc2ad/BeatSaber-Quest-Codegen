@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // Creating value type constructor for type: MissionLevelRestartController
-    MissionLevelRestartController(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelSceneSetupData_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}) noexcept : missionLevelSceneSetupData{missionLevelSceneSetupData_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, missionObjectiveCheckersManager{missionObjectiveCheckersManager_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelRestartController
     operator GlobalNamespace::ILevelRestartController() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelRestartController*>(this);

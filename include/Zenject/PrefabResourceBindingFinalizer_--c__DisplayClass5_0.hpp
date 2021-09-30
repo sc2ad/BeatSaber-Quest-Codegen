@@ -59,8 +59,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* concreteTypes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(Zenject::PrefabResourceBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<System::Type*>* concreteTypes_ = {}) noexcept : $$4__this{$$4__this_}, container{container_}, concreteTypes{concreteTypes_} {}
     // Get instance field reference: public Zenject.PrefabResourceBindingFinalizer <>4__this
     Zenject::PrefabResourceBindingFinalizer*& dyn_$$4__this();
     // Get instance field reference: public Zenject.DiContainer container

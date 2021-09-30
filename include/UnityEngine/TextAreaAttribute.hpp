@@ -33,8 +33,6 @@ namespace UnityEngine {
     int maxLines;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TextAreaAttribute
-    TextAreaAttribute(int minLines_ = {}, int maxLines_ = {}) noexcept : minLines{minLines_}, maxLines{maxLines_} {}
     // Get instance field reference: public readonly System.Int32 minLines
     int& dyn_minLines();
     // Get instance field reference: public readonly System.Int32 maxLines

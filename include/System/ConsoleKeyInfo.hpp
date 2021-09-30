@@ -65,7 +65,6 @@ namespace System {
     System::ConsoleKey get_Key();
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
     // Offset: 0x1B1960C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleKeyInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keyChar), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(shift), ::il2cpp_utils::ExtractType(alt), ::il2cpp_utils::ExtractType(control)})));

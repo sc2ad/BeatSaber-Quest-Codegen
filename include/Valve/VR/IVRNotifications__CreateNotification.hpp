@@ -43,8 +43,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB64EC
   class IVRNotifications::_CreateNotification : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _CreateNotification
-    _CreateNotification() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B3014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

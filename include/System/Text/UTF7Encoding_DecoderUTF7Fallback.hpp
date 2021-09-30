@@ -29,8 +29,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UTF7Encoding::DecoderUTF7Fallback : public System::Text::DecoderFallback {
     public:
-    // Creating value type constructor for type: DecoderUTF7Fallback
-    DecoderUTF7Fallback() noexcept {}
     // public override System.Int32 get_MaxCharCount()
     // Offset: 0x1F1EA34
     // Implemented from: System.Text.DecoderFallback

@@ -33,8 +33,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     class RequestLightsDelegate;
     // Nested type: UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c
     class $$c;
-    // Creating value type constructor for type: Lightmapping
-    Lightmapping() noexcept {}
     // [RequiredByNativeCodeAttribute] Offset: 0xE776C4
     // Get static field: static private readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate s_DefaultDelegate
     static UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* _get_s_DefaultDelegate();

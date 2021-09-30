@@ -74,7 +74,6 @@ namespace Zenject {
     void set_Identifier(::Il2CppObject* value);
     // public System.Void .ctor(System.Type type, System.Object identifier)
     // Offset: 0x14F4D50
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BindingId(System::Type* type, ::Il2CppObject* identifier)
     // public System.Boolean Equals(Zenject.BindingId that)
     // Offset: 0x14F5044

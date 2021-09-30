@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     float Distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: NetSyncVoipAttenuationValue
-    NetSyncVoipAttenuationValue(float Decibels_ = {}, float Distance_ = {}) noexcept : Decibels{Decibels_}, Distance{Distance_} {}
     // Get instance field reference: public readonly System.Single Decibels
     float& dyn_Decibels();
     // Get instance field reference: public readonly System.Single Distance

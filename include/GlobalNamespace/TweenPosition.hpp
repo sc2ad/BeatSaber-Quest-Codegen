@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 targetPos;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: TweenPosition
-    TweenPosition(bool unscaledTime_ = {}, bool localPosition_ = {}, float duration_ = {}, UnityEngine::AnimationCurve* animationCurve_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 targetPos_ = {}) noexcept : unscaledTime{unscaledTime_}, localPosition{localPosition_}, duration{duration_}, animationCurve{animationCurve_}, transform{transform_}, targetPos{targetPos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean _unscaledTime

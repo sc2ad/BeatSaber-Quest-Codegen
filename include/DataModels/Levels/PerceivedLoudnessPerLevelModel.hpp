@@ -39,8 +39,6 @@ namespace DataModels::Levels {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* loudnessLevelPerLevelId;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*) == 0x8);
-    // Creating value type constructor for type: PerceivedLoudnessPerLevelModel
-    PerceivedLoudnessPerLevelModel(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* loudnessLevelPerLevelId_ = {}) noexcept : loudnessLevelPerLevelId{loudnessLevelPerLevelId_} {}
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*
     constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*() const noexcept {
       return loudnessLevelPerLevelId;

@@ -29,8 +29,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint8_t> KeyValue;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: KeyedHashAlgorithm
-    KeyedHashAlgorithm(::ArrayWrapper<uint8_t> KeyValue_ = {}) noexcept : KeyValue{KeyValue_} {}
     // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return KeyValue;

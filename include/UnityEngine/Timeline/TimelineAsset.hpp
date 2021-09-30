@@ -186,8 +186,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::MarkerTrack* m_MarkerTrack;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::MarkerTrack*) == 0x8);
-    // Creating value type constructor for type: TimelineAsset
-    TimelineAsset(int m_Version_ = {}, System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* m_Tracks_ = {}, double m_FixedDuration_ = {}, ::ArrayWrapper<UnityEngine::Timeline::TrackAsset*> m_CacheOutputTracks_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* m_CacheRootTracks_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* m_CacheFlattenedTracks_ = {}, UnityEngine::Timeline::TimelineAsset::EditorSettings* m_EditorSettings_ = {}, UnityEngine::Timeline::TimelineAsset::DurationMode m_DurationMode_ = {}, UnityEngine::Timeline::MarkerTrack* m_MarkerTrack_ = {}) noexcept : m_Version{m_Version_}, m_Tracks{m_Tracks_}, m_FixedDuration{m_FixedDuration_}, m_CacheOutputTracks{m_CacheOutputTracks_}, m_CacheRootTracks{m_CacheRootTracks_}, m_CacheFlattenedTracks{m_CacheFlattenedTracks_}, m_EditorSettings{m_EditorSettings_}, m_DurationMode{m_DurationMode_}, m_MarkerTrack{m_MarkerTrack_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

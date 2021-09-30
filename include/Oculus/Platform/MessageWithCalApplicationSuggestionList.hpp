@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithCalApplicationSuggestionList : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationSuggestionList*> {
     public:
-    // Creating value type constructor for type: MessageWithCalApplicationSuggestionList
-    MessageWithCalApplicationSuggestionList() noexcept {}
     // protected Oculus.Platform.Models.CalApplicationSuggestionList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B60F8
     Oculus::Platform::Models::CalApplicationSuggestionList* GetDataFromMessage(System::IntPtr c_message);

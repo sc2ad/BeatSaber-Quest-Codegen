@@ -34,8 +34,6 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenderPipelineAsset : public UnityEngine::ScriptableObject {
     public:
-    // Creating value type constructor for type: RenderPipelineAsset
-    RenderPipelineAsset() noexcept {}
     // public System.String[] get_renderingLayerMaskNames()
     // Offset: 0x1E08C50
     ::ArrayWrapper<::Il2CppString*> get_renderingLayerMaskNames();

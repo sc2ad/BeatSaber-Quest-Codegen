@@ -59,8 +59,6 @@ namespace System {
     int booleansOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TermInfoReader
-    TermInfoReader(int16_t boolSize_ = {}, int16_t numSize_ = {}, int16_t strOffsets_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int booleansOffset_ = {}) noexcept : boolSize{boolSize_}, numSize{numSize_}, strOffsets{strOffsets_}, buffer{buffer_}, booleansOffset{booleansOffset_} {}
     // Get instance field reference: private System.Int16 boolSize
     int16_t& dyn_boolSize();
     // Get instance field reference: private System.Int16 numSize

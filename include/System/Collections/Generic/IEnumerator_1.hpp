@@ -21,8 +21,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class IEnumerator_1/*, public System::IDisposable, public System::Collections::IEnumerator*/ {
     public:
-    // Creating value type constructor for type: IEnumerator_1
-    IEnumerator_1() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

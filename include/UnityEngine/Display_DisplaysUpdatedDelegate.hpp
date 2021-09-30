@@ -31,8 +31,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Display::DisplaysUpdatedDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: DisplaysUpdatedDelegate
-    DisplaysUpdatedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1CB8EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

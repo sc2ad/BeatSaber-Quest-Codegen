@@ -171,8 +171,6 @@ namespace System::Reflection {
     System::Reflection::AssemblyContentType contentType;
     // Field size check
     static_assert(sizeof(System::Reflection::AssemblyContentType) == 0x4);
-    // Creating value type constructor for type: AssemblyName
-    AssemblyName(::Il2CppString* name_ = {}, ::Il2CppString* codebase_ = {}, int major_ = {}, int minor_ = {}, int build_ = {}, int revision_ = {}, System::Globalization::CultureInfo* cultureinfo_ = {}, System::Reflection::AssemblyNameFlags flags_ = {}, System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg_ = {}, System::Reflection::StrongNameKeyPair* keypair_ = {}, ::ArrayWrapper<uint8_t> publicKey_ = {}, ::ArrayWrapper<uint8_t> keyToken_ = {}, System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat_ = {}, System::Version* version_ = {}, System::Reflection::ProcessorArchitecture processor_architecture_ = {}, System::Reflection::AssemblyContentType contentType_ = {}) noexcept : name{name_}, codebase{codebase_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, cultureinfo{cultureinfo_}, flags{flags_}, hashalg{hashalg_}, keypair{keypair_}, publicKey{publicKey_}, keyToken{keyToken_}, versioncompat{versioncompat_}, version{version_}, processor_architecture{processor_architecture_}, contentType{contentType_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

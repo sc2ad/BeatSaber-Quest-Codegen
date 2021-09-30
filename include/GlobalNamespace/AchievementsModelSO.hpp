@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AchievementsModelSO
-    AchievementsModelSO(GlobalNamespace::PlatformAchievementsModelSO* platformAchievementsModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* unlockedAchievementIds_ = {}, bool initialized_ = {}) noexcept : platformAchievementsModel{platformAchievementsModel_}, unlockedAchievementIds{unlockedAchievementIds_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlatformAchievementsModelSO _platformAchievementsModel

@@ -80,8 +80,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_Controller::Device* $hmd$5__5;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_Controller::Device*) == 0x8);
-    // Creating value type constructor for type: $LoadLevel$d__45
-    $LoadLevel$d__45(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::SteamVR_LoadLevel* $$4__this_ = {}, Valve::VR::CVROverlay* $overlay$5__2_ = {}, bool $fadedForeground$5__3_ = {}, Valve::VR::CVRCompositor* $compositor$5__4_ = {}, GlobalNamespace::SteamVR_Controller::Device* $hmd$5__5_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $overlay$5__2{$overlay$5__2_}, $fadedForeground$5__3{$fadedForeground$5__3_}, $compositor$5__4{$compositor$5__4_}, $hmd$5__5{$hmd$5__5_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

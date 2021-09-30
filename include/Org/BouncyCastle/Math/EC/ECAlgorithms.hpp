@@ -40,8 +40,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECAlgorithms : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ECAlgorithms
-    ECAlgorithms() noexcept {}
     // static public System.Boolean IsF2mCurve(Org.BouncyCastle.Math.EC.ECCurve c)
     // Offset: 0x23134A0
     static bool IsF2mCurve(Org::BouncyCastle::Math::EC::ECCurve* c);

@@ -82,14 +82,11 @@ namespace GlobalNamespace {
       float& dyn_bpm();
       // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
       // Offset: 0x127701C
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm)
     }; // BeatmapDataLoader/BpmChangeData
     #pragma pack(pop)
     static check_size<sizeof(BeatmapDataLoader::BpmChangeData), 8 + sizeof(float)> __GlobalNamespace_BeatmapDataLoader_BpmChangeDataSizeCheck;
     static_assert(sizeof(BeatmapDataLoader::BpmChangeData) == 0xC);
-    // Creating value type constructor for type: BeatmapDataLoader
-    BeatmapDataLoader() noexcept {}
     // private System.Single GetRealTimeFromBPMTime(System.Single bmpTime, System.Single bpm, System.Single shuffle, System.Single shufflePeriod)
     // Offset: 0x127622C
     float GetRealTimeFromBPMTime(float bmpTime, float bpm, float shuffle, float shufflePeriod);

@@ -35,8 +35,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorage : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CloudStorage
-    CloudStorage() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageUpdateResponse> Delete(System.String bucket, System.String key)
     // Offset: 0x16AA84C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* Delete(::Il2CppString* bucket, ::Il2CppString* key);

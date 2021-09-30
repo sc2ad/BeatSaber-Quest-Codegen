@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     bool mixed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LeaderboardPanel
-    LeaderboardPanel(::Il2CppString* title_ = {}, ::Il2CppString* hint_ = {}, bool mixed_ = {}) noexcept : title{title_}, hint{hint_}, mixed{mixed_} {}
     // Get instance field reference: public readonly System.String title
     ::Il2CppString*& dyn_title();
     // Get instance field reference: public readonly System.String hint

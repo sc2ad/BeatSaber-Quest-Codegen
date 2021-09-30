@@ -21,8 +21,6 @@ namespace UnityEngine::TestTools::Utils {
     public:
     // Nested type: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
-    // Creating value type constructor for type: StackTraceFilter
-    StackTraceFilter() noexcept {}
     // Get static field: static private readonly System.String[] s_FilteredLogMessages
     static ::ArrayWrapper<::Il2CppString*> _get_s_FilteredLogMessages();
     // Set static field: static private readonly System.String[] s_FilteredLogMessages

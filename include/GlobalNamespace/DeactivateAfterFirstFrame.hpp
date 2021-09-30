@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0
     class $Start$d__0;
-    // Creating value type constructor for type: DeactivateAfterFirstFrame
-    DeactivateAfterFirstFrame() noexcept {}
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x11A526C
     System::Collections::IEnumerator* Start();

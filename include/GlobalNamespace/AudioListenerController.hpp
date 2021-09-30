@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     bool startAudioListenerPauseState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AudioListenerController
-    AudioListenerController(bool startAudioListenerPauseState_ = {}) noexcept : startAudioListenerPauseState{startAudioListenerPauseState_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _startAudioListenerPauseState

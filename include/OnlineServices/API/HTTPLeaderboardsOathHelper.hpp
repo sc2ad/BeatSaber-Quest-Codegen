@@ -90,8 +90,6 @@ namespace OnlineServices::API {
     BeatSaberAPI::DataTransferObjects::AccessToken* accessToken;
     // Field size check
     static_assert(sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*) == 0x8);
-    // Creating value type constructor for type: HTTPLeaderboardsOathHelper
-    HTTPLeaderboardsOathHelper(OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource_ = {}, System::UriBuilder* uriBuilder_ = {}, BeatSaberAPI::DataTransferObjects::AccessToken* accessToken_ = {}) noexcept : userLoginDataSource{userLoginDataSource_}, uriBuilder{uriBuilder_}, accessToken{accessToken_} {}
     // static field const value: static private System.String kLoginPath
     static constexpr const char* kLoginPath = "/v1/User/Register";
     // Get static field: static private System.String kLoginPath

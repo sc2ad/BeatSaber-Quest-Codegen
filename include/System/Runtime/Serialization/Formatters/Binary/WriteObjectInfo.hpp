@@ -162,8 +162,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* binderAssemblyString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: WriteObjectInfo
-    WriteObjectInfo(int objectInfoId_ = {}, ::Il2CppObject* obj_ = {}, System::Type* objectType_ = {}, bool isSi_ = {}, bool isNamed_ = {}, bool isTyped_ = {}, bool isArray_ = {}, System::Runtime::Serialization::SerializationInfo* si_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache_ = {}, ::ArrayWrapper<::Il2CppObject*> memberData_ = {}, System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate_ = {}, System::Runtime::Serialization::StreamingContext context_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit_ = {}, int64_t objectId_ = {}, int64_t assemId_ = {}, ::Il2CppString* binderTypeName_ = {}, ::Il2CppString* binderAssemblyString_ = {}) noexcept : objectInfoId{objectInfoId_}, obj{obj_}, objectType{objectType_}, isSi{isSi_}, isNamed{isNamed_}, isTyped{isTyped_}, isArray{isArray_}, si{si_}, cache{cache_}, memberData{memberData_}, serializationSurrogate{serializationSurrogate_}, context{context_}, serObjectInfoInit{serObjectInfoInit_}, objectId{objectId_}, assemId{assemId_}, binderTypeName{binderTypeName_}, binderAssemblyString{binderAssemblyString_} {}
     // Get instance field reference: System.Int32 objectInfoId
     int& dyn_objectInfoId();
     // Get instance field reference: System.Object obj

@@ -15,8 +15,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BitMaskUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BitMaskUtil
-    BitMaskUtil() noexcept {}
     // static public System.UInt32 NumberOfSetBits(System.UInt64 i)
     // Offset: 0x2614794
     static uint NumberOfSetBits(uint64_t i);

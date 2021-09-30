@@ -111,8 +111,6 @@ namespace System::Net {
     bool InGet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ListenerAsyncResult
-    ListenerAsyncResult(System::Threading::ManualResetEvent* handle_ = {}, bool synch_ = {}, bool completed_ = {}, System::AsyncCallback* cb_ = {}, ::Il2CppObject* state_ = {}, System::Exception* exception_ = {}, System::Net::HttpListenerContext* context_ = {}, ::Il2CppObject* locker_ = {}, System::Net::ListenerAsyncResult* forward_ = {}, bool EndCalled_ = {}, bool InGet_ = {}) noexcept : handle{handle_}, synch{synch_}, completed{completed_}, cb{cb_}, state{state_}, exception{exception_}, context{context_}, locker{locker_}, forward{forward_}, EndCalled{EndCalled_}, InGet{InGet_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

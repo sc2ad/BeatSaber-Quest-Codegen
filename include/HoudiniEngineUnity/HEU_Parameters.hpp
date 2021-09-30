@@ -153,8 +153,6 @@ namespace HoudiniEngineUnity {
     bool recacheUI;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_Parameters
-    HEU_Parameters(int nodeID_ = {}, ::Il2CppString* uiLabel_ = {}, ::ArrayWrapper<int> paramInts_ = {}, ::ArrayWrapper<float> paramFloats_ = {}, ::ArrayWrapper<::Il2CppString*> paramStrings_ = {}, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo> paramChoices_ = {}, System::Collections::Generic::List_1<int>* rootParameters_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ParameterData*>* parameterList_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ParameterModifier*>* parameterModifiers_ = {}, bool regenerateParameters_ = {}, ::ArrayWrapper<uint8_t> presetData_ = {}, ::ArrayWrapper<uint8_t> defaultPresetData_ = {}, bool validParameters_ = {}, bool showParameters_ = {}, bool recacheUI_ = {}) noexcept : nodeID{nodeID_}, uiLabel{uiLabel_}, paramInts{paramInts_}, paramFloats{paramFloats_}, paramStrings{paramStrings_}, paramChoices{paramChoices_}, rootParameters{rootParameters_}, parameterList{parameterList_}, parameterModifiers{parameterModifiers_}, regenerateParameters{regenerateParameters_}, presetData{presetData_}, defaultPresetData{defaultPresetData_}, validParameters{validParameters_}, showParameters{showParameters_}, recacheUI{recacheUI_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Parameters*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Parameters*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Parameters*>*>(this);

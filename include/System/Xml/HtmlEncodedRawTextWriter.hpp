@@ -89,8 +89,6 @@ namespace System::Xml {
     bool doNotEscapeUriAttributes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HtmlEncodedRawTextWriter
-    HtmlEncodedRawTextWriter(System::Xml::ByteStack* elementScope_ = {}, System::Xml::ElementProperties currentElementProperties_ = {}, System::Xml::AttributeProperties currentAttributeProperties_ = {}, bool endsWithAmpersand_ = {}, ::ArrayWrapper<uint8_t> uriEscapingBuffer_ = {}, ::Il2CppString* mediaType_ = {}, bool doNotEscapeUriAttributes_ = {}) noexcept : elementScope{elementScope_}, currentElementProperties{currentElementProperties_}, currentAttributeProperties{currentAttributeProperties_}, endsWithAmpersand{endsWithAmpersand_}, uriEscapingBuffer{uriEscapingBuffer_}, mediaType{mediaType_}, doNotEscapeUriAttributes{doNotEscapeUriAttributes_} {}
     // Get static field: static protected System.Xml.TernaryTreeReadOnly elementPropertySearch
     static System::Xml::TernaryTreeReadOnly* _get_elementPropertySearch();
     // Set static field: static protected System.Xml.TernaryTreeReadOnly elementPropertySearch

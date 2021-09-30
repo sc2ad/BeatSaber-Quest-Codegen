@@ -25,8 +25,6 @@ namespace UnityEngine::Experimental::Rendering {
   // [NativeHeaderAttribute] Offset: E74D44
   class ScriptableRuntimeReflectionSystemSettings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ScriptableRuntimeReflectionSystemSettings
-    ScriptableRuntimeReflectionSystemSettings() noexcept {}
     // Get static field: static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper s_Instance
     static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* _get_s_Instance();
     // Set static field: static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper s_Instance

@@ -29,8 +29,6 @@ namespace System {
   template<typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
   class Action_7 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Action_7
-    Action_7() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

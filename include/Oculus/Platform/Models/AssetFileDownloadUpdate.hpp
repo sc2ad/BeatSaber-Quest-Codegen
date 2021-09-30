@@ -50,8 +50,6 @@ namespace Oculus::Platform::Models {
     bool Completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AssetFileDownloadUpdate
-    AssetFileDownloadUpdate(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, uint64_t BytesTotal_ = {}, int64_t BytesTransferred_ = {}, bool Completed_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, BytesTotal{BytesTotal_}, BytesTransferred{BytesTransferred_}, Completed{Completed_} {}
     // Get instance field reference: public readonly System.UInt64 AssetFileId
     uint64_t& dyn_AssetFileId();
     // Get instance field reference: public readonly System.UInt64 AssetId

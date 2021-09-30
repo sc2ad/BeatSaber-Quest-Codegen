@@ -38,8 +38,6 @@ namespace System::Collections {
     public:
     // Nested type: System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator
     class NodeEnumerator;
-    // Creating value type constructor for type: EmptyReadOnlyDictionaryInternal
-    EmptyReadOnlyDictionaryInternal() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

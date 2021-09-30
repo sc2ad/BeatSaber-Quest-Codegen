@@ -17,8 +17,6 @@ namespace System::Diagnostics {
   // [DefaultMemberAttribute] Offset: E69214
   class ProcessModuleCollection : public System::Collections::ReadOnlyCollectionBase {
     public:
-    // Creating value type constructor for type: ProcessModuleCollection
-    ProcessModuleCollection() noexcept {}
   }; // System.Diagnostics.ProcessModuleCollection
   #pragma pack(pop)
 }

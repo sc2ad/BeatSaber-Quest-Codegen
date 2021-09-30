@@ -191,8 +191,6 @@ namespace System::Xml {
     bool mergeCDataSections;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: XmlUtf8RawTextWriter
-    XmlUtf8RawTextWriter(bool useAsync_ = {}, ::ArrayWrapper<uint8_t> bufBytes_ = {}, System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Xml::XmlCharType xmlCharType_ = {}, int bufPos_ = {}, int textPos_ = {}, int contentPos_ = {}, int cdataPos_ = {}, int attrEndPos_ = {}, int bufLen_ = {}, bool writeToNull_ = {}, bool hadDoubleBracket_ = {}, bool inAttributeValue_ = {}, System::Xml::NewLineHandling newLineHandling_ = {}, bool closeOutput_ = {}, bool omitXmlDeclaration_ = {}, ::Il2CppString* newLineChars_ = {}, bool checkCharacters_ = {}, System::Xml::XmlStandalone standalone_ = {}, System::Xml::XmlOutputMethod outputMethod_ = {}, bool autoXmlDeclaration_ = {}, bool mergeCDataSections_ = {}) noexcept : useAsync{useAsync_}, bufBytes{bufBytes_}, stream{stream_}, encoding{encoding_}, xmlCharType{xmlCharType_}, bufPos{bufPos_}, textPos{textPos_}, contentPos{contentPos_}, cdataPos{cdataPos_}, attrEndPos{attrEndPos_}, bufLen{bufLen_}, writeToNull{writeToNull_}, hadDoubleBracket{hadDoubleBracket_}, inAttributeValue{inAttributeValue_}, newLineHandling{newLineHandling_}, closeOutput{closeOutput_}, omitXmlDeclaration{omitXmlDeclaration_}, newLineChars{newLineChars_}, checkCharacters{checkCharacters_}, standalone{standalone_}, outputMethod{outputMethod_}, autoXmlDeclaration{autoXmlDeclaration_}, mergeCDataSections{mergeCDataSections_} {}
     // Get instance field reference: private readonly System.Boolean useAsync
     bool& dyn_useAsync();
     // Get instance field reference: protected System.Byte[] bufBytes

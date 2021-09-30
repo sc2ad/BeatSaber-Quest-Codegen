@@ -52,7 +52,6 @@ namespace UnityEngine::SceneManagement {
     void set_loadSceneMode(UnityEngine::SceneManagement::LoadSceneMode value);
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x1E0BBB0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SceneManagement::LoadSceneParameters::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mode)})));

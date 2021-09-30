@@ -116,8 +116,6 @@ namespace System {
     bool method_is_virtual;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Delegate
-    Delegate(System::IntPtr method_ptr_ = {}, System::IntPtr invoke_impl_ = {}, ::Il2CppObject* m_target_ = {}, System::IntPtr method_ = {}, System::IntPtr delegate_trampoline_ = {}, System::IntPtr extra_arg_ = {}, System::IntPtr method_code_ = {}, System::Reflection::MethodInfo* method_info_ = {}, System::Reflection::MethodInfo* original_method_info_ = {}, System::DelegateData* data_ = {}, bool method_is_virtual_ = {}) noexcept : method_ptr{method_ptr_}, invoke_impl{invoke_impl_}, m_target{m_target_}, method{method_}, delegate_trampoline{delegate_trampoline_}, extra_arg{extra_arg_}, method_code{method_code_}, method_info{method_info_}, original_method_info{original_method_info_}, data{data_}, method_is_virtual{method_is_virtual_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

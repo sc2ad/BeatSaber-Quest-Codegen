@@ -78,8 +78,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayWrapper<uint8_t> serializedMethod;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: CADMessageBase
-    CADMessageBase(::ArrayWrapper<::Il2CppObject*> args_ = {}, ::ArrayWrapper<uint8_t> serializedArgs_ = {}, int propertyCount_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* callContext_ = {}, ::ArrayWrapper<uint8_t> serializedMethod_ = {}) noexcept : args{args_}, serializedArgs{serializedArgs_}, propertyCount{propertyCount_}, callContext{callContext_}, serializedMethod{serializedMethod_} {}
     // Get instance field reference: protected System.Object[] _args
     ::ArrayWrapper<::Il2CppObject*>& dyn__args();
     // Get instance field reference: protected System.Byte[] _serializedArgs

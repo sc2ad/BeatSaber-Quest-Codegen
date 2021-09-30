@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F16C
   class CryptographicUnexpectedOperationException : public System::Security::Cryptography::CryptographicException {
     public:
-    // Creating value type constructor for type: CryptographicUnexpectedOperationException
-    CryptographicUnexpectedOperationException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A727A0
     // Implemented from: System.Security.Cryptography.CryptographicException

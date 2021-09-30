@@ -47,7 +47,6 @@ namespace UnityEngine {
     void set_enabled(bool value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CAA0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  EmissionModule(UnityEngine::ParticleSystem* particleSystem)
     // static private System.Boolean get_enabled_Injected(ref UnityEngine.ParticleSystem/UnityEngine.EmissionModule _unity_self)
     // Offset: 0x261CB08

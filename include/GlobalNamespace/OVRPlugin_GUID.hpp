@@ -87,8 +87,6 @@ namespace GlobalNamespace {
     uint8_t d7;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: GUID
-    GUID(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d0_ = {}, uint8_t d1_ = {}, uint8_t d2_ = {}, uint8_t d3_ = {}, uint8_t d4_ = {}, uint8_t d5_ = {}, uint8_t d6_ = {}, uint8_t d7_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d0{d0_}, d1{d1_}, d2{d2_}, d3{d3_}, d4{d4_}, d5{d5_}, d6{d6_}, d7{d7_} {}
     // Get instance field reference: public System.Int32 a
     int& dyn_a();
     // Get instance field reference: public System.Int16 b

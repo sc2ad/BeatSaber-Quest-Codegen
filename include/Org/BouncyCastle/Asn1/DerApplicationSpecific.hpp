@@ -49,8 +49,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<uint8_t> octets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: DerApplicationSpecific
-    DerApplicationSpecific(bool isConstructed_ = {}, int tag_ = {}, ::ArrayWrapper<uint8_t> octets_ = {}) noexcept : isConstructed{isConstructed_}, tag{tag_}, octets{octets_} {}
     // Get instance field reference: private readonly System.Boolean isConstructed
     bool& dyn_isConstructed();
     // Get instance field reference: private readonly System.Int32 tag

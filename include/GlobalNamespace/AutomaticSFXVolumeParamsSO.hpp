@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     float volumeSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AutomaticSFXVolumeParamsSO
-    AutomaticSFXVolumeParamsSO(float musicVolumeMultiplier_ = {}, float threshold_ = {}, float impact_ = {}, float attackTime_ = {}, float releaseTime_ = {}, float minVolume_ = {}, float maxVolume_ = {}, float volumeSmooth_ = {}) noexcept : musicVolumeMultiplier{musicVolumeMultiplier_}, threshold{threshold_}, impact{impact_}, attackTime{attackTime_}, releaseTime{releaseTime_}, minVolume{minVolume_}, maxVolume{maxVolume_}, volumeSmooth{volumeSmooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _musicVolumeMultiplier

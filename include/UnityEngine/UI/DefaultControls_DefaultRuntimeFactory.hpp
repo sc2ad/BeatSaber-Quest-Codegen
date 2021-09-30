@@ -35,8 +35,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultControls::DefaultRuntimeFactory : public ::Il2CppObject/*, public UnityEngine::UI::DefaultControls::IFactoryControls*/ {
     public:
-    // Creating value type constructor for type: DefaultRuntimeFactory
-    DefaultRuntimeFactory() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::UI::DefaultControls::IFactoryControls
     operator UnityEngine::UI::DefaultControls::IFactoryControls() noexcept {
       return *reinterpret_cast<UnityEngine::UI::DefaultControls::IFactoryControls*>(this);

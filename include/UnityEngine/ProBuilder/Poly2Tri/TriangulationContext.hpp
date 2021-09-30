@@ -87,8 +87,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool IsDebugEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TriangulationContext
-    TriangulationContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* DebugContext_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode_ = {}, UnityEngine::ProBuilder::Poly2Tri::Triangulatable* Triangulatable_ = {}, int StepCount_ = {}, bool IsDebugEnabled_ = {}) noexcept : DebugContext{DebugContext_}, Triangles{Triangles_}, Points{Points_}, TriangulationMode{TriangulationMode_}, Triangulatable{Triangulatable_}, StepCount{StepCount_}, IsDebugEnabled{IsDebugEnabled_} {}
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
     UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& dyn_$DebugContext$k__BackingField();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangles

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
-    // Creating value type constructor for type: AnimationClipWithId
-    AnimationClipWithId(int id_ = {}, UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference_ = {}) noexcept : id{id_}, animationClipAssetReference{animationClipAssetReference_} {}
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference

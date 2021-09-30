@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     HMUI::ViewController* topScreenViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // Creating value type constructor for type: TestFlowCoordinator
-    TestFlowCoordinator(HMUI::ViewController* viewController_ = {}, HMUI::ViewController* leftViewController_ = {}, HMUI::ViewController* rightViewController_ = {}, HMUI::ViewController* bottomScreenViewController_ = {}, HMUI::ViewController* topScreenViewController_ = {}) noexcept : viewController{viewController_}, leftViewController{leftViewController_}, rightViewController{rightViewController_}, bottomScreenViewController{bottomScreenViewController_}, topScreenViewController{topScreenViewController_} {}
     // Get instance field reference: private HMUI.ViewController _viewController
     HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private HMUI.ViewController _leftViewController

@@ -99,7 +99,6 @@ namespace System::Text::RegularExpressions {
       int& dyn__data();
       // System.Void .ctor(System.Char chMin, System.Char chMax, System.Int32 lcOp, System.Int32 data)
       // Offset: 0x1A35170
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data)
     }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping
     #pragma pack(pop)
@@ -137,8 +136,6 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::RegexCharClass* subtractor;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::RegexCharClass*) == 0x8);
-    // Creating value type constructor for type: RegexCharClass
-    RegexCharClass(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>* rangelist_ = {}, System::Text::StringBuilder* categories_ = {}, bool canonical_ = {}, bool negate_ = {}, System::Text::RegularExpressions::RegexCharClass* subtractor_ = {}) noexcept : rangelist{rangelist_}, categories{categories_}, canonical{canonical_}, negate{negate_}, subtractor{subtractor_} {}
     // Get static field: static private readonly System.String InternalRegexIgnoreCase
     static ::Il2CppString* _get_InternalRegexIgnoreCase();
     // Set static field: static private readonly System.String InternalRegexIgnoreCase

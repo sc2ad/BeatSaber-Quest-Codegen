@@ -99,8 +99,6 @@ namespace GlobalNamespace {
     bool sabersAreClashing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SaberClashEffect
-    SaberClashEffect(UnityEngine::ParticleSystem* sparkleParticleSystem_ = {}, UnityEngine::ParticleSystem* glowParticleSystem_ = {}, Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset_ = {}, GlobalNamespace::SaberClashChecker* saberClashChecker_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackController_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmmisionModule_ = {}, UnityEngine::ParticleSystem::EmissionModule glowParticleSystemEmmisionModule_ = {}, bool sabersAreClashing_ = {}) noexcept : sparkleParticleSystem{sparkleParticleSystem_}, glowParticleSystem{glowParticleSystem_}, rumblePreset{rumblePreset_}, saberClashChecker{saberClashChecker_}, hapticFeedbackController{hapticFeedbackController_}, colorManager{colorManager_}, sparkleParticleSystemEmmisionModule{sparkleParticleSystemEmmisionModule_}, glowParticleSystemEmmisionModule{glowParticleSystemEmmisionModule_}, sabersAreClashing{sabersAreClashing_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparkleParticleSystem

@@ -38,8 +38,6 @@ namespace GlobalNamespace {
     bool startInAdvanceAndClearNotes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PracticeSettings
-    PracticeSettings(float startSongTime_ = {}, float songSpeedMul_ = {}, bool startInAdvanceAndClearNotes_ = {}) noexcept : startSongTime{startSongTime_}, songSpeedMul{songSpeedMul_}, startInAdvanceAndClearNotes{startInAdvanceAndClearNotes_} {}
     // static field const value: static public System.Single kDelayBeforeStart
     static constexpr const float kDelayBeforeStart = 1;
     // Get static field: static public System.Single kDelayBeforeStart

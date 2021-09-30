@@ -31,8 +31,6 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationEventsCache : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SerializationEventsCache
-    SerializationEventsCache() noexcept {}
     // Get static field: static private System.Collections.Hashtable cache
     static System::Collections::Hashtable* _get_cache();
     // Set static field: static private System.Collections.Hashtable cache

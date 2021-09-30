@@ -35,8 +35,6 @@ namespace LiteNetLib::Layers {
     ::ArrayWrapper<uint8_t> byteKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: XorEncryptLayer
-    XorEncryptLayer(::ArrayWrapper<uint8_t> byteKey_ = {}) noexcept : byteKey{byteKey_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private System.Byte[] _byteKey

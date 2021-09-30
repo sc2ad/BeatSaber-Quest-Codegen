@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     UnityEngine::Mesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
-    // Creating value type constructor for type: CommandBufferGOCore
-    CommandBufferGOCore(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* cameras_ = {}, UnityEngine::Mesh* mesh_ = {}) noexcept : cameras{cameras_}, mesh{mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB4DC

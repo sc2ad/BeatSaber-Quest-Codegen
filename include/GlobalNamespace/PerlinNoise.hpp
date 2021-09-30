@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerlinNoise : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PerlinNoise
-    PerlinNoise() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC95C0
     // Get static field: static private readonly System.Int32[] permutation
     static ::ArrayWrapper<int> _get_permutation();

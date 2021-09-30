@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
-    // Creating value type constructor for type: EnvironmentColorManager
-    EnvironmentColorManager(GlobalNamespace::ColorSchemeSO* defaultColorScheme_ = {}, GlobalNamespace::SimpleColorSO* environmentColor0_ = {}, GlobalNamespace::SimpleColorSO* environmentColor1_ = {}, GlobalNamespace::SimpleColorSO* environmentColor0Boost_ = {}, GlobalNamespace::SimpleColorSO* environmentColor1Boost_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : defaultColorScheme{defaultColorScheme_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_}, colorScheme{colorScheme_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSchemeSO _defaultColorScheme

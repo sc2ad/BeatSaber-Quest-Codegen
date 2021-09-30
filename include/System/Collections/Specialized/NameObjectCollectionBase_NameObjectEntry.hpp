@@ -32,8 +32,6 @@ namespace System::Collections::Specialized {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: NameObjectEntry
-    NameObjectEntry(::Il2CppString* Key_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Key{Key_}, Value{Value_} {}
     // Get instance field reference: System.String Key
     ::Il2CppString*& dyn_Key();
     // Get instance field reference: System.Object Value

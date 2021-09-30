@@ -28,8 +28,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72AB4
   class UnityException : public System::Exception {
     public:
-    // Creating value type constructor for type: UnityException
-    UnityException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x23498F0
     // Implemented from: System.Exception

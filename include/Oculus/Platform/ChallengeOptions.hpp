@@ -40,8 +40,6 @@ namespace Oculus::Platform {
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: ChallengeOptions
-    ChallengeOptions(System::IntPtr Handle_ = {}) noexcept : Handle{Handle_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return Handle;

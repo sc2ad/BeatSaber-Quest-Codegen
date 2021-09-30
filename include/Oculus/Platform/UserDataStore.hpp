@@ -33,8 +33,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserDataStore : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UserDataStore
-    UserDataStore() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserDataStoreUpdateResponse> PrivateDeleteEntryByKey(System.UInt64 userID, System.String key)
     // Offset: 0x25BBCE4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);

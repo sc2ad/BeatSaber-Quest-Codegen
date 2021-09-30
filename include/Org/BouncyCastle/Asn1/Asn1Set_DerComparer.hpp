@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1Set::DerComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: DerComparer
-    DerComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

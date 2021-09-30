@@ -75,8 +75,6 @@ namespace System::Text::RegularExpressions {
     bool failed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegexFCD
-    RegexFCD(::ArrayWrapper<int> intStack_ = {}, int intDepth_ = {}, ::ArrayWrapper<System::Text::RegularExpressions::RegexFC*> fcStack_ = {}, int fcDepth_ = {}, bool skipAllChildren_ = {}, bool skipchild_ = {}, bool failed_ = {}) noexcept : intStack{intStack_}, intDepth{intDepth_}, fcStack{fcStack_}, fcDepth{fcDepth_}, skipAllChildren{skipAllChildren_}, skipchild{skipchild_}, failed{failed_} {}
     // Get instance field reference: private System.Int32[] _intStack
     ::ArrayWrapper<int>& dyn__intStack();
     // Get instance field reference: private System.Int32 _intDepth

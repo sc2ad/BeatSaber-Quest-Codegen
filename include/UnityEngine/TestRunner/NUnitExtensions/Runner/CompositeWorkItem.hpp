@@ -118,8 +118,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*) == 0x8);
-    // Creating value type constructor for type: CompositeWorkItem
-    CompositeWorkItem(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Internal::TestSuiteResult* suiteResult_ = {}, NUnit::Framework::Interfaces::ITestFilter* childFilter_ = {}, NUnit::Framework::Internal::Commands::TestCommand* setupCommand_ = {}, NUnit::Framework::Internal::Commands::TestCommand* teardownCommand_ = {}, System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* Children_ = {}, int countOrder_ = {}, NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown_ = {}) noexcept : suite{suite_}, suiteResult{suiteResult_}, childFilter{childFilter_}, setupCommand{setupCommand_}, teardownCommand{teardownCommand_}, Children{Children_}, countOrder{countOrder_}, childTestCountdown{childTestCountdown_} {}
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
     NUnit::Framework::Internal::TestSuite*& dyn__suite();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuiteResult _suiteResult

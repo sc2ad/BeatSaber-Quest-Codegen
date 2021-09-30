@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     float targetVolume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AudioFading
-    AudioFading(UnityEngine::AudioSource* audioSource_ = {}, float smooth_ = {}, bool fadeInOnStart_ = {}, float targetVolume_ = {}) noexcept : audioSource{audioSource_}, smooth{smooth_}, fadeInOnStart{fadeInOnStart_}, targetVolume{targetVolume_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

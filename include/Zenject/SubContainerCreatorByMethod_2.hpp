@@ -50,8 +50,6 @@ namespace Zenject {
     System::Action_3<Zenject::DiContainer*, TParam1, TParam2>* installMethod;
     // Field size check
     static_assert(sizeof(System::Action_3<Zenject::DiContainer*, TParam1, TParam2>*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorByMethod_2
-    SubContainerCreatorByMethod_2(System::Action_3<Zenject::DiContainer*, TParam1, TParam2>* installMethod_ = {}) noexcept : installMethod{installMethod_} {}
     // Creating conversion operator: operator System::Action_3<Zenject::DiContainer*, TParam1, TParam2>*
     constexpr operator System::Action_3<Zenject::DiContainer*, TParam1, TParam2>*() const noexcept {
       return installMethod;

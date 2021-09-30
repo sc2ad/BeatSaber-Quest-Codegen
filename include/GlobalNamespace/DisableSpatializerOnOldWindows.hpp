@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // Creating value type constructor for type: DisableSpatializerOnOldWindows
-    DisableSpatializerOnOldWindows(UnityEngine::AudioSource* audioSource_ = {}) noexcept : audioSource{audioSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

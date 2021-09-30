@@ -90,7 +90,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform*& dyn_parent();
     // public System.Void .ctor(UnityEngine.Transform other)
     // Offset: 0x25D47A4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TransformData(UnityEngine::Transform* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::TransformData::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));

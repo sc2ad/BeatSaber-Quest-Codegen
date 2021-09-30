@@ -34,8 +34,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkInterfaceFactory::LinuxNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI {
     public:
-    // Creating value type constructor for type: LinuxNetworkInterfaceAPI
-    LinuxNetworkInterfaceAPI() noexcept {}
     // static private System.Void FreeInterfaceAddresses(System.IntPtr ifap)
     // Offset: 0x16472E0
     static void FreeInterfaceAddresses(System::IntPtr ifap);

@@ -65,8 +65,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::InternalTaskOptions) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass178_0
-    $$c__DisplayClass178_0(System::Threading::Tasks::Task* root_ = {}, bool replicasAreQuitting_ = {}, System::Action_1<::Il2CppObject*>* taskReplicaDelegate_ = {}, System::Threading::Tasks::TaskCreationOptions creationOptionsForReplicas_ = {}, System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas_ = {}) noexcept : root{root_}, replicasAreQuitting{replicasAreQuitting_}, taskReplicaDelegate{taskReplicaDelegate_}, creationOptionsForReplicas{creationOptionsForReplicas_}, internalOptionsForReplicas{internalOptionsForReplicas_} {}
     // Get instance field reference: public System.Threading.Tasks.Task root
     System::Threading::Tasks::Task*& dyn_root();
     // Get instance field reference: public System.Boolean replicasAreQuitting

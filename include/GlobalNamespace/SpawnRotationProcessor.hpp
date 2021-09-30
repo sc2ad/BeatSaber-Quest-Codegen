@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<float> rotations;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
-    // Creating value type constructor for type: SpawnRotationProcessor
-    SpawnRotationProcessor(float rotation_ = {}, ::ArrayWrapper<float> rotations_ = {}) noexcept : rotation{rotation_}, rotations{rotations_} {}
     // Get instance field reference: private System.Single _rotation
     float& dyn__rotation();
     // Get instance field reference: private readonly System.Single[] _rotations

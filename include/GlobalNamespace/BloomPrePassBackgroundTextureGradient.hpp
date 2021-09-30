@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundTextureGradient
-    BloomPrePassBackgroundTextureGradient(UnityEngine::Color tintColor_ = {}, UnityEngine::Texture2D* texture_ = {}, UnityEngine::Material* material_ = {}) noexcept : tintColor{tintColor_}, texture{texture_}, material{material_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE26C
     // Get static field: static private readonly System.Int32 _gradientTexID
     static int _get__gradientTexID();

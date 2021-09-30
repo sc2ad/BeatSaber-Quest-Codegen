@@ -33,8 +33,6 @@ namespace UnityEngine::Experimental::Rendering {
   // [NativeHeaderAttribute] Offset: E74DB0
   class GraphicsFormatUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GraphicsFormatUtility
-    GraphicsFormatUtility() noexcept {}
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.TextureFormat format, System.Boolean isSRGB)
     // Offset: 0x1CB5E04
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::TextureFormat format, bool isSRGB);

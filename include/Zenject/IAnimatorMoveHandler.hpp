@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAnimatorMoveHandler {
     public:
-    // Creating value type constructor for type: IAnimatorMoveHandler
-    IAnimatorMoveHandler() noexcept {}
     // public System.Void OnAnimatorMove()
     // Offset: 0xFFFFFFFF
     void OnAnimatorMove();

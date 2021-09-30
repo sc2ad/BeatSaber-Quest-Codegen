@@ -41,8 +41,6 @@ namespace TMPro {
     bool isSelected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TMP_ScrollbarEventHandler
-    TMP_ScrollbarEventHandler(bool isSelected_ = {}) noexcept : isSelected{isSelected_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

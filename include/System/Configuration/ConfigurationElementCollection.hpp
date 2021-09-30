@@ -17,8 +17,6 @@ namespace System::Configuration {
   // [DebuggerDisplayAttribute] Offset: E67D80
   class ConfigurationElementCollection : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: ConfigurationElementCollection
-    ConfigurationElementCollection() noexcept {}
   }; // System.Configuration.ConfigurationElementCollection
   #pragma pack(pop)
 }

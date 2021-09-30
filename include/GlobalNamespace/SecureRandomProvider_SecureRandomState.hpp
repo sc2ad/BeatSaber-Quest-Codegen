@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SecureRandomState
-    SecureRandomState(System::Security::Cryptography::RNGCryptoServiceProvider* random_ = {}, ::ArrayWrapper<uint8_t> randomBuffer0_ = {}, ::ArrayWrapper<uint8_t> randomBuffer1_ = {}, int index_ = {}) noexcept : random{random_}, randomBuffer0{randomBuffer0_}, randomBuffer1{randomBuffer1_}, index{index_} {}
     // static field const value: static private System.Int32 kBufferSize
     static constexpr const int kBufferSize = 16384;
     // Get static field: static private System.Int32 kBufferSize

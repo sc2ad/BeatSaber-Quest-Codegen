@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E9EC10
   class AudioListener : public UnityEngine::AudioBehaviour {
     public:
-    // Creating value type constructor for type: AudioListener
-    AudioListener() noexcept {}
     // static public System.Boolean get_pause()
     // Offset: 0x2608420
     static bool get_pause();

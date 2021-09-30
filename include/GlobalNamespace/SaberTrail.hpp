@@ -152,8 +152,6 @@ namespace GlobalNamespace {
     bool inited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SaberTrail
-    SaberTrail(GlobalNamespace::SaberTrailRenderer* trailRendererPrefab_ = {}, float trailDuration_ = {}, int samplingFrequency_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}, bool colorOverwrite_ = {}, UnityEngine::Color forcedColor_ = {}, UnityEngine::Color color_ = {}, GlobalNamespace::IBladeMovementData* movementData_ = {}, float lastTrailElementTime_ = {}, GlobalNamespace::SaberTrailRenderer* trailRenderer_ = {}, GlobalNamespace::TrailElementCollection* trailElementCollection_ = {}, float sampleStep_ = {}, int framesPassed_ = {}, float lastZScale_ = {}, int framesToScaleCheck_ = {}, bool inited_ = {}) noexcept : trailRendererPrefab{trailRendererPrefab_}, trailDuration{trailDuration_}, samplingFrequency{samplingFrequency_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_}, colorOverwrite{colorOverwrite_}, forcedColor{forcedColor_}, color{color_}, movementData{movementData_}, lastTrailElementTime{lastTrailElementTime_}, trailRenderer{trailRenderer_}, trailElementCollection{trailElementCollection_}, sampleStep{sampleStep_}, framesPassed{framesPassed_}, lastZScale{lastZScale_}, framesToScaleCheck{framesToScaleCheck_}, inited{inited_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kIgnoredFramesCount

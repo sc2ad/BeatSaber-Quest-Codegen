@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADB4C
   class AspMvcActionSelectorAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMvcActionSelectorAttribute
-    AspMvcActionSelectorAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26100E0
     // Implemented from: System.Attribute

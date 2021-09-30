@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     bool fadingIn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SimpleAudioPlayer
-    SimpleAudioPlayer(UnityEngine::AudioClip* audioClip_ = {}, UnityEngine::AudioSource* audioSource_ = {}, float targetVolume_ = {}, bool loop_ = {}, float fadeSpeed_ = {}, bool fadingIn_ = {}) noexcept : audioClip{audioClip_}, audioSource{audioSource_}, targetVolume{targetVolume_}, loop{loop_}, fadeSpeed{fadeSpeed_}, fadingIn{fadingIn_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip _audioClip

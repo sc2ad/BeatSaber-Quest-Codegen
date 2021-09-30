@@ -118,8 +118,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>*) == 0x8);
-    // Creating value type constructor for type: NoteDebris
-    NoteDebris(UnityEngine::Transform* meshTransform_ = {}, GlobalNamespace::NoteDebrisPhysics* physics_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, UnityEngine::AnimationCurve* cutoutCurve_ = {}, float maxCutPointCenterDistance_ = {}, UnityEngine::Mesh* centroidComputationMesh_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, float elapsedTime_ = {}, float lifeTime_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent_ = {}) noexcept : meshTransform{meshTransform_}, physics{physics_}, materialPropertyBlockController{materialPropertyBlockController_}, cutoutCurve{cutoutCurve_}, maxCutPointCenterDistance{maxCutPointCenterDistance_}, centroidComputationMesh{centroidComputationMesh_}, colorManager{colorManager_}, elapsedTime{elapsedTime_}, lifeTime{lifeTime_}, didFinishEvent{didFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04B10

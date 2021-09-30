@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     ::Il2CppString* keywords;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Variant
-    Variant(UnityEngine::Rendering::PassType passType_ = {}, ::Il2CppString* keywords_ = {}) noexcept : passType{passType_}, keywords{keywords_} {}
     // Get instance field reference: private UnityEngine.Rendering.PassType _passType
     UnityEngine::Rendering::PassType& dyn__passType();
     // Get instance field reference: private System.String _keywords

@@ -100,8 +100,6 @@ namespace GlobalNamespace {
     float maxVolume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AutomaticSFXVolume
-    AutomaticSFXVolume(GlobalNamespace::AutomaticSFXVolumeParamsSO* params_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::AutomaticSFXVolume::InitData* initData_ = {}, float sampleRate_ = {}, float volume_ = {}, float envelope_ = {}, float attackSamples_ = {}, float releaseSamples_ = {}, float attackCoef_ = {}, float releaseCoef_ = {}, float maxVolume_ = {}) noexcept : params{params_}, audioManager{audioManager_}, initData{initData_}, sampleRate{sampleRate_}, volume{volume_}, envelope{envelope_}, attackSamples{attackSamples_}, releaseSamples{releaseSamples_}, attackCoef{attackCoef_}, releaseCoef{releaseCoef_}, maxVolume{maxVolume_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kBaseVolume

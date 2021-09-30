@@ -58,8 +58,6 @@ namespace HMUI {
     bool enabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ToggleBinder
-    ToggleBinder(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle*, UnityEngine::Events::UnityAction_1<bool>*>*>* bindings_ = {}, bool enabled_ = {}) noexcept : bindings{bindings_}, enabled{enabled_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,UnityEngine.Events.UnityAction`1<System.Boolean>>> _bindings
     System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle*, UnityEngine::Events::UnityAction_1<bool>*>*>*& dyn__bindings();
     // Get instance field reference: private System.Boolean _enabled

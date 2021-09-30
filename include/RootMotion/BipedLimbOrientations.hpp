@@ -49,8 +49,6 @@ namespace RootMotion {
     RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg;
     // Field size check
     static_assert(sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*) == 0x8);
-    // Creating value type constructor for type: BipedLimbOrientations
-    BipedLimbOrientations(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg_ = {}) noexcept : leftArm{leftArm_}, rightArm{rightArm_}, leftLeg{leftLeg_}, rightLeg{rightLeg_} {}
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftArm();
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm

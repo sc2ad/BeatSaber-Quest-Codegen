@@ -14,8 +14,6 @@ namespace UnityEngine::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashCodeHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HashCodeHelper
-    HashCodeHelper() noexcept {}
     // static public System.Int32 Combine(System.Int32 hash1, System.Int32 hash2)
     // Offset: 0x2611F00
     static int Combine(int hash1, int hash2);

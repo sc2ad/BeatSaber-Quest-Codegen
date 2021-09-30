@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     float max;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FormattedFloatListSettingsValueController
-    FormattedFloatListSettingsValueController(GlobalNamespace::FloatSO* settingsValue_ = {}, ::ArrayWrapper<float> values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsValueController::ValueType valueType_ = {}, float min_ = {}, float max_ = {}) noexcept : settingsValue{settingsValue_}, values{values_}, formattingString{formattingString_}, valueType{valueType_}, min{min_}, max{max_} {}
     // Get instance field reference: private FloatSO _settingsValue
     GlobalNamespace::FloatSO*& dyn__settingsValue();
     // Get instance field reference: private System.Single[] _values

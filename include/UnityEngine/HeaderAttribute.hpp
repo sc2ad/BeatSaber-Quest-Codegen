@@ -27,8 +27,6 @@ namespace UnityEngine {
     ::Il2CppString* header;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HeaderAttribute
-    HeaderAttribute(::Il2CppString* header_ = {}) noexcept : header{header_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return header;

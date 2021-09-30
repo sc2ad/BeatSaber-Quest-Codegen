@@ -51,8 +51,6 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::TaskScheduler* m_taskScheduler;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskScheduler*) == 0x8);
-    // Creating value type constructor for type: StandardTaskContinuation
-    StandardTaskContinuation(System::Threading::Tasks::Task* m_task_ = {}, System::Threading::Tasks::TaskContinuationOptions m_options_ = {}, System::Threading::Tasks::TaskScheduler* m_taskScheduler_ = {}) noexcept : m_task{m_task_}, m_options{m_options_}, m_taskScheduler{m_taskScheduler_} {}
     // Get instance field reference: readonly System.Threading.Tasks.Task m_task
     System::Threading::Tasks::Task*& dyn_m_task();
     // Get instance field reference: readonly System.Threading.Tasks.TaskContinuationOptions m_options

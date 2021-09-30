@@ -61,8 +61,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> workingKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: VmpcEngine
-    VmpcEngine(uint8_t n_ = {}, ::ArrayWrapper<uint8_t> P_ = {}, uint8_t s_ = {}, ::ArrayWrapper<uint8_t> workingIV_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}) noexcept : n{n_}, P{P_}, s{s_}, workingIV{workingIV_}, workingKey{workingKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);

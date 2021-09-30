@@ -55,8 +55,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::Collider*>* colliders;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Collider*>*) == 0x8);
-    // Creating value type constructor for type: HEU_GeneratedOutputData
-    HEU_GeneratedOutputData(UnityEngine::GameObject* gameObject_ = {}, ::ArrayWrapper<UnityEngine::Material*> renderMaterials_ = {}, System::Collections::Generic::List_1<UnityEngine::Collider*>* colliders_ = {}) noexcept : gameObject{gameObject_}, renderMaterials{renderMaterials_}, colliders{colliders_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);

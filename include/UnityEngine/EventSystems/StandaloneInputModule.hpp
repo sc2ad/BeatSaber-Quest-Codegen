@@ -119,8 +119,6 @@ namespace UnityEngine::EventSystems {
     bool m_ForceModuleActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: StandaloneInputModule
-    StandaloneInputModule(float m_PrevActionTime_ = {}, UnityEngine::Vector2 m_LastMoveVector_ = {}, int m_ConsecutiveMoveCount_ = {}, UnityEngine::Vector2 m_LastMousePosition_ = {}, UnityEngine::Vector2 m_MousePosition_ = {}, UnityEngine::GameObject* m_CurrentFocusedGameObject_ = {}, UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent_ = {}, ::Il2CppString* m_HorizontalAxis_ = {}, ::Il2CppString* m_VerticalAxis_ = {}, ::Il2CppString* m_SubmitButton_ = {}, ::Il2CppString* m_CancelButton_ = {}, float m_InputActionsPerSecond_ = {}, float m_RepeatDelay_ = {}, bool m_ForceModuleActive_ = {}) noexcept : m_PrevActionTime{m_PrevActionTime_}, m_LastMoveVector{m_LastMoveVector_}, m_ConsecutiveMoveCount{m_ConsecutiveMoveCount_}, m_LastMousePosition{m_LastMousePosition_}, m_MousePosition{m_MousePosition_}, m_CurrentFocusedGameObject{m_CurrentFocusedGameObject_}, m_InputPointerEvent{m_InputPointerEvent_}, m_HorizontalAxis{m_HorizontalAxis_}, m_VerticalAxis{m_VerticalAxis_}, m_SubmitButton{m_SubmitButton_}, m_CancelButton{m_CancelButton_}, m_InputActionsPerSecond{m_InputActionsPerSecond_}, m_RepeatDelay{m_RepeatDelay_}, m_ForceModuleActive{m_ForceModuleActive_} {}
     // Get instance field reference: private System.Single m_PrevActionTime
     float& dyn_m_PrevActionTime();
     // Get instance field reference: private UnityEngine.Vector2 m_LastMoveVector

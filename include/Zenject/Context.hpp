@@ -88,8 +88,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* normalInstallerTypes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
-    // Creating value type constructor for type: Context
-    Context(System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers_ = {}, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* monoInstallers_ = {}, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* installerPrefabs_ = {}, System::Collections::Generic::List_1<Zenject::InstallerBase*>* normalInstallers_ = {}, System::Collections::Generic::List_1<System::Type*>* normalInstallerTypes_ = {}) noexcept : scriptableObjectInstallers{scriptableObjectInstallers_}, monoInstallers{monoInstallers_}, installerPrefabs{installerPrefabs_}, normalInstallers{normalInstallers_}, normalInstallerTypes{normalInstallerTypes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _scriptableObjectInstallers

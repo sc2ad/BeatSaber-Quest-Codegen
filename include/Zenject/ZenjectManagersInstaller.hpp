@@ -19,8 +19,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectManagersInstaller : public Zenject::Installer_1<Zenject::ZenjectManagersInstaller*> {
     public:
-    // Creating value type constructor for type: ZenjectManagersInstaller
-    ZenjectManagersInstaller() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25EE610
     // Implemented from: Zenject.Installer`1

@@ -34,8 +34,6 @@ namespace UnityEngine::TestTools {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EnumerableSetUpTearDownCommand::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestTools.EnumerableSetUpTearDownCommand/UnityEngine.TestTools.<>c <>9
     static UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.EnumerableSetUpTearDownCommand/UnityEngine.TestTools.<>c <>9

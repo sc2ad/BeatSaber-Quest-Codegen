@@ -29,8 +29,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class LanguagePack : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LanguagePack
-    LanguagePack() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> GetCurrent()
     // Offset: 0x16AD780
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* GetCurrent();

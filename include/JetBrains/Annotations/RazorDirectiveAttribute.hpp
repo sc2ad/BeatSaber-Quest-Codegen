@@ -27,8 +27,6 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Directive;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RazorDirectiveAttribute
-    RazorDirectiveAttribute(::Il2CppString* Directive_ = {}) noexcept : Directive{Directive_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Directive;

@@ -47,7 +47,6 @@ namespace UnityEngine {
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
     // Offset: 0x1E00D1C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RangeInt(int start, int length)
   }; // UnityEngine.RangeInt
   #pragma pack(pop)

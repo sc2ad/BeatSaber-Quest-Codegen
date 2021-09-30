@@ -58,8 +58,6 @@ namespace Zenject {
     bool createNew;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass53_0
-    $$c__DisplayClass53_0(UnityEngine::ScriptableObject* resource_ = {}, Zenject::FromBinder* $$4__this_ = {}, bool createNew_ = {}) noexcept : resource{resource_}, $$4__this{$$4__this_}, createNew{createNew_} {}
     // Get instance field reference: public UnityEngine.ScriptableObject resource
     UnityEngine::ScriptableObject*& dyn_resource();
     // Get instance field reference: public Zenject.FromBinder <>4__this

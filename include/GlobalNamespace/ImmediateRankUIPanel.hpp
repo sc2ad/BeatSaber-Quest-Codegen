@@ -76,8 +76,6 @@ namespace GlobalNamespace {
     GlobalNamespace::RankModel::Rank prevImmediateRank;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RankModel::Rank) == 0x4);
-    // Creating value type constructor for type: ImmediateRankUIPanel
-    ImmediateRankUIPanel(TMPro::TextMeshProUGUI* rankText_ = {}, TMPro::TextMeshProUGUI* relativeScoreText_ = {}, GlobalNamespace::RelativeScoreAndImmediateRankCounter* relativeScoreAndImmediateRankCounter_ = {}, System::Text::StringBuilder* stringBuilder_ = {}, float prevRelativeScore_ = {}, GlobalNamespace::RankModel::Rank prevImmediateRank_ = {}) noexcept : rankText{rankText_}, relativeScoreText{relativeScoreText_}, relativeScoreAndImmediateRankCounter{relativeScoreAndImmediateRankCounter_}, stringBuilder{stringBuilder_}, prevRelativeScore{prevRelativeScore_}, prevImmediateRank{prevImmediateRank_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText

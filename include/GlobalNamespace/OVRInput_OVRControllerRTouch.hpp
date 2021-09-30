@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerRTouch : public GlobalNamespace::OVRInput::OVRControllerBase {
     public:
-    // Creating value type constructor for type: OVRControllerRTouch
-    OVRControllerRTouch() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x16C92E8
     // Implemented from: OVRInput/OVRControllerBase

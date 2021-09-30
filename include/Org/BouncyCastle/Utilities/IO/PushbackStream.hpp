@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Utilities::IO {
     int buf;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PushbackStream
-    PushbackStream(int buf_ = {}) noexcept : buf{buf_} {}
     // Get instance field reference: private System.Int32 buf
     int& dyn_buf();
     // public System.Void Unread(System.Int32 b)

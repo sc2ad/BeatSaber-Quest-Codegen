@@ -43,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPreviewBeatmapLevel {
     public:
-    // Creating value type constructor for type: IPreviewBeatmapLevel
-    IPreviewBeatmapLevel() noexcept {}
     // public System.String get_levelID()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_levelID();

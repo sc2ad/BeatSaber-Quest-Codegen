@@ -23,8 +23,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class Comparer_1 : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<T>, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: Comparer_1
-    Comparer_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<T>
     operator System::Collections::Generic::IComparer_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<T>*>(this);

@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UncNameHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UncNameHelper
-    UncNameHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
     // Offset: 0x1A42800
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> loopback);

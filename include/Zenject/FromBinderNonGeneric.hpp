@@ -64,8 +64,6 @@ namespace Zenject {
     // Nested type: Zenject::FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>
     template<typename TConcrete, typename TFactory>
     class $$c__1_2;
-    // Creating value type constructor for type: FromBinderNonGeneric
-    FromBinderNonGeneric() noexcept {}
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromFactory()
     // Offset: 0xFFFFFFFF
     template<class TConcrete, class TFactory>

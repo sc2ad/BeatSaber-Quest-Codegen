@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInitializable {
     public:
-    // Creating value type constructor for type: IInitializable
-    IInitializable() noexcept {}
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
     void Initialize();

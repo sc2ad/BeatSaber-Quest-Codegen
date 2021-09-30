@@ -115,8 +115,6 @@ namespace MasterServer {
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(MasterServer::UserMessageHandler* $$4__this_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, int offset_ = {}, int count_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* onSuccess_ = {}, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure_ = {}) noexcept : $$4__this{$$4__this_}, userId{userId_}, userName{userName_}, offset{offset_}, count{count_}, selectionMask{selectionMask_}, configuration{configuration_}, cancellationToken{cancellationToken_}, onSuccess{onSuccess_}, onFailure{onFailure_} {}
     // Get instance field reference: public MasterServer.UserMessageHandler <>4__this
     MasterServer::UserMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.String userId

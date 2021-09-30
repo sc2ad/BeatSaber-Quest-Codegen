@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [MovedFromAttribute] Offset: E8B90C
   class AvatarMask : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: AvatarMask
-    AvatarMask() noexcept {}
     // public System.Int32 get_transformCount()
     // Offset: 0x2597CF8
     int get_transformCount();

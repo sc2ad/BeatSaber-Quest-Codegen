@@ -26,8 +26,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Platform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_Platform
-    HEU_Platform() noexcept {}
     // Get static field: static private System.String _lastErrorMsg
     static ::Il2CppString* _get__lastErrorMsg();
     // Set static field: static private System.String _lastErrorMsg

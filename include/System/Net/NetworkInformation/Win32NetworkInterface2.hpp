@@ -65,8 +65,6 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::IPInterfaceProperties*) == 0x8);
-    // Creating value type constructor for type: Win32NetworkInterface2
-    Win32NetworkInterface2(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib4_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib6_ = {}, System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* ip4stats_ = {}, System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props_ = {}) noexcept : addr{addr_}, mib4{mib4_}, mib6{mib6_}, ip4stats{ip4stats_}, ip_if_props{ip_if_props_} {}
     // Get instance field reference: private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW mib4

@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     bool setOnlyOnce;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SpriteLightWithId
-    SpriteLightWithId(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, bool hideIfAlphaOutOfRange_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}, float intensity_ = {}, float minAlpha_ = {}, bool setColorOnly_ = {}, bool setOnlyOnce_ = {}) noexcept : spriteRenderer{spriteRenderer_}, hideIfAlphaOutOfRange{hideIfAlphaOutOfRange_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_}, intensity{intensity_}, minAlpha{minAlpha_}, setColorOnly{setColorOnly_}, setOnlyOnce{setOnlyOnce_} {}
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private System.Boolean _hideIfAlphaOutOfRange

@@ -53,7 +53,6 @@ namespace Unity::Profiling {
     System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr markerPtr)
     // Offset: 0x1CAA0CC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AutoScope(System::IntPtr markerPtr)
     // public System.Void Dispose()
     // Offset: 0x1CAA110

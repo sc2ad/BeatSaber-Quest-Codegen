@@ -58,8 +58,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::VRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::VRIK*) == 0x8);
-    // Creating value type constructor for type: VRIKLODController
-    VRIKLODController(UnityEngine::Renderer* LODRenderer_ = {}, float LODDistance_ = {}, bool allowCulled_ = {}, RootMotion::FinalIK::VRIK* ik_ = {}) noexcept : LODRenderer{LODRenderer_}, LODDistance{LODDistance_}, allowCulled{allowCulled_}, ik{ik_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Renderer LODRenderer

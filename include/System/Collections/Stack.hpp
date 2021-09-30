@@ -59,8 +59,6 @@ namespace System::Collections {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Stack
-    Stack(::ArrayWrapper<::Il2CppObject*> array_ = {}, int size_ = {}, int version_ = {}) noexcept : array{array_}, size{size_}, version{version_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

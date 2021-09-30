@@ -75,8 +75,6 @@ namespace HMUI {
     bool isFadingIn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HoverTextController
-    HoverTextController(TMPro::TextMeshProUGUI* textMesh_ = {}, float fadeInDelay_ = {}, float fadeInSpeed_ = {}, float fadeOutSpeed_ = {}, bool isFadingOut_ = {}, bool isFadingIn_ = {}) noexcept : textMesh{textMesh_}, fadeInDelay{fadeInDelay_}, fadeInSpeed{fadeInSpeed_}, fadeOutSpeed{fadeOutSpeed_}, isFadingOut{isFadingOut_}, isFadingIn{isFadingIn_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _textMesh

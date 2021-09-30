@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* blackTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
-    // Creating value type constructor for type: BakedLightDataLoader
-    BakedLightDataLoader(GlobalNamespace::LightmapDataSO* lightmapData_ = {}, UnityEngine::Texture2D* blackTexture_ = {}) noexcept : lightmapData{lightmapData_}, blackTexture{blackTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13850

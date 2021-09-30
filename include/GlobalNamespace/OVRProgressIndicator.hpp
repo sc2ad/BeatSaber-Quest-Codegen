@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     float currentProgress;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: OVRProgressIndicator
-    OVRProgressIndicator(UnityEngine::MeshRenderer* progressImage_ = {}, float currentProgress_ = {}) noexcept : progressImage{progressImage_}, currentProgress{currentProgress_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.MeshRenderer progressImage

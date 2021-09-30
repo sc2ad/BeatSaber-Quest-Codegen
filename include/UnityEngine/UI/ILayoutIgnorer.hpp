@@ -13,8 +13,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayoutIgnorer {
     public:
-    // Creating value type constructor for type: ILayoutIgnorer
-    ILayoutIgnorer() noexcept {}
     // public System.Boolean get_ignoreLayout()
     // Offset: 0xFFFFFFFF
     bool get_ignoreLayout();

@@ -27,8 +27,6 @@ namespace UnityEngine::TestTools::Utils {
     ::Il2CppString* line;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(::Il2CppString* line_ = {}) noexcept : line{line_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return line;

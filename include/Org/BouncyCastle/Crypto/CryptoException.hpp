@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class CryptoException : public System::Exception {
     public:
-    // Creating value type constructor for type: CryptoException
-    CryptoException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EF9F64
     // Implemented from: System.Exception

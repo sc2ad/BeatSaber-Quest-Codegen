@@ -39,8 +39,6 @@ namespace NUnit::Compatibility {
     System::Type* to;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass2_0
-    $$c__DisplayClass2_0(System::Type* to_ = {}) noexcept : to{to_} {}
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return to;

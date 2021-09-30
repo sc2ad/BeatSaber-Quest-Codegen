@@ -34,8 +34,6 @@ namespace Zenject {
     ::Il2CppString* suffix;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass14_0
-    $$c__DisplayClass14_0(::Il2CppString* suffix_ = {}) noexcept : suffix{suffix_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return suffix;

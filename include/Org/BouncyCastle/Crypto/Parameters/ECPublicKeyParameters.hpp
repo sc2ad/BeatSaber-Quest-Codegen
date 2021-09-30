@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::EC::ECPoint* q;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
-    // Creating value type constructor for type: ECPublicKeyParameters
-    ECPublicKeyParameters(Org::BouncyCastle::Math::EC::ECPoint* q_ = {}) noexcept : q{q_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint q
     Org::BouncyCastle::Math::EC::ECPoint*& dyn_q();
     // public Org.BouncyCastle.Math.EC.ECPoint get_Q()

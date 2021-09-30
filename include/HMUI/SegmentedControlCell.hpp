@@ -42,8 +42,6 @@ namespace HMUI {
     HMUI::SegmentedControl* segmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::SegmentedControl*) == 0x8);
-    // Creating value type constructor for type: SegmentedControlCell
-    SegmentedControlCell(int cellNumber_ = {}, HMUI::SegmentedControl* segmentedControl_ = {}) noexcept : cellNumber{cellNumber_}, segmentedControl{segmentedControl_} {}
     // Get instance field reference: private System.Int32 <cellNumber>k__BackingField
     int& dyn_$cellNumber$k__BackingField();
     // Get instance field reference: private HMUI.SegmentedControl _segmentedControl

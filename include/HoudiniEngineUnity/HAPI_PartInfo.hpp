@@ -97,7 +97,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HAPI_PartInfo
-    constexpr HAPI_PartInfo(int id_ = {}, int nameSH_ = {}, HoudiniEngineUnity::HAPI_PartType type_ = {}, int faceCount_ = {}, int vertexCount_ = {}, int pointCount_ = {}, ::ArrayWrapper<int> attributeCounts_ = {}, bool isInstanced_ = {}, int instancedPartCount_ = {}, int instanceCount_ = {}, bool hasChanged_ = {}) noexcept : id{id_}, nameSH{nameSH_}, type{type_}, faceCount{faceCount_}, vertexCount{vertexCount_}, pointCount{pointCount_}, attributeCounts{attributeCounts_}, isInstanced{isInstanced_}, instancedPartCount{instancedPartCount_}, instanceCount{instanceCount_}, hasChanged{hasChanged_} {}
+    constexpr HAPI_PartInfo(int id_ = {}, int nameSH_ = {}, HoudiniEngineUnity::HAPI_PartType type_ = {}, int faceCount_ = {}, int vertexCount_ = {}, int pointCount_ = {}, ::ArrayWrapper<int> attributeCounts_ = {nullptr}, bool isInstanced_ = {}, int instancedPartCount_ = {}, int instanceCount_ = {}, bool hasChanged_ = {}) noexcept : id{id_}, nameSH{nameSH_}, type{type_}, faceCount{faceCount_}, vertexCount{vertexCount_}, pointCount{pointCount_}, attributeCounts{attributeCounts_}, isInstanced{isInstanced_}, instancedPartCount{instancedPartCount_}, instanceCount{instanceCount_}, hasChanged{hasChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

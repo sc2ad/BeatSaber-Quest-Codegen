@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::Signal* inputFieldClickedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // Creating value type constructor for type: SignalOnPointerClick
-    SignalOnPointerClick(GlobalNamespace::Signal* inputFieldClickedSignal_ = {}) noexcept : inputFieldClickedSignal{inputFieldClickedSignal_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

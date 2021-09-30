@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*> levelProductsData;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>) == 0x8);
-    // Creating value type constructor for type: LevelPackProductData
-    LevelPackProductData(::Il2CppString* productLabel_ = {}, ::Il2CppString* categoryLabel_ = {}, ::Il2CppString* packId_ = {}, float packLevelPriceDiscountMul_ = {}, ::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*> levelProductsData_ = {}) noexcept : productLabel{productLabel_}, categoryLabel{categoryLabel_}, packId{packId_}, packLevelPriceDiscountMul{packLevelPriceDiscountMul_}, levelProductsData{levelProductsData_} {}
     // Get instance field reference: private System.String _productLabel
     ::Il2CppString*& dyn__productLabel();
     // Get instance field reference: private System.String _categoryLabel

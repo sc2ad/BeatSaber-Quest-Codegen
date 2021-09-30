@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C58C
   class PlatformNotSupportedException : public System::NotSupportedException {
     public:
-    // Creating value type constructor for type: PlatformNotSupportedException
-    PlatformNotSupportedException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EA0950
     // Implemented from: System.NotSupportedException

@@ -39,8 +39,6 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Test_LODGroup_Extensions::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly HoudiniEngineUnity.Test_LODGroup_Extensions/HoudiniEngineUnity.<>c <>9
     static HoudiniEngineUnity::Test_LODGroup_Extensions::$$c* _get_$$9();
     // Set static field: static public readonly HoudiniEngineUnity.Test_LODGroup_Extensions/HoudiniEngineUnity.<>c <>9

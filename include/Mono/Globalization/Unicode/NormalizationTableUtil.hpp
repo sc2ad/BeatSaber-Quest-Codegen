@@ -21,8 +21,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class NormalizationTableUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NormalizationTableUtil
-    NormalizationTableUtil() noexcept {}
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Prop
     static Mono::Globalization::Unicode::CodePointIndexer* _get_Prop();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Prop

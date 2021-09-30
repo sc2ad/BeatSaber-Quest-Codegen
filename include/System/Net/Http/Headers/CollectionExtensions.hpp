@@ -32,8 +32,6 @@ namespace System::Net::Http::Headers {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class CollectionExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CollectionExtensions
-    CollectionExtensions() noexcept {}
     // static public System.Boolean SequenceEqual(System.Collections.Generic.List`1<TSource> first, System.Collections.Generic.List`1<TSource> second)
     // Offset: 0xFFFFFFFF
     template<class TSource>

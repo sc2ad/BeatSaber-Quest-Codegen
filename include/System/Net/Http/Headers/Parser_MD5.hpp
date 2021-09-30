@@ -29,8 +29,6 @@ namespace System::Net::Http::Headers {
     public:
     // Nested type: System::Net::Http::Headers::Parser::MD5::$$c
     class $$c;
-    // Creating value type constructor for type: MD5
-    MD5() noexcept {}
     // Get static field: static public readonly System.Func`2<System.Object,System.String> ToString
     static System::Func_2<::Il2CppObject*, ::Il2CppString*>* _get_ToString();
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString

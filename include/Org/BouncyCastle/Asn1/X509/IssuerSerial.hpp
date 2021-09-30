@@ -58,8 +58,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* issuerUid;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: IssuerSerial
-    IssuerSerial(Org::BouncyCastle::Asn1::X509::GeneralNames* issuer_ = {}, Org::BouncyCastle::Asn1::DerInteger* serial_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUid_ = {}) noexcept : issuer{issuer_}, serial{serial_}, issuerUid{issuerUid_} {}
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
     Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_issuer();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger serial

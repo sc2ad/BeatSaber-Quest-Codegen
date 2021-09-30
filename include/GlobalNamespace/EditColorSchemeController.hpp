@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
-    // Creating value type constructor for type: EditColorSchemeController
-    EditColorSchemeController(GlobalNamespace::ColorSchemeColorsToggleGroup* colorSchemeColorsToggleGroup_ = {}, GlobalNamespace::RGBPanelController* rgbPanelController_ = {}, GlobalNamespace::HSVPanelController* hsvPanelController_ = {}, GlobalNamespace::PreviousColorPanelController* previousColorPanelController_ = {}, UnityEngine::UI::Button* closeButton_ = {}, System::Action* didFinishEvent_ = {}, System::Action_1<GlobalNamespace::ColorScheme*>* didChangeColorSchemeEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : colorSchemeColorsToggleGroup{colorSchemeColorsToggleGroup_}, rgbPanelController{rgbPanelController_}, hsvPanelController{hsvPanelController_}, previousColorPanelController{previousColorPanelController_}, closeButton{closeButton_}, didFinishEvent{didFinishEvent_}, didChangeColorSchemeEvent{didChangeColorSchemeEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSchemeColorsToggleGroup _colorSchemeColorsToggleGroup

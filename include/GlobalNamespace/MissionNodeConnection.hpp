@@ -103,8 +103,6 @@ namespace GlobalNamespace {
     bool isActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MissionNodeConnection
-    MissionNodeConnection(float separator_ = {}, float width_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, UnityEngine::UI::Image* image_ = {}, GlobalNamespace::MissionNodeVisualController* parentMissionNode_ = {}, GlobalNamespace::MissionNodeVisualController* childMissionNode_ = {}, UnityEngine::Animator* animator_ = {}, UnityEngine::Vector2 parentMissionNodePosition_ = {}, UnityEngine::Vector2 childMissionNodePosition_ = {}, bool isActive_ = {}) noexcept : separator{separator_}, width{width_}, rectTransform{rectTransform_}, image{image_}, parentMissionNode{parentMissionNode_}, childMissionNode{childMissionNode_}, animator{animator_}, parentMissionNodePosition{parentMissionNodePosition_}, childMissionNodePosition{childMissionNodePosition_}, isActive{isActive_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _separator

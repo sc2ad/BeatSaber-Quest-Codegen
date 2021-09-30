@@ -26,8 +26,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_OutputAttributeDictionary : public HoudiniEngineUnity::HEU_SerializableDictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_OutputAttribute*> {
     public:
-    // Creating value type constructor for type: HEU_OutputAttributeDictionary
-    HEU_OutputAttributeDictionary() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x17A07AC
     // Implemented from: HoudiniEngineUnity.HEU_SerializableDictionary`2

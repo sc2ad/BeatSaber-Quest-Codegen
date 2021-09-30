@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60FFC
   class _Exception {
     public:
-    // Creating value type constructor for type: _Exception
-    _Exception() noexcept {}
   }; // System.Runtime.InteropServices._Exception
   #pragma pack(pop)
 }

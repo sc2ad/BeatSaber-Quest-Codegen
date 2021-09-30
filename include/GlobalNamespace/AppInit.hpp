@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // Creating value type constructor for type: AppInit
-    AppInit(UnityEngine::GameObject* cameraGO_ = {}, GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : cameraGO{cameraGO_}, multiplayerMockSettings{multiplayerMockSettings_}, sceneSetupData{sceneSetupData_}, gameScenesManager{gameScenesManager_} {}
     // Get instance field reference: private UnityEngine.GameObject _cameraGO
     UnityEngine::GameObject*& dyn__cameraGO();
     // Get instance field reference: private MultiplayerMockSettings _multiplayerMockSettings

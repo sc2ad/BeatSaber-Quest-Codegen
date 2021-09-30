@@ -34,8 +34,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class BindingCondition : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: BindingCondition
-    BindingCondition() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x14F4950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

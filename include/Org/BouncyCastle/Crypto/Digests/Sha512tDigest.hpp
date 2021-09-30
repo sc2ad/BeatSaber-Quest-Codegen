@@ -80,8 +80,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     uint64_t H8t;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: Sha512tDigest
-    Sha512tDigest(int digestLength_ = {}, uint64_t H1t_ = {}, uint64_t H2t_ = {}, uint64_t H3t_ = {}, uint64_t H4t_ = {}, uint64_t H5t_ = {}, uint64_t H6t_ = {}, uint64_t H7t_ = {}, uint64_t H8t_ = {}) noexcept : digestLength{digestLength_}, H1t{H1t_}, H2t{H2t_}, H3t{H3t_}, H4t{H4t_}, H5t{H5t_}, H6t{H6t_}, H7t{H7t_}, H8t{H8t_} {}
     // Get instance field reference: private readonly System.Int32 digestLength
     int& dyn_digestLength();
     // Get instance field reference: private System.UInt64 H1t

@@ -71,8 +71,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ImageEffectController* imageEffectController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ImageEffectController*) == 0x8);
-    // Creating value type constructor for type: MainEffectController
-    MainEffectController(GlobalNamespace::MainEffectContainerSO* mainEffectContainer_ = {}, GlobalNamespace::FloatSO* fadeValue_ = {}, System::Action_1<UnityEngine::RenderTexture*>* afterImageEffectEvent_ = {}, GlobalNamespace::ImageEffectController* imageEffectController_ = {}) noexcept : mainEffectContainer{mainEffectContainer_}, fadeValue{fadeValue_}, afterImageEffectEvent{afterImageEffectEvent_}, imageEffectController{imageEffectController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kMainEffectEnabledKeyword

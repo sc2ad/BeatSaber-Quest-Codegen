@@ -95,8 +95,6 @@ namespace GlobalNamespace {
     int uvSegment;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MulticolorAvatarPartPropertyBlockSetter
-    MulticolorAvatarPartPropertyBlockSetter(::ArrayWrapper<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*> colorDataList_ = {}, UnityEngine::Renderer* renderer_ = {}, bool editInPlayMode_ = {}, ::ArrayWrapper<UnityEngine::Vector4> colors_ = {}, ::ArrayWrapper<UnityEngine::Vector4> rimLightColors_ = {}, ::ArrayWrapper<UnityEngine::Color> boostColors_ = {}, bool highlighted_ = {}, int uvSegment_ = {}) noexcept : colorDataList{colorDataList_}, renderer{renderer_}, editInPlayMode{editInPlayMode_}, colors{colors_}, rimLightColors{rimLightColors_}, boostColors{boostColors_}, highlighted{highlighted_}, uvSegment{uvSegment_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00ED4

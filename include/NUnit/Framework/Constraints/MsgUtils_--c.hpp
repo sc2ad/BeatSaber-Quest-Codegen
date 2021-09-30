@@ -28,8 +28,6 @@ namespace NUnit::Framework::Constraints {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MsgUtils::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c <>9
     static NUnit::Framework::Constraints::MsgUtils::$$c* _get_$$9();
     // Set static field: static public readonly NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c <>9

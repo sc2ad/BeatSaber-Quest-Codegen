@@ -21,8 +21,6 @@ namespace System::Collections::Concurrent {
   template<typename T>
   class IProducerConsumerCollection_1/*, public System::Collections::Generic::IEnumerable_1<T>, public System::Collections::ICollection*/ {
     public:
-    // Creating value type constructor for type: IProducerConsumerCollection_1
-    IProducerConsumerCollection_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<T>
     operator System::Collections::Generic::IEnumerable_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<T>*>(this);

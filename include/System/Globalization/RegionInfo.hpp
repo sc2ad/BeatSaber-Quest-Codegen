@@ -89,8 +89,6 @@ namespace System::Globalization {
     ::Il2CppString* currencyNativeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RegionInfo
-    RegionInfo(int regionId_ = {}, ::Il2CppString* iso2Name_ = {}, ::Il2CppString* iso3Name_ = {}, ::Il2CppString* win3Name_ = {}, ::Il2CppString* englishName_ = {}, ::Il2CppString* nativeName_ = {}, ::Il2CppString* currencySymbol_ = {}, ::Il2CppString* isoCurrencySymbol_ = {}, ::Il2CppString* currencyEnglishName_ = {}, ::Il2CppString* currencyNativeName_ = {}) noexcept : regionId{regionId_}, iso2Name{iso2Name_}, iso3Name{iso3Name_}, win3Name{win3Name_}, englishName{englishName_}, nativeName{nativeName_}, currencySymbol{currencySymbol_}, isoCurrencySymbol{isoCurrencySymbol_}, currencyEnglishName{currencyEnglishName_}, currencyNativeName{currencyNativeName_} {}
     // Get static field: static private System.Globalization.RegionInfo currentRegion
     static System::Globalization::RegionInfo* _get_currentRegion();
     // Set static field: static private System.Globalization.RegionInfo currentRegion

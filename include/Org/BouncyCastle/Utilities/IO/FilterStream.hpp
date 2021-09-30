@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Utilities::IO {
     System::IO::Stream* s;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: FilterStream
-    FilterStream(System::IO::Stream* s_ = {}) noexcept : s{s_} {}
     // Get instance field reference: protected readonly System.IO.Stream s
     System::IO::Stream*& dyn_s();
     // public System.Void .ctor(System.IO.Stream s)

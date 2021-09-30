@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* highlightImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: FileBrowserTableCell
-    FileBrowserTableCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}) noexcept : text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage

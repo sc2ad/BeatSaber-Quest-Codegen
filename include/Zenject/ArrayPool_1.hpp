@@ -34,8 +34,6 @@ namespace Zenject {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ArrayPool_1
-    ArrayPool_1(int length_ = {}) noexcept : length{length_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return length;

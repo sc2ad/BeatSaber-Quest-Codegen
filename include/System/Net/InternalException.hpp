@@ -20,8 +20,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalException : public System::SystemException {
     public:
-    // Creating value type constructor for type: InternalException
-    InternalException() noexcept {}
     // System.Void .ctor()
     // Offset: 0x184E804
     // Implemented from: System.SystemException

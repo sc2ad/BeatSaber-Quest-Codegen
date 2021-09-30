@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IReturnToMenuController {
     public:
-    // Creating value type constructor for type: IReturnToMenuController
-    IReturnToMenuController() noexcept {}
     // public System.Void ReturnToMenu()
     // Offset: 0xFFFFFFFF
     void ReturnToMenu();

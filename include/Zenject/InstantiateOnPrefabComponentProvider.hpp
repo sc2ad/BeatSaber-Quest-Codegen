@@ -55,8 +55,6 @@ namespace Zenject {
     System::Type* componentType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: InstantiateOnPrefabComponentProvider
-    InstantiateOnPrefabComponentProvider(Zenject::IPrefabInstantiator* prefabInstantiator_ = {}, System::Type* componentType_ = {}) noexcept : prefabInstantiator{prefabInstantiator_}, componentType{componentType_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

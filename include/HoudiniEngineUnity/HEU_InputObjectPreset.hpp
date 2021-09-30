@@ -58,8 +58,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: HEU_InputObjectPreset
-    HEU_InputObjectPreset(::Il2CppString* gameObjectName_ = {}, bool isSceneObject_ = {}, bool useTransformOffset_ = {}, UnityEngine::Vector3 translateOffset_ = {}, UnityEngine::Vector3 rotateOffset_ = {}, UnityEngine::Vector3 scaleOffset_ = {}) noexcept : gameObjectName{gameObjectName_}, isSceneObject{isSceneObject_}, useTransformOffset{useTransformOffset_}, translateOffset{translateOffset_}, rotateOffset{rotateOffset_}, scaleOffset{scaleOffset_} {}
     // Get instance field reference: public System.String _gameObjectName
     ::Il2CppString*& dyn__gameObjectName();
     // Get instance field reference: public System.Boolean _isSceneObject

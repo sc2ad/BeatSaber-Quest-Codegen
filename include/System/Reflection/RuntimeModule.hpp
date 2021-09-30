@@ -20,8 +20,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeModule : public System::Reflection::Module {
     public:
-    // Creating value type constructor for type: RuntimeModule
-    RuntimeModule() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x15A41E4
     // Implemented from: System.Reflection.Module

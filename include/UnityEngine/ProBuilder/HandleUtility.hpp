@@ -62,8 +62,6 @@ namespace UnityEngine::ProBuilder {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class HandleUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HandleUtility
-    HandleUtility() noexcept {}
     // static UnityEngine.Vector3 ScreenToGuiPoint(UnityEngine.Camera camera, UnityEngine.Vector3 point, System.Single pixelsPerPoint)
     // Offset: 0x1C77014
     static UnityEngine::Vector3 ScreenToGuiPoint(UnityEngine::Camera* camera, UnityEngine::Vector3 point, float pixelsPerPoint);

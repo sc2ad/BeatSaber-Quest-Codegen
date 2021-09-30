@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: SimpleTextWithIconTableCell
-    SimpleTextWithIconTableCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* icon_ = {}) noexcept : text{text_}, icon{icon_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Image _icon

@@ -30,8 +30,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class EndPoint : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EndPoint
-    EndPoint() noexcept {}
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
     // Offset: 0x157AAC0
     System::Net::Sockets::AddressFamily get_AddressFamily();

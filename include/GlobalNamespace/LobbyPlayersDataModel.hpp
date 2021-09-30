@@ -145,8 +145,6 @@ namespace GlobalNamespace {
     System::Action_1<::Il2CppString*>* didChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: LobbyPlayersDataModel
-    LobbyPlayersDataModel(GlobalNamespace::IMenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerData*>* playersData_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, ::Il2CppString* partyOwnerId_ = {}, System::Action_1<::Il2CppString*>* didChangeEvent_ = {}) noexcept : menuRpcManager{menuRpcManager_}, multiplayerSessionManager{multiplayerSessionManager_}, beatmapLevelsModel{beatmapLevelsModel_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, additionalContentModel{additionalContentModel_}, lobbyPlayerPermissionsModel{lobbyPlayerPermissionsModel_}, playersData{playersData_}, cancellationTokenSource{cancellationTokenSource_}, partyOwnerId{partyOwnerId_}, didChangeEvent{didChangeEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

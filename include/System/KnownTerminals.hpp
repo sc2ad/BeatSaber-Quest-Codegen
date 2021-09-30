@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class KnownTerminals : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: KnownTerminals
-    KnownTerminals() noexcept {}
     // static public System.Byte[] get_linux()
     // Offset: 0x1A0DAFC
     static ::ArrayWrapper<uint8_t> get_linux();

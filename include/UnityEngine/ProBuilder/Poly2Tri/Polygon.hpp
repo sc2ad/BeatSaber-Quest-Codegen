@@ -71,8 +71,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* triangles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*) == 0x8);
-    // Creating value type constructor for type: Polygon
-    Polygon(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* steinerPoints_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::Polygon*>* holes_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* triangles_ = {}) noexcept : points{points_}, steinerPoints{steinerPoints_}, holes{holes_}, triangles{triangles_} {}
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable
     operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);

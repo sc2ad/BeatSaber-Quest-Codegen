@@ -30,8 +30,6 @@ namespace UnityEngine::SceneManagement {
   // [StaticAccessorAttribute] Offset: E7364C
   class SceneManagerAPIInternal : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SceneManagerAPIInternal
-    SceneManagerAPIInternal() noexcept {}
     // static public UnityEngine.AsyncOperation LoadSceneAsyncNameIndexInternal(System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters, System.Boolean mustCompleteNextFrame)
     // Offset: 0x1E0C72C
     static UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::Il2CppString* sceneName, int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters, bool mustCompleteNextFrame);

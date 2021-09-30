@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: E85C70
   class Joint : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: Joint
-    Joint() noexcept {}
     // public UnityEngine.Rigidbody get_connectedBody()
     // Offset: 0x260C034
     UnityEngine::Rigidbody* get_connectedBody();

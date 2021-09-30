@@ -60,8 +60,6 @@ namespace HMUI {
     UnityEngine::AnimationClip* selectedAndHighlightedAnimationClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationClip*) == 0x8);
-    // Creating value type constructor for type: SelectableCellStaticAnimations
-    SelectableCellStaticAnimations(HMUI::SelectableCell* selectableCell_ = {}, UnityEngine::AnimationClip* normalAnimationClip_ = {}, UnityEngine::AnimationClip* highlightedAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAndHighlightedAnimationClip_ = {}) noexcept : selectableCell{selectableCell_}, normalAnimationClip{normalAnimationClip_}, highlightedAnimationClip{highlightedAnimationClip_}, selectedAnimationClip{selectedAnimationClip_}, selectedAndHighlightedAnimationClip{selectedAndHighlightedAnimationClip_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SelectableCell _selectableCell

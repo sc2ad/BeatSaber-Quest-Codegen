@@ -23,8 +23,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnsafeNclNativeMethods::SecureStringHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SecureStringHelper
-    SecureStringHelper() noexcept {}
     // static System.String CreateString(System.Security.SecureString secureString)
     // Offset: 0x1777A3C
     static ::Il2CppString* CreateString(System::Security::SecureString* secureString);

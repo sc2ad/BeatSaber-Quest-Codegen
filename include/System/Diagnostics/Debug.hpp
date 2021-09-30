@@ -14,8 +14,6 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class Debug : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Debug
-    Debug() noexcept {}
     // static public System.Void Assert(System.Boolean condition)
     // Offset: 0x1A24D88
     static void Assert_(bool condition);

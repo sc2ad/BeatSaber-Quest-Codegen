@@ -65,8 +65,6 @@ namespace Zenject {
     Zenject::ZenjectSettings::SignalSettings* signalSettings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings::SignalSettings*) == 0x8);
-    // Creating value type constructor for type: ZenjectSettings
-    ZenjectSettings(bool ensureDeterministicDestructionOrderOnApplicationQuit_ = {}, bool displayWarningWhenResolvingDuringInstall_ = {}, Zenject::RootResolveMethods validationRootResolveMethod_ = {}, Zenject::ValidationErrorResponses validationErrorResponse_ = {}, Zenject::ZenjectSettings::SignalSettings* signalSettings_ = {}) noexcept : ensureDeterministicDestructionOrderOnApplicationQuit{ensureDeterministicDestructionOrderOnApplicationQuit_}, displayWarningWhenResolvingDuringInstall{displayWarningWhenResolvingDuringInstall_}, validationRootResolveMethod{validationRootResolveMethod_}, validationErrorResponse{validationErrorResponse_}, signalSettings{signalSettings_} {}
     // Get static field: static public Zenject.ZenjectSettings Default
     static Zenject::ZenjectSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings Default

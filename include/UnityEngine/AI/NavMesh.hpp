@@ -34,8 +34,6 @@ namespace UnityEngine::AI {
     public:
     // Nested type: UnityEngine::AI::NavMesh::OnNavMeshPreUpdate
     class OnNavMeshPreUpdate;
-    // Creating value type constructor for type: NavMesh
-    NavMesh() noexcept {}
     // Get static field: static public UnityEngine.AI.NavMesh/UnityEngine.AI.OnNavMeshPreUpdate onPreUpdate
     static UnityEngine::AI::NavMesh::OnNavMeshPreUpdate* _get_onPreUpdate();
     // Set static field: static public UnityEngine.AI.NavMesh/UnityEngine.AI.OnNavMeshPreUpdate onPreUpdate

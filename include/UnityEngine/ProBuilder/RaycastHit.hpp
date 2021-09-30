@@ -44,8 +44,6 @@ namespace UnityEngine::ProBuilder {
     int face;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RaycastHit
-    RaycastHit(float distance_ = {}, UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, int face_ = {}) noexcept : distance{distance_}, point{point_}, normal{normal_}, face{face_} {}
     // Get instance field reference: public System.Single distance
     float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 point

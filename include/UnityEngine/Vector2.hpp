@@ -134,7 +134,6 @@ namespace UnityEngine {
     static UnityEngine::Vector2 get_right();
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0x234A758
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Vector2(float x, float y)
     // static private System.Void .cctor()
     // Offset: 0x234B334

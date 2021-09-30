@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: ProModeTrailingCollidersController
-    ProModeTrailingCollidersController(GlobalNamespace::BoxCuttableBySaber* mainSmallCuttableBySaber_ = {}, ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> trailingSmallCuttableBySaberList_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mainSmallCuttableBySaber{mainSmallCuttableBySaber_}, trailingSmallCuttableBySaberList{trailingSmallCuttableBySaberList_}, noteMovement{noteMovement_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BoxCuttableBySaber _mainSmallCuttableBySaber

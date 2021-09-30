@@ -15,8 +15,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILobbyPlayerData/*, public GlobalNamespace::ILevelGameplaySetupData*/ {
     public:
-    // Creating value type constructor for type: ILobbyPlayerData
-    ILobbyPlayerData() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelGameplaySetupData
     operator GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);

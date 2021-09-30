@@ -14,8 +14,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Logging : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Logging
-    Logging() noexcept {}
     // Get static field: static readonly System.Boolean On
     static bool _get_On();
     // Set static field: static readonly System.Boolean On

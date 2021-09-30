@@ -43,8 +43,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class GroupPresence : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GroupPresence
-    GroupPresence() noexcept {}
     // static public Oculus.Platform.Request Clear()
     // Offset: 0x16ABE84
     static Oculus::Platform::Request* Clear();

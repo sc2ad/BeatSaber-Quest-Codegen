@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     float hideAlphaRangeMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: EnableRendererWithLightId
-    EnableRendererWithLightId(UnityEngine::Renderer* renderer_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}) noexcept : renderer{renderer_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_} {}
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Single _hideAlphaRangeMin

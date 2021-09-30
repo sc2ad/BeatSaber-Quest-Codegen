@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BaseResultsEnvironmentController* resultsEnvironmentController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BaseResultsEnvironmentController*) == 0x8);
-    // Creating value type constructor for type: ResultEnvironmentControllerWithKeyword
-    ResultEnvironmentControllerWithKeyword(::Il2CppString* keyword_ = {}, GlobalNamespace::BaseResultsEnvironmentController* resultsEnvironmentController_ = {}) noexcept : keyword{keyword_}, resultsEnvironmentController{resultsEnvironmentController_} {}
     // Get instance field reference: private System.String _keyword
     ::Il2CppString*& dyn__keyword();
     // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController

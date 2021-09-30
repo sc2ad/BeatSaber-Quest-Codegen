@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     ::Il2CppString* keyword;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(::Il2CppString* keyword_ = {}) noexcept : keyword{keyword_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return keyword;

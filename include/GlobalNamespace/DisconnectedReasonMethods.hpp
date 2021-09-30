@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class DisconnectedReasonMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DisconnectedReasonMethods
-    DisconnectedReasonMethods() noexcept {}
     // [LocalizationKeyAttribute] Offset: 0xF02D3C
     // static field const value: static private System.String kDisconnectedUnknown
     static constexpr const char* kDisconnectedUnknown = "DISCONNECTED_UNKNOWN";

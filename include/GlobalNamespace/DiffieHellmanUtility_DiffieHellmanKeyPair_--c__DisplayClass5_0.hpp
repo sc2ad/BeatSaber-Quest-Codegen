@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<uint8_t> clientPublicKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* $$4__this_ = {}, ::ArrayWrapper<uint8_t> clientPublicKey_ = {}) noexcept : $$4__this{$$4__this_}, clientPublicKey{clientPublicKey_} {}
     // Get instance field reference: public DiffieHellmanUtility/DiffieHellmanKeyPair <>4__this
     GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] clientPublicKey

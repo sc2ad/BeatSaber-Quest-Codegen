@@ -48,8 +48,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::GameObject* recipient;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: Message
-    Message(::Il2CppString* function_ = {}, UnityEngine::GameObject* recipient_ = {}) noexcept : function{function_}, recipient{recipient_} {}
     // static field const value: static private System.String empty
     static constexpr const char* empty = "";
     // Get static field: static private System.String empty

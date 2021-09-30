@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Nist {
   // [TokenAttribute] Offset: FFFFFFFF
   class NistObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NistObjectIdentifiers
-    NistObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier NistAlgorithm
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_NistAlgorithm();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier NistAlgorithm

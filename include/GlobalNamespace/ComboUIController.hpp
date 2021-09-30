@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     bool comboLost;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ComboUIController
-    ComboUIController(TMPro::TextMeshProUGUI* comboText_ = {}, UnityEngine::Animator* animator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int comboLostID_ = {}, bool comboLost_ = {}) noexcept : comboText{comboText_}, animator{animator_}, scoreController{scoreController_}, comboLostID{comboLostID_}, comboLost{comboLost_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _comboText

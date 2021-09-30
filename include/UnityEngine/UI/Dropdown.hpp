@@ -181,8 +181,6 @@ namespace UnityEngine::UI {
     bool validTemplate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Dropdown
-    Dropdown(UnityEngine::RectTransform* m_Template_ = {}, UnityEngine::UI::Text* m_CaptionText_ = {}, UnityEngine::UI::Image* m_CaptionImage_ = {}, UnityEngine::UI::Text* m_ItemText_ = {}, UnityEngine::UI::Image* m_ItemImage_ = {}, int m_Value_ = {}, UnityEngine::UI::Dropdown::OptionDataList* m_Options_ = {}, UnityEngine::UI::Dropdown::DropdownEvent* m_OnValueChanged_ = {}, float m_AlphaFadeSpeed_ = {}, UnityEngine::GameObject* m_Dropdown_ = {}, UnityEngine::GameObject* m_Blocker_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>* m_Items_ = {}, UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::FloatTween>* m_AlphaTweenRunner_ = {}, bool validTemplate_ = {}) noexcept : m_Template{m_Template_}, m_CaptionText{m_CaptionText_}, m_CaptionImage{m_CaptionImage_}, m_ItemText{m_ItemText_}, m_ItemImage{m_ItemImage_}, m_Value{m_Value_}, m_Options{m_Options_}, m_OnValueChanged{m_OnValueChanged_}, m_AlphaFadeSpeed{m_AlphaFadeSpeed_}, m_Dropdown{m_Dropdown_}, m_Blocker{m_Blocker_}, m_Items{m_Items_}, m_AlphaTweenRunner{m_AlphaTweenRunner_}, validTemplate{validTemplate_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

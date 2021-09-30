@@ -20,8 +20,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class Installer : public Zenject::InstallerBase {
     public:
-    // Creating value type constructor for type: Installer
-    Installer() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1834D4C
     // Implemented from: Zenject.InstallerBase

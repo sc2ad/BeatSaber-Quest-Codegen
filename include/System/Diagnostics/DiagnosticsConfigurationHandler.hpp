@@ -28,8 +28,6 @@ namespace System::Diagnostics {
   // [ObsoleteAttribute] Offset: E6A40C
   class DiagnosticsConfigurationHandler : public ::Il2CppObject/*, public System::Configuration::IConfigurationSectionHandler*/ {
     public:
-    // Creating value type constructor for type: DiagnosticsConfigurationHandler
-    DiagnosticsConfigurationHandler() noexcept {}
     // Creating interface conversion operator: operator System::Configuration::IConfigurationSectionHandler
     operator System::Configuration::IConfigurationSectionHandler() noexcept {
       return *reinterpret_cast<System::Configuration::IConfigurationSectionHandler*>(this);

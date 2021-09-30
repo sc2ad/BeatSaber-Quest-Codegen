@@ -15,8 +15,6 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E950
   class Monitor : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Monitor
-    Monitor() noexcept {}
     // static public System.Void Enter(System.Object obj)
     // Offset: 0x1A5A63C
     static void Enter(::Il2CppObject* obj);

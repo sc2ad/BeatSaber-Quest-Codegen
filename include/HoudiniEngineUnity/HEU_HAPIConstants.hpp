@@ -23,8 +23,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HAPIConstants : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_HAPIConstants
-    HEU_HAPIConstants() noexcept {}
     // static field const value: static public System.Int32 HAPI_POSITION_VECTOR_SIZE
     static constexpr const int HAPI_POSITION_VECTOR_SIZE = 3;
     // Get static field: static public System.Int32 HAPI_POSITION_VECTOR_SIZE

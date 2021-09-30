@@ -15,8 +15,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class Res : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Res
-    Res() noexcept {}
     // static public System.String GetString(System.String name)
     // Offset: 0x1AF7D68
     static ::Il2CppString* GetString(::Il2CppString* name);

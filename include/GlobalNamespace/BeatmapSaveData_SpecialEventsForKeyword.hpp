@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*) == 0x8);
-    // Creating value type constructor for type: SpecialEventsForKeyword
-    SpecialEventsForKeyword(::Il2CppString* keyword_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents_ = {}) noexcept : keyword{keyword_}, specialEvents{specialEvents_} {}
     // Get instance field reference: private System.String _keyword
     ::Il2CppString*& dyn__keyword();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents

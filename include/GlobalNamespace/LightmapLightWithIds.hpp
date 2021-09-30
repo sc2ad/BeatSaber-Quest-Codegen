@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     bool initializedPropertyIds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LightmapLightWithIds
-    LightmapLightWithIds(int lightId_ = {}, float intensity_ = {}, ::ArrayWrapper<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*> lightIntensityData_ = {}, int lightmapLightIdColorPropertyId_ = {}, int lightProbeLightIdColorPropertyId_ = {}, bool initializedPropertyIds_ = {}) noexcept : lightId{lightId_}, intensity{intensity_}, lightIntensityData{lightIntensityData_}, lightmapLightIdColorPropertyId{lightmapLightIdColorPropertyId_}, lightProbeLightIdColorPropertyId{lightProbeLightIdColorPropertyId_}, initializedPropertyIds{initializedPropertyIds_} {}
     // Get instance field reference: private System.Int32 _lightId
     int& dyn__lightId();
     // Get instance field reference: private System.Single _intensity

@@ -111,8 +111,6 @@ namespace MasterServer {
     int64_t dedicatedServerCreationTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: DedicatedServerPrepareForConnectionResponse
-    DedicatedServerPrepareForConnectionResponse(MasterServer::DedicatedServerPrepareForConnectionResponse::Result result_ = {}, ::Il2CppString* dedicatedServerId_ = {}, int64_t dedicatedServerCreationTime_ = {}) noexcept : result{result_}, dedicatedServerId{dedicatedServerId_}, dedicatedServerCreationTime{dedicatedServerCreationTime_} {}
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerClientToServerMessage
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);

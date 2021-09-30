@@ -101,8 +101,6 @@ namespace System::Net {
     // Size: 0xFFFFFFFF
     // Offset: 0x48
     System::Nullable_1<bool> user_read_synch;
-    // Creating value type constructor for type: SimpleAsyncResult
-    SimpleAsyncResult(System::Threading::ManualResetEvent* handle_ = {}, bool synch_ = {}, bool isCompleted_ = {}, System::Net::SimpleAsyncCallback* cb_ = {}, ::Il2CppObject* state_ = {}, bool callbackDone_ = {}, System::Exception* exc_ = {}, ::Il2CppObject* locker_ = {}, System::Nullable_1<bool> user_read_synch_ = {}) noexcept : handle{handle_}, synch{synch_}, isCompleted{isCompleted_}, cb{cb_}, state{state_}, callbackDone{callbackDone_}, exc{exc_}, locker{locker_}, user_read_synch{user_read_synch_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

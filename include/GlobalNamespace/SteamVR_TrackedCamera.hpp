@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     class VideoStreamTexture;
     // Nested type: GlobalNamespace::SteamVR_TrackedCamera::VideoStream
     class VideoStream;
-    // Creating value type constructor for type: SteamVR_TrackedCamera
-    SteamVR_TrackedCamera() noexcept {}
     // Get static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] distorted
     static ::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_distorted();
     // Set static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] distorted

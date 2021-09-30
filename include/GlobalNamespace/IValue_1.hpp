@@ -17,8 +17,6 @@ namespace GlobalNamespace {
   template<typename T>
   class IValue_1 {
     public:
-    // Creating value type constructor for type: IValue_1
-    IValue_1() noexcept {}
     // public T get_value()
     // Offset: 0xFFFFFFFF
     T get_value() {

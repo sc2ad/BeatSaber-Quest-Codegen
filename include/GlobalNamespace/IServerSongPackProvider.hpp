@@ -15,8 +15,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IServerSongPackProvider {
     public:
-    // Creating value type constructor for type: IServerSongPackProvider
-    IServerSongPackProvider() noexcept {}
     // public SongPackMask[] DecomposeSongPackMask(SongPackMask songPackMask)
     // Offset: 0xFFFFFFFF
     ::ArrayWrapper<GlobalNamespace::SongPackMask> DecomposeSongPackMask(GlobalNamespace::SongPackMask songPackMask);

@@ -60,8 +60,6 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     Org::BouncyCastle::Asn1::DerInteger* a;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: Gost3410ParamSetParameters
-    Gost3410ParamSetParameters(int keySize_ = {}, Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* a_ = {}) noexcept : keySize{keySize_}, p{p_}, q{q_}, a{a_} {}
     // Get instance field reference: private readonly System.Int32 keySize
     int& dyn_keySize();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger p

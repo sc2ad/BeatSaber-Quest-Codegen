@@ -36,8 +36,6 @@ namespace Zenject {
     Zenject::DiContainer* subContainer;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(Zenject::DiContainer* subContainer_ = {}) noexcept : subContainer{subContainer_} {}
     // Creating conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept {
       return subContainer;

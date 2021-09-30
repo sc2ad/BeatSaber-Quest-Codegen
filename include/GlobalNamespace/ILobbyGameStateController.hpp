@@ -54,8 +54,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILobbyGameStateController {
     public:
-    // Creating value type constructor for type: ILobbyGameStateController
-    ILobbyGameStateController() noexcept {}
     // public MultiplayerLobbyState get_state()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MultiplayerLobbyState get_state();

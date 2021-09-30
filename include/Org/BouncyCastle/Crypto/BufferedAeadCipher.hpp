@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Crypto {
     Org::BouncyCastle::Crypto::Modes::IAeadCipher* cipher;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Modes::IAeadCipher*) == 0x8);
-    // Creating value type constructor for type: BufferedAeadCipher
-    BufferedAeadCipher(Org::BouncyCastle::Crypto::Modes::IAeadCipher* cipher_ = {}) noexcept : cipher{cipher_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Modes::IAeadCipher*
     constexpr operator Org::BouncyCastle::Crypto::Modes::IAeadCipher*() const noexcept {
       return cipher;

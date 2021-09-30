@@ -53,8 +53,6 @@ namespace UnityEngine {
     UnityEngine::Color m_SelectionColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: GUISettings
-    GUISettings(bool m_DoubleClickSelectsWord_ = {}, bool m_TripleClickSelectsLine_ = {}, UnityEngine::Color m_CursorColor_ = {}, float m_CursorFlashSpeed_ = {}, UnityEngine::Color m_SelectionColor_ = {}) noexcept : m_DoubleClickSelectsWord{m_DoubleClickSelectsWord_}, m_TripleClickSelectsLine{m_TripleClickSelectsLine_}, m_CursorColor{m_CursorColor_}, m_CursorFlashSpeed{m_CursorFlashSpeed_}, m_SelectionColor{m_SelectionColor_} {}
     // Get instance field reference: private System.Boolean m_DoubleClickSelectsWord
     bool& dyn_m_DoubleClickSelectsWord();
     // Get instance field reference: private System.Boolean m_TripleClickSelectsLine

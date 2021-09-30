@@ -23,8 +23,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Normals : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Normals
-    Normals() noexcept {}
     // Get static field: static private UnityEngine.Vector3[] s_SmoothAvg
     static ::ArrayWrapper<UnityEngine::Vector3> _get_s_SmoothAvg();
     // Set static field: static private UnityEngine.Vector3[] s_SmoothAvg

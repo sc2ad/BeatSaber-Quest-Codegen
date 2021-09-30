@@ -46,8 +46,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SongPackMaskModelSO::SongPackMaskItem::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly SongPackMaskModelSO/SongPackMaskItem/<>c <>9
     static GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c* _get_$$9();
     // Set static field: static public readonly SongPackMaskModelSO/SongPackMaskItem/<>c <>9

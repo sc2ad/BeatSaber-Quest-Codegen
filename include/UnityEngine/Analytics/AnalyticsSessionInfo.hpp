@@ -28,8 +28,6 @@ namespace UnityEngine::Analytics {
     class SessionStateChanged;
     // Nested type: UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged
     class IdentityTokenChanged;
-    // Creating value type constructor for type: AnalyticsSessionInfo
-    AnalyticsSessionInfo() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xED43F8
     // Get static field: static private UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.SessionStateChanged sessionStateChanged
     static UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged* _get_sessionStateChanged();

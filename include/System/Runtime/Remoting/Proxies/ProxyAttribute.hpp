@@ -42,8 +42,6 @@ namespace System::Runtime::Remoting::Proxies {
   // [AttributeUsageAttribute] Offset: E5FBC8
   class ProxyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ProxyAttribute
-    ProxyAttribute() noexcept {}
     // public System.MarshalByRefObject CreateInstance(System.Type serverType)
     // Offset: 0x1C22090
     System::MarshalByRefObject* CreateInstance(System::Type* serverType);

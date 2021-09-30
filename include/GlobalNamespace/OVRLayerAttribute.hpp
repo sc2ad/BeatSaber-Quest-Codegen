@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRLayerAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: OVRLayerAttribute
-    OVRLayerAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x16D11F8
     // Implemented from: UnityEngine.PropertyAttribute

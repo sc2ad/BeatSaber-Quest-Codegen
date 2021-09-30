@@ -27,8 +27,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class NativeArrayUnsafeUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NativeArrayUnsafeUtility
-    NativeArrayUnsafeUtility() noexcept {}
     // static public Unity.Collections.NativeArray`1<T> ConvertExistingDataToNativeArray(System.Void* dataPointer, System.Int32 length, Unity.Collections.Allocator allocator)
     // Offset: 0xFFFFFFFF
     template<class T>

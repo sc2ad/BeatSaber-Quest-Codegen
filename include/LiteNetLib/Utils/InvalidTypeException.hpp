@@ -20,8 +20,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidTypeException : public System::ArgumentException {
     public:
-    // Creating value type constructor for type: InvalidTypeException
-    InvalidTypeException() noexcept {}
     // public System.Void .ctor(System.String message)
     // Offset: 0x1DE1EAC
     // Implemented from: System.ArgumentException

@@ -81,8 +81,6 @@ namespace GlobalNamespace {
       int64_t expireTime;
       // Field size check
       static_assert(sizeof(int64_t) == 0x8);
-      // Creating value type constructor for type: Entry
-      Entry(TKey key_ = {}, TValue value_ = {}, int64_t expireTime_ = {}) noexcept : key{key_}, value{value_}, expireTime{expireTime_} {}
       // Creating interface conversion operator: operator System::IDisposable
       operator System::IDisposable() noexcept {
         return *reinterpret_cast<System::IDisposable*>(this);
@@ -161,8 +159,6 @@ namespace GlobalNamespace {
       System::Collections::Generic::IEnumerator_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* $$7__wrap1;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::IEnumerator_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>*) == 0x8);
-      // Creating value type constructor for type: $Enumerate$d__12
-      $Enumerate$d__12(int $$1__state_ = {}, TValue $$2__current_ = {}, GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* $$4__this_ = {}, System::Collections::Generic::IEnumerator_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<TValue>
       operator System::Collections::Generic::IEnumerator_1<TValue>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<TValue>*>(this);
@@ -286,8 +282,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* reusableEntries;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>*) == 0x8);
-    // Creating value type constructor for type: ExpiringDictionary_2
-    ExpiringDictionary_2(MasterServer::ITimeProvider* timeProvider_ = {}, int64_t expirationLengthMs_ = {}, GlobalNamespace::OrderedSet_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* expirationQueue_ = {}, System::Collections::Generic::Dictionary_2<TKey, typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* entryLookup_ = {}, System::Collections::Generic::List_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* reusableEntries_ = {}) noexcept : timeProvider{timeProvider_}, expirationLengthMs{expirationLengthMs_}, expirationQueue{expirationQueue_}, entryLookup{entryLookup_}, reusableEntries{reusableEntries_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

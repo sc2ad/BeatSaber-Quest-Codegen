@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EBB614
   class Grid : public UnityEngine::GridLayout {
     public:
-    // Creating value type constructor for type: Grid
-    Grid() noexcept {}
     // public UnityEngine.Vector3 get_cellSize()
     // Offset: 0x262A12C
     UnityEngine::Vector3 get_cellSize();

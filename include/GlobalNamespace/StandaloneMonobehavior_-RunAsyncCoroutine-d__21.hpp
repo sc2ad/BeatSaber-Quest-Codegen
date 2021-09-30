@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
-    // Creating value type constructor for type: $RunAsyncCoroutine$d__21
-    $RunAsyncCoroutine$d__21(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::StandaloneMonobehavior* $$4__this_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, tcs{tcs_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Mesh* self;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
-    // Creating value type constructor for type: Test_Mesh
-    Test_Mesh(UnityEngine::Mesh* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Mesh*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Mesh*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Mesh*>*>(this);

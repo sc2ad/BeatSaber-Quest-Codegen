@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetDetailsList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AssetDetails*> {
     public:
-    // Creating value type constructor for type: AssetDetailsList
-    AssetDetailsList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16B5538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

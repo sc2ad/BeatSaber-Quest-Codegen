@@ -34,8 +34,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TestResultRenderer::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/UnityEngine.TestTools.TestRunner.Callbacks.<>c <>9
     static UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/UnityEngine.TestTools.TestRunner.Callbacks.<>c <>9

@@ -36,8 +36,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class CollectionParser : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CollectionParser
-    CollectionParser() noexcept {}
     // static public System.Boolean TryParse(System.String input, System.Int32 minimalCount, System.Net.Http.Headers.ElementTryParser`1<T> parser, out System.Collections.Generic.List`1<T> result)
     // Offset: 0xFFFFFFFF
     template<class T>

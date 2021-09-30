@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVROverlay::ExternalSurfaceObjectCreated : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ExternalSurfaceObjectCreated
-    ExternalSurfaceObjectCreated() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x146F4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

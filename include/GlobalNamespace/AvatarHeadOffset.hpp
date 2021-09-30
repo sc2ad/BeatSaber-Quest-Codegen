@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController*) == 0x8);
-    // Creating value type constructor for type: AvatarHeadOffset
-    AvatarHeadOffset(UnityEngine::Vector3 positionOffset_ = {}, GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}) noexcept : positionOffset{positionOffset_}, avatarPoseController{avatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _positionOffset

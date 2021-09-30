@@ -17,8 +17,6 @@ namespace Zenject {
   template<typename TParam1>
   class IPoolable_1 {
     public:
-    // Creating value type constructor for type: IPoolable_1
-    IPoolable_1() noexcept {}
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
     void OnDespawned() {

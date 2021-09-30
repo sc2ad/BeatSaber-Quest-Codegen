@@ -162,8 +162,6 @@ namespace System::Net {
     System::Collections::ArrayList* chunks;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
-    // Creating value type constructor for type: MonoChunkStream
-    MonoChunkStream(System::Net::WebHeaderCollection* headers_ = {}, int chunkSize_ = {}, int chunkRead_ = {}, int totalWritten_ = {}, System::Net::MonoChunkStream::State state_ = {}, System::Text::StringBuilder* saved_ = {}, bool sawCR_ = {}, bool gotit_ = {}, int trailerState_ = {}, System::Collections::ArrayList* chunks_ = {}) noexcept : headers{headers_}, chunkSize{chunkSize_}, chunkRead{chunkRead_}, totalWritten{totalWritten_}, state{state_}, saved{saved_}, sawCR{sawCR_}, gotit{gotit_}, trailerState{trailerState_}, chunks{chunks_} {}
     // Get instance field reference: System.Net.WebHeaderCollection headers
     System::Net::WebHeaderCollection*& dyn_headers();
     // Get instance field reference: private System.Int32 chunkSize

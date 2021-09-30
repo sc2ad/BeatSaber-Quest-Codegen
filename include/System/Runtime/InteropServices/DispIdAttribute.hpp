@@ -28,8 +28,6 @@ namespace System::Runtime::InteropServices {
     int val;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DispIdAttribute
-    DispIdAttribute(int val_ = {}) noexcept : val{val_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return val;

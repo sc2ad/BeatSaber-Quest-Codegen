@@ -142,8 +142,6 @@ namespace UnityEngine::UI {
     ::ArrayWrapper<UnityEngine::Vector3> m_Corners;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: RectMask2D
-    RectMask2D(UnityEngine::UI::RectangularVertexClipper* m_VertexClipper_ = {}, UnityEngine::RectTransform* m_RectTransform_ = {}, System::Collections::Generic::HashSet_1<UnityEngine::UI::MaskableGraphic*>* m_MaskableTargets_ = {}, System::Collections::Generic::HashSet_1<UnityEngine::UI::IClippable*>* m_ClipTargets_ = {}, bool m_ShouldRecalculateClipRects_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* m_Clippers_ = {}, UnityEngine::Rect m_LastClipRectCanvasSpace_ = {}, bool m_ForceClip_ = {}, UnityEngine::Vector4 m_Padding_ = {}, UnityEngine::Vector2Int m_Softness_ = {}, UnityEngine::Canvas* m_Canvas_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_Corners_ = {}) noexcept : m_VertexClipper{m_VertexClipper_}, m_RectTransform{m_RectTransform_}, m_MaskableTargets{m_MaskableTargets_}, m_ClipTargets{m_ClipTargets_}, m_ShouldRecalculateClipRects{m_ShouldRecalculateClipRects_}, m_Clippers{m_Clippers_}, m_LastClipRectCanvasSpace{m_LastClipRectCanvasSpace_}, m_ForceClip{m_ForceClip_}, m_Padding{m_Padding_}, m_Softness{m_Softness_}, m_Canvas{m_Canvas_}, m_Corners{m_Corners_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::IClipper
     operator UnityEngine::UI::IClipper() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IClipper*>(this);

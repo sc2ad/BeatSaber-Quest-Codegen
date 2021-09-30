@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoAnalyticsModel : public ::Il2CppObject/*, public GlobalNamespace::IAnalyticsModel*/ {
     public:
-    // Creating value type constructor for type: NoAnalyticsModel
-    NoAnalyticsModel() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IAnalyticsModel
     operator GlobalNamespace::IAnalyticsModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAnalyticsModel*>(this);

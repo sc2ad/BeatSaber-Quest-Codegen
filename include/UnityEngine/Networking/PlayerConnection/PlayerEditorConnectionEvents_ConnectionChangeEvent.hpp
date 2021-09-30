@@ -21,8 +21,6 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerEditorConnectionEvents::ConnectionChangeEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
-    // Creating value type constructor for type: ConnectionChangeEvent
-    ConnectionChangeEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DB0AC0
     // Implemented from: UnityEngine.Events.UnityEvent`1

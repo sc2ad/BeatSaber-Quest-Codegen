@@ -33,8 +33,6 @@ namespace UnityEngine {
     UnityEngine::AndroidJavaRunnable* mRunnable;
     // Field size check
     static_assert(sizeof(UnityEngine::AndroidJavaRunnable*) == 0x8);
-    // Creating value type constructor for type: AndroidJavaRunnableProxy
-    AndroidJavaRunnableProxy(UnityEngine::AndroidJavaRunnable* mRunnable_ = {}) noexcept : mRunnable{mRunnable_} {}
     // Creating conversion operator: operator UnityEngine::AndroidJavaRunnable*
     constexpr operator UnityEngine::AndroidJavaRunnable*() const noexcept {
       return mRunnable;

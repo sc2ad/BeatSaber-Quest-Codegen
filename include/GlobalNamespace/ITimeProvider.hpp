@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITimeProvider {
     public:
-    // Creating value type constructor for type: ITimeProvider
-    ITimeProvider() noexcept {}
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
     float get_time();

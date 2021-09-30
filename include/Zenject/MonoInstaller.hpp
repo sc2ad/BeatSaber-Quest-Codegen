@@ -20,8 +20,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoInstaller : public Zenject::MonoInstallerBase {
     public:
-    // Creating value type constructor for type: MonoInstaller
-    MonoInstaller() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1895C84
     // Implemented from: Zenject.MonoInstallerBase

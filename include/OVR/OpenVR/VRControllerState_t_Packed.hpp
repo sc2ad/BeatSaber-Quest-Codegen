@@ -97,7 +97,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
     // Offset: 0x13B49F8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VRControllerState_t_Packed(OVR::OpenVR::VRControllerState_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VRControllerState_t_Packed::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));

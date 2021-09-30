@@ -58,8 +58,6 @@ namespace NUnit::Framework::Internal::Commands {
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*) == 0x8);
-    // Creating value type constructor for type: OneTimeTearDownCommand
-    OneTimeTearDownCommand(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions_ = {}) noexcept : setUpTearDownItems{setUpTearDownItems_}, actions{actions_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems

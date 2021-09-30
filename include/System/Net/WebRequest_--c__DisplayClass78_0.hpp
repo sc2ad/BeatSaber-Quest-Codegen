@@ -51,8 +51,6 @@ namespace System::Net {
     System::Net::WebRequest* $$4__this;
     // Field size check
     static_assert(sizeof(System::Net::WebRequest*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass78_0
-    $$c__DisplayClass78_0(System::Security::Principal::WindowsIdentity* currentUser_ = {}, System::Net::WebRequest* $$4__this_ = {}) noexcept : currentUser{currentUser_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Security.Principal.WindowsIdentity currentUser
     System::Security::Principal::WindowsIdentity*& dyn_currentUser();
     // Get instance field reference: public System.Net.WebRequest <>4__this

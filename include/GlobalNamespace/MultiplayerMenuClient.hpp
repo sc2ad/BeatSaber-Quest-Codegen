@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // Creating value type constructor for type: MultiplayerMenuClient
-    MultiplayerMenuClient(GlobalNamespace::MenuPlayerController* menuPlayerController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}) noexcept : menuPlayerController{menuPlayerController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MenuPlayerController _menuPlayerController

@@ -58,8 +58,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion current;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: RotationOffsetLink
-    RotationOffsetLink(RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset_ = {}, float weight_ = {}, UnityEngine::Quaternion lastValue_ = {}, UnityEngine::Quaternion current_ = {}) noexcept : rotationOffset{rotationOffset_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
     RootMotion::FinalIK::IKSolverVR::RotationOffset& dyn_rotationOffset();
     // Get instance field reference: public System.Single weight

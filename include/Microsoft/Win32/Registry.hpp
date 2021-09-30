@@ -22,8 +22,6 @@ namespace Microsoft::Win32 {
   // [ComVisibleAttribute] Offset: E5B7FC
   class Registry : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Registry
-    Registry() noexcept {}
     // Get static field: static public readonly Microsoft.Win32.RegistryKey ClassesRoot
     static Microsoft::Win32::RegistryKey* _get_ClassesRoot();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey ClassesRoot

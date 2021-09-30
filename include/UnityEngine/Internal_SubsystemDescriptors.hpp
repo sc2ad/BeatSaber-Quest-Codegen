@@ -36,8 +36,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Internal_SubsystemDescriptors : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Internal_SubsystemDescriptors
-    Internal_SubsystemDescriptors() noexcept {}
     // Get static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptorImpl> s_IntegratedSubsystemDescriptors
     static System::Collections::Generic::List_1<UnityEngine::ISubsystemDescriptorImpl*>* _get_s_IntegratedSubsystemDescriptors();
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptorImpl> s_IntegratedSubsystemDescriptors

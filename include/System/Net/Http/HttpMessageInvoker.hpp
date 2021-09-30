@@ -54,8 +54,6 @@ namespace System::Net::Http {
     bool disposeHandler;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HttpMessageInvoker
-    HttpMessageInvoker(System::Net::Http::HttpMessageHandler* handler_ = {}, bool disposeHandler_ = {}) noexcept : handler{handler_}, disposeHandler{disposeHandler_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

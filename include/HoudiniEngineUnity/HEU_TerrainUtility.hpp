@@ -52,8 +52,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TerrainUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_TerrainUtility
-    HEU_TerrainUtility() noexcept {}
     // static public System.Boolean GenerateTerrainFromVolume(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject, ref UnityEngine.TerrainData terrainData, out UnityEngine.Vector3 volumePositionOffset, ref UnityEngine.Terrain terrain, System.String bakedMaterialPath)
     // Offset: 0x17DA85C
     static bool GenerateTerrainFromVolume(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo, int geoID, int partID, UnityEngine::GameObject* gameObject, ByRef<UnityEngine::TerrainData*> terrainData, ByRef<UnityEngine::Vector3> volumePositionOffset, ByRef<UnityEngine::Terrain*> terrain, ::Il2CppString* bakedMaterialPath);

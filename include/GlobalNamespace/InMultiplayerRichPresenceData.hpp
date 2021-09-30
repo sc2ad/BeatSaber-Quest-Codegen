@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     bool canInvite;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InMultiplayerRichPresenceData
-    InMultiplayerRichPresenceData(::Il2CppString* apiName_ = {}, ::Il2CppString* localizedDescription_ = {}, ::Il2CppString* multiplayerSecret_ = {}, bool atMaxPartySize_ = {}, bool canInvite_ = {}) noexcept : apiName{apiName_}, localizedDescription{localizedDescription_}, multiplayerSecret{multiplayerSecret_}, atMaxPartySize{atMaxPartySize_}, canInvite{canInvite_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerRichPresenceData
     operator GlobalNamespace::IMultiplayerRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerRichPresenceData*>(this);

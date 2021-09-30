@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: PS4AchievementIdsModelSO
-    PS4AchievementIdsModelSO(System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* achievementsIds_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* achievementIdToTrophyId_ = {}, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId_ = {}) noexcept : achievementsIds{achievementsIds_}, achievementIdToTrophyId{achievementIdToTrophyId_}, trophyIdToAchievementId{trophyIdToAchievementId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds

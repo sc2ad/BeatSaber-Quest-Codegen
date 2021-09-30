@@ -65,8 +65,6 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper* httpLeaderboardsOathHelper;
     // Field size check
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*) == 0x8);
-    // Creating value type constructor for type: HTTPApiLeaderboardsModel
-    HTTPApiLeaderboardsModel(OnlineServices::API::HTTPLeaderboardsOathHelper* httpLeaderboardsOathHelper_ = {}) noexcept : httpLeaderboardsOathHelper{httpLeaderboardsOathHelper_} {}
     // Creating interface conversion operator: operator OnlineServices::API::IApiLeaderboardsModel
     operator OnlineServices::API::IApiLeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::API::IApiLeaderboardsModel*>(this);

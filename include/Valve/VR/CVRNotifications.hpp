@@ -41,8 +41,6 @@ namespace Valve::VR {
     Valve::VR::IVRNotifications FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRNotifications) == 0x10);
-    // Creating value type constructor for type: CVRNotifications
-    CVRNotifications(Valve::VR::IVRNotifications FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRNotifications
     constexpr operator Valve::VR::IVRNotifications() const noexcept {
       return FnTable;

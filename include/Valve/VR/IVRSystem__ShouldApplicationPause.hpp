@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5380
   class IVRSystem::_ShouldApplicationPause : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ShouldApplicationPause
-    _ShouldApplicationPause() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE3060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

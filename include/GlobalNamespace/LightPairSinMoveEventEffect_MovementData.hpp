@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     float side;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MovementData
-    MovementData(bool enabled_ = {}, float speed_ = {}, UnityEngine::Vector3 startPosition_ = {}, UnityEngine::Transform* transform_ = {}, float startMovementValue_ = {}, float movementValue_ = {}, float side_ = {}) noexcept : enabled{enabled_}, speed{speed_}, startPosition{startPosition_}, transform{transform_}, startMovementValue{startMovementValue_}, movementValue{movementValue_}, side{side_} {}
     // Get instance field reference: public System.Boolean enabled
     bool& dyn_enabled();
     // Get instance field reference: public System.Single speed

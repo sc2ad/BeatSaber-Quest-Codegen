@@ -34,8 +34,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     bool msgReceived;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass20_0
-    $$c__DisplayClass20_0(bool msgReceived_ = {}) noexcept : msgReceived{msgReceived_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return msgReceived;

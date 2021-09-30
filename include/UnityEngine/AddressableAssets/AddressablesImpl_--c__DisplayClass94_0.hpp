@@ -67,8 +67,6 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::AddressableAssets::Addressables::MergeMode mode;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::Addressables::MergeMode) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass94_0
-    $$c__DisplayClass94_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, System::Collections::IEnumerable* keys_ = {}, UnityEngine::AddressableAssets::Addressables::MergeMode mode_ = {}) noexcept : $$4__this{$$4__this_}, keys{keys_}, mode{mode_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.IEnumerable keys

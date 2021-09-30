@@ -47,8 +47,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*) == 0x8);
-    // Creating value type constructor for type: MessageTypeSubscribers
-    MessageTypeSubscribers(::Il2CppString* m_messageTypeId_ = {}, int subscriberCount_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback_ = {}) noexcept : m_messageTypeId{m_messageTypeId_}, subscriberCount{subscriberCount_}, messageCallback{messageCallback_} {}
     // Get instance field reference: private System.String m_messageTypeId
     ::Il2CppString*& dyn_m_messageTypeId();
     // Get instance field reference: public System.Int32 subscriberCount

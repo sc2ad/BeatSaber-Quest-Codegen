@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackTraceUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StackTraceUtility
-    StackTraceUtility() noexcept {}
     // Get static field: static private System.String projectFolder
     static ::Il2CppString* _get_projectFolder();
     // Set static field: static private System.String projectFolder

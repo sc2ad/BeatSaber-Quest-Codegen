@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     public:
     // Nested type: Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback
     class FixedPointCallback;
-    // Creating value type constructor for type: FixedPointUtilities
-    FixedPointUtilities() noexcept {}
     // Get static field: static public readonly System.String PRECOMP_NAME
     static ::Il2CppString* _get_PRECOMP_NAME();
     // Set static field: static public readonly System.String PRECOMP_NAME

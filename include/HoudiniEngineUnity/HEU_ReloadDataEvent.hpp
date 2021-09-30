@@ -26,8 +26,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ReloadDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_ReloadEventData*> {
     public:
-    // Creating value type constructor for type: HEU_ReloadDataEvent
-    HEU_ReloadDataEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x17D200C
     // Implemented from: UnityEngine.Events.UnityEvent`1

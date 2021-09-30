@@ -129,8 +129,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* dailyLeaderboardsData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*) == 0x8);
-    // Creating value type constructor for type: LocalLeaderboardsModel
-    LocalLeaderboardsModel(int maxNumberOfScoresInLeaderboard_ = {}, System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* newScoreWasAddedToLeaderboardEvent_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, int>* lastScorePositions_ = {}, ::Il2CppString* lastScoreLeaderboardId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* dailyLeaderboardsData_ = {}) noexcept : maxNumberOfScoresInLeaderboard{maxNumberOfScoresInLeaderboard_}, newScoreWasAddedToLeaderboardEvent{newScoreWasAddedToLeaderboardEvent_}, lastScorePositions{lastScorePositions_}, lastScoreLeaderboardId{lastScoreLeaderboardId_}, leaderboardsData{leaderboardsData_}, dailyLeaderboardsData{dailyLeaderboardsData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kLocalLeaderboardsFileName

@@ -107,8 +107,6 @@ namespace System::Threading {
     System::Threading::Timer* m_timer;
     // Field size check
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
-    // Creating value type constructor for type: CancellationTokenSource
-    CancellationTokenSource(System::Threading::ManualResetEvent* m_kernelEvent_ = {}, ::ArrayWrapper<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*> m_registeredCallbacksLists_ = {}, int m_state_ = {}, int m_threadIDExecutingCallbacks_ = {}, bool m_disposed_ = {}, ::ArrayWrapper<System::Threading::CancellationTokenRegistration> m_linkingRegistrations_ = {}, System::Threading::CancellationCallbackInfo* m_executingCallback_ = {}, System::Threading::Timer* m_timer_ = {}) noexcept : m_kernelEvent{m_kernelEvent_}, m_registeredCallbacksLists{m_registeredCallbacksLists_}, m_state{m_state_}, m_threadIDExecutingCallbacks{m_threadIDExecutingCallbacks_}, m_disposed{m_disposed_}, m_linkingRegistrations{m_linkingRegistrations_}, m_executingCallback{m_executingCallback_}, m_timer{m_timer_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -47,8 +47,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ShelfTools : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_ShelfTools
-    HEU_ShelfTools() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Shelf> _shelves
     static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Shelf*>* _get__shelves();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Shelf> _shelves

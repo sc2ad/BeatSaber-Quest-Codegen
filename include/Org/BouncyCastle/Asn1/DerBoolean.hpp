@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Asn1 {
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    // Creating value type constructor for type: DerBoolean
-    DerBoolean(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint8_t
     constexpr operator uint8_t() const noexcept {
       return value;

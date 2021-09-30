@@ -33,8 +33,6 @@ namespace System::Xml {
     int hashCodeRandomizer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SecureStringHasher
-    SecureStringHasher(int hashCodeRandomizer_ = {}) noexcept : hashCodeRandomizer{hashCodeRandomizer_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>
     operator System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>*>(this);

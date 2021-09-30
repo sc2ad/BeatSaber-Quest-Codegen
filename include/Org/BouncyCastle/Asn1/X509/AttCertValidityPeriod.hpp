@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerGeneralizedTime*) == 0x8);
-    // Creating value type constructor for type: AttCertValidityPeriod
-    AttCertValidityPeriod(Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime_ = {}, Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime_ = {}) noexcept : notBeforeTime{notBeforeTime_}, notAfterTime{notAfterTime_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notBeforeTime
     Org::BouncyCastle::Asn1::DerGeneralizedTime*& dyn_notBeforeTime();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notAfterTime

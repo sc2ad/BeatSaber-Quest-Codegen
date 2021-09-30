@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>* inputAssetCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*) == 0x8);
-    // Creating value type constructor for type: HEU_InputNodeUICache
-    HEU_InputNodeUICache(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputObjectUICache*>* inputObjectCache_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>* inputAssetCache_ = {}) noexcept : inputObjectCache{inputObjectCache_}, inputAssetCache{inputAssetCache_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputObjectUICache> _inputObjectCache
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputObjectUICache*>*& dyn__inputObjectCache();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache> _inputAssetCache

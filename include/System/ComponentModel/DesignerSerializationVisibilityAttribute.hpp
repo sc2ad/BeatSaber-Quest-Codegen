@@ -29,8 +29,6 @@ namespace System::ComponentModel {
     System::ComponentModel::DesignerSerializationVisibility visibility;
     // Field size check
     static_assert(sizeof(System::ComponentModel::DesignerSerializationVisibility) == 0x4);
-    // Creating value type constructor for type: DesignerSerializationVisibilityAttribute
-    DesignerSerializationVisibilityAttribute(System::ComponentModel::DesignerSerializationVisibility visibility_ = {}) noexcept : visibility{visibility_} {}
     // Creating conversion operator: operator System::ComponentModel::DesignerSerializationVisibility
     constexpr operator System::ComponentModel::DesignerSerializationVisibility() const noexcept {
       return visibility;

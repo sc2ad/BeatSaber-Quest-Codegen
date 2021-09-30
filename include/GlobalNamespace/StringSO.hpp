@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringSO : public GlobalNamespace::ObservableVariableSO_1<::Il2CppString*> {
     public:
-    // Creating value type constructor for type: StringSO
-    StringSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x259AFD4
     // Implemented from: ObservableVariableSO`1

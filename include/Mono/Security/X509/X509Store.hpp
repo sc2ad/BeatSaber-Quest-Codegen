@@ -64,8 +64,6 @@ namespace Mono::Security::X509 {
     bool newFormat;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: X509Store
-    X509Store(::Il2CppString* storePath_ = {}, Mono::Security::X509::X509CertificateCollection* certificates_ = {}, System::Collections::ArrayList* crls_ = {}, bool crl_ = {}, bool newFormat_ = {}) noexcept : storePath{storePath_}, certificates{certificates_}, crls{crls_}, crl{crl_}, newFormat{newFormat_} {}
     // Get instance field reference: private System.String _storePath
     ::Il2CppString*& dyn__storePath();
     // Get instance field reference: private Mono.Security.X509.X509CertificateCollection _certificates

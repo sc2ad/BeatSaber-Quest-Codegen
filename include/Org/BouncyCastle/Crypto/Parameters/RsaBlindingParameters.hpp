@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*) == 0x8);
-    // Creating value type constructor for type: RsaBlindingParameters
-    RsaBlindingParameters(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey_ = {}) noexcept : publicKey{publicKey_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*
     constexpr operator Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*() const noexcept {
       return publicKey;

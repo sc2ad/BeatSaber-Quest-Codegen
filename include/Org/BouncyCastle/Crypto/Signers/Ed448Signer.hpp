@@ -71,8 +71,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*) == 0x8);
-    // Creating value type constructor for type: Ed448Signer
-    Ed448Signer(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer* buffer_ = {}, ::ArrayWrapper<uint8_t> context_ = {}, bool forSigning_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey_ = {}) noexcept : buffer{buffer_}, context{context_}, forSigning{forSigning_}, privateKey{privateKey_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

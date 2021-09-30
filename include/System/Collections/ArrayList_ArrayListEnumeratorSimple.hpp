@@ -54,8 +54,6 @@ namespace System::Collections {
     bool isArrayList;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ArrayListEnumeratorSimple
-    ArrayListEnumeratorSimple(System::Collections::ArrayList* list_ = {}, int index_ = {}, int version_ = {}, ::Il2CppObject* currentElement_ = {}, bool isArrayList_ = {}) noexcept : list{list_}, index{index_}, version{version_}, currentElement{currentElement_}, isArrayList{isArrayList_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

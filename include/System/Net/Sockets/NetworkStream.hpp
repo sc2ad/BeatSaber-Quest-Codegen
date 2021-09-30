@@ -93,8 +93,6 @@ namespace System::Net::Sockets {
     int m_CurrentWriteTimeout;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NetworkStream
-    NetworkStream(System::Net::Sockets::Socket* m_StreamSocket_ = {}, bool m_Readable_ = {}, bool m_Writeable_ = {}, bool m_OwnsSocket_ = {}, int m_CloseTimeout_ = {}, bool m_CleanedUp_ = {}, int m_CurrentReadTimeout_ = {}, int m_CurrentWriteTimeout_ = {}) noexcept : m_StreamSocket{m_StreamSocket_}, m_Readable{m_Readable_}, m_Writeable{m_Writeable_}, m_OwnsSocket{m_OwnsSocket_}, m_CloseTimeout{m_CloseTimeout_}, m_CleanedUp{m_CleanedUp_}, m_CurrentReadTimeout{m_CurrentReadTimeout_}, m_CurrentWriteTimeout{m_CurrentWriteTimeout_} {}
     // Get instance field reference: private System.Net.Sockets.Socket m_StreamSocket
     System::Net::Sockets::Socket*& dyn_m_StreamSocket();
     // Get instance field reference: private System.Boolean m_Readable

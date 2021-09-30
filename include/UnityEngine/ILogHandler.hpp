@@ -29,8 +29,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILogHandler {
     public:
-    // Creating value type constructor for type: ILogHandler
-    ILogHandler() noexcept {}
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);

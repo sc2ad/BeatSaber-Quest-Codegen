@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     System::Action* action;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $ExecuteAfterDelayCoroutine$d__0
-    $ExecuteAfterDelayCoroutine$d__0(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, float time_ = {}, System::Action* action_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, time{time_}, action{action_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

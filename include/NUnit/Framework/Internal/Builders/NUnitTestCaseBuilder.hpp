@@ -50,8 +50,6 @@ namespace NUnit::Framework::Internal::Builders {
     NUnit::Framework::Internal::TestNameGenerator* nameGenerator;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestNameGenerator*) == 0x8);
-    // Creating value type constructor for type: NUnitTestCaseBuilder
-    NUnitTestCaseBuilder(NUnit::Framework::Internal::Randomizer* randomizer_ = {}, NUnit::Framework::Internal::TestNameGenerator* nameGenerator_ = {}) noexcept : randomizer{randomizer_}, nameGenerator{nameGenerator_} {}
     // Get instance field reference: private readonly NUnit.Framework.Internal.Randomizer _randomizer
     NUnit::Framework::Internal::Randomizer*& dyn__randomizer();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator

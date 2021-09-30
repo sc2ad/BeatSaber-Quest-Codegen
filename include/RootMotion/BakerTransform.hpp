@@ -115,8 +115,6 @@ namespace RootMotion {
     UnityEngine::Quaternion relativeRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: BakerTransform
-    BakerTransform(UnityEngine::Transform* transform_ = {}, UnityEngine::AnimationCurve* posX_ = {}, UnityEngine::AnimationCurve* posY_ = {}, UnityEngine::AnimationCurve* posZ_ = {}, UnityEngine::AnimationCurve* rotX_ = {}, UnityEngine::AnimationCurve* rotY_ = {}, UnityEngine::AnimationCurve* rotZ_ = {}, UnityEngine::AnimationCurve* rotW_ = {}, ::Il2CppString* relativePath_ = {}, bool recordPosition_ = {}, UnityEngine::Vector3 relativePosition_ = {}, bool isRootNode_ = {}, UnityEngine::Quaternion relativeRotation_ = {}) noexcept : transform{transform_}, posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, relativePath{relativePath_}, recordPosition{recordPosition_}, relativePosition{relativePosition_}, isRootNode{isRootNode_}, relativeRotation{relativeRotation_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.AnimationCurve posX

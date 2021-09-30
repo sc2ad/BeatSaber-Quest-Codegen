@@ -38,8 +38,6 @@ namespace Oculus::Platform {
     bool ovrUseStandalonePlatform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PlatformSettings
-    PlatformSettings(::Il2CppString* ovrAppID_ = {}, ::Il2CppString* ovrMobileAppID_ = {}, bool ovrUseStandalonePlatform_ = {}) noexcept : ovrAppID{ovrAppID_}, ovrMobileAppID{ovrMobileAppID_}, ovrUseStandalonePlatform{ovrUseStandalonePlatform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private Oculus.Platform.PlatformSettings instance

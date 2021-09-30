@@ -29,8 +29,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CustomTweenBehaviour::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly CustomTweenBehaviour/<>c <>9
     static GlobalNamespace::CustomTweenBehaviour::$$c* _get_$$9();
     // Set static field: static public readonly CustomTweenBehaviour/<>c <>9

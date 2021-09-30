@@ -31,8 +31,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformInternal::Users : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Users
-    Users() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LinkedAccountList> GetLinkedAccounts(Oculus.Platform.ServiceProvider[] providers)
     // Offset: 0x25B82F4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::ArrayWrapper<Oculus::Platform::ServiceProvider> providers);

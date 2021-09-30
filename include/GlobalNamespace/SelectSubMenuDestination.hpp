@@ -100,8 +100,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SelectSubMenuDestination::Destination menuDestination;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectSubMenuDestination::Destination) == 0x4);
-    // Creating value type constructor for type: SelectSubMenuDestination
-    SelectSubMenuDestination(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination_ = {}) noexcept : menuDestination{menuDestination_} {}
     // Creating conversion operator: operator GlobalNamespace::SelectSubMenuDestination::Destination
     constexpr operator GlobalNamespace::SelectSubMenuDestination::Destination() const noexcept {
       return menuDestination;

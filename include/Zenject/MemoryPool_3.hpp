@@ -24,8 +24,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TValue>
   class MemoryPool_3 : public Zenject::MemoryPoolBase_1<TValue>/*, public Zenject::IFactory_3<TParam1, TParam2, TValue>, public Zenject::IMemoryPool_3<TParam1, TParam2, TValue>*/ {
     public:
-    // Creating value type constructor for type: MemoryPool_3
-    MemoryPool_3() noexcept {}
     // Creating interface conversion operator: operator Zenject::IFactory_3<TParam1, TParam2, TValue>
     operator Zenject::IFactory_3<TParam1, TParam2, TValue>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_3<TParam1, TParam2, TValue>*>(this);

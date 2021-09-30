@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     float minIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: DirectionalLightWithId
-    DirectionalLightWithId(GlobalNamespace::DirectionalLight* light_ = {}, float intensity_ = {}, float minIntensity_ = {}) noexcept : light{light_}, intensity{intensity_}, minIntensity{minIntensity_} {}
     // Get instance field reference: private DirectionalLight _light
     GlobalNamespace::DirectionalLight*& dyn__light();
     // Get instance field reference: private System.Single _intensity

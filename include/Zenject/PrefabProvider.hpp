@@ -34,8 +34,6 @@ namespace Zenject {
     UnityEngine::Object* prefab;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // Creating value type constructor for type: PrefabProvider
-    PrefabProvider(UnityEngine::Object* prefab_ = {}) noexcept : prefab{prefab_} {}
     // Creating interface conversion operator: operator Zenject::IPrefabProvider
     operator Zenject::IPrefabProvider() noexcept {
       return *reinterpret_cast<Zenject::IPrefabProvider*>(this);

@@ -45,8 +45,6 @@ namespace Valve::VR {
     Valve::VR::IVRTrackedCamera FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRTrackedCamera) == 0x60);
-    // Creating value type constructor for type: CVRTrackedCamera
-    CVRTrackedCamera(Valve::VR::IVRTrackedCamera FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRTrackedCamera
     constexpr operator Valve::VR::IVRTrackedCamera() const noexcept {
       return FnTable;

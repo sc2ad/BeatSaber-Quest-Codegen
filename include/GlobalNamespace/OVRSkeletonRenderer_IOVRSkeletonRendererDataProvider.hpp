@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider {
     public:
-    // Creating value type constructor for type: IOVRSkeletonRendererDataProvider
-    IOVRSkeletonRendererDataProvider() noexcept {}
     // public OVRSkeletonRenderer/SkeletonRendererData GetSkeletonRendererData()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData GetSkeletonRendererData();

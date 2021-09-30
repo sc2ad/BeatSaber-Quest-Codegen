@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60DA4
   class _Activator {
     public:
-    // Creating value type constructor for type: _Activator
-    _Activator() noexcept {}
   }; // System.Runtime.InteropServices._Activator
   #pragma pack(pop)
 }

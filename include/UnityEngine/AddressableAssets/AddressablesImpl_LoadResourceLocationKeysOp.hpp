@@ -76,8 +76,6 @@ namespace UnityEngine::AddressableAssets {
     System::Type* m_ResourceType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: LoadResourceLocationKeysOp
-    LoadResourceLocationKeysOp(System::Collections::IEnumerable* m_Key_ = {}, UnityEngine::AddressableAssets::Addressables::MergeMode m_MergeMode_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, System::Type* m_ResourceType_ = {}) noexcept : m_Key{m_Key_}, m_MergeMode{m_MergeMode_}, m_locations{m_locations_}, m_Addressables{m_Addressables_}, m_ResourceType{m_ResourceType_} {}
     // Get instance field reference: private System.Collections.IEnumerable m_Key
     System::Collections::IEnumerable*& dyn_m_Key();
     // Get instance field reference: private UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode m_MergeMode

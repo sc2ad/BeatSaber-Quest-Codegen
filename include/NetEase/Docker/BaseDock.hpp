@@ -63,8 +63,6 @@ namespace NetEase::Docker {
     System::Action_1<NetEase::Docker::ReceivedHighscoreData>* OnHighscoreReceived;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*) == 0x8);
-    // Creating value type constructor for type: BaseDock
-    BaseDock(System::Action_1<NetEase::Docker::InitializeData>* OnInitFinished_ = {}, System::Action_1<NetEase::Docker::LoginData>* OnLoginFinished_ = {}, System::Action_1<NetEase::Docker::LogoutData>* OnLogoutFinished_ = {}, System::Action_1<NetEase::Docker::ReceivedHighscoreData>* OnHighscoreReceived_ = {}) noexcept : OnInitFinished{OnInitFinished_}, OnLoginFinished{OnLoginFinished_}, OnLogoutFinished{OnLogoutFinished_}, OnHighscoreReceived{OnHighscoreReceived_} {}
     // Creating interface conversion operator: operator NetEase::Docker::IDock
     operator NetEase::Docker::IDock() noexcept {
       return *reinterpret_cast<NetEase::Docker::IDock*>(this);

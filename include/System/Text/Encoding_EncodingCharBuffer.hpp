@@ -91,8 +91,6 @@ namespace System::Text {
     System::Text::DecoderFallbackBuffer* fallbackBuffer;
     // Field size check
     static_assert(sizeof(System::Text::DecoderFallbackBuffer*) == 0x8);
-    // Creating value type constructor for type: EncodingCharBuffer
-    EncodingCharBuffer(::Il2CppChar* chars_ = {}, ::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, int charCountResult_ = {}, System::Text::Encoding* enc_ = {}, System::Text::DecoderNLS* decoder_ = {}, uint8_t* byteStart_ = {}, uint8_t* byteEnd_ = {}, uint8_t* bytes_ = {}, System::Text::DecoderFallbackBuffer* fallbackBuffer_ = {}) noexcept : chars{chars_}, charStart{charStart_}, charEnd{charEnd_}, charCountResult{charCountResult_}, enc{enc_}, decoder{decoder_}, byteStart{byteStart_}, byteEnd{byteEnd_}, bytes{bytes_}, fallbackBuffer{fallbackBuffer_} {}
     // Get instance field reference: private System.Char* chars
     ::Il2CppChar*& dyn_chars();
     // Get instance field reference: private System.Char* charStart

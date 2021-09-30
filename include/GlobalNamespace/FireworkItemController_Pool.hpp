@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FireworkItemController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FireworkItemController*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11B7ADC
     // Implemented from: Zenject.MonoMemoryPool`1

@@ -25,8 +25,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class CertificateValidationHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CertificateValidationHelper
-    CertificateValidationHelper() noexcept {}
     // Get static field: static private readonly System.Boolean noX509Chain
     static bool _get_noX509Chain();
     // Set static field: static private readonly System.Boolean noX509Chain

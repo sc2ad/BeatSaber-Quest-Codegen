@@ -27,8 +27,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class RSACertificateExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RSACertificateExtensions
-    RSACertificateExtensions() noexcept {}
     // static public System.Security.Cryptography.RSA GetRSAPublicKey(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0x25C7344
     static System::Security::Cryptography::RSA* GetRSAPublicKey(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);

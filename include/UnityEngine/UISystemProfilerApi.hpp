@@ -25,8 +25,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::UISystemProfilerApi::SampleType
     struct SampleType;
-    // Creating value type constructor for type: UISystemProfilerApi
-    UISystemProfilerApi() noexcept {}
     // static public System.Void BeginSample(UnityEngine.UISystemProfilerApi/UnityEngine.SampleType type)
     // Offset: 0x2618068
     static void BeginSample(UnityEngine::UISystemProfilerApi::SampleType type);

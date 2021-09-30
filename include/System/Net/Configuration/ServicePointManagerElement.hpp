@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServicePointManagerElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: ServicePointManagerElement
-    ServicePointManagerElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x157020C
     // Implemented from: System.Configuration.ConfigurationElement

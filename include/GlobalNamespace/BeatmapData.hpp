@@ -126,8 +126,6 @@ namespace GlobalNamespace {
     float prevAddedBeatmapEventDataTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatmapData
-    BeatmapData(int cuttableNotesCount_ = {}, int obstaclesCount_ = {}, int bombsCount_ = {}, int spawnRotationEventsCount_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLineData*> beatmapLinesData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEventsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* availableSpecialEventsPerKeywordDictionary_ = {}, GlobalNamespace::BeatmapObjectsInTimeRowProcessor* beatmapObjectsInTimeRowProcessor_ = {}, GlobalNamespace::BeatmapEventDataProcessor* beatmapEventDataProcessor_ = {}, float prevAddedBeatmapObjectDataTime_ = {}, float prevAddedBeatmapEventDataTime_ = {}) noexcept : cuttableNotesCount{cuttableNotesCount_}, obstaclesCount{obstaclesCount_}, bombsCount{bombsCount_}, spawnRotationEventsCount{spawnRotationEventsCount_}, beatmapLinesData{beatmapLinesData_}, beatmapEventsData{beatmapEventsData_}, availableSpecialEventsPerKeywordDictionary{availableSpecialEventsPerKeywordDictionary_}, beatmapObjectsInTimeRowProcessor{beatmapObjectsInTimeRowProcessor_}, beatmapEventDataProcessor{beatmapEventDataProcessor_}, prevAddedBeatmapObjectDataTime{prevAddedBeatmapObjectDataTime_}, prevAddedBeatmapEventDataTime{prevAddedBeatmapEventDataTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IReadonlyBeatmapData
     operator GlobalNamespace::IReadonlyBeatmapData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReadonlyBeatmapData*>(this);

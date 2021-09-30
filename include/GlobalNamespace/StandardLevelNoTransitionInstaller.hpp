@@ -121,8 +121,6 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // Creating value type constructor for type: StandardLevelNoTransitionInstaller
-    StandardLevelNoTransitionInstaller(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PracticeSettings* practiceSettings_ = {}, ::Il2CppString* backButtonText_ = {}, bool useTestNoteCutSoundEffects_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_}, environmentInfo{environmentInfo_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, backButtonText{backButtonText_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoTransitionColorSchemeProvider
     operator GlobalNamespace::INoTransitionColorSchemeProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoTransitionColorSchemeProvider*>(this);

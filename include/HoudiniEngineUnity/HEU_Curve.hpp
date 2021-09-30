@@ -231,8 +231,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
-    // Creating value type constructor for type: HEU_Curve
-    HEU_Curve(int geoID_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>* curveNodeData_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, bool isEditable_ = {}, HoudiniEngineUnity::HEU_Parameters* parameters_ = {}, bool bUploadParameterPreset_ = {}, ::Il2CppString* curveName_ = {}, UnityEngine::GameObject* targetGameObject_ = {}, bool isGeoCurve_ = {}, HoudiniEngineUnity::HEU_Curve::CurveEditState editState_ = {}, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset_ = {}) noexcept : geoID{geoID_}, curveNodeData{curveNodeData_}, vertices{vertices_}, isEditable{isEditable_}, parameters{parameters_}, bUploadParameterPreset{bUploadParameterPreset_}, curveName{curveName_}, targetGameObject{targetGameObject_}, isGeoCurve{isGeoCurve_}, editState{editState_}, parentAsset{parentAsset_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Curve*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Curve*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Curve*>*>(this);

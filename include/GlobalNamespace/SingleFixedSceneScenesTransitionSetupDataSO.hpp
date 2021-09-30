@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* sceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // Creating value type constructor for type: SingleFixedSceneScenesTransitionSetupDataSO
-    SingleFixedSceneScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* sceneInfo_ = {}) noexcept : sceneInfo{sceneInfo_} {}
     // Get instance field reference: private SceneInfo _sceneInfo
     GlobalNamespace::SceneInfo*& dyn__sceneInfo();
     // public SceneInfo get_sceneInfo()

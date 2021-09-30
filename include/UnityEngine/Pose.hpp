@@ -62,7 +62,6 @@ namespace UnityEngine {
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x1DFDD90
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)
     // static private System.Void .cctor()
     // Offset: 0x1DFE4F8

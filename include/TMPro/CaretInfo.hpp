@@ -47,7 +47,6 @@ namespace TMPro {
     TMPro::CaretPosition& dyn_position();
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
     // Offset: 0x11E9DE8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
   }; // TMPro.CaretInfo
   #pragma pack(pop)

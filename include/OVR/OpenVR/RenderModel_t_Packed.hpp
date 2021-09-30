@@ -73,7 +73,6 @@ namespace OVR::OpenVR {
     int& dyn_diffuseTextureId();
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
     // Offset: 0x13B49A0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_t_Packed(OVR::OpenVR::RenderModel_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::RenderModel_t_Packed::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));

@@ -25,8 +25,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IParameterDataProvider {
     public:
-    // Creating value type constructor for type: IParameterDataProvider
-    IParameterDataProvider() noexcept {}
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerable* GetDataFor(NUnit::Framework::Interfaces::IParameterInfo* parameter);

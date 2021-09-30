@@ -49,8 +49,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* pendingRemove;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
-    // Creating value type constructor for type: HEU_ThreadManager
-    HEU_ThreadManager(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* tasks_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* pendingAdd_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* pendingRemove_ = {}) noexcept : tasks{tasks_}, pendingAdd{pendingAdd_}, pendingRemove{pendingRemove_} {}
     // Get static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance
     static HoudiniEngineUnity::HEU_ThreadManager* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance

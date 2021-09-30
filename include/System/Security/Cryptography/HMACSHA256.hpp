@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F2F4
   class HMACSHA256 : public System::Security::Cryptography::HMAC {
     public:
-    // Creating value type constructor for type: HMACSHA256
-    HMACSHA256() noexcept {}
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A76B90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

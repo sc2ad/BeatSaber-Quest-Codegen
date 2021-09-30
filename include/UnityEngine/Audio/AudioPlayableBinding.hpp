@@ -30,8 +30,6 @@ namespace UnityEngine::Audio {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioPlayableBinding : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AudioPlayableBinding
-    AudioPlayableBinding() noexcept {}
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
     // Offset: 0x2606C38
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key);

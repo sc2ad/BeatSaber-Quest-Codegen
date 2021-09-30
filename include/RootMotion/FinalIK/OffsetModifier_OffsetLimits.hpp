@@ -113,8 +113,6 @@ namespace RootMotion::FinalIK {
     float maxZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: OffsetLimits
-    OffsetLimits(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float spring_ = {}, bool x_ = {}, bool y_ = {}, bool z_ = {}, float minX_ = {}, float maxX_ = {}, float minY_ = {}, float maxY_ = {}, float minZ_ = {}, float maxZ_ = {}) noexcept : effector{effector_}, spring{spring_}, x{x_}, y{y_}, z{z_}, minX{minX_}, maxX{maxX_}, minY{minY_}, maxY{maxY_}, minZ{minZ_}, maxZ{maxZ_} {}
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single spring

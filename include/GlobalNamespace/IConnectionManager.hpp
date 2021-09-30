@@ -57,8 +57,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConnectionManager/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: IConnectionManager
-    IConnectionManager() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

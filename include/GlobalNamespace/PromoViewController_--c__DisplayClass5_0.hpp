@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PromoViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PromoViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(GlobalNamespace::PromoViewController::ButtonPromoTypePair* item_ = {}, GlobalNamespace::PromoViewController* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public PromoViewController/ButtonPromoTypePair item
     GlobalNamespace::PromoViewController::ButtonPromoTypePair*& dyn_item();
     // Get instance field reference: public PromoViewController <>4__this

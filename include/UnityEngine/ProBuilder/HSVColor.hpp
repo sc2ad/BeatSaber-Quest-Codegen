@@ -43,8 +43,6 @@ namespace UnityEngine::ProBuilder {
     float v;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: HSVColor
-    HSVColor(float h_ = {}, float s_ = {}, float v_ = {}) noexcept : h{h_}, s{s_}, v{v_} {}
     // Get instance field reference: public System.Single h
     float& dyn_h();
     // Get instance field reference: public System.Single s

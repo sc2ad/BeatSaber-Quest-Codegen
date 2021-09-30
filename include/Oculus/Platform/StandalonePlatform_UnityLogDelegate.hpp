@@ -32,8 +32,6 @@ namespace Oculus::Platform {
   // [UnmanagedFunctionPointerAttribute] Offset: EE816C
   class StandalonePlatform::UnityLogDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UnityLogDelegate
-    UnityLogDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25BB8A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -89,8 +89,6 @@ namespace System::Net {
     System::EventHandler* ConnectionClosed;
     // Field size check
     static_assert(sizeof(System::EventHandler*) == 0x8);
-    // Creating value type constructor for type: WebConnectionGroup
-    WebConnectionGroup(System::Net::ServicePoint* sPoint_ = {}, ::Il2CppString* name_ = {}, System::Collections::Generic::LinkedList_1<System::Net::WebConnectionGroup::ConnectionState*>* connections_ = {}, System::Collections::Queue* queue_ = {}, bool closing_ = {}, System::EventHandler* ConnectionClosed_ = {}) noexcept : sPoint{sPoint_}, name{name_}, connections{connections_}, queue{queue_}, closing{closing_}, ConnectionClosed{ConnectionClosed_} {}
     // Get instance field reference: private System.Net.ServicePoint sPoint
     System::Net::ServicePoint*& dyn_sPoint();
     // Get instance field reference: private System.String name

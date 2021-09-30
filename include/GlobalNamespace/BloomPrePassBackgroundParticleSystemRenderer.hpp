@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBackgroundParticleSystemRenderer
-    BloomPrePassBackgroundParticleSystemRenderer(UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::Renderer* renderer_ = {}) noexcept : particleSystem{particleSystem_}, renderer{renderer_} {}
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private UnityEngine.Renderer _renderer

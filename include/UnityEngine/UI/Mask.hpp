@@ -78,8 +78,6 @@ namespace UnityEngine::UI {
     UnityEngine::Material* m_UnmaskMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: Mask
-    Mask(UnityEngine::RectTransform* m_RectTransform_ = {}, bool m_ShowMaskGraphic_ = {}, UnityEngine::UI::Graphic* m_Graphic_ = {}, UnityEngine::Material* m_MaskMaterial_ = {}, UnityEngine::Material* m_UnmaskMaterial_ = {}) noexcept : m_RectTransform{m_RectTransform_}, m_ShowMaskGraphic{m_ShowMaskGraphic_}, m_Graphic{m_Graphic_}, m_MaskMaterial{m_MaskMaterial_}, m_UnmaskMaterial{m_UnmaskMaterial_} {}
     // Creating interface conversion operator: operator UnityEngine::ICanvasRaycastFilter
     operator UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);

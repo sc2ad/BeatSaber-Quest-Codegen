@@ -30,8 +30,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalTrace : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: InternalTrace
-    InternalTrace() noexcept {}
     // Get static field: static private NUnit.Framework.Internal.InternalTraceLevel traceLevel
     static NUnit::Framework::Internal::InternalTraceLevel _get_traceLevel();
     // Set static field: static private NUnit.Framework.Internal.InternalTraceLevel traceLevel

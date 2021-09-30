@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithGroupPresenceJoinIntent : public Oculus::Platform::Message_1<Oculus::Platform::Models::GroupPresenceJoinIntent*> {
     public:
-    // Creating value type constructor for type: MessageWithGroupPresenceJoinIntent
-    MessageWithGroupPresenceJoinIntent() noexcept {}
     // protected Oculus.Platform.Models.GroupPresenceJoinIntent GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B7A8C
     Oculus::Platform::Models::GroupPresenceJoinIntent* GetDataFromMessage(System::IntPtr c_message);

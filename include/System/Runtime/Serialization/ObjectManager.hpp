@@ -102,8 +102,6 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
-    // Creating value type constructor for type: ObjectManager
-    ObjectManager(System::Runtime::Serialization::DeserializationEventHandler* m_onDeserializationHandler_ = {}, System::Runtime::Serialization::SerializationEventHandler* m_onDeserializedHandler_ = {}, ::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*> m_objects_ = {}, ::Il2CppObject* m_topObject_ = {}, System::Runtime::Serialization::ObjectHolderList* m_specialFixupObjects_ = {}, int64_t m_fixupCount_ = {}, System::Runtime::Serialization::ISurrogateSelector* m_selector_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}) noexcept : m_onDeserializationHandler{m_onDeserializationHandler_}, m_onDeserializedHandler{m_onDeserializedHandler_}, m_objects{m_objects_}, m_topObject{m_topObject_}, m_specialFixupObjects{m_specialFixupObjects_}, m_fixupCount{m_fixupCount_}, m_selector{m_selector_}, m_context{m_context_} {}
     // Get instance field reference: private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
     System::Runtime::Serialization::DeserializationEventHandler*& dyn_m_onDeserializationHandler();
     // Get instance field reference: private System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler

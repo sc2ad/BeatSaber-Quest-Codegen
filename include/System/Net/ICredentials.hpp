@@ -28,8 +28,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICredentials {
     public:
-    // Creating value type constructor for type: ICredentials
-    ICredentials() noexcept {}
     // public System.Net.NetworkCredential GetCredential(System.Uri uri, System.String authType)
     // Offset: 0xFFFFFFFF
     System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);

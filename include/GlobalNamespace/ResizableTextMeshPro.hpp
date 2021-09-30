@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     float textExtraSpace;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ResizableTextMeshPro
-    ResizableTextMeshPro(TMPro::TMP_Text* textMeshPro_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, float textExtraSpace_ = {}) noexcept : textMeshPro{textMeshPro_}, rectTransform{rectTransform_}, textExtraSpace{textExtraSpace_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_Text _textMeshPro

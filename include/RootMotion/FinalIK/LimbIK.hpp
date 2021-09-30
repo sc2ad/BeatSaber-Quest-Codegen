@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverLimb* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLimb*) == 0x8);
-    // Creating value type constructor for type: LimbIK
-    LimbIK(RootMotion::FinalIK::IKSolverLimb* solver_ = {}) noexcept : solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb solver
     RootMotion::FinalIK::IKSolverLimb*& dyn_solver();
     // private System.Void SupportGroup()

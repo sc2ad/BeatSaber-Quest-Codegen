@@ -16,8 +16,6 @@ namespace Org::BouncyCastle::Utilities::Date {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateTimeUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DateTimeUtilities
-    DateTimeUtilities() noexcept {}
     // Get static field: static public readonly System.DateTime UnixEpoch
     static System::DateTime _get_UnixEpoch();
     // Set static field: static public readonly System.DateTime UnixEpoch

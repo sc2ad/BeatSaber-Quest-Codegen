@@ -18,8 +18,6 @@ namespace RootMotion {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class LayerMaskExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LayerMaskExtensions
-    LayerMaskExtensions() noexcept {}
     // static public System.Boolean Contains(UnityEngine.LayerMask mask, System.Int32 layer)
     // Offset: 0x1C6F2D8
     static bool Contains(UnityEngine::LayerMask mask, int layer);

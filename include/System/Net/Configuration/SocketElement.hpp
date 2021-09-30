@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class SocketElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: SocketElement
-    SocketElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x1570408
     // Implemented from: System.Configuration.ConfigurationElement

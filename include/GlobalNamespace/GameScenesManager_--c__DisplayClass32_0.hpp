@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     System::Action_1<Zenject::DiContainer*>* $$9__2;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass32_0
-    $$c__DisplayClass32_0(GlobalNamespace::GameScenesManager* $$4__this_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* newSceneNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* emptyTransitionSceneNameList_ = {}, GlobalNamespace::GameScenesManager::ScenesStackData* scenesStackData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}, System::Action_1<Zenject::DiContainer*>* finishCallback_ = {}, System::Action_1<Zenject::DiContainer*>* $$9__1_ = {}, System::Action_1<Zenject::DiContainer*>* $$9__2_ = {}) noexcept : $$4__this{$$4__this_}, newSceneNames{newSceneNames_}, emptyTransitionSceneNameList{emptyTransitionSceneNameList_}, scenesStackData{scenesStackData_}, scenesTransitionSetupData{scenesTransitionSetupData_}, finishCallback{finishCallback_}, $$9__1{$$9__1_}, $$9__2{$$9__2_} {}
     // Get instance field reference: public GameScenesManager <>4__this
     GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> newSceneNames

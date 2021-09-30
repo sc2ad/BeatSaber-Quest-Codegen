@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::StringSO* settingsValue;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StringSO*) == 0x8);
-    // Creating value type constructor for type: InputFieldSettingsController
-    InputFieldSettingsController(HMUI::InputFieldView* inputFieldView_ = {}, GlobalNamespace::StringSO* settingsValue_ = {}) noexcept : inputFieldView{inputFieldView_}, settingsValue{settingsValue_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.InputFieldView _inputFieldView

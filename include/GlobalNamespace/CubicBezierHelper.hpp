@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CubicBezierHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CubicBezierHelper
-    CubicBezierHelper() noexcept {}
     // static public UnityEngine.Vector3 EvaluateCurve(UnityEngine.Vector3[] points, System.Single t)
     // Offset: 0x137A7D0
     static UnityEngine::Vector3 EvaluateCurve(::ArrayWrapper<UnityEngine::Vector3> points, float t);

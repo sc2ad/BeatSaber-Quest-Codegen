@@ -51,8 +51,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion localRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: Target
-    Target(bool used_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localRotation_ = {}) noexcept : used{used_}, localPosition{localPosition_}, localRotation{localRotation_} {}
     // Get instance field reference: public System.Boolean used
     bool& dyn_used();
     // Get instance field reference: public UnityEngine.Vector3 localPosition

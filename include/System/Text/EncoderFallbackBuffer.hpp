@@ -69,8 +69,6 @@ namespace System::Text {
     int iRecursionCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EncoderFallbackBuffer
-    EncoderFallbackBuffer(::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, System::Text::EncoderNLS* encoder_ = {}, bool setEncoder_ = {}, bool bUsedEncoder_ = {}, bool bFallingBack_ = {}, int iRecursionCount_ = {}) noexcept : charStart{charStart_}, charEnd{charEnd_}, encoder{encoder_}, setEncoder{setEncoder_}, bUsedEncoder{bUsedEncoder_}, bFallingBack{bFallingBack_}, iRecursionCount{iRecursionCount_} {}
     // Get instance field reference: System.Char* charStart
     ::Il2CppChar*& dyn_charStart();
     // Get instance field reference: System.Char* charEnd

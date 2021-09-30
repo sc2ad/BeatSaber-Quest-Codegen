@@ -47,8 +47,6 @@ namespace Zenject {
     Zenject::SceneContextRegistry* contextRegistry;
     // Field size check
     static_assert(sizeof(Zenject::SceneContextRegistry*) == 0x8);
-    // Creating value type constructor for type: ProjectKernel
-    ProjectKernel(Zenject::ZenjectSettings* settings_ = {}, Zenject::SceneContextRegistry* contextRegistry_ = {}) noexcept : settings{settings_}, contextRegistry{contextRegistry_} {}
     // Get instance field reference: private Zenject.ZenjectSettings _settings
     Zenject::ZenjectSettings*& dyn__settings();
     // Get instance field reference: private Zenject.SceneContextRegistry _contextRegistry

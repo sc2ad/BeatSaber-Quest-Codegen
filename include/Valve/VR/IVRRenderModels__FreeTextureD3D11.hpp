@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB63FC
   class IVRRenderModels::_FreeTextureD3D11 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _FreeTextureD3D11
-    _FreeTextureD3D11() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ECFAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

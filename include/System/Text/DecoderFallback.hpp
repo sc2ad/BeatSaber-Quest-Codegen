@@ -31,8 +31,6 @@ namespace System::Text {
     bool bIsMicrosoftBestFitFallback;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DecoderFallback
-    DecoderFallback(bool bIsMicrosoftBestFitFallback_ = {}) noexcept : bIsMicrosoftBestFitFallback{bIsMicrosoftBestFitFallback_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return bIsMicrosoftBestFitFallback;

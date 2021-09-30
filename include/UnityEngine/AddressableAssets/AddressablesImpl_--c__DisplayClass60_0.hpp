@@ -61,8 +61,6 @@ namespace UnityEngine::AddressableAssets {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> handle;
-    // Creating value type constructor for type: $$c__DisplayClass60_0
-    $$c__DisplayClass60_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppString* catalogPath_ = {}, bool autoReleaseHandle_ = {}, ::Il2CppString* providerSuffix_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> handle_ = {}) noexcept : $$4__this{$$4__this_}, catalogPath{catalogPath_}, autoReleaseHandle{autoReleaseHandle_}, providerSuffix{providerSuffix_}, handle{handle_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.String catalogPath

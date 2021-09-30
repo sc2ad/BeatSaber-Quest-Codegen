@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0D38
   class IVROverlay::_SetOverlayColor : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetOverlayColor
-    _SetOverlayColor() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22D2678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -117,8 +117,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
     int m_maxConcurrentWebRequests;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ResourceManagerRuntimeData
-    ResourceManagerRuntimeData(::Il2CppString* m_buildTarget_ = {}, ::Il2CppString* m_SettingsHash_ = {}, System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* m_CatalogLocations_ = {}, bool m_ProfileEvents_ = {}, bool m_LogResourceManagerExceptions_ = {}, System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* m_ExtraInitializationData_ = {}, bool m_DisableCatalogUpdateOnStart_ = {}, bool m_IsLocalCatalogInBundle_ = {}, UnityEngine::ResourceManagement::Util::SerializedType m_CertificateHandlerType_ = {}, ::Il2CppString* m_AddressablesVersion_ = {}, int m_maxConcurrentWebRequests_ = {}) noexcept : m_buildTarget{m_buildTarget_}, m_SettingsHash{m_SettingsHash_}, m_CatalogLocations{m_CatalogLocations_}, m_ProfileEvents{m_ProfileEvents_}, m_LogResourceManagerExceptions{m_LogResourceManagerExceptions_}, m_ExtraInitializationData{m_ExtraInitializationData_}, m_DisableCatalogUpdateOnStart{m_DisableCatalogUpdateOnStart_}, m_IsLocalCatalogInBundle{m_IsLocalCatalogInBundle_}, m_CertificateHandlerType{m_CertificateHandlerType_}, m_AddressablesVersion{m_AddressablesVersion_}, m_maxConcurrentWebRequests{m_maxConcurrentWebRequests_} {}
     // static field const value: static public System.String kCatalogAddress
     static constexpr const char* kCatalogAddress = "AddressablesMainContentCatalog";
     // Get static field: static public System.String kCatalogAddress

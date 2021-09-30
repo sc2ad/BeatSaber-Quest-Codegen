@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint> rk;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: SM4Engine
-    SM4Engine(::ArrayWrapper<uint> rk_ = {}) noexcept : rk{rk_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

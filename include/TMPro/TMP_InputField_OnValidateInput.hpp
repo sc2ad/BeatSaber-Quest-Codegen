@@ -31,8 +31,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::OnValidateInput : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OnValidateInput
-    OnValidateInput() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x121D93C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

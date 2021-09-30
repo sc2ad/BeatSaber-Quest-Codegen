@@ -29,8 +29,6 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInitializableObject {
     public:
-    // Creating value type constructor for type: IInitializableObject
-    IInitializableObject() noexcept {}
     // public System.Boolean Initialize(System.String id, System.String data)
     // Offset: 0xFFFFFFFF
     bool Initialize(::Il2CppString* id, ::Il2CppString* data);

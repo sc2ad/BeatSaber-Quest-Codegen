@@ -49,8 +49,6 @@ namespace System::Diagnostics {
     int64_t user;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: ProcessThreadTimes
-    ProcessThreadTimes(int64_t create_ = {}, int64_t exit_ = {}, int64_t kernel_ = {}, int64_t user_ = {}) noexcept : create{create_}, exit{exit_}, kernel{kernel_}, user{user_} {}
     // Get instance field reference: System.Int64 create
     int64_t& dyn_create();
     // Get instance field reference: System.Int64 exit

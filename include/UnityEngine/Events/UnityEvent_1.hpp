@@ -41,8 +41,6 @@ namespace UnityEngine::Events {
     ::ArrayWrapper<::Il2CppObject*> m_InvokeArray;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: UnityEvent_1
-    UnityEvent_1(::ArrayWrapper<::Il2CppObject*> m_InvokeArray_ = {}) noexcept : m_InvokeArray{m_InvokeArray_} {}
     // Creating conversion operator: operator ::ArrayWrapper<::Il2CppObject*>
     constexpr operator ::ArrayWrapper<::Il2CppObject*>() const noexcept {
       return m_InvokeArray;

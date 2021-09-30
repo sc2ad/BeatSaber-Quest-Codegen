@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     class Device;
     // Nested type: GlobalNamespace::SteamVR_Controller::DeviceRelation
     struct DeviceRelation;
-    // Creating value type constructor for type: SteamVR_Controller
-    SteamVR_Controller() noexcept {}
     // Get static field: static private SteamVR_Controller/Device[] devices
     static ::ArrayWrapper<GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
     // Set static field: static private SteamVR_Controller/Device[] devices

@@ -41,8 +41,6 @@ namespace System::ComponentModel {
     System::ComponentModel::Component* parent;
     // Field size check
     static_assert(sizeof(System::ComponentModel::Component*) == 0x8);
-    // Creating value type constructor for type: EventHandlerList
-    EventHandlerList(System::ComponentModel::EventHandlerList::ListEntry* head_ = {}, System::ComponentModel::Component* parent_ = {}) noexcept : head{head_}, parent{parent_} {}
     // Get instance field reference: private System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry head
     System::ComponentModel::EventHandlerList::ListEntry*& dyn_head();
     // Get instance field reference: private System.ComponentModel.Component parent

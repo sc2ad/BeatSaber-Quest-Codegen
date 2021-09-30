@@ -32,8 +32,6 @@ namespace Zenject {
   template<typename TContract>
   class ConcreteIdBinderGeneric_1 : public Zenject::ConcreteBinderGeneric_1<TContract> {
     public:
-    // Creating value type constructor for type: ConcreteIdBinderGeneric_1
-    ConcreteIdBinderGeneric_1() noexcept {}
     // public Zenject.ConcreteBinderGeneric`1<TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
     Zenject::ConcreteBinderGeneric_1<TContract>* WithId(::Il2CppObject* identifier) {

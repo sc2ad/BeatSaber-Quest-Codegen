@@ -28,8 +28,6 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::Win32_MIB_IFROW info;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW) == 0x70);
-    // Creating value type constructor for type: Win32IPv4InterfaceStatistics
-    Win32IPv4InterfaceStatistics(System::Net::NetworkInformation::Win32_MIB_IFROW info_ = {}) noexcept : info{info_} {}
     // Creating conversion operator: operator System::Net::NetworkInformation::Win32_MIB_IFROW
     constexpr operator System::Net::NetworkInformation::Win32_MIB_IFROW() const noexcept {
       return info;

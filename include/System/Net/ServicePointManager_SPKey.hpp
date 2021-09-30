@@ -45,8 +45,6 @@ namespace System::Net {
     bool use_connect;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SPKey
-    SPKey(System::Uri* uri_ = {}, System::Uri* proxy_ = {}, bool use_connect_ = {}) noexcept : uri{uri_}, proxy{proxy_}, use_connect{use_connect_} {}
     // Get instance field reference: private System.Uri uri
     System::Uri*& dyn_uri();
     // Get instance field reference: private System.Uri proxy

@@ -38,8 +38,6 @@ namespace Mono::Security::Protocol::Ntlm {
     ::ArrayWrapper<uint8_t> targetInfo;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: Type2Message
-    Type2Message(::ArrayWrapper<uint8_t> nonce_ = {}, ::Il2CppString* targetName_ = {}, ::ArrayWrapper<uint8_t> targetInfo_ = {}) noexcept : nonce{nonce_}, targetName{targetName_}, targetInfo{targetInfo_} {}
     // Get instance field reference: private System.Byte[] _nonce
     ::ArrayWrapper<uint8_t>& dyn__nonce();
     // Get instance field reference: private System.String _targetName

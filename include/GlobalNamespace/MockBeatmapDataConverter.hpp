@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MockBeatmapDataConverter::$$c
     class $$c;
-    // Creating value type constructor for type: MockBeatmapDataConverter
-    MockBeatmapDataConverter() noexcept {}
     // static public MockBeatmapData ToMockBeatmapData(BeatmapData beatmapData)
     // Offset: 0x118EBD8
     static GlobalNamespace::MockBeatmapData* ToMockBeatmapData(GlobalNamespace::BeatmapData* beatmapData);

@@ -45,8 +45,6 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::FailureSite Site;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::FailureSite) == 0x4);
-    // Creating value type constructor for type: ResultState
-    ResultState(NUnit::Framework::Interfaces::TestStatus Status_ = {}, ::Il2CppString* Label_ = {}, NUnit::Framework::Interfaces::FailureSite Site_ = {}) noexcept : Status{Status_}, Label{Label_}, Site{Site_} {}
     // Get static field: static public readonly NUnit.Framework.Interfaces.ResultState Inconclusive
     static NUnit::Framework::Interfaces::ResultState* _get_Inconclusive();
     // Set static field: static public readonly NUnit.Framework.Interfaces.ResultState Inconclusive

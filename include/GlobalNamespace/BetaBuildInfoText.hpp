@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* text;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: BetaBuildInfoText
-    BetaBuildInfoText(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

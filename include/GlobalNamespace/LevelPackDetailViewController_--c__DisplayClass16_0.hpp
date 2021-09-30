@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelPackDetailViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelPackDetailViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass16_0
-    $$c__DisplayClass16_0(System::Action* handleDidPressRefreshButton_ = {}, GlobalNamespace::LevelPackDetailViewController* $$4__this_ = {}) noexcept : handleDidPressRefreshButton{handleDidPressRefreshButton_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Action handleDidPressRefreshButton
     System::Action*& dyn_handleDidPressRefreshButton();
     // Get instance field reference: public LevelPackDetailViewController <>4__this

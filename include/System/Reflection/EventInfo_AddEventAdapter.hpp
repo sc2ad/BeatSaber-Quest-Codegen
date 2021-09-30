@@ -32,8 +32,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventInfo::AddEventAdapter : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: AddEventAdapter
-    AddEventAdapter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EA8470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

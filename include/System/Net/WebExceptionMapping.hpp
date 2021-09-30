@@ -21,8 +21,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebExceptionMapping : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: WebExceptionMapping
-    WebExceptionMapping() noexcept {}
     // Get static field: static private readonly System.String[] s_Mapping
     static ::ArrayWrapper<::Il2CppString*> _get_s_Mapping();
     // Set static field: static private readonly System.String[] s_Mapping

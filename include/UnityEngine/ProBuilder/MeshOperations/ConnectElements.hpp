@@ -64,8 +64,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass2_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
-    // Creating value type constructor for type: ConnectElements
-    ConnectElements() noexcept {}
     // static public UnityEngine.ProBuilder.Face[] Connect(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
     // Offset: 0x17112B0
     static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> Connect(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);

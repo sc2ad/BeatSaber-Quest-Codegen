@@ -77,8 +77,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> items;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>) == 0x8);
-    // Creating value type constructor for type: FileBrowserTableView
-    FileBrowserTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::FileBrowserTableCell* cellPrefab_ = {}, float cellHeight_ = {}, System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* didSelectRow_ = {}, ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> items_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, cellHeight{cellHeight_}, didSelectRow{didSelectRow_}, items{items_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

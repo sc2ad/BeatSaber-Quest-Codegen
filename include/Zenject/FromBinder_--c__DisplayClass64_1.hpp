@@ -36,8 +36,6 @@ namespace Zenject {
     UnityEngine::MonoBehaviour* monoBehaviour;
     // Field size check
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass64_1
-    $$c__DisplayClass64_1(UnityEngine::MonoBehaviour* monoBehaviour_ = {}) noexcept : monoBehaviour{monoBehaviour_} {}
     // Creating conversion operator: operator UnityEngine::MonoBehaviour*
     constexpr operator UnityEngine::MonoBehaviour*() const noexcept {
       return monoBehaviour;

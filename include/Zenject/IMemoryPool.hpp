@@ -23,8 +23,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMemoryPool {
     public:
-    // Creating value type constructor for type: IMemoryPool
-    IMemoryPool() noexcept {}
     // public System.Int32 get_NumTotal()
     // Offset: 0xFFFFFFFF
     int get_NumTotal();

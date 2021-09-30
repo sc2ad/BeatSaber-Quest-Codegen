@@ -14,8 +14,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E5FFC0
   class ILogicalThreadAffinative {
     public:
-    // Creating value type constructor for type: ILogicalThreadAffinative
-    ILogicalThreadAffinative() noexcept {}
   }; // System.Runtime.Remoting.Messaging.ILogicalThreadAffinative
   #pragma pack(pop)
 }

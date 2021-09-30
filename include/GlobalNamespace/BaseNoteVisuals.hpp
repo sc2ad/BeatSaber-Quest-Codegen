@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CutoutAnimateEffect*) == 0x8);
-    // Creating value type constructor for type: BaseNoteVisuals
-    BaseNoteVisuals(GlobalNamespace::NoteControllerBase* noteController_ = {}, GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect_ = {}) noexcept : noteController{noteController_}, cutoutAnimateEffect{cutoutAnimateEffect_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);

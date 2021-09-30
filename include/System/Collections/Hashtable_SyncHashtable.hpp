@@ -50,8 +50,6 @@ namespace System::Collections {
     System::Collections::Hashtable* table;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: SyncHashtable
-    SyncHashtable(System::Collections::Hashtable* table_ = {}) noexcept : table{table_} {}
     // Creating conversion operator: operator System::Collections::Hashtable*
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return table;

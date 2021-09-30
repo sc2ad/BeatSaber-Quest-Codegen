@@ -28,8 +28,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D0B0
   class AmbiguousMatchException : public System::SystemException {
     public:
-    // Creating value type constructor for type: AmbiguousMatchException
-    AmbiguousMatchException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EA12A4
     // Implemented from: System.SystemException

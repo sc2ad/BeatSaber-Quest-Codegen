@@ -36,8 +36,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::SHA1Internal* sha;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::SHA1Internal*) == 0x8);
-    // Creating value type constructor for type: SHA1CryptoServiceProvider
-    SHA1CryptoServiceProvider(System::Security::Cryptography::SHA1Internal* sha_ = {}) noexcept : sha{sha_} {}
     // Creating conversion operator: operator System::Security::Cryptography::SHA1Internal*
     constexpr operator System::Security::Cryptography::SHA1Internal*() const noexcept {
       return sha;

@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class GraphAPI : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GraphAPI
-    GraphAPI() noexcept {}
   }; // Oculus.Platform.GraphAPI
   #pragma pack(pop)
 }

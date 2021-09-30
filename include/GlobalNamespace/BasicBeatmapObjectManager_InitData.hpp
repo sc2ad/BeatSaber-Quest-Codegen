@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     float notesUniformScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(bool disappearingArrows_ = {}, bool ghostNotes_ = {}, float cutAngleTolerance_ = {}, float notesUniformScale_ = {}) noexcept : disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_}, cutAngleTolerance{cutAngleTolerance_}, notesUniformScale{notesUniformScale_} {}
     // Get instance field reference: public readonly System.Boolean disappearingArrows
     bool& dyn_disappearingArrows();
     // Get instance field reference: public readonly System.Boolean ghostNotes

@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     float animationLength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: StarTextSprite
-    StarTextSprite(int id_ = {}, UnityEngine::Sprite* starTextSprite_ = {}, float animationLength_ = {}) noexcept : id{id_}, starTextSprite{starTextSprite_}, animationLength{animationLength_} {}
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.Sprite _starTextSprite

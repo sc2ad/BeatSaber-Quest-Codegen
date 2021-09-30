@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
-    // Creating value type constructor for type: MultiplayerBadgesProvider
-    MultiplayerBadgesProvider(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel_ = {}) noexcept : playerDataModel{playerDataModel_}, difficultyBeatmap{difficultyBeatmap_}, multiplayerBadgesModel{multiplayerBadgesModel_} {}
     // static field const value: static private System.Int32 kTargetPositiveBadgesCount
     static constexpr const int kTargetPositiveBadgesCount = 2;
     // Get static field: static private System.Int32 kTargetPositiveBadgesCount

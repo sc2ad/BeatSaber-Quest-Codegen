@@ -39,8 +39,6 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*) == 0x8);
-    // Creating value type constructor for type: AnimatorMoveHandlerManager
-    AnimatorMoveHandlerManager(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers_ = {}) noexcept : handlers{handlers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> _handlers

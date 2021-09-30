@@ -45,8 +45,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
-    // Creating value type constructor for type: PointOnEdgeException
-    PointOnEdgeException(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* A_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* B_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C_ = {}) noexcept : A{A_}, B{B_}, C{C_} {}
     // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint A
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_A();
     // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint B

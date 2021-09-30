@@ -61,8 +61,6 @@ namespace TMPro {
     UnityEngine::Sprite* sprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: TMP_Sprite
-    TMP_Sprite(::Il2CppString* name_ = {}, int hashCode_ = {}, int unicode_ = {}, UnityEngine::Vector2 pivot_ = {}, UnityEngine::Sprite* sprite_ = {}) noexcept : name{name_}, hashCode{hashCode_}, unicode{unicode_}, pivot{pivot_}, sprite{sprite_} {}
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public System.Int32 hashCode

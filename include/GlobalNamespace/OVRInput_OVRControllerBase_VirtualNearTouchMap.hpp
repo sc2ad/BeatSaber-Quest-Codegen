@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
-    // Creating value type constructor for type: VirtualNearTouchMap
-    VirtualNearTouchMap(GlobalNamespace::OVRInput::RawNearTouch None_ = {}, GlobalNamespace::OVRInput::RawNearTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawNearTouch PrimaryThumbButtons_ = {}, GlobalNamespace::OVRInput::RawNearTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons_ = {}) noexcept : None{None_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbButtons{PrimaryThumbButtons_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbButtons{SecondaryThumbButtons_} {}
     // Get instance field reference: public OVRInput/RawNearTouch None
     GlobalNamespace::OVRInput::RawNearTouch& dyn_None();
     // Get instance field reference: public OVRInput/RawNearTouch PrimaryIndexTrigger

@@ -14,8 +14,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILGenerator : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ILGenerator
-    ILGenerator() noexcept {}
   }; // System.Reflection.Emit.ILGenerator
   #pragma pack(pop)
 }

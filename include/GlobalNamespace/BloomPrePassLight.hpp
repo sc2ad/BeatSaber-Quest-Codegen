@@ -75,8 +75,6 @@ namespace GlobalNamespace {
     bool isBeingDestroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BloomPrePassLight
-    BloomPrePassLight(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, GlobalNamespace::BloomPrePassLightTypeSO* registeredWithLightType_ = {}, bool isRegistered_ = {}, bool isBeingDestroyed_ = {}) noexcept : lightType{lightType_}, registeredWithLightType{registeredWithLightType_}, isRegistered{isRegistered_}, isBeingDestroyed{isBeingDestroyed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> _bloomLightsDict

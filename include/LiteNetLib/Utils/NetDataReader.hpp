@@ -62,8 +62,6 @@ namespace LiteNetLib::Utils {
     int offset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NetDataReader
-    NetDataReader(::ArrayWrapper<uint8_t> data_ = {}, int position_ = {}, int dataSize_ = {}, int offset_ = {}) noexcept : data{data_}, position{position_}, dataSize{dataSize_}, offset{offset_} {}
     // Get instance field reference: protected System.Byte[] _data
     ::ArrayWrapper<uint8_t>& dyn__data();
     // Get instance field reference: protected System.Int32 _position

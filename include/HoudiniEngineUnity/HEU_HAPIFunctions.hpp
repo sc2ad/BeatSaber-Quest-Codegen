@@ -14,8 +14,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HAPIFunctions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_HAPIFunctions
-    HEU_HAPIFunctions() noexcept {}
   }; // HoudiniEngineUnity.HEU_HAPIFunctions
   #pragma pack(pop)
 }

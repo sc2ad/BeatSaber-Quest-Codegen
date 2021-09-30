@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicSpectrogramData*) == 0x8);
-    // Creating value type constructor for type: Spectrogram
-    Spectrogram(::ArrayWrapper<UnityEngine::MeshRenderer*> meshRenderers_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}) noexcept : meshRenderers{meshRenderers_}, spectrogramData{spectrogramData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF06D94

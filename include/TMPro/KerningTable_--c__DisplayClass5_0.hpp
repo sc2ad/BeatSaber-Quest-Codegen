@@ -40,8 +40,6 @@ namespace TMPro {
     int right;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(int left_ = {}, int right_ = {}) noexcept : left{left_}, right{right_} {}
     // Get instance field reference: public System.Int32 left
     int& dyn_left();
     // Get instance field reference: public System.Int32 right

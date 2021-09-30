@@ -76,8 +76,6 @@ namespace TMPro {
     UnityEngine::UI::Toggle* m_Toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // Creating value type constructor for type: DropdownItem
-    DropdownItem(TMPro::TMP_Text* m_Text_ = {}, UnityEngine::UI::Image* m_Image_ = {}, UnityEngine::RectTransform* m_RectTransform_ = {}, UnityEngine::UI::Toggle* m_Toggle_ = {}) noexcept : m_Text{m_Text_}, m_Image{m_Image_}, m_RectTransform{m_RectTransform_}, m_Toggle{m_Toggle_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::ICancelHandler
     operator UnityEngine::EventSystems::ICancelHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::ICancelHandler*>(this);

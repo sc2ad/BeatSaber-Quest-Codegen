@@ -16,8 +16,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser::Host : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Host
-    Host() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.String result)
     // Offset: 0x1754AE4
     static bool TryParse(::Il2CppString* input, ByRef<::Il2CppString*> result);

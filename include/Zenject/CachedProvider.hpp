@@ -59,8 +59,6 @@ namespace Zenject {
     bool isCreatingInstance;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CachedProvider
-    CachedProvider(Zenject::IProvider* creator_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* instances_ = {}, bool isCreatingInstance_ = {}) noexcept : creator{creator_}, instances{instances_}, isCreatingInstance{isCreatingInstance_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

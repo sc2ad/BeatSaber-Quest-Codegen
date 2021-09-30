@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     bool isRegistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LightWithIdMonoBehaviour
-    LightWithIdMonoBehaviour(int _ID_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, bool isRegistered_ = {}) noexcept : _ID{_ID_}, lightManager{lightManager_}, isRegistered{isRegistered_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILightWithId
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);

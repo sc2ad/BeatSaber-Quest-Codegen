@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     int numberOfElements;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ListSettingsController
-    ListSettingsController(int idx_ = {}, int numberOfElements_ = {}) noexcept : idx{idx_}, numberOfElements{numberOfElements_} {}
     // Get instance field reference: private System.Int32 _idx
     int& dyn__idx();
     // Get instance field reference: private System.Int32 _numberOfElements

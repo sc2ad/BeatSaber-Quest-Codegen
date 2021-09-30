@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*) == 0x8);
-    // Creating value type constructor for type: BtsResultsEnvironmentController
-    BtsResultsEnvironmentController(UnityEngine::GameObject* btsCharacterAnimationWrapper_ = {}, GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel_ = {}, UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector_ = {}, ::ArrayWrapper<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*> resultPlacesWithAnimations_ = {}, System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles_ = {}) noexcept : btsCharacterAnimationWrapper{btsCharacterAnimationWrapper_}, btsCharacterDataModel{btsCharacterDataModel_}, btsCharactersResultsAppearPlayableDirector{btsCharactersResultsAppearPlayableDirector_}, resultPlacesWithAnimations{resultPlacesWithAnimations_}, handles{handles_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private BeatmapEventType kCharacterDisplayEventType

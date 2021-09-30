@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB02FC
   class IVRExtendedDisplay::_GetWindowBounds : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetWindowBounds
-    _GetWindowBounds() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20F03DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

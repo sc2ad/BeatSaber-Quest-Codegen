@@ -27,8 +27,6 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidSignatureException : public NUnit::Framework::ResultStateException {
     public:
-    // Creating value type constructor for type: InvalidSignatureException
-    InvalidSignatureException() noexcept {}
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0x1675B14
     // Implemented from: NUnit.Framework.ResultStateException

@@ -34,8 +34,6 @@ namespace HMUI {
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
-    // Creating value type constructor for type: CurvedTextMeshPro
-    CurvedTextMeshPro(HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public System.Void .ctor()

@@ -50,8 +50,6 @@ namespace Zenject {
     int defaultAsyncTickPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SignalSettings
-    SignalSettings(Zenject::SignalDefaultSyncModes defaultSyncMode_ = {}, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse_ = {}, bool requireStrictUnsubscribe_ = {}, int defaultAsyncTickPriority_ = {}) noexcept : defaultSyncMode{defaultSyncMode_}, missingHandlerDefaultResponse{missingHandlerDefaultResponse_}, requireStrictUnsubscribe{requireStrictUnsubscribe_}, defaultAsyncTickPriority{defaultAsyncTickPriority_} {}
     // Get static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
     static Zenject::ZenjectSettings::SignalSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default

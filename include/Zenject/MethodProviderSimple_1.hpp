@@ -50,8 +50,6 @@ namespace Zenject {
     System::Func_1<TReturn>* method;
     // Field size check
     static_assert(sizeof(System::Func_1<TReturn>*) == 0x8);
-    // Creating value type constructor for type: MethodProviderSimple_1
-    MethodProviderSimple_1(System::Func_1<TReturn>* method_ = {}) noexcept : method{method_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

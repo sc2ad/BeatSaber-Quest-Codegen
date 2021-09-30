@@ -25,8 +25,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConsoleDriver : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConsoleDriver
-    ConsoleDriver() noexcept {}
     // Get static field: static System.IConsoleDriver driver
     static System::IConsoleDriver* _get_driver();
     // Set static field: static System.IConsoleDriver driver

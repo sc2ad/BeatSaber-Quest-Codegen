@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyAvatarController::Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer*, GlobalNamespace::MultiplayerLobbyAvatarController*> {
     public:
-    // Creating value type constructor for type: Factory
-    Factory() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x116C86C
     // Implemented from: Zenject.PlaceholderFactory`2

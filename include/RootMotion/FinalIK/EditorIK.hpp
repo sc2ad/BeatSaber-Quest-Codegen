@@ -34,8 +34,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IK*) == 0x8);
-    // Creating value type constructor for type: EditorIK
-    EditorIK(RootMotion::FinalIK::IK* ik_ = {}) noexcept : ik{ik_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private RootMotion.FinalIK.IK ik

@@ -274,7 +274,6 @@ namespace System::Collections::Generic {
       }
       // System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary, System.Int32 getEnumeratorRetType)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary, int getEnumeratorRetType) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(getEnumeratorRetType)})));
@@ -404,7 +403,6 @@ namespace System::Collections::Generic {
         }
         // System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
         // Offset: 0xFFFFFFFF
-        template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
         Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
           static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::KeyCollection::Enumerator::.ctor");
           static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary)})));
@@ -439,8 +437,6 @@ namespace System::Collections::Generic {
       System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, TValue>*) == 0x8);
-      // Creating value type constructor for type: KeyCollection
-      KeyCollection(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}) noexcept : dictionary{dictionary_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<TKey>
       operator System::Collections::Generic::ICollection_1<TKey>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::ICollection_1<TKey>*>(this);
@@ -663,7 +659,6 @@ namespace System::Collections::Generic {
         }
         // System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
         // Offset: 0xFFFFFFFF
-        template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
         Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
           static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::ValueCollection::Enumerator::.ctor");
           static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary)})));
@@ -698,8 +693,6 @@ namespace System::Collections::Generic {
       System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, TValue>*) == 0x8);
-      // Creating value type constructor for type: ValueCollection
-      ValueCollection(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}) noexcept : dictionary{dictionary_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<TValue>
       operator System::Collections::Generic::ICollection_1<TValue>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::ICollection_1<TValue>*>(this);
@@ -881,8 +874,6 @@ namespace System::Collections::Generic {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: Dictionary_2
-    Dictionary_2(::ArrayWrapper<int> buckets_ = {}, ::ArrayWrapper<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry> entries_ = {}, int count_ = {}, int version_ = {}, int freeList_ = {}, int freeCount_ = {}, System::Collections::Generic::IEqualityComparer_1<TKey>* comparer_ = {}, typename System::Collections::Generic::Dictionary_2<TKey, TValue>::KeyCollection* keys_ = {}, typename System::Collections::Generic::Dictionary_2<TKey, TValue>::ValueCollection* values_ = {}, ::Il2CppObject* syncRoot_ = {}) noexcept : buckets{buckets_}, entries{entries_}, count{count_}, version{version_}, freeList{freeList_}, freeCount{freeCount_}, comparer{comparer_}, keys{keys_}, values{values_}, syncRoot{syncRoot_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

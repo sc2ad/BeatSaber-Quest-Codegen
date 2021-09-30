@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E73108
   class SpriteRenderer : public UnityEngine::Renderer {
     public:
-    // Creating value type constructor for type: SpriteRenderer
-    SpriteRenderer() noexcept {}
     // public System.Void set_sprite(UnityEngine.Sprite value)
     // Offset: 0x233FCF0
     void set_sprite(UnityEngine::Sprite* value);

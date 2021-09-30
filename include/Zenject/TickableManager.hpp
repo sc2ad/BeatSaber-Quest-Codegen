@@ -129,8 +129,6 @@ namespace Zenject {
     bool isPaused;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TickableManager
-    TickableManager(System::Collections::Generic::List_1<Zenject::ITickable*>* tickables_ = {}, System::Collections::Generic::List_1<Zenject::IFixedTickable*>* fixedTickables_ = {}, System::Collections::Generic::List_1<Zenject::ILateTickable*>* lateTickables_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* fixedPriorities_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* latePriorities_ = {}, Zenject::TickablesTaskUpdater* updater_ = {}, Zenject::FixedTickablesTaskUpdater* fixedUpdater_ = {}, Zenject::LateTickablesTaskUpdater* lateUpdater_ = {}, bool isPaused_ = {}) noexcept : tickables{tickables_}, fixedTickables{fixedTickables_}, lateTickables{lateTickables_}, priorities{priorities_}, fixedPriorities{fixedPriorities_}, latePriorities{latePriorities_}, updater{updater_}, fixedUpdater{fixedUpdater_}, lateUpdater{lateUpdater_}, isPaused{isPaused_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
     System::Collections::Generic::List_1<Zenject::ITickable*>*& dyn__tickables();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables

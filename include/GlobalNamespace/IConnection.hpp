@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConnection {
     public:
-    // Creating value type constructor for type: IConnection
-    IConnection() noexcept {}
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_userId();

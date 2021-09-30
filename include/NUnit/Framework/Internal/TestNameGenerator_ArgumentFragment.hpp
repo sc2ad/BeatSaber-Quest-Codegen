@@ -41,8 +41,6 @@ namespace NUnit::Framework::Internal {
     int maxStringLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ArgumentFragment
-    ArgumentFragment(int index_ = {}, int maxStringLength_ = {}) noexcept : index{index_}, maxStringLength{maxStringLength_} {}
     // Get instance field reference: private System.Int32 _index
     int& dyn__index();
     // Get instance field reference: private System.Int32 _maxStringLength

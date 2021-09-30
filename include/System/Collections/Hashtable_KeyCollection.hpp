@@ -40,8 +40,6 @@ namespace System::Collections {
     System::Collections::Hashtable* hashtable;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: KeyCollection
-    KeyCollection(System::Collections::Hashtable* hashtable_ = {}) noexcept : hashtable{hashtable_} {}
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

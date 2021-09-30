@@ -27,8 +27,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class Is : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Is
-    Is() noexcept {}
     // static public NUnit.Framework.Constraints.TrueConstraint get_True()
     // Offset: 0x24A9BD8
     static NUnit::Framework::Constraints::TrueConstraint* get_True();

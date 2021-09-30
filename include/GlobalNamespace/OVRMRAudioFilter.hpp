@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRExternalComposition* composition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRExternalComposition*) == 0x8);
-    // Creating value type constructor for type: OVRMRAudioFilter
-    OVRMRAudioFilter(bool running_ = {}, GlobalNamespace::OVRExternalComposition* composition_ = {}) noexcept : running{running_}, composition{composition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean running

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* image;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: FillIndicator
-    FillIndicator(UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* image_ = {}) noexcept : bgImage{bgImage_}, image{image_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _bgImage

@@ -42,8 +42,6 @@ namespace UnityEngine {
     ::Il2CppObject* m_SourceStyle;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: RectOffset
-    RectOffset(System::IntPtr m_Ptr_ = {}, ::Il2CppObject* m_SourceStyle_ = {}) noexcept : m_Ptr{m_Ptr_}, m_SourceStyle{m_SourceStyle_} {}
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private readonly System.Object m_SourceStyle

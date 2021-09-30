@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ConditionalSpriteSwitcher* conditionalSpriteSwitcher;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ConditionalSpriteSwitcher*) == 0x8);
-    // Creating value type constructor for type: DateConditionalSpriteSwitcher
-    DateConditionalSpriteSwitcher(int day_ = {}, int month_ = {}, UnityEngine::Sprite* falseSprite_ = {}, UnityEngine::Sprite* trueSprite_ = {}, GlobalNamespace::ConditionalSpriteSwitcher* conditionalSpriteSwitcher_ = {}) noexcept : day{day_}, month{month_}, falseSprite{falseSprite_}, trueSprite{trueSprite_}, conditionalSpriteSwitcher{conditionalSpriteSwitcher_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _day

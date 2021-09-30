@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0900
   class IVRCompositor::_GetLastPoses : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetLastPoses
-    _GetLastPoses() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EAA70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

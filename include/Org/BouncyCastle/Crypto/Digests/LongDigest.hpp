@@ -116,8 +116,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int wOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LongDigest
-    LongDigest(int MyByteLength_ = {}, ::ArrayWrapper<uint8_t> xBuf_ = {}, int xBufOff_ = {}, int64_t byteCount1_ = {}, int64_t byteCount2_ = {}, uint64_t H1_ = {}, uint64_t H2_ = {}, uint64_t H3_ = {}, uint64_t H4_ = {}, uint64_t H5_ = {}, uint64_t H6_ = {}, uint64_t H7_ = {}, uint64_t H8_ = {}, ::ArrayWrapper<uint64_t> W_ = {}, int wOff_ = {}) noexcept : MyByteLength{MyByteLength_}, xBuf{xBuf_}, xBufOff{xBufOff_}, byteCount1{byteCount1_}, byteCount2{byteCount2_}, H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, H8{H8_}, W{W_}, wOff{wOff_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

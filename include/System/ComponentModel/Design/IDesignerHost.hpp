@@ -23,8 +23,6 @@ namespace System::ComponentModel::Design {
   // [ComVisibleAttribute] Offset: E696F4
   class IDesignerHost/*, public System::IServiceProvider*/ {
     public:
-    // Creating value type constructor for type: IDesignerHost
-    IDesignerHost() noexcept {}
     // Creating interface conversion operator: operator System::IServiceProvider
     operator System::IServiceProvider() noexcept {
       return *reinterpret_cast<System::IServiceProvider*>(this);

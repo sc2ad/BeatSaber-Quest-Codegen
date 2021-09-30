@@ -43,8 +43,6 @@ namespace System::Security::Cryptography {
     ::Il2CppString* strDeformatter;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SignatureDescription
-    SignatureDescription(::Il2CppString* strKey_ = {}, ::Il2CppString* strDigest_ = {}, ::Il2CppString* strFormatter_ = {}, ::Il2CppString* strDeformatter_ = {}) noexcept : strKey{strKey_}, strDigest{strDigest_}, strFormatter{strFormatter_}, strDeformatter{strDeformatter_} {}
     // Get instance field reference: private System.String _strKey
     ::Il2CppString*& dyn__strKey();
     // Get instance field reference: private System.String _strDigest

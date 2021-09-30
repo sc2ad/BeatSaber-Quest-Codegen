@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0A54
   class IVRCompositor::_CompositorQuit : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _CompositorQuit
-    _CompositorQuit() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20E8000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -70,8 +70,6 @@ namespace RootMotion {
     bool skipSolverUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SolverManager
-    SolverManager(bool fixTransforms_ = {}, UnityEngine::Animator* animator_ = {}, UnityEngine::Animation* legacy_ = {}, bool updateFrame_ = {}, bool componentInitiated_ = {}, bool skipSolverUpdate_ = {}) noexcept : fixTransforms{fixTransforms_}, animator{animator_}, legacy{legacy_}, updateFrame{updateFrame_}, componentInitiated{componentInitiated_}, skipSolverUpdate{skipSolverUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean fixTransforms

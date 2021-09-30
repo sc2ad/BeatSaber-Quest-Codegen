@@ -84,8 +84,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     ::ArrayWrapper<uint8_t> seed;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: X9ECParameters
-    X9ECParameters(Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID_ = {}, Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, Org::BouncyCastle::Asn1::X9::X9ECPoint* g_ = {}, Org::BouncyCastle::Math::BigInteger* n_ = {}, Org::BouncyCastle::Math::BigInteger* h_ = {}, ::ArrayWrapper<uint8_t> seed_ = {}) noexcept : fieldID{fieldID_}, curve{curve_}, g{g_}, n{n_}, h{h_}, seed{seed_} {}
     // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9FieldID fieldID
     Org::BouncyCastle::Asn1::X9::X9FieldID*& dyn_fieldID();
     // Get instance field reference: private Org.BouncyCastle.Math.EC.ECCurve curve

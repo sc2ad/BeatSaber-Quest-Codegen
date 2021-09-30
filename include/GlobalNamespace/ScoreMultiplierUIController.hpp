@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     float progressTarget;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ScoreMultiplierUIController
-    ScoreMultiplierUIController(::ArrayWrapper<TMPro::TextMeshProUGUI*> multiplierTexts_ = {}, UnityEngine::UI::Image* multiplierProgressImage_ = {}, UnityEngine::Animator* multiplierAnimator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int prevMultiplier_ = {}, int multiplierIncreasedTriggerId_ = {}, float progressTarget_ = {}) noexcept : multiplierTexts{multiplierTexts_}, multiplierProgressImage{multiplierProgressImage_}, multiplierAnimator{multiplierAnimator_}, scoreController{scoreController_}, prevMultiplier{prevMultiplier_}, multiplierIncreasedTriggerId{multiplierIncreasedTriggerId_}, progressTarget{progressTarget_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _multiplierTexts

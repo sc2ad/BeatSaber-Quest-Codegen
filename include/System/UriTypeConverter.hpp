@@ -20,8 +20,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriTypeConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: UriTypeConverter
-    UriTypeConverter() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25F5470
     // Implemented from: System.ComponentModel.TypeConverter

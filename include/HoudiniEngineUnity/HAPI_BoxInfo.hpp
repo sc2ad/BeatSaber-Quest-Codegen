@@ -39,7 +39,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: HAPI_BoxInfo
-    constexpr HAPI_BoxInfo(::ArrayWrapper<float> center_ = {}, ::ArrayWrapper<float> size_ = {}, ::ArrayWrapper<float> rotation_ = {}) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
+    constexpr HAPI_BoxInfo(::ArrayWrapper<float> center_ = {nullptr}, ::ArrayWrapper<float> size_ = {nullptr}, ::ArrayWrapper<float> rotation_ = {nullptr}) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -52,7 +52,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<float>& dyn_rotation();
     // public System.Void .ctor(System.Boolean initialize_fields)
     // Offset: 0x14397E4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HAPI_BoxInfo(bool initialize_fields) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_BoxInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initialize_fields)})));

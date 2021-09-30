@@ -108,7 +108,6 @@ namespace GlobalNamespace {
       GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
       // public System.Void .ctor(System.String assetBundlePath, System.String levelDataAssetName, IPreviewBeatmapLevel previewBeatmapLevel)
       // Offset: 0x12974D8
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel)
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
     #pragma pack(pop)
@@ -132,8 +131,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelDataLoaderSO
-    BeatmapLevelDataLoaderSO(GlobalNamespace::BeatmapCharacteristicCollectionSO* allBeatmapCharacteristicCollection_ = {}, GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* beatmapLevelsAsyncCache_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos_ = {}) noexcept : allBeatmapCharacteristicCollection{allBeatmapCharacteristicCollection_}, beatmapLevelsAsyncCache{beatmapLevelsAsyncCache_}, bundleLevelInfos{bundleLevelInfos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection

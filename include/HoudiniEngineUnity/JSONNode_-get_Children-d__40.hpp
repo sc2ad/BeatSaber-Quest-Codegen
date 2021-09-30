@@ -51,8 +51,6 @@ namespace HoudiniEngineUnity {
     int $$l__initialThreadId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $get_Children$d__40
-    $get_Children$d__40(int $$1__state_ = {}, HoudiniEngineUnity::JSONNode* $$2__current_ = {}, int $$l__initialThreadId_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>*>(this);

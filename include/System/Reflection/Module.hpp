@@ -100,8 +100,6 @@ namespace System::Reflection {
     int token;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Module
-    Module(System::IntPtr impl_ = {}, System::Reflection::Assembly* assembly_ = {}, ::Il2CppString* fqname_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* scopename_ = {}, bool is_resource_ = {}, int token_ = {}) noexcept : impl{impl_}, assembly{assembly_}, fqname{fqname_}, name{name_}, scopename{scopename_}, is_resource{is_resource_}, token{token_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

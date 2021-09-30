@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Crypto {
     Org::BouncyCastle::Crypto::IBlockCipher* cipher;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::IBlockCipher*) == 0x8);
-    // Creating value type constructor for type: BufferedBlockCipher
-    BufferedBlockCipher(::ArrayWrapper<uint8_t> buf_ = {}, int bufOff_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}) noexcept : buf{buf_}, bufOff{bufOff_}, forEncryption{forEncryption_}, cipher{cipher_} {}
     // Get instance field reference: System.Byte[] buf
     ::ArrayWrapper<uint8_t>& dyn_buf();
     // Get instance field reference: System.Int32 bufOff

@@ -31,8 +31,6 @@ namespace UnityEngine::AI {
   // [TokenAttribute] Offset: FFFFFFFF
   class NavMesh::OnNavMeshPreUpdate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OnNavMeshPreUpdate
-    OnNavMeshPreUpdate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x2627A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

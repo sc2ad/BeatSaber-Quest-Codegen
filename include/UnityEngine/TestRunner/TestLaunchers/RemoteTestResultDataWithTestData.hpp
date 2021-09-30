@@ -39,8 +39,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
-    // Creating value type constructor for type: RemoteTestResultDataWithTestData
-    RemoteTestResultDataWithTestData(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results_ = {}, ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests_ = {}) noexcept : results{results_}, tests{tests_} {}
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
     ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests

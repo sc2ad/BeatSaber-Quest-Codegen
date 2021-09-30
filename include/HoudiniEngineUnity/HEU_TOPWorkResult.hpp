@@ -49,8 +49,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* generatedGOs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*) == 0x8);
-    // Creating value type constructor for type: HEU_TOPWorkResult
-    HEU_TOPWorkResult(int workItemIndex_ = {}, int workItemID_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* generatedGOs_ = {}) noexcept : workItemIndex{workItemIndex_}, workItemID{workItemID_}, generatedGOs{generatedGOs_} {}
     // Get instance field reference: public System.Int32 _workItemIndex
     int& dyn__workItemIndex();
     // Get instance field reference: public System.Int32 _workItemID

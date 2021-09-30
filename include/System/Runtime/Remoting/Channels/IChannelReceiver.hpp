@@ -19,8 +19,6 @@ namespace System::Runtime::Remoting::Channels {
   // [ComVisibleAttribute] Offset: E5FDF8
   class IChannelReceiver/*, public System::Runtime::Remoting::Channels::IChannel*/ {
     public:
-    // Creating value type constructor for type: IChannelReceiver
-    IChannelReceiver() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Channels::IChannel
     operator System::Runtime::Remoting::Channels::IChannel() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Channels::IChannel*>(this);

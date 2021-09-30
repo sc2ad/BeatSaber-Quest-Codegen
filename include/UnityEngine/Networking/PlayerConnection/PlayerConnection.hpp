@@ -76,8 +76,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     bool m_IsInitilized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PlayerConnection
-    PlayerConnection(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* m_PlayerEditorConnectionEvents_ = {}, System::Collections::Generic::List_1<int>* m_connectedPlayers_ = {}, bool m_IsInitilized_ = {}) noexcept : m_PlayerEditorConnectionEvents{m_PlayerEditorConnectionEvents_}, m_connectedPlayers{m_connectedPlayers_}, m_IsInitilized{m_IsInitilized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative

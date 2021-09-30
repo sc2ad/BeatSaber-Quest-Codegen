@@ -25,8 +25,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_TextParsingUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TMP_TextParsingUtilities
-    TMP_TextParsingUtilities() noexcept {}
     // Get static field: static private readonly TMPro.TMP_TextParsingUtilities s_Instance
     static TMPro::TMP_TextParsingUtilities* _get_s_Instance();
     // Set static field: static private readonly TMPro.TMP_TextParsingUtilities s_Instance

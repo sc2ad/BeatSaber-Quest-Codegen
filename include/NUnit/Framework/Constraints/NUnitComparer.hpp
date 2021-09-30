@@ -20,8 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
-    // Creating value type constructor for type: NUnitComparer
-    NUnitComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

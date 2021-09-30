@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Crypto::Prng {
     ::ArrayWrapper<uint8_t> seed;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: DigestRandomGenerator
-    DigestRandomGenerator(int64_t stateCounter_ = {}, int64_t seedCounter_ = {}, Org::BouncyCastle::Crypto::IDigest* digest_ = {}, ::ArrayWrapper<uint8_t> state_ = {}, ::ArrayWrapper<uint8_t> seed_ = {}) noexcept : stateCounter{stateCounter_}, seedCounter{seedCounter_}, digest{digest_}, state{state_}, seed{seed_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator
     operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);

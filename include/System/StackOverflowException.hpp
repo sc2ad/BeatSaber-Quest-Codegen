@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C69C
   class StackOverflowException : public System::SystemException {
     public:
-    // Creating value type constructor for type: StackOverflowException
-    StackOverflowException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DE80FC
     // Implemented from: System.SystemException

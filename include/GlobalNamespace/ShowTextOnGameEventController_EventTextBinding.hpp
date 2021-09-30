@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TextFadeTransitions* textFadeTransitions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TextFadeTransitions*) == 0x8);
-    // Creating value type constructor for type: EventTextBinding
-    EventTextBinding(GlobalNamespace::Signal* signal_ = {}, ::Il2CppString* text_ = {}, GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}) noexcept : signal{signal_}, text{text_}, textFadeTransitions{textFadeTransitions_} {}
     // Get instance field reference: private Signal _signal
     GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.String _text

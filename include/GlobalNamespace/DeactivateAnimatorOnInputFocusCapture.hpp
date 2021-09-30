@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     bool wasEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DeactivateAnimatorOnInputFocusCapture
-    DeactivateAnimatorOnInputFocusCapture(UnityEngine::Animator* animator_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, bool wasEnabled_ = {}) noexcept : animator{animator_}, vrPlatformHelper{vrPlatformHelper_}, wasEnabled{wasEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator

@@ -23,8 +23,6 @@ namespace Org::BouncyCastle::X509::Extension {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ExtensionUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X509ExtensionUtilities
-    X509ExtensionUtilities() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromExtensionValue(Org.BouncyCastle.Asn1.Asn1OctetString extensionValue)
     // Offset: 0x2183F9C
     static Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);

@@ -44,8 +44,6 @@ namespace UnityEngine {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   class Sprite : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Sprite
-    Sprite() noexcept {}
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0x233F3C4
     UnityEngine::Bounds get_bounds();

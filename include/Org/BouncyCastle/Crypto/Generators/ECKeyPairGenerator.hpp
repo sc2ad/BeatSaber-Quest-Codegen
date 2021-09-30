@@ -80,8 +80,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
-    // Creating value type constructor for type: ECKeyPairGenerator
-    ECKeyPairGenerator(::Il2CppString* algorithm_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_}, publicKeyParamSet{publicKeyParamSet_}, random{random_} {}
     // Get instance field reference: private readonly System.String algorithm
     ::Il2CppString*& dyn_algorithm();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters

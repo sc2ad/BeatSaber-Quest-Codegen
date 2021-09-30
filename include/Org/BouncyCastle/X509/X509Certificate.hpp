@@ -104,8 +104,6 @@ namespace Org::BouncyCastle::X509 {
     int hashValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: X509Certificate
-    X509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::ArrayWrapper<uint8_t> sigAlgParams_ = {}, Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints_ = {}, ::ArrayWrapper<bool> keyUsage_ = {}, ::Il2CppObject* cacheLock_ = {}, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, basicConstraints{basicConstraints_}, keyUsage{keyUsage_}, cacheLock{cacheLock_}, publicKeyValue{publicKeyValue_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.X509CertificateStructure c
     Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& dyn_c();
     // Get instance field reference: private readonly System.String sigAlgName

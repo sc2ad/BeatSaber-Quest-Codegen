@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ObstacleController* obstacleController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObstacleController*) == 0x8);
-    // Creating value type constructor for type: ObstacleScaleUp
-    ObstacleScaleUp(float fullScalePart_ = {}, UnityEngine::Transform* targetTransform_ = {}, GlobalNamespace::ObstacleController* obstacleController_ = {}) noexcept : fullScalePart{fullScalePart_}, targetTransform{targetTransform_}, obstacleController{obstacleController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _fullScalePart

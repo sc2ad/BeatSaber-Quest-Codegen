@@ -34,8 +34,6 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSONNull : public OVRSimpleJSON::JSONNode {
     public:
-    // Creating value type constructor for type: JSONNull
-    JSONNull() noexcept {}
     // Get static field: static private OVRSimpleJSON.JSONNull m_StaticInstance
     static OVRSimpleJSON::JSONNull* _get_m_StaticInstance();
     // Set static field: static private OVRSimpleJSON.JSONNull m_StaticInstance

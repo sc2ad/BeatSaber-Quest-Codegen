@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: FlyingTextEffect
-    FlyingTextEffect(TMPro::TextMeshPro* text_ = {}, UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, fadeAnimationCurve{fadeAnimationCurve_}, color{color_} {}
     // Get instance field reference: private TMPro.TextMeshPro _text
     TMPro::TextMeshPro*& dyn__text();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve

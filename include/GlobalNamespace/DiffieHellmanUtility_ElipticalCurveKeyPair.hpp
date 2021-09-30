@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<uint8_t> publicKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: ElipticalCurveKeyPair
-    ElipticalCurveKeyPair(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement_ = {}, ::ArrayWrapper<uint8_t> publicKey_ = {}) noexcept : ecdhBasicAgreement{ecdhBasicAgreement_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDiffieHellmanKeyPair
     operator GlobalNamespace::IDiffieHellmanKeyPair() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDiffieHellmanKeyPair*>(this);

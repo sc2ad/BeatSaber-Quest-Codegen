@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class QuickPlaySongPacksDropdown::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly QuickPlaySongPacksDropdown/<>c <>9
     static GlobalNamespace::QuickPlaySongPacksDropdown::$$c* _get_$$9();
     // Set static field: static public readonly QuickPlaySongPacksDropdown/<>c <>9

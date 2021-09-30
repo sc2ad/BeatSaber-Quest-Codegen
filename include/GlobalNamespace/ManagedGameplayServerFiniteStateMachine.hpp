@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ManagedGameplayServerFiniteStateMachine : public GlobalNamespace::GameplayServerFiniteStateMachine {
     public:
-    // Creating value type constructor for type: ManagedGameplayServerFiniteStateMachine
-    ManagedGameplayServerFiniteStateMachine() noexcept {}
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     // Offset: 0x145A59C
     // Implemented from: GameplayServerFiniteStateMachine

@@ -48,8 +48,6 @@ namespace System::Net {
     int m_Port;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: IPEndPoint
-    IPEndPoint(System::Net::IPAddress* m_Address_ = {}, int m_Port_ = {}) noexcept : m_Address{m_Address_}, m_Port{m_Port_} {}
     // static field const value: static public System.Int32 MinPort
     static constexpr const int MinPort = 0;
     // Get static field: static public System.Int32 MinPort

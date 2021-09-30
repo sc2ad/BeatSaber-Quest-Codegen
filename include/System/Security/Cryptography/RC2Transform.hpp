@@ -63,8 +63,6 @@ namespace System::Security::Cryptography {
     int j;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RC2Transform
-    RC2Transform(uint16_t R0_ = {}, uint16_t R1_ = {}, uint16_t R2_ = {}, uint16_t R3_ = {}, ::ArrayWrapper<uint16_t> K_ = {}, int j_ = {}) noexcept : R0{R0_}, R1{R1_}, R2{R2_}, R3{R3_}, K{K_}, j{j_} {}
     // Get static field: static private readonly System.Byte[] pitable
     static ::ArrayWrapper<uint8_t> _get_pitable();
     // Set static field: static private readonly System.Byte[] pitable

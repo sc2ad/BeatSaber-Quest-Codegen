@@ -32,8 +32,6 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TContract>
   class FactoryToChoiceBinder_3 : public Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract> {
     public:
-    // Creating value type constructor for type: FactoryToChoiceBinder_3
-    FactoryToChoiceBinder_3() noexcept {}
     // public Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> ToSelf()
     // Offset: 0xFFFFFFFF
     Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* ToSelf() {

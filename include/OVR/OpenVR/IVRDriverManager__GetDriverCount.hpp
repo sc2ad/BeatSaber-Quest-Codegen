@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB15D0
   class IVRDriverManager::_GetDriverCount : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetDriverCount
-    _GetDriverCount() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EF258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

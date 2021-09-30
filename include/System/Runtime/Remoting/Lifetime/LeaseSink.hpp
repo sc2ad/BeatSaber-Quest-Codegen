@@ -35,8 +35,6 @@ namespace System::Runtime::Remoting::Lifetime {
     System::Runtime::Remoting::Messaging::IMessageSink* nextSink;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
-    // Creating value type constructor for type: LeaseSink
-    LeaseSink(System::Runtime::Remoting::Messaging::IMessageSink* nextSink_ = {}) noexcept : nextSink{nextSink_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

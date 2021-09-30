@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AchievementDefinitionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementDefinition*> {
     public:
-    // Creating value type constructor for type: AchievementDefinitionList
-    AchievementDefinitionList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16B4A34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

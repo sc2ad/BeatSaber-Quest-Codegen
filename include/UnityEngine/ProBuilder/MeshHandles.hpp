@@ -48,8 +48,6 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshHandles::$$c
     class $$c;
-    // Creating value type constructor for type: MeshHandles
-    MeshHandles() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.Vector3> s_Vector2List
     static System::Collections::Generic::List_1<UnityEngine::Vector3>* _get_s_Vector2List();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Vector3> s_Vector2List

@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADE64
   class RazorLayoutAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: RazorLayoutAttribute
-    RazorLayoutAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610950
     // Implemented from: System.Attribute

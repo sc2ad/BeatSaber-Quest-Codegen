@@ -16,8 +16,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class __Il2CppComDelegate : public System::__Il2CppComObject {
     public:
-    // Creating value type constructor for type: __Il2CppComDelegate
-    __Il2CppComDelegate() noexcept {}
     // protected override System.Void Finalize()
     // Offset: 0x253B1C8
     // Implemented from: System.__Il2CppComObject

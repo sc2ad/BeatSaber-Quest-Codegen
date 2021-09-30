@@ -64,7 +64,6 @@ namespace System {
     static int get_Size();
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0x1A0D4A0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     IntPtr(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -72,7 +71,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0x1A0D4AC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     IntPtr(int64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
@@ -80,11 +78,9 @@ namespace System {
     }
     // public System.Void .ctor(System.Void* value)
     // Offset: 0x1A0D4B4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntPtr(void* value)
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1A0D4BC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     IntPtr(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IntPtr::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));

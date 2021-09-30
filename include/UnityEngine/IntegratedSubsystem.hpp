@@ -44,8 +44,6 @@ namespace UnityEngine {
     UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor;
     // Field size check
     static_assert(sizeof(UnityEngine::ISubsystemDescriptor*) == 0x8);
-    // Creating value type constructor for type: IntegratedSubsystem
-    IntegratedSubsystem(System::IntPtr m_Ptr_ = {}, UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor_ = {}) noexcept : m_Ptr{m_Ptr_}, m_subsystemDescriptor{m_subsystemDescriptor_} {}
     // Creating interface conversion operator: operator UnityEngine::ISubsystem
     operator UnityEngine::ISubsystem() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystem*>(this);

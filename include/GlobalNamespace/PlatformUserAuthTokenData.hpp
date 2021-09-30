@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
-    // Creating value type constructor for type: PlatformUserAuthTokenData
-    PlatformUserAuthTokenData(::Il2CppString* token_ = {}, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment_ = {}) noexcept : token{token_}, validPlatformEnvironment{validPlatformEnvironment_} {}
     // Get instance field reference: private System.String <token>k__BackingField
     ::Il2CppString*& dyn_$token$k__BackingField();
     // Get instance field reference: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField

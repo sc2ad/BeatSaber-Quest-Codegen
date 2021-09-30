@@ -18,8 +18,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class GatewayIPAddressInformation : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GatewayIPAddressInformation
-    GatewayIPAddressInformation() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1644F08
     // Implemented from: System.Object

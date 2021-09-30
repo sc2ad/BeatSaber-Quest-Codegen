@@ -35,8 +35,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D654
   class MemberFilter : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: MemberFilter
-    MemberFilter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EA92F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     ::ArrayWrapper<uint8_t> content;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: PemObject
-    PemObject(::Il2CppString* type_ = {}, System::Collections::IList* headers_ = {}, ::ArrayWrapper<uint8_t> content_ = {}) noexcept : type{type_}, headers{headers_}, content{content_} {}
     // Get instance field reference: private System.String type
     ::Il2CppString*& dyn_type();
     // Get instance field reference: private System.Collections.IList headers

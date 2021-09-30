@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   template<typename T>
   class INetworkPlayerModelPartyConfig_1 {
     public:
-    // Creating value type constructor for type: INetworkPlayerModelPartyConfig_1
-    INetworkPlayerModelPartyConfig_1() noexcept {}
   }; // INetworkPlayerModelPartyConfig`1
   // Could not write size check! Type: INetworkPlayerModelPartyConfig`1 is generic, or has no fields that are valid for size checks!
 }

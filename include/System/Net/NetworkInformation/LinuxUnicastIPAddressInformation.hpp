@@ -33,8 +33,6 @@ namespace System::Net::NetworkInformation {
     System::Net::IPAddress* address;
     // Field size check
     static_assert(sizeof(System::Net::IPAddress*) == 0x8);
-    // Creating value type constructor for type: LinuxUnicastIPAddressInformation
-    LinuxUnicastIPAddressInformation(System::Net::IPAddress* address_ = {}) noexcept : address{address_} {}
     // Creating conversion operator: operator System::Net::IPAddress*
     constexpr operator System::Net::IPAddress*() const noexcept {
       return address;

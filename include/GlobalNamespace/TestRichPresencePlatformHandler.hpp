@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestRichPresencePlatformHandler : public ::Il2CppObject/*, public GlobalNamespace::IRichPresencePlatformHandler*/ {
     public:
-    // Creating value type constructor for type: TestRichPresencePlatformHandler
-    TestRichPresencePlatformHandler() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IRichPresencePlatformHandler
     operator GlobalNamespace::IRichPresencePlatformHandler() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRichPresencePlatformHandler*>(this);

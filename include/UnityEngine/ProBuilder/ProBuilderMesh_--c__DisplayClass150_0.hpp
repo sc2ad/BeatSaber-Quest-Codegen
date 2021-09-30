@@ -34,8 +34,6 @@ namespace UnityEngine::ProBuilder {
     int i;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass150_0
-    $$c__DisplayClass150_0(int i_ = {}) noexcept : i{i_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return i;

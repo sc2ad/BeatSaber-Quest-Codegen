@@ -39,8 +39,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     bool encrypting;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RC2Engine
-    RC2Engine(::ArrayWrapper<int> workingKey_ = {}, bool encrypting_ = {}) noexcept : workingKey{workingKey_}, encrypting{encrypting_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

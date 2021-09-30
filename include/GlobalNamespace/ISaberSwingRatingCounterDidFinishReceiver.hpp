@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISaberSwingRatingCounterDidFinishReceiver {
     public:
-    // Creating value type constructor for type: ISaberSwingRatingCounterDidFinishReceiver
-    ISaberSwingRatingCounterDidFinishReceiver() noexcept {}
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
     // Offset: 0xFFFFFFFF
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);

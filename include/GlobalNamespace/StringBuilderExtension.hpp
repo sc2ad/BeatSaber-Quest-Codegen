@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class StringBuilderExtension : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StringBuilderExtension
-    StringBuilderExtension() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC9900
     // Get static field: static private System.Char[] charToInt
     static ::ArrayWrapper<::Il2CppChar> _get_charToInt();

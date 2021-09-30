@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataNoArrowsTransform : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BeatmapDataNoArrowsTransform
-    BeatmapDataNoArrowsTransform() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
     // Offset: 0x1277F5C
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);

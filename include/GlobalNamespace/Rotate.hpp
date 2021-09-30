@@ -81,8 +81,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 randomizedMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Rotate
-    Rotate(UnityEngine::Vector3 rotationVector_ = {}, float speed_ = {}, bool randomize_ = {}, UnityEngine::Vector3 randomMinMultiplier_ = {}, UnityEngine::Vector3 randomMaxMultiplier_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 startRotationAngles_ = {}, UnityEngine::Vector3 randomizedMultiplier_ = {}) noexcept : rotationVector{rotationVector_}, speed{speed_}, randomize{randomize_}, randomMinMultiplier{randomMinMultiplier_}, randomMaxMultiplier{randomMaxMultiplier_}, transform{transform_}, startRotationAngles{startRotationAngles_}, randomizedMultiplier{randomizedMultiplier_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Vector3 _rotationVector

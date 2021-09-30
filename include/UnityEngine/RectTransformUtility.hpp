@@ -42,8 +42,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E97618
   class RectTransformUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RectTransformUtility
-    RectTransformUtility() noexcept {}
     // Get static field: static private readonly UnityEngine.Vector3[] s_Corners
     static ::ArrayWrapper<UnityEngine::Vector3> _get_s_Corners();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Corners

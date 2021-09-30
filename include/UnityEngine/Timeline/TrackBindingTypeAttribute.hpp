@@ -42,8 +42,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackBindingFlags flags;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TrackBindingFlags) == 0x4);
-    // Creating value type constructor for type: TrackBindingTypeAttribute
-    TrackBindingTypeAttribute(System::Type* type_ = {}, UnityEngine::Timeline::TrackBindingFlags flags_ = {}) noexcept : type{type_}, flags{flags_} {}
     // Get instance field reference: public readonly System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public readonly UnityEngine.Timeline.TrackBindingFlags flags

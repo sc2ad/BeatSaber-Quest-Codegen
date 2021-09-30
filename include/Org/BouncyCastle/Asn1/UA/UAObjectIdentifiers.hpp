@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::UA {
   // [TokenAttribute] Offset: FFFFFFFF
   class UAObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: UAObjectIdentifiers
-    UAObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier UaOid
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_UaOid();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier UaOid

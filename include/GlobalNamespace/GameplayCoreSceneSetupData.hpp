@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
-    // Creating value type constructor for type: GameplayCoreSceneSetupData
-    GameplayCoreSceneSetupData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PracticeSettings* practiceSettings_ = {}, bool useTestNoteCutSoundEffects_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : difficultyBeatmap{difficultyBeatmap_}, previewBeatmapLevel{previewBeatmapLevel_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, environmentInfo{environmentInfo_}, colorScheme{colorScheme_} {}
     // Get instance field reference: public readonly IDifficultyBeatmap difficultyBeatmap
     GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

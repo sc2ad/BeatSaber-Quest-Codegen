@@ -54,8 +54,6 @@ namespace LeaderboardsDTO {
     ::Il2CppString* buildVersion;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LoginRequestDTO
-    LoginRequestDTO(::Il2CppString* platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* platformEnviroment_ = {}, ::Il2CppString* publicUserDisplayName_ = {}, ::Il2CppString* buildVersion_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, platformEnviroment{platformEnviroment_}, publicUserDisplayName{publicUserDisplayName_}, buildVersion{buildVersion_} {}
     // Get instance field reference: public System.String platform
     ::Il2CppString*& dyn_platform();
     // Get instance field reference: public System.String platformUserId

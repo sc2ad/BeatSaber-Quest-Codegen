@@ -63,8 +63,6 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ConstraintBuilder* Builder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ConstraintBuilder*) == 0x8);
-    // Creating value type constructor for type: Constraint
-    Constraint(System::Lazy_1<::Il2CppString*>* displayName_ = {}, ::Il2CppString* Description_ = {}, ::ArrayWrapper<::Il2CppObject*> Arguments_ = {}, NUnit::Framework::Constraints::ConstraintBuilder* Builder_ = {}) noexcept : displayName{displayName_}, Description{Description_}, Arguments{Arguments_}, Builder{Builder_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Constraints::IConstraint
     operator NUnit::Framework::Constraints::IConstraint() noexcept {
       return *reinterpret_cast<NUnit::Framework::Constraints::IConstraint*>(this);

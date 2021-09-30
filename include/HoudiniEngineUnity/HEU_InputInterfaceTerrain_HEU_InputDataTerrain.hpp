@@ -113,8 +113,6 @@ namespace HoudiniEngineUnity {
     int mergeNodeID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_InputDataTerrain
-    HEU_InputDataTerrain(::Il2CppString* heightFieldName_ = {}, int parentNodeID_ = {}, float voxelSize_ = {}, UnityEngine::Terrain* terrain_ = {}, UnityEngine::TerrainData* terrainData_ = {}, int numPointsX_ = {}, int numPointsY_ = {}, HoudiniEngineUnity::HAPI_Transform transform_ = {}, float heightScale_ = {}, int heightfieldNodeID_ = {}, int heightNodeID_ = {}, int maskNodeID_ = {}, int mergeNodeID_ = {}) noexcept : heightFieldName{heightFieldName_}, parentNodeID{parentNodeID_}, voxelSize{voxelSize_}, terrain{terrain_}, terrainData{terrainData_}, numPointsX{numPointsX_}, numPointsY{numPointsY_}, transform{transform_}, heightScale{heightScale_}, heightfieldNodeID{heightfieldNodeID_}, heightNodeID{heightNodeID_}, maskNodeID{maskNodeID_}, mergeNodeID{mergeNodeID_} {}
     // Deleting conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public System.String _heightFieldName

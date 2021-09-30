@@ -62,8 +62,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*) == 0x8);
-    // Creating value type constructor for type: PointerInputModule
-    PointerInputModule(System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* m_PointerData_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState_ = {}) noexcept : m_PointerData{m_PointerData_}, m_MouseState{m_MouseState_} {}
     // static field const value: static public System.Int32 kMouseLeftId
     static constexpr const int kMouseLeftId = -1;
     // Get static field: static public System.Int32 kMouseLeftId

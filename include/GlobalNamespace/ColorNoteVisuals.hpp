@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     UnityEngine::Color noteColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: ColorNoteVisuals
-    ColorNoteVisuals(GlobalNamespace::NoteControllerBase* noteController_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers_ = {}, ::ArrayWrapper<UnityEngine::MeshRenderer*> arrowMeshRenderers_ = {}, ::ArrayWrapper<UnityEngine::MeshRenderer*> circleMeshRenderers_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* didInitEvent_ = {}, UnityEngine::Color noteColor_ = {}) noexcept : noteController{noteController_}, materialPropertyBlockControllers{materialPropertyBlockControllers_}, arrowMeshRenderers{arrowMeshRenderers_}, circleMeshRenderers{circleMeshRenderers_}, colorManager{colorManager_}, didInitEvent{didInitEvent_}, noteColor{noteColor_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);

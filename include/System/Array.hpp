@@ -83,8 +83,6 @@ namespace System {
     struct SorterObjectArray;
     // Nested type: System::Array::SorterGenericArray
     struct SorterGenericArray;
-    // Creating value type constructor for type: Array
-    Array() noexcept {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

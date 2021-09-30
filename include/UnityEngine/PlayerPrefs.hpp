@@ -15,8 +15,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E72004
   class PlayerPrefs : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PlayerPrefs
-    PlayerPrefs() noexcept {}
     // static private System.Boolean TrySetInt(System.String key, System.Int32 value)
     // Offset: 0x1DFD97C
     static bool TrySetInt(::Il2CppString* key, int value);

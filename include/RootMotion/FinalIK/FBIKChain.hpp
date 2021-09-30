@@ -229,8 +229,6 @@ namespace RootMotion::FinalIK {
     float sqrMagDif;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FBIKChain
-    FBIKChain(float pin_ = {}, float pull_ = {}, float push_ = {}, float pushParent_ = {}, float reach_ = {}, RootMotion::FinalIK::FBIKChain::Smoothing reachSmoothing_ = {}, RootMotion::FinalIK::FBIKChain::Smoothing pushSmoothing_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Node*> nodes_ = {}, ::ArrayWrapper<int> children_ = {}, ::ArrayWrapper<RootMotion::FinalIK::FBIKChain::ChildConstraint*> childConstraints_ = {}, RootMotion::FinalIK::IKConstraintBend* bendConstraint_ = {}, float rootLength_ = {}, bool initiated_ = {}, float length_ = {}, float distance_ = {}, RootMotion::FinalIK::IKSolver::Point* p_ = {}, float reachForce_ = {}, float pullParentSum_ = {}, ::ArrayWrapper<float> crossFades_ = {}, float sqrMag1_ = {}, float sqrMag2_ = {}, float sqrMagDif_ = {}) noexcept : pin{pin_}, pull{pull_}, push{push_}, pushParent{pushParent_}, reach{reach_}, reachSmoothing{reachSmoothing_}, pushSmoothing{pushSmoothing_}, nodes{nodes_}, children{children_}, childConstraints{childConstraints_}, bendConstraint{bendConstraint_}, rootLength{rootLength_}, initiated{initiated_}, length{length_}, distance{distance_}, p{p_}, reachForce{reachForce_}, pullParentSum{pullParentSum_}, crossFades{crossFades_}, sqrMag1{sqrMag1_}, sqrMag2{sqrMag2_}, sqrMagDif{sqrMagDif_} {}
     // static field const value: static private System.Single maxLimbLength
     static constexpr const float maxLimbLength = 0.99999;
     // Get static field: static private System.Single maxLimbLength

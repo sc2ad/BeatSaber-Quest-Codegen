@@ -35,8 +35,6 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x20
     System::Nullable_1<bool> expectContinue;
-    // Creating value type constructor for type: HttpRequestHeaders
-    HttpRequestHeaders(System::Nullable_1<bool> expectContinue_ = {}) noexcept : expectContinue{expectContinue_} {}
     // Creating conversion operator: operator System::Nullable_1<bool>
     constexpr operator System::Nullable_1<bool>() const noexcept {
       return expectContinue;

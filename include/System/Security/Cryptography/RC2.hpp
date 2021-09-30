@@ -34,8 +34,6 @@ namespace System::Security::Cryptography {
     int EffectiveKeySizeValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RC2
-    RC2(int EffectiveKeySizeValue_ = {}) noexcept : EffectiveKeySizeValue{EffectiveKeySizeValue_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return EffectiveKeySizeValue;

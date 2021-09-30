@@ -48,8 +48,6 @@ namespace Zenject {
     System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subcontainerGetter;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorByInstanceGetter
-    SubContainerCreatorByInstanceGetter(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subcontainerGetter_ = {}) noexcept : subcontainerGetter{subcontainerGetter_} {}
     // Creating interface conversion operator: operator Zenject::ISubContainerCreator
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);

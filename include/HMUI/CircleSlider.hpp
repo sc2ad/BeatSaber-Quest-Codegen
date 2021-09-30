@@ -101,8 +101,6 @@ namespace HMUI {
     UnityEngine::DrivenRectTransformTracker tracker;
     // Field size check
     static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
-    // Creating value type constructor for type: CircleSlider
-    CircleSlider(UnityEngine::RectTransform* handleRect_ = {}, float cursorRadius_ = {}, float normalizedValue_ = {}, System::Action_2<HMUI::CircleSlider*, float>* normalizedValueDidChangeEvent_ = {}, UnityEngine::RectTransform* containerRect_ = {}, UnityEngine::UI::Graphic* handleGraphic_ = {}, UnityEngine::DrivenRectTransformTracker tracker_ = {}) noexcept : handleRect{handleRect_}, cursorRadius{cursorRadius_}, normalizedValue{normalizedValue_}, normalizedValueDidChangeEvent{normalizedValueDidChangeEvent_}, containerRect{containerRect_}, handleGraphic{handleGraphic_}, tracker{tracker_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IBeginDragHandler
     operator UnityEngine::EventSystems::IBeginDragHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IBeginDragHandler*>(this);

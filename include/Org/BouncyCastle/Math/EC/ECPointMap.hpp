@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECPointMap {
     public:
-    // Creating value type constructor for type: ECPointMap
-    ECPointMap() noexcept {}
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);

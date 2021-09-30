@@ -31,8 +31,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICombiningStrategy {
     public:
-    // Creating value type constructor for type: ICombiningStrategy
-    ICombiningStrategy() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayWrapper<System::Collections::IEnumerable*> sources);

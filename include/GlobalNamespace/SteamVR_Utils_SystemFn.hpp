@@ -37,8 +37,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Utils::SystemFn : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: SystemFn
-    SystemFn() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1883F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

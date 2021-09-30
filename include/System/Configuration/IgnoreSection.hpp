@@ -35,8 +35,6 @@ namespace System::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class IgnoreSection : public System::Configuration::ConfigurationSection {
     public:
-    // Creating value type constructor for type: IgnoreSection
-    IgnoreSection() noexcept {}
     // protected internal override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x2628800
     // Implemented from: System.Configuration.ConfigurationElement

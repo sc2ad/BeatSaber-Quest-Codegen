@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelLoader : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StandardLevelLoader
-    StandardLevelLoader() noexcept {}
     // static public StandardLevelInfoSaveData LoadStandardLevelSaveData(System.String levelInfoFilenamePath)
     // Offset: 0x1157E64
     static GlobalNamespace::StandardLevelInfoSaveData* LoadStandardLevelSaveData(::Il2CppString* levelInfoFilenamePath);

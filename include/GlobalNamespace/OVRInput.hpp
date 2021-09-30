@@ -314,8 +314,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRInput::OpenVRControllerDetails), 88 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_OVRInput_OpenVRControllerDetailsSizeCheck;
     static_assert(sizeof(OVRInput::OpenVRControllerDetails) == 0x68);
-    // Creating value type constructor for type: OVRInput
-    OVRInput() noexcept {}
     // Get static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD
     static float _get_AXIS_AS_BUTTON_THRESHOLD();
     // Set static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD

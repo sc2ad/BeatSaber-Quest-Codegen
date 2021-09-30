@@ -80,8 +80,6 @@ namespace Microsoft::Win32 {
     bool isWritable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RegistryKey
-    RegistryKey(::Il2CppObject* handle_ = {}, Microsoft::Win32::SafeHandles::SafeRegistryHandle* safe_handle_ = {}, ::Il2CppObject* hive_ = {}, ::Il2CppString* qname_ = {}, bool isRemoteRoot_ = {}, bool isWritable_ = {}) noexcept : handle{handle_}, safe_handle{safe_handle_}, hive{hive_}, qname{qname_}, isRemoteRoot{isRemoteRoot_}, isWritable{isWritable_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

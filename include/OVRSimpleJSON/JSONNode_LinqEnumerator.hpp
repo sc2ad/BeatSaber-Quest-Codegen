@@ -43,8 +43,6 @@ namespace OVRSimpleJSON {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     OVRSimpleJSON::JSONNode::Enumerator m_Enumerator;
-    // Creating value type constructor for type: LinqEnumerator
-    LinqEnumerator(OVRSimpleJSON::JSONNode* m_Node_ = {}, OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) noexcept : m_Node{m_Node_}, m_Enumerator{m_Enumerator_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>
     operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>*>(this);

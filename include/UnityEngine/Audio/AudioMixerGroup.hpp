@@ -17,8 +17,6 @@ namespace UnityEngine::Audio {
   // [NativeHeaderAttribute] Offset: E9EF50
   class AudioMixerGroup : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: AudioMixerGroup
-    AudioMixerGroup() noexcept {}
   }; // UnityEngine.Audio.AudioMixerGroup
   #pragma pack(pop)
 }

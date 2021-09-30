@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*) == 0x8);
-    // Creating value type constructor for type: BeatmapEditorScenesTransitionSetupDataSO
-    BeatmapEditorScenesTransitionSetupDataSO(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent_ = {}) noexcept : didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> didFinishEvent
     System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)

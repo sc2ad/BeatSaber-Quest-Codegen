@@ -27,8 +27,6 @@ namespace Zenject {
   template<typename TValue>
   class PoolableMemoryPool_1 : public Zenject::MemoryPool_1<TValue> {
     public:
-    // Creating value type constructor for type: PoolableMemoryPool_1
-    PoolableMemoryPool_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1

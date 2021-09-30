@@ -44,8 +44,6 @@ namespace System {
     bool bound;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ArraySpec
-    ArraySpec(int dimensions_ = {}, bool bound_ = {}) noexcept : dimensions{dimensions_}, bound{bound_} {}
     // Creating interface conversion operator: operator System::ModifierSpec
     operator System::ModifierSpec() noexcept {
       return *reinterpret_cast<System::ModifierSpec*>(this);

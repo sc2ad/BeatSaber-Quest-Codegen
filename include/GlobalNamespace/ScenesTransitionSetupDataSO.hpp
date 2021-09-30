@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::SceneSetupData*> sceneSetupDataArray;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SceneSetupData*>) == 0x8);
-    // Creating value type constructor for type: ScenesTransitionSetupDataSO
-    ScenesTransitionSetupDataSO(::ArrayWrapper<GlobalNamespace::SceneInfo*> scenes_ = {}, ::ArrayWrapper<GlobalNamespace::SceneSetupData*> sceneSetupDataArray_ = {}) noexcept : scenes{scenes_}, sceneSetupDataArray{sceneSetupDataArray_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SceneInfo[] <scenes>k__BackingField

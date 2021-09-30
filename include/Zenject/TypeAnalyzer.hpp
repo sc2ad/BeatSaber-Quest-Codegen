@@ -42,8 +42,6 @@ namespace Zenject {
     public:
     // Nested type: Zenject::TypeAnalyzer::$$c__DisplayClass23_0
     class $$c__DisplayClass23_0;
-    // Creating value type constructor for type: TypeAnalyzer
-    TypeAnalyzer() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,Zenject.InjectTypeInfo> _typeInfo
     static System::Collections::Generic::Dictionary_2<System::Type*, Zenject::InjectTypeInfo*>* _get__typeInfo();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,Zenject.InjectTypeInfo> _typeInfo

@@ -20,8 +20,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITableCellOwner {
     public:
-    // Creating value type constructor for type: ITableCellOwner
-    ITableCellOwner() noexcept {}
     // public HMUI.TableViewSelectionType get_selectionType()
     // Offset: 0xFFFFFFFF
     HMUI::TableViewSelectionType get_selectionType();

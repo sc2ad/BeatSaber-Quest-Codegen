@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithNetSyncSessionList : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionList*> {
     public:
-    // Creating value type constructor for type: MessageWithNetSyncSessionList
-    MessageWithNetSyncSessionList() noexcept {}
     // protected Oculus.Platform.Models.NetSyncSessionList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BAEFC
     Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(System::IntPtr c_message);

@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::Config : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Config
-    Config() noexcept {}
     // Get static field: static private System.Int32 <SampleRateHz>k__BackingField
     static int _get_$SampleRateHz$k__BackingField();
     // Set static field: static private System.Int32 <SampleRateHz>k__BackingField

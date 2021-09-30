@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemes;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*>) == 0x8);
-    // Creating value type constructor for type: ColorSchemesListSO
-    ColorSchemesListSO(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemes_ = {}) noexcept : colorSchemes{colorSchemes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSchemeSO[] _colorSchemes

@@ -152,8 +152,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     ::ArrayWrapper<::Il2CppString*> childrenIds;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: RemoteTestResultData
-    RemoteTestResultData(::Il2CppString* testId_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, ::Il2CppString* resultState_ = {}, NUnit::Framework::Interfaces::TestStatus testStatus_ = {}, double duration_ = {}, System::DateTime startTime_ = {}, System::DateTime endTime_ = {}, ::Il2CppString* message_ = {}, ::Il2CppString* stackTrace_ = {}, int assertCount_ = {}, int failCount_ = {}, int passCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, bool hasChildren_ = {}, ::Il2CppString* output_ = {}, ::Il2CppString* xml_ = {}, ::ArrayWrapper<::Il2CppString*> childrenIds_ = {}) noexcept : testId{testId_}, name{name_}, fullName{fullName_}, resultState{resultState_}, testStatus{testStatus_}, duration{duration_}, startTime{startTime_}, endTime{endTime_}, message{message_}, stackTrace{stackTrace_}, assertCount{assertCount_}, failCount{failCount_}, passCount{passCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, hasChildren{hasChildren_}, output{output_}, xml{xml_}, childrenIds{childrenIds_} {}
     // Get instance field reference: public System.String testId
     ::Il2CppString*& dyn_testId();
     // Get instance field reference: public System.String name

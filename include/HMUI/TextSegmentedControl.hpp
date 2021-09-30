@@ -113,8 +113,6 @@ namespace HMUI {
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: TextSegmentedControl
-    TextSegmentedControl(float fontSize_ = {}, bool overrideCellSize_ = {}, float padding_ = {}, bool hideCellBackground_ = {}, HMUI::TextSegmentedControlCell* firstCellPrefab_ = {}, HMUI::TextSegmentedControlCell* lastCellPrefab_ = {}, HMUI::TextSegmentedControlCell* singleCellPrefab_ = {}, HMUI::TextSegmentedControlCell* middleCellPrefab_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts_ = {}) noexcept : fontSize{fontSize_}, overrideCellSize{overrideCellSize_}, padding{padding_}, hideCellBackground{hideCellBackground_}, firstCellPrefab{firstCellPrefab_}, lastCellPrefab{lastCellPrefab_}, singleCellPrefab{singleCellPrefab_}, middleCellPrefab{middleCellPrefab_}, container{container_}, texts{texts_} {}
     // Creating interface conversion operator: operator HMUI::SegmentedControl::IDataSource
     operator HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);

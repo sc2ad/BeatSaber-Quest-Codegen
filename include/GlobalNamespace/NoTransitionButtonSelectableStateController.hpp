@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoTransitionButtonSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsButton*> {
     public:
-    // Creating value type constructor for type: NoTransitionButtonSelectableStateController
-    NoTransitionButtonSelectableStateController() noexcept {}
     // protected System.Void OnEnable()
     // Offset: 0x113C360
     void OnEnable();

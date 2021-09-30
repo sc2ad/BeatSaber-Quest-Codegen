@@ -96,8 +96,6 @@ namespace RootMotion::FinalIK {
     bool firstUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Body
-    Body(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* relativeTo_ = {}, ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks_ = {}, float verticalWeight_ = {}, float horizontalWeight_ = {}, float speed_ = {}, UnityEngine::Vector3 lastRelativePos_ = {}, UnityEngine::Vector3 smoothDelta_ = {}, bool firstUpdate_ = {}) noexcept : transform{transform_}, relativeTo{relativeTo_}, effectorLinks{effectorLinks_}, verticalWeight{verticalWeight_}, horizontalWeight{horizontalWeight_}, speed{speed_}, lastRelativePos{lastRelativePos_}, smoothDelta{smoothDelta_}, firstUpdate{firstUpdate_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform relativeTo

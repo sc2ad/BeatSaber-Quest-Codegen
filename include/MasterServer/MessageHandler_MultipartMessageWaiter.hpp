@@ -78,8 +78,6 @@ namespace MasterServer {
     bool isDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultipartMessageWaiter
-    MultipartMessageWaiter(GlobalNamespace::SmallBufferPool* bufferPool_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int length_ = {}, System::Collections::Generic::List_1<int>* ranges_ = {}, bool isComplete_ = {}, bool isDisposed_ = {}) noexcept : bufferPool{bufferPool_}, buffer{buffer_}, length{length_}, ranges{ranges_}, isComplete{isComplete_}, isDisposed{isDisposed_} {}
     // Get instance field reference: private readonly SmallBufferPool _bufferPool
     GlobalNamespace::SmallBufferPool*& dyn__bufferPool();
     // Get instance field reference: private System.Byte[] _buffer

@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Object* choiceObj;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
-    // Creating value type constructor for type: AttCertIssuer
-    AttCertIssuer(Org::BouncyCastle::Asn1::Asn1Encodable* obj_ = {}, Org::BouncyCastle::Asn1::Asn1Object* choiceObj_ = {}) noexcept : obj{obj_}, choiceObj{choiceObj_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

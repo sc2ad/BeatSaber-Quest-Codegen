@@ -46,8 +46,6 @@ namespace System::Runtime::Remoting {
     System::IDisposable* disposable;
     // Field size check
     static_assert(sizeof(System::IDisposable*) == 0x8);
-    // Creating value type constructor for type: DisposerReplySink
-    DisposerReplySink(System::Runtime::Remoting::Messaging::IMessageSink* next_ = {}, System::IDisposable* disposable_ = {}) noexcept : next{next_}, disposable{disposable_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

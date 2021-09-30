@@ -103,8 +103,6 @@ namespace GlobalNamespace {
     bool lastCellInParty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CellInfo
-    CellInfo(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType type_ = {}, ::Il2CppString* headerString_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}, bool lastCellInParty_ = {}) noexcept : type{type_}, headerString{headerString_}, player{player_}, lastCellInParty{lastCellInParty_} {}
     // Get instance field reference: public NetworkPlayersTableView/CellInfo/CellType type
     GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType& dyn_type();
     // Get instance field reference: public System.String headerString

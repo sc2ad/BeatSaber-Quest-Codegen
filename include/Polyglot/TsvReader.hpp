@@ -26,8 +26,6 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class TsvReader : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TsvReader
-    TsvReader() noexcept {}
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
     // Offset: 0x25842DC
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* Parse(::Il2CppString* src);

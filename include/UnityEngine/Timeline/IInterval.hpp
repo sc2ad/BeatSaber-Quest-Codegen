@@ -14,8 +14,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInterval {
     public:
-    // Creating value type constructor for type: IInterval
-    IInterval() noexcept {}
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFF
     int64_t get_intervalStart();

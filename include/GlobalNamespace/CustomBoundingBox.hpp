@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // Creating value type constructor for type: CustomBoundingBox
-    CustomBoundingBox(UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Vector3 boundingBoxCenter_ = {}, UnityEngine::Vector3 boundingBoxSize_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}) noexcept : meshFilter{meshFilter_}, boundingBoxCenter{boundingBoxCenter_}, boundingBoxSize{boundingBoxSize_}, meshRenderer{meshRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter

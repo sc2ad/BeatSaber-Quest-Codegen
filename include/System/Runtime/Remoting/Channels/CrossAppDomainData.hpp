@@ -38,8 +38,6 @@ namespace System::Runtime::Remoting::Channels {
     ::Il2CppString* processGuid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: CrossAppDomainData
-    CrossAppDomainData(::Il2CppObject* ContextID_ = {}, int DomainID_ = {}, ::Il2CppString* processGuid_ = {}) noexcept : ContextID{ContextID_}, DomainID{DomainID_}, processGuid{processGuid_} {}
     // Get instance field reference: private System.Object _ContextID
     ::Il2CppObject*& dyn__ContextID();
     // Get instance field reference: private System.Int32 _DomainID

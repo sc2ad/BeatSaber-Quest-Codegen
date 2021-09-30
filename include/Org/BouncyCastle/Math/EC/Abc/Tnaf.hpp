@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tnaf : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Tnaf
-    Tnaf() noexcept {}
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger MinusOne
     static Org::BouncyCastle::Math::BigInteger* _get_MinusOne();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger MinusOne

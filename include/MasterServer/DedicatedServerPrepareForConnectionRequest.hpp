@@ -82,8 +82,6 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* publicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
-    // Creating value type constructor for type: DedicatedServerPrepareForConnectionRequest
-    DedicatedServerPrepareForConnectionRequest(::Il2CppString* id_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, GlobalNamespace::ByteArrayNetSerializable* random_ = {}, GlobalNamespace::ByteArrayNetSerializable* publicKey_ = {}) noexcept : id{id_}, userId{userId_}, userName{userName_}, remoteEndPoint{remoteEndPoint_}, random{random_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerServerToClientMessage
     operator MasterServer::IDedicatedServerServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerServerToClientMessage*>(this);

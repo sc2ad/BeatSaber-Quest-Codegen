@@ -74,8 +74,6 @@ namespace System::Text {
     int m_MaxCapacity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StringBuilder
-    StringBuilder(::ArrayWrapper<::Il2CppChar> m_ChunkChars_ = {}, System::Text::StringBuilder* m_ChunkPrevious_ = {}, int m_ChunkLength_ = {}, int m_ChunkOffset_ = {}, int m_MaxCapacity_ = {}) noexcept : m_ChunkChars{m_ChunkChars_}, m_ChunkPrevious{m_ChunkPrevious_}, m_ChunkLength{m_ChunkLength_}, m_ChunkOffset{m_ChunkOffset_}, m_MaxCapacity{m_MaxCapacity_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

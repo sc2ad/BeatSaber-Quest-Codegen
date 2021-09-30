@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5E84
   class IVROverlay::_SetOverlayTexelAspect : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetOverlayTexelAspect
-    _SetOverlayTexelAspect() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ECBFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

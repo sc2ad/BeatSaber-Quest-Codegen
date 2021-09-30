@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     int currentDataId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AvatarEditHistory
-    AvatarEditHistory(bool disableNextSnapshotOverride_ = {}, System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>* snapShots_ = {}, int currentDataId_ = {}) noexcept : disableNextSnapshotOverride{disableNextSnapshotOverride_}, snapShots{snapShots_}, currentDataId{currentDataId_} {}
     // Get instance field reference: public System.Boolean disableNextSnapshotOverride
     bool& dyn_disableNextSnapshotOverride();
     // Get instance field reference: private System.Collections.Generic.List`1<Menu.ViewControllers.EditAvatarHistorySnapshot> _snapShots

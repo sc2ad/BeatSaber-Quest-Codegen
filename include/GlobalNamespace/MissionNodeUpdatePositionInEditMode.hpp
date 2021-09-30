@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeConnection* missionNodeConnection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeConnection*) == 0x8);
-    // Creating value type constructor for type: MissionNodeUpdatePositionInEditMode
-    MissionNodeUpdatePositionInEditMode(GlobalNamespace::MissionNodeConnection* missionNodeConnection_ = {}) noexcept : missionNodeConnection{missionNodeConnection_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodeConnection _missionNodeConnection

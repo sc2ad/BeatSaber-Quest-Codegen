@@ -20,8 +20,6 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManager::CultureNameResourceSetPair : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CultureNameResourceSetPair
-    CultureNameResourceSetPair() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15A61B0
     // Implemented from: System.Object

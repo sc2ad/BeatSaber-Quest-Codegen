@@ -41,8 +41,6 @@ namespace Zenject {
     ::Il2CppObject* instance;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass72_0
-    $$c__DisplayClass72_0(::Il2CppObject* instance_ = {}) noexcept : instance{instance_} {}
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return instance;

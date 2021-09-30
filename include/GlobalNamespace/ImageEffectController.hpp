@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ImageEffectController::RenderImageCallback*) == 0x8);
-    // Creating value type constructor for type: ImageEffectController
-    ImageEffectController(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback_ = {}) noexcept : renderImageCallback{renderImageCallback_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ImageEffectController/RenderImageCallback _renderImageCallback

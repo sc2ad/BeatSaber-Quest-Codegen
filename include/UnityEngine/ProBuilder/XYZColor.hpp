@@ -43,8 +43,6 @@ namespace UnityEngine::ProBuilder {
     float z;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: XYZColor
-    XYZColor(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Get instance field reference: public System.Single x
     float& dyn_x();
     // Get instance field reference: public System.Single y

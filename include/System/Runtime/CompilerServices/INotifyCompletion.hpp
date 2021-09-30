@@ -20,8 +20,6 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class INotifyCompletion {
     public:
-    // Creating value type constructor for type: INotifyCompletion
-    INotifyCompletion() noexcept {}
     // public System.Void OnCompleted(System.Action continuation)
     // Offset: 0xFFFFFFFF
     void OnCompleted(System::Action* continuation);

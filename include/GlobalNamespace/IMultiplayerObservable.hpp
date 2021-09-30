@@ -13,8 +13,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMultiplayerObservable {
     public:
-    // Creating value type constructor for type: IMultiplayerObservable
-    IMultiplayerObservable() noexcept {}
     // public System.Single get_offsetSyncTime()
     // Offset: 0xFFFFFFFF
     float get_offsetSyncTime();

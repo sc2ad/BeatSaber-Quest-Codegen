@@ -13,8 +13,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMaskable {
     public:
-    // Creating value type constructor for type: IMaskable
-    IMaskable() noexcept {}
     // public System.Void RecalculateMasking()
     // Offset: 0xFFFFFFFF
     void RecalculateMasking();

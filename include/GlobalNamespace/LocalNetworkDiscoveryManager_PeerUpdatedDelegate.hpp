@@ -43,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalNetworkDiscoveryManager::PeerUpdatedDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: PeerUpdatedDelegate
-    PeerUpdatedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x125C240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

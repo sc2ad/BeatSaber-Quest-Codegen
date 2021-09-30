@@ -36,8 +36,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class AddressablesRuntimeProperties : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AddressablesRuntimeProperties
-    AddressablesRuntimeProperties() noexcept {}
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> s_TokenStack
     static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_s_TokenStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> s_TokenStack

@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Math::Field {
     ::ArrayWrapper<int> exponents;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: GF2Polynomial
-    GF2Polynomial(::ArrayWrapper<int> exponents_ = {}) noexcept : exponents{exponents_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IPolynomial
     operator Org::BouncyCastle::Math::Field::IPolynomial() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomial*>(this);

@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* currentlyLeadingUser;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLeadPlayerProvider
-    MultiplayerLeadPlayerProvider(float timeToGainFirstLead_ = {}, float timeToLooseLead_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, System::Action_1<::Il2CppString*>* newLeaderWasSelectedEvent_ = {}, float currentLeadingPlayerStartTime_ = {}, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* currentlyDisplayedUser_ = {}, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* currentlyLeadingUser_ = {}) noexcept : timeToGainFirstLead{timeToGainFirstLead_}, timeToLooseLead{timeToLooseLead_}, scoreProvider{scoreProvider_}, multiplayerController{multiplayerController_}, newLeaderWasSelectedEvent{newLeaderWasSelectedEvent_}, currentLeadingPlayerStartTime{currentLeadingPlayerStartTime_}, currentlyDisplayedUser{currentlyDisplayedUser_}, currentlyLeadingUser{currentlyLeadingUser_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _timeToGainFirstLead

@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuDestination*) == 0x8);
-    // Creating value type constructor for type: DeeplinkManagerToDestinationRequestManagerAdapter
-    DeeplinkManagerToDestinationRequestManagerAdapter(GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, System::Action_1<GlobalNamespace::MenuDestination*>* didSendMenuDestinationRequestEvent_ = {}, GlobalNamespace::MenuDestination* currentMenuDestinationRequest_ = {}) noexcept : beatmapLevelsModel{beatmapLevelsModel_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, didSendMenuDestinationRequestEvent{didSendMenuDestinationRequestEvent_}, currentMenuDestinationRequest{currentMenuDestinationRequest_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDestinationRequestManager
     operator GlobalNamespace::IDestinationRequestManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDestinationRequestManager*>(this);

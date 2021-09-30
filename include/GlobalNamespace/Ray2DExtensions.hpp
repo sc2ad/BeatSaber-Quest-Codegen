@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Ray2DExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Ray2DExtensions
-    Ray2DExtensions() noexcept {}
     // static public System.Int32 CircleIntersections(UnityEngine.Ray2D ray, UnityEngine.Vector2 circleCenter, System.Single radius, System.Single[] distances)
     // Offset: 0x138CB20
     static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::ArrayWrapper<float> distances);

@@ -33,8 +33,6 @@ namespace UnityEngine::Rendering {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: RenderPipeline
-    RenderPipeline(bool disposed_ = {}) noexcept : disposed{disposed_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return disposed;

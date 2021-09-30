@@ -38,8 +38,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapObjectCallbackController {
     public:
-    // Creating value type constructor for type: IBeatmapObjectCallbackController
-    IBeatmapObjectCallbackController() noexcept {}
     // public System.Boolean get_isPaused()
     // Offset: 0xFFFFFFFF
     bool get_isPaused();

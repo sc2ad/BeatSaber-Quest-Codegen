@@ -36,8 +36,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0
     struct $IsConnectedToInternetAsync$d__0;
-    // Creating value type constructor for type: InternetConnectionChecker
-    InternetConnectionChecker() noexcept {}
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x25F80B8
     static System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(System::Threading::CancellationToken cancellationToken);

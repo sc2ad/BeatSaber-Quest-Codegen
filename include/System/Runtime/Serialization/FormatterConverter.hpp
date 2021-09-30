@@ -28,8 +28,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F658
   class FormatterConverter : public ::Il2CppObject/*, public System::Runtime::Serialization::IFormatterConverter*/ {
     public:
-    // Creating value type constructor for type: FormatterConverter
-    FormatterConverter() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::IFormatterConverter
     operator System::Runtime::Serialization::IFormatterConverter() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IFormatterConverter*>(this);

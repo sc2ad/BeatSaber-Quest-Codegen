@@ -27,8 +27,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitException : public System::Exception {
     public:
-    // Creating value type constructor for type: NUnitException
-    NUnitException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x249DD14
     // Implemented from: System.Exception

@@ -26,8 +26,6 @@ namespace UnityEngine::Audio {
   // [StaticAccessorAttribute] Offset: E9F07C
   class AudioPlayableGraphExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AudioPlayableGraphExtensions
-    AudioPlayableGraphExtensions() noexcept {}
     // static System.Boolean InternalCreateAudioOutput(ref UnityEngine.Playables.PlayableGraph graph, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x2606E84
     static bool InternalCreateAudioOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::Il2CppString* name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);

@@ -32,8 +32,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayingMultiplayerRichPresenceData : public GlobalNamespace::InMultiplayerRichPresenceData {
     public:
-    // Creating value type constructor for type: PlayingMultiplayerRichPresenceData
-    PlayingMultiplayerRichPresenceData() noexcept {}
     // [LocalizationKeyAttribute] Offset: 0xF0403C
     // static field const value: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kPlayingMultiplayerLobbyRichPresenceLocalizationKey = "PLAYING_MULTIPLAYER_PRESENCE";

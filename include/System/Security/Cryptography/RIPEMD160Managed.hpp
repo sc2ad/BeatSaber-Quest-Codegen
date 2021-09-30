@@ -47,8 +47,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint> blockDWords;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: RIPEMD160Managed
-    RIPEMD160Managed(::ArrayWrapper<uint8_t> buffer_ = {}, int64_t count_ = {}, ::ArrayWrapper<uint> stateMD160_ = {}, ::ArrayWrapper<uint> blockDWords_ = {}) noexcept : buffer{buffer_}, count{count_}, stateMD160{stateMD160_}, blockDWords{blockDWords_} {}
     // Get instance field reference: private System.Byte[] _buffer
     ::ArrayWrapper<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int64 _count

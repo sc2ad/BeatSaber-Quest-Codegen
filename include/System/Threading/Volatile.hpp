@@ -18,8 +18,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class Volatile : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Volatile
-    Volatile() noexcept {}
     // static public System.Boolean Read(ref System.Boolean location)
     // Offset: 0x19C2814
     static bool Read(ByRef<bool> location);

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MirroredBombNoteController::Pool
     class Pool;
-    // Creating value type constructor for type: MirroredBombNoteController
-    MirroredBombNoteController() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11834A0
     // Implemented from: MirroredNoteController`1

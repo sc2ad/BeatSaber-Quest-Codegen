@@ -14,8 +14,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterBuilder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ParameterBuilder
-    ParameterBuilder() noexcept {}
   }; // System.Reflection.Emit.ParameterBuilder
   #pragma pack(pop)
 }

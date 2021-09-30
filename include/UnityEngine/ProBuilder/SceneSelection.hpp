@@ -96,8 +96,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::Face* face;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
-    // Creating value type constructor for type: SceneSelection
-    SceneSelection(UnityEngine::GameObject* gameObject_ = {}, UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}, System::Collections::Generic::List_1<int>* m_Vertices_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* m_Edges_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* m_Faces_ = {}, int vertex_ = {}, UnityEngine::ProBuilder::Edge edge_ = {}, UnityEngine::ProBuilder::Face* face_ = {}) noexcept : gameObject{gameObject_}, mesh{mesh_}, m_Vertices{m_Vertices_}, m_Edges{m_Edges_}, m_Faces{m_Faces_}, vertex{vertex_}, edge{edge_}, face{face_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>*>(this);

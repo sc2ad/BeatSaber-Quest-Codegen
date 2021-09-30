@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
-    // Creating value type constructor for type: GameCoreSceneSetup
-    GameCoreSceneSetup(GlobalNamespace::ScreenCaptureAfterDelay* screenCaptureAfterDelayPrefab_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::BloomFogSO* bloomFog_ = {}) noexcept : screenCaptureAfterDelayPrefab{screenCaptureAfterDelayPrefab_}, mainSettingsModel{mainSettingsModel_}, bloomFog{bloomFog_} {}
     // static field const value: static private System.Single kPauseButtonPressDurationMultiplier
     static constexpr const float kPauseButtonPressDurationMultiplier = 0.75;
     // Get static field: static private System.Single kPauseButtonPressDurationMultiplier

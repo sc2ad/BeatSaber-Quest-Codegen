@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     ::Il2CppString* levelId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: LevelProductData
-    LevelProductData(uint appId_ = {}, ::Il2CppString* levelId_ = {}) noexcept : appId{appId_}, levelId{levelId_} {}
     // Get instance field reference: private System.UInt32 _appId
     uint& dyn__appId();
     // Get instance field reference: private System.String _levelId

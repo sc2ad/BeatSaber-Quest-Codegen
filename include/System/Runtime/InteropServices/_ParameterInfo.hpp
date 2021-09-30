@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [GuidAttribute] Offset: E612CC
   class _ParameterInfo {
     public:
-    // Creating value type constructor for type: _ParameterInfo
-    _ParameterInfo() noexcept {}
   }; // System.Runtime.InteropServices._ParameterInfo
   #pragma pack(pop)
 }

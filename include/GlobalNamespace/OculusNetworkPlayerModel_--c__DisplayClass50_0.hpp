@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>* tcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass50_0
-    $$c__DisplayClass50_0(uint64_t id_ = {}, System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>* tcs_ = {}) noexcept : id{id_}, tcs{tcs_} {}
     // Get instance field reference: public System.UInt64 id
     uint64_t& dyn_id();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs

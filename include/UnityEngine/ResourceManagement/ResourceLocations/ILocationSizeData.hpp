@@ -26,8 +26,6 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILocationSizeData {
     public:
-    // Creating value type constructor for type: ILocationSizeData
-    ILocationSizeData() noexcept {}
     // public System.Int64 ComputeSize(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceManager resourceManager)
     // Offset: 0xFFFFFFFF
     int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::ResourceManager* resourceManager);

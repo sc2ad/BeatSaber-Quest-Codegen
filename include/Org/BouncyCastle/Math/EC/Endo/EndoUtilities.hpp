@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     public:
     // Nested type: Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback
     class MapPointCallback;
-    // Creating value type constructor for type: EndoUtilities
-    EndoUtilities() noexcept {}
     // Get static field: static public readonly System.String PRECOMP_NAME
     static ::Il2CppString* _get_PRECOMP_NAME();
     // Set static field: static public readonly System.String PRECOMP_NAME

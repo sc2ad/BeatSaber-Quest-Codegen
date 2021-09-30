@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB08EC
   class IVRCompositor::_WaitGetPoses : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _WaitGetPoses
-    _WaitGetPoses() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EEEBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

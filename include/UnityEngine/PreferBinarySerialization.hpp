@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72D14
   class PreferBinarySerialization : public System::Attribute {
     public:
-    // Creating value type constructor for type: PreferBinarySerialization
-    PreferBinarySerialization() noexcept {}
   }; // UnityEngine.PreferBinarySerialization
   #pragma pack(pop)
 }

@@ -153,8 +153,6 @@ namespace System::Net::Http {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HttpClientHandler
-    HttpClientHandler(bool allowAutoRedirect_ = {}, System::Net::DecompressionMethods automaticDecompression_ = {}, System::Net::CookieContainer* cookieContainer_ = {}, System::Net::ICredentials* credentials_ = {}, int maxAutomaticRedirections_ = {}, int64_t maxRequestContentBufferSize_ = {}, bool preAuthenticate_ = {}, System::Net::IWebProxy* proxy_ = {}, bool useCookies_ = {}, bool useDefaultCredentials_ = {}, bool useProxy_ = {}, bool sentRequest_ = {}, ::Il2CppString* connectionGroupName_ = {}, bool disposed_ = {}) noexcept : allowAutoRedirect{allowAutoRedirect_}, automaticDecompression{automaticDecompression_}, cookieContainer{cookieContainer_}, credentials{credentials_}, maxAutomaticRedirections{maxAutomaticRedirections_}, maxRequestContentBufferSize{maxRequestContentBufferSize_}, preAuthenticate{preAuthenticate_}, proxy{proxy_}, useCookies{useCookies_}, useDefaultCredentials{useDefaultCredentials_}, useProxy{useProxy_}, sentRequest{sentRequest_}, connectionGroupName{connectionGroupName_}, disposed{disposed_} {}
     // Get static field: static private System.Int64 groupCounter
     static int64_t _get_groupCounter();
     // Set static field: static private System.Int64 groupCounter

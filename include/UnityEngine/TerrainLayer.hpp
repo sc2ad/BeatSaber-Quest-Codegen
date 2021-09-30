@@ -37,8 +37,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EBDFC0
   class TerrainLayer : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: TerrainLayer
-    TerrainLayer() noexcept {}
     // public UnityEngine.Texture2D get_diffuseTexture()
     // Offset: 0x25EC150
     UnityEngine::Texture2D* get_diffuseTexture();

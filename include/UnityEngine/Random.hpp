@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E722B4
   class Random : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Random
-    Random() noexcept {}
     // static public System.Single get_value()
     // Offset: 0x1E009B0
     static float get_value();

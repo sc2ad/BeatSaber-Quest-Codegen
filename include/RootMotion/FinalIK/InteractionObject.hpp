@@ -176,8 +176,6 @@ namespace RootMotion::FinalIK {
       UnityEngine::AnimationCurve* curve;
       // Field size check
       static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-      // Creating value type constructor for type: WeightCurve
-      WeightCurve(RootMotion::FinalIK::InteractionObject::WeightCurve::Type type_ = {}, UnityEngine::AnimationCurve* curve_ = {}) noexcept : type{type_}, curve{curve_} {}
       // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type type
       RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_type();
       // Get instance field reference: public UnityEngine.AnimationCurve curve
@@ -257,8 +255,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::InteractionTarget*> targets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTarget*>) == 0x8);
-    // Creating value type constructor for type: InteractionObject
-    InteractionObject(UnityEngine::Transform* otherLookAtTarget_ = {}, UnityEngine::Transform* otherTargetsRoot_ = {}, UnityEngine::Transform* positionOffsetSpace_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::WeightCurve*> weightCurves_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::Multiplier*> multipliers_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::InteractionEvent*> events_ = {}, float length_ = {}, RootMotion::FinalIK::InteractionSystem* lastUsedInteractionSystem_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionTarget*> targets_ = {}) noexcept : otherLookAtTarget{otherLookAtTarget_}, otherTargetsRoot{otherTargetsRoot_}, positionOffsetSpace{positionOffsetSpace_}, weightCurves{weightCurves_}, multipliers{multipliers_}, events{events_}, length{length_}, lastUsedInteractionSystem{lastUsedInteractionSystem_}, targets{targets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform otherLookAtTarget

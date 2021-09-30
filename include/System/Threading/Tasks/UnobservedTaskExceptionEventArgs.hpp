@@ -39,8 +39,6 @@ namespace System::Threading::Tasks {
     bool m_observed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnobservedTaskExceptionEventArgs
-    UnobservedTaskExceptionEventArgs(System::AggregateException* m_exception_ = {}, bool m_observed_ = {}) noexcept : m_exception{m_exception_}, m_observed{m_observed_} {}
     // Get instance field reference: private System.AggregateException m_exception
     System::AggregateException*& dyn_m_exception();
     // Get instance field reference: System.Boolean m_observed

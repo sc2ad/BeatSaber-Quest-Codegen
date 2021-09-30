@@ -116,8 +116,6 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* progressImageRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // Creating value type constructor for type: SongProgressUIController
-    SongProgressUIController(UnityEngine::UI::Slider* slider_ = {}, UnityEngine::UI::Image* progressImage_ = {}, TMPro::TextMeshProUGUI* durationMinutesText_ = {}, TMPro::TextMeshProUGUI* durationSecondsText_ = {}, TMPro::TextMeshProUGUI* progressMinutesText_ = {}, TMPro::TextMeshProUGUI* progressSecondsText_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, int prevMinutes_ = {}, int prevSeconds_ = {}, System::Text::StringBuilder* stringBuilder_ = {}, UnityEngine::RectTransform* progressImageRectTransform_ = {}) noexcept : slider{slider_}, progressImage{progressImage_}, durationMinutesText{durationMinutesText_}, durationSecondsText{durationSecondsText_}, progressMinutesText{progressMinutesText_}, progressSecondsText{progressSecondsText_}, audioTimeSyncController{audioTimeSyncController_}, prevMinutes{prevMinutes_}, prevSeconds{prevSeconds_}, stringBuilder{stringBuilder_}, progressImageRectTransform{progressImageRectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Slider _slider

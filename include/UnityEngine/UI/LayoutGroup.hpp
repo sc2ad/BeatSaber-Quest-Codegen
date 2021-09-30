@@ -112,8 +112,6 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::RectTransform*>* m_RectChildren;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::RectTransform*>*) == 0x8);
-    // Creating value type constructor for type: LayoutGroup
-    LayoutGroup(UnityEngine::RectOffset* m_Padding_ = {}, UnityEngine::TextAnchor m_ChildAlignment_ = {}, UnityEngine::RectTransform* m_Rect_ = {}, UnityEngine::DrivenRectTransformTracker m_Tracker_ = {}, UnityEngine::Vector2 m_TotalMinSize_ = {}, UnityEngine::Vector2 m_TotalPreferredSize_ = {}, UnityEngine::Vector2 m_TotalFlexibleSize_ = {}, System::Collections::Generic::List_1<UnityEngine::RectTransform*>* m_RectChildren_ = {}) noexcept : m_Padding{m_Padding_}, m_ChildAlignment{m_ChildAlignment_}, m_Rect{m_Rect_}, m_Tracker{m_Tracker_}, m_TotalMinSize{m_TotalMinSize_}, m_TotalPreferredSize{m_TotalPreferredSize_}, m_TotalFlexibleSize{m_TotalFlexibleSize_}, m_RectChildren{m_RectChildren_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);

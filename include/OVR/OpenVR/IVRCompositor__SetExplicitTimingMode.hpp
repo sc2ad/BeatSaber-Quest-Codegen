@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0BF8
   class IVRCompositor::_SetExplicitTimingMode : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetExplicitTimingMode
-    _SetExplicitTimingMode() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20ED3BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

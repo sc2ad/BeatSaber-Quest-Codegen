@@ -21,8 +21,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::RemoteConfigSettingsHelper::Tag
     struct Tag;
-    // Creating value type constructor for type: RemoteConfigSettingsHelper
-    RemoteConfigSettingsHelper() noexcept {}
   }; // UnityEngine.RemoteConfigSettingsHelper
   #pragma pack(pop)
 }

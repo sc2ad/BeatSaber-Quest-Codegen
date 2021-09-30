@@ -43,8 +43,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventBasedNetListener::OnNetworkReceiveUnconnected : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OnNetworkReceiveUnconnected
-    OnNetworkReceiveUnconnected() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1DD3A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 localPositionOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: MovementData
-    MovementData(UnityEngine::Vector3 localPositionOffset_ = {}) noexcept : localPositionOffset{localPositionOffset_} {}
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return localPositionOffset;

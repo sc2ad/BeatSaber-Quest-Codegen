@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformAchievementHandler* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusPlatformAchievementHandler*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass3_0
-    $$c__DisplayClass3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler_ = {}, GlobalNamespace::OculusPlatformAchievementHandler* $$4__this_ = {}) noexcept : completionHandler{completionHandler_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler
     GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*& dyn_completionHandler();
     // Get instance field reference: public OculusPlatformAchievementHandler <>4__this

@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     UnityEngine::Camera* mrcForegroundCameraPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
-    // Creating value type constructor for type: ExternalCamerasManager
-    ExternalCamerasManager(GlobalNamespace::OculusMRCManager* oculusMRCManager_ = {}, UnityEngine::Camera* mrcBackgroundCameraPrefab_ = {}, UnityEngine::Camera* mrcForegroundCameraPrefab_ = {}) noexcept : oculusMRCManager{oculusMRCManager_}, mrcBackgroundCameraPrefab{mrcBackgroundCameraPrefab_}, mrcForegroundCameraPrefab{mrcForegroundCameraPrefab_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OculusMRCManager _oculusMRCManager

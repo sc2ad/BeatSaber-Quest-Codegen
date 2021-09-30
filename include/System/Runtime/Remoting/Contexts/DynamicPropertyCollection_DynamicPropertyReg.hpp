@@ -41,8 +41,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*) == 0x8);
-    // Creating value type constructor for type: DynamicPropertyReg
-    DynamicPropertyReg(System::Runtime::Remoting::Contexts::IDynamicProperty* Property_ = {}, System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink_ = {}) noexcept : Property{Property_}, Sink{Sink_} {}
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
     System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink

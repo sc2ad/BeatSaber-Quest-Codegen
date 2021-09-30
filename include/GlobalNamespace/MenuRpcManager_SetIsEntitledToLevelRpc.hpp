@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetIsEntitledToLevelRpc : public GlobalNamespace::RemoteProcedureCall_2<::Il2CppString*, int> {
     public:
-    // Creating value type constructor for type: SetIsEntitledToLevelRpc
-    SetIsEntitledToLevelRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8B5C
     // Implemented from: RemoteProcedureCall`2

@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // Creating value type constructor for type: ConditionalMaterialSwitcher
-    ConditionalMaterialSwitcher(UnityEngine::Material* material0_ = {}, UnityEngine::Material* material1_ = {}, GlobalNamespace::BoolSO* value_ = {}, UnityEngine::Renderer* renderer_ = {}) noexcept : material0{material0_}, material1{material1_}, value{value_}, renderer{renderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Material _material0

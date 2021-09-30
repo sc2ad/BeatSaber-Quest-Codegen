@@ -35,8 +35,6 @@ namespace Zenject {
     public:
     // Nested type: Zenject::ValidationUtil::$$c
     class $$c;
-    // Creating value type constructor for type: ValidationUtil
-    ValidationUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     // Offset: 0x25EDD80
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayWrapper<System::Type*> argTypes);

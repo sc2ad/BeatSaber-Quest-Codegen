@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Math::EC {
     int m_size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DefaultLookupTable
-    DefaultLookupTable(Org::BouncyCastle::Math::EC::ECCurve* m_outer_ = {}, ::ArrayWrapper<uint8_t> m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve m_outer
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_m_outer();
     // Get instance field reference: private readonly System.Byte[] m_table

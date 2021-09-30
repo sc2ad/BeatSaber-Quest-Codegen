@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   // [TokenAttribute] Offset: FFFFFFFF
   class Base64 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Base64
-    Base64() noexcept {}
     // static public System.Byte[] Decode(System.String data)
     // Offset: 0x2180F1C
     static ::ArrayWrapper<uint8_t> Decode(::Il2CppString* data);

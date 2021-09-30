@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECNamedCurveTable : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ECNamedCurveTable
-    ECNamedCurveTable() noexcept {}
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
     // Offset: 0x1BC20E8
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);

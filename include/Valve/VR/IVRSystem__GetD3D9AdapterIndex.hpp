@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB50C4
   class IVRSystem::_GetD3D9AdapterIndex : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetD3D9AdapterIndex
-    _GetD3D9AdapterIndex() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EDC558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,8 +60,6 @@ namespace Zenject {
     bool hasInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitializableManager
-    InitializableManager(System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>* initializables_ = {}, bool hasInitialized_ = {}) noexcept : initializables{initializables_}, hasInitialized{hasInitialized_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
     System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>*& dyn__initializables();
     // Get instance field reference: private System.Boolean _hasInitialized

@@ -28,8 +28,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExceptionHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ExceptionHelper
-    ExceptionHelper() noexcept {}
     // static System.NotImplementedException get_MethodNotImplementedException()
     // Offset: 0x157ABC4
     static System::NotImplementedException* get_MethodNotImplementedException();

@@ -41,8 +41,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB54E8
   class IVRTrackedCamera::_GetVideoStreamTextureD3D11 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetVideoStreamTextureD3D11
-    _GetVideoStreamTextureD3D11() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1EE503C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

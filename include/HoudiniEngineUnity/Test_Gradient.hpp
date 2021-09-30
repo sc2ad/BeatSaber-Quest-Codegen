@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Gradient* self;
     // Field size check
     static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
-    // Creating value type constructor for type: Test_Gradient
-    Test_Gradient(UnityEngine::Gradient* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Gradient*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Gradient*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Gradient*>*>(this);

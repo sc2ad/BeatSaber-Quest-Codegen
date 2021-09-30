@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_AnimationCurve_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_AnimationCurve_Extensions
-    Test_AnimationCurve_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_AnimationCurve ToTestObject(UnityEngine.AnimationCurve self)
     // Offset: 0x170869C
     static HoudiniEngineUnity::Test_AnimationCurve* ToTestObject(UnityEngine::AnimationCurve* self);

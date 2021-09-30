@@ -33,8 +33,6 @@ namespace UnityEngine::ProBuilder {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TransformUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TransformUtility
-    TransformUtility() noexcept {}
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform[]> s_ChildStack
     static System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::ArrayWrapper<UnityEngine::Transform*>>* _get_s_ChildStack();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform[]> s_ChildStack

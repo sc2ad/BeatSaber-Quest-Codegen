@@ -42,8 +42,6 @@ namespace HoudiniEngineUnity {
     bool applyTilemapOrientation;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HEU_InputInterfaceTilemapSettings
-    HEU_InputInterfaceTilemapSettings(bool createGroupsForTiles_ = {}, bool exportUnusedTiles_ = {}, bool applyTileColor_ = {}, bool applyTilemapOrientation_ = {}) noexcept : createGroupsForTiles{createGroupsForTiles_}, exportUnusedTiles{exportUnusedTiles_}, applyTileColor{applyTileColor_}, applyTilemapOrientation{applyTilemapOrientation_} {}
     // Get instance field reference: public System.Boolean _createGroupsForTiles
     bool& dyn__createGroupsForTiles();
     // Get instance field reference: public System.Boolean _exportUnusedTiles

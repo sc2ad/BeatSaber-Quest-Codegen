@@ -52,8 +52,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint> workingKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: Cast6Engine
-    Cast6Engine(::ArrayWrapper<int> Kr_ = {}, ::ArrayWrapper<uint> Km_ = {}, ::ArrayWrapper<int> Tr_ = {}, ::ArrayWrapper<uint> Tm_ = {}, ::ArrayWrapper<uint> workingKey_ = {}) noexcept : Kr{Kr_}, Km{Km_}, Tr{Tr_}, Tm{Tm_}, workingKey{workingKey_} {}
     // Get instance field reference: private System.Int32[] _Kr
     ::ArrayWrapper<int>& dyn__Kr();
     // Get instance field reference: private System.UInt32[] _Km

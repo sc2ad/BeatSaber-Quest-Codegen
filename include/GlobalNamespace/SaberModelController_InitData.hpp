@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     UnityEngine::Color trailTintColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: InitData
-    InitData(UnityEngine::Color trailTintColor_ = {}) noexcept : trailTintColor{trailTintColor_} {}
     // Creating conversion operator: operator UnityEngine::Color
     constexpr operator UnityEngine::Color() const noexcept {
       return trailTintColor;

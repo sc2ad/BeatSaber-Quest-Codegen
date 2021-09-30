@@ -41,8 +41,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1OctetString* value;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
-    // Creating value type constructor for type: X509Extension
-    X509Extension(bool critical_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* value_ = {}) noexcept : critical{critical_}, value{value_} {}
     // Get instance field reference: System.Boolean critical
     bool& dyn_critical();
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString value

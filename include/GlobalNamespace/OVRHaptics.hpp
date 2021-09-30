@@ -25,8 +25,6 @@ namespace GlobalNamespace {
     class OVRHapticsChannel;
     // Nested type: GlobalNamespace::OVRHaptics::OVRHapticsOutput
     class OVRHapticsOutput;
-    // Creating value type constructor for type: OVRHaptics
-    OVRHaptics() noexcept {}
     // Get static field: static public readonly OVRHaptics/OVRHapticsChannel[] Channels
     static ::ArrayWrapper<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> _get_Channels();
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel[] Channels

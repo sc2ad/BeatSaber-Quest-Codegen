@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E8B2D8
   class SharedBetweenAnimatorsAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: SharedBetweenAnimatorsAttribute
-    SharedBetweenAnimatorsAttribute() noexcept {}
   }; // UnityEngine.SharedBetweenAnimatorsAttribute
   #pragma pack(pop)
 }

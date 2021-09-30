@@ -26,8 +26,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PreAssetEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_PreAssetEventData*> {
     public:
-    // Creating value type constructor for type: HEU_PreAssetEvent
-    HEU_PreAssetEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x17D1EE8
     // Implemented from: UnityEngine.Events.UnityEvent`1

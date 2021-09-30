@@ -135,8 +135,6 @@ namespace GlobalNamespace {
     float StereoIpdMm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SteamVR_Skybox
-    SteamVR_Skybox(UnityEngine::Texture* front_ = {}, UnityEngine::Texture* back_ = {}, UnityEngine::Texture* left_ = {}, UnityEngine::Texture* right_ = {}, UnityEngine::Texture* top_ = {}, UnityEngine::Texture* bottom_ = {}, GlobalNamespace::SteamVR_Skybox::CellSize StereoCellSize_ = {}, float StereoIpdMm_ = {}) noexcept : front{front_}, back{back_}, left{left_}, right{right_}, top{top_}, bottom{bottom_}, StereoCellSize{StereoCellSize_}, StereoIpdMm{StereoIpdMm_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture front

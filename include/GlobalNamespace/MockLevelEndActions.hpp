@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     System::Action* levelFinishedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: MockLevelEndActions
-    MockLevelEndActions(System::Action* levelFailedEvent_ = {}, System::Action* levelFinishedEvent_ = {}) noexcept : levelFailedEvent{levelFailedEvent_}, levelFinishedEvent{levelFinishedEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelEndActions
     operator GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);

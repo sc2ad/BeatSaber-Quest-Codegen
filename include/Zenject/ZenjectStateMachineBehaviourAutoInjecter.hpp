@@ -44,8 +44,6 @@ namespace Zenject {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // Creating value type constructor for type: ZenjectStateMachineBehaviourAutoInjecter
-    ZenjectStateMachineBehaviourAutoInjecter(Zenject::DiContainer* container_ = {}, UnityEngine::Animator* animator_ = {}) noexcept : container{container_}, animator{animator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.DiContainer _container

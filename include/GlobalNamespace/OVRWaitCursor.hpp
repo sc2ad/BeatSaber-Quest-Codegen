@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 rotateSpeeds;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: OVRWaitCursor
-    OVRWaitCursor(UnityEngine::Vector3 rotateSpeeds_ = {}) noexcept : rotateSpeeds{rotateSpeeds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Vector3 rotateSpeeds

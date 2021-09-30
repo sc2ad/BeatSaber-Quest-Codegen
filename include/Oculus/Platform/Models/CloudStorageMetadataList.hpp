@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorageMetadataList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CloudStorageMetadata*> {
     public:
-    // Creating value type constructor for type: CloudStorageMetadataList
-    CloudStorageMetadataList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16B7080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

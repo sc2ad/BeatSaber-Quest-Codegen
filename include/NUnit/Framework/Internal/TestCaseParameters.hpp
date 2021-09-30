@@ -35,8 +35,6 @@ namespace NUnit::Framework::Internal {
     bool HasExpectedResult;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestCaseParameters
-    TestCaseParameters(::Il2CppObject* expectedResult_ = {}, bool HasExpectedResult_ = {}) noexcept : expectedResult{expectedResult_}, HasExpectedResult{HasExpectedResult_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestCaseData
     operator NUnit::Framework::Interfaces::ITestCaseData() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestCaseData*>(this);

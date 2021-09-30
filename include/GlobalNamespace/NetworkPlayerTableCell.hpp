@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     bool isMe;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NetworkPlayerTableCell
-    NetworkPlayerTableCell(TMPro::TextMeshProUGUI* playerNameText_ = {}, UnityEngine::GameObject* separator_ = {}, UnityEngine::UI::Image* privateIcon_ = {}, UnityEngine::UI::Image* spectateIcon_ = {}, UnityEngine::UI::Image* partyLeaderIcon_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, UnityEngine::Color textColorNormal_ = {}, UnityEngine::Color textColorMe_ = {}, UnityEngine::Color textColorSelected_ = {}, bool isMe_ = {}) noexcept : playerNameText{playerNameText_}, separator{separator_}, privateIcon{privateIcon_}, spectateIcon{spectateIcon_}, partyLeaderIcon{partyLeaderIcon_}, bgImage{bgImage_}, highlightImage{highlightImage_}, textColorNormal{textColorNormal_}, textColorMe{textColorMe_}, textColorSelected{textColorSelected_}, isMe{isMe_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
     TMPro::TextMeshProUGUI*& dyn__playerNameText();
     // Get instance field reference: private UnityEngine.GameObject _separator

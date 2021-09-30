@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
-    // Creating value type constructor for type: ParametersWithRandom
-    ParametersWithRandom(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : parameters{parameters_}, random{random_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

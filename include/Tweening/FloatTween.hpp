@@ -38,8 +38,6 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatTween : public Tweening::Tween_1<float> {
     public:
-    // Creating value type constructor for type: FloatTween
-    FloatTween() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF15314
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<System.Single,System.Single,System.Action`1<System.Single>,System.Single,Tweening.EaseType,System.Single,Tweening.FloatTween> Pool
     static Zenject::StaticMemoryPool_7<float, float, System::Action_1<float>*, float, Tweening::EaseType, float, Tweening::FloatTween*>* _get_Pool();

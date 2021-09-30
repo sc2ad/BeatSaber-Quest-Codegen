@@ -49,8 +49,6 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*) == 0x8);
-    // Creating value type constructor for type: FastAction
-    FastAction(System::Collections::Generic::LinkedList_1<System::Action*>* delegates_ = {}, System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup_ = {}) noexcept : delegates{delegates_}, lookup{lookup_} {}
     // Get instance field reference: private System.Collections.Generic.LinkedList`1<System.Action> delegates
     System::Collections::Generic::LinkedList_1<System::Action*>*& dyn_delegates();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup

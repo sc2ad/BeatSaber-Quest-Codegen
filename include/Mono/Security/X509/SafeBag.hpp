@@ -37,8 +37,6 @@ namespace Mono::Security::X509 {
     Mono::Security::ASN1* asn1;
     // Field size check
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
-    // Creating value type constructor for type: SafeBag
-    SafeBag(::Il2CppString* bagOID_ = {}, Mono::Security::ASN1* asn1_ = {}) noexcept : bagOID{bagOID_}, asn1{asn1_} {}
     // Get instance field reference: private System.String _bagOID
     ::Il2CppString*& dyn__bagOID();
     // Get instance field reference: private Mono.Security.ASN1 _asn1

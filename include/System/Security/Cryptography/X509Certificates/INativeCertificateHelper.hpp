@@ -22,8 +22,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class INativeCertificateHelper {
     public:
-    // Creating value type constructor for type: INativeCertificateHelper
-    INativeCertificateHelper() noexcept {}
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
     // Offset: 0xFFFFFFFF
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert);

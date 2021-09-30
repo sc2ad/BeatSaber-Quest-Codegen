@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* cubemapFlatTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
-    // Creating value type constructor for type: CubemapTest
-    CubemapTest(UnityEngine::Camera* camera_ = {}, UnityEngine::Material* cubemapMaterial_ = {}, UnityEngine::Material* flatMaterial_ = {}, UnityEngine::RenderTexture* cubemapRenderTexture_ = {}, UnityEngine::RenderTexture* downsampledCubemapRenderTexture_ = {}, UnityEngine::RenderTexture* cubemapFlatTexture_ = {}) noexcept : camera{camera_}, cubemapMaterial{cubemapMaterial_}, flatMaterial{flatMaterial_}, cubemapRenderTexture{cubemapRenderTexture_}, downsampledCubemapRenderTexture{downsampledCubemapRenderTexture_}, cubemapFlatTexture{cubemapFlatTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13A2C

@@ -26,8 +26,6 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::Extrapolation::$$c
     class $$c;
-    // Creating value type constructor for type: Extrapolation
-    Extrapolation() noexcept {}
     // Get static field: static readonly System.Double kMinExtrapolationTime
     static double _get_kMinExtrapolationTime();
     // Set static field: static readonly System.Double kMinExtrapolationTime

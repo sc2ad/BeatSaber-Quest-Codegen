@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB14B8
   class IVRSettings::_GetInt32 : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetInt32
-    _GetInt32() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E0720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

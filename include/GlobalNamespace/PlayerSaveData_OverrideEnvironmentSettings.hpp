@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     ::Il2CppString* override360EnvironmentName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: OverrideEnvironmentSettings
-    OverrideEnvironmentSettings(bool overrideEnvironments_ = {}, ::Il2CppString* overrideNormalEnvironmentName_ = {}, ::Il2CppString* override360EnvironmentName_ = {}) noexcept : overrideEnvironments{overrideEnvironments_}, overrideNormalEnvironmentName{overrideNormalEnvironmentName_}, override360EnvironmentName{override360EnvironmentName_} {}
     // Get instance field reference: public System.Boolean overrideEnvironments
     bool& dyn_overrideEnvironments();
     // Get instance field reference: public System.String overrideNormalEnvironmentName

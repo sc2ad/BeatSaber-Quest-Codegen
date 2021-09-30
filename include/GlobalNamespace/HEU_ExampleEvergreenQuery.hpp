@@ -43,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ExampleEvergreenQuery : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_ExampleEvergreenQuery
-    HEU_ExampleEvergreenQuery() noexcept {}
     // static public System.Void StartQuery()
     // Offset: 0x143677C
     static void StartQuery();

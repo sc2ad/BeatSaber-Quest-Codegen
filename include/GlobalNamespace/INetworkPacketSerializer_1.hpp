@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   template<typename TData>
   class INetworkPacketSerializer_1 {
     public:
-    // Creating value type constructor for type: INetworkPacketSerializer_1
-    INetworkPacketSerializer_1() noexcept {}
     // public System.Void ProcessAllPackets(LiteNetLib.Utils.NetDataReader reader, TData data)
     // Offset: 0xFFFFFFFF
     void ProcessAllPackets(LiteNetLib::Utils::NetDataReader* reader, TData data) {

@@ -42,8 +42,6 @@ namespace Zenject {
     ::ArrayWrapper<Zenject::InjectableInfo*> Parameters;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<Zenject::InjectableInfo*>) == 0x8);
-    // Creating value type constructor for type: InjectConstructorInfo
-    InjectConstructorInfo(Zenject::ZenFactoryMethod* Factory_ = {}, ::ArrayWrapper<Zenject::InjectableInfo*> Parameters_ = {}) noexcept : Factory{Factory_}, Parameters{Parameters_} {}
     // Get instance field reference: public readonly Zenject.ZenFactoryMethod Factory
     Zenject::ZenFactoryMethod*& dyn_Factory();
     // Get instance field reference: public readonly Zenject.InjectableInfo[] Parameters

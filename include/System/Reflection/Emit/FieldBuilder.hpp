@@ -39,8 +39,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class FieldBuilder : public System::Reflection::FieldInfo {
     public:
-    // Creating value type constructor for type: FieldBuilder
-    FieldBuilder() noexcept {}
     // public override System.Reflection.FieldAttributes get_Attributes()
     // Offset: 0x1EA6430
     // Implemented from: System.Reflection.FieldInfo

@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85BD8
   class BoxCollider : public UnityEngine::Collider {
     public:
-    // Creating value type constructor for type: BoxCollider
-    BoxCollider() noexcept {}
     // public System.Void set_center(UnityEngine.Vector3 value)
     // Offset: 0x260B59C
     void set_center(UnityEngine::Vector3 value);

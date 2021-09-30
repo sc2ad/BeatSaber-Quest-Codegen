@@ -116,8 +116,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // Creating value type constructor for type: PrepareLevelCompletionResults
-    PrepareLevelCompletionResults(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModelSO_ = {}, GlobalNamespace::SaberActivityCounter* saberActivityCounter_ = {}, GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder_ = {}, GlobalNamespace::MultiplierValuesRecorder* multiplierValuesRecorder_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : gameplayModifiersModelSO{gameplayModifiersModelSO_}, saberActivityCounter{saberActivityCounter_}, beatmapObjectExecutionRatingsRecorder{beatmapObjectExecutionRatingsRecorder_}, multiplierValuesRecorder{multiplierValuesRecorder_}, scoreController{scoreController_}, gameEnergyCounter{gameEnergyCounter_}, gameSongController{gameSongController_}, beatmapData{beatmapData_}, audioTimeSyncController{audioTimeSyncController_}, gameplayModifiers{gameplayModifiers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModelSO

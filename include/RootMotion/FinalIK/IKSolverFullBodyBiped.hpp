@@ -92,8 +92,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: IKSolverFullBodyBiped
-    IKSolverFullBodyBiped(UnityEngine::Transform* rootNode_ = {}, float spineStiffness_ = {}, float pullBodyVertical_ = {}, float pullBodyHorizontal_ = {}, UnityEngine::Vector3 pullBodyOffset_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : rootNode{rootNode_}, spineStiffness{spineStiffness_}, pullBodyVertical{pullBodyVertical_}, pullBodyHorizontal{pullBodyHorizontal_}, pullBodyOffset{pullBodyOffset_}, offset{offset_} {}
     // Get instance field reference: public UnityEngine.Transform rootNode
     UnityEngine::Transform*& dyn_rootNode();
     // Get instance field reference: public System.Single spineStiffness

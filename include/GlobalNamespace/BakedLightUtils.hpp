@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakedLightUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BakedLightUtils
-    BakedLightUtils() noexcept {}
     // static field const value: static public System.String kMirrorParentNameToIgnore
     static constexpr const char* kMirrorParentNameToIgnore = "PlayersPlace";
     // Get static field: static public System.String kMirrorParentNameToIgnore

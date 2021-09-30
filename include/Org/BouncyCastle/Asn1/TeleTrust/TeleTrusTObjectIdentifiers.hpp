@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
   // [TokenAttribute] Offset: FFFFFFFF
   class TeleTrusTObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TeleTrusTObjectIdentifiers
-    TeleTrusTObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier TeleTrusTAlgorithm
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_TeleTrusTAlgorithm();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier TeleTrusTAlgorithm

@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Anssi {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnssiObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AnssiObjectIdentifiers
-    AnssiObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier FRP256v1
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_FRP256v1();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier FRP256v1

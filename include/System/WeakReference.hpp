@@ -44,8 +44,6 @@ namespace System {
     System::Runtime::InteropServices::GCHandle gcHandle;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
-    // Creating value type constructor for type: WeakReference
-    WeakReference(bool isLongReference_ = {}, System::Runtime::InteropServices::GCHandle gcHandle_ = {}) noexcept : isLongReference{isLongReference_}, gcHandle{gcHandle_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

@@ -49,7 +49,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // Creating value type constructor for type: ParamsArray
-    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
+    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {nullptr}) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -82,7 +82,6 @@ namespace System {
     ::Il2CppObject* get_Item(int index);
     // public System.Void .ctor(System.Object arg0)
     // Offset: 0x1E9F4A4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Il2CppObject* arg0) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0)})));
@@ -90,7 +89,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
     // Offset: 0x1E9F528
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1)})));
@@ -98,7 +96,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1E9F5B0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2)})));
@@ -106,7 +103,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Object[] args)
     // Offset: 0x1E9F644
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ParamsArray(::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));

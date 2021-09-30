@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* rectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // Creating value type constructor for type: MissionStage
-    MissionStage(int minimumMissionsToUnlock_ = {}, UnityEngine::RectTransform* rectTransform_ = {}) noexcept : minimumMissionsToUnlock{minimumMissionsToUnlock_}, rectTransform{rectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _minimumMissionsToUnlock

@@ -146,7 +146,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op)
     // Offset: 0x1B5E924
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op)})));
@@ -154,7 +153,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version)
     // Offset: 0x1B5EA00
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(version)})));
@@ -162,7 +160,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.String locationName)
     // Offset: 0x1B5EA10
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(locationName)})));
@@ -170,7 +167,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version, System.String locationName)
     // Offset: 0x1B5EAF0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName)
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle Acquire()
     // Offset: 0x1B5EB00

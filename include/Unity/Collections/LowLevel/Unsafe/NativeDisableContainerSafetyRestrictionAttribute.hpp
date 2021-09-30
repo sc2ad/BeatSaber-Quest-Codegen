@@ -18,8 +18,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [RequiredByNativeCodeAttribute] Offset: E6FEF8
   class NativeDisableContainerSafetyRestrictionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeDisableContainerSafetyRestrictionAttribute
-    NativeDisableContainerSafetyRestrictionAttribute() noexcept {}
   }; // Unity.Collections.LowLevel.Unsafe.NativeDisableContainerSafetyRestrictionAttribute
   #pragma pack(pop)
 }

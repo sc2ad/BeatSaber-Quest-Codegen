@@ -31,8 +31,6 @@ namespace Zenject::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDecoratorProvider {
     public:
-    // Creating value type constructor for type: IDecoratorProvider
-    IDecoratorProvider() noexcept {}
     // public System.Void GetAllInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
     void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

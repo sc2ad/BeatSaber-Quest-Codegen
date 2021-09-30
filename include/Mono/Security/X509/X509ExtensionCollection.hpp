@@ -44,8 +44,6 @@ namespace Mono::Security::X509 {
     bool readOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: X509ExtensionCollection
-    X509ExtensionCollection(bool readOnly_ = {}) noexcept : readOnly{readOnly_} {}
     // Deleting conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept = delete;
     // Get instance field reference: private System.Boolean readOnly

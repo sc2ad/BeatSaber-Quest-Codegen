@@ -29,8 +29,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetManager::IPEndPointComparer : public ::Il2CppObject/*, public System::Collections::Generic::IEqualityComparer_1<System::Net::IPEndPoint*>*/ {
     public:
-    // Creating value type constructor for type: IPEndPointComparer
-    IPEndPointComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEqualityComparer_1<System::Net::IPEndPoint*>
     operator System::Collections::Generic::IEqualityComparer_1<System::Net::IPEndPoint*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<System::Net::IPEndPoint*>*>(this);

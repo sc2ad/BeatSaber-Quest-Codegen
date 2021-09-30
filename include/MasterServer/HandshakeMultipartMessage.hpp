@@ -30,8 +30,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class HandshakeMultipartMessage : public MasterServer::BaseMasterServerMultipartMessage/*, public MasterServer::IHandshakeMessage*/ {
     public:
-    // Creating value type constructor for type: HandshakeMultipartMessage
-    HandshakeMultipartMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeMessage
     operator MasterServer::IHandshakeMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeMessage*>(this);

@@ -27,8 +27,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScriptableObjectInstallerUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ScriptableObjectInstallerUtil
-    ScriptableObjectInstallerUtil() noexcept {}
     // static public System.String GetDefaultResourcePath()
     // Offset: 0xFFFFFFFF
     template<class TInstaller>

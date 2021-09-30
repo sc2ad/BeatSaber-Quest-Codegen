@@ -27,8 +27,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class RaycasterManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: RaycasterManager
-    RaycasterManager() noexcept {}
     // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> s_Raycasters
     static System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* _get_s_Raycasters();
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> s_Raycasters

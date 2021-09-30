@@ -34,8 +34,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Internal_SubsystemInstances : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Internal_SubsystemInstances
-    Internal_SubsystemInstances() noexcept {}
     // Get static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_IntegratedSubsystemInstances
     static System::Collections::Generic::List_1<UnityEngine::ISubsystem*>* _get_s_IntegratedSubsystemInstances();
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_IntegratedSubsystemInstances

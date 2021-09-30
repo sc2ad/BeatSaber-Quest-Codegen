@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: EnterTextViewController
-    EnterTextViewController(GlobalNamespace::VRTextEntryController* textEntryController_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, UnityEngine::UI::Button* okButton_ = {}, System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent_ = {}) noexcept : textEntryController{textEntryController_}, titleText{titleText_}, okButton{okButton_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private VRTextEntryController _textEntryController
     GlobalNamespace::VRTextEntryController*& dyn__textEntryController();
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText

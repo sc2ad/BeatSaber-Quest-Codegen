@@ -56,8 +56,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* validation;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*) == 0x8);
-    // Creating value type constructor for type: DsaParameters
-    DsaParameters(Org::BouncyCastle::Math::BigInteger* p_ = {}, Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Math::BigInteger* g_ = {}, Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* validation_ = {}) noexcept : p{p_}, q{q_}, g{g_}, validation{validation_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

@@ -40,8 +40,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
     UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_1
-    $$c__DisplayClass4_1(UnityEngine::Terrain* t_ = {}, UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0* CS$$$8__locals1_ = {}) noexcept : t{t_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public UnityEngine.Terrain t
     UnityEngine::Terrain*& dyn_t();
     // Get instance field reference: public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0 CS$<>8__locals1

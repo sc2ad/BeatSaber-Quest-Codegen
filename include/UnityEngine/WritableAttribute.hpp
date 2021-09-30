@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: E6D97C
   class WritableAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: WritableAttribute
-    WritableAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261FC60
     // Implemented from: System.Attribute

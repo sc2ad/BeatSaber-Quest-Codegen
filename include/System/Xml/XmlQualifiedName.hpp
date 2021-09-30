@@ -43,8 +43,6 @@ namespace System::Xml {
     int hash;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: XmlQualifiedName
-    XmlQualifiedName(::Il2CppString* name_ = {}, ::Il2CppString* ns_ = {}, int hash_ = {}) noexcept : name{name_}, ns{ns_}, hash{hash_} {}
     // Get static field: static private System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate hashCodeDelegate
     static System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* _get_hashCodeDelegate();
     // Set static field: static private System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate hashCodeDelegate

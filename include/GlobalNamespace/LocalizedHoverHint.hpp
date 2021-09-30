@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizedHoverHint : public Polyglot::LocalizedTextComponent_1<HMUI::HoverHint*> {
     public:
-    // Creating value type constructor for type: LocalizedHoverHint
-    LocalizedHoverHint() noexcept {}
     // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
     // Offset: 0x1260114
     void SetText(HMUI::HoverHint* hoverHint, ::Il2CppString* value);

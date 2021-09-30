@@ -108,8 +108,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerAvailabilityData::UserMessage* userMessage;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*) == 0x8);
-    // Creating value type constructor for type: MasterServerAvailabilityData
-    MasterServerAvailabilityData(::Il2CppString* minimumAppVersion_ = {}, GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus status_ = {}, int64_t maintenanceStartTime_ = {}, int64_t maintenanceEndTime_ = {}, GlobalNamespace::MasterServerAvailabilityData::UserMessage* userMessage_ = {}) noexcept : minimumAppVersion{minimumAppVersion_}, status{status_}, maintenanceStartTime{maintenanceStartTime_}, maintenanceEndTime{maintenanceEndTime_}, userMessage{userMessage_} {}
     // Get instance field reference: public System.String minimumAppVersion
     ::Il2CppString*& dyn_minimumAppVersion();
     // Get instance field reference: public MasterServerAvailabilityData/AvailabilityStatus status

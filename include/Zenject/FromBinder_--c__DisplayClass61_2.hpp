@@ -47,8 +47,6 @@ namespace Zenject {
     UnityEngine::MonoBehaviour* monoBehaviour;
     // Field size check
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass61_2
-    $$c__DisplayClass61_2(Zenject::InjectContext* ctx_ = {}, UnityEngine::MonoBehaviour* monoBehaviour_ = {}) noexcept : ctx{ctx_}, monoBehaviour{monoBehaviour_} {}
     // Get instance field reference: public Zenject.InjectContext ctx
     Zenject::InjectContext*& dyn_ctx();
     // Get instance field reference: public UnityEngine.MonoBehaviour monoBehaviour

@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     bool hasSong;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LocalPlayerInGameMenuInitData
-    LocalPlayerInGameMenuInitData(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, bool hasSong_ = {}) noexcept : previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, hasSong{hasSong_} {}
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
     GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public readonly BeatmapDifficulty beatmapDifficulty

@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRichPresenceData {
     public:
-    // Creating value type constructor for type: IRichPresenceData
-    IRichPresenceData() noexcept {}
     // public System.String get_apiName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_apiName();

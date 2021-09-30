@@ -88,8 +88,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::PaddingMode PaddingValue;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::PaddingMode) == 0x4);
-    // Creating value type constructor for type: SymmetricAlgorithm
-    SymmetricAlgorithm(int BlockSizeValue_ = {}, int FeedbackSizeValue_ = {}, ::ArrayWrapper<uint8_t> IVValue_ = {}, ::ArrayWrapper<uint8_t> KeyValue_ = {}, ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalBlockSizesValue_ = {}, ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalKeySizesValue_ = {}, int KeySizeValue_ = {}, System::Security::Cryptography::CipherMode ModeValue_ = {}, System::Security::Cryptography::PaddingMode PaddingValue_ = {}) noexcept : BlockSizeValue{BlockSizeValue_}, FeedbackSizeValue{FeedbackSizeValue_}, IVValue{IVValue_}, KeyValue{KeyValue_}, LegalBlockSizesValue{LegalBlockSizesValue_}, LegalKeySizesValue{LegalKeySizesValue_}, KeySizeValue{KeySizeValue_}, ModeValue{ModeValue_}, PaddingValue{PaddingValue_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

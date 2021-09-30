@@ -112,7 +112,6 @@ namespace Unity::Collections {
       }
       // public System.Void .ctor(ref Unity.Collections.NativeArray`1<T> array)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(ByRef<Unity::Collections::NativeArray_1<T>> array) {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));

@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BlocksBlade* blocksBlade;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BlocksBlade*) == 0x8);
-    // Creating value type constructor for type: SetBlocksBladeSaberGlowColor
-    SetBlocksBladeSaberGlowColor(GlobalNamespace::SaberTypeObject* saber_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::BlocksBlade* blocksBlade_ = {}) noexcept : saber{saber_}, colorManager{colorManager_}, blocksBlade{blocksBlade_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saber

@@ -25,8 +25,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWebProxy {
     public:
-    // Creating value type constructor for type: IWebProxy
-    IWebProxy() noexcept {}
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0xFFFFFFFF
     System::Net::ICredentials* get_Credentials();

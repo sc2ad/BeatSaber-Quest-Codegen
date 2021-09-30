@@ -59,8 +59,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* taskSource;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass6_0
-    $$c__DisplayClass6_0(UnityEngine::AssetBundleCreateRequest* asetBundleCreateRequest_ = {}, ::Il2CppString* levelDataAssetName_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* taskSource_ = {}) noexcept : asetBundleCreateRequest{asetBundleCreateRequest_}, levelDataAssetName{levelDataAssetName_}, taskSource{taskSource_} {}
     // Get instance field reference: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
     UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
     // Get instance field reference: public System.String levelDataAssetName

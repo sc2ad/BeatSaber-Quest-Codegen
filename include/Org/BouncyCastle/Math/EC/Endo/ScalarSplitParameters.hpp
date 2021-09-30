@@ -67,8 +67,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     int m_bits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ScalarSplitParameters
-    ScalarSplitParameters(Org::BouncyCastle::Math::BigInteger* m_v1A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v1B_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2B_ = {}, Org::BouncyCastle::Math::BigInteger* m_g1_ = {}, Org::BouncyCastle::Math::BigInteger* m_g2_ = {}, int m_bits_ = {}) noexcept : m_v1A{m_v1A_}, m_v1B{m_v1B_}, m_v2A{m_v2A_}, m_v2B{m_v2B_}, m_g1{m_g1_}, m_g2{m_g2_}, m_bits{m_bits_} {}
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
     Org::BouncyCastle::Math::BigInteger*& dyn_m_v1A();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v1B

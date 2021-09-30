@@ -63,8 +63,6 @@ namespace HMUI {
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* canvasGroupCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*) == 0x8);
-    // Creating value type constructor for type: InteractableTextMeshPro
-    InteractableTextMeshPro(float interactionAlpha_ = {}, float noInteractionAlpha_ = {}, TMPro::TextMeshProUGUI* text_ = {}, System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* canvasGroupCache_ = {}) noexcept : interactionAlpha{interactionAlpha_}, noInteractionAlpha{noInteractionAlpha_}, text{text_}, canvasGroupCache{canvasGroupCache_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _interactionAlpha

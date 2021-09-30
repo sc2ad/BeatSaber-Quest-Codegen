@@ -27,8 +27,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebProxyScriptElement : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: WebProxyScriptElement
-    WebProxyScriptElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x1570488
     // Implemented from: System.Configuration.ConfigurationElement

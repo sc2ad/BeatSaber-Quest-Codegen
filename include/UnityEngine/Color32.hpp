@@ -78,7 +78,6 @@ namespace UnityEngine {
     uint8_t& dyn_a();
     // public System.Void .ctor(System.Byte r, System.Byte g, System.Byte b, System.Byte a)
     // Offset: 0x1CB421C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Color32(uint8_t r, uint8_t g, uint8_t b, uint8_t a)
     // static public UnityEngine.Color32 Lerp(UnityEngine.Color32 a, UnityEngine.Color32 b, System.Single t)
     // Offset: 0x1CB455C

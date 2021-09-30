@@ -103,8 +103,6 @@ namespace System::Net {
     System::Uri* requestUri;
     // Field size check
     static_assert(sizeof(System::Uri*) == 0x8);
-    // Creating value type constructor for type: HttpListenerRequestUriBuilder
-    HttpListenerRequestUriBuilder(::Il2CppString* rawUri_ = {}, ::Il2CppString* cookedUriScheme_ = {}, ::Il2CppString* cookedUriHost_ = {}, ::Il2CppString* cookedUriPath_ = {}, ::Il2CppString* cookedUriQuery_ = {}, System::Text::StringBuilder* requestUriString_ = {}, System::Collections::Generic::List_1<uint8_t>* rawOctets_ = {}, ::Il2CppString* rawPath_ = {}, System::Uri* requestUri_ = {}) noexcept : rawUri{rawUri_}, cookedUriScheme{cookedUriScheme_}, cookedUriHost{cookedUriHost_}, cookedUriPath{cookedUriPath_}, cookedUriQuery{cookedUriQuery_}, requestUriString{requestUriString_}, rawOctets{rawOctets_}, rawPath{rawPath_}, requestUri{requestUri_} {}
     // Get static field: static private readonly System.Boolean useCookedRequestUrl
     static bool _get_useCookedRequestUrl();
     // Set static field: static private readonly System.Boolean useCookedRequestUrl

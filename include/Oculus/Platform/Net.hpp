@@ -35,8 +35,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Net : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Net
-    Net() noexcept {}
     // static public Oculus.Platform.Packet ReadPacket()
     // Offset: 0x25B5DC8
     static Oculus::Platform::Packet* ReadPacket();

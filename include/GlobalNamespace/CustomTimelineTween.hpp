@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Vector3> startPositions;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: CustomTimelineTween
-    CustomTimelineTween(::ArrayWrapper<UnityEngine::Transform*> transforms_ = {}, ::ArrayWrapper<UnityEngine::Vector3> startPositions_ = {}) noexcept : transforms{transforms_}, startPositions{startPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform[] transforms

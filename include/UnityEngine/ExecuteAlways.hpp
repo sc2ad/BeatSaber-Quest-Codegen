@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E724E8
   class ExecuteAlways : public System::Attribute {
     public:
-    // Creating value type constructor for type: ExecuteAlways
-    ExecuteAlways() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CBAEE8
     // Implemented from: System.Attribute

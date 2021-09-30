@@ -44,8 +44,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::AsnDecodeStatus status;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::AsnDecodeStatus) == 0x4);
-    // Creating value type constructor for type: X509EnhancedKeyUsageExtension
-    X509EnhancedKeyUsageExtension(System::Security::Cryptography::OidCollection* enhKeyUsage_ = {}, System::Security::Cryptography::AsnDecodeStatus status_ = {}) noexcept : enhKeyUsage{enhKeyUsage_}, status{status_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.Security.Cryptography.OidCollection _enhKeyUsage

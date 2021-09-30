@@ -66,8 +66,6 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Pelvis
-    Pelvis(UnityEngine::Vector3 IKOffset_ = {}, float heightOffset_ = {}, RootMotion::FinalIK::Grounding* grounding_ = {}, UnityEngine::Vector3 lastRootPosition_ = {}, float damperF_ = {}, bool initiated_ = {}, float lastTime_ = {}) noexcept : IKOffset{IKOffset_}, heightOffset{heightOffset_}, grounding{grounding_}, lastRootPosition{lastRootPosition_}, damperF{damperF_}, initiated{initiated_}, lastTime{lastTime_} {}
     // Get instance field reference: private UnityEngine.Vector3 <IKOffset>k__BackingField
     UnityEngine::Vector3& dyn_$IKOffset$k__BackingField();
     // Get instance field reference: private System.Single <heightOffset>k__BackingField

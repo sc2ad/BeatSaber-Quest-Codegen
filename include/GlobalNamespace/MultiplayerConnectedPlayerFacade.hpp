@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerFacade
-    MultiplayerConnectedPlayerFacade(UnityEngine::GameObject* outroAnimator_ = {}, GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator_ = {}, float bigAvatarDisappearDuration_ = {}, Tweening::EaseType bigAvatarDisappearEasing_ = {}, GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController_ = {}, GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* scoreDiffText_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : outroAnimator{outroAnimator_}, bigAvatarAnimator{bigAvatarAnimator_}, bigAvatarDisappearDuration{bigAvatarDisappearDuration_}, bigAvatarDisappearEasing{bigAvatarDisappearEasing_}, songTimeSyncController{songTimeSyncController_}, introAnimator{introAnimator_}, beatmapObjectManager{beatmapObjectManager_}, scoreDiffText{scoreDiffText_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _outroAnimator

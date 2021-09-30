@@ -21,8 +21,6 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS1 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PKCS1
-    PKCS1() noexcept {}
     // Get static field: static private System.Byte[] emptySHA1
     static ::ArrayWrapper<uint8_t> _get_emptySHA1();
     // Set static field: static private System.Byte[] emptySHA1

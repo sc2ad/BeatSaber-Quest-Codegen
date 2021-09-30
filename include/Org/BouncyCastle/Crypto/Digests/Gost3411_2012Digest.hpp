@@ -76,8 +76,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int bOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Gost3411_2012Digest
-    Gost3411_2012Digest(::ArrayWrapper<uint8_t> IV_ = {}, ::ArrayWrapper<uint8_t> N_ = {}, ::ArrayWrapper<uint8_t> Sigma_ = {}, ::ArrayWrapper<uint8_t> Ki_ = {}, ::ArrayWrapper<uint8_t> m_ = {}, ::ArrayWrapper<uint8_t> h_ = {}, ::ArrayWrapper<uint8_t> tmp_ = {}, ::ArrayWrapper<uint8_t> block_ = {}, int bOff_ = {}) noexcept : IV{IV_}, N{N_}, Sigma{Sigma_}, Ki{Ki_}, m{m_}, h{h_}, tmp{tmp_}, block{block_}, bOff{bOff_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

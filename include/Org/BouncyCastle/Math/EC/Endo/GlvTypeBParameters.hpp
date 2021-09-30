@@ -48,8 +48,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*) == 0x8);
-    // Creating value type constructor for type: GlvTypeBParameters
-    GlvTypeBParameters(Org::BouncyCastle::Math::BigInteger* m_beta_ = {}, Org::BouncyCastle::Math::BigInteger* m_lambda_ = {}, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams_ = {}) noexcept : m_beta{m_beta_}, m_lambda{m_lambda_}, m_splitParams{m_splitParams_} {}
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
     Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda

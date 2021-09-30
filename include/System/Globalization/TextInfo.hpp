@@ -103,8 +103,6 @@ namespace System::Globalization {
     int m_win32LangID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TextInfo
-    TextInfo(::Il2CppString* m_listSeparator_ = {}, bool m_isReadOnly_ = {}, ::Il2CppString* m_cultureName_ = {}, System::Globalization::CultureData* m_cultureData_ = {}, ::Il2CppString* m_textInfoName_ = {}, System::Nullable_1<bool> m_IsAsciiCasingSameAsInvariant_ = {}, ::Il2CppString* customCultureName_ = {}, int m_nDataItem_ = {}, bool m_useUserOverride_ = {}, int m_win32LangID_ = {}) noexcept : m_listSeparator{m_listSeparator_}, m_isReadOnly{m_isReadOnly_}, m_cultureName{m_cultureName_}, m_cultureData{m_cultureData_}, m_textInfoName{m_textInfoName_}, m_IsAsciiCasingSameAsInvariant{m_IsAsciiCasingSameAsInvariant_}, customCultureName{customCultureName_}, m_nDataItem{m_nDataItem_}, m_useUserOverride{m_useUserOverride_}, m_win32LangID{m_win32LangID_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

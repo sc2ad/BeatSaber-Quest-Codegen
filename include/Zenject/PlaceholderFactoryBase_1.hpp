@@ -57,8 +57,6 @@ namespace Zenject {
     Zenject::InjectContext* injectContext;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
-    // Creating value type constructor for type: PlaceholderFactoryBase_1
-    PlaceholderFactoryBase_1(Zenject::IProvider* provider_ = {}, Zenject::InjectContext* injectContext_ = {}) noexcept : provider{provider_}, injectContext{injectContext_} {}
     // Creating interface conversion operator: operator Zenject::IPlaceholderFactory
     operator Zenject::IPlaceholderFactory() noexcept {
       return *reinterpret_cast<Zenject::IPlaceholderFactory*>(this);

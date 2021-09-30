@@ -34,8 +34,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AchievementUpdate
-    AchievementUpdate(bool JustUnlocked_ = {}, ::Il2CppString* Name_ = {}) noexcept : JustUnlocked{JustUnlocked_}, Name{Name_} {}
     // Get instance field reference: public readonly System.Boolean JustUnlocked
     bool& dyn_JustUnlocked();
     // Get instance field reference: public readonly System.String Name

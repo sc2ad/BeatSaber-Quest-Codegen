@@ -30,8 +30,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerSequence : public Org::BouncyCastle::Asn1::DerSequence {
     public:
-    // Creating value type constructor for type: BerSequence
-    BerSequence() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.BerSequence Empty
     static Org::BouncyCastle::Asn1::BerSequence* _get_Empty();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.BerSequence Empty

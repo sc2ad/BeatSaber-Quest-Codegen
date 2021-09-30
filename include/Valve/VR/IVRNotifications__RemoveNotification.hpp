@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB6500
   class IVRNotifications::_RemoveNotification : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _RemoveNotification
-    _RemoveNotification() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B34B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

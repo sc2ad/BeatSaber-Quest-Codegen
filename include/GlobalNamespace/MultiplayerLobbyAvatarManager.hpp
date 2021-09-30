@@ -85,8 +85,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* inProgressDespawnAnimations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLobbyAvatarManager
-    MultiplayerLobbyAvatarManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::MultiplayerLobbyAvatarController::Factory* avatarControllerFactory_ = {}, float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>* playerIdToAvatarMap_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* inProgressDespawnAnimations_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, avatarControllerFactory{avatarControllerFactory_}, innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_}, playerIdToAvatarMap{playerIdToAvatarMap_}, inProgressDespawnAnimations{inProgressDespawnAnimations_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel

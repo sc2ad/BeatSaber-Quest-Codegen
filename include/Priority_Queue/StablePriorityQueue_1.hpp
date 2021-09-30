@@ -67,8 +67,6 @@ namespace Priority_Queue {
       int $i$5__2;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // Creating value type constructor for type: $GetEnumerator$d__22
-      $GetEnumerator$d__22(int $$1__state_ = {}, T $$2__current_ = {}, Priority_Queue::StablePriorityQueue_1<T>* $$4__this_ = {}, int $i$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $i$5__2{$i$5__2_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<T>
       operator System::Collections::Generic::IEnumerator_1<T>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<T>*>(this);
@@ -172,8 +170,6 @@ namespace Priority_Queue {
     int64_t numNodesEverEnqueued;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: StablePriorityQueue_1
-    StablePriorityQueue_1(int numNodes_ = {}, ::ArrayWrapper<T> nodes_ = {}, int64_t numNodesEverEnqueued_ = {}) noexcept : numNodes{numNodes_}, nodes{nodes_}, numNodesEverEnqueued{numNodesEverEnqueued_} {}
     // Creating interface conversion operator: operator Priority_Queue::IFixedSizePriorityQueue_2<T, float>
     operator Priority_Queue::IFixedSizePriorityQueue_2<T, float>() noexcept {
       return *reinterpret_cast<Priority_Queue::IFixedSizePriorityQueue_2<T, float>*>(this);

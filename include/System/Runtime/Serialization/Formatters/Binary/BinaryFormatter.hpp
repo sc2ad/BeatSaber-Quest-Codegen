@@ -112,8 +112,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::ArrayWrapper<::Il2CppObject*> m_crossAppDomainArray;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating value type constructor for type: BinaryFormatter
-    BinaryFormatter(System::Runtime::Serialization::ISurrogateSelector* m_surrogates_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}, System::Runtime::Serialization::SerializationBinder* m_binder_ = {}, System::Runtime::Serialization::Formatters::FormatterTypeStyle m_typeFormat_ = {}, System::Runtime::Serialization::Formatters::FormatterAssemblyStyle m_assemblyFormat_ = {}, System::Runtime::Serialization::Formatters::TypeFilterLevel m_securityLevel_ = {}, ::ArrayWrapper<::Il2CppObject*> m_crossAppDomainArray_ = {}) noexcept : m_surrogates{m_surrogates_}, m_context{m_context_}, m_binder{m_binder_}, m_typeFormat{m_typeFormat_}, m_assemblyFormat{m_assemblyFormat_}, m_securityLevel{m_securityLevel_}, m_crossAppDomainArray{m_crossAppDomainArray_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::IFormatter
     operator System::Runtime::Serialization::IFormatter() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IFormatter*>(this);

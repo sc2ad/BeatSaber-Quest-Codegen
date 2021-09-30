@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* collidersGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: BTSCharacterResultAnimationController
-    BTSCharacterResultAnimationController(GlobalNamespace::MaterialPropertyBlockColorSetter* rimLightColorSetter_ = {}, GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightIntensityAnimator_ = {}, GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator_ = {}, UnityEngine::GameObject* collidersGameObject_ = {}) noexcept : rimLightColorSetter{rimLightColorSetter_}, rimLightIntensityAnimator{rimLightIntensityAnimator_}, rimLightEdgeStartAnimator{rimLightEdgeStartAnimator_}, collidersGameObject{collidersGameObject_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MaterialPropertyBlockColorSetter _rimLightColorSetter

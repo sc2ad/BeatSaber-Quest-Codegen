@@ -40,8 +40,6 @@ namespace UnityEngine::XR {
     struct XRRenderPass;
     // Nested type: UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc
     struct XRMirrorViewBlitDesc;
-    // Creating value type constructor for type: XRDisplaySubsystem
-    XRDisplaySubsystem() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE99A0C
     // Get static field: static private System.Action`1<System.Boolean> displayFocusChanged
     static System::Action_1<bool>* _get_displayFocusChanged();

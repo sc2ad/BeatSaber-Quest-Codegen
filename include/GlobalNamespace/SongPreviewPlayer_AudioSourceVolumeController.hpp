@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     float volume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: AudioSourceVolumeController
-    AudioSourceVolumeController(UnityEngine::AudioSource* audioSource_ = {}, float maxVolume_ = {}, float volume_ = {}) noexcept : audioSource{audioSource_}, maxVolume{maxVolume_}, volume{volume_} {}
     // Get instance field reference: public readonly UnityEngine.AudioSource audioSource
     UnityEngine::AudioSource*& dyn_audioSource();
     // Get instance field reference: private System.Single <maxVolume>k__BackingField

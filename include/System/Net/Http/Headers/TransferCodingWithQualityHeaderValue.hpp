@@ -35,8 +35,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransferCodingWithQualityHeaderValue : public System::Net::Http::Headers::TransferCodingHeaderValue {
     public:
-    // Creating value type constructor for type: TransferCodingWithQualityHeaderValue
-    TransferCodingWithQualityHeaderValue() noexcept {}
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue> result)
     // Offset: 0x1758398
     static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);

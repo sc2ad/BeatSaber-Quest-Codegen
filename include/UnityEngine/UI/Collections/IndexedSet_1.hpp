@@ -61,8 +61,6 @@ namespace UnityEngine::UI::Collections {
     System::Collections::Generic::Dictionary_2<T, int>* m_Dictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<T, int>*) == 0x8);
-    // Creating value type constructor for type: IndexedSet_1
-    IndexedSet_1(System::Collections::Generic::List_1<T>* m_List_ = {}, System::Collections::Generic::Dictionary_2<T, int>* m_Dictionary_ = {}) noexcept : m_List{m_List_}, m_Dictionary{m_Dictionary_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);

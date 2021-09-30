@@ -20,8 +20,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeParameterInfo : public System::Reflection::ParameterInfo {
     public:
-    // Creating value type constructor for type: RuntimeParameterInfo
-    RuntimeParameterInfo() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x15A424C
     // Implemented from: System.Reflection.ParameterInfo

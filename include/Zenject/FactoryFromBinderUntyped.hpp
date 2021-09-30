@@ -37,8 +37,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class FactoryFromBinderUntyped : public Zenject::FactoryFromBinderBase {
     public:
-    // Creating value type constructor for type: FactoryFromBinderUntyped
-    FactoryFromBinderUntyped() noexcept {}
     // public System.Void .ctor(Zenject.DiContainer bindContainer, System.Type contractType, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0x182A9B8
     // Implemented from: Zenject.FactoryFromBinderBase

@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // Creating value type constructor for type: EmitParticles
-    EmitParticles(UnityEngine::ParticleSystem* particleSystem_ = {}) noexcept : particleSystem{particleSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> alwaysOwnedBeatmapLevels;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>) == 0x8);
-    // Creating value type constructor for type: AlwaysOwnedContentSO
-    AlwaysOwnedContentSO(::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> alwaysOwnedPacks_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> alwaysOwnedBeatmapLevels_ = {}) noexcept : alwaysOwnedPacks{alwaysOwnedPacks_}, alwaysOwnedBeatmapLevels{alwaysOwnedBeatmapLevels_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackSO[] _alwaysOwnedPacks

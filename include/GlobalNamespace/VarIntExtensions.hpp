@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class VarIntExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VarIntExtensions
-    VarIntExtensions() noexcept {}
     // static public System.Void PutVarInt(LiteNetLib.Utils.NetDataWriter writer, System.Int32 val)
     // Offset: 0x25709D8
     static void PutVarInt(LiteNetLib::Utils::NetDataWriter* writer, int val);

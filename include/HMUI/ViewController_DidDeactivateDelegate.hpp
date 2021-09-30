@@ -31,8 +31,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ViewController::DidDeactivateDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: DidDeactivateDelegate
-    DidDeactivateDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x25B38F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

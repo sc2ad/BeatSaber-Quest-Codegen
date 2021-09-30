@@ -14,8 +14,6 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProcessInfo : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ProcessInfo
-    ProcessInfo() noexcept {}
   }; // System.Diagnostics.ProcessInfo
   #pragma pack(pop)
 }

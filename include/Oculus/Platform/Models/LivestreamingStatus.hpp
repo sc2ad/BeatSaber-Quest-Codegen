@@ -52,8 +52,6 @@ namespace Oculus::Platform::Models {
     bool MicEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LivestreamingStatus
-    LivestreamingStatus(bool CommentsVisible_ = {}, bool IsPaused_ = {}, bool LivestreamingEnabled_ = {}, int LivestreamingType_ = {}, bool MicEnabled_ = {}) noexcept : CommentsVisible{CommentsVisible_}, IsPaused{IsPaused_}, LivestreamingEnabled{LivestreamingEnabled_}, LivestreamingType{LivestreamingType_}, MicEnabled{MicEnabled_} {}
     // Get instance field reference: public readonly System.Boolean CommentsVisible
     bool& dyn_CommentsVisible();
     // Get instance field reference: public readonly System.Boolean IsPaused

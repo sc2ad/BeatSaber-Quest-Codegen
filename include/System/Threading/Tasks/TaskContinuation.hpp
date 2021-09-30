@@ -25,8 +25,6 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskContinuation : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TaskContinuation
-    TaskContinuation() noexcept {}
     // System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     // Offset: 0xFFFFFFFF
     void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);

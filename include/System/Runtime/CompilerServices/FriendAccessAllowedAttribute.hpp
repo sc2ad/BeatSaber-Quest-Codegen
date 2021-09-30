@@ -22,8 +22,6 @@ namespace System::Runtime::CompilerServices {
   // [FriendAccessAllowedAttribute] Offset: E60674
   class FriendAccessAllowedAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: FriendAccessAllowedAttribute
-    FriendAccessAllowedAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AD904
     // Implemented from: System.Attribute

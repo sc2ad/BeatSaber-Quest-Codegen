@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     int cubemapSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: OVRCubemapCapture
-    OVRCubemapCapture(bool autoTriggerAfterLaunch_ = {}, float autoTriggerDelay_ = {}, float autoTriggerElapse_ = {}, UnityEngine::KeyCode triggeredByKey_ = {}, ::Il2CppString* pathName_ = {}, int cubemapSize_ = {}) noexcept : autoTriggerAfterLaunch{autoTriggerAfterLaunch_}, autoTriggerDelay{autoTriggerDelay_}, autoTriggerElapse{autoTriggerElapse_}, triggeredByKey{triggeredByKey_}, pathName{pathName_}, cubemapSize{cubemapSize_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean autoTriggerAfterLaunch

@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     bool lobbyActivated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerLobbyController
-    MultiplayerLobbyController(float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}, GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager_ = {}, GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager_ = {}, GlobalNamespace::MenuEnvironmentManager* menuEnvironmentManager_ = {}, bool lobbyActivated_ = {}) noexcept : innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_}, multiplayerLobbyAvatarManager{multiplayerLobbyAvatarManager_}, multiplayerLobbyCenterStageManager{multiplayerLobbyCenterStageManager_}, multiplayerLobbyAvatarPlaceManager{multiplayerLobbyAvatarPlaceManager_}, menuEnvironmentManager{menuEnvironmentManager_}, lobbyActivated{lobbyActivated_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _innerCircleRadius

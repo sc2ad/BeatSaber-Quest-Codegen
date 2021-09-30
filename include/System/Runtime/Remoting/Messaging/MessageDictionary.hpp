@@ -67,8 +67,6 @@ namespace System::Runtime::Remoting::Messaging {
     bool ownProperties;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MessageDictionary
-    MessageDictionary(System::Collections::IDictionary* internalProperties_ = {}, System::Runtime::Remoting::Messaging::IMethodMessage* message_ = {}, ::ArrayWrapper<::Il2CppString*> methodKeys_ = {}, bool ownProperties_ = {}) noexcept : internalProperties{internalProperties_}, message{message_}, methodKeys{methodKeys_}, ownProperties{ownProperties_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

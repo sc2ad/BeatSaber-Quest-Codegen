@@ -138,8 +138,6 @@ namespace System::IO {
     System::Threading::Tasks::Task* asyncReadTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    // Creating value type constructor for type: StreamReader
-    StreamReader(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Decoder* decoder_ = {}, ::ArrayWrapper<uint8_t> byteBuffer_ = {}, ::ArrayWrapper<::Il2CppChar> charBuffer_ = {}, ::ArrayWrapper<uint8_t> preamble_ = {}, int charPos_ = {}, int charLen_ = {}, int byteLen_ = {}, int bytePos_ = {}, int maxCharsPerBuffer_ = {}, bool detectEncoding_ = {}, bool checkPreamble_ = {}, bool isBlocked_ = {}, bool closable_ = {}, System::Threading::Tasks::Task* asyncReadTask_ = {}) noexcept : stream{stream_}, encoding{encoding_}, decoder{decoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, preamble{preamble_}, charPos{charPos_}, charLen{charLen_}, byteLen{byteLen_}, bytePos{bytePos_}, maxCharsPerBuffer{maxCharsPerBuffer_}, detectEncoding{detectEncoding_}, checkPreamble{checkPreamble_}, isBlocked{isBlocked_}, closable{closable_}, asyncReadTask{asyncReadTask_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static public readonly System.IO.StreamReader Null

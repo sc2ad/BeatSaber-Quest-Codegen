@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecP224K1Field : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SecP224K1Field
-    SecP224K1Field() noexcept {}
     // Get static field: static readonly System.UInt32[] P
     static ::ArrayWrapper<uint> _get_P();
     // Set static field: static readonly System.UInt32[] P

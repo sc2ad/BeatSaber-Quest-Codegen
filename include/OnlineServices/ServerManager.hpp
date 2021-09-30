@@ -102,8 +102,6 @@ namespace OnlineServices {
     OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
     // Field size check
     static_assert(sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*) == 0x8);
-    // Creating value type constructor for type: ServerManager
-    ServerManager(GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel_ = {}, System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent_ = {}, System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}, bool initialized_ = {}, OnlineServices::LevelScoreUploader* levelScoreUploader_ = {}, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel_ = {}) noexcept : leaderboardsModel{leaderboardsModel_}, platformServicesAvailabilityInfoChangedEvent{platformServicesAvailabilityInfoChangedEvent_}, scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_}, initialized{initialized_}, levelScoreUploader{levelScoreUploader_}, platformOnlineServicesAvailabilityModel{platformOnlineServicesAvailabilityModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly HTTPLeaderboardsModel _leaderboardsModel

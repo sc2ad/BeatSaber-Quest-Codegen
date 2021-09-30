@@ -21,8 +21,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpVersion : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HttpVersion
-    HttpVersion() noexcept {}
     // Get static field: static public readonly System.Version Version10
     static System::Version* _get_Version10();
     // Set static field: static public readonly System.Version Version10

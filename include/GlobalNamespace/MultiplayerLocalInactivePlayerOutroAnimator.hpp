@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalInactivePlayerOutroAnimator
-    MultiplayerLocalInactivePlayerOutroAnimator(UnityEngine::Playables::PlayableDirector* outroPlayableDirector_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}) noexcept : outroPlayableDirector{outroPlayableDirector_}, multiplayerController{multiplayerController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector

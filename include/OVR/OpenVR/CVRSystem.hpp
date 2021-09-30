@@ -89,8 +89,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRSystem FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSystem) == 0x178);
-    // Creating value type constructor for type: CVRSystem
-    CVRSystem(OVR::OpenVR::IVRSystem FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator OVR::OpenVR::IVRSystem
     constexpr operator OVR::OpenVR::IVRSystem() const noexcept {
       return FnTable;

@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     int selectedSubMenuInfoIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MainSettingsMenuViewController
-    MainSettingsMenuViewController(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent_ = {}, ::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*> settingsSubMenuInfos_ = {}, HMUI::TextSegmentedControl* settingsMenuSegmentedControl_ = {}, GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo_ = {}, int selectedSubMenuInfoIdx_ = {}) noexcept : didSelectSettingsSubMenuEvent{didSelectSettingsSubMenuEvent_}, settingsSubMenuInfos{settingsSubMenuInfos_}, settingsMenuSegmentedControl{settingsMenuSegmentedControl_}, selectedSubMenuInfo{selectedSubMenuInfo_}, selectedSubMenuInfoIdx{selectedSubMenuInfoIdx_} {}
     // Get instance field reference: private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
     System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*& dyn_didSelectSettingsSubMenuEvent();
     // Get instance field reference: private SettingsSubMenuInfo[] _settingsSubMenuInfos

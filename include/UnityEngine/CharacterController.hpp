@@ -25,8 +25,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85AE4
   class CharacterController : public UnityEngine::Collider {
     public:
-    // Creating value type constructor for type: CharacterController
-    CharacterController() noexcept {}
     // public System.Boolean get_isGrounded()
     // Offset: 0x260BB0C
     bool get_isGrounded();

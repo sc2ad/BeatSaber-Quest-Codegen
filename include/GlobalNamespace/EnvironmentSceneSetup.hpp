@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentSceneSetupData*) == 0x8);
-    // Creating value type constructor for type: EnvironmentSceneSetup
-    EnvironmentSceneSetup(GlobalNamespace::EnvironmentSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

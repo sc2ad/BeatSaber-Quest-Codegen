@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F36C
   class MD5 : public System::Security::Cryptography::HashAlgorithm {
     public:
-    // Creating value type constructor for type: MD5
-    MD5() noexcept {}
     // static public System.Security.Cryptography.MD5 Create()
     // Offset: 0x1A77B20
     static System::Security::Cryptography::MD5* Create();

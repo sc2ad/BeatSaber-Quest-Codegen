@@ -48,8 +48,6 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*) == 0x8);
-    // Creating value type constructor for type: TMP_FontFeatureTable
-    TMP_FontFeatureTable(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecords_ = {}, System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary_ = {}) noexcept : m_GlyphPairAdjustmentRecords{m_GlyphPairAdjustmentRecords_}, m_GlyphPairAdjustmentRecordLookupDictionary{m_GlyphPairAdjustmentRecordLookupDictionary_} {}
     // Get instance field reference: System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecords
     System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecords();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary

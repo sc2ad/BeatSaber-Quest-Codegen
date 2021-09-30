@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> emmisionModules;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>) == 0x8);
-    // Creating value type constructor for type: EnableEmmisionOnVisible
-    EnableEmmisionOnVisible(::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> emmisionModules_ = {}) noexcept : particleSystems{particleSystems_}, emmisionModules{emmisionModules_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems

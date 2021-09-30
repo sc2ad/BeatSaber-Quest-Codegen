@@ -97,8 +97,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo) == 0x2);
-    // Creating value type constructor for type: HEU_SessionSyncData
-    HEU_SessionSyncData(int status_ = {}, float timeLastUpdate_ = {}, float timeStartConnection_ = {}, ::Il2CppString* newNodeName_ = {}, int nodeTypeIndex_ = {}, bool validForConnection_ = {}, HoudiniEngineUnity::HAPI_Viewport viewportHAPI_ = {}, HoudiniEngineUnity::HAPI_Viewport viewportLocal_ = {}, bool viewportJustUpdated_ = {}, HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo_ = {}) noexcept : status{status_}, timeLastUpdate{timeLastUpdate_}, timeStartConnection{timeStartConnection_}, newNodeName{newNodeName_}, nodeTypeIndex{nodeTypeIndex_}, validForConnection{validForConnection_}, viewportHAPI{viewportHAPI_}, viewportLocal{viewportLocal_}, viewportJustUpdated{viewportJustUpdated_}, syncInfo{syncInfo_} {}
     // Get instance field reference: private System.Int32 _status
     int& dyn__status();
     // Get instance field reference: public System.Single _timeLastUpdate

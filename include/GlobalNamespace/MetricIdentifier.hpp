@@ -98,7 +98,6 @@ namespace GlobalNamespace {
     int get_tagCount();
     // public System.Void .ctor(System.String metricName, System.ValueTuple`2<System.String,System.String> tag0, System.ValueTuple`2<System.String,System.String> tag1, System.ValueTuple`2<System.String,System.String> tag2, System.ValueTuple`2<System.String,System.String> tag3)
     // Offset: 0x18C94F4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  MetricIdentifier(::Il2CppString* metricName, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3)
     // public System.Int32 CompareTo(MetricIdentifier other)
     // Offset: 0x18CA408

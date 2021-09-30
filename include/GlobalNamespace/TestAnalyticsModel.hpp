@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TestAnalyticsModel::$$c
     class $$c;
-    // Creating value type constructor for type: TestAnalyticsModel
-    TestAnalyticsModel() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IAnalyticsModel
     operator GlobalNamespace::IAnalyticsModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAnalyticsModel*>(this);

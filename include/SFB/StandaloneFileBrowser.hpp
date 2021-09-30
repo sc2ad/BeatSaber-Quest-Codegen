@@ -33,8 +33,6 @@ namespace SFB {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandaloneFileBrowser : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StandaloneFileBrowser
-    StandaloneFileBrowser() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF154C4
     // Get static field: static private readonly SFB.IStandaloneFileBrowser _platformWrapper
     static SFB::IStandaloneFileBrowser* _get__platformWrapper();

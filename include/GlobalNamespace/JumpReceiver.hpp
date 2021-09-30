@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     bool jumpToDestinationValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: JumpReceiver
-    JumpReceiver(bool jumpToDestinationValid_ = {}) noexcept : jumpToDestinationValid{jumpToDestinationValid_} {}
     // Creating interface conversion operator: operator UnityEngine::Playables::INotificationReceiver
     operator UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotificationReceiver*>(this);

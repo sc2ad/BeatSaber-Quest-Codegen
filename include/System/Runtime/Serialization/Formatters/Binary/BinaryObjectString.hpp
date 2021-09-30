@@ -41,8 +41,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: BinaryObjectString
-    BinaryObjectString(int objectId_ = {}, ::Il2CppString* value_ = {}) noexcept : objectId{objectId_}, value{value_} {}
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.String value

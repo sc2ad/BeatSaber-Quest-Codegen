@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Point* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Point*) == 0x8);
-    // Creating value type constructor for type: SecP192K1Curve
-    SecP192K1Curve(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Point* m_infinity_ = {}) noexcept : m_infinity{m_infinity_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Point*
     constexpr operator Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Point*() const noexcept {
       return m_infinity;

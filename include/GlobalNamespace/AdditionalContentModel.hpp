@@ -200,8 +200,6 @@ namespace GlobalNamespace {
     System::Action* didInvalidateDataEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: AdditionalContentModel
-    AdditionalContentModel(GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer_ = {}, System::Action* didInvalidateDataEvent_ = {}) noexcept : alwaysOwnedContentContainer{alwaysOwnedContentContainer_}, didInvalidateDataEvent{didInvalidateDataEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer

@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     int headIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TrailElementCollection
-    TrailElementCollection(int capacity_ = {}, ::ArrayWrapper<GlobalNamespace::TrailElement*> snapshots_ = {}, int headIndex_ = {}) noexcept : capacity{capacity_}, snapshots{snapshots_}, headIndex{headIndex_} {}
     // Get instance field reference: private readonly System.Int32 <capacity>k__BackingField
     int& dyn_$capacity$k__BackingField();
     // Get instance field reference: private readonly TrailElement[] _snapshots

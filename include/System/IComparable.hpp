@@ -17,8 +17,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C1E4
   class IComparable {
     public:
-    // Creating value type constructor for type: IComparable
-    IComparable() noexcept {}
     // public System.Int32 CompareTo(System.Object obj)
     // Offset: 0xFFFFFFFF
     int CompareTo(::Il2CppObject* obj);

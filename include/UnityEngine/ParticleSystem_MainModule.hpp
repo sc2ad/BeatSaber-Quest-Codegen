@@ -78,7 +78,6 @@ namespace UnityEngine {
     void set_maxParticles(int value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CA94
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  MainModule(UnityEngine::ParticleSystem* particleSystem)
     // static private System.Single get_duration_Injected(ref UnityEngine.ParticleSystem/UnityEngine.MainModule _unity_self)
     // Offset: 0x261CC80

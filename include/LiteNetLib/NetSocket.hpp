@@ -90,8 +90,6 @@ namespace LiteNetLib {
     bool IsRunning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NetSocket
-    NetSocket(System::Net::Sockets::Socket* udpSocketv4_ = {}, System::Net::Sockets::Socket* udpSocketv6_ = {}, System::Threading::Thread* threadv4_ = {}, System::Threading::Thread* threadv6_ = {}, LiteNetLib::INetSocketListener* listener_ = {}, int LocalPort_ = {}, bool IsRunning_ = {}) noexcept : udpSocketv4{udpSocketv4_}, udpSocketv6{udpSocketv6_}, threadv4{threadv4_}, threadv6{threadv6_}, listener{listener_}, LocalPort{LocalPort_}, IsRunning{IsRunning_} {}
     // static field const value: static public System.Int32 ReceivePollingTime
     static constexpr const int ReceivePollingTime = 500000;
     // Get static field: static public System.Int32 ReceivePollingTime

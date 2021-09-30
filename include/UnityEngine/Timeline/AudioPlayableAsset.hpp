@@ -79,8 +79,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::AudioClipProperties* m_ClipProperties;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::AudioClipProperties*) == 0x8);
-    // Creating value type constructor for type: AudioPlayableAsset
-    AudioPlayableAsset(UnityEngine::AudioClip* m_Clip_ = {}, bool m_Loop_ = {}, float m_bufferingTime_ = {}, UnityEngine::Timeline::AudioClipProperties* m_ClipProperties_ = {}) noexcept : m_Clip{m_Clip_}, m_Loop{m_Loop_}, m_bufferingTime{m_bufferingTime_}, m_ClipProperties{m_ClipProperties_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

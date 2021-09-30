@@ -41,8 +41,6 @@ namespace System::Net::Http::Headers {
     System::Net::Http::HttpContent* content;
     // Field size check
     static_assert(sizeof(System::Net::Http::HttpContent*) == 0x8);
-    // Creating value type constructor for type: HttpContentHeaders
-    HttpContentHeaders(System::Net::Http::HttpContent* content_ = {}) noexcept : content{content_} {}
     // Creating conversion operator: operator System::Net::Http::HttpContent*
     constexpr operator System::Net::Http::HttpContent*() const noexcept {
       return content;

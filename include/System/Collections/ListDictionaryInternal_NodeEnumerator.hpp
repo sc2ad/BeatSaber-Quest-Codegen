@@ -53,8 +53,6 @@ namespace System::Collections {
     bool start;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NodeEnumerator
-    NodeEnumerator(System::Collections::ListDictionaryInternal* list_ = {}, System::Collections::ListDictionaryInternal::DictionaryNode* current_ = {}, int version_ = {}, bool start_ = {}) noexcept : list{list_}, current{current_}, version{version_}, start{start_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionaryEnumerator
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);

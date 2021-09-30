@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     bool showClearButton;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EditableModifiersSelectionView
-    EditableModifiersSelectionView(UnityEngine::UI::Button* editButton_ = {}, UnityEngine::UI::Button* clearButton_ = {}, UnityEngine::CanvasGroup* modifiersListCanvasGroup_ = {}, bool interactable_ = {}, bool showClearButton_ = {}) noexcept : editButton{editButton_}, clearButton{clearButton_}, modifiersListCanvasGroup{modifiersListCanvasGroup_}, interactable{interactable_}, showClearButton{showClearButton_} {}
     // Get instance field reference: private UnityEngine.UI.Button _editButton
     UnityEngine::UI::Button*& dyn__editButton();
     // Get instance field reference: private UnityEngine.UI.Button _clearButton

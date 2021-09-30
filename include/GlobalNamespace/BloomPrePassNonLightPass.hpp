@@ -100,8 +100,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType registeredExecutionTimeType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType) == 0x4);
-    // Creating value type constructor for type: BloomPrePassNonLightPass
-    BloomPrePassNonLightPass(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType executionTimeType_ = {}, GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType registeredExecutionTimeType_ = {}) noexcept : executionTimeType{executionTimeType_}, registeredExecutionTimeType{registeredExecutionTimeType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.List`1<BloomPrePassNonLightPass> _bloomPrePassAfterBlurList

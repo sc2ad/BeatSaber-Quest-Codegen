@@ -59,8 +59,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::AsnDecodeStatus status;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::AsnDecodeStatus) == 0x4);
-    // Creating value type constructor for type: X509BasicConstraintsExtension
-    X509BasicConstraintsExtension(bool certificateAuthority_ = {}, bool hasPathLengthConstraint_ = {}, int pathLengthConstraint_ = {}, System::Security::Cryptography::AsnDecodeStatus status_ = {}) noexcept : certificateAuthority{certificateAuthority_}, hasPathLengthConstraint{hasPathLengthConstraint_}, pathLengthConstraint{pathLengthConstraint_}, status{status_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // static field const value: static System.String oid

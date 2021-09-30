@@ -189,8 +189,6 @@ namespace LiteNetLib {
     LiteNetLib::INatPunchListener* natPunchListener;
     // Field size check
     static_assert(sizeof(LiteNetLib::INatPunchListener*) == 0x8);
-    // Creating value type constructor for type: NatPunchModule
-    NatPunchModule(LiteNetLib::NetSocket* socket_ = {}, System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::RequestEventData>* requestEvents_ = {}, System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::SuccessEventData>* successEvents_ = {}, LiteNetLib::Utils::NetDataReader* cacheReader_ = {}, LiteNetLib::Utils::NetDataWriter* cacheWriter_ = {}, LiteNetLib::Utils::NetPacketProcessor* netPacketProcessor_ = {}, LiteNetLib::INatPunchListener* natPunchListener_ = {}) noexcept : socket{socket_}, requestEvents{requestEvents_}, successEvents{successEvents_}, cacheReader{cacheReader_}, cacheWriter{cacheWriter_}, netPacketProcessor{netPacketProcessor_}, natPunchListener{natPunchListener_} {}
     // static field const value: static public System.Int32 MaxTokenLength
     static constexpr const int MaxTokenLength = 256;
     // Get static field: static public System.Int32 MaxTokenLength

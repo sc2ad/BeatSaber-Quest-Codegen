@@ -29,8 +29,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519Signer::Buffer : public System::IO::MemoryStream {
     public:
-    // Creating value type constructor for type: Buffer
-    Buffer() noexcept {}
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey)
     // Offset: 0x139C090
     ::ArrayWrapper<uint8_t> GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);

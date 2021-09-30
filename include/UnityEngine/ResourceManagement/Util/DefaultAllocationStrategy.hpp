@@ -27,8 +27,6 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultAllocationStrategy : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::Util::IAllocationStrategy*/ {
     public:
-    // Creating value type constructor for type: DefaultAllocationStrategy
-    DefaultAllocationStrategy() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::Util::IAllocationStrategy
     operator UnityEngine::ResourceManagement::Util::IAllocationStrategy() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);

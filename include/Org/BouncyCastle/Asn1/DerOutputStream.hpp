@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerOutputStream : public Org::BouncyCastle::Utilities::IO::FilterStream {
     public:
-    // Creating value type constructor for type: DerOutputStream
-    DerOutputStream() noexcept {}
     // private System.Void WriteLength(System.Int32 length)
     // Offset: 0x18F20B4
     void WriteLength(int length);

@@ -74,8 +74,6 @@ namespace Zenject {
     System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*) == 0x8);
-    // Creating value type constructor for type: SubContainerBindingFinalizer
-    SubContainerBindingFinalizer(::Il2CppObject* subIdentifier_ = {}, bool resolveAll_ = {}, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory_ = {}) noexcept : subIdentifier{subIdentifier_}, resolveAll{resolveAll_}, creatorFactory{creatorFactory_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly System.Object _subIdentifier

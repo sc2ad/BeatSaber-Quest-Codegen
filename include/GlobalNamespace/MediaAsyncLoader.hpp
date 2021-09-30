@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     struct $LoadTextureAsync$d__2;
     // Nested type: GlobalNamespace::MediaAsyncLoader::$LoadSpriteAsync$d__3
     struct $LoadSpriteAsync$d__3;
-    // Creating value type constructor for type: MediaAsyncLoader
-    MediaAsyncLoader() noexcept {}
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x25F8404
     static System::Threading::Tasks::Task_1<::Il2CppString*>* LoadWebpage(::Il2CppString* uri, System::Threading::CancellationToken cancellationToken);

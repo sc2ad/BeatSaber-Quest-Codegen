@@ -111,8 +111,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO* bloomRenderer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO*) == 0x8);
-    // Creating value type constructor for type: BloomPrePassBloomTextureEffectSO
-    BloomPrePassBloomTextureEffectSO(float radius_ = {}, float intensity_ = {}, float downBloomIntensityOffset_ = {}, bool uniformPyramidWeights_ = {}, float pyramidWeightsParam_ = {}, float firstUpsampleBrightness_ = {}, float finalUpsampleBrightness_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass prefilterPass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO* bloomRenderer_ = {}) noexcept : radius{radius_}, intensity{intensity_}, downBloomIntensityOffset{downBloomIntensityOffset_}, uniformPyramidWeights{uniformPyramidWeights_}, pyramidWeightsParam{pyramidWeightsParam_}, firstUpsampleBrightness{firstUpsampleBrightness_}, finalUpsampleBrightness{finalUpsampleBrightness_}, prefilterPass{prefilterPass_}, downsamplePass{downsamplePass_}, upsamplePass{upsamplePass_}, finalUpsamplePass{finalUpsamplePass_}, bloomRenderer{bloomRenderer_} {}
     // Get instance field reference: private System.Single _radius
     float& dyn__radius();
     // Get instance field reference: private System.Single _intensity

@@ -39,8 +39,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EAFF8C
   class IVRSystem::_ComputeDistortion : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ComputeDistortion
-    _ComputeDistortion() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E4F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

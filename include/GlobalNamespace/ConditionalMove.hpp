@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     bool activateOnFalse;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ConditionalMove
-    ConditionalMove(UnityEngine::Vector3 offset_ = {}, GlobalNamespace::BoolSO* value_ = {}, bool activateOnFalse_ = {}) noexcept : offset{offset_}, value{value_}, activateOnFalse{activateOnFalse_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _offset

@@ -27,8 +27,6 @@ namespace System {
   // [ExtensionAttribute] Offset: E5B85C
   class TupleExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TupleExtensions
-    TupleExtensions() noexcept {}
     // static public System.Void Deconstruct(System.Tuple`2<T1,T2> value, out T1 item1, out T2 item2)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>

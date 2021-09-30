@@ -98,8 +98,6 @@ namespace HMUI {
     HMUI::NoTransitionsButton::SelectionState selectionState;
     // Field size check
     static_assert(sizeof(HMUI::NoTransitionsButton::SelectionState) == 0x4);
-    // Creating value type constructor for type: NoTransitionsButton
-    NoTransitionsButton(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* selectionStateDidChangeEvent_ = {}, HMUI::NoTransitionsButton::SelectionState selectionState_ = {}) noexcept : selectionStateDidChangeEvent{selectionStateDidChangeEvent_}, selectionState{selectionState_} {}
     // Get instance field reference: private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
     System::Action_1<HMUI::NoTransitionsButton::SelectionState>*& dyn_selectionStateDidChangeEvent();
     // Get instance field reference: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState

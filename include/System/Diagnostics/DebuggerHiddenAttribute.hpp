@@ -22,8 +22,6 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: E62524
   class DebuggerHiddenAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: DebuggerHiddenAttribute
-    DebuggerHiddenAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CEB42C
     // Implemented from: System.Attribute

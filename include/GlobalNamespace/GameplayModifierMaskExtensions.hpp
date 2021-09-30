@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class GameplayModifierMaskExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GameplayModifierMaskExtensions
-    GameplayModifierMaskExtensions() noexcept {}
     // static public System.Boolean Contains(GameplayModifierMask mask, GameplayModifierMask other)
     // Offset: 0x256F8CC
     static bool Contains(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other);

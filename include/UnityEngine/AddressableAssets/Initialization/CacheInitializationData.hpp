@@ -57,8 +57,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
     int64_t m_MaximumCacheSize;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: CacheInitializationData
-    CacheInitializationData(bool m_CompressionEnabled_ = {}, ::Il2CppString* m_CacheDirectoryOverride_ = {}, int m_ExpirationDelay_ = {}, bool m_LimitCacheSize_ = {}, int64_t m_MaximumCacheSize_ = {}) noexcept : m_CompressionEnabled{m_CompressionEnabled_}, m_CacheDirectoryOverride{m_CacheDirectoryOverride_}, m_ExpirationDelay{m_ExpirationDelay_}, m_LimitCacheSize{m_LimitCacheSize_}, m_MaximumCacheSize{m_MaximumCacheSize_} {}
     // Get instance field reference: private System.Boolean m_CompressionEnabled
     bool& dyn_m_CompressionEnabled();
     // Get instance field reference: private System.String m_CacheDirectoryOverride

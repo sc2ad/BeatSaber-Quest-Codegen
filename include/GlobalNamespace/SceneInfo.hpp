@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     bool disabledRootObjects;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SceneInfo
-    SceneInfo(::Il2CppString* sceneName_ = {}, bool disabledRootObjects_ = {}) noexcept : sceneName{sceneName_}, disabledRootObjects{disabledRootObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _sceneName

@@ -165,8 +165,6 @@ namespace GlobalNamespace {
     bool missionCleared;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MissionToggle
-    MissionToggle(GlobalNamespace::Signal* missionToggleWasPressedSignal_ = {}, TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* lockedImage_ = {}, UnityEngine::UI::Image* clearedImage_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* strokeImage_ = {}, HMUI::Interactable* vrInteractable_ = {}, UnityEngine::Color disabledColor_ = {}, UnityEngine::Color normalColor_ = {}, UnityEngine::Color invertColor_ = {}, UnityEngine::Color highlightColor_ = {}, System::Action_1<GlobalNamespace::MissionToggle*>* selectionDidChangeEvent_ = {}, bool selected_ = {}, bool highlighted_ = {}, bool interactable_ = {}, bool missionCleared_ = {}) noexcept : missionToggleWasPressedSignal{missionToggleWasPressedSignal_}, text{text_}, lockedImage{lockedImage_}, clearedImage{clearedImage_}, bgImage{bgImage_}, strokeImage{strokeImage_}, vrInteractable{vrInteractable_}, disabledColor{disabledColor_}, normalColor{normalColor_}, invertColor{invertColor_}, highlightColor{highlightColor_}, selectionDidChangeEvent{selectionDidChangeEvent_}, selected{selected_}, highlighted{highlighted_}, interactable{interactable_}, missionCleared{missionCleared_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

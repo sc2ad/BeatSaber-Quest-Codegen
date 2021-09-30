@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
     // Creating value type constructor for type: HAPI_Transform
-    constexpr HAPI_Transform(::ArrayWrapper<float> position_ = {}, ::ArrayWrapper<float> rotationQuaternion_ = {}, ::ArrayWrapper<float> scale_ = {}, ::ArrayWrapper<float> shear_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, scale{scale_}, shear{shear_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_Transform(::ArrayWrapper<float> position_ = {nullptr}, ::ArrayWrapper<float> rotationQuaternion_ = {nullptr}, ::ArrayWrapper<float> scale_ = {nullptr}, ::ArrayWrapper<float> shear_ = {nullptr}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, scale{scale_}, shear{shear_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -71,7 +71,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
     // Offset: 0x1439B90
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HAPI_Transform(bool initializeFields) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_Transform::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));

@@ -31,8 +31,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Helper2::MyNativeHelper : public ::Il2CppObject/*, public System::Security::Cryptography::X509Certificates::INativeCertificateHelper*/ {
     public:
-    // Creating value type constructor for type: MyNativeHelper
-    MyNativeHelper() noexcept {}
     // Creating interface conversion operator: operator System::Security::Cryptography::X509Certificates::INativeCertificateHelper
     operator System::Security::Cryptography::X509Certificates::INativeCertificateHelper() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);

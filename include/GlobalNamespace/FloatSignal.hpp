@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatSignal : public GlobalNamespace::GenericSignal_1<float> {
     public:
-    // Creating value type constructor for type: FloatSignal
-    FloatSignal() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1381374
     // Implemented from: GenericSignal`1

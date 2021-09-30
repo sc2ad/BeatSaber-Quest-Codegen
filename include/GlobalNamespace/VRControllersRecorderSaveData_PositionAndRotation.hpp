@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     float rotW;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: PositionAndRotation
-    PositionAndRotation(float posX_ = {}, float posY_ = {}, float posZ_ = {}, float rotX_ = {}, float rotY_ = {}, float rotZ_ = {}, float rotW_ = {}) noexcept : posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_} {}
     // Get instance field reference: public System.Single posX
     float& dyn_posX();
     // Get instance field reference: public System.Single posY

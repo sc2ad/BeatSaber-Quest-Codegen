@@ -159,8 +159,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::ActivationControlPlayable::InitialState m_InitialState;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::ActivationControlPlayable::InitialState) == 0x4);
-    // Creating value type constructor for type: ActivationControlPlayable
-    ActivationControlPlayable(UnityEngine::GameObject* gameObject_ = {}, UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState postPlayback_ = {}, UnityEngine::Timeline::ActivationControlPlayable::InitialState m_InitialState_ = {}) noexcept : gameObject{gameObject_}, postPlayback{postPlayback_}, m_InitialState{m_InitialState_} {}
     // Get instance field reference: public UnityEngine.GameObject gameObject
     UnityEngine::GameObject*& dyn_gameObject();
     // Get instance field reference: public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlayback

@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BF74
   class DivideByZeroException : public System::ArithmeticException {
     public:
-    // Creating value type constructor for type: DivideByZeroException
-    DivideByZeroException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x199F1F8
     // Implemented from: System.ArithmeticException

@@ -22,8 +22,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BDE4
   class Buffer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Buffer
-    Buffer() noexcept {}
     // static System.Boolean InternalBlockCopy(System.Array src, System.Int32 srcOffsetBytes, System.Array dst, System.Int32 dstOffsetBytes, System.Int32 byteCount)
     // Offset: 0x1991D68
     static bool InternalBlockCopy(System::Array* src, int srcOffsetBytes, System::Array* dst, int dstOffsetBytes, int byteCount);

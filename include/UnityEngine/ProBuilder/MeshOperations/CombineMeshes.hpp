@@ -54,8 +54,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::$$c
     class $$c;
-    // Creating value type constructor for type: CombineMeshes
-    CombineMeshes() noexcept {}
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes)
     // Offset: 0x170E87C
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);

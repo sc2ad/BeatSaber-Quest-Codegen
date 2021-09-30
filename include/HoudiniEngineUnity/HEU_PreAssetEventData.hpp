@@ -39,8 +39,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_AssetEventType AssetType;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
-    // Creating value type constructor for type: HEU_PreAssetEventData
-    HEU_PreAssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset* Asset_ = {}, HoudiniEngineUnity::HEU_AssetEventType AssetType_ = {}) noexcept : Asset{Asset_}, AssetType{AssetType_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetEventType AssetType

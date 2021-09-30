@@ -67,8 +67,6 @@ namespace UnityEngine::AddressableAssets {
     int priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass110_0
-    $$c__DisplayClass110_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppObject* key_ = {}, UnityEngine::SceneManagement::LoadSceneMode loadMode_ = {}, bool activateOnLoad_ = {}, int priority_ = {}) noexcept : $$4__this{$$4__this_}, key{key_}, loadMode{loadMode_}, activateOnLoad{activateOnLoad_}, priority{priority_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Object key

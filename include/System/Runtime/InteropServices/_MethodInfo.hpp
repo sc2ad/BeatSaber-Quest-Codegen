@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E611DC
   class _MethodInfo {
     public:
-    // Creating value type constructor for type: _MethodInfo
-    _MethodInfo() noexcept {}
   }; // System.Runtime.InteropServices._MethodInfo
   #pragma pack(pop)
 }

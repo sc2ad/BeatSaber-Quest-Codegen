@@ -95,7 +95,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::SongPackMask get_all();
     // public System.Void .ctor(System.String packId)
     // Offset: 0x2574180
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SongPackMask(::Il2CppString* packId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packId)})));
@@ -103,11 +102,9 @@ namespace GlobalNamespace {
     }
     // private System.Void .ctor(BitMask128 bloomFilter)
     // Offset: 0x25741EC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BitMask128 bloomFilter)
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> packs)
     // Offset: 0x25741F4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SongPackMask(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* packs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packs)})));

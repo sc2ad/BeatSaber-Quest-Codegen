@@ -42,8 +42,6 @@ namespace System {
     int endIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ArrayEnumerator
-    ArrayEnumerator(System::Array* array_ = {}, int index_ = {}, int endIndex_ = {}) noexcept : array{array_}, index{index_}, endIndex{endIndex_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -47,8 +47,6 @@ namespace UnityEngine {
     System::Type* m_Type2;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: RequireComponent
-    RequireComponent(System::Type* m_Type0_ = {}, System::Type* m_Type1_ = {}, System::Type* m_Type2_ = {}) noexcept : m_Type0{m_Type0_}, m_Type1{m_Type1_}, m_Type2{m_Type2_} {}
     // Get instance field reference: public System.Type m_Type0
     System::Type*& dyn_m_Type0();
     // Get instance field reference: public System.Type m_Type1

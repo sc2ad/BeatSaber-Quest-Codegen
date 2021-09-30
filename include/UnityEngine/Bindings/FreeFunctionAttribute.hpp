@@ -22,8 +22,6 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class FreeFunctionAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
     public:
-    // Creating value type constructor for type: FreeFunctionAttribute
-    FreeFunctionAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x261F2C8
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute

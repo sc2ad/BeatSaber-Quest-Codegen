@@ -34,8 +34,6 @@ namespace Zenject {
     System::Type* parentType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(System::Type* parentType_ = {}) noexcept : parentType{parentType_} {}
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return parentType;

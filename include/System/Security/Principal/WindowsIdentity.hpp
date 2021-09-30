@@ -81,8 +81,6 @@ namespace System::Security::Principal {
     System::Runtime::Serialization::SerializationInfo* info;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
-    // Creating value type constructor for type: WindowsIdentity
-    WindowsIdentity(System::IntPtr token_ = {}, ::Il2CppString* type_ = {}, System::Security::Principal::WindowsAccountType account_ = {}, bool authenticated_ = {}, ::Il2CppString* name_ = {}, System::Runtime::Serialization::SerializationInfo* info_ = {}) noexcept : token{token_}, type{type_}, account{account_}, authenticated{authenticated_}, name{name_}, info{info_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

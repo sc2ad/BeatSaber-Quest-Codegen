@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* clients;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>*) == 0x8);
-    // Creating value type constructor for type: OVRNetworkTcpServer
-    OVRNetworkTcpServer(System::Net::Sockets::TcpListener* tcpListener_ = {}, ::Il2CppObject* clientsLock_ = {}, System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* clients_ = {}) noexcept : tcpListener{tcpListener_}, clientsLock{clientsLock_}, clients{clients_} {}
     // Get instance field reference: public System.Net.Sockets.TcpListener tcpListener
     System::Net::Sockets::TcpListener*& dyn_tcpListener();
     // Get instance field reference: private readonly System.Object clientsLock

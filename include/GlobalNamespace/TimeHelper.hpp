@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     float accumulator;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TimeHelper
-    TimeHelper(float accumulator_ = {}) noexcept : accumulator{accumulator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Single <time>k__BackingField

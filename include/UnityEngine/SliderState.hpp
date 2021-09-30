@@ -36,8 +36,6 @@ namespace UnityEngine {
     bool isDragging;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SliderState
-    SliderState(float dragStartPos_ = {}, float dragStartValue_ = {}, bool isDragging_ = {}) noexcept : dragStartPos{dragStartPos_}, dragStartValue{dragStartValue_}, isDragging{isDragging_} {}
     // Get instance field reference: public System.Single dragStartPos
     float& dyn_dragStartPos();
     // Get instance field reference: public System.Single dragStartValue

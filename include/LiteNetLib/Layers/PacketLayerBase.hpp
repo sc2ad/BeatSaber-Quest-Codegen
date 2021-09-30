@@ -31,8 +31,6 @@ namespace LiteNetLib::Layers {
     int ExtraPacketSizeForLayer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PacketLayerBase
-    PacketLayerBase(int ExtraPacketSizeForLayer_ = {}) noexcept : ExtraPacketSizeForLayer{ExtraPacketSizeForLayer_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return ExtraPacketSizeForLayer;

@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class AuthenticationTokenPlatformExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AuthenticationTokenPlatformExtensions
-    AuthenticationTokenPlatformExtensions() noexcept {}
     // static public AuthenticationToken/Platform ToAuthenticationTokenPlatform(UserInfo/Platform platform)
     // Offset: 0x1248E5C
     static GlobalNamespace::AuthenticationToken::Platform ToAuthenticationTokenPlatform(GlobalNamespace::UserInfo::Platform platform);

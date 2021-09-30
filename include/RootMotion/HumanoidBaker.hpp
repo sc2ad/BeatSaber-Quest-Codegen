@@ -143,8 +143,6 @@ namespace RootMotion {
     UnityEngine::Quaternion lastBodyRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: HumanoidBaker
-    HumanoidBaker(bool bakeHandIK_ = {}, float IKKeyReductionError_ = {}, int muscleFrameRateDiv_ = {}, ::ArrayWrapper<RootMotion::BakerMuscle*> bakerMuscles_ = {}, RootMotion::BakerHumanoidQT* rootQT_ = {}, RootMotion::BakerHumanoidQT* leftFootQT_ = {}, RootMotion::BakerHumanoidQT* rightFootQT_ = {}, RootMotion::BakerHumanoidQT* leftHandQT_ = {}, RootMotion::BakerHumanoidQT* rightHandQT_ = {}, ::ArrayWrapper<float> muscles_ = {}, UnityEngine::HumanPose pose_ = {}, UnityEngine::HumanPoseHandler* handler_ = {}, UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, int mN_ = {}, UnityEngine::Quaternion lastBodyRotation_ = {}) noexcept : bakeHandIK{bakeHandIK_}, IKKeyReductionError{IKKeyReductionError_}, muscleFrameRateDiv{muscleFrameRateDiv_}, bakerMuscles{bakerMuscles_}, rootQT{rootQT_}, leftFootQT{leftFootQT_}, rightFootQT{rightFootQT_}, leftHandQT{leftHandQT_}, rightHandQT{rightHandQT_}, muscles{muscles_}, pose{pose_}, handler{handler_}, bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, mN{mN_}, lastBodyRotation{lastBodyRotation_} {}
     // Get instance field reference: public System.Boolean bakeHandIK
     bool& dyn_bakeHandIK();
     // Get instance field reference: public System.Single IKKeyReductionError

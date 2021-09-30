@@ -140,8 +140,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::Vector3> vertices;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
-    // Creating value type constructor for type: SteamVR_PlayArea
-    SteamVR_PlayArea(float borderThickness_ = {}, float wireframeHeight_ = {}, bool drawWireframeWhenSelectedOnly_ = {}, bool drawInGame_ = {}, GlobalNamespace::SteamVR_PlayArea::Size size_ = {}, UnityEngine::Color color_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}) noexcept : borderThickness{borderThickness_}, wireframeHeight{wireframeHeight_}, drawWireframeWhenSelectedOnly{drawWireframeWhenSelectedOnly_}, drawInGame{drawInGame_}, size{size_}, color{color_}, vertices{vertices_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single borderThickness

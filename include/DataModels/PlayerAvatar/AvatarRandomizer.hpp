@@ -28,8 +28,6 @@ namespace DataModels::PlayerAvatar {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarRandomizer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AvatarRandomizer
-    AvatarRandomizer() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF15494
     // Get static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
     static ::ArrayWrapper<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> _get__randomizeColorsParamsCollection();

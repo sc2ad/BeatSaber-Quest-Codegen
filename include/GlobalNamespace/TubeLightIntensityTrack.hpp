@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TrackColorAttribute] Offset: EFCED4
   class TubeLightIntensityTrack : public UnityEngine::Timeline::TrackAsset {
     public:
-    // Creating value type constructor for type: TubeLightIntensityTrack
-    TubeLightIntensityTrack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1163D98
     // Implemented from: UnityEngine.Timeline.TrackAsset

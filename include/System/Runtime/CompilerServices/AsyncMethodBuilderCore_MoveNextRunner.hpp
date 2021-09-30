@@ -46,8 +46,6 @@ namespace System::Runtime::CompilerServices {
     System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::IAsyncStateMachine*) == 0x8);
-    // Creating value type constructor for type: MoveNextRunner
-    MoveNextRunner(System::Threading::ExecutionContext* m_context_ = {}, System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine_ = {}) noexcept : m_context{m_context_}, m_stateMachine{m_stateMachine_} {}
     // Get static field: static private System.Threading.ContextCallback s_invokeMoveNext
     static System::Threading::ContextCallback* _get_s_invokeMoveNext();
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext

@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderSaveAndLoad : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VRControllersRecorderSaveAndLoad
-    VRControllersRecorderSaveAndLoad() noexcept {}
     // static private VRControllersRecorderSaveData LoadSaveDataFromFile(System.String filePath)
     // Offset: 0x134A3D4
     static GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromFile(::Il2CppString* filePath);

@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractECMultiplier : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*/ {
     public:
-    // Creating value type constructor for type: AbstractECMultiplier
-    AbstractECMultiplier() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier
     operator Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>(this);

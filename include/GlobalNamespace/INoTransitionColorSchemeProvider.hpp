@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoTransitionColorSchemeProvider {
     public:
-    // Creating value type constructor for type: INoTransitionColorSchemeProvider
-    INoTransitionColorSchemeProvider() noexcept {}
     // public ColorSchemeSO get_colorScheme()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::ColorSchemeSO* get_colorScheme();

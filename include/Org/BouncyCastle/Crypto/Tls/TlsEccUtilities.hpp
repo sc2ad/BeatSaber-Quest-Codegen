@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsEccUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TlsEccUtilities
-    TlsEccUtilities() noexcept {}
     // Get static field: static private readonly System.String[] CurveNames
     static ::ArrayWrapper<::Il2CppString*> _get_CurveNames();
     // Set static field: static private readonly System.String[] CurveNames

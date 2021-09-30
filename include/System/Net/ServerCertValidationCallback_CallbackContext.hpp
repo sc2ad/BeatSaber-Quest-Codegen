@@ -61,8 +61,6 @@ namespace System::Net {
     bool result;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CallbackContext
-    CallbackContext(::Il2CppObject* request_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* certificate_ = {}, System::Security::Cryptography::X509Certificates::X509Chain* chain_ = {}, System::Net::Security::SslPolicyErrors sslPolicyErrors_ = {}, bool result_ = {}) noexcept : request{request_}, certificate{certificate_}, chain{chain_}, sslPolicyErrors{sslPolicyErrors_}, result{result_} {}
     // Get instance field reference: readonly System.Object request
     ::Il2CppObject*& dyn_request();
     // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate

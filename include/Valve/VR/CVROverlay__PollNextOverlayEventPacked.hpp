@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB671C
   class CVROverlay::_PollNextOverlayEventPacked : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _PollNextOverlayEventPacked
-    _PollNextOverlayEventPacked() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x188EDA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

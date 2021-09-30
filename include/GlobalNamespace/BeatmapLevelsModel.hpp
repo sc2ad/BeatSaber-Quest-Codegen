@@ -118,7 +118,6 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
       // Offset: 0x129DAC4
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  GetBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel)
     }; // BeatmapLevelsModel/GetBeatmapLevelResult
     #pragma pack(pop)
@@ -219,7 +218,6 @@ namespace GlobalNamespace {
       GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState& dyn_downloadingState();
       // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState)
       // Offset: 0x129D2A8
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LevelDownloadingUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState)
     }; // BeatmapLevelsModel/LevelDownloadingUpdate
     #pragma pack(pop)
@@ -307,8 +305,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelLoader* beatmapLevelLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelLoader*) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelsModel
-    BeatmapLevelsModel(GlobalNamespace::BeatmapLevelPackCollectionContainerSO* dlcLevelPackCollectionContainer_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* ostAndExtrasPackCollection_ = {}, GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader_ = {}, int maxCachedBeatmapLevels_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel_ = {}, System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>* levelDownloadingUpdateEvent_ = {}, GlobalNamespace::IBeatmapLevelPackCollection* allLoadedBeatmapLevelPackCollection_ = {}, GlobalNamespace::IBeatmapLevelPackCollection* allLoadedBeatmapLevelWithoutCustomLevelPackCollection_ = {}, GlobalNamespace::IBeatmapLevelPackCollection* customLevelPackCollection_ = {}, GlobalNamespace::HMCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* loadedBeatmapLevels_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*>* loadedPreviewBeatmapLevels_ = {}, GlobalNamespace::BeatmapLevelLoader* beatmapLevelLoader_ = {}) noexcept : dlcLevelPackCollectionContainer{dlcLevelPackCollectionContainer_}, ostAndExtrasPackCollection{ostAndExtrasPackCollection_}, beatmapLevelDataLoader{beatmapLevelDataLoader_}, maxCachedBeatmapLevels{maxCachedBeatmapLevels_}, additionalContentModel{additionalContentModel_}, beatmapDataAssetFileModel{beatmapDataAssetFileModel_}, levelDownloadingUpdateEvent{levelDownloadingUpdateEvent_}, allLoadedBeatmapLevelPackCollection{allLoadedBeatmapLevelPackCollection_}, allLoadedBeatmapLevelWithoutCustomLevelPackCollection{allLoadedBeatmapLevelWithoutCustomLevelPackCollection_}, customLevelPackCollection{customLevelPackCollection_}, loadedBeatmapLevels{loadedBeatmapLevels_}, loadedPreviewBeatmapLevels{loadedPreviewBeatmapLevels_}, beatmapLevelLoader{beatmapLevelLoader_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackCollectionContainerSO _dlcLevelPackCollectionContainer

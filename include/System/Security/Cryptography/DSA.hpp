@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F254
   class DSA : public System::Security::Cryptography::AsymmetricAlgorithm {
     public:
-    // Creating value type constructor for type: DSA
-    DSA() noexcept {}
     // static public System.Security.Cryptography.DSA Create()
     // Offset: 0x1A74A60
     static System::Security::Cryptography::DSA* Create();

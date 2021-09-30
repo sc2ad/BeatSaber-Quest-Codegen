@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BoolSO* settingsValue;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // Creating value type constructor for type: BoolSettingsController
-    BoolSettingsController(GlobalNamespace::BoolSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
     // Get instance field reference: private BoolSO _settingsValue
     GlobalNamespace::BoolSO*& dyn__settingsValue();
     // public System.Void .ctor()

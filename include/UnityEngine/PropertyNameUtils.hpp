@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E7226C
   class PropertyNameUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PropertyNameUtils
-    PropertyNameUtils() noexcept {}
     // static public UnityEngine.PropertyName PropertyNameFromString(System.String name)
     // Offset: 0x1DFEB6C
     static UnityEngine::PropertyName PropertyNameFromString(::Il2CppString* name);

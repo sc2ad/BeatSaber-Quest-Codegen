@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GridView* gridView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GridView*) == 0x8);
-    // Creating value type constructor for type: GridViewCellsEnumerator
-    GridViewCellsEnumerator(GlobalNamespace::GridView* gridView_ = {}) noexcept : gridView{gridView_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(this);

@@ -34,8 +34,6 @@ namespace Mono::Unity {
   // [UnmanagedFunctionPointerAttribute] Offset: E68E58
   class UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: unitytls_tlsctx_process_handshake_t
-    unitytls_tlsctx_process_handshake_t() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C5B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

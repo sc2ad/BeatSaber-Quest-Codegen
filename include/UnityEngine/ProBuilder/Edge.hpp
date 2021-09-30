@@ -72,7 +72,6 @@ namespace UnityEngine::ProBuilder {
     int& dyn_b();
     // public System.Void .ctor(System.Int32 a, System.Int32 b)
     // Offset: 0x2167F6C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Edge(int a, int b)
     // static private System.Void .cctor()
     // Offset: 0x2168960

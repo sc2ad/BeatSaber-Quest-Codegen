@@ -40,8 +40,6 @@ namespace RootMotion {
     UnityEngine::Vector3 lastBoneLeftAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: LimbOrientation
-    LimbOrientation(UnityEngine::Vector3 upperBoneForwardAxis_ = {}, UnityEngine::Vector3 lowerBoneForwardAxis_ = {}, UnityEngine::Vector3 lastBoneLeftAxis_ = {}) noexcept : upperBoneForwardAxis{upperBoneForwardAxis_}, lowerBoneForwardAxis{lowerBoneForwardAxis_}, lastBoneLeftAxis{lastBoneLeftAxis_} {}
     // Get instance field reference: public UnityEngine.Vector3 upperBoneForwardAxis
     UnityEngine::Vector3& dyn_upperBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lowerBoneForwardAxis

@@ -28,8 +28,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultProxySection : public System::Configuration::ConfigurationSection {
     public:
-    // Creating value type constructor for type: DefaultProxySection
-    DefaultProxySection() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x156FD78
     // Implemented from: System.Configuration.ConfigurationElement

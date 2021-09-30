@@ -50,8 +50,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     ::ArrayWrapper<int> v;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: PointAccum
-    PointAccum(::ArrayWrapper<int> x_ = {}, ::ArrayWrapper<int> y_ = {}, ::ArrayWrapper<int> z_ = {}, ::ArrayWrapper<int> u_ = {}, ::ArrayWrapper<int> v_ = {}) noexcept : x{x_}, y{y_}, z{z_}, u{u_}, v{v_} {}
     // Get instance field reference: System.Int32[] x
     ::ArrayWrapper<int>& dyn_x();
     // Get instance field reference: System.Int32[] y

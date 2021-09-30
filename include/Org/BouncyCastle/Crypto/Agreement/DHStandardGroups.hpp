@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHStandardGroups : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DHStandardGroups
-    DHStandardGroups() noexcept {}
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger Two
     static Org::BouncyCastle::Math::BigInteger* _get_Two();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Two

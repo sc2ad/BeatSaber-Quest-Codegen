@@ -39,8 +39,6 @@ namespace Oculus::Platform {
     class HTTP;
     // Nested type: Oculus::Platform::PlatformInternal::Users
     class Users;
-    // Creating value type constructor for type: PlatformInternal
-    PlatformInternal() noexcept {}
     // static public System.Void CrashApplication()
     // Offset: 0x25B766C
     static void CrashApplication();

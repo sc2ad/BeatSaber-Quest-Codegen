@@ -96,8 +96,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* SmallImageUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: User
-    User(::Il2CppString* DisplayName_ = {}, uint64_t _ID_ = {}, ::Il2CppString* ImageURL_ = {}, ::Il2CppString* InviteToken_ = {}, ::Il2CppString* OculusID_ = {}, ::Il2CppString* Presence_ = {}, ::Il2CppString* PresenceDeeplinkMessage_ = {}, ::Il2CppString* PresenceDestinationApiName_ = {}, ::Il2CppString* PresenceLobbySessionId_ = {}, ::Il2CppString* PresenceMatchSessionId_ = {}, Oculus::Platform::UserPresenceStatus PresenceStatus_ = {}, ::Il2CppString* SmallImageUrl_ = {}) noexcept : DisplayName{DisplayName_}, _ID{_ID_}, ImageURL{ImageURL_}, InviteToken{InviteToken_}, OculusID{OculusID_}, Presence{Presence_}, PresenceDeeplinkMessage{PresenceDeeplinkMessage_}, PresenceDestinationApiName{PresenceDestinationApiName_}, PresenceLobbySessionId{PresenceLobbySessionId_}, PresenceMatchSessionId{PresenceMatchSessionId_}, PresenceStatus{PresenceStatus_}, SmallImageUrl{SmallImageUrl_} {}
     // Get instance field reference: public readonly System.String DisplayName
     ::Il2CppString*& dyn_DisplayName();
     // Get instance field reference: public readonly System.UInt64 ID

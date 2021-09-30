@@ -100,8 +100,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 axisRelativeToChildDefault;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: TwistRelaxer
-    TwistRelaxer(RootMotion::FinalIK::IK* ik_ = {}, UnityEngine::Transform* parent_ = {}, UnityEngine::Transform* child_ = {}, float weight_ = {}, float parentChildCrossfade_ = {}, float twistAngleOffset_ = {}, UnityEngine::Vector3 twistAxis_ = {}, UnityEngine::Vector3 axis_ = {}, UnityEngine::Vector3 axisRelativeToParentDefault_ = {}, UnityEngine::Vector3 axisRelativeToChildDefault_ = {}) noexcept : ik{ik_}, parent{parent_}, child{child_}, weight{weight_}, parentChildCrossfade{parentChildCrossfade_}, twistAngleOffset{twistAngleOffset_}, twistAxis{twistAxis_}, axis{axis_}, axisRelativeToParentDefault{axisRelativeToParentDefault_}, axisRelativeToChildDefault{axisRelativeToChildDefault_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK ik

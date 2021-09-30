@@ -62,8 +62,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int COff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MD2Digest
-    MD2Digest(::ArrayWrapper<uint8_t> X_ = {}, int xOff_ = {}, ::ArrayWrapper<uint8_t> M_ = {}, int mOff_ = {}, ::ArrayWrapper<uint8_t> C_ = {}, int COff_ = {}) noexcept : X{X_}, xOff{xOff_}, M{M_}, mOff{mOff_}, C{C_}, COff{COff_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);

@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   template<typename T>
   class IEquatableByReference_1 {
     public:
-    // Creating value type constructor for type: IEquatableByReference_1
-    IEquatableByReference_1() noexcept {}
     // public System.Boolean Equals(in T other)
     // Offset: 0xFFFFFFFF
     bool Equals(ByRef<T> other) {

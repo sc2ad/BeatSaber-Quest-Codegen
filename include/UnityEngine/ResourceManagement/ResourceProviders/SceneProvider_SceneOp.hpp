@@ -100,8 +100,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
-    // Creating value type constructor for type: SceneOp
-    SceneOp(bool m_ActivateOnLoad_ = {}, UnityEngine::ResourceManagement::ResourceProviders::SceneInstance m_Inst_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* m_Location_ = {}, UnityEngine::SceneManagement::LoadSceneMode m_LoadMode_ = {}, int m_Priority_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp_ = {}, UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager_ = {}) noexcept : m_ActivateOnLoad{m_ActivateOnLoad_}, m_Inst{m_Inst_}, m_Location{m_Location_}, m_LoadMode{m_LoadMode_}, m_Priority{m_Priority_}, m_DepOp{m_DepOp_}, m_ResourceManager{m_ResourceManager_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::IUpdateReceiver
     operator UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);

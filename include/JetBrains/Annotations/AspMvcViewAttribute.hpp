@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADB10
   class AspMvcViewAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: AspMvcViewAttribute
-    AspMvcViewAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26102D4
     // Implemented from: System.Attribute

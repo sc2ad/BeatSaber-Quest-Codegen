@@ -26,8 +26,6 @@ namespace UnityEngine::Assertions {
     ::Il2CppString* m_UserMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AssertionException
-    AssertionException(::Il2CppString* m_UserMessage_ = {}) noexcept : m_UserMessage{m_UserMessage_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_UserMessage;

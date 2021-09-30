@@ -39,8 +39,6 @@ namespace TMPro {
     int m_HashCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TMP_SpriteCharacter
-    TMP_SpriteCharacter(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_} {}
     // Get instance field reference: private System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode

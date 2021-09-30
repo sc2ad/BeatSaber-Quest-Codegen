@@ -150,8 +150,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* thisPlayerDefinedPatternNoteData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>*) == 0x8);
-    // Creating value type constructor for type: PatternFightSongController
-    PatternFightSongController(GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::BeatmapData* beatmapData_ = {}, GlobalNamespace::PatternFightSongController::GameplayPhase gameplayPhase_ = {}, int gameplayPhaseNumber_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* thisPlayerSourcePatternNoteData_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* thisPlayerDefinedPatternNoteData_ = {}) noexcept : audioTimeSyncController{audioTimeSyncController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapObjectManager{beatmapObjectManager_}, beatmapData{beatmapData_}, gameplayPhase{gameplayPhase_}, gameplayPhaseNumber{gameplayPhaseNumber_}, thisPlayerSourcePatternNoteData{thisPlayerSourcePatternNoteData_}, thisPlayerDefinedPatternNoteData{thisPlayerDefinedPatternNoteData_} {}
     // static field const value: static private System.Single kBPM
     static constexpr const float kBPM = 120;
     // Get static field: static private System.Single kBPM

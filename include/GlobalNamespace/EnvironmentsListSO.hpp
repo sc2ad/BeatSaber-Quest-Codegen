@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*> environmentInfos;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*>) == 0x8);
-    // Creating value type constructor for type: EnvironmentsListSO
-    EnvironmentsListSO(::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*> environmentInfos_ = {}) noexcept : environmentInfos{environmentInfos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private EnvironmentInfoSO[] _environmentInfos

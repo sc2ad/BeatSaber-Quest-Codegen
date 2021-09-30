@@ -58,8 +58,6 @@ namespace System::Runtime::Remoting::Proxies {
     bool custom_type_info;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TransparentProxy
-    TransparentProxy(System::Runtime::Remoting::Proxies::RealProxy* rp_ = {}, Mono::RuntimeRemoteClassHandle _class_ = {}, bool custom_type_info_ = {}) noexcept : rp{rp_}, _class{_class_}, custom_type_info{custom_type_info_} {}
     // Get instance field reference: public System.Runtime.Remoting.Proxies.RealProxy _rp
     System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // Get instance field reference: private Mono.RuntimeRemoteClassHandle _class

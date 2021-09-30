@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     int bufferTexID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SimpleTemporalFiltering
-    SimpleTemporalFiltering(::ArrayWrapper<UnityEngine::RenderTexture*> temporalFilteringTextures_ = {}, int prevTemporalFilteringTextureIdx_ = {}, UnityEngine::Material* temporalFilteringMaterial_ = {}, int bufferTexID_ = {}) noexcept : temporalFilteringTextures{temporalFilteringTextures_}, prevTemporalFilteringTextureIdx{prevTemporalFilteringTextureIdx_}, temporalFilteringMaterial{temporalFilteringMaterial_}, bufferTexID{bufferTexID_} {}
     // Get instance field reference: private UnityEngine.RenderTexture[] _temporalFilteringTextures
     ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn__temporalFilteringTextures();
     // Get instance field reference: private System.Int32 _prevTemporalFilteringTextureIdx

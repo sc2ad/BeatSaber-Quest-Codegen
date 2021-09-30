@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBakedLightWithRenderer {
     public:
-    // Creating value type constructor for type: IBakedLightWithRenderer
-    IBakedLightWithRenderer() noexcept {}
     // public UnityEngine.Material get_bakingMaterial()
     // Offset: 0xFFFFFFFF
     UnityEngine::Material* get_bakingMaterial();

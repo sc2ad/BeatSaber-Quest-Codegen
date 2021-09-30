@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*) == 0x8);
-    // Creating value type constructor for type: GuestPlayer
-    GuestPlayer(::Il2CppString* playerName_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}) noexcept : playerName{playerName_}, playerSpecificSettings{playerSpecificSettings_} {}
     // Get instance field reference: public System.String playerName
     ::Il2CppString*& dyn_playerName();
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings

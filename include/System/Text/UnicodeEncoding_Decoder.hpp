@@ -41,8 +41,6 @@ namespace System::Text {
     ::Il2CppChar lastChar;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    // Creating value type constructor for type: Decoder
-    Decoder(int lastByte_ = {}, ::Il2CppChar lastChar_ = {}) noexcept : lastByte{lastByte_}, lastChar{lastChar_} {}
     // Get instance field reference: System.Int32 lastByte
     int& dyn_lastByte();
     // Get instance field reference: System.Char lastChar

@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INodePoseSyncStateManager/*, public GlobalNamespace::INodePoseSyncStateManager_5<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable, GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*/ {
     public:
-    // Creating value type constructor for type: INodePoseSyncStateManager
-    INodePoseSyncStateManager() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::INodePoseSyncStateManager_5<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable, GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>
     operator GlobalNamespace::INodePoseSyncStateManager_5<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable, GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager_5<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable, GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*>(this);

@@ -55,7 +55,6 @@ namespace UnityEngine::ProBuilder {
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector2 vector)
     // Offset: 0x1C7AF04
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntVec2(UnityEngine::Vector2 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec2 p)
     // Offset: 0x1C7AFD8

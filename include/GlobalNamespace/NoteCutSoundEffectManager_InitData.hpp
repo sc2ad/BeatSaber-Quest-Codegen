@@ -32,8 +32,6 @@ namespace GlobalNamespace {
     bool ignoreBadCuts;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitData
-    InitData(bool useTestAudioClips_ = {}, bool ignoreBadCuts_ = {}) noexcept : useTestAudioClips{useTestAudioClips_}, ignoreBadCuts{ignoreBadCuts_} {}
     // Get instance field reference: public readonly System.Boolean useTestAudioClips
     bool& dyn_useTestAudioClips();
     // Get instance field reference: public readonly System.Boolean ignoreBadCuts

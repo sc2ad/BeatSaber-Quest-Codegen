@@ -26,8 +26,6 @@ namespace System::Net::Http {
     ::Il2CppString* method;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HttpMethod
-    HttpMethod(::Il2CppString* method_ = {}) noexcept : method{method_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::Net::Http::HttpMethod*>
     operator System::IEquatable_1<System::Net::Http::HttpMethod*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Net::Http::HttpMethod*>*>(this);

@@ -39,8 +39,6 @@ namespace UnityEngine::TestRunner::Utils {
     NUnit::Framework::Interfaces::ITestResult* testResults;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITestResult*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass4_0
-    $$c__DisplayClass4_0(NUnit::Framework::Interfaces::ITestResult* testResults_ = {}) noexcept : testResults{testResults_} {}
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ITestResult*
     constexpr operator NUnit::Framework::Interfaces::ITestResult*() const noexcept {
       return testResults;

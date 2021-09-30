@@ -55,8 +55,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     int Index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TriangulationPoint
-    TriangulationPoint(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* Edges_ = {}, double X_ = {}, double Y_ = {}, int Index_ = {}) noexcept : Edges{Edges_}, X{X_}, Y{Y_}, Index{Index_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
     // Get instance field reference: public System.Double X

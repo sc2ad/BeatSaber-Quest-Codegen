@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E90034
   class GUIClip : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GUIClip
-    GUIClip() noexcept {}
     // static UnityEngine.Rect get_visibleRect()
     // Offset: 0x1C93744
     static UnityEngine::Rect get_visibleRect();

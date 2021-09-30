@@ -24,8 +24,6 @@ namespace Microsoft::Win32 {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ExpandString
-    ExpandString(::Il2CppString* value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return value;

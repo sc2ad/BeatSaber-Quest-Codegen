@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // Creating value type constructor for type: BackgroundTextureGradientSwitchEventEffect
-    BackgroundTextureGradientSwitchEventEffect(GlobalNamespace::BeatmapEventType colorBoostEvent_ = {}, GlobalNamespace::BloomPrePassBackgroundTextureGradient* defaultTextureGradient_ = {}, GlobalNamespace::BloomPrePassBackgroundTextureGradient* boostTextureGradient_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : colorBoostEvent{colorBoostEvent_}, defaultTextureGradient{defaultTextureGradient_}, boostTextureGradient{boostTextureGradient_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _colorBoostEvent

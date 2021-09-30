@@ -22,8 +22,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::UnhandledExceptionHandler::$$c
     class $$c;
-    // Creating value type constructor for type: UnhandledExceptionHandler
-    UnhandledExceptionHandler() noexcept {}
     // static private System.Void RegisterUECatcher()
     // Offset: 0x23496A0
     static void RegisterUECatcher();

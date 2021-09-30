@@ -153,8 +153,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<bool> disabledIKComponents;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
-    // Creating value type constructor for type: RagdollUtility
-    RagdollUtility(RootMotion::FinalIK::IK* ik_ = {}, float ragdollToAnimationTime_ = {}, bool applyIkOnRagdoll_ = {}, float applyVelocity_ = {}, float applyAngularVelocity_ = {}, UnityEngine::Animator* animator_ = {}, ::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Rigidbone*> rigidbones_ = {}, ::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Child*> children_ = {}, bool enableRagdollFlag_ = {}, UnityEngine::AnimatorUpdateMode animatorUpdateMode_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IK*> allIKComponents_ = {}, ::ArrayWrapper<bool> fixTransforms_ = {}, float ragdollWeight_ = {}, float ragdollWeightV_ = {}, bool fixedFrame_ = {}, ::ArrayWrapper<bool> disabledIKComponents_ = {}) noexcept : ik{ik_}, ragdollToAnimationTime{ragdollToAnimationTime_}, applyIkOnRagdoll{applyIkOnRagdoll_}, applyVelocity{applyVelocity_}, applyAngularVelocity{applyAngularVelocity_}, animator{animator_}, rigidbones{rigidbones_}, children{children_}, enableRagdollFlag{enableRagdollFlag_}, animatorUpdateMode{animatorUpdateMode_}, allIKComponents{allIKComponents_}, fixTransforms{fixTransforms_}, ragdollWeight{ragdollWeight_}, ragdollWeightV{ragdollWeightV_}, fixedFrame{fixedFrame_}, disabledIKComponents{disabledIKComponents_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK ik

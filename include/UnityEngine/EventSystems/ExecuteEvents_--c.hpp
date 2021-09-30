@@ -34,8 +34,6 @@ namespace UnityEngine::EventSystems {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ExecuteEvents::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c <>9
     static UnityEngine::EventSystems::ExecuteEvents::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c <>9

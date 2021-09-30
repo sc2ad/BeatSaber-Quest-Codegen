@@ -61,8 +61,6 @@ namespace System::Net::Sockets {
     bool in_cleanup;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SafeSocketHandle
-    SafeSocketHandle(System::Collections::Generic::List_1<System::Threading::Thread*>* blocking_threads_ = {}, System::Collections::Generic::Dictionary_2<System::Threading::Thread*, System::Diagnostics::StackTrace*>* threads_stacktraces_ = {}, bool in_cleanup_ = {}) noexcept : blocking_threads{blocking_threads_}, threads_stacktraces{threads_stacktraces_}, in_cleanup{in_cleanup_} {}
     // static field const value: static private System.Int32 SOCKET_CLOSED
     static constexpr const int SOCKET_CLOSED = 10004;
     // Get static field: static private System.Int32 SOCKET_CLOSED

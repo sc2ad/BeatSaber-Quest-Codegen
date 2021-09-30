@@ -29,8 +29,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkInterface : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetworkInterface
-    NetworkInterface() noexcept {}
     // public System.String get_Name()
     // Offset: 0x1647020
     ::Il2CppString* get_Name();

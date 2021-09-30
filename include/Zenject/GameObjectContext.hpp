@@ -90,8 +90,6 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // Creating value type constructor for type: GameObjectContext
-    GameObjectContext(System::Action* PreInstall_ = {}, System::Action* PostInstall_ = {}, System::Action* PreResolve_ = {}, System::Action* PostResolve_ = {}, Zenject::MonoKernel* kernel_ = {}, Zenject::DiContainer* container_ = {}) noexcept : PreInstall{PreInstall_}, PostInstall{PostInstall_}, PreResolve{PreResolve_}, PostResolve{PostResolve_}, kernel{kernel_}, container{container_} {}
     // Get instance field reference: private System.Action PreInstall
     System::Action*& dyn_PreInstall();
     // Get instance field reference: private System.Action PostInstall

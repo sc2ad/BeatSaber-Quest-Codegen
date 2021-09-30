@@ -100,8 +100,6 @@ namespace System::IO {
     bool m_leaveOpen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BinaryReader
-    BinaryReader(System::IO::Stream* m_stream_ = {}, ::ArrayWrapper<uint8_t> m_buffer_ = {}, System::Text::Decoder* m_decoder_ = {}, ::ArrayWrapper<uint8_t> m_charBytes_ = {}, ::ArrayWrapper<::Il2CppChar> m_singleChar_ = {}, ::ArrayWrapper<::Il2CppChar> m_charBuffer_ = {}, int m_maxCharsSize_ = {}, bool m_2BytesPerChar_ = {}, bool m_isMemoryStream_ = {}, bool m_leaveOpen_ = {}) noexcept : m_stream{m_stream_}, m_buffer{m_buffer_}, m_decoder{m_decoder_}, m_charBytes{m_charBytes_}, m_singleChar{m_singleChar_}, m_charBuffer{m_charBuffer_}, m_maxCharsSize{m_maxCharsSize_}, m_2BytesPerChar{m_2BytesPerChar_}, m_isMemoryStream{m_isMemoryStream_}, m_leaveOpen{m_leaveOpen_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

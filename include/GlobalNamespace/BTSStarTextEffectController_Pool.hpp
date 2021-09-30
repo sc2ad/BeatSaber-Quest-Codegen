@@ -30,8 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSStarTextEffectController::Pool : public Zenject::MonoMemoryPool_4<UnityEngine::Sprite*, UnityEngine::Transform*, float, GlobalNamespace::BTSStarTextEffectController*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // protected System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform transform, System.Single desiredAnimationLength, BTSStarTextEffectController starTextEffectController)
     // Offset: 0x126850C
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* transform, float desiredAnimationLength, GlobalNamespace::BTSStarTextEffectController* starTextEffectController);

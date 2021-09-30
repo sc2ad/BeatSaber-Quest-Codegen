@@ -39,8 +39,6 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverCCD* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverCCD*) == 0x8);
-    // Creating value type constructor for type: CCDIK
-    CCDIK(RootMotion::FinalIK::IKSolverCCD* solver_ = {}) noexcept : solver{solver_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolverCCD solver
     RootMotion::FinalIK::IKSolverCCD*& dyn_solver();
     // private System.Void SupportGroup()

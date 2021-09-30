@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     bool initializedPropertyIds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LightIntensitiesData
-    LightIntensitiesData(float intensity_ = {}, float weight_ = {}, int lightmapLightIdColorPropertyId_ = {}, int lightProbeLightIdColorPropertyId_ = {}, bool initializedPropertyIds_ = {}) noexcept : intensity{intensity_}, weight{weight_}, lightmapLightIdColorPropertyId{lightmapLightIdColorPropertyId_}, lightProbeLightIdColorPropertyId{lightProbeLightIdColorPropertyId_}, initializedPropertyIds{initializedPropertyIds_} {}
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private System.Single _weight

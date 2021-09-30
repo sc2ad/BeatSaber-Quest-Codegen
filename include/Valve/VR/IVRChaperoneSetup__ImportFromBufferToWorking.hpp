@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB59AC
   class IVRChaperoneSetup::_ImportFromBufferToWorking : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _ImportFromBufferToWorking
-    _ImportFromBufferToWorking() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21A80D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

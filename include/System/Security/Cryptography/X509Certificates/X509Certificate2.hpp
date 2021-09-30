@@ -70,8 +70,6 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* friendlyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: X509Certificate2
-    X509Certificate2(::Il2CppString* friendlyName_ = {}) noexcept : friendlyName{friendlyName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return friendlyName;

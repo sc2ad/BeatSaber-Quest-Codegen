@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::Vector3>* sourceDataPoints;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: BezierSpline
-    BezierSpline(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* segments_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* sourceDataPoints_ = {}) noexcept : segments{segments_}, sourceDataPoints{sourceDataPoints_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>*& dyn__segments();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints

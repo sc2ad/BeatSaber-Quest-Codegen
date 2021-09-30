@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // Creating value type constructor for type: NoteCutHapticEffect
-    NoteCutHapticEffect(Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackController_ = {}) noexcept : rumblePreset{rumblePreset_}, hapticFeedbackController{hapticFeedbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset

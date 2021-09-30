@@ -60,8 +60,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: WarningHeaderValue
-    WarningHeaderValue(::Il2CppString* Agent_ = {}, int Code_ = {}, System::Nullable_1<System::DateTimeOffset> Date_ = {}, ::Il2CppString* Text_ = {}) noexcept : Agent{Agent_}, Code{Code_}, Date{Date_}, Text{Text_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

@@ -111,8 +111,6 @@ namespace Zenject {
     System::Type* ContractType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: FactoryFromBinderBase
-    FactoryFromBinderBase(Zenject::DiContainer* BindContainer_ = {}, Zenject::FactoryBindInfo* FactoryBindInfo_ = {}, System::Type* ContractType_ = {}) noexcept : BindContainer{BindContainer_}, FactoryBindInfo{FactoryBindInfo_}, ContractType{ContractType_} {}
     // Get instance field reference: private Zenject.DiContainer <BindContainer>k__BackingField
     Zenject::DiContainer*& dyn_$BindContainer$k__BackingField();
     // Get instance field reference: private Zenject.FactoryBindInfo <FactoryBindInfo>k__BackingField

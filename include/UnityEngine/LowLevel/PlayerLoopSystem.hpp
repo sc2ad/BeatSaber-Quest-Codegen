@@ -63,7 +63,7 @@ namespace UnityEngine::LowLevel {
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
     // Creating value type constructor for type: PlayerLoopSystem
-    constexpr PlayerLoopSystem(System::Type* type_ = {}, ::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem> subSystemList_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) noexcept : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
+    constexpr PlayerLoopSystem(System::Type* type_ = {}, ::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem> subSystemList_ = {nullptr}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) noexcept : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

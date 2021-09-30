@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     int defaultAgeRestriction;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: PS4PublisherSKUSettingsSO
-    PS4PublisherSKUSettingsSO(::Il2CppString* skuName_ = {}, ::Il2CppString* contentId_ = {}, int parentalLockLevel_ = {}, ::Il2CppString* npTitleFilenamePath_ = {}, int defaultAgeRestriction_ = {}) noexcept : skuName{skuName_}, contentId{contentId_}, parentalLockLevel{parentalLockLevel_}, npTitleFilenamePath{npTitleFilenamePath_}, defaultAgeRestriction{defaultAgeRestriction_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _skuName

@@ -61,8 +61,6 @@ namespace UnityEngine::TestTools::TestRunner {
     ::Il2CppString* bootstrapScene;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PlaymodeTestsControllerSettings
-    PlaymodeTestsControllerSettings(::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     ::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
     // Get instance field reference: public System.Boolean sceneBased

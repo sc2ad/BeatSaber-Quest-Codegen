@@ -59,8 +59,6 @@ namespace System::Net {
     System::Net::HttpStreamAsyncResult* Ares;
     // Field size check
     static_assert(sizeof(System::Net::HttpStreamAsyncResult*) == 0x8);
-    // Creating value type constructor for type: ReadBufferState
-    ReadBufferState(::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Count_ = {}, int InitialCount_ = {}, System::Net::HttpStreamAsyncResult* Ares_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, InitialCount{InitialCount_}, Ares{Ares_} {}
     // Get instance field reference: public System.Byte[] Buffer
     ::ArrayWrapper<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset

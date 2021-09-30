@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CAC8
   class UnauthorizedAccessException : public System::SystemException {
     public:
-    // Creating value type constructor for type: UnauthorizedAccessException
-    UnauthorizedAccessException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x25357DC
     // Implemented from: System.SystemException

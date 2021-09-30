@@ -71,8 +71,6 @@ namespace RootMotion::FinalIK {
     bool fixYAxis;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CameraPosition
-    CameraPosition(UnityEngine::Collider* lookAtTarget_ = {}, UnityEngine::Vector3 direction_ = {}, float maxDistance_ = {}, float maxAngle_ = {}, bool fixYAxis_ = {}) noexcept : lookAtTarget{lookAtTarget_}, direction{direction_}, maxDistance{maxDistance_}, maxAngle{maxAngle_}, fixYAxis{fixYAxis_} {}
     // Get instance field reference: public UnityEngine.Collider lookAtTarget
     UnityEngine::Collider*& dyn_lookAtTarget();
     // Get instance field reference: public UnityEngine.Vector3 direction

@@ -56,8 +56,6 @@ namespace UnityEngine::ProBuilder {
     // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__23_1<T>
     template<typename T>
     class $$c__23_1;
-    // Creating value type constructor for type: ArrayUtility
-    ArrayUtility() noexcept {}
     // static public T[] ValuesWithIndexes(T[] arr, System.Int32[] indexes)
     // Offset: 0xFFFFFFFF
     template<class T>

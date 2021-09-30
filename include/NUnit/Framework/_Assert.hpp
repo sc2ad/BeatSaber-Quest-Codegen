@@ -26,8 +26,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class _Assert : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: _Assert
-    _Assert() noexcept {}
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
     // Offset: 0x1928388
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);

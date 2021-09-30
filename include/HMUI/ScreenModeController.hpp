@@ -64,8 +64,6 @@ namespace HMUI {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: ScreenModeController
-    ScreenModeController(::ArrayWrapper<HMUI::CurvedCanvasSettings*> curvedCanvases_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, HMUI::ScreenModeData* defaultModeData_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : curvedCanvases{curvedCanvases_}, vrPlatformHelper{vrPlatformHelper_}, defaultModeData{defaultModeData_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.CurvedCanvasSettings[] _curvedCanvases

@@ -74,8 +74,6 @@ namespace UnityEngine {
     ::ArrayWrapper<UnityEngine::ContactPoint2D> m_LegacyContacts;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::ContactPoint2D>) == 0x8);
-    // Creating value type constructor for type: Collision2D
-    Collision2D(int m_Collider_ = {}, int m_OtherCollider_ = {}, int m_Rigidbody_ = {}, int m_OtherRigidbody_ = {}, UnityEngine::Vector2 m_RelativeVelocity_ = {}, int m_Enabled_ = {}, int m_ContactCount_ = {}, ::ArrayWrapper<UnityEngine::ContactPoint2D> m_ReusedContacts_ = {}, ::ArrayWrapper<UnityEngine::ContactPoint2D> m_LegacyContacts_ = {}) noexcept : m_Collider{m_Collider_}, m_OtherCollider{m_OtherCollider_}, m_Rigidbody{m_Rigidbody_}, m_OtherRigidbody{m_OtherRigidbody_}, m_RelativeVelocity{m_RelativeVelocity_}, m_Enabled{m_Enabled_}, m_ContactCount{m_ContactCount_}, m_ReusedContacts{m_ReusedContacts_}, m_LegacyContacts{m_LegacyContacts_} {}
     // Get instance field reference: System.Int32 m_Collider
     int& dyn_m_Collider();
     // Get instance field reference: System.Int32 m_OtherCollider

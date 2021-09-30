@@ -161,8 +161,6 @@ namespace UnityEngine::AddressableAssets {
     #pragma pack(pop)
     static check_size<sizeof(Addressables::MergeMode), 0 + sizeof(int)> __UnityEngine_AddressableAssets_Addressables_MergeModeSizeCheck;
     static_assert(sizeof(Addressables::MergeMode) == 0x4);
-    // Creating value type constructor for type: Addressables
-    Addressables() noexcept {}
     // Get static field: static System.Boolean reinitializeAddressables
     static bool _get_reinitializeAddressables();
     // Set static field: static System.Boolean reinitializeAddressables

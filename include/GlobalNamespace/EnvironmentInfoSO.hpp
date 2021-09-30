@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* environmentKeywords;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: EnvironmentInfoSO
-    EnvironmentInfoSO(::Il2CppString* environmentName_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}, GlobalNamespace::SceneInfo* sceneInfo_ = {}, ::Il2CppString* serializedName_ = {}, GlobalNamespace::EnvironmentTypeSO* environmentType_ = {}, GlobalNamespace::EnvironmentSizeData* environmentSizeData_ = {}, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* environmentKeywords_ = {}) noexcept : environmentName{environmentName_}, colorScheme{colorScheme_}, sceneInfo{sceneInfo_}, serializedName{serializedName_}, environmentType{environmentType_}, environmentSizeData{environmentSizeData_}, environmentIntensityReductionOptions{environmentIntensityReductionOptions_}, environmentKeywords{environmentKeywords_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _environmentName

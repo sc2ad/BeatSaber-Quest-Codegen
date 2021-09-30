@@ -28,8 +28,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrivateKeyFactory : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PrivateKeyFactory
-    PrivateKeyFactory() noexcept {}
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter CreateKey(Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo keyInfo)
     // Offset: 0x14DA2EC
     static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);

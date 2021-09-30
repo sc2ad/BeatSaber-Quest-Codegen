@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* selectedAndHighlightedSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: SpriteSwapTransitionSO
-    SpriteSwapTransitionSO(UnityEngine::Sprite* normalSprite_ = {}, UnityEngine::Sprite* highlightedSprite_ = {}, UnityEngine::Sprite* pressedSprite_ = {}, UnityEngine::Sprite* disabledSprite_ = {}, UnityEngine::Sprite* selectedSprite_ = {}, UnityEngine::Sprite* selectedAndHighlightedSprite_ = {}) noexcept : normalSprite{normalSprite_}, highlightedSprite{highlightedSprite_}, pressedSprite{pressedSprite_}, disabledSprite{disabledSprite_}, selectedSprite{selectedSprite_}, selectedAndHighlightedSprite{selectedAndHighlightedSprite_} {}
     // Get instance field reference: private UnityEngine.Sprite _normalSprite
     UnityEngine::Sprite*& dyn__normalSprite();
     // Get instance field reference: private UnityEngine.Sprite _highlightedSprite

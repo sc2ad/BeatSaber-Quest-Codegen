@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB061C
   class IVRApplications::_GetTransitionState : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetTransitionState
-    _GetTransitionState() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17707E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

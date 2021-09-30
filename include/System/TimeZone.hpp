@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CDA0
   class TimeZone : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TimeZone
-    TimeZone() noexcept {}
     // Get static field: static private System.TimeZone currentTimeZone
     static System::TimeZone* _get_currentTimeZone();
     // Set static field: static private System.TimeZone currentTimeZone

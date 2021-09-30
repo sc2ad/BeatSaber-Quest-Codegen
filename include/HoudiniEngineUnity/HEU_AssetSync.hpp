@@ -49,8 +49,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* assetPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_AssetSync
-    HEU_AssetSync(HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback* onAssetLoaded_ = {}, ::Il2CppString* assetPath_ = {}) noexcept : onAssetLoaded{onAssetLoaded_}, assetPath{assetPath_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetSync/HoudiniEngineUnity.AssetSyncCallback _onAssetLoaded
     HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback*& dyn__onAssetLoaded();
     // Get instance field reference: public System.String _assetPath

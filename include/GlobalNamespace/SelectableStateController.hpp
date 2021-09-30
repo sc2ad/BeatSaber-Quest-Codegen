@@ -122,8 +122,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SelectableStateController::ViewState currentViewState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectableStateController::ViewState) == 0x4);
-    // Creating value type constructor for type: SelectableStateController
-    SelectableStateController(Tweening::TimeTweeningManager* tweeningManager_ = {}, System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* stateDidChangeEvent_ = {}, GlobalNamespace::SelectableStateController::ViewState currentViewState_ = {}) noexcept : tweeningManager{tweeningManager_}, stateDidChangeEvent{stateDidChangeEvent_}, currentViewState{currentViewState_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager

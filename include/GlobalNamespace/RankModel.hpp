@@ -21,8 +21,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::RankModel::Rank
     struct Rank;
-    // Creating value type constructor for type: RankModel
-    RankModel() noexcept {}
     // static public System.String GetRankName(RankModel/Rank rank)
     // Offset: 0x2573FBC
     static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);

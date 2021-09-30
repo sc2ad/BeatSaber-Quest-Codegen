@@ -22,8 +22,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E723CC
   class DisallowMultipleComponent : public System::Attribute {
     public:
-    // Creating value type constructor for type: DisallowMultipleComponent
-    DisallowMultipleComponent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CB83EC
     // Implemented from: System.Attribute

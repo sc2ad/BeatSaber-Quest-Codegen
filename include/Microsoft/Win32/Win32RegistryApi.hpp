@@ -47,8 +47,6 @@ namespace Microsoft::Win32 {
     int NativeBytesPerCharacter;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Win32RegistryApi
-    Win32RegistryApi(int NativeBytesPerCharacter_ = {}) noexcept : NativeBytesPerCharacter{NativeBytesPerCharacter_} {}
     // Creating interface conversion operator: operator Microsoft::Win32::IRegistryApi
     operator Microsoft::Win32::IRegistryApi() noexcept {
       return *reinterpret_cast<Microsoft::Win32::IRegistryApi*>(this);

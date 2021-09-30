@@ -40,8 +40,6 @@ namespace System::Runtime::Remoting::Activation {
   // [TokenAttribute] Offset: FFFFFFFF
   class ActivationServices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ActivationServices
-    ActivationServices() noexcept {}
     // Get static field: static private System.Runtime.Remoting.Activation.IActivator _constructionActivator
     static System::Runtime::Remoting::Activation::IActivator* _get__constructionActivator();
     // Set static field: static private System.Runtime.Remoting.Activation.IActivator _constructionActivator

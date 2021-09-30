@@ -27,8 +27,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HoudiniVersion : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_HoudiniVersion
-    HEU_HoudiniVersion() noexcept {}
     // static field const value: static public System.Int32 HOUDINI_MAJOR
     static constexpr const int HOUDINI_MAJOR = 18;
     // Get static field: static public System.Int32 HOUDINI_MAJOR

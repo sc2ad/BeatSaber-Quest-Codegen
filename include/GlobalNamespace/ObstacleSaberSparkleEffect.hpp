@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmissionModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmissionModule) == 0x8);
-    // Creating value type constructor for type: ObstacleSaberSparkleEffect
-    ObstacleSaberSparkleEffect(UnityEngine::ParticleSystem* sparkleParticleSystem_ = {}, UnityEngine::ParticleSystem* burnParticleSystem_ = {}, UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmissionModule_ = {}, UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmissionModule_ = {}) noexcept : sparkleParticleSystem{sparkleParticleSystem_}, burnParticleSystem{burnParticleSystem_}, sparkleParticleSystemEmissionModule{sparkleParticleSystemEmissionModule_}, burnParticleSystemEmissionModule{burnParticleSystemEmissionModule_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparkleParticleSystem

@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstalledApplicationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::InstalledApplication*> {
     public:
-    // Creating value type constructor for type: InstalledApplicationList
-    InstalledApplicationList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16B80D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,8 +31,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X9::X9ECParameters*) == 0x8);
-    // Creating value type constructor for type: X9ECParametersHolder
-    X9ECParametersHolder(Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters_ = {}) noexcept : parameters{parameters_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::X9::X9ECParameters*
     constexpr operator Org::BouncyCastle::Asn1::X9::X9ECParameters*() const noexcept {
       return parameters;

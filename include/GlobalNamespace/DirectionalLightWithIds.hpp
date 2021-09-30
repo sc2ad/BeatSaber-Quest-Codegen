@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DirectionalLight* directionalLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DirectionalLight*) == 0x8);
-    // Creating value type constructor for type: DirectionalLightWithIds
-    DirectionalLightWithIds(GlobalNamespace::DirectionalLight* directionalLight_ = {}) noexcept : directionalLight{directionalLight_} {}
     // Get instance field reference: private DirectionalLight _directionalLight
     GlobalNamespace::DirectionalLight*& dyn__directionalLight();
     // public System.Void .ctor()

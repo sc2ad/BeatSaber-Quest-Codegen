@@ -37,8 +37,6 @@ namespace System::Net {
     System::Net::IAuthenticationModule* authObject;
     // Field size check
     static_assert(sizeof(System::Net::IAuthenticationModule*) == 0x8);
-    // Creating value type constructor for type: NtlmClient
-    NtlmClient(System::Net::IAuthenticationModule* authObject_ = {}) noexcept : authObject{authObject_} {}
     // Creating interface conversion operator: operator System::Net::IAuthenticationModule
     operator System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<System::Net::IAuthenticationModule*>(this);

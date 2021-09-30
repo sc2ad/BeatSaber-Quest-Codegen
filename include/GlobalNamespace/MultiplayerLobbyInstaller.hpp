@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLobbyAvatarPlace* multiplayerAvatarPlacePrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarPlace*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLobbyInstaller
-    MultiplayerLobbyInstaller(GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerLobbyAvatarControllerPrefab_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlace* multiplayerAvatarPlacePrefab_ = {}) noexcept : multiplayerLobbyAvatarControllerPrefab{multiplayerLobbyAvatarControllerPrefab_}, multiplayerAvatarPlacePrefab{multiplayerAvatarPlacePrefab_} {}
     // Get instance field reference: private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
     GlobalNamespace::MultiplayerLobbyAvatarController*& dyn__multiplayerLobbyAvatarControllerPrefab();
     // Get instance field reference: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab

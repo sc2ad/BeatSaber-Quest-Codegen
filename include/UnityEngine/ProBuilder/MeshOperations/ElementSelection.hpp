@@ -60,8 +60,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass24_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0
     class $$c__DisplayClass26_0;
-    // Creating value type constructor for type: ElementSelection
-    ElementSelection() noexcept {}
     // static field const value: static private System.Int32 k_MaxHoleIterations
     static constexpr const int k_MaxHoleIterations = 2048;
     // Get static field: static private System.Int32 k_MaxHoleIterations

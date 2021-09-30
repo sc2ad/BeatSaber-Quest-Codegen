@@ -53,8 +53,6 @@ namespace Zenject {
     bool createNew;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass56_0
-    $$c__DisplayClass56_0(::Il2CppString* resourcePath_ = {}, Zenject::FromBinder* $$4__this_ = {}, bool createNew_ = {}) noexcept : resourcePath{resourcePath_}, $$4__this{$$4__this_}, createNew{createNew_} {}
     // Get instance field reference: public System.String resourcePath
     ::Il2CppString*& dyn_resourcePath();
     // Get instance field reference: public Zenject.FromBinder <>4__this

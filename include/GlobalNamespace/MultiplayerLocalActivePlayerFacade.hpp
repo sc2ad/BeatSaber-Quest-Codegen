@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* playerNetworkDidFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalActivePlayerFacade
-    MultiplayerLocalActivePlayerFacade(::ArrayWrapper<UnityEngine::GameObject*> activeOnlyGameObjects_ = {}, UnityEngine::GameObject* outroAnimator_ = {}, GlobalNamespace::IStartSeekSongController* songController_ = {}, GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* introAnimator_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent_ = {}, System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* playerNetworkDidFailedEvent_ = {}) noexcept : activeOnlyGameObjects{activeOnlyGameObjects_}, outroAnimator{outroAnimator_}, songController{songController_}, introAnimator{introAnimator_}, gameSongController{gameSongController_}, beatmapObjectManager{beatmapObjectManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, playerDidFinishEvent{playerDidFinishEvent_}, playerNetworkDidFailedEvent{playerNetworkDidFailedEvent_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher
     operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);

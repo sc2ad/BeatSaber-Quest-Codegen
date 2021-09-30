@@ -13,8 +13,6 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsyncStateMachine {
     public:
-    // Creating value type constructor for type: IAsyncStateMachine
-    IAsyncStateMachine() noexcept {}
     // public System.Void MoveNext()
     // Offset: 0xFFFFFFFF
     void MoveNext();

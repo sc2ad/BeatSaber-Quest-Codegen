@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMixedReality : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRMixedReality
-    OVRMixedReality() noexcept {}
     // Get static field: static public System.Boolean useFakeExternalCamera
     static bool _get_useFakeExternalCamera();
     // Set static field: static public System.Boolean useFakeExternalCamera

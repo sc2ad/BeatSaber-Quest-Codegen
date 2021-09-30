@@ -41,8 +41,6 @@ namespace UnityEngine::Animations {
   // [NativeHeaderAttribute] Offset: E8BF50
   class AnimationPlayableExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AnimationPlayableExtensions
-    AnimationPlayableExtensions() noexcept {}
     // static public System.Void SetAnimatedProperties(U playable, UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
     template<class U>

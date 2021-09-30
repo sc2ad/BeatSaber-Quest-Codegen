@@ -33,8 +33,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectionPickerRenderer::SelectionPickerRendererHDRP : public ::Il2CppObject/*, public UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*/ {
     public:
-    // Creating value type constructor for type: SelectionPickerRendererHDRP
-    SelectionPickerRendererHDRP() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer
     operator UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);

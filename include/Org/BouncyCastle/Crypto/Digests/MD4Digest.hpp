@@ -62,8 +62,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int xOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MD4Digest
-    MD4Digest(int H1_ = {}, int H2_ = {}, int H3_ = {}, int H4_ = {}, ::ArrayWrapper<int> X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, X{X_}, xOff{xOff_} {}
     // Get instance field reference: private System.Int32 H1
     int& dyn_H1();
     // Get instance field reference: private System.Int32 H2

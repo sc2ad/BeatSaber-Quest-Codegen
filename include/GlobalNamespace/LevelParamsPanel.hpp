@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* bombsCountText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: LevelParamsPanel
-    LevelParamsPanel(TMPro::TextMeshProUGUI* notesPerSecondText_ = {}, TMPro::TextMeshProUGUI* notesCountText_ = {}, TMPro::TextMeshProUGUI* obstaclesCountText_ = {}, TMPro::TextMeshProUGUI* bombsCountText_ = {}) noexcept : notesPerSecondText{notesPerSecondText_}, notesCountText{notesCountText_}, obstaclesCountText{obstaclesCountText_}, bombsCountText{bombsCountText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _notesPerSecondText

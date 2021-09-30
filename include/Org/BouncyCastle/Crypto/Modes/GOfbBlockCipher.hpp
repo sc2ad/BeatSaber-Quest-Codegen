@@ -79,8 +79,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     int N4;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: GOfbBlockCipher
-    GOfbBlockCipher(::ArrayWrapper<uint8_t> IV_ = {}, ::ArrayWrapper<uint8_t> ofbV_ = {}, ::ArrayWrapper<uint8_t> ofbOutV_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, bool firstStep_ = {}, int N3_ = {}, int N4_ = {}) noexcept : IV{IV_}, ofbV{ofbV_}, ofbOutV{ofbOutV_}, blockSize{blockSize_}, cipher{cipher_}, firstStep{firstStep_}, N3{N3_}, N4{N4_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

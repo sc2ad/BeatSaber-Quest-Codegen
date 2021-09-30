@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     int m_width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FixedPointPreCompInfo
-    FixedPointPreCompInfo(Org::BouncyCastle::Math::EC::ECPoint* m_offset_ = {}, Org::BouncyCastle::Math::EC::ECLookupTable* m_lookupTable_ = {}, int m_width_ = {}) noexcept : m_offset{m_offset_}, m_lookupTable{m_lookupTable_}, m_width{m_width_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

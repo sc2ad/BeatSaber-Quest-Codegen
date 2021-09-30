@@ -20,8 +20,6 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeTweeningManager : public Tweening::TweeningManager {
     public:
-    // Creating value type constructor for type: TimeTweeningManager
-    TimeTweeningManager() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x133E520
     // Implemented from: Tweening.TweeningManager

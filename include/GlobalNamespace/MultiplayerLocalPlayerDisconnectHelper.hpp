@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
-    // Creating value type constructor for type: MultiplayerLocalPlayerDisconnectHelper
-    MultiplayerLocalPlayerDisconnectHelper(GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions_ = {}, GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel_ = {}) noexcept : gameplayRpcManager{gameplayRpcManager_}, multiplayerLevelEndActions{multiplayerLevelEndActions_}, lobbyPlayerPermissionsModel{lobbyPlayerPermissionsModel_} {}
     // static field const value: static private System.String kDisconnectLabel
     static constexpr const char* kDisconnectLabel = "BUTTON_DISCONNECT";
     // Get static field: static private System.String kDisconnectLabel

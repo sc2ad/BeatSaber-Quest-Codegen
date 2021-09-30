@@ -59,8 +59,6 @@ namespace TMPro {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FallbackMaterial
-    FallbackMaterial(int baseID_ = {}, UnityEngine::Material* baseMaterial_ = {}, int64_t fallbackID_ = {}, UnityEngine::Material* fallbackMaterial_ = {}, int count_ = {}) noexcept : baseID{baseID_}, baseMaterial{baseMaterial_}, fallbackID{fallbackID_}, fallbackMaterial{fallbackMaterial_}, count{count_} {}
     // Get instance field reference: public System.Int32 baseID
     int& dyn_baseID();
     // Get instance field reference: public UnityEngine.Material baseMaterial

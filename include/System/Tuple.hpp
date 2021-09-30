@@ -32,8 +32,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tuple : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Tuple
-    Tuple() noexcept {}
     // static public System.Tuple`2<T1,T2> Create(T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>

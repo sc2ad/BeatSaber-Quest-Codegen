@@ -28,8 +28,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D630
   class InvalidFilterCriteriaException : public System::ApplicationException {
     public:
-    // Creating value type constructor for type: InvalidFilterCriteriaException
-    InvalidFilterCriteriaException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EA9190
     // Implemented from: System.ApplicationException

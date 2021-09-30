@@ -89,8 +89,6 @@ namespace RootMotion::FinalIK {
     bool directHierarchy;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IKSolverTrigonometric
-    IKSolverTrigonometric(UnityEngine::Transform* target_ = {}, float IKRotationWeight_ = {}, UnityEngine::Quaternion IKRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone1_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone2_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone3_ = {}, UnityEngine::Vector3 weightIKPosition_ = {}, bool directHierarchy_ = {}) noexcept : target{target_}, IKRotationWeight{IKRotationWeight_}, IKRotation{IKRotation_}, bendNormal{bendNormal_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, weightIKPosition{weightIKPosition_}, directHierarchy{directHierarchy_} {}
     // Get instance field reference: public UnityEngine.Transform target
     UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public System.Single IKRotationWeight

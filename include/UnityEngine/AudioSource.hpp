@@ -27,8 +27,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E9EC9C
   class AudioSource : public UnityEngine::AudioBehaviour {
     public:
-    // Creating value type constructor for type: AudioSource
-    AudioSource() noexcept {}
     // public System.Single get_volume()
     // Offset: 0x2609144
     float get_volume();

@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass26_0
-    $$c__DisplayClass26_0(GlobalNamespace::ArcadeFlowCoordinator* $$4__this_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}) noexcept : $$4__this{$$4__this_}, resultsViewController{resultsViewController_} {}
     // Get instance field reference: public ArcadeFlowCoordinator <>4__this
     GlobalNamespace::ArcadeFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public ResultsViewController resultsViewController

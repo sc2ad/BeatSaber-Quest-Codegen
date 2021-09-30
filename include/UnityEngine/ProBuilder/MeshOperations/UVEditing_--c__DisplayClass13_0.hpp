@@ -35,8 +35,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     int b;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(int b_ = {}) noexcept : b{b_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return b;

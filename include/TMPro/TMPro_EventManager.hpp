@@ -49,8 +49,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMPro_EventManager : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TMPro_EventManager
-    TMPro_EventManager() noexcept {}
     // Get static field: static public readonly TMPro.FastAction`2<System.Object,TMPro.Compute_DT_EventArgs> COMPUTE_DT_EVENT
     static TMPro::FastAction_2<::Il2CppObject*, TMPro::Compute_DT_EventArgs*>* _get_COMPUTE_DT_EVENT();
     // Set static field: static public readonly TMPro.FastAction`2<System.Object,TMPro.Compute_DT_EventArgs> COMPUTE_DT_EVENT

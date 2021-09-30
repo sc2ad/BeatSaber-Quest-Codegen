@@ -36,8 +36,6 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     System::IO::TextReader* reader;
     // Field size check
     static_assert(sizeof(System::IO::TextReader*) == 0x8);
-    // Creating value type constructor for type: PemReader
-    PemReader(System::IO::TextReader* reader_ = {}) noexcept : reader{reader_} {}
     // Creating conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept {
       return reader;

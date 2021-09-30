@@ -94,7 +94,6 @@ namespace System {
     }
     // public System.Void .ctor(T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ValueTuple_2(T1 item1, T2 item2)
     // public System.Boolean Equals(System.ValueTuple`2<T1,T2> other)
     // Offset: 0xFFFFFFFF

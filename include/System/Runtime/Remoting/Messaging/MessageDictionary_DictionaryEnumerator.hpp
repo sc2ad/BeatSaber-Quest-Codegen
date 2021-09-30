@@ -47,8 +47,6 @@ namespace System::Runtime::Remoting::Messaging {
     int posMethod;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DictionaryEnumerator
-    DictionaryEnumerator(System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary_ = {}, System::Collections::IDictionaryEnumerator* hashtableEnum_ = {}, int posMethod_ = {}) noexcept : methodDictionary{methodDictionary_}, hashtableEnum{hashtableEnum_}, posMethod{posMethod_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionaryEnumerator
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);

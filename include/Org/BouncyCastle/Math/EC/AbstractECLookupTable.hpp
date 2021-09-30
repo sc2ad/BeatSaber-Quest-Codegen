@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractECLookupTable : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::ECLookupTable*/ {
     public:
-    // Creating value type constructor for type: AbstractECLookupTable
-    AbstractECLookupTable() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::ECLookupTable
     operator Org::BouncyCastle::Math::EC::ECLookupTable() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::ECLookupTable*>(this);

@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     class $$c__DisplayClass0_0_1;
     // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // Creating value type constructor for type: AsyncHelper
-    AsyncHelper() noexcept {}
     // static public T RunSync(System.Func`1<System.Threading.Tasks.Task`1<T>> asyncTask)
     // Offset: 0xFFFFFFFF
     template<class T>

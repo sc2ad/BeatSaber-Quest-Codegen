@@ -45,8 +45,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set* attrValues;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
-    // Creating value type constructor for type: AttributePkcs
-    AttributePkcs(Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attrValues_ = {}) noexcept : attrType{attrType_}, attrValues{attrValues_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_attrType();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set attrValues

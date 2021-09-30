@@ -34,8 +34,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectPathFaces : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SelectPathFaces
-    SelectPathFaces() noexcept {}
     // Get static field: static private System.Int32[] s_cachedPredecessors
     static ::ArrayWrapper<int> _get_s_cachedPredecessors();
     // Set static field: static private System.Int32[] s_cachedPredecessors

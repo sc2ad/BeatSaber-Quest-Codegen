@@ -30,8 +30,6 @@ namespace GlobalNamespace {
     bool cleared;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PlayerMissionStatsData
-    PlayerMissionStatsData(::Il2CppString* missionId_ = {}, bool cleared_ = {}) noexcept : missionId{missionId_}, cleared{cleared_} {}
     // Get instance field reference: private System.String _missionId
     ::Il2CppString*& dyn__missionId();
     // Get instance field reference: private System.Boolean _cleared

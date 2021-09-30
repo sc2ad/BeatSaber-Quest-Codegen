@@ -32,8 +32,6 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterDataSourceProvider : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IParameterDataProvider*/ {
     public:
-    // Creating value type constructor for type: ParameterDataSourceProvider
-    ParameterDataSourceProvider() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IParameterDataProvider
     operator NUnit::Framework::Interfaces::IParameterDataProvider() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterDataProvider*>(this);

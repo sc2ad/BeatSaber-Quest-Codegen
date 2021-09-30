@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SaberSound
-    SaberSound(UnityEngine::Transform* saberTop_ = {}, UnityEngine::AudioSource* audioSource_ = {}, UnityEngine::AnimationCurve* pitchBySpeedCurve_ = {}, UnityEngine::AnimationCurve* gainBySpeedCurve_ = {}, float speedMultiplier_ = {}, float upSmooth_ = {}, float downSmooth_ = {}, float noSoundTopThresholdSqr_ = {}, UnityEngine::Vector3 prevPos_ = {}, float speed_ = {}) noexcept : saberTop{saberTop_}, audioSource{audioSource_}, pitchBySpeedCurve{pitchBySpeedCurve_}, gainBySpeedCurve{gainBySpeedCurve_}, speedMultiplier{speedMultiplier_}, upSmooth{upSmooth_}, downSmooth{downSmooth_}, noSoundTopThresholdSqr{noSoundTopThresholdSqr_}, prevPos{prevPos_}, speed{speed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _saberTop

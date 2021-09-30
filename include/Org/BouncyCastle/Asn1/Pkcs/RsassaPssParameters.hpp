@@ -60,8 +60,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerInteger* trailerField;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: RsassaPssParameters
-    RsassaPssParameters(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerInteger* saltLength_ = {}, Org::BouncyCastle::Asn1::DerInteger* trailerField_ = {}) noexcept : hashAlgorithm{hashAlgorithm_}, maskGenAlgorithm{maskGenAlgorithm_}, saltLength{saltLength_}, trailerField{trailerField_} {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier DefaultHashAlgorithm
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_DefaultHashAlgorithm();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier DefaultHashAlgorithm

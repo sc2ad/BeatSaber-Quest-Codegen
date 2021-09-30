@@ -34,8 +34,6 @@ namespace Mono::Unity {
   // [UnmanagedFunctionPointerAttribute] Offset: E68D54
   class UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: unitytls_x509list_append_der_t
-    unitytls_x509list_append_der_t() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C760C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

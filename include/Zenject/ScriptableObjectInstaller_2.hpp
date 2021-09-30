@@ -27,8 +27,6 @@ namespace Zenject {
   template<typename TParam1, typename TDerived>
   class ScriptableObjectInstaller_2 : public Zenject::ScriptableObjectInstallerBase {
     public:
-    // Creating value type constructor for type: ScriptableObjectInstaller_2
-    ScriptableObjectInstaller_2() noexcept {}
     // static public TDerived InstallFromResource(Zenject.DiContainer container, TParam1 p1)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(Zenject::DiContainer* container, TParam1 p1) {

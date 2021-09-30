@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     bool practice;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass26_0
-    $$c__DisplayClass26_0(GlobalNamespace::ShowcaseFlowCoordinator* $$4__this_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool practice_ = {}) noexcept : $$4__this{$$4__this_}, levelCompletionResults{levelCompletionResults_}, difficultyBeatmap{difficultyBeatmap_}, practice{practice_} {}
     // Get instance field reference: public ShowcaseFlowCoordinator <>4__this
     GlobalNamespace::ShowcaseFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public LevelCompletionResults levelCompletionResults

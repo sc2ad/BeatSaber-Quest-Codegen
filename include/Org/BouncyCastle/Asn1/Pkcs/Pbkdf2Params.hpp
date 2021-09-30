@@ -67,8 +67,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*) == 0x8);
-    // Creating value type constructor for type: Pbkdf2Params
-    Pbkdf2Params(Org::BouncyCastle::Asn1::Asn1OctetString* octStr_ = {}, Org::BouncyCastle::Asn1::DerInteger* iterationCount_ = {}, Org::BouncyCastle::Asn1::DerInteger* keyLength_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf_ = {}) noexcept : octStr{octStr_}, iterationCount{iterationCount_}, keyLength{keyLength_}, prf{prf_} {}
     // Get static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_algid_hmacWithSHA1();
     // Set static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1

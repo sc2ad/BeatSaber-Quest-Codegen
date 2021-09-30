@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData*) == 0x8);
-    // Creating value type constructor for type: MockMasterServerAvailabilityModel
-    MockMasterServerAvailabilityModel(GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData_ = {}) noexcept : masterServerAvailabilityData{masterServerAvailabilityData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMasterServerAvailabilityModel
     operator GlobalNamespace::IMasterServerAvailabilityModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMasterServerAvailabilityModel*>(this);

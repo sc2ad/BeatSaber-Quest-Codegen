@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     UnityEngine::Color selectedAndHighlightedBackgroundColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: LevelPackHeaderTableCell
-    LevelPackHeaderTableCell(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::Color highlightBackgroundColor_ = {}, UnityEngine::Color selectedBackgroundColor_ = {}, UnityEngine::Color selectedAndHighlightedBackgroundColor_ = {}) noexcept : nameText{nameText_}, backgroundImage{backgroundImage_}, highlightBackgroundColor{highlightBackgroundColor_}, selectedBackgroundColor{selectedBackgroundColor_}, selectedAndHighlightedBackgroundColor{selectedAndHighlightedBackgroundColor_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
     TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage

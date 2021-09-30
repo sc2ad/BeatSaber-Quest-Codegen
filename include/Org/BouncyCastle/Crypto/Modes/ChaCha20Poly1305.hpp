@@ -190,8 +190,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     int mBufPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ChaCha20Poly1305
-    ChaCha20Poly1305(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20_ = {}, Org::BouncyCastle::Crypto::IMac* mPoly1305_ = {}, ::ArrayWrapper<uint8_t> mKey_ = {}, ::ArrayWrapper<uint8_t> mNonce_ = {}, ::ArrayWrapper<uint8_t> mBuf_ = {}, ::ArrayWrapper<uint8_t> mMac_ = {}, ::ArrayWrapper<uint8_t> mInitialAad_ = {}, uint64_t mAadCount_ = {}, uint64_t mDataCount_ = {}, Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State mState_ = {}, int mBufPos_ = {}) noexcept : mChacha20{mChacha20_}, mPoly1305{mPoly1305_}, mKey{mKey_}, mNonce{mNonce_}, mBuf{mBuf_}, mMac{mMac_}, mInitialAad{mInitialAad_}, mAadCount{mAadCount_}, mDataCount{mDataCount_}, mState{mState_}, mBufPos{mBufPos_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::IAeadCipher
     operator Org::BouncyCastle::Crypto::Modes::IAeadCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);

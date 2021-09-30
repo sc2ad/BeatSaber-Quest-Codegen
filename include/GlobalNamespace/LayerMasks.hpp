@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LayerMasks : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: LayerMasks
-    LayerMasks() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDD908
     // Get static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static UnityEngine::LayerMask _get_saberLayerMask();

@@ -106,8 +106,6 @@ namespace Zenject {
     bool resolveAll;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SubContainerBinder
-    SubContainerBinder(Zenject::BindInfo* bindInfo_ = {}, Zenject::BindStatement* bindStatement_ = {}, ::Il2CppObject* subIdentifier_ = {}, bool resolveAll_ = {}) noexcept : bindInfo{bindInfo_}, bindStatement{bindStatement_}, subIdentifier{subIdentifier_}, resolveAll{resolveAll_} {}
     // Get instance field reference: private readonly Zenject.BindInfo _bindInfo
     Zenject::BindInfo*& dyn__bindInfo();
     // Get instance field reference: private readonly Zenject.BindStatement _bindStatement

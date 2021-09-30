@@ -56,8 +56,6 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*> sharedNormalIndices;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>) == 0x8);
-    // Creating value type constructor for type: HEU_GeoGroup
-    HEU_GeoGroup(::Il2CppString* groupName_ = {}, System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap_ = {}, ::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*> sharedNormalIndices_ = {}) noexcept : groupName{groupName_}, subMeshesMap{subMeshesMap_}, sharedNormalIndices{sharedNormalIndices_} {}
     // Creating interface conversion operator: operator System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>
     operator System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>() noexcept {
       return *reinterpret_cast<System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>*>(this);

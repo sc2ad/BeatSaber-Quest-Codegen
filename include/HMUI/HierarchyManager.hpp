@@ -60,8 +60,6 @@ namespace HMUI {
     HMUI::FlowCoordinator* rootFlowCoordinator;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
-    // Creating value type constructor for type: HierarchyManager
-    HierarchyManager(HMUI::ScreenSystem* screenSystem_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, HMUI::FlowCoordinator* rootFlowCoordinator_ = {}) noexcept : screenSystem{screenSystem_}, gameScenesManager{gameScenesManager_}, rootFlowCoordinator{rootFlowCoordinator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ScreenSystem _screenSystem

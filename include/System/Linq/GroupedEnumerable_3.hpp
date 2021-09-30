@@ -72,8 +72,6 @@ namespace System::Linq {
     System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEqualityComparer_1<TKey>*) == 0x8);
-    // Creating value type constructor for type: GroupedEnumerable_3
-    GroupedEnumerable_3(System::Collections::Generic::IEnumerable_1<TSource>* source_ = {}, System::Func_2<TSource, TKey>* keySelector_ = {}, System::Func_2<TSource, TElement>* elementSelector_ = {}, System::Collections::Generic::IEqualityComparer_1<TKey>* comparer_ = {}) noexcept : source{source_}, keySelector{keySelector_}, elementSelector{elementSelector_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>
     operator System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>*>(this);

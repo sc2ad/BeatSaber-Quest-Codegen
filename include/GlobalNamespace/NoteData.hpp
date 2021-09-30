@@ -99,8 +99,6 @@ namespace GlobalNamespace {
     bool skipAfterCutScoring;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NoteData
-    NoteData(GlobalNamespace::ColorType colorType_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}, float timeToNextColorNote_ = {}, float timeToPrevColorNote_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer_ = {}, int flipLineIndex_ = {}, float flipYSide_ = {}, float duration_ = {}, bool skipBeforeCutScoring_ = {}, bool skipAfterCutScoring_ = {}) noexcept : colorType{colorType_}, cutDirection{cutDirection_}, timeToNextColorNote{timeToNextColorNote_}, timeToPrevColorNote{timeToPrevColorNote_}, noteLineLayer{noteLineLayer_}, beforeJumpNoteLineLayer{beforeJumpNoteLineLayer_}, flipLineIndex{flipLineIndex_}, flipYSide{flipYSide_}, duration{duration_}, skipBeforeCutScoring{skipBeforeCutScoring_}, skipAfterCutScoring{skipAfterCutScoring_} {}
     // Get instance field reference: private ColorType <colorType>k__BackingField
     GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
     // Get instance field reference: private NoteCutDirection <cutDirection>k__BackingField

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GaussianSeparableBlurRendererSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // Creating value type constructor for type: GaussianSeparableBlurRendererSO
-    GaussianSeparableBlurRendererSO() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E26AE0
     // Implemented from: PersistentScriptableObject

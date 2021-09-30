@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>*) == 0x8);
-    // Creating value type constructor for type: MissionSelectionNavigationController
-    MissionSelectionNavigationController(GlobalNamespace::MissionSelectionMapViewController* missionSelectionMapViewController_ = {}, GlobalNamespace::MissionLevelDetailViewController* missionLevelDetailViewController_ = {}, System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent_ = {}) noexcept : missionSelectionMapViewController{missionSelectionMapViewController_}, missionLevelDetailViewController{missionLevelDetailViewController_}, didPressPlayButtonEvent{didPressPlayButtonEvent_} {}
     // Get instance field reference: private MissionSelectionMapViewController _missionSelectionMapViewController
     GlobalNamespace::MissionSelectionMapViewController*& dyn__missionSelectionMapViewController();
     // Get instance field reference: private MissionLevelDetailViewController _missionLevelDetailViewController

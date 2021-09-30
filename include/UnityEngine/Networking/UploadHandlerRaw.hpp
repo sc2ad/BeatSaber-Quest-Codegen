@@ -28,8 +28,6 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EBFCD8
   class UploadHandlerRaw : public UnityEngine::Networking::UploadHandler {
     public:
-    // Creating value type constructor for type: UploadHandlerRaw
-    UploadHandlerRaw() noexcept {}
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x25FC250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

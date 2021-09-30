@@ -40,8 +40,6 @@ namespace Zenject::Internal {
     Zenject::BindingId BindingId;
     // Field size check
     static_assert(sizeof(Zenject::BindingId) == 0x10);
-    // Creating value type constructor for type: LookupId
-    LookupId(Zenject::IProvider* Provider_ = {}, Zenject::BindingId BindingId_ = {}) noexcept : Provider{Provider_}, BindingId{BindingId_} {}
     // Get instance field reference: public Zenject.IProvider Provider
     Zenject::IProvider*& dyn_Provider();
     // Get instance field reference: public Zenject.BindingId BindingId

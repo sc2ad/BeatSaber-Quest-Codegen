@@ -51,8 +51,6 @@ namespace LiteNetLib {
     System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*) == 0x8);
-    // Creating value type constructor for type: BaseChannel
-    BaseChannel(LiteNetLib::BaseChannel* Next_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue_ = {}) noexcept : Next{Next_}, Peer{Peer_}, OutgoingQueue{OutgoingQueue_} {}
     // Get instance field reference: public LiteNetLib.BaseChannel Next
     LiteNetLib::BaseChannel*& dyn_Next();
     // Get instance field reference: protected readonly LiteNetLib.NetPeer Peer

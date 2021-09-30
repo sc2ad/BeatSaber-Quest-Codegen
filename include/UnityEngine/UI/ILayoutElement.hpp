@@ -13,8 +13,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayoutElement {
     public:
-    // Creating value type constructor for type: ILayoutElement
-    ILayoutElement() noexcept {}
     // public System.Single get_minWidth()
     // Offset: 0xFFFFFFFF
     float get_minWidth();

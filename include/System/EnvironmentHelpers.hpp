@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EnvironmentHelpers
-    EnvironmentHelpers() noexcept {}
     // static System.Boolean IsWindowsVistaOrAbove()
     // Offset: 0x1A26858
     static bool IsWindowsVistaOrAbove();

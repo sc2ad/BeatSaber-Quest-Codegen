@@ -42,8 +42,6 @@ namespace TMPro {
     TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
     // Field size check
     static_assert(sizeof(TMPro::FontFeatureLookupFlags) == 0x4);
-    // Creating value type constructor for type: TMP_GlyphPairAdjustmentRecord
-    TMP_GlyphPairAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord_ = {}, TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord_ = {}, TMPro::FontFeatureLookupFlags m_FeatureLookupFlags_ = {}) noexcept : m_FirstAdjustmentRecord{m_FirstAdjustmentRecord_}, m_SecondAdjustmentRecord{m_SecondAdjustmentRecord_}, m_FeatureLookupFlags{m_FeatureLookupFlags_} {}
     // Get instance field reference: private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
     TMPro::TMP_GlyphAdjustmentRecord& dyn_m_FirstAdjustmentRecord();
     // Get instance field reference: private TMPro.TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord

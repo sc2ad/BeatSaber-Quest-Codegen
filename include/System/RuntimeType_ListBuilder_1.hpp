@@ -49,7 +49,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ListBuilder_1
-    constexpr ListBuilder_1(::ArrayWrapper<T> items_ = {}, T item_ = {}, int count_ = {}, int capacity_ = {}) noexcept : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
+    constexpr ListBuilder_1(::ArrayWrapper<T> items_ = {nullptr}, T item_ = {}, int count_ = {}, int capacity_ = {}) noexcept : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -102,7 +102,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ListBuilder_1(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));

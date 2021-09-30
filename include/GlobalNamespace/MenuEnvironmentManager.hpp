@@ -88,8 +88,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType) == 0x4);
-    // Creating value type constructor for type: MenuEnvironmentManager
-    MenuEnvironmentManager(::ArrayWrapper<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*> data_ = {}, GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType_ = {}) noexcept : data{data_}, prevMenuEnvironmentType{prevMenuEnvironmentType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data

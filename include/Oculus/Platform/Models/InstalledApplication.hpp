@@ -52,8 +52,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* VersionName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: InstalledApplication
-    InstalledApplication(::Il2CppString* ApplicationId_ = {}, ::Il2CppString* PackageName_ = {}, ::Il2CppString* Status_ = {}, int VersionCode_ = {}, ::Il2CppString* VersionName_ = {}) noexcept : ApplicationId{ApplicationId_}, PackageName{PackageName_}, Status{Status_}, VersionCode{VersionCode_}, VersionName{VersionName_} {}
     // Get instance field reference: public readonly System.String ApplicationId
     ::Il2CppString*& dyn_ApplicationId();
     // Get instance field reference: public readonly System.String PackageName

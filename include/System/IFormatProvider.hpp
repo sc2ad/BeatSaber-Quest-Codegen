@@ -24,8 +24,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C260
   class IFormatProvider {
     public:
-    // Creating value type constructor for type: IFormatProvider
-    IFormatProvider() noexcept {}
     // public System.Object GetFormat(System.Type formatType)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetFormat(System::Type* formatType);

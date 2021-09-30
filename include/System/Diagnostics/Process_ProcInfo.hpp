@@ -66,7 +66,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ProcInfo
-    constexpr ProcInfo(System::IntPtr process_handle_ = {}, int pid_ = {}, ::ArrayWrapper<::Il2CppString*> envVariables_ = {}, ::Il2CppString* UserName_ = {}, ::Il2CppString* Domain_ = {}, System::IntPtr Password_ = {}, bool LoadUserProfile_ = {}) noexcept : process_handle{process_handle_}, pid{pid_}, envVariables{envVariables_}, UserName{UserName_}, Domain{Domain_}, Password{Password_}, LoadUserProfile{LoadUserProfile_} {}
+    constexpr ProcInfo(System::IntPtr process_handle_ = {}, int pid_ = {}, ::ArrayWrapper<::Il2CppString*> envVariables_ = {nullptr}, ::Il2CppString* UserName_ = {}, ::Il2CppString* Domain_ = {}, System::IntPtr Password_ = {}, bool LoadUserProfile_ = {}) noexcept : process_handle{process_handle_}, pid{pid_}, envVariables{envVariables_}, UserName{UserName_}, Domain{Domain_}, Password{Password_}, LoadUserProfile{LoadUserProfile_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -18,8 +18,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class __ComObject : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: __ComObject
-    __ComObject() noexcept {}
     // private System.Void .ctor()
     // Offset: 0x25396EC
     // Implemented from: System.Object

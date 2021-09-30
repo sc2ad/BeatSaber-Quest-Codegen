@@ -48,8 +48,6 @@ namespace Zenject {
     // Nested type: Zenject::ConditionCopyNonLazyBinder::$$c__5_1<T>
     template<typename T>
     class $$c__5_1;
-    // Creating value type constructor for type: ConditionCopyNonLazyBinder
-    ConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.CopyNonLazyBinder When(Zenject.BindingCondition condition)
     // Offset: 0x14F8390
     Zenject::CopyNonLazyBinder* When(Zenject::BindingCondition* condition);

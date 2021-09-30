@@ -39,8 +39,6 @@ namespace NUnit::Framework::Interfaces {
     ::Il2CppString* TestName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TestOutput
-    TestOutput(::Il2CppString* Text_ = {}, ::Il2CppString* Stream_ = {}, ::Il2CppString* TestName_ = {}) noexcept : Text{Text_}, Stream{Stream_}, TestName{TestName_} {}
     // Get instance field reference: private System.String <Text>k__BackingField
     ::Il2CppString*& dyn_$Text$k__BackingField();
     // Get instance field reference: private System.String <Stream>k__BackingField

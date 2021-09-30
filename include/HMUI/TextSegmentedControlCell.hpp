@@ -44,8 +44,6 @@ namespace HMUI {
     UnityEngine::GameObject* backgroundGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: TextSegmentedControlCell
-    TextSegmentedControlCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::GameObject* backgroundGameObject_ = {}) noexcept : text{text_}, backgroundGameObject{backgroundGameObject_} {}
     // Get instance field reference: protected TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject

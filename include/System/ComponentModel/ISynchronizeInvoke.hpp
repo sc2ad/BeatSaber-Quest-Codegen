@@ -25,8 +25,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISynchronizeInvoke {
     public:
-    // Creating value type constructor for type: ISynchronizeInvoke
-    ISynchronizeInvoke() noexcept {}
     // public System.Boolean get_InvokeRequired()
     // Offset: 0xFFFFFFFF
     bool get_InvokeRequired();

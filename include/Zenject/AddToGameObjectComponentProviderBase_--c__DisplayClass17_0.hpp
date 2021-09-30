@@ -79,8 +79,6 @@ namespace Zenject {
     UnityEngine::GameObject* gameObj;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass17_0
-    $$c__DisplayClass17_0(Zenject::AddToGameObjectComponentProviderBase* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, ::Il2CppObject* instance_ = {}, Zenject::InjectContext* context_ = {}, bool wasActive_ = {}, UnityEngine::GameObject* gameObj_ = {}) noexcept : $$4__this{$$4__this_}, args{args_}, instance{instance_}, context{context_}, wasActive{wasActive_}, gameObj{gameObj_} {}
     // Get instance field reference: public Zenject.AddToGameObjectComponentProviderBase <>4__this
     Zenject::AddToGameObjectComponentProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args

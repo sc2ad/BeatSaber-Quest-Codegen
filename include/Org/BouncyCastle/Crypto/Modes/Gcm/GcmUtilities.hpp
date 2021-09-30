@@ -14,8 +14,6 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // [TokenAttribute] Offset: FFFFFFFF
   class GcmUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GcmUtilities
-    GcmUtilities() noexcept {}
     // Get static field: static private readonly System.UInt32[] LOOKUP
     static ::ArrayWrapper<uint> _get_LOOKUP();
     // Set static field: static private readonly System.UInt32[] LOOKUP

@@ -134,8 +134,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_DetailProperties* detailProperties;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_DetailProperties*) == 0x8);
-    // Creating value type constructor for type: HEU_VolumeCache
-    HEU_VolumeCache(HoudiniEngineUnity::HEU_GeoNode* ownerNode_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayer*>* layers_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayer*>* updatedLayers_ = {}, int tileIndex_ = {}, bool isDirty_ = {}, ::Il2CppString* geoName_ = {}, ::Il2CppString* objName_ = {}, bool uiExpanded_ = {}, UnityEngine::TerrainData* terrainData_ = {}, HoudiniEngineUnity::HEU_VolumeScatterTrees* scatterTrees_ = {}, HoudiniEngineUnity::HEU_DetailProperties* detailProperties_ = {}) noexcept : ownerNode{ownerNode_}, layers{layers_}, updatedLayers{updatedLayers_}, tileIndex{tileIndex_}, isDirty{isDirty_}, geoName{geoName_}, objName{objName_}, uiExpanded{uiExpanded_}, terrainData{terrainData_}, scatterTrees{scatterTrees_}, detailProperties{detailProperties_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>*>(this);

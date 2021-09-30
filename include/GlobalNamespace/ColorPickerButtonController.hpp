@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* colorImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: ColorPickerButtonController
-    ColorPickerButtonController(UnityEngine::UI::Button* button_ = {}, UnityEngine::UI::Image* colorImage_ = {}) noexcept : button{button_}, colorImage{colorImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _button

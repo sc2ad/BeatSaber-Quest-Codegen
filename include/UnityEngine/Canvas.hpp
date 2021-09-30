@@ -41,8 +41,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Canvas::WillRenderCanvases
     class WillRenderCanvases;
-    // Creating value type constructor for type: Canvas
-    Canvas() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xE97868
     // Get static field: static private UnityEngine.Canvas/UnityEngine.WillRenderCanvases preWillRenderCanvases
     static UnityEngine::Canvas::WillRenderCanvases* _get_preWillRenderCanvases();

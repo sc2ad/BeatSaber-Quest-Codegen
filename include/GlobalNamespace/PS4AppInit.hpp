@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // Creating value type constructor for type: PS4AppInit
-    PS4AppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::PS4ActivePublisherSKUSettingsSO* activePublisherSKUSettingsSO_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : mainSystemInit{mainSystemInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, mainSettingsModel{mainSettingsModel_}, activePublisherSKUSettingsSO{activePublisherSKUSettingsSO_}, gameScenesManager{gameScenesManager_} {}
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit

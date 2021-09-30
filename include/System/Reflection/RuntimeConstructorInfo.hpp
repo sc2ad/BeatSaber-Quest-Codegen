@@ -45,8 +45,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeConstructorInfo : public System::Reflection::ConstructorInfo/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
-    // Creating value type constructor for type: RuntimeConstructorInfo
-    RuntimeConstructorInfo() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

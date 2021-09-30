@@ -37,8 +37,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class SessionKeepaliveMessage : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IUserMessage*/ {
     public:
-    // Creating value type constructor for type: SessionKeepaliveMessage
-    SessionKeepaliveMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerUnreliableMessage
     operator MasterServer::IMasterServerUnreliableMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerUnreliableMessage*>(this);

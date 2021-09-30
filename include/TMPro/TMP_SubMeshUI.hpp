@@ -140,8 +140,6 @@ namespace TMPro {
     int m_materialReferenceIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TMP_SubMeshUI
-    TMP_SubMeshUI(TMPro::TMP_FontAsset* m_fontAsset_ = {}, TMPro::TMP_SpriteAsset* m_spriteAsset_ = {}, UnityEngine::Material* m_material_ = {}, UnityEngine::Material* m_sharedMaterial_ = {}, UnityEngine::Material* m_fallbackMaterial_ = {}, UnityEngine::Material* m_fallbackSourceMaterial_ = {}, bool m_isDefaultMaterial_ = {}, float m_padding_ = {}, UnityEngine::CanvasRenderer* m_canvasRenderer_ = {}, UnityEngine::Mesh* m_mesh_ = {}, TMPro::TextMeshProUGUI* m_TextComponent_ = {}, bool m_isRegisteredForEvents_ = {}, bool m_materialDirty_ = {}, int m_materialReferenceIndex_ = {}) noexcept : m_fontAsset{m_fontAsset_}, m_spriteAsset{m_spriteAsset_}, m_material{m_material_}, m_sharedMaterial{m_sharedMaterial_}, m_fallbackMaterial{m_fallbackMaterial_}, m_fallbackSourceMaterial{m_fallbackSourceMaterial_}, m_isDefaultMaterial{m_isDefaultMaterial_}, m_padding{m_padding_}, m_canvasRenderer{m_canvasRenderer_}, m_mesh{m_mesh_}, m_TextComponent{m_TextComponent_}, m_isRegisteredForEvents{m_isRegisteredForEvents_}, m_materialDirty{m_materialDirty_}, m_materialReferenceIndex{m_materialReferenceIndex_} {}
     // Get instance field reference: private TMPro.TMP_FontAsset m_fontAsset
     TMPro::TMP_FontAsset*& dyn_m_fontAsset();
     // Get instance field reference: private TMPro.TMP_SpriteAsset m_spriteAsset

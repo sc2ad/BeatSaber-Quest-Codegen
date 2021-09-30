@@ -26,8 +26,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetSocketListener {
     public:
-    // Creating value type constructor for type: INetSocketListener
-    INetSocketListener() noexcept {}
     // public System.Void OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
     // Offset: 0xFFFFFFFF
     void OnMessageReceived(::ArrayWrapper<uint8_t> data, int length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint* remoteEndPoint);

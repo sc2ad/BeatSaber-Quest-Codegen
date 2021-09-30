@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObjectiveValueFormatterSO*) == 0x8);
-    // Creating value type constructor for type: MissionObjectiveTypeSO
-    MissionObjectiveTypeSO(::Il2CppString* objectiveName_ = {}, bool noConditionValue_ = {}, GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater_ = {}) noexcept : objectiveName{objectiveName_}, noConditionValue{noConditionValue_}, objectiveValueFormater{objectiveValueFormater_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _objectiveName

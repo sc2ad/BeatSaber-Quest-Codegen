@@ -59,8 +59,6 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_GeneratedOutput*) == 0x8);
-    // Creating value type constructor for type: HEU_LoadBufferBase
-    HEU_LoadBufferBase(int id_ = {}, ::Il2CppString* name_ = {}, bool bInstanced_ = {}, bool bInstancer_ = {}, HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput_ = {}) noexcept : id{id_}, name{name_}, bInstanced{bInstanced_}, bInstancer{bInstancer_}, generatedOutput{generatedOutput_} {}
     // Get instance field reference: public System.Int32 _id
     int& dyn__id();
     // Get instance field reference: public System.String _name

@@ -13,8 +13,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IValidatable {
     public:
-    // Creating value type constructor for type: IValidatable
-    IValidatable() noexcept {}
     // public System.Void Validate()
     // Offset: 0xFFFFFFFF
     void Validate();

@@ -64,8 +64,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* fieldIdentifier;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: X9Curve
-    X9Curve(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, ::ArrayWrapper<uint8_t> seed_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* fieldIdentifier_ = {}) noexcept : curve{curve_}, seed{seed_}, fieldIdentifier{fieldIdentifier_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: private readonly System.Byte[] seed

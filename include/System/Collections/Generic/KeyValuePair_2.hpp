@@ -69,7 +69,6 @@ namespace System::Collections::Generic {
     }
     // public System.Void .ctor(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  KeyValuePair_2(TKey key, TValue value)
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF

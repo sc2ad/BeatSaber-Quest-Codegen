@@ -27,8 +27,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidTestFixtureException : public System::Exception {
     public:
-    // Creating value type constructor for type: InvalidTestFixtureException
-    InvalidTestFixtureException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x249CFAC
     // Implemented from: System.Exception

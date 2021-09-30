@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingTextEffect::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingTextEffect*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11BAD80
     // Implemented from: Zenject.MonoMemoryPool`1

@@ -51,8 +51,6 @@ namespace GlobalNamespace {
     int lineIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TutorialObjectSpawnData
-    TutorialObjectSpawnData(GlobalNamespace::Signal* signal_ = {}, int beatOffset_ = {}, int firstTimeBeatOffset_ = {}, int lineIndex_ = {}) noexcept : signal{signal_}, beatOffset{beatOffset_}, firstTimeBeatOffset{firstTimeBeatOffset_}, lineIndex{lineIndex_} {}
     // Get instance field reference: public readonly Signal signal
     GlobalNamespace::Signal*& dyn_signal();
     // Get instance field reference: public readonly System.Int32 beatOffset

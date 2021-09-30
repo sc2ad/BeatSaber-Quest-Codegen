@@ -79,8 +79,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint8_t> s;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: AesEngine
-    AesEngine(int ROUNDS_ = {}, ::ArrayWrapper<::ArrayWrapper<uint>> WorkingKey_ = {}, uint C0_ = {}, uint C1_ = {}, uint C2_ = {}, uint C3_ = {}, bool forEncryption_ = {}, ::ArrayWrapper<uint8_t> s_ = {}) noexcept : ROUNDS{ROUNDS_}, WorkingKey{WorkingKey_}, C0{C0_}, C1{C1_}, C2{C2_}, C3{C3_}, forEncryption{forEncryption_}, s{s_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);

@@ -19,8 +19,6 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatMath : public UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float> {
     public:
-    // Creating value type constructor for type: FloatMath
-    FloatMath() noexcept {}
     // public System.Single get_MinValue()
     // Offset: 0x2629F84
     float get_MinValue();

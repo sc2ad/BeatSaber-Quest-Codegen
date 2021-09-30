@@ -37,8 +37,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     ::ArrayWrapper<uint> x;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: SecP192K1FieldElement
-    SecP192K1FieldElement(::ArrayWrapper<uint> x_ = {}) noexcept : x{x_} {}
     // Creating conversion operator: operator ::ArrayWrapper<uint>
     constexpr operator ::ArrayWrapper<uint>() const noexcept {
       return x;

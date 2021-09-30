@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*) == 0x8);
-    // Creating value type constructor for type: ECDHBasicAgreement
-    ECDHBasicAgreement(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey_ = {}) noexcept : privKey{privKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBasicAgreement
     operator Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBasicAgreement*>(this);

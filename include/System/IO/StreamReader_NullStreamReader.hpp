@@ -32,8 +32,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class StreamReader::NullStreamReader : public System::IO::StreamReader {
     public:
-    // Creating value type constructor for type: NullStreamReader
-    NullStreamReader() noexcept {}
     // public override System.IO.Stream get_BaseStream()
     // Offset: 0x1AC5CF0
     // Implemented from: System.IO.StreamReader

@@ -24,8 +24,6 @@ namespace UnityEngine {
     int order;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BeforeRenderOrderAttribute
-    BeforeRenderOrderAttribute(int order_ = {}) noexcept : order{order_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return order;

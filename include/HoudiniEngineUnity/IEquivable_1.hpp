@@ -17,8 +17,6 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class IEquivable_1 {
     public:
-    // Creating value type constructor for type: IEquivable_1
-    IEquivable_1() noexcept {}
     // public System.Boolean IsEquivalentTo(T other)
     // Offset: 0xFFFFFFFF
     bool IsEquivalentTo(T other) {

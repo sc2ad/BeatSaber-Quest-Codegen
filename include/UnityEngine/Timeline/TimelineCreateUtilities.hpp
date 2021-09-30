@@ -45,8 +45,6 @@ namespace UnityEngine::Timeline {
     class $$c__DisplayClass0_0;
     // Nested type: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1
     class $$c__DisplayClass0_1;
-    // Creating value type constructor for type: TimelineCreateUtilities
-    TimelineCreateUtilities() noexcept {}
     // static public System.String GenerateUniqueActorName(System.Collections.Generic.List`1<UnityEngine.ScriptableObject> tracks, System.String name)
     // Offset: 0x2562DEC
     static ::Il2CppString* GenerateUniqueActorName(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* tracks, ::Il2CppString* name);

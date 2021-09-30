@@ -60,8 +60,6 @@ namespace Zenject {
     System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>* providerMap;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>*) == 0x8);
-    // Creating value type constructor for type: CachedOpenTypeProvider
-    CachedOpenTypeProvider(Zenject::IProvider* creator_ = {}, System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>* providerMap_ = {}) noexcept : creator{creator_}, providerMap{providerMap_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

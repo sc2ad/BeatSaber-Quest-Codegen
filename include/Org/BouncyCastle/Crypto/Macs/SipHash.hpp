@@ -93,8 +93,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     int wordCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SipHash
-    SipHash(int c_ = {}, int d_ = {}, int64_t k0_ = {}, int64_t k1_ = {}, int64_t v0_ = {}, int64_t v1_ = {}, int64_t v2_ = {}, int64_t v3_ = {}, int64_t m_ = {}, int wordPos_ = {}, int wordCount_ = {}) noexcept : c{c_}, d{d_}, k0{k0_}, k1{k1_}, v0{v0_}, v1{v1_}, v2{v2_}, v3{v3_}, m{m_}, wordPos{wordPos_}, wordCount{wordCount_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

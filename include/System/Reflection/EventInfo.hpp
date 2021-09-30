@@ -57,8 +57,6 @@ namespace System::Reflection {
     System::Reflection::EventInfo::AddEventAdapter* cached_add_event;
     // Field size check
     static_assert(sizeof(System::Reflection::EventInfo::AddEventAdapter*) == 0x8);
-    // Creating value type constructor for type: EventInfo
-    EventInfo(System::Reflection::EventInfo::AddEventAdapter* cached_add_event_ = {}) noexcept : cached_add_event{cached_add_event_} {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_EventInfo
     operator System::Runtime::InteropServices::_EventInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_EventInfo*>(this);

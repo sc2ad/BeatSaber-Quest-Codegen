@@ -37,8 +37,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB14CC
   class IVRSettings::_GetFloat : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetFloat
-    _GetFloat() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x22E0218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

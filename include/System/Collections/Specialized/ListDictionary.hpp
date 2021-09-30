@@ -71,8 +71,6 @@ namespace System::Collections::Specialized {
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
-    // Creating value type constructor for type: ListDictionary
-    ListDictionary(System::Collections::Specialized::ListDictionary::DictionaryNode* head_ = {}, int version_ = {}, int count_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : head{head_}, version{version_}, count{count_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

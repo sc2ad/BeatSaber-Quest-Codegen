@@ -22,8 +22,6 @@ namespace UnityEngine::Scripting {
   // [AttributeUsageAttribute] Offset: E735B8
   class PreserveAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: PreserveAttribute
-    PreserveAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1E0BB6C
     // Implemented from: System.Attribute

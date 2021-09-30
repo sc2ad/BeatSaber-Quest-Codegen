@@ -56,8 +56,6 @@ namespace UnityEngine {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   class GameObject : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: GameObject
-    GameObject() noexcept {}
     // public UnityEngine.Transform get_transform()
     // Offset: 0x1CBDB4C
     UnityEngine::Transform* get_transform();

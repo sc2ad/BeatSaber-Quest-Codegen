@@ -33,8 +33,6 @@ namespace NUnit::Framework::Constraints {
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
-    // Creating value type constructor for type: ComparerAdapter
-    ComparerAdapter(System::Collections::IComparer* comparer_ = {}) noexcept : comparer{comparer_} {}
     // Creating conversion operator: operator System::Collections::IComparer*
     constexpr operator System::Collections::IComparer*() const noexcept {
       return comparer;

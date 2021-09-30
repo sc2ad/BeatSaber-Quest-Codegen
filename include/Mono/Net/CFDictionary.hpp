@@ -21,8 +21,6 @@ namespace Mono::Net {
   // [DefaultMemberAttribute] Offset: E68F08
   class CFDictionary : public Mono::Net::CFObject {
     public:
-    // Creating value type constructor for type: CFDictionary
-    CFDictionary() noexcept {}
     // Get static field: static private readonly System.IntPtr KeyCallbacks
     static System::IntPtr _get_KeyCallbacks();
     // Set static field: static private readonly System.IntPtr KeyCallbacks

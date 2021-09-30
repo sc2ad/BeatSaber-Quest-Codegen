@@ -123,8 +123,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
-    // Creating value type constructor for type: EnvironmentIntensityReductionOptions
-    EnvironmentIntensityReductionOptions(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType compressExpand_ = {}, GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings_ = {}) noexcept : compressExpand{compressExpand_}, rotateRings{rotateRings_} {}
     // Get instance field reference: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType& dyn__compressExpand();
     // Get instance field reference: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings

@@ -87,8 +87,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     ::ArrayWrapper<uint8_t> Lu2;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: CMac
-    CMac(::ArrayWrapper<uint8_t> ZEROES_ = {}, ::ArrayWrapper<uint8_t> mac_ = {}, ::ArrayWrapper<uint8_t> buf_ = {}, int bufOff_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, int macSize_ = {}, ::ArrayWrapper<uint8_t> L_ = {}, ::ArrayWrapper<uint8_t> Lu_ = {}, ::ArrayWrapper<uint8_t> Lu2_ = {}) noexcept : ZEROES{ZEROES_}, mac{mac_}, buf{buf_}, bufOff{bufOff_}, cipher{cipher_}, macSize{macSize_}, L{L_}, Lu{Lu_}, Lu2{Lu2_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

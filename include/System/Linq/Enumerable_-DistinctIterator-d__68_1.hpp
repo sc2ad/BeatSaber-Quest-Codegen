@@ -95,8 +95,6 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<TSource>*) == 0x8);
-    // Creating value type constructor for type: $DistinctIterator$d__68_1
-    $DistinctIterator$d__68_1(int $$1__state_ = {}, TSource $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEqualityComparer_1<TSource>* comparer_ = {}, System::Collections::Generic::IEqualityComparer_1<TSource>* $$3__comparer_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* source_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__source_ = {}, System::Linq::Set_1<TSource>* $set$5__1_ = {}, System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, comparer{comparer_}, $$3__comparer{$$3__comparer_}, source{source_}, $$3__source{$$3__source_}, $set$5__1{$set$5__1_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: SteamVR_Ears
-    SteamVR_Ears(GlobalNamespace::SteamVR_Camera* vrcam_ = {}, bool usingSpeakers_ = {}, UnityEngine::Quaternion offset_ = {}) noexcept : vrcam{vrcam_}, usingSpeakers{usingSpeakers_}, offset{offset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_Camera vrcam

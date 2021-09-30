@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameServerPlayerTableItem
-    GameServerPlayerTableItem(::Il2CppString* playerName_ = {}, ::Il2CppString* suggestedLevel_ = {}, ::Il2CppString* suggestedModifiers_ = {}, bool isReady_ = {}) noexcept : playerName{playerName_}, suggestedLevel{suggestedLevel_}, suggestedModifiers{suggestedModifiers_}, isReady{isReady_} {}
     // Get instance field reference: public readonly System.String playerName
     ::Il2CppString*& dyn_playerName();
     // Get instance field reference: public readonly System.String suggestedLevel

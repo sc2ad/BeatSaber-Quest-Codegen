@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [CLSCompliantAttribute] Offset: E60E1C
   class _Assembly {
     public:
-    // Creating value type constructor for type: _Assembly
-    _Assembly() noexcept {}
   }; // System.Runtime.InteropServices._Assembly
   #pragma pack(pop)
 }

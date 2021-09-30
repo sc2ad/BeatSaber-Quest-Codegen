@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events::Action : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Action
-    Action() noexcept {}
     // public System.Void set_enabled(System.Boolean value)
     // Offset: 0x15391EC
     void set_enabled(bool value);

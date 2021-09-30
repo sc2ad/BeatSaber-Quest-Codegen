@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // Creating value type constructor for type: TutorialReturnToMenuController
-    TutorialReturnToMenuController(GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData_ = {}) noexcept : tutorialSceneSetupData{tutorialSceneSetupData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IReturnToMenuController
     operator GlobalNamespace::IReturnToMenuController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReturnToMenuController*>(this);

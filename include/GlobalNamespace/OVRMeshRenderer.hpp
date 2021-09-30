@@ -196,8 +196,6 @@ namespace GlobalNamespace {
     bool ShouldUseSystemGestureMaterial;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRMeshRenderer
-    OVRMeshRenderer(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider* dataProvider_ = {}, GlobalNamespace::OVRMesh* ovrMesh_ = {}, GlobalNamespace::OVRSkeleton* ovrSkeleton_ = {}, GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior confidenceBehavior_ = {}, GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior systemGestureBehavior_ = {}, UnityEngine::Material* systemGestureMaterial_ = {}, UnityEngine::Material* originalMaterial_ = {}, UnityEngine::SkinnedMeshRenderer* skinnedMeshRenderer_ = {}, bool IsInitialized_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : dataProvider{dataProvider_}, ovrMesh{ovrMesh_}, ovrSkeleton{ovrSkeleton_}, confidenceBehavior{confidenceBehavior_}, systemGestureBehavior{systemGestureBehavior_}, systemGestureMaterial{systemGestureMaterial_}, originalMaterial{originalMaterial_}, skinnedMeshRenderer{skinnedMeshRenderer_}, IsInitialized{IsInitialized_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider

@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     struct PlatformCameraMode;
     // Nested type: GlobalNamespace::OVRPlugin::Media::InputVideoBufferType
     struct InputVideoBufferType;
-    // Creating value type constructor for type: Media
-    Media() noexcept {}
     // Get static field: static private UnityEngine.Texture2D cachedTexture
     static UnityEngine::Texture2D* _get_cachedTexture();
     // Set static field: static private UnityEngine.Texture2D cachedTexture

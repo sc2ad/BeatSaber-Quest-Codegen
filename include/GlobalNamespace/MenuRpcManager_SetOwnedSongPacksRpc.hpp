@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetOwnedSongPacksRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::SongPackMask> {
     public:
-    // Creating value type constructor for type: SetOwnedSongPacksRpc
-    SetOwnedSongPacksRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x18C8CEC
     // Implemented from: RemoteProcedureCall`1

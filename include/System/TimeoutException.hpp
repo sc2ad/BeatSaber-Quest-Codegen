@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C7EC
   class TimeoutException : public System::SystemException {
     public:
-    // Creating value type constructor for type: TimeoutException
-    TimeoutException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x252C9E0
     // Implemented from: System.SystemException

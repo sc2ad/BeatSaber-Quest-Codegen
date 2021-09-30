@@ -48,8 +48,6 @@ namespace System::Collections {
     ::Il2CppObject* currentElement;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: QueueEnumerator
-    QueueEnumerator(System::Collections::Queue* q_ = {}, int index_ = {}, int version_ = {}, ::Il2CppObject* currentElement_ = {}) noexcept : q{q_}, index{index_}, version{version_}, currentElement{currentElement_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

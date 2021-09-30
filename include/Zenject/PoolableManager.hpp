@@ -62,8 +62,6 @@ namespace Zenject {
     bool isSpawned;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PoolableManager
-    PoolableManager(System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables_ = {}, bool isSpawned_ = {}) noexcept : poolables{poolables_}, isSpawned{isSpawned_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
     System::Collections::Generic::List_1<Zenject::IPoolable*>*& dyn__poolables();
     // Get instance field reference: private System.Boolean _isSpawned

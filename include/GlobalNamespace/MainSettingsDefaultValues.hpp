@@ -36,8 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsDefaultValues : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MainSettingsDefaultValues
-    MainSettingsDefaultValues() noexcept {}
     // static field const value: static public System.Single kDefaultRoomCenterX
     static constexpr const float kDefaultRoomCenterX = 0;
     // Get static field: static public System.Single kDefaultRoomCenterX

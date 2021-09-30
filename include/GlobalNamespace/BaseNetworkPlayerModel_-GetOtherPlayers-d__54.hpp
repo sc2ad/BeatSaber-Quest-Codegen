@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     int $$l__initialThreadId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $GetOtherPlayers$d__54
-    $GetOtherPlayers$d__54(int $$1__state_ = {}, GlobalNamespace::INetworkPlayer* $$2__current_ = {}, int $$l__initialThreadId_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>
     operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*>(this);

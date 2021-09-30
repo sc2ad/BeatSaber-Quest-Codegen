@@ -33,8 +33,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C08C
   class ExecutionEngineException : public System::SystemException {
     public:
-    // Creating value type constructor for type: ExecutionEngineException
-    ExecutionEngineException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19A781C
     // Implemented from: System.SystemException

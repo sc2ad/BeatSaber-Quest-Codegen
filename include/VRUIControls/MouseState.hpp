@@ -39,8 +39,6 @@ namespace VRUIControls {
     System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<VRUIControls::ButtonState*>*) == 0x8);
-    // Creating value type constructor for type: MouseState
-    MouseState(System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons_ = {}) noexcept : trackedButtons{trackedButtons_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*
     constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const noexcept {
       return trackedButtons;

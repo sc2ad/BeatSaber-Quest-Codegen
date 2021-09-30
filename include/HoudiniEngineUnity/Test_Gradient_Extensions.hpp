@@ -35,8 +35,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_Gradient_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_Gradient_Extensions
-    Test_Gradient_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_Gradient ToTestObject(UnityEngine.Gradient self)
     // Offset: 0x1708F50
     static HoudiniEngineUnity::Test_Gradient* ToTestObject(UnityEngine::Gradient* self);

@@ -23,8 +23,6 @@ namespace System::Threading {
   // [CompilerGeneratedAttribute] Offset: E5E9EC
   class OSSpecificSynchronizationContext::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Threading.OSSpecificSynchronizationContext/System.Threading.<>c <>9
     static System::Threading::OSSpecificSynchronizationContext::$$c* _get_$$9();
     // Set static field: static public readonly System.Threading.OSSpecificSynchronizationContext/System.Threading.<>c <>9

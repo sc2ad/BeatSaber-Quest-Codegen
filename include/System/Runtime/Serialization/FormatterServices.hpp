@@ -48,8 +48,6 @@ namespace System::Runtime::Serialization {
     public:
     // Nested type: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
-    // Creating value type constructor for type: FormatterServices
-    FormatterServices() noexcept {}
     // Get static field: static System.Collections.Concurrent.ConcurrentDictionary`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]> m_MemberInfoTable
     static System::Collections::Concurrent::ConcurrentDictionary_2<System::Runtime::Serialization::MemberHolder*, ::ArrayWrapper<System::Reflection::MemberInfo*>>* _get_m_MemberInfoTable();
     // Set static field: static System.Collections.Concurrent.ConcurrentDictionary`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]> m_MemberInfoTable

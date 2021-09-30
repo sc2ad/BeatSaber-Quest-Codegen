@@ -46,8 +46,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72654
   class Component : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: Component
-    Component() noexcept {}
     // public UnityEngine.Transform get_transform()
     // Offset: 0x1CB49B4
     UnityEngine::Transform* get_transform();

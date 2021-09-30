@@ -164,8 +164,6 @@ namespace System::Threading {
     System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>* localChangeNotifications;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>*) == 0x8);
-    // Creating value type constructor for type: ExecutionContext
-    ExecutionContext(System::Threading::SynchronizationContext* syncContext_ = {}, System::Threading::SynchronizationContext* syncContextNoFlow_ = {}, System::Runtime::Remoting::Messaging::LogicalCallContext* logicalCallContext_ = {}, System::Runtime::Remoting::Messaging::IllogicalCallContext* illogicalCallContext_ = {}, System::Threading::ExecutionContext::Flags flags_ = {}, System::Collections::Generic::Dictionary_2<System::Threading::IAsyncLocal*, ::Il2CppObject*>* localValues_ = {}, System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>* localChangeNotifications_ = {}) noexcept : syncContext{syncContext_}, syncContextNoFlow{syncContextNoFlow_}, logicalCallContext{logicalCallContext_}, illogicalCallContext{illogicalCallContext_}, flags{flags_}, localValues{localValues_}, localChangeNotifications{localChangeNotifications_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

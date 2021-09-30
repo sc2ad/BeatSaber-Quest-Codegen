@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 selectedAndHighlightedState;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Vector3TransitionSO
-    Vector3TransitionSO(UnityEngine::Vector3 normalState_ = {}, UnityEngine::Vector3 highlightedState_ = {}, UnityEngine::Vector3 pressedState_ = {}, UnityEngine::Vector3 disabledState_ = {}, UnityEngine::Vector3 selectedState_ = {}, UnityEngine::Vector3 selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
     // Get instance field reference: private UnityEngine.Vector3 _normalState
     UnityEngine::Vector3& dyn__normalState();
     // Get instance field reference: private UnityEngine.Vector3 _highlightedState

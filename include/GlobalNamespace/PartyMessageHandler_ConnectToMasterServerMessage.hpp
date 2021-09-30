@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     ::Il2CppString* secret;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ConnectToMasterServerMessage
-    ConnectToMasterServerMessage(::Il2CppString* secret_ = {}) noexcept : secret{secret_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

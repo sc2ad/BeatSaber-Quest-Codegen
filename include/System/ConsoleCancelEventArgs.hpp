@@ -34,8 +34,6 @@ namespace System {
     bool cancel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ConsoleCancelEventArgs
-    ConsoleCancelEventArgs(System::ConsoleSpecialKey type_ = {}, bool cancel_ = {}) noexcept : type{type_}, cancel{cancel_} {}
     // Get instance field reference: private System.ConsoleSpecialKey _type
     System::ConsoleSpecialKey& dyn__type();
     // Get instance field reference: private System.Boolean _cancel

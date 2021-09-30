@@ -94,8 +94,6 @@ namespace System::Runtime::Remoting::Lifetime {
     System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* renewalDelegate;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*) == 0x8);
-    // Creating value type constructor for type: Lease
-    Lease(System::DateTime leaseExpireTime_ = {}, System::Runtime::Remoting::Lifetime::LeaseState currentState_ = {}, System::TimeSpan initialLeaseTime_ = {}, System::TimeSpan renewOnCallTime_ = {}, System::TimeSpan sponsorshipTimeout_ = {}, System::Collections::ArrayList* sponsors_ = {}, System::Collections::Queue* renewingSponsors_ = {}, System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* renewalDelegate_ = {}) noexcept : leaseExpireTime{leaseExpireTime_}, currentState{currentState_}, initialLeaseTime{initialLeaseTime_}, renewOnCallTime{renewOnCallTime_}, sponsorshipTimeout{sponsorshipTimeout_}, sponsors{sponsors_}, renewingSponsors{renewingSponsors_}, renewalDelegate{renewalDelegate_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Lifetime::ILease
     operator System::Runtime::Remoting::Lifetime::ILease() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Lifetime::ILease*>(this);

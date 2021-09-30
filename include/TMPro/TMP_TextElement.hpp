@@ -59,8 +59,6 @@ namespace TMPro {
     float m_Scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TMP_TextElement
-    TMP_TextElement(TMPro::TextElementType m_ElementType_ = {}, uint m_Unicode_ = {}, UnityEngine::TextCore::Glyph* m_Glyph_ = {}, uint m_GlyphIndex_ = {}, float m_Scale_ = {}) noexcept : m_ElementType{m_ElementType_}, m_Unicode{m_Unicode_}, m_Glyph{m_Glyph_}, m_GlyphIndex{m_GlyphIndex_}, m_Scale{m_Scale_} {}
     // Get instance field reference: protected TMPro.TextElementType m_ElementType
     TMPro::TextElementType& dyn_m_ElementType();
     // Get instance field reference: private System.UInt32 m_Unicode

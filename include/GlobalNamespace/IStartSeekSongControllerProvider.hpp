@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IStartSeekSongControllerProvider {
     public:
-    // Creating value type constructor for type: IStartSeekSongControllerProvider
-    IStartSeekSongControllerProvider() noexcept {}
     // public IStartSeekSongController get_songController()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::IStartSeekSongController* get_songController();

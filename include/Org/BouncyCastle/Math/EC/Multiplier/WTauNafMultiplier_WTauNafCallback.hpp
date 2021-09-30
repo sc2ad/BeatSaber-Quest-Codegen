@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     int8_t m_a;
     // Field size check
     static_assert(sizeof(int8_t) == 0x1);
-    // Creating value type constructor for type: WTauNafCallback
-    WTauNafCallback(Org::BouncyCastle::Math::EC::AbstractF2mPoint* m_p_ = {}, int8_t m_a_ = {}) noexcept : m_p{m_p_}, m_a{m_a_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

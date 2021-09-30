@@ -31,8 +31,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestListener : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::ITestListener*/ {
     public:
-    // Creating value type constructor for type: TestListener
-    TestListener() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestListener
     operator NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);

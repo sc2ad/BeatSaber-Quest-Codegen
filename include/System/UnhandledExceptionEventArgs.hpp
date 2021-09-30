@@ -33,8 +33,6 @@ namespace System {
     bool IsTerminating;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnhandledExceptionEventArgs
-    UnhandledExceptionEventArgs(::Il2CppObject* Exception_ = {}, bool IsTerminating_ = {}) noexcept : Exception{Exception_}, IsTerminating{IsTerminating_} {}
     // Get instance field reference: private System.Object _Exception
     ::Il2CppObject*& dyn__Exception();
     // Get instance field reference: private System.Boolean _IsTerminating

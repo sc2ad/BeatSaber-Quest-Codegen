@@ -51,8 +51,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*) == 0x8);
-    // Creating value type constructor for type: GlvMultiplier
-    GlvMultiplier(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism_ = {}) noexcept : curve{curve_}, glvEndomorphism{glvEndomorphism_} {}
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECCurve curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism

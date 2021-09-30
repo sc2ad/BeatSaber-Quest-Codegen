@@ -52,8 +52,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* VoipGroup;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: NetSyncSession
-    NetSyncSession(int64_t ConnectionId_ = {}, bool Muted_ = {}, uint64_t SessionId_ = {}, uint64_t UserId_ = {}, ::Il2CppString* VoipGroup_ = {}) noexcept : ConnectionId{ConnectionId_}, Muted{Muted_}, SessionId{SessionId_}, UserId{UserId_}, VoipGroup{VoipGroup_} {}
     // Get instance field reference: public readonly System.Int64 ConnectionId
     int64_t& dyn_ConnectionId();
     // Get instance field reference: public readonly System.Boolean Muted

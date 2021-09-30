@@ -52,8 +52,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* TraceId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MatchmakingAdminSnapshotCandidate
-    MatchmakingAdminSnapshotCandidate(bool CanMatch_ = {}, double MyTotalScore_ = {}, double TheirCurrentThreshold_ = {}, double TheirTotalScore_ = {}, ::Il2CppString* TraceId_ = {}) noexcept : CanMatch{CanMatch_}, MyTotalScore{MyTotalScore_}, TheirCurrentThreshold{TheirCurrentThreshold_}, TheirTotalScore{TheirTotalScore_}, TraceId{TraceId_} {}
     // Get instance field reference: public readonly System.Boolean CanMatch
     bool& dyn_CanMatch();
     // Get instance field reference: public readonly System.Double MyTotalScore

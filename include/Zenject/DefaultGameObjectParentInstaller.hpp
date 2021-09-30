@@ -32,8 +32,6 @@ namespace Zenject {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DefaultGameObjectParentInstaller
-    DefaultGameObjectParentInstaller(::Il2CppString* name_ = {}) noexcept : name{name_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly System.String _name

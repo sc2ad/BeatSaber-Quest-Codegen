@@ -48,8 +48,6 @@ namespace System::Runtime::Remoting::Messaging {
   // [CLSCompliantAttribute] Offset: E6003C
   class ConstructionResponse : public System::Runtime::Remoting::Messaging::MethodResponse/*, public System::Runtime::Remoting::Activation::IConstructionReturnMessage*/ {
     public:
-    // Creating value type constructor for type: ConstructionResponse
-    ConstructionResponse() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IConstructionReturnMessage
     operator System::Runtime::Remoting::Activation::IConstructionReturnMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this);

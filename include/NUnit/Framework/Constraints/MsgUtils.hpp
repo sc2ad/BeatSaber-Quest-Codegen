@@ -61,8 +61,6 @@ namespace NUnit::Framework::Constraints {
     class $$c__DisplayClass14_9;
     // Nested type: NUnit::Framework::Constraints::MsgUtils::$$c
     class $$c;
-    // Creating value type constructor for type: MsgUtils
-    MsgUtils() noexcept {}
     // Get static field: static private readonly System.String Fmt_Null
     static ::Il2CppString* _get_Fmt_Null();
     // Set static field: static private readonly System.String Fmt_Null

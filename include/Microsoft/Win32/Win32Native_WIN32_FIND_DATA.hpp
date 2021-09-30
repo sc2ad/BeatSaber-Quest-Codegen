@@ -34,8 +34,6 @@ namespace Microsoft::Win32 {
     ::Il2CppString* cFileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: WIN32_FIND_DATA
-    WIN32_FIND_DATA(int dwFileAttributes_ = {}, ::Il2CppString* cFileName_ = {}) noexcept : dwFileAttributes{dwFileAttributes_}, cFileName{cFileName_} {}
     // Get instance field reference: System.Int32 dwFileAttributes
     int& dyn_dwFileAttributes();
     // Get instance field reference: System.String cFileName

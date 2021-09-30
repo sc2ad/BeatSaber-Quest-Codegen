@@ -54,8 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // Creating value type constructor for type: MockBeatmapLoader
-    MockBeatmapLoader(GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel_ = {}) noexcept : beatmapLevelsModel{beatmapLevelsModel_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IMockBeatmapDataProvider
     operator GlobalNamespace::IMockBeatmapDataProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockBeatmapDataProvider*>(this);

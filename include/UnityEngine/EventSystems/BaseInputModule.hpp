@@ -87,8 +87,6 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::BaseInput* m_DefaultInput;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseInput*) == 0x8);
-    // Creating value type constructor for type: BaseInputModule
-    BaseInputModule(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* m_RaycastResultCache_ = {}, UnityEngine::EventSystems::AxisEventData* m_AxisEventData_ = {}, UnityEngine::EventSystems::EventSystem* m_EventSystem_ = {}, UnityEngine::EventSystems::BaseEventData* m_BaseEventData_ = {}, UnityEngine::EventSystems::BaseInput* m_InputOverride_ = {}, UnityEngine::EventSystems::BaseInput* m_DefaultInput_ = {}) noexcept : m_RaycastResultCache{m_RaycastResultCache_}, m_AxisEventData{m_AxisEventData_}, m_EventSystem{m_EventSystem_}, m_BaseEventData{m_BaseEventData_}, m_InputOverride{m_InputOverride_}, m_DefaultInput{m_DefaultInput_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> m_RaycastResultCache

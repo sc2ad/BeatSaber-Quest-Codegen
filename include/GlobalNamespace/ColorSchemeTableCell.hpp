@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* editIcon;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // Creating value type constructor for type: ColorSchemeTableCell
-    ColorSchemeTableCell(TMPro::TextMeshProUGUI* text_ = {}, GlobalNamespace::ColorSchemeView* colorSchemeView_ = {}, UnityEngine::UI::Image* editIcon_ = {}) noexcept : text{text_}, colorSchemeView{colorSchemeView_}, editIcon{editIcon_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private ColorSchemeView _colorSchemeView

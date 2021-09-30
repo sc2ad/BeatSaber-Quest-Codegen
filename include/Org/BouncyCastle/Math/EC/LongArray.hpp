@@ -31,8 +31,6 @@ namespace Org::BouncyCastle::Math::EC {
     ::ArrayWrapper<int64_t> m_ints;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
-    // Creating value type constructor for type: LongArray
-    LongArray(::ArrayWrapper<int64_t> m_ints_ = {}) noexcept : m_ints{m_ints_} {}
     // Creating conversion operator: operator ::ArrayWrapper<int64_t>
     constexpr operator ::ArrayWrapper<int64_t>() const noexcept {
       return m_ints;

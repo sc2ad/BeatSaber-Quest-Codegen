@@ -34,8 +34,6 @@ namespace System::Security::Principal {
     System::Security::Principal::WindowsIdentity* identity;
     // Field size check
     static_assert(sizeof(System::Security::Principal::WindowsIdentity*) == 0x8);
-    // Creating value type constructor for type: WindowsPrincipal
-    WindowsPrincipal(System::Security::Principal::WindowsIdentity* identity_ = {}) noexcept : identity{identity_} {}
     // Creating conversion operator: operator System::Security::Principal::WindowsIdentity*
     constexpr operator System::Security::Principal::WindowsIdentity*() const noexcept {
       return identity;

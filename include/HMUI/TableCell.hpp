@@ -48,8 +48,6 @@ namespace HMUI {
     HMUI::ITableCellOwner* tableCellOwner;
     // Field size check
     static_assert(sizeof(HMUI::ITableCellOwner*) == 0x8);
-    // Creating value type constructor for type: TableCell
-    TableCell(int idx_ = {}, ::Il2CppString* reuseIdentifier_ = {}, HMUI::ITableCellOwner* tableCellOwner_ = {}) noexcept : idx{idx_}, reuseIdentifier{reuseIdentifier_}, tableCellOwner{tableCellOwner_} {}
     // Get instance field reference: private System.Int32 <idx>k__BackingField
     int& dyn_$idx$k__BackingField();
     // Get instance field reference: private System.String _reuseIdentifier

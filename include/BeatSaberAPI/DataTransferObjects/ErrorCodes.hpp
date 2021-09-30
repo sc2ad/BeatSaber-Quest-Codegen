@@ -21,8 +21,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class ErrorCodes : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ErrorCodes
-    ErrorCodes() noexcept {}
     // static field const value: static public System.String kUserVerificationError
     static constexpr const char* kUserVerificationError = "USER_VERIFICATION_ERROR";
     // Get static field: static public System.String kUserVerificationError

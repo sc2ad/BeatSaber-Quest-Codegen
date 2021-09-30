@@ -46,8 +46,6 @@ namespace Zenject::Internal {
     System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* Parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
-    // Creating value type constructor for type: InjectConstructorInfo
-    InjectConstructorInfo(System::Reflection::ConstructorInfo* ConstructorInfo_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* Parameters_ = {}) noexcept : ConstructorInfo{ConstructorInfo_}, Parameters{Parameters_} {}
     // Get instance field reference: public readonly System.Reflection.ConstructorInfo ConstructorInfo
     System::Reflection::ConstructorInfo*& dyn_ConstructorInfo();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters

@@ -37,8 +37,6 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* m_ReleaseNotes;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ChangelogEntry
-    ChangelogEntry(UnityEngine::ProBuilder::SemVer* m_VersionInfo_ = {}, ::Il2CppString* m_ReleaseNotes_ = {}) noexcept : m_VersionInfo{m_VersionInfo_}, m_ReleaseNotes{m_ReleaseNotes_} {}
     // Get instance field reference: private UnityEngine.ProBuilder.SemVer m_VersionInfo
     UnityEngine::ProBuilder::SemVer*& dyn_m_VersionInfo();
     // Get instance field reference: private System.String m_ReleaseNotes

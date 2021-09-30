@@ -22,8 +22,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C764
   class STAThreadAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: STAThreadAttribute
-    STAThreadAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A681AC
     // Implemented from: System.Attribute

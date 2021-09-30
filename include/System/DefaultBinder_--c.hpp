@@ -31,8 +31,6 @@ namespace System {
   // [CompilerGeneratedAttribute] Offset: E5BF64
   class DefaultBinder::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.DefaultBinder/System.<>c <>9
     static System::DefaultBinder::$$c* _get_$$9();
     // Set static field: static public readonly System.DefaultBinder/System.<>c <>9

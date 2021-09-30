@@ -65,8 +65,6 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayer* selectedNetworkPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
-    // Creating value type constructor for type: ServerPasswordEntryViewController
-    ServerPasswordEntryViewController(HMUI::InputFieldView* passwordInput_ = {}, HMUI::UIKeyboard* uiKeyboard_ = {}, System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* didFinishEvent_ = {}, GlobalNamespace::INetworkPlayer* selectedNetworkPlayer_ = {}) noexcept : passwordInput{passwordInput_}, uiKeyboard{uiKeyboard_}, didFinishEvent{didFinishEvent_}, selectedNetworkPlayer{selectedNetworkPlayer_} {}
     // Get instance field reference: private HMUI.InputFieldView _passwordInput
     HMUI::InputFieldView*& dyn__passwordInput();
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard

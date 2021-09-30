@@ -49,8 +49,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass5_0;
     // Nested type: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0
     class $$c__DisplayClass10_0;
-    // Creating value type constructor for type: MeshValidation
-    MeshValidation() noexcept {}
     // static public System.Boolean ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x18FA1EC
     static bool ContainsDegenerateTriangles(UnityEngine::ProBuilder::ProBuilderMesh* mesh);

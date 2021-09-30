@@ -22,8 +22,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorage2 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CloudStorage2
-    CloudStorage2() noexcept {}
     // static public Oculus.Platform.Request`1<System.String> GetUserDirectoryPath()
     // Offset: 0x16AB458
     static Oculus::Platform::Request_1<::Il2CppString*>* GetUserDirectoryPath();

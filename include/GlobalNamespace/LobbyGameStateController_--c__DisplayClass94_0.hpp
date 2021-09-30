@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* getPlayerPermissionAsyncTcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass94_0
-    $$c__DisplayClass94_0(GlobalNamespace::LobbyGameStateController* $$4__this_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::MultiplayerGameState>* getGameStateAsyncTcs_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* getPlayerPermissionAsyncTcs_ = {}) noexcept : $$4__this{$$4__this_}, getGameStateAsyncTcs{getGameStateAsyncTcs_}, getPlayerPermissionAsyncTcs{getPlayerPermissionAsyncTcs_} {}
     // Get instance field reference: public LobbyGameStateController <>4__this
     GlobalNamespace::LobbyGameStateController*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs

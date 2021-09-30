@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreSpawner::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreSpawner::InitData*) == 0x8);
-    // Creating value type constructor for type: FlyingScoreSpawner
-    FlyingScoreSpawner(GlobalNamespace::FlyingScoreEffect::Pool* flyingScoreEffectPool_ = {}, GlobalNamespace::FlyingScoreSpawner::InitData* initData_ = {}) noexcept : flyingScoreEffectPool{flyingScoreEffectPool_}, initData{initData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent
     operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);

@@ -34,8 +34,6 @@ namespace Oculus::Platform {
     typename Oculus::Platform::Message_1<T>::Callback* callback;
     // Field size check
     static_assert(sizeof(typename Oculus::Platform::Message_1<T>::Callback*) == 0x8);
-    // Creating value type constructor for type: Request_1
-    Request_1(typename Oculus::Platform::Message_1<T>::Callback* callback_ = {}) noexcept : callback{callback_} {}
     // Creating conversion operator: operator typename Oculus::Platform::Message_1<T>::Callback*
     constexpr operator typename Oculus::Platform::Message_1<T>::Callback*() const noexcept {
       return callback;

@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatEffect::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatEffect*> {
     public:
-    // Creating value type constructor for type: Pool
-    Pool() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x126E04C
     // Implemented from: Zenject.MonoMemoryPool`1

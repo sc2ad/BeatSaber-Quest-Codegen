@@ -32,8 +32,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F8F0
   class SerializationException : public System::SystemException {
     public:
-    // Creating value type constructor for type: SerializationException
-    SerializationException() noexcept {}
     // Get static field: static private System.String _nullMessage
     static ::Il2CppString* _get__nullMessage();
     // Set static field: static private System.String _nullMessage

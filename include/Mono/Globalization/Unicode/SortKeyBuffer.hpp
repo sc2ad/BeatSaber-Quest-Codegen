@@ -159,8 +159,6 @@ namespace Mono::Globalization::Unicode {
     bool frenchSorted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SortKeyBuffer
-    SortKeyBuffer(::ArrayWrapper<uint8_t> l1b_ = {}, ::ArrayWrapper<uint8_t> l2b_ = {}, ::ArrayWrapper<uint8_t> l3b_ = {}, ::ArrayWrapper<uint8_t> l4sb_ = {}, ::ArrayWrapper<uint8_t> l4tb_ = {}, ::ArrayWrapper<uint8_t> l4kb_ = {}, ::ArrayWrapper<uint8_t> l4wb_ = {}, ::ArrayWrapper<uint8_t> l5b_ = {}, ::Il2CppString* source_ = {}, int l1_ = {}, int l2_ = {}, int l3_ = {}, int l4s_ = {}, int l4t_ = {}, int l4k_ = {}, int l4w_ = {}, int l5_ = {}, int lcid_ = {}, System::Globalization::CompareOptions options_ = {}, bool processLevel2_ = {}, bool frenchSort_ = {}, bool frenchSorted_ = {}) noexcept : l1b{l1b_}, l2b{l2b_}, l3b{l3b_}, l4sb{l4sb_}, l4tb{l4tb_}, l4kb{l4kb_}, l4wb{l4wb_}, l5b{l5b_}, source{source_}, l1{l1_}, l2{l2_}, l3{l3_}, l4s{l4s_}, l4t{l4t_}, l4k{l4k_}, l4w{l4w_}, l5{l5_}, lcid{lcid_}, options{options_}, processLevel2{processLevel2_}, frenchSort{frenchSort_}, frenchSorted{frenchSorted_} {}
     // Get instance field reference: private System.Byte[] l1b
     ::ArrayWrapper<uint8_t>& dyn_l1b();
     // Get instance field reference: private System.Byte[] l2b

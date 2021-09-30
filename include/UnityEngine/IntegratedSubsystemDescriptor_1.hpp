@@ -30,8 +30,6 @@ namespace UnityEngine {
   template<typename TSubsystem>
   class IntegratedSubsystemDescriptor_1 : public UnityEngine::IntegratedSubsystemDescriptor {
     public:
-    // Creating value type constructor for type: IntegratedSubsystemDescriptor_1
-    IntegratedSubsystemDescriptor_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor

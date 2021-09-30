@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::Misc {
   // [TokenAttribute] Offset: FFFFFFFF
   class MiscObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MiscObjectIdentifiers
-    MiscObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier Netscape
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_Netscape();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier Netscape

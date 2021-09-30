@@ -100,8 +100,6 @@ namespace GlobalNamespace {
     int referenceValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MissionObjective
-    MissionObjective(GlobalNamespace::MissionObjectiveTypeSO* type_ = {}, GlobalNamespace::MissionObjective::ReferenceValueComparisonType referenceValueComparisonType_ = {}, int referenceValue_ = {}) noexcept : type{type_}, referenceValueComparisonType{referenceValueComparisonType_}, referenceValue{referenceValue_} {}
     // Get instance field reference: private MissionObjectiveTypeSO _type
     GlobalNamespace::MissionObjectiveTypeSO*& dyn__type();
     // Get instance field reference: private MissionObjective/ReferenceValueComparisonType _referenceValueComparisonType

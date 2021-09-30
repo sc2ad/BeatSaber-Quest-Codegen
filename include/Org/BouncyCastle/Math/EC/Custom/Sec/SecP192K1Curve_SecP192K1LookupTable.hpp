@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     int m_size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SecP192K1LookupTable
-    SecP192K1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Curve* m_outer_ = {}, ::ArrayWrapper<uint> m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve m_outer
     Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Curve*& dyn_m_outer();
     // Get instance field reference: private readonly System.UInt32[] m_table

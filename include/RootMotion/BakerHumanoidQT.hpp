@@ -145,8 +145,6 @@ namespace RootMotion {
     bool lastQSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BakerHumanoidQT
-    BakerHumanoidQT(UnityEngine::Transform* transform_ = {}, ::Il2CppString* Qx_ = {}, ::Il2CppString* Qy_ = {}, ::Il2CppString* Qz_ = {}, ::Il2CppString* Qw_ = {}, ::Il2CppString* Tx_ = {}, ::Il2CppString* Ty_ = {}, ::Il2CppString* Tz_ = {}, UnityEngine::AnimationCurve* rotX_ = {}, UnityEngine::AnimationCurve* rotY_ = {}, UnityEngine::AnimationCurve* rotZ_ = {}, UnityEngine::AnimationCurve* rotW_ = {}, UnityEngine::AnimationCurve* posX_ = {}, UnityEngine::AnimationCurve* posY_ = {}, UnityEngine::AnimationCurve* posZ_ = {}, UnityEngine::AvatarIKGoal goal_ = {}, UnityEngine::Quaternion lastQ_ = {}, bool lastQSet_ = {}) noexcept : transform{transform_}, Qx{Qx_}, Qy{Qy_}, Qz{Qz_}, Qw{Qw_}, Tx{Tx_}, Ty{Ty_}, Tz{Tz_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, posX{posX_}, posY{posY_}, posZ{posZ_}, goal{goal_}, lastQ{lastQ_}, lastQSet{lastQSet_} {}
     // Get instance field reference: private UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: private System.String Qx

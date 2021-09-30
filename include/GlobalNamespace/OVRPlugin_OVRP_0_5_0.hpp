@@ -23,8 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::OVRP_0_5_0 : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRP_0_5_0
-    OVRP_0_5_0() noexcept {}
     // Get static field: static public readonly System.Version version
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version

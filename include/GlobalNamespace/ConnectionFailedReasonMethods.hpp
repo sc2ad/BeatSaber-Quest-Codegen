@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ConnectionFailedReasonMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConnectionFailedReasonMethods
-    ConnectionFailedReasonMethods() noexcept {}
     // [LocalizationKeyAttribute] Offset: 0xF02C7C
     // static field const value: static private System.String kConnectionFailedUnknown
     static constexpr const char* kConnectionFailedUnknown = "SERVER_CONNECTION_FAILED_TRY_AGAIN";

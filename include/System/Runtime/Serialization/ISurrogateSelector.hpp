@@ -28,8 +28,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F734
   class ISurrogateSelector {
     public:
-    // Creating value type constructor for type: ISurrogateSelector
-    ISurrogateSelector() noexcept {}
     // public System.Runtime.Serialization.ISerializationSurrogate GetSurrogate(System.Type type, System.Runtime.Serialization.StreamingContext context, out System.Runtime.Serialization.ISurrogateSelector selector)
     // Offset: 0xFFFFFFFF
     System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(System::Type* type, System::Runtime::Serialization::StreamingContext context, ByRef<System::Runtime::Serialization::ISurrogateSelector*> selector);

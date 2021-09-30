@@ -21,8 +21,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E724F8
   class HideInInspector : public System::Attribute {
     public:
-    // Creating value type constructor for type: HideInInspector
-    HideInInspector() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1D9DC08
     // Implemented from: System.Attribute

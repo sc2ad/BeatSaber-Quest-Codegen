@@ -134,8 +134,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Rigidbody* characterRootRigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // Creating value type constructor for type: GrounderIK
-    GrounderIK(::ArrayWrapper<RootMotion::FinalIK::IK*> legs_ = {}, UnityEngine::Transform* pelvis_ = {}, UnityEngine::Transform* characterRoot_ = {}, float rootRotationWeight_ = {}, float rootRotationSpeed_ = {}, float maxRootRotationAngle_ = {}, ::ArrayWrapper<UnityEngine::Transform*> feet_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> footRotations_ = {}, UnityEngine::Vector3 animatedPelvisLocalPosition_ = {}, UnityEngine::Vector3 solvedPelvisLocalPosition_ = {}, int solvedFeet_ = {}, bool solved_ = {}, float lastWeight_ = {}, UnityEngine::Rigidbody* characterRootRigidbody_ = {}) noexcept : legs{legs_}, pelvis{pelvis_}, characterRoot{characterRoot_}, rootRotationWeight{rootRotationWeight_}, rootRotationSpeed{rootRotationSpeed_}, maxRootRotationAngle{maxRootRotationAngle_}, feet{feet_}, footRotations{footRotations_}, animatedPelvisLocalPosition{animatedPelvisLocalPosition_}, solvedPelvisLocalPosition{solvedPelvisLocalPosition_}, solvedFeet{solvedFeet_}, solved{solved_}, lastWeight{lastWeight_}, characterRootRigidbody{characterRootRigidbody_} {}
     // Get instance field reference: public RootMotion.FinalIK.IK[] legs
     ::ArrayWrapper<RootMotion::FinalIK::IK*>& dyn_legs();
     // Get instance field reference: public UnityEngine.Transform pelvis

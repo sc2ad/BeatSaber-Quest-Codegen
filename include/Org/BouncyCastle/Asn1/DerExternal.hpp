@@ -71,8 +71,6 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1Object* externalContent;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
-    // Creating value type constructor for type: DerExternal
-    DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference_ = {}, Org::BouncyCastle::Asn1::DerInteger* indirectReference_ = {}, Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor_ = {}, int encoding_ = {}, Org::BouncyCastle::Asn1::Asn1Object* externalContent_ = {}) noexcept : directReference{directReference_}, indirectReference{indirectReference_}, dataValueDescriptor{dataValueDescriptor_}, encoding{encoding_}, externalContent{externalContent_} {}
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_directReference();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerInteger indirectReference

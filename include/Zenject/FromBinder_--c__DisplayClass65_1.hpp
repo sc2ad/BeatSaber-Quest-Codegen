@@ -75,8 +75,6 @@ namespace Zenject {
     System::Func_2<UnityEngine::GameObject*, UnityEngine::Component*>* $$9__2;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::GameObject*, UnityEngine::Component*>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass65_1
-    $$c__DisplayClass65_1(Zenject::DiContainer* container_ = {}, System::Type* concreteType_ = {}, Zenject::FromBinder::$$c__DisplayClass65_0* CS$$$8__locals1_ = {}, System::Func_2<UnityEngine::GameObject*, UnityEngine::Component*>* $$9__2_ = {}) noexcept : container{container_}, concreteType{concreteType_}, CS$$$8__locals1{CS$$$8__locals1_}, $$9__2{$$9__2_} {}
     // Get instance field reference: public Zenject.DiContainer container
     Zenject::DiContainer*& dyn_container();
     // Get instance field reference: public System.Type concreteType

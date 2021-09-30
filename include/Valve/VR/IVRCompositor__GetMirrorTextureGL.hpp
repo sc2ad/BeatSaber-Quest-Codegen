@@ -39,8 +39,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5C7C
   class IVRCompositor::_GetMirrorTextureGL : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetMirrorTextureGL
-    _GetMirrorTextureGL() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21ADE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

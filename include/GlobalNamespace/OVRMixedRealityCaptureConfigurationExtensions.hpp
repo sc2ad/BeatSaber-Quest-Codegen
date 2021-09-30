@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class OVRMixedRealityCaptureConfigurationExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRMixedRealityCaptureConfigurationExtensions
-    OVRMixedRealityCaptureConfigurationExtensions() noexcept {}
     // static public System.Void ApplyTo(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
     // Offset: 0x1462738
     static void ApplyTo(GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);

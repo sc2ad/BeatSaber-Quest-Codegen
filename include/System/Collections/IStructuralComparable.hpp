@@ -23,8 +23,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class IStructuralComparable {
     public:
-    // Creating value type constructor for type: IStructuralComparable
-    IStructuralComparable() noexcept {}
     // public System.Int32 CompareTo(System.Object other, System.Collections.IComparer comparer)
     // Offset: 0xFFFFFFFF
     int CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);

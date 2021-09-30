@@ -21,8 +21,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputFieldView::InputFieldChanged : public UnityEngine::Events::UnityEvent_1<HMUI::InputFieldView*> {
     public:
-    // Creating value type constructor for type: InputFieldChanged
-    InputFieldChanged() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x14108E8
     // Implemented from: UnityEngine.Events.UnityEvent`1

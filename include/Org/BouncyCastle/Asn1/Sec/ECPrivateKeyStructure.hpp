@@ -42,8 +42,6 @@ namespace Org::BouncyCastle::Asn1::Sec {
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
-    // Creating value type constructor for type: ECPrivateKeyStructure
-    ECPrivateKeyStructure(Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}) noexcept : seq{seq_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::Asn1Sequence*
     constexpr operator Org::BouncyCastle::Asn1::Asn1Sequence*() const noexcept {
       return seq;

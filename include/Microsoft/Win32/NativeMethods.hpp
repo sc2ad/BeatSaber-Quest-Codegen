@@ -35,8 +35,6 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class NativeMethods : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NativeMethods
-    NativeMethods() noexcept {}
     // static public System.Boolean DuplicateHandle(System.Runtime.InteropServices.HandleRef hSourceProcessHandle, System.Runtime.InteropServices.SafeHandle hSourceHandle, System.Runtime.InteropServices.HandleRef hTargetProcess, out Microsoft.Win32.SafeHandles.SafeWaitHandle targetHandle, System.Int32 dwDesiredAccess, System.Boolean bInheritHandle, System.Int32 dwOptions)
     // Offset: 0x17B534C
     static bool DuplicateHandle(System::Runtime::InteropServices::HandleRef hSourceProcessHandle, System::Runtime::InteropServices::SafeHandle* hSourceHandle, System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<Microsoft::Win32::SafeHandles::SafeWaitHandle*> targetHandle, int dwDesiredAccess, bool bInheritHandle, int dwOptions);

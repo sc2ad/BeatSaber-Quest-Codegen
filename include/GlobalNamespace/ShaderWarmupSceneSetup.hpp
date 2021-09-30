@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeSO* sharedWarmupColorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // Creating value type constructor for type: ShaderWarmupSceneSetup
-    ShaderWarmupSceneSetup(GlobalNamespace::ColorSchemeSO* sharedWarmupColorScheme_ = {}) noexcept : sharedWarmupColorScheme{sharedWarmupColorScheme_} {}
     // Get instance field reference: private ColorSchemeSO _sharedWarmupColorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__sharedWarmupColorScheme();
     // public System.Void .ctor()

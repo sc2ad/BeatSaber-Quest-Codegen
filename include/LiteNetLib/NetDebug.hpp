@@ -24,8 +24,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetDebug : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetDebug
-    NetDebug() noexcept {}
     // Get static field: static public LiteNetLib.INetLogger Logger
     static LiteNetLib::INetLogger* _get_Logger();
     // Set static field: static public LiteNetLib.INetLogger Logger

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB5D08
   class IVRCompositor::_SubmitExplicitTimingData : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SubmitExplicitTimingData
-    _SubmitExplicitTimingData() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21B128C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

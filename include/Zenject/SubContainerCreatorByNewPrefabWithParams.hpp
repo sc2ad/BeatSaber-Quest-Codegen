@@ -71,8 +71,6 @@ namespace Zenject {
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
-    // Creating value type constructor for type: SubContainerCreatorByNewPrefabWithParams
-    SubContainerCreatorByNewPrefabWithParams(Zenject::DiContainer* container_ = {}, Zenject::IPrefabProvider* prefabProvider_ = {}, System::Type* installerType_ = {}, Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}) noexcept : container{container_}, prefabProvider{prefabProvider_}, installerType{installerType_}, gameObjectBindInfo{gameObjectBindInfo_} {}
     // Creating interface conversion operator: operator Zenject::ISubContainerCreator
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);

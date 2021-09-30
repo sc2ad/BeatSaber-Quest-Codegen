@@ -39,8 +39,6 @@ namespace Zenject {
     int Priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RenderableInfo
-    RenderableInfo(Zenject::IGuiRenderable* Renderable_ = {}, int Priority_ = {}) noexcept : Renderable{Renderable_}, Priority{Priority_} {}
     // Get instance field reference: public Zenject.IGuiRenderable Renderable
     Zenject::IGuiRenderable*& dyn_Renderable();
     // Get instance field reference: public System.Int32 Priority

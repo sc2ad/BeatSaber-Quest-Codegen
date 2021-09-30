@@ -42,8 +42,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E952E4
   class Physics2D : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Physics2D
-    Physics2D() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> m_LastDisabledRigidbody2D
     static System::Collections::Generic::List_1<UnityEngine::Rigidbody2D*>* _get_m_LastDisabledRigidbody2D();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> m_LastDisabledRigidbody2D

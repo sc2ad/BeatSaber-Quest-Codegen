@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     ::Il2CppString* currentShownKeyword;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ResultsEnvironmentManager
-    ResultsEnvironmentManager(::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*> resultEnvironmentControllersWithKeyword_ = {}, ::Il2CppString* currentShownKeyword_ = {}) noexcept : resultEnvironmentControllersWithKeyword{resultEnvironmentControllersWithKeyword_}, currentShownKeyword{currentShownKeyword_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword

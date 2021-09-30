@@ -32,8 +32,6 @@ namespace System::Net::Sockets {
     int lingerTime;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LingerOption
-    LingerOption(bool enabled_ = {}, int lingerTime_ = {}) noexcept : enabled{enabled_}, lingerTime{lingerTime_} {}
     // Get instance field reference: private System.Boolean enabled
     bool& dyn_enabled();
     // Get instance field reference: private System.Int32 lingerTime

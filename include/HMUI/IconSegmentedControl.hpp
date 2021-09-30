@@ -115,8 +115,6 @@ namespace HMUI {
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IconSegmentedControl
-    IconSegmentedControl(float iconSize_ = {}, bool overrideCellSize_ = {}, float padding_ = {}, bool hideCellBackground_ = {}, HMUI::IconSegmentedControlCell* firstCellPrefab_ = {}, HMUI::IconSegmentedControlCell* lastCellPrefab_ = {}, HMUI::IconSegmentedControlCell* middleCellPrefab_ = {}, HMUI::IconSegmentedControlCell* singleCellPrefab_ = {}, Zenject::DiContainer* container_ = {}, ::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*> dataItems_ = {}, bool isInitialized_ = {}) noexcept : iconSize{iconSize_}, overrideCellSize{overrideCellSize_}, padding{padding_}, hideCellBackground{hideCellBackground_}, firstCellPrefab{firstCellPrefab_}, lastCellPrefab{lastCellPrefab_}, middleCellPrefab{middleCellPrefab_}, singleCellPrefab{singleCellPrefab_}, container{container_}, dataItems{dataItems_}, isInitialized{isInitialized_} {}
     // Creating interface conversion operator: operator HMUI::SegmentedControl::IDataSource
     operator HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);

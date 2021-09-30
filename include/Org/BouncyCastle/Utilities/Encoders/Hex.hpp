@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hex : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Hex
-    Hex() noexcept {}
     // Get static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
     static Org::BouncyCastle::Utilities::Encoders::HexEncoder* _get_encoder();
     // Set static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder

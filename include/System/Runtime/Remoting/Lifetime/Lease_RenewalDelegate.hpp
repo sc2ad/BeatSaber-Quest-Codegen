@@ -38,8 +38,6 @@ namespace System::Runtime::Remoting::Lifetime {
   // [TokenAttribute] Offset: FFFFFFFF
   class Lease::RenewalDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: RenewalDelegate
-    RenewalDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1C10088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

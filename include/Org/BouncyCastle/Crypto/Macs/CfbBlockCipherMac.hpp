@@ -77,8 +77,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     int macSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CfbBlockCipherMac
-    CfbBlockCipherMac(::ArrayWrapper<uint8_t> mac_ = {}, ::ArrayWrapper<uint8_t> Buffer_ = {}, int bufOff_ = {}, Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher* cipher_ = {}, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding_ = {}, int macSize_ = {}) noexcept : mac{mac_}, Buffer{Buffer_}, bufOff{bufOff_}, cipher{cipher_}, padding{padding_}, macSize{macSize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

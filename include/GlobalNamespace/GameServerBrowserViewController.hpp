@@ -84,8 +84,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* smallLoadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // Creating value type constructor for type: GameServerBrowserViewController
-    GameServerBrowserViewController(UnityEngine::UI::Button* filterServersButton_ = {}, GlobalNamespace::GameServersFilterText* filterText_ = {}, UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle_ = {}, UnityEngine::UI::Button* createServerButton_ = {}, GlobalNamespace::GameServersListTableView* gameServersListTableView_ = {}, GlobalNamespace::LoadingControl* mainLoadingControl_ = {}, GlobalNamespace::LoadingControl* smallLoadingControl_ = {}) noexcept : filterServersButton{filterServersButton_}, filterText{filterText_}, canBeInvitedOnLocalNetworkToggle{canBeInvitedOnLocalNetworkToggle_}, createServerButton{createServerButton_}, gameServersListTableView{gameServersListTableView_}, mainLoadingControl{mainLoadingControl_}, smallLoadingControl{smallLoadingControl_} {}
     // Get instance field reference: private UnityEngine.UI.Button _filterServersButton
     UnityEngine::UI::Button*& dyn__filterServersButton();
     // Get instance field reference: private GameServersFilterText _filterText

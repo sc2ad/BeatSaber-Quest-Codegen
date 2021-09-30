@@ -104,8 +104,6 @@ namespace GlobalNamespace {
     bool isDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OculusPlatformAdditionalContentModel
-    OculusPlatformAdditionalContentModel(GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* entitlementsSKU_ = {}, System::Threading::SemaphoreSlim* semaphoreSlim_ = {}, bool isDataValid_ = {}) noexcept : oculusLevelProductsModel{oculusLevelProductsModel_}, entitlementsSKU{entitlementsSKU_}, semaphoreSlim{semaphoreSlim_}, isDataValid{isDataValid_} {}
     // Get instance field reference: private OculusLevelProductsModelSO _oculusLevelProductsModel
     GlobalNamespace::OculusLevelProductsModelSO*& dyn__oculusLevelProductsModel();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _entitlementsSKU

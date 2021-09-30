@@ -43,8 +43,6 @@ namespace NUnit::Framework::Internal {
     int maxLineLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TextMessageWriter
-    TextMessageWriter(int maxLineLength_ = {}) noexcept : maxLineLength{maxLineLength_} {}
     // Get static field: static private readonly System.Int32 DEFAULT_LINE_LENGTH
     static int _get_DEFAULT_LINE_LENGTH();
     // Set static field: static private readonly System.Int32 DEFAULT_LINE_LENGTH

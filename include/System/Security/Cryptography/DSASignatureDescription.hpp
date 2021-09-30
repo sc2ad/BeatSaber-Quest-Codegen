@@ -20,8 +20,6 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class DSASignatureDescription : public System::Security::Cryptography::SignatureDescription {
     public:
-    // Creating value type constructor for type: DSASignatureDescription
-    DSASignatureDescription() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A6E884
     // Implemented from: System.Security.Cryptography.SignatureDescription

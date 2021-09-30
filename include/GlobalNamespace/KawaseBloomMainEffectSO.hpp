@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* mainEffectMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: KawaseBloomMainEffectSO
-    KawaseBloomMainEffectSO(GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, UnityEngine::Shader* fadeShader_ = {}, UnityEngine::Shader* mainEffectShader_ = {}, float bloomIntensity_ = {}, int bloomIterations_ = {}, float bloomBoost_ = {}, float bloomAlphaWeights_ = {}, int bloomTextureWidth_ = {}, float baseColorBoost_ = {}, float baseColorBoostThreshold_ = {}, UnityEngine::Material* fadeMaterial_ = {}, UnityEngine::Material* mainEffectMaterial_ = {}) noexcept : kawaseBlurRenderer{kawaseBlurRenderer_}, fadeShader{fadeShader_}, mainEffectShader{mainEffectShader_}, bloomIntensity{bloomIntensity_}, bloomIterations{bloomIterations_}, bloomBoost{bloomBoost_}, bloomAlphaWeights{bloomAlphaWeights_}, bloomTextureWidth{bloomTextureWidth_}, baseColorBoost{baseColorBoost_}, baseColorBoostThreshold{baseColorBoostThreshold_}, fadeMaterial{fadeMaterial_}, mainEffectMaterial{mainEffectMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB7F0

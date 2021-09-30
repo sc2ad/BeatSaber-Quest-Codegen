@@ -67,8 +67,6 @@ namespace HMUI {
     HMUI::TimeSlider::TimeType timeType;
     // Field size check
     static_assert(sizeof(HMUI::TimeSlider::TimeType) == 0x4);
-    // Creating value type constructor for type: TimeSlider
-    TimeSlider(HMUI::TimeSlider::TimeType timeType_ = {}) noexcept : timeType{timeType_} {}
     // Get instance field reference: private HMUI.TimeSlider/HMUI.TimeType _timeType
     HMUI::TimeSlider::TimeType& dyn__timeType();
     // public System.Void .ctor()

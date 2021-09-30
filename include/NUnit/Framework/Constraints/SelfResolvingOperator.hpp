@@ -16,8 +16,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelfResolvingOperator : public NUnit::Framework::Constraints::ConstraintOperator {
     public:
-    // Creating value type constructor for type: SelfResolvingOperator
-    SelfResolvingOperator() noexcept {}
   }; // NUnit.Framework.Constraints.SelfResolvingOperator
   #pragma pack(pop)
 }

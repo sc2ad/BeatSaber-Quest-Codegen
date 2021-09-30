@@ -169,8 +169,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 transformPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Leg
-    Leg(bool isGrounded_ = {}, UnityEngine::Vector3 IKPosition_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, bool initiated_ = {}, float heightFromGround_ = {}, UnityEngine::Vector3 velocity_ = {}, UnityEngine::Transform* transform_ = {}, float IKOffset_ = {}, bool invertFootCenter_ = {}, UnityEngine::RaycastHit heelHit_ = {}, UnityEngine::RaycastHit capsuleHit_ = {}, RootMotion::FinalIK::Grounding* grounding_ = {}, float lastTime_ = {}, float deltaTime_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Quaternion toHitNormal_ = {}, UnityEngine::Quaternion r_ = {}, UnityEngine::Vector3 up_ = {}, bool doOverrideFootPosition_ = {}, UnityEngine::Vector3 overrideFootPosition_ = {}, UnityEngine::Vector3 transformPosition_ = {}) noexcept : isGrounded{isGrounded_}, IKPosition{IKPosition_}, rotationOffset{rotationOffset_}, initiated{initiated_}, heightFromGround{heightFromGround_}, velocity{velocity_}, transform{transform_}, IKOffset{IKOffset_}, invertFootCenter{invertFootCenter_}, heelHit{heelHit_}, capsuleHit{capsuleHit_}, grounding{grounding_}, lastTime{lastTime_}, deltaTime{deltaTime_}, lastPosition{lastPosition_}, toHitNormal{toHitNormal_}, r{r_}, up{up_}, doOverrideFootPosition{doOverrideFootPosition_}, overrideFootPosition{overrideFootPosition_}, transformPosition{transformPosition_} {}
     // Get instance field reference: private System.Boolean <isGrounded>k__BackingField
     bool& dyn_$isGrounded$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <IKPosition>k__BackingField

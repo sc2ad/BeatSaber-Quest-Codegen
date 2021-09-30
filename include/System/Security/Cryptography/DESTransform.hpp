@@ -45,8 +45,6 @@ namespace System::Security::Cryptography {
     ::ArrayWrapper<uint> dwordBuff;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating value type constructor for type: DESTransform
-    DESTransform(::ArrayWrapper<uint8_t> keySchedule_ = {}, ::ArrayWrapper<uint8_t> byteBuff_ = {}, ::ArrayWrapper<uint> dwordBuff_ = {}) noexcept : keySchedule{keySchedule_}, byteBuff{byteBuff_}, dwordBuff{dwordBuff_} {}
     // Get static field: static readonly System.Int32 KEY_BIT_SIZE
     static int _get_KEY_BIT_SIZE();
     // Set static field: static readonly System.Int32 KEY_BIT_SIZE

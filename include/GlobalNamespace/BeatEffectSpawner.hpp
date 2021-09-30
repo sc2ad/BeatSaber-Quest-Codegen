@@ -100,8 +100,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>* beatEffectPoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>*) == 0x8);
-    // Creating value type constructor for type: BeatEffectSpawner
-    BeatEffectSpawner(float effectDuration_ = {}, UnityEngine::Color bombColorEffect_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::BeatEffectSpawner::InitData* initData_ = {}, GlobalNamespace::SongController* songController_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>* beatEffectPoolContainer_ = {}) noexcept : effectDuration{effectDuration_}, bombColorEffect{bombColorEffect_}, colorManager{colorManager_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_}, songController{songController_}, beatEffectPoolContainer{beatEffectPoolContainer_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatEffectDidFinishEvent
     operator GlobalNamespace::IBeatEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatEffectDidFinishEvent*>(this);

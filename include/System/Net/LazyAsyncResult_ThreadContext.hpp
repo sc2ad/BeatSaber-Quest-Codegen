@@ -26,8 +26,6 @@ namespace System::Net {
     int m_NestedIOCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ThreadContext
-    ThreadContext(int m_NestedIOCount_ = {}) noexcept : m_NestedIOCount{m_NestedIOCount_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_NestedIOCount;

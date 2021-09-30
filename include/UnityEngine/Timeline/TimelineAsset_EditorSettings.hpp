@@ -32,8 +32,6 @@ namespace UnityEngine::Timeline {
     bool m_ScenePreview;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EditorSettings
-    EditorSettings(float m_Framerate_ = {}, bool m_ScenePreview_ = {}) noexcept : m_Framerate{m_Framerate_}, m_ScenePreview{m_ScenePreview_} {}
     // Get static field: static readonly System.Single kMinFps
     static float _get_kMinFps();
     // Set static field: static readonly System.Single kMinFps

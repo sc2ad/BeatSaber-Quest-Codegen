@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SteamVR_Stats : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: SteamVR_Stats
-    SteamVR_Stats() noexcept {}
     // private System.Void Awake()
     // Offset: 0x154A380
     void Awake();

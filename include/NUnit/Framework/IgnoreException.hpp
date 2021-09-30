@@ -32,8 +32,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class IgnoreException : public NUnit::Framework::ResultStateException {
     public:
-    // Creating value type constructor for type: IgnoreException
-    IgnoreException() noexcept {}
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0x19357C0
     // Implemented from: NUnit.Framework.ResultStateException

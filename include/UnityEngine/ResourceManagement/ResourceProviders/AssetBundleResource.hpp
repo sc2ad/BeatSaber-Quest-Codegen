@@ -121,8 +121,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_Completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AssetBundleResource
-    AssetBundleResource(UnityEngine::AssetBundle* m_AssetBundle_ = {}, UnityEngine::Networking::DownloadHandlerAssetBundle* m_downloadHandler_ = {}, UnityEngine::AsyncOperation* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::WebRequestQueueOperation* m_WebRequestQueueOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle_ = {}, UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* m_Options_ = {}, int m_Retries_ = {}, int64_t m_BytesToDownload_ = {}, int64_t m_DownloadedBytes_ = {}, bool m_Completed_ = {}) noexcept : m_AssetBundle{m_AssetBundle_}, m_downloadHandler{m_downloadHandler_}, m_RequestOperation{m_RequestOperation_}, m_WebRequestQueueOperation{m_WebRequestQueueOperation_}, m_ProvideHandle{m_ProvideHandle_}, m_Options{m_Options_}, m_Retries{m_Retries_}, m_BytesToDownload{m_BytesToDownload_}, m_DownloadedBytes{m_DownloadedBytes_}, m_Completed{m_Completed_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource
     operator UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);

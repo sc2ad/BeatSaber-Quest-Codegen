@@ -32,8 +32,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Subdivision : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Subdivision
-    Subdivision() noexcept {}
     // static public UnityEngine.ProBuilder.ActionResult Subdivide(UnityEngine.ProBuilder.ProBuilderMesh pb)
     // Offset: 0x18FC3D8
     static UnityEngine::ProBuilder::ActionResult* Subdivide(UnityEngine::ProBuilder::ProBuilderMesh* pb);

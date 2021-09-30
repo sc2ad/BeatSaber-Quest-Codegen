@@ -21,8 +21,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaskableGraphic::CullStateChangedEvent : public UnityEngine::Events::UnityEvent_1<bool> {
     public:
-    // Creating value type constructor for type: CullStateChangedEvent
-    CullStateChangedEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B4E540
     // Implemented from: UnityEngine.Events.UnityEvent`1

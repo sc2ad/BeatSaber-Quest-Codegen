@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD85C
   class PureAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: PureAttribute
-    PureAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610870
     // Implemented from: System.Attribute

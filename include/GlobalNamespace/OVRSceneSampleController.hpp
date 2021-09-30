@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRGridCube* gridCube;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRGridCube*) == 0x8);
-    // Creating value type constructor for type: OVRSceneSampleController
-    OVRSceneSampleController(UnityEngine::KeyCode quitKey_ = {}, UnityEngine::Texture* fadeInTexture_ = {}, float speedRotationIncrement_ = {}, GlobalNamespace::OVRPlayerController* playerController_ = {}, GlobalNamespace::OVRCameraRig* cameraController_ = {}, ::Il2CppString* layerName_ = {}, bool visionMode_ = {}, GlobalNamespace::OVRGridCube* gridCube_ = {}) noexcept : quitKey{quitKey_}, fadeInTexture{fadeInTexture_}, speedRotationIncrement{speedRotationIncrement_}, playerController{playerController_}, cameraController{cameraController_}, layerName{layerName_}, visionMode{visionMode_}, gridCube{gridCube_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.KeyCode quitKey

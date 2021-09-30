@@ -29,8 +29,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
-    // Creating value type constructor for type: FileBrowserModel
-    FileBrowserModel() noexcept {}
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
     // Offset: 0x11B4DF4
     static void GetContentOfDirectory(::Il2CppString* direcotryPath, ::ArrayWrapper<::Il2CppString*> extensions, System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>* callback);

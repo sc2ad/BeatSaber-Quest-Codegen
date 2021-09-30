@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJavaClass : public UnityEngine::AndroidJavaObject {
     public:
-    // Creating value type constructor for type: AndroidJavaClass
-    AndroidJavaClass() noexcept {}
     // public System.Void .ctor(System.String className)
     // Offset: 0x25AD318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

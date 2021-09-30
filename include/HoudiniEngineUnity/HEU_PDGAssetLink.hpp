@@ -224,8 +224,6 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* outputCachePathRoot;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: HEU_PDGAssetLink
-    HEU_PDGAssetLink(::Il2CppString* assetPath_ = {}, UnityEngine::GameObject* assetGO_ = {}, ::Il2CppString* assetName_ = {}, int assetID_ = {}, HoudiniEngineUnity::HEU_HoudiniAsset* heu_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNetworkData*>* topNetworks_ = {}, ::ArrayWrapper<::Il2CppString*> topNetworkNames_ = {}, int selectedTOPNetwork_ = {}, HoudiniEngineUnity::HEU_PDGAssetLink::LinkState linkState_ = {}, bool autoCook_ = {}, bool useHEngineData_ = {}, HoudiniEngineUnity::HEU_PDGAssetLink::UpdateUIDelegate* repaintUIDelegate_ = {}, int numWorkItems_ = {}, HoudiniEngineUnity::HEU_WorkItemTally* workItemTally_ = {}, UnityEngine::GameObject* loadRootGameObject_ = {}, ::Il2CppString* outputCachePathRoot_ = {}) noexcept : assetPath{assetPath_}, assetGO{assetGO_}, assetName{assetName_}, assetID{assetID_}, heu{heu_}, topNetworks{topNetworks_}, topNetworkNames{topNetworkNames_}, selectedTOPNetwork{selectedTOPNetwork_}, linkState{linkState_}, autoCook{autoCook_}, useHEngineData{useHEngineData_}, repaintUIDelegate{repaintUIDelegate_}, numWorkItems{numWorkItems_}, workItemTally{workItemTally_}, loadRootGameObject{loadRootGameObject_}, outputCachePathRoot{outputCachePathRoot_} {}
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

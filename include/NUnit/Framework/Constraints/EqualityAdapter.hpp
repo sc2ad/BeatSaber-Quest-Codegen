@@ -14,8 +14,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class EqualityAdapter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: EqualityAdapter
-    EqualityAdapter() noexcept {}
     // public System.Boolean AreEqual(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);

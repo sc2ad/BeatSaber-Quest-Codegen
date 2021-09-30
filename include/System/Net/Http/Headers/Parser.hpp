@@ -37,8 +37,6 @@ namespace System::Net::Http::Headers {
     class TimeSpanSeconds;
     // Nested type: System::Net::Http::Headers::Parser::Uri
     class Uri;
-    // Creating value type constructor for type: Parser
-    Parser() noexcept {}
   }; // System.Net.Http.Headers.Parser
   #pragma pack(pop)
 }

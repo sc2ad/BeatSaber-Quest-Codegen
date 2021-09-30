@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CutoutAnimateEffect*) == 0x8);
-    // Creating value type constructor for type: ObstacleDissolve
-    ObstacleDissolve(GlobalNamespace::ObstacleControllerBase* obstacleController_ = {}, GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect_ = {}) noexcept : obstacleController{obstacleController_}, cutoutAnimateEffect{cutoutAnimateEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ObstacleControllerBase _obstacleController

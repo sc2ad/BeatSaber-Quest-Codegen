@@ -32,8 +32,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TestResultExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TestResultExtensions
-    TestResultExtensions() noexcept {}
     // static public System.Void RecordPrefixedException(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.Exception ex, NUnit.Framework.Interfaces.ResultState resultState)
     // Offset: 0x16691FC
     static void RecordPrefixedException(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, System::Exception* ex, NUnit::Framework::Interfaces::ResultState* resultState);

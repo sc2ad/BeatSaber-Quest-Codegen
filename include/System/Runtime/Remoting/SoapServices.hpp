@@ -39,8 +39,6 @@ namespace System::Runtime::Remoting {
     public:
     // Nested type: System::Runtime::Remoting::SoapServices::TypeInfo
     class TypeInfo;
-    // Creating value type constructor for type: SoapServices
-    SoapServices() noexcept {}
     // Get static field: static private System.Collections.Hashtable _xmlTypes
     static System::Collections::Hashtable* _get__xmlTypes();
     // Set static field: static private System.Collections.Hashtable _xmlTypes

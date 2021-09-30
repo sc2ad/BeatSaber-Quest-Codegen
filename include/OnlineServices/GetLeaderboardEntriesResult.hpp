@@ -49,7 +49,7 @@ namespace OnlineServices {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GetLeaderboardEntriesResult
-    constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
+    constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = {nullptr}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -65,7 +65,6 @@ namespace OnlineServices {
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
     // Offset: 0x11201E4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex)
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)

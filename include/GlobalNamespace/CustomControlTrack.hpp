@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TrackClipTypeAttribute] Offset: EFCE6C
   class CustomControlTrack : public UnityEngine::Timeline::ControlTrack {
     public:
-    // Creating value type constructor for type: CustomControlTrack
-    CustomControlTrack() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11A18F0
     // Implemented from: UnityEngine.Timeline.ControlTrack

@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_RenderingPipelineDefines : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_RenderingPipelineDefines
-    HEU_RenderingPipelineDefines() noexcept {}
     // static private System.Void .cctor()
     // Offset: 0x17D208C
     static void _cctor();

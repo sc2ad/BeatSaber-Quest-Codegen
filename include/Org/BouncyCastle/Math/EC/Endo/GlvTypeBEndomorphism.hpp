@@ -51,8 +51,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPointMap*) == 0x8);
-    // Creating value type constructor for type: GlvTypeBEndomorphism
-    GlvTypeBEndomorphism(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* m_parameters_ = {}, Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap_ = {}) noexcept : m_parameters{m_parameters_}, m_pointMap{m_pointMap_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism
     operator Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);

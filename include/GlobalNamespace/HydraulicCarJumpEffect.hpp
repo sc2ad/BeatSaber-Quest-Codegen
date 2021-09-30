@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<int>* eventValuesHashSet;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
-    // Creating value type constructor for type: HydraulicCarJumpEffect
-    HydraulicCarJumpEffect(GlobalNamespace::BeatmapEventType event_ = {}, ::ArrayWrapper<int> eventValues_ = {}, UnityEngine::Vector3 impulse_ = {}, float randomness_ = {}, UnityEngine::Vector3 position_ = {}, float minDelayBetweenEvents_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, float lastEventTime_ = {}, System::Collections::Generic::HashSet_1<int>* eventValuesHashSet_ = {}) noexcept : event{event_}, eventValues{eventValues_}, impulse{impulse_}, randomness{randomness_}, position{position_}, minDelayBetweenEvents{minDelayBetweenEvents_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lastEventTime{lastEventTime_}, eventValuesHashSet{eventValuesHashSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _event

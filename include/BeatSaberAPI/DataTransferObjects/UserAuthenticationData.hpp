@@ -66,8 +66,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* publicUserDisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UserAuthenticationData
-    UserAuthenticationData(BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform_ = {}, BeatSaberAPI::DataTransferObjects::PlatformEnviroment platformEnviroment_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* bsAuthToken_ = {}, ::Il2CppString* gameBuildVersion_ = {}, ::Il2CppString* publicUserDisplayName_ = {}) noexcept : userPlatform{userPlatform_}, platformEnviroment{platformEnviroment_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, bsAuthToken{bsAuthToken_}, gameBuildVersion{gameBuildVersion_}, publicUserDisplayName{publicUserDisplayName_} {}
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment

@@ -32,8 +32,6 @@ namespace Mono::Security::Protocol::Ntlm {
     Mono::Security::Protocol::Ntlm::NtlmFlags flags;
     // Field size check
     static_assert(sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags) == 0x4);
-    // Creating value type constructor for type: MessageBase
-    MessageBase(int type_ = {}, Mono::Security::Protocol::Ntlm::NtlmFlags flags_ = {}) noexcept : type{type_}, flags{flags_} {}
     // Get static field: static private System.Byte[] header
     static ::ArrayWrapper<uint8_t> _get_header();
     // Set static field: static private System.Byte[] header

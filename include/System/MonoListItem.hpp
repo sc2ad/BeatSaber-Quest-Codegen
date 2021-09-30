@@ -30,8 +30,6 @@ namespace System {
     ::Il2CppObject* data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: MonoListItem
-    MonoListItem(System::MonoListItem* next_ = {}, ::Il2CppObject* data_ = {}) noexcept : next{next_}, data{data_} {}
     // Get instance field reference: private System.MonoListItem next
     System::MonoListItem*& dyn_next();
     // Get instance field reference: private System.Object data

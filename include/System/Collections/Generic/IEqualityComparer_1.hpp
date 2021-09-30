@@ -17,8 +17,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class IEqualityComparer_1 {
     public:
-    // Creating value type constructor for type: IEqualityComparer_1
-    IEqualityComparer_1() noexcept {}
     // public System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
     bool Equals(T x, T y) {

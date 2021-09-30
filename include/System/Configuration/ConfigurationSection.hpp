@@ -28,8 +28,6 @@ namespace System::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConfigurationSection : public System::Configuration::ConfigurationElement {
     public:
-    // Creating value type constructor for type: ConfigurationSection
-    ConfigurationSection() noexcept {}
     // protected internal System.Void DeserializeSection(System.Xml.XmlReader reader)
     // Offset: 0x26286C0
     void DeserializeSection(System::Xml::XmlReader* reader);

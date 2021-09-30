@@ -36,8 +36,6 @@ namespace Zenject {
     Zenject::TypeValuePair argPair;
     // Field size check
     static_assert(sizeof(Zenject::TypeValuePair) == 0x10);
-    // Creating value type constructor for type: $$c__DisplayClass7_0
-    $$c__DisplayClass7_0(Zenject::TypeValuePair argPair_ = {}) noexcept : argPair{argPair_} {}
     // Creating conversion operator: operator Zenject::TypeValuePair
     constexpr operator Zenject::TypeValuePair() const noexcept {
       return argPair;

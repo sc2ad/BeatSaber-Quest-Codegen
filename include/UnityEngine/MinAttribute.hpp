@@ -27,8 +27,6 @@ namespace UnityEngine {
     float min;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MinAttribute
-    MinAttribute(float min_ = {}) noexcept : min{min_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return min;

@@ -23,8 +23,6 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAllocationStrategy {
     public:
-    // Creating value type constructor for type: IAllocationStrategy
-    IAllocationStrategy() noexcept {}
     // public System.Object New(System.Type type, System.Int32 typeHash)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* New(System::Type* type, int typeHash);

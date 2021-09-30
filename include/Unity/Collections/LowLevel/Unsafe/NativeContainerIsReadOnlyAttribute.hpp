@@ -18,8 +18,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FCE0
   class NativeContainerIsReadOnlyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeContainerIsReadOnlyAttribute
-    NativeContainerIsReadOnlyAttribute() noexcept {}
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerIsReadOnlyAttribute
   #pragma pack(pop)
 }

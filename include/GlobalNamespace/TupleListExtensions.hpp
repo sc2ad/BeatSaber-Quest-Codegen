@@ -39,8 +39,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TupleListExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TupleListExtensions
-    TupleListExtensions() noexcept {}
     // static public System.Void Add(System.Collections.Generic.IList`1<System.Tuple`2<T1,T2>> list, T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>

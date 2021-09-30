@@ -21,8 +21,6 @@ namespace System::Runtime::InteropServices {
     int m_ErrorCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ErrorWrapper
-    ErrorWrapper(int m_ErrorCode_ = {}) noexcept : m_ErrorCode{m_ErrorCode_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_ErrorCode;

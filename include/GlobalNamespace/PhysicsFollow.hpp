@@ -62,8 +62,6 @@ namespace GlobalNamespace {
     UnityEngine::Rigidbody2D* rigidBody2D;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody2D*) == 0x8);
-    // Creating value type constructor for type: PhysicsFollow
-    PhysicsFollow(UnityEngine::Transform* targetTransform_ = {}, UnityEngine::Vector3 offset_ = {}, float friction_ = {}, float elasticity_ = {}, UnityEngine::Rigidbody2D* rigidBody2D_ = {}) noexcept : targetTransform{targetTransform_}, offset{offset_}, friction{friction_}, elasticity{elasticity_}, rigidBody2D{rigidBody2D_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform _targetTransform

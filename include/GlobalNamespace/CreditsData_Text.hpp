@@ -42,8 +42,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CreditsData::TextStyle style;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreditsData::TextStyle) == 0x4);
-    // Creating value type constructor for type: Text
-    Text(::Il2CppString* text_ = {}, bool localized_ = {}, GlobalNamespace::CreditsData::TextStyle style_ = {}) noexcept : text{text_}, localized{localized_}, style{style_} {}
     // Get instance field reference: public System.String text
     ::Il2CppString*& dyn_text();
     // Get instance field reference: public System.Boolean localized

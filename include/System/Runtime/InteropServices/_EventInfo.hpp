@@ -17,8 +17,6 @@ namespace System::Runtime::InteropServices {
   // [CLSCompliantAttribute] Offset: E60F84
   class _EventInfo {
     public:
-    // Creating value type constructor for type: _EventInfo
-    _EventInfo() noexcept {}
   }; // System.Runtime.InteropServices._EventInfo
   #pragma pack(pop)
 }

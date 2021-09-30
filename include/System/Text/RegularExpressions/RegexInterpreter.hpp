@@ -108,8 +108,6 @@ namespace System::Text::RegularExpressions {
     System::Globalization::CultureInfo* runculture;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
-    // Creating value type constructor for type: RegexInterpreter
-    RegexInterpreter(int runoperator_ = {}, ::ArrayWrapper<int> runcodes_ = {}, int runcodepos_ = {}, ::ArrayWrapper<::Il2CppString*> runstrings_ = {}, System::Text::RegularExpressions::RegexCode* runcode_ = {}, System::Text::RegularExpressions::RegexPrefix* runfcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* runbmPrefix_ = {}, int runanchors_ = {}, bool runrtl_ = {}, bool runci_ = {}, System::Globalization::CultureInfo* runculture_ = {}) noexcept : runoperator{runoperator_}, runcodes{runcodes_}, runcodepos{runcodepos_}, runstrings{runstrings_}, runcode{runcode_}, runfcPrefix{runfcPrefix_}, runbmPrefix{runbmPrefix_}, runanchors{runanchors_}, runrtl{runrtl_}, runci{runci_}, runculture{runculture_} {}
     // Get instance field reference: System.Int32 runoperator
     int& dyn_runoperator();
     // Get instance field reference: System.Int32[] runcodes

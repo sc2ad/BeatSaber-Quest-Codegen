@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MainCameraCullingMask::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainCameraCullingMask::InitData*) == 0x8);
-    // Creating value type constructor for type: MainCameraCullingMask
-    MainCameraCullingMask(UnityEngine::Camera* camera_ = {}, GlobalNamespace::MainCameraCullingMask::InitData* initData_ = {}) noexcept : camera{camera_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Camera _camera

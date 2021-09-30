@@ -36,8 +36,6 @@ namespace HoudiniEngineUnity {
     int normalIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_VertexEntry
-    HEU_VertexEntry(int meshKey_ = {}, int vertexIndex_ = {}, int normalIndex_ = {}) noexcept : meshKey{meshKey_}, vertexIndex{vertexIndex_}, normalIndex{normalIndex_} {}
     // Get instance field reference: public System.Int32 _meshKey
     int& dyn__meshKey();
     // Get instance field reference: public System.Int32 _vertexIndex

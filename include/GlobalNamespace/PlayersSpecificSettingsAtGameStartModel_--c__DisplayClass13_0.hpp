@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* player;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(GlobalNamespace::IConnectedPlayer* player_ = {}) noexcept : player{player_} {}
     // Creating conversion operator: operator GlobalNamespace::IConnectedPlayer*
     constexpr operator GlobalNamespace::IConnectedPlayer*() const noexcept {
       return player;

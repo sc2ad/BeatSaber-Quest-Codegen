@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TagPropertyAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: TagPropertyAttribute
-    TagPropertyAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x259B074
     // Implemented from: UnityEngine.PropertyAttribute

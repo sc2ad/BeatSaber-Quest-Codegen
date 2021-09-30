@@ -118,8 +118,6 @@ namespace Mono::Security::X509 {
     System::Security::Cryptography::RandomNumberGenerator* rng;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
-    // Creating value type constructor for type: PKCS12
-    PKCS12(::ArrayWrapper<uint8_t> password_ = {}, System::Collections::ArrayList* keyBags_ = {}, System::Collections::ArrayList* secretBags_ = {}, Mono::Security::X509::X509CertificateCollection* certs_ = {}, bool keyBagsChanged_ = {}, bool secretBagsChanged_ = {}, bool certsChanged_ = {}, int iterations_ = {}, System::Collections::ArrayList* safeBags_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}) noexcept : password{password_}, keyBags{keyBags_}, secretBags{secretBags_}, certs{certs_}, keyBagsChanged{keyBagsChanged_}, secretBagsChanged{secretBagsChanged_}, certsChanged{certsChanged_}, iterations{iterations_}, safeBags{safeBags_}, rng{rng_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

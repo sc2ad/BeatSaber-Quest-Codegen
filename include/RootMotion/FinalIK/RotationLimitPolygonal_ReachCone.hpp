@@ -46,8 +46,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 B;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: ReachCone
-    ReachCone(::ArrayWrapper<UnityEngine::Vector3> tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
     // Get instance field reference: public UnityEngine.Vector3[] tetrahedron
     ::ArrayWrapper<UnityEngine::Vector3>& dyn_tetrahedron();
     // Get instance field reference: public System.Single volume

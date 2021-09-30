@@ -32,8 +32,6 @@ namespace Mono::Unity {
   // [UnmanagedFunctionPointerAttribute] Offset: E68C3C
   class UnityTls::unitytls_tlsctx_trace_callback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: unitytls_tlsctx_trace_callback
-    unitytls_tlsctx_trace_callback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17C92FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

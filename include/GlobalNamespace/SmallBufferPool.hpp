@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMax;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*) == 0x8);
-    // Creating value type constructor for type: SmallBufferPool
-    SmallBufferPool(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheSmall_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMedium_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheLarge_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMax_ = {}) noexcept : cacheSmall{cacheSmall_}, cacheMedium{cacheMedium_}, cacheLarge{cacheLarge_}, cacheMax{cacheMax_} {}
     // static field const value: static private System.Int32 kCacheSmallSize
     static constexpr const int kCacheSmallSize = 512;
     // Get static field: static private System.Int32 kCacheSmallSize

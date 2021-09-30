@@ -81,8 +81,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*) == 0x8);
-    // Creating value type constructor for type: RemoteTestResultSender
-    RemoteTestResultSender(float m_NextliveMessage_ = {}, System::Collections::Generic::Queue_1<UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*>* m_SendQueue_ = {}, ::Il2CppObject* m_LockQueue_ = {}, UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory_ = {}) noexcept : m_NextliveMessage{m_NextliveMessage_}, m_SendQueue{m_SendQueue_}, m_LockQueue{m_LockQueue_}, m_TestResultDataFactory{m_TestResultDataFactory_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 k_aliveMessageFrequency

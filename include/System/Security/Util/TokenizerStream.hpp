@@ -79,8 +79,6 @@ namespace System::Security::Util {
     int m_indexStrings;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TokenizerStream
-    TokenizerStream(int m_countTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_headTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_lastTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_currentTokens_ = {}, int m_indexTokens_ = {}, System::Security::Util::TokenizerStringBlock* m_headStrings_ = {}, System::Security::Util::TokenizerStringBlock* m_currentStrings_ = {}, int m_indexStrings_ = {}) noexcept : m_countTokens{m_countTokens_}, m_headTokens{m_headTokens_}, m_lastTokens{m_lastTokens_}, m_currentTokens{m_currentTokens_}, m_indexTokens{m_indexTokens_}, m_headStrings{m_headStrings_}, m_currentStrings{m_currentStrings_}, m_indexStrings{m_indexStrings_} {}
     // Get instance field reference: private System.Int32 m_countTokens
     int& dyn_m_countTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_headTokens

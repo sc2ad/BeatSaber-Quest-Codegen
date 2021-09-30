@@ -51,8 +51,6 @@ namespace System::Runtime::InteropServices {
     bool fullyInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SafeHandle
-    SafeHandle(System::IntPtr handle_ = {}, int state_ = {}, bool ownsHandle_ = {}, bool fullyInitialized_ = {}) noexcept : handle{handle_}, state{state_}, ownsHandle{ownsHandle_}, fullyInitialized{fullyInitialized_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

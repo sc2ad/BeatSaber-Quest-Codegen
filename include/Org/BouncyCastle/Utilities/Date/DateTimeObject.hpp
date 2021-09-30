@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Utilities::Date {
     System::DateTime dt;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: DateTimeObject
-    DateTimeObject(System::DateTime dt_ = {}) noexcept : dt{dt_} {}
     // Creating conversion operator: operator System::DateTime
     constexpr operator System::DateTime() const noexcept {
       return dt;

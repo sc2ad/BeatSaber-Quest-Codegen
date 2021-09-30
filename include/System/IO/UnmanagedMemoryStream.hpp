@@ -103,8 +103,6 @@ namespace System::IO {
     System::Threading::Tasks::Task_1<int>* lastReadTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<int>*) == 0x8);
-    // Creating value type constructor for type: UnmanagedMemoryStream
-    UnmanagedMemoryStream(System::Runtime::InteropServices::SafeBuffer* buffer_ = {}, uint8_t* mem_ = {}, int64_t length_ = {}, int64_t capacity_ = {}, int64_t position_ = {}, int64_t offset_ = {}, System::IO::FileAccess access_ = {}, bool isOpen_ = {}, System::Threading::Tasks::Task_1<int>* lastReadTask_ = {}) noexcept : buffer{buffer_}, mem{mem_}, length{length_}, capacity{capacity_}, position{position_}, offset{offset_}, access{access_}, isOpen{isOpen_}, lastReadTask{lastReadTask_} {}
     // Get instance field reference: private System.Runtime.InteropServices.SafeBuffer _buffer
     System::Runtime::InteropServices::SafeBuffer*& dyn__buffer();
     // Get instance field reference: private System.Byte* _mem

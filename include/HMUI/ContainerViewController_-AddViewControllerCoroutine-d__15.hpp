@@ -102,8 +102,6 @@ namespace HMUI {
     float $elapsedTime$5__4;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $AddViewControllerCoroutine$d__15
-    $AddViewControllerCoroutine$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ContainerViewController* $$4__this_ = {}, HMUI::ViewController* newViewController_ = {}, bool immediately_ = {}, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>* animationLayouter_ = {}, System::Action* finishedCallback_ = {}, ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2_ = {}, float $transitionDuration$5__3_ = {}, float $elapsedTime$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, newViewController{newViewController_}, immediately{immediately_}, animationLayouter{animationLayouter_}, finishedCallback{finishedCallback_}, $viewControllers$5__2{$viewControllers$5__2_}, $transitionDuration$5__3{$transitionDuration$5__3_}, $elapsedTime$5__4{$elapsedTime$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

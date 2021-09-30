@@ -31,8 +31,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::GameObject* inputObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // Creating value type constructor for type: HEU_InputData
-    HEU_InputData(UnityEngine::GameObject* inputObject_ = {}) noexcept : inputObject{inputObject_} {}
     // Creating conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return inputObject;

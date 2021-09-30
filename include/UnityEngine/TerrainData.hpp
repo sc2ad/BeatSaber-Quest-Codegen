@@ -46,8 +46,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::TerrainData::BoundaryValueType
     struct BoundaryValueType;
-    // Creating value type constructor for type: TerrainData
-    TerrainData() noexcept {}
     // static field const value: static private System.String k_ScriptingInterfaceName
     static constexpr const char* k_ScriptingInterfaceName = "TerrainDataScriptingInterface";
     // Get static field: static private System.String k_ScriptingInterfaceName

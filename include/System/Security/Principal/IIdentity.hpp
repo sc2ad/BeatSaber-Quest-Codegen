@@ -17,8 +17,6 @@ namespace System::Security::Principal {
   // [ComVisibleAttribute] Offset: E5EFD0
   class IIdentity {
     public:
-    // Creating value type constructor for type: IIdentity
-    IIdentity() noexcept {}
     // public System.String get_AuthenticationType()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AuthenticationType();

@@ -132,8 +132,6 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // Creating value type constructor for type: TrackLaneRingsRotationEffectSpawner
-    TrackLaneRingsRotationEffectSpawner(GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float rotation_ = {}, float rotationStep_ = {}, GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType rotationStepType_ = {}, int rotationPropagationSpeed_ = {}, float rotationFlexySpeed_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : trackLaneRingsRotationEffect{trackLaneRingsRotationEffect_}, beatmapEventType{beatmapEventType_}, rotation{rotation_}, rotationStep{rotationStep_}, rotationStepType{rotationStepType_}, rotationPropagationSpeed{rotationPropagationSpeed_}, rotationFlexySpeed{rotationFlexySpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect

@@ -42,8 +42,6 @@ namespace System::Net {
     ::ArrayWrapper<::Il2CppString*> values;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: DigestHeaderParser
-    DigestHeaderParser(::Il2CppString* header_ = {}, int length_ = {}, int pos_ = {}, ::ArrayWrapper<::Il2CppString*> values_ = {}) noexcept : header{header_}, length{length_}, pos{pos_}, values{values_} {}
     // Get static field: static private System.String[] keywords
     static ::ArrayWrapper<::Il2CppString*> _get_keywords();
     // Set static field: static private System.String[] keywords

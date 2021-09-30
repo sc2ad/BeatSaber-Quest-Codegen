@@ -32,8 +32,6 @@ namespace System::IO::Compression {
   // [UnmanagedFunctionPointerAttribute] Offset: E69AB4
   class DeflateStreamNative::UnmanagedReadOrWrite : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: UnmanagedReadOrWrite
-    UnmanagedReadOrWrite() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1A2E7DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -27,8 +27,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class CategoryFilterExtended : public NUnit::Framework::Internal::Filters::CategoryFilter {
     public:
-    // Creating value type constructor for type: CategoryFilterExtended
-    CategoryFilterExtended() noexcept {}
     // Get static field: static public System.String k_DefaultCategory
     static ::Il2CppString* _get_k_DefaultCategory();
     // Set static field: static public System.String k_DefaultCategory

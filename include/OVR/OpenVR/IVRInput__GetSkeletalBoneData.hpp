@@ -43,8 +43,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB16C0
   class IVRInput::_GetSkeletalBoneData : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetSkeletalBoneData
-    _GetSkeletalBoneData() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20F4908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

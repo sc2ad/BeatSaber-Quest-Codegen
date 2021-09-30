@@ -44,8 +44,6 @@ namespace Oculus::Platform::Models {
     bool Success;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AssetFileDownloadCancelResult
-    AssetFileDownloadCancelResult(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}, bool Success_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, Filepath{Filepath_}, Success{Success_} {}
     // Get instance field reference: public readonly System.UInt64 AssetFileId
     uint64_t& dyn_AssetFileId();
     // Get instance field reference: public readonly System.UInt64 AssetId

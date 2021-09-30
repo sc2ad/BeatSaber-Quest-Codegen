@@ -36,8 +36,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPool : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ThreadPool
-    ThreadPool() noexcept {}
     // static private System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.UInt32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
     // Offset: 0x19BE92C
     static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack);

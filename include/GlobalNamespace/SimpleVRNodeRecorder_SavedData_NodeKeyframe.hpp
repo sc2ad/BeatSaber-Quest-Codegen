@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: NodeKeyframe
-    NodeKeyframe(float posX_ = {}, float posY_ = {}, float posZ_ = {}, float rotX_ = {}, float rotY_ = {}, float rotZ_ = {}, float rotW_ = {}, float time_ = {}) noexcept : posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, time{time_} {}
     // Get instance field reference: public System.Single posX
     float& dyn_posX();
     // Get instance field reference: public System.Single posY

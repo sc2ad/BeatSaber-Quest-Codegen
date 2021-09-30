@@ -34,8 +34,6 @@ namespace System::Net::Sockets {
     int sent_so_far;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass242_0
-    $$c__DisplayClass242_0(int sent_so_far_ = {}) noexcept : sent_so_far{sent_so_far_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return sent_so_far;

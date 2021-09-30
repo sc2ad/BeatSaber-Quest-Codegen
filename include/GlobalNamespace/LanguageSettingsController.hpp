@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LanguageSO* settingsValue;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LanguageSO*) == 0x8);
-    // Creating value type constructor for type: LanguageSettingsController
-    LanguageSettingsController(GlobalNamespace::LanguageSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
     // Get instance field reference: private LanguageSO _settingsValue
     GlobalNamespace::LanguageSO*& dyn__settingsValue();
     // public System.Void .ctor()

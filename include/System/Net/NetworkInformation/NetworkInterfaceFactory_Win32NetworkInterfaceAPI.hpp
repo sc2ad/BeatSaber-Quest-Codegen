@@ -33,8 +33,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkInterfaceFactory::Win32NetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
-    // Creating value type constructor for type: Win32NetworkInterfaceAPI
-    Win32NetworkInterfaceAPI() noexcept {}
     // static private System.Int32 GetAdaptersAddresses(System.UInt32 family, System.UInt32 flags, System.IntPtr reserved, System.IntPtr info, ref System.Int32 size)
     // Offset: 0x164866C
     static int GetAdaptersAddresses(uint family, uint flags, System::IntPtr reserved, System::IntPtr info, ByRef<int> size);

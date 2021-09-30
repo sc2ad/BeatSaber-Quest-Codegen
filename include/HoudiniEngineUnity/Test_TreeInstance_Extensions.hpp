@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c
     class $$c;
-    // Creating value type constructor for type: Test_TreeInstance_Extensions
-    Test_TreeInstance_Extensions() noexcept {}
     // static public HoudiniEngineUnity.Test_TreeInstance ToTestObject(UnityEngine.TreeInstance self)
     // Offset: 0x25D44AC
     static HoudiniEngineUnity::Test_TreeInstance* ToTestObject(UnityEngine::TreeInstance self);

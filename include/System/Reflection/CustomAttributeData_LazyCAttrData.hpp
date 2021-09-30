@@ -47,8 +47,6 @@ namespace System::Reflection {
     uint data_length;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: LazyCAttrData
-    LazyCAttrData(System::Reflection::Assembly* assembly_ = {}, System::IntPtr data_ = {}, uint data_length_ = {}) noexcept : assembly{assembly_}, data{data_}, data_length{data_length_} {}
     // Get instance field reference: System.Reflection.Assembly assembly
     System::Reflection::Assembly*& dyn_assembly();
     // Get instance field reference: System.IntPtr data

@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::FpPoint* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::FpPoint*) == 0x8);
-    // Creating value type constructor for type: FpCurve
-    FpCurve(Org::BouncyCastle::Math::BigInteger* m_q_ = {}, Org::BouncyCastle::Math::BigInteger* m_r_ = {}, Org::BouncyCastle::Math::EC::FpPoint* m_infinity_ = {}) noexcept : m_q{m_q_}, m_r{m_r_}, m_infinity{m_infinity_} {}
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_q
     Org::BouncyCastle::Math::BigInteger*& dyn_m_q();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_r

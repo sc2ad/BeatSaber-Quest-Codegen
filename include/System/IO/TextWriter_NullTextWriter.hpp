@@ -27,8 +27,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextWriter::NullTextWriter : public System::IO::TextWriter {
     public:
-    // Creating value type constructor for type: NullTextWriter
-    NullTextWriter() noexcept {}
     // public override System.Text.Encoding get_Encoding()
     // Offset: 0x1A07678
     // Implemented from: System.IO.TextWriter

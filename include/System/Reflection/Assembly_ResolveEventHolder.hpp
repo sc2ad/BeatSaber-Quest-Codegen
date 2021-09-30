@@ -20,8 +20,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class Assembly::ResolveEventHolder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ResolveEventHolder
-    ResolveEventHolder() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EA13A8
     // Implemented from: System.Object

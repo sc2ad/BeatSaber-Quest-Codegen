@@ -18,8 +18,6 @@ namespace System::Collections {
   // [ObsoleteAttribute] Offset: E618B0
   class IHashCodeProvider {
     public:
-    // Creating value type constructor for type: IHashCodeProvider
-    IHashCodeProvider() noexcept {}
     // public System.Int32 GetHashCode(System.Object obj)
     // Offset: 0xFFFFFFFF
     int GetHashCode(::Il2CppObject* obj);

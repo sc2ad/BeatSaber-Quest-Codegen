@@ -30,8 +30,6 @@ namespace System {
   // [TypeForwardedFromAttribute] Offset: E5B9D4
   class Action : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: Action
-    Action() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1C5A288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

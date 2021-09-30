@@ -26,8 +26,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITimeProvider {
     public:
-    // Creating value type constructor for type: ITimeProvider
-    ITimeProvider() noexcept {}
     // public System.Int64 GetTimeMs()
     // Offset: 0xFFFFFFFF
     int64_t GetTimeMs();

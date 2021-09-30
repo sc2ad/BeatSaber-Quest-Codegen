@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitConverter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BitConverter
-    BitConverter() noexcept {}
     // Get static field: static public readonly System.Boolean IsLittleEndian
     static bool _get_IsLittleEndian();
     // Set static field: static public readonly System.Boolean IsLittleEndian

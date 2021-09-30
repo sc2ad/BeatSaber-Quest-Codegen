@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     int number;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NumberTag
-    NumberTag(int number_ = {}) noexcept : number{number_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 number

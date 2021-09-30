@@ -63,8 +63,6 @@ namespace UnityEngine::AddressableAssets {
     System::Type* m_ResourceType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: LoadResourceLocationKeyOp
-    LoadResourceLocationKeyOp(::Il2CppObject* m_Keys_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, System::Type* m_ResourceType_ = {}) noexcept : m_Keys{m_Keys_}, m_locations{m_locations_}, m_Addressables{m_Addressables_}, m_ResourceType{m_ResourceType_} {}
     // Get instance field reference: private System.Object m_Keys
     ::Il2CppObject*& dyn_m_Keys();
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations

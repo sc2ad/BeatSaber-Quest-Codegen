@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECFieldElement* scale;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*) == 0x8);
-    // Creating value type constructor for type: ScaleXPointMap
-    ScaleXPointMap(Org::BouncyCastle::Math::EC::ECFieldElement* scale_ = {}) noexcept : scale{scale_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::ECPointMap
     operator Org::BouncyCastle::Math::EC::ECPointMap() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::ECPointMap*>(this);

@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AuthenticationToken::Platform platform;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AuthenticationToken::Platform) == 0x1);
-    // Creating value type constructor for type: PlatformAuthenticationTokenProvider
-    PlatformAuthenticationTokenProvider(GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Il2CppString* hashedUserId_ = {}, GlobalNamespace::AuthenticationToken::Platform platform_ = {}) noexcept : platformUserModel{platformUserModel_}, userId{userId_}, userName{userName_}, hashedUserId{hashedUserId_}, platform{platform_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAuthenticationTokenProvider
     operator GlobalNamespace::IAuthenticationTokenProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);

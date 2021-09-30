@@ -136,8 +136,6 @@ namespace GlobalNamespace {
     float rotation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatLine
-    BeatLine(GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* arriveFadeCurve_ = {}, UnityEngine::AnimationCurve* jumpFadeCurve_ = {}, float alphaMul_ = {}, float maxAlpha_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatLine::HighlightData>* highlights_ = {}, UnityEngine::Color color_ = {}, float rotation_ = {}) noexcept : tubeBloomPrePassLight{tubeBloomPrePassLight_}, arriveFadeCurve{arriveFadeCurve_}, jumpFadeCurve{jumpFadeCurve_}, alphaMul{alphaMul_}, maxAlpha{maxAlpha_}, highlights{highlights_}, color{color_}, rotation{rotation_} {}
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
     GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private UnityEngine.AnimationCurve _arriveFadeCurve

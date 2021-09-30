@@ -29,8 +29,6 @@ namespace Org::BouncyCastle::Asn1::GM {
   // [TokenAttribute] Offset: FFFFFFFF
   class GMNamedCurves::SM2P256V1Holder : public Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
     public:
-    // Creating value type constructor for type: SM2P256V1Holder
-    SM2P256V1Holder() noexcept {}
     // Get static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance

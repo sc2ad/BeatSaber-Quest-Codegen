@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteCutSoundEffectDidFinishEvent {
     public:
-    // Creating value type constructor for type: INoteCutSoundEffectDidFinishEvent
-    INoteCutSoundEffectDidFinishEvent() noexcept {}
     // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
     // Offset: 0xFFFFFFFF
     void HandleNoteCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);

@@ -43,8 +43,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
-    // Creating value type constructor for type: BloomFogParamsAnimator
-    BloomFogParamsAnimator(GlobalNamespace::BloomFogSO* bloomFog_ = {}) noexcept : bloomFog{bloomFog_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BloomFogSO _bloomFog

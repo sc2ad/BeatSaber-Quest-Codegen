@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* receiveMacQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*) == 0x8);
-    // Creating value type constructor for type: EncryptionState
-    EncryptionState(bool isValid_ = {}, int lastSentSequenceNum_ = {}, bool hasReceivedSequenceNum_ = {}, uint lastReceivedSequenceNum_ = {}, ::ArrayWrapper<bool> receivedSequenceNumBuffer_ = {}, ::ArrayWrapper<uint8_t> sendKey_ = {}, ::ArrayWrapper<uint8_t> receiveKey_ = {}, ::ArrayWrapper<uint8_t> sendMacKey_ = {}, ::ArrayWrapper<uint8_t> receiveMacKey_ = {}, System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* sendMacQueue_ = {}, System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* receiveMacQueue_ = {}) noexcept : isValid{isValid_}, lastSentSequenceNum{lastSentSequenceNum_}, hasReceivedSequenceNum{hasReceivedSequenceNum_}, lastReceivedSequenceNum{lastReceivedSequenceNum_}, receivedSequenceNumBuffer{receivedSequenceNumBuffer_}, sendKey{sendKey_}, receiveKey{receiveKey_}, sendMacKey{sendMacKey_}, receiveMacKey{receiveMacKey_}, sendMacQueue{sendMacQueue_}, receiveMacQueue{receiveMacQueue_} {}
     // Creating interface conversion operator: operator GlobalNamespace::EncryptionUtility::IEncryptionState
     operator GlobalNamespace::EncryptionUtility::IEncryptionState() noexcept {
       return *reinterpret_cast<GlobalNamespace::EncryptionUtility::IEncryptionState*>(this);

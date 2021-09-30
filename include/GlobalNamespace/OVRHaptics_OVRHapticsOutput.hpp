@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRHapticsClip* m_paddingClip;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHapticsClip*) == 0x8);
-    // Creating value type constructor for type: OVRHapticsOutput
-    OVRHapticsOutput(bool m_lowLatencyMode_ = {}, bool m_paddingEnabled_ = {}, int m_prevSamplesQueued_ = {}, float m_prevSamplesQueuedTime_ = {}, int m_numPredictionHits_ = {}, int m_numPredictionMisses_ = {}, int m_numUnderruns_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>* m_pendingClips_ = {}, uint m_controller_ = {}, GlobalNamespace::OVRNativeBuffer* m_nativeBuffer_ = {}, GlobalNamespace::OVRHapticsClip* m_paddingClip_ = {}) noexcept : m_lowLatencyMode{m_lowLatencyMode_}, m_paddingEnabled{m_paddingEnabled_}, m_prevSamplesQueued{m_prevSamplesQueued_}, m_prevSamplesQueuedTime{m_prevSamplesQueuedTime_}, m_numPredictionHits{m_numPredictionHits_}, m_numPredictionMisses{m_numPredictionMisses_}, m_numUnderruns{m_numUnderruns_}, m_pendingClips{m_pendingClips_}, m_controller{m_controller_}, m_nativeBuffer{m_nativeBuffer_}, m_paddingClip{m_paddingClip_} {}
     // Get instance field reference: private System.Boolean m_lowLatencyMode
     bool& dyn_m_lowLatencyMode();
     // Get instance field reference: private System.Boolean m_paddingEnabled

@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     GlobalNamespace::Saber* saber;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Saber*) == 0x8);
-    // Creating value type constructor for type: BombCutSoundEffect
-    BombCutSoundEffect(UnityEngine::AudioSource* audioSource_ = {}, System::Action_1<GlobalNamespace::BombCutSoundEffect*>* didFinishEvent_ = {}, GlobalNamespace::Saber* saber_ = {}) noexcept : audioSource{audioSource_}, didFinishEvent{didFinishEvent_}, saber{saber_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

@@ -41,8 +41,6 @@ namespace Zenject {
     UnityEngine::Transform* originalParent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: MonoPoolableMemoryPool_5
-    MonoPoolableMemoryPool_5(UnityEngine::Transform* originalParent_ = {}) noexcept : originalParent{originalParent_} {}
     // Creating conversion operator: operator UnityEngine::Transform*
     constexpr operator UnityEngine::Transform*() const noexcept {
       return originalParent;

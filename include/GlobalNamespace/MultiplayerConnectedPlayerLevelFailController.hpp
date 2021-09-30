@@ -86,8 +86,6 @@ namespace GlobalNamespace {
     bool wasActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerLevelFailController
-    MultiplayerConnectedPlayerLevelFailController(GlobalNamespace::VFXController* failVFXController_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, System::Action* playerDidFailEvent_ = {}, bool wasActive_ = {}) noexcept : failVFXController{failVFXController_}, multiplayerSessionManager{multiplayerSessionManager_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectManager{beatmapObjectManager_}, connectedPlayer{connectedPlayer_}, playerDidFailEvent{playerDidFailEvent_}, wasActive{wasActive_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VFXController _failVFXController

@@ -96,8 +96,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
-    // Creating value type constructor for type: ColorSchemeColorsToggleGroup
-    ColorSchemeColorsToggleGroup(GlobalNamespace::ColorSchemeColorToggleController* saberAColorToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* saberBColorToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* environmentColor0ToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* environmentColor1ToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* obstaclesColorToggleController_ = {}, System::Action_1<UnityEngine::Color>* selectedColorDidChangeEvent_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, GlobalNamespace::ColorSchemeColorToggleController* selectedColorToggleController_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : saberAColorToggleController{saberAColorToggleController_}, saberBColorToggleController{saberBColorToggleController_}, environmentColor0ToggleController{environmentColor0ToggleController_}, environmentColor1ToggleController{environmentColor1ToggleController_}, obstaclesColorToggleController{obstaclesColorToggleController_}, selectedColorDidChangeEvent{selectedColorDidChangeEvent_}, toggleBinder{toggleBinder_}, selectedColorToggleController{selectedColorToggleController_}, colorScheme{colorScheme_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSchemeColorToggleController _saberAColorToggleController

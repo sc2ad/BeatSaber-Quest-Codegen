@@ -36,8 +36,6 @@ namespace System::Xml {
     ::Il2CppObject* data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: Item
-    Item(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type_ = {}, ::Il2CppObject* data_ = {}) noexcept : type{type_}, data{data_} {}
     // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType& dyn_type();
     // Get instance field reference: System.Object data

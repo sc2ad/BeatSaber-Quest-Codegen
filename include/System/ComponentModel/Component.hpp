@@ -51,8 +51,6 @@ namespace System::ComponentModel {
     System::ComponentModel::EventHandlerList* events;
     // Field size check
     static_assert(sizeof(System::ComponentModel::EventHandlerList*) == 0x8);
-    // Creating value type constructor for type: Component
-    Component(System::ComponentModel::ISite* site_ = {}, System::ComponentModel::EventHandlerList* events_ = {}) noexcept : site{site_}, events{events_} {}
     // Creating interface conversion operator: operator System::ComponentModel::IComponent
     operator System::ComponentModel::IComponent() noexcept {
       return *reinterpret_cast<System::ComponentModel::IComponent*>(this);

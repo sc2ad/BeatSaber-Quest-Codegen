@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterSpawnEventValueParser : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: BTSCharacterSpawnEventValueParser
-    BTSCharacterSpawnEventValueParser() noexcept {}
     // static field const value: static private System.Int32 kPrefabMask
     static constexpr const int kPrefabMask = 255;
     // Get static field: static private System.Int32 kPrefabMask

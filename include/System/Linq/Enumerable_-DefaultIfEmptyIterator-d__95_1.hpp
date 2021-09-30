@@ -73,8 +73,6 @@ namespace System::Linq {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TSource $$3__defaultValue;
-    // Creating value type constructor for type: $DefaultIfEmptyIterator$d__95_1
-    $DefaultIfEmptyIterator$d__95_1(int $$1__state_ = {}, TSource $$2__current_ = {}, int $$l__initialThreadId_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* source_ = {}, System::Collections::Generic::IEnumerable_1<TSource>* $$3__source_ = {}, System::Collections::Generic::IEnumerator_1<TSource>* $e$5__1_ = {}, TSource defaultValue_ = {}, TSource $$3__defaultValue_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, source{source_}, $$3__source{$$3__source_}, $e$5__1{$e$5__1_}, defaultValue{defaultValue_}, $$3__defaultValue{$$3__defaultValue_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

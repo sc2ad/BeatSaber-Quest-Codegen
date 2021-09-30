@@ -82,8 +82,6 @@ namespace System::Net {
     System::Net::HttpListener* Listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
-    // Creating value type constructor for type: HttpListenerContext
-    HttpListenerContext(System::Net::HttpListenerRequest* request_ = {}, System::Net::HttpListenerResponse* response_ = {}, System::Security::Principal::IPrincipal* user_ = {}, System::Net::HttpConnection* cnc_ = {}, ::Il2CppString* error_ = {}, int err_status_ = {}, System::Net::HttpListener* Listener_ = {}) noexcept : request{request_}, response{response_}, user{user_}, cnc{cnc_}, error{error_}, err_status{err_status_}, Listener{Listener_} {}
     // Get instance field reference: private System.Net.HttpListenerRequest request
     System::Net::HttpListenerRequest*& dyn_request();
     // Get instance field reference: private System.Net.HttpListenerResponse response

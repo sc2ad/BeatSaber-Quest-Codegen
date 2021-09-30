@@ -17,8 +17,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E9EDB0
   class AudioLowPassFilter : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: AudioLowPassFilter
-    AudioLowPassFilter() noexcept {}
     // public System.Single get_cutoffFrequency()
     // Offset: 0x2608494
     float get_cutoffFrequency();

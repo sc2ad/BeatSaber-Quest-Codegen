@@ -51,8 +51,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>* m_InstanceObjectToPrefabHandle;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>*) == 0x8);
-    // Creating value type constructor for type: InstanceProvider
-    InstanceProvider(System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>* m_InstanceObjectToPrefabHandle_ = {}) noexcept : m_InstanceObjectToPrefabHandle{m_InstanceObjectToPrefabHandle_} {}
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider
     operator UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(this);

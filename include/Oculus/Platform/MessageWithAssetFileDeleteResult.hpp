@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithAssetFileDeleteResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*> {
     public:
-    // Creating value type constructor for type: MessageWithAssetFileDeleteResult
-    MessageWithAssetFileDeleteResult() noexcept {}
     // protected Oculus.Platform.Models.AssetFileDeleteResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B574C
     Oculus::Platform::Models::AssetFileDeleteResult* GetDataFromMessage(System::IntPtr c_message);

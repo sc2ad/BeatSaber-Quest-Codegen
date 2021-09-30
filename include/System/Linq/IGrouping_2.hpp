@@ -19,8 +19,6 @@ namespace System::Linq {
   template<typename TKey, typename TElement>
   class IGrouping_2/*, public System::Collections::Generic::IEnumerable_1<TElement>*/ {
     public:
-    // Creating value type constructor for type: IGrouping_2
-    IGrouping_2() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TElement>
     operator System::Collections::Generic::IEnumerable_1<TElement>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TElement>*>(this);

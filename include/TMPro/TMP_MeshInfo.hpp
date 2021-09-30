@@ -106,7 +106,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // Creating value type constructor for type: TMP_MeshInfo
-    constexpr TMP_MeshInfo(UnityEngine::Mesh* mesh_ = {}, int vertexCount_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, ::ArrayWrapper<UnityEngine::Vector3> normals_ = {}, ::ArrayWrapper<UnityEngine::Vector4> tangents_ = {}, ::ArrayWrapper<UnityEngine::Vector2> uvs0_ = {}, ::ArrayWrapper<UnityEngine::Vector2> uvs2_ = {}, ::ArrayWrapper<UnityEngine::Color32> colors32_ = {}, ::ArrayWrapper<int> triangles_ = {}) noexcept : mesh{mesh_}, vertexCount{vertexCount_}, vertices{vertices_}, normals{normals_}, tangents{tangents_}, uvs0{uvs0_}, uvs2{uvs2_}, colors32{colors32_}, triangles{triangles_} {}
+    constexpr TMP_MeshInfo(UnityEngine::Mesh* mesh_ = {}, int vertexCount_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {nullptr}, ::ArrayWrapper<UnityEngine::Vector3> normals_ = {nullptr}, ::ArrayWrapper<UnityEngine::Vector4> tangents_ = {nullptr}, ::ArrayWrapper<UnityEngine::Vector2> uvs0_ = {nullptr}, ::ArrayWrapper<UnityEngine::Vector2> uvs2_ = {nullptr}, ::ArrayWrapper<UnityEngine::Color32> colors32_ = {nullptr}, ::ArrayWrapper<int> triangles_ = {nullptr}) noexcept : mesh{mesh_}, vertexCount{vertexCount_}, vertices{vertices_}, normals{normals_}, tangents{tangents_}, uvs0{uvs0_}, uvs2{uvs2_}, colors32{colors32_}, triangles{triangles_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -147,7 +147,6 @@ namespace TMPro {
     ::ArrayWrapper<int>& dyn_triangles();
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
     // Offset: 0x1220F08
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mesh), ::il2cpp_utils::ExtractType(size)})));
@@ -155,7 +154,6 @@ namespace TMPro {
     }
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size, System.Boolean isVolumetric)
     // Offset: 0x1221414
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mesh), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(isVolumetric)})));

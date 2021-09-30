@@ -65,8 +65,6 @@ namespace System {
     bool completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IOAsyncResult
-    IOAsyncResult(System::AsyncCallback* async_callback_ = {}, ::Il2CppObject* async_state_ = {}, System::Threading::ManualResetEvent* wait_handle_ = {}, bool completed_synchronously_ = {}, bool completed_ = {}) noexcept : async_callback{async_callback_}, async_state{async_state_}, wait_handle{wait_handle_}, completed_synchronously{completed_synchronously_}, completed{completed_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

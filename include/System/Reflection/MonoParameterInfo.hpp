@@ -37,8 +37,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DF90
   class MonoParameterInfo : public System::Reflection::RuntimeParameterInfo {
     public:
-    // Creating value type constructor for type: MonoParameterInfo
-    MonoParameterInfo() noexcept {}
     // System.Void .ctor(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
     // Offset: 0x1EAE81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

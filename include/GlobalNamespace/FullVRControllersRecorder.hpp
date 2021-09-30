@@ -157,8 +157,6 @@ namespace GlobalNamespace {
     GlobalNamespace::VRControllersRecorderData* data;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersRecorderData*) == 0x8);
-    // Creating value type constructor for type: FullVRControllersRecorder
-    FullVRControllersRecorder(::Il2CppString* recordingFilePath_ = {}, GlobalNamespace::FullVRControllersRecorder::Mode mode_ = {}, float timeOffset_ = {}, float othersSmooth_ = {}, float handsSmooth_ = {}, float playbackFloorOffset_ = {}, ::ArrayWrapper<GlobalNamespace::VRController*> controllers_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Action_1<GlobalNamespace::VRController*>* didSetControllerTransformEvent_ = {}, int keyframeIndex_ = {}, GlobalNamespace::VRControllersRecorderData* data_ = {}) noexcept : recordingFilePath{recordingFilePath_}, mode{mode_}, timeOffset{timeOffset_}, othersSmooth{othersSmooth_}, handsSmooth{handsSmooth_}, playbackFloorOffset{playbackFloorOffset_}, controllers{controllers_}, audioTimeSyncController{audioTimeSyncController_}, didSetControllerTransformEvent{didSetControllerTransformEvent_}, keyframeIndex{keyframeIndex_}, data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _recordingFilePath

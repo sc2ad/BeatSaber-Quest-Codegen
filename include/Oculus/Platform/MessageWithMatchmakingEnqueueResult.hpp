@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithMatchmakingEnqueueResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingEnqueueResult*> {
     public:
-    // Creating value type constructor for type: MessageWithMatchmakingEnqueueResult
-    MessageWithMatchmakingEnqueueResult() noexcept {}
     // protected Oculus.Platform.Models.MatchmakingEnqueueResult GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16BA194
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetDataFromMessage(System::IntPtr c_message);

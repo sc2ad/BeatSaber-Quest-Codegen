@@ -89,8 +89,6 @@ namespace System::Runtime::InteropServices {
     bool ThrowOnUnmappableChar;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DllImportAttribute
-    DllImportAttribute(::Il2CppString* val_ = {}, ::Il2CppString* EntryPoint_ = {}, System::Runtime::InteropServices::CharSet CharSet_ = {}, bool SetLastError_ = {}, bool ExactSpelling_ = {}, bool PreserveSig_ = {}, System::Runtime::InteropServices::CallingConvention CallingConvention_ = {}, bool BestFitMapping_ = {}, bool ThrowOnUnmappableChar_ = {}) noexcept : val{val_}, EntryPoint{EntryPoint_}, CharSet{CharSet_}, SetLastError{SetLastError_}, ExactSpelling{ExactSpelling_}, PreserveSig{PreserveSig_}, CallingConvention{CallingConvention_}, BestFitMapping{BestFitMapping_}, ThrowOnUnmappableChar{ThrowOnUnmappableChar_} {}
     // Get instance field reference: System.String _val
     ::Il2CppString*& dyn__val();
     // Get instance field reference: public System.String EntryPoint

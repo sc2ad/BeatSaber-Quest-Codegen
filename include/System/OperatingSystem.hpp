@@ -59,8 +59,6 @@ namespace System {
     ::Il2CppString* servicePack;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: OperatingSystem
-    OperatingSystem(System::PlatformID platform_ = {}, System::Version* version_ = {}, ::Il2CppString* servicePack_ = {}) noexcept : platform{platform_}, version{version_}, servicePack{servicePack_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

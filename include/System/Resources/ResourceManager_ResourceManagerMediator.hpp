@@ -26,8 +26,6 @@ namespace System::Resources {
     System::Resources::ResourceManager* rm;
     // Field size check
     static_assert(sizeof(System::Resources::ResourceManager*) == 0x8);
-    // Creating value type constructor for type: ResourceManagerMediator
-    ResourceManagerMediator(System::Resources::ResourceManager* rm_ = {}) noexcept : rm{rm_} {}
     // Creating conversion operator: operator System::Resources::ResourceManager*
     constexpr operator System::Resources::ResourceManager*() const noexcept {
       return rm;

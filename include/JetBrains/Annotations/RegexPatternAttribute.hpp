@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADC60
   class RegexPatternAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: RegexPatternAttribute
-    RegexPatternAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x26109FC
     // Implemented from: System.Attribute

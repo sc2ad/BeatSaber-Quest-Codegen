@@ -31,8 +31,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHandTest::BoolMonitor::BoolGenerator : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: BoolGenerator
-    BoolGenerator() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C4B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

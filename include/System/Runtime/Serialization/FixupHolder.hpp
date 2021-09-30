@@ -36,8 +36,6 @@ namespace System::Runtime::Serialization {
     int m_fixupType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: FixupHolder
-    FixupHolder(int64_t m_id_ = {}, ::Il2CppObject* m_fixupInfo_ = {}, int m_fixupType_ = {}) noexcept : m_id{m_id_}, m_fixupInfo{m_fixupInfo_}, m_fixupType{m_fixupType_} {}
     // Get instance field reference: System.Int64 m_id
     int64_t& dyn_m_id();
     // Get instance field reference: System.Object m_fixupInfo

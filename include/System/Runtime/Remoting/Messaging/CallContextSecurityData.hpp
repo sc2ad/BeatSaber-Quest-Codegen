@@ -33,8 +33,6 @@ namespace System::Runtime::Remoting::Messaging {
     System::Security::Principal::IPrincipal* principal;
     // Field size check
     static_assert(sizeof(System::Security::Principal::IPrincipal*) == 0x8);
-    // Creating value type constructor for type: CallContextSecurityData
-    CallContextSecurityData(System::Security::Principal::IPrincipal* principal_ = {}) noexcept : principal{principal_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

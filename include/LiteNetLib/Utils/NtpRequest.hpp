@@ -70,8 +70,6 @@ namespace LiteNetLib::Utils {
     System::Net::IPEndPoint* ntpEndPoint;
     // Field size check
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
-    // Creating value type constructor for type: NtpRequest
-    NtpRequest(LiteNetLib::NetSocket* socket_ = {}, System::Action_1<LiteNetLib::Utils::NtpPacket*>* onRequestComplete_ = {}, System::Net::IPEndPoint* ntpEndPoint_ = {}) noexcept : socket{socket_}, onRequestComplete{onRequestComplete_}, ntpEndPoint{ntpEndPoint_} {}
     // Creating interface conversion operator: operator LiteNetLib::INetSocketListener
     operator LiteNetLib::INetSocketListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INetSocketListener*>(this);

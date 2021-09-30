@@ -16,8 +16,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExpandableObjectConverter : public System::ComponentModel::TypeConverter {
     public:
-    // Creating value type constructor for type: ExpandableObjectConverter
-    ExpandableObjectConverter() noexcept {}
   }; // System.ComponentModel.ExpandableObjectConverter
   #pragma pack(pop)
 }

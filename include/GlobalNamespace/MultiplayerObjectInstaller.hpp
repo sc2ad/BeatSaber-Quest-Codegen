@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar* multiplayerResultsPyramidViewAvatarPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
-    // Creating value type constructor for type: MultiplayerObjectInstaller
-    MultiplayerObjectInstaller(GlobalNamespace::MultiplayerScoreRingItem* inEnvironmentTextsPrefab_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar* multiplayerResultsPyramidViewAvatarPrefab_ = {}) noexcept : inEnvironmentTextsPrefab{inEnvironmentTextsPrefab_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_}, multiplayerResultsPyramidViewAvatarPrefab{multiplayerResultsPyramidViewAvatarPrefab_} {}
     // Get instance field reference: private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
     GlobalNamespace::MultiplayerScoreRingItem*& dyn__inEnvironmentTextsPrefab();
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab

@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class SdkAccountList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::SdkAccount*> {
     public:
-    // Creating value type constructor for type: SdkAccountList
-    SdkAccountList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x16BDA78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

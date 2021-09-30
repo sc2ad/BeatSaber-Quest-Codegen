@@ -37,8 +37,6 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Helper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: X509Helper
-    X509Helper() noexcept {}
     // Get static field: static private System.Security.Cryptography.X509Certificates.INativeCertificateHelper nativeHelper
     static System::Security::Cryptography::X509Certificates::INativeCertificateHelper* _get_nativeHelper();
     // Set static field: static private System.Security.Cryptography.X509Certificates.INativeCertificateHelper nativeHelper

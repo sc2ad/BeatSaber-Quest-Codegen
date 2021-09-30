@@ -43,8 +43,6 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECGost3410NamedCurves : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ECGost3410NamedCurves
-    ECGost3410NamedCurves() noexcept {}
     // Get static field: static readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static readonly System.Collections.IDictionary objIds

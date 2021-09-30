@@ -41,8 +41,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* Room;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // Creating value type constructor for type: MatchmakingEnqueueResultAndRoom
-    MatchmakingEnqueueResultAndRoom(Oculus::Platform::Models::MatchmakingEnqueueResult* MatchmakingEnqueueResult_ = {}, Oculus::Platform::Models::Room* Room_ = {}) noexcept : MatchmakingEnqueueResult{MatchmakingEnqueueResult_}, Room{Room_} {}
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult
     Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_MatchmakingEnqueueResult();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room

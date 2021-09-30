@@ -76,8 +76,6 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_Operation;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle) == 0x18);
-    // Creating value type constructor for type: AssetReference
-    AssetReference(::Il2CppString* m_AssetGUID_ = {}, ::Il2CppString* m_SubObjectName_ = {}, ::Il2CppString* m_SubObjectType_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_Operation_ = {}) noexcept : m_AssetGUID{m_AssetGUID_}, m_SubObjectName{m_SubObjectName_}, m_SubObjectType{m_SubObjectType_}, m_Operation{m_Operation_} {}
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::IKeyEvaluator
     operator UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::IKeyEvaluator*>(this);

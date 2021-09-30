@@ -53,8 +53,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumBuilder : public System::Reflection::TypeInfo {
     public:
-    // Creating value type constructor for type: EnumBuilder
-    EnumBuilder() noexcept {}
     // public override System.Reflection.Assembly get_Assembly()
     // Offset: 0x1EA5B34
     // Implemented from: System.Type

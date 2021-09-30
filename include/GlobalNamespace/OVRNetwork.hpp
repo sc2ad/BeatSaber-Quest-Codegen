@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     class OVRNetworkTcpServer;
     // Nested type: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient
     class OVRNetworkTcpClient;
-    // Creating value type constructor for type: OVRNetwork
-    OVRNetwork() noexcept {}
     // static field const value: static public System.Int32 MaxBufferLength
     static constexpr const int MaxBufferLength = 65536;
     // Get static field: static public System.Int32 MaxBufferLength

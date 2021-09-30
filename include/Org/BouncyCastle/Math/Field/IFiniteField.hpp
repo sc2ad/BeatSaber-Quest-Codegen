@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFiniteField {
     public:
-    // Creating value type constructor for type: IFiniteField
-    IFiniteField() noexcept {}
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();

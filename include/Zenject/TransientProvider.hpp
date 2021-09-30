@@ -81,8 +81,6 @@ namespace Zenject {
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*) == 0x8);
-    // Creating value type constructor for type: TransientProvider
-    TransientProvider(Zenject::DiContainer* container_ = {}, System::Type* concreteType_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArguments_ = {}, ::Il2CppObject* concreteIdentifier_ = {}, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback_ = {}) noexcept : container{container_}, concreteType{concreteType_}, extraArguments{extraArguments_}, concreteIdentifier{concreteIdentifier_}, instantiateCallback{instantiateCallback_} {}
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

@@ -117,8 +117,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*) == 0x8);
-    // Creating value type constructor for type: SettingsFlowCoordinator
-    SettingsFlowCoordinator(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::MainSettingsMenuViewController* mainSettingsMenuViewController_ = {}, GlobalNamespace::SettingsNavigationController* settingsNavigationController_ = {}, System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* didFinishEvent_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, mainSettingsMenuViewController{mainSettingsMenuViewController_}, settingsNavigationController{settingsNavigationController_}, didFinishEvent{didFinishEvent_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0E43C
     // Get static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
     static int _get__selectedSettingsSubMenuInfoIdx();

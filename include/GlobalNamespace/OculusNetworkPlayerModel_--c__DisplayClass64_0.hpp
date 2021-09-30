@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     uint64_t userId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass64_0
-    $$c__DisplayClass64_0(GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs_ = {}, uint64_t userId_ = {}) noexcept : $$4__this{$$4__this_}, tcs{tcs_}, userId{userId_} {}
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
     GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs

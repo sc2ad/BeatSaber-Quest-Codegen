@@ -39,8 +39,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetFile : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AssetFile
-    AssetFile() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDeleteResult> Delete(System.UInt64 assetFileID)
     // Offset: 0x1D1ACC4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* Delete(uint64_t assetFileID);

@@ -24,8 +24,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E85C24
   class SphereCollider : public UnityEngine::Collider {
     public:
-    // Creating value type constructor for type: SphereCollider
-    SphereCollider() noexcept {}
     // public System.Void set_center(UnityEngine.Vector3 value)
     // Offset: 0x260FE54
     void set_center(UnityEngine::Vector3 value);

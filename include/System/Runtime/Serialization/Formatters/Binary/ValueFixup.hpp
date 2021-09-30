@@ -83,8 +83,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* memberName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ValueFixup
-    ValueFixup(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum_ = {}, System::Array* arrayObj_ = {}, ::ArrayWrapper<int> indexMap_ = {}, ::Il2CppObject* header_ = {}, ::Il2CppObject* memberObject_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo_ = {}, ::Il2CppString* memberName_ = {}) noexcept : valueFixupEnum{valueFixupEnum_}, arrayObj{arrayObj_}, indexMap{indexMap_}, header{header_}, memberObject{memberObject_}, objectInfo{objectInfo_}, memberName{memberName_} {}
     // Get static field: static System.Reflection.MemberInfo valueInfo
     static System::Reflection::MemberInfo* _get_valueInfo();
     // Set static field: static System.Reflection.MemberInfo valueInfo

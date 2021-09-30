@@ -27,8 +27,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISimpleTestBuilder {
     public:
-    // Creating value type constructor for type: ISimpleTestBuilder
-    ISimpleTestBuilder() noexcept {}
     // public NUnit.Framework.Internal.TestMethod BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestMethod* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);

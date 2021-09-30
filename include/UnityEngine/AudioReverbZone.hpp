@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E9ED28
   class AudioReverbZone : public UnityEngine::Behaviour {
     public:
-    // Creating value type constructor for type: AudioReverbZone
-    AudioReverbZone() noexcept {}
   }; // UnityEngine.AudioReverbZone
   #pragma pack(pop)
 }

@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class CryptoProObjectIdentifiers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CryptoProObjectIdentifiers
-    CryptoProObjectIdentifiers() noexcept {}
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier GostR3411
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_GostR3411();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier GostR3411

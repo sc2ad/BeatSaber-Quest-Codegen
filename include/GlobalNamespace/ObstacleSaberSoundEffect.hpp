@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     float targetVolume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ObstacleSaberSoundEffect
-    ObstacleSaberSoundEffect(GlobalNamespace::ObstacleSaberSparkleEffectManager* obstacleSaberSparkleEffectManager_ = {}, GlobalNamespace::SaberType saberType_ = {}, UnityEngine::AudioSource* audioSource_ = {}, float volume_ = {}, float targetVolume_ = {}) noexcept : obstacleSaberSparkleEffectManager{obstacleSaberSparkleEffectManager_}, saberType{saberType_}, audioSource{audioSource_}, volume{volume_}, targetVolume{targetVolume_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSmooth

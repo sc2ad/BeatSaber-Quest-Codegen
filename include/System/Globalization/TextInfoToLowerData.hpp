@@ -14,8 +14,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextInfoToLowerData : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TextInfoToLowerData
-    TextInfoToLowerData() noexcept {}
     // Get static field: static public readonly System.Char[] range_00c0_0556
     static ::ArrayWrapper<::Il2CppChar> _get_range_00c0_0556();
     // Set static field: static public readonly System.Char[] range_00c0_0556

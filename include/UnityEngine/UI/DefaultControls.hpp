@@ -46,8 +46,6 @@ namespace UnityEngine::UI {
     class DefaultRuntimeFactory;
     // Nested type: UnityEngine::UI::DefaultControls::Resources
     struct Resources;
-    // Creating value type constructor for type: DefaultControls
-    DefaultControls() noexcept {}
     // Get static field: static private UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls m_CurrentFactory
     static UnityEngine::UI::DefaultControls::IFactoryControls* _get_m_CurrentFactory();
     // Set static field: static private UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls m_CurrentFactory

@@ -48,8 +48,6 @@ namespace System::Net::NetworkInformation {
     System::Net::IPAddress* ipv4Mask;
     // Field size check
     static_assert(sizeof(System::Net::IPAddress*) == 0x8);
-    // Creating value type constructor for type: Win32UnicastIPAddressInformation
-    Win32UnicastIPAddressInformation(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info_ = {}, System::Net::IPAddress* ipv4Mask_ = {}) noexcept : info{info_}, ipv4Mask{ipv4Mask_} {}
     // Get instance field reference: private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
     System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS& dyn_info();
     // Get instance field reference: private System.Net.IPAddress ipv4Mask

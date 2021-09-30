@@ -51,7 +51,6 @@ namespace System::Runtime::InteropServices {
     System::IntPtr get_Handle();
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
     // Offset: 0x15AF5DC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HandleRef(::Il2CppObject* wrapper, System::IntPtr handle)
   }; // System.Runtime.InteropServices.HandleRef
   #pragma pack(pop)

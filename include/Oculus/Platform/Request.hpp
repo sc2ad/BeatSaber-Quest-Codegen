@@ -32,8 +32,6 @@ namespace Oculus::Platform {
     uint64_t RequestID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    // Creating value type constructor for type: Request
-    Request(Oculus::Platform::Message::Callback* callback_ = {}, uint64_t RequestID_ = {}) noexcept : callback{callback_}, RequestID{RequestID_} {}
     // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
     Oculus::Platform::Message::Callback*& dyn_callback_();
     // Get instance field reference: private System.UInt64 <RequestID>k__BackingField

@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDerivationFunction {
     public:
-    // Creating value type constructor for type: IDerivationFunction
-    IDerivationFunction() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
     // Offset: 0xFFFFFFFF
     void Init(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);

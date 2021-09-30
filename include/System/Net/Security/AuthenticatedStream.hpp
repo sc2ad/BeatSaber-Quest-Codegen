@@ -32,8 +32,6 @@ namespace System::Net::Security {
     bool LeaveStreamOpen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AuthenticatedStream
-    AuthenticatedStream(System::IO::Stream* InnerStream_ = {}, bool LeaveStreamOpen_ = {}) noexcept : InnerStream{InnerStream_}, LeaveStreamOpen{LeaveStreamOpen_} {}
     // Get instance field reference: private System.IO.Stream _InnerStream
     System::IO::Stream*& dyn__InnerStream();
     // Get instance field reference: private System.Boolean _LeaveStreamOpen

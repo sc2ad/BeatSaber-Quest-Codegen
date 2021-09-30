@@ -54,8 +54,6 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*) == 0x8);
-    // Creating value type constructor for type: ToggleGroup
-    ToggleGroup(bool m_AllowSwitchOff_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles_ = {}) noexcept : m_AllowSwitchOff{m_AllowSwitchOff_}, m_Toggles{m_Toggles_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean m_AllowSwitchOff

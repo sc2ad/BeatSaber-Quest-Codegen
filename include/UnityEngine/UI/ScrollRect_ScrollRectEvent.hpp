@@ -23,8 +23,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScrollRect::ScrollRectEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2> {
     public:
-    // Creating value type constructor for type: ScrollRectEvent
-    ScrollRectEvent() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B53BC8
     // Implemented from: UnityEngine.Events.UnityEvent`1

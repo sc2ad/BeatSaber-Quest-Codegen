@@ -421,7 +421,6 @@ namespace System {
     int get_Year();
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0x1B21218
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int64_t ticks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks)})));
@@ -429,11 +428,9 @@ namespace System {
     }
     // private System.Void .ctor(System.UInt64 dateData)
     // Offset: 0x1B24458
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DateTime(uint64_t dateData)
     // public System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind)
     // Offset: 0x1B24460
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int64_t ticks, System::DateTimeKind kind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks), ::il2cpp_utils::ExtractType(kind)})));
@@ -441,7 +438,6 @@ namespace System {
     }
     // System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind, System.Boolean isAmbiguousDst)
     // Offset: 0x1B24580
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks), ::il2cpp_utils::ExtractType(kind), ::il2cpp_utils::ExtractType(isAmbiguousDst)})));
@@ -449,7 +445,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day)
     // Offset: 0x1B2465C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day)})));
@@ -457,7 +452,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.DateTimeKind kind)
     // Offset: 0x1B248D4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day, int hour, int minute, int second, System::DateTimeKind kind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day), ::il2cpp_utils::ExtractType(hour), ::il2cpp_utils::ExtractType(minute), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(kind)})));
@@ -465,7 +459,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
     // Offset: 0x1B24AF0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day), ::il2cpp_utils::ExtractType(hour), ::il2cpp_utils::ExtractType(minute), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(millisecond)})));
@@ -473,7 +466,6 @@ namespace System {
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.DateTimeKind kind)
     // Offset: 0x1B24D14
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTimeKind kind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day), ::il2cpp_utils::ExtractType(hour), ::il2cpp_utils::ExtractType(minute), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(millisecond), ::il2cpp_utils::ExtractType(kind)})));
@@ -481,7 +473,6 @@ namespace System {
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1B24F94
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));

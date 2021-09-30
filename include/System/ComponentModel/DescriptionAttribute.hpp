@@ -27,8 +27,6 @@ namespace System::ComponentModel {
     ::Il2CppString* description;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DescriptionAttribute
-    DescriptionAttribute(::Il2CppString* description_ = {}) noexcept : description{description_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return description;

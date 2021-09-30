@@ -84,8 +84,6 @@ namespace UnityEngine::Timeline {
     int $$7__wrap2;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: $GetControlableScripts$d__39
-    $GetControlableScripts$d__39(int $$1__state_ = {}, UnityEngine::MonoBehaviour* $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::GameObject* root_ = {}, UnityEngine::GameObject* $$3__root_ = {}, ::ArrayWrapper<UnityEngine::MonoBehaviour*> $$7__wrap1_ = {}, int $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, root{root_}, $$3__root{$$3__root_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(this);

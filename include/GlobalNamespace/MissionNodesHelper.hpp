@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionNodesHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MissionNodesHelper
-    MissionNodesHelper() noexcept {}
     // static public System.Collections.Generic.HashSet`1<MissionNode> GetAllNodesFromRoot(MissionNode root)
     // Offset: 0x118A308
     static System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllNodesFromRoot(GlobalNamespace::MissionNode* root);

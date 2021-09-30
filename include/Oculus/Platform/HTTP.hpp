@@ -14,8 +14,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class HTTP : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HTTP
-    HTTP() noexcept {}
   }; // Oculus.Platform.HTTP
   #pragma pack(pop)
 }

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class OutputLengthException : public Org::BouncyCastle::Crypto::DataLengthException {
     public:
-    // Creating value type constructor for type: OutputLengthException
-    OutputLengthException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x138FAEC
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException

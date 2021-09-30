@@ -20,8 +20,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E72C6C
   class YieldInstruction : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: YieldInstruction
-    YieldInstruction() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x234EA80
     // Implemented from: System.Object

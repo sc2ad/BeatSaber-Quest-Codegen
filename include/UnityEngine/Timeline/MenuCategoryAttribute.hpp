@@ -27,8 +27,6 @@ namespace UnityEngine::Timeline {
     ::Il2CppString* category;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MenuCategoryAttribute
-    MenuCategoryAttribute(::Il2CppString* category_ = {}) noexcept : category{category_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return category;

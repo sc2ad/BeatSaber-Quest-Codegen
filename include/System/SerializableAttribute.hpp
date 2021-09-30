@@ -22,8 +22,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C640
   class SerializableAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: SerializableAttribute
-    SerializableAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1DE723C
     // Implemented from: System.Attribute

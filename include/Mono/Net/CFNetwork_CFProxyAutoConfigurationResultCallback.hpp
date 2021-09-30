@@ -31,8 +31,6 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFNetwork::CFProxyAutoConfigurationResultCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: CFProxyAutoConfigurationResultCallback
-    CFProxyAutoConfigurationResultCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17B78B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

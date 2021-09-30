@@ -119,8 +119,6 @@ namespace System::Runtime::Serialization {
     bool requireSameTokenInPartialTrust;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SerializationInfo
-    SerializationInfo(::ArrayWrapper<::Il2CppString*> m_members_ = {}, ::ArrayWrapper<::Il2CppObject*> m_data_ = {}, ::ArrayWrapper<System::Type*> m_types_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* m_nameToIndex_ = {}, int m_currMember_ = {}, System::Runtime::Serialization::IFormatterConverter* m_converter_ = {}, ::Il2CppString* m_fullTypeName_ = {}, ::Il2CppString* m_assemName_ = {}, System::Type* objectType_ = {}, bool isFullTypeNameSetExplicit_ = {}, bool isAssemblyNameSetExplicit_ = {}, bool requireSameTokenInPartialTrust_ = {}) noexcept : m_members{m_members_}, m_data{m_data_}, m_types{m_types_}, m_nameToIndex{m_nameToIndex_}, m_currMember{m_currMember_}, m_converter{m_converter_}, m_fullTypeName{m_fullTypeName_}, m_assemName{m_assemName_}, objectType{objectType_}, isFullTypeNameSetExplicit{isFullTypeNameSetExplicit_}, isAssemblyNameSetExplicit{isAssemblyNameSetExplicit_}, requireSameTokenInPartialTrust{requireSameTokenInPartialTrust_} {}
     // static field const value: static private System.Int32 defaultSize
     static constexpr const int defaultSize = 4;
     // Get static field: static private System.Int32 defaultSize

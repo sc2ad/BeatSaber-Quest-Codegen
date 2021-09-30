@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BoolSignal : public GlobalNamespace::GenericSignal_1<bool> {
     public:
-    // Creating value type constructor for type: BoolSignal
-    BoolSignal() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1378EE0
     // Implemented from: GenericSignal`1

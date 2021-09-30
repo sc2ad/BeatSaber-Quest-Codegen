@@ -41,8 +41,6 @@ namespace LiteNetLib::Utils {
     System::Func_1<TProperty>* constructor;
     // Field size check
     static_assert(sizeof(System::Func_1<TProperty>*) == 0x8);
-    // Creating value type constructor for type: CustomTypeClass_1
-    CustomTypeClass_1(System::Func_1<TProperty>* constructor_ = {}) noexcept : constructor{constructor_} {}
     // Creating conversion operator: operator System::Func_1<TProperty>*
     constexpr operator System::Func_1<TProperty>*() const noexcept {
       return constructor;

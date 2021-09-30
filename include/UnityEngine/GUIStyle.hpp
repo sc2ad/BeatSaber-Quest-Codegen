@@ -129,8 +129,6 @@ namespace UnityEngine {
     ::Il2CppString* m_Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: GUIStyle
-    GUIStyle(System::IntPtr m_Ptr_ = {}, UnityEngine::GUIStyleState* m_Normal_ = {}, UnityEngine::GUIStyleState* m_Hover_ = {}, UnityEngine::GUIStyleState* m_Active_ = {}, UnityEngine::GUIStyleState* m_Focused_ = {}, UnityEngine::GUIStyleState* m_OnNormal_ = {}, UnityEngine::GUIStyleState* m_OnHover_ = {}, UnityEngine::GUIStyleState* m_OnActive_ = {}, UnityEngine::GUIStyleState* m_OnFocused_ = {}, UnityEngine::RectOffset* m_Border_ = {}, UnityEngine::RectOffset* m_Padding_ = {}, UnityEngine::RectOffset* m_Margin_ = {}, UnityEngine::RectOffset* m_Overflow_ = {}, ::Il2CppString* m_Name_ = {}) noexcept : m_Ptr{m_Ptr_}, m_Normal{m_Normal_}, m_Hover{m_Hover_}, m_Active{m_Active_}, m_Focused{m_Focused_}, m_OnNormal{m_OnNormal_}, m_OnHover{m_OnHover_}, m_OnActive{m_OnActive_}, m_OnFocused{m_OnFocused_}, m_Border{m_Border_}, m_Padding{m_Padding_}, m_Margin{m_Margin_}, m_Overflow{m_Overflow_}, m_Name{m_Name_} {}
     // Get static field: static System.Boolean showKeyboardFocus
     static bool _get_showKeyboardFocus();
     // Set static field: static System.Boolean showKeyboardFocus

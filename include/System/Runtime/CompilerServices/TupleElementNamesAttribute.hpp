@@ -28,8 +28,6 @@ namespace System::Runtime::CompilerServices {
     ::ArrayWrapper<::Il2CppString*> transformNames;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
-    // Creating value type constructor for type: TupleElementNamesAttribute
-    TupleElementNamesAttribute(::ArrayWrapper<::Il2CppString*> transformNames_ = {}) noexcept : transformNames{transformNames_} {}
     // Creating conversion operator: operator ::ArrayWrapper<::Il2CppString*>
     constexpr operator ::ArrayWrapper<::Il2CppString*>() const noexcept {
       return transformNames;

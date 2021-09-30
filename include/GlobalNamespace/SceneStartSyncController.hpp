@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     bool sceneSyncStarted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SceneStartSyncController
-    SceneStartSyncController(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager_ = {}, System::Action_1<::Il2CppString*>* syncStartDidSuccessEvent_ = {}, System::Action_1<::Il2CppString*>* syncStartDidReceiveTooLateEvent_ = {}, System::Action* syncStartDidFailEvent_ = {}, GlobalNamespace::SceneStartHandler* sceneStartHandler_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel_ = {}, float waitStartTime_ = {}, bool sceneSyncStarted_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, gameplayRpcManager{gameplayRpcManager_}, syncStartDidSuccessEvent{syncStartDidSuccessEvent_}, syncStartDidReceiveTooLateEvent{syncStartDidReceiveTooLateEvent_}, syncStartDidFailEvent{syncStartDidFailEvent_}, sceneStartHandler{sceneStartHandler_}, playersAtGameStartModel{playersAtGameStartModel_}, waitStartTime{waitStartTime_}, sceneSyncStarted{sceneSyncStarted_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLoadOtherTimeout

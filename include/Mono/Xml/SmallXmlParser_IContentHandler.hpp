@@ -16,8 +16,6 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParser::IContentHandler {
     public:
-    // Creating value type constructor for type: IContentHandler
-    IContentHandler() noexcept {}
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0xFFFFFFFF
     void OnStartParsing(Mono::Xml::SmallXmlParser* parser);

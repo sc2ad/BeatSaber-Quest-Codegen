@@ -20,8 +20,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPrefabProvider {
     public:
-    // Creating value type constructor for type: IPrefabProvider
-    IPrefabProvider() noexcept {}
     // public UnityEngine.Object GetPrefab()
     // Offset: 0xFFFFFFFF
     UnityEngine::Object* GetPrefab();

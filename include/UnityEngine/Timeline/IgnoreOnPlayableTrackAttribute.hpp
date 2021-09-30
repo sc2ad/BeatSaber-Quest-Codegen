@@ -21,8 +21,6 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB9668
   class IgnoreOnPlayableTrackAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: IgnoreOnPlayableTrackAttribute
-    IgnoreOnPlayableTrackAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x19FB608
     // Implemented from: System.Attribute

@@ -80,8 +80,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* RequestHash;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MatchmakingEnqueueResult
-    MatchmakingEnqueueResult(Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional_ = {}, Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshot_ = {}, uint AverageWait_ = {}, uint MatchesInLastHourCount_ = {}, uint MaxExpectedWait_ = {}, ::Il2CppString* Pool_ = {}, uint RecentMatchPercentage_ = {}, ::Il2CppString* RequestHash_ = {}) noexcept : AdminSnapshotOptional{AdminSnapshotOptional_}, AdminSnapshot{AdminSnapshot_}, AverageWait{AverageWait_}, MatchesInLastHourCount{MatchesInLastHourCount_}, MaxExpectedWait{MaxExpectedWait_}, Pool{Pool_}, RecentMatchPercentage{RecentMatchPercentage_}, RequestHash{RequestHash_} {}
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
     Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot

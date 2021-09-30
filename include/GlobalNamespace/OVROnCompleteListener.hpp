@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVROnCompleteListener : public UnityEngine::AndroidJavaProxy {
     public:
-    // Creating value type constructor for type: OVROnCompleteListener
-    OVROnCompleteListener() noexcept {}
     // public System.Void onSuccess()
     // Offset: 0xFFFFFFFF
     void onSuccess();

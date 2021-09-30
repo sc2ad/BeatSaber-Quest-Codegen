@@ -60,8 +60,6 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* media_type;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MediaTypeHeaderValue
-    MediaTypeHeaderValue(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters_ = {}, ::Il2CppString* media_type_ = {}) noexcept : parameters{parameters_}, media_type{media_type_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

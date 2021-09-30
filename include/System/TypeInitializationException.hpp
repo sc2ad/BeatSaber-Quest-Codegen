@@ -38,8 +38,6 @@ namespace System {
     ::Il2CppString* typeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TypeInitializationException
-    TypeInitializationException(::Il2CppString* typeName_ = {}) noexcept : typeName{typeName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return typeName;

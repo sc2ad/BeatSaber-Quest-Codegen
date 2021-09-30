@@ -31,8 +31,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignerUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SignerUtilities
-    SignerUtilities() noexcept {}
     // Get static field: static readonly System.Collections.IDictionary algorithms
     static System::Collections::IDictionary* _get_algorithms();
     // Set static field: static readonly System.Collections.IDictionary algorithms

@@ -83,8 +83,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* songPackSerializedNames;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: SongPacksDropdown
-    SongPacksDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, bool initialized_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* songPackSerializedNames_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, songPackMaskModel{songPackMaskModel_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, initialized{initialized_}, songPackSerializedNames{songPackSerializedNames_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

@@ -37,8 +37,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CD28
   class ResolveEventHandler : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: ResolveEventHandler
-    ResolveEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15A5194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

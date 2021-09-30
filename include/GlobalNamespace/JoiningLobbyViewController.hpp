@@ -61,8 +61,6 @@ namespace GlobalNamespace {
     System::Action* didCancelEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: JoiningLobbyViewController
-    JoiningLobbyViewController(UnityEngine::UI::Button* cancelJoiningButton_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, ::Il2CppString* text_ = {}, System::Action* didCancelEvent_ = {}) noexcept : cancelJoiningButton{cancelJoiningButton_}, loadingControl{loadingControl_}, text{text_}, didCancelEvent{didCancelEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _cancelJoiningButton
     UnityEngine::UI::Button*& dyn__cancelJoiningButton();
     // Get instance field reference: private LoadingControl _loadingControl

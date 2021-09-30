@@ -61,8 +61,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DD38
   class FieldInfo : public System::Reflection::MemberInfo/*, public System::Runtime::InteropServices::_FieldInfo*/ {
     public:
-    // Creating value type constructor for type: FieldInfo
-    FieldInfo() noexcept {}
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_FieldInfo
     operator System::Runtime::InteropServices::_FieldInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_FieldInfo*>(this);

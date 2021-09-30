@@ -107,8 +107,6 @@ namespace Mono::Security::Cryptography {
     System::Security::Cryptography::RandomNumberGenerator* rng;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
-    // Creating value type constructor for type: SymmetricTransform
-    SymmetricTransform(System::Security::Cryptography::SymmetricAlgorithm* algo_ = {}, bool encrypt_ = {}, int BlockSizeByte_ = {}, ::ArrayWrapper<uint8_t> temp_ = {}, ::ArrayWrapper<uint8_t> temp2_ = {}, ::ArrayWrapper<uint8_t> workBuff_ = {}, ::ArrayWrapper<uint8_t> workout_ = {}, System::Security::Cryptography::PaddingMode padmode_ = {}, int FeedBackByte_ = {}, bool m_disposed_ = {}, bool lastBlock_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}) noexcept : algo{algo_}, encrypt{encrypt_}, BlockSizeByte{BlockSizeByte_}, temp{temp_}, temp2{temp2_}, workBuff{workBuff_}, workout{workout_}, padmode{padmode_}, FeedBackByte{FeedBackByte_}, m_disposed{m_disposed_}, lastBlock{lastBlock_}, rng{rng_} {}
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);

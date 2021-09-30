@@ -56,8 +56,6 @@ namespace UnityEngine {
     bool m_DefaultBool;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AnimatorControllerParameter
-    AnimatorControllerParameter(::Il2CppString* m_Name_ = {}, UnityEngine::AnimatorControllerParameterType m_Type_ = {}, float m_DefaultFloat_ = {}, int m_DefaultInt_ = {}, bool m_DefaultBool_ = {}) noexcept : m_Name{m_Name_}, m_Type{m_Type_}, m_DefaultFloat{m_DefaultFloat_}, m_DefaultInt{m_DefaultInt_}, m_DefaultBool{m_DefaultBool_} {}
     // Get instance field reference: System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: UnityEngine.AnimatorControllerParameterType m_Type

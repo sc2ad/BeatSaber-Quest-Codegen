@@ -52,8 +52,6 @@ namespace Zenject {
     System::Type* concreteType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass178_0
-    $$c__DisplayClass178_0(Zenject::DiContainer* $$4__this_ = {}, System::Type* contractType_ = {}, ::Il2CppObject* identifier_ = {}, System::Type* concreteType_ = {}) noexcept : $$4__this{$$4__this_}, contractType{contractType_}, identifier{identifier_}, concreteType{concreteType_} {}
     // Get instance field reference: public Zenject.DiContainer <>4__this
     Zenject::DiContainer*& dyn_$$4__this();
     // Get instance field reference: public System.Type contractType

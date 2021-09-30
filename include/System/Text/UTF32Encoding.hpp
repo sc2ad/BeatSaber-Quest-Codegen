@@ -53,8 +53,6 @@ namespace System::Text {
     bool bigEndian;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UTF32Encoding
-    UTF32Encoding(bool emitUTF32ByteOrderMark_ = {}, bool isThrowException_ = {}, bool bigEndian_ = {}) noexcept : emitUTF32ByteOrderMark{emitUTF32ByteOrderMark_}, isThrowException{isThrowException_}, bigEndian{bigEndian_} {}
     // Get instance field reference: private System.Boolean emitUTF32ByteOrderMark
     bool& dyn_emitUTF32ByteOrderMark();
     // Get instance field reference: private System.Boolean isThrowException

@@ -31,8 +31,6 @@ namespace Mono::Util {
   // [ConditionalAttribute] Offset: E68B58
   class MonoPInvokeCallbackAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: MonoPInvokeCallbackAttribute
-    MonoPInvokeCallbackAttribute() noexcept {}
     // public System.Void .ctor(System.Type t)
     // Offset: 0x1A1C324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

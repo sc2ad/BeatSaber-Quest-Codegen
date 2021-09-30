@@ -22,8 +22,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: E6FD58
   class NativeContainerSupportsMinMaxWriteRestrictionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: NativeContainerSupportsMinMaxWriteRestrictionAttribute
-    NativeContainerSupportsMinMaxWriteRestrictionAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1CA9B88
     // Implemented from: System.Attribute

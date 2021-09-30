@@ -63,8 +63,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGenericProviderOperation {
     public:
-    // Creating value type constructor for type: IGenericProviderOperation
-    IGenericProviderOperation() noexcept {}
     // public System.Int32 get_ProvideHandleVersion()
     // Offset: 0xFFFFFFFF
     int get_ProvideHandleVersion();

@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConfigSerializer : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ConfigSerializer
-    ConfigSerializer() noexcept {}
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
     // Offset: 0x1379BE8
     static void SaveConfig(::Il2CppObject* config, ::Il2CppString* filePath);

@@ -78,7 +78,6 @@ namespace UnityEngine {
       System::Threading::ManualResetEvent*& dyn_m_WaitHandle();
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
       // Offset: 0x2349FEC
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  WorkRequest(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle)
       // public System.Void Invoke()
       // Offset: 0x234A2AC
@@ -111,8 +110,6 @@ namespace UnityEngine {
     int m_TrackedCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: UnitySynchronizationContext
-    UnitySynchronizationContext(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_AsyncWorkQueue_ = {}, System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_CurrentFrameWork_ = {}, int m_MainThreadID_ = {}, int m_TrackedCount_ = {}) noexcept : m_AsyncWorkQueue{m_AsyncWorkQueue_}, m_CurrentFrameWork{m_CurrentFrameWork_}, m_MainThreadID{m_MainThreadID_}, m_TrackedCount{m_TrackedCount_} {}
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue

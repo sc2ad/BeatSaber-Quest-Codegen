@@ -109,8 +109,6 @@ namespace GlobalNamespace {
     UnityEngine::TextAsset* creditsContentTextAsset;
     // Field size check
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
-    // Creating value type constructor for type: CreditsContent
-    CreditsContent(UnityEngine::GameObject* normalTextPrefab_ = {}, UnityEngine::GameObject* normalLocalizedTextPrefab_ = {}, UnityEngine::GameObject* titleTextPrefab_ = {}, UnityEngine::GameObject* titleLocalizedTextPrefab_ = {}, UnityEngine::GameObject* headerTextPrefab_ = {}, UnityEngine::GameObject* headerLocalizedTextPrefab_ = {}, int columnCount_ = {}, float spaceHeight_ = {}, float titleHeight_ = {}, UnityEngine::Transform* contentRoot_ = {}, UnityEngine::RectTransform* rootRectTransform_ = {}, UnityEngine::TextAsset* creditsContentTextAsset_ = {}) noexcept : normalTextPrefab{normalTextPrefab_}, normalLocalizedTextPrefab{normalLocalizedTextPrefab_}, titleTextPrefab{titleTextPrefab_}, titleLocalizedTextPrefab{titleLocalizedTextPrefab_}, headerTextPrefab{headerTextPrefab_}, headerLocalizedTextPrefab{headerLocalizedTextPrefab_}, columnCount{columnCount_}, spaceHeight{spaceHeight_}, titleHeight{titleHeight_}, contentRoot{contentRoot_}, rootRectTransform{rootRectTransform_}, creditsContentTextAsset{creditsContentTextAsset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _normalTextPrefab

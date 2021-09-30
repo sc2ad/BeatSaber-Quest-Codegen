@@ -27,8 +27,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriFormatException : public System::FormatException {
     public:
-    // Creating value type constructor for type: UriFormatException
-    UriFormatException() noexcept {}
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Offset: 0x25F2844
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

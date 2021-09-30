@@ -57,8 +57,6 @@ namespace HMUI {
     float $elapsedTime$5__2;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $AnimationCoroutine$d__8
-    $AnimationCoroutine$d__8(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, System::Action_1<float>* transitionAnimation_ = {}, float $elapsedTime$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, transitionAnimation{transitionAnimation_}, $elapsedTime$5__2{$elapsedTime$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

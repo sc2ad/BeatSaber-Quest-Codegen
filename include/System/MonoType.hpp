@@ -16,8 +16,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoType : public System::RuntimeType {
     public:
-    // Creating value type constructor for type: MonoType
-    MonoType() noexcept {}
   }; // System.MonoType
   #pragma pack(pop)
 }

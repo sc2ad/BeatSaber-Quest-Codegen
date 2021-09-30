@@ -14,8 +14,6 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StringUtil
-    StringUtil() noexcept {}
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
     // Offset: 0x24A00B0
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);

@@ -102,8 +102,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AutoSetupData* autoSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AutoSetupData*) == 0x8);
-    // Creating value type constructor for type: AutoSetupController
-    AutoSetupController(UnityEngine::UI::Button* closeButton_ = {}, UnityEngine::UI::Toggle* selectBasedOnSuggestionsToggle_ = {}, UnityEngine::UI::Toggle* autoStartWhenAllReadyToggle_ = {}, UnityEngine::UI::Toggle* forceAutoStartAfterSongSelectionToggle_ = {}, UnityEngine::UI::Toggle* randomSongIfNoneSuggestedToggle_ = {}, System::Action_1<GlobalNamespace::AutoSetupData*>* didFinishEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, GlobalNamespace::AutoSetupData* autoSetupData_ = {}) noexcept : closeButton{closeButton_}, selectBasedOnSuggestionsToggle{selectBasedOnSuggestionsToggle_}, autoStartWhenAllReadyToggle{autoStartWhenAllReadyToggle_}, forceAutoStartAfterSongSelectionToggle{forceAutoStartAfterSongSelectionToggle_}, randomSongIfNoneSuggestedToggle{randomSongIfNoneSuggestedToggle_}, didFinishEvent{didFinishEvent_}, buttonBinder{buttonBinder_}, toggleBinder{toggleBinder_}, autoSetupData{autoSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _closeButton

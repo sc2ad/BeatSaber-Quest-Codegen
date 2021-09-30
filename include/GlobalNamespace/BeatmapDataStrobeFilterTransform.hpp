@@ -29,8 +29,6 @@ namespace GlobalNamespace {
     class StrobeStreakData;
     // Nested type: GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0
     struct $$c__DisplayClass2_0;
-    // Creating value type constructor for type: BeatmapDataStrobeFilterTransform
-    BeatmapDataStrobeFilterTransform() noexcept {}
     // static field const value: static private System.Single kMaxSecondsToConsiderStrobe
     static constexpr const float kMaxSecondsToConsiderStrobe = 0.1;
     // Get static field: static private System.Single kMaxSecondsToConsiderStrobe

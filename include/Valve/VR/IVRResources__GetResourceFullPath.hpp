@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB66A4
   class IVRResources::_GetResourceFullPath : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _GetResourceFullPath
-    _GetResourceFullPath() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1ED3E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

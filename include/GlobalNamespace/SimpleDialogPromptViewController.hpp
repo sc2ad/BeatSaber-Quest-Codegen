@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     System::Action_1<int>* didFinishAction;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
-    // Creating value type constructor for type: SimpleDialogPromptViewController
-    SimpleDialogPromptViewController(TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* messageText_ = {}, ::ArrayWrapper<UnityEngine::UI::Button*> buttons_ = {}, ::ArrayWrapper<TMPro::TextMeshProUGUI*> buttonTexts_ = {}, System::Action_1<int>* didFinishAction_ = {}) noexcept : titleText{titleText_}, messageText{messageText_}, buttons{buttons_}, buttonTexts{buttonTexts_}, didFinishAction{didFinishAction_} {}
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
     TMPro::TextMeshProUGUI*& dyn__titleText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _messageText

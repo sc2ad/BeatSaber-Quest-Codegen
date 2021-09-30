@@ -286,8 +286,6 @@ namespace UnityEngine::UI {
     float m_PrevReferencePixelsPerUnit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: CanvasScaler
-    CanvasScaler(UnityEngine::UI::CanvasScaler::ScaleMode m_UiScaleMode_ = {}, float m_ReferencePixelsPerUnit_ = {}, float m_ScaleFactor_ = {}, UnityEngine::Vector2 m_ReferenceResolution_ = {}, UnityEngine::UI::CanvasScaler::ScreenMatchMode m_ScreenMatchMode_ = {}, float m_MatchWidthOrHeight_ = {}, UnityEngine::UI::CanvasScaler::Unit m_PhysicalUnit_ = {}, float m_FallbackScreenDPI_ = {}, float m_DefaultSpriteDPI_ = {}, float m_DynamicPixelsPerUnit_ = {}, UnityEngine::Canvas* m_Canvas_ = {}, float m_PrevScaleFactor_ = {}, float m_PrevReferencePixelsPerUnit_ = {}) noexcept : m_UiScaleMode{m_UiScaleMode_}, m_ReferencePixelsPerUnit{m_ReferencePixelsPerUnit_}, m_ScaleFactor{m_ScaleFactor_}, m_ReferenceResolution{m_ReferenceResolution_}, m_ScreenMatchMode{m_ScreenMatchMode_}, m_MatchWidthOrHeight{m_MatchWidthOrHeight_}, m_PhysicalUnit{m_PhysicalUnit_}, m_FallbackScreenDPI{m_FallbackScreenDPI_}, m_DefaultSpriteDPI{m_DefaultSpriteDPI_}, m_DynamicPixelsPerUnit{m_DynamicPixelsPerUnit_}, m_Canvas{m_Canvas_}, m_PrevScaleFactor{m_PrevScaleFactor_}, m_PrevReferencePixelsPerUnit{m_PrevReferencePixelsPerUnit_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLogBase

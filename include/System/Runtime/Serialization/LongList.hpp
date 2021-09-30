@@ -42,8 +42,6 @@ namespace System::Runtime::Serialization {
     int m_currentItem;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LongList
-    LongList(::ArrayWrapper<int64_t> m_values_ = {}, int m_count_ = {}, int m_totalItems_ = {}, int m_currentItem_ = {}) noexcept : m_values{m_values_}, m_count{m_count_}, m_totalItems{m_totalItems_}, m_currentItem{m_currentItem_} {}
     // Get instance field reference: private System.Int64[] m_values
     ::ArrayWrapper<int64_t>& dyn_m_values();
     // Get instance field reference: private System.Int32 m_count

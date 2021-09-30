@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerBrowserFlowCoordinator : public HMUI::FlowCoordinator {
     public:
-    // Creating value type constructor for type: GameServerBrowserFlowCoordinator
-    GameServerBrowserFlowCoordinator() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x11D7470
     // Implemented from: HMUI.FlowCoordinator

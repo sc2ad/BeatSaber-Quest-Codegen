@@ -41,8 +41,6 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   class LegacyResourcesLocator : public ::Il2CppObject/*, public UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*/ {
     public:
-    // Creating value type constructor for type: LegacyResourcesLocator
-    LegacyResourcesLocator() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator
     operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);

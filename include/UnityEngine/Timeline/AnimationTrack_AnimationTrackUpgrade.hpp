@@ -16,8 +16,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationTrack::AnimationTrackUpgrade : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AnimationTrackUpgrade
-    AnimationTrackUpgrade() noexcept {}
     // static public System.Void ConvertRotationsToEuler(UnityEngine.Timeline.AnimationTrack track)
     // Offset: 0x19F3C80
     static void ConvertRotationsToEuler(UnityEngine::Timeline::AnimationTrack* track);

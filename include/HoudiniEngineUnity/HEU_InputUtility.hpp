@@ -47,8 +47,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_InputUtility
-    HEU_InputUtility() noexcept {}
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterface> _inputInterfaces
     static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterface*>* _get__inputInterfaces();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterface> _inputInterfaces

@@ -33,8 +33,6 @@ namespace HMUI {
     HMUI::ScrollView* scrollView;
     // Field size check
     static_assert(sizeof(HMUI::ScrollView*) == 0x8);
-    // Creating value type constructor for type: ScrollToTopOnEnable
-    ScrollToTopOnEnable(HMUI::ScrollView* scrollView_ = {}) noexcept : scrollView{scrollView_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ScrollView _scrollView

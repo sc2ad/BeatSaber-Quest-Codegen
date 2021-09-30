@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>
     template<typename T0, typename T1, typename T2>
     class Event_3;
-    // Creating value type constructor for type: SteamVR_Events
-    SteamVR_Events() noexcept {}
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating
     static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Calibrating();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating

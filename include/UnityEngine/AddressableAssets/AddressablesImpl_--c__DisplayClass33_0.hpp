@@ -34,8 +34,6 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::AddressableAssets::AddressablesImpl* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AddressablesImpl*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass33_0
-    $$c__DisplayClass33_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> op_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}) noexcept : op{op_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& dyn_op();
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this

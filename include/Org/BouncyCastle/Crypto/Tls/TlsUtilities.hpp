@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TlsUtilities
-    TlsUtilities() noexcept {}
     // Get static field: static public readonly System.Byte[] EmptyBytes
     static ::ArrayWrapper<uint8_t> _get_EmptyBytes();
     // Set static field: static public readonly System.Byte[] EmptyBytes

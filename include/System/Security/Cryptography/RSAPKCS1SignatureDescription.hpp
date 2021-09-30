@@ -26,8 +26,6 @@ namespace System::Security::Cryptography {
     ::Il2CppString* hashAlgorithm;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RSAPKCS1SignatureDescription
-    RSAPKCS1SignatureDescription(::Il2CppString* hashAlgorithm_ = {}) noexcept : hashAlgorithm{hashAlgorithm_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return hashAlgorithm;

@@ -156,8 +156,6 @@ namespace System {
     int ind;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: NumberFormatter
-    NumberFormatter(System::Globalization::NumberFormatInfo* nfi_ = {}, ::ArrayWrapper<::Il2CppChar> cbuf_ = {}, bool NaN_ = {}, bool infinity_ = {}, bool isCustomFormat_ = {}, bool specifierIsUpper_ = {}, bool positive_ = {}, ::Il2CppChar specifier_ = {}, int precision_ = {}, int defPrecision_ = {}, int digitsLen_ = {}, int offset_ = {}, int decPointPos_ = {}, uint val1_ = {}, uint val2_ = {}, uint val3_ = {}, uint val4_ = {}, int ind_ = {}) noexcept : nfi{nfi_}, cbuf{cbuf_}, NaN{NaN_}, infinity{infinity_}, isCustomFormat{isCustomFormat_}, specifierIsUpper{specifierIsUpper_}, positive{positive_}, specifier{specifier_}, precision{precision_}, defPrecision{defPrecision_}, digitsLen{digitsLen_}, offset{offset_}, decPointPos{decPointPos_}, val1{val1_}, val2{val2_}, val3{val3_}, val4{val4_}, ind{ind_} {}
     // Get static field: static private readonly System.UInt64* MantissaBitsTable
     static uint64_t* _get_MantissaBitsTable();
     // Set static field: static private readonly System.UInt64* MantissaBitsTable

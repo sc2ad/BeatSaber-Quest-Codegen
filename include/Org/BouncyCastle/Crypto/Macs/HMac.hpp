@@ -76,8 +76,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
     ::ArrayWrapper<uint8_t> outputBuf;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: HMac
-    HMac(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, int digestSize_ = {}, int blockLength_ = {}, Org::BouncyCastle::Utilities::IMemoable* ipadState_ = {}, Org::BouncyCastle::Utilities::IMemoable* opadState_ = {}, ::ArrayWrapper<uint8_t> inputPad_ = {}, ::ArrayWrapper<uint8_t> outputBuf_ = {}) noexcept : digest{digest_}, digestSize{digestSize_}, blockLength{blockLength_}, ipadState{ipadState_}, opadState{opadState_}, inputPad{inputPad_}, outputBuf{outputBuf_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);

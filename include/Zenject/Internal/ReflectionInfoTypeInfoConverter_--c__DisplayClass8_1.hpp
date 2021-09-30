@@ -40,8 +40,6 @@ namespace Zenject::Internal {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass8_1
-    $$c__DisplayClass8_1(::Il2CppObject* injectable_ = {}, ::Il2CppObject* value_ = {}) noexcept : injectable{injectable_}, value{value_} {}
     // Get instance field reference: public System.Object injectable
     ::Il2CppObject*& dyn_injectable();
     // Get instance field reference: public System.Object value

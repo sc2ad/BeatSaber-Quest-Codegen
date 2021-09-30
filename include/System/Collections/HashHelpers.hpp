@@ -28,8 +28,6 @@ namespace System::Collections {
   // [FriendAccessAllowedAttribute] Offset: FFFFFFFF
   class HashHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HashHelpers
-    HashHelpers() noexcept {}
     // Get static field: static public readonly System.Int32[] primes
     static ::ArrayWrapper<int> _get_primes();
     // Set static field: static public readonly System.Int32[] primes

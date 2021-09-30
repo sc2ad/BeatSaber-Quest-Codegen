@@ -20,8 +20,6 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFUrl : public Mono::Net::CFObject {
     public:
-    // Creating value type constructor for type: CFUrl
-    CFUrl() noexcept {}
     // static private System.IntPtr CFURLCreateWithString(System.IntPtr allocator, System.IntPtr str, System.IntPtr baseURL)
     // Offset: 0x17BA3E4
     static System::IntPtr CFURLCreateWithString(System::IntPtr allocator, System::IntPtr str, System::IntPtr baseURL);

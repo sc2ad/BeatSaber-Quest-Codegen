@@ -29,8 +29,6 @@ namespace System::Threading::Tasks {
   // [CompilerGeneratedAttribute] Offset: E5EDE4
   class TaskSchedulerAwaitTaskContinuation::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation/System.Threading.Tasks.<>c <>9
     static System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c* _get_$$9();
     // Set static field: static public readonly System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation/System.Threading.Tasks.<>c <>9

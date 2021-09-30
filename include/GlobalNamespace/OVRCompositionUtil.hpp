@@ -41,8 +41,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRCompositionUtil : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: OVRCompositionUtil
-    OVRCompositionUtil() noexcept {}
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
     // Offset: 0x13B86A4
     static void SafeDestroy(UnityEngine::GameObject* obj);

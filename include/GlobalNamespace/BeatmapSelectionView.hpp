@@ -50,8 +50,6 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* noLevelText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // Creating value type constructor for type: BeatmapSelectionView
-    BeatmapSelectionView(GlobalNamespace::LevelBar* levelBar_ = {}, TMPro::TextMeshProUGUI* noLevelText_ = {}) noexcept : levelBar{levelBar_}, noLevelText{noLevelText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LevelBar _levelBar

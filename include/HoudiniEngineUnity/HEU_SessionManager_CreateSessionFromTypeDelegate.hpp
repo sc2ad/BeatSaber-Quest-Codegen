@@ -38,8 +38,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionManager::CreateSessionFromTypeDelegate : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: CreateSessionFromTypeDelegate
-    CreateSessionFromTypeDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x17D6050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

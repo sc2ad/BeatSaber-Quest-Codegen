@@ -16,8 +16,6 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: E62738
   class Debugger : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Debugger
-    Debugger() noexcept {}
     // Get static field: static public readonly System.String DefaultCategory
     static ::Il2CppString* _get_DefaultCategory();
     // Set static field: static public readonly System.String DefaultCategory

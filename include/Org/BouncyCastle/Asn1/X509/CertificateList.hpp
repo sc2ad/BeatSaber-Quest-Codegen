@@ -65,8 +65,6 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* sig;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
-    // Creating value type constructor for type: CertificateList
-    CertificateList(Org::BouncyCastle::Asn1::X509::TbsCertificateList* tbsCertList_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgID_ = {}, Org::BouncyCastle::Asn1::DerBitString* sig_ = {}) noexcept : tbsCertList{tbsCertList_}, sigAlgID{sigAlgID_}, sig{sig_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.TbsCertificateList tbsCertList
     Org::BouncyCastle::Asn1::X509::TbsCertificateList*& dyn_tbsCertList();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgID

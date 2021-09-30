@@ -32,8 +32,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB55EC
   class IVRApplications::_CancelApplicationLaunch : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _CancelApplicationLaunch
-    _CancelApplicationLaunch() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x18919D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

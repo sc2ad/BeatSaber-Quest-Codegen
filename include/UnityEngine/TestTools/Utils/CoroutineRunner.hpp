@@ -89,8 +89,6 @@ namespace UnityEngine::TestTools::Utils {
     System::Collections::IEnumerator* m_TestCoroutine;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    // Creating value type constructor for type: CoroutineRunner
-    CoroutineRunner(bool m_Running_ = {}, bool m_Timeout_ = {}, UnityEngine::MonoBehaviour* m_Controller_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context_ = {}, UnityEngine::Coroutine* m_TimeOutCoroutine_ = {}, System::Collections::IEnumerator* m_TestCoroutine_ = {}) noexcept : m_Running{m_Running_}, m_Timeout{m_Timeout_}, m_Controller{m_Controller_}, m_Context{m_Context_}, m_TimeOutCoroutine{m_TimeOutCoroutine_}, m_TestCoroutine{m_TestCoroutine_} {}
     // Get instance field reference: private System.Boolean m_Running
     bool& dyn_m_Running();
     // Get instance field reference: private System.Boolean m_Timeout

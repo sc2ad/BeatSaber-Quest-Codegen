@@ -26,8 +26,6 @@ namespace UnityEngineInternal {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: WebRequestUtils
-    WebRequestUtils() noexcept {}
     // Get static field: static private System.Text.RegularExpressions.Regex domainRegex
     static System::Text::RegularExpressions::Regex* _get_domainRegex();
     // Set static field: static private System.Text.RegularExpressions.Regex domainRegex

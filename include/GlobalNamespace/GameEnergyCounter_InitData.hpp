@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     bool failOnSaberClash;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InitData
-    InitData(GlobalNamespace::GameplayModifiers::EnergyType energyType_ = {}, bool noFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}) noexcept : energyType{energyType_}, noFail{noFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_} {}
     // Get instance field reference: public readonly GameplayModifiers/EnergyType energyType
     GlobalNamespace::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public readonly System.Boolean noFail

@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<float>* processedSamples;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<float>*) == 0x8);
-    // Creating value type constructor for type: BasicSpectrogramData
-    BasicSpectrogramData(UnityEngine::AudioSource* audioSource_ = {}, float instantChangeThreshold_ = {}, bool hasData_ = {}, bool hasProcessedData_ = {}, ::ArrayWrapper<float> samples_ = {}, System::Collections::Generic::List_1<float>* processedSamples_ = {}) noexcept : audioSource{audioSource_}, instantChangeThreshold{instantChangeThreshold_}, hasData{hasData_}, hasProcessedData{hasProcessedData_}, samples{samples_}, processedSamples{processedSamples_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Int32 kNumberOfSamples

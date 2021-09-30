@@ -254,8 +254,6 @@ namespace GlobalNamespace {
     bool smallCubes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: GameplayModifiers
-    GameplayModifiers(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType energyType_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}, GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType enabledObstacleType_ = {}, bool fastNotes_ = {}, bool strictAngles_ = {}, bool disappearingArrows_ = {}, bool ghostNotes_ = {}, bool noBombs_ = {}, GlobalNamespace::PlayerSaveData::GameplayModifiers::SongSpeed songSpeed_ = {}, bool noArrows_ = {}, bool noFailOn0Energy_ = {}, bool proMode_ = {}, bool zenMode_ = {}, bool smallCubes_ = {}) noexcept : energyType{energyType_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_}, enabledObstacleType{enabledObstacleType_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_}, noBombs{noBombs_}, songSpeed{songSpeed_}, noArrows{noArrows_}, noFailOn0Energy{noFailOn0Energy_}, proMode{proMode_}, zenMode{zenMode_}, smallCubes{smallCubes_} {}
     // Get instance field reference: public PlayerSaveData/GameplayModifiers/EnergyType energyType
     GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public System.Boolean instaFail

@@ -69,8 +69,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 lastForward;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: BodyTilt
-    BodyTilt(float tiltSpeed_ = {}, float tiltSensitivity_ = {}, RootMotion::FinalIK::OffsetPose* poseLeft_ = {}, RootMotion::FinalIK::OffsetPose* poseRight_ = {}, float tiltAngle_ = {}, UnityEngine::Vector3 lastForward_ = {}) noexcept : tiltSpeed{tiltSpeed_}, tiltSensitivity{tiltSensitivity_}, poseLeft{poseLeft_}, poseRight{poseRight_}, tiltAngle{tiltAngle_}, lastForward{lastForward_} {}
     // Get instance field reference: public System.Single tiltSpeed
     float& dyn_tiltSpeed();
     // Get instance field reference: public System.Single tiltSensitivity

@@ -87,8 +87,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector4f> BlendWeights;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector4f>) == 0x8);
-    // Creating value type constructor for type: Mesh
-    Mesh(GlobalNamespace::OVRPlugin::MeshType Type_ = {}, uint NumVertices_ = {}, uint NumIndices_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector3f> VertexPositions_ = {}, ::ArrayWrapper<int16_t> Indices_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector3f> VertexNormals_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector2f> VertexUV0_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector4s> BlendIndices_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector4f> BlendWeights_ = {}) noexcept : Type{Type_}, NumVertices{NumVertices_}, NumIndices{NumIndices_}, VertexPositions{VertexPositions_}, Indices{Indices_}, VertexNormals{VertexNormals_}, VertexUV0{VertexUV0_}, BlendIndices{BlendIndices_}, BlendWeights{BlendWeights_} {}
     // Get instance field reference: public OVRPlugin/MeshType Type
     GlobalNamespace::OVRPlugin::MeshType& dyn_Type();
     // Get instance field reference: public System.UInt32 NumVertices

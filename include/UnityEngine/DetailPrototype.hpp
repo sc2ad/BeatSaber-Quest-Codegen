@@ -105,8 +105,6 @@ namespace UnityEngine {
     int m_UsePrototypeMesh;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DetailPrototype
-    DetailPrototype(UnityEngine::GameObject* m_Prototype_ = {}, UnityEngine::Texture2D* m_PrototypeTexture_ = {}, UnityEngine::Color m_HealthyColor_ = {}, UnityEngine::Color m_DryColor_ = {}, float m_MinWidth_ = {}, float m_MaxWidth_ = {}, float m_MinHeight_ = {}, float m_MaxHeight_ = {}, float m_NoiseSpread_ = {}, float m_BendFactor_ = {}, int m_RenderMode_ = {}, int m_UsePrototypeMesh_ = {}) noexcept : m_Prototype{m_Prototype_}, m_PrototypeTexture{m_PrototypeTexture_}, m_HealthyColor{m_HealthyColor_}, m_DryColor{m_DryColor_}, m_MinWidth{m_MinWidth_}, m_MaxWidth{m_MaxWidth_}, m_MinHeight{m_MinHeight_}, m_MaxHeight{m_MaxHeight_}, m_NoiseSpread{m_NoiseSpread_}, m_BendFactor{m_BendFactor_}, m_RenderMode{m_RenderMode_}, m_UsePrototypeMesh{m_UsePrototypeMesh_} {}
     // Get instance field reference: UnityEngine.GameObject m_Prototype
     UnityEngine::GameObject*& dyn_m_Prototype();
     // Get instance field reference: UnityEngine.Texture2D m_PrototypeTexture

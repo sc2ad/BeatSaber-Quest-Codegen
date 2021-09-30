@@ -69,8 +69,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*> interactions;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>) == 0x8);
-    // Creating value type constructor for type: Range
-    Range(::Il2CppString* name_ = {}, bool show_ = {}, RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition_ = {}, RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition_ = {}, ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*> interactions_ = {}) noexcept : name{name_}, show{show_}, characterPosition{characterPosition_}, cameraPosition{cameraPosition_}, interactions{interactions_} {}
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public System.Boolean show

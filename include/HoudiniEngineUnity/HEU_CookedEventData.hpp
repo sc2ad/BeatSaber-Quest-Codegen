@@ -38,8 +38,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_CookedEventData : public HoudiniEngineUnity::HEU_AssetEventData {
     public:
-    // Creating value type constructor for type: HEU_CookedEventData
-    HEU_CookedEventData() noexcept {}
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
     // Offset: 0x1446FF8
     // Implemented from: HoudiniEngineUnity.HEU_AssetEventData

@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BoolSO* depthTextureEnabled;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // Creating value type constructor for type: VisualEffectsController
-    VisualEffectsController(GlobalNamespace::BoolSO* depthTextureEnabled_ = {}) noexcept : depthTextureEnabled{depthTextureEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kDepthTextureEnabledKeyword

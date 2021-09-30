@@ -27,8 +27,6 @@ namespace System::ComponentModel {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: DefaultValueAttribute
-    DefaultValueAttribute(::Il2CppObject* value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return value;

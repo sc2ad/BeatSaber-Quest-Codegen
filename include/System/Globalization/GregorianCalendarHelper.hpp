@@ -75,8 +75,6 @@ namespace System::Globalization {
     System::DateTime m_minDate;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: GregorianCalendarHelper
-    GregorianCalendarHelper(int m_maxYear_ = {}, int m_minYear_ = {}, System::Globalization::Calendar* m_Cal_ = {}, ::ArrayWrapper<System::Globalization::EraInfo*> m_EraInfo_ = {}, ::ArrayWrapper<int> m_eras_ = {}, System::DateTime m_minDate_ = {}) noexcept : m_maxYear{m_maxYear_}, m_minYear{m_minYear_}, m_Cal{m_Cal_}, m_EraInfo{m_EraInfo_}, m_eras{m_eras_}, m_minDate{m_minDate_} {}
     // Get static field: static readonly System.Int32[] DaysToMonth365
     static ::ArrayWrapper<int> _get_DaysToMonth365();
     // Set static field: static readonly System.Int32[] DaysToMonth365

@@ -21,8 +21,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BEA4
   class ContextBoundObject : public System::MarshalByRefObject {
     public:
-    // Creating value type constructor for type: ContextBoundObject
-    ContextBoundObject() noexcept {}
     // protected System.Void .ctor()
     // Offset: 0x1B19804
     // Implemented from: System.MarshalByRefObject

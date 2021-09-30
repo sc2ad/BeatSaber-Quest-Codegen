@@ -22,8 +22,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E609FC
   class PreserveSigAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: PreserveSigAttribute
-    PreserveSigAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15B05FC
     // Implemented from: System.Attribute

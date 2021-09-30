@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationKeyAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: LocalizationKeyAttribute
-    LocalizationKeyAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2580C08
     // Implemented from: UnityEngine.PropertyAttribute

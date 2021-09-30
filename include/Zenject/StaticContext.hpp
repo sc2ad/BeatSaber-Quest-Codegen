@@ -21,8 +21,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class StaticContext : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: StaticContext
-    StaticContext() noexcept {}
     // Get static field: static private Zenject.DiContainer _container
     static Zenject::DiContainer* _get__container();
     // Set static field: static private Zenject.DiContainer _container

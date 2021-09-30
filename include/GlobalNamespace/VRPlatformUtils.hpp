@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRPlatformUtils : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: VRPlatformUtils
-    VRPlatformUtils() noexcept {}
     // static public XRDeviceModel GetXRDeviceModel()
     // Offset: 0x259E494
     static GlobalNamespace::XRDeviceModel GetXRDeviceModel();

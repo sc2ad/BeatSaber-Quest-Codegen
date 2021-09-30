@@ -92,8 +92,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*) == 0x8);
-    // Creating value type constructor for type: BeatmapSaveData
-    BeatmapSaveData(::Il2CppString* version_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* events_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypoints_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstacles_ = {}, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters_ = {}) noexcept : version{version_}, events{events_}, notes{notes_}, waypoints{waypoints_}, obstacles{obstacles_}, specialEventsKeywordFilters{specialEventsKeywordFilters_} {}
     // static field const value: static private System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.5.0";
     // Get static field: static private System.String kCurrentVersion

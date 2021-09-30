@@ -102,8 +102,6 @@ namespace System::Net::Http {
     System::TimeSpan timeout;
     // Field size check
     static_assert(sizeof(System::TimeSpan) == 0x8);
-    // Creating value type constructor for type: HttpClient
-    HttpClient(System::Uri* base_address_ = {}, System::Threading::CancellationTokenSource* cts_ = {}, bool disposed_ = {}, System::Net::Http::Headers::HttpRequestHeaders* headers_ = {}, int64_t buffer_size_ = {}, System::TimeSpan timeout_ = {}) noexcept : base_address{base_address_}, cts{cts_}, disposed{disposed_}, headers{headers_}, buffer_size{buffer_size_}, timeout{timeout_} {}
     // Get static field: static private readonly System.TimeSpan TimeoutDefault
     static System::TimeSpan _get_TimeoutDefault();
     // Set static field: static private readonly System.TimeSpan TimeoutDefault

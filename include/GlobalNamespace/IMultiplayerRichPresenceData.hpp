@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMultiplayerRichPresenceData/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
-    // Creating value type constructor for type: IMultiplayerRichPresenceData
-    IMultiplayerRichPresenceData() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IRichPresenceData
     operator GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);

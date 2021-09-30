@@ -58,8 +58,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion lastParentRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: MultiplayerOffsetPositionByLocalPlayerPosition
-    MultiplayerOffsetPositionByLocalPlayerPosition(GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 lastParentPosition_ = {}, UnityEngine::Quaternion lastParentRotation_ = {}) noexcept : multiplayerPlayersManager{multiplayerPlayersManager_}, positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, lastParentPosition{lastParentPosition_}, lastParentRotation{lastParentRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager

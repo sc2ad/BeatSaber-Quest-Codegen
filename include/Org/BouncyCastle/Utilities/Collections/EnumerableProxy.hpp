@@ -33,8 +33,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
     System::Collections::IEnumerable* inner;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerable*) == 0x8);
-    // Creating value type constructor for type: EnumerableProxy
-    EnumerableProxy(System::Collections::IEnumerable* inner_ = {}) noexcept : inner{inner_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

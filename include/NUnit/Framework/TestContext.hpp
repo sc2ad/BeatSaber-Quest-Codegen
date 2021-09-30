@@ -31,8 +31,6 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestContext : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: TestContext
-    TestContext() noexcept {}
     // Get static field: static public NUnit.Framework.Internal.ITestExecutionContext CurrentTestExecutionContext
     static NUnit::Framework::Internal::ITestExecutionContext* _get_CurrentTestExecutionContext();
     // Set static field: static public NUnit.Framework.Internal.ITestExecutionContext CurrentTestExecutionContext

@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     System::Net::HttpListener* listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
-    // Creating value type constructor for type: HealthCheckService
-    HealthCheckService(int port_ = {}, System::Threading::Thread* runThread_ = {}, bool disposed_ = {}, System::Threading::ManualResetEvent* manualResetEvent_ = {}, System::Net::HttpListener* listener_ = {}) noexcept : port{port_}, runThread{runThread_}, disposed{disposed_}, manualResetEvent{manualResetEvent_}, listener{listener_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IHealthCheckService
     operator GlobalNamespace::IHealthCheckService() noexcept {
       return *reinterpret_cast<GlobalNamespace::IHealthCheckService*>(this);

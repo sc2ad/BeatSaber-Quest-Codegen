@@ -56,8 +56,6 @@ namespace UnityEngine::Timeline {
     double m_AssetDuration;
     // Field size check
     static_assert(sizeof(double) == 0x8);
-    // Creating value type constructor for type: DirectorControlPlayable
-    DirectorControlPlayable(UnityEngine::Playables::PlayableDirector* director_ = {}, bool m_SyncTime_ = {}, double m_AssetDuration_ = {}) noexcept : director{director_}, m_SyncTime{m_SyncTime_}, m_AssetDuration{m_AssetDuration_} {}
     // Get instance field reference: public UnityEngine.Playables.PlayableDirector director
     UnityEngine::Playables::PlayableDirector*& dyn_director();
     // Get instance field reference: private System.Boolean m_SyncTime

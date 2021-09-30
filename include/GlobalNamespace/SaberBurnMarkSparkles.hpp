@@ -117,8 +117,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem::EmitParams sparklesEmitParams;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
-    // Creating value type constructor for type: SaberBurnMarkSparkles
-    SaberBurnMarkSparkles(UnityEngine::ParticleSystem* sparklesPS_ = {}, UnityEngine::ParticleSystem* burnMarksPSPrefab_ = {}, UnityEngine::BoxCollider* boxCollider_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, ::ArrayWrapper<GlobalNamespace::Saber*> sabers_ = {}, UnityEngine::Plane plane_ = {}, ::ArrayWrapper<UnityEngine::Vector3> prevBurnMarkPos_ = {}, ::ArrayWrapper<bool> prevBurnMarkPosValid_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> burnMarksPS_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> burnMarksEmissionModules_ = {}, UnityEngine::ParticleSystem::EmitParams sparklesEmitParams_ = {}) noexcept : sparklesPS{sparklesPS_}, burnMarksPSPrefab{burnMarksPSPrefab_}, boxCollider{boxCollider_}, colorManager{colorManager_}, saberManager{saberManager_}, sabers{sabers_}, plane{plane_}, prevBurnMarkPos{prevBurnMarkPos_}, prevBurnMarkPosValid{prevBurnMarkPosValid_}, burnMarksPS{burnMarksPS_}, burnMarksEmissionModules{burnMarksEmissionModules_}, sparklesEmitParams{sparklesEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparklesPS

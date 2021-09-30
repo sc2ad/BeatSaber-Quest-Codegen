@@ -13,8 +13,6 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISecurableChannel {
     public:
-    // Creating value type constructor for type: ISecurableChannel
-    ISecurableChannel() noexcept {}
     // public System.Void set_IsSecured(System.Boolean value)
     // Offset: 0xFFFFFFFF
     void set_IsSecured(bool value);

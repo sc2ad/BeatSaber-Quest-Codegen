@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineConnectionController*) == 0x8);
-    // Creating value type constructor for type: TutorialBeatmapObjectPoolsInstaller
-    TutorialBeatmapObjectPoolsInstaller(GlobalNamespace::TutorialNoteController* basicNotePrefab_ = {}, GlobalNamespace::BombNoteController* bombNotePrefab_ = {}, GlobalNamespace::ObstacleController* obstaclePrefab_ = {}, GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab_ = {}) noexcept : basicNotePrefab{basicNotePrefab_}, bombNotePrefab{bombNotePrefab_}, obstaclePrefab{obstaclePrefab_}, noteLineConnectionControllerPrefab{noteLineConnectionControllerPrefab_} {}
     // Get instance field reference: private TutorialNoteController _basicNotePrefab
     GlobalNamespace::TutorialNoteController*& dyn__basicNotePrefab();
     // Get instance field reference: private BombNoteController _bombNotePrefab

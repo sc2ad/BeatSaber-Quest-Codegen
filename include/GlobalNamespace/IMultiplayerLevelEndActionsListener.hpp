@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMultiplayerLevelEndActionsListener {
     public:
-    // Creating value type constructor for type: IMultiplayerLevelEndActionsListener
-    IMultiplayerLevelEndActionsListener() noexcept {}
     // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
     // Offset: 0xFFFFFFFF
     void ReportPlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* results);

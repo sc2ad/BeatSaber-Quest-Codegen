@@ -30,8 +30,6 @@ namespace System::Runtime::CompilerServices {
     int m_relaxations;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CompilationRelaxationsAttribute
-    CompilationRelaxationsAttribute(int m_relaxations_ = {}) noexcept : m_relaxations{m_relaxations_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_relaxations;

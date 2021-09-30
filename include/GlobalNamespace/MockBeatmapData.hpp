@@ -63,8 +63,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::MockObstacleData*> obstacles;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockObstacleData*>) == 0x8);
-    // Creating value type constructor for type: MockBeatmapData
-    MockBeatmapData(int numberOfLines_ = {}, float songEndTime_ = {}, ::ArrayWrapper<GlobalNamespace::MockNoteData*> leftNotes_ = {}, ::ArrayWrapper<GlobalNamespace::MockNoteData*> rightNotes_ = {}, ::ArrayWrapper<GlobalNamespace::MockNoteData*> bombNotes_ = {}, ::ArrayWrapper<GlobalNamespace::MockObstacleData*> obstacles_ = {}) noexcept : numberOfLines{numberOfLines_}, songEndTime{songEndTime_}, leftNotes{leftNotes_}, rightNotes{rightNotes_}, bombNotes{bombNotes_}, obstacles{obstacles_} {}
     // Get instance field reference: private System.Int32 <numberOfLines>k__BackingField
     int& dyn_$numberOfLines$k__BackingField();
     // Get instance field reference: private System.Single <songEndTime>k__BackingField

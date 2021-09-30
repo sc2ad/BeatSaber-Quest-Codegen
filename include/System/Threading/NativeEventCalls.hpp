@@ -26,8 +26,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class NativeEventCalls : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NativeEventCalls
-    NativeEventCalls() noexcept {}
     // static public System.IntPtr CreateEvent_internal(System.Boolean manual, System.Boolean initial, System.String name, out System.Int32 errorCode)
     // Offset: 0x1A57AA0
     static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::Il2CppString* name, ByRef<int> errorCode);

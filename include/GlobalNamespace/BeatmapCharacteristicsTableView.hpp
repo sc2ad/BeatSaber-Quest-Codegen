@@ -97,8 +97,6 @@ namespace GlobalNamespace {
     int selectedColumn;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BeatmapCharacteristicsTableView
-    BeatmapCharacteristicsTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::BeatmapCharacteristicTableCell* cellPrefab_ = {}, ::Il2CppString* cellReuseIdentifier_ = {}, float cellWidth_ = {}, System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* didSelectCharacteristic_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, bool isInitialized_ = {}, int selectedColumn_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, cellReuseIdentifier{cellReuseIdentifier_}, cellWidth{cellWidth_}, didSelectCharacteristic{didSelectCharacteristic_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, isInitialized{isInitialized_}, selectedColumn{selectedColumn_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

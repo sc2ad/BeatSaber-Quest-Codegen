@@ -47,7 +47,6 @@ namespace Mono::Net {
     System::IntPtr& dyn_Length();
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
     // Offset: 0x17B9D80
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CFRange(int loc, int len) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFRange::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(loc), ::il2cpp_utils::ExtractType(len)})));

@@ -24,8 +24,6 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class AvatarDataMultiplayerAvatarDataConverter : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AvatarDataMultiplayerAvatarDataConverter
-    AvatarDataMultiplayerAvatarDataConverter() noexcept {}
     // static public MultiplayerAvatarData CreateMultiplayerAvatarData(AvatarData avatarData)
     // Offset: 0x124A780
     static GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarData(GlobalNamespace::AvatarData* avatarData);

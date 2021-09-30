@@ -29,8 +29,6 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ScrollView::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly HMUI.ScrollView/HMUI.<>c <>9
     static HMUI::ScrollView::$$c* _get_$$9();
     // Set static field: static public readonly HMUI.ScrollView/HMUI.<>c <>9

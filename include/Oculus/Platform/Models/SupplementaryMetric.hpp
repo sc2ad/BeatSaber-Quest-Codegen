@@ -32,8 +32,6 @@ namespace Oculus::Platform::Models {
     int64_t Metric;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: SupplementaryMetric
-    SupplementaryMetric(uint64_t _ID_ = {}, int64_t Metric_ = {}) noexcept : _ID{_ID_}, Metric{Metric_} {}
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.Int64 Metric

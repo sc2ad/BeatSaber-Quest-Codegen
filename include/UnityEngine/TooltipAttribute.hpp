@@ -27,8 +27,6 @@ namespace UnityEngine {
     ::Il2CppString* tooltip;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: TooltipAttribute
-    TooltipAttribute(::Il2CppString* tooltip_ = {}) noexcept : tooltip{tooltip_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return tooltip;

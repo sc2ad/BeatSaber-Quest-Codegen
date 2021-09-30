@@ -29,8 +29,6 @@ namespace System::Threading {
   // [TypeForwardedFromAttribute] Offset: E5E978
   class SemaphoreFullException : public System::SystemException {
     public:
-    // Creating value type constructor for type: SemaphoreFullException
-    SemaphoreFullException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A5C690
     // Implemented from: System.SystemException

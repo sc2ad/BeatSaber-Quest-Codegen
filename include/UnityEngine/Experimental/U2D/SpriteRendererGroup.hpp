@@ -17,8 +17,6 @@ namespace UnityEngine::Experimental::U2D {
   // [RequiredByNativeCodeAttribute] Offset: E749B0
   class SpriteRendererGroup : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SpriteRendererGroup
-    SpriteRendererGroup() noexcept {}
   }; // UnityEngine.Experimental.U2D.SpriteRendererGroup
   #pragma pack(pop)
 }

@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
-    // Creating value type constructor for type: StandardGameplayInstaller
-    StandardGameplayInstaller(GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData_ = {}) noexcept : standardSceneSetupData{standardSceneSetupData_} {}
     // Get instance field reference: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     GlobalNamespace::StandardGameplaySceneSetupData*& dyn__standardSceneSetupData();
     // public System.Void .ctor()

@@ -37,8 +37,6 @@ namespace Valve::VR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB57E0
   class IVRChaperone::_SetSceneColor : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SetSceneColor
-    _SetSceneColor() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1893208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

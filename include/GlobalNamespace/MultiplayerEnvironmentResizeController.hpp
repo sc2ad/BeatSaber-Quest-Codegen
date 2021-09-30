@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     bool spawnCenterDistanceFound;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerEnvironmentResizeController
-    MultiplayerEnvironmentResizeController(UnityEngine::Transform* platformEnd_ = {}, ::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, System::Action* resizingDidFinishEvent_ = {}, bool isResizingFinished_ = {}, bool edgeDistanceFromCenterFound_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : platformEnd{platformEnd_}, resizeData{resizeData_}, centerResizeController{centerResizeController_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, resizingDidFinishEvent{resizingDidFinishEvent_}, isResizingFinished{isResizingFinished_}, edgeDistanceFromCenterFound{edgeDistanceFromCenterFound_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _platformEnd

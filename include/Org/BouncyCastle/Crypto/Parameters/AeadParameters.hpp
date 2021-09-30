@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int macSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: AeadParameters
-    AeadParameters(::ArrayWrapper<uint8_t> associatedText_ = {}, ::ArrayWrapper<uint8_t> nonce_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* key_ = {}, int macSize_ = {}) noexcept : associatedText{associatedText_}, nonce{nonce_}, key{key_}, macSize{macSize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

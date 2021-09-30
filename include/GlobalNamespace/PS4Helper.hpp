@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     bool backgroundExecution;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PS4Helper
-    PS4Helper(System::Action* didGoToBackgroundExecutionEvent_ = {}, System::Action* didGoToForegroundExecutionEvent_ = {}, bool backgroundExecution_ = {}) noexcept : didGoToBackgroundExecutionEvent{didGoToBackgroundExecutionEvent_}, didGoToForegroundExecutionEvent{didGoToForegroundExecutionEvent_}, backgroundExecution{backgroundExecution_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action didGoToBackgroundExecutionEvent

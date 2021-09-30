@@ -33,8 +33,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<UnityEngine::GameObject*> gameObjects;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
-    // Creating value type constructor for type: ActivateOnVisible
-    ActivateOnVisible(::ArrayWrapper<UnityEngine::GameObject*> gameObjects_ = {}) noexcept : gameObjects{gameObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject[] _gameObjects

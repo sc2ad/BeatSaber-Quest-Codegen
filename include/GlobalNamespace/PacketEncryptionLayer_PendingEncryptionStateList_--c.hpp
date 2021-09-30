@@ -33,8 +33,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PacketEncryptionLayer::PendingEncryptionStateList::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly PacketEncryptionLayer/PendingEncryptionStateList/<>c <>9
     static GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c* _get_$$9();
     // Set static field: static public readonly PacketEncryptionLayer/PendingEncryptionStateList/<>c <>9

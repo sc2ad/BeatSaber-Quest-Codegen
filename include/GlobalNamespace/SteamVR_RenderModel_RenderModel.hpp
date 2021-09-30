@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: RenderModel
-    RenderModel(UnityEngine::Mesh* mesh_ = {}, UnityEngine::Material* material_ = {}) noexcept : mesh{mesh_}, material{material_} {}
     // Get instance field reference: private UnityEngine.Mesh <mesh>k__BackingField
     UnityEngine::Mesh*& dyn_$mesh$k__BackingField();
     // Get instance field reference: private UnityEngine.Material <material>k__BackingField

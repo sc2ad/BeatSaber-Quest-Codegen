@@ -54,8 +54,6 @@ namespace HMUI {
     float baseCanvasGroupAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: $$c__DisplayClass5_0
-    $$c__DisplayClass5_0(HMUI::ViewController* toPresentViewController_ = {}, float moveOffset_ = {}, HMUI::ViewController* toDismissViewController_ = {}, float baseCanvasGroupAlpha_ = {}) noexcept : toPresentViewController{toPresentViewController_}, moveOffset{moveOffset_}, toDismissViewController{toDismissViewController_}, baseCanvasGroupAlpha{baseCanvasGroupAlpha_} {}
     // Get instance field reference: public HMUI.ViewController toPresentViewController
     HMUI::ViewController*& dyn_toPresentViewController();
     // Get instance field reference: public System.Single moveOffset

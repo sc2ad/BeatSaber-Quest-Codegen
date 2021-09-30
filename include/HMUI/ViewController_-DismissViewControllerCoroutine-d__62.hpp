@@ -78,8 +78,6 @@ namespace HMUI {
     HMUI::ViewController* $movingInViewController$5__2;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // Creating value type constructor for type: $DismissViewControllerCoroutine$d__62
-    $DismissViewControllerCoroutine$d__62(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ViewController* $$4__this_ = {}, bool immediately_ = {}, HMUI::ViewController::AnimationDirection animationDirection_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* $movingInViewController$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, immediately{immediately_}, animationDirection{animationDirection_}, finishedCallback{finishedCallback_}, $movingInViewController$5__2{$movingInViewController$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

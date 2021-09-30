@@ -65,8 +65,6 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::TripleDES* des;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::TripleDES*) == 0x8);
-    // Creating value type constructor for type: MACTripleDES
-    MACTripleDES(System::Security::Cryptography::ICryptoTransform* m_encryptor_ = {}, System::Security::Cryptography::CryptoStream* cs_ = {}, System::Security::Cryptography::TailStream* ts_ = {}, int m_bytesPerBlock_ = {}, System::Security::Cryptography::TripleDES* des_ = {}) noexcept : m_encryptor{m_encryptor_}, cs{cs_}, ts{ts_}, m_bytesPerBlock{m_bytesPerBlock_}, des{des_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private System.Security.Cryptography.ICryptoTransform m_encryptor

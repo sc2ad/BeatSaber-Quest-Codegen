@@ -21,8 +21,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::ScriptingUtility::TestClass
     struct TestClass;
-    // Creating value type constructor for type: ScriptingUtility
-    ScriptingUtility() noexcept {}
     // static private System.Boolean IsManagedCodeWorking()
     // Offset: 0x1E0DC4C
     static bool IsManagedCodeWorking();

@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::ShareMediaStatus Status;
     // Field size check
     static_assert(sizeof(Oculus::Platform::ShareMediaStatus) == 0x4);
-    // Creating value type constructor for type: ShareMediaResult
-    ShareMediaResult(Oculus::Platform::ShareMediaStatus Status_ = {}) noexcept : Status{Status_} {}
     // Creating conversion operator: operator Oculus::Platform::ShareMediaStatus
     constexpr operator Oculus::Platform::ShareMediaStatus() const noexcept {
       return Status;

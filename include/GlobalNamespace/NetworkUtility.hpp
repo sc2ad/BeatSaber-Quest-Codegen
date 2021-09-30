@@ -16,8 +16,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkUtility : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NetworkUtility
-    NetworkUtility() noexcept {}
     // Get static field: static private System.Byte[] _nameEncryptionKey
     static ::ArrayWrapper<uint8_t> _get__nameEncryptionKey();
     // Set static field: static private System.Byte[] _nameEncryptionKey

@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class DesEdeParameters : public Org::BouncyCastle::Crypto::Parameters::DesParameters {
     public:
-    // Creating value type constructor for type: DesEdeParameters
-    DesEdeParameters() noexcept {}
     // static private System.Byte[] FixKey(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     // Offset: 0x1392A98
     static ::ArrayWrapper<uint8_t> FixKey(::ArrayWrapper<uint8_t> key, int keyOff, int keyLen);

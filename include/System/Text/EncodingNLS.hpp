@@ -30,8 +30,6 @@ namespace System::Text {
   // [ComVisibleAttribute] Offset: E5CECC
   class EncodingNLS : public System::Text::Encoding {
     public:
-    // Creating value type constructor for type: EncodingNLS
-    EncodingNLS() noexcept {}
     // protected System.Void .ctor(System.Int32 codePage)
     // Offset: 0x1F11848
     // Implemented from: System.Text.Encoding

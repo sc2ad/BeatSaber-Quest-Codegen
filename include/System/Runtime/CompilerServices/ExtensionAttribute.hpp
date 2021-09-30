@@ -21,8 +21,6 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E605F4
   class ExtensionAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: ExtensionAttribute
-    ExtensionAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AD8B0
     // Implemented from: System.Attribute

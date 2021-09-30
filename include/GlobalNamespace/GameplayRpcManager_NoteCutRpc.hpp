@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayRpcManager::NoteCutRpc : public GlobalNamespace::RemoteProcedureCall_2<float, GlobalNamespace::NoteCutInfoNetSerializable*> {
     public:
-    // Creating value type constructor for type: NoteCutRpc
-    NoteCutRpc() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1459DB0
     // Implemented from: RemoteProcedureCall`2

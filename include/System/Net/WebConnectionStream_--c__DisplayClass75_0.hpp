@@ -40,8 +40,6 @@ namespace System::Net {
     bool setInternalLength;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass75_0
-    $$c__DisplayClass75_0(System::Net::WebConnectionStream* $$4__this_ = {}, bool setInternalLength_ = {}) noexcept : $$4__this{$$4__this_}, setInternalLength{setInternalLength_} {}
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
     System::Net::WebConnectionStream*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean setInternalLength

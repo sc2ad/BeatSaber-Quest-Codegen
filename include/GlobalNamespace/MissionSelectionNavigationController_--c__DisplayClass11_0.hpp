@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     System::Action* $$9__1;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass11_0
-    $$c__DisplayClass11_0(GlobalNamespace::MissionSelectionNavigationController* $$4__this_ = {}, System::Action_1<bool>* finishedCallback_ = {}, System::Action* $$9__1_ = {}) noexcept : $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public MissionSelectionNavigationController <>4__this
     GlobalNamespace::MissionSelectionNavigationController*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<System.Boolean> finishedCallback

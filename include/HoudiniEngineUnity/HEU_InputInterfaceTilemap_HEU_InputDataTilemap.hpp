@@ -46,8 +46,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: HEU_InputDataTilemap
-    HEU_InputDataTilemap(UnityEngine::Tilemaps::Tilemap* tilemap_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : tilemap{tilemap_}, transform{transform_} {}
     // Deleting conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Tilemaps.Tilemap _tilemap

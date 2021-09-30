@@ -83,7 +83,6 @@ namespace UnityEngine::ProBuilder {
     }
     // public System.Void .ctor(T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SimpleTuple_2(T1 item1, T2 item2)
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF

@@ -27,8 +27,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Character : public TMPro::TMP_TextElement {
     public:
-    // Creating value type constructor for type: TMP_Character
-    TMP_Character() noexcept {}
     // public System.Void .ctor(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
     // Offset: 0x11EEDF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

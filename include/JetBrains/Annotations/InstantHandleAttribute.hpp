@@ -21,8 +21,6 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD848
   class InstantHandleAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: InstantHandleAttribute
-    InstantHandleAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2610588
     // Implemented from: System.Attribute

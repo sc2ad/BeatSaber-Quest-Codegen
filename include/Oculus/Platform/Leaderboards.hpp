@@ -33,8 +33,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Leaderboards : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Leaderboards
-    Leaderboards() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetNextEntries(Oculus.Platform.Models.LeaderboardEntryList list)
     // Offset: 0x16AD9A8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetNextEntries(Oculus::Platform::Models::LeaderboardEntryList* list);

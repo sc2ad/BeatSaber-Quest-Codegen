@@ -27,8 +27,6 @@ namespace UnityEngine {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SubsystemDescriptor
-    SubsystemDescriptor(::Il2CppString* id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptor
     operator UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptor*>(this);

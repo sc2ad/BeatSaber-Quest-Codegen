@@ -84,8 +84,6 @@ namespace System::Runtime::Remoting {
     System::Type* serverType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ObjRef
-    ObjRef(System::Runtime::Remoting::IChannelInfo* channel_info_ = {}, ::Il2CppString* uri_ = {}, System::Runtime::Remoting::IRemotingTypeInfo* typeInfo_ = {}, System::Runtime::Remoting::IEnvoyInfo* envoyInfo_ = {}, int flags_ = {}, System::Type* serverType_ = {}) noexcept : channel_info{channel_info_}, uri{uri_}, typeInfo{typeInfo_}, envoyInfo{envoyInfo_}, flags{flags_}, serverType{serverType_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

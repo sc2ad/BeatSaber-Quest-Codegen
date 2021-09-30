@@ -45,8 +45,6 @@ namespace UnityEngine::TestTools::Utils {
     System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesToLoad;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: PlayerTestAssemblyProvider
-    PlayerTestAssemblyProvider(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* m_AssemblyLoadProxy_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesToLoad_ = {}) noexcept : m_AssemblyLoadProxy{m_AssemblyLoadProxy_}, m_AssembliesToLoad{m_AssembliesToLoad_} {}
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* _get_m_LoadedAssemblies();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies

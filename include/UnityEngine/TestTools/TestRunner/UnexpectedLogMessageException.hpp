@@ -38,8 +38,6 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestTools::Logging::LogMatch* LogEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::Logging::LogMatch*) == 0x8);
-    // Creating value type constructor for type: UnexpectedLogMessageException
-    UnexpectedLogMessageException(UnityEngine::TestTools::Logging::LogMatch* LogEvent_ = {}) noexcept : LogEvent{LogEvent_} {}
     // Creating conversion operator: operator UnityEngine::TestTools::Logging::LogMatch*
     constexpr operator UnityEngine::TestTools::Logging::LogMatch*() const noexcept {
       return LogEvent;

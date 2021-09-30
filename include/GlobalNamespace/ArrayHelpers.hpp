@@ -18,8 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ArrayHelpers
-    ArrayHelpers() noexcept {}
     // static public T[] CreateOrEnlargeArray(T[] array, System.Int32 minimumCapacity)
     // Offset: 0xFFFFFFFF
     template<class T>

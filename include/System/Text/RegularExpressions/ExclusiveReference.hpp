@@ -43,8 +43,6 @@ namespace System::Text::RegularExpressions {
     int locked;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ExclusiveReference
-    ExclusiveReference(System::Text::RegularExpressions::RegexRunner* ref_ = {}, ::Il2CppObject* obj_ = {}, int locked_ = {}) noexcept : ref{ref_}, obj{obj_}, locked{locked_} {}
     // Get instance field reference: private System.Text.RegularExpressions.RegexRunner _ref
     System::Text::RegularExpressions::RegexRunner*& dyn__ref();
     // Get instance field reference: private System.Object _obj

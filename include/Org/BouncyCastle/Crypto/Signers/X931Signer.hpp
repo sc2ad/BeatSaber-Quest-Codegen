@@ -72,8 +72,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
     ::ArrayWrapper<uint8_t> block;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: X931Signer
-    X931Signer(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher_ = {}, Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* kParam_ = {}, int trailer_ = {}, int keyBits_ = {}, ::ArrayWrapper<uint8_t> block_ = {}) noexcept : digest{digest_}, cipher{cipher_}, kParam{kParam_}, trailer{trailer_}, keyBits{keyBits_}, block{block_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);

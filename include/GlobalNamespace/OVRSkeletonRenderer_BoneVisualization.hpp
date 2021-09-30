@@ -69,8 +69,6 @@ namespace GlobalNamespace {
     UnityEngine::Material* SystemGestureMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // Creating value type constructor for type: BoneVisualization
-    BoneVisualization(UnityEngine::GameObject* BoneGO_ = {}, UnityEngine::Transform* BoneBegin_ = {}, UnityEngine::Transform* BoneEnd_ = {}, UnityEngine::LineRenderer* Line_ = {}, UnityEngine::Material* RenderMaterial_ = {}, UnityEngine::Material* SystemGestureMaterial_ = {}) noexcept : BoneGO{BoneGO_}, BoneBegin{BoneBegin_}, BoneEnd{BoneEnd_}, Line{Line_}, RenderMaterial{RenderMaterial_}, SystemGestureMaterial{SystemGestureMaterial_} {}
     // Get instance field reference: private UnityEngine.GameObject BoneGO
     UnityEngine::GameObject*& dyn_BoneGO();
     // Get instance field reference: private UnityEngine.Transform BoneBegin

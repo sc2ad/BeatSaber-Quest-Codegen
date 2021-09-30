@@ -34,8 +34,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController*) == 0x8);
-    // Creating value type constructor for type: AnimatedAvatarPoseController
-    AnimatedAvatarPoseController(GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}) noexcept : avatarPoseController{avatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController

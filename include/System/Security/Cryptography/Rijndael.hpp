@@ -28,8 +28,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F3BC
   class Rijndael : public System::Security::Cryptography::SymmetricAlgorithm {
     public:
-    // Creating value type constructor for type: Rijndael
-    Rijndael() noexcept {}
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
     static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes

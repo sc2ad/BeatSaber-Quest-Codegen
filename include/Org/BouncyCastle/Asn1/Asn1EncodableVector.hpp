@@ -52,8 +52,6 @@ namespace Org::BouncyCastle::Asn1 {
     bool copyOnWrite;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Asn1EncodableVector
-    Asn1EncodableVector(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements_ = {}, int elementCount_ = {}, bool copyOnWrite_ = {}) noexcept : elements{elements_}, elementCount{elementCount_}, copyOnWrite{copyOnWrite_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

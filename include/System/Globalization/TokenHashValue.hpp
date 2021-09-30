@@ -38,8 +38,6 @@ namespace System::Globalization {
     int tokenValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TokenHashValue
-    TokenHashValue(::Il2CppString* tokenString_ = {}, System::TokenType tokenType_ = {}, int tokenValue_ = {}) noexcept : tokenString{tokenString_}, tokenType{tokenType_}, tokenValue{tokenValue_} {}
     // Get instance field reference: System.String tokenString
     ::Il2CppString*& dyn_tokenString();
     // Get instance field reference: System.TokenType tokenType

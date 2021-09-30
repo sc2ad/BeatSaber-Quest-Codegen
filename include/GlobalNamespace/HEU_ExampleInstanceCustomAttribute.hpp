@@ -28,8 +28,6 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class HEU_ExampleInstanceCustomAttribute : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: HEU_ExampleInstanceCustomAttribute
-    HEU_ExampleInstanceCustomAttribute() noexcept {}
     // private System.Void InstancerCallback()
     // Offset: 0x1438048
     void InstancerCallback();

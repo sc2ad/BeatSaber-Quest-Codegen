@@ -27,8 +27,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRemoteTestResultDataFactory {
     public:
-    // Creating value type constructor for type: IRemoteTestResultDataFactory
-    IRemoteTestResultDataFactory() noexcept {}
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0xFFFFFFFF
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);

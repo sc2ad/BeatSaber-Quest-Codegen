@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*) == 0x8);
-    // Creating value type constructor for type: ColorSchemesSettings
-    ColorSchemesSettings(bool overrideDefaultColors_ = {}, ::Il2CppString* selectedColorSchemeId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes_ = {}) noexcept : overrideDefaultColors{overrideDefaultColors_}, selectedColorSchemeId{selectedColorSchemeId_}, colorSchemes{colorSchemes_} {}
     // Get instance field reference: public System.Boolean overrideDefaultColors
     bool& dyn_overrideDefaultColors();
     // Get instance field reference: public System.String selectedColorSchemeId

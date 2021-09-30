@@ -64,8 +64,6 @@ namespace GlobalNamespace {
     int64_t lastSampleValue;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: CPUMonitor
-    CPUMonitor(GlobalNamespace::RollingAverage* utilization_ = {}, System::Diagnostics::Process* currentProcess_ = {}, int processorCount_ = {}, int64_t lastSampleTime_ = {}, int64_t lastSampleValue_ = {}) noexcept : utilization{utilization_}, currentProcess{currentProcess_}, processorCount{processorCount_}, lastSampleTime{lastSampleTime_}, lastSampleValue{lastSampleValue_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ICPUMonitor
     operator GlobalNamespace::ICPUMonitor() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICPUMonitor*>(this);

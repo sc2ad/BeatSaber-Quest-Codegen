@@ -60,8 +60,6 @@ namespace GlobalNamespace {
     float prevBasicNotesTimeRowTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: BeatmapObjectsInTimeRowProcessor
-    BeatmapObjectsInTimeRowProcessor(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowColorNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowAllNotes_ = {}, ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*> notesInColumns_ = {}, float prevBasicNotesTimeRowTime_ = {}) noexcept : currentTimeRowColorNotes{currentTimeRowColorNotes_}, currentTimeRowAllNotes{currentTimeRowAllNotes_}, notesInColumns{notesInColumns_}, prevBasicNotesTimeRowTime{prevBasicNotesTimeRowTime_} {}
     // static field const value: static private System.Single kTimeRowEpsilon
     static constexpr const float kTimeRowEpsilon = 0.001;
     // Get static field: static private System.Single kTimeRowEpsilon

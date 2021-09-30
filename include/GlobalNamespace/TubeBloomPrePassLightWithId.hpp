@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TubeBloomPrePassLightWithId
-    TubeBloomPrePassLightWithId(GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, bool setOnlyOnce_ = {}, bool setColorOnly_ = {}) noexcept : tubeBloomPrePassLight{tubeBloomPrePassLight_}, setOnlyOnce{setOnlyOnce_}, setColorOnly{setColorOnly_} {}
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
     GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private System.Boolean _setOnlyOnce

@@ -27,8 +27,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class LockRecursionException : public System::Exception {
     public:
-    // Creating value type constructor for type: LockRecursionException
-    LockRecursionException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A59300
     // Implemented from: System.Exception

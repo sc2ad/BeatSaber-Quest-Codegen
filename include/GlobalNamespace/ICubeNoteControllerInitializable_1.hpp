@@ -25,8 +25,6 @@ namespace GlobalNamespace {
   template<typename T>
   class ICubeNoteControllerInitializable_1 {
     public:
-    // Creating value type constructor for type: ICubeNoteControllerInitializable_1
-    ICubeNoteControllerInitializable_1() noexcept {}
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void add_cubeNoteControllerDidInitEvent(System::Action_1<T>* value) {

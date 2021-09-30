@@ -39,8 +39,6 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: KeyframeSerializable
-    KeyframeSerializable(::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*> transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
     // Get instance field reference: public VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable[] _transforms
     ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>& dyn__transforms();
     // Get instance field reference: public System.Single _time

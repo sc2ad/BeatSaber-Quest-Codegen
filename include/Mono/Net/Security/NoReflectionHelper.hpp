@@ -14,8 +14,6 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoReflectionHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NoReflectionHelper
-    NoReflectionHelper() noexcept {}
     // static System.Object GetInternalValidator(System.Object provider, System.Object settings)
     // Offset: 0x17C1CBC
     static ::Il2CppObject* GetInternalValidator(::Il2CppObject* provider, ::Il2CppObject* settings);

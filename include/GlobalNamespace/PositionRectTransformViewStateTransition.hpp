@@ -53,8 +53,6 @@ namespace GlobalNamespace {
     Tweening::Vector3Tween* vectorTween;
     // Field size check
     static_assert(sizeof(Tweening::Vector3Tween*) == 0x8);
-    // Creating value type constructor for type: PositionRectTransformViewStateTransition
-    PositionRectTransformViewStateTransition(GlobalNamespace::Vector3TransitionSO* transition_ = {}, Tweening::Vector3Tween* vectorTween_ = {}) noexcept : transition{transition_}, vectorTween{vectorTween_} {}
     // Get instance field reference: private Vector3TransitionSO _transition
     GlobalNamespace::Vector3TransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.Vector3Tween _vectorTween

@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     UnityEngine::KeyCode keyCode;
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
-    // Creating value type constructor for type: ResetLocalLeaderboardOnKey
-    ResetLocalLeaderboardOnKey(GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel_ = {}, UnityEngine::KeyCode keyCode_ = {}) noexcept : localLeaderboardsModel{localLeaderboardsModel_}, keyCode{keyCode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalLeaderboardsModel _localLeaderboardsModel

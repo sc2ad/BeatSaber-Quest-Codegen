@@ -45,8 +45,6 @@ namespace System::Text {
     System::Text::EncoderFallbackBuffer* m_fallbackBuffer;
     // Field size check
     static_assert(sizeof(System::Text::EncoderFallbackBuffer*) == 0x8);
-    // Creating value type constructor for type: Encoder
-    Encoder(System::Text::EncoderFallback* m_fallback_ = {}, System::Text::EncoderFallbackBuffer* m_fallbackBuffer_ = {}) noexcept : m_fallback{m_fallback_}, m_fallbackBuffer{m_fallbackBuffer_} {}
     // Get instance field reference: System.Text.EncoderFallback m_fallback
     System::Text::EncoderFallback*& dyn_m_fallback();
     // Get instance field reference: System.Text.EncoderFallbackBuffer m_fallbackBuffer

@@ -90,8 +90,6 @@ namespace System::Security::Cryptography {
     Mono::Security::Cryptography::RSAManaged* rsa;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::RSAManaged*) == 0x8);
-    // Creating value type constructor for type: RSACryptoServiceProvider
-    RSACryptoServiceProvider(Mono::Security::Cryptography::KeyPairPersistence* store_ = {}, bool persistKey_ = {}, bool persisted_ = {}, bool privateKeyExportable_ = {}, bool m_disposed_ = {}, Mono::Security::Cryptography::RSAManaged* rsa_ = {}) noexcept : store{store_}, persistKey{persistKey_}, persisted{persisted_}, privateKeyExportable{privateKeyExportable_}, m_disposed{m_disposed_}, rsa{rsa_} {}
     // Get static field: static private System.Security.Cryptography.CspProviderFlags s_UseMachineKeyStore
     static System::Security::Cryptography::CspProviderFlags _get_s_UseMachineKeyStore();
     // Set static field: static private System.Security.Cryptography.CspProviderFlags s_UseMachineKeyStore

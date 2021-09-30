@@ -57,8 +57,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*) == 0x8);
-    // Creating value type constructor for type: PointSet
-    PointSet(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points_ = {}, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles_ = {}) noexcept : Points{Points_}, Triangles{Triangles_} {}
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable
     operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);

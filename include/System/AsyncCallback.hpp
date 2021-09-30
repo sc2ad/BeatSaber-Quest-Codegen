@@ -28,8 +28,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BCE4
   class AsyncCallback : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: AsyncCallback
-    AsyncCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x198DC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

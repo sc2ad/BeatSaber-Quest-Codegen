@@ -41,8 +41,6 @@ namespace Menu::ViewControllers {
     GlobalNamespace::AvatarData* avatarData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarData*) == 0x8);
-    // Creating value type constructor for type: EditAvatarHistorySnapshot
-    EditAvatarHistorySnapshot(GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart_ = {}, GlobalNamespace::AvatarData* avatarData_ = {}) noexcept : avatarEditPart{avatarEditPart_}, avatarData{avatarData_} {}
     // Get instance field reference: private readonly EditAvatarViewController/AvatarEditPart <avatarEditPart>k__BackingField
     GlobalNamespace::EditAvatarViewController::AvatarEditPart& dyn_$avatarEditPart$k__BackingField();
     // Get instance field reference: private readonly AvatarData <avatarData>k__BackingField

@@ -30,8 +30,6 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // Creating value type constructor for type: PropertyNameColorValuePair
-    PropertyNameColorValuePair(UnityEngine::Color color_ = {}) noexcept : color{color_} {}
     // Creating conversion operator: operator UnityEngine::Color
     constexpr operator UnityEngine::Color() const noexcept {
       return color;

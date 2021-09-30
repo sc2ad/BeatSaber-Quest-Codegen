@@ -38,8 +38,6 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* MatchSessionId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: GroupPresenceLeaveIntent
-    GroupPresenceLeaveIntent(::Il2CppString* DestinationApiName_ = {}, ::Il2CppString* LobbySessionId_ = {}, ::Il2CppString* MatchSessionId_ = {}) noexcept : DestinationApiName{DestinationApiName_}, LobbySessionId{LobbySessionId_}, MatchSessionId{MatchSessionId_} {}
     // Get instance field reference: public readonly System.String DestinationApiName
     ::Il2CppString*& dyn_DestinationApiName();
     // Get instance field reference: public readonly System.String LobbySessionId

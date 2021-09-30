@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppContextSwitches : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: AppContextSwitches
-    AppContextSwitches() noexcept {}
     // Get static field: static public readonly System.Boolean ThrowExceptionIfDisposedCancellationTokenSource
     static bool _get_ThrowExceptionIfDisposedCancellationTokenSource();
     // Set static field: static public readonly System.Boolean ThrowExceptionIfDisposedCancellationTokenSource

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DoesNotRequireDomainReloadInitAttribute : public UnityEngine::PropertyAttribute {
     public:
-    // Creating value type constructor for type: DoesNotRequireDomainReloadInitAttribute
-    DoesNotRequireDomainReloadInitAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x137D134
     // Implemented from: UnityEngine.PropertyAttribute

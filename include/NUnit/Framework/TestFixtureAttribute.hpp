@@ -94,8 +94,6 @@ namespace NUnit::Framework {
     ::ArrayWrapper<System::Type*> TypeArgs;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating value type constructor for type: TestFixtureAttribute
-    TestFixtureAttribute(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* builder_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, ::ArrayWrapper<::Il2CppObject*> Arguments_ = {}, NUnit::Framework::Interfaces::IPropertyBag* Properties_ = {}, ::ArrayWrapper<System::Type*> TypeArgs_ = {}) noexcept : builder{builder_}, RunState{RunState_}, Arguments{Arguments_}, Properties{Properties_}, TypeArgs{TypeArgs_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IFixtureBuilder
     operator NUnit::Framework::Interfaces::IFixtureBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IFixtureBuilder*>(this);

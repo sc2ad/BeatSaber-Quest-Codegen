@@ -26,8 +26,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion worldToPlayerSpaceRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: PlayerSpaceConvertor
-    PlayerSpaceConvertor(UnityEngine::Quaternion worldToPlayerSpaceRotation_ = {}) noexcept : worldToPlayerSpaceRotation{worldToPlayerSpaceRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Quaternion _worldToPlayerSpaceRotation

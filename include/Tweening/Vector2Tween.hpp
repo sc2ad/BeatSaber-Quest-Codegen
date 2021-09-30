@@ -40,8 +40,6 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector2Tween : public Tweening::Tween_1<UnityEngine::Vector2> {
     public:
-    // Creating value type constructor for type: Vector2Tween
-    Vector2Tween() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF15324
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector2,UnityEngine.Vector2,System.Action`1<UnityEngine.Vector2>,System.Single,Tweening.EaseType,System.Single,Tweening.Vector2Tween> Pool
     static Zenject::StaticMemoryPool_7<UnityEngine::Vector2, UnityEngine::Vector2, System::Action_1<UnityEngine::Vector2>*, float, Tweening::EaseType, float, Tweening::Vector2Tween*>* _get_Pool();

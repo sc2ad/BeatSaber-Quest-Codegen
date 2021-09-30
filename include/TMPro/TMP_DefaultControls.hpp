@@ -39,8 +39,6 @@ namespace TMPro {
     public:
     // Nested type: TMPro::TMP_DefaultControls::Resources
     struct Resources;
-    // Creating value type constructor for type: TMP_DefaultControls
-    TMP_DefaultControls() noexcept {}
     // static field const value: static private System.Single kWidth
     static constexpr const float kWidth = 160;
     // Get static field: static private System.Single kWidth

@@ -33,8 +33,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateTimeFormat : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DateTimeFormat
-    DateTimeFormat() noexcept {}
     // Get static field: static readonly System.TimeSpan NullOffset
     static System::TimeSpan _get_NullOffset();
     // Set static field: static readonly System.TimeSpan NullOffset

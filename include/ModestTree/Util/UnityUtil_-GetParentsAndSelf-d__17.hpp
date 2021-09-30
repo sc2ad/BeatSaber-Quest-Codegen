@@ -76,8 +76,6 @@ namespace ModestTree::Util {
     System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>*) == 0x8);
-    // Creating value type constructor for type: $GetParentsAndSelf$d__17
-    $GetParentsAndSelf$d__17(int $$1__state_ = {}, UnityEngine::Transform* $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* $$3__transform_ = {}, System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, transform{transform_}, $$3__transform{$$3__transform_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>*>(this);

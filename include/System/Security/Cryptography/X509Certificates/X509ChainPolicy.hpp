@@ -98,8 +98,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::DateTime vtime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // Creating value type constructor for type: X509ChainPolicy
-    X509ChainPolicy(System::Security::Cryptography::OidCollection* apps_ = {}, System::Security::Cryptography::OidCollection* cert_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* store_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationMode mode_ = {}, System::TimeSpan timeout_ = {}, System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags_ = {}, System::DateTime vtime_ = {}) noexcept : apps{apps_}, cert{cert_}, store{store_}, store2{store2_}, rflag{rflag_}, mode{mode_}, timeout{timeout_}, vflags{vflags_}, vtime{vtime_} {}
     // Get instance field reference: private System.Security.Cryptography.OidCollection apps
     System::Security::Cryptography::OidCollection*& dyn_apps();
     // Get instance field reference: private System.Security.Cryptography.OidCollection cert

@@ -30,8 +30,6 @@ namespace UnityEngine::Timeline {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   class GroupTrack : public UnityEngine::Timeline::TrackAsset {
     public:
-    // Creating value type constructor for type: GroupTrack
-    GroupTrack() noexcept {}
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
     // Offset: 0x19FB370
     // Implemented from: UnityEngine.Timeline.TrackAsset

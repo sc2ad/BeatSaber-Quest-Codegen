@@ -26,8 +26,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithLinkedAccountList : public Oculus::Platform::Message_1<Oculus::Platform::Models::LinkedAccountList*> {
     public:
-    // Creating value type constructor for type: MessageWithLinkedAccountList
-    MessageWithLinkedAccountList() noexcept {}
     // protected Oculus.Platform.Models.LinkedAccountList GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0x16B93F8
     Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(System::IntPtr c_message);

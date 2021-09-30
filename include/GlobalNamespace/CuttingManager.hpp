@@ -44,8 +44,6 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteCutter* noteCutter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutter*) == 0x8);
-    // Creating value type constructor for type: CuttingManager
-    CuttingManager(GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::NoteCutter* noteCutter_ = {}) noexcept : saberManager{saberManager_}, noteCutter{noteCutter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberManager _saberManager

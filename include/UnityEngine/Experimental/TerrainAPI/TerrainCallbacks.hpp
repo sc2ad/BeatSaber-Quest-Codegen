@@ -30,8 +30,6 @@ namespace UnityEngine::Experimental::TerrainAPI {
     class HeightmapChangedCallback;
     // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback
     class TextureChangedCallback;
-    // Creating value type constructor for type: TerrainCallbacks
-    TerrainCallbacks() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xEBE060
     // Get static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback heightmapChanged
     static UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* _get_heightmapChanged();

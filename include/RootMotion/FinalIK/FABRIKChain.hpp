@@ -56,8 +56,6 @@ namespace RootMotion::FinalIK {
     ::ArrayWrapper<int> children;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: FABRIKChain
-    FABRIKChain(RootMotion::FinalIK::FABRIK* ik_ = {}, float pull_ = {}, float pin_ = {}, ::ArrayWrapper<int> children_ = {}) noexcept : ik{ik_}, pull{pull_}, pin{pin_}, children{children_} {}
     // Get instance field reference: public RootMotion.FinalIK.FABRIK ik
     RootMotion::FinalIK::FABRIK*& dyn_ik();
     // Get instance field reference: public System.Single pull

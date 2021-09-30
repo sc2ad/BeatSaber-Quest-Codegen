@@ -39,8 +39,6 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5BCF8
   class Attribute : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Attribute
-    Attribute() noexcept {}
     // static private System.Attribute[] InternalGetCustomAttributes(System.Reflection.PropertyInfo element, System.Type type, System.Boolean inherit)
     // Offset: 0x198DFE0
     static ::ArrayWrapper<System::Attribute*> InternalGetCustomAttributes(System::Reflection::PropertyInfo* element, System::Type* type, bool inherit);

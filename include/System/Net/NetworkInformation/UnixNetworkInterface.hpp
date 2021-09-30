@@ -70,8 +70,6 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::NetworkInterfaceType type;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::NetworkInterfaceType) == 0x4);
-    // Creating value type constructor for type: UnixNetworkInterface
-    UnixNetworkInterface(System::Net::NetworkInformation::IPInterfaceProperties* ipproperties_ = {}, ::Il2CppString* name_ = {}, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses_ = {}, ::ArrayWrapper<uint8_t> macAddress_ = {}, System::Net::NetworkInformation::NetworkInterfaceType type_ = {}) noexcept : ipproperties{ipproperties_}, name{name_}, addresses{addresses_}, macAddress{macAddress_}, type{type_} {}
     // Get instance field reference: protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
     System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ipproperties();
     // Get instance field reference: private System.String name

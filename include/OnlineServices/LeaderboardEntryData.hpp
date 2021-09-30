@@ -55,8 +55,6 @@ namespace OnlineServices {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // Creating value type constructor for type: LeaderboardEntryData
-    LeaderboardEntryData(int score_ = {}, int rank_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* playerId_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : score{score_}, rank{rank_}, displayName{displayName_}, playerId{playerId_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public readonly System.Int32 score
     int& dyn_score();
     // Get instance field reference: public readonly System.Int32 rank

@@ -62,8 +62,6 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::Oid* oid;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::Oid*) == 0x8);
-    // Creating value type constructor for type: PublicKey
-    PublicKey(System::Security::Cryptography::AsymmetricAlgorithm* key_ = {}, System::Security::Cryptography::AsnEncodedData* keyValue_ = {}, System::Security::Cryptography::AsnEncodedData* params_ = {}, System::Security::Cryptography::Oid* oid_ = {}) noexcept : key{key_}, keyValue{keyValue_}, params{params_}, oid{oid_} {}
     // Get static field: static private System.Byte[] Empty
     static ::ArrayWrapper<uint8_t> _get_Empty();
     // Set static field: static private System.Byte[] Empty

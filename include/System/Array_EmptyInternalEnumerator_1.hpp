@@ -22,8 +22,6 @@ namespace System {
   template<typename T>
   class Array::EmptyInternalEnumerator_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<T>*/ {
     public:
-    // Creating value type constructor for type: EmptyInternalEnumerator_1
-    EmptyInternalEnumerator_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<T>
     operator System::Collections::Generic::IEnumerator_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<T>*>(this);

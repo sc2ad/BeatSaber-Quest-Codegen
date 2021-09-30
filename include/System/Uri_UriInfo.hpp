@@ -58,8 +58,6 @@ namespace System {
     System::Uri::MoreInfo* MoreInfo;
     // Field size check
     static_assert(sizeof(System::Uri::MoreInfo*) == 0x8);
-    // Creating value type constructor for type: UriInfo
-    UriInfo(::Il2CppString* Host_ = {}, ::Il2CppString* ScopeId_ = {}, ::Il2CppString* String_ = {}, System::Uri::Offset Offset_ = {}, ::Il2CppString* DnsSafeHost_ = {}, System::Uri::MoreInfo* MoreInfo_ = {}) noexcept : Host{Host_}, ScopeId{ScopeId_}, String{String_}, Offset{Offset_}, DnsSafeHost{DnsSafeHost_}, MoreInfo{MoreInfo_} {}
     // Get instance field reference: public System.String Host
     ::Il2CppString*& dyn_Host();
     // Get instance field reference: public System.String ScopeId

@@ -35,8 +35,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockBeatmapProvider : public ::Il2CppObject/*, public GlobalNamespace::IServerBeatmapProvider*/ {
     public:
-    // Creating value type constructor for type: MockBeatmapProvider
-    MockBeatmapProvider() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IServerBeatmapProvider
     operator GlobalNamespace::IServerBeatmapProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::IServerBeatmapProvider*>(this);

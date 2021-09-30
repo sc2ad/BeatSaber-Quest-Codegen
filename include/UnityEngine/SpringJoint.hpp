@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85D1C
   class SpringJoint : public UnityEngine::Joint {
     public:
-    // Creating value type constructor for type: SpringJoint
-    SpringJoint() noexcept {}
     // public System.Void set_minDistance(System.Single value)
     // Offset: 0x260FF8C
     void set_minDistance(float value);

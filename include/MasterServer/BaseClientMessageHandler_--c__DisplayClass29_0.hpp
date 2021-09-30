@@ -63,8 +63,6 @@ namespace MasterServer {
     ::ArrayWrapper<uint8_t> serverPublicKey;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass29_0
-    $$c__DisplayClass29_0(MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::ArrayWrapper<uint8_t> serverPublicKey_ = {}) noexcept : $$4__this{$$4__this_}, serverPublicKey{serverPublicKey_} {}
     // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
     MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] serverPublicKey

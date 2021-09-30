@@ -114,8 +114,6 @@ namespace HoudiniEngineUnity {
     int materialKey;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: HEU_MaterialData
-    HEU_MaterialData(UnityEngine::Material* material_ = {}, HoudiniEngineUnity::HEU_MaterialData::Source materialSource_ = {}, int materialKey_ = {}) noexcept : material{material_}, materialSource{materialSource_}, materialKey{materialKey_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData*>*>(this);

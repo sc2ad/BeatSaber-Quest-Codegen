@@ -49,8 +49,6 @@ namespace NUnit::Framework::Internal::Execution {
     System::Threading::ManualResetEvent* event;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
-    // Creating value type constructor for type: CountdownEvent
-    CountdownEvent(int initialCount_ = {}, int remainingCount_ = {}, ::Il2CppObject* lock_ = {}, System::Threading::ManualResetEvent* event_ = {}) noexcept : initialCount{initialCount_}, remainingCount{remainingCount_}, lock{lock_}, event{event_} {}
     // Get instance field reference: private System.Int32 _initialCount
     int& dyn__initialCount();
     // Get instance field reference: private System.Int32 _remainingCount

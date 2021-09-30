@@ -43,8 +43,6 @@ namespace System::Runtime::Serialization {
     ::ArrayWrapper<int> m_parentIndex;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
-    // Creating value type constructor for type: ValueTypeFixupInfo
-    ValueTypeFixupInfo(int64_t m_containerID_ = {}, System::Reflection::FieldInfo* m_parentField_ = {}, ::ArrayWrapper<int> m_parentIndex_ = {}) noexcept : m_containerID{m_containerID_}, m_parentField{m_parentField_}, m_parentIndex{m_parentIndex_} {}
     // Get instance field reference: private System.Int64 m_containerID
     int64_t& dyn_m_containerID();
     // Get instance field reference: private System.Reflection.FieldInfo m_parentField

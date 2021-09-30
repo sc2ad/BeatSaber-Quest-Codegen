@@ -49,7 +49,6 @@ namespace GlobalNamespace {
     ::Il2CppString*& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
     // Offset: 0x113F348
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath)
   }; // GetAssetBundleFileResult
   #pragma pack(pop)

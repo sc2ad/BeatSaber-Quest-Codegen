@@ -86,7 +86,6 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
     // Offset: 0x24F1544
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c)
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
     // Offset: 0x24F1550

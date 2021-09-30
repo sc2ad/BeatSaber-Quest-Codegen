@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     System::Action* despawnCharacterEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // Creating value type constructor for type: VFXAnimationEvents
-    VFXAnimationEvents(UnityEngine::Animation* animation_ = {}, ::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*> animationEvents_ = {}, System::Action* animationDidPauseEvent_ = {}, System::Action* spawnCharacterEvent_ = {}, System::Action* despawnCharacterEvent_ = {}) noexcept : animation{animation_}, animationEvents{animationEvents_}, animationDidPauseEvent{animationDidPauseEvent_}, spawnCharacterEvent{spawnCharacterEvent_}, despawnCharacterEvent{despawnCharacterEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animation _animation

@@ -133,8 +133,6 @@ namespace GlobalNamespace {
     bool enableClear;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: LocalLeaderboardViewController
-    LocalLeaderboardViewController(int maxNumberOfCells_ = {}, GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel_ = {}, GlobalNamespace::LocalLeaderboardTableView* leaderboardTableView_ = {}, UnityEngine::GameObject* clearLeaderboardsWrapper_ = {}, HMUI::NoTransitionsButton* clearLeaderboardsButton_ = {}, HMUI::IconSegmentedControl* scopeSegmentedControl_ = {}, UnityEngine::Sprite* allTimeLeaderboardIcon_ = {}, UnityEngine::Sprite* todayLeaderboardIcon_ = {}, UnityEngine::Sprite* clearLeaderboardIcon_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool enableClear_ = {}) noexcept : maxNumberOfCells{maxNumberOfCells_}, localLeaderboardsModel{localLeaderboardsModel_}, leaderboardTableView{leaderboardTableView_}, clearLeaderboardsWrapper{clearLeaderboardsWrapper_}, clearLeaderboardsButton{clearLeaderboardsButton_}, scopeSegmentedControl{scopeSegmentedControl_}, allTimeLeaderboardIcon{allTimeLeaderboardIcon_}, todayLeaderboardIcon{todayLeaderboardIcon_}, clearLeaderboardIcon{clearLeaderboardIcon_}, playerDataModel{playerDataModel_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, enableClear{enableClear_} {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF10990
     // Get static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
     static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get__leaderboardType();

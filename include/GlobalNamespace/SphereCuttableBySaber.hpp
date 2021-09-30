@@ -46,8 +46,6 @@ namespace GlobalNamespace {
     bool canBeCut;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SphereCuttableBySaber
-    SphereCuttableBySaber(UnityEngine::SphereCollider* collider_ = {}, bool canBeCut_ = {}) noexcept : collider{collider_}, canBeCut{canBeCut_} {}
     // Get instance field reference: private UnityEngine.SphereCollider _collider
     UnityEngine::SphereCollider*& dyn__collider();
     // Get instance field reference: private System.Boolean _canBeCut

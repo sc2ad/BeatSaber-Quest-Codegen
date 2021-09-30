@@ -27,8 +27,6 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProcessWaitHandle : public System::Threading::WaitHandle {
     public:
-    // Creating value type constructor for type: ProcessWaitHandle
-    ProcessWaitHandle() noexcept {}
     // System.Void .ctor(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle)
     // Offset: 0x1A263C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -19,8 +19,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteEqualityComparer : public System::Collections::Generic::EqualityComparer_1<uint8_t> {
     public:
-    // Creating value type constructor for type: ByteEqualityComparer
-    ByteEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.Byte x, System.Byte y)
     // Offset: 0x199AA20
     bool Equals(uint8_t x, uint8_t y);

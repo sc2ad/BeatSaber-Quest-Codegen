@@ -20,8 +20,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerpentEngine : public Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
     public:
-    // Creating value type constructor for type: SerpentEngine
-    SerpentEngine() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x2047944
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase

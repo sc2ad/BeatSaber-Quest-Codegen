@@ -57,8 +57,6 @@ namespace GlobalNamespace {
     bool firstUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NoteDebrisSimplePhysics
-    NoteDebrisSimplePhysics(UnityEngine::Vector3 currentForce_ = {}, UnityEngine::Vector3 currentTorque_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 gravity_ = {}, bool firstUpdate_ = {}) noexcept : currentForce{currentForce_}, currentTorque{currentTorque_}, transform{transform_}, gravity{gravity_}, firstUpdate{firstUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _currentForce

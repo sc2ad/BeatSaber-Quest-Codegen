@@ -26,8 +26,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class MacUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: MacUtilities
-    MacUtilities() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary algorithms
     static System::Collections::IDictionary* _get_algorithms();
     // Set static field: static private readonly System.Collections.IDictionary algorithms

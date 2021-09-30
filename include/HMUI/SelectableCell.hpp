@@ -131,8 +131,6 @@ namespace HMUI {
     bool selected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SelectableCell
-    SelectableCell(GlobalNamespace::Signal* wasPressedSignal_ = {}, System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>* selectionDidChangeEvent_ = {}, System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>* highlightDidChangeEvent_ = {}, bool highlighted_ = {}, bool selected_ = {}) noexcept : wasPressedSignal{wasPressedSignal_}, selectionDidChangeEvent{selectionDidChangeEvent_}, highlightDidChangeEvent{highlightDidChangeEvent_}, highlighted{highlighted_}, selected{selected_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

@@ -80,8 +80,6 @@ namespace System {
     System::TimeSpan m_baseUtcOffsetDelta;
     // Field size check
     static_assert(sizeof(System::TimeSpan) == 0x8);
-    // Creating value type constructor for type: AdjustmentRule
-    AdjustmentRule(System::DateTime m_dateStart_ = {}, System::DateTime m_dateEnd_ = {}, System::TimeSpan m_daylightDelta_ = {}, System::TimeZoneInfo::TransitionTime m_daylightTransitionStart_ = {}, System::TimeZoneInfo::TransitionTime m_daylightTransitionEnd_ = {}, System::TimeSpan m_baseUtcOffsetDelta_ = {}) noexcept : m_dateStart{m_dateStart_}, m_dateEnd{m_dateEnd_}, m_daylightDelta{m_daylightDelta_}, m_daylightTransitionStart{m_daylightTransitionStart_}, m_daylightTransitionEnd{m_daylightTransitionEnd_}, m_baseUtcOffsetDelta{m_baseUtcOffsetDelta_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>
     operator System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>*>(this);

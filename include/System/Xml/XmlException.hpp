@@ -68,8 +68,6 @@ namespace System::Xml {
     ::Il2CppString* message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: XmlException
-    XmlException(::Il2CppString* res_ = {}, ::ArrayWrapper<::Il2CppString*> args_ = {}, int lineNumber_ = {}, int linePosition_ = {}, ::Il2CppString* sourceUri_ = {}, ::Il2CppString* message_ = {}) noexcept : res{res_}, args{args_}, lineNumber{lineNumber_}, linePosition{linePosition_}, sourceUri{sourceUri_}, message{message_} {}
     // Get instance field reference: private System.String res
     ::Il2CppString*& dyn_res();
     // Get instance field reference: private System.String[] args

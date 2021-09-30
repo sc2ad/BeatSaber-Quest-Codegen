@@ -26,8 +26,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class Numerics : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Numerics
-    Numerics() noexcept {}
     // static public System.Boolean IsNumericType(System.Object obj)
     // Offset: 0x1931198
     static bool IsNumericType(::Il2CppObject* obj);

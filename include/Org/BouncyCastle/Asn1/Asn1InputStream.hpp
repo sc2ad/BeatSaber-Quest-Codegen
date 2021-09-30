@@ -53,8 +53,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
-    // Creating value type constructor for type: Asn1InputStream
-    Asn1InputStream(int limit_ = {}, ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers_ = {}) noexcept : limit{limit_}, tmpBuffers{tmpBuffers_} {}
     // Get instance field reference: private readonly System.Int32 limit
     int& dyn_limit();
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers

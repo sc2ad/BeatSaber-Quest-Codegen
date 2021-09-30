@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB1148
   class IVROverlay::_IsDashboardVisible : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _IsDashboardVisible
-    _IsDashboardVisible() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x21004D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

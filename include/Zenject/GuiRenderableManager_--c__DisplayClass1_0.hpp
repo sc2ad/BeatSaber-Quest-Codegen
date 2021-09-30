@@ -45,8 +45,6 @@ namespace Zenject {
     Zenject::IGuiRenderable* renderable;
     // Field size check
     static_assert(sizeof(Zenject::IGuiRenderable*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass1_0
-    $$c__DisplayClass1_0(Zenject::IGuiRenderable* renderable_ = {}) noexcept : renderable{renderable_} {}
     // Creating conversion operator: operator Zenject::IGuiRenderable*
     constexpr operator Zenject::IGuiRenderable*() const noexcept {
       return renderable;

@@ -14,8 +14,6 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomAttributeBuilder : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CustomAttributeBuilder
-    CustomAttributeBuilder() noexcept {}
   }; // System.Reflection.Emit.CustomAttributeBuilder
   #pragma pack(pop)
 }

@@ -144,8 +144,6 @@ namespace TMPro {
     float AtlasHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: FaceInfo_Legacy
-    FaceInfo_Legacy(::Il2CppString* Name_ = {}, float PointSize_ = {}, float Scale_ = {}, int CharacterCount_ = {}, float LineHeight_ = {}, float Baseline_ = {}, float Ascender_ = {}, float CapHeight_ = {}, float Descender_ = {}, float CenterLine_ = {}, float SuperscriptOffset_ = {}, float SubscriptOffset_ = {}, float SubSize_ = {}, float Underline_ = {}, float UnderlineThickness_ = {}, float strikethrough_ = {}, float strikethroughThickness_ = {}, float TabWidth_ = {}, float Padding_ = {}, float AtlasWidth_ = {}, float AtlasHeight_ = {}) noexcept : Name{Name_}, PointSize{PointSize_}, Scale{Scale_}, CharacterCount{CharacterCount_}, LineHeight{LineHeight_}, Baseline{Baseline_}, Ascender{Ascender_}, CapHeight{CapHeight_}, Descender{Descender_}, CenterLine{CenterLine_}, SuperscriptOffset{SuperscriptOffset_}, SubscriptOffset{SubscriptOffset_}, SubSize{SubSize_}, Underline{Underline_}, UnderlineThickness{UnderlineThickness_}, strikethrough{strikethrough_}, strikethroughThickness{strikethroughThickness_}, TabWidth{TabWidth_}, Padding{Padding_}, AtlasWidth{AtlasWidth_}, AtlasHeight{AtlasHeight_} {}
     // Get instance field reference: public System.String Name
     ::Il2CppString*& dyn_Name();
     // Get instance field reference: public System.Single PointSize

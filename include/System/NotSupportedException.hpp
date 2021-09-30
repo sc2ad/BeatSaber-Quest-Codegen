@@ -32,8 +32,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C424
   class NotSupportedException : public System::SystemException {
     public:
-    // Creating value type constructor for type: NotSupportedException
-    NotSupportedException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1A0EDD4
     // Implemented from: System.SystemException

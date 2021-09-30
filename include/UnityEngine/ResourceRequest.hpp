@@ -46,8 +46,6 @@ namespace UnityEngine {
     System::Type* m_Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ResourceRequest
-    ResourceRequest(::Il2CppString* m_Path_ = {}, System::Type* m_Type_ = {}) noexcept : m_Path{m_Path_}, m_Type{m_Type_} {}
     // Get instance field reference: System.String m_Path
     ::Il2CppString*& dyn_m_Path();
     // Get instance field reference: System.Type m_Type

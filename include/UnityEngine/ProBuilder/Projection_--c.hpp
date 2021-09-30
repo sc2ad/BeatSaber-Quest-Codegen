@@ -36,8 +36,6 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Projection::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c <>9
     static UnityEngine::ProBuilder::Projection::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c <>9

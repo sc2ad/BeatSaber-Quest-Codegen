@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerBeatmapObjectManager
-    MultiplayerConnectedPlayerBeatmapObjectManager(System::Nullable_1<float> firstBasicNoteTime_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* gameNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* bombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_2<GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, GlobalNamespace::ObstacleController*>* obstaclePoolContainer_ = {}, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager_ = {}, GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData_ = {}) noexcept : firstBasicNoteTime{firstBasicNoteTime_}, gameNotePoolContainer{gameNotePoolContainer_}, bombNotePoolContainer{bombNotePoolContainer_}, obstaclePoolContainer{obstaclePoolContainer_}, noteEventManager{noteEventManager_}, initData{initData_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

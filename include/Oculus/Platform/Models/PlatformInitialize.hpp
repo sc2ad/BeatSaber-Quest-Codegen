@@ -28,8 +28,6 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::PlatformInitializeResult Result;
     // Field size check
     static_assert(sizeof(Oculus::Platform::PlatformInitializeResult) == 0x4);
-    // Creating value type constructor for type: PlatformInitialize
-    PlatformInitialize(Oculus::Platform::PlatformInitializeResult Result_ = {}) noexcept : Result{Result_} {}
     // Creating conversion operator: operator Oculus::Platform::PlatformInitializeResult
     constexpr operator Oculus::Platform::PlatformInitializeResult() const noexcept {
       return Result;

@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4NetworkPlayerModel : public GlobalNamespace::PlatformNetworkPlayerModel {
     public:
-    // Creating value type constructor for type: PS4NetworkPlayerModel
-    PS4NetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1125218
     // Implemented from: PlatformNetworkPlayerModel

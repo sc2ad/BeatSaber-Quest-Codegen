@@ -22,8 +22,6 @@ namespace ModestTree {
   // [TokenAttribute] Offset: FFFFFFFF
   class Log : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Log
-    Log() noexcept {}
     // static public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x14EDD40
     static void Debug(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);

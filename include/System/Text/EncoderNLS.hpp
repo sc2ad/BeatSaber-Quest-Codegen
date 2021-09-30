@@ -70,8 +70,6 @@ namespace System::Text {
     int m_charsUsed;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: EncoderNLS
-    EncoderNLS(::Il2CppChar charLeftOver_ = {}, System::Text::Encoding* m_encoding_ = {}, bool m_mustFlush_ = {}, bool m_throwOnOverflow_ = {}, int m_charsUsed_ = {}) noexcept : charLeftOver{charLeftOver_}, m_encoding{m_encoding_}, m_mustFlush{m_mustFlush_}, m_throwOnOverflow{m_throwOnOverflow_}, m_charsUsed{m_charsUsed_} {}
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

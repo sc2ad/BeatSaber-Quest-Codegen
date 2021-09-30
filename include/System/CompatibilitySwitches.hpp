@@ -14,8 +14,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompatibilitySwitches : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CompatibilitySwitches
-    CompatibilitySwitches() noexcept {}
     // Get static field: static public readonly System.Boolean IsAppEarlierThanSilverlight4
     static bool _get_IsAppEarlierThanSilverlight4();
     // Set static field: static public readonly System.Boolean IsAppEarlierThanSilverlight4

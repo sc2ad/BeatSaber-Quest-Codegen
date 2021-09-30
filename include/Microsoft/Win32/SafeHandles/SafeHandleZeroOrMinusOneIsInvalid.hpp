@@ -20,8 +20,6 @@ namespace Microsoft::Win32::SafeHandles {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeHandleZeroOrMinusOneIsInvalid : public System::Runtime::InteropServices::SafeHandle {
     public:
-    // Creating value type constructor for type: SafeHandleZeroOrMinusOneIsInvalid
-    SafeHandleZeroOrMinusOneIsInvalid() noexcept {}
     // protected System.Void .ctor(System.Boolean ownsHandle)
     // Offset: 0x1C2FF78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

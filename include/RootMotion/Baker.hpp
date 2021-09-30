@@ -193,8 +193,6 @@ namespace RootMotion {
     float clipLength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Baker
-    Baker(int frameRate_ = {}, float keyReductionError_ = {}, RootMotion::Baker::Mode mode_ = {}, ::ArrayWrapper<UnityEngine::AnimationClip*> animationClips_ = {}, ::ArrayWrapper<::Il2CppString*> animationStates_ = {}, bool loop_ = {}, ::Il2CppString* saveToFolder_ = {}, ::Il2CppString* appendName_ = {}, ::Il2CppString* saveName_ = {}, bool isBaking_ = {}, float bakingProgress_ = {}, UnityEngine::Animator* animator_ = {}, UnityEngine::Playables::PlayableDirector* director_ = {}, float clipLength_ = {}) noexcept : frameRate{frameRate_}, keyReductionError{keyReductionError_}, mode{mode_}, animationClips{animationClips_}, animationStates{animationStates_}, loop{loop_}, saveToFolder{saveToFolder_}, appendName{appendName_}, saveName{saveName_}, isBaking{isBaking_}, bakingProgress{bakingProgress_}, animator{animator_}, director{director_}, clipLength{clipLength_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 frameRate

@@ -14,8 +14,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SR : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SR
-    SR() noexcept {}
     // static System.String Format(System.String resourceFormat, System.Object p1)
     // Offset: 0x1C5A180
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1);

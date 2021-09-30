@@ -86,8 +86,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int xOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Sha256Digest
-    Sha256Digest(uint H1_ = {}, uint H2_ = {}, uint H3_ = {}, uint H4_ = {}, uint H5_ = {}, uint H6_ = {}, uint H7_ = {}, uint H8_ = {}, ::ArrayWrapper<uint> X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, H8{H8_}, X{X_}, xOff{xOff_} {}
     // Get static field: static private readonly System.UInt32[] K
     static ::ArrayWrapper<uint> _get_K();
     // Set static field: static private readonly System.UInt32[] K

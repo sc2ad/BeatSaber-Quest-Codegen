@@ -20,8 +20,6 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMaterialModifier {
     public:
-    // Creating value type constructor for type: IMaterialModifier
-    IMaterialModifier() noexcept {}
     // public UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
     // Offset: 0xFFFFFFFF
     UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);

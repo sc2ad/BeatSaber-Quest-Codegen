@@ -18,8 +18,6 @@ namespace Unity::Collections {
   // [RequiredByNativeCodeAttribute] Offset: E6FA6C
   class WriteOnlyAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: WriteOnlyAttribute
-    WriteOnlyAttribute() noexcept {}
   }; // Unity.Collections.WriteOnlyAttribute
   #pragma pack(pop)
 }

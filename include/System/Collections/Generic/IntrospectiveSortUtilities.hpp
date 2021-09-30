@@ -14,8 +14,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class IntrospectiveSortUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IntrospectiveSortUtilities
-    IntrospectiveSortUtilities() noexcept {}
     // static System.Int32 FloorLog2(System.Int32 n)
     // Offset: 0x198C0CC
     static int FloorLog2(int n);

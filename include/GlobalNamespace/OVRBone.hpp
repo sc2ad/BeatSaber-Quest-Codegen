@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* Transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: OVRBone
-    OVRBone(GlobalNamespace::OVRSkeleton::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, UnityEngine::Transform* Transform_ = {}) noexcept : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Transform{Transform_} {}
     // Get instance field reference: private OVRSkeleton/BoneId <Id>k__BackingField
     GlobalNamespace::OVRSkeleton::BoneId& dyn_$Id$k__BackingField();
     // Get instance field reference: private System.Int16 <ParentBoneIndex>k__BackingField

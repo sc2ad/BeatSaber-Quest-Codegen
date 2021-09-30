@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ::ArrayWrapper<uint8_t> iv;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: ParametersWithIV
-    ParametersWithIV(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::ArrayWrapper<uint8_t> iv_ = {}) noexcept : parameters{parameters_}, iv{iv_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

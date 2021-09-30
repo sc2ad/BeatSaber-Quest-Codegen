@@ -38,8 +38,6 @@ namespace Zenject {
   template<typename TParam1, typename TContract>
   class FactoryArgumentsToChoiceBinder_2 : public Zenject::FactoryToChoiceBinder_2<TParam1, TContract> {
     public:
-    // Creating value type constructor for type: FactoryArgumentsToChoiceBinder_2
-    FactoryArgumentsToChoiceBinder_2() noexcept {}
     // public Zenject.FactoryToChoiceBinder`2<TParam1,TContract> WithFactoryArguments(T param)
     // Offset: 0xFFFFFFFF
     template<class T>

@@ -72,7 +72,6 @@ namespace System::Runtime::CompilerServices {
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task)
     // Offset: 0xFFFFFFFF
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TaskAwaiter_1(System::Threading::Tasks::Task_1<TResult>* task)
     // public System.Void OnCompleted(System.Action continuation)
     // Offset: 0xFFFFFFFF

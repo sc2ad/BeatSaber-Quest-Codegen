@@ -27,8 +27,6 @@ namespace GlobalNamespace {
   // [CreateAssetMenuAttribute] Offset: EC9030
   class DIContainerSignal : public GlobalNamespace::GenericSignal_1<Zenject::DiContainer*> {
     public:
-    // Creating value type constructor for type: DIContainerSignal
-    DIContainerSignal() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x137B860
     // Implemented from: GenericSignal`1

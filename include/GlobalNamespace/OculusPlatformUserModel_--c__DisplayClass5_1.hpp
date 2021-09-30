@@ -48,8 +48,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass5_1
-    $$c__DisplayClass5_1(int index_ = {}, GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0* CS$$$8__locals1_ = {}) noexcept : index{index_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // Get instance field reference: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1

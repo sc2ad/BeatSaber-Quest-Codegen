@@ -21,8 +21,6 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMac {
     public:
-    // Creating value type constructor for type: IMac
-    IMac() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);

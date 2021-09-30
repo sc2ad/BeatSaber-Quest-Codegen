@@ -51,8 +51,6 @@ namespace UnityEngine::AddressableAssets::Utility {
     System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* m_cachedDiagnosticInfo;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*) == 0x8);
-    // Creating value type constructor for type: ResourceManagerDiagnostics
-    ResourceManagerDiagnostics(UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* m_cachedDiagnosticInfo_ = {}) noexcept : m_ResourceManager{m_ResourceManager_}, m_cachedDiagnosticInfo{m_cachedDiagnosticInfo_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

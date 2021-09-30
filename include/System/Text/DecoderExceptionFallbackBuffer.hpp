@@ -20,8 +20,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderExceptionFallbackBuffer : public System::Text::DecoderFallbackBuffer {
     public:
-    // Creating value type constructor for type: DecoderExceptionFallbackBuffer
-    DecoderExceptionFallbackBuffer() noexcept {}
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x1DF85CC
     void Throw(::ArrayWrapper<uint8_t> bytesUnknown, int index);

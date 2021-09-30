@@ -22,8 +22,6 @@ namespace System::Net::Configuration {
   // [ConfigurationCollectionAttribute] Offset: FFFFFFFF
   class BypassElementCollection : public System::Configuration::ConfigurationElementCollection {
     public:
-    // Creating value type constructor for type: BypassElementCollection
-    BypassElementCollection() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x156FC38
     // Implemented from: System.Object

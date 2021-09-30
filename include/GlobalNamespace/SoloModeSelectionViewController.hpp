@@ -121,8 +121,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*) == 0x8);
-    // Creating value type constructor for type: SoloModeSelectionViewController
-    SoloModeSelectionViewController(UnityEngine::UI::Button* freePlayModeButton_ = {}, UnityEngine::UI::Button* oneSaberModeButton_ = {}, UnityEngine::UI::Button* noArrowsModeButton_ = {}, UnityEngine::UI::Button* dismissButton_ = {}, System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent_ = {}) noexcept : freePlayModeButton{freePlayModeButton_}, oneSaberModeButton{oneSaberModeButton_}, noArrowsModeButton{noArrowsModeButton_}, dismissButton{dismissButton_}, didFinishEvent{didFinishEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _freePlayModeButton
     UnityEngine::UI::Button*& dyn__freePlayModeButton();
     // Get instance field reference: private UnityEngine.UI.Button _oneSaberModeButton

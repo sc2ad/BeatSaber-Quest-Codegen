@@ -38,8 +38,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
     Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* param;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*) == 0x8);
-    // Creating value type constructor for type: DHBasicKeyPairGenerator
-    DHBasicKeyPairGenerator(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* param_ = {}) noexcept : param{param_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*
     constexpr operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*() const noexcept {
       return param;

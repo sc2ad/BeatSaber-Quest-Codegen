@@ -57,8 +57,6 @@ namespace System::Runtime::Remoting {
     System::Collections::IList* CustomData;
     // Field size check
     static_assert(sizeof(System::Collections::IList*) == 0x8);
-    // Creating value type constructor for type: ProviderData
-    ProviderData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, System::Collections::Hashtable* CustomProperties_ = {}, System::Collections::IList* CustomData_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, CustomProperties{CustomProperties_}, CustomData{CustomData_} {}
     // Get instance field reference: System.String Ref
     ::Il2CppString*& dyn_Ref();
     // Get instance field reference: System.String Type

@@ -85,8 +85,6 @@ namespace UnityEngine::EventSystems {
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* m_Delegates;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*) == 0x8);
-    // Creating value type constructor for type: EventTrigger
-    EventTrigger(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* m_Delegates_ = {}) noexcept : m_Delegates{m_Delegates_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

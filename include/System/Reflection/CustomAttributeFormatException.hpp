@@ -28,8 +28,6 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DC5C
   class CustomAttributeFormatException : public System::FormatException {
     public:
-    // Creating value type constructor for type: CustomAttributeFormatException
-    CustomAttributeFormatException() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1EA4D84
     // Implemented from: System.FormatException

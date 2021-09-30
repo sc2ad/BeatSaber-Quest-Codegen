@@ -35,8 +35,6 @@ namespace Org::BouncyCastle::Crypto {
     Org::BouncyCastle::Crypto::IStreamCipher* cipher;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::IStreamCipher*) == 0x8);
-    // Creating value type constructor for type: BufferedStreamCipher
-    BufferedStreamCipher(Org::BouncyCastle::Crypto::IStreamCipher* cipher_ = {}) noexcept : cipher{cipher_} {}
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher*
     constexpr operator Org::BouncyCastle::Crypto::IStreamCipher*() const noexcept {
       return cipher;

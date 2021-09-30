@@ -37,8 +37,6 @@ namespace System::Collections::Specialized {
     System::Collections::Hashtable* contents;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
-    // Creating value type constructor for type: StringDictionary
-    StringDictionary(System::Collections::Hashtable* contents_ = {}) noexcept : contents{contents_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

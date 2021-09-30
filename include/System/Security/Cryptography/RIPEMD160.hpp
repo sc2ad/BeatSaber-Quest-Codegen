@@ -21,8 +21,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F3F8
   class RIPEMD160 : public System::Security::Cryptography::HashAlgorithm {
     public:
-    // Creating value type constructor for type: RIPEMD160
-    RIPEMD160() noexcept {}
     // static public System.Security.Cryptography.RIPEMD160 Create()
     // Offset: 0x1A7A514
     static System::Security::Cryptography::RIPEMD160* Create();

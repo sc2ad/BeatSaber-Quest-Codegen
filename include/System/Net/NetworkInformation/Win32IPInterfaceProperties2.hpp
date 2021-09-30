@@ -55,8 +55,6 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::Win32_MIB_IFROW mib6;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW) == 0x70);
-    // Creating value type constructor for type: Win32IPInterfaceProperties2
-    Win32IPInterfaceProperties2(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib4_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib6_ = {}) noexcept : addr{addr_}, mib4{mib4_}, mib6{mib6_} {}
     // Get instance field reference: private readonly System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
     // Get instance field reference: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib4

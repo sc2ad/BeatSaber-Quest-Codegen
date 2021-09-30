@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> levels;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelCollection
-    BeatmapLevelCollection(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> levels_ = {}) noexcept : levels{levels_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelCollection
     operator GlobalNamespace::IBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelCollection*>(this);

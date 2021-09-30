@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectCallback* callback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallback*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectCallbackData
-    BeatmapObjectCallbackData(float aheadTime_ = {}, ::ArrayWrapper<int> nextObjectIndexInLine_ = {}, GlobalNamespace::BeatmapObjectCallback* callback_ = {}) noexcept : aheadTime{aheadTime_}, nextObjectIndexInLine{nextObjectIndexInLine_}, callback{callback_} {}
     // Get instance field reference: public System.Single aheadTime
     float& dyn_aheadTime();
     // Get instance field reference: public System.Int32[] nextObjectIndexInLine

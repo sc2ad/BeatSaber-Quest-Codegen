@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>* localizedCustomPacks;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>*) == 0x8);
-    // Creating value type constructor for type: QuickPlaySongPacksOverride
-    QuickPlaySongPacksOverride(System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>* predefinedPackIds_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>* localizedCustomPacks_ = {}) noexcept : predefinedPackIds{predefinedPackIds_}, localizedCustomPacks{localizedCustomPacks_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack> predefinedPackIds
     System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>*& dyn_predefinedPackIds();
     // Get instance field reference: public System.Collections.Generic.List`1<MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack> localizedCustomPacks

@@ -39,8 +39,6 @@ namespace Mono::Globalization::Unicode {
     public:
     // Nested type: Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c
     class $$c;
-    // Creating value type constructor for type: MSCompatUnicodeTable
-    MSCompatUnicodeTable() noexcept {}
     // Get static field: static public System.Int32 MaxExpansionLength
     static int _get_MaxExpansionLength();
     // Set static field: static public System.Int32 MaxExpansionLength

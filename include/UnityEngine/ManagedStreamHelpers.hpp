@@ -26,8 +26,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ManagedStreamHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ManagedStreamHelpers
-    ManagedStreamHelpers() noexcept {}
     // static System.Void ValidateLoadFromStream(System.IO.Stream stream)
     // Offset: 0x1D9F234
     static void ValidateLoadFromStream(System::IO::Stream* stream);

@@ -115,8 +115,6 @@ namespace GlobalNamespace {
     bool selectedCellHasOptions;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: NetworkPlayersTableView
-    NetworkPlayersTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::NetworkPlayerTableCell* playerCellPrefab_ = {}, GlobalNamespace::NetworkPlayerOptionsTableCell* optionsCellPrefab_ = {}, GlobalNamespace::LevelPackHeaderTableCell* headerCellPrefab_ = {}, float rowHeight_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NetworkPlayersTableView::CellInfo*>* cellInfo_ = {}, int selectedCellIndex_ = {}, ::Il2CppString* selectedPlayerID_ = {}, bool selectedCellHasOptions_ = {}) noexcept : tableView{tableView_}, playerCellPrefab{playerCellPrefab_}, optionsCellPrefab{optionsCellPrefab_}, headerCellPrefab{headerCellPrefab_}, rowHeight{rowHeight_}, cellInfo{cellInfo_}, selectedCellIndex{selectedCellIndex_}, selectedPlayerID{selectedPlayerID_}, selectedCellHasOptions{selectedCellHasOptions_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

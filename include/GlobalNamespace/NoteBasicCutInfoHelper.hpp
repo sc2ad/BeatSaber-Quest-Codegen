@@ -34,8 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteBasicCutInfoHelper : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: NoteBasicCutInfoHelper
-    NoteBasicCutInfoHelper() noexcept {}
     // static field const value: static private System.Single kMinBladeSpeedForCut
     static constexpr const float kMinBladeSpeedForCut = 2;
     // Get static field: static private System.Single kMinBladeSpeedForCut

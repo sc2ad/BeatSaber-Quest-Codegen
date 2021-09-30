@@ -36,8 +36,6 @@ namespace RootMotion::FinalIK {
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: Multiplier
-    Multiplier(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve_ = {}, float multiplier_ = {}) noexcept : curve{curve_}, multiplier{multiplier_} {}
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
     // Get instance field reference: public System.Single multiplier

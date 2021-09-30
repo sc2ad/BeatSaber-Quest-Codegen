@@ -28,8 +28,6 @@ namespace UnityEngine::Timeline {
   // [ConditionalAttribute] Offset: EB90D4
   class TimelineHelpURLAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: TimelineHelpURLAttribute
-    TimelineHelpURLAttribute() noexcept {}
     // public System.Void .ctor(System.Type type)
     // Offset: 0x25635F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -55,8 +55,6 @@ namespace Org::BouncyCastle::Crypto::Generators {
     ::ArrayWrapper<uint8_t> iv;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating value type constructor for type: BaseKdfBytesGenerator
-    BaseKdfBytesGenerator(int counterStart_ = {}, Org::BouncyCastle::Crypto::IDigest* digest_ = {}, ::ArrayWrapper<uint8_t> shared_ = {}, ::ArrayWrapper<uint8_t> iv_ = {}) noexcept : counterStart{counterStart_}, digest{digest_}, shared{shared_}, iv{iv_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDerivationFunction
     operator Org::BouncyCastle::Crypto::IDerivationFunction() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationFunction*>(this);

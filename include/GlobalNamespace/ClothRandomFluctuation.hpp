@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: ClothRandomFluctuation
-    ClothRandomFluctuation(UnityEngine::Cloth* cloth_ = {}, bool useLocalExternalFluctuations_ = {}, UnityEngine::Vector3 externalFluctuations_ = {}, bool useLocalRandomFluctuations_ = {}, UnityEngine::Vector3 minFluctuations_ = {}, UnityEngine::Vector3 maxFluctuations_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ClothRandomFluctuation::SineLayer*>* compoundSins_ = {}, float speed_ = {}) noexcept : cloth{cloth_}, useLocalExternalFluctuations{useLocalExternalFluctuations_}, externalFluctuations{externalFluctuations_}, useLocalRandomFluctuations{useLocalRandomFluctuations_}, minFluctuations{minFluctuations_}, maxFluctuations{maxFluctuations_}, compoundSins{compoundSins_}, speed{speed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Cloth _cloth

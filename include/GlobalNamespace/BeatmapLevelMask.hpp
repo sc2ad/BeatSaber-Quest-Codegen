@@ -55,8 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::BitMaskSparse* bloomFilter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BitMaskSparse*) == 0x8);
-    // Creating value type constructor for type: BeatmapLevelMask
-    BeatmapLevelMask(GlobalNamespace::BitMaskSparse* bloomFilter_ = {}) noexcept : bloomFilter{bloomFilter_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>
     operator System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>*>(this);

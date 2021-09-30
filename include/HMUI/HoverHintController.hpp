@@ -61,8 +61,6 @@ namespace HMUI {
     bool isHiding;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HoverHintController
-    HoverHintController(HMUI::HoverHintPanel* hoverHintPanelPrefab_ = {}, HMUI::HoverHintPanel* hoverHintPanel_ = {}, bool isHiding_ = {}) noexcept : hoverHintPanelPrefab{hoverHintPanelPrefab_}, hoverHintPanel{hoverHintPanel_}, isHiding{isHiding_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kShowHintDelay

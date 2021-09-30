@@ -40,8 +40,6 @@ namespace Zenject {
     System::Action_3<TParam1, TParam2, TValue>* onSpawnMethod;
     // Field size check
     static_assert(sizeof(System::Action_3<TParam1, TParam2, TValue>*) == 0x8);
-    // Creating value type constructor for type: StaticMemoryPool_3
-    StaticMemoryPool_3(System::Action_3<TParam1, TParam2, TValue>* onSpawnMethod_ = {}) noexcept : onSpawnMethod{onSpawnMethod_} {}
     // Creating interface conversion operator: operator Zenject::IMemoryPool_3<TParam1, TParam2, TValue>
     operator Zenject::IMemoryPool_3<TParam1, TParam2, TValue>() noexcept {
       return *reinterpret_cast<Zenject::IMemoryPool_3<TParam1, TParam2, TValue>*>(this);

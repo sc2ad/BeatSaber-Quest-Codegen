@@ -30,8 +30,6 @@ namespace System::Runtime::InteropServices {
     System::Runtime::InteropServices::DllImportSearchPath paths;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::DllImportSearchPath) == 0x4);
-    // Creating value type constructor for type: DefaultDllImportSearchPathsAttribute
-    DefaultDllImportSearchPathsAttribute(System::Runtime::InteropServices::DllImportSearchPath paths_ = {}) noexcept : paths{paths_} {}
     // Creating conversion operator: operator System::Runtime::InteropServices::DllImportSearchPath
     constexpr operator System::Runtime::InteropServices::DllImportSearchPath() const noexcept {
       return paths;

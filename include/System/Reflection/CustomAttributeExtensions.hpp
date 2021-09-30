@@ -41,8 +41,6 @@ namespace System::Reflection {
   // [ExtensionAttribute] Offset: E5D0A0
   class CustomAttributeExtensions : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: CustomAttributeExtensions
-    CustomAttributeExtensions() noexcept {}
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType)
     // Offset: 0x1EA4D68
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);

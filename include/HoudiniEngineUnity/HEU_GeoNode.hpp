@@ -120,8 +120,6 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>*) == 0x8);
-    // Creating value type constructor for type: HEU_GeoNode
-    HEU_GeoNode(HoudiniEngineUnity::HAPI_GeoInfo geoInfo_ = {}, ::Il2CppString* geoName_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PartData*>* parts_ = {}, HoudiniEngineUnity::HEU_ObjectNode* containerObjectNode_ = {}, HoudiniEngineUnity::HEU_InputNode* inputNode_ = {}, HoudiniEngineUnity::HEU_Curve* geoCurve_ = {}, HoudiniEngineUnity::HEU_VolumeCache* volumeCache_ = {}, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches_ = {}) noexcept : geoInfo{geoInfo_}, geoName{geoName_}, parts{parts_}, containerObjectNode{containerObjectNode_}, inputNode{inputNode_}, geoCurve{geoCurve_}, volumeCache{volumeCache_}, volumeCaches{volumeCaches_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>*>(this);

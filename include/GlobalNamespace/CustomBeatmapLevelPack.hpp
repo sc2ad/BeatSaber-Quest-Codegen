@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CustomBeatmapLevelCollection*) == 0x8);
-    // Creating value type constructor for type: CustomBeatmapLevelPack
-    CustomBeatmapLevelPack(::Il2CppString* packID_ = {}, ::Il2CppString* packName_ = {}, ::Il2CppString* shortPackName_ = {}, UnityEngine::Sprite* coverImage_ = {}, UnityEngine::Sprite* smallCoverImage_ = {}, GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection_ = {}) noexcept : packID{packID_}, packName{packName_}, shortPackName{shortPackName_}, coverImage{coverImage_}, smallCoverImage{smallCoverImage_}, customBeatmapLevelCollection{customBeatmapLevelCollection_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelPack
     operator GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);

@@ -68,8 +68,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* selectedAndHighlightedColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // Creating value type constructor for type: ColorTransitionSO
-    ColorTransitionSO(GlobalNamespace::ColorSO* normalColor_ = {}, GlobalNamespace::ColorSO* highlightedColor_ = {}, GlobalNamespace::ColorSO* pressedColor_ = {}, GlobalNamespace::ColorSO* disabledColor_ = {}, GlobalNamespace::ColorSO* selectedColor_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor_ = {}) noexcept : normalColor{normalColor_}, highlightedColor{highlightedColor_}, pressedColor{pressedColor_}, disabledColor{disabledColor_}, selectedColor{selectedColor_}, selectedAndHighlightedColor{selectedAndHighlightedColor_} {}
     // Get instance field reference: private ColorSO _normalColor
     GlobalNamespace::ColorSO*& dyn__normalColor();
     // Get instance field reference: private ColorSO _highlightedColor

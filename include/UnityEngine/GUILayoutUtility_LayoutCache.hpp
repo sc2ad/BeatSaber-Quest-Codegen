@@ -51,8 +51,6 @@ namespace UnityEngine {
     UnityEngine::GUILayoutGroup* windows;
     // Field size check
     static_assert(sizeof(UnityEngine::GUILayoutGroup*) == 0x8);
-    // Creating value type constructor for type: LayoutCache
-    LayoutCache(UnityEngine::GUILayoutGroup* topLevel_ = {}, UnityEngineInternal::GenericStack* layoutGroups_ = {}, UnityEngine::GUILayoutGroup* windows_ = {}) noexcept : topLevel{topLevel_}, layoutGroups{layoutGroups_}, windows{windows_} {}
     // Get instance field reference: UnityEngine.GUILayoutGroup topLevel
     UnityEngine::GUILayoutGroup*& dyn_topLevel();
     // Get instance field reference: UnityEngineInternal.GenericStack layoutGroups

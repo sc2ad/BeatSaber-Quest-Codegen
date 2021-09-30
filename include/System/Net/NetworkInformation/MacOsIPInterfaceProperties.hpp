@@ -40,8 +40,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class MacOsIPInterfaceProperties : public System::Net::NetworkInformation::UnixIPInterfaceProperties {
     public:
-    // Creating value type constructor for type: MacOsIPInterfaceProperties
-    MacOsIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.MacOsNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
     // Offset: 0x1646784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -67,8 +67,6 @@ namespace System::Reflection {
     int max_stack;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MethodBody
-    MethodBody(::ArrayWrapper<System::Reflection::ExceptionHandlingClause*> clauses_ = {}, ::ArrayWrapper<System::Reflection::LocalVariableInfo*> locals_ = {}, ::ArrayWrapper<uint8_t> il_ = {}, bool init_locals_ = {}, int sig_token_ = {}, int max_stack_ = {}) noexcept : clauses{clauses_}, locals{locals_}, il{il_}, init_locals{init_locals_}, sig_token{sig_token_}, max_stack{max_stack_} {}
     // Get instance field reference: private System.Reflection.ExceptionHandlingClause[] clauses
     ::ArrayWrapper<System::Reflection::ExceptionHandlingClause*>& dyn_clauses();
     // Get instance field reference: private System.Reflection.LocalVariableInfo[] locals

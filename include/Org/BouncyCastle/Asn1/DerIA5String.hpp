@@ -36,8 +36,6 @@ namespace Org::BouncyCastle::Asn1 {
     ::Il2CppString* str;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: DerIA5String
-    DerIA5String(::Il2CppString* str_ = {}) noexcept : str{str_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return str;

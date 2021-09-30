@@ -14,8 +14,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultCertificatePolicy : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: DefaultCertificatePolicy
-    DefaultCertificatePolicy() noexcept {}
   }; // System.Net.DefaultCertificatePolicy
   #pragma pack(pop)
 }

@@ -113,8 +113,6 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*) == 0x8);
-    // Creating value type constructor for type: PlaymodeTestsController
-    PlaymodeTestsController(System::Collections::IEnumerator* m_TestSteps_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesWithTests_ = {}, UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent_ = {}, UnityEngine::TestTools::TestRunner::TestFinishedEvent* testFinishedEvent_ = {}, UnityEngine::TestTools::TestRunner::RunStartedEvent* runStartedEvent_ = {}, UnityEngine::TestTools::TestRunner::RunFinishedEvent* runFinishedEvent_ = {}, UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings* settings_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner_ = {}) noexcept : m_TestSteps{m_TestSteps_}, m_AssembliesWithTests{m_AssembliesWithTests_}, testStartedEvent{testStartedEvent_}, testFinishedEvent{testFinishedEvent_}, runStartedEvent{runStartedEvent_}, runFinishedEvent{runFinishedEvent_}, settings{settings_}, m_Runner{m_Runner_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static System.String kPlaymodeTestControllerName

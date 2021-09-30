@@ -40,8 +40,6 @@ namespace GlobalNamespace {
     Org::BouncyCastle::Crypto::ISigner* signer;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::ISigner*) == 0x8);
-    // Creating value type constructor for type: RSACertificateEncryptionProvider
-    RSACertificateEncryptionProvider(Org::BouncyCastle::Crypto::ISigner* signer_ = {}) noexcept : signer{signer_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ICertificateEncryptionProvider
     operator GlobalNamespace::ICertificateEncryptionProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICertificateEncryptionProvider*>(this);

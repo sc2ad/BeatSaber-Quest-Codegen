@@ -82,8 +82,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* playerSpectatingSpot;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConnectedPlayerGameplayAnimator
-    MultiplayerConnectedPlayerGameplayAnimator(GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator_ = {}, GlobalNamespace::ScaleAnimator* avatarScaleAnimator_ = {}, float defaultLightsWidth_ = {}, float observedLightsWidth_ = {}, GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController_ = {}, GlobalNamespace::MultiplayerLayoutProvider* multiplayerLayoutProvider_ = {}, GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* playerSpectatingSpot_ = {}) noexcept : bigAvatarAnimator{bigAvatarAnimator_}, avatarScaleAnimator{avatarScaleAnimator_}, defaultLightsWidth{defaultLightsWidth_}, observedLightsWidth{observedLightsWidth_}, failController{failController_}, multiplayerLayoutProvider{multiplayerLayoutProvider_}, playerSpectatingSpot{playerSpectatingSpot_} {}
     // Get instance field reference: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
     // Get instance field reference: private ScaleAnimator _avatarScaleAnimator

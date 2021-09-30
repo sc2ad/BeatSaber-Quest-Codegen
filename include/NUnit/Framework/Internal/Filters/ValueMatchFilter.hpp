@@ -41,8 +41,6 @@ namespace NUnit::Framework::Internal::Filters {
     bool IsRegex;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ValueMatchFilter
-    ValueMatchFilter(::Il2CppString* ExpectedValue_ = {}, bool IsRegex_ = {}) noexcept : ExpectedValue{ExpectedValue_}, IsRegex{IsRegex_} {}
     // Get instance field reference: private System.String <ExpectedValue>k__BackingField
     ::Il2CppString*& dyn_$ExpectedValue$k__BackingField();
     // Get instance field reference: private System.Boolean <IsRegex>k__BackingField

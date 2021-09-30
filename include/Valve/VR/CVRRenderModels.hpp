@@ -50,8 +50,6 @@ namespace Valve::VR {
     Valve::VR::IVRRenderModels FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRRenderModels) == 0x90);
-    // Creating value type constructor for type: CVRRenderModels
-    CVRRenderModels(Valve::VR::IVRRenderModels FnTable_ = {}) noexcept : FnTable{FnTable_} {}
     // Creating conversion operator: operator Valve::VR::IVRRenderModels
     constexpr operator Valve::VR::IVRRenderModels() const noexcept {
       return FnTable;

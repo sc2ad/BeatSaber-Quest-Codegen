@@ -76,8 +76,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
-    // Creating value type constructor for type: BinaryMethodCall
-    BinaryMethodCall(::Il2CppString* methodName_ = {}, ::Il2CppString* typeName_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}, ::Il2CppObject* callContext_ = {}, ::ArrayWrapper<System::Type*> argTypes_ = {}, bool bArgsPrimitive_ = {}, System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum_ = {}) noexcept : methodName{methodName_}, typeName{typeName_}, args{args_}, callContext{callContext_}, argTypes{argTypes_}, bArgsPrimitive{bArgsPrimitive_}, messageEnum{messageEnum_} {}
     // Get instance field reference: private System.String methodName
     ::Il2CppString*& dyn_methodName();
     // Get instance field reference: private System.String typeName

@@ -74,8 +74,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
-    // Creating value type constructor for type: ResultsTableView
-    ResultsTableView(HMUI::TableView* tableView_ = {}, GlobalNamespace::ResultsTableCell* cellPrefab_ = {}, float rowHeight_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList_ = {}) noexcept : tableView{tableView_}, cellPrefab{cellPrefab_}, rowHeight{rowHeight_}, dataList{dataList_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

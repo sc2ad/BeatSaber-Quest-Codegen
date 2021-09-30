@@ -28,8 +28,6 @@ namespace System::Net::Sockets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SocketAsyncResult::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c <>9
     static System::Net::Sockets::SocketAsyncResult::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c <>9

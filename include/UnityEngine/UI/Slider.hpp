@@ -219,8 +219,6 @@ namespace UnityEngine::UI {
     bool m_DelayedUpdateVisuals;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Slider
-    Slider(UnityEngine::RectTransform* m_FillRect_ = {}, UnityEngine::RectTransform* m_HandleRect_ = {}, UnityEngine::UI::Slider::Direction m_Direction_ = {}, float m_MinValue_ = {}, float m_MaxValue_ = {}, bool m_WholeNumbers_ = {}, float m_Value_ = {}, UnityEngine::UI::Slider::SliderEvent* m_OnValueChanged_ = {}, UnityEngine::UI::Image* m_FillImage_ = {}, UnityEngine::Transform* m_FillTransform_ = {}, UnityEngine::RectTransform* m_FillContainerRect_ = {}, UnityEngine::Transform* m_HandleTransform_ = {}, UnityEngine::RectTransform* m_HandleContainerRect_ = {}, UnityEngine::Vector2 m_Offset_ = {}, UnityEngine::DrivenRectTransformTracker m_Tracker_ = {}, bool m_DelayedUpdateVisuals_ = {}) noexcept : m_FillRect{m_FillRect_}, m_HandleRect{m_HandleRect_}, m_Direction{m_Direction_}, m_MinValue{m_MinValue_}, m_MaxValue{m_MaxValue_}, m_WholeNumbers{m_WholeNumbers_}, m_Value{m_Value_}, m_OnValueChanged{m_OnValueChanged_}, m_FillImage{m_FillImage_}, m_FillTransform{m_FillTransform_}, m_FillContainerRect{m_FillContainerRect_}, m_HandleTransform{m_HandleTransform_}, m_HandleContainerRect{m_HandleContainerRect_}, m_Offset{m_Offset_}, m_Tracker{m_Tracker_}, m_DelayedUpdateVisuals{m_DelayedUpdateVisuals_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ICanvasElement
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);

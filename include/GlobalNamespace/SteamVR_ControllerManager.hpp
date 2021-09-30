@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_Events::Action* trackedDeviceRoleChangedAction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_Events::Action*) == 0x8);
-    // Creating value type constructor for type: SteamVR_ControllerManager
-    SteamVR_ControllerManager(UnityEngine::GameObject* left_ = {}, UnityEngine::GameObject* right_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> objects_ = {}, bool assignAllBeforeIdentified_ = {}, ::ArrayWrapper<uint> indices_ = {}, ::ArrayWrapper<bool> connected_ = {}, uint leftIndex_ = {}, uint rightIndex_ = {}, GlobalNamespace::SteamVR_Events::Action* inputFocusAction_ = {}, GlobalNamespace::SteamVR_Events::Action* deviceConnectedAction_ = {}, GlobalNamespace::SteamVR_Events::Action* trackedDeviceRoleChangedAction_ = {}) noexcept : left{left_}, right{right_}, objects{objects_}, assignAllBeforeIdentified{assignAllBeforeIdentified_}, indices{indices_}, connected{connected_}, leftIndex{leftIndex_}, rightIndex{rightIndex_}, inputFocusAction{inputFocusAction_}, deviceConnectedAction{deviceConnectedAction_}, trackedDeviceRoleChangedAction{trackedDeviceRoleChangedAction_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String hiddenPrefix

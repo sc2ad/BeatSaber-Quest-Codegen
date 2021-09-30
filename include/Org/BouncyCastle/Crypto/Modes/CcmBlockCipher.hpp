@@ -92,8 +92,6 @@ namespace Org::BouncyCastle::Crypto::Modes {
     System::IO::MemoryStream* data;
     // Field size check
     static_assert(sizeof(System::IO::MemoryStream*) == 0x8);
-    // Creating value type constructor for type: CcmBlockCipher
-    CcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, ::ArrayWrapper<uint8_t> macBlock_ = {}, bool forEncryption_ = {}, ::ArrayWrapper<uint8_t> nonce_ = {}, ::ArrayWrapper<uint8_t> initialAssociatedText_ = {}, int macSize_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* keyParam_ = {}, System::IO::MemoryStream* associatedText_ = {}, System::IO::MemoryStream* data_ = {}) noexcept : cipher{cipher_}, macBlock{macBlock_}, forEncryption{forEncryption_}, nonce{nonce_}, initialAssociatedText{initialAssociatedText_}, macSize{macSize_}, keyParam{keyParam_}, associatedText{associatedText_}, data{data_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
     operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);

@@ -32,8 +32,6 @@ namespace Mono::Math {
     Mono::Math::BigInteger* constant;
     // Field size check
     static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
-    // Creating value type constructor for type: ModulusRing
-    ModulusRing(Mono::Math::BigInteger* mod_ = {}, Mono::Math::BigInteger* constant_ = {}) noexcept : mod{mod_}, constant{constant_} {}
     // Get instance field reference: private Mono.Math.BigInteger mod
     Mono::Math::BigInteger*& dyn_mod();
     // Get instance field reference: private Mono.Math.BigInteger constant

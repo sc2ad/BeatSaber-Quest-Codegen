@@ -67,8 +67,6 @@ namespace UnityEngine::ProBuilder {
     System::Action_1<T>* destructor;
     // Field size check
     static_assert(sizeof(System::Action_1<T>*) == 0x8);
-    // Creating value type constructor for type: ObjectPool_1
-    ObjectPool_1(bool m_IsDisposed_ = {}, System::Collections::Generic::Queue_1<T>* m_Pool_ = {}, int desiredSize_ = {}, System::Func_1<T>* constructor_ = {}, System::Action_1<T>* destructor_ = {}) noexcept : m_IsDisposed{m_IsDisposed_}, m_Pool{m_Pool_}, desiredSize{desiredSize_}, constructor{constructor_}, destructor{destructor_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

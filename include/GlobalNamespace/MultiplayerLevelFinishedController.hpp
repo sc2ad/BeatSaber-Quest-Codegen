@@ -107,8 +107,6 @@ namespace GlobalNamespace {
     float sceneLoadTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerLevelFinishedController
-    MultiplayerLevelFinishedController(GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher_ = {}, GlobalNamespace::IGameplayRpcManager* rpcManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>* allResultsCollectedEvent_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersCompletionResults_ = {}, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults_ = {}, bool gameFinishReported_ = {}, float sceneLoadTime_ = {}) noexcept : levelEndActionsPublisher{levelEndActionsPublisher_}, rpcManager{rpcManager_}, multiplayerSessionManager{multiplayerSessionManager_}, allResultsCollectedEvent{allResultsCollectedEvent_}, otherPlayersCompletionResults{otherPlayersCompletionResults_}, localPlayerResults{localPlayerResults_}, gameFinishReported{gameFinishReported_}, sceneLoadTime{sceneLoadTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMinSceneDuration

@@ -26,8 +26,6 @@ namespace Mono::Math::Prime {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrimalityTests : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PrimalityTests
-    PrimalityTests() noexcept {}
     // static private System.Int32 GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
     // Offset: 0x1F97F58
     static int GetSPPRounds(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);

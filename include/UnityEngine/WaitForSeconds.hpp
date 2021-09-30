@@ -28,8 +28,6 @@ namespace UnityEngine {
     float m_Seconds;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: WaitForSeconds
-    WaitForSeconds(float m_Seconds_ = {}) noexcept : m_Seconds{m_Seconds_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return m_Seconds;

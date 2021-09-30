@@ -24,8 +24,6 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60CD0
   class ICustomMarshaler {
     public:
-    // Creating value type constructor for type: ICustomMarshaler
-    ICustomMarshaler() noexcept {}
     // public System.Object MarshalNativeToManaged(System.IntPtr pNativeData)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* MarshalNativeToManaged(System::IntPtr pNativeData);

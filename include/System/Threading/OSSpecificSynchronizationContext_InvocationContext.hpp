@@ -39,8 +39,6 @@ namespace System::Threading {
     ::Il2CppObject* m_State;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: InvocationContext
-    InvocationContext(System::Threading::SendOrPostCallback* m_Delegate_ = {}, ::Il2CppObject* m_State_ = {}) noexcept : m_Delegate{m_Delegate_}, m_State{m_State_} {}
     // Get instance field reference: private System.Threading.SendOrPostCallback m_Delegate
     System::Threading::SendOrPostCallback*& dyn_m_Delegate();
     // Get instance field reference: private System.Object m_State

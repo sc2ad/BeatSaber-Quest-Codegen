@@ -67,8 +67,6 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
-    // Creating value type constructor for type: BombExplosionEffect
-    BombExplosionEffect(UnityEngine::ParticleSystem* debrisPS_ = {}, UnityEngine::ParticleSystem* explosionPS_ = {}, int debrisCount_ = {}, int explosionParticlesCount_ = {}, UnityEngine::ParticleSystem::EmitParams emitParams_ = {}, UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams_ = {}) noexcept : debrisPS{debrisPS_}, explosionPS{explosionPS_}, debrisCount{debrisCount_}, explosionParticlesCount{explosionParticlesCount_}, emitParams{emitParams_}, explosionPSEmitParams{explosionPSEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _debrisPS

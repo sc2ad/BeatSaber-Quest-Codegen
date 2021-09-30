@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> animationClipsWithIds;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>) == 0x8);
-    // Creating value type constructor for type: BTSCharacterDataModel
-    BTSCharacterDataModel(::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*> prefabsWithIds_ = {}, ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> animationClipsWithIds_ = {}) noexcept : prefabsWithIds{prefabsWithIds_}, animationClipsWithIds{animationClipsWithIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterDataModel/PrefabWithId[] _prefabsWithIds

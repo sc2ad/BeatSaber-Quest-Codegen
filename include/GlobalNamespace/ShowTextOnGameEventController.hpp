@@ -41,8 +41,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*> eventTextBindings;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>) == 0x8);
-    // Creating value type constructor for type: ShowTextOnGameEventController
-    ShowTextOnGameEventController(GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}, ::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*> eventTextBindings_ = {}) noexcept : textFadeTransitions{textFadeTransitions_}, eventTextBindings{eventTextBindings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TextFadeTransitions _textFadeTransitions

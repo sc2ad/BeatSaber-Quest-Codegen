@@ -51,8 +51,6 @@ namespace NUnit::Framework::Internal {
     System::Reflection::ParameterInfo* ParameterInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::ParameterInfo*) == 0x8);
-    // Creating value type constructor for type: ParameterWrapper
-    ParameterWrapper(NUnit::Framework::Interfaces::IMethodInfo* Method_ = {}, System::Reflection::ParameterInfo* ParameterInfo_ = {}) noexcept : Method{Method_}, ParameterInfo{ParameterInfo_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IParameterInfo
     operator NUnit::Framework::Interfaces::IParameterInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterInfo*>(this);

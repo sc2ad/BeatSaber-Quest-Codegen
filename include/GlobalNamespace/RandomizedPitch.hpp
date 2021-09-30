@@ -79,8 +79,6 @@ namespace GlobalNamespace {
     UnityEngine::Coroutine* restoringCoroutine;
     // Field size check
     static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
-    // Creating value type constructor for type: RandomizedPitch
-    RandomizedPitch(UnityEngine::AudioSource* audioSource_ = {}, float minPitchMultiplier_ = {}, float maxPitchMultiplier_ = {}, bool playOnAwake_ = {}, float originalPitch_ = {}, UnityEngine::Coroutine* restoringCoroutine_ = {}) noexcept : audioSource{audioSource_}, minPitchMultiplier{minPitchMultiplier_}, maxPitchMultiplier{maxPitchMultiplier_}, playOnAwake{playOnAwake_}, originalPitch{originalPitch_}, restoringCoroutine{restoringCoroutine_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

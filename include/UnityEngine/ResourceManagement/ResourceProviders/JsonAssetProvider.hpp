@@ -28,8 +28,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [DisplayNameAttribute] Offset: EE56F8
   class JsonAssetProvider : public UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
     public:
-    // Creating value type constructor for type: JsonAssetProvider
-    JsonAssetProvider() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1B6A954
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider

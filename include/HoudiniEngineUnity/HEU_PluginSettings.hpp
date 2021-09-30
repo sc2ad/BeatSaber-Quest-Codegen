@@ -32,8 +32,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PluginSettings : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HEU_PluginSettings
-    HEU_PluginSettings() noexcept {}
     // static public System.String get_HoudiniEngineEnvFilePath()
     // Offset: 0x17CBE2C
     static ::Il2CppString* get_HoudiniEngineEnvFilePath();

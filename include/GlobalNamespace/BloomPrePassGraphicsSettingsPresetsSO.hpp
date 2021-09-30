@@ -35,8 +35,6 @@ namespace GlobalNamespace {
     ::ArrayWrapper<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*> presets;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>) == 0x8);
-    // Creating value type constructor for type: BloomPrePassGraphicsSettingsPresetsSO
-    BloomPrePassGraphicsSettingsPresetsSO(::ArrayWrapper<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*> presets_ = {}) noexcept : presets{presets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets

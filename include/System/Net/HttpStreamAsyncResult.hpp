@@ -100,8 +100,6 @@ namespace System::Net {
     System::Exception* Error;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
-    // Creating value type constructor for type: HttpStreamAsyncResult
-    HttpStreamAsyncResult(::Il2CppObject* locker_ = {}, System::Threading::ManualResetEvent* handle_ = {}, bool completed_ = {}, ::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Count_ = {}, System::AsyncCallback* Callback_ = {}, ::Il2CppObject* State_ = {}, int SynchRead_ = {}, System::Exception* Error_ = {}) noexcept : locker{locker_}, handle{handle_}, completed{completed_}, Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, Callback{Callback_}, State{State_}, SynchRead{SynchRead_}, Error{Error_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

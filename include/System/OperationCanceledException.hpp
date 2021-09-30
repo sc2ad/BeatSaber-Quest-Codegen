@@ -36,8 +36,6 @@ namespace System {
     System::Threading::CancellationToken cancellationToken;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
-    // Creating value type constructor for type: OperationCanceledException
-    OperationCanceledException(System::Threading::CancellationToken cancellationToken_ = {}) noexcept : cancellationToken{cancellationToken_} {}
     // Creating conversion operator: operator System::Threading::CancellationToken
     constexpr operator System::Threading::CancellationToken() const noexcept {
       return cancellationToken;

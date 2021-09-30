@@ -40,8 +40,6 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BBCC
   class Activator : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Activator
-    Activator() noexcept {}
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture)
     // Offset: 0x1C5A4DC
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> args, System::Globalization::CultureInfo* culture);

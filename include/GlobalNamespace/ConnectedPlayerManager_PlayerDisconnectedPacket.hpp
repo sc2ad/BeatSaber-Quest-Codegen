@@ -47,8 +47,6 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectedReason disconnectedReason;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectedReason) == 0x4);
-    // Creating value type constructor for type: PlayerDisconnectedPacket
-    PlayerDisconnectedPacket(GlobalNamespace::DisconnectedReason disconnectedReason_ = {}) noexcept : disconnectedReason{disconnectedReason_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

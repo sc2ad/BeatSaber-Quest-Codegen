@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Math::EC {
     int m_size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DefaultF2mLookupTable
-    DefaultF2mLookupTable(Org::BouncyCastle::Math::EC::F2mCurve* m_outer_ = {}, ::ArrayWrapper<int64_t> m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.F2mCurve m_outer
     Org::BouncyCastle::Math::EC::F2mCurve*& dyn_m_outer();
     // Get instance field reference: private readonly System.Int64[] m_table

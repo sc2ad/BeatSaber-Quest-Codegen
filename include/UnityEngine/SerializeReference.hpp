@@ -18,8 +18,6 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72CD8
   class SerializeReference : public System::Attribute {
     public:
-    // Creating value type constructor for type: SerializeReference
-    SerializeReference() noexcept {}
   }; // UnityEngine.SerializeReference
   #pragma pack(pop)
 }

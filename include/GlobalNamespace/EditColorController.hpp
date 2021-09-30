@@ -99,8 +99,6 @@ namespace GlobalNamespace {
     bool colorChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: EditColorController
-    EditColorController(GlobalNamespace::HSVPanelController* hsvPanelController_ = {}, GlobalNamespace::PreviousColorPanelController* previousColorPanelController_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, UnityEngine::UI::Button* applyButton_ = {}, System::Action_1<UnityEngine::Color>* didChangeColorEvent_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, System::Action_1<UnityEngine::Color>* colorCallback_ = {}, UnityEngine::Color initialColor_ = {}, bool colorChanged_ = {}) noexcept : hsvPanelController{hsvPanelController_}, previousColorPanelController{previousColorPanelController_}, cancelButton{cancelButton_}, applyButton{applyButton_}, didChangeColorEvent{didChangeColorEvent_}, didFinishEvent{didFinishEvent_}, colorCallback{colorCallback_}, initialColor{initialColor_}, colorChanged{colorChanged_} {}
     // Get instance field reference: private HSVPanelController _hsvPanelController
     GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
     // Get instance field reference: private PreviousColorPanelController _previousColorPanelController

@@ -94,8 +94,6 @@ namespace GlobalNamespace {
     ::Il2CppString* userName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: UserInfo
-    UserInfo(GlobalNamespace::UserInfo::Platform platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* userName_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, userName{userName_} {}
     // Get instance field reference: public readonly UserInfo/Platform platform
     GlobalNamespace::UserInfo::Platform& dyn_platform();
     // Get instance field reference: public readonly System.String platformUserId

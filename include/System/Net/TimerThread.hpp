@@ -58,8 +58,6 @@ namespace System::Net {
     class InfiniteTimerQueue;
     // Nested type: System::Net::TimerThread::TimerNode
     class TimerNode;
-    // Creating value type constructor for type: TimerThread
-    TimerThread() noexcept {}
     // Get static field: static private System.Collections.Generic.LinkedList`1<System.WeakReference> s_Queues
     static System::Collections::Generic::LinkedList_1<System::WeakReference*>* _get_s_Queues();
     // Set static field: static private System.Collections.Generic.LinkedList`1<System.WeakReference> s_Queues

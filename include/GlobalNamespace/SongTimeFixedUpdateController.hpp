@@ -66,8 +66,6 @@ namespace GlobalNamespace {
     float interpolationFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SongTimeFixedUpdateController
-    SongTimeFixedUpdateController(GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, System::Action_1<float>* songControllerFixedTimeDidUpdateEvent_ = {}, System::Action* songControllerTimeDidUpdateEvent_ = {}, float accumulator_ = {}, float interpolationFactor_ = {}) noexcept : audioTimeSource{audioTimeSource_}, songControllerFixedTimeDidUpdateEvent{songControllerFixedTimeDidUpdateEvent_}, songControllerTimeDidUpdateEvent{songControllerTimeDidUpdateEvent_}, accumulator{accumulator_}, interpolationFactor{interpolationFactor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kFixedDeltaTime

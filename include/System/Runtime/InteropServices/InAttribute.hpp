@@ -22,8 +22,6 @@ namespace System::Runtime::InteropServices {
   // [AttributeUsageAttribute] Offset: E60A44
   class InAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: InAttribute
-    InAttribute() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x15AF5EC
     // Implemented from: System.Attribute

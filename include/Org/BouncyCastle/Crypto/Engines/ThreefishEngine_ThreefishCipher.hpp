@@ -32,8 +32,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayWrapper<uint64_t> kw;
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
-    // Creating value type constructor for type: ThreefishCipher
-    ThreefishCipher(::ArrayWrapper<uint64_t> t_ = {}, ::ArrayWrapper<uint64_t> kw_ = {}) noexcept : t{t_}, kw{kw_} {}
     // Get instance field reference: protected readonly System.UInt64[] t
     ::ArrayWrapper<uint64_t>& dyn_t();
     // Get instance field reference: protected readonly System.UInt64[] kw

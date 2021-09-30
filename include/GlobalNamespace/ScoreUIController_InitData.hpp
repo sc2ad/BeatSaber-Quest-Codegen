@@ -28,8 +28,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScoreUIController::ScoreDisplayType) == 0x4);
-    // Creating value type constructor for type: InitData
-    InitData(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType_ = {}) noexcept : scoreDisplayType{scoreDisplayType_} {}
     // Creating conversion operator: operator GlobalNamespace::ScoreUIController::ScoreDisplayType
     constexpr operator GlobalNamespace::ScoreUIController::ScoreDisplayType() const noexcept {
       return scoreDisplayType;

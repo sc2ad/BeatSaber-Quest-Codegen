@@ -93,8 +93,6 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelSelectionFlowCoordinator::State* startState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*) == 0x8);
-    // Creating value type constructor for type: LevelSelectionFlowCoordinator
-    LevelSelectionFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::LevelSelectionNavigationController* levelSelectionNavigationController_ = {}, GlobalNamespace::SearchFilterParamsViewController* searchFilterParamsViewController_ = {}, GlobalNamespace::LevelSearchViewController* levelSearchViewController_ = {}, GlobalNamespace::LevelSelectionFlowCoordinator::State* startState_ = {}) noexcept : playerDataModel{playerDataModel_}, levelSelectionNavigationController{levelSelectionNavigationController_}, searchFilterParamsViewController{searchFilterParamsViewController_}, levelSearchViewController{levelSearchViewController_}, startState{startState_} {}
     // Get instance field reference: protected readonly PlayerDataModel playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // Get instance field reference: protected readonly LevelSelectionNavigationController levelSelectionNavigationController

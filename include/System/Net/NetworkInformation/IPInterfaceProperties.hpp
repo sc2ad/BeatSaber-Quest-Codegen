@@ -27,8 +27,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPInterfaceProperties : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: IPInterfaceProperties
-    IPInterfaceProperties() noexcept {}
     // public System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
     // Offset: 0xFFFFFFFF
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

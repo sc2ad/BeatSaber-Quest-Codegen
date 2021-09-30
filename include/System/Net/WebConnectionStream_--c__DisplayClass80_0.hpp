@@ -67,8 +67,6 @@ namespace System::Net {
     System::AsyncCallback* $$9__1;
     // Field size check
     static_assert(sizeof(System::AsyncCallback*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass80_0
-    $$c__DisplayClass80_0(System::Net::SimpleAsyncResult* result_ = {}, System::Net::WebConnectionStream* $$4__this_ = {}, int length_ = {}, ::ArrayWrapper<uint8_t> bytes_ = {}, System::AsyncCallback* $$9__1_ = {}) noexcept : result{result_}, $$4__this{$$4__this_}, length{length_}, bytes{bytes_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public System.Net.SimpleAsyncResult result
     System::Net::SimpleAsyncResult*& dyn_result();
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this

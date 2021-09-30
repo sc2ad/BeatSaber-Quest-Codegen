@@ -49,8 +49,6 @@ namespace GlobalNamespace {
     bool blocked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: InviteResponsePacket
-    InviteResponsePacket(::Il2CppString* userId_ = {}, bool accepted_ = {}, bool blocked_ = {}) noexcept : userId{userId_}, accepted{accepted_}, blocked{blocked_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

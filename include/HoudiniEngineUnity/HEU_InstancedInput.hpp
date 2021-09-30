@@ -47,8 +47,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: HEU_InstancedInput
-    HEU_InstancedInput(UnityEngine::GameObject* instancedGameObject_ = {}, UnityEngine::Vector3 rotationOffset_ = {}, UnityEngine::Vector3 scaleOffset_ = {}) noexcept : instancedGameObject{instancedGameObject_}, rotationOffset{rotationOffset_}, scaleOffset{scaleOffset_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>*>(this);

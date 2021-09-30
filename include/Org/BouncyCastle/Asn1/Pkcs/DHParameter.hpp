@@ -54,8 +54,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerInteger* l;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
-    // Creating value type constructor for type: DHParameter
-    DHParameter(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}, Org::BouncyCastle::Asn1::DerInteger* l_ = {}) noexcept : p{p_}, g{g_}, l{l_} {}
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger p
     Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger g

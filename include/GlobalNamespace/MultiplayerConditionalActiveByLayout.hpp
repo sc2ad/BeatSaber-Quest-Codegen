@@ -90,8 +90,6 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // Creating value type constructor for type: MultiplayerConditionalActiveByLayout
-    MultiplayerConditionalActiveByLayout(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition condition_ = {}, GlobalNamespace::MultiplayerPlayerLayout layout_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}) noexcept : condition{condition_}, layout{layout_}, layoutProvider{layoutProvider_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerConditionalActiveByLayout/Condition _condition

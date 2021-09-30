@@ -32,8 +32,6 @@ namespace System::Runtime::Remoting {
     ::Il2CppObject* c;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: CACD
-    CACD(::Il2CppObject* d_ = {}, ::Il2CppObject* c_ = {}) noexcept : d{d_}, c{c_} {}
     // Get instance field reference: public System.Object d
     ::Il2CppObject*& dyn_d();
     // Get instance field reference: public System.Object c

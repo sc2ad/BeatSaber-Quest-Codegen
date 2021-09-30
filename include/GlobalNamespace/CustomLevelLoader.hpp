@@ -72,8 +72,6 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* smallDefaultPackCover;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // Creating value type constructor for type: CustomLevelLoader
-    CustomLevelLoader(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::EnvironmentInfoSO* defaultEnvironmentInfo_ = {}, GlobalNamespace::EnvironmentInfoSO* defaultAllDirectionsEnvironmentInfo_ = {}, GlobalNamespace::EnvironmentsListSO* environmentSceneInfoCollection_ = {}, UnityEngine::Sprite* defaultPackCover_ = {}, UnityEngine::Sprite* smallDefaultPackCover_ = {}) noexcept : beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, defaultEnvironmentInfo{defaultEnvironmentInfo_}, defaultAllDirectionsEnvironmentInfo{defaultAllDirectionsEnvironmentInfo_}, environmentSceneInfoCollection{environmentSceneInfoCollection_}, defaultPackCover{defaultPackCover_}, smallDefaultPackCover{smallDefaultPackCover_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection

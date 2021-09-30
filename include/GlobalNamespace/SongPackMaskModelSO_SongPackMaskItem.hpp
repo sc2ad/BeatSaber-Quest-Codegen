@@ -96,8 +96,6 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*) == 0x8);
-    // Creating value type constructor for type: SongPackMaskItem
-    SongPackMaskItem(GlobalNamespace::SongPackMaskModelSO::SongPackDataType type_ = {}, GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, ::Il2CppString* serializedName_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* levelPackCollection_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections_ = {}) noexcept : type{type_}, beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevelPack{previewBeatmapLevelPack_}, serializedName{serializedName_}, levelPackCollection{levelPackCollection_}, beatmapLevelPacks{beatmapLevelPacks_}, previewBeatmapLevelPacks{previewBeatmapLevelPacks_}, levelPackCollections{levelPackCollections_} {}
     // Get instance field reference: public SongPackMaskModelSO/SongPackDataType _type
     GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
     // Get instance field reference: public BeatmapLevelPackSO _beatmapLevelPack

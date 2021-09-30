@@ -140,8 +140,6 @@ namespace HoudiniEngineUnity {
     int64_t forceSessionID;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: HEU_AssetTask
-    HEU_AssetTask(HoudiniEngineUnity::HEU_AssetTask::BuildType buildType_ = {}, HoudiniEngineUnity::HEU_HoudiniAsset* asset_ = {}, ::Il2CppString* assetPath_ = {}, UnityEngine::Vector3 position_ = {}, bool buildResult_ = {}, int64_t forceSessionID_ = {}) noexcept : buildType{buildType_}, asset{asset_}, assetPath{assetPath_}, position{position_}, buildResult{buildResult_}, forceSessionID{forceSessionID_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetTask/HoudiniEngineUnity.BuildType _buildType
     HoudiniEngineUnity::HEU_AssetTask::BuildType& dyn__buildType();
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset _asset

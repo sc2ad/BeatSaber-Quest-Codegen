@@ -20,8 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRichPresencePlatformHandler {
     public:
-    // Creating value type constructor for type: IRichPresencePlatformHandler
-    IRichPresencePlatformHandler() noexcept {}
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
     // Offset: 0xFFFFFFFF
     void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);

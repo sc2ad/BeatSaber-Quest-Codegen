@@ -45,8 +45,6 @@ namespace System::Xml {
     int charEntityIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: CharEntityEncoderFallbackBuffer
-    CharEntityEncoderFallbackBuffer(System::Xml::CharEntityEncoderFallback* parent_ = {}, ::Il2CppString* charEntity_ = {}, int charEntityIndex_ = {}) noexcept : parent{parent_}, charEntity{charEntity_}, charEntityIndex{charEntityIndex_} {}
     // Get instance field reference: private System.Xml.CharEntityEncoderFallback parent
     System::Xml::CharEntityEncoderFallback*& dyn_parent();
     // Get instance field reference: private System.String charEntity

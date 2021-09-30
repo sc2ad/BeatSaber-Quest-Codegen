@@ -49,8 +49,6 @@ namespace MasterServer {
     int64_t dedicatedServerCreationTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: DedicatedServerShutDownRequest
-    DedicatedServerShutDownRequest(::Il2CppString* dedicatedServerId_ = {}, int64_t dedicatedServerCreationTime_ = {}) noexcept : dedicatedServerId{dedicatedServerId_}, dedicatedServerCreationTime{dedicatedServerCreationTime_} {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerUnreliableMessage
     operator MasterServer::IMasterServerUnreliableMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerUnreliableMessage*>(this);

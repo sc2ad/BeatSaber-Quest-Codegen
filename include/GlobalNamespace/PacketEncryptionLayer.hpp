@@ -105,8 +105,6 @@ namespace GlobalNamespace {
     bool enableStatistics;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: PacketEncryptionLayer
-    PacketEncryptionLayer(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics* statistics_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*>* encryptionStates_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPAddress*, GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*>* pendingEncryptionStates_ = {}, ::ArrayWrapper<uint8_t> unencryptedTrafficFilter_ = {}, bool filterUnencryptedTraffic_ = {}, bool enableStatistics_ = {}) noexcept : statistics{statistics_}, encryptionStates{encryptionStates_}, pendingEncryptionStates{pendingEncryptionStates_}, unencryptedTrafficFilter{unencryptedTrafficFilter_}, filterUnencryptedTraffic{filterUnencryptedTraffic_}, enableStatistics{enableStatistics_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // static field const value: static private System.Byte kEncryptedPacketType

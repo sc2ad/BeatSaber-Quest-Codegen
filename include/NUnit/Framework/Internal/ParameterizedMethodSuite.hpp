@@ -33,8 +33,6 @@ namespace NUnit::Framework::Internal {
     bool isTheory;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: ParameterizedMethodSuite
-    ParameterizedMethodSuite(bool isTheory_ = {}) noexcept : isTheory{isTheory_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return isTheory;

@@ -53,8 +53,6 @@ namespace UnityEngine::EventSystems {
     bool m_ForceModuleActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TouchInputModule
-    TouchInputModule(UnityEngine::Vector2 m_LastMousePosition_ = {}, UnityEngine::Vector2 m_MousePosition_ = {}, UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent_ = {}, bool m_ForceModuleActive_ = {}) noexcept : m_LastMousePosition{m_LastMousePosition_}, m_MousePosition{m_MousePosition_}, m_InputPointerEvent{m_InputPointerEvent_}, m_ForceModuleActive{m_ForceModuleActive_} {}
     // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
     UnityEngine::Vector2& dyn_m_LastMousePosition();
     // Get instance field reference: private UnityEngine.Vector2 m_MousePosition

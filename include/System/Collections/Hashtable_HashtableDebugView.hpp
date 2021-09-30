@@ -16,8 +16,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hashtable::HashtableDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: HashtableDebugView
-    HashtableDebugView() noexcept {}
   }; // System.Collections.Hashtable/System.Collections.HashtableDebugView
   #pragma pack(pop)
 }

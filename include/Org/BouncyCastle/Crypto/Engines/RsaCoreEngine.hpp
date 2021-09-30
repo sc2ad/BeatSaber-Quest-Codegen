@@ -57,8 +57,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int bitSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RsaCoreEngine
-    RsaCoreEngine(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key_ = {}, bool forEncryption_ = {}, int bitSize_ = {}) noexcept : key{key_}, forEncryption{forEncryption_}, bitSize{bitSize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IRsa
     operator Org::BouncyCastle::Crypto::IRsa() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IRsa*>(this);

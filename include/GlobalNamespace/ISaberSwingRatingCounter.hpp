@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISaberSwingRatingCounter {
     public:
-    // Creating value type constructor for type: ISaberSwingRatingCounter
-    ISaberSwingRatingCounter() noexcept {}
     // public System.Single get_beforeCutRating()
     // Offset: 0xFFFFFFFF
     float get_beforeCutRating();

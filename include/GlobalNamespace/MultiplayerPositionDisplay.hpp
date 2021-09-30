@@ -138,8 +138,6 @@ namespace GlobalNamespace {
     float colorAnimationStartDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: MultiplayerPositionDisplay
-    MultiplayerPositionDisplay(TMPro::TextMeshPro* text_ = {}, UnityEngine::Color normalColor_ = {}, UnityEngine::Color leadingColor_ = {}, UnityEngine::Color failedColor_ = {}, float fadeInDuration_ = {}, float crossFadeDuration_ = {}, float fadeOutDuration_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, bool wasFirst_ = {}, bool isFailed_ = {}, bool updatingColor_ = {}, UnityEngine::Color startColor_ = {}, UnityEngine::Color targetColor_ = {}, float colorAnimationStartTime_ = {}, float colorAnimationStartDuration_ = {}) noexcept : text{text_}, normalColor{normalColor_}, leadingColor{leadingColor_}, failedColor{failedColor_}, fadeInDuration{fadeInDuration_}, crossFadeDuration{crossFadeDuration_}, fadeOutDuration{fadeOutDuration_}, scoreProvider{scoreProvider_}, connectedPlayer{connectedPlayer_}, wasFirst{wasFirst_}, isFailed{isFailed_}, updatingColor{updatingColor_}, startColor{startColor_}, targetColor{targetColor_}, colorAnimationStartTime{colorAnimationStartTime_}, colorAnimationStartDuration{colorAnimationStartDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _text

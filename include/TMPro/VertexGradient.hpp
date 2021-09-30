@@ -62,7 +62,6 @@ namespace TMPro {
     UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x1E20838
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VertexGradient(UnityEngine::Color color) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::VertexGradient::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(color)})));
@@ -70,7 +69,6 @@ namespace TMPro {
     }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
     // Offset: 0x1E2085C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)
   }; // TMPro.VertexGradient
   #pragma pack(pop)

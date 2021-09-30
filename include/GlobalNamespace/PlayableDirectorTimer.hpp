@@ -45,8 +45,6 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // Creating value type constructor for type: PlayableDirectorTimer
-    PlayableDirectorTimer(UnityEngine::Playables::PlayableDirector* playableDirector_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}) noexcept : playableDirector{playableDirector_}, audioTimeSyncController{audioTimeSyncController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _playableDirector

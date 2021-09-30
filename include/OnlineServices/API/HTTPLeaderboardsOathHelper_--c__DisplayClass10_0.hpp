@@ -40,8 +40,6 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this;
     // Field size check
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass10_0
-    $$c__DisplayClass10_0(UnityEngine::Networking::UnityWebRequest* webRequest_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}) noexcept : webRequest{webRequest_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequest webRequest
     UnityEngine::Networking::UnityWebRequest*& dyn_webRequest();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this

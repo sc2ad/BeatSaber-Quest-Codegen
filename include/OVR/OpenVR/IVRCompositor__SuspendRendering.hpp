@@ -32,8 +32,6 @@ namespace OVR::OpenVR {
   // [UnmanagedFunctionPointerAttribute] Offset: EB0B44
   class IVRCompositor::_SuspendRendering : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: _SuspendRendering
-    _SuspendRendering() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x20EE89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

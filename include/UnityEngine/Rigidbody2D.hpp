@@ -25,8 +25,6 @@ namespace UnityEngine {
   // [RequireComponent] Offset: E95574
   class Rigidbody2D : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: Rigidbody2D
-    Rigidbody2D() noexcept {}
     // public UnityEngine.Vector2 get_position()
     // Offset: 0x261F05C
     UnityEngine::Vector2 get_position();

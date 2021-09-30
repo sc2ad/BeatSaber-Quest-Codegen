@@ -40,8 +40,6 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITypeInfo/*, public NUnit::Framework::Interfaces::IReflectionInfo*/ {
     public:
-    // Creating value type constructor for type: ITypeInfo
-    ITypeInfo() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IReflectionInfo
     operator NUnit::Framework::Interfaces::IReflectionInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IReflectionInfo*>(this);

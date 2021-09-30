@@ -37,8 +37,6 @@ namespace GlobalNamespace {
     GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EncryptionUtility::IEncryptionState*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass8_0
-    $$c__DisplayClass8_0(GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState_ = {}) noexcept : encryptionState{encryptionState_} {}
     // Creating conversion operator: operator GlobalNamespace::EncryptionUtility::IEncryptionState*
     constexpr operator GlobalNamespace::EncryptionUtility::IEncryptionState*() const noexcept {
       return encryptionState;

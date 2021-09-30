@@ -33,8 +33,6 @@ namespace HMUI {
     bool prevAnimateParentCanvas;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass21_0
-    $$c__DisplayClass21_0(HMUI::ModalView* $$4__this_ = {}, bool prevAnimateParentCanvas_ = {}) noexcept : $$4__this{$$4__this_}, prevAnimateParentCanvas{prevAnimateParentCanvas_} {}
     // Get instance field reference: public HMUI.ModalView <>4__this
     HMUI::ModalView*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean prevAnimateParentCanvas

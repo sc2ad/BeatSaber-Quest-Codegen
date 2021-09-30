@@ -56,8 +56,6 @@ namespace GlobalNamespace {
     class ElipticalCurveKeyPair;
     // Nested type: GlobalNamespace::DiffieHellmanUtility::OperationTimer
     class OperationTimer;
-    // Creating value type constructor for type: DiffieHellmanUtility
-    DiffieHellmanUtility() noexcept {}
     // static field const value: static public System.Int32 kMaxDiffieHellmanPublicKeyLength
     static constexpr const int kMaxDiffieHellmanPublicKeyLength = 2048;
     // Get static field: static public System.Int32 kMaxDiffieHellmanPublicKeyLength

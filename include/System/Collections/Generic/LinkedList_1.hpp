@@ -172,7 +172,6 @@ namespace System::Collections::Generic {
       }
       // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Collections::Generic::LinkedList_1<T>* list) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
@@ -180,7 +179,6 @@ namespace System::Collections::Generic {
       }
       // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
       // Offset: 0xFFFFFFFF
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Enumerator(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
@@ -253,8 +251,6 @@ namespace System::Collections::Generic {
     System::Runtime::Serialization::SerializationInfo* siInfo;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
-    // Creating value type constructor for type: LinkedList_1
-    LinkedList_1(System::Collections::Generic::LinkedListNode_1<T>* head_ = {}, int count_ = {}, int version_ = {}, ::Il2CppObject* syncRoot_ = {}, System::Runtime::Serialization::SerializationInfo* siInfo_ = {}) noexcept : head{head_}, count{count_}, version{version_}, syncRoot{syncRoot_}, siInfo{siInfo_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<T>
     operator System::Collections::Generic::ICollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<T>*>(this);

@@ -27,8 +27,6 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class GeneratorUtilities : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: GeneratorUtilities
-    GeneratorUtilities() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary kgAlgorithms
     static System::Collections::IDictionary* _get_kgAlgorithms();
     // Set static field: static private readonly System.Collections.IDictionary kgAlgorithms

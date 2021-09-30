@@ -88,8 +88,6 @@ namespace Mono::Net::Security {
     bool CertificateValidationFailed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MonoTlsStream
-    MonoTlsStream(Mono::Security::Interface::MonoTlsProvider* provider_ = {}, System::Net::Sockets::NetworkStream* networkStream_ = {}, System::Net::HttpWebRequest* request_ = {}, Mono::Security::Interface::MonoTlsSettings* settings_ = {}, Mono::Security::Interface::IMonoSslStream* sslStream_ = {}, System::Net::WebExceptionStatus status_ = {}, bool CertificateValidationFailed_ = {}) noexcept : provider{provider_}, networkStream{networkStream_}, request{request_}, settings{settings_}, sslStream{sslStream_}, status{status_}, CertificateValidationFailed{CertificateValidationFailed_} {}
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
     Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
     // Get instance field reference: private readonly System.Net.Sockets.NetworkStream networkStream

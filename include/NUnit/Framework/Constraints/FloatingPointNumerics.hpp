@@ -23,8 +23,6 @@ namespace NUnit::Framework::Constraints {
     struct FloatIntUnion;
     // Nested type: NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion
     struct DoubleLongUnion;
-    // Creating value type constructor for type: FloatingPointNumerics
-    FloatingPointNumerics() noexcept {}
     // static public System.Boolean AreAlmostEqualUlps(System.Single left, System.Single right, System.Int32 maxUlps)
     // Offset: 0x192D980
     static bool AreAlmostEqualUlps(float left, float right, int maxUlps);

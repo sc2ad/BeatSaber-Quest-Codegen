@@ -61,7 +61,6 @@ namespace System::Runtime::CompilerServices {
     bool get_IsCompleted();
     // System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0x15ADD54
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
     // public System.Void OnCompleted(System.Action continuation)
     // Offset: 0x15ADD78

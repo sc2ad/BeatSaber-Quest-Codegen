@@ -40,8 +40,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetEventListener {
     public:
-    // Creating value type constructor for type: INetEventListener
-    INetEventListener() noexcept {}
     // public System.Void OnPeerConnected(LiteNetLib.NetPeer peer)
     // Offset: 0xFFFFFFFF
     void OnPeerConnected(LiteNetLib::NetPeer* peer);

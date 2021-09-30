@@ -45,7 +45,6 @@ namespace UnityEngine {
     int get_subEmittersCount();
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CAB8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SubEmittersModule(UnityEngine::ParticleSystem* particleSystem)
     // public UnityEngine.ParticleSystem GetSubEmitterSystem(System.Int32 index)
     // Offset: 0x261D6A4

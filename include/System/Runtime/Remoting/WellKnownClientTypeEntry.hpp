@@ -46,8 +46,6 @@ namespace System::Runtime::Remoting {
     ::Il2CppString* app_url;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: WellKnownClientTypeEntry
-    WellKnownClientTypeEntry(System::Type* obj_type_ = {}, ::Il2CppString* obj_url_ = {}, ::Il2CppString* app_url_ = {}) noexcept : obj_type{obj_type_}, obj_url{obj_url_}, app_url{app_url_} {}
     // Get instance field reference: private System.Type obj_type
     System::Type*& dyn_obj_type();
     // Get instance field reference: private System.String obj_url

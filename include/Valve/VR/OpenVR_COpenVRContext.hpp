@@ -113,8 +113,6 @@ namespace Valve::VR {
     Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera;
     // Field size check
     static_assert(sizeof(Valve::VR::CVRTrackedCamera*) == 0x8);
-    // Creating value type constructor for type: COpenVRContext
-    COpenVRContext(Valve::VR::CVRSystem* m_pVRSystem_ = {}, Valve::VR::CVRChaperone* m_pVRChaperone_ = {}, Valve::VR::CVRChaperoneSetup* m_pVRChaperoneSetup_ = {}, Valve::VR::CVRCompositor* m_pVRCompositor_ = {}, Valve::VR::CVROverlay* m_pVROverlay_ = {}, Valve::VR::CVRRenderModels* m_pVRRenderModels_ = {}, Valve::VR::CVRExtendedDisplay* m_pVRExtendedDisplay_ = {}, Valve::VR::CVRSettings* m_pVRSettings_ = {}, Valve::VR::CVRApplications* m_pVRApplications_ = {}, Valve::VR::CVRScreenshots* m_pVRScreenshots_ = {}, Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRTrackedCamera{m_pVRTrackedCamera_} {}
     // Get instance field reference: private Valve.VR.CVRSystem m_pVRSystem
     Valve::VR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private Valve.VR.CVRChaperone m_pVRChaperone

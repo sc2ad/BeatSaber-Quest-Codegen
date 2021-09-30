@@ -70,8 +70,6 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* didUpdateSaberPositionsEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>*) == 0x8);
-    // Creating value type constructor for type: SaberManager
-    SaberManager(GlobalNamespace::Saber* leftSaber_ = {}, GlobalNamespace::Saber* rightSaber_ = {}, GlobalNamespace::SaberManager::InitData* initData_ = {}, bool started_ = {}, System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* didUpdateSaberPositionsEvent_ = {}) noexcept : leftSaber{leftSaber_}, rightSaber{rightSaber_}, initData{initData_}, started{started_}, didUpdateSaberPositionsEvent{didUpdateSaberPositionsEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Saber _leftSaber

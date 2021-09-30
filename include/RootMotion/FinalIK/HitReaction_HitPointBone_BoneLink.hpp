@@ -61,8 +61,6 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion current;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // Creating value type constructor for type: BoneLink
-    BoneLink(UnityEngine::Transform* bone_ = {}, float weight_ = {}, UnityEngine::Quaternion lastValue_ = {}, UnityEngine::Quaternion current_ = {}) noexcept : bone{bone_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public System.Single weight

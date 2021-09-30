@@ -46,8 +46,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
-    // Creating value type constructor for type: DHKeyParameters
-    DHKeyParameters(Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid_ = {}) noexcept : parameters{parameters_}, algorithmOid{algorithmOid_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters

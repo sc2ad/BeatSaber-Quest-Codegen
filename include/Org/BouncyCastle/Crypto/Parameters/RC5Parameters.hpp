@@ -22,8 +22,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int rounds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RC5Parameters
-    RC5Parameters(int rounds_ = {}) noexcept : rounds{rounds_} {}
     // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
     constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 rounds

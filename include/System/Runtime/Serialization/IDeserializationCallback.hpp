@@ -17,8 +17,6 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F690
   class IDeserializationCallback {
     public:
-    // Creating value type constructor for type: IDeserializationCallback
-    IDeserializationCallback() noexcept {}
     // public System.Void OnDeserialization(System.Object sender)
     // Offset: 0xFFFFFFFF
     void OnDeserialization(::Il2CppObject* sender);

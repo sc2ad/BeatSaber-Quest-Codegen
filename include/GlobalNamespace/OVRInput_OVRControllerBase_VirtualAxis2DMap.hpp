@@ -52,8 +52,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawAxis2D SecondaryTouchpad;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawAxis2D) == 0x4);
-    // Creating value type constructor for type: VirtualAxis2DMap
-    VirtualAxis2DMap(GlobalNamespace::OVRInput::RawAxis2D None_ = {}, GlobalNamespace::OVRInput::RawAxis2D PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawAxis2D PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawAxis2D SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawAxis2D SecondaryTouchpad_ = {}) noexcept : None{None_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryTouchpad{SecondaryTouchpad_} {}
     // Get instance field reference: public OVRInput/RawAxis2D None
     GlobalNamespace::OVRInput::RawAxis2D& dyn_None();
     // Get instance field reference: public OVRInput/RawAxis2D PrimaryThumbstick

@@ -32,8 +32,6 @@ namespace System::Net {
     int Offset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Chunk
-    Chunk(::ArrayWrapper<uint8_t> Bytes_ = {}, int Offset_ = {}) noexcept : Bytes{Bytes_}, Offset{Offset_} {}
     // Get instance field reference: public System.Byte[] Bytes
     ::ArrayWrapper<uint8_t>& dyn_Bytes();
     // Get instance field reference: public System.Int32 Offset

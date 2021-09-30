@@ -73,8 +73,6 @@ namespace GlobalNamespace {
     int minNumberOfNotOwnedPacks;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DlcPromoExperimentDataSO
-    DlcPromoExperimentDataSO(int defaultMusicPackPromoIndex_ = {}, ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> musicPackPromoInfos_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcControlAbTestExperimentDefinition_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcPromoAbTestExperimentDefinition_ = {}, int cutOffTest1_ = {}, int cutOffTest2_ = {}, int minNumberOfNotOwnedPacks_ = {}) noexcept : defaultMusicPackPromoIndex{defaultMusicPackPromoIndex_}, musicPackPromoInfos{musicPackPromoInfos_}, newDlcControlAbTestExperimentDefinition{newDlcControlAbTestExperimentDefinition_}, newDlcPromoAbTestExperimentDefinition{newDlcPromoAbTestExperimentDefinition_}, cutOffTest1{cutOffTest1_}, cutOffTest2{cutOffTest2_}, minNumberOfNotOwnedPacks{minNumberOfNotOwnedPacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _defaultMusicPackPromoIndex

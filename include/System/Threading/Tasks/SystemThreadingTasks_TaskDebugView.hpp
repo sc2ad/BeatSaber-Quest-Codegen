@@ -14,8 +14,6 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemThreadingTasks_TaskDebugView : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SystemThreadingTasks_TaskDebugView
-    SystemThreadingTasks_TaskDebugView() noexcept {}
   }; // System.Threading.Tasks.SystemThreadingTasks_TaskDebugView
   #pragma pack(pop)
 }

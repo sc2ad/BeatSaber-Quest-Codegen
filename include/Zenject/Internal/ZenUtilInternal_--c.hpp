@@ -45,8 +45,6 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ZenUtilInternal::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.Internal.ZenUtilInternal/Zenject.Internal.<>c <>9
     static Zenject::Internal::ZenUtilInternal::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.Internal.ZenUtilInternal/Zenject.Internal.<>c <>9

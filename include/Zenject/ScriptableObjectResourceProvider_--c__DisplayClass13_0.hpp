@@ -60,8 +60,6 @@ namespace Zenject {
     Zenject::InjectContext* context;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(System::Collections::Generic::List_1<::Il2CppObject*>* buffer_ = {}, Zenject::ScriptableObjectResourceProvider* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, Zenject::InjectContext* context_ = {}) noexcept : buffer{buffer_}, $$4__this{$$4__this_}, args{args_}, context{context_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<System.Object> buffer
     System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_buffer();
     // Get instance field reference: public Zenject.ScriptableObjectResourceProvider <>4__this

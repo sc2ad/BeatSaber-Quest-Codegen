@@ -69,8 +69,6 @@ namespace Org::BouncyCastle::X509 {
     System::IO::Stream* currentStream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
-    // Creating value type constructor for type: X509CertificateParser
-    X509CertificateParser(Org::BouncyCastle::Asn1::Asn1Set* sData_ = {}, int sDataObjectCount_ = {}, System::IO::Stream* currentStream_ = {}) noexcept : sData{sData_}, sDataObjectCount{sDataObjectCount_}, currentStream{currentStream_} {}
     // Get static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser
     static Org::BouncyCastle::X509::PemParser* _get_PemCertParser();
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser

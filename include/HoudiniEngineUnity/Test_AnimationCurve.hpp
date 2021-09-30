@@ -33,8 +33,6 @@ namespace HoudiniEngineUnity {
     UnityEngine::AnimationCurve* self;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // Creating value type constructor for type: Test_AnimationCurve
-    Test_AnimationCurve(UnityEngine::AnimationCurve* self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>*>(this);

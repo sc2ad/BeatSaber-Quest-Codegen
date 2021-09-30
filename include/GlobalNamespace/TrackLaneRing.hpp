@@ -89,8 +89,6 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // Creating value type constructor for type: TrackLaneRing
-    TrackLaneRing(float prevRotZ_ = {}, float rotZ_ = {}, float destRotZ_ = {}, float rotationSpeed_ = {}, float prevPosZ_ = {}, float posZ_ = {}, float destPosZ_ = {}, float moveSpeed_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : prevRotZ{prevRotZ_}, rotZ{rotZ_}, destRotZ{destRotZ_}, rotationSpeed{rotationSpeed_}, prevPosZ{prevPosZ_}, posZ{posZ_}, destPosZ{destPosZ_}, moveSpeed{moveSpeed_}, positionOffset{positionOffset_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _prevRotZ

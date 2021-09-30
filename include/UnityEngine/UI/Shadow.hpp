@@ -62,8 +62,6 @@ namespace UnityEngine::UI {
     bool m_UseGraphicAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Shadow
-    Shadow(UnityEngine::Color m_EffectColor_ = {}, UnityEngine::Vector2 m_EffectDistance_ = {}, bool m_UseGraphicAlpha_ = {}) noexcept : m_EffectColor{m_EffectColor_}, m_EffectDistance{m_EffectDistance_}, m_UseGraphicAlpha{m_UseGraphicAlpha_} {}
     // static field const value: static private System.Single kMaxEffectDistance
     static constexpr const float kMaxEffectDistance = 600;
     // Get static field: static private System.Single kMaxEffectDistance

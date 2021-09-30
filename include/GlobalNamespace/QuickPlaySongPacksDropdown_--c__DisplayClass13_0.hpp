@@ -27,8 +27,6 @@ namespace GlobalNamespace {
     ::Il2CppString* serializedName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(::Il2CppString* serializedName_ = {}) noexcept : serializedName{serializedName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return serializedName;

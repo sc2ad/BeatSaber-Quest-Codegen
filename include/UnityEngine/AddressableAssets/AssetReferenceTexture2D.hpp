@@ -26,8 +26,6 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetReferenceTexture2D : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture2D*> {
     public:
-    // Creating value type constructor for type: AssetReferenceTexture2D
-    AssetReferenceTexture2D() noexcept {}
     // public System.Void .ctor(System.String guid)
     // Offset: 0x1599618
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1

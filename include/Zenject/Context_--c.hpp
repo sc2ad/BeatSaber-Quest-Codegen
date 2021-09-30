@@ -31,8 +31,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Context::$$c : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: $$c
-    $$c() noexcept {}
     // Get static field: static public readonly Zenject.Context/Zenject.<>c <>9
     static Zenject::Context::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.Context/Zenject.<>c <>9

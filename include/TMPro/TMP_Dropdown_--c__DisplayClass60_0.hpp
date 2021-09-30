@@ -33,8 +33,6 @@ namespace TMPro {
     TMPro::TMP_Dropdown* $$4__this;
     // Field size check
     static_assert(sizeof(TMPro::TMP_Dropdown*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass60_0
-    $$c__DisplayClass60_0(TMPro::TMP_Dropdown::DropdownItem* item_ = {}, TMPro::TMP_Dropdown* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     TMPro::TMP_Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public TMPro.TMP_Dropdown <>4__this

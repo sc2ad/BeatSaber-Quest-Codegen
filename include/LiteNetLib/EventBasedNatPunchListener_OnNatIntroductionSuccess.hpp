@@ -41,8 +41,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventBasedNatPunchListener::OnNatIntroductionSuccess : public System::MulticastDelegate {
     public:
-    // Creating value type constructor for type: OnNatIntroductionSuccess
-    OnNatIntroductionSuccess() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1DD0C40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
