@@ -24,7 +24,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: XmlCharType
-    constexpr XmlCharType(::ArrayWrapper<uint8_t> charProperties_ = {nullptr}) noexcept : charProperties{charProperties_} {}
+    constexpr XmlCharType(::ArrayWrapper<uint8_t> charProperties_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : charProperties{charProperties_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

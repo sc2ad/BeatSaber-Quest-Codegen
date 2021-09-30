@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: ComputeControlPointsResults
-    constexpr ComputeControlPointsResults(::ArrayWrapper<float> p1_ = {nullptr}, ::ArrayWrapper<float> p2_ = {nullptr}) noexcept : p1{p1_}, p2{p2_} {}
+    constexpr ComputeControlPointsResults(::ArrayWrapper<float> p1_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> p2_ = ::ArrayWrapper<float>(nullptr)) noexcept : p1{p1_}, p2{p2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

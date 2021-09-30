@@ -212,7 +212,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(::ArrayWrapper<System::IntPtr>) == 0x8);
       // Creating value type constructor for type: LayerTexture
-      constexpr LayerTexture(UnityEngine::Texture* appTexture_ = {}, System::IntPtr appTexturePtr_ = {}, ::ArrayWrapper<UnityEngine::Texture*> swapChain_ = {nullptr}, ::ArrayWrapper<System::IntPtr> swapChainPtr_ = {nullptr}) noexcept : appTexture{appTexture_}, appTexturePtr{appTexturePtr_}, swapChain{swapChain_}, swapChainPtr{swapChainPtr_} {}
+      constexpr LayerTexture(UnityEngine::Texture* appTexture_ = {}, System::IntPtr appTexturePtr_ = {}, ::ArrayWrapper<UnityEngine::Texture*> swapChain_ = ::ArrayWrapper<UnityEngine::Texture*>(nullptr), ::ArrayWrapper<System::IntPtr> swapChainPtr_ = ::ArrayWrapper<System::IntPtr>(nullptr)) noexcept : appTexture{appTexture_}, appTexturePtr{appTexturePtr_}, swapChain{swapChain_}, swapChainPtr{swapChainPtr_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);

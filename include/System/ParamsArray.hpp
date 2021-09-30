@@ -45,7 +45,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // Creating value type constructor for type: ParamsArray
-    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {nullptr}) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
+    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = ::ArrayWrapper<::Il2CppObject*>(nullptr)) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

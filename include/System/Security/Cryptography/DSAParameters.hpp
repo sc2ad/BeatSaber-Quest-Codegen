@@ -67,7 +67,7 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DSAParameters
-    constexpr DSAParameters(::ArrayWrapper<uint8_t> P_ = {nullptr}, ::ArrayWrapper<uint8_t> Q_ = {nullptr}, ::ArrayWrapper<uint8_t> G_ = {nullptr}, ::ArrayWrapper<uint8_t> Y_ = {nullptr}, ::ArrayWrapper<uint8_t> J_ = {nullptr}, ::ArrayWrapper<uint8_t> X_ = {nullptr}, ::ArrayWrapper<uint8_t> Seed_ = {nullptr}, int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
+    constexpr DSAParameters(::ArrayWrapper<uint8_t> P_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Q_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> G_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Y_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> J_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> X_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Seed_ = ::ArrayWrapper<uint8_t>(nullptr), int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: HAPI_BoxInfo
-    constexpr HAPI_BoxInfo(::ArrayWrapper<float> center_ = {nullptr}, ::ArrayWrapper<float> size_ = {nullptr}, ::ArrayWrapper<float> rotation_ = {nullptr}) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
+    constexpr HAPI_BoxInfo(::ArrayWrapper<float> center_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> size_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> rotation_ = ::ArrayWrapper<float>(nullptr)) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

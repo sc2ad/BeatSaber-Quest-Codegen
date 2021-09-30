@@ -45,7 +45,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
     // Creating value type constructor for type: SorterObjectArray
-    constexpr SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys_ = {nullptr}, ::ArrayWrapper<::Il2CppObject*> items_ = {nullptr}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys_ = ::ArrayWrapper<::Il2CppObject*>(nullptr), ::ArrayWrapper<::Il2CppObject*> items_ = ::ArrayWrapper<::Il2CppObject*>(nullptr), System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

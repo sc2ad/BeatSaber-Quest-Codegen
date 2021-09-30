@@ -43,7 +43,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<UnityEngine::Renderer*>) == 0x8);
     // Creating value type constructor for type: LOD
-    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayWrapper<UnityEngine::Renderer*> renderers_ = {nullptr}) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
+    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayWrapper<UnityEngine::Renderer*> renderers_ = ::ArrayWrapper<UnityEngine::Renderer*>(nullptr)) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

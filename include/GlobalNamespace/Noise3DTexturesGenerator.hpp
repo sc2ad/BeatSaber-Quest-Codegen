@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>) == 0x8);
       // Creating value type constructor for type: MaterialTextureParamsCouple
-      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = {nullptr}) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
+      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = ::ArrayWrapper<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>(nullptr)) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);

@@ -177,7 +177,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ArraySegment_1
-    constexpr ArraySegment_1(::ArrayWrapper<T> array_ = {nullptr}, int offset_ = {}, int count_ = {}) noexcept : array{array_}, offset{offset_}, count{count_} {}
+    constexpr ArraySegment_1(::ArrayWrapper<T> array_ = ::ArrayWrapper<T>(nullptr), int offset_ = {}, int count_ = {}) noexcept : array{array_}, offset{offset_}, count{count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -25,7 +25,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
     // Creating value type constructor for type: ParameterModifier
-    constexpr ParameterModifier(::ArrayWrapper<bool> byRef_ = {nullptr}) noexcept : byRef{byRef_} {}
+    constexpr ParameterModifier(::ArrayWrapper<bool> byRef_ = ::ArrayWrapper<bool>(nullptr)) noexcept : byRef{byRef_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

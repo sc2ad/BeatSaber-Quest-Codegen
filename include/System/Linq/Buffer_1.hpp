@@ -41,7 +41,7 @@ namespace System::Linq {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Buffer_1
-    constexpr Buffer_1(::ArrayWrapper<TElement> items_ = {nullptr}, int count_ = {}) noexcept : items{items_}, count{count_} {}
+    constexpr Buffer_1(::ArrayWrapper<TElement> items_ = ::ArrayWrapper<TElement>(nullptr), int count_ = {}) noexcept : items{items_}, count{count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: EventDataBuffer
-    constexpr EventDataBuffer(GlobalNamespace::OVRPlugin::EventType EventType_ = {}, ::ArrayWrapper<uint8_t> EventData_ = {nullptr}) noexcept : EventType{EventType_}, EventData{EventData_} {}
+    constexpr EventDataBuffer(GlobalNamespace::OVRPlugin::EventType EventType_ = {}, ::ArrayWrapper<uint8_t> EventData_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : EventType{EventType_}, EventData{EventData_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

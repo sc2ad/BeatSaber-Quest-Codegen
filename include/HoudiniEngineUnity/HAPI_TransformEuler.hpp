@@ -58,7 +58,7 @@ namespace HoudiniEngineUnity {
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
     // Creating value type constructor for type: HAPI_TransformEuler
-    constexpr HAPI_TransformEuler(::ArrayWrapper<float> position_ = {nullptr}, ::ArrayWrapper<float> rotationEuler_ = {nullptr}, ::ArrayWrapper<float> scale_ = {nullptr}, ::ArrayWrapper<float> shear_ = {nullptr}, HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_TransformEuler(::ArrayWrapper<float> position_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> rotationEuler_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> scale_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> shear_ = ::ArrayWrapper<float>(nullptr), HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

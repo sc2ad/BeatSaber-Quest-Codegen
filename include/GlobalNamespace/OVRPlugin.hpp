@@ -1445,7 +1445,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
       // Creating value type constructor for type: Skeleton
-      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones_ = {nullptr}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = {nullptr}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>(nullptr), ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>(nullptr)) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);

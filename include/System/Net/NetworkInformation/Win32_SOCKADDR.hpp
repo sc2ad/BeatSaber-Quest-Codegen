@@ -32,7 +32,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: Win32_SOCKADDR
-    constexpr Win32_SOCKADDR(uint16_t AddressFamily_ = {}, ::ArrayWrapper<uint8_t> AddressData_ = {nullptr}) noexcept : AddressFamily{AddressFamily_}, AddressData{AddressData_} {}
+    constexpr Win32_SOCKADDR(uint16_t AddressFamily_ = {}, ::ArrayWrapper<uint8_t> AddressData_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : AddressFamily{AddressFamily_}, AddressData{AddressData_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
