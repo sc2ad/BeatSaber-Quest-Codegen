@@ -42,7 +42,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18

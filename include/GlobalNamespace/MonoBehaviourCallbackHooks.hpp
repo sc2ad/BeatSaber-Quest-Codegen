@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Action`1<System.Single> m_OnUpdateDelegate
     // Size: 0x8

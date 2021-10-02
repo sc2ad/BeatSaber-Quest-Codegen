@@ -54,7 +54,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_CreatedEvents
     // Size: 0x8

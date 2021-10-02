@@ -37,7 +37,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Action`5<TParam1,TParam2,TParam3,TParam4,TValue> _onSpawnMethod
     // Size: 0x8

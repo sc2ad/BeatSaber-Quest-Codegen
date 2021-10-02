@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Single UpFov
       // Size: 0x4
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public UnityEngine.Vector2 resolution
       // Size: 0x8
@@ -156,7 +156,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean needsConfigureTexture
     // Size: 0x1

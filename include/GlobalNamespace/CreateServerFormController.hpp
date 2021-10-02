@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private FormattedFloatListSettingsController _maxPlayersList
     // Size: 0x8

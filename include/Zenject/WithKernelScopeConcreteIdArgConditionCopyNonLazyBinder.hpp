@@ -35,7 +35,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
     // Size: 0x8

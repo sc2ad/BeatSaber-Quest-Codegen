@@ -38,7 +38,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Zenject.SubContainerPrefabBindingFinalizer <>4__this
     // Size: 0x8

@@ -65,7 +65,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
     // Size: 0x8

@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
     // Size: 0x8

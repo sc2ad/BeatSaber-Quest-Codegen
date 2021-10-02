@@ -34,7 +34,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _tasks
     // Size: 0x8

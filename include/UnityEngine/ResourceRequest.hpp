@@ -37,7 +37,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.String m_Path
     // Size: 0x8

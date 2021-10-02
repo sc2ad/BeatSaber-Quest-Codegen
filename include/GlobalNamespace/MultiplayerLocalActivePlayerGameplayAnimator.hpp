@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SpaceAttribute] Offset: 0xF08BF0
     // private CoreGameHUDController _coreGameHUDController

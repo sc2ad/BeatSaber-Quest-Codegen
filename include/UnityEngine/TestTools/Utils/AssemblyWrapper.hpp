@@ -32,7 +32,7 @@ namespace UnityEngine::TestTools::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8

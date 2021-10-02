@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
     // Size: 0x8

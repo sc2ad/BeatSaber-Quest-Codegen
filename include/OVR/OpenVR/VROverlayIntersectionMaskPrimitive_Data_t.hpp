@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVR.OpenVR.IntersectionMaskRectangle_t m_Rectangle
     // Size: 0x10

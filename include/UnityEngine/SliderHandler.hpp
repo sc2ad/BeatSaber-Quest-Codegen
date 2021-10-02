@@ -34,7 +34,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnityEngine.Rect position
     // Size: 0x10

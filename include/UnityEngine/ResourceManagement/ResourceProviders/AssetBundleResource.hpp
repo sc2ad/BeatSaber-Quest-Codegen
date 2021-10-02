@@ -62,7 +62,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.AssetBundle m_AssetBundle
     // Size: 0x8

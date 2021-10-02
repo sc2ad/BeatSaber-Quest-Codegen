@@ -55,7 +55,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public MasterServer.BaseClientMessageHandler <>4__this
     // Size: 0x8

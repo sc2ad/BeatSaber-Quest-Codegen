@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
     // Size: 0x8

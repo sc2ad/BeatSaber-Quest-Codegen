@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Point m_infinity
     // Size: 0x8

@@ -25,7 +25,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Color knobColor
     // Size: 0x10

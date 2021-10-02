@@ -24,7 +24,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
     // Size: 0x44

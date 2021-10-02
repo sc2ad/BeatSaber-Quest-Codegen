@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Curve m_outer
     // Size: 0x8

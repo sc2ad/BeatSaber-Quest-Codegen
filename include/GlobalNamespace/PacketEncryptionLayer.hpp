@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly PacketEncryptionLayer/EncryptionStatistics statistics
     // Size: 0x8

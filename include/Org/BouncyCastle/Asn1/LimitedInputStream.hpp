@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Asn1 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly System.IO.Stream _in
     // Size: 0x8

@@ -40,7 +40,7 @@ namespace UnityEngine::ResourceManagement::Util {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEE5998
     // private System.String m_Id

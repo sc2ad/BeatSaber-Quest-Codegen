@@ -23,7 +23,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [CompilerGeneratedAttribute] Offset: 0xE63890
     // private T <PreviousValue>k__BackingField

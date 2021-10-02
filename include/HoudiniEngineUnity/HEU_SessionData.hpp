@@ -40,7 +40,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HoudiniEngineUnity.HAPI_Session _HAPISession
     // Size: 0x10

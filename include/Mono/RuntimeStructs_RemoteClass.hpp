@@ -24,7 +24,7 @@ namespace Mono {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IntPtr default_vtable
     // Size: 0x8

@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
     // Size: 0x8

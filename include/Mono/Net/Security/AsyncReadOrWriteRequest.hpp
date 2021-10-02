@@ -33,7 +33,7 @@ namespace Mono::Net::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
     // Size: 0x8

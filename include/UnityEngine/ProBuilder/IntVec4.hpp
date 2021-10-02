@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Vector4 value
     // Size: 0x10

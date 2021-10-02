@@ -37,7 +37,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
     // Size: 0x8

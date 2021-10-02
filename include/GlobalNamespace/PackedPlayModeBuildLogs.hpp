@@ -42,7 +42,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public UnityEngine.LogType Type
       // Size: 0x4
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     // Size: 0x8

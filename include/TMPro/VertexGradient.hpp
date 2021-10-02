@@ -21,7 +21,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Color topLeft
     // Size: 0x10

@@ -35,7 +35,7 @@ namespace System::Security::Cryptography::X509Certificates {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.IEnumerator enumerator
     // Size: 0x8

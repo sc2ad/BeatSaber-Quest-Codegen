@@ -50,7 +50,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.SearchResultHandler`1<TSource> _resultHandler
     // Size: 0x8

@@ -44,7 +44,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.AddressableAssets.AddressablesImpl addressables
     // Size: 0x8

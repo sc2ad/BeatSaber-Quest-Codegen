@@ -35,7 +35,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SerializeField] Offset: 0xE75490
     // public UnityEngine.PropertyName exposedName

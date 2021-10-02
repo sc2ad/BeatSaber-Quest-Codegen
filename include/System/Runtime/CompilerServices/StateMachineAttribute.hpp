@@ -31,7 +31,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [CompilerGeneratedAttribute] Offset: 0xE63BA4
     // private System.Type <StateMachineType>k__BackingField

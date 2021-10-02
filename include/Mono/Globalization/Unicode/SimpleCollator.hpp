@@ -56,7 +56,7 @@ namespace Mono::Globalization::Unicode {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Globalization.TextInfo textInfo
     // Size: 0x8

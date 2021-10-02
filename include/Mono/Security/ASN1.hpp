@@ -30,7 +30,7 @@ namespace Mono::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte m_nTag
     // Size: 0x1

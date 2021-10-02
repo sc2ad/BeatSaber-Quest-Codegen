@@ -25,7 +25,7 @@ namespace Mono::Security::Interface {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     // Size: 0x2

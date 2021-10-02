@@ -25,7 +25,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     // Size: 0x4

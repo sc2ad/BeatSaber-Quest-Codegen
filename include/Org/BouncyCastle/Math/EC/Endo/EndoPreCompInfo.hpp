@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
     // Size: 0x8

@@ -22,7 +22,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] stack
     // Size: 0x8

@@ -88,7 +88,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IntPtr _mono_app_domain
     // Size: 0x8

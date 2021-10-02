@@ -21,7 +21,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.HmdVector2_t vTopLeft
     // Size: 0x8

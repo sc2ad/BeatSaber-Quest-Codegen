@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
     // Size: 0x8

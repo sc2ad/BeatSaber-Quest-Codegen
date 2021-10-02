@@ -53,7 +53,7 @@ namespace UnityEngine::ResourceManagement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> m_dependency
     // Size: 0xFFFFFFFF

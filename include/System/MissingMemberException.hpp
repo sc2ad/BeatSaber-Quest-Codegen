@@ -32,7 +32,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.String ClassName
     // Size: 0x8

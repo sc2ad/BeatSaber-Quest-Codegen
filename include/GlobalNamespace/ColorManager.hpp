@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF135FC
     // private readonly ColorScheme _colorScheme

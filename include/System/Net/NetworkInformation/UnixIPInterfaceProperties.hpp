@@ -48,7 +48,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Net.NetworkInformation.UnixNetworkInterface iface
     // Size: 0x8

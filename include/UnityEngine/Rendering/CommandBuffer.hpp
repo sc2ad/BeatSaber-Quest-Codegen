@@ -73,7 +73,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IntPtr m_Ptr
     // Size: 0x8

@@ -23,7 +23,7 @@ namespace UnityEngine::Profiling::Experimental {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76444
     // private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField

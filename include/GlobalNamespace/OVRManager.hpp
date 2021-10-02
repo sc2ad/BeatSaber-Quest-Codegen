@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IEnumerable`1<UnityEngine.Camera> disabledCameras
     // Size: 0x8

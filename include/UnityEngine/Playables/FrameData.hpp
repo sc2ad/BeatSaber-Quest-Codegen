@@ -43,7 +43,7 @@ namespace UnityEngine::Playables {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -107,7 +107,7 @@ namespace UnityEngine::Playables {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.UInt64 m_FrameID
     // Size: 0x8

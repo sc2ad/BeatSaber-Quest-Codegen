@@ -19,7 +19,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int16 value__
     // Size: 0x2

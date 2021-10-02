@@ -39,7 +39,7 @@ namespace UnityEngine::XR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE99A48
     // private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated

@@ -30,7 +30,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.AggregateException m_exception
     // Size: 0x8

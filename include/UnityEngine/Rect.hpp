@@ -37,7 +37,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xE754E8
     // private System.Single m_XMin

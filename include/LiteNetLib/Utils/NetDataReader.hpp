@@ -42,7 +42,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Byte[] _data
     // Size: 0x8

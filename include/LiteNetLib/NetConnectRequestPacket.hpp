@@ -43,7 +43,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Int64 ConnectionTime
     // Size: 0x8

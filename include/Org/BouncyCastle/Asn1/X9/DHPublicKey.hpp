@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Asn1.DerInteger y
     // Size: 0x8

@@ -24,7 +24,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Byte[] RawData
     // Size: 0x8

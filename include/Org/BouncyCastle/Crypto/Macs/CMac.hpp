@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] ZEROES
     // Size: 0x8

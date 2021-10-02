@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private BoxCuttableBySaber[] _bigCuttableBySaberList
     // Size: 0x8

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [HeaderAttribute] Offset: 0xF140F4
     // private UnityEngine.GameObject[] _connectedPlayerIntroAnimators

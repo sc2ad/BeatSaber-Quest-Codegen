@@ -66,7 +66,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NullAllowed] Offset: 0xEE24B8
     // private UnityEngine.RectTransform _controllersContainer

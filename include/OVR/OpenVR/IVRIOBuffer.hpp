@@ -34,7 +34,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
     // Size: 0x8

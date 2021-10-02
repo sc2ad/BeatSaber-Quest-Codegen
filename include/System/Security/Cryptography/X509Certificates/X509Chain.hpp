@@ -39,7 +39,7 @@ namespace System::Security::Cryptography::X509Certificates {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Cryptography.X509Certificates.X509ChainImpl impl
     // Size: 0x8

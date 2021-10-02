@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [ReorderableAttribute] Offset: 0xF13594
     // private UnityEngine.Object[] _objects

@@ -39,7 +39,7 @@ namespace System::Text::RegularExpressions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Hashtable _caps
     // Size: 0x8

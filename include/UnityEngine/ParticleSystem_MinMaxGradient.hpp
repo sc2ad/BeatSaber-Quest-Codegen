@@ -34,7 +34,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ParticleSystemGradientMode m_Mode
     // Size: 0x4

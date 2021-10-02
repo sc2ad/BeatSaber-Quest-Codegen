@@ -58,7 +58,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.UI.FontData m_FontData
     // Size: 0x8

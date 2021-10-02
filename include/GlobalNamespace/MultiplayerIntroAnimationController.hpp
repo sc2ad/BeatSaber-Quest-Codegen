@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [HeaderAttribute] Offset: 0xF094F8
     // private UnityEngine.Playables.PlayableDirector _introPlayableDirector

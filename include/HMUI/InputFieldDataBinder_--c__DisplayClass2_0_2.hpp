@@ -45,7 +45,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<System.String,T1> toValueConvertor
     // Size: 0x8

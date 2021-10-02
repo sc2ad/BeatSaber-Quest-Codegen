@@ -30,7 +30,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.IComparer comparer
     // Size: 0x8

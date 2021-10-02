@@ -23,7 +23,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly T[] m_elements
     // Size: 0x8

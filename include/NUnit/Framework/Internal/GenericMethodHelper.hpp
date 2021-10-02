@@ -34,7 +34,7 @@ namespace NUnit::Framework::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEEDB4
     // private System.Reflection.MethodInfo <Method>k__BackingField

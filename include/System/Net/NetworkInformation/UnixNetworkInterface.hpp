@@ -44,7 +44,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
     // Size: 0x8

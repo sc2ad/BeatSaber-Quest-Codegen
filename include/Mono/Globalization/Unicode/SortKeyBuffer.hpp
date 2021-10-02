@@ -31,7 +31,7 @@ namespace Mono::Globalization::Unicode {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] l1b
     // Size: 0x8

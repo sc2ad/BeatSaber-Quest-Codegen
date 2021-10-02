@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Vector2 translation
     // Size: 0x8

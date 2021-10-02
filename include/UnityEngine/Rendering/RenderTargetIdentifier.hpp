@@ -35,7 +35,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
     // Size: 0x4

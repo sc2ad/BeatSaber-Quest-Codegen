@@ -119,7 +119,7 @@ namespace UnityEngine::Timeline {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> trackList
       // Size: 0x8
@@ -165,7 +165,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 m_Version
     // Size: 0x4

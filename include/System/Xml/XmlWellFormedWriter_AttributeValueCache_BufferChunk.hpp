@@ -24,7 +24,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Char[] buffer
     // Size: 0x8

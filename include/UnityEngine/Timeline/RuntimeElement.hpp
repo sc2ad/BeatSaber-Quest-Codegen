@@ -30,7 +30,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 <intervalBit>k__BackingField
     // Size: 0x4

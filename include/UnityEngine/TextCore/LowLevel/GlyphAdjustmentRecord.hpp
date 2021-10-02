@@ -22,7 +22,7 @@ namespace UnityEngine::TextCore::LowLevel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xEA624C
     // private System.UInt32 m_GlyphIndex

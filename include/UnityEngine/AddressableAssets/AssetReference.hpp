@@ -54,7 +54,7 @@ namespace UnityEngine::AddressableAssets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEEC46C
     // private System.String m_AssetGUID

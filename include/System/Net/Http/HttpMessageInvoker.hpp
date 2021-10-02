@@ -45,7 +45,7 @@ namespace System::Net::Http {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.Http.HttpMessageHandler handler
     // Size: 0x8

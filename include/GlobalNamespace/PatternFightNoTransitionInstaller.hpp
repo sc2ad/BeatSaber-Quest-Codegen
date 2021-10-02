@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private PlayerSpecificSettings _playerSpecificSettings
     // Size: 0x8

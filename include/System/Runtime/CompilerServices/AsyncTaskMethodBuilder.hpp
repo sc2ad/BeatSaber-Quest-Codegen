@@ -50,7 +50,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     // Size: 0xFFFFFFFF

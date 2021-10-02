@@ -43,7 +43,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String m_buildTarget
     // Size: 0x8

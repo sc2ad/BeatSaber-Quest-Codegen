@@ -58,7 +58,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private readonly System.Collections.Generic.Queue`1<T> _q
       // Size: 0x8
@@ -179,7 +179,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private T[] _array
     // Size: 0x8

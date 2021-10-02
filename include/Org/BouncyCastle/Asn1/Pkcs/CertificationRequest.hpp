@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
     // Size: 0x8

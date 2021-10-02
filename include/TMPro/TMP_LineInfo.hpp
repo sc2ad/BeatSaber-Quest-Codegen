@@ -24,7 +24,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32 controlCharacterCount
     // Size: 0x4

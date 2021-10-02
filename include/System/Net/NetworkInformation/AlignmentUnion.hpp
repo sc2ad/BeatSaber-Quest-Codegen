@@ -4,9 +4,6 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
@@ -31,6 +28,11 @@ namespace System::Net::NetworkInformation {
       // Field size check
       static_assert(sizeof(int) == 0x4);
     };
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    protected:
+    #endif
     // Creating union for fields at offset: 0x0
     union {
       // public System.UInt64 Alignment
@@ -43,6 +45,7 @@ namespace System::Net::NetworkInformation {
       __InternalUnionData data;
       static_assert(sizeof(__InternalUnionData) == 0x8);
     };
+    public:
     // Creating value type constructor for type: AlignmentUnion
     constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}
     // Creating interface conversion operator: operator System::ValueType

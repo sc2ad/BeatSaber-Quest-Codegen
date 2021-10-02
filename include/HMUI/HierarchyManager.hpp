@@ -44,7 +44,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.ScreenSystem _screenSystem
     // Size: 0x8

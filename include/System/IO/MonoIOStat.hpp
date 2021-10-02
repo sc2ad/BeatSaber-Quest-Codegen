@@ -22,7 +22,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IO.FileAttributes fileAttributes
     // Size: 0x4

@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters
     // Size: 0x8

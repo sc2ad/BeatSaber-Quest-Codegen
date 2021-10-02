@@ -60,7 +60,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
     // Size: 0x8

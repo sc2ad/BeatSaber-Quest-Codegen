@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
     // Size: 0x8

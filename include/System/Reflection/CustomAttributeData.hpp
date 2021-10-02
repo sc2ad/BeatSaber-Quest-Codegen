@@ -59,7 +59,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Reflection.ConstructorInfo ctorInfo
     // Size: 0x8

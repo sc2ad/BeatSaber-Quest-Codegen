@@ -61,7 +61,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected UnityEngine.RectOffset m_Padding
     // Size: 0x8

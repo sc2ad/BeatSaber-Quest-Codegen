@@ -51,7 +51,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object m_OSSynchronizationContext
     // Size: 0x8

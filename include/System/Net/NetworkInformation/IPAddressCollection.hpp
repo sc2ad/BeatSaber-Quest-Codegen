@@ -49,7 +49,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.ObjectModel.Collection`1<System.Net.IPAddress> addresses
     // Size: 0x8

@@ -73,7 +73,7 @@ namespace LiteNetLib {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Net.IPEndPoint LocalEndPoint
       // Size: 0x8
@@ -120,7 +120,7 @@ namespace LiteNetLib {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Net.IPEndPoint TargetEndPoint
       // Size: 0x8
@@ -162,7 +162,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly LiteNetLib.NetSocket _socket
     // Size: 0x8

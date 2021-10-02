@@ -32,7 +32,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Reflection.MethodInfo methodInfo
     // Size: 0x8

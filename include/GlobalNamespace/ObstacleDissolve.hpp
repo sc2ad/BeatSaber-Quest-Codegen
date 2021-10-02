@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private ObstacleControllerBase _obstacleController
     // Size: 0x8

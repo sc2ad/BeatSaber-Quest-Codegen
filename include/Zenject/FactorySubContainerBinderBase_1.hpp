@@ -79,7 +79,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
@@ -155,7 +155,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
@@ -231,7 +231,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
@@ -321,7 +321,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
@@ -402,7 +402,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Zenject.DiContainer <BindContainer>k__BackingField
     // Size: 0x8

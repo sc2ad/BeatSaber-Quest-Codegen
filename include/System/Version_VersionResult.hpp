@@ -31,7 +31,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Version m_parsedVersion
     // Size: 0x8

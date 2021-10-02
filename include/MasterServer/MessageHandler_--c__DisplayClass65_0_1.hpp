@@ -32,7 +32,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<System.UInt32,T> obtain
     // Size: 0x8

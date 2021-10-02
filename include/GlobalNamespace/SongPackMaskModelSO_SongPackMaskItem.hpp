@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public SongPackMaskModelSO/SongPackDataType _type
     // Size: 0x4

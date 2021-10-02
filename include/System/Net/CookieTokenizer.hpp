@@ -33,7 +33,7 @@ namespace System::Net {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.String m_name
       // Size: 0x8
@@ -74,7 +74,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean m_eofCookie
     // Size: 0x1

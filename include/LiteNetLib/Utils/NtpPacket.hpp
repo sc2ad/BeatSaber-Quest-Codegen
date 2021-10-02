@@ -39,7 +39,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] <Bytes>k__BackingField
     // Size: 0x8

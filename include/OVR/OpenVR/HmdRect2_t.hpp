@@ -21,7 +21,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVR.OpenVR.HmdVector2_t vTopLeft
     // Size: 0x8

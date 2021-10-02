@@ -147,7 +147,7 @@ namespace UnityEngine::TestTools {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -390,7 +390,7 @@ namespace UnityEngine::TestTools {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String m_BeforeErrorPrefix
     // Size: 0x8

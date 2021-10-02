@@ -66,7 +66,7 @@ namespace OnlineServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF15444
     // private readonly HTTPLeaderboardsModel _leaderboardsModel

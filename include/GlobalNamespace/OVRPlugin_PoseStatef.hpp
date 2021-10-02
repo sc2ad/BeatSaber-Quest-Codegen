@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVRPlugin/Posef Pose
     // Size: 0x1C

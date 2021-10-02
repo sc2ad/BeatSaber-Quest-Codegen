@@ -22,7 +22,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.UInt16 Scheme
     // Size: 0x2

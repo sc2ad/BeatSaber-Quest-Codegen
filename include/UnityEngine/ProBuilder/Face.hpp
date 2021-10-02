@@ -49,7 +49,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xF26074
     // private System.Int32[] m_Indexes

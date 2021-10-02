@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.IDigest digest
     // Size: 0x8

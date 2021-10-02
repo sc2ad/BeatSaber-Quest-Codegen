@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Crypto {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Boolean privateKey
     // Size: 0x1

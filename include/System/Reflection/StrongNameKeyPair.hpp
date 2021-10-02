@@ -36,7 +36,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] _publicKey
     // Size: 0x8

@@ -40,7 +40,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries
     // Size: 0x8

@@ -31,7 +31,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Threading.ExecutionContext m_ec
     // Size: 0x8

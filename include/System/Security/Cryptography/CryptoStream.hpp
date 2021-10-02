@@ -58,7 +58,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.Stream _stream
     // Size: 0x8

@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private SteamVR_Events/Event`3<T0,T1,T2> _event
     // Size: 0x8

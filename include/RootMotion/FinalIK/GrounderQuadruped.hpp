@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public RootMotion.FinalIK.IKSolver solver
       // Size: 0x8
@@ -105,7 +105,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF1F80
     // public RootMotion.FinalIK.Grounding forelegSolver

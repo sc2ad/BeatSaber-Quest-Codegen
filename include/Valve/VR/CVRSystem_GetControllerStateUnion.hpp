@@ -23,7 +23,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.IVRSystem/Valve.VR._GetControllerState pGetControllerState
     // Size: 0x8

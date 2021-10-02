@@ -23,7 +23,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Int32 CommentCount
     // Size: 0x4

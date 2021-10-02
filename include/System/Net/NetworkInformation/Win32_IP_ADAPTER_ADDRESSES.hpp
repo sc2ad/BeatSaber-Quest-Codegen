@@ -31,7 +31,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Net.NetworkInformation.AlignmentUnion Alignment
     // Size: 0x8

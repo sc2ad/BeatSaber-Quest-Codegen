@@ -28,7 +28,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     // Size: 0x8

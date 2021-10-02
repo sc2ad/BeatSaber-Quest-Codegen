@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
     // Size: 0x8

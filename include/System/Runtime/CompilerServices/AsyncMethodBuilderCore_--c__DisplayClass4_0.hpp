@@ -36,7 +36,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Threading.Tasks.Task innerTask
     // Size: 0x8

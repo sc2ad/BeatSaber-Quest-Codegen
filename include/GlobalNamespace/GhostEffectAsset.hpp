@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4

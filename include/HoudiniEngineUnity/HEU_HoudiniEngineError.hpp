@@ -23,7 +23,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.String _errorMsg
     // Size: 0x8

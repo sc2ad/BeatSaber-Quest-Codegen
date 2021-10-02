@@ -56,7 +56,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object expectedValue
     // Size: 0x8

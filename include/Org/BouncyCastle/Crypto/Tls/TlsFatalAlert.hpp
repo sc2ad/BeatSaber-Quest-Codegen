@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Byte alertDescription
     // Size: 0x1

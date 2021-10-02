@@ -30,7 +30,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Zenject.IInitializable Initializable
     // Size: 0x8

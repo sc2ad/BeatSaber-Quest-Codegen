@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public BloomPrePassEffectSO bloomPrePassEffect
     // Size: 0x8

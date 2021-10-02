@@ -52,7 +52,7 @@ namespace Org::BouncyCastle::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Asn1.X509.X509CertificateStructure c
     // Size: 0x8

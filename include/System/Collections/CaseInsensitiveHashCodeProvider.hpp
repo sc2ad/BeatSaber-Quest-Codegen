@@ -34,7 +34,7 @@ namespace System::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Globalization.TextInfo m_text
     // Size: 0x8

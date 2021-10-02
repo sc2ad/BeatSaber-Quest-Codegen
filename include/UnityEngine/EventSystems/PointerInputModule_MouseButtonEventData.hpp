@@ -31,7 +31,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     // Size: 0x4

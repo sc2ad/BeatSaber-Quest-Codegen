@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TMPro.TextMeshProUGUI _highScoreText
     // Size: 0x8

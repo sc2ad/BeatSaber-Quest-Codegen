@@ -43,7 +43,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<Zenject.IMemoryPool> _poolFactories
     // Size: 0x8

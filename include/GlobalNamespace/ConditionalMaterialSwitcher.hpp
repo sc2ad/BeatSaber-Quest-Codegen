@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [HeaderAttribute] Offset: 0xF0B950
     // private UnityEngine.Material _material0

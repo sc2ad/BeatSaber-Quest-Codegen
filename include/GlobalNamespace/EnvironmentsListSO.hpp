@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private EnvironmentInfoSO[] _environmentInfos
     // Size: 0x8

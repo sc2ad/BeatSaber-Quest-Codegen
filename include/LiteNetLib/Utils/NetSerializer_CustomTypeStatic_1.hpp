@@ -43,7 +43,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Action`2<LiteNetLib.Utils.NetDataWriter,TProperty> _writer
     // Size: 0x8

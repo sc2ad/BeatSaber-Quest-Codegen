@@ -57,7 +57,7 @@ namespace System::Runtime::Remoting::Messaging {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Remoting.Activation.IActivator _activator
     // Size: 0x8

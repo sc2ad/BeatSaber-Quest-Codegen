@@ -23,7 +23,7 @@ namespace UnityEngine::AI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC

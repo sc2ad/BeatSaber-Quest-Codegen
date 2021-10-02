@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Org.BouncyCastle.Asn1.DerInteger p
     // Size: 0x8

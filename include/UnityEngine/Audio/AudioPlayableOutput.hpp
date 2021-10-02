@@ -45,7 +45,7 @@ namespace UnityEngine::Audio {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC

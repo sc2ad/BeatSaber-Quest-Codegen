@@ -29,7 +29,7 @@ namespace UnityEngine::XR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.XR.XRNode m_Type
     // Size: 0x4

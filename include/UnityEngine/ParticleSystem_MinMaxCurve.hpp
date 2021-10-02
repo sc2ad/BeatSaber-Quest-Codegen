@@ -32,7 +32,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ParticleSystemCurveMode m_Mode
     // Size: 0x4

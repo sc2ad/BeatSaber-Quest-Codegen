@@ -45,7 +45,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.DateTime m_dateStart
     // Size: 0x8

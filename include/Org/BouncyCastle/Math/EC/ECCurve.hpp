@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Math::EC {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Math.Field.IFiniteField m_field
     // Size: 0x8

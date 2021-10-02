@@ -46,7 +46,7 @@ namespace UnityEngine::Timeline {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public UnityEngine.Playables.Playable mixer
       // Size: 0xC
@@ -90,7 +90,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Size: 0xC

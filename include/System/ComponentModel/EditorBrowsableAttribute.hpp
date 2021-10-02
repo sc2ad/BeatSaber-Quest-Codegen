@@ -26,7 +26,7 @@ namespace System::ComponentModel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.ComponentModel.EditorBrowsableState browsableState
     // Size: 0x4

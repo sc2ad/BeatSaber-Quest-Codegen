@@ -33,7 +33,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.UInt64 size
     // Size: 0x8

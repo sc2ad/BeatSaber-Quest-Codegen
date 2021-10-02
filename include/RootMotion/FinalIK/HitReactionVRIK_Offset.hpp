@@ -40,7 +40,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF71E0
     // public System.String name

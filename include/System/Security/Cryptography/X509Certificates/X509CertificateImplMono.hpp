@@ -36,7 +36,7 @@ namespace System::Security::Cryptography::X509Certificates {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Mono.Security.X509.X509Certificate x509
     // Size: 0x8

@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 rounds
     // Size: 0x4

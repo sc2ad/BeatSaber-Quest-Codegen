@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
     // Size: 0x8

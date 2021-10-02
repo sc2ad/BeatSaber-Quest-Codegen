@@ -30,7 +30,7 @@ namespace UnityEngine::XR::WSA {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEABD04
     // private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged

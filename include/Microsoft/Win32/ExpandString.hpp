@@ -21,7 +21,7 @@ namespace Microsoft::Win32 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String value
     // Size: 0x8

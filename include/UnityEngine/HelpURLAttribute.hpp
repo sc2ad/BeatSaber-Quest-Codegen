@@ -25,7 +25,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly System.String m_Url
     // Size: 0x8

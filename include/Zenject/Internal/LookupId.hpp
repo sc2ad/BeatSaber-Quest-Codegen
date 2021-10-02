@@ -31,7 +31,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Zenject.IProvider Provider
     // Size: 0x8

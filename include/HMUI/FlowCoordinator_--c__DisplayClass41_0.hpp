@@ -37,7 +37,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HMUI.ViewController/HMUI.AnimationType animationType
     // Size: 0x4

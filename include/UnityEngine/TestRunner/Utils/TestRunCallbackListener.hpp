@@ -57,7 +57,7 @@ namespace UnityEngine::TestRunner::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
     // Size: 0x8

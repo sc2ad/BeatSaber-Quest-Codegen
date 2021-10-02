@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF08D28
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController

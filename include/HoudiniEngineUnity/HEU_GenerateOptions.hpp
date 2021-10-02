@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Boolean _generateUVs
     // Size: 0x1

@@ -23,7 +23,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int32 dataOffset
     // Size: 0x4

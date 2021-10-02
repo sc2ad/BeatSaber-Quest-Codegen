@@ -37,7 +37,7 @@ namespace System::Security::Util {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.SecurityDocument _doc
     // Size: 0x8

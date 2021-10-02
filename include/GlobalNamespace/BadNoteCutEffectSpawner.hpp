@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private FlyingSpriteSpawner _failFlyingSpriteSpawner
     // Size: 0x8

@@ -19,7 +19,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public TItem Item
     // Size: 0xFFFFFFFF

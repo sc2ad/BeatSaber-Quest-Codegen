@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.IRsa core
     // Size: 0x8

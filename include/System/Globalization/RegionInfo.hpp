@@ -30,7 +30,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 regionId
     // Size: 0x4

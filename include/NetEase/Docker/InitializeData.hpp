@@ -19,7 +19,7 @@ namespace NetEase::Docker {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDC6C
     // private System.Boolean <InitializeSuccessful>k__BackingField

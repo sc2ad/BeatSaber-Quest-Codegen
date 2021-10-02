@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int64[] _rc
     // Size: 0x8

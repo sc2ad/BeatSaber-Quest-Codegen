@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly UnityEngine.Vector3 position
       // Size: 0xC
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.LayerMask _reflectLayers
     // Size: 0x4

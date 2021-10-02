@@ -22,7 +22,7 @@ namespace Mono::Unity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback read
     // Size: 0x8

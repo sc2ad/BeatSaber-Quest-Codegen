@@ -29,7 +29,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes
     // Size: 0xFFFFFFFF

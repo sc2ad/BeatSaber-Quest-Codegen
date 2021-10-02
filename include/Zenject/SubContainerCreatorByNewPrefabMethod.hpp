@@ -49,7 +49,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Action`1<Zenject.DiContainer> _installerMethod
     // Size: 0x8

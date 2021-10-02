@@ -59,7 +59,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Mesh m_SourceMesh
     // Size: 0x8

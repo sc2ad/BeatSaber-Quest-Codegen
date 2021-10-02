@@ -23,7 +23,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
     // Size: 0x4

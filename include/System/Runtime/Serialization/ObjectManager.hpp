@@ -58,7 +58,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
     // Size: 0x8

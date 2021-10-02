@@ -24,7 +24,7 @@ namespace Mono {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 size
     // Size: 0x4

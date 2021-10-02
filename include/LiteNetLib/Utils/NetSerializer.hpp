@@ -135,7 +135,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private LiteNetLib.Utils.NetDataWriter _writer
     // Size: 0x8

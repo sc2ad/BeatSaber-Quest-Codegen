@@ -25,7 +25,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean m_delaySign
     // Size: 0x1

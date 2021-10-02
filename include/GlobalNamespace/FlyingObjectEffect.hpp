@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.AnimationCurve _moveAnimationCurve
     // Size: 0x8

@@ -35,7 +35,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6DEF8
     // private readonly System.String <preferredExtension>k__BackingField

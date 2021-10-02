@@ -43,7 +43,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.ScriptableObject resource
     // Size: 0x8

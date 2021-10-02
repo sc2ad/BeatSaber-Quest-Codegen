@@ -23,7 +23,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEB7B54
     // private System.UInt32 m_FirstGlyph

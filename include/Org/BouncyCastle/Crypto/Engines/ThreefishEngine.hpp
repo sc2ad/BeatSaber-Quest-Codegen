@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 blocksizeBytes
     // Size: 0x4

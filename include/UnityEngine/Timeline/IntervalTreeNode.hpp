@@ -20,7 +20,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int64 center
     // Size: 0x8

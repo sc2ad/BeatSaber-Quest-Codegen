@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     // Size: 0x8

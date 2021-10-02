@@ -28,7 +28,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Boolean bIsMicrosoftBestFitFallback
     // Size: 0x1

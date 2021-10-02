@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> _playersPermission
     // Size: 0x8

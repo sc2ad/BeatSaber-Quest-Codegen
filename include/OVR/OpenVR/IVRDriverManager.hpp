@@ -30,7 +30,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
     // Size: 0x8

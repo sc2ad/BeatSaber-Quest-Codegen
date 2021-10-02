@@ -32,7 +32,7 @@ namespace System::ComponentModel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry head
     // Size: 0x8

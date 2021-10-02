@@ -34,7 +34,7 @@ namespace UnityEngine::Networking {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEBFD10
     // private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField

@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public TKey toAdd
       // Size: 0xFFFFFFFF
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Func`2<TKey,System.Threading.Tasks.Task`1<TValue>> _valueFactory
     // Size: 0x8

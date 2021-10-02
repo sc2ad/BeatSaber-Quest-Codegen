@@ -24,7 +24,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int64 m_DiscreteTime
     // Size: 0x8

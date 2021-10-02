@@ -38,7 +38,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
     // Size: 0x4

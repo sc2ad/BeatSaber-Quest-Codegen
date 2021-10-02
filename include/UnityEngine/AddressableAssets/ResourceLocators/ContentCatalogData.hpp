@@ -48,7 +48,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.String localHash
     // Size: 0x8

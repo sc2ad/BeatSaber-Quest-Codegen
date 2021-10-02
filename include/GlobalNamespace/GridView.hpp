@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.RectTransform _contentTransform
     // Size: 0x8

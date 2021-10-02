@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.IconSegmentedControl _segmentedControl
     // Size: 0x8

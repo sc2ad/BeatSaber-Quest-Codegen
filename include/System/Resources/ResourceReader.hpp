@@ -68,7 +68,7 @@ namespace System::Resources {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.BinaryReader _store
     // Size: 0x8

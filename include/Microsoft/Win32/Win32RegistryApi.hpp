@@ -45,7 +45,7 @@ namespace Microsoft::Win32 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 NativeBytesPerCharacter
     // Size: 0x4

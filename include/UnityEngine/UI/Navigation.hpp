@@ -41,7 +41,7 @@ namespace UnityEngine::UI {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -99,7 +99,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
     // Size: 0x4

@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Messaging {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
     // Size: 0x8

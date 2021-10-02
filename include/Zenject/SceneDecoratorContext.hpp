@@ -49,7 +49,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
     // Size: 0x8

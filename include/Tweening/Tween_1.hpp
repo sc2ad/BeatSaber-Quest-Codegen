@@ -36,7 +36,7 @@ namespace Tweening {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public T fromValue
     // Size: 0xFFFFFFFF

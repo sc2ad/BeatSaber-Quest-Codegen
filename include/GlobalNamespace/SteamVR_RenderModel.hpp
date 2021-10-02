@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4

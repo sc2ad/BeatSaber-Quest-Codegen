@@ -39,7 +39,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Xml.XmlRawWriterBase64Encoder base64Encoder
     // Size: 0x8

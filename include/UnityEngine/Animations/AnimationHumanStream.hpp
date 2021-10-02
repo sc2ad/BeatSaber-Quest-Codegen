@@ -25,7 +25,7 @@ namespace UnityEngine::Animations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IntPtr stream
     // Size: 0x8

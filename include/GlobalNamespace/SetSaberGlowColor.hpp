@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NullAllowed] Offset: 0xF0AD80
     // private SaberTypeObject _saberTypeObject

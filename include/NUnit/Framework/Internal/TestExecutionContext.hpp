@@ -72,7 +72,7 @@ namespace NUnit::Framework::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private NUnit.Framework.Internal.TestExecutionContext _priorContext
     // Size: 0x8

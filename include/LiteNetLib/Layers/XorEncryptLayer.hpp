@@ -33,7 +33,7 @@ namespace LiteNetLib::Layers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] _byteKey
     // Size: 0x8

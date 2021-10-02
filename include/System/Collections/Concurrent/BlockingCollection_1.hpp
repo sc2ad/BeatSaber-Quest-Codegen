@@ -62,7 +62,7 @@ namespace System::Collections::Concurrent {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Concurrent.IProducerConsumerCollection`1<T> _collection
     // Size: 0x8

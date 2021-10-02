@@ -31,7 +31,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Boolean msgReceived
     // Size: 0x1

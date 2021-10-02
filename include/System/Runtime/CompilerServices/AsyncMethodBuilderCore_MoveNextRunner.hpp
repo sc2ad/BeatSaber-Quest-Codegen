@@ -37,7 +37,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Threading.ExecutionContext m_context
     // Size: 0x8

@@ -54,7 +54,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt16 m_value
     // Size: 0x2

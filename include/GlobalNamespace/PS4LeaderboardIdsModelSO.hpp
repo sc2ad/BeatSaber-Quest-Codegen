@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> _leaderboardIds
     // Size: 0x8

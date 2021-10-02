@@ -19,7 +19,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Byte value__
     // Size: 0x1

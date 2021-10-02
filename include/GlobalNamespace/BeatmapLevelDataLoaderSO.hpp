@@ -79,7 +79,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.String assetBundlePath
       // Size: 0x8
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
     // Size: 0x8

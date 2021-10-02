@@ -36,7 +36,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.GameObject m_GameObject
     // Size: 0x8

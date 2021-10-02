@@ -31,7 +31,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
     // Size: 0x8

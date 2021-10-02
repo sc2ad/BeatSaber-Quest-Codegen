@@ -43,7 +43,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
     // Size: 0x8

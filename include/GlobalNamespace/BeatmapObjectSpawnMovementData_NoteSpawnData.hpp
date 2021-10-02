@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly UnityEngine.Vector3 moveStartPos
     // Size: 0xC

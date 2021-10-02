@@ -24,7 +24,7 @@ namespace Mono::Security::Protocol::Ntlm {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] _nonce
     // Size: 0x8

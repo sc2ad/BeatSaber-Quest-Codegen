@@ -39,7 +39,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<System.Object> list
     // Size: 0x8

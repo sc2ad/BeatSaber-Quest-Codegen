@@ -25,7 +25,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.NetworkInformation.Win32_MIB_IFROW info
     // Size: 0x70

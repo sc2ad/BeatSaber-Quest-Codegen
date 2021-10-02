@@ -24,7 +24,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean m_wrapNonExceptionThrows
     // Size: 0x1

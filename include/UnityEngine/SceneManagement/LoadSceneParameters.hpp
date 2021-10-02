@@ -24,7 +24,7 @@ namespace UnityEngine::SceneManagement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.SceneManagement.LoadSceneMode m_LoadSceneMode
     // Size: 0x4

@@ -49,7 +49,7 @@ namespace UnityEngine {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private readonly System.Threading.SendOrPostCallback m_DelagateCallback
       // Size: 0x8
@@ -95,7 +95,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
     // Size: 0x8

@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     // Size: 0x8

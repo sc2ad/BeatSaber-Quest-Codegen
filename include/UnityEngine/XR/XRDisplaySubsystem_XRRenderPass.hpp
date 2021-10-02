@@ -31,7 +31,7 @@ namespace UnityEngine::XR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IntPtr displaySubsystemInstance
     // Size: 0x8

@@ -67,7 +67,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HoudiniEngineUnity.HEU_GeoNode _ownerNode
     // Size: 0x8

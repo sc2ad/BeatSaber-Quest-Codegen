@@ -42,7 +42,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Timeline.ITimeControl m_timeControl
     // Size: 0x8

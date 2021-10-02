@@ -35,7 +35,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.String DisplayScore
     // Size: 0x8

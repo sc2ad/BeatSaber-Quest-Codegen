@@ -21,7 +21,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IntPtr m_pImageData
     // Size: 0x8

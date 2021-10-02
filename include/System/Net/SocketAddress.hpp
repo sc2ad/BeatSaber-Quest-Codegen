@@ -34,7 +34,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32 m_Size
     // Size: 0x4

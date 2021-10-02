@@ -49,7 +49,7 @@ namespace OVRSimpleJSON {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<OVRSimpleJSON.JSONNode> m_List
     // Size: 0x8

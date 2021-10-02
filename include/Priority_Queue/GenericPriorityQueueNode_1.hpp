@@ -21,7 +21,7 @@ namespace Priority_Queue {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TPriority <Priority>k__BackingField
     // Size: 0xFFFFFFFF

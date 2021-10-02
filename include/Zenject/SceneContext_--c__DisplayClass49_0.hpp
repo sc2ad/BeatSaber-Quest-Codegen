@@ -38,7 +38,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.IEnumerable`1<System.String> parentContractNames
     // Size: 0x8

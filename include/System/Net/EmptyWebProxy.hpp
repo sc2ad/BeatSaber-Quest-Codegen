@@ -35,7 +35,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.ICredentials m_credentials
     // Size: 0x8

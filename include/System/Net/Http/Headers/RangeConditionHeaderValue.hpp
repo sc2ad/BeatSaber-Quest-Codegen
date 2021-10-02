@@ -33,7 +33,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
     // Size: 0xFFFFFFFF

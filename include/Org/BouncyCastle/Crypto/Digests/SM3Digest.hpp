@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt32[] V
     // Size: 0x8

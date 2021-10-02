@@ -36,7 +36,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Zenject.InjectContext context
     // Size: 0x8

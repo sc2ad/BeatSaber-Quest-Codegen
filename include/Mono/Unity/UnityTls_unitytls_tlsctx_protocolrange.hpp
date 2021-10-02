@@ -24,7 +24,7 @@ namespace Mono::Unity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol min
     // Size: 0x4

@@ -35,7 +35,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Zenject.FactoryBindInfo _factoryBindInfo
     // Size: 0x8

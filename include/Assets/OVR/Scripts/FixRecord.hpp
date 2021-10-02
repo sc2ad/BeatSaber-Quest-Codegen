@@ -36,7 +36,7 @@ namespace Assets::OVR::Scripts {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Assets.OVR.Scripts.FixMethodDelegate fixMethod
     // Size: 0x8

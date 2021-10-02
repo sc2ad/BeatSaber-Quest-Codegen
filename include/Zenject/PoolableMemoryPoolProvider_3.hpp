@@ -54,7 +54,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TMemoryPool _pool
     // Size: 0xFFFFFFFF

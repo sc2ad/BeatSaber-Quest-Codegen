@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected NoteMovement _noteMovement
     // Size: 0x8

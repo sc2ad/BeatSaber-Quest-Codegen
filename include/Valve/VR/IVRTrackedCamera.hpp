@@ -48,7 +48,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
     // Size: 0x8

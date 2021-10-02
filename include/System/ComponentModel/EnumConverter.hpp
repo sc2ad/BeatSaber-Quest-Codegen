@@ -30,7 +30,7 @@ namespace System::ComponentModel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     // Size: 0x8

@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private LocalLeaderboardsModel _localLeaderboardsModel
     // Size: 0x8

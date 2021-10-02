@@ -29,7 +29,7 @@ namespace Mono {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Mono.RuntimeStructs/Mono.RemoteClass* value
     // Size: 0x8

@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF1CFC
     // public RootMotion.FinalIK.BipedIK ik

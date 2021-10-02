@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.UI.Toggle _toggle
     // Size: 0x8

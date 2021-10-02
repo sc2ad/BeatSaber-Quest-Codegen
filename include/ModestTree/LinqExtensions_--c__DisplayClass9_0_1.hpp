@@ -24,7 +24,7 @@ namespace ModestTree {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public T value
     // Size: 0xFFFFFFFF

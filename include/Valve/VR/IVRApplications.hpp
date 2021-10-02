@@ -86,7 +86,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
     // Size: 0x8

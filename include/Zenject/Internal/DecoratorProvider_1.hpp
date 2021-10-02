@@ -49,7 +49,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.Dictionary`2<Zenject.IProvider,System.Collections.Generic.List`1<System.Object>> _cachedInstances
     // Size: 0x8

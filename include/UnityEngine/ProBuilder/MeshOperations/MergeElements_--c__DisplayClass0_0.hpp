@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
     // Size: 0x8

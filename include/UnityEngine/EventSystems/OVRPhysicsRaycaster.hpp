@@ -50,7 +50,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected UnityEngine.LayerMask m_EventMask
     // Size: 0x4

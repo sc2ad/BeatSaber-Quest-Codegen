@@ -27,7 +27,7 @@ namespace OnlineServices::API {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly OnlineServices.API.Response response
     // Size: 0x4

@@ -53,7 +53,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -244,7 +244,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Xml.XmlEventCache/System.Xml.XmlEventType eventType
       // Size: 0x4
@@ -335,7 +335,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
     // Size: 0x8

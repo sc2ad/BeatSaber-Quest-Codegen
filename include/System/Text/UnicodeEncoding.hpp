@@ -45,7 +45,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [OptionalFieldAttribute] Offset: 0xE62C88
     // System.Boolean isThrowException

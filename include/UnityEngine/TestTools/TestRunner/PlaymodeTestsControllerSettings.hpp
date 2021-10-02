@@ -39,7 +39,7 @@ namespace UnityEngine::TestTools::TestRunner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     // Size: 0x8

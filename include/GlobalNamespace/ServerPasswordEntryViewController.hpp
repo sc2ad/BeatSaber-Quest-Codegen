@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [HeaderAttribute] Offset: 0xF116A0
     // private HMUI.InputFieldView _passwordInput

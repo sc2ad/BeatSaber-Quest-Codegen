@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Math::EC {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected Org.BouncyCastle.Math.EC.ECCurve outer
     // Size: 0x8

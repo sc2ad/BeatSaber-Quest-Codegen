@@ -43,7 +43,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly ByteArrayNetSerializable random
     // Size: 0x8

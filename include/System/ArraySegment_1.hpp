@@ -53,7 +53,7 @@ namespace System {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private T[] _array
       // Size: 0x8
@@ -168,7 +168,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private T[] _array
     // Size: 0x8

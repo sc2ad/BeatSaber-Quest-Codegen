@@ -26,7 +26,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Vector3[] tetrahedron
     // Size: 0x8

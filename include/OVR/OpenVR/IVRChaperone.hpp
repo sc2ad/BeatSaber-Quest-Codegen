@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetCalibrationState GetCalibrationState
     // Size: 0x8

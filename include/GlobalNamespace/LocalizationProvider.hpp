@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Polyglot.Localization _localization
     // Size: 0x8

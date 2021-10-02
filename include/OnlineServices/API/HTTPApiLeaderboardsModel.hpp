@@ -61,7 +61,7 @@ namespace OnlineServices::API {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF15484
     // private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper

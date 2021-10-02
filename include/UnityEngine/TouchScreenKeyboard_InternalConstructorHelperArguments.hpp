@@ -19,7 +19,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.UInt32 keyboardType
     // Size: 0x4

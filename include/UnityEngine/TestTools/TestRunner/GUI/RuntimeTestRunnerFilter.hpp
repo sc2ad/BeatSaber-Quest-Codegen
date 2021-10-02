@@ -58,7 +58,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String[] assemblyNames
     // Size: 0x8

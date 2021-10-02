@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private OVRHaptics/OVRHapticsOutput m_output
     // Size: 0x8

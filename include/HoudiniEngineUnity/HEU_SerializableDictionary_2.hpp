@@ -44,7 +44,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<TKey,TValue> _dictionary
     // Size: 0x8

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Single <value>k__BackingField
       // Size: 0x4
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Single _averageWindowDuration
     // Size: 0x4

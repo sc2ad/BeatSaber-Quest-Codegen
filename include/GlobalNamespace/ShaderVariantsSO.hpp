@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [ReorderableAttribute] Offset: 0xEEBC40
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants

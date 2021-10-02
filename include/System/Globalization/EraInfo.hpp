@@ -21,7 +21,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32 era
     // Size: 0x4

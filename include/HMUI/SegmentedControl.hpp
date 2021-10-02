@@ -59,7 +59,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NullAllowed] Offset: 0xEE1F70
     // private UnityEngine.Transform _separatorPrefab

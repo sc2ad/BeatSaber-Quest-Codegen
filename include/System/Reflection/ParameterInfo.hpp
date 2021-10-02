@@ -63,7 +63,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Type ClassImpl
     // Size: 0x8

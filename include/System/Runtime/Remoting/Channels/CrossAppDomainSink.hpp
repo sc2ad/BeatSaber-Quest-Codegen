@@ -51,7 +51,7 @@ namespace System::Runtime::Remoting::Channels {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 _domainID
     // Size: 0x4

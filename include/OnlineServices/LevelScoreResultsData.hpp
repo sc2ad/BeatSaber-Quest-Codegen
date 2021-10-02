@@ -32,7 +32,7 @@ namespace OnlineServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8

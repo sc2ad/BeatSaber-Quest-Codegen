@@ -22,7 +22,7 @@ namespace Mono::Unity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.UInt64 handle
     // Size: 0x8

@@ -21,7 +21,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Char delimiter
     // Size: 0x2

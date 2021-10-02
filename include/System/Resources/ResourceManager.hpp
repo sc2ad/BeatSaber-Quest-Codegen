@@ -72,7 +72,7 @@ namespace System::Resources {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [ObsoleteAttribute] Offset: 0xE62CF8
     // protected System.Collections.Hashtable ResourceSets

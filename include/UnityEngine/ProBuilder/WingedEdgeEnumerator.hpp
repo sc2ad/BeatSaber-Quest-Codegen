@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ProBuilder.WingedEdge m_Start
     // Size: 0x8

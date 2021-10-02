@@ -85,7 +85,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Threading.InternalThread internal_thread
     // Size: 0x8

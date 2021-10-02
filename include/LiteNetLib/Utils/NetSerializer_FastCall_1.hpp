@@ -37,7 +37,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Boolean IsArray
     // Size: 0x1

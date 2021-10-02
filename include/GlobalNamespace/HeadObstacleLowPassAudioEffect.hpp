@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF063A8
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction

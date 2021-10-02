@@ -87,7 +87,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA9310
     // protected UnityEngine.Material m_Material

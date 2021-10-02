@@ -23,7 +23,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     // Size: 0x8

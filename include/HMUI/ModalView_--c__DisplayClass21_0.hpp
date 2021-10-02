@@ -24,7 +24,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HMUI.ModalView <>4__this
     // Size: 0x8

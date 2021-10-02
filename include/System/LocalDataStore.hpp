@@ -33,7 +33,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.LocalDataStoreElement[] m_DataTable
     // Size: 0x8

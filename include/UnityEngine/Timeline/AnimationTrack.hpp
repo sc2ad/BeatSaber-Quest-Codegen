@@ -97,7 +97,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEB9970
     // private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_InfiniteClipPreExtrapolation

@@ -51,7 +51,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private NUnit.Framework.Interfaces.ResultState m_ResultState
     // Size: 0x8

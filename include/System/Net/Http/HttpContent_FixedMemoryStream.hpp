@@ -26,7 +26,7 @@ namespace System::Net::Http {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int64 maxSize
     // Size: 0x8

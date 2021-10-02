@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 _length
     // Size: 0x4

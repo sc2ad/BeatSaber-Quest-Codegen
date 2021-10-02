@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF07F48
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher

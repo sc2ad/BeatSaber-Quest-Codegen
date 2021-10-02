@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8

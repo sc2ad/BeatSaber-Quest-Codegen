@@ -58,7 +58,7 @@ namespace System::IO::Compression {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.Compression.DeflateStream _deflateStream
     // Size: 0x8

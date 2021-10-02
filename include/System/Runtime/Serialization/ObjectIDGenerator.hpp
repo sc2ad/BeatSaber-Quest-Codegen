@@ -23,7 +23,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32 m_currentCount
     // Size: 0x4

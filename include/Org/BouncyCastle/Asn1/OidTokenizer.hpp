@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Asn1 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String oid
     // Size: 0x8

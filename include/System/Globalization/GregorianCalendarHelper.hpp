@@ -38,7 +38,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [OptionalFieldAttribute] Offset: 0xE63468
     // System.Int32 m_maxYear

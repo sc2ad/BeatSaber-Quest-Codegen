@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF05300
     // private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool

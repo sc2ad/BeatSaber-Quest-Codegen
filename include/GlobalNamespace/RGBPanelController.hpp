@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.ColorGradientSlider _redSlider
     // Size: 0x8

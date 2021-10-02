@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private SaberTypeObject _saber
     // Size: 0x8

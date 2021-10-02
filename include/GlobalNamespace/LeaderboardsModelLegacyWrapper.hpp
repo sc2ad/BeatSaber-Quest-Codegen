@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF0373C
     // private OnlineServices.ILeaderboardsModel _leaderboardsModel

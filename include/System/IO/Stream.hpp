@@ -70,7 +70,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.Stream/System.IO.ReadWriteTask _activeReadWriteTask
     // Size: 0x8

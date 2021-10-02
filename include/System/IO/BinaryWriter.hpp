@@ -39,7 +39,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.IO.Stream OutStream
     // Size: 0x8

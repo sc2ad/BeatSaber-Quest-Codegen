@@ -64,7 +64,7 @@ namespace Org::BouncyCastle::OpenSsl {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder
     // Size: 0x8

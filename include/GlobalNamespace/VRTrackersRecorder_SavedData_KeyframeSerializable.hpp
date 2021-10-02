@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable[] _transforms
     // Size: 0x8

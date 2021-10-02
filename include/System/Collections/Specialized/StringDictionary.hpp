@@ -34,7 +34,7 @@ namespace System::Collections::Specialized {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Hashtable contents
     // Size: 0x8

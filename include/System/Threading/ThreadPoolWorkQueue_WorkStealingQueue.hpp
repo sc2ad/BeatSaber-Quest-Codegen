@@ -33,7 +33,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Threading.IThreadPoolWorkItem[] m_array
     // Size: 0x8

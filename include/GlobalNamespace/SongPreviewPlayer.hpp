@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [RangeAttribute] Offset: 0xF0054C
     // private System.Int32 _channelsCount

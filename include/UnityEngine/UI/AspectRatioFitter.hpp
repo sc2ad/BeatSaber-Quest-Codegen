@@ -53,7 +53,7 @@ namespace UnityEngine::UI {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -111,7 +111,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.UI.AspectRatioFitter/UnityEngine.UI.AspectMode m_AspectMode
     // Size: 0x4

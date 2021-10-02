@@ -33,7 +33,7 @@ namespace Mono::Globalization::Unicode {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.Int32 Start
       // Size: 0x4
@@ -92,7 +92,7 @@ namespace Mono::Globalization::Unicode {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange[] ranges
     // Size: 0x8

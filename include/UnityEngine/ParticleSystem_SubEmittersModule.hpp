@@ -21,7 +21,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.ParticleSystem m_ParticleSystem
     // Size: 0x8

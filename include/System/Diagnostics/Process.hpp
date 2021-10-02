@@ -91,7 +91,7 @@ namespace System::Diagnostics {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -137,7 +137,7 @@ namespace System::Diagnostics {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean haveProcessId
     // Size: 0x1

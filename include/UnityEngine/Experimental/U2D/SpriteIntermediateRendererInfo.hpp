@@ -30,7 +30,7 @@ namespace UnityEngine::Experimental::U2D {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int32 SpriteID
     // Size: 0x4

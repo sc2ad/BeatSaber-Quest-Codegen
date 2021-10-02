@@ -61,7 +61,7 @@ namespace System::Diagnostics {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String fileName
     // Size: 0x8

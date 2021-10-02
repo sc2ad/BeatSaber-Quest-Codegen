@@ -64,7 +64,7 @@ namespace System::Linq {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -203,7 +203,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Generic.IEnumerable`1<TElement> source
     // Size: 0x8

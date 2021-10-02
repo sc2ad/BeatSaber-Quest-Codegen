@@ -23,7 +23,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly NUnit.Framework.Constraints.ToleranceMode mode
     // Size: 0x4

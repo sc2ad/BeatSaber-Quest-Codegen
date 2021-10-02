@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [HeaderAttribute] Offset: 0xF10FE0
     // private UnityEngine.UI.Button _filterServersButton

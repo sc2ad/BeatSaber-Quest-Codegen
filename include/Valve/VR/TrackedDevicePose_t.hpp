@@ -26,7 +26,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30

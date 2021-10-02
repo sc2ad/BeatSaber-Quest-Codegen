@@ -24,7 +24,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IntPtr m_Ptr
     // Size: 0x8

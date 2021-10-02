@@ -29,7 +29,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Security.Cryptography.Oid _oid
     // Size: 0x8

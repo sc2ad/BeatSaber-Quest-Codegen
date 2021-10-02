@@ -35,7 +35,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Unity.Jobs.JobHandle cullingJobsFence
     // Size: 0xC

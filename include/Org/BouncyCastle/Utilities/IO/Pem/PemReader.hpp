@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.IO.TextReader reader
     // Size: 0x8

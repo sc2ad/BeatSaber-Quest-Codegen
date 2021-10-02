@@ -25,7 +25,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Vector3 <IKOffset>k__BackingField
     // Size: 0xC

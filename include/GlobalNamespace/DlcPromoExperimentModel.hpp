@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF015D4
     // private readonly AdditionalContentModel _additionalContentModel

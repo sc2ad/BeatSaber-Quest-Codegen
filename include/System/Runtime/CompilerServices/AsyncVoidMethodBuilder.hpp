@@ -49,7 +49,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Threading.SynchronizationContext m_synchronizationContext
     // Size: 0x8

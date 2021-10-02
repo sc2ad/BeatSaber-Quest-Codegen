@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NullAllowed] Offset: 0xEC9960
     // private UnityEngine.ParticleSystem[] _particleSystems

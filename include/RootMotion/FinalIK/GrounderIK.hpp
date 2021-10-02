@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public RootMotion.FinalIK.IK[] legs
     // Size: 0x8

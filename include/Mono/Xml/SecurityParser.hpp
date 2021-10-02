@@ -39,7 +39,7 @@ namespace Mono::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.SecurityElement root
     // Size: 0x8

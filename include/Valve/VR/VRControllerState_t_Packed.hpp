@@ -29,7 +29,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.UInt32 unPacketNum
     // Size: 0x4

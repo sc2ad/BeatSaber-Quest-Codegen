@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private MissionDataSO _missionDataSO
     // Size: 0x8

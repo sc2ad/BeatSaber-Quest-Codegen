@@ -42,7 +42,7 @@ namespace System::Resources {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Resources.IResourceReader Reader
     // Size: 0x8

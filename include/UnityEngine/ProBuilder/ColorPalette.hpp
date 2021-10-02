@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Color <current>k__BackingField
     // Size: 0x10

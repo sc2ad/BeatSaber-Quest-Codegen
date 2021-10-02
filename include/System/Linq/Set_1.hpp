@@ -47,7 +47,7 @@ namespace System::Linq {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.Int32 hashCode
       // Size: 0x4
@@ -101,7 +101,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32[] buckets
     // Size: 0x8

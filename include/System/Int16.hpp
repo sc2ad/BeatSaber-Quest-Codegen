@@ -53,7 +53,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int16 m_value
     // Size: 0x2

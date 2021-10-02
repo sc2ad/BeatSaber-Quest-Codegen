@@ -45,7 +45,7 @@ namespace System::Net::Sockets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.Sockets.Socket m_StreamSocket
     // Size: 0x8

@@ -23,7 +23,7 @@ namespace NUnit::Framework::Internal::Commands {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     // Size: 0x8

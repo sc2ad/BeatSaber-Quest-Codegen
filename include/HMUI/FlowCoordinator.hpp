@@ -74,7 +74,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xEE24F0
     // private readonly UnityEngine.EventSystems.BaseInputModule _baseInputModule

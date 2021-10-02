@@ -32,7 +32,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ProBuilder.KdTree.ITypeMath`1<TPriority> priorityMath
     // Size: 0x8

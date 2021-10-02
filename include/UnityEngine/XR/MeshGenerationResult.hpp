@@ -39,7 +39,7 @@ namespace UnityEngine::XR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE99AC0
     // private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField

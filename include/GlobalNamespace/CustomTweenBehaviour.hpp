@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NullAllowed] Offset: 0xF14380
     // public UnityEngine.Transform[] _transforms

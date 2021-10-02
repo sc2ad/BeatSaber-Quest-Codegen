@@ -134,7 +134,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`1<System.String> callback
       // Size: 0x8
@@ -187,7 +187,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`2<System.String,T0> callback
       // Size: 0x8
@@ -240,7 +240,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`3<System.String,T0,T1> callback
       // Size: 0x8
@@ -293,7 +293,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`4<System.String,T0,T1,T2> callback
       // Size: 0x8
@@ -346,7 +346,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`5<System.String,T0,T1,T2,T3> callback
       // Size: 0x8
@@ -399,7 +399,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`2<System.String,System.Single> callback
       // Size: 0x8
@@ -452,7 +452,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`3<System.String,System.Single,T0> callback
       // Size: 0x8
@@ -505,7 +505,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`4<System.String,System.Single,T0,T1> callback
       // Size: 0x8
@@ -558,7 +558,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`5<System.String,System.Single,T0,T1,T2> callback
       // Size: 0x8
@@ -611,7 +611,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`6<System.String,System.Single,T0,T1,T2,T3> callback
       // Size: 0x8
@@ -664,7 +664,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public RpcHandler`1<TType> <>4__this
       // Size: 0x8
@@ -727,7 +727,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public IConnectedPlayer player
       // Size: 0x8
@@ -792,7 +792,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8

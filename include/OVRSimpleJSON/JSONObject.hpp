@@ -51,7 +51,7 @@ namespace OVRSimpleJSON {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
     // Size: 0x8

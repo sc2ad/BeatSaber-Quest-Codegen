@@ -49,7 +49,7 @@ namespace Tweening {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
     // Size: 0x8

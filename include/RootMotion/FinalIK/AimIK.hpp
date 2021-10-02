@@ -36,7 +36,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public RootMotion.FinalIK.IKSolverAim solver
     // Size: 0x8

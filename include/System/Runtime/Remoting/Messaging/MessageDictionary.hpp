@@ -47,7 +47,7 @@ namespace System::Runtime::Remoting::Messaging {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.IDictionary _internalProperties
     // Size: 0x8

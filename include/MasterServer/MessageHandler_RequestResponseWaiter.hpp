@@ -49,7 +49,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Threading.Tasks.TaskCompletionSource`1<MasterServer.IMasterServerMessage> _taskCompletionSource
     // Size: 0x8

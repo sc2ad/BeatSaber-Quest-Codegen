@@ -27,7 +27,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Zenject.SignalDefaultSyncModes _defaultSyncMode
     // Size: 0x4

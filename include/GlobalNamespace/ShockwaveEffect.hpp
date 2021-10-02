@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ParticleSystem _shockwavePS
     // Size: 0x8

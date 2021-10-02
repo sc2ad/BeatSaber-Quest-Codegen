@@ -26,7 +26,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Single m_red
     // Size: 0x4

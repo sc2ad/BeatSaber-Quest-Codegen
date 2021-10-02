@@ -28,7 +28,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification CreateNotification
     // Size: 0x8

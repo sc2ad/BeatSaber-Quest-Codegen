@@ -32,7 +32,7 @@ namespace System::Security::Principal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Principal.IIdentity m_identity
     // Size: 0x8

@@ -74,7 +74,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.LinkedList`1<T> _list
       // Size: 0x8
@@ -231,7 +231,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Generic.LinkedListNode`1<T> head
     // Size: 0x8

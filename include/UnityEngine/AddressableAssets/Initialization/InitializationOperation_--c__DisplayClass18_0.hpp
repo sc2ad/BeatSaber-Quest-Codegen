@@ -50,7 +50,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.AddressableAssets.Initialization.InitializationOperation <>4__this
     // Size: 0x8

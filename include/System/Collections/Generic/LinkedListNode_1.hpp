@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Generic.LinkedList`1<T> list
     // Size: 0x8

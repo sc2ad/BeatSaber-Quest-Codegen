@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
     // Size: 0x8

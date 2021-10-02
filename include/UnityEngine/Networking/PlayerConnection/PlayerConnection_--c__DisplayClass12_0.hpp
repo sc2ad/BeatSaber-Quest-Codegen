@@ -28,7 +28,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Guid messageId
     // Size: 0x10

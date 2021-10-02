@@ -42,7 +42,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     // Size: 0x8

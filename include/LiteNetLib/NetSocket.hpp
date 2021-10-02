@@ -52,7 +52,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.Sockets.Socket _udpSocketv4
     // Size: 0x8

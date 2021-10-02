@@ -25,7 +25,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SerializeField] Offset: 0xE758B0
     // private System.Single m_Weight0

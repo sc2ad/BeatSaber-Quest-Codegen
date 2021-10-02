@@ -60,7 +60,7 @@ namespace System::Runtime::Remoting {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Type _objectType
     // Size: 0x8

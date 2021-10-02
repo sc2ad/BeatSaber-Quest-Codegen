@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF01574
     // private readonly IDestinationRequestManager _destinationRequestManager

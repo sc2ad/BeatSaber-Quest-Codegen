@@ -37,7 +37,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Type declaring_type
     // Size: 0x8

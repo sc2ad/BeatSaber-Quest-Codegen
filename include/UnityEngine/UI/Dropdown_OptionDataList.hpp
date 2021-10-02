@@ -31,7 +31,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
     // Size: 0x8

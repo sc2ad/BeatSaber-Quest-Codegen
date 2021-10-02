@@ -38,7 +38,7 @@ namespace UnityEngine::TestTools {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     // Size: 0x8

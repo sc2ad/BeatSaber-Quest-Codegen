@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8

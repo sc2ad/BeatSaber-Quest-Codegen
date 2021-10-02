@@ -29,7 +29,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
     // Size: 0x8

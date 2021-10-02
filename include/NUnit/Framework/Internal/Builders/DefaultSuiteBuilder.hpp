@@ -49,7 +49,7 @@ namespace NUnit::Framework::Internal::Builders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
     // Size: 0x8

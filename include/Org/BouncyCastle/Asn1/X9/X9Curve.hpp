@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     // Size: 0x8

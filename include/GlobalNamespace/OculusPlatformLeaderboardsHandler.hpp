@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
     // Size: 0x8

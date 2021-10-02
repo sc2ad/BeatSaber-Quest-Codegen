@@ -43,7 +43,7 @@ namespace UnityEngine::ResourceManagement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency> m_DepOp
     // Size: 0xFFFFFFFF

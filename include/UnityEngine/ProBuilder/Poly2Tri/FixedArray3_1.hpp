@@ -49,7 +49,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -206,7 +206,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public T _0
     // Size: 0xFFFFFFFF

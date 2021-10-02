@@ -36,7 +36,7 @@ namespace Mono::Net::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int32 <>1__state
     // Size: 0x4

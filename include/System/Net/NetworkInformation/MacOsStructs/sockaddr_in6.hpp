@@ -22,7 +22,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Byte sin6_len
     // Size: 0x1

@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
     // Size: 0x8

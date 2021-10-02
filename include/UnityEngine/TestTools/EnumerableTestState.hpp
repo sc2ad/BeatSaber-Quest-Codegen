@@ -23,7 +23,7 @@ namespace UnityEngine::TestTools {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int32 Repeat
     // Size: 0x4

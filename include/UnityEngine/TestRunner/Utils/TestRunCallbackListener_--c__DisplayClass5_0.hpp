@@ -36,7 +36,7 @@ namespace UnityEngine::TestRunner::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public NUnit.Framework.Interfaces.ITest test
     // Size: 0x8

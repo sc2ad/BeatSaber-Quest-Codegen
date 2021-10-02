@@ -65,7 +65,7 @@ namespace System::Runtime::Remoting::Proxies {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Type class_to_proxy
     // Size: 0x8

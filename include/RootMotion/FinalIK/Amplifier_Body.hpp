@@ -40,7 +40,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF6E7C
     // public UnityEngine.Transform transform

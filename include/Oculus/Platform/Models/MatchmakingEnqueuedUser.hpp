@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
     // Size: 0x8

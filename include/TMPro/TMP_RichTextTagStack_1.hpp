@@ -27,7 +27,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public T[] m_ItemStack
     // Size: 0x8

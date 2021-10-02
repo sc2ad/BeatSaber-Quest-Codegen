@@ -35,7 +35,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly UnityEngine.AndroidJavaClass javaInterface
     // Size: 0x8

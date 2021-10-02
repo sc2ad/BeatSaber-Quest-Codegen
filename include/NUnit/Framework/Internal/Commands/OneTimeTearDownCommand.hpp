@@ -49,7 +49,7 @@ namespace NUnit::Framework::Internal::Commands {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems
     // Size: 0x8

@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
     // Size: 0x8

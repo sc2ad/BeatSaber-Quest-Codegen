@@ -32,7 +32,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Zenject.IProvider _provider
     // Size: 0x8

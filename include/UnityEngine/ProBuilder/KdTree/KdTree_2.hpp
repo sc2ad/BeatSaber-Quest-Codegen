@@ -80,7 +80,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Collections.Generic.Stack`1<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>> left
       // Size: 0x8
@@ -150,7 +150,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -293,7 +293,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 dimensions
     // Size: 0x4

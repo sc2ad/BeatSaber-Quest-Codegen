@@ -34,7 +34,7 @@ namespace Mono::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.String> attrNames
     // Size: 0x8

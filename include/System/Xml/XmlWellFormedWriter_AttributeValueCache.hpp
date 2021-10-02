@@ -42,7 +42,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Text.StringBuilder stringValue
     // Size: 0x8

@@ -23,7 +23,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean _ignoreCase
     // Size: 0x1

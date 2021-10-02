@@ -69,7 +69,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVR.OpenVR.VREvent_Reserved_t reserved
     // Size: 0x20

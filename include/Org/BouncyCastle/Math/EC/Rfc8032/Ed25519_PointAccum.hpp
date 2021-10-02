@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32[] x
     // Size: 0x8

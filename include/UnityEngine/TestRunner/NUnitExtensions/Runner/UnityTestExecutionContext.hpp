@@ -83,7 +83,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
     // Size: 0x8

@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Byte n
     // Size: 0x1

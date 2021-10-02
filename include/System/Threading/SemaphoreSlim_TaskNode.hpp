@@ -31,7 +31,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
     // Size: 0x8

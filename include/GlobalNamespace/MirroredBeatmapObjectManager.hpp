@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8

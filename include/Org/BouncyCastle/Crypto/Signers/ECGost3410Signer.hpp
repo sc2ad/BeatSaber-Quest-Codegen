@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
     // Size: 0x8

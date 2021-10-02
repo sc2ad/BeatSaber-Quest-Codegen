@@ -32,7 +32,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _primaryTriangle
     // Size: 0x8

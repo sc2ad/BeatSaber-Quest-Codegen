@@ -42,7 +42,7 @@ namespace UnityEngine::AddressableAssets::Utility {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     // Size: 0x8

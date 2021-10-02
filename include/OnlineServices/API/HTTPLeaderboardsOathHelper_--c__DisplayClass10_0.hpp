@@ -31,7 +31,7 @@ namespace OnlineServices::API {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Networking.UnityWebRequest webRequest
     // Size: 0x8

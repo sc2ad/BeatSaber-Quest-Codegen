@@ -21,7 +21,7 @@ namespace Assets::OVR::Scripts {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String category
     // Size: 0x8

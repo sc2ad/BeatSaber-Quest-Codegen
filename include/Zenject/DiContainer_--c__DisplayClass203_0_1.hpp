@@ -36,7 +36,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public TContract instance
     // Size: 0xFFFFFFFF

@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF0361C
     // private readonly PlatformNetworkPlayerModel _platformNetworkPlayerModel

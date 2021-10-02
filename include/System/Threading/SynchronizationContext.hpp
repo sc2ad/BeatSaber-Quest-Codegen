@@ -35,7 +35,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Threading.SynchronizationContextProperties _props
     // Size: 0x4

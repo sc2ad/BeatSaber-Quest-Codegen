@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapDataStrobeFilterTransform/StrobeStreakData> strobesDictionary
     // Size: 0x8

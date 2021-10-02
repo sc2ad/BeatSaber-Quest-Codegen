@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectOptionalAttribute] Offset: 0xEFFD8C
     // private OculusDeeplinkManager _oculusDeeplinkManager

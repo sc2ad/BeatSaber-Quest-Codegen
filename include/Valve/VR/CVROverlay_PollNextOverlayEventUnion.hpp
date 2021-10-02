@@ -23,7 +23,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent pPollNextOverlayEvent
     // Size: 0x8

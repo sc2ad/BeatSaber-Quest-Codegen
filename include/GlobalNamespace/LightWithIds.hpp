@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xEDEE20
     // private readonly LightWithIdManager _lightManager

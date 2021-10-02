@@ -50,7 +50,7 @@ namespace System::Collections::Specialized {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode head
     // Size: 0x8

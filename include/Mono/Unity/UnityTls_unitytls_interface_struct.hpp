@@ -91,7 +91,7 @@ namespace Mono::Unity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
     // Size: 0x8

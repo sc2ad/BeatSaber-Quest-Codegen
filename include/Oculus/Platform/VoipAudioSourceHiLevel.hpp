@@ -39,7 +39,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 initialPlaybackDelayMS
     // Size: 0x4

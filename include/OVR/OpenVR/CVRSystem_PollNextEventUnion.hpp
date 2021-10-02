@@ -23,7 +23,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent pPollNextEvent
     // Size: 0x8

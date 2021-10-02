@@ -35,7 +35,7 @@ namespace NUnit::Framework {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
     // Size: 0x8

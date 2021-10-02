@@ -34,7 +34,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.InteropServices.GCHandle handle
     // Size: 0x4

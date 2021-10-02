@@ -77,7 +77,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinder`2<TParam1,TContract> <>4__this
       // Size: 0x8
@@ -153,7 +153,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinder`2<TParam1,TContract> <>4__this
       // Size: 0x8
@@ -229,7 +229,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinder`2<TParam1,TContract> <>4__this
       // Size: 0x8
@@ -319,7 +319,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactorySubContainerBinder`2<TParam1,TContract> <>4__this
       // Size: 0x8

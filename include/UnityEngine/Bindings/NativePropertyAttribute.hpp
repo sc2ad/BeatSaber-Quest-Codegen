@@ -27,7 +27,7 @@ namespace UnityEngine::Bindings {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E240
     // private UnityEngine.Bindings.TargetType <TargetType>k__BackingField

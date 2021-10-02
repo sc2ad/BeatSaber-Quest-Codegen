@@ -28,7 +28,7 @@ namespace JetBrains::Annotations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE74E74
     // private readonly JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField

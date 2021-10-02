@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private MainEffectContainerSO _mainEffectContainer
     // Size: 0x8

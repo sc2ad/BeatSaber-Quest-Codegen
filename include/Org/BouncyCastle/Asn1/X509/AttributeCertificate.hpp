@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
     // Size: 0x8

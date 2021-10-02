@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private IBeatmapLevelPack[] _beatmapLevelPacks
     // Size: 0x8

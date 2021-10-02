@@ -24,7 +24,7 @@ namespace Mono::Unity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt32 magic
     // Size: 0x4

@@ -30,7 +30,7 @@ namespace System::Runtime::Remoting::Channels {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Byte[] arrResponse
     // Size: 0x8

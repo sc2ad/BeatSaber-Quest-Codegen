@@ -27,7 +27,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.AttributeTargets m_attributeTarget
     // Size: 0x4

@@ -37,7 +37,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String propertyName
     // Size: 0x8

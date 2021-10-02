@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TextFadeTransitions _textFadeTransitions
     // Size: 0x8

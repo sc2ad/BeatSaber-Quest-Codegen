@@ -39,7 +39,7 @@ namespace UnityEngine::ResourceManagement::Util {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 m_poolMaxSize
     // Size: 0x4

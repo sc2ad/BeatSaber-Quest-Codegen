@@ -25,7 +25,7 @@ namespace NUnit::Framework::Interfaces {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF840
     // private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField

@@ -42,7 +42,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
     // Size: 0x8

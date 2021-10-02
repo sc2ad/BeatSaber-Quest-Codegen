@@ -32,7 +32,7 @@ namespace System::Security::Util {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IO.StreamReader _in
     // Size: 0x8

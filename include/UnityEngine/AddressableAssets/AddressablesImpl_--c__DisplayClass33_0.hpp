@@ -27,7 +27,7 @@ namespace UnityEngine::AddressableAssets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
     // Size: 0xFFFFFFFF

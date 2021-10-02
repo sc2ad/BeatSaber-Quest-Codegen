@@ -45,7 +45,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public T1 Item1
     // Size: 0xFFFFFFFF

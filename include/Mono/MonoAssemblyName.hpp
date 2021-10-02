@@ -33,7 +33,7 @@ namespace Mono {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Byte FixedElementField
       // Size: 0x1
@@ -61,7 +61,7 @@ namespace Mono {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IntPtr name
     // Size: 0x8

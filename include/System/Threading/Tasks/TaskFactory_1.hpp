@@ -81,7 +81,7 @@ namespace System::Threading::Tasks {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private TInstance m_thisRef
       // Size: 0xFFFFFFFF
@@ -168,7 +168,7 @@ namespace System::Threading::Tasks {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`2<System.IAsyncResult,TResult> endFunction
       // Size: 0x8
@@ -244,7 +244,7 @@ namespace System::Threading::Tasks {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Threading.AtomicBoolean invoked
       // Size: 0x8
@@ -297,7 +297,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Threading.CancellationToken m_defaultCancellationToken
     // Size: 0x8

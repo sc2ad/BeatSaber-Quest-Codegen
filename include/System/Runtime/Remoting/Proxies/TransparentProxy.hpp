@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting::Proxies {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Runtime.Remoting.Proxies.RealProxy _rp
     // Size: 0x8

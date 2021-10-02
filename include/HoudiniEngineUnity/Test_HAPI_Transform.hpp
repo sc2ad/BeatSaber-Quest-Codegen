@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HoudiniEngineUnity.HAPI_Transform self
     // Size: 0x24

@@ -118,7 +118,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRSystem/Valve.VR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
     // Size: 0x8

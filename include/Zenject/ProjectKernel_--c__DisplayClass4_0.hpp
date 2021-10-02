@@ -45,7 +45,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
     // Size: 0x8

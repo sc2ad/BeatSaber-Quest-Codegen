@@ -61,7 +61,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers> messageTypeSubscribers
     // Size: 0x8

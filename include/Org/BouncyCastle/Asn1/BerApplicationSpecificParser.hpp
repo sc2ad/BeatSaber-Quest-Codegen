@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 tag
     // Size: 0x4

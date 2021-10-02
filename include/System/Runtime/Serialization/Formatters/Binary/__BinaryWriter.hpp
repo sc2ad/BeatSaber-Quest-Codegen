@@ -86,7 +86,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IO.Stream sout
     // Size: 0x8

@@ -23,7 +23,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Object m_additionalContext
     // Size: 0x8

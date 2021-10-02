@@ -97,7 +97,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.Boolean isError
       // Size: 0x1
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
         #ifdef USE_CODEGEN_FIELDS
         public:
         #else
-        private:
+        protected:
         #endif
         // public System.Int32 value__
         // Size: 0x4
@@ -195,7 +195,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.String levelID
       // Size: 0x8
@@ -246,7 +246,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private BeatmapLevelPackCollectionContainerSO _dlcLevelPackCollectionContainer
     // Size: 0x8

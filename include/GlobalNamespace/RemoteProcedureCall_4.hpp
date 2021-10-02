@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private RemoteProcedureCall/TypeWrapper`1<T0> _value0
     // Size: 0xFFFFFFFF

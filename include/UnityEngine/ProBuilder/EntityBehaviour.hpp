@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xF2603C
     // public System.Boolean manageVisibility

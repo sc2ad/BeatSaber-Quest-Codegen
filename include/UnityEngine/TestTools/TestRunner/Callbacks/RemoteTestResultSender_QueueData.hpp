@@ -26,7 +26,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Guid <id>k__BackingField
     // Size: 0x10

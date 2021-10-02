@@ -45,7 +45,7 @@ namespace System::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode head
     // Size: 0x8

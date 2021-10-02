@@ -42,7 +42,7 @@ namespace System::Net::Http {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.IO.Stream content
     // Size: 0x8

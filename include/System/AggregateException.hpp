@@ -52,7 +52,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> m_innerExceptions
     // Size: 0x8

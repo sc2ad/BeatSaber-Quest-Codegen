@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly Org.BouncyCastle.Asn1.DerInteger version
     // Size: 0x8

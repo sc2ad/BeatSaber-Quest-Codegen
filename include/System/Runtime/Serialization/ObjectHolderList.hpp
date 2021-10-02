@@ -31,7 +31,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.Serialization.ObjectHolder[] m_values
     // Size: 0x8

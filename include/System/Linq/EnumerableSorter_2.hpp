@@ -38,7 +38,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Func`2<TElement,TKey> keySelector
     // Size: 0x8

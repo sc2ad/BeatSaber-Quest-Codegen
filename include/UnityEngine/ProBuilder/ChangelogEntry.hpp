@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ProBuilder.SemVer m_VersionInfo
     // Size: 0x8

@@ -41,7 +41,7 @@ namespace Polyglot {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEE53C0
     // private UnityEngine.TextMesh text

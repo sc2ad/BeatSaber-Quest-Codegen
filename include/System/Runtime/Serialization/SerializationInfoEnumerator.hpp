@@ -37,7 +37,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String[] m_members
     // Size: 0x8

@@ -28,7 +28,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Char* charStart
     // Size: 0x8

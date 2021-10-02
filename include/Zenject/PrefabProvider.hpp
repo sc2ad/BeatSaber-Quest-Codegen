@@ -31,7 +31,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnityEngine.Object _prefab
     // Size: 0x8

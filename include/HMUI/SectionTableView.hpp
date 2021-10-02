@@ -53,7 +53,7 @@ namespace HMUI {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Boolean unfolded
       // Size: 0x1
@@ -95,7 +95,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean _unfoldSectionsByDefault
     // Size: 0x1

@@ -33,7 +33,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Size: 0x8

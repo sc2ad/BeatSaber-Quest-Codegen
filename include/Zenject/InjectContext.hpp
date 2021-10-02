@@ -52,7 +52,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Zenject.BindingId _bindingId
     // Size: 0x10

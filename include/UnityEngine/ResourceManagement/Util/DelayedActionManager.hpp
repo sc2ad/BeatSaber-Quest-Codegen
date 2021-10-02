@@ -59,7 +59,7 @@ namespace UnityEngine::ResourceManagement::Util {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 m_Id
       // Size: 0x4
@@ -130,7 +130,7 @@ namespace UnityEngine::ResourceManagement::Util {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
     // Size: 0x8

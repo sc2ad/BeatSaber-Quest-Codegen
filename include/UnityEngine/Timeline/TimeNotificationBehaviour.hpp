@@ -66,7 +66,7 @@ namespace UnityEngine::Timeline {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Double time
       // Size: 0x8
@@ -125,7 +125,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> m_Notifications
     // Size: 0x8

@@ -23,7 +23,7 @@ namespace OVRSimpleJSON {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
     // Size: 0xFFFFFFFF

@@ -31,7 +31,7 @@ namespace UnityEngine {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -143,7 +143,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.GUILayoutOption/UnityEngine.Type type
     // Size: 0x4

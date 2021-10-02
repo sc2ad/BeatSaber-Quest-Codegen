@@ -28,7 +28,7 @@ namespace System::Runtime::ExceptionServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Exception m_Exception
     // Size: 0x8

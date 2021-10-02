@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnifiedNetworkPlayerModel _playerModel
     // Size: 0x8

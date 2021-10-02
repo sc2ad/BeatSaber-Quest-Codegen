@@ -30,7 +30,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE770E8
     // private System.Boolean <disposed>k__BackingField

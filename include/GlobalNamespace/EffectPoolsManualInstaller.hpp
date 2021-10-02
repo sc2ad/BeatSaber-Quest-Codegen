@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private FlyingTextEffect _flyingTextEffectPrefab
     // Size: 0x8

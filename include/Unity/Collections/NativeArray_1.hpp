@@ -63,7 +63,7 @@ namespace Unity::Collections {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private Unity.Collections.NativeArray`1<T> m_Array
       // Size: 0xFFFFFFFF
@@ -149,7 +149,7 @@ namespace Unity::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0xE74E64
     // System.Void* m_Buffer

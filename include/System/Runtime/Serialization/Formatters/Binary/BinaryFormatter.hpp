@@ -70,7 +70,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.Serialization.ISurrogateSelector m_surrogates
     // Size: 0x8

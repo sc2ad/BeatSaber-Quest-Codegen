@@ -37,7 +37,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Cryptography.ICryptoTransform m_encryptor
     // Size: 0x8

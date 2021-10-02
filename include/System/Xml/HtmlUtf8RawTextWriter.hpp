@@ -47,7 +47,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Xml.ByteStack elementScope
     // Size: 0x8

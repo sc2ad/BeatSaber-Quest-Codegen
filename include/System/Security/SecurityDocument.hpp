@@ -29,7 +29,7 @@ namespace System::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Byte[] m_data
     // Size: 0x8

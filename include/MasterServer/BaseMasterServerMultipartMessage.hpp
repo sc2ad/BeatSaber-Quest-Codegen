@@ -37,7 +37,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt32 <multipartMessageId>k__BackingField
     // Size: 0x4

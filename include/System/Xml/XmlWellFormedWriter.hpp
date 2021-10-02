@@ -87,7 +87,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -320,7 +320,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.Int32 prevNSTop
       // Size: 0x4
@@ -403,7 +403,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -462,7 +462,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.String prefix
       // Size: 0x8
@@ -523,7 +523,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.String prefix
       // Size: 0x8
@@ -583,7 +583,7 @@ namespace System::Xml {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -641,7 +641,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Xml.XmlWriter writer
     // Size: 0x8

@@ -37,7 +37,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly System.Threading.CancellationToken Token
     // Size: 0x8

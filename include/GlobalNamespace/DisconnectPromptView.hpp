@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8

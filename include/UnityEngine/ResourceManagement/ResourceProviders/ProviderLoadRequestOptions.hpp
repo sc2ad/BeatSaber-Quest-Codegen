@@ -21,7 +21,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean m_IgnoreFailures
     // Size: 0x1

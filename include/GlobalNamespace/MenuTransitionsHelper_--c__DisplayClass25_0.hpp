@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public MenuTransitionsHelper <>4__this
     // Size: 0x8

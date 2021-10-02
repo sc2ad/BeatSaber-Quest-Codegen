@@ -36,7 +36,7 @@ namespace UnityEngine::Events {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly T m_Arg1
     // Size: 0xFFFFFFFF

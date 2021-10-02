@@ -92,7 +92,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.RuntimeTypeHandle _impl
     // Size: 0x8

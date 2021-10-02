@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.HashSet`1<System.Int32> appended
     // Size: 0x8

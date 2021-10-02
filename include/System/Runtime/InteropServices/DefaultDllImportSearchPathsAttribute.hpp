@@ -27,7 +27,7 @@ namespace System::Runtime::InteropServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.InteropServices.DllImportSearchPath _paths
     // Size: 0x4

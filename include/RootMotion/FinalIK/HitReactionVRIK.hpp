@@ -45,7 +45,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.AnimationCurve[] offsetCurves
     // Size: 0x8

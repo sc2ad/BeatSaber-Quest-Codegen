@@ -41,7 +41,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.LinkedList`1<System.Action`1<A>> delegates
     // Size: 0x8

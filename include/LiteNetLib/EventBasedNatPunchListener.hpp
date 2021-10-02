@@ -39,7 +39,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
     // Size: 0x8

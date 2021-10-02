@@ -49,7 +49,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Boolean m_ShouldRecalculateStencil
     // Size: 0x1

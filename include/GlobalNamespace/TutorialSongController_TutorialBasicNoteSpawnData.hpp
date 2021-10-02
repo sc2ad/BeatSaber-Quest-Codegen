@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly NoteCutDirection cutDirection
     // Size: 0x4

@@ -25,7 +25,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     // Size: 0x1

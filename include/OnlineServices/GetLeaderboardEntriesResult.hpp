@@ -28,7 +28,7 @@ namespace OnlineServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Boolean isError
     // Size: 0x1

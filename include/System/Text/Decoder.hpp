@@ -37,7 +37,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Text.DecoderFallback m_fallback
     // Size: 0x8

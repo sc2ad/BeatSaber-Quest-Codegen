@@ -48,7 +48,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly System.Boolean _isRead
     // Size: 0x1

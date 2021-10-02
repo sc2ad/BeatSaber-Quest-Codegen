@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData
     // Size: 0x8

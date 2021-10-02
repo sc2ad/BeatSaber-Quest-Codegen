@@ -25,7 +25,7 @@ namespace System::ComponentModel::Design::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean reloadable
     // Size: 0x1

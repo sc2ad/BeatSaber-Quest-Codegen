@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Asn1.Asn1Set sData
     // Size: 0x8

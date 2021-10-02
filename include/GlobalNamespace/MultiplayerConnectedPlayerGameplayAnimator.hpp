@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SpaceAttribute] Offset: 0xF08568
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator

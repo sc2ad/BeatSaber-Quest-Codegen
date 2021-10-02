@@ -23,7 +23,7 @@ namespace UnityEngine::TestTools::Logging {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String <Message>k__BackingField
     // Size: 0x8

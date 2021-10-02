@@ -25,7 +25,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
     // Size: 0x8

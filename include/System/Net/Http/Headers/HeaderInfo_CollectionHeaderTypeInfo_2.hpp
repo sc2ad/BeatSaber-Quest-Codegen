@@ -33,7 +33,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 minimalCount
     // Size: 0x4

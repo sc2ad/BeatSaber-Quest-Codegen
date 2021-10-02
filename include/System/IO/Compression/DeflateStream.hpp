@@ -49,7 +49,7 @@ namespace System::IO::Compression {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.Stream base_stream
     // Size: 0x8

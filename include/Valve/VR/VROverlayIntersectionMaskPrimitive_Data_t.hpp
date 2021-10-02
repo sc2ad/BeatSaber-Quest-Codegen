@@ -22,7 +22,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.IntersectionMaskRectangle_t m_Rectangle
     // Size: 0x10

@@ -54,7 +54,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_UnicodeLookup
     // Size: 0x8

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8

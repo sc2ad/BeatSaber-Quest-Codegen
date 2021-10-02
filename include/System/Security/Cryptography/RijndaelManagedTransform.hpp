@@ -31,7 +31,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Cryptography.CipherMode m_cipherMode
     // Size: 0x4

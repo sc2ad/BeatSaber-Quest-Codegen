@@ -25,7 +25,7 @@ namespace System::Runtime::Remoting::Metadata {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean _useAttribute
     // Size: 0x1

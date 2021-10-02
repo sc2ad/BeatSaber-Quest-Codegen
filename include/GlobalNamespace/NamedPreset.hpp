@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [LocalizationKeyAttribute] Offset: 0xF029F4
     // private System.String _presetNameLocalizationKey

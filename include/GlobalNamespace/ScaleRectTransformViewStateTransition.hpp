@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SpaceAttribute] Offset: 0xF0D534
     // private Vector3TransitionSO _transition

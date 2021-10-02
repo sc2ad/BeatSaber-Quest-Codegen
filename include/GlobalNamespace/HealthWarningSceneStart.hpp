@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HealthWarningFlowCoordinator _healthWarninglowCoordinator
     // Size: 0x8

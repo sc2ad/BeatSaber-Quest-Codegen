@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private ConnectedPlayerManager _connectedPlayerManager
     // Size: 0x8

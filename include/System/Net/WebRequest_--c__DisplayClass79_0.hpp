@@ -42,7 +42,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Security.Principal.WindowsIdentity currentUser
     // Size: 0x8

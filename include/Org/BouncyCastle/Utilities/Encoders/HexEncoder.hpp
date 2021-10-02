@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly System.Byte[] encodingTable
     // Size: 0x8

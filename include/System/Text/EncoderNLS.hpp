@@ -40,7 +40,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Char charLeftOver
     // Size: 0x2

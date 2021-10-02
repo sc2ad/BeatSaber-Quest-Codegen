@@ -19,7 +19,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.UInt32 ascii_Left
     // Size: 0x4

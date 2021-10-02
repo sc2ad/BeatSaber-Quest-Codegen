@@ -68,7 +68,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected PeerConnectedEvent
     // Size: 0x8

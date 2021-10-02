@@ -25,7 +25,7 @@ namespace UnityEngine::Animations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt32 m_AnimatorBindingsVersion
     // Size: 0x4

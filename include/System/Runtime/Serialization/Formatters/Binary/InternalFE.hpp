@@ -29,7 +29,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     // Size: 0x4

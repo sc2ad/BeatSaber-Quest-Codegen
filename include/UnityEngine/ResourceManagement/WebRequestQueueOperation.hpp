@@ -36,7 +36,7 @@ namespace UnityEngine::ResourceManagement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
     // Size: 0x8

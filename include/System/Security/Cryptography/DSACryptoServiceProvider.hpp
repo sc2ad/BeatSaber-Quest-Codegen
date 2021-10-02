@@ -44,7 +44,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Mono.Security.Cryptography.KeyPairPersistence store
     // Size: 0x8

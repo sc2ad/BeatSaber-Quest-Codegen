@@ -63,7 +63,7 @@ namespace NUnit::Framework::Api {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     // Size: 0x8

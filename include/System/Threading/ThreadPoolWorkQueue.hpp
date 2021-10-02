@@ -37,7 +37,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
     // Size: 0x8

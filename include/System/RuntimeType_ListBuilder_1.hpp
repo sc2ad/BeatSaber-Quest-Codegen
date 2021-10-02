@@ -30,7 +30,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private T[] _items
     // Size: 0x8

@@ -56,7 +56,7 @@ namespace UnityEngine::Events {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Events.InvokableCallList m_Calls
     // Size: 0x8

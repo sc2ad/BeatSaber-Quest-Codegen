@@ -35,7 +35,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
     // Size: 0x8

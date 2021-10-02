@@ -54,7 +54,7 @@ namespace UnityEngine::TestTools::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean m_Running
     // Size: 0x1

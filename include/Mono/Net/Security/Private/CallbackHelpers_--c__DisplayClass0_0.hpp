@@ -43,7 +43,7 @@ namespace Mono::Net::Security::Private {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Net.Security.RemoteCertificateValidationCallback callback
     // Size: 0x8

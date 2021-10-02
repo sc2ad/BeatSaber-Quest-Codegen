@@ -41,7 +41,7 @@ namespace Microsoft::Win32 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String Dir
     // Size: 0x8

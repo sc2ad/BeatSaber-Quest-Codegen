@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
     // Size: 0x8

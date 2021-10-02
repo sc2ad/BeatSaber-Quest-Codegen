@@ -23,7 +23,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Boolean StreamingEnabled
     // Size: 0x1

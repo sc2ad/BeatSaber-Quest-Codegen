@@ -46,7 +46,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
     // Size: 0x8

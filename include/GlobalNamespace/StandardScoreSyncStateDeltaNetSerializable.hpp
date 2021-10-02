@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private StandardScoreSyncState _delta
     // Size: 0x14

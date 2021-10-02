@@ -54,7 +54,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
     // Size: 0x8

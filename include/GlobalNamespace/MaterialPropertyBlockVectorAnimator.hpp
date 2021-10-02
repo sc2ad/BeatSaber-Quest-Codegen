@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SpaceAttribute] Offset: 0xEDFBB8
     // private UnityEngine.Vector4 _vector

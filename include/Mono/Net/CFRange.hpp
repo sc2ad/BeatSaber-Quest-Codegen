@@ -21,7 +21,7 @@ namespace Mono::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IntPtr Location
     // Size: 0x8

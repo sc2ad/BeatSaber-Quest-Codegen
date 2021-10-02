@@ -46,7 +46,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IO.MonoIOStat _data
     // Size: 0x28

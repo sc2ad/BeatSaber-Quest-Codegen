@@ -31,7 +31,7 @@ namespace System::Xml::Xsl::Runtime {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String s1
     // Size: 0x8

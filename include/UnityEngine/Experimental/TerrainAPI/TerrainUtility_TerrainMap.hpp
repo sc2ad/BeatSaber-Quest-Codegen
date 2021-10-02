@@ -61,7 +61,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.Int32 tileX
       // Size: 0x4
@@ -102,7 +102,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -154,7 +154,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Vector3 m_patchSize
     // Size: 0xC

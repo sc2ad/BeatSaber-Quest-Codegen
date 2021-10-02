@@ -52,7 +52,7 @@ namespace RootMotion {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -104,7 +104,7 @@ namespace RootMotion {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF1338
     // [RangeAttribute] Offset: 0xEF1338

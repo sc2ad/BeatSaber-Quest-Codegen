@@ -36,7 +36,7 @@ namespace UnityEngine::Events {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76774
     // private UnityEngine.Events.UnityAction Delegate

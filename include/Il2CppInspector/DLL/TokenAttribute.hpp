@@ -21,7 +21,7 @@ namespace Il2CppInspector::DLL {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String Token
     // Size: 0x8

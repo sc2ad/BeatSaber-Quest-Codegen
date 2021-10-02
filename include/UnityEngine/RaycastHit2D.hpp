@@ -32,7 +32,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xE95B70
     // private UnityEngine.Vector2 m_Centroid

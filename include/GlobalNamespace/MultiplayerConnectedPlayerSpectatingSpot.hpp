@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF0A3C4
     // private readonly IConnectedPlayer _connectedPlayer

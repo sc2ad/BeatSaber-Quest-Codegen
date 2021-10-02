@@ -35,7 +35,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected TMPro.TextMeshProUGUI _text
     // Size: 0x8

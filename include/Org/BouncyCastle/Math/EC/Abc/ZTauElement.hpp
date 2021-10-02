@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly Org.BouncyCastle.Math.BigInteger u
     // Size: 0x8

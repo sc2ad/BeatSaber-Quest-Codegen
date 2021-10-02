@@ -19,7 +19,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Single m_flTopLeftX
     // Size: 0x4

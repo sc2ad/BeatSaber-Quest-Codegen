@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 counterStart
     // Size: 0x4

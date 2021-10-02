@@ -105,7 +105,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly MasterServerEndPoint _endPoint
     // Size: 0x8

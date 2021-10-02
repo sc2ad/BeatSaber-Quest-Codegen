@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Crypto.Modes.SicBlockCipher cipher
     // Size: 0x8

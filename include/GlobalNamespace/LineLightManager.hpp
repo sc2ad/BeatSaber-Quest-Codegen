@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnityEngine.Vector4[] _points
     // Size: 0x8

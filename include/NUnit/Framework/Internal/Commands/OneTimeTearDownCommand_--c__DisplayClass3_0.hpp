@@ -31,7 +31,7 @@ namespace NUnit::Framework::Internal::Commands {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IDisposable disposable
     // Size: 0x8

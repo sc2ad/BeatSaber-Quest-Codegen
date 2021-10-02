@@ -62,7 +62,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.String <text>k__BackingField
       // Size: 0x8
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.TextSegmentedControl _statsScopeSegmentedControl
     // Size: 0x8

@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     // Size: 0x8

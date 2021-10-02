@@ -32,7 +32,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.KeyCode _keyCode
     // Size: 0x4

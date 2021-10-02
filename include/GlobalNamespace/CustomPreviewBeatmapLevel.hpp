@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private StandardLevelInfoSaveData _standardLevelInfoSaveData
     // Size: 0x8

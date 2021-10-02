@@ -32,7 +32,7 @@ namespace System::Runtime::InteropServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Type _val
     // Size: 0x8

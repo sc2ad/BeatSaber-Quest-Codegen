@@ -41,7 +41,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Net.Http.Headers.TryParseDelegate`1<T> parser
     // Size: 0x8

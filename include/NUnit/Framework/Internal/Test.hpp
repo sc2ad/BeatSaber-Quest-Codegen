@@ -59,7 +59,7 @@ namespace NUnit::Framework::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Reflection.MethodInfo[] setUpMethods
     // Size: 0x8

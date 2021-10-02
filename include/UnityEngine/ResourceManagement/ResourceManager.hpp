@@ -145,7 +145,7 @@ namespace UnityEngine::ResourceManagement {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -216,7 +216,7 @@ namespace UnityEngine::ResourceManagement {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
       // Size: 0x18
@@ -301,7 +301,7 @@ namespace UnityEngine::ResourceManagement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Boolean postProfilerEvents
     // Size: 0x1

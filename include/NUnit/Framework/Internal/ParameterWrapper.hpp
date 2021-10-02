@@ -41,7 +41,7 @@ namespace NUnit::Framework::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEED00
     // private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField

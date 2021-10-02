@@ -50,7 +50,7 @@ namespace System::Collections::ObjectModel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IList`1<T> items
     // Size: 0x8

@@ -33,7 +33,7 @@ namespace System::Net::Mail {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String address
     // Size: 0x8

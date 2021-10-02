@@ -85,7 +85,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Zenject.BindInfo _bindInfo
     // Size: 0x8

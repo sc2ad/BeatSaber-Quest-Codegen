@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF07C60
     // private readonly PauseMenuManager _pauseMenuManager

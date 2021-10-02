@@ -118,7 +118,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
     // Size: 0x8

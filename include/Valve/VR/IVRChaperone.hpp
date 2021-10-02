@@ -40,7 +40,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
     // Size: 0x8

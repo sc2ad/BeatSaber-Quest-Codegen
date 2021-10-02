@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private AveragingValueRecorder _averagingValueRecorer
     // Size: 0x8

@@ -37,7 +37,7 @@ namespace System::Runtime::Remoting {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink _next
     // Size: 0x8

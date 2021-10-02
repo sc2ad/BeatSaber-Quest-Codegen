@@ -21,7 +21,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30

@@ -24,7 +24,7 @@ namespace Mono::Globalization::Unicode {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Globalization.CompareOptions Option
     // Size: 0x4

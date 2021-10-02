@@ -50,7 +50,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Zenject.ProjectKernel _projectKernel
     // Size: 0x8

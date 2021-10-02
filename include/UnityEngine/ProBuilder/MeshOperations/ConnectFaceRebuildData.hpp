@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
     // Size: 0x8

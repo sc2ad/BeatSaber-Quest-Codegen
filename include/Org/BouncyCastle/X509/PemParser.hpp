@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.String _header1
     // Size: 0x8

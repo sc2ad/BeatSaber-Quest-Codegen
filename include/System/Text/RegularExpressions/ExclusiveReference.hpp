@@ -28,7 +28,7 @@ namespace System::Text::RegularExpressions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Text.RegularExpressions.RegexRunner _ref
     // Size: 0x8

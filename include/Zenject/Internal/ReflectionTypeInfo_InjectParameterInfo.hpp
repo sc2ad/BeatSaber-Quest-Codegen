@@ -36,7 +36,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Reflection.ParameterInfo ParameterInfo
     // Size: 0x8

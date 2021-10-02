@@ -31,7 +31,7 @@ namespace Mono::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String contentType
     // Size: 0x8

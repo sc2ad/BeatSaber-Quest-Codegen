@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SpaceAttribute] Offset: 0xEEBC78
     // private System.Single _radius

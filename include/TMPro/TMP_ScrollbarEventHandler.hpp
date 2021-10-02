@@ -38,7 +38,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Boolean isSelected
     // Size: 0x1

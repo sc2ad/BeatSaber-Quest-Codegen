@@ -55,7 +55,7 @@ namespace System::Net {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Byte value__
       // Size: 0x1
@@ -131,7 +131,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String[] m_CommonHeaders
     // Size: 0x8

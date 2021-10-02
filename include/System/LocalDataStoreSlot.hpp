@@ -29,7 +29,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.LocalDataStoreMgr m_mgr
     // Size: 0x8

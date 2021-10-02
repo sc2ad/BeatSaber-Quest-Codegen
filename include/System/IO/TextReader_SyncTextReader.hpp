@@ -24,7 +24,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IO.TextReader _in
     // Size: 0x8

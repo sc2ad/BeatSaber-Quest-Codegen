@@ -52,7 +52,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -134,7 +134,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
     // Size: 0x8

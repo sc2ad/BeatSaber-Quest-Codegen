@@ -35,7 +35,7 @@ namespace UnityEngine::TestTools::TestRunner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.TestTools.Logging.LogEvent LogEvent
     // Size: 0x8

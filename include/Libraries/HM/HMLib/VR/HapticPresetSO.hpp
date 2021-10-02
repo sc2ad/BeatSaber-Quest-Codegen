@@ -23,7 +23,7 @@ namespace Libraries::HM::HMLib::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Single _duration
     // Size: 0x4

@@ -74,7 +74,7 @@ namespace OnlineServices::API {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF15474
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource

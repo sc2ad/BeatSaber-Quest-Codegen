@@ -29,7 +29,7 @@ namespace UnityEngine::U2D {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xE76250
     // private System.String m_Name

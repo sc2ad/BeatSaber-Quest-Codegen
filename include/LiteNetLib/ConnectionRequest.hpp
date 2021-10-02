@@ -47,7 +47,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly LiteNetLib.NetManager _listener
     // Size: 0x8

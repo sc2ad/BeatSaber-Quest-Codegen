@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] iv
     // Size: 0x8

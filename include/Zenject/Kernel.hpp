@@ -45,7 +45,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectLocalAttribute] Offset: 0xEC420C
     // private Zenject.TickableManager _tickableManager

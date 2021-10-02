@@ -44,7 +44,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [RangeAttribute] Offset: 0xEF31B4
     // public System.Int32 iterations

@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
     // Size: 0x8

@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected internal Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey
     // Size: 0x8

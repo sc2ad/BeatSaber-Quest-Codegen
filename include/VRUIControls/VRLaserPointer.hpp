@@ -33,7 +33,7 @@ namespace VRUIControls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.MeshRenderer _renderer
     // Size: 0x8

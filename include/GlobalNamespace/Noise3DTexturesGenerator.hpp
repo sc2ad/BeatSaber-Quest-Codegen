@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.String globalPropertyName
       // Size: 0x8
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.String texturePropertyName
       // Size: 0x8
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
     // Size: 0x8

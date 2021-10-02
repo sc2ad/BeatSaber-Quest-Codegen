@@ -46,7 +46,7 @@ namespace System::Net::Sockets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Threading.Thread> blocking_threads
     // Size: 0x8

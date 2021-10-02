@@ -30,7 +30,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xEA3A28
     // private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle

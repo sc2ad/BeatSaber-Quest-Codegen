@@ -49,7 +49,7 @@ namespace UnityEngine::AddressableAssets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.IEnumerable m_Key
     // Size: 0x8

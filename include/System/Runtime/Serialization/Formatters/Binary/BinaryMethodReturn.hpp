@@ -36,7 +36,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object returnValue
     // Size: 0x8

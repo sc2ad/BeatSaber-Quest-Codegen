@@ -22,7 +22,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IntPtr InternalLow
     // Size: 0x8

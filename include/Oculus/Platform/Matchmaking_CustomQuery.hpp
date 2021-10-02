@@ -50,7 +50,7 @@ namespace Oculus::Platform {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.String key
       // Size: 0x8
@@ -95,7 +95,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
     // Size: 0x8

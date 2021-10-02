@@ -27,7 +27,7 @@ namespace UnityEngine::XR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.String m_Name
     // Size: 0x8

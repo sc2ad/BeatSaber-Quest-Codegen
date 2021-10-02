@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm
     // Size: 0x8

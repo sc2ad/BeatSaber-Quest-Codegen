@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected MenuLightsPresetSO _defaultMenuLightsPreset
     // Size: 0x8

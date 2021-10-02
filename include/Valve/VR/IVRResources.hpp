@@ -28,7 +28,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
     // Size: 0x8

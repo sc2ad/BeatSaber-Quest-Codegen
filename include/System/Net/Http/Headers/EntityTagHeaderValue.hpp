@@ -38,7 +38,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean <IsWeak>k__BackingField
     // Size: 0x1

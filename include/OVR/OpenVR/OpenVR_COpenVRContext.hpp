@@ -54,7 +54,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private OVR.OpenVR.CVRSystem m_pVRSystem
     // Size: 0x8

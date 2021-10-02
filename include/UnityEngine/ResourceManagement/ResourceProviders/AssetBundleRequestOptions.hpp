@@ -35,7 +35,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEE5A7C
     // private System.String m_Hash

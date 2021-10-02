@@ -29,7 +29,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> m_currArrayFragment
     // Size: 0x8

@@ -29,7 +29,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Threading.ExecutionContext/System.Threading.Reader outerEC
     // Size: 0x8

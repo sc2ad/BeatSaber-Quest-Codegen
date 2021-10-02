@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.IDictionary extensions
     // Size: 0x8

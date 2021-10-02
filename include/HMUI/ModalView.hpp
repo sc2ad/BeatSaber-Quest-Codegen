@@ -57,7 +57,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.PanelAnimationSO _presentPanelAnimations
     // Size: 0x8

@@ -32,7 +32,7 @@ namespace System::Runtime::Remoting::Contexts {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Runtime.Remoting.Contexts.IDynamicProperty Property
     // Size: 0x8

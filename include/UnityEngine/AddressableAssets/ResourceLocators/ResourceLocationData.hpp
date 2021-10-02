@@ -31,7 +31,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEEC770
     // private System.String[] m_Keys

@@ -32,7 +32,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [RangeAttribute] Offset: 0xEBA318
     // public System.Single volume

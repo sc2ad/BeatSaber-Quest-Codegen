@@ -30,7 +30,7 @@ namespace NUnit::Framework::Internal::Filters {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF6D8
     // private System.String <ExpectedValue>k__BackingField

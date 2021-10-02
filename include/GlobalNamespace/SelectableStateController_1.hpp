@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected T _component
     // Size: 0xFFFFFFFF

@@ -28,7 +28,7 @@ namespace RootMotion {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     // Size: 0x8

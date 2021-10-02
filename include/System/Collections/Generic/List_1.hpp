@@ -83,7 +83,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.List`1<T> list
       // Size: 0x8
@@ -204,7 +204,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private T[] _items
     // Size: 0x8

@@ -49,7 +49,7 @@ namespace VRUIControls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private VRController _leftVRController
     // Size: 0x8

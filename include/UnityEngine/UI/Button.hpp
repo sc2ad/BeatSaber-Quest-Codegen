@@ -49,7 +49,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA8DA0
     // private UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent m_OnClick

@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SignalSenderAttribute] Offset: 0xEC9B50
     // private Signal _inputFieldClickedSignal

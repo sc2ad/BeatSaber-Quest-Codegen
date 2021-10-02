@@ -24,7 +24,7 @@ namespace Mono::Security::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String _hashName
     // Size: 0x8

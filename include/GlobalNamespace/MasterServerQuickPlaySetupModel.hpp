@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF02C2C
     // private readonly INetworkConfig _networkConfig

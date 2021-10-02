@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8

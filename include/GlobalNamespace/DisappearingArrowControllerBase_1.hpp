@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private MaterialPropertyBlockController[] _transparentObjectMaterialPropertyBlocks
     // Size: 0x8

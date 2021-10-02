@@ -50,7 +50,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private NUnit.Framework.Internal.Commands.TestCommand _command
     // Size: 0x8

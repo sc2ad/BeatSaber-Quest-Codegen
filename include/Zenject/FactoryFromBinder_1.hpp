@@ -91,7 +91,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Object subIdentifier
       // Size: 0x8
@@ -167,7 +167,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`2<Zenject.DiContainer,TContract> method
       // Size: 0x8
@@ -279,7 +279,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.FactoryFromBinder`1<TContract> <>4__this
       // Size: 0x8

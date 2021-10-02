@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int64 stateCounter
     // Size: 0x8

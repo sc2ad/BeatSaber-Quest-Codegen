@@ -36,7 +36,7 @@ namespace UnityEngine::TestTools::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
     // Size: 0x8

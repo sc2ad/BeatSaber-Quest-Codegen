@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Byte[] data
     // Size: 0x8

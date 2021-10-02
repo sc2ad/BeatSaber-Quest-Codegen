@@ -41,7 +41,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.HttpListenerRequest request
     // Size: 0x8

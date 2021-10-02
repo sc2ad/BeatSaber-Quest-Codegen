@@ -31,7 +31,7 @@ namespace System::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Xml.XmlRawWriter rawWriter
     // Size: 0x8

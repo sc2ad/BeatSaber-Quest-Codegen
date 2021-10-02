@@ -24,7 +24,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt64 senderID
     // Size: 0x8

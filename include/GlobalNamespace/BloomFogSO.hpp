@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean _bloomFogEnabled
     // Size: 0x1

@@ -52,7 +52,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IList`1<System.Object> m_serializedStates
     // Size: 0x8

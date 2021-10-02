@@ -38,7 +38,7 @@ namespace System::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.SortedList sortedList
     // Size: 0x8

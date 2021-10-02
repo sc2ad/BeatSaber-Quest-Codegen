@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TutorialNoteController _basicNotePrefab
     // Size: 0x8

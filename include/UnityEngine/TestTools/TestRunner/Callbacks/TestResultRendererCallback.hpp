@@ -37,7 +37,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
     // Size: 0x8

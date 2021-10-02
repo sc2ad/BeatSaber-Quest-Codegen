@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Quaternion targetToLocalSpace
     // Size: 0x10

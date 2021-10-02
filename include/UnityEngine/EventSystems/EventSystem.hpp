@@ -54,7 +54,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> m_SystemInputModules
     // Size: 0x8

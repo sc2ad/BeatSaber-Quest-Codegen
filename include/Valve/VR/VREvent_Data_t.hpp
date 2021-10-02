@@ -63,7 +63,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.VREvent_Reserved_t reserved
     // Size: 0x10

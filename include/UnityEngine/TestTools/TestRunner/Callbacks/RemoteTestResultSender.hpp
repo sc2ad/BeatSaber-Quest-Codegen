@@ -59,7 +59,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Single m_NextliveMessage
     // Size: 0x4

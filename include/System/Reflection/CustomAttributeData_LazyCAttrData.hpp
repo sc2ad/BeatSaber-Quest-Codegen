@@ -32,7 +32,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Reflection.Assembly assembly
     // Size: 0x8

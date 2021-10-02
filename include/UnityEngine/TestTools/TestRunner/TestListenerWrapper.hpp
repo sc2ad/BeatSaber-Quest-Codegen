@@ -41,7 +41,7 @@ namespace UnityEngine::TestTools::TestRunner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
     // Size: 0x8

@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<System.String,System.Boolean> m_Bool
     // Size: 0x8

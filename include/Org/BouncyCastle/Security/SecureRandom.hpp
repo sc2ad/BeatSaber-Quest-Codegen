@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
     // Size: 0x8

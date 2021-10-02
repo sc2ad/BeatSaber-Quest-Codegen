@@ -48,7 +48,7 @@ namespace UnityEngine::TestTools::Logging {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Object m_Lock
     // Size: 0x8

@@ -42,7 +42,7 @@ namespace UnityEngine::ResourceManagement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Action`1<TObject> callback
     // Size: 0x8

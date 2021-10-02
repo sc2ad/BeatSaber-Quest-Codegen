@@ -40,7 +40,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_RtdOp
     // Size: 0xFFFFFFFF

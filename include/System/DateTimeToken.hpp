@@ -24,7 +24,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.DateTimeParse/System.DTT dtt
     // Size: 0x4

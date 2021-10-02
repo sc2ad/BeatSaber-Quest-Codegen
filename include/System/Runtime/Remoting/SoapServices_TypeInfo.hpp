@@ -30,7 +30,7 @@ namespace System::Runtime::Remoting {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Hashtable Attributes
     // Size: 0x8

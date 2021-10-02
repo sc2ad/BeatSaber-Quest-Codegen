@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Action`1<System.String> setIdAction
     // Size: 0x8

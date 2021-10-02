@@ -47,7 +47,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.Single songTime
       // Size: 0x4
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 _currentYJumpOffsetBufferEndIndex
     // Size: 0x4

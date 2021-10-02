@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
     // Size: 0x8

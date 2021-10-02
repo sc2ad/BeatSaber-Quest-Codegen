@@ -33,7 +33,7 @@ namespace Zenject::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.SceneManagement.Scene scene
     // Size: 0x4

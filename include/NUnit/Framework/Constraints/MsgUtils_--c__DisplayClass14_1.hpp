@@ -31,7 +31,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public NUnit.Framework.Constraints.ValueFormatter next
     // Size: 0x8

@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String serverType
     // Size: 0x8

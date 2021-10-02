@@ -27,7 +27,7 @@ namespace System::Diagnostics {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IntPtr process_handle
     // Size: 0x8

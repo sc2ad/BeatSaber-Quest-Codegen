@@ -33,7 +33,7 @@ namespace TMPro::SpriteAssetUtilities {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     // Size: 0x8

@@ -34,7 +34,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly System.Threading.Tasks.Task m_task
     // Size: 0x8

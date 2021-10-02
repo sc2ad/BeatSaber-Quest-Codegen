@@ -24,7 +24,7 @@ namespace System::Net::Sockets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int32 len
     // Size: 0x4

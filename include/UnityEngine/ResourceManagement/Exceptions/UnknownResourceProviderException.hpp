@@ -39,7 +39,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
     // Size: 0x8

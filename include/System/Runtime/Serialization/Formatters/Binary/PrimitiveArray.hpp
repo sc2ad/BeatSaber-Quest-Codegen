@@ -31,7 +31,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
     // Size: 0x4

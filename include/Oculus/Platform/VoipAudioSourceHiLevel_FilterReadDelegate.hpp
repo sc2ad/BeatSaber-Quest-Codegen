@@ -26,7 +26,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Oculus.Platform.VoipAudioSourceHiLevel parent
     // Size: 0x8

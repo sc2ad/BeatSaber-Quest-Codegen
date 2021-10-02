@@ -22,7 +22,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String className
     // Size: 0x8

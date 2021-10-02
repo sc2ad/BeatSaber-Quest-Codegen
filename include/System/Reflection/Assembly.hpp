@@ -64,7 +64,7 @@ namespace System::Reflection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IntPtr _mono_assembly
     // Size: 0x8

@@ -71,7 +71,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
     // Size: 0x8

@@ -38,7 +38,7 @@ namespace RootMotion {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF1610
     // public System.Boolean markAsLegacy

@@ -54,7 +54,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.ProBuilder.EdgeLookup <edge>k__BackingField
     // Size: 0x10

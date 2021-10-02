@@ -23,7 +23,7 @@ namespace Microsoft::Win32 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32 dwFileAttributes
     // Size: 0x4

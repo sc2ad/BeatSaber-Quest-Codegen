@@ -29,7 +29,7 @@ namespace System::Resources {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Object _value
     // Size: 0x8

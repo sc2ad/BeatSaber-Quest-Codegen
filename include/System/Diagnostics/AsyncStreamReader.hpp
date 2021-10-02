@@ -37,7 +37,7 @@ namespace System::Diagnostics {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.Stream stream
     // Size: 0x8

@@ -52,7 +52,7 @@ namespace System::Resources {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
     // Size: 0x8

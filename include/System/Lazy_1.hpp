@@ -60,7 +60,7 @@ namespace System {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // T m_value
       // Size: 0xFFFFFFFF
@@ -95,7 +95,7 @@ namespace System {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.Runtime.ExceptionServices.ExceptionDispatchInfo m_edi
       // Size: 0x8
@@ -175,7 +175,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object m_boxed
     // Size: 0x8

@@ -71,7 +71,7 @@ namespace MasterServer {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 <>1__state
       // Size: 0x4
@@ -225,7 +225,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public MasterServer.MessageHandler/MasterServer.RequestResponseWaiter waiter
     // Size: 0x8

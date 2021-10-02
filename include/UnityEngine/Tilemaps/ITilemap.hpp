@@ -34,7 +34,7 @@ namespace UnityEngine::Tilemaps {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.Tilemaps.Tilemap m_Tilemap
     // Size: 0x8

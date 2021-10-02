@@ -48,7 +48,7 @@ namespace NUnit::Framework::Internal::Builders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
     // Size: 0x8

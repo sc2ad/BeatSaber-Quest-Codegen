@@ -31,7 +31,7 @@ namespace UnityEngine::AddressableAssets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     // Size: 0x8

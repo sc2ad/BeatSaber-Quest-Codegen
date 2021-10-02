@@ -32,7 +32,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xEC3F5C
     // private Zenject.DiContainer _container

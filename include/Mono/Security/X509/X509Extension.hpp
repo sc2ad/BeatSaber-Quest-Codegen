@@ -33,7 +33,7 @@ namespace Mono::Security::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.String extnOid
     // Size: 0x8

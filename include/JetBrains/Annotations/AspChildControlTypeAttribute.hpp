@@ -31,7 +31,7 @@ namespace JetBrains::Annotations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String <TagName>k__BackingField
     // Size: 0x8

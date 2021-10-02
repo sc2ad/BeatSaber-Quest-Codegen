@@ -90,7 +90,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 hashCode
       // Size: 0x4
@@ -165,7 +165,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
@@ -339,7 +339,7 @@ namespace System::Collections::Generic {
         #ifdef USE_CODEGEN_FIELDS
         public:
         #else
-        private:
+        protected:
         #endif
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
@@ -453,7 +453,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
@@ -607,7 +607,7 @@ namespace System::Collections::Generic {
         #ifdef USE_CODEGEN_FIELDS
         public:
         #else
-        private:
+        protected:
         #endif
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
@@ -721,7 +721,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
@@ -854,7 +854,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32[] buckets
     // Size: 0x8

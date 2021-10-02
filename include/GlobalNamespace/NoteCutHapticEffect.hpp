@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
     // Size: 0x8

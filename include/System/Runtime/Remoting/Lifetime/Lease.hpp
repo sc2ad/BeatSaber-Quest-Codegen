@@ -47,7 +47,7 @@ namespace System::Runtime::Remoting::Lifetime {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.DateTime _leaseExpireTime
     // Size: 0x8

@@ -47,7 +47,7 @@ namespace NUnit::Framework::Internal::Commands {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
     // Size: 0x8

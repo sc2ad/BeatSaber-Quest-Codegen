@@ -37,7 +37,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HoudiniEngineUnity.JSONNode aNode
     // Size: 0x8

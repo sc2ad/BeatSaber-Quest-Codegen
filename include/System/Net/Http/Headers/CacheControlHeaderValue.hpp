@@ -42,7 +42,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions
     // Size: 0x8

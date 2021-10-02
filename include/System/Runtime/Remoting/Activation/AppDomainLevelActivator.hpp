@@ -32,7 +32,7 @@ namespace System::Runtime::Remoting::Activation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String _activationUrl
     // Size: 0x8

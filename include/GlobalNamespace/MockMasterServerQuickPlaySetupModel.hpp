@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF08E80
     // private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData

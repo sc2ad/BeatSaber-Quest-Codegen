@@ -33,7 +33,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.MonoBehaviour monoBehaviour
     // Size: 0x8

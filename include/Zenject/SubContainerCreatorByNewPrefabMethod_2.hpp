@@ -61,7 +61,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.SubContainerCreatorByNewPrefabMethod`2<TParam1,TParam2> <>4__this
       // Size: 0x8
@@ -114,7 +114,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Action`3<Zenject.DiContainer,TParam1,TParam2> _installerMethod
     // Size: 0x8

@@ -49,7 +49,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8

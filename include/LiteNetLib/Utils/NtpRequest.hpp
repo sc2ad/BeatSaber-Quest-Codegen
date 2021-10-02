@@ -56,7 +56,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly LiteNetLib.NetSocket _socket
     // Size: 0x8

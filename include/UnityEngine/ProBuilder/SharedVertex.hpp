@@ -57,7 +57,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xF27C10
     // [FormerlySerializedAsAttribute] Offset: 0xF27C10

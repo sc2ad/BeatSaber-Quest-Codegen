@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Single x
       // Size: 0x4
@@ -228,7 +228,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public SteamVR_ExternalCamera/Config config
     // Size: 0x49

@@ -41,7 +41,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TProperty _p
     // Size: 0xFFFFFFFF

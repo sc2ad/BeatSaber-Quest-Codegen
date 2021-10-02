@@ -49,7 +49,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String m_LocalDataPath
     // Size: 0x8

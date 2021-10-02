@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState
     // Size: 0x4

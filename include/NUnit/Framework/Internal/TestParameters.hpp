@@ -40,7 +40,7 @@ namespace NUnit::Framework::Internal {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEEEA4
     // private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField

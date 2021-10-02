@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8

@@ -31,7 +31,7 @@ namespace LiteNetLib {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public LiteNetLib.NetPacket[] Fragments
     // Size: 0x8

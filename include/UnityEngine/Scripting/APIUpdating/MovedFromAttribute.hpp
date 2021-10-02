@@ -26,7 +26,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData data
     // Size: 0x1C

@@ -37,7 +37,7 @@ namespace System::Security::Cryptography::X509Certificates {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Security.Cryptography.X509Certificates.X509CertificateImpl> list
     // Size: 0x8

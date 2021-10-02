@@ -43,7 +43,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points
     // Size: 0x8

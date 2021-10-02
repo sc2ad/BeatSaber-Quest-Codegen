@@ -31,7 +31,7 @@ namespace Polyglot {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Polyglot.Localization settings
     // Size: 0x8

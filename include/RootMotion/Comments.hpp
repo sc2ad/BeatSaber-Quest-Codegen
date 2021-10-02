@@ -23,7 +23,7 @@ namespace RootMotion {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [MultilineAttribute] Offset: 0xEF180C
     // public System.String text

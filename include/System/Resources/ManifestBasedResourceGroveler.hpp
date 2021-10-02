@@ -41,7 +41,7 @@ namespace System::Resources {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     // Size: 0x8

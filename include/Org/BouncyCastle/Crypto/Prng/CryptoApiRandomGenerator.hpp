@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
     // Size: 0x8

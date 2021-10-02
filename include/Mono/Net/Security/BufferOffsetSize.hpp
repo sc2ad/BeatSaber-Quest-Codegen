@@ -22,7 +22,7 @@ namespace Mono::Net::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Byte[] Buffer
     // Size: 0x8

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private OVRPlugin/Vector2i Pos
     // Size: 0x8

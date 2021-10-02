@@ -36,7 +36,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Valve.VR.IVRChaperone FnTable
     // Size: 0x40

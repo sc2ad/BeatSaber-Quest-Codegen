@@ -41,7 +41,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Action`1<UnityEngine.EventSystems.PointerEventData> pointerDidEnterEvent
     // Size: 0x8

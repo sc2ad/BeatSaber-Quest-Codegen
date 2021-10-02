@@ -29,7 +29,7 @@ namespace UnityEngine::TextCore {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xEA5FA0
     // private System.UInt32 m_Index

@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
     // Size: 0x8

@@ -55,7 +55,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [OptionalFieldAttribute] Offset: 0xE62EB8
     // private System.String m_name

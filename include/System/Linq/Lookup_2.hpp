@@ -77,7 +77,7 @@ namespace System::Linq {
         #ifdef USE_CODEGEN_FIELDS
         public:
         #else
-        private:
+        protected:
         #endif
         // private System.Int32 <>1__state
         // Size: 0x4
@@ -190,7 +190,7 @@ namespace System::Linq {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // TKey key
       // Size: 0xFFFFFFFF
@@ -434,7 +434,7 @@ namespace System::Linq {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -549,7 +549,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IEqualityComparer`1<TKey> comparer
     // Size: 0x8

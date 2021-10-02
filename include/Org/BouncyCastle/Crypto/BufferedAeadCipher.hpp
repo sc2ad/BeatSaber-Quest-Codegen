@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Crypto {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.Modes.IAeadCipher cipher
     // Size: 0x8

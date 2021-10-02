@@ -30,7 +30,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
     // Size: 0x8

@@ -28,7 +28,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // T value
     // Size: 0xFFFFFFFF

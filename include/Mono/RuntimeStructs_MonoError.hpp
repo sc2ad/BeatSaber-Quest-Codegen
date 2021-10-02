@@ -24,7 +24,7 @@ namespace Mono {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.UInt16 error_code
     // Size: 0x2

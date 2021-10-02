@@ -48,7 +48,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>> m_InstanceObjectToPrefabHandle
     // Size: 0x8

@@ -34,7 +34,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Vector2 <moveVector>k__BackingField
     // Size: 0x8

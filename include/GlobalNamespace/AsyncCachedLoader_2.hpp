@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public TKey keyId
       // Size: 0xFFFFFFFF
@@ -144,7 +144,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 <>1__state
       // Size: 0x4
@@ -263,7 +263,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 <>1__state
       // Size: 0x4
@@ -361,7 +361,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<AsyncCachedLoader`2/ScheduledTask<TKey,TValue>> _scheduledTaskList
     // Size: 0x8

@@ -40,7 +40,7 @@ namespace System::Threading {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly System.Action`1<System.Object> Callback
     // Size: 0x8

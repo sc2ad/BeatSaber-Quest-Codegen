@@ -33,7 +33,7 @@ namespace System::Runtime::InteropServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String MarshalCookie
     // Size: 0x8

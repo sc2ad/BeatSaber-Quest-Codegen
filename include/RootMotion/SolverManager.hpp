@@ -34,7 +34,7 @@ namespace RootMotion {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEF181C
     // public System.Boolean fixTransforms

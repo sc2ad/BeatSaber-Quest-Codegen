@@ -62,7 +62,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public TTask Task
       // Size: 0xFFFFFFFF
@@ -185,7 +185,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public TTask task
       // Size: 0xFFFFFFFF
@@ -222,7 +222,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.LinkedList`1<Zenject.TaskUpdater`1/Zenject.TaskInfo<TTask>> _tasks
     // Size: 0x8

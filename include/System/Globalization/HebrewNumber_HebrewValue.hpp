@@ -25,7 +25,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
     // Size: 0x4

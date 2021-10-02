@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
     // Size: 0x8

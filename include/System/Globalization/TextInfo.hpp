@@ -41,7 +41,7 @@ namespace System::Globalization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [OptionalFieldAttribute] Offset: 0xE63708
     // private System.String m_listSeparator

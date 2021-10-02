@@ -24,7 +24,7 @@ namespace System::Text::RegularExpressions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32[] _caps
     // Size: 0x8

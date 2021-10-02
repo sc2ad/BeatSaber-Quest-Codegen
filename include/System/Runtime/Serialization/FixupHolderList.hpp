@@ -29,7 +29,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.Serialization.FixupHolder[] m_values
     // Size: 0x8

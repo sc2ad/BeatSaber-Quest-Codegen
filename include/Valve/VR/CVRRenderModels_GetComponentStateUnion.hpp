@@ -23,7 +23,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.IVRRenderModels/Valve.VR._GetComponentState pGetComponentState
     // Size: 0x8

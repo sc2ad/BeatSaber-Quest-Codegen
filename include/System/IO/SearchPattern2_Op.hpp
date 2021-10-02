@@ -25,7 +25,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IO.SearchPattern2/System.IO.OpCode Code
     // Size: 0x4

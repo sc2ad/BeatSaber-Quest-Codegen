@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Asn1 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Org.BouncyCastle.Asn1.Asn1Encodable[] elements
     // Size: 0x8

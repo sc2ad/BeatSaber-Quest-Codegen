@@ -22,7 +22,7 @@ namespace System::Collections::Concurrent {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int32 Head
     // Size: 0x4

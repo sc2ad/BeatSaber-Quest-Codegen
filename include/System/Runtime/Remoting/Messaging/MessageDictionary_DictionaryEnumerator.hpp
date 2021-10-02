@@ -32,7 +32,7 @@ namespace System::Runtime::Remoting::Messaging {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary
     // Size: 0x8

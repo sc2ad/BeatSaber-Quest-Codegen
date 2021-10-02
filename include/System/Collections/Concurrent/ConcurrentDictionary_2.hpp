@@ -89,7 +89,7 @@ namespace System::Collections::Concurrent {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // readonly System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.Node<TKey,TValue>[] _buckets
       // Size: 0x8
@@ -154,7 +154,7 @@ namespace System::Collections::Concurrent {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // readonly TKey _key
       // Size: 0xFFFFFFFF
@@ -229,7 +229,7 @@ namespace System::Collections::Concurrent {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> _enumerator
       // Size: 0x8
@@ -323,7 +323,7 @@ namespace System::Collections::Concurrent {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -464,7 +464,7 @@ namespace System::Collections::Concurrent {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.Tables<TKey,TValue> _tables
     // Size: 0x8

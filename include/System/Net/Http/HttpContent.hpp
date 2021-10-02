@@ -69,7 +69,7 @@ namespace System::Net::Http {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
     // Size: 0x8

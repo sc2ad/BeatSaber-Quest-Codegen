@@ -40,7 +40,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     // Size: 0x108

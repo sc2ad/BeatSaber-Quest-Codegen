@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean <jumpToDestinationValid>k__BackingField
     // Size: 0x1

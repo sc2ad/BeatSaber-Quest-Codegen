@@ -33,7 +33,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Oculus.Platform.Message`1/Oculus.Platform.Callback<T> callback
     // Size: 0x8

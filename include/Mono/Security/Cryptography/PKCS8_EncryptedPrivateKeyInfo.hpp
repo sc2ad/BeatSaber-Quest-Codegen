@@ -24,7 +24,7 @@ namespace Mono::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String _algorithm
     // Size: 0x8

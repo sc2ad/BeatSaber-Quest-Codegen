@@ -33,7 +33,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.AsyncCallback callback
     // Size: 0x8

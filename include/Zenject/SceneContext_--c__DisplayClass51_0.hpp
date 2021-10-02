@@ -37,7 +37,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
     // Size: 0x8

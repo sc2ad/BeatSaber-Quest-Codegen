@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private MainSettingsMenuViewController _defaultSettingsMenuViewController
     // Size: 0x8

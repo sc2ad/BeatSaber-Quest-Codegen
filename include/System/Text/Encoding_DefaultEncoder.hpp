@@ -39,7 +39,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Text.Encoding m_encoding
     // Size: 0x8

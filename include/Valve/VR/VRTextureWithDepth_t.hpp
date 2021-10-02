@@ -21,7 +21,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Valve.VR.VRTextureDepthInfo_t depth
     // Size: 0x50

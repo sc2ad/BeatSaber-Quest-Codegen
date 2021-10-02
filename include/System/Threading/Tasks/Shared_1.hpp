@@ -21,7 +21,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // T Value
     // Size: 0xFFFFFFFF

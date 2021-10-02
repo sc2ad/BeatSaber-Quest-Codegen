@@ -35,7 +35,7 @@ namespace NUnit::Framework::Internal::Commands {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly NUnit.Framework.Internal.TestMethod testMethod
     // Size: 0x8

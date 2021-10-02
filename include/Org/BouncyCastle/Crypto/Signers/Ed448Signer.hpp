@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Crypto.Signers.Ed448Signer/Org.BouncyCastle.Crypto.Signers.Buffer buffer
     // Size: 0x8

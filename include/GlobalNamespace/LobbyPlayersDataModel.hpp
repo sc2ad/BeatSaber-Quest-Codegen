@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF030CC
     // private readonly IMenuRpcManager _menuRpcManager

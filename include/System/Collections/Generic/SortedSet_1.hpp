@@ -97,7 +97,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private T <Item>k__BackingField
       // Size: 0xFFFFFFFF
@@ -381,7 +381,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Collections.Generic.SortedSet`1<T> _tree
       // Size: 0x8
@@ -582,7 +582,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.Int32 UniqueCount
       // Size: 0x4
@@ -633,7 +633,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 index
       // Size: 0x4
@@ -709,7 +709,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 index
       // Size: 0x4
@@ -753,7 +753,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Object[] objects
       // Size: 0x8
@@ -806,7 +806,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.SortedSet`1/System.Collections.Generic.Node<T> root
     // Size: 0x8

@@ -24,7 +24,7 @@ namespace OnlineServices::API {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String[] leaderboardsIds
     // Size: 0x8

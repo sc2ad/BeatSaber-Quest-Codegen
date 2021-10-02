@@ -57,7 +57,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Object _subIdentifier
     // Size: 0x8

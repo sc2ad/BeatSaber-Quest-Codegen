@@ -69,7 +69,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly UnityEngine.UI.RectangularVertexClipper m_VertexClipper
     // Size: 0x8

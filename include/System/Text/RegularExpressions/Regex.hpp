@@ -65,7 +65,7 @@ namespace System::Text::RegularExpressions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected internal System.String pattern
     // Size: 0x8

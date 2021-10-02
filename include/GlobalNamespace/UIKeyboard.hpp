@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TextMeshProButton _keyButtonPrefab
     // Size: 0x8

@@ -45,7 +45,7 @@ namespace VRUIControls {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.Boolean wasHit
       // Size: 0x1
@@ -106,7 +106,7 @@ namespace VRUIControls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     // Size: 0x8

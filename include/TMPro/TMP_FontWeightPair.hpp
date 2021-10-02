@@ -26,7 +26,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public TMPro.TMP_FontAsset regularTypeface
     // Size: 0x8

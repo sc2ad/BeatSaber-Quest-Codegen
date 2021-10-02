@@ -41,7 +41,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Collections.Generic.List`1<T> _Data
     // Size: 0x8

@@ -24,7 +24,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Boolean onlyAutoConnectedTerrains
     // Size: 0x1

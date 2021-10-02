@@ -30,7 +30,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Sprite <icon>k__BackingField
     // Size: 0x8

@@ -58,7 +58,7 @@ namespace System::Collections::Generic {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private readonly System.Collections.Generic.Stack`1<T> _stack
       // Size: 0x8
@@ -179,7 +179,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private T[] _array
     // Size: 0x8

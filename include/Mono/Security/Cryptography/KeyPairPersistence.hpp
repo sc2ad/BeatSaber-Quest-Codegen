@@ -28,7 +28,7 @@ namespace Mono::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Cryptography.CspParameters _params
     // Size: 0x8

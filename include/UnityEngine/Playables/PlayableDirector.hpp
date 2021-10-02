@@ -49,7 +49,7 @@ namespace UnityEngine::Playables {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEA0D58
     // private System.Action`1<UnityEngine.Playables.PlayableDirector> played

@@ -35,7 +35,7 @@ namespace LIV::SDK::Unity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEE6618
     // public UnityEngine.Transform TrackedSpaceOrigin

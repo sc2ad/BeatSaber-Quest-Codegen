@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private SceneInfo _emptyTransitionSceneInfo
     // Size: 0x8

@@ -53,7 +53,7 @@ namespace Mono::Xml {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
     // Size: 0x8

@@ -87,7 +87,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private OVR.OpenVR.IVRSystem FnTable
     // Size: 0x178

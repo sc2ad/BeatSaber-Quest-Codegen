@@ -30,7 +30,7 @@ namespace Tweening {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF15354
     // private readonly IAudioTimeSource _audioTimeSource

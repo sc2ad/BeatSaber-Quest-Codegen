@@ -30,7 +30,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.ScrollView _scrollView
     // Size: 0x8

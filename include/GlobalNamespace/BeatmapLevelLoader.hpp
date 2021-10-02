@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly System.Boolean isError
       // Size: 0x1
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
     // Size: 0x8

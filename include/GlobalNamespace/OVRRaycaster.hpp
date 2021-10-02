@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public UnityEngine.UI.Graphic graphic
       // Size: 0x8
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEB2ECC
     // public UnityEngine.GameObject pointer

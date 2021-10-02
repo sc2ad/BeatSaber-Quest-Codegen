@@ -72,7 +72,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`8<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> method
       // Size: 0x8

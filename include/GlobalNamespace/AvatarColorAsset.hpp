@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public AvatarColorBehaviour _template
     // Size: 0x8

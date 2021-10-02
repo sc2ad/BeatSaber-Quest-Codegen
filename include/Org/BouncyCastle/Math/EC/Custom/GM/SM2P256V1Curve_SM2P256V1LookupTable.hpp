@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve m_outer
     // Size: 0x8

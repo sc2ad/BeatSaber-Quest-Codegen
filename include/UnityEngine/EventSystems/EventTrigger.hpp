@@ -81,7 +81,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEAA918
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry> m_Delegates

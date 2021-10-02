@@ -59,7 +59,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
     // Size: 0x8

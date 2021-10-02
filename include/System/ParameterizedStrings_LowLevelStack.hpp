@@ -24,7 +24,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8

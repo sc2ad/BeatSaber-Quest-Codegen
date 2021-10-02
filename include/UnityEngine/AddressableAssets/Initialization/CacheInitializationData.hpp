@@ -21,7 +21,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEEC8E0
     // private System.Boolean m_CompressionEnabled

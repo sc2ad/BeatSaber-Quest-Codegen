@@ -32,7 +32,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TimeFieldAttribute] Offset: 0xEBA4A8
     // [TooltipAttribute] Offset: 0xEBA4A8

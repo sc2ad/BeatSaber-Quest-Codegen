@@ -36,7 +36,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Serialization.StreamingContext m_streamingContext
     // Size: 0xC

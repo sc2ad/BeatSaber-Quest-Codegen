@@ -66,7 +66,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xEC428C
     // private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables

@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [InjectAttribute] Offset: 0xF0341C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager

@@ -38,7 +38,7 @@ namespace UnityEngine::Events {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [FormerlySerializedAsAttribute] Offset: 0xE76A40
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls

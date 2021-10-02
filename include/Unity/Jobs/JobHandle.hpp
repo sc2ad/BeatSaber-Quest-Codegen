@@ -22,7 +22,7 @@ namespace Unity::Jobs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.IntPtr jobGroup
     // Size: 0x8

@@ -43,7 +43,7 @@ namespace UnityEngine::EventSystems {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster
     // Size: 0x8

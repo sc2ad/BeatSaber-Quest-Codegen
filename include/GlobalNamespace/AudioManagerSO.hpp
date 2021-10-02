@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Audio.AudioMixer _audioMixer
     // Size: 0x8

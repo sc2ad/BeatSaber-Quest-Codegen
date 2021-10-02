@@ -32,7 +32,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // TElement[] items
     // Size: 0x8

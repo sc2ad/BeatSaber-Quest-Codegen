@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
     // Size: 0x8

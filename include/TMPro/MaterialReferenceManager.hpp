@@ -43,7 +43,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Material> m_FontMaterialReferenceLookup
     // Size: 0x8

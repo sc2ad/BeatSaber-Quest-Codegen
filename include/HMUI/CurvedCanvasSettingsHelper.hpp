@@ -39,7 +39,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Canvas _cachedCanvas
     // Size: 0x8

@@ -34,7 +34,7 @@ namespace Polyglot {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xEE504C
     // private UnityEngine.UI.Dropdown dropdown

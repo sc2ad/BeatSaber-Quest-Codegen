@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Math::EC {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Org.BouncyCastle.Math.BigInteger q
     // Size: 0x8

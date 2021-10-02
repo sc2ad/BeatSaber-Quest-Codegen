@@ -52,7 +52,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Char[] CoreNewLine
     // Size: 0x8

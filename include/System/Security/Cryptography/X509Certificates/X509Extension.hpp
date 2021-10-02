@@ -24,7 +24,7 @@ namespace System::Security::Cryptography::X509Certificates {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean _critical
     // Size: 0x1

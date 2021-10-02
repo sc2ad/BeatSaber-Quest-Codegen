@@ -41,7 +41,7 @@ namespace UnityEngine {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // System.Int32 order
       // Size: 0x4

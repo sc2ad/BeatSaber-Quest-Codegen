@@ -35,7 +35,7 @@ namespace System::Text {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Text.Encoding encoding
     // Size: 0x8

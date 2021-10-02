@@ -37,7 +37,7 @@ namespace System::Net::NetworkInformation {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
     // Size: 0x39

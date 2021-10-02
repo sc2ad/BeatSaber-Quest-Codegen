@@ -21,7 +21,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeNameAttribute] Offset: 0xE756B8
     // public System.UInt64 cpuTimePresentCalled

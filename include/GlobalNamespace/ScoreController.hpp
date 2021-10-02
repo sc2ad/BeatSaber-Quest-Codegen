@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xF0AE40
     // private System.Int32 _feverModeRequiredCombo

@@ -20,7 +20,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Int64 TotalBytes
     // Size: 0x8

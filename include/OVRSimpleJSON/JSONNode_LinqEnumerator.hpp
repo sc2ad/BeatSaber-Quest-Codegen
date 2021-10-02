@@ -36,7 +36,7 @@ namespace OVRSimpleJSON {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private OVRSimpleJSON.JSONNode m_Node
     // Size: 0x8

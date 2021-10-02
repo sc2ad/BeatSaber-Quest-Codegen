@@ -31,7 +31,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Terrain t
     // Size: 0x8

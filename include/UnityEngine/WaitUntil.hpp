@@ -31,7 +31,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Func`1<System.Boolean> m_Predicate
     // Size: 0x8

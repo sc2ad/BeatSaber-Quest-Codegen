@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Math::EC {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int64[] m_ints
     // Size: 0x8

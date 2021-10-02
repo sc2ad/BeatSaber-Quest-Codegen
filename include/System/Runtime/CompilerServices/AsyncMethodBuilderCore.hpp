@@ -51,7 +51,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     // Size: 0x8

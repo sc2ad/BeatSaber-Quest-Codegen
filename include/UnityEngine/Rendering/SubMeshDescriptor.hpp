@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76E54
     // private UnityEngine.Bounds <bounds>k__BackingField

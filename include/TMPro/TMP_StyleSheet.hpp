@@ -39,7 +39,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<TMPro.TMP_Style> m_StyleList
     // Size: 0x8

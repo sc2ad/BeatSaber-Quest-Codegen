@@ -68,7 +68,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.IDisposable Disposable
       // Size: 0x8
@@ -103,7 +103,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.DisposableInfo> _disposables
     // Size: 0x8

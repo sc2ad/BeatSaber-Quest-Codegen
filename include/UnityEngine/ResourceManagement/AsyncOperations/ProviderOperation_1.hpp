@@ -76,7 +76,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean m_ReleaseDependenciesOnFailure
     // Size: 0x1

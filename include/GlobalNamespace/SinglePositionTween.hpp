@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NullAllowed] Offset: 0xF14850
     // public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference

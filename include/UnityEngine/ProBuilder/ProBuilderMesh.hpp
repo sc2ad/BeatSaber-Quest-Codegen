@@ -125,7 +125,7 @@ namespace UnityEngine::ProBuilder {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Byte value__
       // Size: 0x1
@@ -165,7 +165,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 m_MeshFormatVersion
     // Size: 0x4

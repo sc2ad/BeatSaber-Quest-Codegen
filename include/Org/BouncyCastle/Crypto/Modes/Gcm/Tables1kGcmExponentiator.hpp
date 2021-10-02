@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.IList lookupPowX2
     // Size: 0x8

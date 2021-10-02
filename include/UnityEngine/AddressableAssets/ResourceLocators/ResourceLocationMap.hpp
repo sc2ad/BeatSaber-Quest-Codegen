@@ -52,7 +52,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String <LocatorId>k__BackingField
     // Size: 0x8

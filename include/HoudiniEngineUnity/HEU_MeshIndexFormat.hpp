@@ -30,7 +30,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.Rendering.IndexFormat _indexFormat
     // Size: 0x4

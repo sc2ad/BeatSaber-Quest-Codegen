@@ -23,7 +23,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.UInt64 AssetFileId
     // Size: 0x8

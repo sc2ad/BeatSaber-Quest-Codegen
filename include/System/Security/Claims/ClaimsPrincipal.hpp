@@ -56,7 +56,7 @@ namespace System::Security::Claims {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [OptionalFieldAttribute] Offset: 0xE63B14
     // private System.String m_version

@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TKey key
     // Size: 0xFFFFFFFF

@@ -206,7 +206,7 @@ namespace Oculus::Platform {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.UInt32 value__
       // Size: 0x4
@@ -1332,7 +1332,7 @@ namespace Oculus::Platform {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Oculus.Platform.Message/Oculus.Platform.MessageType type
     // Size: 0x4

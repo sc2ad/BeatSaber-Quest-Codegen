@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Math.EC.ECFieldElement f
     // Size: 0x8

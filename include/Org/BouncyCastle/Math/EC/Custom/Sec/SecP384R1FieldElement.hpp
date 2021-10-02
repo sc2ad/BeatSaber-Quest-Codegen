@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected internal readonly System.UInt32[] x
     // Size: 0x8

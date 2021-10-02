@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.IEnumerable inner
     // Size: 0x8

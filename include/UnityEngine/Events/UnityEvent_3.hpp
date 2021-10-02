@@ -39,7 +39,7 @@ namespace UnityEngine::Events {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object[] m_InvokeArray
     // Size: 0x8

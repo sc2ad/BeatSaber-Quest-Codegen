@@ -37,7 +37,7 @@ namespace OVRSimpleJSON {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Double m_Data
     // Size: 0x8

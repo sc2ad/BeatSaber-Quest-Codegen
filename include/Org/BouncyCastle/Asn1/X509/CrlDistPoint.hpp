@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     // Size: 0x8

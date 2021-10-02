@@ -26,7 +26,7 @@ namespace UnityEngine::TestTools::TestRunner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 <>1__state
     // Size: 0x4

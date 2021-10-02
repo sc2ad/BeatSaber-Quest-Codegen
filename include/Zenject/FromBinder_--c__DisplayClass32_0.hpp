@@ -48,7 +48,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
     // Size: 0x8

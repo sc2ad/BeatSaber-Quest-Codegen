@@ -23,7 +23,7 @@ namespace UnityEngine::ProBuilder {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [TooltipAttribute] Offset: 0xF27CE0
     // [RangeAttribute] Offset: 0xF27CE0

@@ -31,7 +31,7 @@ namespace System::Security::Util {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String[] aStrings
     // Size: 0x8

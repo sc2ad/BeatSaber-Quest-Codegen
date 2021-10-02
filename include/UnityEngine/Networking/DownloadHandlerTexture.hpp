@@ -42,7 +42,7 @@ namespace UnityEngine::Networking {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Texture2D mTexture
     // Size: 0x8

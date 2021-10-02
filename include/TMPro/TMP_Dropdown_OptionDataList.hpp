@@ -31,7 +31,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
     // Size: 0x8

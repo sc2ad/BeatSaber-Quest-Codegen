@@ -34,7 +34,7 @@ namespace UnityEngine::UI::CoroutineTween {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
     // Size: 0x8

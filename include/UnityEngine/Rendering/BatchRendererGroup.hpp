@@ -34,7 +34,7 @@ namespace UnityEngine::Rendering {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IntPtr m_GroupHandle
     // Size: 0x8

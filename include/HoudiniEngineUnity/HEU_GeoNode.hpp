@@ -73,7 +73,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HoudiniEngineUnity.HAPI_GeoInfo _geoInfo
     // Size: 0x24

@@ -23,7 +23,7 @@ namespace System::Net::Http {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.String method
     // Size: 0x8

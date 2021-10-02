@@ -26,7 +26,7 @@ namespace UnityEngine::Experimental::Audio {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE9F390
     // private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable

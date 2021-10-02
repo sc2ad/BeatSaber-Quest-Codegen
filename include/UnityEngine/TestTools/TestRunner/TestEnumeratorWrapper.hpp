@@ -35,7 +35,7 @@ namespace UnityEngine::TestTools::TestRunner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
     // Size: 0x8

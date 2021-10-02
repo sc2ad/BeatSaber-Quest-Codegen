@@ -25,7 +25,7 @@ namespace System::Security::Policy {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.IEnumerator currentEnum
     // Size: 0x8

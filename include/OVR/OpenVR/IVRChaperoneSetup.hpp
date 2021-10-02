@@ -64,7 +64,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy CommitWorkingCopy
     // Size: 0x8

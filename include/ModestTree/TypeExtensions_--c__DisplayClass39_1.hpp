@@ -33,7 +33,7 @@ namespace ModestTree {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Attribute a
     // Size: 0x8

@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Utilities::Date {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.DateTime dt
     // Size: 0x8

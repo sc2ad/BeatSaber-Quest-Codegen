@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean closed
     // Size: 0x1

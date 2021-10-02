@@ -30,7 +30,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Security.Cryptography.OidCollection m_oids
     // Size: 0x8

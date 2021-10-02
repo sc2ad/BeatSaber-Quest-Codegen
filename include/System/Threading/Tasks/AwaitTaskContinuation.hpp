@@ -57,7 +57,7 @@ namespace System::Threading::Tasks {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Threading.ExecutionContext m_capturedContext
     // Size: 0x8

@@ -30,7 +30,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String m_messageTypeId
     // Size: 0x8

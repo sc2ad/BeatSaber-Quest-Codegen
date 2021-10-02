@@ -32,7 +32,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Text.StringBuilder _cookLogs
     // Size: 0x8

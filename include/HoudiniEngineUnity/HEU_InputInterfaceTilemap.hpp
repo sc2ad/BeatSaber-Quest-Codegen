@@ -43,7 +43,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings settings
     // Size: 0x8

@@ -52,7 +52,7 @@ namespace UnityEngine::Timeline {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int64 intervalStart
       // Size: 0x8
@@ -106,7 +106,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.IntervalTree`1/UnityEngine.Timeline.Entry<T>> m_Entries
     // Size: 0x8

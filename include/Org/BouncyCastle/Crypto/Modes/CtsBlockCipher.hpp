@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Int32 blockSize
     // Size: 0x4

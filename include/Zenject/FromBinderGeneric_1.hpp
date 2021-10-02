@@ -149,7 +149,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`1<TContract> method
       // Size: 0x8
@@ -201,7 +201,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`2<TContract,System.Boolean> predicate
       // Size: 0x8
@@ -253,7 +253,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`2<TContract,System.Boolean> predicate
       // Size: 0x8

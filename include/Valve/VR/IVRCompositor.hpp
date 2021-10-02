@@ -110,7 +110,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
     // Size: 0x8

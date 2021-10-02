@@ -60,7 +60,7 @@ namespace Mono::Security::X509 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] _password
     // Size: 0x8

@@ -49,7 +49,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Func`2<TClass,TProperty> Getter
     // Size: 0x8

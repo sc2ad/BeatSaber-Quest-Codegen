@@ -95,7 +95,7 @@ namespace LiteNetLib::Utils {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly LiteNetLib.Utils.NetSerializer _netSerializer
     // Size: 0x8

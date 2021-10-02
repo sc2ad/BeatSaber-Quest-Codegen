@@ -24,7 +24,7 @@ namespace System::ComponentModel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String category
     // Size: 0x8

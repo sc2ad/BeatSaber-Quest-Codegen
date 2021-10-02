@@ -43,7 +43,7 @@ namespace HoudiniEngineUnity {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public HoudiniEngineUnity.HEU_HoudiniAsset _houdiniAsset
     // Size: 0x8

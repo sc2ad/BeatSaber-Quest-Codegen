@@ -47,7 +47,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Action`5<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4> _installMethod
     // Size: 0x8

@@ -19,7 +19,7 @@ namespace UnityEngineInternal::Input {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Void* eventBuffer
     // Size: 0x8

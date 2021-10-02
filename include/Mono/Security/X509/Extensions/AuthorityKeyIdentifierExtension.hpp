@@ -24,7 +24,7 @@ namespace Mono::Security::X509::Extensions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] aki
     // Size: 0x8

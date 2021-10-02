@@ -33,7 +33,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String[] m_AllowedLabels
     // Size: 0x8

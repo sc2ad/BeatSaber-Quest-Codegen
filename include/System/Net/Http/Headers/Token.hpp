@@ -36,7 +36,7 @@ namespace System::Net::Http::Headers {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -124,7 +124,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type
     // Size: 0x4

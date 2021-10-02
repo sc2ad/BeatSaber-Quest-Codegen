@@ -23,7 +23,7 @@ namespace System::Net::Configuration {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // readonly System.Boolean HttpListenerUnescapeRequestUrl
     // Size: 0x1

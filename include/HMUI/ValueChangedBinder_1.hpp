@@ -44,7 +44,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Tuple`2<HMUI.IValueChanger`1<T>,System.Action`1<T>>> _bindings
     // Size: 0x8

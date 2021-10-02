@@ -59,7 +59,7 @@ namespace Zenject {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public Zenject.SubContainerCreatorByNewGameObjectMethod`4<TParam1,TParam2,TParam3,TParam4> <>4__this
       // Size: 0x8
@@ -112,7 +112,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Action`5<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4> _installerMethod
     // Size: 0x8

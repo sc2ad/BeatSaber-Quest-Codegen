@@ -42,7 +42,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE89F10
     // private UnityEngine.Font/UnityEngine.FontTextureRebuildCallback m_FontTextureRebuildCallback

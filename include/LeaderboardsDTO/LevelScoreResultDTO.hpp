@@ -24,7 +24,7 @@ namespace LeaderboardsDTO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String guid
     // Size: 0x8

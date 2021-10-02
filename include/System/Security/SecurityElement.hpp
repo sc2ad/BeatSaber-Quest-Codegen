@@ -42,7 +42,7 @@ namespace System::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String text
     // Size: 0x8

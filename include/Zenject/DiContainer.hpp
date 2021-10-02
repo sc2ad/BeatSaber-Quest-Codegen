@@ -218,7 +218,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
     // Size: 0x8

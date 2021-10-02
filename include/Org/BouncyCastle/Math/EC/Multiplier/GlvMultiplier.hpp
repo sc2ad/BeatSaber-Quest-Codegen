@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Math.EC.ECCurve curve
     // Size: 0x8

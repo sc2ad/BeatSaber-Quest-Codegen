@@ -54,7 +54,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Boolean DisableCatalogUpdateOnStart
     // Size: 0x1

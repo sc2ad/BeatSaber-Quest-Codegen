@@ -30,7 +30,7 @@ namespace System::Runtime::InteropServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.IntPtr handle
     // Size: 0x8

@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     // Size: 0x8

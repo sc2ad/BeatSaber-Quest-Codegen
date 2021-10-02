@@ -57,7 +57,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Single startTime
       // Size: 0x4
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8

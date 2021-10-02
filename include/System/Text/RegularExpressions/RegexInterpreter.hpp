@@ -40,7 +40,7 @@ namespace System::Text::RegularExpressions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Int32 runoperator
     // Size: 0x4

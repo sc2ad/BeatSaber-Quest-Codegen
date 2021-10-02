@@ -24,7 +24,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.IntPtr ifa_next
     // Size: 0x8

@@ -38,7 +38,7 @@ namespace UnityEngine::UI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
     // Size: 0x8

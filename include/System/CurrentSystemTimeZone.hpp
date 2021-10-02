@@ -35,7 +35,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.TimeZoneInfo LocalTimeZone
     // Size: 0x8

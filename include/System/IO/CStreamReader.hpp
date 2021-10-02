@@ -41,7 +41,7 @@ namespace System::IO {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.TermInfoDriver driver
     // Size: 0x8

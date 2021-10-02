@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
     // Size: 0x8

@@ -35,7 +35,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly System.Net.WebProxy webProxy
     // Size: 0x8

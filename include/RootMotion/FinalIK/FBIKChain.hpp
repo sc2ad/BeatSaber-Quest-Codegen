@@ -52,7 +52,7 @@ namespace RootMotion::FinalIK {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Int32 value__
       // Size: 0x4
@@ -98,7 +98,7 @@ namespace RootMotion::FinalIK {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [RangeAttribute] Offset: 0xEF2F20
     // public System.Single pin

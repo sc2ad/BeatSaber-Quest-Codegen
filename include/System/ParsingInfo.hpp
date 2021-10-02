@@ -29,7 +29,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Globalization.Calendar calendar
     // Size: 0x8

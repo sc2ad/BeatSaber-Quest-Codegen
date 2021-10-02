@@ -36,7 +36,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand enumerableTestMethodCommand
     // Size: 0x8

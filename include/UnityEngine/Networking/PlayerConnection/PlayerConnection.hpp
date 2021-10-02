@@ -62,7 +62,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents
     // Size: 0x8

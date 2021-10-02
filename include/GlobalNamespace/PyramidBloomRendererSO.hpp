@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // UnityEngine.RenderTexture down
       // Size: 0x8
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Shader _shader
     // Size: 0x8

@@ -72,7 +72,7 @@ namespace System::Collections::Concurrent {
         #ifdef USE_CODEGEN_FIELDS
         public:
         #else
-        private:
+        protected:
         #endif
         // public T Item
         // Size: 0xFFFFFFFF
@@ -112,7 +112,7 @@ namespace System::Collections::Concurrent {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // readonly System.Collections.Concurrent.ConcurrentQueue`1/System.Collections.Concurrent.Segment/System.Collections.Concurrent.Slot<T>[] _slots
       // Size: 0x8
@@ -260,7 +260,7 @@ namespace System::Collections::Concurrent {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private System.Int32 <>1__state
       // Size: 0x4
@@ -527,7 +527,7 @@ namespace System::Collections::Concurrent {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object _crossSegmentLock
     // Size: 0x8

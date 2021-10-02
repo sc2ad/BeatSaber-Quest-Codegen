@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public LeaderboardScoreUploader/ScoreData scoreData
     // Size: 0x8

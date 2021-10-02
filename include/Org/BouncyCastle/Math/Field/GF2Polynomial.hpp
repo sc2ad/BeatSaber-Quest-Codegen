@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Math::Field {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly System.Int32[] exponents
     // Size: 0x8

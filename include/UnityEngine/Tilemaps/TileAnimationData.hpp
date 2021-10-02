@@ -29,7 +29,7 @@ namespace UnityEngine::Tilemaps {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Sprite[] m_AnimatedSprites
     // Size: 0x8

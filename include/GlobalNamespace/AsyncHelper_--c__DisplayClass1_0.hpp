@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`1<System.Threading.Tasks.Task> asyncTask
     // Size: 0x8

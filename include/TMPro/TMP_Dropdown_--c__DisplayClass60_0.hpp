@@ -24,7 +24,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     // Size: 0x8

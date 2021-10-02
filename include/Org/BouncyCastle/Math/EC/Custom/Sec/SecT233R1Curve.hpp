@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Point m_infinity
     // Size: 0x8

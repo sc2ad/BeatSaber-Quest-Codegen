@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO
     // Size: 0x8

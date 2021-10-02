@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [HeaderAttribute] Offset: 0xF057B8
     // [NullAllowed] Offset: 0xF057B8

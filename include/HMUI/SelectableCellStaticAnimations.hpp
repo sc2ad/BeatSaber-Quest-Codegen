@@ -32,7 +32,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private HMUI.SelectableCell _selectableCell
     // Size: 0x8

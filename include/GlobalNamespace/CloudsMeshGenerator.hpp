@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public UnityEngine.Mesh precisionOpaqueMesh
       // Size: 0x8
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Single radius
       // Size: 0x4
@@ -211,7 +211,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // [NullAllowed] Offset: 0xF1566C
       // public UnityEngine.Transform transform
@@ -260,7 +260,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Single normalizedStart
       // Size: 0x4
@@ -308,7 +308,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.MeshFilter _meshFilter
     // Size: 0x8

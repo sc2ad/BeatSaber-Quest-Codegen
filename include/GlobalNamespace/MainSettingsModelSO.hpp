@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [SOVariableAttribute] Offset: 0xF02754
     // public FloatSO vrResolutionScale

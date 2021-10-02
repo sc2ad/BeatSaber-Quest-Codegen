@@ -34,7 +34,7 @@ namespace Unity::Profiling {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0xE74E44
     // readonly System.IntPtr m_Ptr

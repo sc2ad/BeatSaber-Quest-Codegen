@@ -49,7 +49,7 @@ namespace HMUI {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,UnityEngine.Events.UnityAction`1<System.Boolean>>> _bindings
     // Size: 0x8

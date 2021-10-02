@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private AudioManagerSO _audioManager
     // Size: 0x8

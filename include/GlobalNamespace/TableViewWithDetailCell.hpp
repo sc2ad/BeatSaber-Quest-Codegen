@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
     // Size: 0x8

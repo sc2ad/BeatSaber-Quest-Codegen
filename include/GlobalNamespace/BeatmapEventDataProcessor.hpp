@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapEventData> _lastBeatmapEventDataDictionary
     // Size: 0x8

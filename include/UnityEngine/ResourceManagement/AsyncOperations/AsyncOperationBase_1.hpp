@@ -96,7 +96,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Threading.WaitHandle waitHandle
       // Size: 0x8
@@ -156,7 +156,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Threading.WaitHandle waitHandle
       // Size: 0x8
@@ -216,7 +216,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value
       // Size: 0x8
@@ -268,7 +268,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value
       // Size: 0x8
@@ -311,7 +311,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TObject <Result>k__BackingField
     // Size: 0xFFFFFFFF

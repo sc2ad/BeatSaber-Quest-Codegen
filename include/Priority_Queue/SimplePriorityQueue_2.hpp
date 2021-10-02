@@ -76,7 +76,7 @@ namespace Priority_Queue {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private TItem <Data>k__BackingField
       // Size: 0xFFFFFFFF
@@ -119,7 +119,7 @@ namespace Priority_Queue {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly Priority_Queue.GenericPriorityQueue`2<Priority_Queue.SimplePriorityQueue`2/Priority_Queue.SimpleNode<TItem,TPriority>,TPriority> _queue
     // Size: 0x8

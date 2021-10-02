@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
     // Size: 0x8

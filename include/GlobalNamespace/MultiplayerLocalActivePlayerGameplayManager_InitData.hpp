@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly System.Boolean failOn0Energy
     // Size: 0x1

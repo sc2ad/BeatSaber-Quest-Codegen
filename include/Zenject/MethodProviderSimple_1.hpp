@@ -47,7 +47,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Func`1<TReturn> _method
     // Size: 0x8

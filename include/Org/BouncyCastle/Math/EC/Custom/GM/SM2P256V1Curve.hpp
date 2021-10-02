@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Point m_infinity
     // Size: 0x8

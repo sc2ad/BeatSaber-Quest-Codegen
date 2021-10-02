@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
     // Size: 0x8

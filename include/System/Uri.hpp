@@ -71,7 +71,7 @@ namespace System {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.UInt64 value__
       // Size: 0x8
@@ -429,7 +429,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String m_String
     // Size: 0x8

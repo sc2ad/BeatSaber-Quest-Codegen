@@ -44,7 +44,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Linq.OrderedEnumerable`1<TElement> parent
     // Size: 0x8

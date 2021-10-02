@@ -33,7 +33,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Zenject.SubContainerCreatorBindInfo <SubContainerCreatorBindInfo>k__BackingField
     // Size: 0x8

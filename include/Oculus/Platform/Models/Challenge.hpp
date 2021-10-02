@@ -38,7 +38,7 @@ namespace Oculus::Platform::Models {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly Oculus.Platform.ChallengeCreationType CreationType
     // Size: 0x4

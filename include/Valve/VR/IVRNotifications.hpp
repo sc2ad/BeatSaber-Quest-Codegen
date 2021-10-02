@@ -28,7 +28,7 @@ namespace Valve::VR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // Valve.VR.IVRNotifications/Valve.VR._CreateNotification CreateNotification
     // Size: 0x8

@@ -53,7 +53,7 @@ namespace System::Runtime::CompilerServices {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // private readonly System.Threading.Tasks.Task`1<TResult> m_task
       // Size: 0x8
@@ -130,7 +130,7 @@ namespace System::Runtime::CompilerServices {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter
     // Size: 0xFFFFFFFF

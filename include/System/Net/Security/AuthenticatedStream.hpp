@@ -23,7 +23,7 @@ namespace System::Net::Security {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IO.Stream _InnerStream
     // Size: 0x8

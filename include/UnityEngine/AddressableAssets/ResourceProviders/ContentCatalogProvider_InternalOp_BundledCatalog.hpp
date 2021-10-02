@@ -47,7 +47,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.String m_BundlePath
     // Size: 0x8

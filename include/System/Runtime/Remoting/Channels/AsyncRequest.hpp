@@ -30,7 +30,7 @@ namespace System::Runtime::Remoting::Channels {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // System.Runtime.Remoting.Messaging.IMessageSink ReplySink
     // Size: 0x8

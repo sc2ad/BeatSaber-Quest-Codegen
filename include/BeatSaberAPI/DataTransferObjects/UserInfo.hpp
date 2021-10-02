@@ -21,7 +21,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String platformUserId
     // Size: 0x8

@@ -21,7 +21,7 @@ namespace System::Runtime::Remoting::Channels {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Object _ContextID
     // Size: 0x8

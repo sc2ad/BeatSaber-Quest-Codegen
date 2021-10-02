@@ -31,7 +31,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
     // Size: 0x8

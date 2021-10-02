@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Byte[] mPassword
     // Size: 0x8

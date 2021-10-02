@@ -33,7 +33,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.Vector3 m_Impulse
     // Size: 0xC

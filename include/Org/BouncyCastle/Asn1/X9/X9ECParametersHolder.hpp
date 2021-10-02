@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     // Size: 0x8

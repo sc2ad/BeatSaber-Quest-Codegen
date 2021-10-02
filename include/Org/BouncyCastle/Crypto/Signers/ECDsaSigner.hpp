@@ -56,7 +56,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
     // Size: 0x8

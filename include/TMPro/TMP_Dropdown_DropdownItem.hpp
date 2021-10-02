@@ -55,7 +55,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private TMPro.TMP_Text m_Text
     // Size: 0x8

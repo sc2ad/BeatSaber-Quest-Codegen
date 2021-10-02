@@ -110,7 +110,7 @@ namespace OVR::OpenVR {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetTrackingSpace SetTrackingSpace
     // Size: 0x8

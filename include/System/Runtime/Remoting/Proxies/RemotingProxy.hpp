@@ -56,7 +56,7 @@ namespace System::Runtime::Remoting::Proxies {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink _sink
     // Size: 0x8

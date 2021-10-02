@@ -42,7 +42,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Collections.Generic.Stack`1<TValue> _stack
     // Size: 0x8

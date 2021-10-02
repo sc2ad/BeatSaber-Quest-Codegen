@@ -40,7 +40,7 @@ namespace NUnit::Framework::Constraints {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Lazy`1<System.String> _displayName
     // Size: 0x8

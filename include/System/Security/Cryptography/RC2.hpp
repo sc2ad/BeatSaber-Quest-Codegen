@@ -32,7 +32,7 @@ namespace System::Security::Cryptography {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // protected System.Int32 EffectiveKeySizeValue
     // Size: 0x4

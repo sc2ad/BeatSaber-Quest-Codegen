@@ -37,7 +37,7 @@ namespace Mono::Http {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private Mono.Security.Protocol.Ntlm.MessageBase message
     // Size: 0x8

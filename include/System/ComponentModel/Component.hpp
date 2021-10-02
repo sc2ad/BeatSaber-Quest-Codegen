@@ -42,7 +42,7 @@ namespace System::ComponentModel {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.ComponentModel.ISite site
     // Size: 0x8

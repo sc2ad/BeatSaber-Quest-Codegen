@@ -23,7 +23,7 @@ namespace UnityEngine::Assertions {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.String m_UserMessage
     // Size: 0x8

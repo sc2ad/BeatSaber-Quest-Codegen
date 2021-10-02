@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private GameplayModifiersModelSO _gameplayModifiersModelSO
     // Size: 0x8

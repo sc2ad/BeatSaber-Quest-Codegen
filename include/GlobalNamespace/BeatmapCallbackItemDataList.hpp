@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly BeatmapCallbackItemDataList/SpawnBasicNoteCallback _spawnBasicNoteCallback
     // Size: 0x8

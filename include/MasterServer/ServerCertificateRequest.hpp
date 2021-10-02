@@ -54,7 +54,7 @@ namespace MasterServer {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly ByteArrayNetSerializable[] _certificateList
     // Size: 0x8

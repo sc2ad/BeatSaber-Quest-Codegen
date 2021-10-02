@@ -36,7 +36,7 @@ namespace VRUIControls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
     // Size: 0x8

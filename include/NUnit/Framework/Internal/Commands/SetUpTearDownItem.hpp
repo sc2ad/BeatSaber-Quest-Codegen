@@ -39,7 +39,7 @@ namespace NUnit::Framework::Internal::Commands {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
     // Size: 0x8

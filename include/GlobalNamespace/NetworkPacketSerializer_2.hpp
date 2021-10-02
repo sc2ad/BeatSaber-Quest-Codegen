@@ -105,7 +105,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`1<TPacket> callback
       // Size: 0x8
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Action`1<TPacket> callback
       // Size: 0x8
@@ -289,7 +289,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`1<TPacket> constructor
       // Size: 0x8
@@ -342,7 +342,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Func`2<TData,TPacket> constructor
       // Size: 0x8
@@ -426,7 +426,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public INetworkPacketSubSerializer`1<TData> subSubSerializer
       // Size: 0x8
@@ -469,7 +469,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.Dictionary`2<System.Byte,System.Action`3<LiteNetLib.Utils.NetDataReader,System.Int32,TData>> _messsageHandlers
     // Size: 0x8

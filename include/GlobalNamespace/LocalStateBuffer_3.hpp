@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> _current
     // Size: 0xFFFFFFFF

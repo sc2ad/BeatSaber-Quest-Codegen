@@ -39,7 +39,7 @@ namespace Mono::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public Mono.Net.CFProxy[] proxies
     // Size: 0x8

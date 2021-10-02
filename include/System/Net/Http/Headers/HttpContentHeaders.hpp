@@ -38,7 +38,7 @@ namespace System::Net::Http::Headers {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private readonly System.Net.Http.HttpContent content
     // Size: 0x8

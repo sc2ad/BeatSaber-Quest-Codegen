@@ -51,7 +51,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Generic.IEnumerable`1<TSource> source
     // Size: 0x8

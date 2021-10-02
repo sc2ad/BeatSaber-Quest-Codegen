@@ -27,7 +27,7 @@ namespace System::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Queue _q
     // Size: 0x8

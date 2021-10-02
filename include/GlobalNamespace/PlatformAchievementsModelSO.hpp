@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private PS4AchievementIdsModelSO _ps4AchievementIdsModel
     // Size: 0x8

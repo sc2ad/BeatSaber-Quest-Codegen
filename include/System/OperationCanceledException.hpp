@@ -33,7 +33,7 @@ namespace System {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Threading.CancellationToken _cancellationToken
     // Size: 0x8

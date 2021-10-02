@@ -85,7 +85,7 @@ namespace System::Collections {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public System.Object key
       // Size: 0x8
@@ -125,7 +125,7 @@ namespace System::Collections {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Hashtable/System.Collections.bucket[] buckets
     // Size: 0x8

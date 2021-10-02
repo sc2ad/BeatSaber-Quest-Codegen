@@ -75,7 +75,7 @@ namespace VRUIControls {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly UnityEngine.UI.Graphic graphic
       // Size: 0x8
@@ -126,7 +126,7 @@ namespace VRUIControls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.LayerMask _blockingMask
     // Size: 0x4

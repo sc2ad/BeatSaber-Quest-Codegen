@@ -28,7 +28,7 @@ namespace System::Runtime::ConstrainedExecution {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Runtime.ConstrainedExecution.Consistency _consistency
     // Size: 0x4

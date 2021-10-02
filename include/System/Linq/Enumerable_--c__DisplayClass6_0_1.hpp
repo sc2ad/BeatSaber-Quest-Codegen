@@ -32,7 +32,7 @@ namespace System::Linq {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<TSource,System.Boolean> predicate1
     // Size: 0x8

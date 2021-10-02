@@ -44,7 +44,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty
     // Size: 0x8

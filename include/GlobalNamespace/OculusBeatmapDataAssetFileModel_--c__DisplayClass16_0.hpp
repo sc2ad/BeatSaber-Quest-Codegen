@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
     // Size: 0x8

@@ -56,7 +56,7 @@ namespace System::Security::Claims {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Byte[] m_userSerializationData
     // Size: 0x8

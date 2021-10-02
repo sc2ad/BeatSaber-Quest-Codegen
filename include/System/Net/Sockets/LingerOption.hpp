@@ -21,7 +21,7 @@ namespace System::Net::Sockets {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Boolean enabled
     // Size: 0x1

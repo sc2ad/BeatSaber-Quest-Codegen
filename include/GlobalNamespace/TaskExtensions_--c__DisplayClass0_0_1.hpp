@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<T> tcs
     // Size: 0x8

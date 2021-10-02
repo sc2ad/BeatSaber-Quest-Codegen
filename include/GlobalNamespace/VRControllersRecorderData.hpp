@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       #ifdef USE_CODEGEN_FIELDS
       public:
       #else
-      private:
+      protected:
       #endif
       // public readonly UnityEngine.Vector3 pos
       // Size: 0xC
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
     // Size: 0x8

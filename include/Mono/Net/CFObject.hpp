@@ -25,7 +25,7 @@ namespace Mono::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.IntPtr <Handle>k__BackingField
     // Size: 0x8

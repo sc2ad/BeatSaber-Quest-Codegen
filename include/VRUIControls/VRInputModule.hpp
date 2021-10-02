@@ -78,7 +78,7 @@ namespace VRUIControls {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private VRUIControls.VRPointer _vrPointer
     // Size: 0x8

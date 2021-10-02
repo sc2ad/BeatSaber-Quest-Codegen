@@ -27,7 +27,7 @@ namespace TMPro {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public TMPro.ColorMode colorMode
     // Size: 0x4

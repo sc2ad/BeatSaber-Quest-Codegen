@@ -21,7 +21,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.String content
     // Size: 0x8

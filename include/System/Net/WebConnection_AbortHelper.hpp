@@ -30,7 +30,7 @@ namespace System::Net {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Net.WebConnection Connection
     // Size: 0x8

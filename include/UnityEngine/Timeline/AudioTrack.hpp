@@ -63,7 +63,7 @@ namespace UnityEngine::Timeline {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
     // Size: 0x8

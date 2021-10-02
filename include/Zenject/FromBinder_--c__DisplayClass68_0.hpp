@@ -49,7 +49,7 @@ namespace Zenject {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // public System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> method
     // Size: 0x8

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private UnityEngine.CanvasGroup[] _canvases
     // Size: 0x8

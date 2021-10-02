@@ -35,7 +35,7 @@ namespace System::Runtime::Serialization {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Collections.Hashtable m_objectSeenTable
     // Size: 0x8

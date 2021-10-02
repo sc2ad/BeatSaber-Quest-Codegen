@@ -31,7 +31,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // private System.Int32 m_MeshInstanceID
     // Size: 0x4

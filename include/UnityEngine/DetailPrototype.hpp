@@ -36,7 +36,7 @@ namespace UnityEngine {
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
-    private:
+    protected:
     #endif
     // UnityEngine.GameObject m_Prototype
     // Size: 0x8
