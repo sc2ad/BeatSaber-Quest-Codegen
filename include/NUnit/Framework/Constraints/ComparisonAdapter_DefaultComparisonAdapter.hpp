@@ -23,7 +23,7 @@ namespace NUnit::Framework::Constraints {
   class ComparisonAdapter::DefaultComparisonAdapter : public NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x192A7C4
+    // Offset: 0x1911188
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
     // Base method: System.Void ComparisonAdapter::.ctor()
     // Base method: System.Void Object::.ctor()

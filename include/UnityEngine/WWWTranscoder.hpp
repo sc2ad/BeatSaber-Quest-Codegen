@@ -53,31 +53,31 @@ namespace UnityEngine {
     // Set static field: static private System.Byte[] qpForbidden
     static void _set_qpForbidden(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x25FCBF0
+    // Offset: 0x25E4698
     static void _cctor();
     // static private System.Byte Hex2Byte(System.Byte[] b, System.Int32 offset)
-    // Offset: 0x25FC328
+    // Offset: 0x25E3DD0
     static uint8_t Hex2Byte(::ArrayW<uint8_t> b, int offset);
     // static private System.Byte[] Byte2Hex(System.Byte b, System.Byte[] hexChars)
-    // Offset: 0x25FC3E8
+    // Offset: 0x25E3E90
     static ::ArrayW<uint8_t> Byte2Hex(uint8_t b, ::ArrayW<uint8_t> hexChars);
     // static public System.Byte[] URLEncode(System.Byte[] toEncode)
-    // Offset: 0x25FC0BC
+    // Offset: 0x25E3B64
     static ::ArrayW<uint8_t> URLEncode(::ArrayW<uint8_t> toEncode);
     // static public System.Byte[] Encode(System.Byte[] input, System.Byte escapeChar, System.Byte[] space, System.Byte[] forbidden, System.Boolean uppercase)
-    // Offset: 0x25FC4AC
+    // Offset: 0x25E3F54
     static ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> input, uint8_t escapeChar, ::ArrayW<uint8_t> space, ::ArrayW<uint8_t> forbidden, bool uppercase);
     // static private System.Boolean ByteArrayContains(System.Byte[] array, System.Byte b)
-    // Offset: 0x25FC800
+    // Offset: 0x25E42A8
     static bool ByteArrayContains(::ArrayW<uint8_t> array, uint8_t b);
     // static public System.Byte[] URLDecode(System.Byte[] toEncode)
-    // Offset: 0x25FC84C
+    // Offset: 0x25E42F4
     static ::ArrayW<uint8_t> URLDecode(::ArrayW<uint8_t> toEncode);
     // static private System.Boolean ByteSubArrayEquals(System.Byte[] array, System.Int32 index, System.Byte[] comperand)
-    // Offset: 0x25FCB68
+    // Offset: 0x25E4610
     static bool ByteSubArrayEquals(::ArrayW<uint8_t> array, int index, ::ArrayW<uint8_t> comperand);
     // static public System.Byte[] Decode(System.Byte[] input, System.Byte escapeChar, System.Byte[] space)
-    // Offset: 0x25FC8C0
+    // Offset: 0x25E4368
     static ::ArrayW<uint8_t> Decode(::ArrayW<uint8_t> input, uint8_t escapeChar, ::ArrayW<uint8_t> space);
   }; // UnityEngine.WWWTranscoder
   #pragma pack(pop)

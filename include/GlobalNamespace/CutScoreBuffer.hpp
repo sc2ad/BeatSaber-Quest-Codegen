@@ -126,28 +126,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> _didFinishEvent
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>*& dyn__didFinishEvent();
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0x11A2ECC
+    // Offset: 0x1137820
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0x11A2EE0
+    // Offset: 0x1137834
     int get_multiplier();
     // public ILazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x11A2EE8
+    // Offset: 0x113783C
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Init(in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x11A2EF0
+    // Offset: 0x1137844
     void Init(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier);
     // private System.Void RefreshScores()
-    // Offset: 0x11A304C
+    // Offset: 0x11379A0
     void RefreshScores();
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x11A30BC
+    // Offset: 0x1137A10
     void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x11A30C0
+    // Offset: 0x1137A14
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0x11A331C
+    // Offset: 0x1137C70
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

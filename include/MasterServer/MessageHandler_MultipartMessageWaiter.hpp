@@ -98,26 +98,26 @@ namespace MasterServer {
     // Get instance field reference: private System.Boolean _isDisposed
     bool& dyn__isDisposed();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12E373C
+    // Offset: 0x12F4AB0
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x12E375C
+    // Offset: 0x12F4AD0
     ::ArrayW<uint8_t> get_data();
     // public System.Int32 get_length()
-    // Offset: 0x12E3764
+    // Offset: 0x12F4AD8
     int get_length();
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x12E2BE0
+    // Offset: 0x12F3F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::MultipartMessageWaiter* New_ctor(GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(MasterServer.IMasterServerMultipartMessage packet)
-    // Offset: 0x12E2CB0
+    // Offset: 0x12F4024
     void Append(MasterServer::IMasterServerMultipartMessage* packet);
     // public override System.Void Dispose()
-    // Offset: 0x12E2C6C
+    // Offset: 0x12F3FE0
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

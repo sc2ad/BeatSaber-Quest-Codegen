@@ -43,7 +43,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: uiExpanded and: tile
     char __padding2[0x3] = {};
-    // [OptionalFieldAttribute] Offset: 0xEFAD68
+    // [OptionalFieldAttribute] Offset: 0xEFA9D0
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x20
@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x16FF10C
+    // Offset: 0x16E3AD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

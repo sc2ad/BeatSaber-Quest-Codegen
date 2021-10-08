@@ -72,32 +72,32 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Int32 <>l__initialThreadId
     int& dyn_$$l__initialThreadId();
     // private HoudiniEngineUnity.JSONNode System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current()
-    // Offset: 0x1705D4C
+    // Offset: 0x16EA710
     HoudiniEngineUnity::JSONNode* System_Collections_Generic_IEnumerator$HoudiniEngineUnity_JSONNode$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1705DB4
+    // Offset: 0x16EA778
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1702404
+    // Offset: 0x16E6DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNode::$get_Children$d__40* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::$get_Children$d__40::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNode::$get_Children$d__40*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1705D30
+    // Offset: 0x16EA6F4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1705D34
+    // Offset: 0x16EA6F8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1705D54
+    // Offset: 0x16EA718
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<HoudiniEngineUnity.JSONNode> System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator()
-    // Offset: 0x1705DBC
+    // Offset: 0x16EA780
     System::Collections::Generic::IEnumerator_1<HoudiniEngineUnity::JSONNode*>* System_Collections_Generic_IEnumerable$HoudiniEngineUnity_JSONNode$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1705E54
+    // Offset: 0x16EA818
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.<get_Children>d__40
   #pragma pack(pop)

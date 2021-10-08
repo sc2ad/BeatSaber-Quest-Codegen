@@ -82,10 +82,10 @@ namespace Mono::Net {
     // Get instance field reference: public System.Threading.ManualResetEvent evt
     System::Threading::ManualResetEvent*& dyn_evt();
     // public System.Void Dispose()
-    // Offset: 0x17B928C
+    // Offset: 0x179CC50
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x17B70C4
+    // Offset: 0x179AA88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

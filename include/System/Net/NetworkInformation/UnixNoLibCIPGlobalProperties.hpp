@@ -21,12 +21,12 @@ namespace System::Net::NetworkInformation {
   class UnixNoLibCIPGlobalProperties : public System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
     // public override System.String get_DomainName()
-    // Offset: 0x16493AC
+    // Offset: 0x162DD70
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.String CommonUnixIPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x16457F0
+    // Offset: 0x162A1B4
     // Implemented from: System.Net.NetworkInformation.UnixIPGlobalProperties
     // Base method: System.Void UnixIPGlobalProperties::.ctor()
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()

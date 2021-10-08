@@ -61,14 +61,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private readonly System.Int32 m_confWidth
     int& dyn_m_confWidth();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, System.Int32 confWidth)
-    // Offset: 0x1F85F90
+    // Offset: 0x1F6C9F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafUtilities::ConfigureBasepointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, int confWidth) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafUtilities::ConfigureBasepointCallback*, creationType>(curve, confWidth)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1F86CB4
+    // Offset: 0x1F6D718
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/Org.BouncyCastle.Math.EC.Multiplier.ConfigureBasepointCallback
   #pragma pack(pop)

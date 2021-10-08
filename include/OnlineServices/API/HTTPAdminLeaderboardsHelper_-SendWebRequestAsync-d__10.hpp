@@ -120,10 +120,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x111C4F0
+    // Offset: 0x1103914
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x111CA20
+    // Offset: 0x1103E44
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.<SendWebRequestAsync>d__10
   // WARNING Not writing size check since size may be invalid!

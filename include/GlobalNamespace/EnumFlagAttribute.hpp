@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String enumName
     ::Il2CppString*& dyn_enumName();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x137ED50
+    // Offset: 0x1363714
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumFlagAttribute* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumFlagAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumFlagAttribute*, creationType>(name)));
     }
     // public System.Void .ctor()
-    // Offset: 0x137ED48
+    // Offset: 0x136370C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

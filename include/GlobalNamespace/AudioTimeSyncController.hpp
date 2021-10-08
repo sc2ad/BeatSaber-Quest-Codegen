@@ -124,21 +124,21 @@ namespace GlobalNamespace {
     float stopSyncDeltaTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xF000C4
+    // [SpaceAttribute] Offset: 0xEFFD3C
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF000FC
+    // [SpaceAttribute] Offset: 0xEFFD74
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xF00134
+    // [InjectAttribute] Offset: 0xEFFDAC
     // private readonly AudioTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -295,70 +295,70 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastFrameDeltaSongTime
     float& dyn__lastFrameDeltaSongTime();
     // public AudioTimeSyncController/State get_state()
-    // Offset: 0x1248518
+    // Offset: 0x261D060
     GlobalNamespace::AudioTimeSyncController::State get_state();
     // public System.Single get_songTime()
-    // Offset: 0x1248520
+    // Offset: 0x261D068
     float get_songTime();
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x1248528
+    // Offset: 0x261D070
     float get_lastFrameDeltaSongTime();
     // public System.Single get_songLength()
-    // Offset: 0x1248530
+    // Offset: 0x261D078
     float get_songLength();
     // public System.Boolean get_isAudioLoaded()
-    // Offset: 0x1248558
+    // Offset: 0x261D0A0
     bool get_isAudioLoaded();
     // public System.Single get_songEndTime()
-    // Offset: 0x124858C
+    // Offset: 0x261D0D4
     float get_songEndTime();
     // public System.Single get_timeScale()
-    // Offset: 0x12485B4
+    // Offset: 0x261D0FC
     float get_timeScale();
     // public System.Double get_dspTimeOffset()
-    // Offset: 0x12485BC
+    // Offset: 0x261D104
     double get_dspTimeOffset();
     // public UnityEngine.WaitUntil get_waitUntilAudioIsLoaded()
-    // Offset: 0x12485C4
+    // Offset: 0x261D10C
     UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
     // public System.Boolean get_isReady()
-    // Offset: 0x124865C
+    // Offset: 0x261D1A4
     bool get_isReady();
     // public UnityEngine.AudioSource get_audioSource()
-    // Offset: 0x1248664
+    // Offset: 0x261D1AC
     UnityEngine::AudioSource* get_audioSource();
     // private System.Single get_timeSinceStart()
-    // Offset: 0x1248B60
+    // Offset: 0x261D6A8
     float get_timeSinceStart();
     // protected System.Void Awake()
-    // Offset: 0x124866C
+    // Offset: 0x261D1B4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x12486C0
+    // Offset: 0x261D208
     void Start();
     // protected System.Void Update()
-    // Offset: 0x12487D8
+    // Offset: 0x261D320
     void Update();
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x1248B8C
+    // Offset: 0x261D6D4
     void StartSong(float startTimeOffset);
     // public System.Void SeekTo(System.Single startTimeOffset)
-    // Offset: 0x1248B98
+    // Offset: 0x261D6E0
     void SeekTo(float startTimeOffset);
     // public System.Void StopSong()
-    // Offset: 0x1248D40
+    // Offset: 0x261D888
     void StopSong();
     // public System.Void Pause()
-    // Offset: 0x1248D78
+    // Offset: 0x261D8C0
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x1248DC0
+    // Offset: 0x261D908
     void Resume();
     // private System.Boolean <get_waitUntilAudioIsLoaded>b__27_0()
-    // Offset: 0x1248E08
+    // Offset: 0x261D950
     bool $get_waitUntilAudioIsLoaded$b__27_0();
     // public System.Void .ctor()
-    // Offset: 0x1248DF4
+    // Offset: 0x261D93C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -50,17 +50,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.AnimationCurve self
     UnityEngine::AnimationCurve*& dyn_self();
     // public System.Void .ctor(UnityEngine.AnimationCurve self)
-    // Offset: 0x1708584
+    // Offset: 0x16ECF48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_AnimationCurve* New_ctor(UnityEngine::AnimationCurve* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_AnimationCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_AnimationCurve*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x17085B0
+    // Offset: 0x16ECF74
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_AnimationCurve other)
-    // Offset: 0x17085C0
+    // Offset: 0x16ECF84
     bool IsEquivalentTo(HoudiniEngineUnity::Test_AnimationCurve* other);
   }; // HoudiniEngineUnity.Test_AnimationCurve
   #pragma pack(pop)

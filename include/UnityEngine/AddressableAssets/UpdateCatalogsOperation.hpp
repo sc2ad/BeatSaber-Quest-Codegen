@@ -74,32 +74,32 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>& dyn_m_DepOp();
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl aa)
-    // Offset: 0x1596AD0
+    // Offset: 0x157D494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UpdateCatalogsOperation* New_ctor(UnityEngine::AddressableAssets::AddressablesImpl* aa) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::UpdateCatalogsOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UpdateCatalogsOperation*, creationType>(aa)));
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> Start(System.Collections.Generic.IEnumerable`1<System.String> catalogIds)
-    // Offset: 0x1596B34
+    // Offset: 0x157D4F8
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> Start(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* catalogIds);
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x15A21BC
+    // Offset: 0x1588B80
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Destroy()
-    // Offset: 0x15A22E4
+    // Offset: 0x1588CA8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Destroy()
     void Destroy();
     // protected override System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> dependencies)
-    // Offset: 0x15A236C
+    // Offset: 0x1588D30
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> dependencies)
     void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
     // protected override System.Void Execute()
-    // Offset: 0x15A2418
+    // Offset: 0x1588DDC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

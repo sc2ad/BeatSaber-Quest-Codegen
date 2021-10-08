@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class OVRGearVrControllerTest : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16C100C
+    // Offset: 0x16A59D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

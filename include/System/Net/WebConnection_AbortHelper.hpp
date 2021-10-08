@@ -46,10 +46,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.WebConnection Connection
     System::Net::WebConnection*& dyn_Connection();
     // public System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x177E390
+    // Offset: 0x1762D54
     void Abort(::Il2CppObject* sender, System::EventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x1777FEC
+    // Offset: 0x175C9B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

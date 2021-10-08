@@ -15,10 +15,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
   class AlertDescription : public ::Il2CppObject {
     public:
     // static public System.String GetName(System.Byte alertDescription)
-    // Offset: 0x13A3BE4
+    // Offset: 0x13885A8
     static ::Il2CppString* GetName(uint8_t alertDescription);
     // static public System.String GetText(System.Byte alertDescription)
-    // Offset: 0x13A3E64
+    // Offset: 0x1388828
     static ::Il2CppString* GetText(uint8_t alertDescription);
   }; // Org.BouncyCastle.Crypto.Tls.AlertDescription
   #pragma pack(pop)

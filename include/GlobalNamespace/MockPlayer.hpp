@@ -242,233 +242,233 @@ namespace GlobalNamespace {
     // Get instance field reference: private MockPlayerFiniteStateMachine _fsm
     GlobalNamespace::MockPlayerFiniteStateMachine*& dyn__fsm();
     // public System.Boolean get_isReady()
-    // Offset: 0x1190C7C
+    // Offset: 0x11772F0
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x1190C84
+    // Offset: 0x11772F8
     void set_isReady(bool value);
     // public System.Boolean get_isMe()
-    // Offset: 0x1190CC0
+    // Offset: 0x1177334
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x1190CC8
+    // Offset: 0x117733C
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1190CE4
+    // Offset: 0x1177358
     ::Il2CppString* get_userName();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x1190D00
+    // Offset: 0x1177374
     int get_sortIndex();
     // public System.Boolean get_autoConnect()
-    // Offset: 0x1190D1C
+    // Offset: 0x1177390
     bool get_autoConnect();
     // public System.Boolean get_inactiveByDefault()
-    // Offset: 0x1190D38
+    // Offset: 0x11773AC
     bool get_inactiveByDefault();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1190D54
+    // Offset: 0x11773C8
     bool get_isConnected();
     // protected System.Void set_isConnected(System.Boolean value)
-    // Offset: 0x1190D5C
+    // Offset: 0x11773D0
     void set_isConnected(bool value);
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x1190D68
+    // Offset: 0x11773DC
     GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // private System.Void set_multiplayerAvatarData(MultiplayerAvatarData value)
-    // Offset: 0x1190D78
+    // Offset: 0x11773EC
     void set_multiplayerAvatarData(GlobalNamespace::MultiplayerAvatarData value);
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1190D94
+    // Offset: 0x1177408
     bool get_isConnectionOwner();
     // public System.Void set_isConnectionOwner(System.Boolean value)
-    // Offset: 0x1190D9C
+    // Offset: 0x1177410
     void set_isConnectionOwner(bool value);
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0x1190DA8
+    // Offset: 0x117741C
     GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x1190DB0
+    // Offset: 0x1177424
     float get_offsetSyncTime();
     // public System.Single get_currentLatency()
-    // Offset: 0x1190E08
+    // Offset: 0x117747C
     float get_currentLatency();
     // public System.Boolean get_isKicked()
-    // Offset: 0x1190E40
+    // Offset: 0x11774B4
     bool get_isKicked();
     // public System.Void set_isKicked(System.Boolean value)
-    // Offset: 0x1190E48
+    // Offset: 0x11774BC
     void set_isKicked(bool value);
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x1190E54
+    // Offset: 0x11774C8
     int get_currentPartySize();
     // public System.Void set_currentPartySize(System.Int32 value)
-    // Offset: 0x1190E5C
+    // Offset: 0x11774D0
     void set_currentPartySize(int value);
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x1190E64
+    // Offset: 0x11774D8
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public System.Void set_selectionMask(BeatmapLevelSelectionMask value)
-    // Offset: 0x1190E78
+    // Offset: 0x11774EC
     void set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x1190E8C
+    // Offset: 0x1177500
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x1190EA0
+    // Offset: 0x1177514
     void set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x1190EB4
+    // Offset: 0x1177528
     bool get_isMyPartyOwner();
     // public System.Void set_isMyPartyOwner(System.Boolean value)
-    // Offset: 0x1190EBC
+    // Offset: 0x1177530
     void set_isMyPartyOwner(bool value);
     // public IConnectedPlayer get_connectedPlayer()
-    // Offset: 0x1190EC8
+    // Offset: 0x117753C
     GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
     // public System.Boolean get_canJoin()
-    // Offset: 0x1190ECC
+    // Offset: 0x1177540
     bool get_canJoin();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x1190ED4
+    // Offset: 0x1177548
     bool get_requiresPassword();
     // public System.Void set_requiresPassword(System.Boolean value)
-    // Offset: 0x1190EDC
+    // Offset: 0x1177550
     void set_requiresPassword(bool value);
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x1190EE8
+    // Offset: 0x117755C
     bool get_isWaitingOnJoin();
     // public System.Void set_isWaitingOnJoin(System.Boolean value)
-    // Offset: 0x1190EF0
+    // Offset: 0x1177564
     void set_isWaitingOnJoin(bool value);
     // public System.Boolean get_canInvite()
-    // Offset: 0x1190EFC
+    // Offset: 0x1177570
     bool get_canInvite();
     // public System.Void set_canInvite(System.Boolean value)
-    // Offset: 0x1190F04
+    // Offset: 0x1177578
     void set_canInvite(bool value);
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x1190F10
+    // Offset: 0x1177584
     bool get_isWaitingOnInvite();
     // public System.Void set_isWaitingOnInvite(System.Boolean value)
-    // Offset: 0x1190F18
+    // Offset: 0x117758C
     void set_isWaitingOnInvite(bool value);
     // public System.Boolean get_canKick()
-    // Offset: 0x1190F24
+    // Offset: 0x1177598
     bool get_canKick();
     // public System.Void set_canKick(System.Boolean value)
-    // Offset: 0x1190F2C
+    // Offset: 0x11775A0
     void set_canKick(bool value);
     // public System.Boolean get_canLeave()
-    // Offset: 0x1190F38
+    // Offset: 0x11775AC
     bool get_canLeave();
     // public System.Void set_canLeave(System.Boolean value)
-    // Offset: 0x1190F40
+    // Offset: 0x11775B4
     void set_canLeave(bool value);
     // public System.Boolean get_canBlock()
-    // Offset: 0x1190F4C
+    // Offset: 0x11775C0
     bool get_canBlock();
     // public System.Void set_canBlock(System.Boolean value)
-    // Offset: 0x1190F54
+    // Offset: 0x11775C8
     void set_canBlock(bool value);
     // public System.Boolean get_canUnblock()
-    // Offset: 0x1190F60
+    // Offset: 0x11775D4
     bool get_canUnblock();
     // public System.Void set_canUnblock(System.Boolean value)
-    // Offset: 0x1190F68
+    // Offset: 0x11775DC
     void set_canUnblock(bool value);
     // public System.Boolean get_isPlayer()
-    // Offset: 0x1190F74
+    // Offset: 0x11775E8
     bool get_isPlayer();
     // public System.Void set_isPlayer(System.Boolean value)
-    // Offset: 0x119102C
+    // Offset: 0x11776A0
     void set_isPlayer(bool value);
     // public System.Boolean get_isDedicatedServer()
-    // Offset: 0x119111C
+    // Offset: 0x1177790
     bool get_isDedicatedServer();
     // public System.Void set_isDedicatedServer(System.Boolean value)
-    // Offset: 0x119116C
+    // Offset: 0x11777E0
     void set_isDedicatedServer(bool value);
     // public System.Boolean get_wantsToPlayNextLevel()
-    // Offset: 0x11911CC
+    // Offset: 0x1177840
     bool get_wantsToPlayNextLevel();
     // public System.Void set_wantsToPlayNextLevel(System.Boolean value)
-    // Offset: 0x119121C
+    // Offset: 0x1177890
     void set_wantsToPlayNextLevel(bool value);
     // public System.Boolean get_wasActiveAtLevelStart()
-    // Offset: 0x119127C
+    // Offset: 0x11778F0
     bool get_wasActiveAtLevelStart();
     // public System.Void set_wasActiveAtLevelStart(System.Boolean value)
-    // Offset: 0x11912CC
+    // Offset: 0x1177940
     void set_wasActiveAtLevelStart(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x119132C
+    // Offset: 0x11779A0
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x119137C
+    // Offset: 0x11779F0
     void set_isActive(bool value);
     // public System.Boolean get_finishedLevel()
-    // Offset: 0x11913DC
+    // Offset: 0x1177A50
     bool get_finishedLevel();
     // public System.Void set_finishedLevel(System.Boolean value)
-    // Offset: 0x119142C
+    // Offset: 0x1177AA0
     void set_finishedLevel(bool value);
     // public System.Boolean get_isTerminating()
-    // Offset: 0x119148C
+    // Offset: 0x1177B00
     bool get_isTerminating();
     // public System.Void set_isTerminating(System.Boolean value)
-    // Offset: 0x11914DC
+    // Offset: 0x1177B50
     void set_isTerminating(bool value);
     // public System.Void .ctor(MockPlayerSettings settings, System.Boolean isLocalPlayer)
-    // Offset: 0x119153C
+    // Offset: 0x1177BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayer* New_ctor(GlobalNamespace::MockPlayerSettings* settings, bool isLocalPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayer*, creationType>(settings, isLocalPlayer)));
     }
     // public System.Boolean SetState(System.String state, System.Boolean value)
-    // Offset: 0x119108C
+    // Offset: 0x1177700
     bool SetState(::Il2CppString* state, bool value);
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x1190FC4
+    // Offset: 0x1177638
     bool HasState(::Il2CppString* state);
     // public System.Void Connect(IMultiplayerSessionManager multiplayerSessionManager, AvatarPartsModel avatarPartsModel, BeatmapLevelsModel beatmapLevelsModel, NodePoseSyncStateManager nodePoseSyncStateManager)
-    // Offset: 0x11915E8
+    // Offset: 0x1177C5C
     void Connect(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::AvatarPartsModel* avatarPartsModel, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
     // public System.Void Disconnect()
-    // Offset: 0x1191B7C
+    // Offset: 0x1178580
     void Disconnect();
     // public System.Void Unblock()
-    // Offset: 0x1191BB0
+    // Offset: 0x11785B4
     void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x1191C10
+    // Offset: 0x1178614
     void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x1191C70
+    // Offset: 0x1178674
     void SendInviteResponse(bool accept);
     // public System.Void Block()
-    // Offset: 0x1191CD0
+    // Offset: 0x11786D4
     void Block();
     // public System.Void Leave()
-    // Offset: 0x1191D30
+    // Offset: 0x1178734
     void Leave();
     // public System.Void Kick()
-    // Offset: 0x1191D34
+    // Offset: 0x1178738
     void Kick();
     // public System.Void Invite()
-    // Offset: 0x1191D94
+    // Offset: 0x1178798
     void Invite();
     // public System.Void Join(System.String password)
-    // Offset: 0x1191DF4
+    // Offset: 0x11787F8
     void Join(::Il2CppString* password);
     // public System.Void Join()
-    // Offset: 0x1191E54
+    // Offset: 0x1178858
     void Join();
     // public System.Void SimulateFail()
-    // Offset: 0x1191EB4
+    // Offset: 0x11788B8
     void SimulateFail();
     // public System.Void SimulateGiveUp()
-    // Offset: 0x1191F04
+    // Offset: 0x1178908
     void SimulateGiveUp();
   }; // MockPlayer
   #pragma pack(pop)

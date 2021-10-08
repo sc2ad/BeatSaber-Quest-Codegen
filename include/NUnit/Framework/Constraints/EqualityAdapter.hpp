@@ -18,7 +18,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean CanCompare(System.Object x, System.Object y)
-    // Offset: 0x192D8CC
+    // Offset: 0x1914290
     bool CanCompare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // NUnit.Framework.Constraints.EqualityAdapter
   #pragma pack(pop)

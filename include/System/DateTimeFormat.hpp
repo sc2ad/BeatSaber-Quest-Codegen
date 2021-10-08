@@ -47,64 +47,64 @@ namespace System {
     // Set static field: static System.String[] fixedNumberFormats
     static void _set_fixedNumberFormats(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1B2A32C
+    // Offset: 0x1B0DCF0
     static void _cctor();
     // static System.Void FormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 value, System.Int32 len)
-    // Offset: 0x1B280A8
+    // Offset: 0x1B0BA6C
     static void FormatDigits(System::Text::StringBuilder* outputBuffer, int value, int len);
     // static System.Void FormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 value, System.Int32 len, System.Boolean overrideLengthLimit)
-    // Offset: 0x1B28128
+    // Offset: 0x1B0BAEC
     static void FormatDigits(System::Text::StringBuilder* outputBuffer, int value, int len, bool overrideLengthLimit);
     // static private System.Void HebrewFormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 digits)
-    // Offset: 0x1B28204
+    // Offset: 0x1B0BBC8
     static void HebrewFormatDigits(System::Text::StringBuilder* outputBuffer, int digits);
     // static System.Int32 ParseRepeatPattern(System.String format, System.Int32 pos, System.Char patternChar)
-    // Offset: 0x1B28290
+    // Offset: 0x1B0BC54
     static int ParseRepeatPattern(::Il2CppString* format, int pos, ::Il2CppChar patternChar);
     // static private System.String FormatDayOfWeek(System.Int32 dayOfWeek, System.Int32 repeat, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B28304
+    // Offset: 0x1B0BCC8
     static ::Il2CppString* FormatDayOfWeek(int dayOfWeek, int repeat, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String FormatMonth(System.Int32 month, System.Int32 repeatCount, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B2833C
+    // Offset: 0x1B0BD00
     static ::Il2CppString* FormatMonth(int month, int repeatCount, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String FormatHebrewMonthName(System.DateTime time, System.Int32 month, System.Int32 repeatCount, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B28374
+    // Offset: 0x1B0BD38
     static ::Il2CppString* FormatHebrewMonthName(System::DateTime time, int month, int repeatCount, System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Int32 ParseQuoteString(System.String format, System.Int32 pos, System.Text.StringBuilder result)
-    // Offset: 0x1B28438
+    // Offset: 0x1B0BDFC
     static int ParseQuoteString(::Il2CppString* format, int pos, System::Text::StringBuilder* result);
     // static System.Int32 ParseNextChar(System.String format, System.Int32 pos)
-    // Offset: 0x1B28600
+    // Offset: 0x1B0BFC4
     static int ParseNextChar(::Il2CppString* format, int pos);
     // static private System.Boolean IsUseGenitiveForm(System.String format, System.Int32 index, System.Int32 tokenLen, System.Char patternToMatch)
-    // Offset: 0x1B28640
+    // Offset: 0x1B0C004
     static bool IsUseGenitiveForm(::Il2CppString* format, int index, int tokenLen, ::Il2CppChar patternToMatch);
     // static private System.String FormatCustomized(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
-    // Offset: 0x1B28780
+    // Offset: 0x1B0C144
     static ::Il2CppString* FormatCustomized(System::DateTime dateTime, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi, System::TimeSpan offset);
     // static private System.Void FormatCustomizedTimeZone(System.DateTime dateTime, System.TimeSpan offset, System.String format, System.Int32 tokenLen, System.Boolean timeOnly, System.Text.StringBuilder result)
-    // Offset: 0x1B29530
+    // Offset: 0x1B0CEF4
     static void FormatCustomizedTimeZone(System::DateTime dateTime, System::TimeSpan offset, ::Il2CppString* format, int tokenLen, bool timeOnly, System::Text::StringBuilder* result);
     // static private System.Void FormatCustomizedRoundripTimeZone(System.DateTime dateTime, System.TimeSpan offset, System.Text.StringBuilder result)
-    // Offset: 0x1B2986C
+    // Offset: 0x1B0D230
     static void FormatCustomizedRoundripTimeZone(System::DateTime dateTime, System::TimeSpan offset, System::Text::StringBuilder* result);
     // static System.String GetRealFormat(System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B29A9C
+    // Offset: 0x1B0D460
     static ::Il2CppString* GetRealFormat(::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String ExpandPredefinedFormat(System.String format, ref System.DateTime dateTime, ref System.Globalization.DateTimeFormatInfo dtfi, ref System.TimeSpan offset)
-    // Offset: 0x1B29D48
+    // Offset: 0x1B0D70C
     static ::Il2CppString* ExpandPredefinedFormat(::Il2CppString* format, ByRef<System::DateTime> dateTime, ByRef<System::Globalization::DateTimeFormatInfo*> dtfi, ByRef<System::TimeSpan> offset);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B26AC8
+    // Offset: 0x1B0A48C
     static ::Il2CppString* Format(System::DateTime dateTime, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
-    // Offset: 0x1B2A0F8
+    // Offset: 0x1B0DABC
     static ::Il2CppString* Format(System::DateTime dateTime, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi, System::TimeSpan offset);
     // static System.Void InvalidFormatForLocal(System.String format, System.DateTime dateTime)
-    // Offset: 0x1B2A0F4
+    // Offset: 0x1B0DAB8
     static void InvalidFormatForLocal(::Il2CppString* format, System::DateTime dateTime);
     // static System.Void InvalidFormatForUtc(System.String format, System.DateTime dateTime)
-    // Offset: 0x1B29A98
+    // Offset: 0x1B0D45C
     static void InvalidFormatForUtc(::Il2CppString* format, System::DateTime dateTime);
   }; // System.DateTimeFormat
   #pragma pack(pop)

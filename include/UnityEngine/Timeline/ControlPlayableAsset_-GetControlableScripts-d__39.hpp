@@ -114,32 +114,32 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Int32 <>7__wrap2
     int& dyn_$$7__wrap2();
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()
-    // Offset: 0x19F950C
+    // Offset: 0x19DDED0
     UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19F9574
+    // Offset: 0x19DDF38
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x19F7AC8
+    // Offset: 0x19DC48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControlPlayableAsset::$GetControlableScripts$d__39* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControlPlayableAsset::$GetControlableScripts$d__39*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x19F93B4
+    // Offset: 0x19DDD78
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x19F93B8
+    // Offset: 0x19DDD7C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19F9514
+    // Offset: 0x19DDED8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.MonoBehaviour> System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator()
-    // Offset: 0x19F957C
+    // Offset: 0x19DDF40
     System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>* System_Collections_Generic_IEnumerable$UnityEngine_MonoBehaviour$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x19F9628
+    // Offset: 0x19DDFEC
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.ControlPlayableAsset/UnityEngine.Timeline.<GetControlableScripts>d__39
   #pragma pack(pop)

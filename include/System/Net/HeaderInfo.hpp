@@ -74,7 +74,7 @@ namespace System::Net {
     // Get instance field reference: readonly System.Boolean AllowMultiValues
     bool& dyn_AllowMultiValues();
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
-    // Offset: 0x1839E28
+    // Offset: 0x181F7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfo::.ctor");

@@ -28,12 +28,12 @@ namespace UnityEngine::TestTools::TestRunner {
   class InvalidSignatureException : public NUnit::Framework::ResultStateException {
     public:
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x1675B14
+    // Offset: 0x165A4D8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1675B0C
+    // Offset: 0x165A4D0
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

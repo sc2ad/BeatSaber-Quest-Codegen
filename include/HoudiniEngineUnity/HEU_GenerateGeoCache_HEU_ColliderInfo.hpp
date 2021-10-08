@@ -192,7 +192,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _isTrigger
     bool& dyn__isTrigger();
     // public System.Void .ctor()
-    // Offset: 0x14A6640
+    // Offset: 0x148D004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,7 +21,7 @@ namespace NetEase::Docker {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDD98
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDA00
     // private System.Int32 <LogoutCode>k__BackingField
     // Size: 0x4
     // Offset: 0x0
@@ -42,7 +42,7 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <LogoutCode>k__BackingField
     int& dyn_$LogoutCode$k__BackingField();
     // public System.Void set_LogoutCode(System.Int32 value)
-    // Offset: 0x261FFF0
+    // Offset: 0x2607A98
     void set_LogoutCode(int value);
   }; // NetEase.Docker.LogoutData
   #pragma pack(pop)

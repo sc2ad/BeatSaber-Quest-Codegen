@@ -26,34 +26,34 @@ namespace GlobalNamespace {
   class CubicBezierHelper : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector3 EvaluateCurve(UnityEngine.Vector3[] points, System.Single t)
-    // Offset: 0x137A7D0
+    // Offset: 0x135F194
     static UnityEngine::Vector3 EvaluateCurve(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 EvaluateCurve(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x137A854
+    // Offset: 0x135F218
     static UnityEngine::Vector3 EvaluateCurve(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public UnityEngine.Vector3 EvaluateCurveDerivative(UnityEngine.Vector3[] points, System.Single t)
-    // Offset: 0x137AA4C
+    // Offset: 0x135F410
     static UnityEngine::Vector3 EvaluateCurveDerivative(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 EvaluateCurveDerivative(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x137AAD0
+    // Offset: 0x135F494
     static UnityEngine::Vector3 EvaluateCurveDerivative(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public UnityEngine.Vector3 EvaluateCurveSecondDerivative(UnityEngine.Vector3[] points, System.Single t)
-    // Offset: 0x137AD10
+    // Offset: 0x135F6D4
     static UnityEngine::Vector3 EvaluateCurveSecondDerivative(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 EvaluateCurveSecondDerivative(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x137AD94
+    // Offset: 0x135F758
     static UnityEngine::Vector3 EvaluateCurveSecondDerivative(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public UnityEngine.Vector3 Normal(UnityEngine.Vector3[] points, System.Single t)
-    // Offset: 0x137AF94
+    // Offset: 0x135F958
     static UnityEngine::Vector3 Normal(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 Normal(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x137B018
+    // Offset: 0x135F9DC
     static UnityEngine::Vector3 Normal(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public System.Collections.Generic.List`1<UnityEngine.Vector3> SplitCurve(System.Collections.Generic.List`1<UnityEngine.Vector3> points, System.Single t)
-    // Offset: 0x137B1A8
+    // Offset: 0x135FB6C
     static System::Collections::Generic::List_1<UnityEngine::Vector3>* SplitCurve(System::Collections::Generic::List_1<UnityEngine::Vector3>* points, float t);
     // static public System.Single EstimateCurveLength(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
-    // Offset: 0x137B50C
+    // Offset: 0x135FED0
     static float EstimateCurveLength(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3);
   }; // CubicBezierHelper
   #pragma pack(pop)

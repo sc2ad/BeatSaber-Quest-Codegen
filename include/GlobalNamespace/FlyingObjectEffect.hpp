@@ -155,19 +155,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> _didFinishEvent
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x11B975C
+    // Offset: 0x11743F4
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
-    // Offset: 0x11B9764
+    // Offset: 0x11743FC
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, bool shake);
     // protected System.Void Update()
-    // Offset: 0x11B9850
+    // Offset: 0x11744E8
     void Update();
     // protected System.Void ManualUpdate(System.Single t)
     // Offset: 0xFFFFFFFF
     void ManualUpdate(float t);
     // protected System.Void .ctor()
-    // Offset: 0x11B9BE4
+    // Offset: 0x117487C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

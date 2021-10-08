@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEFEB6C
+    // [SpaceAttribute] Offset: 0xEFE7D4
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
@@ -114,16 +114,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
-    // Offset: 0x1193BF4
+    // Offset: 0x1128540
     void SpawnBtsCharacters(GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0x11941A0
+    // Offset: 0x1128AEC
     System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0x1194110
+    // Offset: 0x1128A5C
     void DestroyCharactersAndStopAnimations();
     // public System.Void .ctor()
-    // Offset: 0x1194344
+    // Offset: 0x1128C90
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -137,17 +137,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController*, creationType>()));
     }
     // public override System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11937E8
+    // Offset: 0x1128134
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Setup(IDifficultyBeatmap difficultyBeatmap)
     void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0x1193EB8
+    // Offset: 0x1128804
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
     void Activate(bool immediately);
     // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x1193F60
+    // Offset: 0x11288AC
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
     void Deactivate(bool immediately);

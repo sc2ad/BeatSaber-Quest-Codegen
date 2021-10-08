@@ -224,71 +224,71 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.Byte[] macBlock
     ::ArrayW<uint8_t>& dyn_macBlock();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher hashCipher, Org.BouncyCastle.Crypto.IBlockCipher mainCipher)
-    // Offset: 0x1A95738
+    // Offset: 0x1A7A0FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OcbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, Org::BouncyCastle::Crypto::IBlockCipher* mainCipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OcbBlockCipher*, creationType>(hashCipher, mainCipher)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1A95B04
+    // Offset: 0x1A7A4C8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Int32 ProcessNonce(System.Byte[] N)
-    // Offset: 0x1A96264
+    // Offset: 0x1A7AC28
     int ProcessNonce(::ArrayW<uint8_t> N);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1A964B0
+    // Offset: 0x1A7AE74
     int GetBlockSize();
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1A964B8
+    // Offset: 0x1A7AE7C
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1A964E0
+    // Offset: 0x1A7AEA4
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] input, System.Int32 off, System.Int32 len)
-    // Offset: 0x1A96518
+    // Offset: 0x1A7AEDC
     void ProcessAadBytes(::ArrayW<uint8_t> input, int off, int len);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A965E8
+    // Offset: 0x1A7AFAC
     int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A966E4
+    // Offset: 0x1A7B0A8
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1A96BB8
+    // Offset: 0x1A7B57C
     void Reset();
     // protected System.Void Clear(System.Byte[] bs)
-    // Offset: 0x1A96BCC
+    // Offset: 0x1A7B590
     void Clear(::ArrayW<uint8_t> bs);
     // protected System.Byte[] GetLSub(System.Int32 n)
-    // Offset: 0x1A96BE8
+    // Offset: 0x1A7B5AC
     ::ArrayW<uint8_t> GetLSub(int n);
     // protected System.Void ProcessHashBlock()
-    // Offset: 0x1A96ED0
+    // Offset: 0x1A7B894
     void ProcessHashBlock();
     // protected System.Void ProcessMainBlock(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A96F80
+    // Offset: 0x1A7B944
     void ProcessMainBlock(::ArrayW<uint8_t> output, int outOff);
     // protected System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x1A9715C
+    // Offset: 0x1A7BB20
     void Reset(bool clearMac);
     // protected System.Void UpdateHASH(System.Byte[] LSub)
-    // Offset: 0x1A97360
+    // Offset: 0x1A7BD24
     void UpdateHASH(::ArrayW<uint8_t> LSub);
     // static protected System.Byte[] OCB_double(System.Byte[] block)
-    // Offset: 0x1A961BC
+    // Offset: 0x1A7AB80
     static ::ArrayW<uint8_t> OCB_double(::ArrayW<uint8_t> block);
     // static protected System.Void OCB_extend(System.Byte[] block, System.Int32 pos)
-    // Offset: 0x1A96AE8
+    // Offset: 0x1A7B4AC
     static void OCB_extend(::ArrayW<uint8_t> block, int pos);
     // static protected System.Int32 OCB_ntz(System.Int64 x)
-    // Offset: 0x1A96F4C
+    // Offset: 0x1A7B910
     static int OCB_ntz(int64_t x);
     // static protected System.Int32 ShiftLeft(System.Byte[] block, System.Byte[] output)
-    // Offset: 0x1A97458
+    // Offset: 0x1A7BE1C
     static int ShiftLeft(::ArrayW<uint8_t> block, ::ArrayW<uint8_t> output);
     // static protected System.Void Xor(System.Byte[] block, System.Byte[] val)
-    // Offset: 0x1A96B54
+    // Offset: 0x1A7B518
     static void Xor(::ArrayW<uint8_t> block, ::ArrayW<uint8_t> val);
   }; // Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
   #pragma pack(pop)

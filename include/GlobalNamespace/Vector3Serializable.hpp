@@ -83,38 +83,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _z
     int& dyn__z();
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0x2574D10
+    // Offset: 0x2559774
     Vector3Serializable(UnityEngine::Vector3 v);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2574DC4
+    // Offset: 0x2559828
     Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2572000
+    // Offset: 0x2556A64
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2571E0C
+    // Offset: 0x2556870
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0x2572E74
+    // Offset: 0x25578D8
     bool Equals(GlobalNamespace::Vector3Serializable other);
     // public System.Boolean Approximately(Vector3Serializable other)
-    // Offset: 0x2574A10
+    // Offset: 0x2559474
     bool Approximately(GlobalNamespace::Vector3Serializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x25730E4
+    // Offset: 0x2557B48
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2574A80
+    // Offset: 0x25594E4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2572FC0
+    // Offset: 0x2557A24
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2574B28
+    // Offset: 0x255958C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -123,10 +123,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3Serializable), 8 + sizeof(int)> __GlobalNamespace_Vector3SerializableSizeCheck;
   static_assert(sizeof(Vector3Serializable) == 0xC);
   // static public Vector3Serializable op_Addition(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x25733CC
+  // Offset: 0x2557E30
   GlobalNamespace::Vector3Serializable operator+(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
   // static public Vector3Serializable op_Subtraction(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2573468
+  // Offset: 0x2557ECC
   GlobalNamespace::Vector3Serializable operator-(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

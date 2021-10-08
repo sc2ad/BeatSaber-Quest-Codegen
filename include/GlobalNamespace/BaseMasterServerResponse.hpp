@@ -52,31 +52,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.UInt32 <responseId>k__BackingField
     uint& dyn_$responseId$k__BackingField();
     // public System.UInt32 get_responseId()
-    // Offset: 0x144D088
+    // Offset: 0x1431A4C
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x144D090
+    // Offset: 0x1431A54
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x144D098
+    // Offset: 0x1431A5C
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x144D0A0
+    // Offset: 0x1431A64
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x144CE40
+    // Offset: 0x1431804
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x144CEB0
+    // Offset: 0x1431874
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x144D0E8
+    // Offset: 0x1431AAC
     MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x144CEEC
+    // Offset: 0x14318B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

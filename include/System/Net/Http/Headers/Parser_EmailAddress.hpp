@@ -17,7 +17,7 @@ namespace System::Net::Http::Headers {
   class Parser::EmailAddress : public ::Il2CppObject {
     public:
     // static public System.Boolean TryParse(System.String input, out System.String result)
-    // Offset: 0x17549FC
+    // Offset: 0x17383C0
     static bool TryParse(::Il2CppString* input, ByRef<::Il2CppString*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.EmailAddress
   #pragma pack(pop)

@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode
     struct OutputMode;
     // static public System.Void ApplyUVLayoutTo(UnityEngine.GameObject[] gameObjects, HEU_ScriptMeshInputUVLayoutExample/OutputMode outputMode, System.String output_name_suffix)
-    // Offset: 0x14385EC
+    // Offset: 0x141CFB0
     static void ApplyUVLayoutTo(::ArrayW<UnityEngine::GameObject*> gameObjects, GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode outputMode, ::Il2CppString* output_name_suffix);
     // public System.Void .ctor()
-    // Offset: 0x1438DB8
+    // Offset: 0x141D77C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

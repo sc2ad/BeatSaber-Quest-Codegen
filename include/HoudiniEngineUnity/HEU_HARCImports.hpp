@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   class HEU_HARCImports : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15DB01C
+    // Offset: 0x15C09E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

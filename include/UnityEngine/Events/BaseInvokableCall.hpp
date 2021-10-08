@@ -32,7 +32,7 @@ namespace UnityEngine::Events {
   class BaseInvokableCall : public ::Il2CppObject {
     public:
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
-    // Offset: 0x1CB9174
+    // Offset: 0x1C9BB38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* function) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::.ctor");
@@ -51,13 +51,13 @@ namespace UnityEngine::Events {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg);
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
-    // Offset: 0x1CB9230
+    // Offset: 0x1C9BBF4
     static bool AllowInvoke(System::Delegate* delegate);
     // public System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // protected System.Void .ctor()
-    // Offset: 0x1CB916C
+    // Offset: 0x1C9BB30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

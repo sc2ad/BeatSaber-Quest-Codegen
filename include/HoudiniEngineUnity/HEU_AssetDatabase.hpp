@@ -39,193 +39,193 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::HEU_AssetDatabase::HEU_ImportAssetOptions
     struct HEU_ImportAssetOptions;
     // static public System.String GetAssetCachePath()
-    // Offset: 0x1439FC0
+    // Offset: 0x141E984
     static ::Il2CppString* GetAssetCachePath();
     // static public System.String GetUnityProjectPath()
-    // Offset: 0x143A01C
+    // Offset: 0x141E9E0
     static ::Il2CppString* GetUnityProjectPath();
     // static public System.String GetAssetRelativePath(System.String inFullPath)
-    // Offset: 0x143A084
+    // Offset: 0x141EA48
     static ::Il2CppString* GetAssetRelativePath(::Il2CppString* inFullPath);
     // static public System.String GetPackagesRelativePath(System.String inFullPath)
-    // Offset: 0x143A19C
+    // Offset: 0x141EB60
     static ::Il2CppString* GetPackagesRelativePath(::Il2CppString* inFullPath);
     // static public System.String GetValidAssetPath(System.String inPath)
-    // Offset: 0x143A294
+    // Offset: 0x141EC58
     static ::Il2CppString* GetValidAssetPath(::Il2CppString* inPath);
     // static public System.String GetAssetPath(UnityEngine.Object asset)
-    // Offset: 0x143A450
+    // Offset: 0x141EE14
     static ::Il2CppString* GetAssetPath(UnityEngine::Object* asset);
     // static public System.String GetAssetPathWithSubAssetSupport(UnityEngine.Object asset)
-    // Offset: 0x143A4A4
+    // Offset: 0x141EE68
     static ::Il2CppString* GetAssetPathWithSubAssetSupport(UnityEngine::Object* asset);
     // static public System.Void GetSubAssetPathFromPath(System.String fullPath, out System.String mainPath, out System.String subPath)
-    // Offset: 0x143A4F8
+    // Offset: 0x141EEBC
     static void GetSubAssetPathFromPath(::Il2CppString* fullPath, ByRef<::Il2CppString*> mainPath, ByRef<::Il2CppString*> subPath);
     // static private System.String GetAssetRelativePathStart()
-    // Offset: 0x143A5E4
+    // Offset: 0x141EFA8
     static ::Il2CppString* GetAssetRelativePathStart();
     // static private System.String GetPackagesRelativePathStart()
-    // Offset: 0x143A660
+    // Offset: 0x141F024
     static ::Il2CppString* GetPackagesRelativePathStart();
     // static public System.String GetAssetFullPath(System.String inPath)
-    // Offset: 0x14369A8
+    // Offset: 0x141B36C
     static ::Il2CppString* GetAssetFullPath(::Il2CppString* inPath);
     // static public System.Boolean IsPathRelativeToAssets(System.String inPath)
-    // Offset: 0x143A6DC
+    // Offset: 0x141F0A0
     static bool IsPathRelativeToAssets(::Il2CppString* inPath);
     // static public System.Boolean IsPathRelativeToPackages(System.String inPath)
-    // Offset: 0x143A710
+    // Offset: 0x141F0D4
     static bool IsPathRelativeToPackages(::Il2CppString* inPath);
     // static public System.String GetAssetRootPath(UnityEngine.Object asset)
-    // Offset: 0x143A744
+    // Offset: 0x141F108
     static ::Il2CppString* GetAssetRootPath(UnityEngine::Object* asset);
     // static public System.String GetUniqueAssetPath(System.String path)
-    // Offset: 0x143A798
+    // Offset: 0x141F15C
     static ::Il2CppString* GetUniqueAssetPath(::Il2CppString* path);
     // static public System.String GetAssetOrScenePath(UnityEngine.Object inputObject)
-    // Offset: 0x143A7EC
+    // Offset: 0x141F1B0
     static ::Il2CppString* GetAssetOrScenePath(UnityEngine::Object* inputObject);
     // static public System.Boolean IsPathInAssetCache(System.String path)
-    // Offset: 0x143A840
+    // Offset: 0x141F204
     static bool IsPathInAssetCache(::Il2CppString* path);
     // static public System.Boolean IsPathInAssetCacheBakedFolder(System.String path)
-    // Offset: 0x143A89C
+    // Offset: 0x141F260
     static bool IsPathInAssetCacheBakedFolder(::Il2CppString* path);
     // static public System.Boolean IsPathInAssetCacheWorkingFolder(System.String path)
-    // Offset: 0x143A8F0
+    // Offset: 0x141F2B4
     static bool IsPathInAssetCacheWorkingFolder(::Il2CppString* path);
     // static public System.Boolean IsAssetInAssetCacheBakedFolder(UnityEngine.Object asset)
-    // Offset: 0x143A944
+    // Offset: 0x141F308
     static bool IsAssetInAssetCacheBakedFolder(UnityEngine::Object* asset);
     // static public System.Boolean IsAssetInAssetCacheWorkingFolder(UnityEngine.Object asset)
-    // Offset: 0x143A998
+    // Offset: 0x141F35C
     static bool IsAssetInAssetCacheWorkingFolder(UnityEngine::Object* asset);
     // static public System.String CreateAssetCacheFolder(System.String suggestedAssetPath, System.Int32 hash)
-    // Offset: 0x143A9EC
+    // Offset: 0x141F3B0
     static ::Il2CppString* CreateAssetCacheFolder(::Il2CppString* suggestedAssetPath, int hash);
     // static public System.Void DeleteAssetCacheFolder(System.String assetCacheFolderPath)
-    // Offset: 0x143AA40
+    // Offset: 0x141F404
     static void DeleteAssetCacheFolder(::Il2CppString* assetCacheFolderPath);
     // static public System.Void DeleteAsset(UnityEngine.Object asset)
-    // Offset: 0x143AA8C
+    // Offset: 0x141F450
     static void DeleteAsset(UnityEngine::Object* asset);
     // static public System.Void DeleteAssetAtPath(System.String path)
-    // Offset: 0x143AAD8
+    // Offset: 0x141F49C
     static void DeleteAssetAtPath(::Il2CppString* path);
     // static public System.Void DeleteAssetIfInBakedFolder(UnityEngine.Object asset)
-    // Offset: 0x143AB24
+    // Offset: 0x141F4E8
     static void DeleteAssetIfInBakedFolder(UnityEngine::Object* asset);
     // static public System.Boolean ContainsAsset(UnityEngine.Object assetObject)
-    // Offset: 0x143AB70
+    // Offset: 0x141F534
     static bool ContainsAsset(UnityEngine::Object* assetObject);
     // static public System.Boolean CopyAsset(System.String path, System.String newPath)
-    // Offset: 0x143ABC4
+    // Offset: 0x141F588
     static bool CopyAsset(::Il2CppString* path, ::Il2CppString* newPath);
     // static public UnityEngine.Object CopyAndLoadAssetWithRelativePath(UnityEngine.Object srcAsset, System.String copyAssetFolder, System.String relativePath, System.Type type, System.Boolean bOverwriteExisting)
-    // Offset: 0x143AC18
+    // Offset: 0x141F5DC
     static UnityEngine::Object* CopyAndLoadAssetWithRelativePath(UnityEngine::Object* srcAsset, ::Il2CppString* copyAssetFolder, ::Il2CppString* relativePath, System::Type* type, bool bOverwriteExisting);
     // static public UnityEngine.Object CopyAndLoadAssetFromAssetCachePath(UnityEngine.Object srcAsset, System.String copyPath, System.Type type, System.Boolean bOverwriteExisting)
-    // Offset: 0x143AC6C
+    // Offset: 0x141F630
     static UnityEngine::Object* CopyAndLoadAssetFromAssetCachePath(UnityEngine::Object* srcAsset, ::Il2CppString* copyPath, System::Type* type, bool bOverwriteExisting);
     // static public UnityEngine.Object CopyAndLoadAssetAtAnyPath(UnityEngine.Object srcAsset, System.String copyPath, System.Type type, System.Boolean bOverwriteExisting)
-    // Offset: 0x143ACC0
+    // Offset: 0x141F684
     static UnityEngine::Object* CopyAndLoadAssetAtAnyPath(UnityEngine::Object* srcAsset, ::Il2CppString* copyPath, System::Type* type, bool bOverwriteExisting);
     // static public UnityEngine.Object CopyAndLoadAssetAtGivenPath(UnityEngine.Object srcAsset, System.String targetPath, System.Type type)
-    // Offset: 0x143AD14
+    // Offset: 0x141F6D8
     static UnityEngine::Object* CopyAndLoadAssetAtGivenPath(UnityEngine::Object* srcAsset, ::Il2CppString* targetPath, System::Type* type);
     // static public UnityEngine.Object CopyUniqueAndLoadAssetAtAnyPath(UnityEngine.Object srcAsset, System.String copyPath, System.Type type)
-    // Offset: 0x143AD68
+    // Offset: 0x141F72C
     static UnityEngine::Object* CopyUniqueAndLoadAssetAtAnyPath(UnityEngine::Object* srcAsset, ::Il2CppString* copyPath, System::Type* type);
     // static public System.Void CreateObjectInAssetCacheFolder(UnityEngine.Object objectToCreate, System.String assetCacheRoot, System.String relativeFolderPath, System.String assetFileName, System.Type type, System.Boolean bOverwriteExisting)
-    // Offset: 0x143ADBC
+    // Offset: 0x141F780
     static void CreateObjectInAssetCacheFolder(UnityEngine::Object* objectToCreate, ::Il2CppString* assetCacheRoot, ::Il2CppString* relativeFolderPath, ::Il2CppString* assetFileName, System::Type* type, bool bOverwriteExisting);
     // static public System.Void CreateAsset(UnityEngine.Object asset, System.String path)
-    // Offset: 0x143AE08
+    // Offset: 0x141F7CC
     static void CreateAsset(UnityEngine::Object* asset, ::Il2CppString* path);
     // static public System.Void CreateAddObjectInAssetCacheFolder(System.String assetName, System.String assetObjectFileName, UnityEngine.Object objectToAdd, System.String relativeFolderPath, ref System.String exportRootPath, ref UnityEngine.Object assetDBObject)
-    // Offset: 0x143AE54
+    // Offset: 0x141F818
     static void CreateAddObjectInAssetCacheFolder(::Il2CppString* assetName, ::Il2CppString* assetObjectFileName, UnityEngine::Object* objectToAdd, ::Il2CppString* relativeFolderPath, ByRef<::Il2CppString*> exportRootPath, ByRef<UnityEngine::Object*> assetDBObject);
     // static public System.Void AddObjectToAsset(UnityEngine.Object objectToAdd, UnityEngine.Object assetObject)
-    // Offset: 0x143AEA0
+    // Offset: 0x141F864
     static void AddObjectToAsset(UnityEngine::Object* objectToAdd, UnityEngine::Object* assetObject);
     // static public System.Void SaveAndRefreshDatabase()
-    // Offset: 0x143AEEC
+    // Offset: 0x141F8B0
     static void SaveAndRefreshDatabase();
     // static public System.Void SaveAssetDatabase()
-    // Offset: 0x143AEF0
+    // Offset: 0x141F8B4
     static void SaveAssetDatabase();
     // static public System.Void RefreshAssetDatabase()
-    // Offset: 0x143AEF4
+    // Offset: 0x141F8B8
     static void RefreshAssetDatabase();
     // static public UnityEngine.Object LoadAssetAtPath(System.String assetPath, System.Type type)
-    // Offset: 0x143AEF8
+    // Offset: 0x141F8BC
     static UnityEngine::Object* LoadAssetAtPath(::Il2CppString* assetPath, System::Type* type);
     // static public UnityEngine.Object LoadSubAssetAtPath(System.String mainPath, System.String subAssetPath)
-    // Offset: 0x143AF4C
+    // Offset: 0x141F910
     static UnityEngine::Object* LoadSubAssetAtPath(::Il2CppString* mainPath, ::Il2CppString* subAssetPath);
     // static public UnityEngine.Object[] LoadAllAssetsAtPath(System.String assetPath)
-    // Offset: 0x143AFB8
+    // Offset: 0x141F97C
     static ::ArrayW<UnityEngine::Object*> LoadAllAssetsAtPath(::Il2CppString* assetPath);
     // static public UnityEngine.Object[] LoadAllAssetRepresentationsAtPath(System.String assetPath)
-    // Offset: 0x143AF64
+    // Offset: 0x141F928
     static ::ArrayW<UnityEngine::Object*> LoadAllAssetRepresentationsAtPath(::Il2CppString* assetPath);
     // static public System.Void ImportAsset(System.String assetPath, HoudiniEngineUnity.HEU_AssetDatabase/HoudiniEngineUnity.HEU_ImportAssetOptions heuOptions)
-    // Offset: 0x143B00C
+    // Offset: 0x141F9D0
     static void ImportAsset(::Il2CppString* assetPath, HoudiniEngineUnity::HEU_AssetDatabase::HEU_ImportAssetOptions heuOptions);
     // static public System.String GetAssetWorkingPath()
-    // Offset: 0x143B058
+    // Offset: 0x141FA1C
     static ::Il2CppString* GetAssetWorkingPath();
     // static public System.String GetAssetBakedPath()
-    // Offset: 0x143B0AC
+    // Offset: 0x141FA70
     static ::Il2CppString* GetAssetBakedPath();
     // static public System.String GetAssetBakedPathWithAssetName(System.String assetName)
-    // Offset: 0x143B100
+    // Offset: 0x141FAC4
     static ::Il2CppString* GetAssetBakedPathWithAssetName(::Il2CppString* assetName);
     // static public System.String CreateUniqueBakePath(System.String assetName)
-    // Offset: 0x143B154
+    // Offset: 0x141FB18
     static ::Il2CppString* CreateUniqueBakePath(::Il2CppString* assetName);
     // static public System.Void CreatePathWithFolders(System.String inPath)
-    // Offset: 0x143B1A8
+    // Offset: 0x141FB6C
     static void CreatePathWithFolders(::Il2CppString* inPath);
     // static public System.String AppendMeshesPathToAssetFolder(System.String inAssetCacheFolder)
-    // Offset: 0x143B1F4
+    // Offset: 0x141FBB8
     static ::Il2CppString* AppendMeshesPathToAssetFolder(::Il2CppString* inAssetCacheFolder);
     // static public System.String AppendTexturesPathToAssetFolder(System.String inAssetCacheFolder)
-    // Offset: 0x143B300
+    // Offset: 0x141FCC4
     static ::Il2CppString* AppendTexturesPathToAssetFolder(::Il2CppString* inAssetCacheFolder);
     // static public System.String AppendMaterialsPathToAssetFolder(System.String inAssetCacheFolder)
-    // Offset: 0x143B40C
+    // Offset: 0x141FDD0
     static ::Il2CppString* AppendMaterialsPathToAssetFolder(::Il2CppString* inAssetCacheFolder);
     // static public System.String AppendTerrainPathToAssetFolder(System.String inAssetCacheFolder)
-    // Offset: 0x143B518
+    // Offset: 0x141FEDC
     static ::Il2CppString* AppendTerrainPathToAssetFolder(::Il2CppString* inAssetCacheFolder);
     // static public System.String[] GetAssetSubFolders()
-    // Offset: 0x143B624
+    // Offset: 0x141FFE8
     static ::ArrayW<::Il2CppString*> GetAssetSubFolders();
     // static public System.String AppendPrefabPath(System.String inAssetCacheFolder, System.String assetName)
-    // Offset: 0x143B768
+    // Offset: 0x142012C
     static ::Il2CppString* AppendPrefabPath(::Il2CppString* inAssetCacheFolder, ::Il2CppString* assetName);
     // static public System.String AppendMeshesAssetFileName(System.String assetName)
-    // Offset: 0x143B884
+    // Offset: 0x1420248
     static ::Il2CppString* AppendMeshesAssetFileName(::Il2CppString* assetName);
     // static public System.Boolean IsSubAsset(UnityEngine.Object obj)
-    // Offset: 0x143B8D8
+    // Offset: 0x142029C
     static bool IsSubAsset(UnityEngine::Object* obj);
     // static public System.String[] GetAssetPathsFromAssetBundle(System.String assetBundleFileName)
-    // Offset: 0x143B8E0
+    // Offset: 0x14202A4
     static ::ArrayW<::Il2CppString*> GetAssetPathsFromAssetBundle(::Il2CppString* assetBundleFileName);
     // static public System.Boolean IsAssetSavedInScene(UnityEngine.GameObject go)
-    // Offset: 0x143B8E8
+    // Offset: 0x14202AC
     static bool IsAssetSavedInScene(UnityEngine::GameObject* go);
     // static public System.Void SelectAssetAtPath(System.String path)
-    // Offset: 0x143B93C
+    // Offset: 0x1420300
     static void SelectAssetAtPath(::Il2CppString* path);
     // static public System.Void PrintDependencies(UnityEngine.GameObject targetGO)
-    // Offset: 0x143B940
+    // Offset: 0x1420304
     static void PrintDependencies(UnityEngine::GameObject* targetGO);
     // static public System.String GetUniqueAssetPathForUnityAsset(UnityEngine.Object obj)
-    // Offset: 0x143B944
+    // Offset: 0x1420308
     static ::Il2CppString* GetUniqueAssetPathForUnityAsset(UnityEngine::Object* obj);
     // static public T LoadUnityAssetFromUniqueAssetPath(System.String assetPath)
     // Offset: 0xFFFFFFFF

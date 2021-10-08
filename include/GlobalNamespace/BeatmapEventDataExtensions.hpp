@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues
     class LightSwitchEventEffectDataValues;
     // static public System.Boolean HasLightFadeEventDataValue(BeatmapEventData beatmapEventData)
-    // Offset: 0x2613664
+    // Offset: 0x25FB10C
     static bool HasLightFadeEventDataValue(GlobalNamespace::BeatmapEventData* beatmapEventData);
   }; // BeatmapEventDataExtensions
   #pragma pack(pop)

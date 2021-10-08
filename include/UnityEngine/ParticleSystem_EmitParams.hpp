@@ -32,84 +32,84 @@ namespace UnityEngine {
     #else
     protected:
     #endif
-    // [NativeNameAttribute] Offset: 0xEA3A28
+    // [NativeNameAttribute] Offset: 0xEA6448
     // private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle
     // Size: 0x84
     // Offset: 0x0
     UnityEngine::ParticleSystem::Particle m_Particle;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::Particle) == 0x84);
-    // [NativeNameAttribute] Offset: 0xEA3A60
+    // [NativeNameAttribute] Offset: 0xEA6480
     // private System.Boolean m_PositionSet
     // Size: 0x1
     // Offset: 0x84
     bool m_PositionSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3A98
+    // [NativeNameAttribute] Offset: 0xEA64B8
     // private System.Boolean m_VelocitySet
     // Size: 0x1
     // Offset: 0x85
     bool m_VelocitySet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3AD0
+    // [NativeNameAttribute] Offset: 0xEA64F0
     // private System.Boolean m_AxisOfRotationSet
     // Size: 0x1
     // Offset: 0x86
     bool m_AxisOfRotationSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3B08
+    // [NativeNameAttribute] Offset: 0xEA6528
     // private System.Boolean m_RotationSet
     // Size: 0x1
     // Offset: 0x87
     bool m_RotationSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3B40
+    // [NativeNameAttribute] Offset: 0xEA6560
     // private System.Boolean m_AngularVelocitySet
     // Size: 0x1
     // Offset: 0x88
     bool m_AngularVelocitySet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3B78
+    // [NativeNameAttribute] Offset: 0xEA6598
     // private System.Boolean m_StartSizeSet
     // Size: 0x1
     // Offset: 0x89
     bool m_StartSizeSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3BB0
+    // [NativeNameAttribute] Offset: 0xEA65D0
     // private System.Boolean m_StartColorSet
     // Size: 0x1
     // Offset: 0x8A
     bool m_StartColorSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3BE8
+    // [NativeNameAttribute] Offset: 0xEA6608
     // private System.Boolean m_RandomSeedSet
     // Size: 0x1
     // Offset: 0x8B
     bool m_RandomSeedSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3C20
+    // [NativeNameAttribute] Offset: 0xEA6640
     // private System.Boolean m_StartLifetimeSet
     // Size: 0x1
     // Offset: 0x8C
     bool m_StartLifetimeSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3C58
+    // [NativeNameAttribute] Offset: 0xEA6678
     // private System.Boolean m_MeshIndexSet
     // Size: 0x1
     // Offset: 0x8D
     bool m_MeshIndexSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NativeNameAttribute] Offset: 0xEA3C90
+    // [NativeNameAttribute] Offset: 0xEA66B0
     // private System.Boolean m_ApplyShapeToPosition
     // Size: 0x1
     // Offset: 0x8E
@@ -148,16 +148,16 @@ namespace UnityEngine {
     // Get instance field reference: private System.Boolean m_ApplyShapeToPosition
     bool& dyn_m_ApplyShapeToPosition();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x261CBE8
+    // Offset: 0x2604690
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_applyShapeToPosition(System.Boolean value)
-    // Offset: 0x261CBFC
+    // Offset: 0x26046A4
     void set_applyShapeToPosition(bool value);
     // public System.Void set_rotation3D(UnityEngine.Vector3 value)
-    // Offset: 0x261CC08
+    // Offset: 0x26046B0
     void set_rotation3D(UnityEngine::Vector3 value);
     // public System.Void set_startColor(UnityEngine.Color32 value)
-    // Offset: 0x261CC30
+    // Offset: 0x26046D8
     void set_startColor(UnityEngine::Color32 value);
   }; // UnityEngine.ParticleSystem/UnityEngine.EmitParams
   #pragma pack(pop)

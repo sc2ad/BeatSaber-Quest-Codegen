@@ -66,13 +66,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRRenderModels _instance
     Valve::VR::CVRRenderModels*& dyn__instance();
     // public Valve.VR.CVRRenderModels get_instance()
-    // Offset: 0x1547790
+    // Offset: 0x152E154
     Valve::VR::CVRRenderModels* get_instance();
     // public System.Void Dispose()
-    // Offset: 0x1549DF4
+    // Offset: 0x15307B8
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x15470CC
+    // Offset: 0x152DA90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

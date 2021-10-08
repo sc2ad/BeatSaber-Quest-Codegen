@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
   class AnimationPlayableAsset::AnimationPlayableAssetUpgrade : public ::Il2CppObject {
     public:
     // static public System.Void ConvertRotationToEuler(UnityEngine.Timeline.AnimationPlayableAsset asset)
-    // Offset: 0x19EFFF4
+    // Offset: 0x19D49B8
     static void ConvertRotationToEuler(UnityEngine::Timeline::AnimationPlayableAsset* asset);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.AnimationPlayableAssetUpgrade
   #pragma pack(pop)

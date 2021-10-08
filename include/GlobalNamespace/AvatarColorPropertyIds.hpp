@@ -14,33 +14,33 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarColorPropertyIds : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF006F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00368
     // Get static field: static public readonly System.Int32 colorPropertyId
     static int _get_colorPropertyId();
     // Set static field: static public readonly System.Int32 colorPropertyId
     static void _set_colorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00700
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00378
     // Get static field: static public readonly System.Int32 rimLightColorPropertyId
     static int _get_rimLightColorPropertyId();
     // Set static field: static public readonly System.Int32 rimLightColorPropertyId
     static void _set_rimLightColorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00710
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00388
     // Get static field: static public readonly System.Int32 uvColorsPropertyId
     static int _get_uvColorsPropertyId();
     // Set static field: static public readonly System.Int32 uvColorsPropertyId
     static void _set_uvColorsPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00720
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00398
     // Get static field: static public readonly System.Int32 uvRimLightColorsPropertyId
     static int _get_uvRimLightColorsPropertyId();
     // Set static field: static public readonly System.Int32 uvRimLightColorsPropertyId
     static void _set_uvRimLightColorsPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00730
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF003A8
     // Get static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static int _get_segmentToHighlightPropertyId();
     // Set static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static void _set_segmentToHighlightPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1249C38
+    // Offset: 0x261E780
     static void _cctor();
   }; // AvatarColorPropertyIds
   #pragma pack(pop)

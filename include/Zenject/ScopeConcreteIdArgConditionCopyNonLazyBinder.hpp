@@ -29,16 +29,16 @@ namespace Zenject {
   class ScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
     public:
     // public Zenject.ConcreteIdArgConditionCopyNonLazyBinder AsCached()
-    // Offset: 0x189F628
+    // Offset: 0x1885FEC
     Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
     // public Zenject.ConcreteIdArgConditionCopyNonLazyBinder AsSingle()
-    // Offset: 0x189AD44
+    // Offset: 0x1881708
     Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
     // public Zenject.ConcreteIdArgConditionCopyNonLazyBinder AsTransient()
-    // Offset: 0x189F648
+    // Offset: 0x188600C
     Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x189F620
+    // Offset: 0x1885FE4
     // Implemented from: Zenject.ConcreteIdArgConditionCopyNonLazyBinder
     // Base method: System.Void ConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

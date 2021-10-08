@@ -80,24 +80,24 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SongPackMask songPacks
     GlobalNamespace::SongPackMask& dyn_songPacks();
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
-    // Offset: 0x144D0F0
+    // Offset: 0x1431AB4
     // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks);
     // public System.Boolean Equals(BeatmapLevelSelectionMask other)
-    // Offset: 0x144D1A0
+    // Offset: 0x1431B64
     bool Equals(GlobalNamespace::BeatmapLevelSelectionMask other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 version)
-    // Offset: 0x144D30C
+    // Offset: 0x1431CD0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer, uint version);
     // static public BeatmapLevelSelectionMask Deserialize(LiteNetLib.Utils.NetDataReader reader, System.UInt32 version)
-    // Offset: 0x144D360
+    // Offset: 0x1431D24
     static GlobalNamespace::BeatmapLevelSelectionMask Deserialize(LiteNetLib::Utils::NetDataReader* reader, uint version);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x144D100
+    // Offset: 0x1431AC4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x144D2D8
+    // Offset: 0x1431C9C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -106,10 +106,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelSelectionMask), 8 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_BeatmapLevelSelectionMaskSizeCheck;
   static_assert(sizeof(BeatmapLevelSelectionMask) == 0x18);
   // static public System.Boolean op_Equality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x144D3C8
+  // Offset: 0x1431D8C
   bool operator ==(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
   // static public System.Boolean op_Inequality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x144D408
+  // Offset: 0x1431DCC
   bool operator !=(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

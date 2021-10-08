@@ -101,82 +101,82 @@ namespace System {
     // Get instance field reference: private System.Boolean m_checkDigitToken
     bool& dyn_m_checkDigitToken();
     // System.Globalization.CompareInfo get_CompareInfo()
-    // Offset: 0x2539820
+    // Offset: 0x251F284
     System::Globalization::CompareInfo* get_CompareInfo();
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi, System.Boolean checkDigitToken)
-    // Offset: 0x253975C
+    // Offset: 0x251F1C0
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x2539788
+    // Offset: 0x251F1EC
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void .cctor()
-    // Offset: 0x253AA2C
+    // Offset: 0x2520490
     static void _cctor();
     // System.Boolean GetNext()
-    // Offset: 0x2539828
+    // Offset: 0x251F28C
     bool GetNext();
     // System.Boolean AtEnd()
-    // Offset: 0x253987C
+    // Offset: 0x251F2E0
     bool AtEnd();
     // System.Boolean Advance(System.Int32 count)
-    // Offset: 0x253988C
+    // Offset: 0x251F2F0
     bool Advance(int count);
     // System.Void GetRegularToken(out System.TokenType tokenType, out System.Int32 tokenValue, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x25398E0
+    // Offset: 0x251F344
     void GetRegularToken(ByRef<System::TokenType> tokenType, ByRef<int> tokenValue, System::Globalization::DateTimeFormatInfo* dtfi);
     // System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 indexBeforeSeparator, out System.Char charBeforeSeparator)
-    // Offset: 0x2539B6C
+    // Offset: 0x251F5D0
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> indexBeforeSeparator, ByRef<::Il2CppChar> charBeforeSeparator);
     // System.Boolean MatchSpecifiedWord(System.String target)
-    // Offset: 0x2539D30
+    // Offset: 0x251F794
     bool MatchSpecifiedWord(::Il2CppString* target);
     // System.Boolean MatchSpecifiedWord(System.String target, System.Int32 endIndex)
-    // Offset: 0x2539D50
+    // Offset: 0x251F7B4
     bool MatchSpecifiedWord(::Il2CppString* target, int endIndex);
     // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, ref System.Int32 matchLength)
-    // Offset: 0x2539DD4
+    // Offset: 0x251F838
     bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, ByRef<int> matchLength);
     // System.Boolean Match(System.String str)
-    // Offset: 0x253A134
+    // Offset: 0x251FB98
     bool Match(::Il2CppString* str);
     // System.Boolean Match(System.Char ch)
-    // Offset: 0x253A1E8
+    // Offset: 0x251FC4C
     bool Match(::Il2CppChar ch);
     // System.Int32 MatchLongestWords(System.String[] words, ref System.Int32 maxMatchStrLen)
-    // Offset: 0x253A260
+    // Offset: 0x251FCC4
     int MatchLongestWords(::ArrayW<::Il2CppString*> words, ByRef<int> maxMatchStrLen);
     // System.Int32 GetRepeatCount()
-    // Offset: 0x253A324
+    // Offset: 0x251FD88
     int GetRepeatCount();
     // System.Boolean GetNextDigit()
-    // Offset: 0x253A3B0
+    // Offset: 0x251FE14
     bool GetNextDigit();
     // System.Char GetChar()
-    // Offset: 0x253A458
+    // Offset: 0x251FEBC
     ::Il2CppChar GetChar();
     // System.Int32 GetDigit()
-    // Offset: 0x253A47C
+    // Offset: 0x251FEE0
     int GetDigit();
     // System.Void SkipWhiteSpaces()
-    // Offset: 0x253A4B0
+    // Offset: 0x251FF14
     void SkipWhiteSpaces();
     // System.Boolean SkipWhiteSpaceCurrent()
-    // Offset: 0x2539C5C
+    // Offset: 0x251F6C0
     bool SkipWhiteSpaceCurrent();
     // System.Void TrimTail()
-    // Offset: 0x253A56C
+    // Offset: 0x251FFD0
     void TrimTail();
     // System.Void RemoveTrailingInQuoteSpaces()
-    // Offset: 0x253A644
+    // Offset: 0x25200A8
     void RemoveTrailingInQuoteSpaces();
     // System.Void RemoveLeadingInQuoteSpaces()
-    // Offset: 0x253A79C
+    // Offset: 0x2520200
     void RemoveLeadingInQuoteSpaces();
     // System.DTSubString GetSubString()
-    // Offset: 0x253A8B4
+    // Offset: 0x2520318
     System::DTSubString GetSubString();
     // System.Void ConsumeSubString(System.DTSubString sub)
-    // Offset: 0x253A9E0
+    // Offset: 0x2520444
     void ConsumeSubString(System::DTSubString sub);
   }; // System.__DTString
   #pragma pack(pop)

@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [LocalizationKeyAttribute] Offset: 0xF02BA4
+    // [LocalizationKeyAttribute] Offset: 0xF027FC
     // private System.String _objectiveName
     // Size: 0x8
     // Offset: 0x18
@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private ObjectiveValueFormatterSO _objectiveValueFormater
     GlobalNamespace::ObjectiveValueFormatterSO*& dyn__objectiveValueFormater();
     // public System.String get_objectiveName()
-    // Offset: 0x118C410
+    // Offset: 0x1210CD4
     ::Il2CppString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x1186144
+    // Offset: 0x120AA08
     ::Il2CppString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x118C418
+    // Offset: 0x1210CDC
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x118C420
+    // Offset: 0x1210CE4
     GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x118C428
+    // Offset: 0x1210CEC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -22,10 +22,10 @@ namespace UnityEngine::_Scripting::APIUpdating {
   class APIUpdaterRuntimeHelpers : public ::Il2CppObject {
     public:
     // static System.Boolean GetMovedFromAttributeDataForType(System.Type sourceType, out System.String assembly, out System.String nsp, out System.String klass)
-    // Offset: 0x234EC28
+    // Offset: 0x233468C
     static bool GetMovedFromAttributeDataForType(System::Type* sourceType, ByRef<::Il2CppString*> assembly, ByRef<::Il2CppString*> nsp, ByRef<::Il2CppString*> klass);
     // static System.Boolean GetObsoleteTypeRedirection(System.Type sourceType, out System.String assemblyName, out System.String nsp, out System.String className)
-    // Offset: 0x234ED5C
+    // Offset: 0x23347C0
     static bool GetObsoleteTypeRedirection(System::Type* sourceType, ByRef<::Il2CppString*> assemblyName, ByRef<::Il2CppString*> nsp, ByRef<::Il2CppString*> className);
   }; // UnityEngine._Scripting.APIUpdating.APIUpdaterRuntimeHelpers
   #pragma pack(pop)

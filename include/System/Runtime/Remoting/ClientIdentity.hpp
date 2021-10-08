@@ -57,23 +57,23 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.WeakReference _proxyReference
     System::WeakReference*& dyn__proxyReference();
     // public System.MarshalByRefObject get_ClientProxy()
-    // Offset: 0x15B87F4
+    // Offset: 0x159E1B8
     System::MarshalByRefObject* get_ClientProxy();
     // public System.Void set_ClientProxy(System.MarshalByRefObject value)
-    // Offset: 0x15B8888
+    // Offset: 0x159E24C
     void set_ClientProxy(System::MarshalByRefObject* value);
     // public System.String get_TargetUri()
-    // Offset: 0x15B8900
+    // Offset: 0x159E2C4
     ::Il2CppString* get_TargetUri();
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.ObjRef objRef)
-    // Offset: 0x15B86DC
+    // Offset: 0x159E0A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientIdentity* New_ctor(::Il2CppString* objectUri, System::Runtime::Remoting::ObjRef* objRef) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ClientIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientIdentity*, creationType>(objectUri, objRef)));
     }
     // public override System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
-    // Offset: 0x15B88F8
+    // Offset: 0x159E2BC
     // Implemented from: System.Runtime.Remoting.Identity
     // Base method: System.Runtime.Remoting.ObjRef Identity::CreateObjRef(System.Type requestedType)
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);

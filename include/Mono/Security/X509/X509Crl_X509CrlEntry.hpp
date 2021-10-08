@@ -66,16 +66,16 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
     Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x25DFE34
+    // Offset: 0x25C68DC
     ::ArrayW<uint8_t> get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x25E03A4
+    // Offset: 0x25C6E4C
     System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x25E03AC
+    // Offset: 0x25C6E54
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x25DF930
+    // Offset: 0x25C63D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");

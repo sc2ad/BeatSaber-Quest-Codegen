@@ -83,26 +83,26 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean isArrayList
     bool& dyn_isArrayList();
     // public System.Object get_Current()
-    // Offset: 0x1997ADC
+    // Offset: 0x197D4A0
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1996C30
+    // Offset: 0x197C5F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1997CAC
+    // Offset: 0x197D670
     static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x19978DC
+    // Offset: 0x197D2A0
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x19978E4
+    // Offset: 0x197D2A8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1997BC8
+    // Offset: 0x197D58C
     void Reset();
   }; // System.Collections.ArrayList/System.Collections.ArrayListEnumeratorSimple
   #pragma pack(pop)

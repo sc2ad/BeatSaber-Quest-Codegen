@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
     System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*& dyn_lights();
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
-    // Offset: 0x1E240DC
+    // Offset: 0x1E0BB40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");

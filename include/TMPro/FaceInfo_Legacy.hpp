@@ -193,7 +193,7 @@ namespace TMPro {
     // Get instance field reference: public System.Single AtlasHeight
     float& dyn_AtlasHeight();
     // public System.Void .ctor()
-    // Offset: 0x11EA31C
+    // Offset: 0x11E7550
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

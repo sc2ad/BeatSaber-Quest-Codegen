@@ -47,16 +47,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_GlyphPairAdjustmentRecord,System.UInt32> <>9__6_1
     static void _set_$$9__6_1(System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11FA130
+    // Offset: 0x11F7364
     static void _cctor();
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x11FA19C
+    // Offset: 0x11F73D0
     uint $SortGlyphPairAdjustmentRecords$b__6_0(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x11FA1B4
+    // Offset: 0x11F73E8
     uint $SortGlyphPairAdjustmentRecords$b__6_1(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // public System.Void .ctor()
-    // Offset: 0x11FA194
+    // Offset: 0x11F73C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

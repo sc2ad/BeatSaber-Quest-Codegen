@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     ::Il2CppString*& dyn_userId();
     // System.Boolean <GetPlayerByUserId>b__0(IConnectedPlayer player)
-    // Offset: 0x18CDFAC
+    // Offset: 0x18B4970
     bool $GetPlayerByUserId$b__0(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x18CDA6C
+    // Offset: 0x18B4430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

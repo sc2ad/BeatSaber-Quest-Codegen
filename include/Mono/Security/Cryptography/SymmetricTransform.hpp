@@ -143,74 +143,74 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator _rng
     System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x1C4CC38
+    // Offset: 0x1C2F5FC
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1C4CC40
+    // Offset: 0x1C2F604
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x1C4CC48
+    // Offset: 0x1C2F60C
     int get_OutputBlockSize();
     // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x1C4D5A0
+    // Offset: 0x1C2FF64
     bool get_KeepLastBlock();
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x1C4C820
+    // Offset: 0x1C2F1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::SymmetricTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricTransform*, creationType>(symmAlgo, encryption, rgbIV)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1C4CB58
+    // Offset: 0x1C2F51C
     void System_IDisposable_Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1C4CBD4
+    // Offset: 0x1C2F598
     void Dispose(bool disposing);
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1C4CC50
+    // Offset: 0x1C2F614
     void Transform(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFF
     void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1C4CE04
+    // Offset: 0x1C2F7C8
     void CBC(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1C4CF7C
+    // Offset: 0x1C2F940
     void CFB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1C4D158
+    // Offset: 0x1C2FB1C
     void OFB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1C4D1C4
+    // Offset: 0x1C2FB88
     void CTS(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1C4D230
+    // Offset: 0x1C2FBF4
     void CheckInput(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1C4D388
+    // Offset: 0x1C2FD4C
     int TransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1C4D5C4
+    // Offset: 0x1C2FF88
     int InternalTransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C4D7A4
+    // Offset: 0x1C30168
     void Random(::ArrayW<uint8_t> buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x1C4D864
+    // Offset: 0x1C30228
     void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1C4D9D0
+    // Offset: 0x1C30394
     ::ArrayW<uint8_t> FinalEncrypt(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1C4DC74
+    // Offset: 0x1C30638
     ::ArrayW<uint8_t> FinalDecrypt(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1C4DF28
+    // Offset: 0x1C308EC
     ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x1C4CAE4
+    // Offset: 0x1C2F4A8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

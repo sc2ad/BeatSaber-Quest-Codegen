@@ -25,7 +25,7 @@ namespace UnityEngine {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE761A0
+    // [DebuggerBrowsableAttribute] Offset: 0xE78BC0
     // private System.Single <waitTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -44,20 +44,20 @@ namespace UnityEngine {
     // Get instance field reference: private System.Single m_WaitUntilTime
     float& dyn_m_WaitUntilTime();
     // public System.Single get_waitTime()
-    // Offset: 0x234EABC
+    // Offset: 0x2334520
     float get_waitTime();
     // public System.Void set_waitTime(System.Single value)
-    // Offset: 0x234EAC4
+    // Offset: 0x2334528
     void set_waitTime(float value);
     // public System.Void .ctor(System.Single time)
-    // Offset: 0x234EB5C
+    // Offset: 0x23345C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitForSecondsRealtime* New_ctor(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitForSecondsRealtime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitForSecondsRealtime*, creationType>(time)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x234EACC
+    // Offset: 0x2334530
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

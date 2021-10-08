@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [HeaderAttribute] Offset: 0xF11140
+    // [HeaderAttribute] Offset: 0xF10DC8
     // private UnityEngine.UI.Toggle _filterByDifficultyToggle
     // Size: 0x8
     // Offset: 0x70
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0xF111AC
+    // [HeaderAttribute] Offset: 0xF10E34
     // private UnityEngine.UI.Toggle _filterByModifiersToggle
     // Size: 0x8
     // Offset: 0x88
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersDropdown* gameplayModifiersDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0xF11218
+    // [HeaderAttribute] Offset: 0xF10EA0
     // private UnityEngine.UI.Toggle _filterBySongsToggle
     // Size: 0x8
     // Offset: 0xA0
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPacksDropdown* songPacksDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPacksDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0xF11284
+    // [HeaderAttribute] Offset: 0xF10F0C
     // private UnityEngine.UI.Toggle _showFullToggle
     // Size: 0x8
     // Offset: 0xB8
@@ -160,25 +160,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showInternetGames
     bool& dyn__showInternetGames();
     // public GameServersFilter get_gameServersFilter()
-    // Offset: 0x11E191C
+    // Offset: 0x11B4358
     GlobalNamespace::GameServersFilter* get_gameServersFilter();
     // public System.Void SetupGameServersFilter(GameServersFilter gameServersFilter)
-    // Offset: 0x11E1B10
+    // Offset: 0x11B454C
     void SetupGameServersFilter(GlobalNamespace::GameServersFilter* gameServersFilter);
     // private System.Void Refresh(GameServersFilter currentFilter)
-    // Offset: 0x11E1B14
+    // Offset: 0x11B4550
     void Refresh(GlobalNamespace::GameServersFilter* currentFilter);
     // private System.Void <DidActivate>b__16_0(System.Boolean isOn)
-    // Offset: 0x11E1E3C
+    // Offset: 0x11B4878
     void $DidActivate$b__16_0(bool isOn);
     // private System.Void <DidActivate>b__16_1(System.Boolean isOn)
-    // Offset: 0x11E1E5C
+    // Offset: 0x11B4898
     void $DidActivate$b__16_1(bool isOn);
     // private System.Void <DidActivate>b__16_2(System.Boolean isOn)
-    // Offset: 0x11E1E7C
+    // Offset: 0x11B48B8
     void $DidActivate$b__16_2(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x11E1DD4
+    // Offset: 0x11B4810
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -192,12 +192,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServersFilterViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11E1C1C
+    // Offset: 0x11B4658
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x11E1D64
+    // Offset: 0x11B47A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

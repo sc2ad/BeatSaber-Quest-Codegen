@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.TextAsset localizedText
     UnityEngine::TextAsset*& dyn_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x1260540
+    // Offset: 0x1259F2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

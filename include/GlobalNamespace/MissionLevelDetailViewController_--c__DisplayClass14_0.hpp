@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParamsList();
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)
-    // Offset: 0x1185F74
+    // Offset: 0x120A838
     void $RefreshContent$b__0(int idx, GlobalNamespace::ObjectiveListItem* objectiveListItem);
     // System.Void <RefreshContent>b__1(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0x1186150
+    // Offset: 0x120AA14
     void $RefreshContent$b__1(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0x1185F00
+    // Offset: 0x120A7C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

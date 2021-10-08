@@ -70,82 +70,82 @@ namespace HoudiniEngineUnity {
   class HEU_HAPIUtility : public ::Il2CppObject {
     public:
     // static public System.String GetHoudiniEngineInstallationInfo()
-    // Offset: 0x15D7088
+    // Offset: 0x15BCA4C
     static ::Il2CppString* GetHoudiniEngineInstallationInfo();
     // static public System.String GetEnvironmentPath()
-    // Offset: 0x15D70D0
+    // Offset: 0x15BCA94
     static ::Il2CppString* GetEnvironmentPath();
     // static public System.String GetRealPathFromHFSPath(System.String inPath)
-    // Offset: 0x15D7120
+    // Offset: 0x15BCAE4
     static ::Il2CppString* GetRealPathFromHFSPath(::Il2CppString* inPath);
     // static public System.Boolean DoesMappedPathExist(System.String inPath)
-    // Offset: 0x15D7284
+    // Offset: 0x15BCC48
     static bool DoesMappedPathExist(::Il2CppString* inPath);
     // static public System.Boolean IsHoudiniAssetFile(System.String filePath)
-    // Offset: 0x15D7318
+    // Offset: 0x15BCCDC
     static bool IsHoudiniAssetFile(::Il2CppString* filePath);
     // static public System.String FindHoudiniAssetFileInPathWithExt(System.String filePath)
-    // Offset: 0x15D7428
+    // Offset: 0x15BCDEC
     static ::Il2CppString* FindHoudiniAssetFileInPathWithExt(::Il2CppString* filePath);
     // static public System.Void Log(System.String message)
-    // Offset: 0x15D7670
+    // Offset: 0x15BD034
     static void Log(::Il2CppString* message);
     // static public System.Void LogWarning(System.String message)
-    // Offset: 0x15D7678
+    // Offset: 0x15BD03C
     static void LogWarning(::Il2CppString* message);
     // static public System.Void LogError(System.String message)
-    // Offset: 0x15D7680
+    // Offset: 0x15BD044
     static void LogError(::Il2CppString* message);
     // static public System.String LocateValidFilePath(UnityEngine.Object inObject)
-    // Offset: 0x15D7688
+    // Offset: 0x15BD04C
     static ::Il2CppString* LocateValidFilePath(UnityEngine::Object* inObject);
     // static public System.String LocateValidFilePath(System.String assetName, System.String inFilePath)
-    // Offset: 0x15D7714
+    // Offset: 0x15BD0D8
     static ::Il2CppString* LocateValidFilePath(::Il2CppString* assetName, ::Il2CppString* inFilePath);
     // static public UnityEngine.GameObject InstantiateHDA(System.String filePath, UnityEngine.Vector3 initialPosition, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, System.Boolean bLoadFromMemory, System.Boolean bAlwaysOverwriteOnLoad, UnityEngine.GameObject rootGO)
-    // Offset: 0x15D771C
+    // Offset: 0x15BD0E0
     static UnityEngine::GameObject* InstantiateHDA(::Il2CppString* filePath, UnityEngine::Vector3 initialPosition, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, UnityEngine::GameObject* rootGO);
     // static public System.Boolean LoadHDAFile(HoudiniEngineUnity.HEU_SessionBase session, System.String assetPath, out System.Int32 assetLibraryID, out System.String[] assetNames)
-    // Offset: 0x15D7C00
+    // Offset: 0x15BD5C4
     static bool LoadHDAFile(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetPath, ByRef<int> assetLibraryID, ByRef<::ArrayW<::Il2CppString*>> assetNames);
     // static public System.Boolean CreateAndCookAssetNode(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
-    // Offset: 0x15D7E28
+    // Offset: 0x15BD7EC
     static bool CreateAndCookAssetNode(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
     // static public System.Boolean CreateAndCookCurveAsset(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
-    // Offset: 0x15D81FC
+    // Offset: 0x15BDBC0
     static bool CreateAndCookCurveAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
     // static public System.Boolean CreateAndCookInputAsset(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
-    // Offset: 0x15D82F8
+    // Offset: 0x15BDCBC
     static bool CreateAndCookInputAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
     // static public System.Boolean CookNodeInHoudini(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Boolean bCookTemplatedGeos, System.String assetName)
-    // Offset: 0x15D81A0
+    // Offset: 0x15BDB64
     static bool CookNodeInHoudini(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, bool bCookTemplatedGeos, ::Il2CppString* assetName);
     // static public System.Boolean CookNodeInHoudiniWithOptions(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_CookOptions options, System.String assetName)
-    // Offset: 0x15D8528
+    // Offset: 0x15BDEEC
     static bool CookNodeInHoudiniWithOptions(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, HoudiniEngineUnity::HAPI_CookOptions options, ::Il2CppString* assetName);
     // static public HoudiniEngineUnity.HAPI_CookOptions GetDefaultCookOptions(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x15D85A8
+    // Offset: 0x15BDF6C
     static HoudiniEngineUnity::HAPI_CookOptions GetDefaultCookOptions(HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Boolean ProcessHoudiniCookStatus(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName)
-    // Offset: 0x15D7FC4
+    // Offset: 0x15BD988
     static bool ProcessHoudiniCookStatus(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName);
     // static public UnityEngine.GameObject CreateNewAsset(HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.HEU_AssetType assetType, System.String rootName, UnityEngine.Transform parentTransform, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, UnityEngine.GameObject rootGO)
-    // Offset: 0x15D85F4
+    // Offset: 0x15BDFB8
     static UnityEngine::GameObject* CreateNewAsset(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType assetType, ::Il2CppString* rootName, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
     // static public UnityEngine.GameObject CreateNewCurveAsset(System.String name, UnityEngine.Transform parentTransform, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, UnityEngine.GameObject rootGO)
-    // Offset: 0x15D8944
+    // Offset: 0x15BE308
     static UnityEngine::GameObject* CreateNewCurveAsset(::Il2CppString* name, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
     // static public UnityEngine.GameObject CreateNewInputAsset(System.String name, UnityEngine.Transform parentTransform, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, UnityEngine.GameObject rootGO)
-    // Offset: 0x15D8968
+    // Offset: 0x15BE32C
     static UnityEngine::GameObject* CreateNewInputAsset(::Il2CppString* name, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
     // static public UnityEngine.GameObject LoadGeoWithNewGeoSync(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x15D898C
+    // Offset: 0x15BE350
     static UnityEngine::GameObject* LoadGeoWithNewGeoSync(HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Void DestroyChildren(UnityEngine.Transform inTransform)
-    // Offset: 0x15D8994
+    // Offset: 0x15BE358
     static void DestroyChildren(UnityEngine::Transform* inTransform);
     // static public System.Void DestroyGameObject(UnityEngine.GameObject gameObect, System.Boolean bRegisterUndo)
-    // Offset: 0x15D8D28
+    // Offset: 0x15BE6EC
     static void DestroyGameObject(UnityEngine::GameObject* gameObect, bool bRegisterUndo);
     // static public System.Void DestroyChildrenWithComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
@@ -158,79 +158,79 @@ namespace HoudiniEngineUnity {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // static public System.Boolean IsNodeValidInHoudini(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID)
-    // Offset: 0x15D8D38
+    // Offset: 0x15BE6FC
     static bool IsNodeValidInHoudini(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID);
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot GetAssetInScene(System.Int32 assetID)
-    // Offset: 0x15D8DE4
+    // Offset: 0x15BE7A8
     static HoudiniEngineUnity::HEU_HoudiniAssetRoot* GetAssetInScene(int assetID);
     // static public System.Void ApplyWorldTransfromFromHoudiniToUnity(ref HoudiniEngineUnity.HAPI_Transform hapiTransform, UnityEngine.Transform unityTransform)
-    // Offset: 0x15D8EFC
+    // Offset: 0x15BE8C0
     static void ApplyWorldTransfromFromHoudiniToUnity(ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, UnityEngine::Transform* unityTransform);
     // static public System.Void ApplyLocalTransfromFromHoudiniToUnity(ref HoudiniEngineUnity.HAPI_Transform hapiTransform, UnityEngine.Transform unityTransform)
-    // Offset: 0x15D9140
+    // Offset: 0x15BEB04
     static void ApplyLocalTransfromFromHoudiniToUnity(ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, UnityEngine::Transform* unityTransform);
     // static public System.Void ApplyLocalTransfromFromHoudiniToUnityForInstance(ref HoudiniEngineUnity.HAPI_Transform hapiTransform, UnityEngine.Transform unityTransform)
-    // Offset: 0x15D92F4
+    // Offset: 0x15BECB8
     static void ApplyLocalTransfromFromHoudiniToUnityForInstance(ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, UnityEngine::Transform* unityTransform);
     // static public System.Void ApplyMatrixToLocalTransform(ref UnityEngine.Matrix4x4 matrix, UnityEngine.Transform transform)
-    // Offset: 0x15D954C
+    // Offset: 0x15BEF10
     static void ApplyMatrixToLocalTransform(ByRef<UnityEngine::Matrix4x4> matrix, UnityEngine::Transform* transform);
     // static public UnityEngine.Matrix4x4 GetMatrixFromHAPITransform(ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.Boolean bConvertToUnity)
-    // Offset: 0x15D9AB8
+    // Offset: 0x15BF47C
     static UnityEngine::Matrix4x4 GetMatrixFromHAPITransform(ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, bool bConvertToUnity);
     // static public UnityEngine.Quaternion GetQuaternion(ref UnityEngine.Matrix4x4 m)
-    // Offset: 0x15D964C
+    // Offset: 0x15BF010
     static UnityEngine::Quaternion GetQuaternion(ByRef<UnityEngine::Matrix4x4> m);
     // static public UnityEngine.Vector3 GetPosition(ref UnityEngine.Matrix4x4 m)
-    // Offset: 0x15D95A8
+    // Offset: 0x15BEF6C
     static UnityEngine::Vector3 GetPosition(ByRef<UnityEngine::Matrix4x4> m);
     // static public System.Void SetMatrixPosition(ref UnityEngine.Matrix4x4 m, ref UnityEngine.Vector3 position)
-    // Offset: 0x15D9CB4
+    // Offset: 0x15BF678
     static void SetMatrixPosition(ByRef<UnityEngine::Matrix4x4> m, ByRef<UnityEngine::Vector3> position);
     // static public UnityEngine.Vector3 GetScale(ref UnityEngine.Matrix4x4 m)
-    // Offset: 0x15D998C
+    // Offset: 0x15BF350
     static UnityEngine::Vector3 GetScale(ByRef<UnityEngine::Matrix4x4> m);
     // static public HoudiniEngineUnity.HAPI_TransformEuler GetHAPITransformFromMatrix(ref UnityEngine.Matrix4x4 mat)
-    // Offset: 0x15D9D58
+    // Offset: 0x15BF71C
     static HoudiniEngineUnity::HAPI_TransformEuler GetHAPITransformFromMatrix(ByRef<UnityEngine::Matrix4x4> mat);
     // static public HoudiniEngineUnity.HAPI_TransformEuler GetHAPITransform(ref UnityEngine.Vector3 p, ref UnityEngine.Vector3 r, ref UnityEngine.Vector3 s)
-    // Offset: 0x15D9F78
+    // Offset: 0x15BF93C
     static HoudiniEngineUnity::HAPI_TransformEuler GetHAPITransform(ByRef<UnityEngine::Vector3> p, ByRef<UnityEngine::Vector3> r, ByRef<UnityEngine::Vector3> s);
     // static public HoudiniEngineUnity.HAPI_Transform GetHAPITransformQuatFromMatrix(ref UnityEngine.Matrix4x4 mat)
-    // Offset: 0x15DA168
+    // Offset: 0x15BFB2C
     static HoudiniEngineUnity::HAPI_Transform GetHAPITransformQuatFromMatrix(ByRef<UnityEngine::Matrix4x4> mat);
     // static public UnityEngine.Matrix4x4 GetMatrix4x4(ref UnityEngine.Vector3 p, ref UnityEngine.Vector3 r, ref UnityEngine.Vector3 s)
-    // Offset: 0x15DA41C
+    // Offset: 0x15BFDE0
     static UnityEngine::Matrix4x4 GetMatrix4x4(ByRef<UnityEngine::Vector3> p, ByRef<UnityEngine::Vector3> r, ByRef<UnityEngine::Vector3> s);
     // static public System.Boolean IsSameTransform(ref UnityEngine.Matrix4x4 transformMatrix, ref UnityEngine.Vector3 p, ref UnityEngine.Vector3 r, ref UnityEngine.Vector3 s)
-    // Offset: 0x15DA540
+    // Offset: 0x15BFF04
     static bool IsSameTransform(ByRef<UnityEngine::Matrix4x4> transformMatrix, ByRef<UnityEngine::Vector3> p, ByRef<UnityEngine::Vector3> r, ByRef<UnityEngine::Vector3> s);
     // static public System.Boolean IsEqualTol(System.Single a, System.Single b, System.Single t)
-    // Offset: 0x15DA61C
+    // Offset: 0x15BFFE0
     static bool IsEqualTol(float a, float b, float t);
     // static public System.Boolean IsTransformEqual(ref HoudiniEngineUnity.HAPI_Transform transA, ref HoudiniEngineUnity.HAPI_Transform transB)
-    // Offset: 0x15DA6A0
+    // Offset: 0x15C0064
     static bool IsTransformEqual(ByRef<HoudiniEngineUnity::HAPI_Transform> transA, ByRef<HoudiniEngineUnity::HAPI_Transform> transB);
     // static public System.Boolean IsViewportEqual(ref HoudiniEngineUnity.HAPI_Viewport viewA, ref HoudiniEngineUnity.HAPI_Viewport viewB)
-    // Offset: 0x15DA8D4
+    // Offset: 0x15C0298
     static bool IsViewportEqual(ByRef<HoudiniEngineUnity::HAPI_Viewport> viewA, ByRef<HoudiniEngineUnity::HAPI_Viewport> viewB);
     // static public System.Boolean IsSessionSyncEqual(ref HoudiniEngineUnity.HAPI_SessionSyncInfo syncA, ref HoudiniEngineUnity.HAPI_SessionSyncInfo syncB)
-    // Offset: 0x15DAA18
+    // Offset: 0x15C03DC
     static bool IsSessionSyncEqual(ByRef<HoudiniEngineUnity::HAPI_SessionSyncInfo> syncA, ByRef<HoudiniEngineUnity::HAPI_SessionSyncInfo> syncB);
     // static public System.Boolean DoesGeoPartHaveAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner owner, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo)
-    // Offset: 0x15DAA60
+    // Offset: 0x15C0424
     static bool DoesGeoPartHaveAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // static public System.Void SetAnimationCurveTangentModes(UnityEngine.AnimationCurve animCurve, System.Collections.Generic.List`1<System.Int32> tangentValues)
-    // Offset: 0x15DAAAC
+    // Offset: 0x15C0470
     static void SetAnimationCurveTangentModes(UnityEngine::AnimationCurve* animCurve, System::Collections::Generic::List_1<int>* tangentValues);
     // static public System.Boolean IsSupportedPolygonType(HoudiniEngineUnity.HAPI_PartType partType)
-    // Offset: 0x15DAAB0
+    // Offset: 0x15C0474
     static bool IsSupportedPolygonType(HoudiniEngineUnity::HAPI_PartType partType);
     // static public System.Int32 GetParentNodeID(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID)
-    // Offset: 0x15DAACC
+    // Offset: 0x15C0490
     static int GetParentNodeID(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID);
     // static public System.Boolean GetObjectInfos(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, ref HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, out HoudiniEngineUnity.HAPI_ObjectInfo[] objectInfos, out HoudiniEngineUnity.HAPI_Transform[] objectTransforms)
-    // Offset: 0x15DAB54
+    // Offset: 0x15C0518
     static bool GetObjectInfos(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> objectTransforms);
   }; // HoudiniEngineUnity.HEU_HAPIUtility
   #pragma pack(pop)

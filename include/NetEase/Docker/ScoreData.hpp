@@ -25,14 +25,14 @@ namespace NetEase::Docker {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDEC4
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDB2C
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDF00
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDB68
     // private System.Int32 <Score>k__BackingField
     // Size: 0x4
     // Offset: 0x8
@@ -41,7 +41,7 @@ namespace NetEase::Docker {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Score and: TimeStamp
     char __padding1[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDF3C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDBA4
     // private System.Int64 <TimeStamp>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -62,19 +62,19 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int64 <TimeStamp>k__BackingField
     int64_t& dyn_$TimeStamp$k__BackingField();
     // public System.String get_Name()
-    // Offset: 0x262004C
+    // Offset: 0x2607AF4
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x2620054
+    // Offset: 0x2607AFC
     void set_Name(::Il2CppString* value);
     // public System.Int32 get_Score()
-    // Offset: 0x262005C
+    // Offset: 0x2607B04
     int get_Score();
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0x2620064
+    // Offset: 0x2607B0C
     void set_Score(int value);
     // public System.Void set_TimeStamp(System.Int64 value)
-    // Offset: 0x262006C
+    // Offset: 0x2607B14
     void set_TimeStamp(int64_t value);
   }; // NetEase.Docker.ScoreData
   #pragma pack(pop)

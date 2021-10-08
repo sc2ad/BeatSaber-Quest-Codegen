@@ -36,21 +36,21 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF09148
+    // [InjectAttribute] Offset: 0xF08DC0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09158
+    // [InjectAttribute] Offset: 0xF08DD0
     // private readonly SaberManager/InitData _saberManagerInitData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SaberManager::InitData* saberManagerInitData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09168
+    // [InjectAttribute] Offset: 0xF08DE0
     // private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
     // Size: 0x8
     // Offset: 0x30
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
     GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playerSpecificSettings();
     // public System.Void .ctor()
-    // Offset: 0x120D728
+    // Offset: 0x117FEE8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBigAvatarInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x120D540
+    // Offset: 0x117FD00
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

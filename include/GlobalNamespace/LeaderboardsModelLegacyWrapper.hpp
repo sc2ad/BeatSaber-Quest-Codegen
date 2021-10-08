@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0373C
+    // [InjectAttribute] Offset: 0xF03394
     // private OnlineServices.ILeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0x10
@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private OnlineServices.ILeaderboardsModel _leaderboardsModel
     OnlineServices::ILeaderboardsModel*& dyn__leaderboardsModel();
     // private System.Void GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x114AF44
+    // Offset: 0x11DF150
     void GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* asyncRequest, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // private System.Void SendLevelScoreResutlAsync(OnlineServices.LevelScoreResultsData levelScoreResultsData, LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x114B0F4
+    // Offset: 0x11DF300
     void SendLevelScoreResutlAsync(OnlineServices::LevelScoreResultsData levelScoreResultsData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* asyncRequest, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0x114B1E0
+    // Offset: 0x11DF3EC
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: System.Void PlatformLeaderboardsHandler::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -80,12 +80,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper*, creationType>()));
     }
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x114AE00
+    // Offset: 0x11DF00C
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::Il2CppString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x114B024
+    // Offset: 0x11DF230
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);

@@ -44,34 +44,34 @@ namespace GlobalNamespace {
   class HEU_ExampleEvergreenQuery : public ::Il2CppObject {
     public:
     // static public System.Void StartQuery()
-    // Offset: 0x143677C
+    // Offset: 0x141B140
     static void StartQuery();
     // static public HoudiniEngineUnity.HEU_HoudiniAsset QueryHoudiniAsset(UnityEngine.GameObject rootGO)
-    // Offset: 0x1436A10
+    // Offset: 0x141B3D4
     static HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(UnityEngine::GameObject* rootGO);
     // static public System.Void CookAsset(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
-    // Offset: 0x1436BCC
+    // Offset: 0x141B590
     static void CookAsset(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void ChangeParmsAndCook(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
-    // Offset: 0x1436BF4
+    // Offset: 0x141B5B8
     static void ChangeParmsAndCook(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void QueryObjects(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
-    // Offset: 0x1436F18
+    // Offset: 0x141B8DC
     static void QueryObjects(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void QueryGeoParts(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_GeoInfo geoInfo)
-    // Offset: 0x14376F4
+    // Offset: 0x141C0B8
     static void QueryGeoParts(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_GeoInfo> geoInfo);
     // static public System.Void QueryPartAttributeByOwner(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner owner, System.Int32 count, System.Text.StringBuilder sb)
-    // Offset: 0x1437B5C
+    // Offset: 0x141C520
     static void QueryPartAttributeByOwner(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner owner, int count, System::Text::StringBuilder* sb);
     // static public System.Void QueryAttributeByStorageType(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.String attrName)
-    // Offset: 0x1437E9C
+    // Offset: 0x141C860
     static void QueryAttributeByStorageType(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::Il2CppString* attrName);
     // static public System.Void QueryAttribute(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset, System.String objName, System.String geoName, System.Int32 partID, System.String attrName)
-    // Offset: 0x143725C
+    // Offset: 0x141BC20
     static void QueryAttribute(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::Il2CppString* objName, ::Il2CppString* geoName, int partID, ::Il2CppString* attrName);
     // public System.Void .ctor()
-    // Offset: 0x1438040
+    // Offset: 0x141CA04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

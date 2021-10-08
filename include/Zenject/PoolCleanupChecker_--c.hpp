@@ -40,13 +40,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__2_0
     static void _set_$$9__2_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18964D0
+    // Offset: 0x187CE94
     static void _cctor();
     // System.Boolean <.ctor>b__2_0(System.Type x)
-    // Offset: 0x189653C
+    // Offset: 0x187CF00
     bool $_ctor$b__2_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x1896534
+    // Offset: 0x187CEF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

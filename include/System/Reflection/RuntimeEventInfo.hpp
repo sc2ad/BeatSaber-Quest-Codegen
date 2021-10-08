@@ -50,27 +50,27 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x15A38AC
+    // Offset: 0x1589270
     System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x15A3964
+    // Offset: 0x1589328
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x15A38D8
+    // Offset: 0x158929C
     System::RuntimeType* GetDeclaringTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x15A38B8
+    // Offset: 0x158927C
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15A39F0
+    // Offset: 0x15893B4
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x15A38B4
+    // Offset: 0x1589278
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x15A3AB0
+    // Offset: 0x1589474
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Void EventInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

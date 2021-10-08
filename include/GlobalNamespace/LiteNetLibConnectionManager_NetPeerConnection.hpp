@@ -87,37 +87,37 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly LiteNetLib.NetPeer netPeer
     LiteNetLib::NetPeer*& dyn_netPeer();
     // public System.String get_userId()
-    // Offset: 0x145E3A8
+    // Offset: 0x1442D6C
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x145E3B0
+    // Offset: 0x1442D74
     ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x145E3B8
+    // Offset: 0x1442D7C
     bool get_isConnectionOwner();
     // public System.Void .ctor(LiteNetLib.NetPeer netPeer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x145D874
+    // Offset: 0x1442238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnection* New_ctor(LiteNetLib::NetPeer* netPeer, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnection*, creationType>(netPeer, userId, userName, isConnectionOwner)));
     }
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x145E3C0
+    // Offset: 0x1442D84
     void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Boolean Equals(LiteNetLibConnectionManager/NetPeerConnection other)
-    // Offset: 0x145E3DC
+    // Offset: 0x1442DA0
     bool Equals(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
     // public System.Void Disconnect()
-    // Offset: 0x145CF88
+    // Offset: 0x144194C
     void Disconnect();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x145E408
+    // Offset: 0x1442DCC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x145E524
+    // Offset: 0x1442EE8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

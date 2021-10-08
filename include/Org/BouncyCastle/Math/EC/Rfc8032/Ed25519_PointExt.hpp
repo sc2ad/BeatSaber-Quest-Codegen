@@ -60,7 +60,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Get instance field reference: System.Int32[] t
     ::ArrayW<int>& dyn_t();
     // public System.Void .ctor()
-    // Offset: 0x1F8DB80
+    // Offset: 0x1F745E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

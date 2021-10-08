@@ -62,8 +62,8 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xF13910
-    // [NullAllowed] Offset: 0xF13910
+    // [SpaceAttribute] Offset: 0xF13598
+    // [NullAllowed] Offset: 0xF13598
     // private ReflectionProbeDataSO _reflectionProbeData
     // Size: 0x8
     // Offset: 0x38
@@ -79,27 +79,27 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1395C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF135E4
     // Get static field: static private readonly System.Int32 _reflectionProbeBoundsMinPropertyId
     static int _get__reflectionProbeBoundsMinPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeBoundsMinPropertyId
     static void _set__reflectionProbeBoundsMinPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1396C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF135F4
     // Get static field: static private readonly System.Int32 _reflectionProbeBoundsMaxPropertyId
     static int _get__reflectionProbeBoundsMaxPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeBoundsMaxPropertyId
     static void _set__reflectionProbeBoundsMaxPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1397C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13604
     // Get static field: static private readonly System.Int32 _reflectionProbePositionPropertyId
     static int _get__reflectionProbePositionPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbePositionPropertyId
     static void _set__reflectionProbePositionPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1398C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13614
     // Get static field: static private readonly System.Int32 _reflectionProbeTexture1PropertyId
     static int _get__reflectionProbeTexture1PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture1PropertyId
     static void _set__reflectionProbeTexture1PropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1399C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13624
     // Get static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
     static int _get__reflectionProbeTexture2PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
@@ -117,28 +117,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Cubemap _blackCubemap
     UnityEngine::Cubemap*& dyn__blackCubemap();
     // public ReflectionProbeDataSO get_reflectionProbeData()
-    // Offset: 0x126A65C
+    // Offset: 0x1238FB0
     GlobalNamespace::ReflectionProbeDataSO* get_reflectionProbeData();
     // public System.Void set_reflectionProbeData(ReflectionProbeDataSO value)
-    // Offset: 0x126A664
+    // Offset: 0x1238FB8
     void set_reflectionProbeData(GlobalNamespace::ReflectionProbeDataSO* value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x126A66C
+    // Offset: 0x1238FC0
     UnityEngine::Vector3 get_position();
     // public System.Int32 get_resolutionBeforeDownsample()
-    // Offset: 0x126A690
+    // Offset: 0x1238FE4
     int get_resolutionBeforeDownsample();
     // public System.Int32 get_downsampleByHalfCount()
-    // Offset: 0x126A698
+    // Offset: 0x1238FEC
     int get_downsampleByHalfCount();
     // protected System.Void Start()
-    // Offset: 0x126A6A0
+    // Offset: 0x1238FF4
     void Start();
     // private System.Void SendDataToShaders()
-    // Offset: 0x126A758
+    // Offset: 0x12390AC
     void SendDataToShaders();
     // public System.Void .ctor()
-    // Offset: 0x126AA50
+    // Offset: 0x12393A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BakedReflectionProbe*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x126AA64
+    // Offset: 0x12393B8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

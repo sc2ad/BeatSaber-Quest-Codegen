@@ -50,16 +50,16 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_1
     static void _set_$$9__11_1(System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1418A5C
+    // Offset: 0x13FC420
     static void _cctor();
     // System.Single <Start>b__11_0(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
-    // Offset: 0x1418AC8
+    // Offset: 0x13FC48C
     float $Start$b__11_0(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // System.Single <Start>b__11_1(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
-    // Offset: 0x1418B14
+    // Offset: 0x13FC4D8
     float $Start$b__11_1(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // public System.Void .ctor()
-    // Offset: 0x1418AC0
+    // Offset: 0x13FC484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

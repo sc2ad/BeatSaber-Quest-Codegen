@@ -28,7 +28,7 @@ namespace System::Diagnostics {
   class ProcessWaitHandle : public System::Threading::WaitHandle {
     public:
     // System.Void .ctor(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle)
-    // Offset: 0x1A263C4
+    // Offset: 0x1A0AD88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessWaitHandle* New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ProcessWaitHandle::.ctor");

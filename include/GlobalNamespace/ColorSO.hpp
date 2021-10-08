@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     UnityEngine::Color get_color();
     // protected System.Void .ctor()
-    // Offset: 0x262709C
+    // Offset: 0x260EB44
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

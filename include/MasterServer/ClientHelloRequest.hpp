@@ -61,13 +61,13 @@ namespace MasterServer {
     // Get instance field reference: public readonly System.Byte[] random
     ::ArrayW<uint8_t>& dyn_random();
     // static public PacketPool`1<MasterServer.ClientHelloRequest> get_pool()
-    // Offset: 0x12D8060
+    // Offset: 0x12E93D4
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloRequest*>* get_pool();
     // public MasterServer.ClientHelloRequest Init(System.Byte[] random)
-    // Offset: 0x12D80A8
+    // Offset: 0x12E941C
     MasterServer::ClientHelloRequest* Init(::ArrayW<uint8_t> random);
     // public System.Void .ctor()
-    // Offset: 0x12D9EB0
+    // Offset: 0x12EB224
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -77,17 +77,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D9DD4
+    // Offset: 0x12EB148
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D9E10
+    // Offset: 0x12EB184
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D9E54
+    // Offset: 0x12EB1C8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

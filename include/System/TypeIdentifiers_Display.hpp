@@ -51,20 +51,20 @@ namespace System {
     // Get instance field reference: private System.String internal_name
     ::Il2CppString*& dyn_internal_name();
     // public System.String get_InternalName()
-    // Offset: 0x2530784
+    // Offset: 0x25161E8
     ::Il2CppString* get_InternalName();
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x2530748
+    // Offset: 0x25161AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // private System.String GetInternalName()
-    // Offset: 0x25307B4
+    // Offset: 0x2516218
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x253077C
+    // Offset: 0x25161E0
     // Implemented from: System.TypeNames/System.ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();

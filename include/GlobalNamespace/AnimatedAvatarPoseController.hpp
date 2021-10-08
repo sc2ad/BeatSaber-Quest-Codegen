@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF006E0
+    // [InjectAttribute] Offset: 0xF00358
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
     GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // protected System.Void LateUpdate()
-    // Offset: 0x124164C
+    // Offset: 0x26161CC
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1241858
+    // Offset: 0x26163D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

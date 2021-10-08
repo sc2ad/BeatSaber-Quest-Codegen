@@ -39,16 +39,16 @@ namespace GlobalNamespace {
   class HEU_AssetEventReceiverTest : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void ReloadCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x1436024
+    // Offset: 0x141A9E8
     void ReloadCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);
     // public System.Void CookedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x14361AC
+    // Offset: 0x141AB70
     void CookedCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);
     // public System.Void BakedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x1436334
+    // Offset: 0x141ACF8
     void BakedCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);
     // public System.Void .ctor()
-    // Offset: 0x14364BC
+    // Offset: 0x141AE80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

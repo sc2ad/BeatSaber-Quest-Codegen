@@ -94,25 +94,25 @@ namespace MasterServer {
     // Get instance field reference: public GameStateType gameState
     GlobalNamespace::GameStateType& dyn_gameState();
     // static public PacketPool`1<MasterServer.DedicatedServerInstanceStatusUpdateRequest> get_pool()
-    // Offset: 0x12DB7CC
+    // Offset: 0x12ECB40
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerInstanceStatusUpdateRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12DB814
+    // Offset: 0x12ECB88
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x12DB81C
+    // Offset: 0x12ECB90
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x12DB824
+    // Offset: 0x12ECB98
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x12DB82C
+    // Offset: 0x12ECBA0
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerInstanceStatusUpdateRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
-    // Offset: 0x12DB98C
+    // Offset: 0x12ECD00
     MasterServer::DedicatedServerInstanceStatusUpdateRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void .ctor()
-    // Offset: 0x12DB99C
+    // Offset: 0x12ECD10
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -122,17 +122,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerInstanceStatusUpdateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12DB834
+    // Offset: 0x12ECBA8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12DB8B0
+    // Offset: 0x12ECC24
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12DB930
+    // Offset: 0x12ECCA4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

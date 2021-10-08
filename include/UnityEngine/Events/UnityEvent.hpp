@@ -56,19 +56,19 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Object[] m_InvokeArray
     ::ArrayW<::Il2CppObject*>& dyn_m_InvokeArray();
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1CBA5A4
+    // Offset: 0x1C9CF68
     void AddListener(UnityEngine::Events::UnityAction* call);
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1CBA660
+    // Offset: 0x1C9D024
     void RemoveListener(UnityEngine::Events::UnityAction* call);
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction action)
-    // Offset: 0x1CBA5DC
+    // Offset: 0x1C9CFA0
     static UnityEngine::Events::BaseInvokableCall* GetDelegate(UnityEngine::Events::UnityAction* action);
     // public System.Void Invoke()
-    // Offset: 0x1CBA960
+    // Offset: 0x1C9D324
     void Invoke();
     // public System.Void .ctor()
-    // Offset: 0x1CBA510
+    // Offset: 0x1C9CED4
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -78,12 +78,12 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEvent*, creationType>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0x1CBA6C0
+    // Offset: 0x1C9D084
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj);
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x1CBA8F0
+    // Offset: 0x1C9D2B4
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);

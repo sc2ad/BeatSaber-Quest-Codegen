@@ -126,20 +126,20 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
     System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*& dyn_m_Mixers();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x19EEB94
+    // Offset: 0x19D3558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationOutputWeightProcessor* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationOutputWeightProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationOutputWeightProcessor*, creationType>(output)));
     }
     // private System.Void FindMixers()
-    // Offset: 0x19EEC3C
+    // Offset: 0x19D3600
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0x19EED10
+    // Offset: 0x19D36D4
     void FindMixers(UnityEngine::Playables::Playable parent, int port, UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0x19EEF54
+    // Offset: 0x19D3918
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
   #pragma pack(pop)

@@ -48,13 +48,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // public System.Boolean get_isValid()
-    // Offset: 0x1EC11F4
+    // Offset: 0x1EA7C58
     bool get_isValid();
     // public System.Void UpdateConstraint()
     // Offset: 0xFFFFFFFF
     void UpdateConstraint();
     // protected System.Void .ctor()
-    // Offset: 0x1EC1264
+    // Offset: 0x1EA7CC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

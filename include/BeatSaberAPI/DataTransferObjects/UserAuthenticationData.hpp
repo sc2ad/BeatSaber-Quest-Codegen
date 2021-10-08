@@ -87,7 +87,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String publicUserDisplayName
     ::Il2CppString*& dyn_publicUserDisplayName();
     // public System.Void .ctor()
-    // Offset: 0x126F468
+    // Offset: 0x123DDBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

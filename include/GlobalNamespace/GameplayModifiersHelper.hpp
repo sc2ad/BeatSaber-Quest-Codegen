@@ -25,10 +25,10 @@ namespace GlobalNamespace {
   class GameplayModifiersHelper : public ::Il2CppObject {
     public:
     // static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] ToDTO(GameplayModifiers gameplayModifiers)
-    // Offset: 0x11E5BFC
+    // Offset: 0x11B86C0
     static ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // static public GameplayModifiers FromDTO(BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiersDTOs)
-    // Offset: 0x11E5F08
+    // Offset: 0x11B89CC
     static GlobalNamespace::GameplayModifiers* FromDTO(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiersDTOs);
   }; // GameplayModifiersHelper
   #pragma pack(pop)

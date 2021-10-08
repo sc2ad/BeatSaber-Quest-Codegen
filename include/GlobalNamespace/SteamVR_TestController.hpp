@@ -85,22 +85,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Transform pointer
     UnityEngine::Transform*& dyn_pointer();
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x154A424
+    // Offset: 0x1530DE8
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0x154AA28
+    // Offset: 0x15313EC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x154AAEC
+    // Offset: 0x15314B0
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0x154A5D8
+    // Offset: 0x1530F9C
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0x154ABB0
+    // Offset: 0x1531574
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x154B500
+    // Offset: 0x1531EC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

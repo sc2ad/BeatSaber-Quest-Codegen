@@ -32,28 +32,28 @@ namespace HoudiniEngineUnity {
   class HEU_RenderingPipelineDefines : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x17D208C
+    // Offset: 0x17B6A50
     static void _cctor();
     // static private System.Void UpdateDefines()
-    // Offset: 0x17D2090
+    // Offset: 0x17B6A54
     static void UpdateDefines();
     // static public HoudiniEngineUnity.HEU_PipelineType GetPipeline()
-    // Offset: 0x17CECE8
+    // Offset: 0x17B36AC
     static HoudiniEngineUnity::HEU_PipelineType GetPipeline();
     // static private System.Void AddDefine(System.String define)
-    // Offset: 0x17D21B0
+    // Offset: 0x17B6B74
     static void AddDefine(::Il2CppString* define);
     // static public System.Void RemoveDefine(System.String define)
-    // Offset: 0x17D227C
+    // Offset: 0x17B6C40
     static void RemoveDefine(::Il2CppString* define);
     // static public System.Collections.Generic.List`1<System.String> GetDefines()
-    // Offset: 0x17D2348
+    // Offset: 0x17B6D0C
     static System::Collections::Generic::List_1<::Il2CppString*>* GetDefines();
     // static public System.Void SetDefines(System.Collections.Generic.List`1<System.String> definesList)
-    // Offset: 0x17D23AC
+    // Offset: 0x17B6D70
     static void SetDefines(System::Collections::Generic::List_1<::Il2CppString*>* definesList);
     // public System.Void .ctor()
-    // Offset: 0x17D23B0
+    // Offset: 0x17B6D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

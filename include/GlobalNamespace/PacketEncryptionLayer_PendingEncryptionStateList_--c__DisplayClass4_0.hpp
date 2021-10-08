@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 port
     int& dyn_port();
     // System.Int32 <GetSortedEncryptionStates>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x18D1E74
+    // Offset: 0x18B8838
     int $GetSortedEncryptionStates$b__0(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x18D1DB4
+    // Offset: 0x18B8778
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

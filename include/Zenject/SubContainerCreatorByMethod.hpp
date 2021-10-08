@@ -63,14 +63,14 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installMethod
     System::Action_1<Zenject::DiContainer*>*& dyn__installMethod();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x18A141C
+    // Offset: 0x1887DE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByMethod* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Action_1<Zenject::DiContainer*>* installMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByMethod*, creationType>(container, containerBindInfo, installMethod)));
     }
     // public override Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x18A2B00
+    // Offset: 0x18894C4
     // Implemented from: Zenject.SubContainerCreatorByMethodBase
     // Base method: Zenject.DiContainer SubContainerCreatorByMethodBase::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);

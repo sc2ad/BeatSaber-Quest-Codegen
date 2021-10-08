@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* progressText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEFF240
+    // [SpaceAttribute] Offset: 0xEFEEA8
     // private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x30
@@ -112,14 +112,14 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* characteristics;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFF298
+    // [InjectAttribute] Offset: 0xEFEF00
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFF2A8
+    // [InjectAttribute] Offset: 0xEFEF10
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x50
@@ -170,28 +170,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _waitingForLevelFinish
     bool& dyn__waitingForLevelFinish();
     // private System.Void Start()
-    // Offset: 0x134FB08
+    // Offset: 0x1276D4C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x134FC2C
+    // Offset: 0x1276E70
     void OnDestroy();
     // private System.Collections.IEnumerator CheckBeatmaps(System.Collections.Generic.List`1<BeatmapLevelSO> levels)
-    // Offset: 0x134FD18
+    // Offset: 0x1276F5C
     System::Collections::IEnumerator* CheckBeatmaps(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* levels);
     // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO data, LevelCompletionResults results)
-    // Offset: 0x134FDC0
+    // Offset: 0x1277004
     void HandleMainGameSceneDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, GlobalNamespace::LevelCompletionResults* results);
     // private System.Void <Start>b__11_0()
-    // Offset: 0x134FE64
+    // Offset: 0x12770A8
     void $Start$b__11_0();
     // private System.Void <Start>b__11_1()
-    // Offset: 0x134FEF8
+    // Offset: 0x127713C
     void $Start$b__11_1();
     // private System.Void <HandleMainGameSceneDidFinish>b__14_0(Zenject.DiContainer container)
-    // Offset: 0x134FF48
+    // Offset: 0x127718C
     void $HandleMainGameSceneDidFinish$b__14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x134FE5C
+    // Offset: 0x12770A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

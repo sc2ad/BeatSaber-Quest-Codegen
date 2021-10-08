@@ -36,73 +36,73 @@ namespace UnityEngine::Rendering {
   class RenderPipelineAsset : public UnityEngine::ScriptableObject {
     public:
     // public System.String[] get_renderingLayerMaskNames()
-    // Offset: 0x1E08C50
+    // Offset: 0x1DEF6B4
     ::ArrayW<::Il2CppString*> get_renderingLayerMaskNames();
     // public UnityEngine.Material get_defaultMaterial()
-    // Offset: 0x1E08C58
+    // Offset: 0x1DEF6BC
     UnityEngine::Material* get_defaultMaterial();
     // public UnityEngine.Shader get_autodeskInteractiveShader()
-    // Offset: 0x1E08C60
+    // Offset: 0x1DEF6C4
     UnityEngine::Shader* get_autodeskInteractiveShader();
     // public UnityEngine.Shader get_autodeskInteractiveTransparentShader()
-    // Offset: 0x1E08C68
+    // Offset: 0x1DEF6CC
     UnityEngine::Shader* get_autodeskInteractiveTransparentShader();
     // public UnityEngine.Shader get_autodeskInteractiveMaskedShader()
-    // Offset: 0x1E08C70
+    // Offset: 0x1DEF6D4
     UnityEngine::Shader* get_autodeskInteractiveMaskedShader();
     // public UnityEngine.Shader get_terrainDetailLitShader()
-    // Offset: 0x1E08C78
+    // Offset: 0x1DEF6DC
     UnityEngine::Shader* get_terrainDetailLitShader();
     // public UnityEngine.Shader get_terrainDetailGrassShader()
-    // Offset: 0x1E08C80
+    // Offset: 0x1DEF6E4
     UnityEngine::Shader* get_terrainDetailGrassShader();
     // public UnityEngine.Shader get_terrainDetailGrassBillboardShader()
-    // Offset: 0x1E08C88
+    // Offset: 0x1DEF6EC
     UnityEngine::Shader* get_terrainDetailGrassBillboardShader();
     // public UnityEngine.Material get_defaultParticleMaterial()
-    // Offset: 0x1E08C90
+    // Offset: 0x1DEF6F4
     UnityEngine::Material* get_defaultParticleMaterial();
     // public UnityEngine.Material get_defaultLineMaterial()
-    // Offset: 0x1E08C98
+    // Offset: 0x1DEF6FC
     UnityEngine::Material* get_defaultLineMaterial();
     // public UnityEngine.Material get_defaultTerrainMaterial()
-    // Offset: 0x1E08CA0
+    // Offset: 0x1DEF704
     UnityEngine::Material* get_defaultTerrainMaterial();
     // public UnityEngine.Material get_defaultUIMaterial()
-    // Offset: 0x1E08CA8
+    // Offset: 0x1DEF70C
     UnityEngine::Material* get_defaultUIMaterial();
     // public UnityEngine.Material get_defaultUIOverdrawMaterial()
-    // Offset: 0x1E08CB0
+    // Offset: 0x1DEF714
     UnityEngine::Material* get_defaultUIOverdrawMaterial();
     // public UnityEngine.Material get_defaultUIETC1SupportedMaterial()
-    // Offset: 0x1E08CB8
+    // Offset: 0x1DEF71C
     UnityEngine::Material* get_defaultUIETC1SupportedMaterial();
     // public UnityEngine.Material get_default2DMaterial()
-    // Offset: 0x1E08CC0
+    // Offset: 0x1DEF724
     UnityEngine::Material* get_default2DMaterial();
     // public UnityEngine.Shader get_defaultShader()
-    // Offset: 0x1E08CC8
+    // Offset: 0x1DEF72C
     UnityEngine::Shader* get_defaultShader();
     // public UnityEngine.Shader get_defaultSpeedTree7Shader()
-    // Offset: 0x1E08CD0
+    // Offset: 0x1DEF734
     UnityEngine::Shader* get_defaultSpeedTree7Shader();
     // public UnityEngine.Shader get_defaultSpeedTree8Shader()
-    // Offset: 0x1E08CD8
+    // Offset: 0x1DEF73C
     UnityEngine::Shader* get_defaultSpeedTree8Shader();
     // UnityEngine.Rendering.RenderPipeline InternalCreatePipeline()
-    // Offset: 0x1E08960
+    // Offset: 0x1DEF3C4
     UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
     // protected UnityEngine.Rendering.RenderPipeline CreatePipeline()
     // Offset: 0xFFFFFFFF
     UnityEngine::Rendering::RenderPipeline* CreatePipeline();
     // protected System.Void OnValidate()
-    // Offset: 0x1E08CE0
+    // Offset: 0x1DEF744
     void OnValidate();
     // protected System.Void OnDisable()
-    // Offset: 0x1E0923C
+    // Offset: 0x1DEFCA0
     void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0x1E09298
+    // Offset: 0x1DEFCFC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

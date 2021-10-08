@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF01544
+    // [InjectAttribute] Offset: 0xF011BC
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF01554
+    // [InjectAttribute] Offset: 0xF011CC
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -86,28 +86,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuDestination _currentMenuDestinationRequest
     GlobalNamespace::MenuDestination*& dyn__currentMenuDestinationRequest();
     // public MenuDestination get_currentMenuDestinationRequest()
-    // Offset: 0x11A553C
+    // Offset: 0x1139C04
     GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
     // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
-    // Offset: 0x11A5544
+    // Offset: 0x1139C0C
     void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x11A53F4
+    // Offset: 0x1139ABC
     void add_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x11A5498
+    // Offset: 0x1139B60
     void remove_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public System.Void Init(IDeeplinkManager deeplinkManager)
-    // Offset: 0x11A55BC
+    // Offset: 0x1139C84
     void Init(GlobalNamespace::IDeeplinkManager* deeplinkManager);
     // public System.Void Clear()
-    // Offset: 0x11A5CAC
+    // Offset: 0x113A374
     void Clear();
     // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
-    // Offset: 0x11A5794
+    // Offset: 0x1139E5C
     void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink* deeplink);
     // public System.Void .ctor()
-    // Offset: 0x11A5CB4
+    // Offset: 0x113A37C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

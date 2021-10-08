@@ -59,22 +59,22 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_MaterialData,System.Boolean> <>9__364_2
     static void _set_$$9__364_2(System::Func_2<HoudiniEngineUnity::HEU_MaterialData*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x151C830
+    // Offset: 0x15041F4
     static void _cctor();
     // System.Boolean <ClearInvalidCurves>b__309_0(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x151C89C
+    // Offset: 0x1504260
     bool $ClearInvalidCurves$b__309_0(HoudiniEngineUnity::HEU_Curve* curve);
     // System.Boolean <ClearInvalidLists>b__364_0(HoudiniEngineUnity.HEU_ObjectNode node)
-    // Offset: 0x151C908
+    // Offset: 0x15042CC
     bool $ClearInvalidLists$b__364_0(HoudiniEngineUnity::HEU_ObjectNode* node);
     // System.Boolean <ClearInvalidLists>b__364_1(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x151C974
+    // Offset: 0x1504338
     bool $ClearInvalidLists$b__364_1(HoudiniEngineUnity::HEU_Curve* curve);
     // System.Boolean <ClearInvalidLists>b__364_2(HoudiniEngineUnity.HEU_MaterialData data)
-    // Offset: 0x151C9E0
+    // Offset: 0x15043A4
     bool $ClearInvalidLists$b__364_2(HoudiniEngineUnity::HEU_MaterialData* data);
     // public System.Void .ctor()
-    // Offset: 0x151C894
+    // Offset: 0x1504258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

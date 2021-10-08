@@ -288,107 +288,107 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Type previousType
     System::Type*& dyn_previousType();
     // private System.Runtime.Serialization.Formatters.Binary.SerStack get_ValueFixupStack()
-    // Offset: 0x17EDEF4
+    // Offset: 0x17D38B8
     System::Runtime::Serialization::Formatters::Binary::SerStack* get_ValueFixupStack();
     // System.Object get_TopObject()
-    // Offset: 0x17EDFE4
+    // Offset: 0x17D39A8
     ::Il2CppObject* get_TopObject();
     // System.Void set_TopObject(System.Object value)
-    // Offset: 0x17EDFEC
+    // Offset: 0x17D39B0
     void set_TopObject(::Il2CppObject* value);
     // System.Void .ctor(System.IO.Stream stream, System.Runtime.Serialization.ISurrogateSelector selector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums, System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x17E8AF0
+    // Offset: 0x17CE4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader* New_ctor(System::IO::Stream* stream, System::Runtime::Serialization::ISurrogateSelector* selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums, System::Runtime::Serialization::SerializationBinder* binder) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader*, creationType>(stream, selector, context, formatterEnums, binder)));
     }
     // System.Object Deserialize(System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Runtime.Serialization.Formatters.Binary.__BinaryParser serParser, System.Boolean fCheck)
-    // Offset: 0x17E8CDC
+    // Offset: 0x17CE6A0
     ::Il2CppObject* Deserialize(System::Runtime::Remoting::Messaging::HeaderHandler* handler, System::Runtime::Serialization::Formatters::Binary::__BinaryParser* serParser, bool fCheck);
     // private System.Boolean HasSurrogate(System.Type t)
-    // Offset: 0x17EE650
+    // Offset: 0x17D4014
     bool HasSurrogate(System::Type* t);
     // private System.Void CheckSerializable(System.Type t)
-    // Offset: 0x17EE73C
+    // Offset: 0x17D4100
     void CheckSerializable(System::Type* t);
     // private System.Void InitFullDeserialization()
-    // Offset: 0x17EE8A8
+    // Offset: 0x17D426C
     void InitFullDeserialization();
     // System.Object CrossAppDomainArray(System.Int32 index)
-    // Offset: 0x17EE98C
+    // Offset: 0x17D4350
     ::Il2CppObject* CrossAppDomainArray(int index);
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(System.Type objectType)
-    // Offset: 0x17ECE08
+    // Offset: 0x17D27CC
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType);
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(System.Type objectType, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x17ED678
+    // Offset: 0x17D303C
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType, ::ArrayW<::Il2CppString*> memberNames, ::ArrayW<System::Type*> memberTypes);
     // System.Void Parse(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EEB04
+    // Offset: 0x17D44C8
     void Parse(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseError(System.Runtime.Serialization.Formatters.Binary.ParseRecord processing, System.Runtime.Serialization.Formatters.Binary.ParseRecord onStack)
-    // Offset: 0x17EF7A4
+    // Offset: 0x17D5168
     void ParseError(System::Runtime::Serialization::Formatters::Binary::ParseRecord* processing, System::Runtime::Serialization::Formatters::Binary::ParseRecord* onStack);
     // private System.Void ParseSerializedStreamHeader(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EECAC
+    // Offset: 0x17D4670
     void ParseSerializedStreamHeader(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseSerializedStreamHeaderEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EECC4
+    // Offset: 0x17D4688
     void ParseSerializedStreamHeaderEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseObject(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EECDC
+    // Offset: 0x17D46A0
     void ParseObject(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseObjectEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EEFD0
+    // Offset: 0x17D4994
     void ParseObjectEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseArray(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EFB20
+    // Offset: 0x17D54E4
     void ParseArray(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void NextRectangleMap(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17F059C
+    // Offset: 0x17D5F60
     void NextRectangleMap(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseArrayMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17F067C
+    // Offset: 0x17D6040
     void ParseArrayMember(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseArrayMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17F12F4
+    // Offset: 0x17D6CB8
     void ParseArrayMemberEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EF1F0
+    // Offset: 0x17D4BB4
     void ParseMember(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x17EF6D0
+    // Offset: 0x17D5094
     void ParseMemberEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseString(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord parentPr)
-    // Offset: 0x17F0E54
+    // Offset: 0x17D6818
     void ParseString(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parentPr);
     // private System.Void RegisterObject(System.Object obj, System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord objectPr)
-    // Offset: 0x17F01BC
+    // Offset: 0x17D5B80
     void RegisterObject(::Il2CppObject* obj, System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr);
     // private System.Void RegisterObject(System.Object obj, System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord objectPr, System.Boolean bIsString)
-    // Offset: 0x17F1650
+    // Offset: 0x17D7014
     void RegisterObject(::Il2CppObject* obj, System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr, bool bIsString);
     // System.Int64 GetId(System.Int64 objectId)
-    // Offset: 0x17F1958
+    // Offset: 0x17D731C
     int64_t GetId(int64_t objectId);
     // System.Type Bind(System.String assemblyString, System.String typeString)
-    // Offset: 0x17F1A44
+    // Offset: 0x17D7408
     System::Type* Bind(::Il2CppString* assemblyString, ::Il2CppString* typeString);
     // System.Type FastBindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x17F1AAC
+    // Offset: 0x17D7470
     System::Type* FastBindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // static private System.Reflection.Assembly ResolveSimpleAssemblyName(System.Reflection.AssemblyName assemblyName)
-    // Offset: 0x17F1D84
+    // Offset: 0x17D7748
     static System::Reflection::Assembly* ResolveSimpleAssemblyName(System::Reflection::AssemblyName* assemblyName);
     // static private System.Void GetSimplyNamedTypeFromAssembly(System.Reflection.Assembly assm, System.String typeName, ref System.Type type)
-    // Offset: 0x17F1DF0
+    // Offset: 0x17D77B4
     static void GetSimplyNamedTypeFromAssembly(System::Reflection::Assembly* assm, ::Il2CppString* typeName, ByRef<System::Type*> type);
     // System.Type GetType(System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.String name)
-    // Offset: 0x17E8510
+    // Offset: 0x17CDED4
     System::Type* GetType(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::Il2CppString* name);
     // static private System.Void CheckTypeForwardedTo(System.Reflection.Assembly sourceAssembly, System.Reflection.Assembly destAssembly, System.Type resolvedType)
-    // Offset: 0x17F2010
+    // Offset: 0x17D79D4
     static void CheckTypeForwardedTo(System::Reflection::Assembly* sourceAssembly, System::Reflection::Assembly* destAssembly, System::Type* resolvedType);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader
   #pragma pack(pop)

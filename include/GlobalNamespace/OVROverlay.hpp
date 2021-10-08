@@ -253,21 +253,21 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEB2784
+    // [TooltipAttribute] Offset: 0xEB51A4
     // public OVROverlay/OverlayType currentOverlayType
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::OVROverlay::OverlayType currentOverlayType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVROverlay::OverlayType) == 0x4);
-    // [TooltipAttribute] Offset: 0xEB27BC
+    // [TooltipAttribute] Offset: 0xEB51DC
     // public System.Boolean isDynamic
     // Size: 0x1
     // Offset: 0x1C
     bool isDynamic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xEB27F4
+    // [TooltipAttribute] Offset: 0xEB5214
     // public System.Boolean isProtectedContent
     // Size: 0x1
     // Offset: 0x1D
@@ -352,7 +352,7 @@ namespace GlobalNamespace {
     bool hidden;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xEB282C
+    // [TooltipAttribute] Offset: 0xEB524C
     // public System.Boolean isExternalSurface
     // Size: 0x1
     // Offset: 0xCA
@@ -361,21 +361,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isExternalSurface and: externalSurfaceWidth
     char __padding15[0x1] = {};
-    // [TooltipAttribute] Offset: 0xEB2864
+    // [TooltipAttribute] Offset: 0xEB5284
     // public System.Int32 externalSurfaceWidth
     // Size: 0x4
     // Offset: 0xCC
     int externalSurfaceWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xEB289C
+    // [TooltipAttribute] Offset: 0xEB52BC
     // public System.Int32 externalSurfaceHeight
     // Size: 0x4
     // Offset: 0xD0
     int externalSurfaceHeight;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xEB28D4
+    // [TooltipAttribute] Offset: 0xEB52F4
     // public System.Int32 compositionDepth
     // Size: 0x4
     // Offset: 0xD4
@@ -388,7 +388,7 @@ namespace GlobalNamespace {
     int layerCompositionDepth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xEB290C
+    // [TooltipAttribute] Offset: 0xEB532C
     // public System.Boolean noDepthBufferTesting
     // Size: 0x1
     // Offset: 0xDC
@@ -403,7 +403,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::EyeTextureFormat layerTextureFormat;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::EyeTextureFormat) == 0x4);
-    // [TooltipAttribute] Offset: 0xEB2944
+    // [TooltipAttribute] Offset: 0xEB5364
     // public OVROverlay/OverlayShape currentOverlayShape
     // Size: 0x4
     // Offset: 0xE4
@@ -418,14 +418,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVROverlay::OverlayShape) == 0x4);
     // Padding between fields: prevOverlayShape and: textures
     char __padding23[0x4] = {};
-    // [TooltipAttribute] Offset: 0xEB297C
+    // [TooltipAttribute] Offset: 0xEB539C
     // public UnityEngine.Texture[] textures
     // Size: 0x8
     // Offset: 0xF0
     ::ArrayW<UnityEngine::Texture*> textures;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::Texture*>) == 0x8);
-    // [TooltipAttribute] Offset: 0xEB29B4
+    // [TooltipAttribute] Offset: 0xEB53D4
     // public System.Boolean isAlphaPremultiplied
     // Size: 0x1
     // Offset: 0xF8
@@ -672,94 +672,94 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean xrDeviceConstructed
     bool& dyn_xrDeviceConstructed();
     // public System.Boolean get_previewInEditor()
-    // Offset: 0x1469C9C
+    // Offset: 0x144F660
     bool get_previewInEditor();
     // public System.Void set_previewInEditor(System.Boolean value)
-    // Offset: 0x1469CA4
+    // Offset: 0x144F668
     void set_previewInEditor(bool value);
     // private OVRPlugin/LayerLayout get_layout()
-    // Offset: 0x1469D90
+    // Offset: 0x144F754
     GlobalNamespace::OVRPlugin::LayerLayout get_layout();
     // private System.Int32 get_texturesPerStage()
-    // Offset: 0x1469E84
+    // Offset: 0x144F848
     int get_texturesPerStage();
     // static public System.String get_OpenVROverlayKey()
-    // Offset: 0x146DF30
+    // Offset: 0x14538F4
     static ::Il2CppString* get_OpenVROverlayKey();
     // public System.Void OverrideOverlayTextureInfo(UnityEngine.Texture srcTexture, System.IntPtr nativePtr, UnityEngine.XR.XRNode node)
-    // Offset: 0x1469CC8
+    // Offset: 0x144F68C
     void OverrideOverlayTextureInfo(UnityEngine::Texture* srcTexture, System::IntPtr nativePtr, UnityEngine::XR::XRNode node);
     // static private System.Boolean NeedsTexturesForShape(OVROverlay/OverlayShape shape)
-    // Offset: 0x1469EA4
+    // Offset: 0x144F868
     static bool NeedsTexturesForShape(GlobalNamespace::OVROverlay::OverlayShape shape);
     // private System.Boolean CreateLayer(System.Int32 mipLevels, System.Int32 sampleCount, OVRPlugin/EyeTextureFormat etFormat, System.Int32 flags, OVRPlugin/Sizei size, OVRPlugin/OverlayShape shape)
-    // Offset: 0x1469EAC
+    // Offset: 0x144F870
     bool CreateLayer(int mipLevels, int sampleCount, GlobalNamespace::OVRPlugin::EyeTextureFormat etFormat, int flags, GlobalNamespace::OVRPlugin::Sizei size, GlobalNamespace::OVRPlugin::OverlayShape shape);
     // private System.Boolean CreateLayerTextures(System.Boolean useMipmaps, OVRPlugin/Sizei size, System.Boolean isHdr)
-    // Offset: 0x146A7EC
+    // Offset: 0x14501B0
     bool CreateLayerTextures(bool useMipmaps, GlobalNamespace::OVRPlugin::Sizei size, bool isHdr);
     // private System.Void DestroyLayerTextures()
-    // Offset: 0x146B164
+    // Offset: 0x1450B28
     void DestroyLayerTextures();
     // private System.Void DestroyLayer()
-    // Offset: 0x146B2A0
+    // Offset: 0x1450C64
     void DestroyLayer();
     // public System.Void SetSrcDestRects(UnityEngine.Rect srcLeft, UnityEngine.Rect srcRight, UnityEngine.Rect destLeft, UnityEngine.Rect destRight)
-    // Offset: 0x146BD8C
+    // Offset: 0x1451750
     void SetSrcDestRects(UnityEngine::Rect srcLeft, UnityEngine::Rect srcRight, UnityEngine::Rect destLeft, UnityEngine::Rect destRight);
     // public System.Void UpdateTextureRectMatrix()
-    // Offset: 0x146BDA8
+    // Offset: 0x145176C
     void UpdateTextureRectMatrix();
     // public System.Void SetPerLayerColorScaleAndOffset(UnityEngine.Vector4 scale, UnityEngine.Vector4 offset)
-    // Offset: 0x146C244
+    // Offset: 0x1451C08
     void SetPerLayerColorScaleAndOffset(UnityEngine::Vector4 scale, UnityEngine::Vector4 offset);
     // private System.Boolean LatchLayerTextures()
-    // Offset: 0x146C258
+    // Offset: 0x1451C1C
     bool LatchLayerTextures();
     // private OVRPlugin/LayerDesc GetCurrentLayerDesc()
-    // Offset: 0x146C6A0
+    // Offset: 0x1452064
     GlobalNamespace::OVRPlugin::LayerDesc GetCurrentLayerDesc();
     // private UnityEngine.Rect GetBlitRect(System.Int32 eyeId)
-    // Offset: 0x146CB9C
+    // Offset: 0x1452560
     UnityEngine::Rect GetBlitRect(int eyeId);
     // private System.Void BlitSubImage(UnityEngine.Texture src, UnityEngine.RenderTexture dst, UnityEngine.Material mat, UnityEngine.Rect rect)
-    // Offset: 0x146CDA0
+    // Offset: 0x1452764
     void BlitSubImage(UnityEngine::Texture* src, UnityEngine::RenderTexture* dst, UnityEngine::Material* mat, UnityEngine::Rect rect);
     // private System.Boolean PopulateLayer(System.Int32 mipLevels, System.Boolean isHdr, OVRPlugin/Sizei size, System.Int32 sampleCount, System.Int32 stage)
-    // Offset: 0x146D21C
+    // Offset: 0x1452BE0
     bool PopulateLayer(int mipLevels, bool isHdr, GlobalNamespace::OVRPlugin::Sizei size, int sampleCount, int stage);
     // private System.Boolean SubmitLayer(System.Boolean overlay, System.Boolean headLocked, System.Boolean noDepthBufferTesting, OVRPose pose, UnityEngine.Vector3 scale, System.Int32 frameIndex)
-    // Offset: 0x146D940
+    // Offset: 0x1453304
     bool SubmitLayer(bool overlay, bool headLocked, bool noDepthBufferTesting, GlobalNamespace::OVRPose pose, UnityEngine::Vector3 scale, int frameIndex);
     // private System.Void SetupEditorPreview()
-    // Offset: 0x1469CC4
+    // Offset: 0x144F688
     void SetupEditorPreview();
     // private System.Void Awake()
-    // Offset: 0x146DBFC
+    // Offset: 0x14535C0
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0x146DFA8
+    // Offset: 0x145396C
     void OnEnable();
     // private System.Void InitOVROverlay()
-    // Offset: 0x146E028
+    // Offset: 0x14539EC
     void InitOVROverlay();
     // private System.Void OnDisable()
-    // Offset: 0x146E1D4
+    // Offset: 0x1453B98
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x146E340
+    // Offset: 0x1453D04
     void OnDestroy();
     // private System.Boolean ComputeSubmit(ref OVRPose pose, ref UnityEngine.Vector3 scale, ref System.Boolean overlay, ref System.Boolean headLocked)
-    // Offset: 0x146E364
+    // Offset: 0x1453D28
     bool ComputeSubmit(ByRef<GlobalNamespace::OVRPose> pose, ByRef<UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked);
     // private System.Void OpenVROverlayUpdate(UnityEngine.Vector3 scale, OVRPose pose)
-    // Offset: 0x146EA34
+    // Offset: 0x14543F8
     void OpenVROverlayUpdate(UnityEngine::Vector3 scale, GlobalNamespace::OVRPose pose);
     // private System.Void LateUpdate()
-    // Offset: 0x146ED78
+    // Offset: 0x145473C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x146F2E0
+    // Offset: 0x1454CA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -772,7 +772,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVROverlay*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x146F488
+    // Offset: 0x1454E4C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

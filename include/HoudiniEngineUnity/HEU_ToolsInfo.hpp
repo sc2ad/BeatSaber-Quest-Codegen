@@ -328,10 +328,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMeshVisibility _paintMeshVisiblity
     HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility& dyn__paintMeshVisiblity();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ToolsInfo other)
-    // Offset: 0x16FAF54
+    // Offset: 0x16DF918
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ToolsInfo* other);
     // public System.Void .ctor()
-    // Offset: 0x16FB438
+    // Offset: 0x16DFDFC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

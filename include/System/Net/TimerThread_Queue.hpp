@@ -39,7 +39,7 @@ namespace System::Net {
     // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds
     int& dyn_m_DurationMilliseconds();
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x1776818
+    // Offset: 0x175B1DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Queue* New_ctor(int durationMilliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Queue::.ctor");

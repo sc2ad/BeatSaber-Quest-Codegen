@@ -24,7 +24,7 @@ namespace System::Net::Http::Headers {
   class Parser::Uri : public ::Il2CppObject {
     public:
     // static public System.Boolean TryParse(System.String input, out System.Uri result)
-    // Offset: 0x175512C
+    // Offset: 0x1738AF0
     static bool TryParse(::Il2CppString* input, ByRef<System::Uri*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Uri
   #pragma pack(pop)

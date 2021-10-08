@@ -49,10 +49,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // System.Boolean <RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x18FC334
+    // Offset: 0x18E2CF8
     bool $RebuildSelectionIndexes$b__0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x18FC118
+    // Offset: 0x18E2ADC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

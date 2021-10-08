@@ -60,28 +60,28 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0A51C
+    // [InjectAttribute] Offset: 0xF0A194
     // private readonly MultiplayerSpectatingSpotManager _spotManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerSpectatingSpotManager* spotManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0A52C
+    // [InjectAttribute] Offset: 0xF0A1A4
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _songController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* songController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0A53C
+    // [InjectAttribute] Offset: 0xF0A1B4
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0A54C
+    // [InjectAttribute] Offset: 0xF0A1C4
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x30
@@ -124,46 +124,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private IMultiplayerSpectatingSpot _currentSpot
     GlobalNamespace::IMultiplayerSpectatingSpot*& dyn__currentSpot();
     // public IMultiplayerSpectatingSpot get_currentSpot()
-    // Offset: 0x113297C
+    // Offset: 0x111B918
     GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
     // public System.Void add_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x11325D8
+    // Offset: 0x111B574
     void add_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x1132804
+    // Offset: 0x111B7A0
     void remove_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1132984
+    // Offset: 0x111B920
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11329AC
+    // Offset: 0x111B948
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1132A40
+    // Offset: 0x111B9DC
     void OnDestroy();
     // public System.Void SwitchToDefaultSpot()
-    // Offset: 0x1129C38
+    // Offset: 0x1113D78
     void SwitchToDefaultSpot();
     // public System.Void SwitchToPrev()
-    // Offset: 0x1132928
+    // Offset: 0x111B8C4
     void SwitchToPrev();
     // public System.Void SwitchToNext()
-    // Offset: 0x11328C4
+    // Offset: 0x111B860
     void SwitchToNext();
     // private System.Collections.IEnumerator SwitchToDefaultSpotWithFadeCoroutine()
-    // Offset: 0x1132DF8
+    // Offset: 0x111BD94
     System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
     // private System.Collections.IEnumerator SwitchToDefaultSpotCoroutine()
-    // Offset: 0x1132B1C
+    // Offset: 0x111BAB8
     System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
     // private System.Void SwitchToSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x1132B8C
+    // Offset: 0x111BB28
     void SwitchToSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1132EC0
+    // Offset: 0x111BE5C
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x1132EF8
+    // Offset: 0x111BE94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

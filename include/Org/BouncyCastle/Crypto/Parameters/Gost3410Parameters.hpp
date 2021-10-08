@@ -75,38 +75,38 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation
     Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters*& dyn_validation();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1396D20
+    // Offset: 0x137B6E4
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x1396D28
+    // Offset: 0x137B6EC
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_A()
-    // Offset: 0x1396D30
+    // Offset: 0x137B6F4
     Org::BouncyCastle::Math::BigInteger* get_A();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a)
-    // Offset: 0x1396C24
+    // Offset: 0x137B5E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410Parameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410Parameters*, creationType>(p, q, a)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation)
-    // Offset: 0x1396C2C
+    // Offset: 0x137B5F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410Parameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410Parameters*, creationType>(p, q, a, validation)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters other)
-    // Offset: 0x1396DE8
+    // Offset: 0x137B7AC
     bool Equals(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1396D38
+    // Offset: 0x137B6FC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1396E6C
+    // Offset: 0x137B830
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -39,21 +39,21 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF08E40
+    // [InjectAttribute] Offset: 0xF08AB8
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08E50
+    // [InjectAttribute] Offset: 0xF08AC8
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08E60
+    // [InjectAttribute] Offset: 0xF08AD8
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x20
@@ -80,13 +80,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void Disconnect()
-    // Offset: 0x1173F70
+    // Offset: 0x11C9584
     void Disconnect();
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0x117555C
+    // Offset: 0x11CAB70
     ::Il2CppString* ResolveDisconnectButtonString();
     // public System.Void .ctor()
-    // Offset: 0x1177A2C
+    // Offset: 0x11CD0CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

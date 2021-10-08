@@ -48,13 +48,13 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_start
     int& dyn_m_start();
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0x25C8BEC
+    // Offset: 0x25AD694
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0x25C7B24
+    // Offset: 0x25AC5CC
     bool get_IsExpired();
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0x25C76CC
+    // Offset: 0x25AC174
     TimeoutTracker(int millisecondsTimeout);
   }; // System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker
   #pragma pack(pop)

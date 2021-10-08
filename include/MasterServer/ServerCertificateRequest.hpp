@@ -78,16 +78,16 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 _certificateCount
     int& dyn__certificateCount();
     // static public PacketPool`1<MasterServer.ServerCertificateRequest> get_pool()
-    // Offset: 0x12DD760
+    // Offset: 0x12EEAD4
     static GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* get_pool();
     // public System.Collections.Generic.IEnumerable`1<System.Byte[]> get_certificateList()
-    // Offset: 0x12D81BC
+    // Offset: 0x12E9530
     System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* get_certificateList();
     // public MasterServer.ServerCertificateRequest Init(System.Collections.Generic.IEnumerable`1<System.Byte[]> certificateList)
-    // Offset: 0x12E3D0C
+    // Offset: 0x12F5080
     MasterServer::ServerCertificateRequest* Init(System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* certificateList);
     // public System.Void .ctor()
-    // Offset: 0x12E4310
+    // Offset: 0x12F5684
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -97,17 +97,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12E4050
+    // Offset: 0x12F53C4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12E40EC
+    // Offset: 0x12F5460
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12E4260
+    // Offset: 0x12F55D4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

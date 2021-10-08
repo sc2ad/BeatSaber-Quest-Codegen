@@ -118,7 +118,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.String HARC_LIBRARY
     static void _set_HARC_LIBRARY(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x151D3A0
+    // Offset: 0x1504D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

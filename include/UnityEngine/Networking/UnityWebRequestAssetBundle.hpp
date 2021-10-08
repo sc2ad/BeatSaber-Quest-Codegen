@@ -27,13 +27,13 @@ namespace UnityEngine::Networking {
   class UnityWebRequestAssetBundle : public ::Il2CppObject {
     public:
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri)
-    // Offset: 0x2628100
+    // Offset: 0x260FBA8
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, System.UInt32 crc)
-    // Offset: 0x2628108
+    // Offset: 0x260FBB0
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri, uint crc);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, UnityEngine.CachedAssetBundle cachedAssetBundle, System.UInt32 crc)
-    // Offset: 0x26281AC
+    // Offset: 0x260FC54
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri, UnityEngine::CachedAssetBundle cachedAssetBundle, uint crc);
   }; // UnityEngine.Networking.UnityWebRequestAssetBundle
   #pragma pack(pop)

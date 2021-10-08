@@ -34,7 +34,7 @@ namespace NUnit::Framework::Internal::Commands {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF660
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF2C8
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -49,13 +49,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: private NUnit.Framework.Internal.Test <Test>k__BackingField
     NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x193E1B8
+    // Offset: 0x1924B7C
     NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x193E1C0
+    // Offset: 0x1924B84
     void set_Test(NUnit::Framework::Internal::Test* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x193CA64
+    // Offset: 0x1923428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommand* New_ctor(NUnit::Framework::Internal::Test* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestCommand::.ctor");

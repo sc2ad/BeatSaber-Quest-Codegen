@@ -28,7 +28,7 @@ namespace System::Net {
   class HttpListenerException : public System::ComponentModel::Win32Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1842280
+    // Offset: 0x1827C44
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor()
     // Base method: System.Void ExternalException::.ctor()
@@ -41,7 +41,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerException*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 errorCode, System.String message)
-    // Offset: 0x184231C
+    // Offset: 0x1827CE0
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,7 +50,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerException*, creationType>(errorCode, message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x184239C
+    // Offset: 0x1827D60
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

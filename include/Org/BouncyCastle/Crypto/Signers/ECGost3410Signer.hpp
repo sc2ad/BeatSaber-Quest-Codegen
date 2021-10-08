@@ -83,19 +83,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Boolean forSigning
     bool& dyn_forSigning();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x139B3DC
+    // Offset: 0x137FDA0
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x139B248
+    // Offset: 0x137FC0C
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x139B404
+    // Offset: 0x137FDC8
     ::ArrayW<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x139B924
+    // Offset: 0x13802E8
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x139B980
+    // Offset: 0x1380344
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

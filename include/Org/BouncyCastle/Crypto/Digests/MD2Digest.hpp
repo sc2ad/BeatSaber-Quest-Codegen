@@ -94,53 +94,53 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int32 COff
     int& dyn_COff();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1F03F70
+    // Offset: 0x1EEA9D4
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x1F03E38
+    // Offset: 0x1EEA89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F04648
+    // Offset: 0x1EEB0AC
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x1F03ED0
+    // Offset: 0x1EEA934
     void CopyIn(Org::BouncyCastle::Crypto::Digests::MD2Digest* t);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1F03FB8
+    // Offset: 0x1EEAA1C
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1F03FC0
+    // Offset: 0x1EEAA24
     int GetByteLength();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1F03FC8
+    // Offset: 0x1EEAA2C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1F03D74
+    // Offset: 0x1EEA7D8
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1F04394
+    // Offset: 0x1EEADF8
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1F04410
+    // Offset: 0x1EEAE74
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // System.Void ProcessChecksum(System.Byte[] m)
-    // Offset: 0x1F04098
+    // Offset: 0x1EEAAFC
     void ProcessChecksum(::ArrayW<uint8_t> m);
     // System.Void ProcessBlock(System.Byte[] m)
-    // Offset: 0x1F041E4
+    // Offset: 0x1EEAC48
     void ProcessBlock(::ArrayW<uint8_t> m);
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1F04554
+    // Offset: 0x1EEAFB8
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1F045B4
+    // Offset: 0x1EEB018
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
     // public System.Void .ctor()
-    // Offset: 0x1F03CEC
+    // Offset: 0x1EEA750
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

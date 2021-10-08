@@ -48,34 +48,34 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.String str
     ::Il2CppString*& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x18E23F4
+    // Offset: 0x18C8DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerT61String* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerT61String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerT61String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
-    // Offset: 0x18F2784
+    // Offset: 0x18D9148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerT61String* New_ctor(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerT61String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerT61String*, creationType>(str)));
     }
     // public System.Byte[] GetOctets()
-    // Offset: 0x18F2864
+    // Offset: 0x18D9228
     ::ArrayW<uint8_t> GetOctets();
     // public override System.String GetString()
-    // Offset: 0x18F2820
+    // Offset: 0x18D91E4
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x18F2828
+    // Offset: 0x18D91EC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x18F2870
+    // Offset: 0x18D9234
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

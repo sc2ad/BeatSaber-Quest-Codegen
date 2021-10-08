@@ -58,25 +58,25 @@ namespace LiteNetLib {
     // Get instance field reference: private System.String <Token>k__BackingField
     ::Il2CppString*& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x1DD58A0
+    // Offset: 0x1DBC304
     System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x1DD58A8
+    // Offset: 0x1DBC30C
     void set_Internal(System::Net::IPEndPoint* value);
     // public System.Net.IPEndPoint get_External()
-    // Offset: 0x1DD58B0
+    // Offset: 0x1DBC314
     System::Net::IPEndPoint* get_External();
     // public System.Void set_External(System.Net.IPEndPoint value)
-    // Offset: 0x1DD58B8
+    // Offset: 0x1DBC31C
     void set_External(System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x1DD58C0
+    // Offset: 0x1DBC324
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1DD58C8
+    // Offset: 0x1DBC32C
     void set_Token(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1DD49EC
+    // Offset: 0x1DBB450
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

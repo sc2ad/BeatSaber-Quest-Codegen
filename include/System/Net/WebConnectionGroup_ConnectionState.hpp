@@ -78,38 +78,38 @@ namespace System::Net {
     // Get instance field reference: private System.DateTime idleSince
     System::DateTime& dyn_idleSince();
     // public System.Net.WebConnection get_Connection()
-    // Offset: 0x177F520
+    // Offset: 0x1763EE4
     System::Net::WebConnection* get_Connection();
     // private System.Void set_Connection(System.Net.WebConnection value)
-    // Offset: 0x177F528
+    // Offset: 0x1763EEC
     void set_Connection(System::Net::WebConnection* value);
     // public System.Net.WebConnectionGroup get_Group()
-    // Offset: 0x177F530
+    // Offset: 0x1763EF4
     System::Net::WebConnectionGroup* get_Group();
     // private System.Void set_Group(System.Net.WebConnectionGroup value)
-    // Offset: 0x177F538
+    // Offset: 0x1763EFC
     void set_Group(System::Net::WebConnectionGroup* value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x177F540
+    // Offset: 0x1763F04
     System::Net::ServicePoint* get_ServicePoint();
     // public System.Boolean get_Busy()
-    // Offset: 0x177F55C
+    // Offset: 0x1763F20
     bool get_Busy();
     // public System.DateTime get_IdleSince()
-    // Offset: 0x177F564
+    // Offset: 0x1763F28
     System::DateTime get_IdleSince();
     // public System.Void .ctor(System.Net.WebConnectionGroup group)
-    // Offset: 0x177EF70
+    // Offset: 0x1763934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup::ConnectionState* New_ctor(System::Net::WebConnectionGroup* group) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionGroup::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup::ConnectionState*, creationType>(group)));
     }
     // public System.Boolean TrySetBusy()
-    // Offset: 0x177F56C
+    // Offset: 0x1763F30
     bool TrySetBusy();
     // public System.Void SetIdle()
-    // Offset: 0x177F6C4
+    // Offset: 0x1764088
     void SetIdle();
   }; // System.Net.WebConnectionGroup/System.Net.ConnectionState
   #pragma pack(pop)

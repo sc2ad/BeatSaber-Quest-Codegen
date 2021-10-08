@@ -122,7 +122,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.Rendering.ColorWriteMask colorMask
     UnityEngine::Rendering::ColorWriteMask& dyn_colorMask();
     // public System.Void .ctor()
-    // Offset: 0x25D53F4
+    // Offset: 0x25BCE9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

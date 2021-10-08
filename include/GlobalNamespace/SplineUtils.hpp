@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class SplineUtils : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector3 Interpolate(UnityEngine.Vector3 t0, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 t1, System.Single f)
-    // Offset: 0x110F9B4
+    // Offset: 0x114C96C
     static UnityEngine::Vector3 Interpolate(UnityEngine::Vector3 t0, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 t1, float f);
   }; // SplineUtils
   #pragma pack(pop)

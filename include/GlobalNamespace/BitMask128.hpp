@@ -72,47 +72,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64 _d1
     uint64_t& dyn__d1();
     // public System.Int32 get_bitCount()
-    // Offset: 0x256D980
+    // Offset: 0x25523E4
     int get_bitCount();
     // static public BitMask128 get_maxValue()
-    // Offset: 0x256D988
+    // Offset: 0x25523EC
     static GlobalNamespace::BitMask128 get_maxValue();
     // public System.Void .ctor(System.UInt64 d0, System.UInt64 d1)
-    // Offset: 0x256D994
+    // Offset: 0x25523F8
     // ABORTED: conflicts with another method.  BitMask128(uint64_t d0, uint64_t d1);
     // public System.Void .ctor(System.UInt64 value)
-    // Offset: 0x256D99C
+    // Offset: 0x2552400
     BitMask128(uint64_t value);
     // public BitMask128 SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x256D9A4
+    // Offset: 0x2552408
     GlobalNamespace::BitMask128 SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x256DA14
+    // Offset: 0x2552478
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x256DBEC
+    // Offset: 0x2552650
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public BitMask128 CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x256DC30
+    // Offset: 0x2552694
     GlobalNamespace::BitMask128 CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public BitMask128 Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x256DC38
+    // Offset: 0x255269C
     static GlobalNamespace::BitMask128 Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(BitMask128 other)
-    // Offset: 0x256DD10
+    // Offset: 0x2552774
     bool Equals(GlobalNamespace::BitMask128 other);
     // public override System.String ToString()
-    // Offset: 0x256DC7C
+    // Offset: 0x25526E0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x256DD34
+    // Offset: 0x2552798
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x256DDCC
+    // Offset: 0x2552830
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -121,25 +121,25 @@ namespace GlobalNamespace {
   static check_size<sizeof(BitMask128), 8 + sizeof(uint64_t)> __GlobalNamespace_BitMask128SizeCheck;
   static_assert(sizeof(BitMask128) == 0x10);
   // static public BitMask128 op_BitwiseOr(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x256DADC
+  // Offset: 0x2552540
   GlobalNamespace::BitMask128 operator|(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public BitMask128 op_BitwiseAnd(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x256DAF0
+  // Offset: 0x2552554
   GlobalNamespace::BitMask128 operator&(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public BitMask128 op_ExclusiveOr(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x256DB04
+  // Offset: 0x2552568
   GlobalNamespace::BitMask128 operator^(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public BitMask128 op_LeftShift(in BitMask128 a, System.Int32 bits)
-  // Offset: 0x256DB18
+  // Offset: 0x255257C
   GlobalNamespace::BitMask128 operator<<(const GlobalNamespace::BitMask128&& a, const int& bits);
   // static public BitMask128 op_RightShift(in BitMask128 a, System.Int32 bits)
-  // Offset: 0x256DB50
+  // Offset: 0x25525B4
   GlobalNamespace::BitMask128 operator>>(const GlobalNamespace::BitMask128&& a, const int& bits);
   // static public System.Boolean op_Equality(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x256DB88
+  // Offset: 0x25525EC
   bool operator ==(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public System.Boolean op_Inequality(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x256DBB4
+  // Offset: 0x2552618
   bool operator !=(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

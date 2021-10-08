@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusNetworkPlayerModel oculusNetworkPlayerModel
     GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
     // public System.Void .ctor()
-    // Offset: 0x1362DF4
+    // Offset: 0x13484AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

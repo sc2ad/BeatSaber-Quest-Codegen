@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*& dyn__pendingStatesByPort();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x18D0334
+    // Offset: 0x18B6CF8
     bool get_isEmpty();
     // public System.Void Dispose()
-    // Offset: 0x18D1C28
+    // Offset: 0x18B85EC
     void Dispose();
     // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x18D0CA0
+    // Offset: 0x18B7664
     ::ArrayW<GlobalNamespace::EncryptionUtility::IEncryptionState*> GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x18D09F0
+    // Offset: 0x18B73B4
     bool TryGetEncryptionState(int port, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*> encryptionState);
     // public System.Void Add(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x18D1A4C
+    // Offset: 0x18B8410
     void Add(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x18D02CC
+    // Offset: 0x18B6C90
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x18D107C
+    // Offset: 0x18B7A40
     bool Remove(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void .ctor()
-    // Offset: 0x18D19DC
+    // Offset: 0x18B83A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

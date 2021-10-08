@@ -47,10 +47,10 @@ namespace Zenject {
     // Get instance field reference: public System.Type parentType
     System::Type*& dyn_parentType();
     // System.Boolean <DerivingFromOrEqual>b__0(System.Type type)
-    // Offset: 0x14FB6BC
+    // Offset: 0x14E2080
     bool $DerivingFromOrEqual$b__0(System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x14FACDC
+    // Offset: 0x14E16A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -85,17 +85,17 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String[] generic_arg_names
     ::ArrayW<::Il2CppString*>& dyn_generic_arg_names();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1C11FAC
+    // Offset: 0x1BF5970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodRef* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodRef*, creationType>(msg)));
     }
     // private System.Type[] GetTypes(System.String[] typeArray)
-    // Offset: 0x1C145FC
+    // Offset: 0x1BF7FC0
     ::ArrayW<System::Type*> GetTypes(::ArrayW<::Il2CppString*> typeArray);
     // public System.Reflection.MethodBase Resolve()
-    // Offset: 0x1C1231C
+    // Offset: 0x1BF5CE0
     System::Reflection::MethodBase* Resolve();
   }; // System.Runtime.Remoting.Messaging.CADMethodRef
   #pragma pack(pop)

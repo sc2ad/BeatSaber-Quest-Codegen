@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* avatarTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09138
+    // [InjectAttribute] Offset: 0xF08DB0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x30
@@ -112,31 +112,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // protected System.Void OnDestroy()
-    // Offset: 0x120CE80
+    // Offset: 0x117F640
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x120CF18
+    // Offset: 0x117F6D8
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x120D0AC
+    // Offset: 0x117F86C
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0x120D128
+    // Offset: 0x117F8E8
     void HideInstant();
     // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x120D1EC
+    // Offset: 0x117F9AC
     void Animate(bool show, float duration, Tweening::EaseType easeType);
     // private System.Void <InitIfNeeded>b__8_0(System.Single val)
-    // Offset: 0x120D3E8
+    // Offset: 0x117FBA8
     void $InitIfNeeded$b__8_0(float val);
     // private System.Void <InitIfNeeded>b__8_1(System.Single val)
-    // Offset: 0x120D47C
+    // Offset: 0x117FC3C
     void $InitIfNeeded$b__8_1(float val);
     // private System.Void <InitIfNeeded>b__8_2()
-    // Offset: 0x120D510
+    // Offset: 0x117FCD0
     void $InitIfNeeded$b__8_2();
     // public System.Void .ctor()
-    // Offset: 0x120D3D8
+    // Offset: 0x117FB98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

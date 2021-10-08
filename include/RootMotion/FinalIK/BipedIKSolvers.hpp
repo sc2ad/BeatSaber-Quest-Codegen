@@ -128,16 +128,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IKSolver[] _ikSolvers
     ::ArrayW<RootMotion::FinalIK::IKSolver*>& dyn__ikSolvers();
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
-    // Offset: 0x1EBFFDC
+    // Offset: 0x1EA6A40
     ::ArrayW<RootMotion::FinalIK::IKSolverLimb*> get_limbs();
     // public RootMotion.FinalIK.IKSolver[] get_ikSolvers()
-    // Offset: 0x1EC0BF4
+    // Offset: 0x1EA7658
     ::ArrayW<RootMotion::FinalIK::IKSolver*> get_ikSolvers();
     // public System.Void AssignReferences(RootMotion.BipedReferences references)
-    // Offset: 0x1EC0398
+    // Offset: 0x1EA6DFC
     void AssignReferences(RootMotion::BipedReferences* references);
     // public System.Void .ctor()
-    // Offset: 0x1EC0AAC
+    // Offset: 0x1EA7510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

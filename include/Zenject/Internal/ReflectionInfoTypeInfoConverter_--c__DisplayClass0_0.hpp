@@ -48,10 +48,10 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.MethodInfo methodInfo
     System::Reflection::MethodInfo*& dyn_methodInfo();
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
-    // Offset: 0x1835E30
+    // Offset: 0x181B7F4
     void $ConvertMethod$b__0(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
-    // Offset: 0x1835304
+    // Offset: 0x181ACC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

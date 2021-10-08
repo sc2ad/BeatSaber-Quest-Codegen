@@ -68,10 +68,10 @@ namespace OVR::OpenVR {
     // Get instance field reference: public OVR.OpenVR.VREvent_Data_t data
     OVR::OpenVR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0x13B4B74
+    // Offset: 0x1399538
     VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0x13B4BB4
+    // Offset: 0x1399578
     void Unpack(ByRef<OVR::OpenVR::VREvent_t> unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

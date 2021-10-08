@@ -17,7 +17,7 @@ namespace System::Net::Http::Headers {
   class Parser::Host : public ::Il2CppObject {
     public:
     // static public System.Boolean TryParse(System.String input, out System.String result)
-    // Offset: 0x1754AE4
+    // Offset: 0x17384A8
     static bool TryParse(::Il2CppString* input, ByRef<::Il2CppString*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Host
   #pragma pack(pop)

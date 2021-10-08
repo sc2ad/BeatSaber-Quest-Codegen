@@ -47,10 +47,10 @@ namespace Zenject {
     // Get instance field reference: public System.Type t
     System::Type*& dyn_t();
     // System.Boolean <InNamespaces>b__1(System.String n)
-    // Offset: 0x14FB5E4
+    // Offset: 0x14E1FA8
     bool $InNamespaces$b__1(::Il2CppString* n);
     // public System.Void .ctor()
-    // Offset: 0x14FB5DC
+    // Offset: 0x14E1FA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

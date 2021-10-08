@@ -24,37 +24,37 @@ namespace RootMotion {
   class V3Tools : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector3 Lerp(UnityEngine.Vector3 fromVector, UnityEngine.Vector3 toVector, System.Single weight)
-    // Offset: 0x1C70F2C
+    // Offset: 0x1C538F0
     static UnityEngine::Vector3 Lerp(UnityEngine::Vector3 fromVector, UnityEngine::Vector3 toVector, float weight);
     // static public UnityEngine.Vector3 Slerp(UnityEngine.Vector3 fromVector, UnityEngine.Vector3 toVector, System.Single weight)
-    // Offset: 0x1C71024
+    // Offset: 0x1C539E8
     static UnityEngine::Vector3 Slerp(UnityEngine::Vector3 fromVector, UnityEngine::Vector3 toVector, float weight);
     // static public UnityEngine.Vector3 ExtractVertical(UnityEngine.Vector3 v, UnityEngine.Vector3 verticalAxis, System.Single weight)
-    // Offset: 0x1C7111C
+    // Offset: 0x1C53AE0
     static UnityEngine::Vector3 ExtractVertical(UnityEngine::Vector3 v, UnityEngine::Vector3 verticalAxis, float weight);
     // static public UnityEngine.Vector3 ExtractHorizontal(UnityEngine.Vector3 v, UnityEngine.Vector3 normal, System.Single weight)
-    // Offset: 0x1C71214
+    // Offset: 0x1C53BD8
     static UnityEngine::Vector3 ExtractHorizontal(UnityEngine::Vector3 v, UnityEngine::Vector3 normal, float weight);
     // static public UnityEngine.Vector3 ClampDirection(UnityEngine.Vector3 direction, UnityEngine.Vector3 normalDirection, System.Single clampWeight, System.Int32 clampSmoothing)
-    // Offset: 0x1C71314
+    // Offset: 0x1C53CD8
     static UnityEngine::Vector3 ClampDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 normalDirection, float clampWeight, int clampSmoothing);
     // static public UnityEngine.Vector3 ClampDirection(UnityEngine.Vector3 direction, UnityEngine.Vector3 normalDirection, System.Single clampWeight, System.Int32 clampSmoothing, out System.Boolean changed)
-    // Offset: 0x1C71538
+    // Offset: 0x1C53EFC
     static UnityEngine::Vector3 ClampDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 normalDirection, float clampWeight, int clampSmoothing, ByRef<bool> changed);
     // static public UnityEngine.Vector3 ClampDirection(UnityEngine.Vector3 direction, UnityEngine.Vector3 normalDirection, System.Single clampWeight, System.Int32 clampSmoothing, out System.Single clampValue)
-    // Offset: 0x1C71774
+    // Offset: 0x1C54138
     static UnityEngine::Vector3 ClampDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 normalDirection, float clampWeight, int clampSmoothing, ByRef<float> clampValue);
     // static public UnityEngine.Vector3 LineToPlane(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.Vector3 planeNormal, UnityEngine.Vector3 planePoint)
-    // Offset: 0x1C719C4
+    // Offset: 0x1C54388
     static UnityEngine::Vector3 LineToPlane(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, UnityEngine::Vector3 planeNormal, UnityEngine::Vector3 planePoint);
     // static public UnityEngine.Vector3 PointToPlane(UnityEngine.Vector3 point, UnityEngine.Vector3 planePosition, UnityEngine.Vector3 planeNormal)
-    // Offset: 0x1C71BC4
+    // Offset: 0x1C54588
     static UnityEngine::Vector3 PointToPlane(UnityEngine::Vector3 point, UnityEngine::Vector3 planePosition, UnityEngine::Vector3 planeNormal);
     // static public UnityEngine.Vector3 TransformPointUnscaled(UnityEngine.Transform t, UnityEngine.Vector3 point)
-    // Offset: 0x1C71DA0
+    // Offset: 0x1C54764
     static UnityEngine::Vector3 TransformPointUnscaled(UnityEngine::Transform* t, UnityEngine::Vector3 point);
     // static public UnityEngine.Vector3 InverseTransformPointUnscaled(UnityEngine.Transform t, UnityEngine.Vector3 point)
-    // Offset: 0x1C71ED4
+    // Offset: 0x1C54898
     static UnityEngine::Vector3 InverseTransformPointUnscaled(UnityEngine::Transform* t, UnityEngine::Vector3 point);
   }; // RootMotion.V3Tools
   #pragma pack(pop)

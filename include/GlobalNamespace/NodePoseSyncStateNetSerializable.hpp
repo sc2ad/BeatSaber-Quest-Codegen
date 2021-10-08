@@ -86,37 +86,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // static public PacketPool`1<NodePoseSyncStateNetSerializable> get_pool()
-    // Offset: 0x18CF1D0
+    // Offset: 0x18B5B94
     static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x18CF218
+    // Offset: 0x18B5BDC
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x18CF220
+    // Offset: 0x18B5BE4
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x18CF228
+    // Offset: 0x18B5BEC
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x18CF230
+    // Offset: 0x18B5BF4
     void set_time(float value);
     // public NodePoseSyncState get_state()
-    // Offset: 0x18CF238
+    // Offset: 0x18B5BFC
     GlobalNamespace::NodePoseSyncState get_state();
     // public System.Void set_state(NodePoseSyncState value)
-    // Offset: 0x18CF248
+    // Offset: 0x18B5C0C
     void set_state(GlobalNamespace::NodePoseSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x18CF264
+    // Offset: 0x18B5C28
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x18CF2D8
+    // Offset: 0x18B5C9C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x18CF34C
+    // Offset: 0x18B5D10
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x18CF3A8
+    // Offset: 0x18B5D6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

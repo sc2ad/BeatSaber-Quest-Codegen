@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* contentTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF12190
+    // [SpaceAttribute] Offset: 0xF11E18
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x28
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     Tweening::EaseType easeType;
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0xF121D8
+    // [InjectAttribute] Offset: 0xF11E60
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x30
@@ -131,46 +131,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Vector2Tween _contentPositionTween
     Tweening::Vector2Tween*& dyn__contentPositionTween();
     // public System.Void Init(System.Single rowHeight, System.Int32 rowCount)
-    // Offset: 0x1242FD0
+    // Offset: 0x2617B50
     void Init(float rowHeight, int rowCount);
+    // protected System.Void OnDestroy()
+    // Offset: 0x26195A4
+    void OnDestroy();
     // public System.Void ScrollToRowIdxInstant(System.Int32 selectedRow)
-    // Offset: 0x1243944
+    // Offset: 0x26184C4
     void ScrollToRowIdxInstant(int selectedRow);
-    // public System.Void AnimateOpen(System.Boolean instant)
-    // Offset: 0x1243A08
-    void AnimateOpen(bool instant);
-    // public System.Void AnimateClose(System.Int32 selectedRow, System.Boolean instant)
-    // Offset: 0x1243E54
-    void AnimateClose(int selectedRow, bool instant);
+    // public System.Void AnimateOpen(System.Boolean animated)
+    // Offset: 0x2618588
+    void AnimateOpen(bool animated);
+    // public System.Void AnimateClose(System.Int32 selectedRow, System.Boolean animated)
+    // Offset: 0x2618944
+    void AnimateClose(int selectedRow, bool animated);
+    // private System.Void DespawnAllActiveTweens()
+    // Offset: 0x26195A8
+    void DespawnAllActiveTweens();
     // private System.Single GetContentYOffset()
-    // Offset: 0x1244B18
+    // Offset: 0x2619578
     float GetContentYOffset();
-    // private System.Void <AnimateOpen>b__12_0(UnityEngine.Vector2 size)
-    // Offset: 0x1244B5C
-    void $AnimateOpen$b__12_0(UnityEngine::Vector2 size);
-    // private System.Void <AnimateOpen>b__12_1()
-    // Offset: 0x1244B78
-    void $AnimateOpen$b__12_1();
-    // private System.Void <AnimateOpen>b__12_2(UnityEngine.Vector2 pos)
-    // Offset: 0x1244C04
-    void $AnimateOpen$b__12_2(UnityEngine::Vector2 pos);
-    // private System.Void <AnimateOpen>b__12_3()
-    // Offset: 0x1244C20
-    void $AnimateOpen$b__12_3();
-    // private System.Void <AnimateClose>b__13_0(UnityEngine.Vector2 size)
-    // Offset: 0x1244CAC
-    void $AnimateClose$b__13_0(UnityEngine::Vector2 size);
-    // private System.Void <AnimateClose>b__13_1()
-    // Offset: 0x1244CC8
-    void $AnimateClose$b__13_1();
-    // private System.Void <AnimateClose>b__13_2(UnityEngine.Vector2 pos)
-    // Offset: 0x1244D54
-    void $AnimateClose$b__13_2(UnityEngine::Vector2 pos);
-    // private System.Void <AnimateClose>b__13_3()
-    // Offset: 0x1244D70
-    void $AnimateClose$b__13_3();
+    // private System.Void <AnimateOpen>b__13_0(UnityEngine.Vector2 size)
+    // Offset: 0x26196A4
+    void $AnimateOpen$b__13_0(UnityEngine::Vector2 size);
+    // private System.Void <AnimateOpen>b__13_1()
+    // Offset: 0x26196C0
+    void $AnimateOpen$b__13_1();
+    // private System.Void <AnimateOpen>b__13_2(UnityEngine.Vector2 pos)
+    // Offset: 0x261974C
+    void $AnimateOpen$b__13_2(UnityEngine::Vector2 pos);
+    // private System.Void <AnimateOpen>b__13_3()
+    // Offset: 0x2619768
+    void $AnimateOpen$b__13_3();
+    // private System.Void <AnimateClose>b__14_0(UnityEngine.Vector2 size)
+    // Offset: 0x26197F4
+    void $AnimateClose$b__14_0(UnityEngine::Vector2 size);
+    // private System.Void <AnimateClose>b__14_1()
+    // Offset: 0x2619810
+    void $AnimateClose$b__14_1();
+    // private System.Void <AnimateClose>b__14_2(UnityEngine.Vector2 pos)
+    // Offset: 0x261989C
+    void $AnimateClose$b__14_2(UnityEngine::Vector2 pos);
+    // private System.Void <AnimateClose>b__14_3()
+    // Offset: 0x26198B8
+    void $AnimateClose$b__14_3();
     // public System.Void .ctor()
-    // Offset: 0x1244B44
+    // Offset: 0x261968C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -199,6 +205,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rowHeight, rowCount});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::OnDestroy)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::ScrollToRowIdxInstant
 // Il2CppName: ScrollToRowIdxInstant
 template<>
@@ -213,8 +227,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(bool)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnimateOpen)> {
   static const MethodInfo* get() {
-    static auto* instant = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "AnimateOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instant});
+    static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "AnimateOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnimateClose
@@ -223,8 +237,16 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(int, bool)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnimateClose)> {
   static const MethodInfo* get() {
     static auto* selectedRow = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* instant = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "AnimateClose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectedRow, instant});
+    static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "AnimateClose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectedRow, animated});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::DespawnAllActiveTweens
+// Il2CppName: DespawnAllActiveTweens
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::DespawnAllActiveTweens)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "DespawnAllActiveTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::GetContentYOffset
@@ -235,72 +257,72 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "GetContentYOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_0
-// Il2CppName: <AnimateOpen>b__12_0
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_0
+// Il2CppName: <AnimateOpen>b__13_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_0)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_1
-// Il2CppName: <AnimateOpen>b__12_1
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_1
+// Il2CppName: <AnimateOpen>b__13_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_1)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_2
-// Il2CppName: <AnimateOpen>b__12_2
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_2
+// Il2CppName: <AnimateOpen>b__13_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_2)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__13_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_3
-// Il2CppName: <AnimateOpen>b__12_3
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_3
+// Il2CppName: <AnimateOpen>b__13_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__12_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateOpen$b__13_3)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateOpen>b__13_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_0
-// Il2CppName: <AnimateClose>b__13_0
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_0
+// Il2CppName: <AnimateClose>b__14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_0)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_1
-// Il2CppName: <AnimateClose>b__13_1
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_1
+// Il2CppName: <AnimateClose>b__14_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_1)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_2
-// Il2CppName: <AnimateClose>b__13_2
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_2
+// Il2CppName: <AnimateClose>b__14_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(UnityEngine::Vector2)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_2)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__13_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__14_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_3
-// Il2CppName: <AnimateClose>b__13_3
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_3
+// Il2CppName: <AnimateClose>b__14_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__13_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::$AnimateClose$b__14_3)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__13_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*), "<AnimateClose>b__14_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::New_ctor

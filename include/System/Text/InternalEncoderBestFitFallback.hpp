@@ -57,29 +57,29 @@ namespace System::Text {
     // Get instance field reference: System.Char[] arrayBestFit
     ::ArrayW<::Il2CppChar>& dyn_arrayBestFit();
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1F0CCE8
+    // Offset: 0x1EF474C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalEncoderBestFitFallback* New_ctor(System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalEncoderBestFitFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalEncoderBestFitFallback*, creationType>(encoding)));
     }
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1F1336C
+    // Offset: 0x1EFADD0
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1F13218
+    // Offset: 0x1EFAC7C
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1F13374
+    // Offset: 0x1EFADD8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F13448
+    // Offset: 0x1EFAEAC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

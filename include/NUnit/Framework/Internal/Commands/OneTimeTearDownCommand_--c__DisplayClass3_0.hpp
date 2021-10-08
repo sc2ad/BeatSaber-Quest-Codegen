@@ -47,10 +47,10 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: public System.IDisposable disposable
     System::IDisposable*& dyn_disposable();
     // System.Object <Execute>b__0()
-    // Offset: 0x193DA5C
+    // Offset: 0x1924420
     ::Il2CppObject* $Execute$b__0();
     // public System.Void .ctor()
-    // Offset: 0x193D70C
+    // Offset: 0x19240D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

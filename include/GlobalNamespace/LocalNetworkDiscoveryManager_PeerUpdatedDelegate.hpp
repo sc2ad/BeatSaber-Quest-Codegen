@@ -44,20 +44,20 @@ namespace GlobalNamespace {
   class LocalNetworkDiscoveryManager::PeerUpdatedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x125C240
+    // Offset: 0x1255C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::PeerUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::PeerUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.Int32 currentPartySize, System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x1259730
+    // Offset: 0x125311C
     void Invoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, int currentPartySize, bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.Int32 currentPartySize, System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x125C250
+    // Offset: 0x1255C3C
     System::IAsyncResult* BeginInvoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, int currentPartySize, bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x125C368
+    // Offset: 0x1255D54
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/PeerUpdatedDelegate
   #pragma pack(pop)

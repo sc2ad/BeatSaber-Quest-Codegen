@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class GameCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11D429C
+    // Offset: 0x11A6CD8
     // Implemented from: SceneSetupData
     // Base method: System.Void SceneSetupData::.ctor()
     // Base method: System.Void Object::.ctor()

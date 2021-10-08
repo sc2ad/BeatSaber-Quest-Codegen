@@ -53,40 +53,40 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Set static field: static private readonly System.String[] CurveNames
     static void _set_CurveNames(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x13A50AC
+    // Offset: 0x1389A70
     static void _cctor();
     // static public System.String GetNameOfNamedCurve(System.Int32 namedCurve)
-    // Offset: 0x13A46A4
+    // Offset: 0x1389068
     static ::Il2CppString* GetNameOfNamedCurve(int namedCurve);
     // static public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters GetParametersForNamedCurve(System.Int32 namedCurve)
-    // Offset: 0x13A47F8
+    // Offset: 0x13891BC
     static Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetParametersForNamedCurve(int namedCurve);
     // static public System.Boolean IsSupportedNamedCurve(System.Int32 namedCurve)
-    // Offset: 0x13A4768
+    // Offset: 0x138912C
     static bool IsSupportedNamedCurve(int namedCurve);
     // static public System.Boolean IsCompressionPreferred(System.Byte[] ecPointFormats, System.Byte compressionFormat)
-    // Offset: 0x13A4918
+    // Offset: 0x13892DC
     static bool IsCompressionPreferred(::ArrayW<uint8_t> ecPointFormats, uint8_t compressionFormat);
     // static public System.Byte[] SerializeECPoint(System.Byte[] ecPointFormats, Org.BouncyCastle.Math.EC.ECPoint point)
-    // Offset: 0x13A4978
+    // Offset: 0x138933C
     static ::ArrayW<uint8_t> SerializeECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECPoint* point);
     // static public Org.BouncyCastle.Math.EC.ECPoint DeserializeECPoint(System.Byte[] ecPointFormats, Org.BouncyCastle.Math.EC.ECCurve curve, System.Byte[] encoding)
-    // Offset: 0x13A4A6C
+    // Offset: 0x1389430
     static Org::BouncyCastle::Math::EC::ECPoint* DeserializeECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECCurve* curve, ::ArrayW<uint8_t> encoding);
     // static public Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters DeserializeECPublicKey(System.Byte[] ecPointFormats, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters curve_params, System.Byte[] encoding)
-    // Offset: 0x13A4BDC
+    // Offset: 0x13895A0
     static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* DeserializeECPublicKey(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* curve_params, ::ArrayW<uint8_t> encoding);
     // static public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateECKeyPair(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams)
-    // Offset: 0x13A4D88
+    // Offset: 0x138974C
     static Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateECKeyPair(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams);
     // static public Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters GenerateEphemeralClientKeyExchange(Org.BouncyCastle.Security.SecureRandom random, System.Byte[] ecPointFormats, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams, System.IO.Stream output)
-    // Offset: 0x13A4E30
+    // Offset: 0x13897F4
     static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* GenerateEphemeralClientKeyExchange(Org::BouncyCastle::Security::SecureRandom* random, ::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams, System::IO::Stream* output);
     // static public Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters ValidateECPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters key)
-    // Offset: 0x13A4FFC
+    // Offset: 0x13899C0
     static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ValidateECPublicKey(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* key);
     // static public System.Void WriteECPoint(System.Byte[] ecPointFormats, Org.BouncyCastle.Math.EC.ECPoint point, System.IO.Stream output)
-    // Offset: 0x13A4F50
+    // Offset: 0x1389914
     static void WriteECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECPoint* point, System::IO::Stream* output);
   }; // Org.BouncyCastle.Crypto.Tls.TlsEccUtilities
   #pragma pack(pop)

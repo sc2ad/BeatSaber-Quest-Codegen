@@ -56,25 +56,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<ObstacleControllerBase,System.Single> didStartDissolvingEvent
     System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*& dyn_didStartDissolvingEvent();
     // public System.Void add_didInitEvent(System.Action`1<ObstacleControllerBase> value)
-    // Offset: 0x135BDF0
+    // Offset: 0x13414A8
     void add_didInitEvent(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`1<ObstacleControllerBase> value)
-    // Offset: 0x135BE94
+    // Offset: 0x134154C
     void remove_didInitEvent(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* value);
     // public System.Void add_didStartDissolvingEvent(System.Action`2<ObstacleControllerBase,System.Single> value)
-    // Offset: 0x135BF38
+    // Offset: 0x13415F0
     void add_didStartDissolvingEvent(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* value);
     // public System.Void remove_didStartDissolvingEvent(System.Action`2<ObstacleControllerBase,System.Single> value)
-    // Offset: 0x135BFDC
+    // Offset: 0x1341694
     void remove_didStartDissolvingEvent(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* value);
     // protected System.Void InvokeDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x135B68C
+    // Offset: 0x1340D44
     void InvokeDidInitEvent(GlobalNamespace::ObstacleControllerBase* obstacleController);
     // protected System.Void InvokeDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x135BCA8
+    // Offset: 0x1341360
     void InvokeDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x135BBC4
+    // Offset: 0x134127C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

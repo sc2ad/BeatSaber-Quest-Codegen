@@ -23,10 +23,10 @@ namespace GlobalNamespace {
   class OVRMixedRealityCaptureConfigurationExtensions : public ::Il2CppObject {
     public:
     // static public System.Void ApplyTo(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
-    // Offset: 0x1462738
+    // Offset: 0x14480FC
     static void ApplyTo(GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
     // static public System.Void ReadFrom(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
-    // Offset: 0x146273C
+    // Offset: 0x1448100
     static void ReadFrom(GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
   }; // OVRMixedRealityCaptureConfigurationExtensions
   #pragma pack(pop)

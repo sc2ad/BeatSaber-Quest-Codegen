@@ -45,14 +45,14 @@ namespace Zenject {
     // Get instance field reference: private Zenject.BindInfo _bindInfo
     Zenject::BindInfo*& dyn__bindInfo();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x18328C0
+    // Offset: 0x1818284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IdBinder* New_ctor(Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IdBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IdBinder*, creationType>(bindInfo)));
     }
     // public System.Void WithId(System.Object identifier)
-    // Offset: 0x18328EC
+    // Offset: 0x18182B0
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
   #pragma pack(pop)

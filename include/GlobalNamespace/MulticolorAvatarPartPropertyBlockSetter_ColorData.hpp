@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteBoost
     float& dyn__whiteBoost();
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0x12094EC
+    // Offset: 0x117BCAC
     UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0x12094F8
+    // Offset: 0x117BCB8
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0x1209500
+    // Offset: 0x117BCC0
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0x1209508
+    // Offset: 0x117BCC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

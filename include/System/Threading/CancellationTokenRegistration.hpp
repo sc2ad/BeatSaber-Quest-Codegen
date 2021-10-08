@@ -66,24 +66,24 @@ namespace System::Threading {
     // Get instance field reference: private readonly System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> m_registrationInfo
     System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>& dyn_m_registrationInfo();
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
-    // Offset: 0x1A55C48
+    // Offset: 0x1A3B60C
     // ABORTED: conflicts with another method.  CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);
     // System.Boolean TryDeregister()
-    // Offset: 0x1A55C54
+    // Offset: 0x1A3B618
     bool TryDeregister();
     // public System.Void Dispose()
-    // Offset: 0x1A55CC0
+    // Offset: 0x1A3B684
     void Dispose();
     // public System.Boolean Equals(System.Threading.CancellationTokenRegistration other)
-    // Offset: 0x1A55E9C
+    // Offset: 0x1A3B860
     bool Equals(System::Threading::CancellationTokenRegistration other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1A55DFC
+    // Offset: 0x1A3B7C0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A55F20
+    // Offset: 0x1A3B8E4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

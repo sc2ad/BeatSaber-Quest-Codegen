@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Byte[] seed
     ::ArrayW<uint8_t>& dyn_seed();
     // public System.Byte[] GetSeed()
-    // Offset: 0x13970DC
+    // Offset: 0x137BAA0
     ::ArrayW<uint8_t> GetSeed();
   }; // Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
   #pragma pack(pop)

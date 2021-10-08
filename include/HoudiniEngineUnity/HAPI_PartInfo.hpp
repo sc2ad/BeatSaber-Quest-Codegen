@@ -132,37 +132,37 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean hasChanged
     bool& dyn_hasChanged();
     // public System.Int32 get_pointAttributeCount()
-    // Offset: 0x1437E10
+    // Offset: 0x141C7D4
     int get_pointAttributeCount();
     // public System.Void set_pointAttributeCount(System.Int32 value)
-    // Offset: 0x1439A08
+    // Offset: 0x141E3CC
     void set_pointAttributeCount(int value);
     // public System.Int32 get_primitiveAttributeCount()
-    // Offset: 0x1437DC8
+    // Offset: 0x141C78C
     int get_primitiveAttributeCount();
     // public System.Void set_primitiveAttributeCount(System.Int32 value)
-    // Offset: 0x1439A54
+    // Offset: 0x141E418
     void set_primitiveAttributeCount(int value);
     // public System.Int32 get_vertexAttributeCount()
-    // Offset: 0x1437E58
+    // Offset: 0x141C81C
     int get_vertexAttributeCount();
     // public System.Void set_vertexAttributeCount(System.Int32 value)
-    // Offset: 0x1439AA0
+    // Offset: 0x141E464
     void set_vertexAttributeCount(int value);
     // public System.Int32 get_detailAttributeCount()
-    // Offset: 0x1437B14
+    // Offset: 0x141C4D8
     int get_detailAttributeCount();
     // public System.Void set_detailAttributeCount(System.Int32 value)
-    // Offset: 0x1439AE8
+    // Offset: 0x141E4AC
     void set_detailAttributeCount(int value);
     // public System.Int32 getElementCountByAttributeOwner(HoudiniEngineUnity.HAPI_AttributeOwner owner)
-    // Offset: 0x1439938
+    // Offset: 0x141E2FC
     int getElementCountByAttributeOwner(HoudiniEngineUnity::HAPI_AttributeOwner owner);
     // public System.Int32 getElementCountByGroupType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x1439980
+    // Offset: 0x141E344
     int getElementCountByGroupType(HoudiniEngineUnity::HAPI_GroupType type);
     // public System.Void init()
-    // Offset: 0x14399A8
+    // Offset: 0x141E36C
     void init();
   }; // HoudiniEngineUnity.HAPI_PartInfo
   #pragma pack(pop)

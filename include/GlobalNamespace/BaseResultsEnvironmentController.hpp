@@ -28,16 +28,16 @@ namespace GlobalNamespace {
   class BaseResultsEnvironmentController : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x126C100
+    // Offset: 0x123AA54
     void Activate(bool immediately);
     // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x126C128
+    // Offset: 0x123AA7C
     void Deactivate(bool immediately);
     // public System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
     void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected System.Void .ctor()
-    // Offset: 0x126C150
+    // Offset: 0x123AAA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

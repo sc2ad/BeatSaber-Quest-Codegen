@@ -31,10 +31,10 @@ namespace Zenject {
   class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
     // public Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder WithGameObjectName(System.String gameObjectName)
-    // Offset: 0x1895E4C
+    // Offset: 0x187C810
     Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* WithGameObjectName(::Il2CppString* gameObjectName);
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectInfo)
-    // Offset: 0x1895DF4
+    // Offset: 0x187C7B8
     // Implemented from: Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
     // Base method: System.Void TransformScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

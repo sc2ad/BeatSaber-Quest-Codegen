@@ -50,28 +50,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
     static void _set_s_CachedValues(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x159B870
+    // Offset: 0x1582234
     static void _cctor();
     // static private System.Reflection.Assembly[] GetAssemblies()
-    // Offset: 0x159AD90
+    // Offset: 0x1581754
     static ::ArrayW<System::Reflection::Assembly*> GetAssemblies();
     // static System.Int32 GetCachedValueCount()
-    // Offset: 0x159ADB4
+    // Offset: 0x1581778
     static int GetCachedValueCount();
     // static public System.Void SetPropertyValue(System.String name, System.String val)
-    // Offset: 0x159AE30
+    // Offset: 0x15817F4
     static void SetPropertyValue(::Il2CppString* name, ::Il2CppString* val);
     // static public System.Void ClearCachedPropertyValues()
-    // Offset: 0x159AEC4
+    // Offset: 0x1581888
     static void ClearCachedPropertyValues();
     // static public System.String EvaluateProperty(System.String name)
-    // Offset: 0x159AF40
+    // Offset: 0x1581904
     static ::Il2CppString* EvaluateProperty(::Il2CppString* name);
     // static public System.String EvaluateString(System.String input)
-    // Offset: 0x1591D1C
+    // Offset: 0x15786E0
     static ::Il2CppString* EvaluateString(::Il2CppString* input);
     // static public System.String EvaluateString(System.String inputString, System.Char startDelimiter, System.Char endDelimiter, System.Func`2<System.String,System.String> varFunc)
-    // Offset: 0x159B37C
+    // Offset: 0x1581D40
     static ::Il2CppString* EvaluateString(::Il2CppString* inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, System::Func_2<::Il2CppString*, ::Il2CppString*>* varFunc);
   }; // UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties
   #pragma pack(pop)

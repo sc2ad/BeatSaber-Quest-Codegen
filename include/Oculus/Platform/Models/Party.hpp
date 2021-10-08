@@ -48,7 +48,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xEEAEDC
+    // [ObsoleteAttribute] Offset: 0xEE98FC
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x20
@@ -61,7 +61,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* LeaderOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xEEAF14
+    // [ObsoleteAttribute] Offset: 0xEE9934
     // public readonly Oculus.Platform.Models.User Leader
     // Size: 0x8
     // Offset: 0x30
@@ -74,7 +74,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xEEAF4C
+    // [ObsoleteAttribute] Offset: 0xEE996C
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x40
@@ -87,7 +87,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xEEAF84
+    // [ObsoleteAttribute] Offset: 0xEE99A4
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x50
@@ -114,7 +114,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
     Oculus::Platform::Models::UserList*& dyn_Users();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16BBBE8
+    // Offset: 0x16A05AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Party* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Party::.ctor");

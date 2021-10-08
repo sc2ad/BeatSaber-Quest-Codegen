@@ -137,7 +137,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 partCount
     int& dyn_partCount();
     // public System.Int32 getGroupCountByType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x143985C
+    // Offset: 0x141E220
     int getGroupCountByType(HoudiniEngineUnity::HAPI_GroupType type);
   }; // HoudiniEngineUnity.HAPI_GeoInfo
   #pragma pack(pop)

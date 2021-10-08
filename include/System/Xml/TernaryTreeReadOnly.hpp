@@ -38,14 +38,14 @@ namespace System::Xml {
     // Get instance field reference: private System.Byte[] nodeBuffer
     ::ArrayW<uint8_t>& dyn_nodeBuffer();
     // public System.Void .ctor(System.Byte[] nodeBuffer)
-    // Offset: 0x1AF8484
+    // Offset: 0x1ADCE48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t> nodeBuffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
-    // Offset: 0x1AF6B4C
+    // Offset: 0x1ADB510
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
   #pragma pack(pop)

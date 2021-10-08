@@ -68,28 +68,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x1E2B4A4
+    // Offset: 0x1E12F08
     UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x1E2B4B0
+    // Offset: 0x1E12F14
     UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E2B4BC
+    // Offset: 0x1E12F20
     UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x1E2B4C8
+    // Offset: 0x1E12F2C
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* get_lineLights();
     // protected System.Void OnEnable()
-    // Offset: 0x1E2B530
+    // Offset: 0x1E12F94
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E2B5B4
+    // Offset: 0x1E13018
     void OnDisable();
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1E2B638
+    // Offset: 0x1E1309C
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x1E2B6CC
+    // Offset: 0x1E13130
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LineLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E2B6D4
+    // Offset: 0x1E13138
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

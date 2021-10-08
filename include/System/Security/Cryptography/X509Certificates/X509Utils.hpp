@@ -22,10 +22,10 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Utils : public ::Il2CppObject {
     public:
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x19E10D0
+    // Offset: 0x19C5A94
     static ::Il2CppString* FindOidInfo(uint keyType, ::Il2CppString* keyValue, System::Security::Cryptography::OidGroup oidGroup);
     // static System.String FindOidInfoWithFallback(System.UInt32 key, System.String value, System.Security.Cryptography.OidGroup group)
-    // Offset: 0x19D0A78
+    // Offset: 0x19B543C
     static ::Il2CppString* FindOidInfoWithFallback(uint key, ::Il2CppString* value, System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
   #pragma pack(pop)

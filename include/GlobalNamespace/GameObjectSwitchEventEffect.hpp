@@ -50,21 +50,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: beatmapEvent and: deactivateOnBoostObjects
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0xF06328
+    // [NullAllowed] Offset: 0xF05F90
     // private UnityEngine.GameObject[] _deactivateOnBoostObjects
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<UnityEngine::GameObject*> deactivateOnBoostObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
-    // [NullAllowed] Offset: 0xF06360
+    // [NullAllowed] Offset: 0xF05FC8
     // private UnityEngine.GameObject[] _activateOnBoostObjects
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<UnityEngine::GameObject*> activateOnBoostObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF06398
+    // [InjectAttribute] Offset: 0xF06000
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()
-    // Offset: 0x11D6AE8
+    // Offset: 0x11A9524
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x11D6BD8
+    // Offset: 0x11A9614
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x11D6CD8
+    // Offset: 0x11A9714
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void ToggleObjects(System.Boolean isBoostOn)
-    // Offset: 0x11D6D0C
+    // Offset: 0x11A9748
     void ToggleObjects(bool isBoostOn);
     // public System.Void .ctor()
-    // Offset: 0x11D6DE4
+    // Offset: 0x11A9820
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

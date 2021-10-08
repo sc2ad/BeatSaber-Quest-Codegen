@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
     ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_enabledLevelCategories();
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
-    // Offset: 0x1100BB0
+    // Offset: 0x113DC20
     bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
     // public System.Void .ctor()
-    // Offset: 0x1100734
+    // Offset: 0x113D7A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -87,34 +87,34 @@ namespace Tweening {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
     System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // protected System.Void Start()
-    // Offset: 0x133E644
+    // Offset: 0x1265828
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x133E6B0
+    // Offset: 0x1265894
     void LateUpdate();
     // protected System.Single GetTime()
     // Offset: 0xFFFFFFFF
     float GetTime();
     // public Tweening.Tween AddTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x133E870
+    // Offset: 0x1265A3C
     Tweening::Tween* AddTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x133E998
+    // Offset: 0x1265B64
     Tweening::Tween* RestartTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween ResumeTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x133E9F8
+    // Offset: 0x1265BC4
     Tweening::Tween* ResumeTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void KillAllTweens(UnityEngine.Object owner)
-    // Offset: 0x133EA28
+    // Offset: 0x1265BF4
     void KillAllTweens(UnityEngine::Object* owner);
     // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x133E8BC
+    // Offset: 0x1265A88
     bool AddTweenToDataStructures(Tweening::Tween* tween, UnityEngine::Object* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x133EB9C
+    // Offset: 0x1265D68
     void AddTweenToOwnerDictionary(Tweening::Tween* tween, UnityEngine::Object* owner);
     // protected System.Void .ctor()
-    // Offset: 0x133E430
+    // Offset: 0x1265614
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

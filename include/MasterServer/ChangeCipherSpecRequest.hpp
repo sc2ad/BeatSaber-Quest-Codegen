@@ -35,10 +35,10 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.ChangeCipherSpecRequest> get_pool()
-    // Offset: 0x12D9D28
+    // Offset: 0x12EB09C
     static GlobalNamespace::PacketPool_1<MasterServer::ChangeCipherSpecRequest*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x12D9DCC
+    // Offset: 0x12EB140
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,7 +48,7 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ChangeCipherSpecRequest*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x12D9D70
+    // Offset: 0x12EB0E4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

@@ -48,13 +48,13 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private Mono.Security.ASN1 _asn1
     Mono::Security::ASN1*& dyn__asn1();
     // public System.String get_BagOID()
-    // Offset: 0x25DBF84
+    // Offset: 0x25C2A2C
     ::Il2CppString* get_BagOID();
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x25DBF8C
+    // Offset: 0x25C2A34
     Mono::Security::ASN1* get_ASN1();
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
-    // Offset: 0x25DBF4C
+    // Offset: 0x25C29F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeBag* New_ctor(::Il2CppString* bagOID, Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::SafeBag::.ctor");

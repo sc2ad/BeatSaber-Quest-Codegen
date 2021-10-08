@@ -61,27 +61,27 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: private readonly System.Int32 m_size
     int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve outer, System.Byte[] table, System.Int32 size)
-    // Offset: 0x23159B8
+    // Offset: 0x22FB41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve::DefaultLookupTable* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* outer, ::ArrayW<uint8_t> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve::DefaultLookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.Byte[] x, System.Byte[] y)
-    // Offset: 0x2316760
+    // Offset: 0x22FC1C4
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint8_t> x, ::ArrayW<uint8_t> y);
     // public override System.Int32 get_Size()
-    // Offset: 0x23165BC
+    // Offset: 0x22FC020
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x23165C4
+    // Offset: 0x22FC028
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x231685C
+    // Offset: 0x22FC2C0
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);

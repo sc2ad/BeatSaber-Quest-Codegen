@@ -27,7 +27,7 @@ namespace UnityEngine::TestTools::TestRunner {
   class TestStartedEvent : public UnityEngine::Events::UnityEvent_1<NUnit::Framework::Interfaces::ITest*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x260A0DC
+    // Offset: 0x25F1B84
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

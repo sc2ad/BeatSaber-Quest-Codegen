@@ -22,7 +22,7 @@ namespace Tweening {
   class Interpolation : public ::Il2CppObject {
     public:
     // static public System.Single Interpolate(System.Single t, Tweening.EaseType easeType)
-    // Offset: 0x133DFB4
+    // Offset: 0x1265198
     static float Interpolate(float t, Tweening::EaseType easeType);
   }; // Tweening.Interpolation
   #pragma pack(pop)

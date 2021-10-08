@@ -17,7 +17,7 @@ namespace UnityEngine {
   class PreloadData : public UnityEngine::Object {
     public:
     // System.Void PreloadDataDontStripMe()
-    // Offset: 0x1DFE628
+    // Offset: 0x1DE508C
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
   #pragma pack(pop)

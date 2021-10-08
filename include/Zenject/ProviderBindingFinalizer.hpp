@@ -75,26 +75,26 @@ namespace Zenject {
     // Get instance field reference: private Zenject.BindInfo <BindInfo>k__BackingField
     Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x189B220
+    // Offset: 0x1881BE4
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // protected Zenject.BindInfo get_BindInfo()
-    // Offset: 0x189B23C
+    // Offset: 0x1881C00
     Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x189B244
+    // Offset: 0x1881C08
     void set_BindInfo(Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1896E64
+    // Offset: 0x187D828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProviderBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProviderBindingFinalizer*, creationType>(bindInfo)));
     }
     // protected Zenject.ScopeTypes GetScope()
-    // Offset: 0x1897498
+    // Offset: 0x187DE5C
     Zenject::ScopeTypes GetScope();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x189B24C
+    // Offset: 0x1881C10
     void FinalizeBinding(Zenject::DiContainer* container);
     // protected System.Void OnFinalizeBinding(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
@@ -110,22 +110,22 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, container, provider);
     }
     // protected System.Void RegisterProvider(Zenject.DiContainer container, System.Type contractType, Zenject.IProvider provider)
-    // Offset: 0x189B57C
+    // Offset: 0x1881F40
     void RegisterProvider(Zenject::DiContainer* container, System::Type* contractType, Zenject::IProvider* provider);
     // protected System.Void RegisterProviderPerContract(Zenject.DiContainer container, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0x1897CC8
+    // Offset: 0x187E68C
     void RegisterProviderPerContract(Zenject::DiContainer* container, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFunc);
     // protected System.Void RegisterProviderForAllContracts(Zenject.DiContainer container, Zenject.IProvider provider)
-    // Offset: 0x189B814
+    // Offset: 0x18821D8
     void RegisterProviderForAllContracts(Zenject::DiContainer* container, Zenject::IProvider* provider);
     // protected System.Void RegisterProvidersPerContractAndConcreteType(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes, System.Func`3<System.Type,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0x189B9B8
+    // Offset: 0x188237C
     void RegisterProvidersPerContractAndConcreteType(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes, System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>* providerFunc);
     // private System.Boolean ValidateBindTypes(System.Type concreteType, System.Type contractType)
-    // Offset: 0x189BC74
+    // Offset: 0x1882638
     bool ValidateBindTypes(System::Type* concreteType, System::Type* contractType);
     // protected System.Void RegisterProvidersForAllContractsPerConcreteType(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0x18976B0
+    // Offset: 0x187E074
     void RegisterProvidersForAllContractsPerConcreteType(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFunc);
   }; // Zenject.ProviderBindingFinalizer
   #pragma pack(pop)

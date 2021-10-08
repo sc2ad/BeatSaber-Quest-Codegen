@@ -46,14 +46,14 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly System.Collections.IComparer comparer
     System::Collections::IComparer*& dyn_comparer();
     // public System.Void .ctor(System.Collections.IComparer comparer)
-    // Offset: 0x192A800
+    // Offset: 0x19111C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComparisonAdapter::ComparerAdapter* New_ctor(System::Collections::IComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComparisonAdapter::ComparerAdapter*, creationType>(comparer)));
     }
     // public override System.Int32 Compare(System.Object expected, System.Object actual)
-    // Offset: 0x192A82C
+    // Offset: 0x19111F0
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
     // Base method: System.Int32 ComparisonAdapter::Compare(System.Object expected, System.Object actual)
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);

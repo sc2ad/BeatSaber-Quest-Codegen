@@ -35,7 +35,7 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF4498
+    // [TooltipAttribute] Offset: 0xEF4100
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
     // Size: 0x8
     // Offset: 0x30
@@ -46,7 +46,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
     ::ArrayW<RootMotion::FinalIK::Amplifier::Body*>& dyn_bodies();
     // public System.Void .ctor()
-    // Offset: 0x1EBF88C
+    // Offset: 0x1EA62F0
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1EBF2E8
+    // Offset: 0x1EA5D4C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

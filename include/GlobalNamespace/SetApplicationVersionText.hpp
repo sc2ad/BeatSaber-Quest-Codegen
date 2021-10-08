@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshPro _versionText
     TMPro::TextMeshPro*& dyn__versionText();
     // protected System.Void Start()
-    // Offset: 0x1102BD4
+    // Offset: 0x113FC44
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1102C0C
+    // Offset: 0x113FC7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

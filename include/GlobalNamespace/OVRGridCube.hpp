@@ -135,22 +135,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRCameraRig CameraController
     GlobalNamespace::OVRCameraRig*& dyn_CameraController();
     // private System.Void Update()
-    // Offset: 0x16C3900
+    // Offset: 0x16A82C4
     void Update();
     // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
-    // Offset: 0x16C3B68
+    // Offset: 0x16A852C
     void SetOVRCameraController(ByRef<GlobalNamespace::OVRCameraRig*> cameraController);
     // private System.Void UpdateCubeGrid()
-    // Offset: 0x16C3904
+    // Offset: 0x16A82C8
     void UpdateCubeGrid();
     // private System.Void CreateCubeGrid()
-    // Offset: 0x16C3B74
+    // Offset: 0x16A8538
     void CreateCubeGrid();
     // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0x16C3F20
+    // Offset: 0x16A88E4
     void CubeGridSwitchColor(bool CubeSwitchColor);
     // public System.Void .ctor()
-    // Offset: 0x16C42C4
+    // Offset: 0x16A8C88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

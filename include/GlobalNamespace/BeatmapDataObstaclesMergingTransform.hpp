@@ -35,16 +35,16 @@ namespace GlobalNamespace {
   class BeatmapDataObstaclesMergingTransform : public ::Il2CppObject {
     public:
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x1278B28
+    // Offset: 0x124747C
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private System.Boolean CanBeMerged(ObstacleData firstObstacle, ObstacleData secondObstacle)
-    // Offset: 0x1279730
+    // Offset: 0x1248084
     static bool CanBeMerged(GlobalNamespace::ObstacleData* firstObstacle, GlobalNamespace::ObstacleData* secondObstacle);
     // static private System.Void RemoveLastObstaclesByRotationEvents(ObstacleData[] lastObstacleInLine, BeatmapObjectData beatmapObjectData, System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> events, ref System.Int32 eventIndex, ref System.Boolean obstaclesCanBeMerged)
-    // Offset: 0x1279304
+    // Offset: 0x1247C58
     static void RemoveLastObstaclesByRotationEvents(::ArrayW<GlobalNamespace::ObstacleData*> lastObstacleInLine, GlobalNamespace::BeatmapObjectData* beatmapObjectData, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* events, ByRef<int> eventIndex, ByRef<bool> obstaclesCanBeMerged);
     // static private System.Void RemoveObstaclesInRange(ObstacleData[] obstacleInLine, System.Int32 startLine, System.Int32 endLine)
-    // Offset: 0x12797A0
+    // Offset: 0x12480F4
     static void RemoveObstaclesInRange(::ArrayW<GlobalNamespace::ObstacleData*> obstacleInLine, int startLine, int endLine);
   }; // BeatmapDataObstaclesMergingTransform
   #pragma pack(pop)

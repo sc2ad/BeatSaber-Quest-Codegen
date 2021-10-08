@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF06E14
+    // [SpaceAttribute] Offset: 0xF06A7C
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xF06E4C
+    // [SpaceAttribute] Offset: 0xF06AB4
     // private System.Single _minPositionStep
     // Size: 0x4
     // Offset: 0x24
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     float moveSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xF06EA4
+    // [InjectAttribute] Offset: 0xF06B0C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -101,16 +101,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _prevWasMinStep
     bool& dyn__prevWasMinStep();
     // protected System.Void Start()
-    // Offset: 0x11619A4
+    // Offset: 0x115E758
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1161A94
+    // Offset: 0x115E848
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1161B94
+    // Offset: 0x115E948
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1161C40
+    // Offset: 0x115E9F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

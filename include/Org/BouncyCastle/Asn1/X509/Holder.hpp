@@ -79,24 +79,24 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly System.Int32 version
     int& dyn_version();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1TaggedObject tagObj)
-    // Offset: 0x1BB971C
+    // Offset: 0x1B9E0E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Holder* New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Holder*, creationType>(tagObj)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1BB9524
+    // Offset: 0x1B9DEE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Holder* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::Holder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Holder*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.Holder GetInstance(System.Object obj)
-    // Offset: 0x1BB5A58
+    // Offset: 0x1B9A41C
     static Org::BouncyCastle::Asn1::X509::Holder* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BB9858
+    // Offset: 0x1B9E21C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

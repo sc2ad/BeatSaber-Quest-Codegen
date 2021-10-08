@@ -141,31 +141,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
     GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
-    // Offset: 0x123EC8C
+    // Offset: 0x261380C
     float get_test1GroupSize();
     // public System.Single get_test2GroupSize()
-    // Offset: 0x123EC94
+    // Offset: 0x2613814
     float get_test2GroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x123EC9C
+    // Offset: 0x261381C
     ::Il2CppString* get_experimentName();
     // public AbTestExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x123ECA4
+    // Offset: 0x2613824
     GlobalNamespace::AbTestExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // private System.Void OnValidate()
-    // Offset: 0x123ECAC
+    // Offset: 0x261382C
     void OnValidate();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x123ED68
+    // Offset: 0x26138E8
     void ComputeCurrentUserTreatment(::Il2CppString* userId);
     // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
-    // Offset: 0x123EF98
+    // Offset: 0x2613B18
     void ForceSetTreatmentGroup(GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
     // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x123ED8C
+    // Offset: 0x261390C
     GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x123EFA0
+    // Offset: 0x2613B20
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

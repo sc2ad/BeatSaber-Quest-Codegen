@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: shockWaveYPos and: noteCutParticlesEffect
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF05480
+    // [SpaceAttribute] Offset: 0xF050E8
     // private NoteCutParticlesEffect _noteCutParticlesEffect
     // Size: 0x8
     // Offset: 0x20
@@ -89,21 +89,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xF054F8
+    // [InjectAttribute] Offset: 0xF05160
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF05508
+    // [InjectAttribute] Offset: 0xF05170
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF05518
+    // [InjectAttribute] Offset: 0xF05180
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
@@ -132,22 +132,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
     GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // protected System.Void Start()
-    // Offset: 0x113DCB8
+    // Offset: 0x1336D68
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x113DD44
+    // Offset: 0x1336DF4
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x113DDDC
+    // Offset: 0x1336E8C
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void SpawnNoteCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
-    // Offset: 0x113DEFC
+    // Offset: 0x1336FA8
     void SpawnNoteCutEffect(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteController* noteController);
     // private System.Void SpawnBombCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
-    // Offset: 0x113DE9C
+    // Offset: 0x1336F48
     void SpawnBombCutEffect(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x113E2F4
+    // Offset: 0x133813C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

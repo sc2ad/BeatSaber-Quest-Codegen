@@ -128,47 +128,47 @@ namespace GlobalNamespace {
     static int _get_kMaxBloomIterations();
     // Set static field: static private System.Int32 kMaxBloomIterations
     static void _set_kMaxBloomIterations(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB28
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF548
     // Get static field: static private readonly System.Single[][] kBloomIterationWeights
     static ::ArrayW<::ArrayW<float>> _get_kBloomIterationWeights();
     // Set static field: static private readonly System.Single[][] kBloomIterationWeights
     static void _set_kBloomIterationWeights(::ArrayW<::ArrayW<float>> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB38
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF558
     // Get static field: static private readonly System.Int32 _offsetID
     static int _get__offsetID();
     // Set static field: static private readonly System.Int32 _offsetID
     static void _set__offsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB48
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF568
     // Get static field: static private readonly System.Int32 _boostID
     static int _get__boostID();
     // Set static field: static private readonly System.Int32 _boostID
     static void _set__boostID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB58
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF578
     // Get static field: static private readonly System.Int32 _additiveAlphaID
     static int _get__additiveAlphaID();
     // Set static field: static private readonly System.Int32 _additiveAlphaID
     static void _set__additiveAlphaID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB68
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF588
     // Get static field: static private readonly System.Int32 _alphaID
     static int _get__alphaID();
     // Set static field: static private readonly System.Int32 _alphaID
     static void _set__alphaID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB78
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF598
     // Get static field: static private readonly System.Int32 _tintColorID
     static int _get__tintColorID();
     // Set static field: static private readonly System.Int32 _tintColorID
     static void _set__tintColorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB88
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF5A8
     // Get static field: static private readonly System.Int32 _alphaWeightsID
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
     static void _set__alphaWeightsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB98
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF5B8
     // Get static field: static private readonly System.Int32 _tempTexture0ID
     static int _get__tempTexture0ID();
     // Set static field: static private readonly System.Int32 _tempTexture0ID
     static void _set__tempTexture0ID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEBA8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF5C8
     // Get static field: static private readonly System.Int32 _tempTexture1ID
     static int _get__tempTexture1ID();
     // Set static field: static private readonly System.Int32 _tempTexture1ID
@@ -194,34 +194,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture[] _blurTextures
     ::ArrayW<UnityEngine::RenderTexture*>& dyn__blurTextures();
     // public System.Int32[] GetBlurKernel(KawaseBlurRendererSO/KernelSize kernelSize)
-    // Offset: 0x1E27054
+    // Offset: 0x1E0EAB8
     ::ArrayW<int> GetBlurKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);
     // protected System.Void OnDisable()
-    // Offset: 0x1E275DC
+    // Offset: 0x1E0F040
     void OnDisable();
     // public System.Void Bloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Int32 iterationsStart, System.Int32 iterations, System.Single boost, System.Single alphaWeights, KawaseBlurRendererSO/WeightsType blurStartWeightsType, System.Single[] bloomIterationWeights)
-    // Offset: 0x1E27624
+    // Offset: 0x1E0F088
     void Bloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, int iterationsStart, int iterations, float boost, float alphaWeights, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType, ::ArrayW<float> bloomIterationWeights);
     // public System.Void DoubleBlur(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize0, System.Single boost0, KawaseBlurRendererSO/KernelSize kernelSize1, System.Single boost1, System.Single secondBlurAlpha, System.Int32 downsample, System.Boolean gammaCorrection)
-    // Offset: 0x1E28068
+    // Offset: 0x1E0FACC
     void DoubleBlur(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize0, float boost0, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize1, float boost1, float secondBlurAlpha, int downsample, bool gammaCorrection);
     // public UnityEngine.Texture2D Blur(UnityEngine.Texture src, KawaseBlurRendererSO/KernelSize kernelSize, System.Int32 downsample)
-    // Offset: 0x1E282E0
+    // Offset: 0x1E0FD44
     UnityEngine::Texture2D* Blur(UnityEngine::Texture* src, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, int downsample);
     // public System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost, System.Int32 downsample)
-    // Offset: 0x1E283A8
+    // Offset: 0x1E0FE0C
     void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost, int downsample);
     // private System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, System.Int32[] kernel, System.Single boost, System.Int32 downsample, System.Int32 startIdx, System.Int32 length, System.Single alphaWeights, System.Single additiveAlpha, System.Boolean additivelyBlendToDest, System.Boolean gammaCorrection, KawaseBlurRendererSO/WeightsType blurStartWeightsType)
-    // Offset: 0x1E27B68
+    // Offset: 0x1E0F5CC
     void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, ::ArrayW<int> kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType);
     // public System.Void AlphaWeights(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1E28434
+    // Offset: 0x1E0FE98
     void AlphaWeights(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public UnityEngine.Rendering.CommandBuffer CreateBlurCommandBuffer(System.Int32 width, System.Int32 height, System.String globalTextureName, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost)
-    // Offset: 0x1E28540
+    // Offset: 0x1E0FFA4
     UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int width, int height, ::Il2CppString* globalTextureName, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost);
     // public System.Void .ctor()
-    // Offset: 0x1E28860
+    // Offset: 0x1E102C4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -233,12 +233,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBlurRendererSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E28868
+    // Offset: 0x1E102CC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x1E27260
+    // Offset: 0x1E0ECC4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

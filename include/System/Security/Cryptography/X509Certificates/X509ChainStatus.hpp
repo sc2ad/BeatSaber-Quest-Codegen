@@ -50,19 +50,19 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.String info
     ::Il2CppString*& dyn_info();
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0x19DE864
+    // Offset: 0x19C3228
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0x19DE86C
+    // Offset: 0x19C3230
     void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0x19DE874
+    // Offset: 0x19C3238
     void set_StatusInformation(::Il2CppString* value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x19DB85C
+    // Offset: 0x19C0220
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x19DA310
+    // Offset: 0x19BECD4
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
   #pragma pack(pop)

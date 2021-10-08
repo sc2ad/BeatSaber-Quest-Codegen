@@ -47,15 +47,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets
     ::ArrayW<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>& dyn__presets();
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x12AA910
+    // Offset: 0x12A47E0
     ::ArrayW<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x12AA918
+    // Offset: 0x12A47E8
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::ArrayW<GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x12AA920
+    // Offset: 0x12A47F0
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

@@ -33,16 +33,16 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x138FD04
+    // Offset: 0x13746C8
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x138FD08
+    // Offset: 0x13746CC
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x138FD78
+    // Offset: 0x137473C
     int PadCount(::ArrayW<uint8_t> input);
     // public System.Void .ctor()
-    // Offset: 0x138FE54
+    // Offset: 0x1374818
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

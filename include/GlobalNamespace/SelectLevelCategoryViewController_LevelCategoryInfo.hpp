@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Sprite categoryIcon
     UnityEngine::Sprite*& dyn_categoryIcon();
     // public System.Void .ctor()
-    // Offset: 0x1100C18
+    // Offset: 0x113DC88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

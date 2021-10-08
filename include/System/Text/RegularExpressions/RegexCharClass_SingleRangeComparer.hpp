@@ -27,10 +27,10 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange x, System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange y)
-    // Offset: 0x1A351BC
+    // Offset: 0x1A19B80
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x1A351F8
+    // Offset: 0x1A19BBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

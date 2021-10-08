@@ -48,7 +48,7 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 result
     int& dyn_result();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x1BD6DCC
+    // Offset: 0x1BBB790
     HebrewNumberParsingContext(int result);
   }; // System.Globalization.HebrewNumberParsingContext
   #pragma pack(pop)

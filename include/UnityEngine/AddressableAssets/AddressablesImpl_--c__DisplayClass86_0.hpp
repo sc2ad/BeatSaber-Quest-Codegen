@@ -59,10 +59,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Collections.IEnumerable keys
     System::Collections::IEnumerable*& dyn_keys();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> <GetDownloadSizeWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x1597F90
+    // Offset: 0x157E954
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> $GetDownloadSizeWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x15946B0
+    // Offset: 0x157B074
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

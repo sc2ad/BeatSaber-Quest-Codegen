@@ -21,7 +21,7 @@ namespace Tweening {
   class TimeTweeningManager : public Tweening::TweeningManager {
     public:
     // public System.Void .ctor()
-    // Offset: 0x133E520
+    // Offset: 0x1265704
     // Implemented from: Tweening.TweeningManager
     // Base method: System.Void TweeningManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -35,7 +35,7 @@ namespace Tweening {
       return THROW_UNLESS((::il2cpp_utils::New<TimeTweeningManager*, creationType>()));
     }
     // protected override System.Single GetTime()
-    // Offset: 0x133E518
+    // Offset: 0x12656FC
     // Implemented from: Tweening.TweeningManager
     // Base method: System.Single TweeningManager::GetTime()
     float GetTime();

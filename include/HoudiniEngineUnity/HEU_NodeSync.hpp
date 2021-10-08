@@ -44,19 +44,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _nodeSaveFilePath
     ::Il2CppString*& dyn__nodeSaveFilePath();
     // private System.Void OnEnable()
-    // Offset: 0x152F0E8
+    // Offset: 0x1516AAC
     void OnEnable();
     // public System.Void InitializeFromHoudini(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.String nodeName, System.String filePath)
-    // Offset: 0x152F0F8
+    // Offset: 0x1516ABC
     void InitializeFromHoudini(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::Il2CppString* nodeName, ::Il2CppString* filePath);
     // public System.Boolean SaveNodeToFile(System.String filePath)
-    // Offset: 0x152F264
+    // Offset: 0x1516C28
     bool SaveNodeToFile(::Il2CppString* filePath);
     // static public System.Void CreateNodeSync(HoudiniEngineUnity.HEU_SessionBase session, System.String opName, System.String nodeNabel)
-    // Offset: 0x152F314
+    // Offset: 0x1516CD8
     static void CreateNodeSync(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* opName, ::Il2CppString* nodeNabel);
     // public System.Void .ctor()
-    // Offset: 0x152F74C
+    // Offset: 0x1517110
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -70,22 +70,22 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_NodeSync*, creationType>()));
     }
     // private System.Void OnDestroy()
-    // Offset: 0x152F0EC
+    // Offset: 0x1516AB0
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::OnDestroy()
     void OnDestroy();
     // protected override System.Void SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x152F1BC
+    // Offset: 0x1516B80
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
     void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase* session);
     // public override System.Void Resync()
-    // Offset: 0x152F5FC
+    // Offset: 0x1516FC0
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::Resync()
     void Resync();
     // public override System.Void SyncUpdate()
-    // Offset: 0x152F63C
+    // Offset: 0x1517000
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::SyncUpdate()
     void SyncUpdate();

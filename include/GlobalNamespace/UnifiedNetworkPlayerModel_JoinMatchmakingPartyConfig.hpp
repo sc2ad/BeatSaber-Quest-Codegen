@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     ::Il2CppString*& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x1345DC4
+    // Offset: 0x126D008
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

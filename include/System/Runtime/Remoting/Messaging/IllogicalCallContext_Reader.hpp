@@ -44,13 +44,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
     System::Runtime::Remoting::Messaging::IllogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1C18674
+    // Offset: 0x1BFC038
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0x1C1866C
+    // Offset: 0x1BFC030
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Object GetData(System.String name)
-    // Offset: 0x1C14ECC
+    // Offset: 0x1BF8890
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

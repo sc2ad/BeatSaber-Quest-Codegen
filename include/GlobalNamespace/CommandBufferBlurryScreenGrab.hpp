@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _downsample
     int& dyn__downsample();
     // public System.Void .ctor()
-    // Offset: 0x2585A20
+    // Offset: 0x256B484
     // Implemented from: CommandBufferGOCore
     // Base method: System.Void CommandBufferGOCore::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -106,22 +106,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferBlurryScreenGrab*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2585A3C
+    // Offset: 0x256B4A0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override UnityEngine.Rendering.CommandBuffer CreateCommandBuffer(UnityEngine.Camera camera)
-    // Offset: 0x25858B0
+    // Offset: 0x256B314
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CommandBuffer CommandBufferGOCore::CreateCommandBuffer(UnityEngine.Camera camera)
     UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(UnityEngine::Camera* camera);
     // protected override System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CamerasDict()
-    // Offset: 0x25859B0
+    // Offset: 0x256B414
     // Implemented from: CommandBufferGOCore
     // Base method: System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CommandBufferGOCore::CamerasDict()
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected override UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
-    // Offset: 0x2585A18
+    // Offset: 0x256B47C
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CameraEvent CommandBufferGOCore::CommandBufferCameraEvent()
     UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();

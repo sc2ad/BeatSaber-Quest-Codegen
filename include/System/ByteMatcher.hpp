@@ -54,19 +54,19 @@ namespace System {
     // Get instance field reference: private System.Collections.Hashtable starts
     System::Collections::Hashtable*& dyn_starts();
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x199300C
+    // Offset: 0x19789D0
     void AddMapping(System::TermInfoStrings key, ::ArrayW<uint8_t> val);
     // public System.Void Sort()
-    // Offset: 0x1993124
+    // Offset: 0x1978AE8
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x1993128
+    // Offset: 0x1978AEC
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
-    // Offset: 0x19931B8
+    // Offset: 0x1978B7C
     System::TermInfoStrings Match(::ArrayW<::Il2CppChar> buffer, int offset, int length, ByRef<int> used);
     // public System.Void .ctor()
-    // Offset: 0x19935E0
+    // Offset: 0x1978FA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

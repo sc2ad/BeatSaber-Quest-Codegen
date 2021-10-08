@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class StringExtensions : public ::Il2CppObject {
     public:
     // static public System.String Truncate(System.String s, System.Int32 length, System.Boolean appendEllipsis)
-    // Offset: 0x259AEF4
+    // Offset: 0x257F99C
     static ::Il2CppString* Truncate(::Il2CppString* s, int length, bool appendEllipsis);
   }; // StringExtensions
   #pragma pack(pop)

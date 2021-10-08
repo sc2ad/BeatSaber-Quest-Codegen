@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF07548
+    // [InjectAttribute] Offset: 0xF071B0
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()
-    // Offset: 0x1313DCC
+    // Offset: 0x12B2228
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1314110
+    // Offset: 0x12B256C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

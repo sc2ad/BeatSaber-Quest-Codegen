@@ -51,13 +51,13 @@ namespace System::IO {
     // Get instance field reference: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA*& dyn_findData();
     // System.String get_UserPath()
-    // Offset: 0x1AC1EB8
+    // Offset: 0x1AA687C
     ::Il2CppString* get_UserPath();
     // Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA get_FindData()
-    // Offset: 0x1AC1EC0
+    // Offset: 0x1AA6884
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData)
-    // Offset: 0x1AC1E78
+    // Offset: 0x1AA683C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchResult* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResult::.ctor");

@@ -41,17 +41,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x196E5F8
+    // Offset: 0x1953FBC
     bool get_HasMoreTokens();
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x196E5CC
+    // Offset: 0x1953F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.String NextToken()
-    // Offset: 0x196E608
+    // Offset: 0x1953FCC
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)

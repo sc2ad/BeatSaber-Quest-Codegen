@@ -74,10 +74,10 @@ namespace HMUI {
     // Get instance field reference: public HMUI.NavigationController navigationController
     HMUI::NavigationController*& dyn_navigationController();
     // System.Void <PopViewControllersFromNavigationController>b__0()
-    // Offset: 0x14897C8
+    // Offset: 0x147018C
     void $PopViewControllersFromNavigationController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1488C64
+    // Offset: 0x146F628
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

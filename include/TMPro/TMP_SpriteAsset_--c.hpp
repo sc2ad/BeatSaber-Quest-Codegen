@@ -49,16 +49,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
     static void _set_$$9__33_0(System::Func_2<TMPro::TMP_SpriteCharacter*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x122693C
+    // Offset: 0x121FA40
     static void _cctor();
     // System.UInt32 <SortGlyphTable>b__32_0(TMPro.TMP_SpriteGlyph item)
-    // Offset: 0x12269A8
+    // Offset: 0x121FAAC
     uint $SortGlyphTable$b__32_0(TMPro::TMP_SpriteGlyph* item);
     // System.UInt32 <SortCharacterTable>b__33_0(TMPro.TMP_SpriteCharacter c)
-    // Offset: 0x12269C4
+    // Offset: 0x121FAC8
     uint $SortCharacterTable$b__33_0(TMPro::TMP_SpriteCharacter* c);
     // public System.Void .ctor()
-    // Offset: 0x12269A0
+    // Offset: 0x121FAA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

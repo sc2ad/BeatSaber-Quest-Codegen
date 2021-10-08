@@ -91,43 +91,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action incButtonWasPressedEvent
     System::Action*& dyn_incButtonWasPressedEvent();
     // public UnityEngine.Color get_color()
-    // Offset: 0x119BE30
+    // Offset: 0x1130780
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x119BE54
+    // Offset: 0x11307A4
     void set_color(UnityEngine::Color value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x119BE78
+    // Offset: 0x11307C8
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x119BE98
+    // Offset: 0x11307E8
     void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x119BBA0
+    // Offset: 0x11304F0
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x119BC44
+    // Offset: 0x1130594
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x119BCE8
+    // Offset: 0x1130638
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x119BD8C
+    // Offset: 0x11306DC
     void remove_incButtonWasPressedEvent(System::Action* value);
     // protected System.Void OnEnable()
-    // Offset: 0x119BEB8
+    // Offset: 0x1130808
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x119BF90
+    // Offset: 0x11308E0
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x119C068
+    // Offset: 0x11309B8
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x119C07C
+    // Offset: 0x11309CC
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x119C090
+    // Offset: 0x11309E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

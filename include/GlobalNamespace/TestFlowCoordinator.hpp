@@ -31,35 +31,35 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [NullAllowed] Offset: 0xF0E724
+    // [NullAllowed] Offset: 0xF0E3AC
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0xA8
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xF0E75C
+    // [NullAllowed] Offset: 0xF0E3E4
     // private HMUI.ViewController _leftViewController
     // Size: 0x8
     // Offset: 0xB0
     HMUI::ViewController* leftViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xF0E794
+    // [NullAllowed] Offset: 0xF0E41C
     // private HMUI.ViewController _rightViewController
     // Size: 0x8
     // Offset: 0xB8
     HMUI::ViewController* rightViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xF0E7CC
+    // [NullAllowed] Offset: 0xF0E454
     // private HMUI.ViewController _bottomScreenViewController
     // Size: 0x8
     // Offset: 0xC0
     HMUI::ViewController* bottomScreenViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xF0E804
+    // [NullAllowed] Offset: 0xF0E48C
     // private HMUI.ViewController _topScreenViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ViewController _topScreenViewController
     HMUI::ViewController*& dyn__topScreenViewController();
     // public System.Void .ctor()
-    // Offset: 0x115DBA8
+    // Offset: 0x115A95C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x115DB8C
+    // Offset: 0x115A940
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

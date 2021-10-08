@@ -21,12 +21,12 @@ namespace System::Net::NetworkInformation {
   class Win32IPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
     // public override System.String get_DomainName()
-    // Offset: 0x16493FC
+    // Offset: 0x162DDC0
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x1645920
+    // Offset: 0x162A2E4
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()

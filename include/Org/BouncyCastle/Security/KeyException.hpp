@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Security {
   class KeyException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14CED58
+    // Offset: 0x14B571C
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<KeyException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14CED60
+    // Offset: 0x14B5724
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

@@ -31,13 +31,13 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Int32 PRESET_VERSION
     static void _set_PRESET_VERSION(int value);
     // static private System.Void .cctor()
-    // Offset: 0x143C6D0
+    // Offset: 0x1421094
     static void _cctor();
     // static public System.Void SaveAssetPresetToFile(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String filePath)
-    // Offset: 0x143BB58
+    // Offset: 0x142051C
     static void SaveAssetPresetToFile(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* filePath);
     // static public System.Void LoadPresetFileIntoAssetAndCook(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String filePath)
-    // Offset: 0x143C128
+    // Offset: 0x1420AEC
     static void LoadPresetFileIntoAssetAndCook(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* filePath);
   }; // HoudiniEngineUnity.HEU_AssetPresetUtility
   #pragma pack(pop)

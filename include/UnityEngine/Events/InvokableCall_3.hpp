@@ -39,7 +39,7 @@ namespace UnityEngine::Events {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE76828
+    // [DebuggerBrowsableAttribute] Offset: 0xE79248
     // private UnityEngine.Events.UnityAction`3<T1,T2,T3> Delegate
     // Size: 0x8
     // Offset: 0x0

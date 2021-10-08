@@ -1430,10 +1430,10 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.String HEU_KEY_CTRL
     static void _set_HEU_KEY_CTRL(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x14972AC
+    // Offset: 0x147DC70
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14972A4
+    // Offset: 0x147DC68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

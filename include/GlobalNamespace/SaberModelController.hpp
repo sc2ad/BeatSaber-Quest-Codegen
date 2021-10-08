@@ -68,21 +68,21 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberFakeGlowColor*>) == 0x8);
-    // [NullAllowed] Offset: 0xF0AB1C
+    // [NullAllowed] Offset: 0xF0A794
     // private TubeBloomPrePassLight _saberLight
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::TubeBloomPrePassLight* saberLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF0AB54
+    // [InjectOptionalAttribute] Offset: 0xF0A7CC
     // private readonly SaberModelController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberModelController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberModelController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0AB64
+    // [InjectAttribute] Offset: 0xF0A7DC
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -105,10 +105,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // public System.Void Init(UnityEngine.Transform parent, Saber saber)
-    // Offset: 0x11CA1D0
+    // Offset: 0x119D2E0
     void Init(UnityEngine::Transform* parent, GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x11CA4A8
+    // Offset: 0x119D5B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

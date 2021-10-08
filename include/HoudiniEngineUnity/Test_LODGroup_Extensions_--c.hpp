@@ -52,16 +52,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.LODGroup,HoudiniEngineUnity.Test_LODGroup> <>9__2_0
     static void _set_$$9__2_0(System::Converter_2<UnityEngine::LODGroup*, HoudiniEngineUnity::Test_LODGroup*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x25D06C0
+    // Offset: 0x25B7168
     static void _cctor();
     // HoudiniEngineUnity.Test_LODGroup <ToTestObject>b__1_0(UnityEngine.LODGroup lod)
-    // Offset: 0x25D072C
+    // Offset: 0x25B71D4
     HoudiniEngineUnity::Test_LODGroup* $ToTestObject$b__1_0(UnityEngine::LODGroup* lod);
     // HoudiniEngineUnity.Test_LODGroup <ToTestObject>b__2_0(UnityEngine.LODGroup lod)
-    // Offset: 0x25D0790
+    // Offset: 0x25B7238
     HoudiniEngineUnity::Test_LODGroup* $ToTestObject$b__2_0(UnityEngine::LODGroup* lod);
     // public System.Void .ctor()
-    // Offset: 0x25D0724
+    // Offset: 0x25B71CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

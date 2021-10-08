@@ -26,10 +26,10 @@ namespace GlobalNamespace {
   class LeaderboardsModel : public ::Il2CppObject {
     public:
     // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x114AD94
+    // Offset: 0x11DEFA0
     static ::Il2CppString* GetLeaderboardID(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void .ctor()
-    // Offset: 0x114ADF8
+    // Offset: 0x11DF004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

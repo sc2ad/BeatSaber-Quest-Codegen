@@ -58,35 +58,35 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int32 m_currentItem
     int& dyn_m_currentItem();
     // System.Int32 get_Count()
-    // Offset: 0x190F6F0
+    // Offset: 0x18F60B4
     int get_Count();
     // System.Int64 get_Current()
-    // Offset: 0x190F76C
+    // Offset: 0x18F6130
     int64_t get_Current();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x190F560
+    // Offset: 0x18F5F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::LongList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Int64 value)
-    // Offset: 0x190F5D4
+    // Offset: 0x18F5F98
     void Add(int64_t value);
     // System.Void StartEnumeration()
-    // Offset: 0x190F6F8
+    // Offset: 0x18F60BC
     void StartEnumeration();
     // System.Boolean MoveNext()
-    // Offset: 0x190F704
+    // Offset: 0x18F60C8
     bool MoveNext();
     // System.Boolean RemoveElement(System.Int64 value)
-    // Offset: 0x190F7AC
+    // Offset: 0x18F6170
     bool RemoveElement(int64_t value);
     // private System.Void EnlargeArray()
-    // Offset: 0x190F660
+    // Offset: 0x18F6024
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x190F558
+    // Offset: 0x18F5F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

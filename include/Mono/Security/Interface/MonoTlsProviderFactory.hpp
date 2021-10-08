@@ -22,7 +22,7 @@ namespace Mono::Security::Interface {
   class MonoTlsProviderFactory : public ::Il2CppObject {
     public:
     // static public Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x1FA12E8
+    // Offset: 0x1F88D4C
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Security.Interface.MonoTlsProviderFactory
   #pragma pack(pop)

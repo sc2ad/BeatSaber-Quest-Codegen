@@ -47,15 +47,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
     ::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>& dyn__presets();
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x1260810
+    // Offset: 0x125A1FC
     ::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x1260818
+    // Offset: 0x125A204
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::ArrayW<GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x1260820
+    // Offset: 0x125A20C
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

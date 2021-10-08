@@ -47,27 +47,27 @@ namespace LiteNetLib::Layers {
     // Get instance field reference: private System.Byte[] _byteKey
     ::ArrayW<uint8_t>& dyn__byteKey();
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1DD437C
+    // Offset: 0x1DBADE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void .ctor(System.String key)
-    // Offset: 0x1DD4454
+    // Offset: 0x1DBAEB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor(::Il2CppString* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void SetKey(System.String key)
-    // Offset: 0x1DD4488
+    // Offset: 0x1DBAEEC
     void SetKey(::Il2CppString* key);
     // public System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1DD43B0
+    // Offset: 0x1DBAE14
     void SetKey(::ArrayW<uint8_t> key);
     // public System.Void .ctor()
-    // Offset: 0x1DD4354
+    // Offset: 0x1DBADB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,12 +76,12 @@ namespace LiteNetLib::Layers {
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>()));
     }
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1DD44D0
+    // Offset: 0x1DBAF34
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1DD456C
+    // Offset: 0x1DBAFD0
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length);

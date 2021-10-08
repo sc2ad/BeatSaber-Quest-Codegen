@@ -44,10 +44,10 @@ namespace System::Runtime::Remoting {
   class SingletonIdentity : public System::Runtime::Remoting::ServerIdentity {
     public:
     // public System.MarshalByRefObject GetServerObject()
-    // Offset: 0x17E1D38
+    // Offset: 0x17C76FC
     System::MarshalByRefObject* GetServerObject();
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
-    // Offset: 0x17E1CFC
+    // Offset: 0x17C76C0
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Void ServerIdentity::.ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,12 +56,12 @@ namespace System::Runtime::Remoting {
       return THROW_UNLESS((::il2cpp_utils::New<SingletonIdentity*, creationType>(objectUri, context, objectType)));
     }
     // public override System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x17E1EE8
+    // Offset: 0x17C78AC
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessage ServerIdentity::SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public override System.Runtime.Remoting.Messaging.IMessageCtrl AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x17E1FD4
+    // Offset: 0x17C7998
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl ServerIdentity::AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

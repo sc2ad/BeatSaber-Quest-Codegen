@@ -67,20 +67,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory
     System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*& dyn__providerFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
-    // Offset: 0x189F224
+    // Offset: 0x1885BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScopableBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScopableBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScopableBindingFinalizer*, creationType>(bindInfo, providerFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x189F3EC
+    // Offset: 0x1885DB0
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x189F2F4
+    // Offset: 0x1885CB8
     void FinalizeBindingSelf(Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x189F25C
+    // Offset: 0x1885C20
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

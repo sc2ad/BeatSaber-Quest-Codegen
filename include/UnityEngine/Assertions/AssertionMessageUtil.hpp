@@ -15,13 +15,13 @@ namespace UnityEngine::Assertions {
   class AssertionMessageUtil : public ::Il2CppObject {
     public:
     // static public System.String GetMessage(System.String failureMessage)
-    // Offset: 0x1CACFA0
+    // Offset: 0x1C8F964
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage);
     // static public System.String GetMessage(System.String failureMessage, System.String expected)
-    // Offset: 0x1CAD08C
+    // Offset: 0x1C8FA50
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage, ::Il2CppString* expected);
     // static public System.String GetEqualityMessage(System.Object actual, System.Object expected, System.Boolean expectEqual)
-    // Offset: 0x1CACC7C
+    // Offset: 0x1C8F640
     static ::Il2CppString* GetEqualityMessage(::Il2CppObject* actual, ::Il2CppObject* expected, bool expectEqual);
   }; // UnityEngine.Assertions.AssertionMessageUtil
   #pragma pack(pop)

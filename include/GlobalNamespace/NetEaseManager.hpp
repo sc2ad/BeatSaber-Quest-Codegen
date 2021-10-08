@@ -99,49 +99,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LogoutData> _logoutTaskCompletionSource
     System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>*& dyn__logoutTaskCompletionSource();
     // public System.Boolean get_supportsLeaderboards()
-    // Offset: 0x1135694
+    // Offset: 0x111E630
     bool get_supportsLeaderboards();
     // public System.String get_userName()
-    // Offset: 0x1137AF4
+    // Offset: 0x1120A90
     ::Il2CppString* get_userName();
     // protected System.Void Awake()
-    // Offset: 0x1137AFC
+    // Offset: 0x1120A98
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1137C28
+    // Offset: 0x1120BC4
     void Update();
     // public System.Threading.Tasks.Task`1<NetEase.Docker.InitializeData> InitAsync()
-    // Offset: 0x1137800
+    // Offset: 0x112079C
     System::Threading::Tasks::Task_1<NetEase::Docker::InitializeData>* InitAsync();
     // private System.Void HandleDidInitialize(NetEase.Docker.InitializeData initializeData)
-    // Offset: 0x1137C2C
+    // Offset: 0x1120BC8
     void HandleDidInitialize(NetEase::Docker::InitializeData initializeData);
     // public System.Threading.Tasks.Task`1<NetEase.Docker.LoginData> LoginAsync()
-    // Offset: 0x1137900
+    // Offset: 0x112089C
     System::Threading::Tasks::Task_1<NetEase::Docker::LoginData>* LoginAsync();
     // private System.Void HandleDidLogin(NetEase.Docker.LoginData loginData)
-    // Offset: 0x1137CA0
+    // Offset: 0x1120C3C
     void HandleDidLogin(NetEase::Docker::LoginData loginData);
     // public System.Threading.Tasks.Task`1<NetEase.Docker.LogoutData> LogoutAsync()
-    // Offset: 0x11365D4
+    // Offset: 0x111F570
     System::Threading::Tasks::Task_1<NetEase::Docker::LogoutData>* LogoutAsync();
     // private System.Void HandleDidLogout(NetEase.Docker.LogoutData logoutData)
-    // Offset: 0x1137D28
+    // Offset: 0x1120CC4
     void HandleDidLogout(NetEase::Docker::LogoutData logoutData);
     // public System.Threading.Tasks.Task`1<NetEase.Docker.ReceivedHighscoreData> RequestHighscoreDataAsync(System.String leaderboardId)
-    // Offset: 0x113711C
+    // Offset: 0x11200B8
     System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* RequestHighscoreDataAsync(::Il2CppString* leaderboardId);
     // private System.Void HandleDidReceiveHighscore(NetEase.Docker.ReceivedHighscoreData highscoreData)
-    // Offset: 0x1137D9C
+    // Offset: 0x1120D38
     void HandleDidReceiveHighscore(NetEase::Docker::ReceivedHighscoreData highscoreData);
     // public System.Void UploadHighscore(System.String leaderboardId, System.Int32 score)
-    // Offset: 0x1136084
+    // Offset: 0x111F020
     void UploadHighscore(::Il2CppString* leaderboardId, int score);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1137E28
+    // Offset: 0x1120DC4
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x1137E90
+    // Offset: 0x1120E2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

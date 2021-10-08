@@ -92,28 +92,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _beatmapCharacteristics
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__beatmapCharacteristics();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x12722AC
+    // Offset: 0x1240C00
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1272164
+    // Offset: 0x1240AB8
     void add_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1272208
+    // Offset: 0x1240B5C
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // protected System.Void Awake()
-    // Offset: 0x12722B4
+    // Offset: 0x1240C08
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1272348
+    // Offset: 0x1240C9C
     void OnDestroy();
     // public System.Void SetData(IDifficultyBeatmapSet[] difficultyBeatmapSets, BeatmapCharacteristicSO selectedBeatmapCharacteristic)
-    // Offset: 0x1272424
+    // Offset: 0x1240D78
     void SetData(::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> difficultyBeatmapSets, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x1272784
+    // Offset: 0x12410D8
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void .ctor()
-    // Offset: 0x1272828
+    // Offset: 0x124117C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -86,28 +86,28 @@ namespace HMUI {
     // Get instance field reference: private System.Single _normalizedPageHeight
     float& dyn__normalizedPageHeight();
     // public System.Single get_progress()
-    // Offset: 0x1422C54
+    // Offset: 0x1406618
     float get_progress();
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x141726C
+    // Offset: 0x13FAC30
     void set_progress(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x1422C5C
+    // Offset: 0x1406620
     float get_normalizedPageHeight();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x1416EB8
+    // Offset: 0x13FA87C
     void set_normalizedPageHeight(float value);
     // public System.Void set_disabled(System.Boolean value)
-    // Offset: 0x1422C64
+    // Offset: 0x1406628
     void set_disabled(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x1422CB0
+    // Offset: 0x1406674
     void OnEnable();
     // private System.Void RefreshHandle()
-    // Offset: 0x1422B2C
+    // Offset: 0x14064F0
     void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x1422CB4
+    // Offset: 0x1406678
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

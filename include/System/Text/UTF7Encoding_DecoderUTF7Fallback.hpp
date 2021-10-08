@@ -30,12 +30,12 @@ namespace System::Text {
   class UTF7Encoding::DecoderUTF7Fallback : public System::Text::DecoderFallback {
     public:
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1F1EA34
+    // Offset: 0x1F06498
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public System.Void .ctor()
-    // Offset: 0x1F1C858
+    // Offset: 0x1F042BC
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -45,17 +45,17 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::DecoderUTF7Fallback*, creationType>()));
     }
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1F1E9C0
+    // Offset: 0x1F06424
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1F1EA3C
+    // Offset: 0x1F064A0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F1EAA0
+    // Offset: 0x1F06504
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

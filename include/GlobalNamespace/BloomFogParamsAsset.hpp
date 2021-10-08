@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public BloomFogParamsBehaviour _template
     GlobalNamespace::BloomFogParamsBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x12AA234
+    // Offset: 0x12A40C4
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x12AA2DC
+    // Offset: 0x12A416C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogParamsAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x12AA23C
+    // Offset: 0x12A40CC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);

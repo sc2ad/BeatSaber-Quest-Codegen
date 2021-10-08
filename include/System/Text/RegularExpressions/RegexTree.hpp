@@ -96,7 +96,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _captop
     int& dyn__captop();
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
-    // Offset: 0x1A3AE30
+    // Offset: 0x1A1F7F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::ArrayW<int> capnumlist, int captop, System::Collections::Hashtable* capnames, ::ArrayW<::Il2CppString*> capslist, System::Text::RegularExpressions::RegexOptions opts) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexTree::.ctor");

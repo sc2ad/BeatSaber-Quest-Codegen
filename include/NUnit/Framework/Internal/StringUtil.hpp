@@ -15,10 +15,10 @@ namespace NUnit::Framework::Internal {
   class StringUtil : public ::Il2CppObject {
     public:
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x24A00B0
+    // Offset: 0x2486B14
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
     // static public System.Boolean StringsEqual(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x24A00BC
+    // Offset: 0x2486B20
     static bool StringsEqual(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
   }; // NUnit.Framework.Internal.StringUtil
   #pragma pack(pop)

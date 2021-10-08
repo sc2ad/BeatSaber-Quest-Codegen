@@ -69,25 +69,25 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Double m_AssetDuration
     double& dyn_m_AssetDuration();
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.DirectorControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableDirector director)
-    // Offset: 0x19F78B8
+    // Offset: 0x19DC27C
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::DirectorControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableDirector* director);
     // private System.Void SyncSpeed(System.Double speed)
-    // Offset: 0x19F9A60
+    // Offset: 0x19DE424
     void SyncSpeed(double speed);
     // private System.Void SyncPlayState(UnityEngine.Playables.PlayableGraph graph, System.Double playableTime)
-    // Offset: 0x19F9B90
+    // Offset: 0x19DE554
     void SyncPlayState(UnityEngine::Playables::PlayableGraph graph, double playableTime);
     // private System.Boolean DetectDiscontinuity(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x19F9960
+    // Offset: 0x19DE324
     bool DetectDiscontinuity(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // private System.Boolean DetectOutOfSync(UnityEngine.Playables.Playable playable)
-    // Offset: 0x19F9F58
+    // Offset: 0x19DE91C
     bool DetectOutOfSync(UnityEngine::Playables::Playable playable);
     // private System.Void UpdateTime(UnityEngine.Playables.Playable playable)
-    // Offset: 0x19FA098
+    // Offset: 0x19DEA5C
     void UpdateTime(UnityEngine::Playables::Playable playable);
     // public System.Void .ctor()
-    // Offset: 0x19FA274
+    // Offset: 0x19DEC38
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -97,27 +97,27 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<DirectorControlPlayable*, creationType>()));
     }
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x19F96C8
+    // Offset: 0x19DE08C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x19F97AC
+    // Offset: 0x19DE170
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x19F9C20
+    // Offset: 0x19DE5E4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x19F9D14
+    // Offset: 0x19DE6D8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x19F9E2C
+    // Offset: 0x19DE7F0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);

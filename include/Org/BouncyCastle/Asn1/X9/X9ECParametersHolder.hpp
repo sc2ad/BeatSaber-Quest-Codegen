@@ -44,13 +44,13 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     Org::BouncyCastle::Asn1::X9::X9ECParameters*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x1BC3368
+    // Offset: 0x1BA7D2C
     Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
-    // Offset: 0x1BC3404
+    // Offset: 0x1BA7DC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

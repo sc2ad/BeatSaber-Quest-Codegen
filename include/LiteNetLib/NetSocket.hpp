@@ -132,47 +132,47 @@ namespace LiteNetLib {
     // Get instance field reference: public System.Boolean IsRunning
     bool& dyn_IsRunning();
     // public System.Int32 get_LocalPort()
-    // Offset: 0x1DDEA14
+    // Offset: 0x1DC5478
     int get_LocalPort();
     // private System.Void set_LocalPort(System.Int32 value)
-    // Offset: 0x1DDEA1C
+    // Offset: 0x1DC5480
     void set_LocalPort(int value);
     // public System.Int16 get_Ttl()
-    // Offset: 0x1DDEA24
+    // Offset: 0x1DC5488
     int16_t get_Ttl();
     // public System.Void set_Ttl(System.Int16 value)
-    // Offset: 0x1DD53A4
+    // Offset: 0x1DBBE08
     void set_Ttl(int16_t value);
     // static private System.Void .cctor()
-    // Offset: 0x1DDEA40
+    // Offset: 0x1DC54A4
     static void _cctor();
     // public System.Void .ctor(LiteNetLib.INetSocketListener listener)
-    // Offset: 0x1DD6EE0
+    // Offset: 0x1DBD944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSocket* New_ctor(LiteNetLib::INetSocketListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetSocket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSocket*, creationType>(listener)));
     }
     // private System.Boolean IsActive()
-    // Offset: 0x1DDEAFC
+    // Offset: 0x1DC5560
     bool IsActive();
     // private System.Void ReceiveLogic(System.Object state)
-    // Offset: 0x1DDEB20
+    // Offset: 0x1DC5584
     void ReceiveLogic(::Il2CppObject* state);
     // public System.Boolean Bind(System.Net.IPAddress addressIPv4, System.Net.IPAddress addressIPv6, System.Int32 port, System.Boolean reuseAddress, System.Boolean ipv6, System.Threading.ThreadPriority priority)
-    // Offset: 0x1DDAA20
+    // Offset: 0x1DC1484
     bool Bind(System::Net::IPAddress* addressIPv4, System::Net::IPAddress* addressIPv6, int port, bool reuseAddress, bool ipv6, System::Threading::ThreadPriority priority);
     // private System.Boolean BindSocket(System.Net.Sockets.Socket socket, System.Net.IPEndPoint ep, System.Boolean reuseAddress)
-    // Offset: 0x1DDF088
+    // Offset: 0x1DC5AEC
     bool BindSocket(System::Net::Sockets::Socket* socket, System::Net::IPEndPoint* ep, bool reuseAddress);
     // public System.Boolean SendBroadcast(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Int32 port)
-    // Offset: 0x1DDB3D8
+    // Offset: 0x1DC1E3C
     bool SendBroadcast(::ArrayW<uint8_t> data, int offset, int size, int port);
     // public System.Int32 SendTo(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Net.IPEndPoint remoteEndPoint, ref System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x1DD53C0
+    // Offset: 0x1DBBE24
     int SendTo(::ArrayW<uint8_t> data, int offset, int size, System::Net::IPEndPoint* remoteEndPoint, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.Void Close(System.Boolean suspend)
-    // Offset: 0x1DDC218
+    // Offset: 0x1DC2C7C
     void Close(bool suspend);
   }; // LiteNetLib.NetSocket
   #pragma pack(pop)

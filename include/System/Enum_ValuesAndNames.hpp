@@ -44,7 +44,7 @@ namespace System {
     // Get instance field reference: public System.String[] Names
     ::ArrayW<::Il2CppString*>& dyn_Names();
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
-    // Offset: 0x19A0740
+    // Offset: 0x1986104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enum::ValuesAndNames* New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::Il2CppString*> names) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Enum::ValuesAndNames::.ctor");

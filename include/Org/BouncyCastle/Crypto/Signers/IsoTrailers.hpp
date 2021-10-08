@@ -31,16 +31,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set static field: static private readonly System.Collections.IDictionary trailerMap
     static void _set_trailerMap(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x139F5A4
+    // Offset: 0x1383F68
     static void _cctor();
     // static private System.Collections.IDictionary CreateTrailerMap()
-    // Offset: 0x139EF60
+    // Offset: 0x1383924
     static System::Collections::IDictionary* CreateTrailerMap();
     // static public System.Int32 GetTrailer(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x139E44C
+    // Offset: 0x1382E10
     static int GetTrailer(Org::BouncyCastle::Crypto::IDigest* digest);
     // static public System.Boolean NoTrailerAvailable(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x139E2F0
+    // Offset: 0x1382CB4
     static bool NoTrailerAvailable(Org::BouncyCastle::Crypto::IDigest* digest);
   }; // Org.BouncyCastle.Crypto.Signers.IsoTrailers
   #pragma pack(pop)

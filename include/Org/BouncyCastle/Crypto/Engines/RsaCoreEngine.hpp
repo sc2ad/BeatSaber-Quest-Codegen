@@ -75,28 +75,28 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 bitSize
     int& dyn_bitSize();
     // private System.Void CheckInitialised()
-    // Offset: 0x203F968
+    // Offset: 0x202A3CC
     void CheckInitialised();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x203F9EC
+    // Offset: 0x202A450
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x203FB10
+    // Offset: 0x202A574
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x203FB58
+    // Offset: 0x202A5BC
     int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x203FBA0
+    // Offset: 0x202A604
     Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
-    // Offset: 0x203FCB4
+    // Offset: 0x202A718
     ::ArrayW<uint8_t> ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
-    // Offset: 0x203FD88
+    // Offset: 0x202A7EC
     Org::BouncyCastle::Math::BigInteger* ProcessBlock(Org::BouncyCastle::Math::BigInteger* input);
     // public System.Void .ctor()
-    // Offset: 0x203F180
+    // Offset: 0x2029BE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

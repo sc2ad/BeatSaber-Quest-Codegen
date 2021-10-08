@@ -50,19 +50,19 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x261D4D4
+    // Offset: 0x2604F7C
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0x261D57C
+    // Offset: 0x2605024
     void set_rotation(UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x261CAAC
+    // Offset: 0x2604554
     // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem);
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x261D52C
+    // Offset: 0x2604FD4
     static void set_position_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x261D5D4
+    // Offset: 0x260507C
     static void set_rotation_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
   }; // UnityEngine.ParticleSystem/UnityEngine.ShapeModule
   #pragma pack(pop)

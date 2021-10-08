@@ -309,7 +309,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean smallCubes
     bool& dyn_smallCubes();
     // public System.Void .ctor()
-    // Offset: 0x12B6A68
+    // Offset: 0x12C87C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

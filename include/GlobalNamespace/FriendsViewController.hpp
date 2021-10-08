@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* enableOpenPartyToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FDD8
+    // [InjectAttribute] Offset: 0xF0FA60
     // private readonly PlatformNetworkPlayerModel _networkPlayerModel
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::PlatformNetworkPlayerModel* networkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FDE8
+    // [InjectAttribute] Offset: 0xF0FA70
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
@@ -90,28 +90,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _allowAnyoneToJoin
     bool& dyn__allowAnyoneToJoin();
     // private System.Void HandleOpenPartyToggleChanged(System.Boolean openParty)
-    // Offset: 0x11D2FC0
+    // Offset: 0x11A59FC
     void HandleOpenPartyToggleChanged(bool openParty);
     // private System.Void RefreshParty(System.Boolean overrideHide)
-    // Offset: 0x11D2DB8
+    // Offset: 0x11A57F4
     void RefreshParty(bool overrideHide);
     // public override System.String get_myPartyTitle()
-    // Offset: 0x11D2C14
+    // Offset: 0x11A5650
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_myPartyTitle()
     ::Il2CppString* get_myPartyTitle();
     // public override System.String get_otherPlayersTitle()
-    // Offset: 0x11D2C5C
+    // Offset: 0x11A5698
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_otherPlayersTitle()
     ::Il2CppString* get_otherPlayersTitle();
     // public override INetworkPlayerModel get_networkPlayerModel()
-    // Offset: 0x11D2CA4
+    // Offset: 0x11A56E0
     // Implemented from: NetworkPlayersViewController
     // Base method: INetworkPlayerModel NetworkPlayersViewController::get_networkPlayerModel()
     GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // public System.Void .ctor()
-    // Offset: 0x11D2FD0
+    // Offset: 0x11A5A0C
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -126,17 +126,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FriendsViewController*, creationType>()));
     }
     // protected override System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x11D2CAC
+    // Offset: 0x11A56E8
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11D2F38
+    // Offset: 0x11A5974
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x11D2F8C
+    // Offset: 0x11A59C8
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::OnDestroy()
     void OnDestroy();

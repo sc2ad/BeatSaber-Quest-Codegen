@@ -28,13 +28,13 @@ namespace NUnit::Framework::Constraints {
     // Nested type: NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter
     class ComparerAdapter;
     // static public NUnit.Framework.Constraints.ComparisonAdapter get_Default()
-    // Offset: 0x192A758
+    // Offset: 0x191111C
     static NUnit::Framework::Constraints::ComparisonAdapter* get_Default();
     // public System.Int32 Compare(System.Object expected, System.Object actual)
     // Offset: 0xFFFFFFFF
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
     // protected System.Void .ctor()
-    // Offset: 0x192A7F8
+    // Offset: 0x19111BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

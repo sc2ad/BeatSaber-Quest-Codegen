@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_Transform_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_Transform ToTestObject(HoudiniEngineUnity.HAPI_Transform self)
-    // Offset: 0x25D0108
+    // Offset: 0x25B6BB0
     static HoudiniEngineUnity::Test_HAPI_Transform* ToTestObject(HoudiniEngineUnity::HAPI_Transform self);
   }; // HoudiniEngineUnity.Test_HAPI_Transform_Extensions
   #pragma pack(pop)

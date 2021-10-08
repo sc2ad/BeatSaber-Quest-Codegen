@@ -34,7 +34,7 @@ namespace NUnit::Framework::Internal {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF5AC
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF214
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x90
@@ -49,25 +49,25 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.Assembly <Assembly>k__BackingField
     System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x24A1388
+    // Offset: 0x2487DEC
     System::Reflection::Assembly* get_Assembly();
     // private System.Void set_Assembly(System.Reflection.Assembly value)
-    // Offset: 0x24A1390
+    // Offset: 0x2487DF4
     void set_Assembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
-    // Offset: 0x24A11B8
+    // Offset: 0x2487C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(assembly, path)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x24A1398
+    // Offset: 0x2487DFC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
     // public System.Void .ctor(System.String path)
-    // Offset: 0x24A1300
+    // Offset: 0x2487D64
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)

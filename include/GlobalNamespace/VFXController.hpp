@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [NullAllowed] Offset: 0xEC9960
+    // [NullAllowed] Offset: 0xECB380
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
-    // [NullAllowed] Offset: 0xEC9998
+    // [NullAllowed] Offset: 0xECB3B8
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x20
@@ -75,22 +75,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _deactivateAfterAnimationDuration
     bool& dyn__deactivateAfterAnimationDuration();
     // public UnityEngine.Animation get_animation()
-    // Offset: 0x259D384
+    // Offset: 0x2581E2C
     UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x259D38C
+    // Offset: 0x2581E34
     ::ArrayW<UnityEngine::ParticleSystem*> get_particleSystems();
     // protected System.Void Awake()
-    // Offset: 0x259D394
+    // Offset: 0x2581E3C
     void Awake();
     // public System.Void Play()
-    // Offset: 0x259D3BC
+    // Offset: 0x2581E64
     void Play();
     // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
-    // Offset: 0x259D4EC
+    // Offset: 0x2581F94
     System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
     // public System.Void .ctor()
-    // Offset: 0x259D5AC
+    // Offset: 0x2582054
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

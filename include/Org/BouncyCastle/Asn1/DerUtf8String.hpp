@@ -48,31 +48,31 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.String str
     ::Il2CppString*& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x18E24F8
+    // Offset: 0x18C8EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtf8String* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtf8String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtf8String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
-    // Offset: 0x18F3284
+    // Offset: 0x18D9C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtf8String* New_ctor(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtf8String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtf8String*, creationType>(str)));
     }
     // public override System.String GetString()
-    // Offset: 0x18F3320
+    // Offset: 0x18D9CE4
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x18F3328
+    // Offset: 0x18D9CEC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x18F33DC
+    // Offset: 0x18D9DA0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

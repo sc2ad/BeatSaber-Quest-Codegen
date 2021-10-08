@@ -65,20 +65,20 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters cachedPublicKey
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_cachedPublicKey();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x1395534
+    // Offset: 0x1379EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t> buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519PrivateKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1395B0C
+    // Offset: 0x137A4D0
     static void _cctor();
     // public Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters GeneratePublicKey()
-    // Offset: 0x13955F4
+    // Offset: 0x1379FB8
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* GeneratePublicKey();
     // public System.Void Sign(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm algorithm, System.Byte[] ctx, System.Byte[] msg, System.Int32 msgOff, System.Int32 msgLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x13957E4
+    // Offset: 0x137A1A8
     void Sign(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm algorithm, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> msg, int msgOff, int msgLen, ::ArrayW<uint8_t> sig, int sigOff);
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters
   #pragma pack(pop)

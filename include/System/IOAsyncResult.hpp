@@ -86,41 +86,41 @@ namespace System {
     // Get instance field reference: private System.Boolean completed
     bool& dyn_completed();
     // public System.AsyncCallback get_AsyncCallback()
-    // Offset: 0x156A5A0
+    // Offset: 0x1550F64
     System::AsyncCallback* get_AsyncCallback();
     // public System.Object get_AsyncState()
-    // Offset: 0x156A5A8
+    // Offset: 0x1550F6C
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x156A5B0
+    // Offset: 0x1550F74
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x156A698
+    // Offset: 0x155105C
     bool get_CompletedSynchronously();
     // protected System.Void set_CompletedSynchronously(System.Boolean value)
-    // Offset: 0x156A6A0
+    // Offset: 0x1551064
     void set_CompletedSynchronously(bool value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x156A6AC
+    // Offset: 0x1551070
     bool get_IsCompleted();
     // protected System.Void set_IsCompleted(System.Boolean value)
-    // Offset: 0x156A6B4
+    // Offset: 0x1551078
     void set_IsCompleted(bool value);
     // protected System.Void .ctor(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x156A568
+    // Offset: 0x1550F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncResult* New_ctor(System::AsyncCallback* async_callback, ::Il2CppObject* async_state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>(async_callback, async_state)));
     }
     // protected System.Void Init(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x156A548
+    // Offset: 0x1550F0C
     void Init(System::AsyncCallback* async_callback, ::Il2CppObject* async_state);
     // System.Void CompleteDisposed()
     // Offset: 0xFFFFFFFF
     void CompleteDisposed();
     // protected System.Void .ctor()
-    // Offset: 0x156A540
+    // Offset: 0x1550F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

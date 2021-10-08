@@ -48,22 +48,22 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetMaxUsers(System.UInt32 value)
-    // Offset: 0x25BC614
+    // Offset: 0x25A10BC
     void SetMaxUsers(uint value);
     // public System.Void AddServiceProvider(Oculus.Platform.ServiceProvider value)
-    // Offset: 0x25B8528
+    // Offset: 0x259CFD0
     void AddServiceProvider(Oculus::Platform::ServiceProvider value);
     // public System.Void ClearServiceProviders()
-    // Offset: 0x25BC690
+    // Offset: 0x25A1138
     void ClearServiceProviders();
     // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x25BC6FC
+    // Offset: 0x25A11A4
     void SetTimeWindow(Oculus::Platform::TimeWindow value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.UserOptions options)
-    // Offset: 0x25B85A4
+    // Offset: 0x259D04C
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x25B84B0
+    // Offset: 0x259CF58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +72,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<UserOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x25BC778
+    // Offset: 0x25A1220
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -35,10 +35,10 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.HandshakeMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x12DC990
+    // Offset: 0x12EDD04
     static GlobalNamespace::PacketPool_1<MasterServer::HandshakeMessageReceivedAcknowledge*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x12DCA34
+    // Offset: 0x12EDDA8
     // Implemented from: BaseMasterServerAcknowledgeMessage
     // Base method: System.Void BaseMasterServerAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseMasterServerResponse::.ctor()
@@ -49,7 +49,7 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<HandshakeMessageReceivedAcknowledge*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x12DC9D8
+    // Offset: 0x12EDD4C
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::Release()
     void Release();

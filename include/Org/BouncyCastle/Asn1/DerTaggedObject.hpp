@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Asn1 {
   class DerTaggedObject : public Org::BouncyCastle::Asn1::Asn1TaggedObject {
     public:
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x18E8124
+    // Offset: 0x18CEAE8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1TaggedObject
     // Base method: System.Void Asn1TaggedObject::.ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerTaggedObject*, creationType>(tagNo, obj)));
     }
     // public System.Void .ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x18DE870
+    // Offset: 0x18C5234
     // Implemented from: Org.BouncyCastle.Asn1.Asn1TaggedObject
     // Base method: System.Void Asn1TaggedObject::.ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerTaggedObject*, creationType>(explicitly, tagNo, obj)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x18E878C
+    // Offset: 0x18CF150
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

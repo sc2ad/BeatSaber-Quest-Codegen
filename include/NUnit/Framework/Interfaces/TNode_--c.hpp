@@ -39,13 +39,13 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public System.Text.RegularExpressions.MatchEvaluator <>9__38_0
     static void _set_$$9__38_0(System::Text::RegularExpressions::MatchEvaluator* value);
     // static private System.Void .cctor()
-    // Offset: 0x1936B5C
+    // Offset: 0x191D520
     static void _cctor();
     // System.String <EscapeInvalidXmlCharacters>b__38_0(System.Text.RegularExpressions.Match match)
-    // Offset: 0x1936BC8
+    // Offset: 0x191D58C
     ::Il2CppString* $EscapeInvalidXmlCharacters$b__38_0(System::Text::RegularExpressions::Match* match);
     // public System.Void .ctor()
-    // Offset: 0x1936BC0
+    // Offset: 0x191D584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -141,10 +141,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailPrototype _detailPrototype
     HoudiniEngineUnity::HEU_DetailPrototype*& dyn__detailPrototype();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeLayer other)
-    // Offset: 0x16FF6DC
+    // Offset: 0x16E40A0
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeLayer* other);
     // public System.Void .ctor()
-    // Offset: 0x16FC8B0
+    // Offset: 0x16E1274
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

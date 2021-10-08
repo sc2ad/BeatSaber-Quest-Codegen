@@ -49,63 +49,63 @@ namespace System::Security::Cryptography {
     // Get instance field reference: System.Byte[] _raw
     ::ArrayW<uint8_t>& dyn__raw();
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x1789B38
+    // Offset: 0x176E4FC
     System::Security::Cryptography::Oid* get_Oid();
     // public System.Void set_Oid(System.Security.Cryptography.Oid value)
-    // Offset: 0x1789ABC
+    // Offset: 0x176E480
     void set_Oid(System::Security::Cryptography::Oid* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x1789B40
+    // Offset: 0x176E504
     ::ArrayW<uint8_t> get_RawData();
     // public System.Void set_RawData(System.Byte[] value)
-    // Offset: 0x17899AC
+    // Offset: 0x176E370
     void set_RawData(::ArrayW<uint8_t> value);
     // public System.Void .ctor(System.String oid, System.Byte[] rawData)
-    // Offset: 0x1789924
+    // Offset: 0x176E2E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(::Il2CppString* oid, ::ArrayW<uint8_t> rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid, System.Byte[] rawData)
-    // Offset: 0x1789A74
+    // Offset: 0x176E438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t> rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1789B48
+    // Offset: 0x176E50C
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // public System.String Format(System.Boolean multiLine)
-    // Offset: 0x1789C3C
+    // Offset: 0x176E600
     ::Il2CppString* Format(bool multiLine);
     // System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1789DFC
+    // Offset: 0x176E7C0
     ::Il2CppString* ToString(bool multiLine);
     // System.String Default(System.Boolean multiLine)
-    // Offset: 0x1789CE4
+    // Offset: 0x176E6A8
     ::Il2CppString* Default(bool multiLine);
     // System.String BasicConstraintsExtension(System.Boolean multiLine)
-    // Offset: 0x1789F98
+    // Offset: 0x176E95C
     ::Il2CppString* BasicConstraintsExtension(bool multiLine);
     // System.String EnhancedKeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x178A0B0
+    // Offset: 0x176EA74
     ::Il2CppString* EnhancedKeyUsageExtension(bool multiLine);
     // System.String KeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x178A1C8
+    // Offset: 0x176EB8C
     ::Il2CppString* KeyUsageExtension(bool multiLine);
     // System.String SubjectKeyIdentifierExtension(System.Boolean multiLine)
-    // Offset: 0x178A2E0
+    // Offset: 0x176ECA4
     ::Il2CppString* SubjectKeyIdentifierExtension(bool multiLine);
     // System.String SubjectAltName(System.Boolean multiLine)
-    // Offset: 0x178A3F8
+    // Offset: 0x176EDBC
     ::Il2CppString* SubjectAltName(bool multiLine);
     // System.String NetscapeCertType(System.Boolean multiLine)
-    // Offset: 0x178A774
+    // Offset: 0x176F138
     ::Il2CppString* NetscapeCertType(bool multiLine);
     // protected System.Void .ctor()
-    // Offset: 0x178991C
+    // Offset: 0x176E2E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

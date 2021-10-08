@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0139C
+    // [SpaceAttribute] Offset: 0xF01014
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x20
@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private AchievementSO _finishTutorialAchievement
     GlobalNamespace::AchievementSO*& dyn__finishTutorialAchievement();
     // protected System.Void Start()
-    // Offset: 0x11B6E78
+    // Offset: 0x1171B10
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B6F04
+    // Offset: 0x1171B9C
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0x11B6F90
+    // Offset: 0x1171C28
     void HandleTutorialFinished();
     // public System.Void .ctor()
-    // Offset: 0x11B6FB4
+    // Offset: 0x1171C4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

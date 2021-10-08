@@ -76,34 +76,34 @@ namespace TMPro {
     // Get instance field reference: private System.Int32[] m_ClosingTagArray
     ::ArrayW<int>& dyn_m_ClosingTagArray();
     // public System.String get_name()
-    // Offset: 0x1226BA8
+    // Offset: 0x121FCAC
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1226BB0
+    // Offset: 0x121FCB4
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x1226BEC
+    // Offset: 0x121FCF0
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0x1226BF4
+    // Offset: 0x121FCF8
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0x1226C08
+    // Offset: 0x121FD0C
     ::Il2CppString* get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0x1226C10
+    // Offset: 0x121FD14
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0x1226C18
+    // Offset: 0x121FD1C
     ::ArrayW<int> get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0x1226C20
+    // Offset: 0x121FD24
     ::ArrayW<int> get_styleClosingTagArray();
     // public System.Void RefreshStyle()
-    // Offset: 0x1226C28
+    // Offset: 0x121FD2C
     void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0x1226D98
+    // Offset: 0x121FE9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

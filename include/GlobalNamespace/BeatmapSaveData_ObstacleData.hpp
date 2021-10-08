@@ -75,29 +75,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _width
     int& dyn__width();
     // public System.Single get_time()
-    // Offset: 0x12A7D84
+    // Offset: 0x12A1C14
     float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x12A7D8C
+    // Offset: 0x12A1C1C
     int get_lineIndex();
     // public ObstacleType get_type()
-    // Offset: 0x12A7D94
+    // Offset: 0x12A1C24
     GlobalNamespace::ObstacleType get_type();
     // public System.Single get_duration()
-    // Offset: 0x12A7D9C
+    // Offset: 0x12A1C2C
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0x12A7DA4
+    // Offset: 0x12A1C34
     int get_width();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType type, System.Single duration, System.Int32 width)
-    // Offset: 0x12A7DAC
+    // Offset: 0x12A1C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType type, float duration, int width) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::ObstacleData*, creationType>(time, lineIndex, type, duration, width)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x12A7E04
+    // Offset: 0x12A1C94
     void MoveTime(float offset);
   }; // BeatmapSaveData/ObstacleData
   #pragma pack(pop)

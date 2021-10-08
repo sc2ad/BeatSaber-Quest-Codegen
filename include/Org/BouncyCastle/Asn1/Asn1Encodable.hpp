@@ -33,19 +33,19 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // public System.Byte[] GetEncoded()
-    // Offset: 0x18DDFD0
+    // Offset: 0x18C4994
     ::ArrayW<uint8_t> GetEncoded();
     // public System.Byte[] GetEncoded(System.String encoding)
-    // Offset: 0x18DE090
+    // Offset: 0x18C4A54
     ::ArrayW<uint8_t> GetEncoded(::Il2CppString* encoding);
     // public System.Byte[] GetDerEncoded()
-    // Offset: 0x18DE188
+    // Offset: 0x18C4B4C
     ::ArrayW<uint8_t> GetDerEncoded();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // protected System.Void .ctor()
-    // Offset: 0x18DE3B8
+    // Offset: 0x18C4D7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,12 +54,12 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Encodable*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18DE250
+    // Offset: 0x18C4C14
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18DE288
+    // Offset: 0x18C4C4C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

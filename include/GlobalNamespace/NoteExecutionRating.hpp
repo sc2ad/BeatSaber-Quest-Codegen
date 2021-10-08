@@ -127,37 +127,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <cutDirDeviation>k__BackingField
     float& dyn_$cutDirDeviation$k__BackingField();
     // public NoteExecutionRating/Rating get_rating()
-    // Offset: 0x1356118
+    // Offset: 0x133B7D0
     GlobalNamespace::NoteExecutionRating::Rating get_rating();
     // public System.Void set_rating(NoteExecutionRating/Rating value)
-    // Offset: 0x1356120
+    // Offset: 0x133B7D8
     void set_rating(GlobalNamespace::NoteExecutionRating::Rating value);
     // public System.Int32 get_cutScore()
-    // Offset: 0x1356128
+    // Offset: 0x133B7E0
     int get_cutScore();
     // public System.Void set_cutScore(System.Int32 value)
-    // Offset: 0x1356130
+    // Offset: 0x133B7E8
     void set_cutScore(int value);
     // public System.Int32 get_cutDistanceScore()
-    // Offset: 0x1356138
+    // Offset: 0x133B7F0
     int get_cutDistanceScore();
     // public System.Void set_cutDistanceScore(System.Int32 value)
-    // Offset: 0x1356140
+    // Offset: 0x133B7F8
     void set_cutDistanceScore(int value);
     // public System.Single get_cutTimeDeviation()
-    // Offset: 0x1356148
+    // Offset: 0x133B800
     float get_cutTimeDeviation();
     // public System.Void set_cutTimeDeviation(System.Single value)
-    // Offset: 0x1356150
+    // Offset: 0x133B808
     void set_cutTimeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0x1356158
+    // Offset: 0x133B810
     float get_cutDirDeviation();
     // public System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0x1356160
+    // Offset: 0x133B818
     void set_cutDirDeviation(float value);
     // public System.Void .ctor(System.Single time, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 cutDistanceScore, System.Single cutTimeDeviation, System.Single cutDirDeviation)
-    // Offset: 0x1356168
+    // Offset: 0x133B820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int cutDistanceScore, float cutTimeDeviation, float cutDirDeviation) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteExecutionRating::.ctor");

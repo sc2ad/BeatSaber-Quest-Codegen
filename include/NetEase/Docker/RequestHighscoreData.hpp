@@ -24,14 +24,14 @@ namespace NetEase::Docker {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDF78
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDBE0
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDFB4
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDC1C
     // private System.String <HighscoreType>k__BackingField
     // Size: 0x8
     // Offset: 0x8
@@ -50,13 +50,13 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.String <HighscoreType>k__BackingField
     ::Il2CppString*& dyn_$HighscoreType$k__BackingField();
     // public System.String get_Track()
-    // Offset: 0x2620034
+    // Offset: 0x2607ADC
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x262003C
+    // Offset: 0x2607AE4
     void set_Track(::Il2CppString* value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0x2620044
+    // Offset: 0x2607AEC
     void set_HighscoreType(::Il2CppString* value);
   }; // NetEase.Docker.RequestHighscoreData
   #pragma pack(pop)

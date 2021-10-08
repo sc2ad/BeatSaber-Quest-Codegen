@@ -85,40 +85,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <SkeletonChangedCount>k__BackingField
     int& dyn_$SkeletonChangedCount$k__BackingField();
     // public OVRPlugin/Posef get_RootPose()
-    // Offset: 0x20DD718
+    // Offset: 0x20C617C
     GlobalNamespace::OVRPlugin::Posef get_RootPose();
     // public System.Void set_RootPose(OVRPlugin/Posef value)
-    // Offset: 0x20DD72C
+    // Offset: 0x20C6190
     void set_RootPose(GlobalNamespace::OVRPlugin::Posef value);
     // public System.Single get_RootScale()
-    // Offset: 0x20DD748
+    // Offset: 0x20C61AC
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0x20DD750
+    // Offset: 0x20C61B4
     void set_RootScale(float value);
     // public OVRPlugin/Quatf[] get_BoneRotations()
-    // Offset: 0x20DD758
+    // Offset: 0x20C61BC
     ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> get_BoneRotations();
     // public System.Void set_BoneRotations(OVRPlugin/Quatf[] value)
-    // Offset: 0x20DD760
+    // Offset: 0x20C61C4
     void set_BoneRotations(::ArrayW<GlobalNamespace::OVRPlugin::Quatf> value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x20DD768
+    // Offset: 0x20C61CC
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x20DD770
+    // Offset: 0x20C61D4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x20DD77C
+    // Offset: 0x20C61E0
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x20DD784
+    // Offset: 0x20C61E8
     void set_IsDataHighConfidence(bool value);
     // public System.Int32 get_SkeletonChangedCount()
-    // Offset: 0x20DD790
+    // Offset: 0x20C61F4
     int get_SkeletonChangedCount();
     // public System.Void set_SkeletonChangedCount(System.Int32 value)
-    // Offset: 0x20DD798
+    // Offset: 0x20C61FC
     void set_SkeletonChangedCount(int value);
   }; // OVRSkeleton/SkeletonPoseData
   #pragma pack(pop)

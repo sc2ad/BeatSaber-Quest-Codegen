@@ -39,19 +39,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform[]> s_ChildStack
     static void _set_s_ChildStack(System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::ArrayW<UnityEngine::Transform*>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x24F1420
+    // Offset: 0x24D7E84
     static void _cctor();
     // static System.Void UnparentChildren(UnityEngine.Transform t)
-    // Offset: 0x24F0BF0
+    // Offset: 0x24D7654
     static void UnparentChildren(UnityEngine::Transform* t);
     // static System.Void ReparentChildren(UnityEngine.Transform t)
-    // Offset: 0x24F0D40
+    // Offset: 0x24D77A4
     static void ReparentChildren(UnityEngine::Transform* t);
     // static public UnityEngine.ProBuilder.Vertex TransformVertex(UnityEngine.Transform transform, UnityEngine.ProBuilder.Vertex vertex)
-    // Offset: 0x24F0E78
+    // Offset: 0x24D78DC
     static UnityEngine::ProBuilder::Vertex* TransformVertex(UnityEngine::Transform* transform, UnityEngine::ProBuilder::Vertex* vertex);
     // static public UnityEngine.ProBuilder.Vertex InverseTransformVertex(UnityEngine.Transform transform, UnityEngine.ProBuilder.Vertex vertex)
-    // Offset: 0x24F122C
+    // Offset: 0x24D7C90
     static UnityEngine::ProBuilder::Vertex* InverseTransformVertex(UnityEngine::Transform* transform, UnityEngine::ProBuilder::Vertex* vertex);
   }; // UnityEngine.ProBuilder.TransformUtility
   #pragma pack(pop)

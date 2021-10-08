@@ -100,10 +100,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.LeaderboardEntriesResult> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1197994
+    // Offset: 0x112C2E0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1197FD4
+    // Offset: 0x112C920
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CentralLeaderboardViewController/<LoadScoresAsync>d__37
   // WARNING Not writing size check since size may be invalid!

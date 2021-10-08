@@ -117,10 +117,10 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__3
     System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x12E5458
+    // Offset: 0x12F67CC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x12E6460
+    // Offset: 0x12F77D4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass12_0/MasterServer.<<SendConnectToServerRequest>b__0>d
   // WARNING Not writing size check since size may be invalid!

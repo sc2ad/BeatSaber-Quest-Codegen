@@ -27,10 +27,10 @@ namespace Oculus::Platform {
   class MessageWithInstalledApplicationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::InstalledApplicationList*> {
     public:
     // protected Oculus.Platform.Models.InstalledApplicationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x16B8034
+    // Offset: 0x169C9F8
     Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x16B7F90
+    // Offset: 0x169C954
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithInstalledApplicationList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.InstalledApplicationList GetInstalledApplicationList()
-    // Offset: 0x16B7FF0
+    // Offset: 0x169C9B4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.InstalledApplicationList Message::GetInstalledApplicationList()
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();

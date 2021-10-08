@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [SpaceAttribute] Offset: 0xEDEE30
+    // [SpaceAttribute] Offset: 0xEDF850
     // private System.Int32 _lightId
     // Size: 0x4
     // Offset: 0x24
@@ -99,18 +99,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     bool& dyn__initializedPropertyIds();
     // public System.Int32 get_lightId()
-    // Offset: 0x1E2ABC4
+    // Offset: 0x1E12628
     int get_lightId();
     // private System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1E2AEB8
+    // Offset: 0x1E1291C
     void SetDataToShaders(UnityEngine::Color lightmapColor, UnityEngine::Color probeColor);
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
-    // Offset: 0x1E2ABCC
+    // Offset: 0x1E12630
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> LightWithIds::get_lightIntensityData()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // public System.Void .ctor()
-    // Offset: 0x1E2AF18
+    // Offset: 0x1E1297C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -124,7 +124,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
     // protected override System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1E2ABD4
+    // Offset: 0x1E12638
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame()
     void HandleLightManagerDidChangeSomeColorsThisFrame();

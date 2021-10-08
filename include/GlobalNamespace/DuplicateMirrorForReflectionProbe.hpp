@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class DuplicateMirrorForReflectionProbe : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11AADDC
+    // Offset: 0x1165A70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

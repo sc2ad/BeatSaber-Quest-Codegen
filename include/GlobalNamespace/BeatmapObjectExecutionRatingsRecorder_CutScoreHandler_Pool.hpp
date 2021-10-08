@@ -22,10 +22,10 @@ namespace GlobalNamespace {
   class BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool : public Zenject::MemoryPool_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*> {
     public:
     // protected System.Void OnDespawned(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler item)
-    // Offset: 0x12A19FC
+    // Offset: 0x129B88C
     void OnDespawned(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* item);
     // public System.Void .ctor()
-    // Offset: 0x12A1A14
+    // Offset: 0x129B8A4
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()

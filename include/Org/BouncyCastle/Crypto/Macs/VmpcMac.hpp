@@ -131,28 +131,28 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private System.Byte x4
     uint8_t& dyn_x4();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A89D48
+    // Offset: 0x1A6E70C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1A8A1C8
+    // Offset: 0x1A6EB8C
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1A8A1D0
+    // Offset: 0x1A6EB94
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void initKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1A8A35C
+    // Offset: 0x1A6ED20
     void initKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // public System.Void Reset()
-    // Offset: 0x1A8A588
+    // Offset: 0x1A6EF4C
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1A8A634
+    // Offset: 0x1A6EFF8
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1A8A8A0
+    // Offset: 0x1A6F264
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Void .ctor()
-    // Offset: 0x1A8A9C8
+    // Offset: 0x1A6F38C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

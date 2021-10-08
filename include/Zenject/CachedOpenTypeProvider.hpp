@@ -75,29 +75,29 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.CachedProvider> _providerMap
     System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>*& dyn__providerMap();
     // public System.Boolean get_IsCached()
-    // Offset: 0x14F74C8
+    // Offset: 0x14DDE8C
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x14F74D0
+    // Offset: 0x14DDE94
     bool get_TypeVariesBasedOnMemberType();
     // public System.Int32 get_NumInstances()
-    // Offset: 0x14F7514
+    // Offset: 0x14DDED8
     int get_NumInstances();
     // public System.Void .ctor(Zenject.IProvider creator)
-    // Offset: 0x14F73A0
+    // Offset: 0x14DDD64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedOpenTypeProvider* New_ctor(Zenject::IProvider* creator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::CachedOpenTypeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedOpenTypeProvider*, creationType>(creator)));
     }
     // public System.Void ClearCache()
-    // Offset: 0x14F7630
+    // Offset: 0x14DDFF4
     void ClearCache();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x14F7688
+    // Offset: 0x14DE04C
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x14F774C
+    // Offset: 0x14DE110
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.CachedOpenTypeProvider
   #pragma pack(pop)

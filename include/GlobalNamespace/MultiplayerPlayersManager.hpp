@@ -119,35 +119,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerFacade* connectedPlayerDuelControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerFacade*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09CD4
+    // [InjectAttribute] Offset: 0xF0994C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09CE4
+    // [InjectAttribute] Offset: 0xF0995C
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09CF4
+    // [InjectAttribute] Offset: 0xF0996C
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09D04
+    // [InjectAttribute] Offset: 0xF0997C
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF09D14
+    // [InjectAttribute] Offset: 0xF0998C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x60
@@ -304,79 +304,79 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> _allActiveAtGameStartPlayers
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*& dyn__allActiveAtGameStartPlayers();
     // public System.Boolean get_playerSpawningFinished()
-    // Offset: 0x1128ACC
+    // Offset: 0x1112D54
     bool get_playerSpawningFinished();
     // private System.Void set_playerSpawningFinished(System.Boolean value)
-    // Offset: 0x1128AD4
+    // Offset: 0x1112D5C
     void set_playerSpawningFinished(bool value);
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_allActiveAtGameStartPlayers()
-    // Offset: 0x1128AE0
+    // Offset: 0x1112D68
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_allActiveAtGameStartPlayers();
     // public IStartSeekSongControllerProvider get_localPlayerStartSeekSongController()
-    // Offset: 0x1128AE8
+    // Offset: 0x1112D70
     GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
     // public MultiplayerLocalActivePlayerFacade get_activeLocalPlayerFacade()
-    // Offset: 0x1128AF0
+    // Offset: 0x1112D78
     GlobalNamespace::MultiplayerLocalActivePlayerFacade* get_activeLocalPlayerFacade();
     // public MultiplayerLocalInactivePlayerFacade get_inactivePlayerFacade()
-    // Offset: 0x1128AF8
+    // Offset: 0x1112D80
     GlobalNamespace::MultiplayerLocalInactivePlayerFacade* get_inactivePlayerFacade();
     // public UnityEngine.Transform get_localPlayerTransform()
-    // Offset: 0x1128B00
+    // Offset: 0x1112D88
     UnityEngine::Transform* get_localPlayerTransform();
     // public System.Void add_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x1128B90
+    // Offset: 0x110F5D4
     void add_playerSpawningDidFinishEvent(System::Action* value);
     // public System.Void remove_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x1128C34
+    // Offset: 0x110FE64
     void remove_playerSpawningDidFinishEvent(System::Action* value);
     // public System.Void add_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x1128CD8
+    // Offset: 0x1112E18
     void add_didSwitchPlayerToInactiveEvent(System::Action* value);
     // public System.Void remove_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x1128D7C
+    // Offset: 0x1112EBC
     void remove_didSwitchPlayerToInactiveEvent(System::Action* value);
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x1128E20
+    // Offset: 0x1112F60
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x1128EC4
+    // Offset: 0x1113004
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x1128F68
+    // Offset: 0x11130A8
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x112900C
+    // Offset: 0x111314C
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void SpawnPlayers(MultiplayerPlayerStartState localPlayerStartState, System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActiveAtGameStartPlayers)
-    // Offset: 0x11290B0
+    // Offset: 0x11131F0
     void SpawnPlayers(GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
     // public System.Boolean TryGetConnectedPlayerController(System.String userId, out MultiplayerConnectedPlayerFacade connectedPlayerController)
-    // Offset: 0x1129C64
+    // Offset: 0x11117D8
     bool TryGetConnectedPlayerController(::Il2CppString* userId, ByRef<GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
     // public System.Boolean TryGetConnectedCenterFacingRotation(System.String userId, out System.Single centerFacingRotation)
-    // Offset: 0x1129CD4
+    // Offset: 0x1113DA4
     bool TryGetConnectedCenterFacingRotation(::Il2CppString* userId, ByRef<float> centerFacingRotation);
     // public System.Void SwitchLocalPlayerToInactive()
-    // Offset: 0x1129D44
+    // Offset: 0x1113E14
     void SwitchLocalPlayerToInactive();
     // public System.Void ReportLocalPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x1129DE0
+    // Offset: 0x1113EB0
     void ReportLocalPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // private System.Collections.IEnumerator SwitchLocalPlayerToInactiveCoroutine()
-    // Offset: 0x1129D70
+    // Offset: 0x1113E40
     System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
     // private System.Void BindPlayerFactories(MultiplayerPlayerLayout layout)
-    // Offset: 0x1129A68
+    // Offset: 0x1113BA8
     void BindPlayerFactories(GlobalNamespace::MultiplayerPlayerLayout layout);
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x1129E80
+    // Offset: 0x1113F50
     void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void HandlePlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x1129EF4
+    // Offset: 0x1113FC4
     void HandlePlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void .ctor()
-    // Offset: 0x1129EF8
+    // Offset: 0x1113FC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

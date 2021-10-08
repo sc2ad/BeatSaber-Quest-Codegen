@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xEDE088
+    // [InjectAttribute] Offset: 0xEDEAA8
     // private readonly BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
@@ -54,22 +54,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BloomFogSO _bloomFog
     GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void AnimateBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x1E20C54
+    // Offset: 0x1E086B8
     void AnimateBloomFogParamsChange(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
     // private System.Collections.IEnumerator AnimationCoroutine(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x1E20D7C
+    // Offset: 0x1E087E0
     System::Collections::IEnumerator* AnimationCoroutine(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
     // public System.Void SetBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single transition)
-    // Offset: 0x1E20E34
+    // Offset: 0x1E08898
     void SetBloomFogParamsChange(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float transition);
     // public BloomFogEnvironmentParams GetDefaultBloomFogParams()
-    // Offset: 0x1E20E80
+    // Offset: 0x1E088E4
     GlobalNamespace::BloomFogEnvironmentParams* GetDefaultBloomFogParams();
     // public System.Void SetDefaultBloomFogParams(BloomFogEnvironmentParams newDefaultBloomFogParams)
-    // Offset: 0x1E20E9C
+    // Offset: 0x1E08900
     void SetDefaultBloomFogParams(GlobalNamespace::BloomFogEnvironmentParams* newDefaultBloomFogParams);
     // public System.Void .ctor()
-    // Offset: 0x1E20F60
+    // Offset: 0x1E089C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

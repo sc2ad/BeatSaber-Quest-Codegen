@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0A1C8
+    // [InjectAttribute] Offset: 0xF09E40
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x18
@@ -111,34 +111,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
     // public System.Boolean get_scoresAvailable()
-    // Offset: 0x112A50C
+    // Offset: 0x11145DC
     bool get_scoresAvailable();
     // public MultiplayerScoreProvider/RankedPlayer get_firstPlayer()
-    // Offset: 0x112EBA0
+    // Offset: 0x1117CDC
     GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* get_firstPlayer();
     // private System.Void set_firstPlayer(MultiplayerScoreProvider/RankedPlayer value)
-    // Offset: 0x112EBA8
+    // Offset: 0x1117CE4
     void set_firstPlayer(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerScoreProvider/RankedPlayer> get_rankedPlayers()
-    // Offset: 0x112EBB0
+    // Offset: 0x1117CEC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* get_rankedPlayers();
     // public System.Void add_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0x112A530
+    // Offset: 0x1114600
     void add_firstPlayerDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // public System.Void remove_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0x112A6BC
+    // Offset: 0x111478C
     void remove_firstPlayerDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // protected System.Void Update()
-    // Offset: 0x112EBB8
+    // Offset: 0x1117CF4
     void Update();
     // public System.Boolean TryGetScore(System.String userId, out MultiplayerScoreProvider/RankedPlayer data)
-    // Offset: 0x112F3E0
+    // Offset: 0x111851C
     bool TryGetScore(::Il2CppString* userId, ByRef<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*> data);
     // public System.Int32 GetPositionOfPlayer(System.String userId)
-    // Offset: 0x112AA74
+    // Offset: 0x1114B44
     int GetPositionOfPlayer(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x112F458
+    // Offset: 0x1118594
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

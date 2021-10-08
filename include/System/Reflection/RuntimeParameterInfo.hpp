@@ -21,7 +21,7 @@ namespace System::Reflection {
   class RuntimeParameterInfo : public System::Reflection::ParameterInfo {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x15A424C
+    // Offset: 0x1589C10
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Void ParameterInfo::.ctor()
     // Base method: System.Void Object::.ctor()

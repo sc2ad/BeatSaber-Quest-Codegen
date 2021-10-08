@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0F950
+    // [SpaceAttribute] Offset: 0xF0F5D8
     // private HMUI.RangeValuesTextSlider _posXSlider
     // Size: 0x8
     // Offset: 0x80
@@ -122,13 +122,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.RangeValuesTextSlider _rotZSlider
     HMUI::RangeValuesTextSlider*& dyn__rotZSlider();
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x119E7BC
+    // Offset: 0x1133110
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x119E898
+    // Offset: 0x11331EC
     void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // public System.Void .ctor()
-    // Offset: 0x119E968
+    // Offset: 0x11332BC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -142,12 +142,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ControllersTransformSettingsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x119E020
+    // Offset: 0x1132974
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x119E490
+    // Offset: 0x1132DE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

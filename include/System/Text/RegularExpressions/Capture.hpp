@@ -49,32 +49,32 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _length
     int& dyn__length();
     // public System.Int32 get_Index()
-    // Offset: 0x19E12C8
+    // Offset: 0x19C5C8C
     int get_Index();
     // public System.Int32 get_Length()
-    // Offset: 0x19E12D0
+    // Offset: 0x19C5C94
     int get_Length();
     // public System.String get_Value()
-    // Offset: 0x19E12D8
+    // Offset: 0x19C5C9C
     ::Il2CppString* get_Value();
     // System.Void .ctor(System.String text, System.Int32 i, System.Int32 l)
-    // Offset: 0x19E1288
+    // Offset: 0x19C5C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Capture* New_ctor(::Il2CppString* text, int i, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Capture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>(text, i, l)));
     }
     // System.String GetOriginalString()
-    // Offset: 0x19E1300
+    // Offset: 0x19C5CC4
     ::Il2CppString* GetOriginalString();
     // System.String GetLeftSubstring()
-    // Offset: 0x19E1308
+    // Offset: 0x19C5CCC
     ::Il2CppString* GetLeftSubstring();
     // System.String GetRightSubstring()
-    // Offset: 0x19E1330
+    // Offset: 0x19C5CF4
     ::Il2CppString* GetRightSubstring();
     // System.Void .ctor()
-    // Offset: 0x19E1360
+    // Offset: 0x19C5D24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,7 +83,7 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x19E12FC
+    // Offset: 0x19C5CC0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

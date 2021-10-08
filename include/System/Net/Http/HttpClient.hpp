@@ -125,34 +125,34 @@ namespace System::Net::Http {
     // Get instance field reference: private System.TimeSpan timeout
     System::TimeSpan& dyn_timeout();
     // public System.Int64 get_MaxResponseContentBufferSize()
-    // Offset: 0x1759764
+    // Offset: 0x173D128
     int64_t get_MaxResponseContentBufferSize();
     // public System.Void set_Timeout(System.TimeSpan value)
-    // Offset: 0x175976C
+    // Offset: 0x173D130
     void set_Timeout(System::TimeSpan value);
     // static private System.Void .cctor()
-    // Offset: 0x175A1AC
+    // Offset: 0x173DB70
     static void _cctor();
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> GetAsync(System.String requestUri, System.Net.Http.HttpCompletionOption completionOption)
-    // Offset: 0x175995C
+    // Offset: 0x173D320
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* GetAsync(::Il2CppString* requestUri, System::Net::Http::HttpCompletionOption completionOption);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption)
-    // Offset: 0x1759AE4
+    // Offset: 0x173D4A8
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1759B6C
+    // Offset: 0x173D530
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsyncWorker(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1759F68
+    // Offset: 0x173D92C
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsyncWorker(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String> GetStringAsync(System.String requestUri)
-    // Offset: 0x175A09C
+    // Offset: 0x173DA60
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetStringAsync(::Il2CppString* requestUri);
     // private System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> <>n__0(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x175A22C
+    // Offset: 0x173DBF0
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* $$n__0(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x17594D8
+    // Offset: 0x173CE9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -161,7 +161,7 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClient*, creationType>()));
     }
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x1759604
+    // Offset: 0x173CFC8
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Void HttpMessageInvoker::.ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -170,12 +170,12 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClient*, creationType>(handler, disposeHandler)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17598B0
+    // Offset: 0x173D274
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Void HttpMessageInvoker::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1759DF0
+    // Offset: 0x173D7B4
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);

@@ -80,7 +80,7 @@ namespace Assets::OVR::Scripts {
     // Get instance field reference: public System.Boolean complete
     bool& dyn_complete();
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
-    // Offset: 0x175F04C
+    // Offset: 0x1742A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::ArrayW<::Il2CppString*> buttons) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::FixRecord::.ctor");

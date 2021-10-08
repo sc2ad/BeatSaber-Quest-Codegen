@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorStepValuePicker _stepValuePicker
     GlobalNamespace::ColorStepValuePicker*& dyn__stepValuePicker();
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x1147240
+    // Offset: 0x11DB44C
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x1147260
+    // Offset: 0x11DB46C
     void set_enableInc(bool value);
     // protected System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1147280
+    // Offset: 0x11DB48C
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x114729C
+    // Offset: 0x11DB4A8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1147360
+    // Offset: 0x11DB56C
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFF
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0x1147468
+    // Offset: 0x11DB674
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

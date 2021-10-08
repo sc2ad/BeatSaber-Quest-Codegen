@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
     UnityEngine::RectTransform*& dyn__rectTransform();
     // public System.Int32 get_minimumMissionsToUnlock()
-    // Offset: 0x118E1B4
+    // Offset: 0x1212A78
     int get_minimumMissionsToUnlock();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x118AF7C
+    // Offset: 0x120F840
     UnityEngine::Vector2 get_position();
     // public System.Void .ctor()
-    // Offset: 0x118E1BC
+    // Offset: 0x1212A80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

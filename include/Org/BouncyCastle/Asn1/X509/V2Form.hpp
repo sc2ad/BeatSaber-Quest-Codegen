@@ -71,20 +71,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.ObjectDigestInfo objectDigestInfo
     Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*& dyn_objectDigestInfo();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1BBC8B0
+    // Offset: 0x1BA1274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static V2Form* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::V2Form::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<V2Form*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.V2Form GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1BB4DA4
+    // Offset: 0x1B99768
     static Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.V2Form GetInstance(System.Object obj)
-    // Offset: 0x1BB4C30
+    // Offset: 0x1B995F4
     static Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BBCAD0
+    // Offset: 0x1BA1494
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

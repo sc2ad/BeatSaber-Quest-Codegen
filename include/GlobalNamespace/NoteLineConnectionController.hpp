@@ -59,21 +59,21 @@ namespace GlobalNamespace {
     UnityEngine::LineRenderer* lineRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::LineRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF04D48
+    // [InjectAttribute] Offset: 0xF049B0
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xF04D58
+    // [InjectAttribute] Offset: 0xF049C0
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF04D68
+    // [InjectAttribute] Offset: 0xF049D0
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -164,22 +164,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didFinish
     bool& dyn__didFinish();
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x1358C40
+    // Offset: 0x133E2F8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x1358CE4
+    // Offset: 0x133E39C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0x1358D88
+    // Offset: 0x133E440
     void Setup(GlobalNamespace::NoteController* noteController0, GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0x135901C
+    // Offset: 0x133E6D4
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0x1358E30
+    // Offset: 0x133E4E8
     void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0x13590B4
+    // Offset: 0x133E76C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

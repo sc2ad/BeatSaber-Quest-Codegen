@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteLineConnectionController _noteLineConnectionControllerPrefab
     GlobalNamespace::NoteLineConnectionController*& dyn__noteLineConnectionControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x11651E0
+    // Offset: 0x1161E98
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialBeatmapObjectPoolsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11650A0
+    // Offset: 0x1161D58
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -44,19 +44,19 @@ namespace UnityEngine::TestRunner::TestLaunchers {
       return *reinterpret_cast<UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
     }
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x166B138
+    // Offset: 0x164FAFC
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x166B5C8
+    // Offset: 0x164FF8C
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x166B294
+    // Offset: 0x164FC58
     ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x166B434
+    // Offset: 0x164FDF8
     static ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x166B6E0
+    // Offset: 0x16500A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

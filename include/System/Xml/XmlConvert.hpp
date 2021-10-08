@@ -46,52 +46,52 @@ namespace System::Xml {
     // Set static field: static readonly System.Char[] WhitespaceChars
     static void _set_WhitespaceChars(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x1B01110
+    // Offset: 0x1AE5AD4
     static void _cctor();
     // static System.String VerifyQName(System.String name, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B00250
+    // Offset: 0x1AE4C14
     static ::Il2CppString* VerifyQName(::Il2CppString* name, System::Xml::ExceptionType exceptionType);
     // static System.String TrimString(System.String value)
-    // Offset: 0x1B004C8
+    // Offset: 0x1AE4E8C
     static ::Il2CppString* TrimString(::Il2CppString* value);
     // static System.String TrimStringStart(System.String value)
-    // Offset: 0x1B00544
+    // Offset: 0x1AE4F08
     static ::Il2CppString* TrimStringStart(::Il2CppString* value);
     // static System.String TrimStringEnd(System.String value)
-    // Offset: 0x1B005C0
+    // Offset: 0x1AE4F84
     static ::Il2CppString* TrimStringEnd(::Il2CppString* value);
     // static System.Exception CreateException(System.String res, System.String arg, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B0063C
+    // Offset: 0x1AE5000
     static System::Exception* CreateException(::Il2CppString* res, ::Il2CppString* arg, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B0085C
+    // Offset: 0x1AE5220
     static System::Exception* CreateException(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B00400
+    // Offset: 0x1AE4DC4
     static System::Exception* CreateException(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi)
-    // Offset: 0x1AF6100
+    // Offset: 0x1ADAAC4
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B0095C
+    // Offset: 0x1AE5320
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B009E0
+    // Offset: 0x1AE53A4
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi)
-    // Offset: 0x1B00B88
+    // Offset: 0x1AE554C
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B00BF0
+    // Offset: 0x1AE55B4
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B00C6C
+    // Offset: 0x1AE5630
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar)
-    // Offset: 0x1B00D5C
+    // Offset: 0x1AE5720
     static System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B00DD4
+    // Offset: 0x1AE5798
     static System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar, System::Xml::ExceptionType exceptionType);
   }; // System.Xml.XmlConvert
   #pragma pack(pop)

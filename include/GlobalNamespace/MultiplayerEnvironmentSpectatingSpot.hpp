@@ -63,21 +63,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: displaySpotNumber and: spotNumber
     char __padding1[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xF0A444
+    // [DrawIfAttribute] Offset: 0xF0A0BC
     // private System.Int32 _spotNumber
     // Size: 0x4
     // Offset: 0x1C
     int spotNumber;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xF0A4EC
+    // [InjectAttribute] Offset: 0xF0A164
     // private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerSpectatingSpotManager* spectatingSpotManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0A4FC
+    // [InjectAttribute] Offset: 0xF0A174
     // private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
     // Size: 0x8
     // Offset: 0x28
@@ -110,34 +110,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
     System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn_hasBeenRemovedEvent();
     // public IMultiplayerObservable get_observable()
-    // Offset: 0x1219780
+    // Offset: 0x118BF40
     GlobalNamespace::IMultiplayerObservable* get_observable();
     // public System.String get_spotName()
-    // Offset: 0x1219788
+    // Offset: 0x118BF48
     ::Il2CppString* get_spotName();
     // public System.Boolean get_isMain()
-    // Offset: 0x1219834
+    // Offset: 0x118BFF4
     bool get_isMain();
     // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0x12198CC
+    // Offset: 0x118C08C
     UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x1219638
+    // Offset: 0x118BDF8
     void add_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x12196DC
+    // Offset: 0x118BE9C
     void remove_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // protected System.Void Start()
-    // Offset: 0x121983C
+    // Offset: 0x118BFFC
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x121985C
+    // Offset: 0x118C01C
     void OnDisable();
     // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0x12198C0
+    // Offset: 0x118C080
     void SetIsObserved(bool isObserved);
     // public System.Void .ctor()
-    // Offset: 0x12198C4
+    // Offset: 0x118C084
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

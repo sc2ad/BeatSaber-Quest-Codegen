@@ -71,31 +71,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hidden
     bool& dyn__hidden();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity)
-    // Offset: 0x12ABB88
+    // Offset: 0x12A5A58
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity);
     // private System.Void HandleDidPassHalfJump()
-    // Offset: 0x12ABE54
+    // Offset: 0x12A5D24
     void HandleDidPassHalfJump();
     // private System.Void HandleWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x12ABE78
+    // Offset: 0x12A5D48
     void HandleWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public override System.Boolean get_hide()
-    // Offset: 0x12ABB70
+    // Offset: 0x12A5A40
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x12ABB2C
+    // Offset: 0x12A59FC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x12ABB78
+    // Offset: 0x12A5A48
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // public System.Void .ctor()
-    // Offset: 0x12AC058
+    // Offset: 0x12A5F28
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -110,22 +110,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BombNoteController*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x12ABC58
+    // Offset: 0x12A5B28
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x12ABD34
+    // Offset: 0x12A5C04
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x12ABE14
+    // Offset: 0x12A5CE4
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0x12AC034
+    // Offset: 0x12A5F04
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartDissolving()
     void NoteDidStartDissolving();

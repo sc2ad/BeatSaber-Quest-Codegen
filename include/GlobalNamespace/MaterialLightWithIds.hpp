@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     bool setAlphaOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xEDF2F4
+    // [DrawIfAttribute] Offset: 0xEDFD14
     // private System.Boolean _alphaIntoColor
     // Size: 0x1
     // Offset: 0x49
     bool alphaIntoColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xEDF398
+    // [DrawIfAttribute] Offset: 0xEDFDB8
     // private System.Boolean _setColorOnly
     // Size: 0x1
     // Offset: 0x4A
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF44C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDFE6C
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -113,10 +113,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _propertyId
     int& dyn__propertyId();
     // protected System.Void Awake()
-    // Offset: 0x1E2BFA4
+    // Offset: 0x1E13A08
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1E2C1D4
+    // Offset: 0x1E13C38
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -131,12 +131,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithIds*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E2C23C
+    // Offset: 0x1E13CA0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E2C030
+    // Offset: 0x1E13A94
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

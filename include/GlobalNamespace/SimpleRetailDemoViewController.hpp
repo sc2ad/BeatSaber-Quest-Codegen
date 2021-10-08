@@ -146,28 +146,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> didFinishEvent
     System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
-    // Offset: 0x11061BC
+    // Offset: 0x114322C
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
-    // Offset: 0x1106380
+    // Offset: 0x11433F0
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // private System.Void HandleMenuButton(SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0x1106BE0
+    // Offset: 0x1143C50
     void HandleMenuButton(GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x1106C60
+    // Offset: 0x1143CD0
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x1106C68
+    // Offset: 0x1143CD8
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x1106C70
+    // Offset: 0x1143CE0
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0x1106C78
+    // Offset: 0x1143CE8
     void $DidActivate$b__8_3();
     // public System.Void .ctor()
-    // Offset: 0x1106C58
+    // Offset: 0x1143CC8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -181,7 +181,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleRetailDemoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1106A5C
+    // Offset: 0x1143ACC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

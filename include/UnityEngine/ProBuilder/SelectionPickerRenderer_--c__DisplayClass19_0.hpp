@@ -54,10 +54,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
     ::ArrayW<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x169C800
+    // Offset: 0x16811C4
     int $PickVerticesInRect$b__0(int x);
     // public System.Void .ctor()
-    // Offset: 0x169A748
+    // Offset: 0x167F10C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

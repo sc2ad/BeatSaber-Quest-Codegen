@@ -60,19 +60,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _assetPath
     ::Il2CppString*& dyn__assetPath();
     // private System.Void OnEnable()
-    // Offset: 0x143C884
+    // Offset: 0x1421248
     void OnEnable();
     // public System.Void InitializeAsset(HoudiniEngineUnity.HEU_SessionBase session, System.String assetPath, System.String nodeName, UnityEngine.Transform parent, UnityEngine.Vector3 startPosition)
-    // Offset: 0x143C894
+    // Offset: 0x1421258
     void InitializeAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetPath, ::Il2CppString* nodeName, UnityEngine::Transform* parent, UnityEngine::Vector3 startPosition);
     // private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo CreateThreadedTask()
-    // Offset: 0x143C9A4
+    // Offset: 0x1421368
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* CreateThreadedTask();
     // public System.Void SetLoadCallback(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback callback)
-    // Offset: 0x143CA18
+    // Offset: 0x14213DC
     void SetLoadCallback(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* callback);
     // public System.Void .ctor()
-    // Offset: 0x143CF48
+    // Offset: 0x142190C
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -86,22 +86,22 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetSync*, creationType>()));
     }
     // private System.Void OnDestroy()
-    // Offset: 0x143C888
+    // Offset: 0x142124C
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::OnDestroy()
     void OnDestroy();
     // protected override System.Void SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x143CA54
+    // Offset: 0x1421418
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
     void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase* session);
     // public override System.Void OnLoadComplete(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
-    // Offset: 0x143CAB4
+    // Offset: 0x1421478
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::OnLoadComplete(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
     void OnLoadComplete(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData);
     // public override System.Void Resync()
-    // Offset: 0x143CF08
+    // Offset: 0x14218CC
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::Resync()
     void Resync();

@@ -109,46 +109,46 @@ namespace System::IO {
     // Get instance field reference: private System.Int32 _bytesRead
     int& dyn__bytesRead();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1AC4304
+    // Offset: 0x1AA8CC8
     bool get_IsCompleted();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1AC430C
+    // Offset: 0x1AA8CD0
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
-    // Offset: 0x1AC43FC
+    // Offset: 0x1AA8DC0
     ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1AC4404
+    // Offset: 0x1AA8DC8
     bool get_CompletedSynchronously();
     // System.Void .ctor(System.Int32 bytesRead, System.Object asyncStateObject)
-    // Offset: 0x1AC3318
+    // Offset: 0x1AA7CDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(int bytesRead, ::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(bytesRead, asyncStateObject)));
     }
     // System.Void .ctor(System.Object asyncStateObject)
-    // Offset: 0x1AC344C
+    // Offset: 0x1AA7E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(asyncStateObject)));
     }
     // System.Void .ctor(System.Exception ex, System.Object asyncStateObject, System.Boolean isWrite)
-    // Offset: 0x1AC3354
+    // Offset: 0x1AA7D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(System::Exception* ex, ::Il2CppObject* asyncStateObject, bool isWrite) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(ex, asyncStateObject, isWrite)));
     }
     // System.Void ThrowIfError()
-    // Offset: 0x1AC440C
+    // Offset: 0x1AA8DD0
     void ThrowIfError();
     // static System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x1AC33A8
+    // Offset: 0x1AA7D6C
     static int EndRead(System::IAsyncResult* asyncResult);
     // static System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1AC3480
+    // Offset: 0x1AA7E44
     static void EndWrite(System::IAsyncResult* asyncResult);
   }; // System.IO.Stream/System.IO.SynchronousAsyncResult
   #pragma pack(pop)

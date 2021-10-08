@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0D56C
+    // [InjectAttribute] Offset: 0xF0D1F4
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
@@ -145,25 +145,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private SelectableStateController/ViewState <currentViewState>k__BackingField
     GlobalNamespace::SelectableStateController::ViewState& dyn_$currentViewState$k__BackingField();
     // public Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x1101028
+    // Offset: 0x113E098
     Tweening::TimeTweeningManager* get_tweeningManager();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x1101030
+    // Offset: 0x113E0A0
     GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x1101038
+    // Offset: 0x113E0A8
     void set_currentViewState(GlobalNamespace::SelectableStateController::ViewState value);
     // public System.Void add_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x1100EE0
+    // Offset: 0x113DF50
     void add_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x1100F84
+    // Offset: 0x113DFF4
     void remove_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // protected System.Void SetState(SelectableStateController/ViewState state)
-    // Offset: 0x1101040
+    // Offset: 0x113E0B0
     void SetState(GlobalNamespace::SelectableStateController::ViewState state);
     // protected System.Void .ctor()
-    // Offset: 0x11010B8
+    // Offset: 0x113E128
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::CountdownElementController*> countdownElementControllers;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::CountdownElementController*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF0EEE8
+    // [InjectAttribute] Offset: 0xF0EB70
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -123,22 +123,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
     System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllerQueue();
     // protected System.Void Awake()
-    // Offset: 0x119EA90
+    // Offset: 0x11333E4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x119EAA8
+    // Offset: 0x11333FC
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x11961C4
+    // Offset: 0x112AB10
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x11963B4
+    // Offset: 0x112AD00
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x11962C4
+    // Offset: 0x112AC10
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x119ECC8
+    // Offset: 0x113361C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

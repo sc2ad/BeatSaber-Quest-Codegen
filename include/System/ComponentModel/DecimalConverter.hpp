@@ -21,7 +21,7 @@ namespace System::ComponentModel {
   class DecimalConverter : public System::ComponentModel::BaseNumberConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A21FC8
+    // Offset: 0x1A0698C
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

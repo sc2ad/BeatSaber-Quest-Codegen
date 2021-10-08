@@ -63,13 +63,13 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable clientPublicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_clientPublicKey();
     // static public PacketPool`1<MasterServer.ClientKeyExchangeRequest> get_pool()
-    // Offset: 0x12D823C
+    // Offset: 0x12E95B0
     static GlobalNamespace::PacketPool_1<MasterServer::ClientKeyExchangeRequest*>* get_pool();
     // public MasterServer.ClientKeyExchangeRequest Init(System.Byte[] clientPublicKey)
-    // Offset: 0x12D8284
+    // Offset: 0x12E95F8
     MasterServer::ClientKeyExchangeRequest* Init(::ArrayW<uint8_t> clientPublicKey);
     // public System.Void .ctor()
-    // Offset: 0x12DA1EC
+    // Offset: 0x12EB560
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -79,17 +79,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ClientKeyExchangeRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12DA108
+    // Offset: 0x12EB47C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12DA144
+    // Offset: 0x12EB4B8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12DA180
+    // Offset: 0x12EB4F4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

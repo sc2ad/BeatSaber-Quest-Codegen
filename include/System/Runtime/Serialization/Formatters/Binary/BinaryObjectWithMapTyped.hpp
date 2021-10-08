@@ -113,23 +113,23 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x17EA260
+    // Offset: 0x17CFC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryObjectWithMapTyped* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryObjectWithMapTyped*, creationType>(binaryHeaderEnum)));
     }
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, System.Object[] typeInformationA, System.Int32[] memberAssemIds, System.Int32 assemId)
-    // Offset: 0x17EA28C
+    // Offset: 0x17CFC50
     void Set(int objectId, ::Il2CppString* name, int numMembers, ::ArrayW<::Il2CppString*> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::Il2CppObject*> typeInformationA, ::ArrayW<int> memberAssemIds, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x17EA2B8
+    // Offset: 0x17CFC7C
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x17EA45C
+    // Offset: 0x17CFE20
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // System.Void .ctor()
-    // Offset: 0x17EA258
+    // Offset: 0x17CFC1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -28,10 +28,10 @@ namespace GlobalNamespace {
   class HealthWarningScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void Init(HealthWarningSceneSetupData healthWarningSceneSetupData)
-    // Offset: 0x11451A4
+    // Offset: 0x11D93B0
     void Init(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x1145514
+    // Offset: 0x11D9720
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Rigidbody2D _rigidbody2D
     UnityEngine::Rigidbody2D*& dyn__rigidbody2D();
     // protected System.Void Awake()
-    // Offset: 0x259A74C
+    // Offset: 0x257F1F4
     void Awake();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x259A750
+    // Offset: 0x257F1F8
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x259A76C
+    // Offset: 0x257F214
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

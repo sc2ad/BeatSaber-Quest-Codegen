@@ -68,13 +68,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _netDiscoverable
     bool& dyn__netDiscoverable();
     // public CreateServerFormData get_formData()
-    // Offset: 0x119EF6C
+    // Offset: 0x11338C0
     GlobalNamespace::CreateServerFormData get_formData();
     // public System.Void Setup(System.Int32 selectedNumberOfPlayers, System.Boolean netDiscoverable)
-    // Offset: 0x119F07C
+    // Offset: 0x11339D0
     void Setup(int selectedNumberOfPlayers, bool netDiscoverable);
     // public System.Void .ctor()
-    // Offset: 0x119F0C0
+    // Offset: 0x1133A14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

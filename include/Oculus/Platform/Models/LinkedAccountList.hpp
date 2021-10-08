@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
   class LinkedAccountList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LinkedAccount*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x16B9494
+    // Offset: 0x169DE58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedAccountList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LinkedAccountList::.ctor");

@@ -38,14 +38,14 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xEC426C
+    // [InjectAttribute] Offset: 0xEC6C8C
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC427C
+    // [InjectAttribute] Offset: 0xEC6C9C
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
@@ -58,16 +58,16 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SceneContextRegistry _contextRegistry
     Zenject::SceneContextRegistry*& dyn__contextRegistry();
     // public System.Void OnApplicationQuit()
-    // Offset: 0x189AD88
+    // Offset: 0x188174C
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x189ADAC
+    // Offset: 0x1881770
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x189AE54
+    // Offset: 0x1881818
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x189B190
+    // Offset: 0x1881B54
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

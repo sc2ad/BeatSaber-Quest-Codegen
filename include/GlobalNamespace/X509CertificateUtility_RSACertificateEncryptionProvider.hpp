@@ -58,17 +58,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ISigner _signer
     Org::BouncyCastle::Crypto::ISigner*& dyn__signer();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters privateKey)
-    // Offset: 0x18DAEF0
+    // Offset: 0x18C18B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::RSACertificateEncryptionProvider* New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::RSACertificateEncryptionProvider*, creationType>(privateKey)));
     }
     // public System.Void Dispose()
-    // Offset: 0x18DC2B4
+    // Offset: 0x18C2C78
     void Dispose();
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x18DC2B8
+    // Offset: 0x18C2C7C
     ::ArrayW<uint8_t> SignData(::ArrayW<uint8_t> data, int offset, int length);
   }; // X509CertificateUtility/RSACertificateEncryptionProvider
   #pragma pack(pop)

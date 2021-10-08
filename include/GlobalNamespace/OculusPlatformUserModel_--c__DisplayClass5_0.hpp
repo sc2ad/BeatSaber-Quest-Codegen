@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
     System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>*& dyn_tcs();
     // System.Void <GetUserNamesForUserIds>g__Fetch|0(System.Int32 index, System.UInt64 platformId)
-    // Offset: 0x111A068
+    // Offset: 0x110148C
     void $GetUserNamesForUserIds$g__Fetch_0(int index, uint64_t platformId);
     // public System.Void .ctor()
-    // Offset: 0x111A060
+    // Offset: 0x1101484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

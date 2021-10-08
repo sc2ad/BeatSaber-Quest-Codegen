@@ -77,7 +77,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt32 WinCount
     uint& dyn_WinCount();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16BAA6C
+    // Offset: 0x169F430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingStats* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingStats::.ctor");

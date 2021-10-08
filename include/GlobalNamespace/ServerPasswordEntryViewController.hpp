@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [HeaderAttribute] Offset: 0xF116A0
+    // [HeaderAttribute] Offset: 0xF11328
     // private HMUI.InputFieldView _passwordInput
     // Size: 0x8
     // Offset: 0x70
@@ -80,22 +80,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private INetworkPlayer _selectedNetworkPlayer
     GlobalNamespace::INetworkPlayer*& dyn__selectedNetworkPlayer();
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x110173C
+    // Offset: 0x113E7AC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x11017E0
+    // Offset: 0x113E850
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
     // public System.Void Setup(INetworkPlayer selectedPlayer)
-    // Offset: 0x1101884
+    // Offset: 0x113E8F4
     void Setup(GlobalNamespace::INetworkPlayer* selectedPlayer);
     // private System.Void HandleJoinClicked()
-    // Offset: 0x1101A0C
+    // Offset: 0x113EA7C
     void HandleJoinClicked();
     // private System.Void HandleUIKeyboardOkButtonWasPressed()
-    // Offset: 0x1101A80
+    // Offset: 0x113EAF0
     void HandleUIKeyboardOkButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x1101AF4
+    // Offset: 0x113EB64
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -109,12 +109,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerPasswordEntryViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x110188C
+    // Offset: 0x113E8FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1101954
+    // Offset: 0x113E9C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IConnectedPlayer> <>9__4_0
     static void _set_$$9__4_0(System::Comparison_1<GlobalNamespace::IConnectedPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x112870C
+    // Offset: 0x1112994
     static void _cctor();
     // System.Int32 <SortPlayers>b__4_0(IConnectedPlayer p1, IConnectedPlayer p2)
-    // Offset: 0x1128778
+    // Offset: 0x1112A00
     int $SortPlayers$b__4_0(GlobalNamespace::IConnectedPlayer* p1, GlobalNamespace::IConnectedPlayer* p2);
     // public System.Void .ctor()
-    // Offset: 0x1128770
+    // Offset: 0x11129F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

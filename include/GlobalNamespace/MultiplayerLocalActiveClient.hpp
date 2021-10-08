@@ -48,49 +48,49 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF08A90
+    // [InjectAttribute] Offset: 0xF086F8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08AA0
+    // [InjectAttribute] Offset: 0xF08708
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08AB0
+    // [InjectAttribute] Offset: 0xF08718
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08AC0
+    // [InjectAttribute] Offset: 0xF08728
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08AD0
+    // [InjectAttribute] Offset: 0xF08738
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08AE0
+    // [InjectAttribute] Offset: 0xF08748
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF08AF0
+    // [InjectAttribute] Offset: 0xF08758
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -115,37 +115,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IScoreController _scoreController
     GlobalNamespace::IScoreController*& dyn__scoreController();
     // public BeatmapObjectManager get_beatmapObjectManager()
-    // Offset: 0x1170A68
+    // Offset: 0x11C607C
     GlobalNamespace::BeatmapObjectManager* get_beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0x1170A70
+    // Offset: 0x11C6084
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11710FC
+    // Offset: 0x11C6710
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x1171478
+    // Offset: 0x11C6A8C
     void LateUpdate();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1171800
+    // Offset: 0x11C6E14
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1171918
+    // Offset: 0x11C6F2C
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void ScoreControllerHandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1171AE8
+    // Offset: 0x11C70FC
     void ScoreControllerHandleComboDidChange(int combo);
     // private System.Void ScoreControllerHandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x1171BD0
+    // Offset: 0x11C71E4
     void ScoreControllerHandleMultiplierDidChange(int multiplier, float multiplierProgress);
     // private System.Void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleRawScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0x1171CB8
+    // Offset: 0x11C72CC
     void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleRawScore, int immediateMaxPossibleModifiedScore);
     // private System.Void ScoreControllerHandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x1171DA0
+    // Offset: 0x11C73B4
     void ScoreControllerHandleScoreDidChange(int rawScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x1171F1C
+    // Offset: 0x11C7530
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

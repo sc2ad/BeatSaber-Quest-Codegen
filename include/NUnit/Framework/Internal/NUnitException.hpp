@@ -28,7 +28,7 @@ namespace NUnit::Framework::Internal {
   class NUnitException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x249DD14
+    // Offset: 0x2484778
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x249DD7C
+    // Offset: 0x24847E0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<NUnitException*, creationType>(message, inner)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x249DDFC
+    // Offset: 0x2484860
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

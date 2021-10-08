@@ -103,10 +103,10 @@ namespace OVR::OpenVR {
     // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis4
     OVR::OpenVR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0x13B49F8
+    // Offset: 0x13993BC
     VRControllerState_t_Packed(OVR::OpenVR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0x13B4A3C
+    // Offset: 0x1399400
     void Unpack(ByRef<OVR::OpenVR::VRControllerState_t> unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
   #pragma pack(pop)

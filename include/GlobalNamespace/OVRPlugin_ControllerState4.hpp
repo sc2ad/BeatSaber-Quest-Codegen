@@ -386,7 +386,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte Reserved_00
     uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0x17FB02C
+    // Offset: 0x17E09F0
     ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs);
   }; // OVRPlugin/ControllerState4
   #pragma pack(pop)

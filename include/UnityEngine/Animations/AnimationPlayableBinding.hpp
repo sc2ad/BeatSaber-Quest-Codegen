@@ -31,10 +31,10 @@ namespace UnityEngine::Animations {
   class AnimationPlayableBinding : public ::Il2CppObject {
     public:
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
-    // Offset: 0x258FEF8
+    // Offset: 0x25749A0
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key);
     // static private UnityEngine.Playables.PlayableOutput CreateAnimationOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x2590018
+    // Offset: 0x2574AC0
     static UnityEngine::Playables::PlayableOutput CreateAnimationOutput(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
   }; // UnityEngine.Animations.AnimationPlayableBinding
   #pragma pack(pop)

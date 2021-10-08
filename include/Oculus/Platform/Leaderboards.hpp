@@ -35,31 +35,31 @@ namespace Oculus::Platform {
   class Leaderboards : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetNextEntries(Oculus.Platform.Models.LeaderboardEntryList list)
-    // Offset: 0x16AD9A8
+    // Offset: 0x169236C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetNextEntries(Oculus::Platform::Models::LeaderboardEntryList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetPreviousEntries(Oculus.Platform.Models.LeaderboardEntryList list)
-    // Offset: 0x16ADAD8
+    // Offset: 0x169249C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetPreviousEntries(Oculus::Platform::Models::LeaderboardEntryList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardList> Get(System.String leaderboardName)
-    // Offset: 0x16ADC08
+    // Offset: 0x16925CC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* Get(::Il2CppString* leaderboardName);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetEntries(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x16ADD24
+    // Offset: 0x16926E8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntries(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetEntriesAfterRank(System.String leaderboardName, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x16ADE60
+    // Offset: 0x1692824
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesAfterRank(::Il2CppString* leaderboardName, int limit, uint64_t afterRank);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetEntriesByIds(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs)
-    // Offset: 0x16ADF94
+    // Offset: 0x1692958
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesByIds(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs);
     // static public Oculus.Platform.Request`1<System.Boolean> WriteEntry(System.String leaderboardName, System.Int64 score, System.Byte[] extraData, System.Boolean forceUpdate)
-    // Offset: 0x16AE0E4
+    // Offset: 0x1692AA8
     static Oculus::Platform::Request_1<bool>* WriteEntry(::Il2CppString* leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, bool forceUpdate);
     // static public Oculus.Platform.Request`1<System.Boolean> WriteEntryWithSupplementaryMetric(System.String leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.Boolean forceUpdate)
-    // Offset: 0x16AE234
+    // Offset: 0x1692BF8
     static Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::Il2CppString* leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData, bool forceUpdate);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardList> GetNextLeaderboardListPage(Oculus.Platform.Models.LeaderboardList list)
-    // Offset: 0x16AE394
+    // Offset: 0x1692D58
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* GetNextLeaderboardListPage(Oculus::Platform::Models::LeaderboardList* list);
   }; // Oculus.Platform.Leaderboards
   #pragma pack(pop)

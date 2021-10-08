@@ -81,19 +81,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelCollectionSO _beatmapLevelCollection
     GlobalNamespace::BeatmapLevelCollectionSO*& dyn__beatmapLevelCollection();
     // public System.String get_collectionName()
-    // Offset: 0x12BCD98
+    // Offset: 0x118ED9C
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x12BCDA4
+    // Offset: 0x118EDA8
     UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x12BCDAC
+    // Offset: 0x118EDB0
     UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x12BCDB4
+    // Offset: 0x118EDB8
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x12BCDBC
+    // Offset: 0x118EDC0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

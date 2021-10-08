@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class ColorSchemeConverter : public ::Il2CppObject {
     public:
     // static public ColorScheme FromNetSerializable(ColorSchemeNetSerializable serialized)
-    // Offset: 0x119A90C
+    // Offset: 0x112F25C
     static GlobalNamespace::ColorScheme* FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized);
   }; // ColorSchemeConverter
   #pragma pack(pop)

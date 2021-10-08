@@ -28,12 +28,12 @@ namespace NUnit::Framework::Internal::Filters {
   class CategoryFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
     // protected override System.String get_ElementName()
-    // Offset: 0x1940F60
+    // Offset: 0x1927924
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::Il2CppString* get_ElementName();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1940B6C
+    // Offset: 0x1927530
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilter*, creationType>(name)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1940B74
+    // Offset: 0x1927538
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);

@@ -125,35 +125,35 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF075F8
+    // [InjectAttribute] Offset: 0xF07260
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF07608
+    // [InjectAttribute] Offset: 0xF07270
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF07618
+    // [InjectAttribute] Offset: 0xF07280
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xF07628
+    // [InjectAttribute] Offset: 0xF07290
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF07638
+    // [InjectAttribute] Offset: 0xF072A0
     // private readonly StandardLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -202,46 +202,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelGameplayManager/GameState _gameState
     GlobalNamespace::StandardLevelGameplayManager::GameState& dyn__gameState();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x11569FC
+    // Offset: 0x1153A1C
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x1156AA0
+    // Offset: 0x1153AC0
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x1156B44
+    // Offset: 0x1153B64
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x1156BE8
+    // Offset: 0x1153C08
     void remove_levelFinishedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1156C8C
+    // Offset: 0x1153CAC
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1156C94
+    // Offset: 0x1153CB4
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1156D30
+    // Offset: 0x1153D50
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1156F74
+    // Offset: 0x1153F94
     void Update();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x1156FBC
+    // Offset: 0x1153FDC
     void HandleGameEnergyDidReach0();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x1157008
+    // Offset: 0x1154028
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1157038
+    // Offset: 0x1154058
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x11570B4
+    // Offset: 0x11540D4
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x11570CC
+    // Offset: 0x11540EC
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x11570E4
+    // Offset: 0x1154104
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

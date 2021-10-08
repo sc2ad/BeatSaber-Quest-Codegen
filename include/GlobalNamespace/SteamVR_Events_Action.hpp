@@ -21,13 +21,13 @@ namespace GlobalNamespace {
   class SteamVR_Events::Action : public ::Il2CppObject {
     public:
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x15391EC
+    // Offset: 0x151FBB0
     void set_enabled(bool value);
     // public System.Void Enable(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     void Enable(bool enabled);
     // protected System.Void .ctor()
-    // Offset: 0x153AA7C
+    // Offset: 0x1521440
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

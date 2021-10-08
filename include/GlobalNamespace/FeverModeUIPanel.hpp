@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* feverBGTextRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0xF070B0
+    // [InjectAttribute] Offset: 0xF06D18
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
@@ -66,28 +66,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _feverTextRectWidth
     float& dyn__feverTextRectWidth();
     // protected System.Void Start()
-    // Offset: 0x11B4724
+    // Offset: 0x116F3B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B49D4
+    // Offset: 0x116F668
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x11B4C14
+    // Offset: 0x116F8A8
     void Update();
     // private System.Void SetProgress(System.Single progress)
-    // Offset: 0x11B4970
+    // Offset: 0x116F604
     void SetProgress(float progress);
     // private System.Void HandleFeverModeDidStart()
-    // Offset: 0x11B4D60
+    // Offset: 0x116F9F4
     void HandleFeverModeDidStart();
     // private System.Void HandleFeverModeDidFinish()
-    // Offset: 0x11B4D68
+    // Offset: 0x116F9FC
     void HandleFeverModeDidFinish();
     // private System.Void HandleFeverModeChargeProgressDidChange(System.Single progress)
-    // Offset: 0x11B4D70
+    // Offset: 0x116FA04
     void HandleFeverModeChargeProgressDidChange(float progress);
     // public System.Void .ctor()
-    // Offset: 0x11B4D74
+    // Offset: 0x116FA08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

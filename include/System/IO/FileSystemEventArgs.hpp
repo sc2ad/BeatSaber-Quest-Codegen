@@ -55,7 +55,7 @@ namespace System::IO {
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0x1A32674
+    // Offset: 0x1A17038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventArgs::.ctor");

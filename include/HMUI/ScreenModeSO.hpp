@@ -44,10 +44,10 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ScreenModeData _data
     HMUI::ScreenModeData*& dyn__data();
     // public HMUI.ScreenModeData get_data()
-    // Offset: 0x1415B2C
+    // Offset: 0x13F94F0
     HMUI::ScreenModeData* get_data();
     // public System.Void .ctor()
-    // Offset: 0x1415B34
+    // Offset: 0x13F94F8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

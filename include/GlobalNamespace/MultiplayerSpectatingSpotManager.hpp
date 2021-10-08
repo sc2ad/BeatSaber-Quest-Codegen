@@ -62,28 +62,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<IMultiplayerSpectatingSpot,System.Int32> _spotIndexBySpot
     System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>*& dyn__spotIndexBySpot();
     // public System.Collections.Generic.IReadOnlyList`1<IMultiplayerSpectatingSpot> get_spectatingSpots()
-    // Offset: 0x1131BF8
+    // Offset: 0x111AB94
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
     // public IMultiplayerSpectatingSpot get_defaultSpot()
-    // Offset: 0x1131C00
+    // Offset: 0x111AB9C
     GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
     // public System.Void RegisterSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x1131D28
+    // Offset: 0x111ACC4
     void RegisterSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public IMultiplayerSpectatingSpot GetAdjacentSpot(IMultiplayerSpectatingSpot spectatingSpot, System.Int32 offset)
-    // Offset: 0x1131FB8
+    // Offset: 0x111AF54
     GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int offset);
     // private System.Int32 GetIndexBySpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x1132068
+    // Offset: 0x111B004
     int GetIndexBySpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void UpdateIndexBySpotDictionary()
-    // Offset: 0x1131E3C
+    // Offset: 0x111ADD8
     void UpdateIndexBySpotDictionary();
     // private System.Void SpotOnHasBeenRemoved(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x11320F4
+    // Offset: 0x111B090
     void SpotOnHasBeenRemoved(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public System.Void .ctor()
-    // Offset: 0x113220C
+    // Offset: 0x111B1A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

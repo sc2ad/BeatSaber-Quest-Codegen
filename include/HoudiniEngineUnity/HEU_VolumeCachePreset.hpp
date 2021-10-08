@@ -62,14 +62,14 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>* volumeLayersPresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xEFADA0
+    // [OptionalFieldAttribute] Offset: 0xEFAA08
     // public System.String _terrainDataPath
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* terrainDataPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xEFADD8
+    // [OptionalFieldAttribute] Offset: 0xEFAA40
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x38
@@ -90,7 +90,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x16FF66C
+    // Offset: 0x16E4030
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

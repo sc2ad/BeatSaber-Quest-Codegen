@@ -110,102 +110,102 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: protected internal System.Collections.IDictionary m_preCompTable
     System::Collections::IDictionary*& dyn_m_preCompTable();
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
-    // Offset: 0x2317284
+    // Offset: 0x22FCCE8
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // protected System.Int32 get_CurveCoordinateSystem()
-    // Offset: 0x231728C
+    // Offset: 0x22FCCF0
     int get_CurveCoordinateSystem();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_AffineXCoord()
-    // Offset: 0x23172A8
+    // Offset: 0x22FCD0C
     Org::BouncyCastle::Math::EC::ECFieldElement* get_AffineXCoord();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_AffineYCoord()
-    // Offset: 0x23172E0
+    // Offset: 0x22FCD44
     Org::BouncyCastle::Math::EC::ECFieldElement* get_AffineYCoord();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_XCoord()
-    // Offset: 0x2317318
+    // Offset: 0x22FCD7C
     Org::BouncyCastle::Math::EC::ECFieldElement* get_XCoord();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_YCoord()
-    // Offset: 0x2317320
+    // Offset: 0x22FCD84
     Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
     // protected internal Org.BouncyCastle.Math.EC.ECFieldElement get_RawXCoord()
-    // Offset: 0x2317374
+    // Offset: 0x22FCDD8
     Org::BouncyCastle::Math::EC::ECFieldElement* get_RawXCoord();
     // protected internal Org.BouncyCastle.Math.EC.ECFieldElement get_RawYCoord()
-    // Offset: 0x231737C
+    // Offset: 0x22FCDE0
     Org::BouncyCastle::Math::EC::ECFieldElement* get_RawYCoord();
     // protected internal Org.BouncyCastle.Math.EC.ECFieldElement[] get_RawZCoords()
-    // Offset: 0x2317384
+    // Offset: 0x22FCDE8
     ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> get_RawZCoords();
     // public System.Boolean get_IsInfinity()
-    // Offset: 0x2310784
+    // Offset: 0x22F61E8
     bool get_IsInfinity();
     // public System.Boolean get_IsCompressed()
-    // Offset: 0x23177F8
+    // Offset: 0x22FD25C
     bool get_IsCompressed();
     // protected internal System.Boolean get_CompressionYTilde()
     // Offset: 0xFFFFFFFF
     bool get_CompressionYTilde();
     // protected System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x2317070
+    // Offset: 0x22FCAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint*, creationType>(curve, x, y, withCompression)));
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x231711C
+    // Offset: 0x22FCB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint*, creationType>(curve, x, y, zs, withCompression)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2318040
+    // Offset: 0x22FDAA4
     static void _cctor();
     // static protected Org.BouncyCastle.Math.EC.ECFieldElement[] GetInitialZCoords(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x2316DBC
+    // Offset: 0x22FC820
     static ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> GetInitialZCoords(Org::BouncyCastle::Math::EC::ECCurve* curve);
     // protected System.Boolean SatisfiesCurveEquation()
     // Offset: 0xFFFFFFFF
     bool SatisfiesCurveEquation();
     // protected System.Boolean SatisfiesOrder()
-    // Offset: 0x2317178
+    // Offset: 0x22FCBDC
     bool SatisfiesOrder();
     // public Org.BouncyCastle.Math.EC.ECFieldElement GetZCoord(System.Int32 index)
-    // Offset: 0x2317328
+    // Offset: 0x22FCD8C
     Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int index);
     // protected System.Void CheckNormalized()
-    // Offset: 0x231738C
+    // Offset: 0x22FCDF0
     void CheckNormalized();
     // public System.Boolean IsNormalized()
-    // Offset: 0x2317420
+    // Offset: 0x22FCE84
     bool IsNormalized();
     // public Org.BouncyCastle.Math.EC.ECPoint Normalize()
-    // Offset: 0x23174A8
+    // Offset: 0x22FCF0C
     Org::BouncyCastle::Math::EC::ECPoint* Normalize();
     // Org.BouncyCastle.Math.EC.ECPoint Normalize(Org.BouncyCastle.Math.EC.ECFieldElement zInv)
-    // Offset: 0x231764C
+    // Offset: 0x22FD0B0
     Org::BouncyCastle::Math::EC::ECPoint* Normalize(Org::BouncyCastle::Math::EC::ECFieldElement* zInv);
     // protected Org.BouncyCastle.Math.EC.ECPoint CreateScaledPoint(Org.BouncyCastle.Math.EC.ECFieldElement sx, Org.BouncyCastle.Math.EC.ECFieldElement sy)
-    // Offset: 0x231775C
+    // Offset: 0x22FD1C0
     Org::BouncyCastle::Math::EC::ECPoint* CreateScaledPoint(Org::BouncyCastle::Math::EC::ECFieldElement* sx, Org::BouncyCastle::Math::EC::ECFieldElement* sy);
     // public System.Boolean IsValid()
-    // Offset: 0x2314EEC
+    // Offset: 0x22FA950
     bool IsValid();
     // System.Boolean IsValidPartial()
-    // Offset: 0x2313DB0
+    // Offset: 0x22F9814
     bool IsValidPartial();
     // System.Boolean ImplIsValid(System.Boolean decompressed, System.Boolean checkOrder)
-    // Offset: 0x231637C
+    // Offset: 0x22FBDE0
     bool ImplIsValid(bool decompressed, bool checkOrder);
     // public Org.BouncyCastle.Math.EC.ECPoint ScaleX(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x231784C
+    // Offset: 0x22FD2B0
     Org::BouncyCastle::Math::EC::ECPoint* ScaleX(Org::BouncyCastle::Math::EC::ECFieldElement* scale);
     // public Org.BouncyCastle.Math.EC.ECPoint ScaleY(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x23178EC
+    // Offset: 0x22FD350
     Org::BouncyCastle::Math::EC::ECPoint* ScaleY(Org::BouncyCastle::Math::EC::ECFieldElement* scale);
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.ECPoint other)
-    // Offset: 0x2317A30
+    // Offset: 0x22FD494
     bool Equals(Org::BouncyCastle::Math::EC::ECPoint* other);
     // public System.Byte[] GetEncoded(System.Boolean compressed)
     // Offset: 0xFFFFFFFF
@@ -220,7 +220,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* Negate();
     // public Org.BouncyCastle.Math.EC.ECPoint TimesPow2(System.Int32 e)
-    // Offset: 0x2317F18
+    // Offset: 0x22FD97C
     Org::BouncyCastle::Math::EC::ECPoint* TimesPow2(int e);
     // public Org.BouncyCastle.Math.EC.ECPoint Twice()
     // Offset: 0xFFFFFFFF
@@ -229,23 +229,23 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* Multiply(Org::BouncyCastle::Math::BigInteger* b);
     // public Org.BouncyCastle.Math.EC.ECPoint TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x2317FE4
+    // Offset: 0x22FDA48
     Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(Org::BouncyCastle::Math::EC::ECPoint* b);
     // public Org.BouncyCastle.Math.EC.ECPoint ThreeTimes()
-    // Offset: 0x231802C
+    // Offset: 0x22FDA90
     Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2317994
+    // Offset: 0x22FD3F8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2317CF0
+    // Offset: 0x22FD754
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2317DC0
+    // Offset: 0x22FD824
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

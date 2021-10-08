@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* playersPlaceNeonsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0xF02A3C
+    // [RangeAttribute] Offset: 0xF02694
     // private System.Single _playersPlaceNeonsIntensity
     // Size: 0x4
     // Offset: 0x20
@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
     ::ArrayW<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>& dyn__lightIdColorPairs();
     // public ColorSO get_playersPlaceNeonsColor()
-    // Offset: 0x1180518
+    // Offset: 0x1204DDC
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
     // public System.Single get_playersPlaceNeonsIntensity()
-    // Offset: 0x1180520
+    // Offset: 0x1204DE4
     float get_playersPlaceNeonsIntensity();
     // public MenuLightsPresetSO/LightIdColorPair[] get_lightIdColorPairs()
-    // Offset: 0x1180528
+    // Offset: 0x1204DEC
     ::ArrayW<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> get_lightIdColorPairs();
     // public System.Void .ctor()
-    // Offset: 0x1180530
+    // Offset: 0x1204DF4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

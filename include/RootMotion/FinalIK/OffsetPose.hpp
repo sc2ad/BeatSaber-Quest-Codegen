@@ -51,13 +51,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
     ::ArrayW<RootMotion::FinalIK::OffsetPose::EffectorLink*>& dyn_effectorLinks();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1C5EC00
+    // Offset: 0x1C415C4
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1C5EFF8
+    // Offset: 0x1C419BC
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1C5F0B0
+    // Offset: 0x1C41A74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -69,20 +69,20 @@ namespace Mono::Security {
     // Get instance field reference: private System.Byte[] _encrypted
     ::ArrayW<uint8_t>& dyn__encrypted();
     // public Mono.Security.PKCS7/Mono.Security.ContentInfo get_EncryptionAlgorithm()
-    // Offset: 0x1FA1EDC
+    // Offset: 0x1F89940
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
-    // Offset: 0x1FA1EE4
+    // Offset: 0x1F89948
     ::ArrayW<uint8_t> get_EncryptedContent();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1FA1C28
+    // Offset: 0x1F8968C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>(asn1)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1FA1C00
+    // Offset: 0x1F89664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

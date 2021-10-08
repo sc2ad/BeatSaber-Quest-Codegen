@@ -41,20 +41,20 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnNetworkReceive : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DD3968
+    // Offset: 0x1DBA3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnNetworkReceive* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnNetworkReceive::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnNetworkReceive*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1DD237C
+    // Offset: 0x1DB8DE0
     void Invoke(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DD3978
+    // Offset: 0x1DBA3DC
     System::IAsyncResult* BeginInvoke(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DD3A18
+    // Offset: 0x1DBA47C
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceive
   #pragma pack(pop)

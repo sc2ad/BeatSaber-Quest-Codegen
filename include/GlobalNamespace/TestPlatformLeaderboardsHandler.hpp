@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class TestPlatformLeaderboardsHandler : public GlobalNamespace::PlatformLeaderboardsHandler {
     public:
     // public System.Void .ctor()
-    // Offset: 0x115FAB8
+    // Offset: 0x115C86C
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: System.Void PlatformLeaderboardsHandler::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -40,12 +40,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestPlatformLeaderboardsHandler*, creationType>()));
     }
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x115FA00
+    // Offset: 0x115C7B4
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::Il2CppString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x115FA5C
+    // Offset: 0x115C810
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);

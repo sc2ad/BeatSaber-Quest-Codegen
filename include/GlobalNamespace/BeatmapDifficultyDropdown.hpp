@@ -92,40 +92,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <includeAllDifficulties>k__BackingField
     bool& dyn_$includeAllDifficulties$k__BackingField();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<BeatmapDifficultyMask,System.String>> get_beatmapDifficultyData()
-    // Offset: 0x127A6D4
+    // Offset: 0x1249028
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>* get_beatmapDifficultyData();
     // public System.Boolean get_includeAllDifficulties()
-    // Offset: 0x127A8C0
+    // Offset: 0x1249214
     bool get_includeAllDifficulties();
     // public System.Void set_includeAllDifficulties(System.Boolean value)
-    // Offset: 0x127A8C8
+    // Offset: 0x124921C
     void set_includeAllDifficulties(bool value);
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x127A58C
+    // Offset: 0x1248EE0
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x127A630
+    // Offset: 0x1248F84
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x127A8D4
+    // Offset: 0x1249228
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x127AA54
+    // Offset: 0x12493A8
     void OnDestroy();
     // public BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask()
-    // Offset: 0x127AB30
+    // Offset: 0x1249484
     GlobalNamespace::BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask();
     // public System.Void SelectCellWithBeatmapDifficultyMask(BeatmapDifficultyMask beatmapDifficultyMask)
-    // Offset: 0x127AC04
+    // Offset: 0x1249558
     void SelectCellWithBeatmapDifficultyMask(GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
     // private System.Int32 GetIdxForBeatmapDifficultyMask(BeatmapDifficultyMask beatmapDifficultyMask)
-    // Offset: 0x127AC40
+    // Offset: 0x1249594
     int GetIdxForBeatmapDifficultyMask(GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x127ACE8
+    // Offset: 0x124963C
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x127AD5C
+    // Offset: 0x12496B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -28,40 +28,40 @@ namespace HoudiniEngineUnity {
   class HEU_Logger : public ::Il2CppObject {
     public:
     // static public System.Void Log(System.String text)
-    // Offset: 0x152AFD0
+    // Offset: 0x1512994
     static void Log(::Il2CppString* text);
     // static public System.Void LogFormat(System.String text, params System.Object[] args)
-    // Offset: 0x152B038
+    // Offset: 0x15129FC
     static void LogFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogWarning(System.String text)
-    // Offset: 0x1522104
+    // Offset: 0x1509AC8
     static void LogWarning(::Il2CppString* text);
     // static public System.Void LogWarningFormat(System.String text, params System.Object[] args)
-    // Offset: 0x1522174
+    // Offset: 0x1509B38
     static void LogWarningFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.String text)
-    // Offset: 0x151D4E8
+    // Offset: 0x1504EAC
     static void LogError(::Il2CppString* text);
     // static public System.Void LogErrorFormat(System.String text, params System.Object[] args)
-    // Offset: 0x15227E8
+    // Offset: 0x150A1AC
     static void LogErrorFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.Exception ex)
-    // Offset: 0x152B168
+    // Offset: 0x1512B2C
     static void LogError(System::Exception* ex);
     // static public System.Void LogAssertion(System.String text)
-    // Offset: 0x152B204
+    // Offset: 0x1512BC8
     static void LogAssertion(::Il2CppString* text);
     // static public System.Void LogAssertionFormat(System.String text, params System.Object[] args)
-    // Offset: 0x152B208
+    // Offset: 0x1512BCC
     static void LogAssertionFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static private System.Void LogToCookLogsIfOn(System.String text)
-    // Offset: 0x152B0B0
+    // Offset: 0x1512A74
     static void LogToCookLogsIfOn(::Il2CppString* text);
     // static private System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
-    // Offset: 0x152B100
+    // Offset: 0x1512AC4
     static void LogToCookLogsIfOnFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
-    // Offset: 0x152B20C
+    // Offset: 0x1512BD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

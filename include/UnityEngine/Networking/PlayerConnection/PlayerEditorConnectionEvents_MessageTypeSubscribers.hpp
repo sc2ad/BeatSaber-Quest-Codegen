@@ -60,13 +60,13 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*& dyn_messageCallback();
     // public System.Guid get_MessageTypeId()
-    // Offset: 0x1DB08C8
+    // Offset: 0x1D9632C
     System::Guid get_MessageTypeId();
     // public System.Void set_MessageTypeId(System.Guid value)
-    // Offset: 0x1DB0A30
+    // Offset: 0x1D96494
     void set_MessageTypeId(System::Guid value);
     // public System.Void .ctor()
-    // Offset: 0x1DB09C8
+    // Offset: 0x1D9642C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

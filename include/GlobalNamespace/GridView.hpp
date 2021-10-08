@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Collections.Generic.List`1<UnityEngine.MonoBehaviour>> _spawnedCellsPerPrefabDictionary
     System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>*& dyn__spawnedCellsPerPrefabDictionary();
     // public GridView/IDataSource get_dataSource()
-    // Offset: 0x11417A4
+    // Offset: 0x11D59B0
     GlobalNamespace::GridView::IDataSource* get_dataSource();
     // public GridView/GridViewCellsEnumerator get_cellsEnumerator()
-    // Offset: 0x11417AC
+    // Offset: 0x11D59B8
     GlobalNamespace::GridView::GridViewCellsEnumerator* get_cellsEnumerator();
     // private System.Void set_cellsEnumerator(GridView/GridViewCellsEnumerator value)
-    // Offset: 0x11417B4
+    // Offset: 0x11D59C0
     void set_cellsEnumerator(GlobalNamespace::GridView::GridViewCellsEnumerator* value);
     // public System.Int32 get_rowCount()
-    // Offset: 0x11417BC
+    // Offset: 0x11D59C8
     int get_rowCount();
     // public System.Int32 get_columnCount()
-    // Offset: 0x11417C4
+    // Offset: 0x11D59D0
     int get_columnCount();
     // public System.Void SetDataSource(GridView/IDataSource newDataSource, System.Boolean reloadData)
-    // Offset: 0x11417CC
+    // Offset: 0x11D59D8
     void SetDataSource(GlobalNamespace::GridView::IDataSource* newDataSource, bool reloadData);
     // public System.Void ReloadData()
-    // Offset: 0x1141890
+    // Offset: 0x11D5A9C
     void ReloadData();
     // public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetActiveCellsForIdentifier(UnityEngine.MonoBehaviour prefab)
-    // Offset: 0x1141EF4
+    // Offset: 0x11D6100
     System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* GetActiveCellsForIdentifier(UnityEngine::MonoBehaviour* prefab);
     // public T GetReusableCellView(UnityEngine.MonoBehaviour prefab)
     // Offset: 0xFFFFFFFF
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, prefab);
     }
     // public System.Void .ctor()
-    // Offset: 0x1141FBC
+    // Offset: 0x11D61C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

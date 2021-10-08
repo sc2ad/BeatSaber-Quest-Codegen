@@ -17,10 +17,10 @@ namespace System::Net::Http::Headers {
   class Parser::Token : public ::Il2CppObject {
     public:
     // static public System.Void Check(System.String s)
-    // Offset: 0x1755030
+    // Offset: 0x17389F4
     static void Check(::Il2CppString* s);
     // static public System.Boolean TryCheck(System.String s)
-    // Offset: 0x1750F00
+    // Offset: 0x17348C4
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Token
   #pragma pack(pop)

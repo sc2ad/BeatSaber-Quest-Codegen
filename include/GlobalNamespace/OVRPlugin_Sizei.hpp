@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 h
     int& dyn_h();
     // static private System.Void .cctor()
-    // Offset: 0x1806EE0
+    // Offset: 0x17EC8A4
     static void _cctor();
   }; // OVRPlugin/Sizei
   #pragma pack(pop)

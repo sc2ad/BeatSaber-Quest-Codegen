@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
     static void _set__cache(GlobalNamespace::HMCache_2<::Il2CppString*, UnityEngine::Texture2D*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1106E00
+    // Offset: 0x1143E70
     static void _cctor();
     // static public System.Void LoadTexture(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
-    // Offset: 0x1106C80
+    // Offset: 0x1143CF0
     static void LoadTexture(::Il2CppString* filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
     // static public System.Collections.IEnumerator LoadTextureCoroutine(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
-    // Offset: 0x1106D4C
+    // Offset: 0x1143DBC
     static System::Collections::IEnumerator* LoadTextureCoroutine(::Il2CppString* filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
   }; // SimpleTextureLoader
   #pragma pack(pop)

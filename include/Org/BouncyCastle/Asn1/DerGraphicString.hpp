@@ -48,29 +48,29 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Byte[] mString
     ::ArrayW<uint8_t>& dyn_mString();
     // public System.Void .ctor(System.Byte[] encoding)
-    // Offset: 0x18E21D0
+    // Offset: 0x18C8B94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerGraphicString* New_ctor(::ArrayW<uint8_t> encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGraphicString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGraphicString*, creationType>(encoding)));
     }
     // public override System.String GetString()
-    // Offset: 0x18EFEB0
+    // Offset: 0x18D6874
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x18EFEBC
+    // Offset: 0x18D6880
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x18EFEE0
+    // Offset: 0x18D68A4
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x18EFF4C
+    // Offset: 0x18D6910
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

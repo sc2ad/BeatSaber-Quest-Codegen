@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x259AAE4
+    // Offset: 0x257F58C
     UnityEngine::Renderer* get_renderer();
     // private System.Void Reset()
-    // Offset: 0x259AAEC
+    // Offset: 0x257F594
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x259AB44
+    // Offset: 0x257F5EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

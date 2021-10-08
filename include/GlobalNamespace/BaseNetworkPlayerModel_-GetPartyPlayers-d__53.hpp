@@ -77,32 +77,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <>l__initialThreadId
     int& dyn_$$l__initialThreadId();
     // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
-    // Offset: 0x126BCA8
+    // Offset: 0x123A5FC
     GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x126BD10
+    // Offset: 0x123A664
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x126B85C
+    // Offset: 0x123A1B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNetworkPlayerModel::$GetPartyPlayers$d__53* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BaseNetworkPlayerModel::$GetPartyPlayers$d__53::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseNetworkPlayerModel::$GetPartyPlayers$d__53*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x126BC8C
+    // Offset: 0x123A5E0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x126BC90
+    // Offset: 0x123A5E4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x126BCB0
+    // Offset: 0x123A604
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<INetworkPlayer> System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator()
-    // Offset: 0x126BD18
+    // Offset: 0x123A66C
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable$INetworkPlayer$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x126BDB0
+    // Offset: 0x123A704
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BaseNetworkPlayerModel/<GetPartyPlayers>d__53
   #pragma pack(pop)

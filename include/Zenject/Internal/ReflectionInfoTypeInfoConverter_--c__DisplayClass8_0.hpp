@@ -57,13 +57,13 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
     System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*& dyn_writeableFields();
     // System.Boolean <GetOnlyPropertySetter>b__0(System.Reflection.FieldInfo f)
-    // Offset: 0x1835ED8
+    // Offset: 0x181B89C
     bool $GetOnlyPropertySetter$b__0(System::Reflection::FieldInfo* f);
     // System.Void <GetOnlyPropertySetter>b__2(System.Object injectable, System.Object value)
-    // Offset: 0x1835F80
+    // Offset: 0x181B944
     void $GetOnlyPropertySetter$b__2(::Il2CppObject* injectable, ::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1835D5C
+    // Offset: 0x181B720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

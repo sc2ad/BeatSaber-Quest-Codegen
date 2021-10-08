@@ -58,16 +58,16 @@ namespace UnityEngine::ProBuilder {
     // Nested type: UnityEngine::ProBuilder::MeshUtility::$$c
     class $$c;
     // static UnityEngine.ProBuilder.Vertex[] GeneratePerTriangleMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x1905FEC
+    // Offset: 0x18EC9B0
     static ::ArrayW<UnityEngine::ProBuilder::Vertex*> GeneratePerTriangleMesh(UnityEngine::Mesh* mesh);
     // static public System.Void GenerateTangent(UnityEngine.Mesh mesh)
-    // Offset: 0x1906348
+    // Offset: 0x18ECD0C
     static void GenerateTangent(UnityEngine::Mesh* mesh);
     // static public UnityEngine.Mesh DeepCopy(UnityEngine.Mesh source)
-    // Offset: 0x19069B0
+    // Offset: 0x18ED374
     static UnityEngine::Mesh* DeepCopy(UnityEngine::Mesh* source);
     // static public System.Void CopyTo(UnityEngine.Mesh source, UnityEngine.Mesh destination)
-    // Offset: 0x1906A1C
+    // Offset: 0x18ED3E0
     static void CopyTo(UnityEngine::Mesh* source, UnityEngine::Mesh* destination);
     // static T GetMeshChannel(UnityEngine.GameObject gameObject, System.Func`2<UnityEngine.Mesh,T> attributeGetter)
     // Offset: 0xFFFFFFFF
@@ -80,31 +80,31 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject, attributeGetter);
     }
     // static public System.String Print(UnityEngine.Mesh mesh)
-    // Offset: 0x1906E90
+    // Offset: 0x18ED854
     static ::Il2CppString* Print(UnityEngine::Mesh* mesh);
     // static public System.UInt32 GetIndexCount(UnityEngine.Mesh mesh)
-    // Offset: 0x1908674
+    // Offset: 0x18EF038
     static uint GetIndexCount(UnityEngine::Mesh* mesh);
     // static public System.UInt32 GetPrimitiveCount(UnityEngine.Mesh mesh)
-    // Offset: 0x1908744
+    // Offset: 0x18EF108
     static uint GetPrimitiveCount(UnityEngine::Mesh* mesh);
     // static public System.Void Compile(UnityEngine.ProBuilder.ProBuilderMesh probuilderMesh, UnityEngine.Mesh targetMesh, UnityEngine.MeshTopology preferredTopology)
-    // Offset: 0x1908870
+    // Offset: 0x18EF234
     static void Compile(UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, UnityEngine::Mesh* targetMesh, UnityEngine::MeshTopology preferredTopology);
     // static public UnityEngine.ProBuilder.Vertex[] GetVertices(UnityEngine.Mesh mesh)
-    // Offset: 0x18F8B64
+    // Offset: 0x18DF528
     static ::ArrayW<UnityEngine::ProBuilder::Vertex*> GetVertices(UnityEngine::Mesh* mesh);
     // static public System.Void CollapseSharedVertices(UnityEngine.Mesh mesh, UnityEngine.ProBuilder.Vertex[] vertices)
-    // Offset: 0x1908BE8
+    // Offset: 0x18EF5AC
     static void CollapseSharedVertices(UnityEngine::Mesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Vertex*> vertices);
     // static System.String SanityCheck(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1909000
+    // Offset: 0x18EF9C4
     static ::Il2CppString* SanityCheck(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static System.String SanityCheck(UnityEngine.Mesh mesh)
-    // Offset: 0x19092A4
+    // Offset: 0x18EFC68
     static ::Il2CppString* SanityCheck(UnityEngine::Mesh* mesh);
     // static System.String SanityCheck(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices)
-    // Offset: 0x1909024
+    // Offset: 0x18EF9E8
     static ::Il2CppString* SanityCheck(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices);
   }; // UnityEngine.ProBuilder.MeshUtility
   #pragma pack(pop)

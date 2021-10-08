@@ -80,14 +80,14 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public readonly System.String Udp6File
     ::Il2CppString*& dyn_Udp6File();
     // public System.Void .ctor(System.String procDir)
-    // Offset: 0x16457F8
+    // Offset: 0x162A1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1646C80
+    // Offset: 0x162B644
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
   #pragma pack(pop)

@@ -35,13 +35,13 @@ namespace System::Net::Http::Headers {
   class MediaTypeWithQualityHeaderValue : public System::Net::Http::Headers::MediaTypeHeaderValue {
     public:
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.MediaTypeWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1753A0C
+    // Offset: 0x17373D0
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.MediaTypeWithQualityHeaderValue> result)
-    // Offset: 0x1753B70
+    // Offset: 0x1737534
     static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
     // private System.Void .ctor()
-    // Offset: 0x1753A04
+    // Offset: 0x17373C8
     // Implemented from: System.Net.Http.Headers.MediaTypeHeaderValue
     // Base method: System.Void MediaTypeHeaderValue::.ctor()
     // Base method: System.Void Object::.ctor()

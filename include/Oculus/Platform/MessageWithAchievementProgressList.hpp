@@ -27,10 +27,10 @@ namespace Oculus::Platform {
   class MessageWithAchievementProgressList : public Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList*> {
     public:
     // protected Oculus.Platform.Models.AchievementProgressList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x16B4C78
+    // Offset: 0x169963C
     Oculus::Platform::Models::AchievementProgressList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x16B2A9C
+    // Offset: 0x1697460
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAchievementProgressList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AchievementProgressList GetAchievementProgressList()
-    // Offset: 0x16B4C34
+    // Offset: 0x16995F8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AchievementProgressList Message::GetAchievementProgressList()
     Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();

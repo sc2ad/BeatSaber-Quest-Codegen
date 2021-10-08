@@ -38,13 +38,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ICertificateValidator*>(this);
     }
     // public System.Void ValidateCertificateChain(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x18DA8FC
+    // Offset: 0x18C12C0
     void ValidateCertificateChain(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // private System.Void ValidateCertificateChainInternal(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x18DA900
+    // Offset: 0x18C12C4
     void ValidateCertificateChainInternal(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // public System.Void .ctor()
-    // Offset: 0x18DAA8C
+    // Offset: 0x18C1450
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

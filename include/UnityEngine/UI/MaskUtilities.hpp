@@ -41,28 +41,28 @@ namespace UnityEngine::UI {
   class MaskUtilities : public ::Il2CppObject {
     public:
     // static public System.Void Notify2DMaskStateChanged(UnityEngine.Component mask)
-    // Offset: 0x1B4CCB0
+    // Offset: 0x1B30674
     static void Notify2DMaskStateChanged(UnityEngine::Component* mask);
     // static public System.Void NotifyStencilStateChanged(UnityEngine.Component mask)
-    // Offset: 0x1B4C120
+    // Offset: 0x1B2FAE4
     static void NotifyStencilStateChanged(UnityEngine::Component* mask);
     // static public UnityEngine.Transform FindRootSortOverrideCanvas(UnityEngine.Transform start)
-    // Offset: 0x1B4C8A4
+    // Offset: 0x1B30268
     static UnityEngine::Transform* FindRootSortOverrideCanvas(UnityEngine::Transform* start);
     // static public System.Int32 GetStencilDepth(UnityEngine.Transform transform, UnityEngine.Transform stopAfter)
-    // Offset: 0x1B4CA20
+    // Offset: 0x1B303E4
     static int GetStencilDepth(UnityEngine::Transform* transform, UnityEngine::Transform* stopAfter);
     // static public System.Boolean IsDescendantOrSelf(UnityEngine.Transform father, UnityEngine.Transform child)
-    // Offset: 0x1B4CF04
+    // Offset: 0x1B308C8
     static bool IsDescendantOrSelf(UnityEngine::Transform* father, UnityEngine::Transform* child);
     // static public UnityEngine.UI.RectMask2D GetRectMaskForClippable(UnityEngine.UI.IClippable clippable)
-    // Offset: 0x1B4D084
+    // Offset: 0x1B30A48
     static UnityEngine::UI::RectMask2D* GetRectMaskForClippable(UnityEngine::UI::IClippable* clippable);
     // static public System.Void GetRectMasksForClip(UnityEngine.UI.RectMask2D clipper, System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> masks)
-    // Offset: 0x1B4D468
+    // Offset: 0x1B30E2C
     static void GetRectMasksForClip(UnityEngine::UI::RectMask2D* clipper, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* masks);
     // public System.Void .ctor()
-    // Offset: 0x1B4D75C
+    // Offset: 0x1B31120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

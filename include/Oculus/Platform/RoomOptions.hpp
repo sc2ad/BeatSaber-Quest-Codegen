@@ -48,34 +48,34 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetDataStore(System.String key, System.String value)
-    // Offset: 0x25B95F4
+    // Offset: 0x259E09C
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearDataStore()
-    // Offset: 0x25B9678
+    // Offset: 0x259E120
     void ClearDataStore();
     // public System.Void SetExcludeRecentlyMet(System.Boolean value)
-    // Offset: 0x25B96E4
+    // Offset: 0x259E18C
     void SetExcludeRecentlyMet(bool value);
     // public System.Void SetMaxUserResults(System.UInt32 value)
-    // Offset: 0x25B9760
+    // Offset: 0x259E208
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
-    // Offset: 0x25B97DC
+    // Offset: 0x259E284
     void SetOrdering(Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x25B9858
+    // Offset: 0x259E300
     void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
-    // Offset: 0x25B98D4
+    // Offset: 0x259E37C
     void SetRoomId(uint64_t value);
     // public System.Void SetTurnOffUpdates(System.Boolean value)
-    // Offset: 0x25B9950
+    // Offset: 0x259E3F8
     void SetTurnOffUpdates(bool value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
-    // Offset: 0x25B99CC
+    // Offset: 0x259E474
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x25B957C
+    // Offset: 0x259E024
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,7 +84,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RoomOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x25B9A1C
+    // Offset: 0x259E4C4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

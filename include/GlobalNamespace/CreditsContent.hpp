@@ -94,14 +94,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: titleHeight and: contentRoot
     char __padding8[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF0D874
+    // [SpaceAttribute] Offset: 0xF0D4FC
     // private UnityEngine.Transform _contentRoot
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::Transform* contentRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0D8AC
+    // [SpaceAttribute] Offset: 0xF0D534
     // private UnityEngine.RectTransform _rootRectTransform
     // Size: 0x8
     // Offset: 0x60
@@ -142,43 +142,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _creditsContentTextAsset
     UnityEngine::TextAsset*& dyn__creditsContentTextAsset();
     // public UnityEngine.GameObject get_normalTextPrefab()
-    // Offset: 0x119F514
+    // Offset: 0x1133E68
     UnityEngine::GameObject* get_normalTextPrefab();
     // public UnityEngine.GameObject get_normalLocalizedTextPrefab()
-    // Offset: 0x119F51C
+    // Offset: 0x1133E70
     UnityEngine::GameObject* get_normalLocalizedTextPrefab();
     // public UnityEngine.GameObject get_titleTextPrefab()
-    // Offset: 0x119F524
+    // Offset: 0x1133E78
     UnityEngine::GameObject* get_titleTextPrefab();
     // public UnityEngine.GameObject get_titleLocalizedTextPrefab()
-    // Offset: 0x119F52C
+    // Offset: 0x1133E80
     UnityEngine::GameObject* get_titleLocalizedTextPrefab();
     // public UnityEngine.GameObject get_headerTextPrefab()
-    // Offset: 0x119F534
+    // Offset: 0x1133E88
     UnityEngine::GameObject* get_headerTextPrefab();
     // public UnityEngine.GameObject get_headerLocalizedTextPrefab()
-    // Offset: 0x119F53C
+    // Offset: 0x1133E90
     UnityEngine::GameObject* get_headerLocalizedTextPrefab();
     // public System.Int32 get_columnCount()
-    // Offset: 0x119F544
+    // Offset: 0x1133E98
     int get_columnCount();
     // public System.Single get_spaceHeight()
-    // Offset: 0x119F54C
+    // Offset: 0x1133EA0
     float get_spaceHeight();
     // public System.Single get_titleHeight()
-    // Offset: 0x119F554
+    // Offset: 0x1133EA8
     float get_titleHeight();
     // public UnityEngine.Transform get_contentRoot()
-    // Offset: 0x119F55C
+    // Offset: 0x1133EB0
     UnityEngine::Transform* get_contentRoot();
     // public UnityEngine.RectTransform get_rootRectTransform()
-    // Offset: 0x119F564
+    // Offset: 0x1133EB8
     UnityEngine::RectTransform* get_rootRectTransform();
     // public UnityEngine.TextAsset get_creditsContentTextAsset()
-    // Offset: 0x119F56C
+    // Offset: 0x1133EC0
     UnityEngine::TextAsset* get_creditsContentTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x119F574
+    // Offset: 0x1133EC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,7 +22,7 @@ namespace Zenject {
   class ProviderUtil : public ::Il2CppObject {
     public:
     // static public System.Type GetTypeToInstantiate(System.Type contractType, System.Type concreteType)
-    // Offset: 0x189BF98
+    // Offset: 0x188295C
     static System::Type* GetTypeToInstantiate(System::Type* contractType, System::Type* concreteType);
   }; // Zenject.ProviderUtil
   #pragma pack(pop)

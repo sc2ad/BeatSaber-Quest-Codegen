@@ -45,16 +45,16 @@ namespace System::Net::Http {
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
     static void _set_$$9__64_0(System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x175BC10
+    // Offset: 0x173F5D4
     static void _cctor();
     // System.Boolean <CreateWebRequest>b__61_0(System.String l)
-    // Offset: 0x175BC7C
+    // Offset: 0x173F640
     bool $CreateWebRequest$b__61_0(::Il2CppString* l);
     // System.Void <SendAsync>b__64_0(System.Object l)
-    // Offset: 0x175BCD0
+    // Offset: 0x173F694
     void $SendAsync$b__64_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x175BC74
+    // Offset: 0x173F638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

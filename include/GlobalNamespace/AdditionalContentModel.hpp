@@ -212,7 +212,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF01404
+    // [InjectAttribute] Offset: 0xF0107C
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x18
@@ -233,22 +233,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didInvalidateDataEvent
     System::Action*& dyn_didInvalidateDataEvent();
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x12403DC
+    // Offset: 0x2614F5C
     void add_didInvalidateDataEvent(System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x1240480
+    // Offset: 0x2615000
     void remove_didInvalidateDataEvent(System::Action* value);
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1240524
+    // Offset: 0x26150A4
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void InvalidateData()
-    // Offset: 0x1240560
+    // Offset: 0x26150E0
     void InvalidateData();
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x12405A0
+    // Offset: 0x2615120
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x12406B4
+    // Offset: 0x2615234
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void InvalidateDataInternal()
     // Offset: 0xFFFFFFFF
@@ -269,7 +269,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void .ctor()
-    // Offset: 0x12407C8
+    // Offset: 0x2615348
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

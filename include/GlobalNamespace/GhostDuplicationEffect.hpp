@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0xF05D94
+    // [InjectAttribute] Offset: 0xF059FC
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -84,40 +84,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
     Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x113FB1C
+    // Offset: 0x11D3D24
     void set_hide(bool value);
     // private System.Single get_size()
-    // Offset: 0x113FC18
+    // Offset: 0x11D3E20
     float get_size();
     // private System.Void set_size(System.Single value)
-    // Offset: 0x113FB54
+    // Offset: 0x11D3D5C
     void set_size(float value);
     // private System.Single get_alpha()
-    // Offset: 0x113FC6C
+    // Offset: 0x11D3E74
     float get_alpha();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x113F49C
+    // Offset: 0x11D36A4
     void set_alpha(float value);
     // protected System.Void OnDestroy()
-    // Offset: 0x113F358
+    // Offset: 0x11D3560
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0x113F3F0
+    // Offset: 0x11D35F8
     void Awake();
     // private System.Void Init()
-    // Offset: 0x113F400
+    // Offset: 0x11D3608
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x113F578
+    // Offset: 0x11D3780
     void Animate(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x113F908
+    // Offset: 0x11D3B10
     System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x113F9B4
+    // Offset: 0x11D3BBC
     void SetDistances(float distance, UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x113FCB8
+    // Offset: 0x11D3EC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

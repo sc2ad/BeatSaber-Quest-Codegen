@@ -36,10 +36,10 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x2189038
+    // Offset: 0x2172A9C
     Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // protected System.Void .ctor()
-    // Offset: 0x2184878
+    // Offset: 0x216E2DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

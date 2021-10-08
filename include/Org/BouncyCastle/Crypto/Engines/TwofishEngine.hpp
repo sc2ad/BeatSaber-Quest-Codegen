@@ -119,82 +119,82 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] workingKey
     ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1A7E050
+    // Offset: 0x1A62A14
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1A7E098
+    // Offset: 0x1A62A5C
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1A7EF14
+    // Offset: 0x1A638D8
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1A7D528
+    // Offset: 0x1A61EEC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A7E0A0
+    // Offset: 0x1A62A64
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1A7E6D4
+    // Offset: 0x1A63098
     void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1A7E6E4
+    // Offset: 0x1A630A8
     int GetBlockSize();
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1A7D6A4
+    // Offset: 0x1A62068
     void SetKey(::ArrayW<uint8_t> key);
     // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1A7E1C4
+    // Offset: 0x1A62B88
     void EncryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1A7E44C
+    // Offset: 0x1A62E10
     void DecryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Int32 F32(System.Int32 x, System.Int32[] k32)
-    // Offset: 0x1A7E808
+    // Offset: 0x1A631CC
     int F32(int x, ::ArrayW<int> k32);
     // private System.Int32 RS_MDS_Encode(System.Int32 k0, System.Int32 k1)
-    // Offset: 0x1A7E768
+    // Offset: 0x1A6312C
     int RS_MDS_Encode(int k0, int k1);
     // private System.Int32 RS_rem(System.Int32 x)
-    // Offset: 0x1A7EE9C
+    // Offset: 0x1A63860
     int RS_rem(int x);
     // private System.Int32 LFSR1(System.Int32 x)
-    // Offset: 0x1A7EEDC
+    // Offset: 0x1A638A0
     int LFSR1(int x);
     // private System.Int32 LFSR2(System.Int32 x)
-    // Offset: 0x1A7EEF0
+    // Offset: 0x1A638B4
     int LFSR2(int x);
     // private System.Int32 Mx_X(System.Int32 x)
-    // Offset: 0x1A7D4CC
+    // Offset: 0x1A61E90
     int Mx_X(int x);
     // private System.Int32 Mx_Y(System.Int32 x)
-    // Offset: 0x1A7D4F4
+    // Offset: 0x1A61EB8
     int Mx_Y(int x);
     // private System.Int32 M_b0(System.Int32 x)
-    // Offset: 0x1A7ECB8
+    // Offset: 0x1A6367C
     int M_b0(int x);
     // private System.Int32 M_b1(System.Int32 x)
-    // Offset: 0x1A7ECC0
+    // Offset: 0x1A63684
     int M_b1(int x);
     // private System.Int32 M_b2(System.Int32 x)
-    // Offset: 0x1A7ECC8
+    // Offset: 0x1A6368C
     int M_b2(int x);
     // private System.Int32 M_b3(System.Int32 x)
-    // Offset: 0x1A7ECD0
+    // Offset: 0x1A63694
     int M_b3(int x);
     // private System.Int32 Fe32_0(System.Int32 x)
-    // Offset: 0x1A7ECD8
+    // Offset: 0x1A6369C
     int Fe32_0(int x);
     // private System.Int32 Fe32_3(System.Int32 x)
-    // Offset: 0x1A7ED70
+    // Offset: 0x1A63734
     int Fe32_3(int x);
     // private System.Int32 BytesTo32Bits(System.Byte[] b, System.Int32 p)
-    // Offset: 0x1A7E6EC
+    // Offset: 0x1A630B0
     int BytesTo32Bits(::ArrayW<uint8_t> b, int p);
     // private System.Void Bits32ToBytes(System.Int32 inData, System.Byte[] b, System.Int32 offset)
-    // Offset: 0x1A7EE10
+    // Offset: 0x1A637D4
     void Bits32ToBytes(int inData, ::ArrayW<uint8_t> b, int offset);
     // public System.Void .ctor()
-    // Offset: 0x1A7D138
+    // Offset: 0x1A61AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

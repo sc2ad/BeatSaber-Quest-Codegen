@@ -121,7 +121,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1520978
+    // Offset: 0x150833C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,13 +71,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
     ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x129ABE0
+    // Offset: 0x1294A70
     ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x129AC10
+    // Offset: 0x1294AA0
     void LoadAllBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x129AD64
+    // Offset: 0x1294BF4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

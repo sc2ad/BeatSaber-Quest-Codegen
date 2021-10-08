@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class WNafL2RMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F85CC0
+    // Offset: 0x1F6C724
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: System.Void AbstractECMultiplier::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return THROW_UNLESS((::il2cpp_utils::New<WNafL2RMultiplier*, creationType>()));
     }
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1F854FC
+    // Offset: 0x1F6BF60
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);

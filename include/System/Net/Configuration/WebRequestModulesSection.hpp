@@ -28,12 +28,12 @@ namespace System::Net::Configuration {
   class WebRequestModulesSection : public System::Configuration::ConfigurationSection {
     public:
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1570548
+    // Offset: 0x1556F0C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x1570508
+    // Offset: 0x1556ECC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

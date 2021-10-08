@@ -40,16 +40,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IServerBeatmapProvider*>(this);
     }
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
-    // Offset: 0x1190360
+    // Offset: 0x1214C24
     bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
     // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(System.Int32 playerCount, System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> suggestedBeatmaps, BeatmapLevelSelectionMask selectionMask, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
-    // Offset: 0x1190368
+    // Offset: 0x1214C2C
     GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int playerCount, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* suggestedBeatmaps, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* ownedSongPacks);
     // public System.Void Dispose()
-    // Offset: 0x11903E0
+    // Offset: 0x1214CA4
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x11903E4
+    // Offset: 0x1214CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

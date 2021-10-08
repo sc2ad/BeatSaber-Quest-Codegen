@@ -87,7 +87,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       // Get instance field reference: public readonly System.Int32 tileZ
       int& dyn_tileZ();
       // public System.Void .ctor(System.Int32 tileX, System.Int32 tileZ)
-      // Offset: 0x25E8F30
+      // Offset: 0x25D09D8
       // ABORTED: conflicts with another method.  TileCoord(int tileX, int tileZ);
     }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord
     #pragma pack(pop)
@@ -182,28 +182,28 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord,UnityEngine.Terrain> m_terrainTiles
     System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>*& dyn_m_terrainTiles();
     // public UnityEngine.Terrain GetTerrain(System.Int32 tileX, System.Int32 tileZ)
-    // Offset: 0x25E8DBC
+    // Offset: 0x25D0864
     UnityEngine::Terrain* GetTerrain(int tileX, int tileZ);
     // static public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap CreateFromPlacement(UnityEngine.Terrain originTerrain, UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter filter, System.Boolean fullValidation)
-    // Offset: 0x25E87E4
+    // Offset: 0x25D028C
     static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap* CreateFromPlacement(UnityEngine::Terrain* originTerrain, UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter* filter, bool fullValidation);
     // static public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap CreateFromPlacement(UnityEngine.Vector2 gridOrigin, UnityEngine.Vector2 gridSize, UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter filter, System.Boolean fullValidation)
-    // Offset: 0x25E8FE0
+    // Offset: 0x25D0A88
     static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap* CreateFromPlacement(UnityEngine::Vector2 gridOrigin, UnityEngine::Vector2 gridSize, UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter* filter, bool fullValidation);
     // private System.Void AddTerrainInternal(System.Int32 x, System.Int32 z, UnityEngine.Terrain terrain)
-    // Offset: 0x25E98E8
+    // Offset: 0x25D1390
     void AddTerrainInternal(int x, int z, UnityEngine::Terrain* terrain);
     // private System.Boolean TryToAddTerrain(System.Int32 tileX, System.Int32 tileZ, UnityEngine.Terrain terrain)
-    // Offset: 0x25E96B0
+    // Offset: 0x25D1158
     bool TryToAddTerrain(int tileX, int tileZ, UnityEngine::Terrain* terrain);
     // private System.Void ValidateTerrain(System.Int32 tileX, System.Int32 tileZ)
-    // Offset: 0x25E9A44
+    // Offset: 0x25D14EC
     void ValidateTerrain(int tileX, int tileZ);
     // private UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.ErrorCode Validate()
-    // Offset: 0x25E97E4
+    // Offset: 0x25D128C
     UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::ErrorCode Validate();
     // public System.Void .ctor()
-    // Offset: 0x25E9298
+    // Offset: 0x25D0D40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

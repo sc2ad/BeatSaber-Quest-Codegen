@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF080C8
+    // [InjectAttribute] Offset: 0xF07D30
     // private GameEnergyCounter _energyCounter
     // Size: 0x8
     // Offset: 0x48
@@ -45,16 +45,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameEnergyCounter _energyCounter
     GlobalNamespace::GameEnergyCounter*& dyn__energyCounter();
     // protected System.Void OnDestroy()
-    // Offset: 0x11AEF80
+    // Offset: 0x1169C14
     void OnDestroy();
     // private System.Void HandleEnergyDidChange(System.Single energy)
-    // Offset: 0x11AF058
+    // Offset: 0x1169CEC
     void HandleEnergyDidChange(float energy);
     // private System.Void CheckAndUpdateStatus()
-    // Offset: 0x11AF0A8
+    // Offset: 0x1169D3C
     void CheckAndUpdateStatus();
     // public System.Void .ctor()
-    // Offset: 0x11AF23C
+    // Offset: 0x1169ED0
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnergyMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x11AF124
+    // Offset: 0x1169DB8
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

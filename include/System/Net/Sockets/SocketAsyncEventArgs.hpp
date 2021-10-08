@@ -179,61 +179,61 @@ namespace System::Net::Sockets {
     // Get instance field reference: private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
     System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*& dyn_Completed();
     // public System.Net.Sockets.Socket get_AcceptSocket()
-    // Offset: 0x17745D4
+    // Offset: 0x1758F98
     System::Net::Sockets::Socket* get_AcceptSocket();
     // public System.Void set_AcceptSocket(System.Net.Sockets.Socket value)
-    // Offset: 0x17745DC
+    // Offset: 0x1758FA0
     void set_AcceptSocket(System::Net::Sockets::Socket* value);
     // public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> get_BufferList()
-    // Offset: 0x17745E4
+    // Offset: 0x1758FA8
     System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* get_BufferList();
     // System.Void set_BytesTransferred(System.Int32 value)
-    // Offset: 0x17745EC
+    // Offset: 0x1758FB0
     void set_BytesTransferred(int value);
     // public System.Int32 get_Count()
-    // Offset: 0x17745F4
+    // Offset: 0x1758FB8
     int get_Count();
     // private System.Void set_LastOperation(System.Net.Sockets.SocketAsyncOperation value)
-    // Offset: 0x17745FC
+    // Offset: 0x1758FC0
     void set_LastOperation(System::Net::Sockets::SocketAsyncOperation value);
     // public System.Void set_SendPacketsSendSize(System.Int32 value)
-    // Offset: 0x1774604
+    // Offset: 0x1758FC8
     void set_SendPacketsSendSize(int value);
     // public System.Net.Sockets.SocketError get_SocketError()
-    // Offset: 0x177460C
+    // Offset: 0x1758FD0
     System::Net::Sockets::SocketError get_SocketError();
     // public System.Void set_SocketError(System.Net.Sockets.SocketError value)
-    // Offset: 0x1774614
+    // Offset: 0x1758FD8
     void set_SocketError(System::Net::Sockets::SocketError value);
     // public System.Object get_UserToken()
-    // Offset: 0x177461C
+    // Offset: 0x1758FE0
     ::Il2CppObject* get_UserToken();
     // public System.Void set_UserToken(System.Object value)
-    // Offset: 0x1774624
+    // Offset: 0x1758FE8
     void set_UserToken(::Il2CppObject* value);
     // public System.Void add_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x177462C
+    // Offset: 0x1758FF0
     void add_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // public System.Void remove_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x17746D0
+    // Offset: 0x1759094
     void remove_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1774820
+    // Offset: 0x17591E4
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x1774834
+    // Offset: 0x17591F8
     void Dispose();
     // System.Void SetLastOperation(System.Net.Sockets.SocketAsyncOperation op)
-    // Offset: 0x17748A8
+    // Offset: 0x175926C
     void SetLastOperation(System::Net::Sockets::SocketAsyncOperation op);
     // System.Void Complete()
-    // Offset: 0x177278C
+    // Offset: 0x1757150
     void Complete();
     // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x1774984
+    // Offset: 0x1759348
     void OnCompleted(System::Net::Sockets::SocketAsyncEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x1774774
+    // Offset: 0x1759138
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -243,7 +243,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncEventArgs*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1774810
+    // Offset: 0x17591D4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

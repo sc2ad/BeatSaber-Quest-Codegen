@@ -187,7 +187,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _specifiedTerrainMaterialName
     ::Il2CppString*& dyn__specifiedTerrainMaterialName();
     // public System.Void .ctor()
-    // Offset: 0x152AE70
+    // Offset: 0x1512834
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     // Base method: System.Void Object::.ctor()

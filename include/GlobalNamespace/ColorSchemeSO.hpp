@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public ColorScheme get_colorScheme()
-    // Offset: 0x26273A4
+    // Offset: 0x260EE4C
     GlobalNamespace::ColorScheme* get_colorScheme();
     // public System.Void .ctor()
-    // Offset: 0x26273AC
+    // Offset: 0x260EE54
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

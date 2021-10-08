@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType switchOverrideRandomValuesEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xF064F8
+    // [SpaceAttribute] Offset: 0xF06160
     // private System.Boolean _overrideRandomValues
     // Size: 0x1
     // Offset: 0x24
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideRandomValues and: startValueOffset
     char __padding3[0x3] = {};
-    // [TooltipAttribute] Offset: 0xF06530
+    // [TooltipAttribute] Offset: 0xF06198
     // private System.Single _startValueOffset
     // Size: 0x4
     // Offset: 0x28
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: endPositionOffset and: transformL
     char __padding6[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF0659C
+    // [SpaceAttribute] Offset: 0xF06204
     // private UnityEngine.Transform _transformL
     // Size: 0x8
     // Offset: 0x48
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transformR;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xF065E4
+    // [InjectAttribute] Offset: 0xF0624C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x58
@@ -173,22 +173,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _randomStartOffset
     float& dyn__randomStartOffset();
     // protected System.Void Start()
-    // Offset: 0x1311F8C
+    // Offset: 0x12B03E8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13122B8
+    // Offset: 0x12B0714
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x13125B4
+    // Offset: 0x12B0A10
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x13126B4
+    // Offset: 0x12B0B10
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateMovementData(System.Int32 beatmapEventDataValue, LightPairSinMoveEventEffect/MovementData movementData, System.Single movementValueOffset)
-    // Offset: 0x13128B0
+    // Offset: 0x12B0D0C
     void UpdateMovementData(int beatmapEventDataValue, GlobalNamespace::LightPairSinMoveEventEffect::MovementData* movementData, float movementValueOffset);
     // public System.Void .ctor()
-    // Offset: 0x1312AF4
+    // Offset: 0x12B0F50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

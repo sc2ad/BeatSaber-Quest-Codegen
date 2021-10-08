@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _missionHelpId
     ::Il2CppString*& dyn__missionHelpId();
     // public System.String get_missionHelpId()
-    // Offset: 0x1185478
+    // Offset: 0x1209D3C
     ::Il2CppString* get_missionHelpId();
     // public System.Void .ctor()
-    // Offset: 0x1185480
+    // Offset: 0x1209D44
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

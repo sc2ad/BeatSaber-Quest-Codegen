@@ -48,21 +48,21 @@ namespace NUnit::Framework::Constraints {
     System::Lazy_1<::Il2CppString*>* displayName;
     // Field size check
     static_assert(sizeof(System::Lazy_1<::Il2CppString*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEFA20
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF688
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Description;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEFA5C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF6C4
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEFA98
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF700
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -83,28 +83,28 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     NUnit::Framework::Constraints::ConstraintBuilder*& dyn_$Builder$k__BackingField();
     // public System.String get_DisplayName()
-    // Offset: 0x192AE94
+    // Offset: 0x1911858
     ::Il2CppString* get_DisplayName();
     // public System.String get_Description()
-    // Offset: 0x192AEEC
+    // Offset: 0x19118B0
     ::Il2CppString* get_Description();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x192AEF4
+    // Offset: 0x19118B8
     void set_Description(::Il2CppString* value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x192AEFC
+    // Offset: 0x19118C0
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x192AF04
+    // Offset: 0x19118C8
     void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x192AF0C
+    // Offset: 0x19118D0
     NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x192AF14
+    // Offset: 0x19118D8
     void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x192AAA4
+    // Offset: 0x1911468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
@@ -114,19 +114,19 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // protected System.String GetStringRepresentation()
-    // Offset: 0x192AF9C
+    // Offset: 0x1911960
     ::Il2CppString* GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x192B0F0
+    // Offset: 0x1911AB4
     static ::Il2CppString* _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x192B21C
+    // Offset: 0x1911BE0
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
     // private System.String <.ctor>b__1_0()
-    // Offset: 0x192B2F8
+    // Offset: 0x1911CBC
     ::Il2CppString* $_ctor$b__1_0();
     // public override System.String ToString()
-    // Offset: 0x192AF1C
+    // Offset: 0x19118E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

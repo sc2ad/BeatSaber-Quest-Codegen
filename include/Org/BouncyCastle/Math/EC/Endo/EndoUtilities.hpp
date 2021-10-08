@@ -41,16 +41,16 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Set static field: static public readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x23189A8
+    // Offset: 0x22FE40C
     static void _cctor();
     // static public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x2318618
+    // Offset: 0x22FE07C
     static ::ArrayW<Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* p, Org::BouncyCastle::Math::BigInteger* k);
     // static public Org.BouncyCastle.Math.EC.ECPoint MapPoint(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x2314BFC
+    // Offset: 0x22FA660
     static Org::BouncyCastle::Math::EC::ECPoint* MapPoint(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::ECPoint* p);
     // static private Org.BouncyCastle.Math.BigInteger CalculateB(Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.BigInteger g, System.Int32 t)
-    // Offset: 0x2318860
+    // Offset: 0x22FE2C4
     static Org::BouncyCastle::Math::BigInteger* CalculateB(Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::BigInteger* g, int t);
   }; // Org.BouncyCastle.Math.EC.Endo.EndoUtilities
   #pragma pack(pop)

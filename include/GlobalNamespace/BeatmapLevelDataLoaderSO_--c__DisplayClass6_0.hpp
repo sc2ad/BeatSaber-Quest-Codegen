@@ -72,10 +72,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
     // System.Void <LoadBeatmalLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
-    // Offset: 0x127D2C0
+    // Offset: 0x124BC14
     void $LoadBeatmalLevelDataAsync$b__0(UnityEngine::AsyncOperation* asyncOperation);
     // public System.Void .ctor()
-    // Offset: 0x127D2B8
+    // Offset: 0x124BC0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

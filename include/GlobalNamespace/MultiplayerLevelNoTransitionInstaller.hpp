@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class MultiplayerLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller {
     public:
     // public System.Void .ctor()
-    // Offset: 0x116B268
+    // Offset: 0x11C087C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

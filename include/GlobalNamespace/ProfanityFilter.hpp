@@ -52,20 +52,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ProfanityFilter/TrieNode _trie
     GlobalNamespace::ProfanityFilter::TrieNode*& dyn__trie();
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
-    // Offset: 0x18D4BC0
+    // Offset: 0x18BB584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* wordList) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter*, creationType>(wordList)));
     }
     // public System.Boolean IsProfane(System.String word)
-    // Offset: 0x18D5270
+    // Offset: 0x18BBC34
     bool IsProfane(::Il2CppString* word);
     // static private System.Collections.Generic.IEnumerable`1<System.Char> GetLookalikeLetters(System.Char c)
-    // Offset: 0x18D5464
+    // Offset: 0x18BBE28
     static System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
     // static private System.Char GetLeetEquivalent(System.Char c)
-    // Offset: 0x18D551C
+    // Offset: 0x18BBEE0
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
   #pragma pack(pop)

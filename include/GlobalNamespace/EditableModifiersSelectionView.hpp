@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [SpaceAttribute] Offset: 0xF12498
+    // [SpaceAttribute] Offset: 0xF12120
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x30
@@ -85,31 +85,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <showClearButton>k__BackingField
     bool& dyn_$showClearButton$k__BackingField();
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x11AE74C
+    // Offset: 0x11693E0
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x11AE754
+    // Offset: 0x11693E8
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x11AE75C
+    // Offset: 0x11693F0
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x11AE764
+    // Offset: 0x11693F8
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x11AE7D0
+    // Offset: 0x1169464
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x11AE7D8
+    // Offset: 0x116946C
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x11AE7E4
+    // Offset: 0x1169478
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x11AE818
+    // Offset: 0x11694AC
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x11AE894
+    // Offset: 0x1169528
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -123,7 +123,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditableModifiersSelectionView*, creationType>()));
     }
     // public override System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x11AE824
+    // Offset: 0x11694B8
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers(GameplayModifiers gameplayModifiers)
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);

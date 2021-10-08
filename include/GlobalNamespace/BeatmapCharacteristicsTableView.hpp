@@ -126,40 +126,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedColumn
     int& dyn__selectedColumn();
     // public System.Void add_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1273644
+    // Offset: 0x1241F98
     void add_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x12736E8
+    // Offset: 0x124203C
     void remove_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // private System.Void Init()
-    // Offset: 0x127378C
+    // Offset: 0x12420E0
     void Init();
     // public System.Void SetData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
-    // Offset: 0x1273858
+    // Offset: 0x12421AC
     void SetData(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // protected System.Void OnDestroy()
-    // Offset: 0x12738B0
+    // Offset: 0x1242204
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x1273944
+    // Offset: 0x1242298
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x127394C
+    // Offset: 0x12422A0
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x12739E4
+    // Offset: 0x1242338
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0x1273B40
+    // Offset: 0x1242494
     void HandleDidSelectColumnEvent(HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1273BE8
+    // Offset: 0x124253C
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x1273CA8
+    // Offset: 0x12425FC
     void SelectCellWithIdx(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1273CC8
+    // Offset: 0x124261C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

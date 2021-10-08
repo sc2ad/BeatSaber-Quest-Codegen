@@ -135,43 +135,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSO _selectedAndHighlightedColor2
     GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor2();
     // public UnityEngine.Color get_normalColor1()
-    // Offset: 0x1140B5C
+    // Offset: 0x11D4D64
     UnityEngine::Color get_normalColor1();
     // public UnityEngine.Color get_normalColor2()
-    // Offset: 0x1140B68
+    // Offset: 0x11D4D70
     UnityEngine::Color get_normalColor2();
     // public UnityEngine.Color get_highlightColor1()
-    // Offset: 0x1140DC8
+    // Offset: 0x11D4FD0
     UnityEngine::Color get_highlightColor1();
     // public UnityEngine.Color get_highlightColor2()
-    // Offset: 0x1140DD4
+    // Offset: 0x11D4FDC
     UnityEngine::Color get_highlightColor2();
     // public UnityEngine.Color get_pressedColor1()
-    // Offset: 0x1140E6C
+    // Offset: 0x11D5074
     UnityEngine::Color get_pressedColor1();
     // public UnityEngine.Color get_pressedColor2()
-    // Offset: 0x1140E78
+    // Offset: 0x11D5080
     UnityEngine::Color get_pressedColor2();
     // public UnityEngine.Color get_disabledColor1()
-    // Offset: 0x1140F10
+    // Offset: 0x11D5118
     UnityEngine::Color get_disabledColor1();
     // public UnityEngine.Color get_disabledColor2()
-    // Offset: 0x1140F1C
+    // Offset: 0x11D5124
     UnityEngine::Color get_disabledColor2();
     // public UnityEngine.Color get_selectedColor1()
-    // Offset: 0x1140FB4
+    // Offset: 0x11D51BC
     UnityEngine::Color get_selectedColor1();
     // public UnityEngine.Color get_selectedColor2()
-    // Offset: 0x1140FC0
+    // Offset: 0x11D51C8
     UnityEngine::Color get_selectedColor2();
     // public UnityEngine.Color get_selectedAndHighlightedColor1()
-    // Offset: 0x1141058
+    // Offset: 0x11D5260
     UnityEngine::Color get_selectedAndHighlightedColor1();
     // public UnityEngine.Color get_selectedAndHighlightedColor2()
-    // Offset: 0x1141064
+    // Offset: 0x11D526C
     UnityEngine::Color get_selectedAndHighlightedColor2();
     // public System.Void .ctor()
-    // Offset: 0x114179C
+    // Offset: 0x11D59A8
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

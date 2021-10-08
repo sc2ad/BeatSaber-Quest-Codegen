@@ -68,33 +68,33 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
     ::ArrayW<::ArrayW<uint8_t>>& dyn_tmpBuffers();
     // public System.Void .ctor(System.IO.Stream inStream)
-    // Offset: 0x18DF78C
+    // Offset: 0x18C6150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1StreamParser* New_ctor(System::IO::Stream* inStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1StreamParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1StreamParser*, creationType>(inStream)));
     }
     // public System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x18E0CB0
+    // Offset: 0x18C7674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1StreamParser* New_ctor(System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1StreamParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1StreamParser*, creationType>(inStream, limit)));
     }
     // Org.BouncyCastle.Asn1.IAsn1Convertible ReadIndef(System.Int32 tagValue)
-    // Offset: 0x18E4D60
+    // Offset: 0x18CB724
     Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int tagValue);
     // Org.BouncyCastle.Asn1.Asn1Object ReadTaggedObject(System.Boolean constructed, System.Int32 tag)
-    // Offset: 0x18DF7C0
+    // Offset: 0x18C6184
     Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int tag);
     // public Org.BouncyCastle.Asn1.IAsn1Convertible ReadObject()
-    // Offset: 0x18E5070
+    // Offset: 0x18CBA34
     Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
     // private System.Void Set00Check(System.Boolean enabled)
-    // Offset: 0x18E55C4
+    // Offset: 0x18CBF88
     void Set00Check(bool enabled);
     // Org.BouncyCastle.Asn1.Asn1EncodableVector ReadVector()
-    // Offset: 0x18E4EA4
+    // Offset: 0x18CB868
     Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
   }; // Org.BouncyCastle.Asn1.Asn1StreamParser
   #pragma pack(pop)

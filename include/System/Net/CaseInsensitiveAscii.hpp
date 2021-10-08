@@ -40,22 +40,22 @@ namespace System::Net {
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x156F014
+    // Offset: 0x15559D8
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x156EAD0
+    // Offset: 0x1555494
     int GetHashCode(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x156EBF4
+    // Offset: 0x15555B8
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x156ED78
+    // Offset: 0x155573C
     int FastGetHashCode(::Il2CppString* myString);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x156EE80
+    // Offset: 0x1555844
     bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Void .ctor()
-    // Offset: 0x156F00C
+    // Offset: 0x15559D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

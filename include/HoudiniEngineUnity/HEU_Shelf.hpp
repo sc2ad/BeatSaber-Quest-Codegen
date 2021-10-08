@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> _tools
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*& dyn__tools();
     // public System.Void .ctor()
-    // Offset: 0x17D644C
+    // Offset: 0x17BAE10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

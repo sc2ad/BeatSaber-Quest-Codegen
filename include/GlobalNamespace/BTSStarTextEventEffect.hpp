@@ -74,14 +74,14 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>) == 0x8);
-    // [InjectAttribute] Offset: 0xEFE9C8
+    // [InjectAttribute] Offset: 0xEFE630
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFE9D8
+    // [InjectAttribute] Offset: 0xEFE640
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
@@ -130,22 +130,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
     System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*& dyn__idsToStarTextPositionDictionary();
     // public System.Void add_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x126861C
+    // Offset: 0x1236F70
     void add_startStarTextAnimationEvent(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* value);
     // public System.Void remove_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x1268750
+    // Offset: 0x12370A4
     void remove_startStarTextAnimationEvent(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* value);
     // protected System.Void Start()
-    // Offset: 0x1268A84
+    // Offset: 0x12373D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1268C38
+    // Offset: 0x123758C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1268D2C
+    // Offset: 0x1237680
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1268F2C
+    // Offset: 0x1237880
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

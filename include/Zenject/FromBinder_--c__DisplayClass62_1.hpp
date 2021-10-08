@@ -62,10 +62,10 @@ namespace Zenject {
     // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass62_0 CS$<>8__locals1
     Zenject::FromBinder::$$c__DisplayClass62_0*& dyn_CS$$$8__locals1();
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInParents>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x182F190
+    // Offset: 0x1814B54
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInParents$b__1(Zenject::InjectContext* ctx);
     // public System.Void .ctor()
-    // Offset: 0x182F188
+    // Offset: 0x1814B4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

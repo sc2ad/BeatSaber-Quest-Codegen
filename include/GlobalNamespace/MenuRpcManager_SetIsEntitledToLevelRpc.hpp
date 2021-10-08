@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetIsEntitledToLevelRpc : public GlobalNamespace::RemoteProcedureCall_2<::Il2CppString*, int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18C8B5C
+    // Offset: 0x18AF520
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

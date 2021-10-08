@@ -254,91 +254,91 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _hasAssetPathTag
     bool& dyn__hasAssetPathTag();
     // public System.Int32 get_ParmID()
-    // Offset: 0x17A4428
+    // Offset: 0x1787DEC
     int get_ParmID();
     // public System.Int32 get_ParentID()
-    // Offset: 0x17A4430
+    // Offset: 0x1787DF4
     int get_ParentID();
     // public System.Int32 get_ChildIndex()
-    // Offset: 0x17A4438
+    // Offset: 0x1787DFC
     int get_ChildIndex();
     // public System.Int32 get_ParmSize()
-    // Offset: 0x17A4440
+    // Offset: 0x1787E04
     int get_ParmSize();
     // public System.Int32 get_IntMin()
-    // Offset: 0x17A44AC
+    // Offset: 0x1787E70
     int get_IntMin();
     // public System.Int32 get_IntMax()
-    // Offset: 0x17A4520
+    // Offset: 0x1787EE4
     int get_IntMax();
     // public System.Int32 get_IntUIMin()
-    // Offset: 0x17A4594
+    // Offset: 0x1787F58
     int get_IntUIMin();
     // public System.Int32 get_IntUIMax()
-    // Offset: 0x17A4608
+    // Offset: 0x1787FCC
     int get_IntUIMax();
     // public System.Single get_FloatMin()
-    // Offset: 0x17A467C
+    // Offset: 0x1788040
     float get_FloatMin();
     // public System.Single get_FloatMax()
-    // Offset: 0x17A4684
+    // Offset: 0x1788048
     float get_FloatMax();
     // public System.Single get_FloatUIMin()
-    // Offset: 0x17A468C
+    // Offset: 0x1788050
     float get_FloatUIMin();
     // public System.Single get_FloatUIMax()
-    // Offset: 0x17A4694
+    // Offset: 0x1788058
     float get_FloatUIMax();
     // public System.Boolean IsInt()
-    // Offset: 0x17A4448
+    // Offset: 0x1787E0C
     bool IsInt();
     // public System.Boolean IsFloat()
-    // Offset: 0x17A4458
+    // Offset: 0x1787E1C
     bool IsFloat();
     // public System.Boolean IsString()
-    // Offset: 0x17A4468
+    // Offset: 0x1787E2C
     bool IsString();
     // public System.Boolean IsPathFile()
-    // Offset: 0x17A4478
+    // Offset: 0x1787E3C
     bool IsPathFile();
     // public System.Boolean HasMin()
-    // Offset: 0x17A448C
+    // Offset: 0x1787E50
     bool HasMin();
     // public System.Boolean HasMax()
-    // Offset: 0x17A4494
+    // Offset: 0x1787E58
     bool HasMax();
     // public System.Boolean HasUIMin()
-    // Offset: 0x17A449C
+    // Offset: 0x1787E60
     bool HasUIMin();
     // public System.Boolean HasUIMax()
-    // Offset: 0x17A44A4
+    // Offset: 0x1787E68
     bool HasUIMax();
     // public System.Boolean IsContainer()
-    // Offset: 0x17A469C
+    // Offset: 0x1788060
     bool IsContainer();
     // public System.Boolean IsMultiParam()
-    // Offset: 0x17A46F8
+    // Offset: 0x17880BC
     bool IsMultiParam();
     // public System.Boolean IsRamp()
-    // Offset: 0x17A4708
+    // Offset: 0x17880CC
     bool IsRamp();
     // public System.Boolean IsToggle()
-    // Offset: 0x17A4718
+    // Offset: 0x17880DC
     bool IsToggle();
     // public System.Boolean IsColor()
-    // Offset: 0x17A4728
+    // Offset: 0x17880EC
     bool IsColor();
     // public UnityEngine.Vector3 ToVector3()
-    // Offset: 0x17A4738
+    // Offset: 0x17880FC
     UnityEngine::Vector3 ToVector3();
     // public System.Boolean IsAssetPath()
-    // Offset: 0x17A47FC
+    // Offset: 0x17881C0
     bool IsAssetPath();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterData other)
-    // Offset: 0x17A4804
+    // Offset: 0x17881C8
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterData* other);
     // public System.Void .ctor()
-    // Offset: 0x17A4D9C
+    // Offset: 0x1788760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

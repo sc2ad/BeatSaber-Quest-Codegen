@@ -38,10 +38,10 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x1F55B60
+    // Offset: 0x1F3C5C4
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
     // protected System.Void .ctor()
-    // Offset: 0x1F55B6C
+    // Offset: 0x1F3C5D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

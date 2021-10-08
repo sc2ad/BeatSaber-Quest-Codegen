@@ -28,19 +28,19 @@ namespace UnityEngine::Timeline {
   class TimelineUndo : public ::Il2CppObject {
     public:
     // static public System.Void PushDestroyUndo(UnityEngine.Timeline.TimelineAsset timeline, UnityEngine.Object thingToDirty, UnityEngine.Object objectToDestroy)
-    // Offset: 0x25655E0
+    // Offset: 0x254B044
     static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset* timeline, UnityEngine::Object* thingToDirty, UnityEngine::Object* objectToDestroy);
     // static public System.Void PushUndo(UnityEngine.Object[] thingsToDirty, System.String operation)
-    // Offset: 0x2565680
+    // Offset: 0x254B0E4
     static void PushUndo(::ArrayW<UnityEngine::Object*> thingsToDirty, ::Il2CppString* operation);
     // static public System.Void PushUndo(UnityEngine.Object thingToDirty, System.String operation)
-    // Offset: 0x2565684
+    // Offset: 0x254B0E8
     static void PushUndo(UnityEngine::Object* thingToDirty, ::Il2CppString* operation);
     // static public System.Void RegisterCreatedObjectUndo(UnityEngine.Object thingCreated, System.String operation)
-    // Offset: 0x2565688
+    // Offset: 0x254B0EC
     static void RegisterCreatedObjectUndo(UnityEngine::Object* thingCreated, ::Il2CppString* operation);
     // static private System.String UndoName(System.String name)
-    // Offset: 0x256568C
+    // Offset: 0x254B0F0
     static ::Il2CppString* UndoName(::Il2CppString* name);
   }; // UnityEngine.Timeline.TimelineUndo
   #pragma pack(pop)

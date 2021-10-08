@@ -89,7 +89,7 @@ namespace Mono::Security::Interface {
     // Offset: 0xFFFFFFFF
     bool ValidateCertificate(Mono::Security::Interface::ICertificateValidator2* validator, ::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<Mono::Security::Interface::MonoSslPolicyErrors> errors, ByRef<int> status11);
     // System.Void .ctor()
-    // Offset: 0x1FA12E0
+    // Offset: 0x1F88D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

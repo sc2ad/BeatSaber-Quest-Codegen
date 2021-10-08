@@ -68,10 +68,10 @@ namespace Valve::VR {
     // Get instance field reference: public Valve.VR.VREvent_Data_t data
     Valve::VR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0x25DB600
+    // Offset: 0x25C20A8
     VREvent_t_Packed(Valve::VR::VREvent_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0x25DB640
+    // Offset: 0x25C20E8
     void Unpack(ByRef<Valve::VR::VREvent_t> unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

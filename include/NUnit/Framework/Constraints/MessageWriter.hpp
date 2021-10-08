@@ -40,7 +40,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     int get_MaxLineLength();
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    // Offset: 0x192CB4C
+    // Offset: 0x1913510
     void WriteMessageLine(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -67,7 +67,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     void WriteCollectionElements(System::Collections::IEnumerable* collection, int64_t start, int max);
     // protected System.Void .ctor()
-    // Offset: 0x192DC94
+    // Offset: 0x1914658
     // Implemented from: System.IO.StringWriter
     // Base method: System.Void StringWriter::.ctor()
     // Base method: System.Void TextWriter::.ctor()

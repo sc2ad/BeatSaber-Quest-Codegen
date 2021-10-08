@@ -22,12 +22,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class TnepresEngine : public Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
     public:
     // public override System.String get_AlgorithmName()
-    // Offset: 0x204CC44
+    // Offset: 0x20376A8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.String SerpentEngineBase::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x2051568
+    // Offset: 0x203BFCC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -37,17 +37,17 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<TnepresEngine*, creationType>()));
     }
     // protected override System.Int32[] MakeWorkingKey(System.Byte[] key)
-    // Offset: 0x204CC8C
+    // Offset: 0x20376F0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Int32[] SerpentEngineBase::MakeWorkingKey(System.Byte[] key)
     ::ArrayW<int> MakeWorkingKey(::ArrayW<uint8_t> key);
     // protected override System.Void EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x204E734
+    // Offset: 0x2039198
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // protected override System.Void DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x204FCA4
+    // Offset: 0x203A708
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);

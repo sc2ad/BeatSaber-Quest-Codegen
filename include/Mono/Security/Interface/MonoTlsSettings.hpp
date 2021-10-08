@@ -175,92 +175,92 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private Mono.Security.Interface.ICertificateValidator certificateValidator
     Mono::Security::Interface::ICertificateValidator*& dyn_certificateValidator();
     // public Mono.Security.Interface.MonoRemoteCertificateValidationCallback get_RemoteCertificateValidationCallback()
-    // Offset: 0x1FA1368
+    // Offset: 0x1F88DCC
     Mono::Security::Interface::MonoRemoteCertificateValidationCallback* get_RemoteCertificateValidationCallback();
     // public System.Void set_RemoteCertificateValidationCallback(Mono.Security.Interface.MonoRemoteCertificateValidationCallback value)
-    // Offset: 0x1FA1370
+    // Offset: 0x1F88DD4
     void set_RemoteCertificateValidationCallback(Mono::Security::Interface::MonoRemoteCertificateValidationCallback* value);
     // public Mono.Security.Interface.MonoLocalCertificateSelectionCallback get_ClientCertificateSelectionCallback()
-    // Offset: 0x1FA1378
+    // Offset: 0x1F88DDC
     Mono::Security::Interface::MonoLocalCertificateSelectionCallback* get_ClientCertificateSelectionCallback();
     // public System.Void set_ClientCertificateSelectionCallback(Mono.Security.Interface.MonoLocalCertificateSelectionCallback value)
-    // Offset: 0x1FA1380
+    // Offset: 0x1F88DE4
     void set_ClientCertificateSelectionCallback(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
     // public System.Nullable`1<System.Boolean> get_UseServicePointManagerCallback()
-    // Offset: 0x1FA1388
+    // Offset: 0x1F88DEC
     System::Nullable_1<bool> get_UseServicePointManagerCallback();
     // public System.Void set_UseServicePointManagerCallback(System.Nullable`1<System.Boolean> value)
-    // Offset: 0x1FA1390
+    // Offset: 0x1F88DF4
     void set_UseServicePointManagerCallback(System::Nullable_1<bool> value);
     // public System.Boolean get_CallbackNeedsCertificateChain()
-    // Offset: 0x1FA1398
+    // Offset: 0x1F88DFC
     bool get_CallbackNeedsCertificateChain();
     // public System.Nullable`1<System.DateTime> get_CertificateValidationTime()
-    // Offset: 0x1FA13A0
+    // Offset: 0x1F88E04
     System::Nullable_1<System::DateTime> get_CertificateValidationTime();
     // public System.Void set_CertificateValidationTime(System.Nullable`1<System.DateTime> value)
-    // Offset: 0x1FA13AC
+    // Offset: 0x1F88E10
     void set_CertificateValidationTime(System::Nullable_1<System::DateTime> value);
     // public System.Security.Cryptography.X509Certificates.X509CertificateCollection get_TrustAnchors()
-    // Offset: 0x1FA13B4
+    // Offset: 0x1F88E18
     System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_TrustAnchors();
     // public System.Void set_TrustAnchors(System.Security.Cryptography.X509Certificates.X509CertificateCollection value)
-    // Offset: 0x1FA13BC
+    // Offset: 0x1F88E20
     void set_TrustAnchors(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
     // public System.Object get_UserSettings()
-    // Offset: 0x1FA13C4
+    // Offset: 0x1F88E28
     ::Il2CppObject* get_UserSettings();
     // public System.Void set_UserSettings(System.Object value)
-    // Offset: 0x1FA13CC
+    // Offset: 0x1F88E30
     void set_UserSettings(::Il2CppObject* value);
     // System.String[] get_CertificateSearchPaths()
-    // Offset: 0x1FA13D4
+    // Offset: 0x1F88E38
     ::ArrayW<::Il2CppString*> get_CertificateSearchPaths();
     // System.Void set_CertificateSearchPaths(System.String[] value)
-    // Offset: 0x1FA13DC
+    // Offset: 0x1F88E40
     void set_CertificateSearchPaths(::ArrayW<::Il2CppString*> value);
     // System.Boolean get_SendCloseNotify()
-    // Offset: 0x1FA13E4
+    // Offset: 0x1F88E48
     bool get_SendCloseNotify();
     // System.Void set_SendCloseNotify(System.Boolean value)
-    // Offset: 0x1FA13EC
+    // Offset: 0x1F88E50
     void set_SendCloseNotify(bool value);
     // public System.Nullable`1<Mono.Security.Interface.TlsProtocols> get_EnabledProtocols()
-    // Offset: 0x1FA13F8
+    // Offset: 0x1F88E5C
     System::Nullable_1<Mono::Security::Interface::TlsProtocols> get_EnabledProtocols();
     // public System.Void set_EnabledProtocols(System.Nullable`1<Mono.Security.Interface.TlsProtocols> value)
-    // Offset: 0x1FA1400
+    // Offset: 0x1F88E64
     void set_EnabledProtocols(System::Nullable_1<Mono::Security::Interface::TlsProtocols> value);
     // public Mono.Security.Interface.CipherSuiteCode[] get_EnabledCiphers()
-    // Offset: 0x1FA1408
+    // Offset: 0x1F88E6C
     ::ArrayW<Mono::Security::Interface::CipherSuiteCode> get_EnabledCiphers();
     // public System.Void set_EnabledCiphers(Mono.Security.Interface.CipherSuiteCode[] value)
-    // Offset: 0x1FA1410
+    // Offset: 0x1F88E74
     void set_EnabledCiphers(::ArrayW<Mono::Security::Interface::CipherSuiteCode> value);
     // static public Mono.Security.Interface.MonoTlsSettings get_DefaultSettings()
-    // Offset: 0x1FA142C
+    // Offset: 0x1F88E90
     static Mono::Security::Interface::MonoTlsSettings* get_DefaultSettings();
     // public Mono.Security.Interface.ICertificateValidator get_CertificateValidator()
-    // Offset: 0x1FA153C
+    // Offset: 0x1F88FA0
     Mono::Security::Interface::ICertificateValidator* get_CertificateValidator();
     // private System.Void .ctor(Mono.Security.Interface.MonoTlsSettings other)
-    // Offset: 0x1FA15D4
+    // Offset: 0x1F89038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsSettings* New_ctor(Mono::Security::Interface::MonoTlsSettings* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::MonoTlsSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsSettings*, creationType>(other)));
     }
     // static public Mono.Security.Interface.MonoTlsSettings CopyDefaultSettings()
-    // Offset: 0x1FA14C0
+    // Offset: 0x1F88F24
     static Mono::Security::Interface::MonoTlsSettings* CopyDefaultSettings();
     // public Mono.Security.Interface.MonoTlsSettings CloneWithValidator(Mono.Security.Interface.ICertificateValidator validator)
-    // Offset: 0x1FA1544
+    // Offset: 0x1F88FA8
     Mono::Security::Interface::MonoTlsSettings* CloneWithValidator(Mono::Security::Interface::ICertificateValidator* validator);
     // public Mono.Security.Interface.MonoTlsSettings Clone()
-    // Offset: 0x1FA14DC
+    // Offset: 0x1F88F40
     Mono::Security::Interface::MonoTlsSettings* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1FA1418
+    // Offset: 0x1F88E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

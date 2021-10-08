@@ -54,10 +54,10 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo <GetPropertyInfos>b__1(System.Reflection.PropertyInfo x)
-    // Offset: 0x1837A9C
+    // Offset: 0x181D460
     Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* $GetPropertyInfos$b__1(System::Reflection::PropertyInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1836CC4
+    // Offset: 0x181C688
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

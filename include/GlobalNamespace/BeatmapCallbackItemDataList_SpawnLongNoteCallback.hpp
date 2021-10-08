@@ -37,20 +37,20 @@ namespace GlobalNamespace {
   class BeatmapCallbackItemDataList::SpawnLongNoteCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1271A90
+    // Offset: 0x12403E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::SpawnLongNoteCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::SpawnLongNoteCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::SpawnLongNoteCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x1271AA0
+    // Offset: 0x12403F4
     void Invoke(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
     // public System.IAsyncResult BeginInvoke(NoteData noteData, System.Single cutDirectionAngleOffset, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1271EA0
+    // Offset: 0x12407F4
     System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1271F3C
+    // Offset: 0x1240890
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnLongNoteCallback
   #pragma pack(pop)

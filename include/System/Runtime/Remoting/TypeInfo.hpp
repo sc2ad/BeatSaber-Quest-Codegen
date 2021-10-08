@@ -63,17 +63,17 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.String[] interfacesImplemented
     ::ArrayW<::Il2CppString*>& dyn_interfacesImplemented();
     // public System.String get_TypeName()
-    // Offset: 0x17E3278
+    // Offset: 0x17C8C3C
     ::Il2CppString* get_TypeName();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x17E0AD4
+    // Offset: 0x17C6498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInfo* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::TypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInfo*, creationType>(type)));
     }
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
-    // Offset: 0x17E3280
+    // Offset: 0x17C8C44
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)

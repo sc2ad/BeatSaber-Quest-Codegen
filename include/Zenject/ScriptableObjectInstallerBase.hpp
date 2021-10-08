@@ -34,7 +34,7 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xEC3F5C
+    // [InjectAttribute] Offset: 0xEC697C
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -51,16 +51,16 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x189F678
+    // Offset: 0x188603C
     Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0x189F680
+    // Offset: 0x1886044
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0x189F688
+    // Offset: 0x188604C
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x189F670
+    // Offset: 0x1886034
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

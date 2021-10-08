@@ -45,14 +45,14 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF45B0
+    // [TooltipAttribute] Offset: 0xEF4218
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints;
     // Field size check
     static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReaction::HitPointEffector*>) == 0x8);
-    // [TooltipAttribute] Offset: 0xEF45E8
+    // [TooltipAttribute] Offset: 0xEF4250
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -65,13 +65,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone*>& dyn_boneHitPoints();
     // public System.Boolean get_inProgress()
-    // Offset: 0x1E91CB0
+    // Offset: 0x1E77714
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1E91FA0
+    // Offset: 0x1E77A04
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x1E9230C
+    // Offset: 0x1E77D70
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -85,7 +85,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1E91D80
+    // Offset: 0x1E777E4
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

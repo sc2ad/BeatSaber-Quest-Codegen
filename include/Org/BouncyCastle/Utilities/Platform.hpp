@@ -49,52 +49,52 @@ namespace Org::BouncyCastle::Utilities {
     // Set static field: static readonly System.String NewLine
     static void _set_NewLine(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x2183A30
+    // Offset: 0x216D494
     static void _cctor();
     // static private System.String GetNewLine()
-    // Offset: 0x2183704
+    // Offset: 0x216D168
     static ::Il2CppString* GetNewLine();
     // static System.Boolean EqualsIgnoreCase(System.String a, System.String b)
-    // Offset: 0x218370C
+    // Offset: 0x216D170
     static bool EqualsIgnoreCase(::Il2CppString* a, ::Il2CppString* b);
     // static System.String GetEnvironmentVariable(System.String variable)
-    // Offset: 0x2183814
+    // Offset: 0x216D278
     static ::Il2CppString* GetEnvironmentVariable(::Il2CppString* variable);
     // static System.Exception CreateNotImplementedException(System.String message)
-    // Offset: 0x21838D4
+    // Offset: 0x216D338
     static System::Exception* CreateNotImplementedException(::Il2CppString* message);
     // static System.Collections.IList CreateArrayList()
-    // Offset: 0x2183104
+    // Offset: 0x216CB68
     static System::Collections::IList* CreateArrayList();
     // static System.Collections.IList CreateArrayList(System.Int32 capacity)
-    // Offset: 0x2183938
+    // Offset: 0x216D39C
     static System::Collections::IList* CreateArrayList(int capacity);
     // static System.Collections.IList CreateArrayList(System.Collections.ICollection collection)
-    // Offset: 0x21829F8
+    // Offset: 0x216C45C
     static System::Collections::IList* CreateArrayList(System::Collections::ICollection* collection);
     // static System.Collections.IDictionary CreateHashtable()
-    // Offset: 0x21802D0
+    // Offset: 0x2169D34
     static System::Collections::IDictionary* CreateHashtable();
     // static System.Collections.IDictionary CreateHashtable(System.Int32 capacity)
-    // Offset: 0x218399C
+    // Offset: 0x216D400
     static System::Collections::IDictionary* CreateHashtable(int capacity);
     // static System.String ToUpperInvariant(System.String s)
-    // Offset: 0x2183798
+    // Offset: 0x216D1FC
     static ::Il2CppString* ToUpperInvariant(::Il2CppString* s);
     // static System.Void Dispose(System.IO.Stream s)
-    // Offset: 0x21826C0
+    // Offset: 0x216C124
     static void Dispose(System::IO::Stream* s);
     // static System.Int32 IndexOf(System.String source, System.String value)
-    // Offset: 0x2183160
+    // Offset: 0x216CBC4
     static int IndexOf(::Il2CppString* source, ::Il2CppString* value);
     // static System.Boolean StartsWith(System.String source, System.String prefix)
-    // Offset: 0x2182C5C
+    // Offset: 0x216C6C0
     static bool StartsWith(::Il2CppString* source, ::Il2CppString* prefix);
     // static System.Boolean EndsWith(System.String source, System.String suffix)
-    // Offset: 0x2182CF0
+    // Offset: 0x216C754
     static bool EndsWith(::Il2CppString* source, ::Il2CppString* suffix);
     // static System.String GetTypeName(System.Object obj)
-    // Offset: 0x2183A00
+    // Offset: 0x216D464
     static ::Il2CppString* GetTypeName(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Utilities.Platform
   #pragma pack(pop)

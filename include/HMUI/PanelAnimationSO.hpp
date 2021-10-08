@@ -87,19 +87,19 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.AnimationCurve _parentAlphaAnimationCurve
     UnityEngine::AnimationCurve*& dyn__parentAlphaAnimationCurve();
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
-    // Offset: 0x1413FEC
+    // Offset: 0x13F79B0
     void ExecuteAnimation(UnityEngine::GameObject* go);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, System.Action finishedCallback)
-    // Offset: 0x1413FFC
+    // Offset: 0x13F79C0
     void ExecuteAnimation(UnityEngine::GameObject* go, System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Action finishedCallback)
-    // Offset: 0x141400C
+    // Offset: 0x13F79D0
     void ExecuteAnimation(UnityEngine::GameObject* go, UnityEngine::CanvasGroup* parentCanvasGroup, System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Boolean instant, System.Action finishedCallback)
-    // Offset: 0x1411DD8
+    // Offset: 0x13F579C
     void ExecuteAnimation(UnityEngine::GameObject* go, UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, System::Action* finishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x1414018
+    // Offset: 0x13F79DC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

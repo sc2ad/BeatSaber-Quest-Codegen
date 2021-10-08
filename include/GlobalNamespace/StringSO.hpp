@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   class StringSO : public GlobalNamespace::ObservableVariableSO_1<::Il2CppString*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x259AFD4
+    // Offset: 0x257FA7C
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

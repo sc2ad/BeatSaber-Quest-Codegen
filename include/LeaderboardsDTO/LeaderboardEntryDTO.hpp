@@ -88,7 +88,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x114AD6C
+    // Offset: 0x11DEF78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

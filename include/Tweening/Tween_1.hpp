@@ -98,6 +98,13 @@ namespace Tweening {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tween_1<T>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromValue), ::il2cpp_utils::ExtractType(toValue), ::il2cpp_utils::ExtractType(onUpdate), ::il2cpp_utils::ExtractType(duration), ::il2cpp_utils::ExtractType(easeType), ::il2cpp_utils::ExtractType(delay), ::il2cpp_utils::ExtractType(t)})));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, fromValue, toValue, onUpdate, duration, easeType, delay, t);
     }
+    // static protected System.Void OnDespawned(Tweening.Tween`1<T> t)
+    // Offset: 0xFFFFFFFF
+    static void OnDespawned(Tweening::Tween_1<T>* t) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::OnDespawned");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tween_1<T>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, t);
+    }
     // private System.Void Init(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, Tweening.InterpolationType interpolationType, Tweening.EaseType easeType, UnityEngine.AnimationCurve animationCurve, System.Single delay)
     // Offset: 0xFFFFFFFF
     void Init(T fromValue, T toValue, System::Action_1<T>* onUpdate, float duration, Tweening::InterpolationType interpolationType, Tweening::EaseType easeType, UnityEngine::AnimationCurve* animationCurve, float delay) {

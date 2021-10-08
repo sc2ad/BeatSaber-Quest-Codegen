@@ -33,20 +33,20 @@ namespace GlobalNamespace {
   class LevelMissionParser::ParserFunction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130B8D0
+    // Offset: 0x12AA048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelMissionParser::ParserFunction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelMissionParser::ParserFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelMissionParser::ParserFunction*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Single[] functionParams, System.Int32 paramCount)
-    // Offset: 0x130B4B8
+    // Offset: 0x12A9C30
     bool Invoke(::ArrayW<float> functionParams, int paramCount);
     // public System.IAsyncResult BeginInvoke(System.Single[] functionParams, System.Int32 paramCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130B8E0
+    // Offset: 0x12AA058
     System::IAsyncResult* BeginInvoke(::ArrayW<float> functionParams, int paramCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130B97C
+    // Offset: 0x12AA0F4
     bool EndInvoke(System::IAsyncResult* result);
   }; // LevelMissionParser/ParserFunction
   #pragma pack(pop)

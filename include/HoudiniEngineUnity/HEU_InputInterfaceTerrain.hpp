@@ -42,37 +42,37 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain
     class HEU_InputDataTerrain;
     // private System.Boolean SetMaskLayer(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputInterfaceTerrain/HoudiniEngineUnity.HEU_InputDataTerrain idt, ref HoudiniEngineUnity.HAPI_VolumeInfo baseVolumeInfo)
-    // Offset: 0x1521CAC
+    // Offset: 0x1509670
     bool SetMaskLayer(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* idt, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);
     // public System.Boolean CreateHeightFieldInputNode(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputInterfaceTerrain/HoudiniEngineUnity.HEU_InputDataTerrain idt)
-    // Offset: 0x1520FE0
+    // Offset: 0x15089A4
     bool CreateHeightFieldInputNode(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* idt);
     // public System.Boolean UploadHeightValuesWithTransform(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputInterfaceTerrain/HoudiniEngineUnity.HEU_InputDataTerrain idt, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo)
-    // Offset: 0x1521120
+    // Offset: 0x1508AE4
     bool UploadHeightValuesWithTransform(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* idt, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
     // public System.Boolean UploadAlphaMaps(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputInterfaceTerrain/HoudiniEngineUnity.HEU_InputDataTerrain idt, ref HoudiniEngineUnity.HAPI_VolumeInfo baseVolumeInfo, out System.Boolean bMaskSet)
-    // Offset: 0x1521778
+    // Offset: 0x150913C
     bool UploadAlphaMaps(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* idt, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo, ByRef<bool> bMaskSet);
     // public System.Boolean SetHeightFieldData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 volumeNodeID, System.Int32 partID, System.Single[] heightValues, System.String heightFieldName, ref HoudiniEngineUnity.HAPI_VolumeInfo baseVolumeInfo)
-    // Offset: 0x1521DB0
+    // Offset: 0x1509774
     bool SetHeightFieldData(HoudiniEngineUnity::HEU_SessionBase* session, int volumeNodeID, int partID, ::ArrayW<float> heightValues, ::Il2CppString* heightFieldName, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);
     // public System.Boolean SetTerrainDataAttributesToHeightField(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoNodeID, System.Int32 partID, UnityEngine.TerrainData terrainData)
-    // Offset: 0x15221F8
+    // Offset: 0x1509BBC
     bool SetTerrainDataAttributesToHeightField(HoudiniEngineUnity::HEU_SessionBase* session, int geoNodeID, int partID, UnityEngine::TerrainData* terrainData);
     // public System.Boolean SetTerrainLayerAttributesToHeightField(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoNodeID, System.Int32 partID, UnityEngine.TerrainLayer terrainLayer)
-    // Offset: 0x1522640
+    // Offset: 0x150A004
     bool SetTerrainLayerAttributesToHeightField(HoudiniEngineUnity::HEU_SessionBase* session, int geoNodeID, int partID, UnityEngine::TerrainLayer* terrainLayer);
     // public System.Void SetTreePrototypes(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoNodeID, System.Int32 partID, UnityEngine.TerrainData terrainData)
-    // Offset: 0x15223A0
+    // Offset: 0x1509D64
     void SetTreePrototypes(HoudiniEngineUnity::HEU_SessionBase* session, int geoNodeID, int partID, UnityEngine::TerrainData* terrainData);
     // public System.Void SetTreeInstances(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoNodeID, System.Int32 partID, UnityEngine.TerrainData terrainData)
-    // Offset: 0x152286C
+    // Offset: 0x150A230
     void SetTreeInstances(HoudiniEngineUnity::HEU_SessionBase* session, int geoNodeID, int partID, UnityEngine::TerrainData* terrainData);
     // public HoudiniEngineUnity.HEU_InputInterfaceTerrain/HoudiniEngineUnity.HEU_InputDataTerrain GenerateTerrainDataFromGameObject(UnityEngine.GameObject inputObject)
-    // Offset: 0x1520C9C
+    // Offset: 0x1508660
     HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* GenerateTerrainDataFromGameObject(UnityEngine::GameObject* inputObject);
     // public System.Void .ctor()
-    // Offset: 0x1520AD0
+    // Offset: 0x1508494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,12 +81,12 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterfaceTerrain*, creationType>()));
     }
     // public override System.Boolean CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
-    // Offset: 0x1520AFC
+    // Offset: 0x15084C0
     // Implemented from: HoudiniEngineUnity.HEU_InputInterface
     // Base method: System.Boolean HEU_InputInterface::CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
     bool CreateInputNodeWithDataUpload(HoudiniEngineUnity::HEU_SessionBase* session, int connectNodeID, UnityEngine::GameObject* inputObject, ByRef<int> inputNodeID);
     // public override System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
-    // Offset: 0x1522030
+    // Offset: 0x15099F4
     // Implemented from: HoudiniEngineUnity.HEU_InputInterface
     // Base method: System.Boolean HEU_InputInterface::IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
     bool IsThisInputObjectSupported(UnityEngine::GameObject* inputObject);

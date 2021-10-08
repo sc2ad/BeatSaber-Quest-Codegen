@@ -28,10 +28,10 @@ namespace NUnit::Framework {
   class _Assert : public ::Il2CppObject {
     public:
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x1928388
+    // Offset: 0x190ED4C
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x19283FC
+    // Offset: 0x190EDC0
     static void IncrementAssertCount();
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -43,16 +43,16 @@ namespace NUnit::Framework {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, actual, expression, message, args);
     }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    // Offset: 0x19284D4
+    // Offset: 0x190EE98
     static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    // Offset: 0x192856C
+    // Offset: 0x190EF30
     static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    // Offset: 0x1928604
+    // Offset: 0x190EFC8
     static void IsTrue(bool condition, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x192867C
+    // Offset: 0x190F040
     static void IsTrue(bool condition);
   }; // NUnit.Framework.Assert
   #pragma pack(pop)

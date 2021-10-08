@@ -34,28 +34,28 @@ namespace Oculus::Platform {
   class UserDataStore : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserDataStoreUpdateResponse> PrivateDeleteEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x25BBCE4
+    // Offset: 0x25A078C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static public Oculus.Platform.Request`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> PrivateGetEntries(System.UInt64 userID)
-    // Offset: 0x25BBE08
+    // Offset: 0x25A08B0
     static Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* PrivateGetEntries(uint64_t userID);
     // static public Oculus.Platform.Request`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> PrivateGetEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x25BBF24
+    // Offset: 0x25A09CC
     static Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* PrivateGetEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserDataStoreUpdateResponse> PrivateWriteEntry(System.UInt64 userID, System.String key, System.String value)
-    // Offset: 0x25BC048
+    // Offset: 0x25A0AF0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserDataStoreUpdateResponse> PublicDeleteEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x25BC17C
+    // Offset: 0x25A0C24
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PublicDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static public Oculus.Platform.Request`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> PublicGetEntries(System.UInt64 userID)
-    // Offset: 0x25BC2A0
+    // Offset: 0x25A0D48
     static Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* PublicGetEntries(uint64_t userID);
     // static public Oculus.Platform.Request`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> PublicGetEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x25BC3BC
+    // Offset: 0x25A0E64
     static Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* PublicGetEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserDataStoreUpdateResponse> PublicWriteEntry(System.UInt64 userID, System.String key, System.String value)
-    // Offset: 0x25BC4E0
+    // Offset: 0x25A0F88
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PublicWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
   }; // Oculus.Platform.UserDataStore
   #pragma pack(pop)

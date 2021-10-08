@@ -46,19 +46,19 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Get instance field reference: private System.Byte[] <data>k__BackingField
     ::ArrayW<uint8_t>& dyn_$data$k__BackingField();
     // public System.Guid get_id()
-    // Offset: 0x1673984
+    // Offset: 0x1658348
     System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0x1673990
+    // Offset: 0x1658354
     void set_id(System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0x1673998
+    // Offset: 0x165835C
     ::ArrayW<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x16739A0
+    // Offset: 0x1658364
     void set_data(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x1672EFC
+    // Offset: 0x16578C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

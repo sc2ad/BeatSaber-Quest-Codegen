@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly MissionObjectiveResult[] missionObjectiveResults
     ::ArrayW<GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // public System.Boolean get_IsMissionComplete()
-    // Offset: 0x1184758
+    // Offset: 0x120901C
     bool get_IsMissionComplete();
     // public System.Void .ctor(LevelCompletionResults levelCompletionResults, MissionObjectiveResult[] missionObjectiveResults)
-    // Offset: 0x11847D8
+    // Offset: 0x120909C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionCompletionResults::.ctor");

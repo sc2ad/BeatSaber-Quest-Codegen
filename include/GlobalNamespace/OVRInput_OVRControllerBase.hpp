@@ -118,16 +118,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean shouldApplyDeadzone
     bool& dyn_shouldApplyDeadzone();
     // public OVRInput/Controller Update()
-    // Offset: 0x16CD5A4
+    // Offset: 0x16B1F68
     GlobalNamespace::OVRInput::Controller Update();
     // private OVRPlugin/ControllerState4 GetOpenVRControllerState(OVRInput/Controller controllerType)
-    // Offset: 0x16CDA78
+    // Offset: 0x16B243C
     GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(GlobalNamespace::OVRInput::Controller controllerType);
     // public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0x16CDFB4
+    // Offset: 0x16B2978
     void SetControllerVibration(float frequency, float amplitude);
     // public System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x16CE038
+    // Offset: 0x16B29FC
     uint8_t GetBatteryPercentRemaining();
     // public System.Void ConfigureButtonMap()
     // Offset: 0xFFFFFFFF
@@ -145,22 +145,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ConfigureAxis2DMap();
     // public OVRInput/RawButton ResolveToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x16CAAFC
+    // Offset: 0x16AF4C0
     GlobalNamespace::OVRInput::RawButton ResolveToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public OVRInput/RawTouch ResolveToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x16CB1B8
+    // Offset: 0x16AFB7C
     GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public OVRInput/RawNearTouch ResolveToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0x16CB8EC
+    // Offset: 0x16B02B0
     GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public OVRInput/RawAxis1D ResolveToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x16CC2C4
+    // Offset: 0x16B0C88
     GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public OVRInput/RawAxis2D ResolveToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x16CC80C
+    // Offset: 0x16B11D0
     GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x16CD43C
+    // Offset: 0x16B1E00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

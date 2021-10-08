@@ -90,81 +90,81 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: protected System.Boolean squeezing
     bool& dyn_squeezing();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1F01F38
+    // Offset: 0x1EE899C
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x1F01CB4
+    // Offset: 0x1EE8718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeccakDigest* New_ctor(int bitLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::KeccakDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeccakDigest*, creationType>(bitLength)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.KeccakDigest source)
-    // Offset: 0x1F01E20
+    // Offset: 0x1EE8884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeccakDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::KeccakDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeccakDigest*, creationType>(source)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F02FD8
+    // Offset: 0x1EE9A3C
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.KeccakDigest source)
-    // Offset: 0x1F01EB0
+    // Offset: 0x1EE8914
     void CopyIn(Org::BouncyCastle::Crypto::Digests::KeccakDigest* source);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1F01FB8
+    // Offset: 0x1EE8A1C
     int GetDigestSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1F01FC4
+    // Offset: 0x1EE8A28
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1F020D8
+    // Offset: 0x1EE8B3C
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1F02268
+    // Offset: 0x1EE8CCC
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1F023FC
+    // Offset: 0x1EE8E60
     void Reset();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1F02404
+    // Offset: 0x1EE8E68
     int GetByteLength();
     // private System.Void Init(System.Int32 bitLength)
-    // Offset: 0x1F01D44
+    // Offset: 0x1EE87A8
     void Init(int bitLength);
     // private System.Void InitSponge(System.Int32 rate)
-    // Offset: 0x1F02410
+    // Offset: 0x1EE8E74
     void InitSponge(int rate);
     // protected System.Void Absorb(System.Byte data)
-    // Offset: 0x1F01FC8
+    // Offset: 0x1EE8A2C
     void Absorb(uint8_t data);
     // protected System.Void Absorb(System.Byte[] data, System.Int32 off, System.Int32 len)
-    // Offset: 0x1F020DC
+    // Offset: 0x1EE8B40
     void Absorb(::ArrayW<uint8_t> data, int off, int len);
     // protected System.Void AbsorbBits(System.Int32 data, System.Int32 bits)
-    // Offset: 0x1F025CC
+    // Offset: 0x1EE9030
     void AbsorbBits(int data, int bits);
     // private System.Void PadAndSwitchToSqueezingPhase()
-    // Offset: 0x1F02714
+    // Offset: 0x1EE9178
     void PadAndSwitchToSqueezingPhase();
     // protected System.Void Squeeze(System.Byte[] output, System.Int32 offset, System.Int64 outputLength)
-    // Offset: 0x1F022B0
+    // Offset: 0x1EE8D14
     void Squeeze(::ArrayW<uint8_t> output, int offset, int64_t outputLength);
     // private System.Void KeccakAbsorb(System.Byte[] data, System.Int32 off)
-    // Offset: 0x1F02514
+    // Offset: 0x1EE8F78
     void KeccakAbsorb(::ArrayW<uint8_t> data, int off);
     // private System.Void KeccakExtract()
-    // Offset: 0x1F028BC
+    // Offset: 0x1EE9320
     void KeccakExtract();
     // private System.Void KeccakPermutation()
-    // Offset: 0x1F02900
+    // Offset: 0x1EE9364
     void KeccakPermutation();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1F02EE4
+    // Offset: 0x1EE9948
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1F02F44
+    // Offset: 0x1EE99A8
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.KeccakDigest
   #pragma pack(pop)

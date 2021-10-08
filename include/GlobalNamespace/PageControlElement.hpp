@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* imageView;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF1330C
+    // [SpaceAttribute] Offset: 0xF12F94
     // private UnityEngine.Color _selectedColor
     // Size: 0x10
     // Offset: 0x28
@@ -76,13 +76,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _unselectedColor
     UnityEngine::Color& dyn__unselectedColor();
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x1125D24
+    // Offset: 0x110D148
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void SetSelected(System.Boolean isSelected)
-    // Offset: 0x1125AEC
+    // Offset: 0x110CF10
     void SetSelected(bool isSelected);
     // public System.Void .ctor()
-    // Offset: 0x1125D2C
+    // Offset: 0x110D150
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

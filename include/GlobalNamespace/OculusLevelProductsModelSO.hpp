@@ -77,19 +77,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__assetFileToSku();
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x136388C
+    // Offset: 0x1348F44
     ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x135FC78
+    // Offset: 0x1345330
     GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x1363A14
+    // Offset: 0x13490CC
     GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0x1363A94
+    // Offset: 0x134914C
     ::Il2CppString* GetLevelSku(::Il2CppString* assetFile);
     // public System.Void .ctor()
-    // Offset: 0x1363B14
+    // Offset: 0x13491CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1363894
+    // Offset: 0x1348F4C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

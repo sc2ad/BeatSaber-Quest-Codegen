@@ -49,85 +49,85 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture2D cachedTexture
     static void _set_cachedTexture(UnityEngine::Texture2D* value);
     // static private System.Void .cctor()
-    // Offset: 0x17FE61C
+    // Offset: 0x17E3FE0
     static void _cctor();
     // static public System.Boolean Initialize()
-    // Offset: 0x17FB4AC
+    // Offset: 0x17E0E70
     static bool Initialize();
     // static public System.Boolean Shutdown()
-    // Offset: 0x17FB620
+    // Offset: 0x17E0FE4
     static bool Shutdown();
     // static public System.Boolean GetInitialized()
-    // Offset: 0x17FB794
+    // Offset: 0x17E1158
     static bool GetInitialized();
     // static public System.Boolean Update()
-    // Offset: 0x17FB928
+    // Offset: 0x17E12EC
     static bool Update();
     // static public OVRPlugin/Media/MrcActivationMode GetMrcActivationMode()
-    // Offset: 0x17FBA9C
+    // Offset: 0x17E1460
     static GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
     // static public System.Boolean SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode mode)
-    // Offset: 0x17FBC28
+    // Offset: 0x17E15EC
     static bool SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
     // static public System.Boolean SetPlatformInitialized()
-    // Offset: 0x17FBDB0
+    // Offset: 0x17E1774
     static bool SetPlatformInitialized();
     // static public OVRPlugin/Media/PlatformCameraMode GetPlatformCameraMode()
-    // Offset: 0x17FBF24
+    // Offset: 0x17E18E8
     static GlobalNamespace::OVRPlugin::Media::PlatformCameraMode GetPlatformCameraMode();
     // static public System.Boolean SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode mode)
-    // Offset: 0x17FC0B0
+    // Offset: 0x17E1A74
     static bool SetPlatformCameraMode(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode mode);
     // static public System.Boolean IsMrcEnabled()
-    // Offset: 0x17FC238
+    // Offset: 0x17E1BFC
     static bool IsMrcEnabled();
     // static public System.Boolean IsMrcActivated()
-    // Offset: 0x17FC3C8
+    // Offset: 0x17E1D8C
     static bool IsMrcActivated();
     // static public System.Boolean UseMrcDebugCamera()
-    // Offset: 0x17FC558
+    // Offset: 0x17E1F1C
     static bool UseMrcDebugCamera();
     // static public System.Boolean SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType videoBufferType)
-    // Offset: 0x17FC6E8
+    // Offset: 0x17E20AC
     static bool SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
     // static public OVRPlugin/Media/InputVideoBufferType GetMrcInputVideoBufferType()
-    // Offset: 0x17FC870
+    // Offset: 0x17E2234
     static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
-    // Offset: 0x17FC9F8
+    // Offset: 0x17E23BC
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public System.Void GetMrcFrameSize(out System.Int32 frameWidth, out System.Int32 frameHeight)
-    // Offset: 0x17FCBA0
+    // Offset: 0x17E2564
     static void GetMrcFrameSize(ByRef<int> frameWidth, ByRef<int> frameHeight);
     // static public System.Boolean SetMrcAudioSampleRate(System.Int32 sampleRate)
-    // Offset: 0x17FCD54
+    // Offset: 0x17E2718
     static bool SetMrcAudioSampleRate(int sampleRate);
     // static public System.Int32 GetMrcAudioSampleRate()
-    // Offset: 0x17FCEDC
+    // Offset: 0x17E28A0
     static int GetMrcAudioSampleRate();
     // static public System.Boolean SetMrcFrameImageFlipped(System.Boolean imageFlipped)
-    // Offset: 0x17FD060
+    // Offset: 0x17E2A24
     static bool SetMrcFrameImageFlipped(bool imageFlipped);
     // static public System.Boolean GetMrcFrameImageFlipped()
-    // Offset: 0x17FD1EC
+    // Offset: 0x17E2BB0
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.IntPtr fgTextureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x17FD378
+    // Offset: 0x17E2D3C
     static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x17FDACC
+    // Offset: 0x17E3490
     static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
-    // Offset: 0x17FE0A8
+    // Offset: 0x17E3A6C
     static bool SyncMrcFrame(int syncId);
     // static public System.Boolean SetAvailableQueueIndexVulkan(System.UInt32 queueIndexVk)
-    // Offset: 0x17FE230
+    // Offset: 0x17E3BF4
     static bool SetAvailableQueueIndexVulkan(uint queueIndexVk);
     // static public System.Boolean SetMrcHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
-    // Offset: 0x17FE3B8
+    // Offset: 0x17E3D7C
     static bool SetMrcHeadsetControllerPose(GlobalNamespace::OVRPlugin::Posef headsetPose, GlobalNamespace::OVRPlugin::Posef leftControllerPose, GlobalNamespace::OVRPlugin::Posef rightControllerPose);
     // public System.Void .ctor()
-    // Offset: 0x17FE614
+    // Offset: 0x17E3FD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -57,28 +57,28 @@ namespace HMUI {
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_5
     static void _set_$$9__31_5(HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // static private System.Void .cctor()
-    // Offset: 0x14815AC
+    // Offset: 0x1467F70
     static void _cctor();
     // UnityEngine.Color <LerpColors>b__31_0(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x1481618
+    // Offset: 0x1467FDC
     UnityEngine::Color $LerpColors$b__31_0(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_1(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x1481634
+    // Offset: 0x1467FF8
     UnityEngine::Color $LerpColors$b__31_1(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_2(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x1481650
+    // Offset: 0x1468014
     UnityEngine::Color $LerpColors$b__31_2(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_3(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x148166C
+    // Offset: 0x1468030
     UnityEngine::Color $LerpColors$b__31_3(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_4(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x1481688
+    // Offset: 0x146804C
     UnityEngine::Color $LerpColors$b__31_4(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_5(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x14816A4
+    // Offset: 0x1468068
     UnityEngine::Color $LerpColors$b__31_5(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.Void .ctor()
-    // Offset: 0x1481610
+    // Offset: 0x1467FD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

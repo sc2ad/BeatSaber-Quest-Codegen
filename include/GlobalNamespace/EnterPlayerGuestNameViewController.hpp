@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [SignalSenderAttribute] Offset: 0xF0FC10
+    // [SignalSenderAttribute] Offset: 0xF0F898
     // private StringSignal _playerNameWasEnteredSignal
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StringSignal*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0FC48
+    // [SpaceAttribute] Offset: 0xF0F8D0
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x78
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GuestNameButtonsListItemsList*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FCA0
+    // [InjectAttribute] Offset: 0xF0F928
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
@@ -116,13 +116,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
     GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*& dyn__didFinishCallback();
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0x11AF244
+    // Offset: 0x1169ED8
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
     // private System.Void OkButtonPressed()
-    // Offset: 0x11AF550
+    // Offset: 0x116A1E4
     void OkButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x11AFA08
+    // Offset: 0x116A69C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -136,12 +136,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11AF24C
+    // Offset: 0x1169EE0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11AF4A0
+    // Offset: 0x116A134
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

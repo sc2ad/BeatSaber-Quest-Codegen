@@ -79,22 +79,22 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0B250
-    // [SignalSenderAttribute] Offset: 0xF0B250
+    // [SpaceAttribute] Offset: 0xF0AEC8
+    // [SignalSenderAttribute] Offset: 0xF0AEC8
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0xF0B298
+    // [SignalSenderAttribute] Offset: 0xF0AF10
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0B2D0
+    // [InjectAttribute] Offset: 0xF0AF48
     // private PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
@@ -135,31 +135,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _doingOutroTransition
     bool& dyn__doingOutroTransition();
     // protected System.Void Start()
-    // Offset: 0x11651E8
+    // Offset: 0x1161EA0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11653BC
+    // Offset: 0x1162074
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x1165600
+    // Offset: 0x11622B8
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x1165620
+    // Offset: 0x11622D8
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x116566C
+    // Offset: 0x1162324
     System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1165708
+    // Offset: 0x1162394
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x1165794
+    // Offset: 0x1162420
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x11657A0
+    // Offset: 0x116242C
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x11657A8
+    // Offset: 0x1162434
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

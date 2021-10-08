@@ -48,76 +48,76 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public readonly System.Int32 SystemDefaultCharSize
     static void _set_SystemDefaultCharSize(int value);
     // static private System.Void .cctor()
-    // Offset: 0x15B045C
+    // Offset: 0x1595E20
     static void _cctor();
     // static public System.IntPtr AllocCoTaskMem(System.Int32 cb)
-    // Offset: 0x15AF620
+    // Offset: 0x1594FE4
     static System::IntPtr AllocCoTaskMem(int cb);
     // static public System.IntPtr AllocHGlobal(System.IntPtr cb)
-    // Offset: 0x15AF624
+    // Offset: 0x1594FE8
     static System::IntPtr AllocHGlobal(System::IntPtr cb);
     // static public System.IntPtr AllocHGlobal(System.Int32 cb)
-    // Offset: 0x15AF628
+    // Offset: 0x1594FEC
     static System::IntPtr AllocHGlobal(int cb);
     // static System.Void copy_to_unmanaged(System.Array source, System.Int32 startIndex, System.IntPtr destination, System.Int32 length)
-    // Offset: 0x15AF6A0
+    // Offset: 0x1595064
     static void copy_to_unmanaged(System::Array* source, int startIndex, System::IntPtr destination, int length);
     // static System.Void copy_from_unmanaged(System.IntPtr source, System.Int32 startIndex, System.Array destination, System.Int32 length)
-    // Offset: 0x15AF6A4
+    // Offset: 0x1595068
     static void copy_from_unmanaged(System::IntPtr source, int startIndex, System::Array* destination, int length);
     // static public System.Void Copy(System.Byte[] source, System.Int32 startIndex, System.IntPtr destination, System.Int32 length)
-    // Offset: 0x15AF6A8
+    // Offset: 0x159506C
     static void Copy(::ArrayW<uint8_t> source, int startIndex, System::IntPtr destination, int length);
     // static public System.Void Copy(System.IntPtr source, System.Byte[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x15AF734
+    // Offset: 0x15950F8
     static void Copy(System::IntPtr source, ::ArrayW<uint8_t> destination, int startIndex, int length);
     // static public System.Void Copy(System.IntPtr source, System.Char[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x15AF7C0
+    // Offset: 0x1595184
     static void Copy(System::IntPtr source, ::ArrayW<::Il2CppChar> destination, int startIndex, int length);
     // static public System.Void Copy(System.IntPtr source, System.Int16[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x15AF84C
+    // Offset: 0x1595210
     static void Copy(System::IntPtr source, ::ArrayW<int16_t> destination, int startIndex, int length);
     // static public System.Void Copy(System.IntPtr source, System.Single[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x15AF8D8
+    // Offset: 0x159529C
     static void Copy(System::IntPtr source, ::ArrayW<float> destination, int startIndex, int length);
     // static public System.Void FreeBSTR(System.IntPtr ptr)
-    // Offset: 0x15AF964
+    // Offset: 0x1595328
     static void FreeBSTR(System::IntPtr ptr);
     // static public System.Void FreeCoTaskMem(System.IntPtr ptr)
-    // Offset: 0x15AF968
+    // Offset: 0x159532C
     static void FreeCoTaskMem(System::IntPtr ptr);
     // static public System.Void FreeHGlobal(System.IntPtr hglobal)
-    // Offset: 0x15AF96C
+    // Offset: 0x1595330
     static void FreeHGlobal(System::IntPtr hglobal);
     // static private System.Void ClearBSTR(System.IntPtr ptr)
-    // Offset: 0x15AF970
+    // Offset: 0x1595334
     static void ClearBSTR(System::IntPtr ptr);
     // static public System.Void ZeroFreeBSTR(System.IntPtr s)
-    // Offset: 0x15AFAB0
+    // Offset: 0x1595474
     static void ZeroFreeBSTR(System::IntPtr s);
     // static private System.Void ClearUnicode(System.IntPtr ptr)
-    // Offset: 0x15AFB1C
+    // Offset: 0x15954E0
     static void ClearUnicode(System::IntPtr ptr);
     // static public System.Void ZeroFreeGlobalAllocUnicode(System.IntPtr s)
-    // Offset: 0x15AFC68
+    // Offset: 0x159562C
     static void ZeroFreeGlobalAllocUnicode(System::IntPtr s);
     // static public System.Int32 GetHRForException(System.Exception e)
-    // Offset: 0x15AFCD4
+    // Offset: 0x1595698
     static int GetHRForException(System::Exception* e);
     // static public System.Int32 GetLastWin32Error()
-    // Offset: 0x15AFCE0
+    // Offset: 0x15956A4
     static int GetLastWin32Error();
     // static public System.String PtrToStringAnsi(System.IntPtr ptr)
-    // Offset: 0x15AFCE4
+    // Offset: 0x15956A8
     static ::Il2CppString* PtrToStringAnsi(System::IntPtr ptr);
     // static public System.String PtrToStringUni(System.IntPtr ptr)
-    // Offset: 0x15AFCE8
+    // Offset: 0x15956AC
     static ::Il2CppString* PtrToStringUni(System::IntPtr ptr);
     // static public System.Void PtrToStructure(System.IntPtr ptr, System.Object structure)
-    // Offset: 0x15AFCEC
+    // Offset: 0x15956B0
     static void PtrToStructure(System::IntPtr ptr, ::Il2CppObject* structure);
     // static public System.Object PtrToStructure(System.IntPtr ptr, System.Type structureType)
-    // Offset: 0x15AFCF0
+    // Offset: 0x15956B4
     static ::Il2CppObject* PtrToStructure(System::IntPtr ptr, System::Type* structureType);
     // static public System.Void PtrToStructure(System.IntPtr ptr, T structure)
     // Offset: 0xFFFFFFFF
@@ -138,34 +138,34 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, ptr);
     }
     // static public System.Byte ReadByte(System.IntPtr ptr, System.Int32 ofs)
-    // Offset: 0x15AFCF4
+    // Offset: 0x15956B8
     static uint8_t ReadByte(System::IntPtr ptr, int ofs);
     // static public System.Int16 ReadInt16(System.IntPtr ptr, System.Int32 ofs)
-    // Offset: 0x15AFC20
+    // Offset: 0x15955E4
     static int16_t ReadInt16(System::IntPtr ptr, int ofs);
     // static public System.Int32 ReadInt32(System.IntPtr ptr)
-    // Offset: 0x15AFD1C
+    // Offset: 0x15956E0
     static int ReadInt32(System::IntPtr ptr);
     // static public System.Int32 ReadInt32(System.IntPtr ptr, System.Int32 ofs)
-    // Offset: 0x15AFA34
+    // Offset: 0x15953F8
     static int ReadInt32(System::IntPtr ptr, int ofs);
     // static public System.Int64 ReadInt64(System.IntPtr ptr)
-    // Offset: 0x15AFD64
+    // Offset: 0x1595728
     static int64_t ReadInt64(System::IntPtr ptr);
     // static public System.IntPtr ReadIntPtr(System.IntPtr ptr)
-    // Offset: 0x15AFDC4
+    // Offset: 0x1595788
     static System::IntPtr ReadIntPtr(System::IntPtr ptr);
     // static private System.Int32 ReleaseInternal(System.IntPtr pUnk)
-    // Offset: 0x15AFE70
+    // Offset: 0x1595834
     static int ReleaseInternal(System::IntPtr pUnk);
     // static public System.Int32 Release(System.IntPtr pUnk)
-    // Offset: 0x15AFE74
+    // Offset: 0x1595838
     static int Release(System::IntPtr pUnk);
     // static public System.Int32 SizeOf(System.Object structure)
-    // Offset: 0x15AFF34
+    // Offset: 0x15958F8
     static int SizeOf(::Il2CppObject* structure);
     // static public System.Int32 SizeOf(System.Type t)
-    // Offset: 0x15AFFB4
+    // Offset: 0x1595978
     static int SizeOf(System::Type* t);
     // static public System.Int32 SizeOf(T structure)
     // Offset: 0xFFFFFFFF
@@ -177,16 +177,16 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, structure);
     }
     // static public System.IntPtr SecureStringToBSTR(System.Security.SecureString s)
-    // Offset: 0x15AFFB8
+    // Offset: 0x159597C
     static System::IntPtr SecureStringToBSTR(System::Security::SecureString* s);
     // static public System.IntPtr SecureStringToCoTaskMemUnicode(System.Security.SecureString s)
-    // Offset: 0x15B0134
+    // Offset: 0x1595AF8
     static System::IntPtr SecureStringToCoTaskMemUnicode(System::Security::SecureString* s);
     // static public System.IntPtr SecureStringToGlobalAllocUnicode(System.Security.SecureString s)
-    // Offset: 0x15B03A8
+    // Offset: 0x1595D6C
     static System::IntPtr SecureStringToGlobalAllocUnicode(System::Security::SecureString* s);
     // static public System.Void StructureToPtr(System.Object structure, System.IntPtr ptr, System.Boolean fDeleteOld)
-    // Offset: 0x15B044C
+    // Offset: 0x1595E10
     static void StructureToPtr(::Il2CppObject* structure, System::IntPtr ptr, bool fDeleteOld);
     // static public System.Void StructureToPtr(T structure, System.IntPtr ptr, System.Boolean fDeleteOld)
     // Offset: 0xFFFFFFFF
@@ -198,10 +198,10 @@ namespace System::Runtime::InteropServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, structure, ptr, fDeleteOld);
     }
     // static private System.IntPtr BufferToBSTR(System.Array ptr, System.Int32 slen)
-    // Offset: 0x15B0130
+    // Offset: 0x1595AF4
     static System::IntPtr BufferToBSTR(System::Array* ptr, int slen);
     // static public System.IntPtr UnsafeAddrOfPinnedArrayElement(System.Array arr, System.Int32 index)
-    // Offset: 0x15B0454
+    // Offset: 0x1595E18
     static System::IntPtr UnsafeAddrOfPinnedArrayElement(System::Array* arr, int index);
     // static public System.IntPtr UnsafeAddrOfPinnedArrayElement(T[] arr, System.Int32 index)
     // Offset: 0xFFFFFFFF
@@ -213,13 +213,13 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arr, index);
     }
     // static public System.Void WriteByte(System.IntPtr ptr, System.Int32 ofs, System.Byte val)
-    // Offset: 0x15AFA80
+    // Offset: 0x1595444
     static void WriteByte(System::IntPtr ptr, int ofs, uint8_t val);
     // static public System.Void WriteInt16(System.IntPtr ptr, System.Int32 ofs, System.Int16 val)
-    // Offset: 0x15AFBCC
+    // Offset: 0x1595590
     static void WriteInt16(System::IntPtr ptr, int ofs, int16_t val);
     // static private System.IntPtr GetFunctionPointerForDelegateInternal(System.Delegate d)
-    // Offset: 0x15B0458
+    // Offset: 0x1595E1C
     static System::IntPtr GetFunctionPointerForDelegateInternal(System::Delegate* d);
     // static public System.IntPtr GetFunctionPointerForDelegate(TDelegate d)
     // Offset: 0xFFFFFFFF

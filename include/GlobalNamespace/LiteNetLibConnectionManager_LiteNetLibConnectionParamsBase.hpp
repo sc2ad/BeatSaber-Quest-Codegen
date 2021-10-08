@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 disconnectTimeoutMs
     int& dyn_disconnectTimeoutMs();
     // protected System.Void .ctor()
-    // Offset: 0x145E398
+    // Offset: 0x1442D5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

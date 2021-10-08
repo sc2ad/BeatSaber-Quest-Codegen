@@ -45,13 +45,13 @@ namespace System::Net {
     // Get instance field reference: private readonly System.String statusDescription
     ::Il2CppString*& dyn_statusDescription();
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x15832EC
+    // Offset: 0x1569CB0
     System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x15832F4
+    // Offset: 0x1569CB8
     ::Il2CppString* get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x15832B0
+    // Offset: 0x1569C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");

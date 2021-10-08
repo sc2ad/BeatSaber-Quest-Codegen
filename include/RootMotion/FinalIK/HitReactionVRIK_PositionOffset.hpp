@@ -42,21 +42,21 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF72DC
+    // [TooltipAttribute] Offset: 0xEF6F44
     // public System.Int32 forceDirCurveIndex
     // Size: 0x4
     // Offset: 0x50
     int forceDirCurveIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF7314
+    // [TooltipAttribute] Offset: 0xEF6F7C
     // public System.Int32 upDirCurveIndex
     // Size: 0x4
     // Offset: 0x54
     int upDirCurveIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF734C
+    // [TooltipAttribute] Offset: 0xEF6FB4
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink[] offsetLinks
     // Size: 0x8
     // Offset: 0x58
@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink[] offsetLinks
     ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>& dyn_offsetLinks();
     // public System.Void .ctor()
-    // Offset: 0x1E939D0
+    // Offset: 0x1E79434
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,17 +81,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::PositionOffset*, creationType>()));
     }
     // protected override System.Single GetLength(UnityEngine.AnimationCurve[] curves)
-    // Offset: 0x1E93428
+    // Offset: 0x1E78E8C
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Single Offset::GetLength(UnityEngine.AnimationCurve[] curves)
     float GetLength(::ArrayW<UnityEngine::AnimationCurve*> curves);
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x1E93620
+    // Offset: 0x1E79084
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x1E936A0
+    // Offset: 0x1E79104
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
     void OnApply(RootMotion::FinalIK::VRIK* ik, ::ArrayW<UnityEngine::AnimationCurve*> curves, float weight);

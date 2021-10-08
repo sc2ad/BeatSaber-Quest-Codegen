@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [HeaderAttribute] Offset: 0xF15694
+    // [HeaderAttribute] Offset: 0xF1533C
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -85,16 +85,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
     GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0x12B3ADC
+    // Offset: 0x12C5834
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0x12B3C10
+    // Offset: 0x12C5968
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x12B3CA4
+    // Offset: 0x12C59FC
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0x12B3D78
+    // Offset: 0x12C5AD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

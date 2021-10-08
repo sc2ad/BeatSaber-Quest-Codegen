@@ -50,33 +50,33 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x15A4254
+    // Offset: 0x1589C18
     System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x15A430C
+    // Offset: 0x1589CD0
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x15A4280
+    // Offset: 0x1589C44
     System::RuntimeType* GetDeclaringTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x15A4260
+    // Offset: 0x1589C24
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // private System.String FormatNameAndSig(System.Boolean serialization)
-    // Offset: 0x15A43A0
+    // Offset: 0x1589D64
     ::Il2CppString* FormatNameAndSig(bool serialization);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15A44F8
+    // Offset: 0x1589EBC
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.String SerializationToString()
-    // Offset: 0x15A45EC
+    // Offset: 0x1589FB0
     ::Il2CppString* SerializationToString();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x15A425C
+    // Offset: 0x1589C20
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x15A45F4
+    // Offset: 0x1589FB8
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Void PropertyInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()
@@ -87,7 +87,7 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimePropertyInfo*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x15A4398
+    // Offset: 0x1589D5C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

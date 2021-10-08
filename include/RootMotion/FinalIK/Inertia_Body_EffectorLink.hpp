@@ -27,14 +27,14 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF80BC
+    // [TooltipAttribute] Offset: 0xEF7D24
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF80F4
+    // [TooltipAttribute] Offset: 0xEF7D5C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // public System.Void .ctor()
-    // Offset: 0x1FE6E98
+    // Offset: 0x1FCE8FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

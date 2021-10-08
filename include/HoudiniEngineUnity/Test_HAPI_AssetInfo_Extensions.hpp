@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_AssetInfo_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_AssetInfo ToTestObject(HoudiniEngineUnity.HAPI_AssetInfo self)
-    // Offset: 0x1709534
+    // Offset: 0x16EDEF8
     static HoudiniEngineUnity::Test_HAPI_AssetInfo* ToTestObject(HoudiniEngineUnity::HAPI_AssetInfo self);
   }; // HoudiniEngineUnity.Test_HAPI_AssetInfo_Extensions
   #pragma pack(pop)

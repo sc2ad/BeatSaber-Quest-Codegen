@@ -71,22 +71,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _defaultAgeRestriction
     int& dyn__defaultAgeRestriction();
     // public System.String get_skuName()
-    // Offset: 0x112567C
+    // Offset: 0x110CAA0
     ::Il2CppString* get_skuName();
     // public System.String get_contentId()
-    // Offset: 0x1125684
+    // Offset: 0x110CAA8
     ::Il2CppString* get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0x112568C
+    // Offset: 0x110CAB0
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0x1125694
+    // Offset: 0x110CAB8
     ::Il2CppString* get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0x112569C
+    // Offset: 0x110CAC0
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0x11256A4
+    // Offset: 0x110CAC8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

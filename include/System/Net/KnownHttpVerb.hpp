@@ -100,17 +100,17 @@ namespace System::Net {
     // Get instance field reference: System.Boolean ExpectNoContentResponse
     bool& dyn_ExpectNoContentResponse();
     // System.Void .ctor(System.String name, System.Boolean requireContentBody, System.Boolean contentBodyNotAllowed, System.Boolean connectRequest, System.Boolean expectNoContentResponse)
-    // Offset: 0x184E80C
+    // Offset: 0x18341D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KnownHttpVerb* New_ctor(::Il2CppString* name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::KnownHttpVerb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KnownHttpVerb*, creationType>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x184E878
+    // Offset: 0x183423C
     static void _cctor();
     // static public System.Net.KnownHttpVerb Parse(System.String name)
-    // Offset: 0x184EB28
+    // Offset: 0x18344EC
     static System::Net::KnownHttpVerb* Parse(::Il2CppString* name);
   }; // System.Net.KnownHttpVerb
   #pragma pack(pop)

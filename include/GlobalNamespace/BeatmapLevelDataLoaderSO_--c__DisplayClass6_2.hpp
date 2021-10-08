@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2
     GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*& dyn_CS$$$8__locals2();
     // System.Void <LoadBeatmalLevelDataAsync>b__1(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x127D494
+    // Offset: 0x124BDE8
     void $LoadBeatmalLevelDataAsync$b__1(UnityEngine::AsyncOperation* asyncOperation2);
     // public System.Void .ctor()
-    // Offset: 0x127D48C
+    // Offset: 0x124BDE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

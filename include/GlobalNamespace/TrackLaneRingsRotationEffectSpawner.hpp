@@ -98,14 +98,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF06F50
+    // [SpaceAttribute] Offset: 0xF06BB8
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xF06F88
+    // [SpaceAttribute] Offset: 0xF06BF0
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -136,7 +136,7 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xF07000
+    // [InjectAttribute] Offset: 0xF06C68
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x38
@@ -163,16 +163,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()
-    // Offset: 0x11621A8
+    // Offset: 0x115EF5C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1162298
+    // Offset: 0x115F04C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1162398
+    // Offset: 0x115F14C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1162494
+    // Offset: 0x115F248
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

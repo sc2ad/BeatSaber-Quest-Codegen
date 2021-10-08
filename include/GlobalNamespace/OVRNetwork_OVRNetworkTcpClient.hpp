@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.ManualResetEvent readyReceiveDataEvent
     System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x1466344
+    // Offset: 0x144BD08
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x1466370
+    // Offset: 0x144BD34
     bool get_Connected();
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x1466384
+    // Offset: 0x144BD48
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x14664D8
+    // Offset: 0x144BE9C
     void ConnectCallback(System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0x14667D8
+    // Offset: 0x144C19C
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0x1466A2C
+    // Offset: 0x144C3F0
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x1466C30
+    // Offset: 0x144C5F4
     void OnReadDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x1467114
+    // Offset: 0x144CAD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

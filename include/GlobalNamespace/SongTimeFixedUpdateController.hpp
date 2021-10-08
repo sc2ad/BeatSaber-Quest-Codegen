@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF006B0
+    // [InjectAttribute] Offset: 0xF00328
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x18
@@ -91,28 +91,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _interpolationFactor
     float& dyn__interpolationFactor();
     // public System.Single get_fixedDeltaTime()
-    // Offset: 0x110DD40
+    // Offset: 0x114ACF8
     float get_fixedDeltaTime();
     // public System.Single get_interpolationFactor()
-    // Offset: 0x110DD4C
+    // Offset: 0x114AD04
     float get_interpolationFactor();
     // public System.Void add_songControllerFixedTimeDidUpdateEvent(System.Action`1<System.Single> value)
-    // Offset: 0x110DAB0
+    // Offset: 0x114AA68
     void add_songControllerFixedTimeDidUpdateEvent(System::Action_1<float>* value);
     // public System.Void remove_songControllerFixedTimeDidUpdateEvent(System.Action`1<System.Single> value)
-    // Offset: 0x110DB54
+    // Offset: 0x114AB0C
     void remove_songControllerFixedTimeDidUpdateEvent(System::Action_1<float>* value);
     // public System.Void add_songControllerTimeDidUpdateEvent(System.Action value)
-    // Offset: 0x110DBF8
+    // Offset: 0x114ABB0
     void add_songControllerTimeDidUpdateEvent(System::Action* value);
     // public System.Void remove_songControllerTimeDidUpdateEvent(System.Action value)
-    // Offset: 0x110DC9C
+    // Offset: 0x114AC54
     void remove_songControllerTimeDidUpdateEvent(System::Action* value);
     // protected System.Void Update()
-    // Offset: 0x110DD54
+    // Offset: 0x114AD0C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x110DEAC
+    // Offset: 0x114AE64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

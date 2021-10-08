@@ -128,16 +128,16 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public IPacketPool`1<MasterServer.CreateDedicatedServerInstanceRequest> get_pool()
-    // Offset: 0x12DAB24
+    // Offset: 0x12EBE98
     static GlobalNamespace::IPacketPool_1<MasterServer::CreateDedicatedServerInstanceRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x12DAB6C
+    // Offset: 0x12EBEE0
     uint get_version();
     // public MasterServer.CreateDedicatedServerInstanceRequest Init(System.String secret, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String userId, System.String userName, System.Net.IPEndPoint userEndPoint, System.Byte[] userRandom, System.Byte[] userPublicKey)
-    // Offset: 0x12DAE48
+    // Offset: 0x12EC1BC
     MasterServer::CreateDedicatedServerInstanceRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::ArrayW<uint8_t> userRandom, ::ArrayW<uint8_t> userPublicKey);
     // public System.Void .ctor()
-    // Offset: 0x12DAEC0
+    // Offset: 0x12EC234
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -147,17 +147,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<CreateDedicatedServerInstanceRequest*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x12DAB74
+    // Offset: 0x12EBEE8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12DAC50
+    // Offset: 0x12EBFC4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12DAD50
+    // Offset: 0x12EC0C4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

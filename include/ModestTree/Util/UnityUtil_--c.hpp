@@ -69,28 +69,28 @@ namespace ModestTree::Util {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__23_0
     static void _set_$$9__23_0(System::Func_2<UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14F13E4
+    // Offset: 0x14D7DA8
     static void _cctor();
     // System.Boolean <get_AllLoadedScenes>b__3_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x14F1450
+    // Offset: 0x14D7E14
     bool $get_AllLoadedScenes$b__3_0(UnityEngine::SceneManagement::Scene scene);
     // UnityEngine.GameObject <GetRootParentOrSelf>b__15_0(UnityEngine.Transform x)
-    // Offset: 0x14F147C
+    // Offset: 0x14D7E40
     UnityEngine::GameObject* $GetRootParentOrSelf$b__15_0(UnityEngine::Transform* x);
     // System.Int32 <GetComponentsInChildrenTopDown>b__18_0(UnityEngine.Component x)
-    // Offset: 0x14F1498
+    // Offset: 0x14D7E5C
     int $GetComponentsInChildrenTopDown$b__18_0(UnityEngine::Component* x);
     // System.Int32 <GetComponentsInChildrenBottomUp>b__19_0(UnityEngine.Component x)
-    // Offset: 0x14F1530
+    // Offset: 0x14D7EF4
     int $GetComponentsInChildrenBottomUp$b__19_0(UnityEngine::Component* x);
     // UnityEngine.GameObject <GetAllGameObjects>b__22_0(UnityEngine.Transform x)
-    // Offset: 0x14F15C8
+    // Offset: 0x14D7F8C
     UnityEngine::GameObject* $GetAllGameObjects$b__22_0(UnityEngine::Transform* x);
     // System.Boolean <GetAllRootGameObjects>b__23_0(UnityEngine.GameObject x)
-    // Offset: 0x14F15E4
+    // Offset: 0x14D7FA8
     bool $GetAllRootGameObjects$b__23_0(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x14F1448
+    // Offset: 0x14D7E0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

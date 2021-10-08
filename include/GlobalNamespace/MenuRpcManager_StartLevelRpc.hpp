@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::StartLevelRpc : public GlobalNamespace::RemoteProcedureCall_3<GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18C8ECC
+    // Offset: 0x18AF890
     // Implemented from: RemoteProcedureCall`3
     // Base method: System.Void RemoteProcedureCall_3::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

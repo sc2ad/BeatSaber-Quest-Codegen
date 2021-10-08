@@ -73,7 +73,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Single time
       float& dyn_time();
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
-      // Offset: 0x1134534
+      // Offset: 0x111D4D0
       // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     #pragma pack(pop)
@@ -84,14 +84,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0A6BC
+    // [InjectAttribute] Offset: 0xF0A334
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0A6CC
+    // [InjectAttribute] Offset: 0xF0A344
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -114,19 +114,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> _multiplierValues
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*& dyn__multiplierValues();
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
-    // Offset: 0x1134290
+    // Offset: 0x111D22C
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();
     // protected System.Void Start()
-    // Offset: 0x1134298
+    // Offset: 0x111D234
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x113438C
+    // Offset: 0x111D328
     void OnDestroy();
     // private System.Void HandleScoreControllerMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x113448C
+    // Offset: 0x111D428
     void HandleScoreControllerMultiplierDidChange(int multiplier, float multiplierProgress);
     // public System.Void .ctor()
-    // Offset: 0x1134540
+    // Offset: 0x111D4DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

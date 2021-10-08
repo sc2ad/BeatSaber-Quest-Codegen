@@ -132,21 +132,21 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* avatarContainerGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0DC8C
+    // [InjectAttribute] Offset: 0xF0D914
     // private readonly EditAvatarViewController _editAvatarViewController
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::EditAvatarViewController* editAvatarViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0DC9C
+    // [InjectAttribute] Offset: 0xF0D924
     // private readonly EditColorController _editColorViewController
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::EditColorController* editColorViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditColorController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0DCAC
+    // [InjectAttribute] Offset: 0xF0D934
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0xD0
@@ -193,31 +193,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
     System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x11AADE4
+    // Offset: 0x1165A78
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x11AAE88
+    // Offset: 0x1165B1C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void Setup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x11AAF2C
+    // Offset: 0x1165BC0
     void Setup(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
     // private System.Void HandleEditAvatarViewControllerDidRequestColorChange(System.Action`1<UnityEngine.Color> colorCallback, UnityEngine.Color currentColor, EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x11ABC1C
+    // Offset: 0x11668B0
     void HandleEditAvatarViewControllerDidRequestColorChange(System::Action_1<UnityEngine::Color>* colorCallback, UnityEngine::Color currentColor, GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // private System.Void HandleEditAvatarViewControllerChangedAvatarPart(EditAvatarViewController/AvatarEditPart avatarPart)
-    // Offset: 0x11ABD0C
+    // Offset: 0x11669A0
     void HandleEditAvatarViewControllerChangedAvatarPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarPart);
     // private System.Void HandleEditAvatarViewControllerDidFinished()
-    // Offset: 0x11ABDAC
+    // Offset: 0x1166A40
     void HandleEditAvatarViewControllerDidFinished();
     // private System.Void HandleEditColorViewControllerDidChangedColor(UnityEngine.Color color)
-    // Offset: 0x11ABE14
+    // Offset: 0x1166AA8
     void HandleEditColorViewControllerDidChangedColor(UnityEngine::Color color);
     // private System.Void HandleEditColorViewControllerDidFinish(System.Boolean apply)
-    // Offset: 0x11ABE40
+    // Offset: 0x1166AD4
     void HandleEditColorViewControllerDidFinish(bool apply);
     // public System.Void .ctor()
-    // Offset: 0x11ABED0
+    // Offset: 0x1166B64
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -231,12 +231,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11AAFDC
+    // Offset: 0x1165C70
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11AB724
+    // Offset: 0x11663B8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

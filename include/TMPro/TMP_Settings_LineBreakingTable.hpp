@@ -51,7 +51,7 @@ namespace TMPro {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
     System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_followingCharacters();
     // public System.Void .ctor()
-    // Offset: 0x1224374
+    // Offset: 0x121D478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

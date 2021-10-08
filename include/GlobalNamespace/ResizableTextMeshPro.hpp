@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* rectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF140BC
+    // [SpaceAttribute] Offset: 0xF13D44
     // private System.Single _textExtraSpace
     // Size: 0x4
     // Offset: 0x28
@@ -67,19 +67,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _textExtraSpace
     float& dyn__textExtraSpace();
     // protected System.Void Start()
-    // Offset: 0x11C1500
+    // Offset: 0x119469C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11C15C4
+    // Offset: 0x1194760
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C1650
+    // Offset: 0x11947EC
     void OnDestroy();
     // private System.Void HandleTextDidChange(UnityEngine.Object textMeshPro)
-    // Offset: 0x11C1714
+    // Offset: 0x11948B0
     void HandleTextDidChange(UnityEngine::Object* textMeshPro);
     // public System.Void .ctor()
-    // Offset: 0x11C17B4
+    // Offset: 0x1194950
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

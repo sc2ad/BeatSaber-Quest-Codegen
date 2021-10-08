@@ -27,7 +27,7 @@ namespace HoudiniEngineUnity {
   class HEU_BakedDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_BakedEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14427A0
+    // Offset: 0x1427164
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

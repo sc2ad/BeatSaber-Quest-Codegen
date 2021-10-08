@@ -82,19 +82,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x11AFB94
+    // Offset: 0x116A828
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x11AFC38
+    // Offset: 0x116A8CC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void Init(System.String titleText)
-    // Offset: 0x11AFCDC
+    // Offset: 0x116A970
     void Init(::Il2CppString* titleText);
     // public System.Void OkButtonPressed()
-    // Offset: 0x11AFDD4
+    // Offset: 0x116AA68
     void OkButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x11AFE74
+    // Offset: 0x116AB08
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnterTextViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11AFCF8
+    // Offset: 0x116A98C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

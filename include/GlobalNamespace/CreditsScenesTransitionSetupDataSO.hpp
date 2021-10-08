@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x11A021C
+    // Offset: 0x1134B70
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x11A02C0
+    // Offset: 0x1134C14
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void Finish()
-    // Offset: 0x119FC18
+    // Offset: 0x113456C
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0x11A0364
+    // Offset: 0x1134CB8
     // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()

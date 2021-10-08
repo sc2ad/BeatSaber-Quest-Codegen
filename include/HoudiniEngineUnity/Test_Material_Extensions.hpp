@@ -37,13 +37,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_Material_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Material ToTestObject(UnityEngine.Material self)
-    // Offset: 0x25D0ADC
+    // Offset: 0x25B7584
     static HoudiniEngineUnity::Test_Material* ToTestObject(UnityEngine::Material* self);
     // static public HoudiniEngineUnity.Test_Material[] ToTestObject(UnityEngine.Material[] self)
-    // Offset: 0x25D0B40
+    // Offset: 0x25B75E8
     static ::ArrayW<HoudiniEngineUnity::Test_Material*> ToTestObject(::ArrayW<UnityEngine::Material*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Material> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Material> self)
-    // Offset: 0x25D0C4C
+    // Offset: 0x25B76F4
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Material*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Material*>* self);
   }; // HoudiniEngineUnity.Test_Material_Extensions
   #pragma pack(pop)

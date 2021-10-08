@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _floatValue
     float& dyn__floatValue();
     // public System.Single get_time()
-    // Offset: 0x12A7CC0
+    // Offset: 0x12A1B50
     float get_time();
     // public BeatmapSaveData/BeatmapEventType get_type()
-    // Offset: 0x12A7CC8
+    // Offset: 0x12A1B58
     GlobalNamespace::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0x12A7CD0
+    // Offset: 0x12A1B60
     int get_value();
     // public System.Single get_floatValue()
-    // Offset: 0x12A7CD8
+    // Offset: 0x12A1B68
     float get_floatValue();
     // public System.Void .ctor(System.Single time, BeatmapSaveData/BeatmapEventType type, System.Int32 value, System.Single floatValue)
-    // Offset: 0x12A7C70
+    // Offset: 0x12A1B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapSaveData::BeatmapEventType type, int value, float floatValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::EventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::EventData*, creationType>(time, type, value, floatValue)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x12A7CE0
+    // Offset: 0x12A1B70
     void MoveTime(float offset);
   }; // BeatmapSaveData/EventData
   #pragma pack(pop)

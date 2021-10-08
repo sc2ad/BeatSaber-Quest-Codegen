@@ -26,10 +26,10 @@ namespace GlobalNamespace {
   class BeatmapDataObstaclesAndBombsTransform : public ::Il2CppObject {
     public:
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x1278674
+    // Offset: 0x1246FC8
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // static private System.Boolean ShouldUseBeatmapObject(BeatmapObjectData beatmapObjectData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x12789E8
+    // Offset: 0x124733C
     static bool ShouldUseBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
   }; // BeatmapDataObstaclesAndBombsTransform
   #pragma pack(pop)

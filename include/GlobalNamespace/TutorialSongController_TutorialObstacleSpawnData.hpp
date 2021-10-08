@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ObstacleType obstacleType
     GlobalNamespace::ObstacleType& dyn_obstacleType();
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, ObstacleType obstacleType)
-    // Offset: 0x133CE88
+    // Offset: 0x1264028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, GlobalNamespace::ObstacleType obstacleType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData::.ctor");

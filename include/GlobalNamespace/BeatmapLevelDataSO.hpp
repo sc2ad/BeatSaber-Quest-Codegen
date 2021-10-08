@@ -66,13 +66,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
     ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x1298C40
+    // Offset: 0x1292AD0
     UnityEngine::AudioClip* get_audioClip();
     // public BeatmapLevelDataSO/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x1298C48
+    // Offset: 0x1292AD8
     ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x1298C50
+    // Offset: 0x1292AE0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

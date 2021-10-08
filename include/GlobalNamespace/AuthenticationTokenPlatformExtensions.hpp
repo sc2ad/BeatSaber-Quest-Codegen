@@ -20,10 +20,10 @@ namespace GlobalNamespace {
   class AuthenticationTokenPlatformExtensions : public ::Il2CppObject {
     public:
     // static public AuthenticationToken/Platform ToAuthenticationTokenPlatform(UserInfo/Platform platform)
-    // Offset: 0x1248E5C
+    // Offset: 0x261D9A4
     static GlobalNamespace::AuthenticationToken::Platform ToAuthenticationTokenPlatform(GlobalNamespace::UserInfo::Platform platform);
     // static public UserInfo/Platform ToUserInfoPlatform(AuthenticationToken/Platform platform)
-    // Offset: 0x1248E88
+    // Offset: 0x261D9D0
     static GlobalNamespace::UserInfo::Platform ToUserInfoPlatform(GlobalNamespace::AuthenticationToken::Platform platform);
   }; // AuthenticationTokenPlatformExtensions
   #pragma pack(pop)

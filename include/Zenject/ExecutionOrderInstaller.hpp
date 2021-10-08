@@ -49,14 +49,14 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Type> _typeOrder
     System::Collections::Generic::List_1<System::Type*>*& dyn__typeOrder();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
-    // Offset: 0x182867C
+    // Offset: 0x180E040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionOrderInstaller* New_ctor(System::Collections::Generic::List_1<System::Type*>* typeOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ExecutionOrderInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionOrderInstaller*, creationType>(typeOrder)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x18286E0
+    // Offset: 0x180E0A4
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

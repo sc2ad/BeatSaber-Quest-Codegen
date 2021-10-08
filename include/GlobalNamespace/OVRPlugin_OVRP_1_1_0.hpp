@@ -30,151 +30,151 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1801CC0
+    // Offset: 0x17E7684
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetInitialized()
-    // Offset: 0x18005CC
+    // Offset: 0x17E5F90
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetInitialized();
     // static private System.IntPtr _ovrp_GetVersion()
-    // Offset: 0x1800640
+    // Offset: 0x17E6004
     static System::IntPtr _ovrp_GetVersion();
     // static public System.String ovrp_GetVersion()
-    // Offset: 0x18006B4
+    // Offset: 0x17E6078
     static ::Il2CppString* ovrp_GetVersion();
     // static private System.IntPtr _ovrp_GetNativeSDKVersion()
-    // Offset: 0x1800744
+    // Offset: 0x17E6108
     static System::IntPtr _ovrp_GetNativeSDKVersion();
     // static public System.String ovrp_GetNativeSDKVersion()
-    // Offset: 0x18007B8
+    // Offset: 0x17E617C
     static ::Il2CppString* ovrp_GetNativeSDKVersion();
     // static public System.IntPtr ovrp_GetAudioOutId()
-    // Offset: 0x1800848
+    // Offset: 0x17E620C
     static System::IntPtr ovrp_GetAudioOutId();
     // static public System.IntPtr ovrp_GetAudioInId()
-    // Offset: 0x18008BC
+    // Offset: 0x17E6280
     static System::IntPtr ovrp_GetAudioInId();
     // static public System.Single ovrp_GetEyeTextureScale()
-    // Offset: 0x1800930
+    // Offset: 0x17E62F4
     static float ovrp_GetEyeTextureScale();
     // static public OVRPlugin/Bool ovrp_SetEyeTextureScale(System.Single value)
-    // Offset: 0x18009A0
+    // Offset: 0x17E6364
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetEyeTextureScale(float value);
     // static public OVRPlugin/Bool ovrp_GetTrackingOrientationSupported()
-    // Offset: 0x1800A28
+    // Offset: 0x17E63EC
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingOrientationSupported();
     // static public OVRPlugin/Bool ovrp_GetTrackingOrientationEnabled()
-    // Offset: 0x1800A9C
+    // Offset: 0x17E6460
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingOrientationEnabled();
     // static public OVRPlugin/Bool ovrp_SetTrackingOrientationEnabled(OVRPlugin/Bool value)
-    // Offset: 0x1800B10
+    // Offset: 0x17E64D4
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingOrientationEnabled(GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_GetTrackingPositionSupported()
-    // Offset: 0x1800B90
+    // Offset: 0x17E6554
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingPositionSupported();
     // static public OVRPlugin/Bool ovrp_GetTrackingPositionEnabled()
-    // Offset: 0x1800C04
+    // Offset: 0x17E65C8
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingPositionEnabled();
     // static public OVRPlugin/Bool ovrp_SetTrackingPositionEnabled(OVRPlugin/Bool value)
-    // Offset: 0x1800C78
+    // Offset: 0x17E663C
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingPositionEnabled(GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_GetNodePresent(OVRPlugin/Node nodeId)
-    // Offset: 0x1800CF8
+    // Offset: 0x17E66BC
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetNodePresent(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Bool ovrp_GetNodeOrientationTracked(OVRPlugin/Node nodeId)
-    // Offset: 0x1800D78
+    // Offset: 0x17E673C
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetNodeOrientationTracked(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Bool ovrp_GetNodePositionTracked(OVRPlugin/Node nodeId)
-    // Offset: 0x1800DF8
+    // Offset: 0x17E67BC
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetNodePositionTracked(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Frustumf ovrp_GetNodeFrustum(OVRPlugin/Node nodeId)
-    // Offset: 0x1800E78
+    // Offset: 0x17E683C
     static GlobalNamespace::OVRPlugin::Frustumf ovrp_GetNodeFrustum(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/ControllerState ovrp_GetControllerState(System.UInt32 controllerMask)
-    // Offset: 0x1800EF8
+    // Offset: 0x17E68BC
     static GlobalNamespace::OVRPlugin::ControllerState ovrp_GetControllerState(uint controllerMask);
     // static public System.Int32 ovrp_GetSystemCpuLevel()
-    // Offset: 0x1800F88
+    // Offset: 0x17E694C
     static int ovrp_GetSystemCpuLevel();
     // static public OVRPlugin/Bool ovrp_SetSystemCpuLevel(System.Int32 value)
-    // Offset: 0x1800FFC
+    // Offset: 0x17E69C0
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetSystemCpuLevel(int value);
     // static public System.Int32 ovrp_GetSystemGpuLevel()
-    // Offset: 0x180107C
+    // Offset: 0x17E6A40
     static int ovrp_GetSystemGpuLevel();
     // static public OVRPlugin/Bool ovrp_SetSystemGpuLevel(System.Int32 value)
-    // Offset: 0x18010F0
+    // Offset: 0x17E6AB4
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetSystemGpuLevel(int value);
     // static public OVRPlugin/Bool ovrp_GetSystemPowerSavingMode()
-    // Offset: 0x1801170
+    // Offset: 0x17E6B34
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetSystemPowerSavingMode();
     // static public System.Single ovrp_GetSystemDisplayFrequency()
-    // Offset: 0x18011E4
+    // Offset: 0x17E6BA8
     static float ovrp_GetSystemDisplayFrequency();
     // static public System.Int32 ovrp_GetSystemVSyncCount()
-    // Offset: 0x1801254
+    // Offset: 0x17E6C18
     static int ovrp_GetSystemVSyncCount();
     // static public System.Single ovrp_GetSystemVolume()
-    // Offset: 0x18012C8
+    // Offset: 0x17E6C8C
     static float ovrp_GetSystemVolume();
     // static public OVRPlugin/BatteryStatus ovrp_GetSystemBatteryStatus()
-    // Offset: 0x1801338
+    // Offset: 0x17E6CFC
     static GlobalNamespace::OVRPlugin::BatteryStatus ovrp_GetSystemBatteryStatus();
     // static public System.Single ovrp_GetSystemBatteryLevel()
-    // Offset: 0x18013AC
+    // Offset: 0x17E6D70
     static float ovrp_GetSystemBatteryLevel();
     // static public System.Single ovrp_GetSystemBatteryTemperature()
-    // Offset: 0x180141C
+    // Offset: 0x17E6DE0
     static float ovrp_GetSystemBatteryTemperature();
     // static private System.IntPtr _ovrp_GetSystemProductName()
-    // Offset: 0x180148C
+    // Offset: 0x17E6E50
     static System::IntPtr _ovrp_GetSystemProductName();
     // static public System.String ovrp_GetSystemProductName()
-    // Offset: 0x1801500
+    // Offset: 0x17E6EC4
     static ::Il2CppString* ovrp_GetSystemProductName();
     // static public OVRPlugin/Bool ovrp_ShowSystemUI(OVRPlugin/PlatformUI ui)
-    // Offset: 0x1801590
+    // Offset: 0x17E6F54
     static GlobalNamespace::OVRPlugin::Bool ovrp_ShowSystemUI(GlobalNamespace::OVRPlugin::PlatformUI ui);
     // static public OVRPlugin/Bool ovrp_GetAppMonoscopic()
-    // Offset: 0x1801610
+    // Offset: 0x17E6FD4
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetAppMonoscopic();
     // static public OVRPlugin/Bool ovrp_SetAppMonoscopic(OVRPlugin/Bool value)
-    // Offset: 0x1801684
+    // Offset: 0x17E7048
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetAppMonoscopic(GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_GetAppHasVrFocus()
-    // Offset: 0x1801704
+    // Offset: 0x17E70C8
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetAppHasVrFocus();
     // static public OVRPlugin/Bool ovrp_GetAppShouldQuit()
-    // Offset: 0x1801778
+    // Offset: 0x17E713C
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetAppShouldQuit();
     // static public OVRPlugin/Bool ovrp_GetAppShouldRecenter()
-    // Offset: 0x18017EC
+    // Offset: 0x17E71B0
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetAppShouldRecenter();
     // static private System.IntPtr _ovrp_GetAppLatencyTimings()
-    // Offset: 0x1801860
+    // Offset: 0x17E7224
     static System::IntPtr _ovrp_GetAppLatencyTimings();
     // static public System.String ovrp_GetAppLatencyTimings()
-    // Offset: 0x18018D4
+    // Offset: 0x17E7298
     static ::Il2CppString* ovrp_GetAppLatencyTimings();
     // static public OVRPlugin/Bool ovrp_GetUserPresent()
-    // Offset: 0x1801964
+    // Offset: 0x17E7328
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetUserPresent();
     // static public System.Single ovrp_GetUserIPD()
-    // Offset: 0x18019D8
+    // Offset: 0x17E739C
     static float ovrp_GetUserIPD();
     // static public OVRPlugin/Bool ovrp_SetUserIPD(System.Single value)
-    // Offset: 0x1801A48
+    // Offset: 0x17E740C
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetUserIPD(float value);
     // static public System.Single ovrp_GetUserEyeDepth()
-    // Offset: 0x1801AD0
+    // Offset: 0x17E7494
     static float ovrp_GetUserEyeDepth();
     // static public OVRPlugin/Bool ovrp_SetUserEyeDepth(System.Single value)
-    // Offset: 0x1801B40
+    // Offset: 0x17E7504
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetUserEyeDepth(float value);
     // static public System.Single ovrp_GetUserEyeHeight()
-    // Offset: 0x1801BC8
+    // Offset: 0x17E758C
     static float ovrp_GetUserEyeHeight();
     // static public OVRPlugin/Bool ovrp_SetUserEyeHeight(System.Single value)
-    // Offset: 0x1801C38
+    // Offset: 0x17E75FC
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetUserEyeHeight(float value);
   }; // OVRPlugin/OVRP_1_1_0
   #pragma pack(pop)

@@ -21,7 +21,7 @@ namespace NUnit::Compatibility {
   class LongLivedMarshalByRefObject : public System::MarshalByRefObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19266A8
+    // Offset: 0x190D06C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -31,7 +31,7 @@ namespace NUnit::Compatibility {
       return THROW_UNLESS((::il2cpp_utils::New<LongLivedMarshalByRefObject*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x19266A0
+    // Offset: 0x190D064
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();

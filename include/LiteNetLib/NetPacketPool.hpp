@@ -64,22 +64,22 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1DDB0C4
+    // Offset: 0x1DC1B28
     LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int start, int length);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x1DD9088
+    // Offset: 0x1DBFAEC
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property, int size);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property)
-    // Offset: 0x1DD9B24
+    // Offset: 0x1DC0588
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property);
     // public LiteNetLib.NetPacket GetPacket(System.Int32 size)
-    // Offset: 0x1DD7764
+    // Offset: 0x1DBE1C8
     LiteNetLib::NetPacket* GetPacket(int size);
     // public System.Void Recycle(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DD75E4
+    // Offset: 0x1DBE048
     void Recycle(LiteNetLib::NetPacket* packet);
     // public System.Void .ctor()
-    // Offset: 0x1DD6F0C
+    // Offset: 0x1DBD970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

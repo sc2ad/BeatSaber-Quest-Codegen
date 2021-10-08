@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action songDidFinishEvent
     System::Action*& dyn_songDidFinishEvent();
     // public System.Void add_songDidFinishEvent(System.Action value)
-    // Offset: 0x110A338
+    // Offset: 0x11472F0
     void add_songDidFinishEvent(System::Action* value);
     // public System.Void remove_songDidFinishEvent(System.Action value)
-    // Offset: 0x110A3DC
+    // Offset: 0x1147394
     void remove_songDidFinishEvent(System::Action* value);
     // public System.Void SendSongDidFinishEvent()
-    // Offset: 0x110A480
+    // Offset: 0x1147438
     void SendSongDidFinishEvent();
     // public System.Void StopSong()
     // Offset: 0xFFFFFFFF
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ResumeSong();
     // protected System.Void .ctor()
-    // Offset: 0x110A494
+    // Offset: 0x114744C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

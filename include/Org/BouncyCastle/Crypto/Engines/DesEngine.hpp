@@ -103,34 +103,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32[] workingKey
     ::ArrayW<int>& dyn_workingKey();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1FCDBDC
+    // Offset: 0x1FB5640
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1FCDC24
+    // Offset: 0x1FB5688
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1FCDD5C
+    // Offset: 0x1FB57C0
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1FCDA8C
+    // Offset: 0x1FB54F0
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1FCDC2C
+    // Offset: 0x1FB5690
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FCDC34
+    // Offset: 0x1FB5698
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1FCDD58
+    // Offset: 0x1FB57BC
     void Reset();
     // static protected System.Int32[] GenerateWorkingKey(System.Boolean encrypting, System.Byte[] key)
-    // Offset: 0x1FCCE20
+    // Offset: 0x1FB4884
     static ::ArrayW<int> GenerateWorkingKey(bool encrypting, ::ArrayW<uint8_t> key);
     // static System.Void DesFunc(System.Int32[] wKey, System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1FCD5C4
+    // Offset: 0x1FB5028
     static void DesFunc(::ArrayW<int> wKey, ::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x1FCDA84
+    // Offset: 0x1FB54E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

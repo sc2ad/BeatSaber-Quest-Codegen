@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     bool setAlphaOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xEDEED8
+    // [DrawIfAttribute] Offset: 0xEDF8F8
     // private System.Boolean _alphaIntoColor
     // Size: 0x1
     // Offset: 0x39
     bool alphaIntoColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xEDEF7C
+    // [DrawIfAttribute] Offset: 0xEDF99C
     // private System.Boolean _setColorOnly
     // Size: 0x1
     // Offset: 0x3A
@@ -72,21 +72,21 @@ namespace GlobalNamespace {
     ::Il2CppString* colorProperty;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xEDF030
+    // [DrawIfAttribute] Offset: 0xEDFA50
     // private System.Single _alphaIntensity
     // Size: 0x4
     // Offset: 0x48
     float alphaIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xEDF0D4
+    // [DrawIfAttribute] Offset: 0xEDFAF4
     // private System.Boolean _multiplyColorWithAlpha
     // Size: 0x1
     // Offset: 0x4C
     bool multiplyColorWithAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xEDF178
+    // [DrawIfAttribute] Offset: 0xEDFB98
     // private System.Boolean _multiplyColor
     // Size: 0x1
     // Offset: 0x4D
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: multiplyColor and: colorMultiplier
     char __padding7[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xEDF21C
+    // [DrawIfAttribute] Offset: 0xEDFC3C
     // private System.Single _colorMultiplier
     // Size: 0x4
     // Offset: 0x50
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF2C4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDFCE4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -151,13 +151,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _propertyId
     int& dyn__propertyId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E2BCA4
+    // Offset: 0x1E13708
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1E2BCB0
+    // Offset: 0x1E13714
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1E2BF34
+    // Offset: 0x1E13998
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -171,12 +171,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithId*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E2BFA0
+    // Offset: 0x1E13A04
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E2BD3C
+    // Offset: 0x1E137A0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

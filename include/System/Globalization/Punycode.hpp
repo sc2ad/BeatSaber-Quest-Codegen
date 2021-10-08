@@ -21,7 +21,7 @@ namespace System::Globalization {
   class Punycode : public System::Globalization::Bootstring {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1BD6E68
+    // Offset: 0x1BBB82C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

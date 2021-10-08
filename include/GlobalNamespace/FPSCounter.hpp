@@ -85,37 +85,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minDeltaTime
     float& dyn__minDeltaTime();
     // public System.Int32 get_currentFPS()
-    // Offset: 0x11B3BD4
+    // Offset: 0x116E868
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x11B3BDC
+    // Offset: 0x116E870
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x11B3BE4
+    // Offset: 0x116E878
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x11B3BEC
+    // Offset: 0x116E880
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x11B3BF4
+    // Offset: 0x116E888
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x11B3BFC
+    // Offset: 0x116E890
     void set_highestFPS(int value);
     // public System.Int32 get_droppedFrames()
-    // Offset: 0x11B3C04
+    // Offset: 0x116E898
     int get_droppedFrames();
     // private System.Void set_droppedFrames(System.Int32 value)
-    // Offset: 0x11B3C0C
+    // Offset: 0x116E8A0
     void set_droppedFrames(int value);
     // protected System.Void Awake()
-    // Offset: 0x11B3C14
+    // Offset: 0x116E8A8
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x11B3C24
+    // Offset: 0x116E8B8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11B3D84
+    // Offset: 0x116EA18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

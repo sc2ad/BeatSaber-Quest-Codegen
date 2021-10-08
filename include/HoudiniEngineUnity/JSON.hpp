@@ -22,7 +22,7 @@ namespace HoudiniEngineUnity {
   class JSON : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.JSONNode Parse(System.String aJSON)
-    // Offset: 0x16FFDCC
+    // Offset: 0x16E4790
     static HoudiniEngineUnity::JSONNode* Parse(::Il2CppString* aJSON);
   }; // HoudiniEngineUnity.JSON
   #pragma pack(pop)

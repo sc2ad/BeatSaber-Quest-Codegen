@@ -62,16 +62,16 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.RectTransform _containerRect
     UnityEngine::RectTransform*& dyn__containerRect();
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x1482F80
+    // Offset: 0x1469944
     void UpdateCachedReferences();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x14830CC
+    // Offset: 0x1469A90
     void OnDrawGizmosSelected();
     // private System.Void DrawGizmoCircle(UnityEngine.Vector3 center, System.Single radius, System.Int32 steps)
-    // Offset: 0x148324C
+    // Offset: 0x1469C10
     void DrawGizmoCircle(UnityEngine::Vector3 center, float radius, int steps);
     // public System.Void .ctor()
-    // Offset: 0x1483428
+    // Offset: 0x1469DEC
     // Implemented from: HMUI.Touchable
     // Base method: System.Void Touchable::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -87,12 +87,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CircleTouchable*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1482F58
+    // Offset: 0x146991C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x1482FF4
+    // Offset: 0x14699B8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);

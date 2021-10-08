@@ -80,31 +80,31 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapEventType kCompressExpand
     static void _set_kCompressExpand(GlobalNamespace::BeatmapEventType value);
     // static public System.Collections.Generic.HashSet`1<BeatmapEventType> GetEventsValidForAllBeatmaps()
-    // Offset: 0x2613978
+    // Offset: 0x25FB420
     static System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* GetEventsValidForAllBeatmaps();
     // static public System.Boolean IsBPMChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613B2C
+    // Offset: 0x25FB5D4
     static bool IsBPMChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613B38
+    // Offset: 0x25FB5E0
     static bool IsRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpecialEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613B48
+    // Offset: 0x25FB5F0
     static bool IsSpecialEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLightIntensityChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613B6C
+    // Offset: 0x25FB614
     static bool IsLightIntensityChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613B88
+    // Offset: 0x25FB630
     static bool IsEarlyRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLateRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613B94
+    // Offset: 0x25FB63C
     static bool IsLateRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613BA0
+    // Offset: 0x25FB648
     static bool IsEarlyEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpawnAffectingEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2613BB8
+    // Offset: 0x25FB660
     static bool IsSpawnAffectingEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
   }; // BeatmapEventTypeExtensions
   #pragma pack(pop)

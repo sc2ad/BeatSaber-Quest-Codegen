@@ -53,14 +53,14 @@ namespace System::Text {
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1DF8808
+    // Offset: 0x1DDF26C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoderFallbackException* New_ctor(::Il2CppString* message, ::ArrayW<uint8_t> bytesUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>(message, bytesUnknown, index)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1DF9028
+    // Offset: 0x1DDFA8C
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -72,7 +72,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DF909C
+    // Offset: 0x1DDFB00
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

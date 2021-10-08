@@ -64,34 +64,34 @@ namespace System {
     // Get instance field reference: private System.Collections.IComparer comparer
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
-    // Offset: 0x198BA28
+    // Offset: 0x19713EC
     // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayW<::Il2CppObject*> keys, ::ArrayW<::Il2CppObject*> items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0x198CA24
+    // Offset: 0x19723E8
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0x198CC74
+    // Offset: 0x1972638
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0x198BABC
+    // Offset: 0x1971480
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0x198CDEC
+    // Offset: 0x19727B0
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0x198CF6C
+    // Offset: 0x1972930
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x198D40C
+    // Offset: 0x1972DD0
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x198D358
+    // Offset: 0x1972D1C
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0x198D658
+    // Offset: 0x197301C
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x198D098
+    // Offset: 0x1972A5C
     void InsertionSort(int lo, int hi);
   }; // System.Array/System.SorterObjectArray
   #pragma pack(pop)

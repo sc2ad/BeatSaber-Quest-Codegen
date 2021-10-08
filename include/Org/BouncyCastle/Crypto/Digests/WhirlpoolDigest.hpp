@@ -152,71 +152,71 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int64[] _state
     ::ArrayW<int64_t>& dyn__state();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1AA0DF0
+    // Offset: 0x1A857B4
     ::Il2CppString* get_AlgorithmName();
     // static private System.Void .cctor()
-    // Offset: 0x1AA044C
+    // Offset: 0x1A84E10
     static void _cctor();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.WhirlpoolDigest originalDigest)
-    // Offset: 0x1AA0B80
+    // Offset: 0x1A85544
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WhirlpoolDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* originalDigest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WhirlpoolDigest*, creationType>(originalDigest)));
     }
     // static private System.Int64 packIntoLong(System.Int32 b7, System.Int32 b6, System.Int32 b5, System.Int32 b4, System.Int32 b3, System.Int32 b2, System.Int32 b1, System.Int32 b0)
-    // Offset: 0x1AA08A0
+    // Offset: 0x1A85264
     static int64_t packIntoLong(int b7, int b6, int b5, int b4, int b3, int b2, int b1, int b0);
     // static private System.Int32 maskWithReductionPolynomial(System.Int32 input)
-    // Offset: 0x1AA088C
+    // Offset: 0x1A85250
     static int maskWithReductionPolynomial(int input);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1AA0E38
+    // Offset: 0x1A857FC
     int GetDigestSize();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1AA0E40
+    // Offset: 0x1A85804
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1AA106C
+    // Offset: 0x1A85A30
     void Reset();
     // private System.Void processFilledBuffer()
-    // Offset: 0x1AA1134
+    // Offset: 0x1A85AF8
     void processFilledBuffer();
     // static private System.Int64 bytesToLongFromBuffer(System.Byte[] buffer, System.Int32 startPos)
-    // Offset: 0x1AA122C
+    // Offset: 0x1A85BF0
     static int64_t bytesToLongFromBuffer(::ArrayW<uint8_t> buffer, int startPos);
     // static private System.Void convertLongToByteArray(System.Int64 inputLong, System.Byte[] outputArray, System.Int32 offSet)
-    // Offset: 0x1AA0FFC
+    // Offset: 0x1A859C0
     static void convertLongToByteArray(int64_t inputLong, ::ArrayW<uint8_t> outputArray, int offSet);
     // private System.Void processBlock()
-    // Offset: 0x1AA130C
+    // Offset: 0x1A85CD0
     void processBlock();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1AA1C68
+    // Offset: 0x1A8662C
     void Update(uint8_t input);
     // private System.Void increment()
-    // Offset: 0x1AA1CE0
+    // Offset: 0x1A866A4
     void increment();
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1AA1E00
+    // Offset: 0x1A867C4
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Void finish()
-    // Offset: 0x1AA0F1C
+    // Offset: 0x1A858E0
     void finish();
     // private System.Byte[] copyBitLength()
-    // Offset: 0x1AA1E78
+    // Offset: 0x1A8683C
     ::ArrayW<uint8_t> copyBitLength();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1AA1F30
+    // Offset: 0x1A868F4
     int GetByteLength();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1AA1F38
+    // Offset: 0x1A868FC
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1AA0C78
+    // Offset: 0x1A8563C
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
     // public System.Void .ctor()
-    // Offset: 0x1AA08D4
+    // Offset: 0x1A85298
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

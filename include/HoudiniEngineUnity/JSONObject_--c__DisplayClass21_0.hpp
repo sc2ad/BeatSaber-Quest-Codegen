@@ -53,10 +53,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.JSONNode aNode
     HoudiniEngineUnity::JSONNode*& dyn_aNode();
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> k)
-    // Offset: 0x1707F10
+    // Offset: 0x16EC8D4
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*> k);
     // public System.Void .ctor()
-    // Offset: 0x1707B84
+    // Offset: 0x16EC548
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

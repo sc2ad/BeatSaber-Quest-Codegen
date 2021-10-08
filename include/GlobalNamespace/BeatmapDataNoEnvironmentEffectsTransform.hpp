@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class BeatmapDataNoEnvironmentEffectsTransform : public ::Il2CppObject {
     public:
     // static public BeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x127827C
+    // Offset: 0x1246BD0
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoEnvironmentEffectsTransform
   #pragma pack(pop)

@@ -27,10 +27,10 @@ namespace Oculus::Platform {
   class MessageWithMicrophoneAvailabilityState : public Oculus::Platform::Message_1<Oculus::Platform::Models::MicrophoneAvailabilityState*> {
     public:
     // protected Oculus.Platform.Models.MicrophoneAvailabilityState GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x16BAB88
+    // Offset: 0x169F54C
     Oculus::Platform::Models::MicrophoneAvailabilityState* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x16B381C
+    // Offset: 0x16981E0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithMicrophoneAvailabilityState*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.MicrophoneAvailabilityState GetMicrophoneAvailabilityState()
-    // Offset: 0x16BAB44
+    // Offset: 0x169F508
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MicrophoneAvailabilityState Message::GetMicrophoneAvailabilityState()
     Oculus::Platform::Models::MicrophoneAvailabilityState* GetMicrophoneAvailabilityState();

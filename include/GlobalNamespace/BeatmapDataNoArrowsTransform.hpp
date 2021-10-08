@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class BeatmapDataNoArrowsTransform : public ::Il2CppObject {
     public:
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x1277F5C
+    // Offset: 0x12468B0
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoArrowsTransform
   #pragma pack(pop)

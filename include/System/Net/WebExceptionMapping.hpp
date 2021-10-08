@@ -27,10 +27,10 @@ namespace System::Net {
     // Set static field: static private readonly System.String[] s_Mapping
     static void _set_s_Mapping(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1782C4C
+    // Offset: 0x1767610
     static void _cctor();
     // static System.String GetWebStatusString(System.Net.WebExceptionStatus status)
-    // Offset: 0x1782A94
+    // Offset: 0x1767458
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus status);
   }; // System.Net.WebExceptionMapping
   #pragma pack(pop)

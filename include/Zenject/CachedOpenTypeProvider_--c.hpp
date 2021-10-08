@@ -43,13 +43,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<Zenject::CachedProvider*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14F7ACC
+    // Offset: 0x14DE490
     static void _cctor();
     // System.Int32 <get_NumInstances>b__8_0(Zenject.CachedProvider x)
-    // Offset: 0x14F7B38
+    // Offset: 0x14DE4FC
     int $get_NumInstances$b__8_0(Zenject::CachedProvider* x);
     // public System.Void .ctor()
-    // Offset: 0x14F7B30
+    // Offset: 0x14DE4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

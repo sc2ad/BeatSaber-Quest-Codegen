@@ -50,13 +50,13 @@ namespace Zenject {
     template<typename T>
     class $$c__5_1;
     // public Zenject.CopyNonLazyBinder When(Zenject.BindingCondition condition)
-    // Offset: 0x14F8390
+    // Offset: 0x14DED54
     Zenject::CopyNonLazyBinder* When(Zenject::BindingCondition* condition);
     // public Zenject.CopyNonLazyBinder WhenInjectedIntoInstance(System.Object instance)
-    // Offset: 0x14F83AC
+    // Offset: 0x14DED70
     Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::Il2CppObject* instance);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
-    // Offset: 0x14F8460
+    // Offset: 0x14DEE24
     Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<System::Type*> targets);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto()
     // Offset: 0xFFFFFFFF
@@ -79,7 +79,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(___instance_arg, ___generic__method);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x14F8380
+    // Offset: 0x14DED44
     // Implemented from: Zenject.CopyNonLazyBinder
     // Base method: System.Void CopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void NonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

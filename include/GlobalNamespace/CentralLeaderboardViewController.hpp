@@ -123,7 +123,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0F888
+    // [SpaceAttribute] Offset: 0xF0F510
     // private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
     // Size: 0x8
     // Offset: 0x90
@@ -166,7 +166,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* leaderboardView;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0F920
+    // [InjectAttribute] Offset: 0xF0F5A8
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -255,46 +255,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x11965E0
+    // Offset: 0x112AF2C
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Boolean get_hasScoresData()
-    // Offset: 0x11965FC
+    // Offset: 0x112AF48
     bool get_hasScoresData();
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x119749C
+    // Offset: 0x112BDE8
     void HandleDidPressRefreshButton();
     // private System.Void HandleGameplaySetupViewControllerDidChangeGameplayModifiers()
-    // Offset: 0x11974A8
+    // Offset: 0x112BDF4
     void HandleGameplaySetupViewControllerDidChangeGameplayModifiers();
     // private System.Void HandlelatformServicesAvailabilityInfoChanged(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x11974FC
+    // Offset: 0x112BE48
     void HandlelatformServicesAvailabilityInfoChanged(OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
     // private System.Void HanldeLeaderboardTypeSegmentedControlDidSelectCell(HMUI.SegmentedControl control, System.Int32 index)
-    // Offset: 0x1197524
+    // Offset: 0x112BE70
     void HanldeLeaderboardTypeSegmentedControlDidSelectCell(HMUI::SegmentedControl* control, int index);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x11975A0
+    // Offset: 0x112BEEC
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandleScoreForLeaderboardDidUpload(System.String leaderboardId)
-    // Offset: 0x11975AC
+    // Offset: 0x112BEF8
     void HandleScoreForLeaderboardDidUpload(::Il2CppString* leaderboardId);
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1196730
+    // Offset: 0x112B07C
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x119760C
+    // Offset: 0x112BF58
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0x11976C8
+    // Offset: 0x112C014
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0x11966C0
+    // Offset: 0x112B00C
     void ClearContent();
     // private System.Void <DidActivate>b__26_0()
-    // Offset: 0x11977F4
+    // Offset: 0x112C140
     void $DidActivate$b__26_0();
     // public System.Void .ctor()
-    // Offset: 0x1197780
+    // Offset: 0x112C0CC
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -309,22 +309,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController*, creationType>()));
     }
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1196658
+    // Offset: 0x112AFA4
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1196950
+    // Offset: 0x112B29C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1197064
+    // Offset: 0x112B9B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1197264
+    // Offset: 0x112BBB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

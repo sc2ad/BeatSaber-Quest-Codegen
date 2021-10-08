@@ -64,17 +64,17 @@ namespace NUnit::Framework::Internal::Execution {
     // Get instance field reference: private System.Threading.ManualResetEvent _event
     System::Threading::ManualResetEvent*& dyn__event();
     // public System.Int32 get_CurrentCount()
-    // Offset: 0x193FD54
+    // Offset: 0x1926718
     int get_CurrentCount();
     // public System.Void .ctor(System.Int32 initialCount)
-    // Offset: 0x193FCB4
+    // Offset: 0x1926678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownEvent* New_ctor(int initialCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownEvent*, creationType>(initialCount)));
     }
     // public System.Void Signal()
-    // Offset: 0x193FD5C
+    // Offset: 0x1926720
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
   #pragma pack(pop)

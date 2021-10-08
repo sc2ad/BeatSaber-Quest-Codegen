@@ -65,22 +65,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _bakeTargets
     System::Collections::Generic::List_1<UnityEngine::GameObject*>*& dyn__bakeTargets();
     // private System.Void OnDestroy()
-    // Offset: 0x151CE08
+    // Offset: 0x15047CC
     void OnDestroy();
     // public System.Void RemoveHoudiniEngineAssetData()
-    // Offset: 0x151CFE0
+    // Offset: 0x15049A4
     void RemoveHoudiniEngineAssetData();
     // public System.Void ClearHoudiniEngineReferences()
-    // Offset: 0x151D0B8
+    // Offset: 0x1504A7C
     void ClearHoudiniEngineReferences();
     // static public System.Void DestroyRootComponent(HoudiniEngineUnity.HEU_HoudiniAssetRoot assetRoot)
-    // Offset: 0x151D114
+    // Offset: 0x1504AD8
     static void DestroyRootComponent(HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
     // private System.Void Reset()
-    // Offset: 0x151D124
+    // Offset: 0x1504AE8
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x151D224
+    // Offset: 0x1504BE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

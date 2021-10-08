@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.RectTransform winnerRectTransform
     UnityEngine::RectTransform*& dyn_winnerRectTransform();
     // System.Void <StartAnimation>b__3(UnityEngine.Vector2 val)
-    // Offset: 0x112E2C0
+    // Offset: 0x11173FC
     void $StartAnimation$b__3(UnityEngine::Vector2 val);
     // public System.Void .ctor()
-    // Offset: 0x112E090
+    // Offset: 0x11171CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

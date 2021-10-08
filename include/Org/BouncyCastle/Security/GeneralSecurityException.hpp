@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Security {
   class GeneralSecurityException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14CB044
+    // Offset: 0x14B1A08
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14CB0AC
+    // Offset: 0x14B1A70
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x14CB124
+    // Offset: 0x14B1AE8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

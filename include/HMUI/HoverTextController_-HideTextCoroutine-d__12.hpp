@@ -60,26 +60,26 @@ namespace HMUI {
     // Get instance field reference: public HMUI.HoverTextController <>4__this
     HMUI::HoverTextController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x148F6B8
+    // Offset: 0x147607C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x148F720
+    // Offset: 0x14760E4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x148F578
+    // Offset: 0x1475F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextController::$HideTextCoroutine$d__12* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::HoverTextController::$HideTextCoroutine$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextController::$HideTextCoroutine$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x148F5C0
+    // Offset: 0x1475F84
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x148F5C4
+    // Offset: 0x1475F88
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x148F6C0
+    // Offset: 0x1476084
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.HoverTextController/HMUI.<HideTextCoroutine>d__12
   #pragma pack(pop)

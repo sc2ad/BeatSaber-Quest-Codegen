@@ -34,15 +34,15 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF51C4
+    // [TooltipAttribute] Offset: 0xEF4E2C
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEF51FC
-    // [RangeAttribute] Offset: 0xEF51FC
+    // [TooltipAttribute] Offset: 0xEF4E64
+    // [RangeAttribute] Offset: 0xEF4E64
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -63,20 +63,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
     UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1EC5E3C
+    // Offset: 0x1EAC8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector::BendBone* New_ctor(UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>(transform, weight)));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1EC354C
+    // Offset: 0x1EA9FB0
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x1EC3950
+    // Offset: 0x1EAA3B4
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1EC5DBC
+    // Offset: 0x1EAC820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

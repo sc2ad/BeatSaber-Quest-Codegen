@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
     // public System.Void Init()
-    // Offset: 0x12460BC
+    // Offset: 0x261AC04
     void Init();
     // public System.Void InitAsAppStart()
-    // Offset: 0x1246130
+    // Offset: 0x261AC78
     void InitAsAppStart();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
-    // Offset: 0x12461A4
+    // Offset: 0x261ACEC
     void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void .ctor()
-    // Offset: 0x1246224
+    // Offset: 0x261AD6C
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

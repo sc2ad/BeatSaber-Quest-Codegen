@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapEventData> _lastBeatmapEventDataDictionary
     System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*& dyn__lastBeatmapEventDataDictionary();
     // public System.Void ProcessAddedEventData(BeatmapEventData eventData)
-    // Offset: 0x26136B4
+    // Offset: 0x25FB15C
     void ProcessAddedEventData(GlobalNamespace::BeatmapEventData* eventData);
     // public System.Void ProcessEventDataPreInsert(System.Int32 index, BeatmapEventData eventData, System.Collections.Generic.List`1<BeatmapEventData> existingBeatmapEventData)
-    // Offset: 0x261375C
+    // Offset: 0x25FB204
     void ProcessEventDataPreInsert(int index, GlobalNamespace::BeatmapEventData* eventData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* existingBeatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x2613908
+    // Offset: 0x25FB3B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

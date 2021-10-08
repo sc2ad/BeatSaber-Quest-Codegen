@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [SpaceAttribute] Offset: 0xF0D254
+    // [SpaceAttribute] Offset: 0xF0CEDC
     // protected T _component
     // Size: 0xFFFFFFFF
     // Offset: 0x0

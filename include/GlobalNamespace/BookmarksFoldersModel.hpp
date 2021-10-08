@@ -55,10 +55,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
     ::ArrayW<GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0x1192FA0
+    // Offset: 0x11278EC
     ::ArrayW<GlobalNamespace::FileBrowserItem*> get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0x1193378
+    // Offset: 0x1127CC4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

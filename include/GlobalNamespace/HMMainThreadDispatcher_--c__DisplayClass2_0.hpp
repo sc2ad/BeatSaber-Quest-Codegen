@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.IEnumerator action
     System::Collections::IEnumerator*& dyn_action();
     // System.Void <Enqueue>b__0()
-    // Offset: 0x1385828
+    // Offset: 0x136A1EC
     void $Enqueue$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1385678
+    // Offset: 0x136A03C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

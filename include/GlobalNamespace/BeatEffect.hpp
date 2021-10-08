@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF05658
+    // [SpaceAttribute] Offset: 0xF052C0
     // private UnityEngine.AnimationCurve _lightIntensityCurve
     // Size: 0x8
     // Offset: 0x30
@@ -147,16 +147,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public ILazyCopyHashSet`1<IBeatEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x126DC04
+    // Offset: 0x123C558
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x126DC0C
+    // Offset: 0x123C560
     void Init(UnityEngine::Color color, float animationDuration, UnityEngine::Quaternion rotation);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x126DD04
+    // Offset: 0x123C658
     void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x126DFDC
+    // Offset: 0x123C930
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

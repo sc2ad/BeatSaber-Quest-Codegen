@@ -66,28 +66,28 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingRemove
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
     // static public HoudiniEngineUnity.HEU_ThreadManager get_Instance()
-    // Offset: 0x17DFA7C
+    // Offset: 0x17C4440
     static HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
     // static private System.Void CreateInstance()
-    // Offset: 0x17DFACC
+    // Offset: 0x17C4490
     static void CreateInstance();
     // public System.Void Register()
-    // Offset: 0x17DFADC
+    // Offset: 0x17C44A0
     void Register();
     // public System.Void Unregister()
-    // Offset: 0x17DFAD8
+    // Offset: 0x17C449C
     void Unregister();
     // public System.Void Update()
-    // Offset: 0x17DFAE0
+    // Offset: 0x17C44A4
     void Update();
     // public System.Void AddTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x17DFE28
+    // Offset: 0x17C47EC
     void AddTask(HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void RemoveTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x17DFED8
+    // Offset: 0x17C489C
     void RemoveTask(HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void .ctor()
-    // Offset: 0x17DFF88
+    // Offset: 0x17C494C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -96,7 +96,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadManager*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x17DFAD0
+    // Offset: 0x17C4494
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -39,22 +39,22 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetDestinationApiName(System.String value)
-    // Offset: 0x16ACA08
+    // Offset: 0x16913CC
     void SetDestinationApiName(::Il2CppString* value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x16ACA84
+    // Offset: 0x1691448
     void SetIsJoinable(bool value);
     // public System.Void SetLobbySessionId(System.String value)
-    // Offset: 0x16ACB00
+    // Offset: 0x16914C4
     void SetLobbySessionId(::Il2CppString* value);
     // public System.Void SetMatchSessionId(System.String value)
-    // Offset: 0x16ACB7C
+    // Offset: 0x1691540
     void SetMatchSessionId(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.GroupPresenceOptions options)
-    // Offset: 0x16AC388
+    // Offset: 0x1690D4C
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x16AC990
+    // Offset: 0x1691354
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +63,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<GroupPresenceOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x16ACBF8
+    // Offset: 0x16915BC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

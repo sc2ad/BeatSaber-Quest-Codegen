@@ -34,14 +34,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xEEB54C
+    // [InjectAttribute] Offset: 0xEE9F6C
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEEB55C
+    // [InjectAttribute] Offset: 0xEE9F7C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void Start()
-    // Offset: 0x2586C70
+    // Offset: 0x256C6D4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2586D04
+    // Offset: 0x256C768
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x2586DE0
+    // Offset: 0x256C844
     void HandleGameScenesManagerTransitionDidStart(float duration);
     // public System.Void .ctor()
-    // Offset: 0x2586DFC
+    // Offset: 0x256C860
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

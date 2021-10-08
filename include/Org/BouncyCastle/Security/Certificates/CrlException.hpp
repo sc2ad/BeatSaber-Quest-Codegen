@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   class CrlException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14C2924
+    // Offset: 0x14A92E8
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CrlException*, creationType>()));
     }
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x14C292C
+    // Offset: 0x14A92F0
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String msg)
     // Base method: System.Void Exception::.ctor(System.String msg)

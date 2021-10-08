@@ -46,21 +46,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FullVRControllersRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xF13D74
+    // [InjectAttribute] Offset: 0xF139FC
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xF13D84
+    // [InjectAttribute] Offset: 0xF13A0C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF13D94
+    // [InjectAttribute] Offset: 0xF13A1C
     // private readonly PlayerVRControllersManager _playerVRControllersManager
     // Size: 0x8
     // Offset: 0x30
@@ -79,16 +79,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayerVRControllersManager _playerVRControllersManager
     GlobalNamespace::PlayerVRControllersManager*& dyn__playerVRControllersManager();
     // protected System.Void Start()
-    // Offset: 0x1123494
+    // Offset: 0x110A8B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1123538
+    // Offset: 0x110A95C
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0x1123614
+    // Offset: 0x110AA38
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0x112372C
+    // Offset: 0x110AB50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

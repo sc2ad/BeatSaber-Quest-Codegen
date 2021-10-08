@@ -52,10 +52,10 @@ namespace UnityEngine::TestRunner::Utils {
     // Get instance field reference: public NUnit.Framework.Interfaces.ITest testsToRun
     NUnit::Framework::Interfaces::ITest*& dyn_testsToRun();
     // System.Void <RunStarted>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
-    // Offset: 0x166C0D0
+    // Offset: 0x1650A94
     void $RunStarted$b__0(UnityEngine::TestRunner::ITestRunCallback* callback);
     // public System.Void .ctor()
-    // Offset: 0x166B7F0
+    // Offset: 0x16501B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

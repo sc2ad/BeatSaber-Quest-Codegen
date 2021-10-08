@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly GameplayServerFiniteStateMachine fsm
     GlobalNamespace::GameplayServerFiniteStateMachine*& dyn_fsm();
     // public System.Void .ctor(GameplayServerFiniteStateMachine fsm)
-    // Offset: 0x1457C5C
+    // Offset: 0x143C620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameState* New_ctor(GlobalNamespace::GameplayServerFiniteStateMachine* fsm) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameState::.ctor");

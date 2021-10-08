@@ -62,35 +62,35 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Int32 l
     int& dyn_l();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1396500
+    // Offset: 0x137AEC4
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1396508
+    // Offset: 0x137AECC
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g)
-    // Offset: 0x1396428
+    // Offset: 0x137ADEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameters*, creationType>(p, g)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, System.Int32 l)
-    // Offset: 0x1396430
+    // Offset: 0x137ADF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameters*, creationType>(p, g, l)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalParameters other)
-    // Offset: 0x13965C0
+    // Offset: 0x137AF84
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1396510
+    // Offset: 0x137AED4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1396638
+    // Offset: 0x137AFFC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

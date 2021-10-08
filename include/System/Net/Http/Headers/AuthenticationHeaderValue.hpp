@@ -62,31 +62,31 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String <Scheme>k__BackingField
     ::Il2CppString*& dyn_$Scheme$k__BackingField();
     // public System.String get_Parameter()
-    // Offset: 0x174AA00
+    // Offset: 0x172E3C4
     ::Il2CppString* get_Parameter();
     // private System.Void set_Parameter(System.String value)
-    // Offset: 0x174AA08
+    // Offset: 0x172E3CC
     void set_Parameter(::Il2CppString* value);
     // public System.String get_Scheme()
-    // Offset: 0x174AA10
+    // Offset: 0x172E3D4
     ::Il2CppString* get_Scheme();
     // private System.Void set_Scheme(System.String value)
-    // Offset: 0x174AA18
+    // Offset: 0x172E3DC
     void set_Scheme(::Il2CppString* value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x174AA20
+    // Offset: 0x172E3E4
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.AuthenticationHeaderValue parsedValue)
-    // Offset: 0x174AB70
+    // Offset: 0x172E534
     static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.AuthenticationHeaderValue> result)
-    // Offset: 0x174ADB0
+    // Offset: 0x172E774
     static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.AuthenticationHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x174AC68
+    // Offset: 0x172E62C
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x174A9F8
+    // Offset: 0x172E3BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -95,17 +95,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x174AA28
+    // Offset: 0x172E3EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x174AAF0
+    // Offset: 0x172E4B4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x174B1CC
+    // Offset: 0x172EB90
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

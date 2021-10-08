@@ -66,23 +66,23 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo
     System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*& dyn_m_cachedDiagnosticInfo();
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0x25EF334
+    // Offset: 0x25D6DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerDiagnostics* New_ctor(UnityEngine::ResourceManagement::ResourceManager* resourceManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerDiagnostics*, creationType>(resourceManager)));
     }
     // System.Int32 SumDependencyNameHashCodes(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x25EF404
+    // Offset: 0x25D6EAC
     int SumDependencyNameHashCodes(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // System.Int32 CalculateHashCode(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x25EF5C0
+    // Offset: 0x25D7068
     int CalculateHashCode(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // private System.Void OnResourceManagerDiagnosticEvent(UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext eventContext)
-    // Offset: 0x25EF6B8
+    // Offset: 0x25D7160
     void OnResourceManagerDiagnosticEvent(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext eventContext);
     // public System.Void Dispose()
-    // Offset: 0x25EF98C
+    // Offset: 0x25D7434
     void Dispose();
   }; // UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics
   #pragma pack(pop)

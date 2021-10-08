@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     ::Il2CppString*& dyn_userId();
     // System.Void <HandleServerPlayerListViewControllerKickPlayer>b__0(System.Int32 btnId)
-    // Offset: 0x11DE5F4
+    // Offset: 0x11B1030
     void $HandleServerPlayerListViewControllerKickPlayer$b__0(int btnId);
     // public System.Void .ctor()
-    // Offset: 0x11DCBDC
+    // Offset: 0x11AF618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

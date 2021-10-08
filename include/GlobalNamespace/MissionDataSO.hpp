@@ -75,8 +75,8 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF02AEC
-    // [NullAllowed] Offset: 0xF02AEC
+    // [SpaceAttribute] Offset: 0xF02744
+    // [NullAllowed] Offset: 0xF02744
     // private MissionHelpSO _missionHelp
     // Size: 0x8
     // Offset: 0x40
@@ -99,28 +99,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionHelpSO _missionHelp
     GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x1184FB0
+    // Offset: 0x1209874
     ::ArrayW<GlobalNamespace::MissionObjective*> get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x1184FB8
+    // Offset: 0x120987C
     GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1184FC0
+    // Offset: 0x1209884
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1184FC8
+    // Offset: 0x120988C
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1184FD0
+    // Offset: 0x1209894
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x1184FD8
+    // Offset: 0x120989C
     GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0x1184FE0
+    // Offset: 0x12098A4
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1185084
+    // Offset: 0x1209948
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

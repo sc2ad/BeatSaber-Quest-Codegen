@@ -38,35 +38,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE96A4
+    // [DescriptionAttribute] Offset: 0xEE80C4
     // static field const value: static public Oculus.Platform.PartyUpdateAction Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Unknown
     static Oculus::Platform::PartyUpdateAction _get_Unknown();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Unknown
     static void _set_Unknown(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE96DC
+    // [DescriptionAttribute] Offset: 0xEE80FC
     // static field const value: static public Oculus.Platform.PartyUpdateAction Join
     static constexpr const int Join = 1;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Join
     static Oculus::Platform::PartyUpdateAction _get_Join();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Join
     static void _set_Join(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE9714
+    // [DescriptionAttribute] Offset: 0xEE8134
     // static field const value: static public Oculus.Platform.PartyUpdateAction Leave
     static constexpr const int Leave = 2;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Leave
     static Oculus::Platform::PartyUpdateAction _get_Leave();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Leave
     static void _set_Leave(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE974C
+    // [DescriptionAttribute] Offset: 0xEE816C
     // static field const value: static public Oculus.Platform.PartyUpdateAction Invite
     static constexpr const int Invite = 3;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Invite
     static Oculus::Platform::PartyUpdateAction _get_Invite();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Invite
     static void _set_Invite(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE9784
+    // [DescriptionAttribute] Offset: 0xEE81A4
     // static field const value: static public Oculus.Platform.PartyUpdateAction Uninvite
     static constexpr const int Uninvite = 4;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Uninvite

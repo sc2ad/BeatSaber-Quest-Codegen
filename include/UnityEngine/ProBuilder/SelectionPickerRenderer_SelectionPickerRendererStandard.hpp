@@ -38,10 +38,10 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
     }
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
-    // Offset: 0x169C88C
+    // Offset: 0x1681250
     UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x169A180
+    // Offset: 0x167EB44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

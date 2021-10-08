@@ -37,16 +37,16 @@ namespace RootMotion {
   class AvatarUtility : public ::Il2CppObject {
     public:
     // static public UnityEngine.Quaternion GetPostRotation(UnityEngine.Avatar avatar, UnityEngine.AvatarIKGoal avatarIKGoal)
-    // Offset: 0x1EB2C88
+    // Offset: 0x1E996EC
     static UnityEngine::Quaternion GetPostRotation(UnityEngine::Avatar* avatar, UnityEngine::AvatarIKGoal avatarIKGoal);
     // static public RootMotion.TQ GetIKGoalTQ(UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.AvatarIKGoal avatarIKGoal, RootMotion.TQ bodyPositionRotation, RootMotion.TQ boneTQ)
-    // Offset: 0x1EB2E9C
+    // Offset: 0x1E99900
     static RootMotion::TQ* GetIKGoalTQ(UnityEngine::Avatar* avatar, float humanScale, UnityEngine::AvatarIKGoal avatarIKGoal, RootMotion::TQ* bodyPositionRotation, RootMotion::TQ* boneTQ);
     // static public UnityEngine.HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine.AvatarIKGoal avatarIKGoal)
-    // Offset: 0x1EB2E7C
+    // Offset: 0x1E998E0
     static UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine::AvatarIKGoal avatarIKGoal);
     // public System.Void .ctor()
-    // Offset: 0x1EB351C
+    // Offset: 0x1E99F80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

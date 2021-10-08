@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
     GlobalNamespace::FlyingScoreSpawner::SpawnPosition& dyn_spawnPosition();
     // public System.Void .ctor(FlyingScoreSpawner/SpawnPosition spawnPosition)
-    // Offset: 0x11BA67C
+    // Offset: 0x1175314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingScoreSpawner::InitData* New_ctor(GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlyingScoreSpawner::InitData::.ctor");

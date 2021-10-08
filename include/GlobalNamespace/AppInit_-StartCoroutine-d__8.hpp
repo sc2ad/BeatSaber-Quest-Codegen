@@ -70,26 +70,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private AppInit/AppStartType <startType>5__2
     GlobalNamespace::AppInit::AppStartType& dyn_$startType$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1246044
+    // Offset: 0x261AB8C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12460AC
+    // Offset: 0x261ABF4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1245B50
+    // Offset: 0x261A698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInit::$StartCoroutine$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInit::$StartCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInit::$StartCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1245E50
+    // Offset: 0x261A998
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1245E54
+    // Offset: 0x261A99C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x124604C
+    // Offset: 0x261AB94
     void System_Collections_IEnumerator_Reset();
   }; // AppInit/<StartCoroutine>d__8
   #pragma pack(pop)

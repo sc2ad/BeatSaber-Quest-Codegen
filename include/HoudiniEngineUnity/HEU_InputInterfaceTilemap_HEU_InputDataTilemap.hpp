@@ -59,7 +59,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1524A2C
+    // Offset: 0x150C3F0
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
     // Base method: System.Void Object::.ctor()

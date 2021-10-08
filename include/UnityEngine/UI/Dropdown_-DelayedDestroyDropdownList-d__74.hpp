@@ -70,26 +70,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this
     UnityEngine::UI::Dropdown*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1AC7A7C
+    // Offset: 0x1AAC440
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1AC7AE4
+    // Offset: 0x1AAC4A8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1AC7998
+    // Offset: 0x1AAC35C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::$DelayedDestroyDropdownList$d__74* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::$DelayedDestroyDropdownList$d__74*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1AC79C4
+    // Offset: 0x1AAC388
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1AC79C8
+    // Offset: 0x1AAC38C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1AC7A84
+    // Offset: 0x1AAC448
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.<DelayedDestroyDropdownList>d__74
   #pragma pack(pop)

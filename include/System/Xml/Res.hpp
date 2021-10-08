@@ -17,10 +17,10 @@ namespace System::Xml {
   class Res : public ::Il2CppObject {
     public:
     // static public System.String GetString(System.String name)
-    // Offset: 0x1AF7D68
+    // Offset: 0x1ADC72C
     static ::Il2CppString* GetString(::Il2CppString* name);
     // static public System.String GetString(System.String name, params System.Object[] args)
-    // Offset: 0x1AFD29C
+    // Offset: 0x1AE1C60
     static ::Il2CppString* GetString(::Il2CppString* name, ::ArrayW<::Il2CppObject*> args);
   }; // System.Xml.Res
   #pragma pack(pop)

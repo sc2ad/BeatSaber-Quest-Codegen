@@ -31,10 +31,10 @@ namespace GlobalNamespace {
   class BTSStarTextEffectController::Pool : public Zenject::MonoMemoryPool_4<UnityEngine::Sprite*, UnityEngine::Transform*, float, GlobalNamespace::BTSStarTextEffectController*> {
     public:
     // protected System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform transform, System.Single desiredAnimationLength, BTSStarTextEffectController starTextEffectController)
-    // Offset: 0x126850C
+    // Offset: 0x1236E60
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* transform, float desiredAnimationLength, GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
     // public System.Void .ctor()
-    // Offset: 0x1268524
+    // Offset: 0x1236E78
     // Implemented from: Zenject.MonoMemoryPool`4
     // Base method: System.Void MonoMemoryPool_4::.ctor()
     // Base method: System.Void MemoryPool_4::.ctor()

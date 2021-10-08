@@ -63,20 +63,20 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Runtime.Serialization.StreamingContext m_context
     System::Runtime::Serialization::StreamingContext& dyn_m_context();
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x19188C4
+    // Offset: 0x18FF288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationObjectManager* New_ctor(System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationObjectManager*, creationType>(context)));
     }
     // public System.Void RegisterObject(System.Object obj)
-    // Offset: 0x1918964
+    // Offset: 0x18FF328
     void RegisterObject(::Il2CppObject* obj);
     // public System.Void RaiseOnSerializedEvent()
-    // Offset: 0x1918B34
+    // Offset: 0x18FF4F8
     void RaiseOnSerializedEvent();
     // private System.Void AddOnSerialized(System.Object obj)
-    // Offset: 0x1918A90
+    // Offset: 0x18FF454
     void AddOnSerialized(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.SerializationObjectManager
   #pragma pack(pop)

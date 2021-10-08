@@ -82,14 +82,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xF11890
+    // [InjectAttribute] Offset: 0xF11518
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF118A0
+    // [InjectAttribute] Offset: 0xF11528
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -118,13 +118,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder _sb
     System::Text::StringBuilder*& dyn__sb();
     // private System.Void GetServerStatus()
-    // Offset: 0x1122424
+    // Offset: 0x1109848
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
-    // Offset: 0x11224DC
+    // Offset: 0x1109900
     void AppendLine(::Il2CppString* line);
     // public System.Void .ctor()
-    // Offset: 0x1122534
+    // Offset: 0x1109958
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -138,7 +138,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1122370
+    // Offset: 0x1109794
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

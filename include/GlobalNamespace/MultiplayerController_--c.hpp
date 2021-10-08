@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerLevelCompletionResults,System.Boolean> <>9__47_0
     static void _set_$$9__47_0(System::Func_2<GlobalNamespace::MultiplayerLevelCompletionResults*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1217860
+    // Offset: 0x118A020
     static void _cctor();
     // System.Boolean <EndGameplay>b__47_0(MultiplayerLevelCompletionResults result)
-    // Offset: 0x12178CC
+    // Offset: 0x118A08C
     bool $EndGameplay$b__47_0(GlobalNamespace::MultiplayerLevelCompletionResults* result);
     // public System.Void .ctor()
-    // Offset: 0x12178C4
+    // Offset: 0x118A084
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

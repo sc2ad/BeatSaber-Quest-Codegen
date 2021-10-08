@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class QuickStartOneSongGameplayServerFiniteStateMachine : public GlobalNamespace::GameplayServerFiniteStateMachine {
     public:
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x18D5838
+    // Offset: 0x18BC1FC
     // Implemented from: GameplayServerFiniteStateMachine
     // Base method: System.Void GameplayServerFiniteStateMachine::.ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

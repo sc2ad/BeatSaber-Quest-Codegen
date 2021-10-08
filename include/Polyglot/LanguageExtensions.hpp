@@ -23,13 +23,13 @@ namespace Polyglot {
   class LanguageExtensions : public ::Il2CppObject {
     public:
     // static public System.String ToSerializedName(Polyglot.Language lang)
-    // Offset: 0x2581DD8
+    // Offset: 0x256683C
     static ::Il2CppString* ToSerializedName(Polyglot::Language lang);
     // static public System.String ToCultureInfoName(Polyglot.Language lang)
-    // Offset: 0x2581E40
+    // Offset: 0x25668A4
     static ::Il2CppString* ToCultureInfoName(Polyglot::Language lang);
     // static public Polyglot.Language ToLanguage(System.String serializedName)
-    // Offset: 0x2581EF0
+    // Offset: 0x2566954
     static Polyglot::Language ToLanguage(::Il2CppString* serializedName);
   }; // Polyglot.LanguageExtensions
   #pragma pack(pop)

@@ -97,10 +97,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _instances
     System::Collections::Generic::List_1<UnityEngine::GameObject*>*& dyn__instances();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectInstanceInfo other)
-    // Offset: 0x152F754
+    // Offset: 0x1517118
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
     // public System.Void .ctor()
-    // Offset: 0x152F86C
+    // Offset: 0x1517230
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

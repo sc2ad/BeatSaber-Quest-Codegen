@@ -88,14 +88,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Type[] memberTypes
     ::ArrayW<System::Type*>& dyn_memberTypes();
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x17F51B8
+    // Offset: 0x17DAB7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoCache*, creationType>(typeName, assemblyName, hasTypeForwardedFrom)));
     }
     // System.Void .ctor(System.Type type)
-    // Offset: 0x17F4E7C
+    // Offset: 0x17DA840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");

@@ -83,23 +83,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Boolean forSigning
     bool& dyn_forSigning();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa signer, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x139D5B4
+    // Offset: 0x1381F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410DigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsa* signer, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410DigestSigner*, creationType>(signer, digest)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x139D690
+    // Offset: 0x1382054
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x139D898
+    // Offset: 0x138225C
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x139D974
+    // Offset: 0x1382338
     ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x139DD38
+    // Offset: 0x13826FC
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Gost3410DigestSigner
   #pragma pack(pop)

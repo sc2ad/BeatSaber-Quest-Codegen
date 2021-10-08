@@ -33,7 +33,7 @@ namespace Zenject {
   class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
     // public Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x25EDF64
+    // Offset: 0x25D5A0C
     Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
     // Offset: 0xFFFFFFFF
@@ -47,7 +47,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method);
     }
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x25EDF5C
+    // Offset: 0x25D5A04
     // Implemented from: Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
     // Base method: System.Void DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

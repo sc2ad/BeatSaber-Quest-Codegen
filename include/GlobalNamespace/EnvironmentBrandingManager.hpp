@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::ArrayW<UnityEngine::GameObject*> replacementBrandingObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF041DC
+    // [InjectOptionalAttribute] Offset: 0xF03E44
     // private readonly EnvironmentBrandingManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentBrandingManager/InitData _initData
     GlobalNamespace::EnvironmentBrandingManager::InitData*& dyn__initData();
     // protected System.Void Start()
-    // Offset: 0x11AFE7C
+    // Offset: 0x116AB10
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x11AFF54
+    // Offset: 0x116ABE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

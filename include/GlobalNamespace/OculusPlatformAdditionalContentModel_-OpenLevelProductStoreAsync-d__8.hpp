@@ -112,10 +112,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
     System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x11189A4
+    // Offset: 0x10FFDC8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1118D58
+    // Offset: 0x110017C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__8
   // WARNING Not writing size check since size may be invalid!

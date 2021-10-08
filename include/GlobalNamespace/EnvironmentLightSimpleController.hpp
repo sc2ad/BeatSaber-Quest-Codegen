@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: colorId and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0xF05DD4
+    // [InjectAttribute] Offset: 0xF05A3C
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x30
@@ -65,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightWithIdManager _lightManager
     GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // protected System.Void LateUpdate()
-    // Offset: 0x11B0BF0
+    // Offset: 0x116B884
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x11B0C1C
+    // Offset: 0x116B8B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

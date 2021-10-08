@@ -34,13 +34,13 @@ namespace HMUI {
     // Set static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
     static void _set_$$9(HMUI::StackedController::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x141D844
+    // Offset: 0x1401208
     static void _cctor();
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x141D8B0
+    // Offset: 0x1401274
     void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<HMUI::ViewController*> viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x141D8A8
+    // Offset: 0x140126C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

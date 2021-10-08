@@ -21,12 +21,12 @@ namespace System::Text {
   class EncoderExceptionFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1DFAE98
+    // Offset: 0x1DE18FC
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public System.Void .ctor()
-    // Offset: 0x1DFA948
+    // Offset: 0x1DE13AC
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -36,22 +36,22 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1DFA9CC
+    // Offset: 0x1DE1430
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1DFAAFC
+    // Offset: 0x1DE1560
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1DFAE88
+    // Offset: 0x1DE18EC
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1DFAE90
+    // Offset: 0x1DE18F4
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();

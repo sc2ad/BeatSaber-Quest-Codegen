@@ -39,20 +39,20 @@ namespace System::Runtime::Remoting::Lifetime {
   class Lease::RenewalDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C10088
+    // Offset: 0x1BF3A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lease::RenewalDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lease::RenewalDelegate*, creationType>(object, method)));
     }
     // public System.TimeSpan Invoke(System.Runtime.Remoting.Lifetime.ILease lease)
-    // Offset: 0x1C102C4
+    // Offset: 0x1BF3C88
     System::TimeSpan Invoke(System::Runtime::Remoting::Lifetime::ILease* lease);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Lifetime.ILease lease, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C10098
+    // Offset: 0x1BF3A5C
     System::IAsyncResult* BeginInvoke(System::Runtime::Remoting::Lifetime::ILease* lease, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.TimeSpan EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C10298
+    // Offset: 0x1BF3C5C
     System::TimeSpan EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate
   #pragma pack(pop)

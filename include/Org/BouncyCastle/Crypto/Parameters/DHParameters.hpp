@@ -99,61 +99,61 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation
     Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*& dyn_validation();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x13919AC
+    // Offset: 0x1376370
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x13919B4
+    // Offset: 0x1376378
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x13919BC
+    // Offset: 0x1376380
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public System.Int32 get_M()
-    // Offset: 0x13919C4
+    // Offset: 0x1376388
     int get_M();
     // public System.Int32 get_L()
-    // Offset: 0x13919CC
+    // Offset: 0x1376390
     int get_L();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q)
-    // Offset: 0x139122C
+    // Offset: 0x1375BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHParameters*, creationType>(p, g, q)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q, System.Int32 l)
-    // Offset: 0x13912B4
+    // Offset: 0x1375C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHParameters*, creationType>(p, g, q, l)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger j, Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation)
-    // Offset: 0x139162C
+    // Offset: 0x1375FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHParameters*, creationType>(p, g, q, j, validation)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q, System.Int32 m, System.Int32 l, Org.BouncyCastle.Math.BigInteger j, Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation)
-    // Offset: 0x1391324
+    // Offset: 0x1375CE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q, int m, int l, Org::BouncyCastle::Math::BigInteger* j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHParameters*, creationType>(p, g, q, m, l, j, validation)));
     }
     // static private System.Int32 GetDefaultMParam(System.Int32 lParam)
-    // Offset: 0x13911AC
+    // Offset: 0x1375B70
     static int GetDefaultMParam(int lParam);
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHParameters other)
-    // Offset: 0x1391A8C
+    // Offset: 0x1376450
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13919D4
+    // Offset: 0x1376398
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1391B08
+    // Offset: 0x13764CC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

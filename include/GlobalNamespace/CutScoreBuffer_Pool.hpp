@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class CutScoreBuffer::Pool : public Zenject::MemoryPool_1<GlobalNamespace::CutScoreBuffer*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11A33AC
+    // Offset: 0x1137D00
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()

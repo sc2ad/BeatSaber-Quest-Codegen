@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField
     UnityEngine::PropertyName& dyn_$id$k__BackingField();
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x259C068
+    // Offset: 0x2580B10
     UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x259C070
+    // Offset: 0x2580B18
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -69,47 +69,47 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String listenerName
     ::Il2CppString*& dyn_listenerName();
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x1A2ADE8
+    // Offset: 0x1A0F7AC
     bool get_IsThreadSafe();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x1A2A22C
+    // Offset: 0x1A0EBF0
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x1A2A248
+    // Offset: 0x1A0EC0C
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x1A2AE74
+    // Offset: 0x1A0F838
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x1A2AE7C
+    // Offset: 0x1A0F840
     void set_NeedIndent(bool value);
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x1A2509C
+    // Offset: 0x1A09A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListener* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1A2ADF0
+    // Offset: 0x1A0F7B4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A2AE6C
+    // Offset: 0x1A0F830
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1A2AE70
+    // Offset: 0x1A0F834
     void Flush();
     // public System.Void Fail(System.String message)
-    // Offset: 0x1A250F0
+    // Offset: 0x1A09AB4
     void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1A251A8
+    // Offset: 0x1A09B6C
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
     void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
-    // Offset: 0x1A2AE88
+    // Offset: 0x1A0F84C
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF

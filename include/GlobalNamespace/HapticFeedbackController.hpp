@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* continuousRumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC9CD0
+    // [InjectAttribute] Offset: 0xECB6F0
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
@@ -92,25 +92,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,System.Collections.Generic.Dictionary`2<System.Object,HapticFeedbackController/RumbleData>> _rumblesByNode
     System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>*& dyn__rumblesByNode();
     // public Libraries.HM.HMLib.VR.HapticPresetSO get_continuousRumblePreset()
-    // Offset: 0x1385C3C
+    // Offset: 0x136A600
     Libraries::HM::HMLib::VR::HapticPresetSO* get_continuousRumblePreset();
     // protected System.Void Awake()
-    // Offset: 0x1385C44
+    // Offset: 0x136A608
     void Awake();
     // public System.Void PlayHapticFeedback(UnityEngine.XR.XRNode node, Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x1385D0C
+    // Offset: 0x136A6D0
     void PlayHapticFeedback(UnityEngine::XR::XRNode node, Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // private System.Void Update()
-    // Offset: 0x1385EF0
+    // Offset: 0x136A8B4
     void Update();
     // private System.Void UpdateRumbles()
-    // Offset: 0x1385EF4
+    // Offset: 0x136A8B8
     void UpdateRumbles();
     // private HapticFeedbackController/RumbleData GetRumble(UnityEngine.XR.XRNode node, System.Object preset)
-    // Offset: 0x1385DF4
+    // Offset: 0x136A7B8
     GlobalNamespace::HapticFeedbackController::RumbleData* GetRumble(UnityEngine::XR::XRNode node, ::Il2CppObject* preset);
     // public System.Void .ctor()
-    // Offset: 0x1386300
+    // Offset: 0x136ACC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -64,7 +64,7 @@ namespace HMUI {
     UnityEngine::Sprite* disabledStateSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEE2960
+    // [SpaceAttribute] Offset: 0xEE2380
     // private HMUI.NoTransitionsButton _button
     // Size: 0x8
     // Offset: 0x38
@@ -101,22 +101,22 @@ namespace HMUI {
     // Get instance field reference: protected System.Boolean _didStart
     bool& dyn__didStart();
     // protected System.Void Awake()
-    // Offset: 0x1481BF0
+    // Offset: 0x14685B4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1481C84
+    // Offset: 0x1468648
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1481CB0
+    // Offset: 0x1468674
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1481CD4
+    // Offset: 0x1468698
     void OnDestroy();
     // protected System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1481DAC
+    // Offset: 0x1468770
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1481E88
+    // Offset: 0x146884C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

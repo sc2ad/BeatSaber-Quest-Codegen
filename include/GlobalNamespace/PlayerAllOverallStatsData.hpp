@@ -102,71 +102,71 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MissionCompletionResults,MissionNode> didUpdateCampaignOverallStatsDataEvent
     System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>*& dyn_didUpdateCampaignOverallStatsDataEvent();
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_allOverallStatsData()
-    // Offset: 0x12B3DD4
+    // Offset: 0x12C5B2C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_allOverallStatsData();
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_campaignOverallStatsData()
-    // Offset: 0x12B3F34
+    // Offset: 0x12C5C8C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_campaignOverallStatsData();
     // private System.Void set_campaignOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x12B3F3C
+    // Offset: 0x12C5C94
     void set_campaignOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_soloFreePlayOverallStatsData()
-    // Offset: 0x12B3F44
+    // Offset: 0x12C5C9C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
     // private System.Void set_soloFreePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x12B3F4C
+    // Offset: 0x12C5CA4
     void set_soloFreePlayOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_partyFreePlayOverallStatsData()
-    // Offset: 0x12B3F54
+    // Offset: 0x12C5CAC
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
     // private System.Void set_partyFreePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x12B3F5C
+    // Offset: 0x12C5CB4
     void set_partyFreePlayOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_onlinePlayOverallStatsData()
-    // Offset: 0x12B3F64
+    // Offset: 0x12C5CBC
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_onlinePlayOverallStatsData();
     // private System.Void set_onlinePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x12B3F6C
+    // Offset: 0x12C5CC4
     void set_onlinePlayOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public System.Void add_didUpdateSoloFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x12B3F74
+    // Offset: 0x12C5CCC
     void add_didUpdateSoloFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didUpdateSoloFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x12B4018
+    // Offset: 0x12C5D70
     void remove_didUpdateSoloFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didUpdatePartyFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x12B40BC
+    // Offset: 0x12C5E14
     void add_didUpdatePartyFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didUpdatePartyFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x12B4160
+    // Offset: 0x12C5EB8
     void remove_didUpdatePartyFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didUpdateCampaignOverallStatsDataEvent(System.Action`2<MissionCompletionResults,MissionNode> value)
-    // Offset: 0x12B4204
+    // Offset: 0x12C5F5C
     void add_didUpdateCampaignOverallStatsDataEvent(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didUpdateCampaignOverallStatsDataEvent(System.Action`2<MissionCompletionResults,MissionNode> value)
-    // Offset: 0x12B42A8
+    // Offset: 0x12C6000
     void remove_didUpdateCampaignOverallStatsDataEvent(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* value);
     // public System.Void .ctor(PlayerAllOverallStatsData/PlayerOverallStatsData campaignOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData onlinePlayOverallStatsData)
-    // Offset: 0x12B4410
+    // Offset: 0x12C6168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* partyFreePlayOverallStatsData, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData)));
     }
     // public System.Void UpdateSoloFreePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x12B445C
+    // Offset: 0x12C61B4
     void UpdateSoloFreePlayOverallStatsData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void UpdatePartyFreePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x12B4614
+    // Offset: 0x12C636C
     void UpdatePartyFreePlayOverallStatsData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void UpdateCampaignOverallStatsData(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0x12B46A4
+    // Offset: 0x12C63FC
     void UpdateCampaignOverallStatsData(GlobalNamespace::MissionCompletionResults* missionCompletionResults, GlobalNamespace::MissionNode* missionNode);
     // public System.Void UpdateOnlinePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x12B4738
+    // Offset: 0x12C6490
     void UpdateOnlinePlayOverallStatsData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void .ctor()
-    // Offset: 0x12B434C
+    // Offset: 0x12C60A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

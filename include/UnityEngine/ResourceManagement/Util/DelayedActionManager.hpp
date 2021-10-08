@@ -107,19 +107,19 @@ namespace UnityEngine::ResourceManagement::Util {
       // Get instance field reference: private System.Single <InvocationTime>k__BackingField
       float& dyn_$InvocationTime$k__BackingField();
       // public System.Single get_InvocationTime()
-      // Offset: 0x1B6E588
+      // Offset: 0x1B51F4C
       float get_InvocationTime();
       // private System.Void set_InvocationTime(System.Single value)
-      // Offset: 0x1B6E590
+      // Offset: 0x1B51F54
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      // Offset: 0x1B6DC58
+      // Offset: 0x1B5161C
       DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayW<::Il2CppObject*> p);
       // public System.Void Invoke()
-      // Offset: 0x1B6E1B0
+      // Offset: 0x1B51B74
       void Invoke();
       // public override System.String ToString()
-      // Offset: 0x1B6E598
+      // Offset: 0x1B51F5C
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -176,37 +176,37 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Boolean m_DestroyOnCompletion
     bool& dyn_m_DestroyOnCompletion();
     // static public System.Boolean get_IsActive()
-    // Offset: 0x1B6DCE0
+    // Offset: 0x1B516A4
     static bool get_IsActive();
     // private System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> GetNode(ref UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo del)
-    // Offset: 0x1B6D88C
+    // Offset: 0x1B51250
     System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* GetNode(ByRef<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo> del);
     // static public System.Void Clear()
-    // Offset: 0x1B6D964
+    // Offset: 0x1B51328
     static void Clear();
     // private System.Void DestroyWhenComplete()
-    // Offset: 0x1B6D9D4
+    // Offset: 0x1B51398
     void DestroyWhenComplete();
     // static public System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1B6D9E0
+    // Offset: 0x1B513A4
     static void AddAction(System::Delegate* action, float delay, ::ArrayW<::Il2CppObject*> parameters);
     // private System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1B6DA5C
+    // Offset: 0x1B51420
     void AddActionInternal(System::Delegate* action, float delay, ::ArrayW<::Il2CppObject*> parameters);
     // static public System.Boolean Wait(System.Single timeout, System.Single timeAdvanceAmount)
-    // Offset: 0x1B6DDE0
+    // Offset: 0x1B517A4
     static bool Wait(float timeout, float timeAdvanceAmount);
     // private System.Void LateUpdate()
-    // Offset: 0x1B6E188
+    // Offset: 0x1B51B4C
     void LateUpdate();
     // private System.Void InternalLateUpdate(System.Single t)
-    // Offset: 0x1B6DF14
+    // Offset: 0x1B518D8
     void InternalLateUpdate(float t);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1B6E364
+    // Offset: 0x1B51D28
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x1B6E410
+    // Offset: 0x1B51DD4
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

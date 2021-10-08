@@ -81,28 +81,28 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Quaternion rotation
     UnityEngine::Quaternion& dyn_rotation();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 tangentIn, UnityEngine.Vector3 tangentOut, UnityEngine.Quaternion rotation)
-    // Offset: 0x21513E0
+    // Offset: 0x213AE44
     // ABORTED: conflicts with another method.  BezierPoint(UnityEngine::Vector3 position, UnityEngine::Vector3 tangentIn, UnityEngine::Vector3 tangentOut, UnityEngine::Quaternion rotation);
     // public System.Void EnforceTangentMode(UnityEngine.ProBuilder.BezierTangentDirection master, UnityEngine.ProBuilder.BezierTangentMode mode)
-    // Offset: 0x2151408
+    // Offset: 0x213AE6C
     void EnforceTangentMode(UnityEngine::ProBuilder::BezierTangentDirection master, UnityEngine::ProBuilder::BezierTangentMode mode);
     // public System.Void SetPosition(UnityEngine.Vector3 position)
-    // Offset: 0x2151720
+    // Offset: 0x213B184
     void SetPosition(UnityEngine::Vector3 position);
     // public System.Void SetTangentIn(UnityEngine.Vector3 tangent, UnityEngine.ProBuilder.BezierTangentMode mode)
-    // Offset: 0x2151834
+    // Offset: 0x213B298
     void SetTangentIn(UnityEngine::Vector3 tangent, UnityEngine::ProBuilder::BezierTangentMode mode);
     // public System.Void SetTangentOut(UnityEngine.Vector3 tangent, UnityEngine.ProBuilder.BezierTangentMode mode)
-    // Offset: 0x2151848
+    // Offset: 0x213B2AC
     void SetTangentOut(UnityEngine::Vector3 tangent, UnityEngine::ProBuilder::BezierTangentMode mode);
     // static public UnityEngine.Vector3 QuadraticPosition(UnityEngine.ProBuilder.BezierPoint a, UnityEngine.ProBuilder.BezierPoint b, System.Single t)
-    // Offset: 0x215185C
+    // Offset: 0x213B2C0
     static UnityEngine::Vector3 QuadraticPosition(UnityEngine::ProBuilder::BezierPoint a, UnityEngine::ProBuilder::BezierPoint b, float t);
     // static public UnityEngine.Vector3 CubicPosition(UnityEngine.ProBuilder.BezierPoint a, UnityEngine.ProBuilder.BezierPoint b, System.Single t)
-    // Offset: 0x21518FC
+    // Offset: 0x213B360
     static UnityEngine::Vector3 CubicPosition(UnityEngine::ProBuilder::BezierPoint a, UnityEngine::ProBuilder::BezierPoint b, float t);
     // static public UnityEngine.Vector3 GetLookDirection(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> points, System.Int32 index, System.Int32 previous, System.Int32 next)
-    // Offset: 0x2151AB0
+    // Offset: 0x213B514
     static UnityEngine::Vector3 GetLookDirection(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* points, int index, int previous, int next);
   }; // UnityEngine.ProBuilder.BezierPoint
   #pragma pack(pop)

@@ -47,10 +47,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 i
     int& dyn_i();
     // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)
-    // Offset: 0x1691334
+    // Offset: 0x1675CF8
     bool $UnusedElementGroup$b__0(UnityEngine::ProBuilder::Face* element);
     // public System.Void .ctor()
-    // Offset: 0x168DED0
+    // Offset: 0x1672894
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

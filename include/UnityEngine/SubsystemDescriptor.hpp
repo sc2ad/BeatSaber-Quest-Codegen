@@ -25,7 +25,7 @@ namespace UnityEngine {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE888DC
+    // [DebuggerBrowsableAttribute] Offset: 0xE8B2FC
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -44,10 +44,10 @@ namespace UnityEngine {
     // Get instance field reference: private System.String <id>k__BackingField
     ::Il2CppString*& dyn_$id$k__BackingField();
     // public System.String get_id()
-    // Offset: 0x2623FEC
+    // Offset: 0x260BA94
     ::Il2CppString* get_id();
     // protected System.Void .ctor()
-    // Offset: 0x2623FF4
+    // Offset: 0x260BA9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__101_0
     static void _set_$$9__101_0(System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1343EA4
+    // Offset: 0x126B0E8
     static void _cctor();
     // System.Int32 <PlayerOrderChanged>b__101_0(UnifiedNetworkPlayerModel/UnifiedNetworkPlayer a, UnifiedNetworkPlayerModel/UnifiedNetworkPlayer b)
-    // Offset: 0x1343F10
+    // Offset: 0x126B154
     int $PlayerOrderChanged$b__101_0(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* a, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* b);
     // public System.Void .ctor()
-    // Offset: 0x1343F08
+    // Offset: 0x126B14C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

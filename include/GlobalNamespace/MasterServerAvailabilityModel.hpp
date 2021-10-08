@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF02C1C
+    // [InjectAttribute] Offset: 0xF02874
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -107,22 +107,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.DateTime _lastRequestTime
     System::DateTime& dyn__lastRequestTime();
     // private System.Void Init()
-    // Offset: 0x12663E8
+    // Offset: 0x125FE3C
     void Init();
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1266464
+    // Offset: 0x125FEB8
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsAvailabilityTaskValid()
-    // Offset: 0x12664D8
+    // Offset: 0x125FF2C
     bool IsAvailabilityTaskValid();
     // private System.Void StartRequest()
-    // Offset: 0x12663EC
+    // Offset: 0x125FE40
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsyncInternal()
-    // Offset: 0x12665E4
+    // Offset: 0x1260038
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsyncInternal();
     // public System.Void .ctor()
-    // Offset: 0x12666E4
+    // Offset: 0x1260138
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

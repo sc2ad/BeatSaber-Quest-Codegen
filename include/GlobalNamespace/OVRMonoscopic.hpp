@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean monoscopic
     bool& dyn_monoscopic();
     // private System.Void Update()
-    // Offset: 0x1465C8C
+    // Offset: 0x144B650
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1465DA0
+    // Offset: 0x144B764
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

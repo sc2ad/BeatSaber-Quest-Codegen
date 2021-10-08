@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single[] _rotations
     ::ArrayW<float>& dyn__rotations();
     // public System.Single get_rotation()
-    // Offset: 0x110F668
+    // Offset: 0x114C620
     float get_rotation();
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x110F51C
+    // Offset: 0x114C4D4
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Single RotationForEventValue(System.Int32 index)
-    // Offset: 0x110F670
+    // Offset: 0x114C628
     float RotationForEventValue(int index);
     // public System.Void .ctor()
-    // Offset: 0x110F5F0
+    // Offset: 0x114C5A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

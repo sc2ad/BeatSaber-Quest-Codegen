@@ -36,13 +36,13 @@ namespace GlobalNamespace {
   class HEU_BoundingVolume : public UnityEngine::MonoBehaviour {
     public:
     // public UnityEngine.Collider get_BoundingCollider()
-    // Offset: 0x14364C4
+    // Offset: 0x141AE88
     UnityEngine::Collider* get_BoundingCollider();
     // public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllIntersectingObjects()
-    // Offset: 0x1436514
+    // Offset: 0x141AED8
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllIntersectingObjects();
     // public System.Void .ctor()
-    // Offset: 0x1436774
+    // Offset: 0x141B138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

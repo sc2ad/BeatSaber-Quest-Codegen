@@ -64,10 +64,10 @@ namespace System::Diagnostics {
     // Get instance field reference: System.Int64 user
     int64_t& dyn_user();
     // public System.TimeSpan get_TotalProcessorTime()
-    // Offset: 0x1A26C88
+    // Offset: 0x1A0B64C
     System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
-    // Offset: 0x1A26850
+    // Offset: 0x1A0B214
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

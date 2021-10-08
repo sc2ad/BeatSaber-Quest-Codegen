@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class MockServerSettings : public GlobalNamespace::MockPlayerSettings {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1207BEC
+    // Offset: 0x117A3AC
     // Implemented from: MockPlayerSettings
     // Base method: System.Void MockPlayerSettings::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -49,7 +49,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _normalIndex
     int& dyn__normalIndex();
     // public System.Void .ctor(System.Int32 meshKey, System.Int32 vertexIndex, System.Int32 normalIndex)
-    // Offset: 0x16FBB94
+    // Offset: 0x16E0558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VertexEntry* New_ctor(int meshKey, int vertexIndex, int normalIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_VertexEntry::.ctor");

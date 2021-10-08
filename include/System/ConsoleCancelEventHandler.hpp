@@ -32,20 +32,20 @@ namespace System {
   class ConsoleCancelEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B193D0
+    // Offset: 0x1AFCD94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.ConsoleCancelEventArgs e)
-    // Offset: 0x1B18848
+    // Offset: 0x1AFC20C
     void Invoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ConsoleCancelEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B193E0
+    // Offset: 0x1AFCDA4
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B19410
+    // Offset: 0x1AFCDD4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.ConsoleCancelEventHandler
   #pragma pack(pop)

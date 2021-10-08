@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/RootCreditsItem[] creditsItems
     ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>& dyn_creditsItems();
     // static public CreditsData Deserialize(System.String text)
-    // Offset: 0x11A000C
+    // Offset: 0x1134960
     static GlobalNamespace::CreditsData* Deserialize(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x11A00D0
+    // Offset: 0x1134A24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

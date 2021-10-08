@@ -50,7 +50,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
     Oculus::Platform::Models::CloudStorageMetadata*& dyn_Remote();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16B6D28
+    // Offset: 0x169B6EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageConflictMetadata* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageConflictMetadata::.ctor");

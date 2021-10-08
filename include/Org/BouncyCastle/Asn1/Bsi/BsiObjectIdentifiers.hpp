@@ -114,7 +114,7 @@ namespace Org::BouncyCastle::Asn1::Bsi {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ecka_eg_SessionKDF_AES256
     static void _set_ecka_eg_SessionKDF_AES256(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x18E886C
+    // Offset: 0x18CF230
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Bsi.BsiObjectIdentifiers
   #pragma pack(pop)

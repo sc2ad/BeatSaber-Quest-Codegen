@@ -100,23 +100,23 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
     GlobalNamespace::MockScoreSyncStateSender*& dyn_mockScoreSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
-    // Offset: 0x25E22EC
+    // Offset: 0x25C9D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGenerator* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerGamePoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGenerator*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded)));
     }
     // public System.Void Dispose()
-    // Offset: 0x25E2504
+    // Offset: 0x25C9FAC
     void Dispose();
     // public System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     // Offset: 0xFFFFFFFF
     void SendPoses(float introStartTime, GlobalNamespace::MockBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, System::Threading::CancellationToken cancellationToken, System::Action* onSongFinished);
     // public System.Void SimulateFail()
-    // Offset: 0x25E260C
+    // Offset: 0x25CA0B4
     void SimulateFail();
     // public System.Void SimulateGiveUp()
-    // Offset: 0x25E27A8
+    // Offset: 0x25CA250
     void SimulateGiveUp();
   }; // MockPlayerGamePoseGenerator
   #pragma pack(pop)

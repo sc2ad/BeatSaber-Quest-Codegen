@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String override360EnvironmentName
     ::Il2CppString*& dyn_override360EnvironmentName();
     // public System.Void .ctor()
-    // Offset: 0x12B6C90
+    // Offset: 0x12C89E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

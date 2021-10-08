@@ -103,19 +103,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0x12A0918
+    // Offset: 0x129A7A8
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0x12A0920
+    // Offset: 0x129A7B0
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0x12A0928
+    // Offset: 0x129A7B8
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x12A0930
+    // Offset: 0x129A7C0
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0x12A0938
+    // Offset: 0x129A7C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

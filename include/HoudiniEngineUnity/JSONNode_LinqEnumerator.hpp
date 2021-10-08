@@ -62,32 +62,32 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator m_Enumerator
     HoudiniEngineUnity::JSONNode::Enumerator& dyn_m_Enumerator();
     // public System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> get_Current()
-    // Offset: 0x1706824
+    // Offset: 0x16EB1E8
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*> get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x170682C
+    // Offset: 0x16EB1F0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(HoudiniEngineUnity.JSONNode aNode)
-    // Offset: 0x1702688
+    // Offset: 0x16E704C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNode::LinqEnumerator* New_ctor(HoudiniEngineUnity::JSONNode* aNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::LinqEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNode::LinqEnumerator*, creationType>(aNode)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1706898
+    // Offset: 0x16EB25C
     bool MoveNext();
     // public System.Void Dispose()
-    // Offset: 0x17068A0
+    // Offset: 0x16EB264
     void Dispose();
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode>> GetEnumerator()
-    // Offset: 0x17068C0
+    // Offset: 0x16EB284
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>>* GetEnumerator();
     // public System.Void Reset()
-    // Offset: 0x1706924
+    // Offset: 0x16EB2E8
     void Reset();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x17069D0
+    // Offset: 0x16EB394
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.LinqEnumerator
   // WARNING Not writing size check since size may be invalid!

@@ -24,10 +24,10 @@ namespace Mono::Unity {
   class Debug : public ::Il2CppObject {
     public:
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x17C2F08
+    // Offset: 0x17A68CC
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result verifyResult, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x17C2FE0
+    // Offset: 0x17A69A4
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
   }; // Mono.Unity.Debug
   #pragma pack(pop)

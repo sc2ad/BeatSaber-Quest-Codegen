@@ -56,10 +56,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Predicate`1<HoudiniEngineUnity.HAPI_ParmInfo> <>9__0
     System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>*& dyn_$$9__0();
     // System.Boolean <Initialize>b__0(HoudiniEngineUnity.HAPI_ParmInfo p)
-    // Offset: 0x17AB1B8
+    // Offset: 0x178EB7C
     bool $Initialize$b__0(HoudiniEngineUnity::HAPI_ParmInfo p);
     // public System.Void .ctor()
-    // Offset: 0x17A887C
+    // Offset: 0x178C240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xEEB698
+    // [InjectOptionalAttribute] Offset: 0xEEB300
     // private MainCameraCullingMask/InitData _initData
     // Size: 0x8
     // Offset: 0x20
@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainCameraCullingMask/InitData _initData
     GlobalNamespace::MainCameraCullingMask::InitData*& dyn__initData();
     // protected System.Void Start()
-    // Offset: 0x25876A4
+    // Offset: 0x256D14C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x258778C
+    // Offset: 0x256D234
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

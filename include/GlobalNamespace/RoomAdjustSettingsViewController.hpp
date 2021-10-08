@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF11E40
+    // [SpaceAttribute] Offset: 0xF11AC8
     // private StepValuePicker _xStepValuePicker
     // Size: 0x8
     // Offset: 0x80
@@ -122,46 +122,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _resetButton
     UnityEngine::UI::Button*& dyn__resetButton();
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0x11C489C
+    // Offset: 0x11979AC
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0x11C496C
+    // Offset: 0x1197A7C
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0x11C49F0
+    // Offset: 0x1197B00
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0x11C4720
+    // Offset: 0x1197830
     void RefreshTexts();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x11C4AAC
+    // Offset: 0x1197BBC
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x11C4B04
+    // Offset: 0x1197C14
     void $DidActivate$b__10_1();
     // private System.Void <DidActivate>b__10_2()
-    // Offset: 0x11C4B5C
+    // Offset: 0x1197C6C
     void $DidActivate$b__10_2();
     // private System.Void <DidActivate>b__10_3()
-    // Offset: 0x11C4BB4
+    // Offset: 0x1197CC4
     void $DidActivate$b__10_3();
     // private System.Void <DidActivate>b__10_4()
-    // Offset: 0x11C4C0C
+    // Offset: 0x1197D1C
     void $DidActivate$b__10_4();
     // private System.Void <DidActivate>b__10_5()
-    // Offset: 0x11C4C64
+    // Offset: 0x1197D74
     void $DidActivate$b__10_5();
     // private System.Void <DidActivate>b__10_6()
-    // Offset: 0x11C4CBC
+    // Offset: 0x1197DCC
     void $DidActivate$b__10_6();
     // private System.Void <DidActivate>b__10_7()
-    // Offset: 0x11C4CC4
+    // Offset: 0x1197DD4
     void $DidActivate$b__10_7();
     // private System.Void <DidActivate>b__10_8()
-    // Offset: 0x11C4CCC
+    // Offset: 0x1197DDC
     void $DidActivate$b__10_8();
     // public System.Void .ctor()
-    // Offset: 0x11C4AA4
+    // Offset: 0x1197BB4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -175,7 +175,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RoomAdjustSettingsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11C449C
+    // Offset: 0x11975AC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

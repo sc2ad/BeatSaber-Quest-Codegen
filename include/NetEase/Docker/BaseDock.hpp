@@ -40,28 +40,28 @@ namespace NetEase::Docker {
     #else
     protected:
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEE20C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDE74
     // private System.Action`1<NetEase.Docker.InitializeData> OnInitFinished
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<NetEase::Docker::InitializeData>* OnInitFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::InitializeData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEE248
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDEB0
     // private System.Action`1<NetEase.Docker.LoginData> OnLoginFinished
     // Size: 0x8
     // Offset: 0x18
     System::Action_1<NetEase::Docker::LoginData>* OnLoginFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::LoginData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEE284
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDEEC
     // private System.Action`1<NetEase.Docker.LogoutData> OnLogoutFinished
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<NetEase::Docker::LogoutData>* OnLogoutFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::LogoutData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEE2C0
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDF28
     // private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
     // Size: 0x8
     // Offset: 0x28
@@ -82,40 +82,40 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
     System::Action_1<NetEase::Docker::ReceivedHighscoreData>*& dyn_OnHighscoreReceived();
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
-    // Offset: 0x261FC68
+    // Offset: 0x2607710
     void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
     // public System.Void Initialize()
-    // Offset: 0x261FC70
+    // Offset: 0x2607718
     void Initialize();
     // public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
-    // Offset: 0x261FCD4
+    // Offset: 0x260777C
     void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
     // public System.Void Login()
-    // Offset: 0x261FCDC
+    // Offset: 0x2607784
     void Login();
     // public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
-    // Offset: 0x261FD4C
+    // Offset: 0x26077F4
     void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
     // public System.Void Logout()
-    // Offset: 0x261FD54
+    // Offset: 0x26077FC
     void Logout();
     // public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x261FDB8
+    // Offset: 0x2607860
     void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // public System.Boolean WillProvideHighscore()
-    // Offset: 0x261FDBC
+    // Offset: 0x2607864
     bool WillProvideHighscore();
     // public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x261FDC4
+    // Offset: 0x260786C
     void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x261FDCC
+    // Offset: 0x2607874
     void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // public System.Void UpdateLoop()
-    // Offset: 0x261FF9C
+    // Offset: 0x2607A44
     void UpdateLoop();
     // public System.Void .ctor()
-    // Offset: 0x261FFA0
+    // Offset: 0x2607A48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

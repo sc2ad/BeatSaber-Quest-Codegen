@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* content;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF1327C
+    // [SpaceAttribute] Offset: 0xF12F04
     // private System.Single _spacing
     // Size: 0x4
     // Offset: 0x20
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: spacing and: elementPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF132B4
+    // [SpaceAttribute] Offset: 0xF12F3C
     // private PageControlElement _elementPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -110,16 +110,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _pagesCount
     int& dyn__pagesCount();
     // public System.Void SetPagesCount(System.Int32 pagesCount)
-    // Offset: 0x11257D8
+    // Offset: 0x110CBFC
     void SetPagesCount(int pagesCount);
     // public System.Void SetSelectedPageIndex(System.Int32 page)
-    // Offset: 0x1125B50
+    // Offset: 0x110CF74
     void SetSelectedPageIndex(int page);
     // public System.Void SetVisible(System.Boolean isVisible)
-    // Offset: 0x1125C40
+    // Offset: 0x110D064
     void SetVisible(bool isVisible);
     // public System.Void .ctor()
-    // Offset: 0x1125C7C
+    // Offset: 0x110D0A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

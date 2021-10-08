@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Security {
   class EncryptionException : public System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14CB03C
+    // Offset: 0x14B1A00
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

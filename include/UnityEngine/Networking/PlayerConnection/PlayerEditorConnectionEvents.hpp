@@ -89,16 +89,16 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.ConnectionChangeEvent disconnectionEvent
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent*& dyn_disconnectionEvent();
     // public System.Void InvokeMessageIdSubscribers(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x1DB0204
+    // Offset: 0x1D95C68
     void InvokeMessageIdSubscribers(System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // public UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> AddAndCreate(System.Guid messageId)
-    // Offset: 0x1DAF4B0
+    // Offset: 0x1D94F14
     UnityEngine::Events::UnityEvent_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(System::Guid messageId);
     // public System.Void UnregisterManagedCallback(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x1DAF79C
+    // Offset: 0x1D95200
     void UnregisterManagedCallback(System::Guid messageId, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void .ctor()
-    // Offset: 0x1DB076C
+    // Offset: 0x1D961D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

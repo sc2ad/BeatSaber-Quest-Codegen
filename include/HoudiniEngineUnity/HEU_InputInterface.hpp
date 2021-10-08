@@ -57,17 +57,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.Int32 _priority
     int& dyn__priority();
     // public System.Int32 get_Priority()
-    // Offset: 0x151D568
+    // Offset: 0x1504F2C
     int get_Priority();
     // public System.Void .ctor(System.Int32 priority)
-    // Offset: 0x151D570
+    // Offset: 0x1504F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterface* New_ctor(int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterface*, creationType>(priority)));
     }
     // public System.Void RegisterInterface()
-    // Offset: 0x151D59C
+    // Offset: 0x1504F60
     void RegisterInterface();
     // public System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
     // Offset: 0xFFFFFFFF

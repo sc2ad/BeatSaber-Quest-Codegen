@@ -147,47 +147,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
     System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__receiveMacQueue();
     // public System.Boolean get_isValid()
-    // Offset: 0x1457764
+    // Offset: 0x143C128
     bool get_isValid();
     // public System.Void .ctor(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x1455848
+    // Offset: 0x143A20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionUtility::EncryptionState* New_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EncryptionUtility::EncryptionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::EncryptionState*, creationType>(preMasterSecret, serverSeed, clientSeed, isClient)));
     }
     // public System.Void EncryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixBytes)
-    // Offset: 0x1457788
+    // Offset: 0x143C14C
     void EncryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixBytes);
     // public System.Boolean TryDecryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x145781C
+    // Offset: 0x143C1E0
     bool TryDecryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length);
     // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1456204
+    // Offset: 0x143ABC8
     ::ArrayW<uint8_t> ComputeSendMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1456BA4
+    // Offset: 0x143B568
     ::ArrayW<uint8_t> ComputeReceiveMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1456AA4
+    // Offset: 0x143B468
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1456DB0
+    // Offset: 0x143B774
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x14561F8
+    // Offset: 0x143ABBC
     uint GetNextSentSequenceNum();
     // static private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x14578A8
+    // Offset: 0x143C26C
     static ::ArrayW<uint8_t> MakeSeed(::ArrayW<uint8_t> baseSeed, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x1457990
+    // Offset: 0x143C354
     static ::ArrayW<uint8_t> PRF(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x1457A80
+    // Offset: 0x143C444
     static void PRF_Hash(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, ByRef<int> length);
     // public System.Void Dispose()
-    // Offset: 0x1457C38
+    // Offset: 0x143C5FC
     void Dispose();
   }; // EncryptionUtility/EncryptionState
   #pragma pack(pop)

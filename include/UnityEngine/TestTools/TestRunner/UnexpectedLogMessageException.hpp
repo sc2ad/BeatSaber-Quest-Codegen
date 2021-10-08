@@ -51,22 +51,22 @@ namespace UnityEngine::TestTools::TestRunner {
     // Get instance field reference: public UnityEngine.TestTools.Logging.LogMatch LogEvent
     UnityEngine::TestTools::Logging::LogMatch*& dyn_LogEvent();
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0x260A12C
+    // Offset: 0x25F1BD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnexpectedLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogMatch* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnexpectedLogMessageException*, creationType>(log)));
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0x260A168
+    // Offset: 0x25F1C10
     static ::Il2CppString* BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x260A1BC
+    // Offset: 0x25F1C64
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x260A224
+    // Offset: 0x25F1CCC
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();

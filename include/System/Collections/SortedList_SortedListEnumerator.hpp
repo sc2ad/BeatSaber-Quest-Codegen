@@ -120,32 +120,32 @@ namespace System::Collections {
     // Get instance field reference: private System.Int32 getObjectRetType
     int& dyn_getObjectRetType();
     // public System.Object get_Key()
-    // Offset: 0x1B15444
+    // Offset: 0x1AF8E08
     ::Il2CppObject* get_Key();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1B15630
+    // Offset: 0x1AF8FF4
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x1B15710
+    // Offset: 0x1AF90D4
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x1B15804
+    // Offset: 0x1AF91C8
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.SortedList sortedList, System.Int32 index, System.Int32 count, System.Int32 getObjRetType)
-    // Offset: 0x1B1451C
+    // Offset: 0x1AF7EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList::SortedListEnumerator* New_ctor(System::Collections::SortedList* sortedList, int index, int count, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::SortedListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList::SortedListEnumerator*, creationType>(sortedList, index, count, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x1B1543C
+    // Offset: 0x1AF8E00
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1B15508
+    // Offset: 0x1AF8ECC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1B158C8
+    // Offset: 0x1AF928C
     void Reset();
   }; // System.Collections.SortedList/System.Collections.SortedListEnumerator
   #pragma pack(pop)

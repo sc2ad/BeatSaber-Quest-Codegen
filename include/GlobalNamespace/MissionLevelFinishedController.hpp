@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF07ED8
+    // [InjectAttribute] Offset: 0xF07B40
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x30
@@ -75,19 +75,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private ILevelEndActions _gameplayManager
     GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // protected System.Void Start()
-    // Offset: 0x1186878
+    // Offset: 0x120B13C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1186964
+    // Offset: 0x120B228
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x1186A5C
+    // Offset: 0x120B320
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0x1186A60
+    // Offset: 0x120B324
     void StartLevelFinished();
     // public System.Void .ctor()
-    // Offset: 0x1186B0C
+    // Offset: 0x120B3D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

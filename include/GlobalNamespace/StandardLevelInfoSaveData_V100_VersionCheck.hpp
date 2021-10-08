@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _version
     ::Il2CppString*& dyn__version();
     // public System.String get_version()
-    // Offset: 0x1157E54
+    // Offset: 0x1154E74
     ::Il2CppString* get_version();
     // public System.Void .ctor()
-    // Offset: 0x1157E5C
+    // Offset: 0x1154E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

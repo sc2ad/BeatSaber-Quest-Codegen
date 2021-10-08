@@ -21,7 +21,7 @@ namespace HoudiniEngineUnity {
   class HEU_SessionHAPI : public HoudiniEngineUnity::HEU_SessionBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17D3494
+    // Offset: 0x17B7E58
     // Implemented from: HoudiniEngineUnity.HEU_SessionBase
     // Base method: System.Void HEU_SessionBase::.ctor()
     // Base method: System.Void Object::.ctor()

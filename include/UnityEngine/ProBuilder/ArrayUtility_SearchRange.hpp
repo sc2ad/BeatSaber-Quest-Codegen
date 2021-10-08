@@ -48,16 +48,16 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 end
     int& dyn_end();
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0x2150A64
+    // Offset: 0x213A4C8
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
-    // Offset: 0x2150A6C
+    // Offset: 0x213A4D0
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0x2150A80
+    // Offset: 0x213A4E4
     int Center();
     // public override System.String ToString()
-    // Offset: 0x2150A98
+    // Offset: 0x213A4FC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

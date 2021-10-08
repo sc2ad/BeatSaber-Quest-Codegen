@@ -40,19 +40,19 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: private System.Nullable`1<System.UInt64> pingTimeUsec
     System::Nullable_1<uint64_t>& dyn_pingTimeUsec();
     // public System.UInt64 get_ID()
-    // Offset: 0x16BFA24
+    // Offset: 0x16A43E8
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x16BFA2C
+    // Offset: 0x16A43F0
     void set_ID(uint64_t value);
     // public System.UInt64 get_PingTimeUsec()
-    // Offset: 0x16BFA34
+    // Offset: 0x16A43F8
     uint64_t get_PingTimeUsec();
     // public System.Boolean get_IsTimeout()
-    // Offset: 0x16BFA9C
+    // Offset: 0x16A4460
     bool get_IsTimeout();
     // public System.Void .ctor(System.UInt64 id, System.Nullable`1<System.UInt64> pingTimeUsec)
-    // Offset: 0x16BC6A0
+    // Offset: 0x16A1064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PingResult::.ctor");

@@ -49,19 +49,19 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
     System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*& dyn_m_TrackedButtons();
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x15F4E00
+    // Offset: 0x15D97C4
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x15F4EB4
+    // Offset: 0x15D9878
     bool AnyReleasesThisFrame();
     // public UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button)
-    // Offset: 0x15F4F68
+    // Offset: 0x15D992C
     UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button, UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x15F4390
+    // Offset: 0x15D8D54
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x15F4D38
+    // Offset: 0x15D96FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

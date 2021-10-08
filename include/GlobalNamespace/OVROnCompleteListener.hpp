@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void onFailure();
     // public System.Void .ctor()
-    // Offset: 0x1469C28
+    // Offset: 0x144F5EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

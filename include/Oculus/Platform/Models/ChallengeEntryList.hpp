@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 TotalCount
     uint64_t& dyn_TotalCount();
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x16B6728
+    // Offset: 0x169B0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeEntryList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ChallengeEntryList::.ctor");

@@ -72,23 +72,23 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1828550
+    // Offset: 0x180DF14
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1828558
+    // Offset: 0x180DF1C
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x1828518
+    // Offset: 0x180DEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyGameObjectProvider* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::EmptyGameObjectProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyGameObjectProvider*, creationType>(container, gameObjectBindInfo)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1828560
+    // Offset: 0x180DF24
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x18285D0
+    // Offset: 0x180DF94
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.EmptyGameObjectProvider
   #pragma pack(pop)

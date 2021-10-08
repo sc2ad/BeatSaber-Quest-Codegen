@@ -59,28 +59,28 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private System.Boolean orderPassed
     bool& dyn_orderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x1F85490
+    // Offset: 0x1F6BEF4
     static void _cctor();
     // System.Boolean HasFailed()
-    // Offset: 0x1F85454
+    // Offset: 0x1F6BEB8
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x1F8545C
+    // Offset: 0x1F6BEC0
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x1F85468
+    // Offset: 0x1F6BECC
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x1F85470
+    // Offset: 0x1F6BED4
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x1F8547C
+    // Offset: 0x1F6BEE0
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x1F85484
+    // Offset: 0x1F6BEE8
     void ReportOrderPassed();
     // public System.Void .ctor()
-    // Offset: 0x1F854EC
+    // Offset: 0x1F6BF50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

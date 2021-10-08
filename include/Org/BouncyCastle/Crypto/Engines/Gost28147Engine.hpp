@@ -106,49 +106,49 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] S
     ::ArrayW<uint8_t>& dyn_S();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1FCEFD8
+    // Offset: 0x1FB6A3C
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1FCF020
+    // Offset: 0x1FB6A84
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1FCE7CC
+    // Offset: 0x1FB6230
     static void _cctor();
     // static private System.Void AddSBox(System.String sBoxName, System.Byte[] sBox)
-    // Offset: 0x1FCEAAC
+    // Offset: 0x1FB6510
     static void AddSBox(::Il2CppString* sBoxName, ::ArrayW<uint8_t> sBox);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1FCEC4C
+    // Offset: 0x1FB66B0
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1FCF028
+    // Offset: 0x1FB6A8C
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FCF030
+    // Offset: 0x1FB6A94
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1FCF3A0
+    // Offset: 0x1FB6E04
     void Reset();
     // private System.Int32[] generateWorkingKey(System.Boolean forEncryption, System.Byte[] userKey)
-    // Offset: 0x1FCEEA4
+    // Offset: 0x1FB6908
     ::ArrayW<int> generateWorkingKey(bool forEncryption, ::ArrayW<uint8_t> userKey);
     // private System.Int32 Gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x1FCF424
+    // Offset: 0x1FB6E88
     int Gost28147_mainStep(int n1, int key);
     // private System.Void Gost28147Func(System.Int32[] workingKey, System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1FCF134
+    // Offset: 0x1FB6B98
     void Gost28147Func(::ArrayW<int> workingKey, ::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] inBytes, System.Int32 inOff)
-    // Offset: 0x1FCF3A4
+    // Offset: 0x1FB6E08
     static int bytesToint(::ArrayW<uint8_t> inBytes, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1FCF518
+    // Offset: 0x1FB6F7C
     static void intTobytes(int num, ::ArrayW<uint8_t> outBytes, int outOff);
     // static public System.Byte[] GetSBox(System.String sBoxName)
-    // Offset: 0x1FCF5A4
+    // Offset: 0x1FB7008
     static ::ArrayW<uint8_t> GetSBox(::Il2CppString* sBoxName);
     // public System.Void .ctor()
-    // Offset: 0x1FCEBD0
+    // Offset: 0x1FB6634
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

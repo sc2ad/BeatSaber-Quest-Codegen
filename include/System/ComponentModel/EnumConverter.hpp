@@ -50,7 +50,7 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Type type
     System::Type*& dyn_type();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x1A23144
+    // Offset: 0x1A07B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumConverter* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EnumConverter::.ctor");

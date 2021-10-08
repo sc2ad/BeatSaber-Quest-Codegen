@@ -55,10 +55,10 @@ namespace Zenject {
     // Get instance field reference: public System.IDisposable disposable
     System::IDisposable*& dyn_disposable();
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1827DB8
+    // Offset: 0x180D77C
     bool $_ctor$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x1827260
+    // Offset: 0x180CC24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Security {
   class SignatureException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14DD940
+    // Offset: 0x14C4304
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<SignatureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x14DD944
+    // Offset: 0x14C4308
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)

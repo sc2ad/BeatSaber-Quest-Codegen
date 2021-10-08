@@ -73,24 +73,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Single> globalIntensityDidChangeEvent
     System::Action_1<float>*& dyn_globalIntensityDidChangeEvent();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1E2AF58
+    // Offset: 0x1E129BC
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x1E2AF60
+    // Offset: 0x1E129C4
     void set_maxTotalIntensity(float value);
     // public System.Void add_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1E2AF68
+    // Offset: 0x1E129CC
     void add_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1E2B00C
+    // Offset: 0x1E12A70
     void remove_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
-    // Offset: 0x1E2B0B0
+    // Offset: 0x1E12B14
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> LightWithIds::get_lightIntensityData()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // public System.Void .ctor()
-    // Offset: 0x1E2B46C
+    // Offset: 0x1E12ED0
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightsWithIds*, creationType>()));
     }
     // protected override System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1E2B0B8
+    // Offset: 0x1E12B1C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame()
     void HandleLightManagerDidChangeSomeColorsThisFrame();

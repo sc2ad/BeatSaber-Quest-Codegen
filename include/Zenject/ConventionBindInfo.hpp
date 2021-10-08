@@ -81,34 +81,34 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
     System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
     // static private System.Void .cctor()
-    // Offset: 0x14FAAA8
+    // Offset: 0x14E146C
     static void _cctor();
     // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x14FA61C
+    // Offset: 0x14E0FE0
     void AddAssemblyFilter(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x14FA78C
+    // Offset: 0x14E1150
     void AddTypeFilter(System::Func_2<System::Type*, bool>* predicate);
     // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
-    // Offset: 0x14FA7F4
+    // Offset: 0x14E11B8
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* GetAllAssemblies();
     // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x14FA818
+    // Offset: 0x14E11DC
     bool ShouldIncludeAssembly(System::Reflection::Assembly* assembly);
     // private System.Boolean ShouldIncludeType(System.Type type)
-    // Offset: 0x14FA8E0
+    // Offset: 0x14E12A4
     bool ShouldIncludeType(System::Type* type);
     // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
-    // Offset: 0x14FA9A8
+    // Offset: 0x14E136C
     ::ArrayW<System::Type*> GetTypes(System::Reflection::Assembly* assembly);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
-    // Offset: 0x14F8114
+    // Offset: 0x14DEAD8
     System::Collections::Generic::List_1<System::Type*>* ResolveTypes();
     // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
-    // Offset: 0x14FAB1C
+    // Offset: 0x14E14E0
     System::Collections::Generic::IEnumerable_1<System::Type*>* $ResolveTypes$b__9_0(System::Reflection::Assembly* assembly);
     // public System.Void .ctor()
-    // Offset: 0x14F8050
+    // Offset: 0x14DEA14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

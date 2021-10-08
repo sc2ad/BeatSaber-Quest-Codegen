@@ -72,16 +72,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapLevelData _beatmapLevelData
     GlobalNamespace::IBeatmapLevelData*& dyn__beatmapLevelData();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x11B6DB8
+    // Offset: 0x1171A50
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x11B6E68
+    // Offset: 0x1171B00
     ::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // private System.Void set_difficultyBeatmapSets(IDifficultyBeatmapSet[] value)
-    // Offset: 0x11B6E70
+    // Offset: 0x1171B08
     void set_difficultyBeatmapSets(::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> value);
     // public System.Void .ctor(IBeatmapLevelData beatmapLevelData, BeatmapDifficultyMask allowedBeatmapDifficultyMask, System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> notAllowedCharacteristics)
-    // Offset: 0x11B6960
+    // Offset: 0x11715F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FilteredBeatmapLevel::FilteredBeatmapLevelData* New_ctor(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::.ctor");

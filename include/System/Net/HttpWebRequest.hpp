@@ -215,25 +215,25 @@ namespace System::Net {
       // Get instance field reference: private System.Net.HttpWebRequest/System.Net.NtlmAuthState ntlm_auth_state
       System::Net::HttpWebRequest::NtlmAuthState& dyn_ntlm_auth_state();
       // public System.Boolean get_IsCompleted()
-      // Offset: 0x184C02C
+      // Offset: 0x18319F0
       bool get_IsCompleted();
       // public System.Net.HttpWebRequest/System.Net.NtlmAuthState get_NtlmAuthState()
-      // Offset: 0x184C034
+      // Offset: 0x18319F8
       System::Net::HttpWebRequest::NtlmAuthState get_NtlmAuthState();
       // public System.Boolean get_IsNtlmAuthenticated()
-      // Offset: 0x184B828
+      // Offset: 0x18311EC
       bool get_IsNtlmAuthenticated();
       // public System.Void .ctor(System.Net.HttpWebRequest request, System.Boolean isProxy)
-      // Offset: 0x1846D24
+      // Offset: 0x182C6E8
       AuthorizationState(System::Net::HttpWebRequest* request, bool isProxy);
       // public System.Boolean CheckAuthorization(System.Net.WebResponse response, System.Net.HttpStatusCode code)
-      // Offset: 0x184B860
+      // Offset: 0x1831224
       bool CheckAuthorization(System::Net::WebResponse* response, System::Net::HttpStatusCode code);
       // public System.Void Reset()
-      // Offset: 0x184BB64
+      // Offset: 0x1831528
       void Reset();
       // public override System.String ToString()
-      // Offset: 0x184C03C
+      // Offset: 0x1831A00
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -758,289 +758,289 @@ namespace System::Net {
     // Get instance field reference: System.Net.WebConnection StoredConnection
     System::Net::WebConnection*& dyn_StoredConnection();
     // public System.Uri get_Address()
-    // Offset: 0x1846D3C
+    // Offset: 0x182C700
     System::Uri* get_Address();
     // System.Void set_Address(System.Uri value)
-    // Offset: 0x1846D44
+    // Offset: 0x182C708
     void set_Address(System::Uri* value);
     // public System.Void set_AllowAutoRedirect(System.Boolean value)
-    // Offset: 0x1846D4C
+    // Offset: 0x182C710
     void set_AllowAutoRedirect(bool value);
     // public System.Boolean get_AllowWriteStreamBuffering()
-    // Offset: 0x1846D58
+    // Offset: 0x182C71C
     bool get_AllowWriteStreamBuffering();
     // public System.Void set_AllowWriteStreamBuffering(System.Boolean value)
-    // Offset: 0x1846D60
+    // Offset: 0x182C724
     void set_AllowWriteStreamBuffering(bool value);
     // public System.Net.DecompressionMethods get_AutomaticDecompression()
-    // Offset: 0x1846D6C
+    // Offset: 0x182C730
     System::Net::DecompressionMethods get_AutomaticDecompression();
     // public System.Void set_AutomaticDecompression(System.Net.DecompressionMethods value)
-    // Offset: 0x1846D74
+    // Offset: 0x182C738
     void set_AutomaticDecompression(System::Net::DecompressionMethods value);
     // System.Boolean get_InternalAllowBuffering()
-    // Offset: 0x1846E20
+    // Offset: 0x182C7E4
     bool get_InternalAllowBuffering();
     // private System.Boolean get_MethodWithBuffer()
-    // Offset: 0x1846E34
+    // Offset: 0x182C7F8
     bool get_MethodWithBuffer();
     // Mono.Security.Interface.MonoTlsProvider get_TlsProvider()
-    // Offset: 0x1846F08
+    // Offset: 0x182C8CC
     Mono::Security::Interface::MonoTlsProvider* get_TlsProvider();
     // Mono.Security.Interface.MonoTlsSettings get_TlsSettings()
-    // Offset: 0x1846F10
+    // Offset: 0x182C8D4
     Mono::Security::Interface::MonoTlsSettings* get_TlsSettings();
     // public System.Security.Cryptography.X509Certificates.X509CertificateCollection get_ClientCertificates()
-    // Offset: 0x1846F18
+    // Offset: 0x182C8DC
     System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
     // System.Void set_InternalContentLength(System.Int64 value)
-    // Offset: 0x1847040
+    // Offset: 0x182CA04
     void set_InternalContentLength(int64_t value);
     // System.Boolean get_ThrowOnError()
-    // Offset: 0x1847048
+    // Offset: 0x182CA0C
     bool get_ThrowOnError();
     // System.Void set_ThrowOnError(System.Boolean value)
-    // Offset: 0x1847050
+    // Offset: 0x182CA14
     void set_ThrowOnError(bool value);
     // public System.Void set_CookieContainer(System.Net.CookieContainer value)
-    // Offset: 0x184705C
+    // Offset: 0x182CA20
     void set_CookieContainer(System::Net::CookieContainer* value);
     // public System.String get_Host()
-    // Offset: 0x184707C
+    // Offset: 0x182CA40
     ::Il2CppString* get_Host();
     // public System.Void set_Host(System.String value)
-    // Offset: 0x18470A8
+    // Offset: 0x182CA6C
     void set_Host(::Il2CppString* value);
     // public System.Boolean get_KeepAlive()
-    // Offset: 0x1847398
+    // Offset: 0x182CD5C
     bool get_KeepAlive();
     // public System.Void set_KeepAlive(System.Boolean value)
-    // Offset: 0x18473A0
+    // Offset: 0x182CD64
     void set_KeepAlive(bool value);
     // public System.Void set_MaximumAutomaticRedirections(System.Int32 value)
-    // Offset: 0x18473AC
+    // Offset: 0x182CD70
     void set_MaximumAutomaticRedirections(int value);
     // public System.Int32 get_ReadWriteTimeout()
-    // Offset: 0x184744C
+    // Offset: 0x182CE10
     int get_ReadWriteTimeout();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x1847608
+    // Offset: 0x182CFCC
     System::Version* get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(System.Version value)
-    // Offset: 0x1847610
+    // Offset: 0x182CFD4
     void set_ProtocolVersion(System::Version* value);
     // public System.Boolean get_SendChunked()
-    // Offset: 0x18478B4
+    // Offset: 0x182D278
     bool get_SendChunked();
     // public System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x18478BC
+    // Offset: 0x182D280
     void set_SendChunked(bool value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x18478E8
+    // Offset: 0x182D2AC
     System::Net::ServicePoint* get_ServicePoint();
     // System.Net.ServicePoint get_ServicePointNoLock()
-    // Offset: 0x18478EC
+    // Offset: 0x182D2B0
     System::Net::ServicePoint* get_ServicePointNoLock();
     // public System.String get_TransferEncoding()
-    // Offset: 0x18478FC
+    // Offset: 0x182D2C0
     ::Il2CppString* get_TransferEncoding();
     // public System.Boolean get_UnsafeAuthenticatedConnectionSharing()
-    // Offset: 0x1847A74
+    // Offset: 0x182D438
     bool get_UnsafeAuthenticatedConnectionSharing();
     // System.Boolean get_ExpectContinue()
-    // Offset: 0x1847A7C
+    // Offset: 0x182D440
     bool get_ExpectContinue();
     // System.Void set_ExpectContinue(System.Boolean value)
-    // Offset: 0x1847A84
+    // Offset: 0x182D448
     void set_ExpectContinue(bool value);
     // System.Uri get_AuthUri()
-    // Offset: 0x1847A90
+    // Offset: 0x182D454
     System::Uri* get_AuthUri();
     // System.Boolean get_ProxyQuery()
-    // Offset: 0x1847A98
+    // Offset: 0x182D45C
     bool get_ProxyQuery();
     // System.Net.ServerCertValidationCallback get_ServerCertValidationCallback()
-    // Offset: 0x1847ACC
+    // Offset: 0x182D490
     System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
     // System.Boolean get_FinishedReading()
-    // Offset: 0x18485C0
+    // Offset: 0x182DF84
     bool get_FinishedReading();
     // System.Void set_FinishedReading(System.Boolean value)
-    // Offset: 0x18485C8
+    // Offset: 0x182DF8C
     void set_FinishedReading(bool value);
     // System.Boolean get_Aborted()
-    // Offset: 0x1847EC4
+    // Offset: 0x182D888
     bool get_Aborted();
     // System.Boolean get_ReuseConnection()
-    // Offset: 0x184BBE4
+    // Offset: 0x18315A8
     bool get_ReuseConnection();
     // System.Void set_ReuseConnection(System.Boolean value)
-    // Offset: 0x184BBEC
+    // Offset: 0x18315B0
     void set_ReuseConnection(bool value);
     // public System.Void .ctor(System.Uri uri)
-    // Offset: 0x1846278
+    // Offset: 0x182BC3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpWebRequest* New_ctor(System::Uri* uri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest*, creationType>(uri)));
     }
     // private System.Void ResetAuthorization()
-    // Offset: 0x18467C0
+    // Offset: 0x182C184
     void ResetAuthorization();
     // static private System.Boolean CheckValidHost(System.String scheme, System.String val)
-    // Offset: 0x18471D8
+    // Offset: 0x182CB9C
     static bool CheckValidHost(::Il2CppString* scheme, ::Il2CppString* val);
     // System.Net.ServicePoint GetServicePoint()
-    // Offset: 0x184779C
+    // Offset: 0x182D160
     System::Net::ServicePoint* GetServicePoint();
     // private System.Boolean CheckIfForceWrite(System.Net.SimpleAsyncResult result)
-    // Offset: 0x1848008
+    // Offset: 0x182D9CC
     bool CheckIfForceWrite(System::Net::SimpleAsyncResult* result);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x18489D8
+    // Offset: 0x182E39C
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void CheckRequestStarted()
-    // Offset: 0x1846D9C
+    // Offset: 0x182C760
     void CheckRequestStarted();
     // System.Void DoContinueDelegate(System.Int32 statusCode, System.Net.WebHeaderCollection headers)
-    // Offset: 0x1848D30
+    // Offset: 0x182E6F4
     void DoContinueDelegate(int statusCode, System::Net::WebHeaderCollection* headers);
     // private System.Void RewriteRedirectToGet()
-    // Offset: 0x1848D40
+    // Offset: 0x182E704
     void RewriteRedirectToGet();
     // private System.Boolean Redirect(System.Net.WebAsyncResult result, System.Net.HttpStatusCode code, System.Net.WebResponse response)
-    // Offset: 0x1848DB4
+    // Offset: 0x182E778
     bool Redirect(System::Net::WebAsyncResult* result, System::Net::HttpStatusCode code, System::Net::WebResponse* response);
     // private System.String GetHeaders()
-    // Offset: 0x18491F8
+    // Offset: 0x182EBBC
     ::Il2CppString* GetHeaders();
     // private System.Void DoPreAuthenticate()
-    // Offset: 0x1849828
+    // Offset: 0x182F1EC
     void DoPreAuthenticate();
     // System.Void SetWriteStreamError(System.Net.WebExceptionStatus status, System.Exception exc)
-    // Offset: 0x1849A2C
+    // Offset: 0x182F3F0
     void SetWriteStreamError(System::Net::WebExceptionStatus status, System::Exception* exc);
     // System.Byte[] GetRequestHeaders()
-    // Offset: 0x1849BEC
+    // Offset: 0x182F5B0
     ::ArrayW<uint8_t> GetRequestHeaders();
     // System.Void SetWriteStream(System.Net.WebConnectionStream stream)
-    // Offset: 0x1849F38
+    // Offset: 0x182F8FC
     void SetWriteStream(System::Net::WebConnectionStream* stream);
     // private System.Void SetWriteStreamInner(System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x184A034
+    // Offset: 0x182F9F8
     void SetWriteStreamInner(System::Net::SimpleAsyncCallback* callback);
     // private System.Void SetWriteStreamError(System.Exception exc)
-    // Offset: 0x184A0C0
+    // Offset: 0x182FA84
     void SetWriteStreamError(System::Exception* exc);
     // System.Void SetResponseError(System.Net.WebExceptionStatus status, System.Exception e, System.String where)
-    // Offset: 0x184A158
+    // Offset: 0x182FB1C
     void SetResponseError(System::Net::WebExceptionStatus status, System::Exception* e, ::Il2CppString* where);
     // private System.Void CheckSendError(System.Net.WebConnectionData data)
-    // Offset: 0x184A35C
+    // Offset: 0x182FD20
     void CheckSendError(System::Net::WebConnectionData* data);
     // private System.Boolean HandleNtlmAuth(System.Net.WebAsyncResult r)
-    // Offset: 0x184A56C
+    // Offset: 0x182FF30
     bool HandleNtlmAuth(System::Net::WebAsyncResult* r);
     // System.Void SetResponseData(System.Net.WebConnectionData data)
-    // Offset: 0x184A7A0
+    // Offset: 0x1830164
     void SetResponseData(System::Net::WebConnectionData* data);
     // private System.Boolean CheckAuthorization(System.Net.WebResponse response, System.Net.HttpStatusCode code)
-    // Offset: 0x184B848
+    // Offset: 0x183120C
     bool CheckAuthorization(System::Net::WebResponse* response, System::Net::HttpStatusCode code);
     // private System.Boolean CheckFinalStatus(System.Net.WebAsyncResult result)
-    // Offset: 0x184B1D4
+    // Offset: 0x1830B98
     bool CheckFinalStatus(System::Net::WebAsyncResult* result);
     // private System.Void <SetWriteStream>b__258_0(System.Net.SimpleAsyncResult result)
-    // Offset: 0x184BBF8
+    // Offset: 0x18315BC
     void $SetWriteStream$b__258_0(System::Net::SimpleAsyncResult* result);
     // private System.Void <SetWriteStream>b__258_1(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x184BCB0
+    // Offset: 0x1831674
     void $SetWriteStream$b__258_1(System::Net::SimpleAsyncResult* inner);
     // private System.Boolean <SetWriteStreamInner>b__259_0(System.Net.SimpleAsyncResult result)
-    // Offset: 0x184BD28
+    // Offset: 0x18316EC
     bool $SetWriteStreamInner$b__259_0(System::Net::SimpleAsyncResult* result);
     // public override System.Void set_ConnectionGroupName(System.String value)
-    // Offset: 0x1846F84
+    // Offset: 0x182C948
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ConnectionGroupName(System.String value)
     void set_ConnectionGroupName(::Il2CppString* value);
     // public override System.Int64 get_ContentLength()
-    // Offset: 0x1846F8C
+    // Offset: 0x182C950
     // Implemented from: System.Net.WebRequest
     // Base method: System.Int64 WebRequest::get_ContentLength()
     int64_t get_ContentLength();
     // public override System.Void set_ContentLength(System.Int64 value)
-    // Offset: 0x1846F94
+    // Offset: 0x182C958
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ContentLength(System.Int64 value)
     void set_ContentLength(int64_t value);
     // public override System.Net.ICredentials get_Credentials()
-    // Offset: 0x1847064
+    // Offset: 0x182CA28
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.ICredentials WebRequest::get_Credentials()
     System::Net::ICredentials* get_Credentials();
     // public override System.Void set_Credentials(System.Net.ICredentials value)
-    // Offset: 0x184706C
+    // Offset: 0x182CA30
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Credentials(System.Net.ICredentials value)
     void set_Credentials(System::Net::ICredentials* value);
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1847074
+    // Offset: 0x182CA38
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.WebHeaderCollection WebRequest::get_Headers()
     System::Net::WebHeaderCollection* get_Headers();
     // public override System.String get_Method()
-    // Offset: 0x1847454
+    // Offset: 0x182CE18
     // Implemented from: System.Net.WebRequest
     // Base method: System.String WebRequest::get_Method()
     ::Il2CppString* get_Method();
     // public override System.Void set_Method(System.String value)
-    // Offset: 0x184745C
+    // Offset: 0x182CE20
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Method(System.String value)
     void set_Method(::Il2CppString* value);
     // public override System.Void set_PreAuthenticate(System.Boolean value)
-    // Offset: 0x18475FC
+    // Offset: 0x182CFC0
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_PreAuthenticate(System.Boolean value)
     void set_PreAuthenticate(bool value);
     // public override System.Net.IWebProxy get_Proxy()
-    // Offset: 0x1847764
+    // Offset: 0x182D128
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.IWebProxy WebRequest::get_Proxy()
     System::Net::IWebProxy* get_Proxy();
     // public override System.Void set_Proxy(System.Net.IWebProxy value)
-    // Offset: 0x184776C
+    // Offset: 0x182D130
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Proxy(System.Net.IWebProxy value)
     void set_Proxy(System::Net::IWebProxy* value);
     // public override System.Uri get_RequestUri()
-    // Offset: 0x18478AC
+    // Offset: 0x182D270
     // Implemented from: System.Net.WebRequest
     // Base method: System.Uri WebRequest::get_RequestUri()
     System::Uri* get_RequestUri();
     // public override System.Int32 get_Timeout()
-    // Offset: 0x18478F4
+    // Offset: 0x182D2B8
     // Implemented from: System.Net.WebRequest
     // Base method: System.Int32 WebRequest::get_Timeout()
     int get_Timeout();
     // public override System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x1847958
+    // Offset: 0x182D31C
     // Implemented from: System.Net.WebRequest
     // Base method: System.Boolean WebRequest::get_UseDefaultCredentials()
     bool get_UseDefaultCredentials();
     // public override System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x18479E0
+    // Offset: 0x182D3A4
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_UseDefaultCredentials(System.Boolean value)
     void set_UseDefaultCredentials(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x184676C
+    // Offset: 0x182C130
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::.cctor()
     static void _cctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x18467D0
+    // Offset: 0x182C194
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1049,7 +1049,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest*, creationType>(serializationInfo, streamingContext)));
     }
     // public System.Void .ctor()
-    // Offset: 0x184BDEC
+    // Offset: 0x18317B0
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -1060,37 +1060,37 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest*, creationType>()));
     }
     // public override System.IAsyncResult BeginGetRequestStream(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1847AD4
+    // Offset: 0x182D498
     // Implemented from: System.Net.WebRequest
     // Base method: System.IAsyncResult WebRequest::BeginGetRequestStream(System.AsyncCallback callback, System.Object state)
     System::IAsyncResult* BeginGetRequestStream(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.IO.Stream EndGetRequestStream(System.IAsyncResult asyncResult)
-    // Offset: 0x1847EF0
+    // Offset: 0x182D8B4
     // Implemented from: System.Net.WebRequest
     // Base method: System.IO.Stream WebRequest::EndGetRequestStream(System.IAsyncResult asyncResult)
     System::IO::Stream* EndGetRequestStream(System::IAsyncResult* asyncResult);
     // public override System.IAsyncResult BeginGetResponse(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1848118
+    // Offset: 0x182DADC
     // Implemented from: System.Net.WebRequest
     // Base method: System.IAsyncResult WebRequest::BeginGetResponse(System.AsyncCallback callback, System.Object state)
     System::IAsyncResult* BeginGetResponse(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.Net.WebResponse EndGetResponse(System.IAsyncResult asyncResult)
-    // Offset: 0x1848390
+    // Offset: 0x182DD54
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.WebResponse WebRequest::EndGetResponse(System.IAsyncResult asyncResult)
     System::Net::WebResponse* EndGetResponse(System::IAsyncResult* asyncResult);
     // public override System.Net.WebResponse GetResponse()
-    // Offset: 0x184850C
+    // Offset: 0x182DED0
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.WebResponse WebRequest::GetResponse()
     System::Net::WebResponse* GetResponse();
     // public override System.Void Abort()
-    // Offset: 0x18485D4
+    // Offset: 0x182DF98
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::Abort()
     void Abort();
     // protected override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x18489E4
+    // Offset: 0x182E3A8
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

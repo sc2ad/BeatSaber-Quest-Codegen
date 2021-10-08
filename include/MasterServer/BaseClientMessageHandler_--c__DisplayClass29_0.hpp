@@ -75,13 +75,13 @@ namespace MasterServer {
     // Get instance field reference: public System.Byte[] serverPublicKey
     ::ArrayW<uint8_t>& dyn_serverPublicKey();
     // System.Threading.Tasks.Task`1<MasterServer.HelloVerifyRequest> <AuthenticateWithMasterServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, MasterServer.IMasterServerReliableRequest request, System.Threading.CancellationToken ct)
-    // Offset: 0x12D66E8
+    // Offset: 0x12E7A5C
     System::Threading::Tasks::Task_1<MasterServer::HelloVerifyRequest*>* $AuthenticateWithMasterServerAsyncInternal$b__0(uint protocolVersion, System::Net::IPEndPoint* ep, MasterServer::IMasterServerReliableRequest* request, System::Threading::CancellationToken ct);
     // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithMasterServerAsyncInternal>b__1(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
-    // Offset: 0x12D67A0
+    // Offset: 0x12E7B14
     System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $AuthenticateWithMasterServerAsyncInternal$b__1(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* result);
     // public System.Void .ctor()
-    // Offset: 0x12D66E0
+    // Offset: 0x12E7A54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

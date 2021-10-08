@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ScenesTransitionSetupDataSO _nextScenesTransitionSetupData
     GlobalNamespace::ScenesTransitionSetupDataSO*& dyn__nextScenesTransitionSetupData();
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0x11388DC
+    // Offset: 0x1121878
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x11388E4
+    // Offset: 0x1121880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEaseSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseSceneSetupData::.ctor");

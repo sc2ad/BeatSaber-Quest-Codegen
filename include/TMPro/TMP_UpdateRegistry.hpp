@@ -77,37 +77,37 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_GraphicQueueLookup();
     // static public TMPro.TMP_UpdateRegistry get_instance()
-    // Offset: 0x15C37AC
+    // Offset: 0x15A9170
     static TMPro::TMP_UpdateRegistry* get_instance();
     // static public System.Void RegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3938
+    // Offset: 0x15A92FC
     static void RegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3964
+    // Offset: 0x15A9328
     bool InternalRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Void RegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3A68
+    // Offset: 0x15A942C
     static void RegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3A94
+    // Offset: 0x15A9458
     bool InternalRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void PerformUpdateForCanvasRendererObjects()
-    // Offset: 0x15C3B98
+    // Offset: 0x15A955C
     void PerformUpdateForCanvasRendererObjects();
     // private System.Void PerformUpdateForMeshRendererObjects()
-    // Offset: 0x15C3DD8
+    // Offset: 0x15A979C
     void PerformUpdateForMeshRendererObjects();
     // static public System.Void UnRegisterCanvasElementForRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3E44
+    // Offset: 0x15A9808
     static void UnRegisterCanvasElementForRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3E80
+    // Offset: 0x15A9844
     void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x15C3F54
+    // Offset: 0x15A9918
     void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // protected System.Void .ctor()
-    // Offset: 0x15C3828
+    // Offset: 0x15A91EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

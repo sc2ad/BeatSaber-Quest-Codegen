@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Math::EC {
   class AbstractFpFieldElement : public Org::BouncyCastle::Math::EC::ECFieldElement {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1F57B3C
+    // Offset: 0x1F3E5A0
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
     // Base method: System.Void Object::.ctor()

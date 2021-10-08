@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   class CertificateException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14C28FC
+    // Offset: 0x14A92C0
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14C2904
+    // Offset: 0x14A92C8
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x14C290C
+    // Offset: 0x14A92D0
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)

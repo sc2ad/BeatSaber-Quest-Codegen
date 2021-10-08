@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF080D8
+    // [InjectAttribute] Offset: 0xF07D40
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private IScoreController _scoreController
     GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void OnDestroy()
-    // Offset: 0x11D3168
+    // Offset: 0x11A5BA4
     void OnDestroy();
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x11D3260
+    // Offset: 0x11A5C9C
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x11D326C
+    // Offset: 0x11A5CA8
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FullComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x11D2FD8
+    // Offset: 0x11A5A14
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

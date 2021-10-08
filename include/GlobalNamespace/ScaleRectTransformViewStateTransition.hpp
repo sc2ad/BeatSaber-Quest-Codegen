@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [SpaceAttribute] Offset: 0xF0D534
+    // [SpaceAttribute] Offset: 0xF0D1BC
     // private Vector3TransitionSO _transition
     // Size: 0x8
     // Offset: 0x28
@@ -63,21 +63,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Vector3Tween _vectorTween
     Tweening::Vector3Tween*& dyn__vectorTween();
     // private System.Void StartTween(UnityEngine.Vector3 endScale)
-    // Offset: 0x11CEC2C
+    // Offset: 0x11A1D3C
     void StartTween(UnityEngine::Vector3 endScale);
     // private System.Void <StartTween>b__16_0(UnityEngine.Vector3 pos)
-    // Offset: 0x11CF038
+    // Offset: 0x11A214C
     void $StartTween$b__16_0(UnityEngine::Vector3 pos);
     // private System.Void <StartTween>b__16_1()
-    // Offset: 0x11CF054
+    // Offset: 0x11A2168
     void $StartTween$b__16_1();
     // protected override BaseTransitionSO get_transition()
-    // Offset: 0x11CEC04
+    // Offset: 0x11A1D14
     // Implemented from: BaseStateTransition
     // Base method: BaseTransitionSO BaseStateTransition::get_transition()
     GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void .ctor()
-    // Offset: 0x11CEFE8
+    // Offset: 0x11A20FC
     // Implemented from: BaseStateTransition`1
     // Base method: System.Void BaseStateTransition_1::.ctor()
     // Base method: System.Void BaseStateTransition::.ctor()
@@ -92,62 +92,62 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScaleRectTransformViewStateTransition*, creationType>()));
     }
     // protected override System.Void TransitionToNormalState()
-    // Offset: 0x11CEC0C
+    // Offset: 0x11A1D1C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::TransitionToNormalState()
     void TransitionToNormalState();
     // protected override System.Void TransitionToHighlightedState()
-    // Offset: 0x11CEE28
+    // Offset: 0x11A1F3C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::TransitionToHighlightedState()
     void TransitionToHighlightedState();
     // protected override System.Void TransitionToPressedState()
-    // Offset: 0x11CEE48
+    // Offset: 0x11A1F5C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::TransitionToPressedState()
     void TransitionToPressedState();
     // protected override System.Void TransitionToDisabledState()
-    // Offset: 0x11CEE68
+    // Offset: 0x11A1F7C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::TransitionToDisabledState()
     void TransitionToDisabledState();
     // protected override System.Void TransitionToSelectedState()
-    // Offset: 0x11CEE88
+    // Offset: 0x11A1F9C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::TransitionToSelectedState()
     void TransitionToSelectedState();
     // protected override System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x11CEEA8
+    // Offset: 0x11A1FBC
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::TransitionToSelectedAndHighlightedState()
     void TransitionToSelectedAndHighlightedState();
     // protected override System.Void SetNormalState()
-    // Offset: 0x11CEEC8
+    // Offset: 0x11A1FDC
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::SetNormalState()
     void SetNormalState();
     // protected override System.Void SetHighlightedState()
-    // Offset: 0x11CEEF8
+    // Offset: 0x11A200C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::SetHighlightedState()
     void SetHighlightedState();
     // protected override System.Void SetPressedState()
-    // Offset: 0x11CEF28
+    // Offset: 0x11A203C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::SetPressedState()
     void SetPressedState();
     // protected override System.Void SetDisabledState()
-    // Offset: 0x11CEF58
+    // Offset: 0x11A206C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::SetDisabledState()
     void SetDisabledState();
     // protected override System.Void SetSelectedState()
-    // Offset: 0x11CEF88
+    // Offset: 0x11A209C
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::SetSelectedState()
     void SetSelectedState();
     // protected override System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x11CEFB8
+    // Offset: 0x11A20CC
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::SetSelectedAndHighlightedState()
     void SetSelectedAndHighlightedState();

@@ -22,7 +22,7 @@ namespace OVRSimpleJSON {
   class JSON : public ::Il2CppObject {
     public:
     // static public OVRSimpleJSON.JSONNode Parse(System.String aJSON)
-    // Offset: 0x180CBAC
+    // Offset: 0x17F2570
     static OVRSimpleJSON::JSONNode* Parse(::Il2CppString* aJSON);
   }; // OVRSimpleJSON.JSON
   #pragma pack(pop)

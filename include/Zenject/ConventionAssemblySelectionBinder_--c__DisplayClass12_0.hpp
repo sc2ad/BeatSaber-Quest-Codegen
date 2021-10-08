@@ -53,10 +53,10 @@ namespace Zenject {
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*& dyn_assemblies();
     // System.Boolean <FromAssemblies>b__0(System.Reflection.Assembly assembly)
-    // Offset: 0x14FA72C
+    // Offset: 0x14E10F0
     bool $FromAssemblies$b__0(System::Reflection::Assembly* assembly);
     // public System.Void .ctor()
-    // Offset: 0x14FA614
+    // Offset: 0x14E0FD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

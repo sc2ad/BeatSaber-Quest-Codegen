@@ -30,20 +30,20 @@ namespace System::Runtime::Serialization {
   class DeserializationEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17E3920
+    // Offset: 0x17C92E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeserializationEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::DeserializationEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeserializationEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender)
-    // Offset: 0x17E3930
+    // Offset: 0x17C92F4
     void Invoke(::Il2CppObject* sender);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x17E3CC4
+    // Offset: 0x17C9688
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x17E3CE8
+    // Offset: 0x17C96AC
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Serialization.DeserializationEventHandler
   #pragma pack(pop)

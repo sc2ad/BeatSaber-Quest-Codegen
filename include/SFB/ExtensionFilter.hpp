@@ -50,7 +50,7 @@ namespace SFB {
     // Get instance field reference: public readonly System.String[] _extensions
     ::ArrayW<::Il2CppString*>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0x11C52AC
+    // Offset: 0x11983BC
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayW<::Il2CppString*> filterExtensions);
   }; // SFB.ExtensionFilter
   #pragma pack(pop)

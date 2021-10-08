@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AchievementIdsModelSO _achievementIdsModel
     GlobalNamespace::AchievementIdsModelSO*& dyn__achievementIdsModel();
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)
-    // Offset: 0x1115D0C
+    // Offset: 0x10FD130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAchievementHandler* New_ctor(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusPlatformAchievementHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAchievementHandler*, creationType>(achievementIdsModel)));
     }
     // public override HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x1115D38
+    // Offset: 0x10FD15C
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public override HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x1115E1C
+    // Offset: 0x10FD240
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);

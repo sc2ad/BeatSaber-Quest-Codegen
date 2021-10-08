@@ -100,22 +100,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _restoringCoroutine
     UnityEngine::Coroutine*& dyn__restoringCoroutine();
     // protected System.Void OnEnable()
-    // Offset: 0x138C5B8
+    // Offset: 0x1370F7C
     void OnEnable();
     // public System.Void Play()
-    // Offset: 0x138C620
+    // Offset: 0x1370FE4
     void Play();
     // public System.Void PlayDelayed(System.Single delay)
-    // Offset: 0x138C78C
+    // Offset: 0x1371150
     void PlayDelayed(float delay);
     // private System.Collections.IEnumerator PlayDelayedCoroutine(System.Single delay)
-    // Offset: 0x138C7D4
+    // Offset: 0x1371198
     System::Collections::IEnumerator* PlayDelayedCoroutine(float delay);
     // private System.Collections.IEnumerator RestorePitchWithDelay(System.Single delay)
-    // Offset: 0x138C70C
+    // Offset: 0x13710D0
     System::Collections::IEnumerator* RestorePitchWithDelay(float delay);
     // public System.Void .ctor()
-    // Offset: 0x138C8AC
+    // Offset: 0x1371270
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

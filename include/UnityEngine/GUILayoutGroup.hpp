@@ -210,36 +210,36 @@ namespace UnityEngine {
     // Get instance field reference: protected System.Int32 m_MarginBottom
     int& dyn_m_MarginBottom();
     // public System.Void ResetCursor()
-    // Offset: 0x1C9B51C
+    // Offset: 0x1C7DEE0
     void ResetCursor();
     // public UnityEngine.GUILayoutEntry GetNext()
-    // Offset: 0x1C9B524
+    // Offset: 0x1C7DEE8
     UnityEngine::GUILayoutEntry* GetNext();
     // public System.Void Add(UnityEngine.GUILayoutEntry e)
-    // Offset: 0x1C9B7B0
+    // Offset: 0x1C7E174
     void Add(UnityEngine::GUILayoutEntry* e);
     // public override System.Int32 get_marginLeft()
-    // Offset: 0x1C9B25C
+    // Offset: 0x1C7DC20
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginLeft()
     int get_marginLeft();
     // public override System.Int32 get_marginRight()
-    // Offset: 0x1C9B264
+    // Offset: 0x1C7DC28
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginRight()
     int get_marginRight();
     // public override System.Int32 get_marginTop()
-    // Offset: 0x1C9B26C
+    // Offset: 0x1C7DC30
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginTop()
     int get_marginTop();
     // public override System.Int32 get_marginBottom()
-    // Offset: 0x1C9B274
+    // Offset: 0x1C7DC38
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginBottom()
     int get_marginBottom();
     // public System.Void .ctor()
-    // Offset: 0x1C9B27C
+    // Offset: 0x1C7DC40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -248,37 +248,37 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutGroup*, creationType>()));
     }
     // public override System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1C9B374
+    // Offset: 0x1C7DD38
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyOptions(UnityEngine.GUILayoutOption[] options)
     void ApplyOptions(::ArrayW<UnityEngine::GUILayoutOption*> options);
     // protected override System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x1C9B4A4
+    // Offset: 0x1C7DE68
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyStyleSettings(UnityEngine.GUIStyle style)
     void ApplyStyleSettings(UnityEngine::GUIStyle* style);
     // public override System.Void CalcWidth()
-    // Offset: 0x1C9B818
+    // Offset: 0x1C7E1DC
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1C9BFDC
+    // Offset: 0x1C7E9A0
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1C9C8E4
+    // Offset: 0x1C7F2A8
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1C9CF8C
+    // Offset: 0x1C7F950
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
     // public override System.String ToString()
-    // Offset: 0x1C9D890
+    // Offset: 0x1C80254
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.String GUILayoutEntry::ToString()
     ::Il2CppString* ToString();

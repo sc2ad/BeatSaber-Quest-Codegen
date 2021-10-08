@@ -51,44 +51,44 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.OidGroup m_group
     System::Security::Cryptography::OidGroup& dyn_m_group();
     // public System.String get_Value()
-    // Offset: 0x19D0BBC
+    // Offset: 0x19B5580
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x19D0BC4
+    // Offset: 0x19B5588
     void set_Value(::Il2CppString* value);
     // public System.String get_FriendlyName()
-    // Offset: 0x19D0BCC
+    // Offset: 0x19B5590
     ::Il2CppString* get_FriendlyName();
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x19D09D4
+    // Offset: 0x19B5398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
-    // Offset: 0x19D0A1C
+    // Offset: 0x19B53E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::Il2CppString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid, group, lookupFriendlyName)));
     }
     // public System.Void .ctor(System.String value, System.String friendlyName)
-    // Offset: 0x19D0AD4
+    // Offset: 0x19B5498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::Il2CppString* value, ::Il2CppString* friendlyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(value, friendlyName)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
-    // Offset: 0x19D0B0C
+    // Offset: 0x19B54D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(System::Security::Cryptography::Oid* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // public System.Void .ctor()
-    // Offset: 0x19D09CC
+    // Offset: 0x19B5390
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

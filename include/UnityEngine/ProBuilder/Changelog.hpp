@@ -79,17 +79,17 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
-    // Offset: 0x21567A4
+    // Offset: 0x2140208
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
-    // Offset: 0x2156814
+    // Offset: 0x2140278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::Il2CppString* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
-    // Offset: 0x2156A88
+    // Offset: 0x21404EC
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)

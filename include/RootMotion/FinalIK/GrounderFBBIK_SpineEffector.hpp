@@ -27,21 +27,21 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF4DCC
+    // [TooltipAttribute] Offset: 0xEF4A34
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF4E04
+    // [TooltipAttribute] Offset: 0xEF4A6C
     // public System.Single horizontalWeight
     // Size: 0x4
     // Offset: 0x14
     float horizontalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF4E3C
+    // [TooltipAttribute] Offset: 0xEF4AA4
     // public System.Single verticalWeight
     // Size: 0x4
     // Offset: 0x18
@@ -56,14 +56,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single verticalWeight
     float& dyn_verticalWeight();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
-    // Offset: 0x1E8A0C4
+    // Offset: 0x1E6FB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK::SpineEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK::SpineEffector*, creationType>(effectorType, horizontalWeight, verticalWeight)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1E8A0B4
+    // Offset: 0x1E6FB18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

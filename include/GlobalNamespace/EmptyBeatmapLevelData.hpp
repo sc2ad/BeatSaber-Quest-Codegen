@@ -60,13 +60,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     ::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*>& dyn_$difficultyBeatmapSets$k__BackingField();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x11AECBC
+    // Offset: 0x1169950
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x11AECC4
+    // Offset: 0x1169958
     ::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x11AECB4
+    // Offset: 0x1169948
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

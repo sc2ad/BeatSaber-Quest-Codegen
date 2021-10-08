@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.GameObject gameObject
     UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
-    // Offset: 0x113F308
+    // Offset: 0x11D3510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplaySetupViewController::Panel::.ctor");

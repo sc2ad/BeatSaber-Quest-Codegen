@@ -57,23 +57,23 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRSpatialAnchors FnTable
     OVR::OpenVR::IVRSpatialAnchors& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x176DD90
+    // Offset: 0x1751754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSpatialAnchors* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRSpatialAnchors::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSpatialAnchors*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRSpatialAnchorError CreateSpatialAnchorFromDescriptor(System.String pchDescriptor, ref System.UInt32 pHandleOut)
-    // Offset: 0x176DE90
+    // Offset: 0x1751854
     OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromDescriptor(::Il2CppString* pchDescriptor, ByRef<uint> pHandleOut);
     // public OVR.OpenVR.EVRSpatialAnchorError CreateSpatialAnchorFromPose(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPose, ref System.UInt32 pHandleOut)
-    // Offset: 0x176DEB0
+    // Offset: 0x1751874
     OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromPose(uint unDeviceIndex, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint> pHandleOut);
     // public OVR.OpenVR.EVRSpatialAnchorError GetSpatialAnchorPose(System.UInt32 unHandle, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPoseOut)
-    // Offset: 0x176DED0
+    // Offset: 0x1751894
     OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorPose(uint unHandle, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<OVR::OpenVR::SpatialAnchorPose_t> pPoseOut);
     // public OVR.OpenVR.EVRSpatialAnchorError GetSpatialAnchorDescriptor(System.UInt32 unHandle, System.Text.StringBuilder pchDescriptorOut, ref System.UInt32 punDescriptorBufferLenInOut)
-    // Offset: 0x176DEEC
+    // Offset: 0x17518B0
     OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorDescriptor(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, ByRef<uint> punDescriptorBufferLenInOut);
   }; // OVR.OpenVR.CVRSpatialAnchors
   #pragma pack(pop)

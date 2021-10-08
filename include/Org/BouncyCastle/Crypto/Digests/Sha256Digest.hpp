@@ -118,40 +118,40 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int32 xOff
     int& dyn_xOff();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha256Digest t)
-    // Offset: 0x1A9CE00
+    // Offset: 0x1A817C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha256Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha256Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha256Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha256Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A9D8D8
+    // Offset: 0x1A8229C
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.Sha256Digest t)
-    // Offset: 0x1A9CE7C
+    // Offset: 0x1A81840
     void CopyIn(Org::BouncyCastle::Crypto::Digests::Sha256Digest* t);
     // private System.Void initHs()
-    // Offset: 0x1A9CDE4
+    // Offset: 0x1A817A8
     void initHs();
     // static private System.UInt32 Sum1Ch(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1A9D7A0
+    // Offset: 0x1A82164
     static uint Sum1Ch(uint x, uint y, uint z);
     // static private System.UInt32 Sum0Maj(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1A9D7C0
+    // Offset: 0x1A82184
     static uint Sum0Maj(uint x, uint y, uint z);
     // static private System.UInt32 Theta0(System.UInt32 x)
-    // Offset: 0x1A9D790
+    // Offset: 0x1A82154
     static uint Theta0(uint x);
     // static private System.UInt32 Theta1(System.UInt32 x)
-    // Offset: 0x1A9D780
+    // Offset: 0x1A82144
     static uint Theta1(uint x);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1A9CF14
+    // Offset: 0x1A818D8
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.String GeneralDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x1A9CD68
+    // Offset: 0x1A8172C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -161,42 +161,42 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<Sha256Digest*, creationType>()));
     }
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x1A9CF5C
+    // Offset: 0x1A81920
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::GetDigestSize()
     int GetDigestSize();
     // override System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1A9CF64
+    // Offset: 0x1A81928
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessWord(System.Byte[] input, System.Int32 inOff)
     void ProcessWord(::ArrayW<uint8_t> input, int inOff);
     // override System.Void ProcessLength(System.Int64 bitLength)
-    // Offset: 0x1A9CFFC
+    // Offset: 0x1A819C0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessLength(System.Int64 bitLength)
     void ProcessLength(int64_t bitLength);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A9D080
+    // Offset: 0x1A81A44
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x1A9D16C
+    // Offset: 0x1A81B30
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::Reset()
     void Reset();
     // override System.Void ProcessBlock()
-    // Offset: 0x1A9D1C4
+    // Offset: 0x1A81B88
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessBlock()
     void ProcessBlock();
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1A9D7E4
+    // Offset: 0x1A821A8
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable GeneralDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public override System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1A9D844
+    // Offset: 0x1A82208
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);

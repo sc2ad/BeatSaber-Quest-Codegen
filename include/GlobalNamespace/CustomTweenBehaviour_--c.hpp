@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Int32,System.Single> <>9__21_0
     static void _set_$$9__21_0(System::Func_2<int, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11A2E58
+    // Offset: 0x11377AC
     static void _cctor();
     // System.Single <OnBehaviourPlay>b__21_0(System.Int32 i)
-    // Offset: 0x11A2EC4
+    // Offset: 0x1137818
     float $OnBehaviourPlay$b__21_0(int i);
     // public System.Void .ctor()
-    // Offset: 0x11A2EBC
+    // Offset: 0x1137810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

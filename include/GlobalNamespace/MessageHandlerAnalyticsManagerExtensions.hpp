@@ -120,37 +120,37 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
     static void _set__responseCodeLookup(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::Il2CppString*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18CA320
+    // Offset: 0x18B0CE4
     static void _cctor();
     // static private System.String GetMessageName(MasterServer.IMasterServerMessage message)
-    // Offset: 0x18C8F1C
+    // Offset: 0x18AF8E0
     static ::Il2CppString* GetMessageName(MasterServer::IMasterServerMessage* message);
     // static private System.String GetResponseCodeName(MasterServer.IMasterServerResponse response)
-    // Offset: 0x18C9064
+    // Offset: 0x18AFA28
     static ::Il2CppString* GetResponseCodeName(MasterServer::IMasterServerResponse* response);
     // static public System.Void ReceivedReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x18C9324
+    // Offset: 0x18AFCE8
     static void ReceivedReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
     // static public System.Void SentReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x18C95C0
+    // Offset: 0x18AFF84
     static void SentReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
     // static public System.Void ReceivedReliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x18C9790
+    // Offset: 0x18B0154
     static void ReceivedReliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableResponse* response);
     // static public System.Void SentReliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x18C998C
+    // Offset: 0x18B0350
     static void SentReliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableResponse* response);
     // static public System.Void ReceivedUnreliableMessageEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x18C9B88
+    // Offset: 0x18B054C
     static void ReceivedUnreliableMessageEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerUnreliableMessage* message);
     // static public System.Void SentUnreliableMessageEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x18C9D58
+    // Offset: 0x18B071C
     static void SentUnreliableMessageEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerUnreliableMessage* message);
     // static public System.Void ReceivedUnreliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerResponse response)
-    // Offset: 0x18C9F28
+    // Offset: 0x18B08EC
     static void ReceivedUnreliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerResponse* response);
     // static public System.Void SentUnreliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerResponse response)
-    // Offset: 0x18CA124
+    // Offset: 0x18B0AE8
     static void SentUnreliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerResponse* response);
   }; // MessageHandlerAnalyticsManagerExtensions
   #pragma pack(pop)

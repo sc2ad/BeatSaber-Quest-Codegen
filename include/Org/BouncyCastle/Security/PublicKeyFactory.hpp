@@ -45,19 +45,19 @@ namespace Org::BouncyCastle::Security {
   class PublicKeyFactory : public ::Il2CppObject {
     public:
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter CreateKey(System.Byte[] keyInfoData)
-    // Offset: 0x14DB824
+    // Offset: 0x14C21E8
     static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t> keyInfoData);
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter CreateKey(Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo keyInfo)
-    // Offset: 0x14DB844
+    // Offset: 0x14C2208
     static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo);
     // static private System.Byte[] GetRawKey(Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo keyInfo, System.Int32 expectedSize)
-    // Offset: 0x14DCEEC
+    // Offset: 0x14C38B0
     static ::ArrayW<uint8_t> GetRawKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo, int expectedSize);
     // static private System.Boolean IsPkcsDHParam(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x14DCC7C
+    // Offset: 0x14C3640
     static bool IsPkcsDHParam(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters ReadPkcsDHParam(Org.BouncyCastle.Asn1.DerObjectIdentifier algOid, Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x14DCDCC
+    // Offset: 0x14C3790
     static Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* ReadPkcsDHParam(Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Asn1::Asn1Sequence* seq);
   }; // Org.BouncyCastle.Security.PublicKeyFactory
   #pragma pack(pop)

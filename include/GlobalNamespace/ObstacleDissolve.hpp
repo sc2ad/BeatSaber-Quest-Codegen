@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
     GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // protected System.Void Awake()
-    // Offset: 0x135C080
+    // Offset: 0x1341738
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x135C158
+    // Offset: 0x1341810
     void OnDestroy();
     // private System.Void HandleObstacleDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x135C274
+    // Offset: 0x134192C
     void HandleObstacleDidInitEvent(GlobalNamespace::ObstacleControllerBase* obstacleController);
     // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x135C290
+    // Offset: 0x1341948
     void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x135C2B8
+    // Offset: 0x1341970
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

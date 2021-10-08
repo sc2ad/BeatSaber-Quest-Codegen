@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelPackCollectionSO _beatmapLevelPackCollection
     GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__beatmapLevelPackCollection();
     // public BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection()
-    // Offset: 0x129ABD0
+    // Offset: 0x1294A60
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();
     // public System.Void .ctor()
-    // Offset: 0x129ABD8
+    // Offset: 0x1294A68
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

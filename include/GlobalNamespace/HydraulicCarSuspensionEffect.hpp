@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> contractEventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0xEFF3A8
+    // [SpaceAttribute] Offset: 0xEFF010
     // private BeatmapEventType _expandEvent
     // Size: 0x4
     // Offset: 0x28
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> expandEventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0xEFF3F0
+    // [SpaceAttribute] Offset: 0xEFF058
     // private UnityEngine.SpringJoint _springJoint
     // Size: 0x8
     // Offset: 0x38
@@ -98,14 +98,14 @@ namespace GlobalNamespace {
     float expandDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xEFF448
+    // [SpaceAttribute] Offset: 0xEFF0B0
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFF480
+    // [InjectAttribute] Offset: 0xEFF0E8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -150,16 +150,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
     System::Collections::Generic::HashSet_1<int>*& dyn__expandEventValuesHashSet();
     // protected System.Void Start()
-    // Offset: 0x1146AE8
+    // Offset: 0x11DACF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1146C30
+    // Offset: 0x11DAE3C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1146D30
+    // Offset: 0x11DAF3C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1146E48
+    // Offset: 0x11DB054
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

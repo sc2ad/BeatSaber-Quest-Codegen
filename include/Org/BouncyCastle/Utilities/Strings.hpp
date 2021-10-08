@@ -17,22 +17,22 @@ namespace Org::BouncyCastle::Utilities {
   class Strings : public ::Il2CppObject {
     public:
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    // Offset: 0x2183AD0
+    // Offset: 0x216D534
     static bool IsOneOf(::Il2CppString* s, ::ArrayW<::Il2CppString*> candidates);
     // static public System.String FromByteArray(System.Byte[] bs)
-    // Offset: 0x2183B5C
+    // Offset: 0x216D5C0
     static ::Il2CppString* FromByteArray(::ArrayW<uint8_t> bs);
     // static public System.Byte[] ToByteArray(System.Char[] cs)
-    // Offset: 0x2183C60
+    // Offset: 0x216D6C4
     static ::ArrayW<uint8_t> ToByteArray(::ArrayW<::Il2CppChar> cs);
     // static public System.Byte[] ToByteArray(System.String s)
-    // Offset: 0x2183D5C
+    // Offset: 0x216D7C0
     static ::ArrayW<uint8_t> ToByteArray(::Il2CppString* s);
     // static public System.String FromAsciiByteArray(System.Byte[] bytes)
-    // Offset: 0x218114C
+    // Offset: 0x216ABB0
     static ::Il2CppString* FromAsciiByteArray(::ArrayW<uint8_t> bytes);
     // static public System.Byte[] ToAsciiByteArray(System.String s)
-    // Offset: 0x2183E54
+    // Offset: 0x216D8B8
     static ::ArrayW<uint8_t> ToAsciiByteArray(::Il2CppString* s);
   }; // Org.BouncyCastle.Utilities.Strings
   #pragma pack(pop)

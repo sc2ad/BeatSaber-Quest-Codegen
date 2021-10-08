@@ -27,10 +27,10 @@ namespace Oculus::Platform {
   class MessageWithAssetFileDeleteResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*> {
     public:
     // protected Oculus.Platform.Models.AssetFileDeleteResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x16B574C
+    // Offset: 0x169A110
     Oculus::Platform::Models::AssetFileDeleteResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x16B2C7C
+    // Offset: 0x1697640
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAssetFileDeleteResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AssetFileDeleteResult GetAssetFileDeleteResult()
-    // Offset: 0x16B5708
+    // Offset: 0x169A0CC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetFileDeleteResult Message::GetAssetFileDeleteResult()
     Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();

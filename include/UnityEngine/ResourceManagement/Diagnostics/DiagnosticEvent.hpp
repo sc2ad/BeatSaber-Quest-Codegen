@@ -92,34 +92,34 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Get instance field reference: private System.Int32 m_Value
     int& dyn_m_Value();
     // public System.String get_Graph()
-    // Offset: 0x1B61548
+    // Offset: 0x1B44F0C
     ::Il2CppString* get_Graph();
     // public System.Int32 get_ObjectId()
-    // Offset: 0x1B61550
+    // Offset: 0x1B44F14
     int get_ObjectId();
     // public System.String get_DisplayName()
-    // Offset: 0x1B61558
+    // Offset: 0x1B44F1C
     ::Il2CppString* get_DisplayName();
     // public System.Int32[] get_Dependencies()
-    // Offset: 0x1B61560
+    // Offset: 0x1B44F24
     ::ArrayW<int> get_Dependencies();
     // public System.Int32 get_Stream()
-    // Offset: 0x1B61568
+    // Offset: 0x1B44F2C
     int get_Stream();
     // public System.Int32 get_Frame()
-    // Offset: 0x1B61570
+    // Offset: 0x1B44F34
     int get_Frame();
     // public System.Int32 get_Value()
-    // Offset: 0x1B61578
+    // Offset: 0x1B44F3C
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
-    // Offset: 0x1B61580
+    // Offset: 0x1B44F44
     DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::ArrayW<int> deps);
     // System.Byte[] Serialize()
-    // Offset: 0x1B61598
+    // Offset: 0x1B44F5C
     ::ArrayW<uint8_t> Serialize();
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent Deserialize(System.Byte[] data)
-    // Offset: 0x1B61638
+    // Offset: 0x1B44FFC
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent Deserialize(::ArrayW<uint8_t> data);
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
   #pragma pack(pop)

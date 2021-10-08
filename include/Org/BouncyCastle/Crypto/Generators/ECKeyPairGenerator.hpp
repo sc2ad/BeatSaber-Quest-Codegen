@@ -95,29 +95,29 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor(System.String algorithm)
-    // Offset: 0x1A80A68
+    // Offset: 0x1A6542C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyPairGenerator* New_ctor(::Il2CppString* algorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>(algorithm)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x1A80B30
+    // Offset: 0x1A654F4
     void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1A80E88
+    // Offset: 0x1A6584C
     Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1A81140
+    // Offset: 0x1A65B04
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // static Org.BouncyCastle.Asn1.X9.X9ECParameters FindECCurveByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1A80E04
+    // Offset: 0x1A657C8
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters GetCorrespondingPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey)
-    // Offset: 0x1A8119C
+    // Offset: 0x1A65B60
     static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
     // public System.Void .ctor()
-    // Offset: 0x1A80A18
+    // Offset: 0x1A653DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

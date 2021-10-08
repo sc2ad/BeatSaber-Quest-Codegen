@@ -98,37 +98,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     GlobalNamespace::MasterServerQuickPlaySetupData*& dyn__masterServerQuickPlaySetupData();
     // public MockServerSettings get_quickplayServer()
-    // Offset: 0x1178064
+    // Offset: 0x11CD704
     GlobalNamespace::MockServerSettings* get_quickplayServer();
     // public MockPlayerSettings get_localPlayer()
-    // Offset: 0x117806C
+    // Offset: 0x11CD70C
     GlobalNamespace::MockPlayerSettings* get_localPlayer();
     // public MasterServerQuickPlaySetupData get_masterServerQuickPlaySetupData()
-    // Offset: 0x1178138
+    // Offset: 0x11CD7D8
     GlobalNamespace::MasterServerQuickPlaySetupData* get_masterServerQuickPlaySetupData();
     // public System.Void set_masterServerQuickPlaySetupData(MasterServerQuickPlaySetupData value)
-    // Offset: 0x1178140
+    // Offset: 0x11CD7E0
     void set_masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
     // public MasterServerAvailabilityData get_masterServerAvailabilityData()
-    // Offset: 0x1178148
+    // Offset: 0x11CD7E8
     GlobalNamespace::MasterServerAvailabilityData* get_masterServerAvailabilityData();
     // public System.Void set_masterServerAvailabilityData(MasterServerAvailabilityData value)
-    // Offset: 0x1178150
+    // Offset: 0x11CD7F0
     void set_masterServerAvailabilityData(GlobalNamespace::MasterServerAvailabilityData* value);
     // public System.Collections.Generic.List`1<MockPlayerSettings> get_otherPlayers()
-    // Offset: 0x1178158
+    // Offset: 0x11CD7F8
     System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x1178160
+    // Offset: 0x11CD800
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x1178168
+    // Offset: 0x11CD808
     void set_isEnabled(bool value);
     // static public MultiplayerMockSettings SharedSettings()
-    // Offset: 0x1178174
+    // Offset: 0x11CD814
     static GlobalNamespace::MultiplayerMockSettings* SharedSettings();
     // public System.Void .ctor()
-    // Offset: 0x117817C
+    // Offset: 0x11CD81C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -39,20 +39,20 @@ namespace GlobalNamespace {
   class PartyMessageHandler::ServerStatusUpdatedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18D27A0
+    // Offset: 0x18B9164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ServerStatusUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ServerStatusUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x18D27B0
+    // Offset: 0x18B9174
     void Invoke(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.IAsyncResult BeginInvoke(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18D2BB8
+    // Offset: 0x18B957C
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18D2C6C
+    // Offset: 0x18B9630
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ServerStatusUpdatedDelegate
   #pragma pack(pop)

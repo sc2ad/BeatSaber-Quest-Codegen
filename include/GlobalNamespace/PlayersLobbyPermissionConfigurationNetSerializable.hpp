@@ -63,23 +63,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> _playersPermission
     System::Collections::Generic::List_1<GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*& dyn__playersPermission();
     // public System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> get_playersPermission()
-    // Offset: 0x257285C
+    // Offset: 0x25572C0
     System::Collections::Generic::List_1<GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* get_playersPermission();
     // public System.Void .ctor(System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> playersPermission)
-    // Offset: 0x2572864
+    // Offset: 0x25572C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersLobbyPermissionConfigurationNetSerializable* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersLobbyPermissionConfigurationNetSerializable*, creationType>(playersPermission)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2572898
+    // Offset: 0x25572FC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x25729B8
+    // Offset: 0x255741C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2572890
+    // Offset: 0x25572F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

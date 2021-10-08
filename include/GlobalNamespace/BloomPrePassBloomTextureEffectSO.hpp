@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [SpaceAttribute] Offset: 0xEEBC78
+    // [SpaceAttribute] Offset: 0xEEB8E0
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x2C
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0xEEBD50
+    // [SpaceAttribute] Offset: 0xEEB9B8
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x58
@@ -142,12 +142,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private PyramidBloomRendererSO _bloomRenderer
     GlobalNamespace::PyramidBloomRendererSO*& dyn__bloomRenderer();
     // public override ToneMapping get_toneMapping()
-    // Offset: 0x25857A8
+    // Offset: 0x256B20C
     // Implemented from: BloomPrePassEffectSO
     // Base method: ToneMapping BloomPrePassEffectSO::get_toneMapping()
     GlobalNamespace::ToneMapping get_toneMapping();
     // public System.Void .ctor()
-    // Offset: 0x2585810
+    // Offset: 0x256B274
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()
@@ -161,7 +161,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO*, creationType>()));
     }
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x25857B8
+    // Offset: 0x256B21C
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);

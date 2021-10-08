@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public IConnectedPlayer player
     GlobalNamespace::IConnectedPlayer*& dyn_player();
     // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
-    // Offset: 0x18D42A8
+    // Offset: 0x18BAC6C
     bool $SaveFromNetSerializable$b__0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x18D42A0
+    // Offset: 0x18BAC64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

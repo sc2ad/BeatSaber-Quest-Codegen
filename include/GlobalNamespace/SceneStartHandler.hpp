@@ -135,50 +135,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
     System::Action_1<::Il2CppString*>*& dyn_sceneSetupDidReceiveTooLateEvent();
     // public System.Void add_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
-    // Offset: 0x18D5C38
+    // Offset: 0x18BC5FC
     void add_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
-    // Offset: 0x18D5CDC
+    // Offset: 0x18BC6A0
     void remove_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_sceneSetupDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x18D5D80
+    // Offset: 0x18BC744
     void add_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_sceneSetupDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x18D5E24
+    // Offset: 0x18BC7E8
     void remove_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x18D5EC8
+    // Offset: 0x18BC88C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SceneStartHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneStartHandler*, creationType>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel)));
     }
     // public System.Void Dispose()
-    // Offset: 0x18D5F88
+    // Offset: 0x18BC94C
     void Dispose();
     // public System.Void GetSceneLoadStatus()
-    // Offset: 0x18D62C8
+    // Offset: 0x18BCC8C
     void GetSceneLoadStatus();
     // public System.Void ForceStart()
-    // Offset: 0x18D6CC4
+    // Offset: 0x18BD688
     void ForceStart();
     // private System.Void HandleSetGameplaySceneReady(System.String userId, PlayerSpecificSettingsNetSerializable playerSpecificSettings)
-    // Offset: 0x18D7310
+    // Offset: 0x18BDCD4
     void HandleSetGameplaySceneReady(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
     // private System.Void HandleGetGameplaySceneReady(System.String userId)
-    // Offset: 0x18D76D4
+    // Offset: 0x18BE098
     void HandleGetGameplaySceneReady(::Il2CppString* userId);
     // private System.Void HandleSetGameplaySceneSyncFinished(System.String userId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionId)
-    // Offset: 0x18D7798
+    // Offset: 0x18BE15C
     void HandleSetGameplaySceneSyncFinished(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionId);
     // private System.Void HandleSetPlayerDidConnectLate(System.String userId, System.String failedUserId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionId)
-    // Offset: 0x18D7838
+    // Offset: 0x18BE1FC
     void HandleSetPlayerDidConnectLate(::Il2CppString* userId, ::Il2CppString* failedUserId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionId);
     // private System.Void AddPlayerSpecificSettingsToDictionary(PlayerSpecificSettingsNetSerializable playerSpecificSettingsNetSerializable)
-    // Offset: 0x18D6A14
+    // Offset: 0x18BD3D8
     void AddPlayerSpecificSettingsToDictionary(GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
     // private PlayerSpecificSettingsAtStartNetSerializable CreatePlayersSpecificSettingsAtGameStartData()
-    // Offset: 0x18D6A94
+    // Offset: 0x18BD458
     GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* CreatePlayersSpecificSettingsAtGameStartData();
   }; // SceneStartHandler
   #pragma pack(pop)

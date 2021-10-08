@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [NullAllowed] Offset: 0xF14850
+    // [NullAllowed] Offset: 0xF144F8
     // public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public CustomTweenBehaviour template
     GlobalNamespace::CustomTweenBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1108E7C
+    // Offset: 0x1145E34
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1109028
+    // Offset: 0x1145FE0
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SinglePositionTween*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1108E84
+    // Offset: 0x1145E3C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);

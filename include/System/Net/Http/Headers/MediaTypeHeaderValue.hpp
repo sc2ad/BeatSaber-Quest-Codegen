@@ -75,29 +75,29 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: System.String media_type
     ::Il2CppString*& dyn_media_type();
     // public System.String get_CharSet()
-    // Offset: 0x1753330
+    // Offset: 0x1736CF4
     ::Il2CppString* get_CharSet();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x17532B4
+    // Offset: 0x1736C78
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // protected System.Void .ctor(System.Net.Http.Headers.MediaTypeHeaderValue source)
-    // Offset: 0x17530BC
+    // Offset: 0x1736A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue* New_ctor(System::Net::Http::Headers::MediaTypeHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::MediaTypeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1753438
+    // Offset: 0x1736DFC
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.MediaTypeHeaderValue parsedValue)
-    // Offset: 0x1753660
+    // Offset: 0x1737024
     static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::MediaTypeHeaderValue*> parsedValue);
     // static System.Nullable`1<System.Net.Http.Headers.Token> TryParseMediaType(System.Net.Http.Headers.Lexer lexer, out System.String media)
-    // Offset: 0x17537A8
+    // Offset: 0x173716C
     static System::Nullable_1<System::Net::Http::Headers::Token> TryParseMediaType(System::Net::Http::Headers::Lexer* lexer, ByRef<::Il2CppString*> media);
     // System.Void .ctor()
-    // Offset: 0x1753328
+    // Offset: 0x1736CEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -106,17 +106,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1753498
+    // Offset: 0x1736E5C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1753568
+    // Offset: 0x1736F2C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x17535EC
+    // Offset: 0x1736FB0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

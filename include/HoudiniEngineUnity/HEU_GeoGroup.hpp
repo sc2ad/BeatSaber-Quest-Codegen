@@ -74,13 +74,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VertexEntry>[] _sharedNormalIndices
     ::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>& dyn__sharedNormalIndices();
     // public System.Int32 CompareTo(HoudiniEngineUnity.HEU_GeoGroup other)
-    // Offset: 0x14A98B0
+    // Offset: 0x1490274
     int CompareTo(HoudiniEngineUnity::HEU_GeoGroup* other);
     // public System.Void SetupNormalIndices(System.Int32 indicesCount)
-    // Offset: 0x14A68EC
+    // Offset: 0x148D2B0
     void SetupNormalIndices(int indicesCount);
     // public System.Void .ctor()
-    // Offset: 0x14A687C
+    // Offset: 0x148D240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [HeaderAttribute] Offset: 0xF0453C
+    // [HeaderAttribute] Offset: 0xF041A4
     // private UnityEngine.Vector3 _centerPos
     // Size: 0xC
     // Offset: 0x10
@@ -58,8 +58,8 @@ namespace GlobalNamespace {
     float noteLinesDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xF04598
-    // [TooltipAttribute] Offset: 0xF04598
+    // [HeaderAttribute] Offset: 0xF04200
+    // [TooltipAttribute] Offset: 0xF04200
     // private System.Single _maxHalfJumpDistance
     // Size: 0x4
     // Offset: 0x20
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     float topLinesHighestJumpPosY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xF04648
+    // [HeaderAttribute] Offset: 0xF042B0
     // private System.Single _moveSpeed
     // Size: 0x4
     // Offset: 0x34
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     float topLinesYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xF046D4
+    // [HeaderAttribute] Offset: 0xF0433C
     // private System.Single _verticalObstaclePosY
     // Size: 0x4
     // Offset: 0x48
@@ -292,64 +292,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _forwardVec
     UnityEngine::Vector3& dyn__forwardVec();
     // public System.Single get_spawnAheadTime()
-    // Offset: 0x12A5710
+    // Offset: 0x129F5A0
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x12A5718
+    // Offset: 0x129F5A8
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x12A5720
+    // Offset: 0x129F5B0
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x12A5728
+    // Offset: 0x129F5B8
     float get_noteLinesDistance();
     // public System.Single get_verticalLayersDistance()
-    // Offset: 0x12A3D6C
+    // Offset: 0x129DBFC
     float get_verticalLayersDistance();
     // public System.Single get_jumpDistance()
-    // Offset: 0x12A5730
+    // Offset: 0x129F5C0
     float get_jumpDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x12A5738
+    // Offset: 0x129F5C8
     float get_noteJumpMovementSpeed();
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0x12A44EC
+    // Offset: 0x129E37C
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, float noteJumpStartBeatOffset, float jumpOffsetY, UnityEngine::Vector3 rightVec, UnityEngine::Vector3 forwardVec);
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
-    // Offset: 0x12A4F48
+    // Offset: 0x129EDD8
     void Update(float bpm, float jumpOffsetY);
     // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
-    // Offset: 0x12A487C
+    // Offset: 0x129E70C
     GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(GlobalNamespace::ObstacleData* obstacleData);
     // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
-    // Offset: 0x12A4B60
+    // Offset: 0x129E9F0
     GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(GlobalNamespace::NoteData* noteData);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x12A5740
+    // Offset: 0x129F5D0
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x12A5218
+    // Offset: 0x129F0A8
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x12A52A4
+    // Offset: 0x129F134
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x12A59E4
+    // Offset: 0x129F874
     float HighestJumpPosYForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single HighestJumpPosYForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer)
-    // Offset: 0x12A5A14
+    // Offset: 0x129F8A4
     float HighestJumpPosYForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x12A5950
+    // Offset: 0x129F7E0
     float LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x12A58AC
+    // Offset: 0x129F73C
     float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x12A5978
+    // Offset: 0x129F808
     float NoteJumpGravityForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // public System.Void .ctor()
-    // Offset: 0x12A53C4
+    // Offset: 0x129F254
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

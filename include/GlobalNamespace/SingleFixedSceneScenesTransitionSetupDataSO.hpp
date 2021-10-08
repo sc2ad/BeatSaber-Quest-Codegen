@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private SceneInfo _sceneInfo
     GlobalNamespace::SceneInfo*& dyn__sceneInfo();
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x259A64C
+    // Offset: 0x257F0F4
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // protected System.Void Init(SceneSetupData sceneSetupData)
-    // Offset: 0x259A654
+    // Offset: 0x257F0FC
     void Init(GlobalNamespace::SceneSetupData* sceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x259A744
+    // Offset: 0x257F1EC
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

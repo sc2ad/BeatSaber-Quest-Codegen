@@ -32,13 +32,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);
     }
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x259A388
+    // Offset: 0x257EE30
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void Destroy()
-    // Offset: 0x259A490
+    // Offset: 0x257EF38
     void Destroy();
     // public System.Void .ctor()
-    // Offset: 0x259A494
+    // Offset: 0x257EF3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

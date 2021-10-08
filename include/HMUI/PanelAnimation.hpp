@@ -45,13 +45,13 @@ namespace HMUI {
     // Nested type: HMUI::PanelAnimation::$AnimationCoroutine$d__1
     class $AnimationCoroutine$d__1;
     // public System.Void StartAnimation(UnityEngine.CanvasGroup canvasGroup, UnityEngine.CanvasGroup parentCanvasGroup, System.Single duration, UnityEngine.AnimationCurve scaleXAnimationCurve, UnityEngine.AnimationCurve scaleYAnimationCurve, UnityEngine.AnimationCurve alphaAnimationCurve, UnityEngine.AnimationCurve parentAlphaAnimationCurve, System.Action finishedCallback)
-    // Offset: 0x1413A14
+    // Offset: 0x13F73D8
     void StartAnimation(UnityEngine::CanvasGroup* canvasGroup, UnityEngine::CanvasGroup* parentCanvasGroup, float duration, UnityEngine::AnimationCurve* scaleXAnimationCurve, UnityEngine::AnimationCurve* scaleYAnimationCurve, UnityEngine::AnimationCurve* alphaAnimationCurve, UnityEngine::AnimationCurve* parentAlphaAnimationCurve, System::Action* finishedCallback);
     // public System.Collections.IEnumerator AnimationCoroutine(System.Single duration, UnityEngine.CanvasGroup canvasGroup, UnityEngine.CanvasGroup parentCanvasGroup, UnityEngine.AnimationCurve scaleXAnimationCurve, UnityEngine.AnimationCurve scaleYAnimationCurve, UnityEngine.AnimationCurve alphaAnimationCurve, UnityEngine.AnimationCurve parentAlphaAnimationCurve, System.Action finishedCallback)
-    // Offset: 0x1413B84
+    // Offset: 0x13F7548
     System::Collections::IEnumerator* AnimationCoroutine(float duration, UnityEngine::CanvasGroup* canvasGroup, UnityEngine::CanvasGroup* parentCanvasGroup, UnityEngine::AnimationCurve* scaleXAnimationCurve, UnityEngine::AnimationCurve* scaleYAnimationCurve, UnityEngine::AnimationCurve* alphaAnimationCurve, UnityEngine::AnimationCurve* parentAlphaAnimationCurve, System::Action* finishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x1413C7C
+    // Offset: 0x13F7640
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

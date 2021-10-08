@@ -71,34 +71,34 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<UnityEngine::UI::ILayoutElement*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B4B760
+    // Offset: 0x1B2F124
     static void _cctor();
     // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4B7CC
+    // Offset: 0x1B2F190
     float $GetMinWidth$b__3_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4B87C
+    // Offset: 0x1B2F240
     float $GetPreferredWidth$b__4_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4B92C
+    // Offset: 0x1B2F2F0
     float $GetPreferredWidth$b__4_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4B9DC
+    // Offset: 0x1B2F3A0
     float $GetFlexibleWidth$b__5_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4BA8C
+    // Offset: 0x1B2F450
     float $GetMinHeight$b__6_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4BB3C
+    // Offset: 0x1B2F500
     float $GetPreferredHeight$b__7_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4BBEC
+    // Offset: 0x1B2F5B0
     float $GetPreferredHeight$b__7_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1B4BC9C
+    // Offset: 0x1B2F660
     float $GetFlexibleHeight$b__8_0(UnityEngine::UI::ILayoutElement* e);
     // public System.Void .ctor()
-    // Offset: 0x1B4B7C4
+    // Offset: 0x1B2F188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _material
     UnityEngine::Material*& dyn__material();
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x1E241C0
+    // Offset: 0x1E0BC24
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x1E241C8
+    // Offset: 0x1E0BC2C
     UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x1E241D0
+    // Offset: 0x1E0BC34
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

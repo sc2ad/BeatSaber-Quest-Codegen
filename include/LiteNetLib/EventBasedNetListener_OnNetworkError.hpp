@@ -42,20 +42,20 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnNetworkError : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DD37F8
+    // Offset: 0x1DBA25C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnNetworkError* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnNetworkError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnNetworkError*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
-    // Offset: 0x1DD1F60
+    // Offset: 0x1DB89C4
     void Invoke(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DD3808
+    // Offset: 0x1DBA26C
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DD38A4
+    // Offset: 0x1DBA308
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkError
   #pragma pack(pop)

@@ -60,19 +60,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Boolean get_IsDeterministic()
-    // Offset: 0x13A0AE8
+    // Offset: 0x13854AC
     bool get_IsDeterministic();
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x13A0AF0
+    // Offset: 0x13854B4
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
-    // Offset: 0x13A0AF8
+    // Offset: 0x13854BC
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
-    // Offset: 0x13A0B64
+    // Offset: 0x1385528
     Org::BouncyCastle::Math::BigInteger* NextK();
     // public System.Void .ctor()
-    // Offset: 0x1399C4C
+    // Offset: 0x137E610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

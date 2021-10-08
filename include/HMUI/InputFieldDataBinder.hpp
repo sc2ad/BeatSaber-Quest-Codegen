@@ -109,10 +109,10 @@ namespace HMUI {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, bindingData);
     }
     // public System.Void ClearBindings()
-    // Offset: 0x140F808
+    // Offset: 0x13F31CC
     void ClearBindings();
     // public System.Void .ctor()
-    // Offset: 0x140F794
+    // Offset: 0x13F3158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

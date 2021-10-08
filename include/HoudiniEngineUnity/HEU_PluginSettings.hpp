@@ -33,376 +33,376 @@ namespace HoudiniEngineUnity {
   class HEU_PluginSettings : public ::Il2CppObject {
     public:
     // static public System.String get_HoudiniEngineEnvFilePath()
-    // Offset: 0x17CBE2C
+    // Offset: 0x17B07F0
     static ::Il2CppString* get_HoudiniEngineEnvFilePath();
     // static public System.Void set_HoudiniEngineEnvFilePath(System.String value)
-    // Offset: 0x17CBFC4
+    // Offset: 0x17B0988
     static void set_HoudiniEngineEnvFilePath(::Il2CppString* value);
     // static public System.Boolean get_CookingEnabled()
-    // Offset: 0x17CC3EC
+    // Offset: 0x17B0DB0
     static bool get_CookingEnabled();
     // static public System.Void set_CookingEnabled(System.Boolean value)
-    // Offset: 0x17CC54C
+    // Offset: 0x17B0F10
     static void set_CookingEnabled(bool value);
     // static public System.Boolean get_CookingTriggersDownstreamCooks()
-    // Offset: 0x17CC66C
+    // Offset: 0x17B1030
     static bool get_CookingTriggersDownstreamCooks();
     // static public System.Void set_CookingTriggersDownstreamCooks(System.Boolean value)
-    // Offset: 0x17CC6D8
+    // Offset: 0x17B109C
     static void set_CookingTriggersDownstreamCooks(bool value);
     // static public System.Boolean get_CookTemplatedGeos()
-    // Offset: 0x17CC734
+    // Offset: 0x17B10F8
     static bool get_CookTemplatedGeos();
     // static public System.Void set_CookTemplatedGeos(System.Boolean value)
-    // Offset: 0x17CC7A0
+    // Offset: 0x17B1164
     static void set_CookTemplatedGeos(bool value);
     // static public System.Boolean get_PushUnityTransformToHoudini()
-    // Offset: 0x17CC7FC
+    // Offset: 0x17B11C0
     static bool get_PushUnityTransformToHoudini();
     // static public System.Void set_PushUnityTransformToHoudini(System.Boolean value)
-    // Offset: 0x17CC868
+    // Offset: 0x17B122C
     static void set_PushUnityTransformToHoudini(bool value);
     // static public System.Boolean get_TransformChangeTriggersCooks()
-    // Offset: 0x17CC8C4
+    // Offset: 0x17B1288
     static bool get_TransformChangeTriggersCooks();
     // static public System.Void set_TransformChangeTriggersCooks(System.Boolean value)
-    // Offset: 0x17CC930
+    // Offset: 0x17B12F4
     static void set_TransformChangeTriggersCooks(bool value);
     // static public System.String get_CollisionGroupName()
-    // Offset: 0x17CC98C
+    // Offset: 0x17B1350
     static ::Il2CppString* get_CollisionGroupName();
     // static public System.Void set_CollisionGroupName(System.String value)
-    // Offset: 0x17CCA00
+    // Offset: 0x17B13C4
     static void set_CollisionGroupName(::Il2CppString* value);
     // static public System.String get_RenderedCollisionGroupName()
-    // Offset: 0x17CCA5C
+    // Offset: 0x17B1420
     static ::Il2CppString* get_RenderedCollisionGroupName();
     // static public System.Void set_RenderedCollisionGroupName(System.String value)
-    // Offset: 0x17CCAD0
+    // Offset: 0x17B1494
     static void set_RenderedCollisionGroupName(::Il2CppString* value);
     // static public System.String get_RenderedConvexCollisionGroupName()
-    // Offset: 0x17CCB2C
+    // Offset: 0x17B14F0
     static ::Il2CppString* get_RenderedConvexCollisionGroupName();
     // static public System.Void set_RenderedConvexCollisionGroupName(System.String value)
-    // Offset: 0x17CCBA0
+    // Offset: 0x17B1564
     static void set_RenderedConvexCollisionGroupName(::Il2CppString* value);
     // static public System.String get_UnityMaterialAttribName()
-    // Offset: 0x17CCBFC
+    // Offset: 0x17B15C0
     static ::Il2CppString* get_UnityMaterialAttribName();
     // static public System.Void set_UnityMaterialAttribName(System.String value)
-    // Offset: 0x17CCC70
+    // Offset: 0x17B1634
     static void set_UnityMaterialAttribName(::Il2CppString* value);
     // static public System.String get_UnitySubMaterialAttribName()
-    // Offset: 0x17CCCCC
+    // Offset: 0x17B1690
     static ::Il2CppString* get_UnitySubMaterialAttribName();
     // static public System.Void set_UnitySubMaterialAttribName(System.String value)
-    // Offset: 0x17CCD40
+    // Offset: 0x17B1704
     static void set_UnitySubMaterialAttribName(::Il2CppString* value);
     // static public System.String get_UnitySubMaterialIndexAttribName()
-    // Offset: 0x17CCD9C
+    // Offset: 0x17B1760
     static ::Il2CppString* get_UnitySubMaterialIndexAttribName();
     // static public System.Void set_UnitySubMaterialIndexAttribName(System.String value)
-    // Offset: 0x17CCE10
+    // Offset: 0x17B17D4
     static void set_UnitySubMaterialIndexAttribName(::Il2CppString* value);
     // static public System.String get_UnityTagAttributeName()
-    // Offset: 0x17CCE6C
+    // Offset: 0x17B1830
     static ::Il2CppString* get_UnityTagAttributeName();
     // static public System.Void set_UnityTagAttributeName(System.String value)
-    // Offset: 0x17CCEE0
+    // Offset: 0x17B18A4
     static void set_UnityTagAttributeName(::Il2CppString* value);
     // static public System.String get_UnityStaticAttributeName()
-    // Offset: 0x17CCF3C
+    // Offset: 0x17B1900
     static ::Il2CppString* get_UnityStaticAttributeName();
     // static public System.Void set_UnityStaticAttributeName(System.String value)
-    // Offset: 0x17CCFB0
+    // Offset: 0x17B1974
     static void set_UnityStaticAttributeName(::Il2CppString* value);
     // static public System.String get_UnityScriptAttributeName()
-    // Offset: 0x17CD00C
+    // Offset: 0x17B19D0
     static ::Il2CppString* get_UnityScriptAttributeName();
     // static public System.Void set_UnityScriptAttributeName(System.String value)
-    // Offset: 0x17CD080
+    // Offset: 0x17B1A44
     static void set_UnityScriptAttributeName(::Il2CppString* value);
     // static public System.String get_UnityLayerAttributeName()
-    // Offset: 0x17CD0DC
+    // Offset: 0x17B1AA0
     static ::Il2CppString* get_UnityLayerAttributeName();
     // static public System.Void set_UnityLayerAttributeName(System.String value)
-    // Offset: 0x17CD150
+    // Offset: 0x17B1B14
     static void set_UnityLayerAttributeName(::Il2CppString* value);
     // static public System.Single get_ImageGamma()
-    // Offset: 0x17CD1AC
+    // Offset: 0x17B1B70
     static float get_ImageGamma();
     // static public System.Void set_ImageGamma(System.Single value)
-    // Offset: 0x17CD348
+    // Offset: 0x17B1D0C
     static void set_ImageGamma(float value);
     // static public System.Single get_NormalGenerationThresholdAngle()
-    // Offset: 0x17CD47C
+    // Offset: 0x17B1E40
     static float get_NormalGenerationThresholdAngle();
     // static public System.Void set_NormalGenerationThresholdAngle(System.Single value)
-    // Offset: 0x17CD4EC
+    // Offset: 0x17B1EB0
     static void set_NormalGenerationThresholdAngle(float value);
     // static public System.String get_LastLoadHDAPath()
-    // Offset: 0x17CD550
+    // Offset: 0x17B1F14
     static ::Il2CppString* get_LastLoadHDAPath();
     // static public System.Void set_LastLoadHDAPath(System.String value)
-    // Offset: 0x17CD5C4
+    // Offset: 0x17B1F88
     static void set_LastLoadHDAPath(::Il2CppString* value);
     // static public System.String get_LastLoadHIPPath()
-    // Offset: 0x17CD620
+    // Offset: 0x17B1FE4
     static ::Il2CppString* get_LastLoadHIPPath();
     // static public System.Void set_LastLoadHIPPath(System.String value)
-    // Offset: 0x17CD694
+    // Offset: 0x17B2058
     static void set_LastLoadHIPPath(::Il2CppString* value);
     // static public System.String get_InstanceAttr()
-    // Offset: 0x17CD6F0
+    // Offset: 0x17B20B4
     static ::Il2CppString* get_InstanceAttr();
     // static public System.Void set_InstanceAttr(System.String value)
-    // Offset: 0x17CD764
+    // Offset: 0x17B2128
     static void set_InstanceAttr(::Il2CppString* value);
     // static public System.String get_UnityInstanceAttr()
-    // Offset: 0x17CD7C0
+    // Offset: 0x17B2184
     static ::Il2CppString* get_UnityInstanceAttr();
     // static public System.Void set_UnityInstanceAttr(System.String value)
-    // Offset: 0x17CD834
+    // Offset: 0x17B21F8
     static void set_UnityInstanceAttr(::Il2CppString* value);
     // static public System.String get_UnityInputMeshAttr()
-    // Offset: 0x17CD890
+    // Offset: 0x17B2254
     static ::Il2CppString* get_UnityInputMeshAttr();
     // static public System.Void set_UnityInputMeshAttr(System.String value)
-    // Offset: 0x17CD904
+    // Offset: 0x17B22C8
     static void set_UnityInputMeshAttr(::Il2CppString* value);
     // static public UnityEngine.Color get_LineColor()
-    // Offset: 0x17CD960
+    // Offset: 0x17B2324
     static UnityEngine::Color get_LineColor();
     // static public System.Void set_LineColor(UnityEngine.Color value)
-    // Offset: 0x17CDA0C
+    // Offset: 0x17B23D0
     static void set_LineColor(UnityEngine::Color value);
     // static public System.String get_EditorOnly_Tag()
-    // Offset: 0x17CDAA0
+    // Offset: 0x17B2464
     static ::Il2CppString* get_EditorOnly_Tag();
     // static public System.Void set_EditorOnly_Tag(System.String value)
-    // Offset: 0x17CDB14
+    // Offset: 0x17B24D8
     static void set_EditorOnly_Tag(::Il2CppString* value);
     // static public System.String get_HDAData_Name()
-    // Offset: 0x17CDBD4
+    // Offset: 0x17B2598
     static ::Il2CppString* get_HDAData_Name();
     // static public System.Void set_HDAData_Name(System.String value)
-    // Offset: 0x17CDC48
+    // Offset: 0x17B260C
     static void set_HDAData_Name(::Il2CppString* value);
     // static public HoudiniEngineUnity.SessionMode get_Session_Mode()
-    // Offset: 0x17CDCA4
+    // Offset: 0x17B2668
     static HoudiniEngineUnity::SessionMode get_Session_Mode();
     // static public System.Void set_Session_Mode(HoudiniEngineUnity.SessionMode value)
-    // Offset: 0x17CDE08
+    // Offset: 0x17B27CC
     static void set_Session_Mode(HoudiniEngineUnity::SessionMode value);
     // static public System.String get_Session_PipeName()
-    // Offset: 0x17CDF2C
+    // Offset: 0x17B28F0
     static ::Il2CppString* get_Session_PipeName();
     // static public System.Void set_Session_PipeName(System.String value)
-    // Offset: 0x17CDFA0
+    // Offset: 0x17B2964
     static void set_Session_PipeName(::Il2CppString* value);
     // static public System.String get_Session_Localhost()
-    // Offset: 0x17CDFFC
+    // Offset: 0x17B29C0
     static ::Il2CppString* get_Session_Localhost();
     // static public System.Void set_Session_Localhost(System.String value)
-    // Offset: 0x17CE070
+    // Offset: 0x17B2A34
     static void set_Session_Localhost(::Il2CppString* value);
     // static public System.Int32 get_Session_Port()
-    // Offset: 0x17CE0CC
+    // Offset: 0x17B2A90
     static int get_Session_Port();
     // static public System.Void set_Session_Port(System.Int32 value)
-    // Offset: 0x17CE138
+    // Offset: 0x17B2AFC
     static void set_Session_Port(int value);
     // static public System.Single get_Session_Timeout()
-    // Offset: 0x17CE194
+    // Offset: 0x17B2B58
     static float get_Session_Timeout();
     // static public System.Void set_Session_Timeout(System.Single value)
-    // Offset: 0x17CE208
+    // Offset: 0x17B2BCC
     static void set_Session_Timeout(float value);
     // static public System.Boolean get_Session_AutoClose()
-    // Offset: 0x17CE26C
+    // Offset: 0x17B2C30
     static bool get_Session_AutoClose();
     // static public System.Void set_Session_AutoClose(System.Boolean value)
-    // Offset: 0x17CE2D8
+    // Offset: 0x17B2C9C
     static void set_Session_AutoClose(bool value);
     // static public System.Boolean get_Curves_ShowInSceneView()
-    // Offset: 0x17CE334
+    // Offset: 0x17B2CF8
     static bool get_Curves_ShowInSceneView();
     // static public System.Void set_Curves_ShowInSceneView(System.Boolean value)
-    // Offset: 0x17CE3A0
+    // Offset: 0x17B2D64
     static void set_Curves_ShowInSceneView(bool value);
     // static public System.String get_AssetCachePath()
-    // Offset: 0x17CE3FC
+    // Offset: 0x17B2DC0
     static ::Il2CppString* get_AssetCachePath();
     // static public System.Void set_AssetCachePath(System.String value)
-    // Offset: 0x17CE470
+    // Offset: 0x17B2E34
     static void set_AssetCachePath(::Il2CppString* value);
     // static public System.Boolean get_UseFullPathNamesForOutput()
-    // Offset: 0x17CE4CC
+    // Offset: 0x17B2E90
     static bool get_UseFullPathNamesForOutput();
     // static public System.Void set_UseFullPathNamesForOutput(System.Boolean value)
-    // Offset: 0x17CE538
+    // Offset: 0x17B2EFC
     static void set_UseFullPathNamesForOutput(bool value);
     // static public System.Collections.Generic.List`1<System.String> get_HEngineToolsShelves()
-    // Offset: 0x17CE594
+    // Offset: 0x17B2F58
     static System::Collections::Generic::List_1<::Il2CppString*>* get_HEngineToolsShelves();
     // static public System.Void set_HEngineToolsShelves(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x17CE78C
+    // Offset: 0x17B3150
     static void set_HEngineToolsShelves(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // static public System.Int32 get_HEngineShelfSelectedIndex()
-    // Offset: 0x17CE92C
+    // Offset: 0x17B32F0
     static int get_HEngineShelfSelectedIndex();
     // static public System.Void set_HEngineShelfSelectedIndex(System.Int32 value)
-    // Offset: 0x17CE994
+    // Offset: 0x17B3358
     static void set_HEngineShelfSelectedIndex(int value);
     // static public System.String get_DefaultTerrainMaterial()
-    // Offset: 0x17CE9F0
+    // Offset: 0x17B33B4
     static ::Il2CppString* get_DefaultTerrainMaterial();
     // static public System.Void set_DefaultTerrainMaterial(System.String value)
-    // Offset: 0x17CEA64
+    // Offset: 0x17B3428
     static void set_DefaultTerrainMaterial(::Il2CppString* value);
     // static public System.String get_TerrainSplatTextureDefault()
-    // Offset: 0x17CEAC0
+    // Offset: 0x17B3484
     static ::Il2CppString* get_TerrainSplatTextureDefault();
     // static public System.Void set_TerrainSplatTextureDefault(System.String value)
-    // Offset: 0x17CEB34
+    // Offset: 0x17B34F8
     static void set_TerrainSplatTextureDefault(::Il2CppString* value);
     // static public System.String get_DefaultStandardShader()
-    // Offset: 0x17CEB90
+    // Offset: 0x17B3554
     static ::Il2CppString* get_DefaultStandardShader();
     // static public System.Void set_DefaultStandardShader(System.String value)
-    // Offset: 0x17CEED4
+    // Offset: 0x17B3898
     static void set_DefaultStandardShader(::Il2CppString* value);
     // static public System.String get_DefaultVertexColorShader()
-    // Offset: 0x17CEF30
+    // Offset: 0x17B38F4
     static ::Il2CppString* get_DefaultVertexColorShader();
     // static public System.Void set_DefaultVertexColorShader(System.String value)
-    // Offset: 0x17CF088
+    // Offset: 0x17B3A4C
     static void set_DefaultVertexColorShader(::Il2CppString* value);
     // static public System.String get_DefaultTransparentShader()
-    // Offset: 0x17CF0E4
+    // Offset: 0x17B3AA8
     static ::Il2CppString* get_DefaultTransparentShader();
     // static public System.Void set_DefaultTransparentShader(System.String value)
-    // Offset: 0x17CF23C
+    // Offset: 0x17B3C00
     static void set_DefaultTransparentShader(::Il2CppString* value);
     // static public System.String get_DefaultCurveShader()
-    // Offset: 0x17CF298
+    // Offset: 0x17B3C5C
     static ::Il2CppString* get_DefaultCurveShader();
     // static public System.Void set_DefaultCurveShader(System.String value)
-    // Offset: 0x17CF3B0
+    // Offset: 0x17B3D74
     static void set_DefaultCurveShader(::Il2CppString* value);
     // static public System.Boolean get_SupportHoudiniBoxType()
-    // Offset: 0x17CF40C
+    // Offset: 0x17B3DD0
     static bool get_SupportHoudiniBoxType();
     // static public System.Void set_SupportHoudiniBoxType(System.Boolean value)
-    // Offset: 0x17CF474
+    // Offset: 0x17B3E38
     static void set_SupportHoudiniBoxType(bool value);
     // static public System.Boolean get_SupportHoudiniSphereType()
-    // Offset: 0x17CF4D0
+    // Offset: 0x17B3E94
     static bool get_SupportHoudiniSphereType();
     // static public System.Void set_SupportHoudiniSphereType(System.Boolean value)
-    // Offset: 0x17CF538
+    // Offset: 0x17B3EFC
     static void set_SupportHoudiniSphereType(bool value);
     // static public System.Boolean get_SetCurrentThreadToInvariantCulture()
-    // Offset: 0x17CF594
+    // Offset: 0x17B3F58
     static bool get_SetCurrentThreadToInvariantCulture();
     // static public System.Void set_SetCurrentThreadToInvariantCulture(System.Boolean value)
-    // Offset: 0x17CF600
+    // Offset: 0x17B3FC4
     static void set_SetCurrentThreadToInvariantCulture(bool value);
     // static public System.String get_HoudiniDebugLaunchPath()
-    // Offset: 0x17CF7B4
+    // Offset: 0x17B4178
     static ::Il2CppString* get_HoudiniDebugLaunchPath();
     // static public System.Void set_HoudiniDebugLaunchPath(System.String value)
-    // Offset: 0x17CF89C
+    // Offset: 0x17B4260
     static void set_HoudiniDebugLaunchPath(::Il2CppString* value);
     // static public System.String get_LastExportPath()
-    // Offset: 0x17CF8F8
+    // Offset: 0x17B42BC
     static ::Il2CppString* get_LastExportPath();
     // static public System.Void set_LastExportPath(System.String value)
-    // Offset: 0x17CF96C
+    // Offset: 0x17B4330
     static void set_LastExportPath(::Il2CppString* value);
     // static public System.Int32 get_InputSelectionFilterLocation()
-    // Offset: 0x17CF9C8
+    // Offset: 0x17B438C
     static int get_InputSelectionFilterLocation();
     // static public System.Void set_InputSelectionFilterLocation(System.Int32 value)
-    // Offset: 0x17CFA34
+    // Offset: 0x17B43F8
     static void set_InputSelectionFilterLocation(int value);
     // static public System.Int32 get_InputSelectionFilterState()
-    // Offset: 0x17CFA90
+    // Offset: 0x17B4454
     static int get_InputSelectionFilterState();
     // static public System.Void set_InputSelectionFilterState(System.Int32 value)
-    // Offset: 0x17CFAFC
+    // Offset: 0x17B44C0
     static void set_InputSelectionFilterState(int value);
     // static public System.Boolean get_InputSelectionFilterRoots()
-    // Offset: 0x17CFB58
+    // Offset: 0x17B451C
     static bool get_InputSelectionFilterRoots();
     // static public System.Void set_InputSelectionFilterRoots(System.Boolean value)
-    // Offset: 0x17CFBC0
+    // Offset: 0x17B4584
     static void set_InputSelectionFilterRoots(bool value);
     // static public System.String get_InputSelectionFilterName()
-    // Offset: 0x17CFC1C
+    // Offset: 0x17B45E0
     static ::Il2CppString* get_InputSelectionFilterName();
     // static public System.Void set_InputSelectionFilterName(System.String value)
-    // Offset: 0x17CFC90
+    // Offset: 0x17B4654
     static void set_InputSelectionFilterName(::Il2CppString* value);
     // static public System.Boolean get_CookOptionSplitGeosByGroup()
-    // Offset: 0x17CFCEC
+    // Offset: 0x17B46B0
     static bool get_CookOptionSplitGeosByGroup();
     // static public System.Void set_CookOptionSplitGeosByGroup(System.Boolean value)
-    // Offset: 0x17CFD54
+    // Offset: 0x17B4718
     static void set_CookOptionSplitGeosByGroup(bool value);
     // static public System.Int32 get_MaxVerticesPerPrimitive()
-    // Offset: 0x17CFDB0
+    // Offset: 0x17B4774
     static int get_MaxVerticesPerPrimitive();
     // static public System.Void set_MaxVerticesPerPrimitive(System.Int32 value)
-    // Offset: 0x17CFE1C
+    // Offset: 0x17B47E0
     static void set_MaxVerticesPerPrimitive(int value);
     // static public System.String get_HoudiniInstallPath()
-    // Offset: 0x17CFE78
+    // Offset: 0x17B483C
     static ::Il2CppString* get_HoudiniInstallPath();
     // static public System.Void set_HoudiniInstallPath(System.String value)
-    // Offset: 0x17CFEEC
+    // Offset: 0x17B48B0
     static void set_HoudiniInstallPath(::Il2CppString* value);
     // static public System.String get_LastHoudiniVersion()
-    // Offset: 0x17CFF48
+    // Offset: 0x17B490C
     static ::Il2CppString* get_LastHoudiniVersion();
     // static public System.Void set_LastHoudiniVersion(System.String value)
-    // Offset: 0x17CFFBC
+    // Offset: 0x17B4980
     static void set_LastHoudiniVersion(::Il2CppString* value);
     // static public System.Boolean get_SessionSyncAutoCook()
-    // Offset: 0x17D0018
+    // Offset: 0x17B49DC
     static bool get_SessionSyncAutoCook();
     // static public System.Void set_SessionSyncAutoCook(System.Boolean value)
-    // Offset: 0x17D0084
+    // Offset: 0x17B4A48
     static void set_SessionSyncAutoCook(bool value);
     // static public System.Boolean get_WriteCookLogs()
-    // Offset: 0x17D00E0
+    // Offset: 0x17B4AA4
     static bool get_WriteCookLogs();
     // static public System.Void set_WriteCookLogs(System.Boolean value)
-    // Offset: 0x17D0148
+    // Offset: 0x17B4B0C
     static void set_WriteCookLogs(bool value);
     // static public System.Boolean get_UseHDRColor()
-    // Offset: 0x17D01A4
+    // Offset: 0x17B4B68
     static bool get_UseHDRColor();
     // static public System.Void set_UseHDRColor(System.Boolean value)
-    // Offset: 0x17D0210
+    // Offset: 0x17B4BD4
     static void set_UseHDRColor(bool value);
     // static public System.Boolean get_UseSpecularShader()
-    // Offset: 0x17CEE04
+    // Offset: 0x17B37C8
     static bool get_UseSpecularShader();
     // static public System.Void set_UseSpecularShader(System.Boolean value)
-    // Offset: 0x17D026C
+    // Offset: 0x17B4C30
     static void set_UseSpecularShader(bool value);
     // static public System.Boolean get_UseLegacyShaders()
-    // Offset: 0x17CEE6C
+    // Offset: 0x17B3830
     static bool get_UseLegacyShaders();
     // static public System.Void set_UseLegacyShaders(System.Boolean value)
-    // Offset: 0x17D02C8
+    // Offset: 0x17B4C8C
     static void set_UseLegacyShaders(bool value);
     // static public System.Boolean get_ShortenFolderPaths()
-    // Offset: 0x17D0324
+    // Offset: 0x17B4CE8
     static bool get_ShortenFolderPaths();
     // static public System.Void set_ShortenFolderPaths(System.Boolean value)
-    // Offset: 0x17D038C
+    // Offset: 0x17B4D50
     static void set_ShortenFolderPaths(bool value);
   }; // HoudiniEngineUnity.HEU_PluginSettings
   #pragma pack(pop)

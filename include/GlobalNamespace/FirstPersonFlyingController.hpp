@@ -139,22 +139,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _cameraTransform
     UnityEngine::Transform*& dyn__cameraTransform();
     // protected System.Void Awake()
-    // Offset: 0x11B817C
+    // Offset: 0x1172E14
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11B8188
+    // Offset: 0x1172E20
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x11B83A4
+    // Offset: 0x117303C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11B83D8
+    // Offset: 0x1173070
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x11B8408
+    // Offset: 0x11730A0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11B8800
+    // Offset: 0x1173498
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     // Get instance field reference: System.Action`1<System.Single> m_OnUpdateDelegate
     System::Action_1<float>*& dyn_m_OnUpdateDelegate();
     // public System.Void add_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x1B5E710
+    // Offset: 0x1B420D4
     void add_OnUpdateDelegate(System::Action_1<float>* value);
     // public System.Void remove_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x1B5E790
+    // Offset: 0x1B42154
     void remove_OnUpdateDelegate(System::Action_1<float>* value);
     // System.Void Update()
-    // Offset: 0x1B5E858
+    // Offset: 0x1B4221C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1B5E8C4
+    // Offset: 0x1B42288
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MonoBehaviourCallbackHooks*, creationType>()));
     }
     // protected override System.String GetGameObjectName()
-    // Offset: 0x1B5E810
+    // Offset: 0x1B421D4
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.String ComponentSingleton_1::GetGameObjectName()
     ::Il2CppString* GetGameObjectName();

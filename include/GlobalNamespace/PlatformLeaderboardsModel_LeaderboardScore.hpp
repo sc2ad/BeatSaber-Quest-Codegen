@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String playerId
     ::Il2CppString*& dyn_playerId();
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String playerName, System.String playerId, System.Collections.Generic.List`1<GameplayModifierParamsSO> gameplayModifiers)
-    // Offset: 0x12B38C8
+    // Offset: 0x12C5620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::Il2CppString* playerName, ::Il2CppString* playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore::.ctor");

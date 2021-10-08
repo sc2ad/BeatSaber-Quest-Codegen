@@ -86,10 +86,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
     TMPro::TextMeshProUGUI*& dyn__rankText();
     // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x11C1BBC
+    // Offset: 0x1194D58
     void SetData(int order, GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x11C1F5C
+    // Offset: 0x1195078
     // Implemented from: TableCellWithSeparator
     // Base method: System.Void TableCellWithSeparator::.ctor()
     // Base method: System.Void TableCell::.ctor()

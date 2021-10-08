@@ -21,7 +21,7 @@ namespace UnityEngine::Internal {
   class ExcludeFromDocsAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D9DD3C
+    // Offset: 0x1D837A0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

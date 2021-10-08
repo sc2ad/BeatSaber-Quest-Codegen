@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Utilities {
   class MemoableResetException : public System::InvalidCastException {
     public:
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x21836FC
+    // Offset: 0x216D160
     // Implemented from: System.InvalidCastException
     // Base method: System.Void InvalidCastException::.ctor(System.String msg)
     // Base method: System.Void SystemException::.ctor(System.String msg)

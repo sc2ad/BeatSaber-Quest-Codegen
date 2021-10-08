@@ -83,10 +83,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x115F2B0
+    // Offset: 0x115C064
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x115F48C
+    // Offset: 0x115C240
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__7
   // WARNING Not writing size check since size may be invalid!

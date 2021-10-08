@@ -464,224 +464,224 @@ namespace LiteNetLib {
     // Get instance field reference: public System.Threading.ThreadPriority ThreadPriority
     System::Threading::ThreadPriority& dyn_ThreadPriority();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x1DD65F8
+    // Offset: 0x1DBD05C
     bool get_IsRunning();
     // public System.Int32 get_LocalPort()
-    // Offset: 0x1DD6628
+    // Offset: 0x1DBD08C
     int get_LocalPort();
     // public LiteNetLib.NetPeer get_FirstPeer()
-    // Offset: 0x1DD6644
+    // Offset: 0x1DBD0A8
     LiteNetLib::NetPeer* get_FirstPeer();
     // public System.Byte get_ChannelsCount()
-    // Offset: 0x1DD6668
+    // Offset: 0x1DBD0CC
     uint8_t get_ChannelsCount();
     // public System.Void set_ChannelsCount(System.Byte value)
-    // Offset: 0x1DD6670
+    // Offset: 0x1DBD0D4
     void set_ChannelsCount(uint8_t value);
     // public System.Collections.Generic.List`1<LiteNetLib.NetPeer> get_ConnectedPeerList()
-    // Offset: 0x1DD670C
+    // Offset: 0x1DBD170
     System::Collections::Generic::List_1<LiteNetLib::NetPeer*>* get_ConnectedPeerList();
     // public System.Int32 get_ConnectedPeersCount()
-    // Offset: 0x1DD6840
+    // Offset: 0x1DBD2A4
     int get_ConnectedPeersCount();
     // public System.Void .ctor(LiteNetLib.INetEventListener listener, LiteNetLib.Layers.PacketLayerBase extraPacketLayer)
-    // Offset: 0x1DD6C30
+    // Offset: 0x1DBD694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetManager* New_ctor(LiteNetLib::INetEventListener* listener, LiteNetLib::Layers::PacketLayerBase* extraPacketLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetManager*, creationType>(listener, extraPacketLayer)));
     }
     // public LiteNetLib.NetPeer GetPeerById(System.Int32 id)
-    // Offset: 0x1DD6804
+    // Offset: 0x1DBD268
     LiteNetLib::NetPeer* GetPeerById(int id);
     // private System.Boolean TryGetPeer(System.Net.IPEndPoint endPoint, out LiteNetLib.NetPeer peer)
-    // Offset: 0x1DD6864
+    // Offset: 0x1DBD2C8
     bool TryGetPeer(System::Net::IPEndPoint* endPoint, ByRef<LiteNetLib::NetPeer*> peer);
     // private System.Void AddPeer(LiteNetLib.NetPeer peer)
-    // Offset: 0x1DD6904
+    // Offset: 0x1DBD368
     void AddPeer(LiteNetLib::NetPeer* peer);
     // private System.Void RemovePeer(LiteNetLib.NetPeer peer)
-    // Offset: 0x1DD6A5C
+    // Offset: 0x1DBD4C0
     void RemovePeer(LiteNetLib::NetPeer* peer);
     // private System.Void RemovePeerInternal(LiteNetLib.NetPeer peer)
-    // Offset: 0x1DD6AA8
+    // Offset: 0x1DBD50C
     void RemovePeerInternal(LiteNetLib::NetPeer* peer);
     // System.Void ConnectionLatencyUpdated(LiteNetLib.NetPeer fromPeer, System.Int32 latency)
-    // Offset: 0x1DD6FA0
+    // Offset: 0x1DBDA04
     void ConnectionLatencyUpdated(LiteNetLib::NetPeer* fromPeer, int latency);
     // System.Void MessageDelivered(LiteNetLib.NetPeer fromPeer, System.Object userData)
-    // Offset: 0x1DD72C8
+    // Offset: 0x1DBDD2C
     void MessageDelivered(LiteNetLib::NetPeer* fromPeer, ::Il2CppObject* userData);
     // System.Int32 SendRawAndRecycle(LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DD7318
+    // Offset: 0x1DBDD7C
     int SendRawAndRecycle(LiteNetLib::NetPacket* packet, System::Net::IPEndPoint* remoteEndPoint);
     // System.Int32 SendRaw(LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DD773C
+    // Offset: 0x1DBE1A0
     int SendRaw(LiteNetLib::NetPacket* packet, System::Net::IPEndPoint* remoteEndPoint);
     // System.Int32 SendRaw(System.Byte[] message, System.Int32 start, System.Int32 length, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DD7370
+    // Offset: 0x1DBDDD4
     int SendRaw(::ArrayW<uint8_t> message, int start, int length, System::Net::IPEndPoint* remoteEndPoint);
     // System.Void DisconnectPeerForce(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectReason reason, System.Net.Sockets.SocketError socketErrorCode, LiteNetLib.NetPacket eventData)
-    // Offset: 0x1DD78D8
+    // Offset: 0x1DBE33C
     void DisconnectPeerForce(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectReason reason, System::Net::Sockets::SocketError socketErrorCode, LiteNetLib::NetPacket* eventData);
     // private System.Void DisconnectPeer(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectReason reason, System.Net.Sockets.SocketError socketErrorCode, System.Boolean force, System.Byte[] data, System.Int32 start, System.Int32 count, LiteNetLib.NetPacket eventData)
-    // Offset: 0x1DD7924
+    // Offset: 0x1DBE388
     void DisconnectPeer(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectReason reason, System::Net::Sockets::SocketError socketErrorCode, bool force, ::ArrayW<uint8_t> data, int start, int count, LiteNetLib::NetPacket* eventData);
     // private System.Void CreateEvent(LiteNetLib.NetEvent/LiteNetLib.EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData)
-    // Offset: 0x1DD6FE4
+    // Offset: 0x1DBDA48
     void CreateEvent(LiteNetLib::NetEvent::EType type, LiteNetLib::NetPeer* peer, System::Net::IPEndPoint* remoteEndPoint, System::Net::Sockets::SocketError errorCode, int latency, LiteNetLib::DisconnectReason disconnectReason, LiteNetLib::ConnectionRequest* connectionRequest, LiteNetLib::DeliveryMethod deliveryMethod, LiteNetLib::NetPacket* readerSource, ::Il2CppObject* userData);
     // private System.Void ProcessEvent(LiteNetLib.NetEvent evt)
-    // Offset: 0x1DD7CD4
+    // Offset: 0x1DBE738
     void ProcessEvent(LiteNetLib::NetEvent* evt);
     // System.Void RecycleEvent(LiteNetLib.NetEvent evt)
-    // Offset: 0x1DD8240
+    // Offset: 0x1DBECA4
     void RecycleEvent(LiteNetLib::NetEvent* evt);
     // private System.Void UpdateLogic()
-    // Offset: 0x1DD8374
+    // Offset: 0x1DBEDD8
     void UpdateLogic();
     // private System.Void LiteNetLib.INetSocketListener.OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DD8810
+    // Offset: 0x1DBF274
     void LiteNetLib_INetSocketListener_OnMessageReceived(::ArrayW<uint8_t> data, int length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint* remoteEndPoint);
     // LiteNetLib.NetPeer OnConnectionSolved(LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length)
-    // Offset: 0x1DCFB50
+    // Offset: 0x1DB65B4
     LiteNetLib::NetPeer* OnConnectionSolved(LiteNetLib::ConnectionRequest* request, ::ArrayW<uint8_t> rejectData, int start, int length);
     // private System.Int32 GetNextPeerId()
-    // Offset: 0x1DD9184
+    // Offset: 0x1DBFBE8
     int GetNextPeerId();
     // private System.Void ProcessConnectRequest(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest)
-    // Offset: 0x1DD9590
+    // Offset: 0x1DBFFF4
     void ProcessConnectRequest(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPeer* netPeer, LiteNetLib::NetConnectRequestPacket* connRequest);
     // private System.Void DataReceived(System.Byte[] reusableBuffer, System.Int32 count, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DD8AC4
+    // Offset: 0x1DBF528
     void DataReceived(::ArrayW<uint8_t> reusableBuffer, int count, System::Net::IPEndPoint* remoteEndPoint);
     // System.Void CreateReceiveEvent(LiteNetLib.NetPacket packet, LiteNetLib.DeliveryMethod method, LiteNetLib.NetPeer fromPeer)
-    // Offset: 0x1DDA2D8
+    // Offset: 0x1DC0D3C
     void CreateReceiveEvent(LiteNetLib::NetPacket* packet, LiteNetLib::DeliveryMethod method, LiteNetLib::NetPeer* fromPeer);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DDA51C
+    // Offset: 0x1DC0F80
     void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod options);
     // public System.Void SendToAll(System.Byte[] data, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DDA554
+    // Offset: 0x1DC0FB8
     void SendToAll(::ArrayW<uint8_t> data, LiteNetLib::DeliveryMethod options);
     // public System.Void SendToAll(System.Byte[] data, System.Int32 start, System.Int32 length, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DDA548
+    // Offset: 0x1DC0FAC
     void SendToAll(::ArrayW<uint8_t> data, int start, int length, LiteNetLib::DeliveryMethod options);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, System.Byte channelNumber, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DDA65C
+    // Offset: 0x1DC10C0
     void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, uint8_t channelNumber, LiteNetLib::DeliveryMethod options);
     // public System.Void SendToAll(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DDA688
+    // Offset: 0x1DC10EC
     void SendToAll(::ArrayW<uint8_t> data, uint8_t channelNumber, LiteNetLib::DeliveryMethod options);
     // public System.Void SendToAll(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x1DDA578
+    // Offset: 0x1DC0FDC
     void SendToAll(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod options);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod options, LiteNetLib.NetPeer excludePeer)
-    // Offset: 0x1DDA6B4
+    // Offset: 0x1DC1118
     void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod options, LiteNetLib::NetPeer* excludePeer);
     // public System.Void SendToAll(System.Byte[] data, LiteNetLib.DeliveryMethod options, LiteNetLib.NetPeer excludePeer)
-    // Offset: 0x1DDA7D4
+    // Offset: 0x1DC1238
     void SendToAll(::ArrayW<uint8_t> data, LiteNetLib::DeliveryMethod options, LiteNetLib::NetPeer* excludePeer);
     // public System.Void SendToAll(System.Byte[] data, System.Int32 start, System.Int32 length, LiteNetLib.DeliveryMethod options, LiteNetLib.NetPeer excludePeer)
-    // Offset: 0x1DDA7FC
+    // Offset: 0x1DC1260
     void SendToAll(::ArrayW<uint8_t> data, int start, int length, LiteNetLib::DeliveryMethod options, LiteNetLib::NetPeer* excludePeer);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, System.Byte channelNumber, LiteNetLib.DeliveryMethod options, LiteNetLib.NetPeer excludePeer)
-    // Offset: 0x1DDA80C
+    // Offset: 0x1DC1270
     void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, uint8_t channelNumber, LiteNetLib::DeliveryMethod options, LiteNetLib::NetPeer* excludePeer);
     // public System.Void SendToAll(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod options, LiteNetLib.NetPeer excludePeer)
-    // Offset: 0x1DDA83C
+    // Offset: 0x1DC12A0
     void SendToAll(::ArrayW<uint8_t> data, uint8_t channelNumber, LiteNetLib::DeliveryMethod options, LiteNetLib::NetPeer* excludePeer);
     // public System.Void SendToAll(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod options, LiteNetLib.NetPeer excludePeer)
-    // Offset: 0x1DDA6E4
+    // Offset: 0x1DC1148
     void SendToAll(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod options, LiteNetLib::NetPeer* excludePeer);
     // public System.Boolean Start()
-    // Offset: 0x1DDA864
+    // Offset: 0x1DC12C8
     bool Start();
     // public System.Boolean Start(System.Net.IPAddress addressIPv4, System.Net.IPAddress addressIPv6, System.Int32 port)
-    // Offset: 0x1DDA8F0
+    // Offset: 0x1DC1354
     bool Start(System::Net::IPAddress* addressIPv4, System::Net::IPAddress* addressIPv6, int port);
     // public System.Boolean Start(System.String addressIPv4, System.String addressIPv6, System.Int32 port)
-    // Offset: 0x1DDADBC
+    // Offset: 0x1DC1820
     bool Start(::Il2CppString* addressIPv4, ::Il2CppString* addressIPv6, int port);
     // public System.Boolean Start(System.Int32 port)
-    // Offset: 0x1DDA86C
+    // Offset: 0x1DC12D0
     bool Start(int port);
     // public System.Boolean SendUnconnectedMessage(System.Byte[] message, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DDB024
+    // Offset: 0x1DC1A88
     bool SendUnconnectedMessage(::ArrayW<uint8_t> message, System::Net::IPEndPoint* remoteEndPoint);
     // public System.Boolean SendUnconnectedMessage(LiteNetLib.Utils.NetDataWriter writer, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DDB09C
+    // Offset: 0x1DC1B00
     bool SendUnconnectedMessage(LiteNetLib::Utils::NetDataWriter* writer, System::Net::IPEndPoint* remoteEndPoint);
     // public System.Boolean SendUnconnectedMessage(System.Byte[] message, System.Int32 start, System.Int32 length, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1DDB044
+    // Offset: 0x1DC1AA8
     bool SendUnconnectedMessage(::ArrayW<uint8_t> message, int start, int length, System::Net::IPEndPoint* remoteEndPoint);
     // public System.Boolean SendBroadcast(LiteNetLib.Utils.NetDataWriter writer, System.Int32 port)
-    // Offset: 0x1DDB1AC
+    // Offset: 0x1DC1C10
     bool SendBroadcast(LiteNetLib::Utils::NetDataWriter* writer, int port);
     // public System.Boolean SendBroadcast(System.Byte[] data, System.Int32 port)
-    // Offset: 0x1DDB34C
+    // Offset: 0x1DC1DB0
     bool SendBroadcast(::ArrayW<uint8_t> data, int port);
     // public System.Boolean SendBroadcast(System.Byte[] data, System.Int32 start, System.Int32 length, System.Int32 port)
-    // Offset: 0x1DDB1D4
+    // Offset: 0x1DC1C38
     bool SendBroadcast(::ArrayW<uint8_t> data, int start, int length, int port);
     // public System.Void Flush()
-    // Offset: 0x1DDB6DC
+    // Offset: 0x1DC2140
     void Flush();
     // public System.Void PollEvents()
-    // Offset: 0x1DDB920
+    // Offset: 0x1DC2384
     void PollEvents();
     // public LiteNetLib.NetPeer Connect(System.String address, System.Int32 port, System.String key)
-    // Offset: 0x1DDBA98
+    // Offset: 0x1DC24FC
     LiteNetLib::NetPeer* Connect(::Il2CppString* address, int port, ::Il2CppString* key);
     // public LiteNetLib.NetPeer Connect(System.String address, System.Int32 port, LiteNetLib.Utils.NetDataWriter connectionData)
-    // Offset: 0x1DDBB54
+    // Offset: 0x1DC25B8
     LiteNetLib::NetPeer* Connect(::Il2CppString* address, int port, LiteNetLib::Utils::NetDataWriter* connectionData);
     // public LiteNetLib.NetPeer Connect(System.Net.IPEndPoint target, System.String key)
-    // Offset: 0x1DDBE58
+    // Offset: 0x1DC28BC
     LiteNetLib::NetPeer* Connect(System::Net::IPEndPoint* target, ::Il2CppString* key);
     // public LiteNetLib.NetPeer Connect(System.Net.IPEndPoint target, LiteNetLib.Utils.NetDataWriter connectionData)
-    // Offset: 0x1DDBCAC
+    // Offset: 0x1DC2710
     LiteNetLib::NetPeer* Connect(System::Net::IPEndPoint* target, LiteNetLib::Utils::NetDataWriter* connectionData);
     // public System.Void Stop()
-    // Offset: 0x1DDBFAC
+    // Offset: 0x1DC2A10
     void Stop();
     // public System.Void Stop(System.Boolean sendDisconnectMessages)
-    // Offset: 0x1DDBFB4
+    // Offset: 0x1DC2A18
     void Stop(bool sendDisconnectMessages);
     // public System.Int32 GetPeersCount(LiteNetLib.ConnectionState peerState)
-    // Offset: 0x1DDC2CC
+    // Offset: 0x1DC2D30
     int GetPeersCount(LiteNetLib::ConnectionState peerState);
     // public System.Void GetPeersNonAlloc(System.Collections.Generic.List`1<LiteNetLib.NetPeer> peers, LiteNetLib.ConnectionState peerState)
-    // Offset: 0x1DD6738
+    // Offset: 0x1DBD19C
     void GetPeersNonAlloc(System::Collections::Generic::List_1<LiteNetLib::NetPeer*>* peers, LiteNetLib::ConnectionState peerState);
     // public System.Void DisconnectAll()
-    // Offset: 0x1DDC344
+    // Offset: 0x1DC2DA8
     void DisconnectAll();
     // public System.Void DisconnectAll(System.Byte[] data, System.Int32 start, System.Int32 count)
-    // Offset: 0x1DDC354
+    // Offset: 0x1DC2DB8
     void DisconnectAll(::ArrayW<uint8_t> data, int start, int count);
     // public System.Void DisconnectPeerForce(LiteNetLib.NetPeer peer)
-    // Offset: 0x1DDC3F0
+    // Offset: 0x1DC2E54
     void DisconnectPeerForce(LiteNetLib::NetPeer* peer);
     // public System.Void DisconnectPeer(LiteNetLib.NetPeer peer)
-    // Offset: 0x1DDC428
+    // Offset: 0x1DC2E8C
     void DisconnectPeer(LiteNetLib::NetPeer* peer);
     // public System.Void DisconnectPeer(LiteNetLib.NetPeer peer, System.Byte[] data)
-    // Offset: 0x1DDC498
+    // Offset: 0x1DC2EFC
     void DisconnectPeer(LiteNetLib::NetPeer* peer, ::ArrayW<uint8_t> data);
     // public System.Void DisconnectPeer(LiteNetLib.NetPeer peer, LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1DDC4D8
+    // Offset: 0x1DC2F3C
     void DisconnectPeer(LiteNetLib::NetPeer* peer, LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void DisconnectPeer(LiteNetLib.NetPeer peer, System.Byte[] data, System.Int32 start, System.Int32 count)
-    // Offset: 0x1DDC460
+    // Offset: 0x1DC2EC4
     void DisconnectPeer(LiteNetLib::NetPeer* peer, ::ArrayW<uint8_t> data, int start, int count);
     // public LiteNetLib.NetManager/LiteNetLib.NetPeerEnumerator GetEnumerator()
-    // Offset: 0x1DDC518
+    // Offset: 0x1DC2F7C
     LiteNetLib::NetManager::NetPeerEnumerator GetEnumerator();
     // private System.Collections.Generic.IEnumerator`1<LiteNetLib.NetPeer> System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator()
-    // Offset: 0x1DDC548
+    // Offset: 0x1DC2FAC
     System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>* System_Collections_Generic_IEnumerable$LiteNetLib_NetPeer$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1DDC5B0
+    // Offset: 0x1DC3014
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // LiteNetLib.NetManager
   #pragma pack(pop)

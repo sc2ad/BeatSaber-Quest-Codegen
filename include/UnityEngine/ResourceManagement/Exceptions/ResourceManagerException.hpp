@@ -28,7 +28,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   class ResourceManagerException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B625A0
+    // Offset: 0x1B45F64
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -38,7 +38,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1B62608
+    // Offset: 0x1B45FCC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1B62680
+    // Offset: 0x1B46044
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +56,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1B62700
+    // Offset: 0x1B460C4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

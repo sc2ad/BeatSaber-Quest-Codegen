@@ -58,32 +58,32 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: protected UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Search
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Search();
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode head, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode tail)
-    // Offset: 0x25C9350
+    // Offset: 0x25AEDF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFront* New_ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancingFront*, creationType>(head, tail)));
     }
     // public System.Void AddNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x25C938C
+    // Offset: 0x25AEE34
     void AddNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // public System.Void RemoveNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x25C9390
+    // Offset: 0x25AEE38
     void RemoveNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode FindSearchNode(System.Double x)
-    // Offset: 0x25C947C
+    // Offset: 0x25AEF24
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double x);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x25C9484
+    // Offset: 0x25AEF2C
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(System.Double x)
-    // Offset: 0x25C949C
+    // Offset: 0x25AEF44
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double x);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocatePoint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x25C9504
+    // Offset: 0x25AEFAC
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public override System.String ToString()
-    // Offset: 0x25C9394
+    // Offset: 0x25AEE3C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

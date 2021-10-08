@@ -69,26 +69,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private OffsetDirection _offsetDirection
     GlobalNamespace::OffsetDirection& dyn__offsetDirection();
     // public System.Single get_time()
-    // Offset: 0x12A7E90
+    // Offset: 0x12A1D20
     float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x12A7E98
+    // Offset: 0x12A1D28
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x12A7EA0
+    // Offset: 0x12A1D30
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0x12A7EA8
+    // Offset: 0x12A1D38
     GlobalNamespace::OffsetDirection get_offsetDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, OffsetDirection offsetDirection)
-    // Offset: 0x12A7EB0
+    // Offset: 0x12A1D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::WaypointData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::WaypointData*, creationType>(time, lineIndex, lineLayer, offsetDirection)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x12A7F00
+    // Offset: 0x12A1D90
     void MoveTime(float offset);
   }; // BeatmapSaveData/WaypointData
   #pragma pack(pop)

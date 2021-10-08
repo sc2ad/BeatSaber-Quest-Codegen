@@ -50,13 +50,13 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> _handlers
     System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*& dyn__handlers();
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> handlers)
-    // Offset: 0x14F3D34
+    // Offset: 0x14DA6F8
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers);
     // public System.Void OnAnimatorMove()
-    // Offset: 0x14F3D3C
+    // Offset: 0x14DA700
     void OnAnimatorMove();
     // public System.Void .ctor()
-    // Offset: 0x14F3E9C
+    // Offset: 0x14DA860
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

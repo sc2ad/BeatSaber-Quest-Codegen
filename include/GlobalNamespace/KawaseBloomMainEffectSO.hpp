@@ -59,8 +59,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* mainEffectShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEEB6D8
-    // [RangeAttribute] Offset: 0xEEB6D8
+    // [SpaceAttribute] Offset: 0xEEB340
+    // [RangeAttribute] Offset: 0xEEB340
     // private System.Single _bloomIntensity
     // Size: 0x4
     // Offset: 0x30
@@ -85,15 +85,15 @@ namespace GlobalNamespace {
     float bloomAlphaWeights;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xEEB758
+    // [SpaceAttribute] Offset: 0xEEB3C0
     // private System.Int32 _bloomTextureWidth
     // Size: 0x4
     // Offset: 0x40
     int bloomTextureWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0xEEB790
-    // [RangeAttribute] Offset: 0xEEB790
+    // [SpaceAttribute] Offset: 0xEEB3F8
+    // [RangeAttribute] Offset: 0xEEB3F8
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x44
@@ -123,12 +123,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB7F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB458
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB800
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB468
     // Get static field: static private readonly System.Int32 _bloomIntensityID
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
@@ -158,18 +158,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _mainEffectMaterial
     UnityEngine::Material*& dyn__mainEffectMaterial();
     // protected System.Void OnDisable()
-    // Offset: 0x2587214
+    // Offset: 0x256CCBC
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x25870DC
+    // Offset: 0x256CB84
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x25870AC
+    // Offset: 0x256CB54
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x25875F0
+    // Offset: 0x256D098
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -182,22 +182,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBloomMainEffectSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2587620
+    // Offset: 0x256D0C8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x25870B4
+    // Offset: 0x256CB5C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x2587250
+    // Offset: 0x256CCF8
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x258735C
+    // Offset: 0x256CE04
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);

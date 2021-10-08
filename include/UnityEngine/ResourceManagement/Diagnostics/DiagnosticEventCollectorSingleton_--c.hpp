@@ -47,16 +47,16 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static public System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> <>9__11_0
     static void _set_$$9__11_0(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B624CC
+    // Offset: 0x1B45E90
     static void _cctor();
     // System.Int32 <RegisterEventHandler>b__8_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent evt)
-    // Offset: 0x1B62538
+    // Offset: 0x1B45EFC
     int $RegisterEventHandler$b__8_0(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
     // System.Void <Awake>b__11_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1B62540
+    // Offset: 0x1B45F04
     void $Awake$b__11_0(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // public System.Void .ctor()
-    // Offset: 0x1B62530
+    // Offset: 0x1B45EF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

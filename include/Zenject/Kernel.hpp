@@ -47,21 +47,21 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [InjectLocalAttribute] Offset: 0xEC420C
+    // [InjectLocalAttribute] Offset: 0xEC6C2C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x10
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xEC421C
+    // [InjectLocalAttribute] Offset: 0xEC6C3C
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xEC422C
+    // [InjectLocalAttribute] Offset: 0xEC6C4C
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x20
@@ -100,25 +100,25 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DisposableManager _disposablesManager
     Zenject::DisposableManager*& dyn__disposablesManager();
     // public System.Void Initialize()
-    // Offset: 0x1894D3C
+    // Offset: 0x187B700
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x1894D58
+    // Offset: 0x187B71C
     void Dispose();
     // public System.Void LateDispose()
-    // Offset: 0x1894D74
+    // Offset: 0x187B738
     void LateDispose();
     // public System.Void Tick()
-    // Offset: 0x1894D90
+    // Offset: 0x187B754
     void Tick();
     // public System.Void LateTick()
-    // Offset: 0x1894E2C
+    // Offset: 0x187B7F0
     void LateTick();
     // public System.Void FixedTick()
-    // Offset: 0x1894EC8
+    // Offset: 0x187B88C
     void FixedTick();
     // public System.Void .ctor()
-    // Offset: 0x1894F64
+    // Offset: 0x187B928
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

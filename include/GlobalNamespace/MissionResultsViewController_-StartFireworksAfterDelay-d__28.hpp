@@ -70,26 +70,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionResultsViewController <>4__this
     GlobalNamespace::MissionResultsViewController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x118D5C0
+    // Offset: 0x1211E84
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x118D628
+    // Offset: 0x1211EEC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x118D008
+    // Offset: 0x12118CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionResultsViewController::$StartFireworksAfterDelay$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$StartFireworksAfterDelay$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x118D4FC
+    // Offset: 0x1211DC0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x118D500
+    // Offset: 0x1211DC4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x118D5C8
+    // Offset: 0x1211E8C
     void System_Collections_IEnumerator_Reset();
   }; // MissionResultsViewController/<StartFireworksAfterDelay>d__28
   #pragma pack(pop)

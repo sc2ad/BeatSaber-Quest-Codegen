@@ -27,10 +27,10 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageMetadataList : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageMetadataList*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageMetadataList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x16B6FE4
+    // Offset: 0x169B9A8
     Oculus::Platform::Models::CloudStorageMetadataList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x16B30FC
+    // Offset: 0x1697AC0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageMetadataList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageMetadataList GetCloudStorageMetadataList()
-    // Offset: 0x16B6FA0
+    // Offset: 0x169B964
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageMetadataList Message::GetCloudStorageMetadataList()
     Oculus::Platform::Models::CloudStorageMetadataList* GetCloudStorageMetadataList();

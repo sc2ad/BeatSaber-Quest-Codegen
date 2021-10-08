@@ -78,40 +78,40 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String <ReceivedBy>k__BackingField
     ::Il2CppString*& dyn_$ReceivedBy$k__BackingField();
     // public System.String get_Comment()
-    // Offset: 0x1758598
+    // Offset: 0x173BF5C
     ::Il2CppString* get_Comment();
     // private System.Void set_Comment(System.String value)
-    // Offset: 0x17585A0
+    // Offset: 0x173BF64
     void set_Comment(::Il2CppString* value);
     // public System.String get_ProtocolName()
-    // Offset: 0x17585A8
+    // Offset: 0x173BF6C
     ::Il2CppString* get_ProtocolName();
     // private System.Void set_ProtocolName(System.String value)
-    // Offset: 0x17585B0
+    // Offset: 0x173BF74
     void set_ProtocolName(::Il2CppString* value);
     // public System.String get_ProtocolVersion()
-    // Offset: 0x17585B8
+    // Offset: 0x173BF7C
     ::Il2CppString* get_ProtocolVersion();
     // private System.Void set_ProtocolVersion(System.String value)
-    // Offset: 0x17585C0
+    // Offset: 0x173BF84
     void set_ProtocolVersion(::Il2CppString* value);
     // public System.String get_ReceivedBy()
-    // Offset: 0x17585C8
+    // Offset: 0x173BF8C
     ::Il2CppString* get_ReceivedBy();
     // private System.Void set_ReceivedBy(System.String value)
-    // Offset: 0x17585D0
+    // Offset: 0x173BF94
     void set_ReceivedBy(::Il2CppString* value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x17585D8
+    // Offset: 0x173BF9C
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ViaHeaderValue> result)
-    // Offset: 0x17587AC
+    // Offset: 0x173C170
     static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ViaHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ViaHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x175884C
+    // Offset: 0x173C210
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x1758590
+    // Offset: 0x173BF54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,17 +120,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ViaHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17585E0
+    // Offset: 0x173BFA4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17586DC
+    // Offset: 0x173C0A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1758ACC
+    // Offset: 0x173C490
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

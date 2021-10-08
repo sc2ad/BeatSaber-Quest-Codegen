@@ -46,16 +46,16 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x15A0280
+    // Offset: 0x1586C44
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.String get_LocatorId()
-    // Offset: 0x15A0288
+    // Offset: 0x1586C4C
     ::Il2CppString* get_LocatorId();
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x15A002C
+    // Offset: 0x15869F0
     bool Locate(::Il2CppObject* key, System::Type* type, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // public System.Void .ctor()
-    // Offset: 0x15A02D0
+    // Offset: 0x1586C94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

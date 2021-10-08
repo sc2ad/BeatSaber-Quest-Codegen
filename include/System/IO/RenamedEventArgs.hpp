@@ -43,7 +43,7 @@ namespace System::IO {
     // Get instance field reference: private System.String oldFullPath
     ::Il2CppString*& dyn_oldFullPath();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x1A335E8
+    // Offset: 0x1A17FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventArgs::.ctor");

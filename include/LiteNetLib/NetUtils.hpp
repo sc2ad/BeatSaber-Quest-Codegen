@@ -48,34 +48,34 @@ namespace LiteNetLib {
     // Set static field: static private readonly System.Collections.Generic.List`1<System.String> IpList
     static void _set_IpList(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DE078C
+    // Offset: 0x1DC71F0
     static void _cctor();
     // static public System.Net.IPEndPoint MakeEndPoint(System.String hostStr, System.Int32 port)
-    // Offset: 0x1DD4DD0
+    // Offset: 0x1DBB834
     static System::Net::IPEndPoint* MakeEndPoint(::Il2CppString* hostStr, int port);
     // static public System.Net.IPAddress ResolveAddress(System.String hostStr)
-    // Offset: 0x1DDAE5C
+    // Offset: 0x1DC18C0
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr);
     // static private System.Net.IPAddress ResolveAddress(System.String hostStr, System.Net.Sockets.AddressFamily addressFamily)
-    // Offset: 0x1DDFA38
+    // Offset: 0x1DC649C
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr, System::Net::Sockets::AddressFamily addressFamily);
     // static private System.Net.IPAddress[] ResolveAddresses(System.String hostStr)
-    // Offset: 0x1DDFB0C
+    // Offset: 0x1DC6570
     static ::ArrayW<System::Net::IPAddress*> ResolveAddresses(::Il2CppString* hostStr);
     // static public System.Collections.Generic.List`1<System.String> GetLocalIpList(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1DDFB30
+    // Offset: 0x1DC6594
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLocalIpList(LiteNetLib::LocalAddrType addrType);
     // static public System.Void GetLocalIpList(System.Collections.Generic.IList`1<System.String> targetList, LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1DDFBC4
+    // Offset: 0x1DC6628
     static void GetLocalIpList(System::Collections::Generic::IList_1<::Il2CppString*>* targetList, LiteNetLib::LocalAddrType addrType);
     // static public System.String GetLocalIp(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1DD4F98
+    // Offset: 0x1DBB9FC
     static ::Il2CppString* GetLocalIp(LiteNetLib::LocalAddrType addrType);
     // static System.Void PrintInterfaceInfos()
-    // Offset: 0x1DE03B8
+    // Offset: 0x1DC6E1C
     static void PrintInterfaceInfos();
     // static System.Int32 RelativeSequenceNumber(System.Int32 number, System.Int32 expected)
-    // Offset: 0x1DDE6D8
+    // Offset: 0x1DC513C
     static int RelativeSequenceNumber(int number, int expected);
   }; // LiteNetLib.NetUtils
   #pragma pack(pop)

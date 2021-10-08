@@ -169,7 +169,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public DirectionalLight[] _directionalLights
     ::ArrayW<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // public System.Void .ctor()
-    // Offset: 0x1160ECC
+    // Offset: 0x115DC80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

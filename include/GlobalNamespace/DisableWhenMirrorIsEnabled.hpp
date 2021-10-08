@@ -44,22 +44,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private Mirror _mirror
     GlobalNamespace::Mirror*& dyn__mirror();
     // public Mirror get_mirror()
-    // Offset: 0x11A8188
+    // Offset: 0x1162E1C
     GlobalNamespace::Mirror* get_mirror();
     // public System.Void set_mirror(Mirror value)
-    // Offset: 0x11A8190
+    // Offset: 0x1162E24
     void set_mirror(GlobalNamespace::Mirror* value);
     // protected System.Void Start()
-    // Offset: 0x11A8198
+    // Offset: 0x1162E2C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11A8278
+    // Offset: 0x1162F0C
     void OnDestroy();
     // private System.Void HandleMirrorDidChangeEnabledState(System.Boolean isEnabled)
-    // Offset: 0x11A8240
+    // Offset: 0x1162ED4
     void HandleMirrorDidChangeEnabledState(bool isEnabled);
     // public System.Void .ctor()
-    // Offset: 0x11A8354
+    // Offset: 0x1162FE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

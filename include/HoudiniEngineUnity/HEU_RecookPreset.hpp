@@ -56,7 +56,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> _inputPresets
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*& dyn__inputPresets();
     // public System.Void .ctor()
-    // Offset: 0x17D1F74
+    // Offset: 0x17B6938
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

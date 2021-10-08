@@ -99,43 +99,43 @@ namespace Zenject {
     // Set static field: static public System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> <>9__64_0
     static void _set_$$9__64_0(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x182D81C
+    // Offset: 0x18131E0
     static void _cctor();
     // UnityEngine.GameObject <FromComponentsOnRoot>b__33_0(Zenject.InjectContext ctx)
-    // Offset: 0x182D888
+    // Offset: 0x181324C
     UnityEngine::GameObject* $FromComponentsOnRoot$b__33_0(Zenject::InjectContext* ctx);
     // UnityEngine.GameObject <FromComponentOnRoot>b__34_0(Zenject.InjectContext ctx)
-    // Offset: 0x182D8F0
+    // Offset: 0x18132B4
     UnityEngine::GameObject* $FromComponentOnRoot$b__34_0(Zenject::InjectContext* ctx);
     // UnityEngine.GameObject <FromNewComponentOnRoot>b__38_0(Zenject.InjectContext ctx)
-    // Offset: 0x182D958
+    // Offset: 0x181331C
     UnityEngine::GameObject* $FromNewComponentOnRoot$b__38_0(Zenject::InjectContext* ctx);
     // Zenject.IProvider <FromNewComponentOnNewPrefabResource>b__40_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x182D9C0
+    // Offset: 0x1813384
     Zenject::IProvider* $FromNewComponentOnNewPrefabResource$b__40_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromNewComponentOnNewPrefab>b__42_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x182DA30
+    // Offset: 0x18133F4
     Zenject::IProvider* $FromNewComponentOnNewPrefab$b__42_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentInNewPrefab>b__44_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x182DAA0
+    // Offset: 0x1813464
     Zenject::IProvider* $FromComponentInNewPrefab$b__44_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentsInNewPrefab>b__46_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x182DB18
+    // Offset: 0x18134DC
     Zenject::IProvider* $FromComponentsInNewPrefab$b__46_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentInNewPrefabResource>b__48_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x182DB8C
+    // Offset: 0x1813550
     Zenject::IProvider* $FromComponentInNewPrefabResource$b__48_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentsInNewPrefabResource>b__50_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x182DC04
+    // Offset: 0x18135C8
     Zenject::IProvider* $FromComponentsInNewPrefabResource$b__50_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentSibling>b__63_0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0x182DC78
+    // Offset: 0x181363C
     Zenject::IProvider* $FromComponentSibling$b__63_0(Zenject::DiContainer* container, System::Type* concreteType);
     // Zenject.IProvider <FromComponentsSibling>b__64_0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0x182DD50
+    // Offset: 0x1813714
     Zenject::IProvider* $FromComponentsSibling$b__64_0(Zenject::DiContainer* container, System::Type* concreteType);
     // public System.Void .ctor()
-    // Offset: 0x182D880
+    // Offset: 0x1813244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

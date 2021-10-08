@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String referencePlayerId
     ::Il2CppString*& dyn_referencePlayerId();
     // System.Void <GetScores>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0x11193D0
+    // Offset: 0x11007F4
     void $GetScores$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x11191B8
+    // Offset: 0x11005DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

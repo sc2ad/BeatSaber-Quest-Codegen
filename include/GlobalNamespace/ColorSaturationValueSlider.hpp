@@ -87,19 +87,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
     System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorSaturationOrValueDidChangeEvent();
     // public System.Void add_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
-    // Offset: 0x1199BFC
+    // Offset: 0x112E54C
     void add_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
-    // Offset: 0x1199CA4
+    // Offset: 0x112E5F4
     void remove_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void SetHue(System.Single hue)
-    // Offset: 0x1199E64
+    // Offset: 0x112E7B4
     void SetHue(float hue);
     // private System.Void HandleNormalizedValueDidChange(HMUI.Slider2D slider, UnityEngine.Vector2 normalizedValue)
-    // Offset: 0x1199F94
+    // Offset: 0x112E8E4
     void HandleNormalizedValueDidChange(HMUI::Slider2D* slider, UnityEngine::Vector2 normalizedValue);
     // public System.Void .ctor()
-    // Offset: 0x119A0A8
+    // Offset: 0x112E9F8
     // Implemented from: HMUI.Slider2D
     // Base method: System.Void Slider2D::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -115,22 +115,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSaturationValueSlider*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1199D4C
+    // Offset: 0x112E69C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1199DD8
+    // Offset: 0x112E728
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0x1199E78
+    // Offset: 0x112E7C8
     // Implemented from: HMUI.Slider2D
     // Base method: System.Void Slider2D::UpdateVisuals()
     void UpdateVisuals();
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x119A018
+    // Offset: 0x112E968
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);

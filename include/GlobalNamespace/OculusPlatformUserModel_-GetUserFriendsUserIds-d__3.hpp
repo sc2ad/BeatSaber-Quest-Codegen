@@ -85,10 +85,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x111A54C
+    // Offset: 0x1101970
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x111A7EC
+    // Offset: 0x1101C10
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformUserModel/<GetUserFriendsUserIds>d__3
   // WARNING Not writing size check since size may be invalid!

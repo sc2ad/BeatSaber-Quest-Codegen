@@ -74,22 +74,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlatformAchievementsHandler _platformAchievementsHandler
     GlobalNamespace::PlatformAchievementsHandler*& dyn__platformAchievementsHandler();
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0x12B0838
+    // Offset: 0x12C2590
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
     // public System.Void Initialize()
-    // Offset: 0x12B08E0
+    // Offset: 0x12C2638
     void Initialize();
     // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0x12B0868
+    // Offset: 0x12C25C0
     void CreatePlatformAchievementsHandler();
     // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x12B08E4
+    // Offset: 0x12C263C
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x12B0BCC
+    // Offset: 0x12C2924
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0x12B0EC4
+    // Offset: 0x12C2C1C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

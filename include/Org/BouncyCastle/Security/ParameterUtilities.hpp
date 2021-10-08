@@ -37,19 +37,19 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary basicIVSizes
     static void _set_basicIVSizes(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x14D114C
+    // Offset: 0x14B7B10
     static void _cctor();
     // static private System.Void AddAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x14D270C
+    // Offset: 0x14B90D0
     static void AddAlgorithm(::Il2CppString* canonicalName, ::ArrayW<::Il2CppObject*> aliases);
     // static private System.Void AddBasicIVSizeEntries(System.Int32 size, params System.String[] algorithms)
-    // Offset: 0x14D28FC
+    // Offset: 0x14B92C0
     static void AddBasicIVSizeEntries(int size, ::ArrayW<::Il2CppString*> algorithms);
     // static public System.String GetCanonicalAlgorithmName(System.String algorithm)
-    // Offset: 0x14D2A68
+    // Offset: 0x14B942C
     static ::Il2CppString* GetCanonicalAlgorithmName(::Il2CppString* algorithm);
     // static public Org.BouncyCastle.Crypto.Parameters.KeyParameter CreateKeyParameter(System.String algorithm, System.Byte[] keyBytes, System.Int32 offset, System.Int32 length)
-    // Offset: 0x14D2B9C
+    // Offset: 0x14B9560
     static Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::Il2CppString* algorithm, ::ArrayW<uint8_t> keyBytes, int offset, int length);
   }; // Org.BouncyCastle.Security.ParameterUtilities
   #pragma pack(pop)

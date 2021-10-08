@@ -135,31 +135,31 @@ namespace Org::BouncyCastle::Crypto::EC {
     // Set static field: static private readonly System.Collections.IList names
     static void _set_names(System::Collections::IList* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AA2864
+    // Offset: 0x1A87228
     static void _cctor();
     // static private Org.BouncyCastle.Asn1.X9.X9ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, System.String encoding)
-    // Offset: 0x1AA1F98
+    // Offset: 0x1A8695C
     static Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECCurve* curve, ::Il2CppString* encoding);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x1AA2088
+    // Offset: 0x1A86A4C
     static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurveGlv(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters p)
-    // Offset: 0x1AA208C
+    // Offset: 0x1A86A50
     static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
     // static private System.Void DefineCurve(System.String name, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
-    // Offset: 0x1AA2138
+    // Offset: 0x1A86AFC
     static void DefineCurve(::Il2CppString* name, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static private System.Void DefineCurveWithOid(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
-    // Offset: 0x1AA22D8
+    // Offset: 0x1A86C9C
     static void DefineCurveWithOid(::Il2CppString* name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static private System.Void DefineCurveAlias(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1AA25F8
+    // Offset: 0x1A86FBC
     static void DefineCurveAlias(::Il2CppString* name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1AA348C
+    // Offset: 0x1A87E50
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1AA35EC
+    // Offset: 0x1A87FB0
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Crypto.EC.CustomNamedCurves
   #pragma pack(pop)

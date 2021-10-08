@@ -57,16 +57,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action timelinePauseEvent
     System::Action*& dyn_timelinePauseEvent();
     // public System.Void add_timelinePauseEvent(System.Action value)
-    // Offset: 0x259C078
+    // Offset: 0x2580B20
     void add_timelinePauseEvent(System::Action* value);
     // public System.Void remove_timelinePauseEvent(System.Action value)
-    // Offset: 0x259C11C
+    // Offset: 0x2580BC4
     void remove_timelinePauseEvent(System::Action* value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x259C1C0
+    // Offset: 0x2580C68
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x259C260
+    // Offset: 0x2580D08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _negativeBadges
     System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>*& dyn__negativeBadges();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_positiveBadges()
-    // Offset: 0x120BC10
+    // Offset: 0x117E3D0
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* get_positiveBadges();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_negativeBadges()
-    // Offset: 0x120BC18
+    // Offset: 0x117E3D8
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* get_negativeBadges();
     // public System.Void .ctor()
-    // Offset: 0x120BC20
+    // Offset: 0x117E3E0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

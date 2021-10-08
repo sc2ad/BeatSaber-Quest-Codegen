@@ -50,7 +50,7 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Boolean m_observed
     bool& dyn_m_observed();
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x19BA524
+    // Offset: 0x199EEE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");

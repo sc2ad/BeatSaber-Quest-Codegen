@@ -101,37 +101,37 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.UI.Toggle m_Toggle
     UnityEngine::UI::Toggle*& dyn_m_Toggle();
     // public TMPro.TMP_Text get_text()
-    // Offset: 0x11F3BA4
+    // Offset: 0x11F0DD8
     TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0x11F3BAC
+    // Offset: 0x11F0DE0
     void set_text(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x11F3BB4
+    // Offset: 0x11F0DE8
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x11F3BBC
+    // Offset: 0x11F0DF0
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x11F3BC4
+    // Offset: 0x11F0DF8
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x11F3BCC
+    // Offset: 0x11F0E00
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x11F3BD4
+    // Offset: 0x11F0E08
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x11F3BDC
+    // Offset: 0x11F0E10
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11F3BE4
+    // Offset: 0x11F0E18
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x11F3C70
+    // Offset: 0x11F0EA4
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x11F3D14
+    // Offset: 0x11F0F48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

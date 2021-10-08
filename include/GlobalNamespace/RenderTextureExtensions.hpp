@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class RenderTextureExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Texture2D GetTexture2D(UnityEngine.RenderTexture rt)
-    // Offset: 0x138CDEC
+    // Offset: 0x13717B0
     static UnityEngine::Texture2D* GetTexture2D(UnityEngine::RenderTexture* rt);
   }; // RenderTextureExtensions
   #pragma pack(pop)

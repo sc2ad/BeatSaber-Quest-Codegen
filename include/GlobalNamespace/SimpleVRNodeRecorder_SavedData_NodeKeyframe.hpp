@@ -95,13 +95,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single time
     float& dyn_time();
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0x1107E4C
+    // Offset: 0x1144EBC
     UnityEngine::Vector3 get_pos();
     // public UnityEngine.Quaternion get_rot()
-    // Offset: 0x1107E88
+    // Offset: 0x1144EF8
     UnityEngine::Quaternion get_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Single time)
-    // Offset: 0x11078CC
+    // Offset: 0x114493C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");

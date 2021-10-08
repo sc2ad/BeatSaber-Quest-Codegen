@@ -33,13 +33,13 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.Asn1.Asn1Null derNull
     static void _set_derNull(Org::BouncyCastle::Asn1::Asn1Null* value);
     // static private System.Void .cctor()
-    // Offset: 0x218939C
+    // Offset: 0x2172E00
     static void _cctor();
     // static System.String GetSignatureName(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId)
-    // Offset: 0x2184880
+    // Offset: 0x216E2E4
     static ::Il2CppString* GetSignatureName(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
     // static private System.String GetDigestAlgName(Org.BouncyCastle.Asn1.DerObjectIdentifier digestAlgOID)
-    // Offset: 0x218907C
+    // Offset: 0x2172AE0
     static ::Il2CppString* GetDigestAlgName(Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
   }; // Org.BouncyCastle.X509.X509SignatureUtilities
   #pragma pack(pop)

@@ -70,26 +70,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public SongPreviewPlayer <>4__this
     GlobalNamespace::SongPreviewPlayer*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x110CAB8
+    // Offset: 0x1149A70
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x110CB20
+    // Offset: 0x1149AD8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x110C088
+    // Offset: 0x1149040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x110CA04
+    // Offset: 0x11499BC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x110CA08
+    // Offset: 0x11499C0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x110CAC0
+    // Offset: 0x1149A78
     void System_Collections_IEnumerator_Reset();
   }; // SongPreviewPlayer/<CrossFadeAfterDelayCoroutine>d__27
   #pragma pack(pop)

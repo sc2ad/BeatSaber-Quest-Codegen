@@ -27,10 +27,10 @@ namespace Zenject {
   class LateTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::ILateTickable*> {
     public:
     // protected System.Void UpdateItem(Zenject.ILateTickable task)
-    // Offset: 0x1894F6C
+    // Offset: 0x187B930
     void UpdateItem(Zenject::ILateTickable* task);
     // public System.Void .ctor()
-    // Offset: 0x1895018
+    // Offset: 0x187B9DC
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
     // Base method: System.Void Object::.ctor()

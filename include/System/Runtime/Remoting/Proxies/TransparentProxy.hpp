@@ -71,25 +71,25 @@ namespace System::Runtime::Remoting::Proxies {
     // Get instance field reference: private System.Boolean _custom_type_info
     bool& dyn__custom_type_info();
     // private System.Boolean get_IsContextBoundObject()
-    // Offset: 0x1C24D04
+    // Offset: 0x1C086C8
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
-    // Offset: 0x1C24D24
+    // Offset: 0x1C086E8
     System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // System.RuntimeType GetProxyType()
-    // Offset: 0x1C24C30
+    // Offset: 0x1C085F4
     System::RuntimeType* GetProxyType();
     // private System.Boolean InCurrentContext()
-    // Offset: 0x1C24D40
+    // Offset: 0x1C08704
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
-    // Offset: 0x1C24D8C
+    // Offset: 0x1C08750
     ::Il2CppObject* LoadRemoteFieldNew(System::IntPtr classPtr, System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
-    // Offset: 0x1C25038
+    // Offset: 0x1C089FC
     void StoreRemoteField(System::IntPtr classPtr, System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
-    // Offset: 0x1C252E4
+    // Offset: 0x1C08CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -70,42 +70,42 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0C060
+    // [InjectAttribute] Offset: 0xF0BCE8
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0C070
+    // [InjectAttribute] Offset: 0xF0BCF8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0C080
+    // [InjectAttribute] Offset: 0xF0BD08
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicSpectrogramData*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0C090
+    // [InjectAttribute] Offset: 0xF0BD18
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0C0A0
+    // [InjectAttribute] Offset: 0xF0BD28
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF0C0B0
+    // [InjectOptionalAttribute] Offset: 0xF0BD38
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x40
@@ -132,64 +132,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IDifficultyBeatmap _difficultyBeatmap
     GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x11E4314
+    // Offset: 0x11B6DD8
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // public System.Single get_songTime()
-    // Offset: 0x11E431C
+    // Offset: 0x11B6DE0
     float get_songTime();
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x11E4338
+    // Offset: 0x11B6DFC
     float get_lastFrameDeltaSongTime();
     // public System.Single get_songEndTime()
-    // Offset: 0x11E4354
+    // Offset: 0x11B6E18
     float get_songEndTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x11E4370
+    // Offset: 0x11B6E34
     bool get_isReady();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x11E438C
+    // Offset: 0x11B6E50
     bool get_isInitialized();
     // public System.Single get_moveDuration()
-    // Offset: 0x11E43A8
+    // Offset: 0x11B6E6C
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x11E43C4
+    // Offset: 0x11B6E88
     float get_jumpDuration();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x11E4418
+    // Offset: 0x11B6EDC
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // public Saber get_leftSaber()
-    // Offset: 0x11E4434
+    // Offset: 0x11B6EF8
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0x11E4450
+    // Offset: 0x11B6F14
     GlobalNamespace::Saber* get_rightSaber();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x11E43E0
+    // Offset: 0x11B6EA4
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x11E43FC
+    // Offset: 0x11B6EC0
     void remove_didInitEvent(System::Action* value);
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x11E446C
+    // Offset: 0x11B6F30
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x11E452C
+    // Offset: 0x11B6FF0
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0x11E45F0
+    // Offset: 0x11B70B4
     GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackData callbackData)
-    // Offset: 0x11E46C4
+    // Offset: 0x11B7188
     void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
     // public BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x11E4788
+    // Offset: 0x11B724C
     GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapEventCallbackData callbackData)
-    // Offset: 0x11E485C
+    // Offset: 0x11B7320
     void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapEventCallbackData* callbackData);
     // public System.Void .ctor()
-    // Offset: 0x11E4920
+    // Offset: 0x11B73E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

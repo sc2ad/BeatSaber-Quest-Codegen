@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFF4A0
+    // [InjectAttribute] Offset: 0xEFF108
     // private readonly MainMenuViewController _mainMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -55,22 +55,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MainMenuViewController _mainMenuViewController
     GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
     // protected System.Void Start()
-    // Offset: 0x1241860
+    // Offset: 0x26163E0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x124191C
+    // Offset: 0x261649C
     void OnDestroy();
     // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController mainMenuViewController, MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x12419F8
+    // Offset: 0x2616578
     void HandleMainMenuViewControllerDidFinish(GlobalNamespace::MainMenuViewController* mainMenuViewController, GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void StartFireworks()
-    // Offset: 0x12418FC
+    // Offset: 0x261647C
     void StartFireworks();
     // private System.Void StopFireworks()
-    // Offset: 0x12419FC
+    // Offset: 0x261657C
     void StopFireworks();
     // public System.Void .ctor()
-    // Offset: 0x1241A1C
+    // Offset: 0x261659C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

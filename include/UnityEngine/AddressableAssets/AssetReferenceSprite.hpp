@@ -27,7 +27,7 @@ namespace UnityEngine::AddressableAssets {
   class AssetReferenceSprite : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite*> {
     public:
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x1599550
+    // Offset: 0x157FF14
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)
@@ -37,7 +37,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceSprite*, creationType>(guid)));
     }
     // public override System.Boolean ValidateAsset(System.String path)
-    // Offset: 0x15995B0
+    // Offset: 0x157FF74
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Boolean AssetReferenceT_1::ValidateAsset(System.String path)
     bool ValidateAsset(::Il2CppString* path);

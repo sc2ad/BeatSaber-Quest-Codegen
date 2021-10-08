@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF080F8
+    // [InjectAttribute] Offset: 0xF07D60
     // private SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x48
@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberActivityCounter _saberActivityCounter
     GlobalNamespace::SaberActivityCounter*& dyn__saberActivityCounter();
     // protected System.Void OnDestroy()
-    // Offset: 0x11440DC
+    // Offset: 0x11D82E8
     void OnDestroy();
     // private System.Void HandleTotalDistanceDidChange(System.Single distance)
-    // Offset: 0x11441B8
+    // Offset: 0x11D83C4
     void HandleTotalDistanceDidChange(float distance);
     // public System.Void .ctor()
-    // Offset: 0x11442C4
+    // Offset: 0x11D84D0
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HandsMovementMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x1144200
+    // Offset: 0x11D840C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

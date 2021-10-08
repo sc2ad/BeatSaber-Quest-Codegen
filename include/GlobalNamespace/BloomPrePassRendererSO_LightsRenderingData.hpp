@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector4[] viewPos
     ::ArrayW<UnityEngine::Vector4>& dyn_viewPos();
     // public System.Void .ctor()
-    // Offset: 0x1E24980
+    // Offset: 0x1E0C3E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -41,20 +41,20 @@ namespace Polyglot {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEE52CC
+    // [TooltipAttribute] Offset: 0xEE4CEC
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T localizedComponent;
-    // [TooltipAttribute] Offset: 0xEE5318
+    // [TooltipAttribute] Offset: 0xEE4D38
     // private System.Boolean maintainTextAlignment
     // Size: 0x1
     // Offset: 0x0
     bool maintainTextAlignment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xEE5364
-    // [LocalizationKeyAttribute] Offset: 0xEE5364
+    // [TooltipAttribute] Offset: 0xEE4D84
+    // [LocalizationKeyAttribute] Offset: 0xEE4D84
     // private System.String key
     // Size: 0x8
     // Offset: 0x0

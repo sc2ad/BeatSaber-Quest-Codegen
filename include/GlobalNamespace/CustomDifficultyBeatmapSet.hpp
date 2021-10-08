@@ -59,20 +59,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private CustomDifficultyBeatmap[] _difficultyBeatmaps
     ::ArrayW<GlobalNamespace::CustomDifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x11A1998
+    // Offset: 0x11362EC
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x11A19A0
+    // Offset: 0x11362F4
     ::ArrayW<GlobalNamespace::IDifficultyBeatmap*> get_difficultyBeatmaps();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x11A19A8
+    // Offset: 0x11362FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomDifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomDifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomDifficultyBeatmapSet*, creationType>(beatmapCharacteristic)));
     }
     // public System.Void SetCustomDifficultyBeatmaps(CustomDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x11A19D4
+    // Offset: 0x1136328
     void SetCustomDifficultyBeatmaps(::ArrayW<GlobalNamespace::CustomDifficultyBeatmap*> difficultyBeatmaps);
   }; // CustomDifficultyBeatmapSet
   #pragma pack(pop)

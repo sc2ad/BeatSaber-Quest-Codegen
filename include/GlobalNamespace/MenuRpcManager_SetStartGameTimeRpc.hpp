@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetStartGameTimeRpc : public GlobalNamespace::RemoteProcedureCall_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18C8E7C
+    // Offset: 0x18AF840
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

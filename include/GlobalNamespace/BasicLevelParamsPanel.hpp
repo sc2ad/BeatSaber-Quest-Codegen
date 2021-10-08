@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _bpmText
     TMPro::TextMeshProUGUI*& dyn__bpmText();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x126D42C
+    // Offset: 0x123BD80
     void set_duration(float value);
     // public System.Void set_bpm(System.Single value)
-    // Offset: 0x126D464
+    // Offset: 0x123BDB8
     void set_bpm(float value);
     // public System.Void .ctor()
-    // Offset: 0x126D4A8
+    // Offset: 0x123BDFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

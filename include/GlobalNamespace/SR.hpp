@@ -15,10 +15,10 @@ namespace GlobalNamespace {
   class SR : public ::Il2CppObject {
     public:
     // static System.String Format(System.String resourceFormat, System.Object p1)
-    // Offset: 0x1C5A180
+    // Offset: 0x1C3CB44
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1);
     // static System.String Format(System.String resourceFormat, System.Object p1, System.Object p2)
-    // Offset: 0x1C5A200
+    // Offset: 0x1C3CBC4
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
   }; // SR
   #pragma pack(pop)

@@ -40,7 +40,7 @@ namespace UnityEngine::Events {
     #else
     protected:
     #endif
-    // [FormerlySerializedAsAttribute] Offset: 0xE76A40
+    // [FormerlySerializedAsAttribute] Offset: 0xE79460
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -55,13 +55,13 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
     // public System.Int32 get_Count()
-    // Offset: 0x1CBA33C
+    // Offset: 0x1C9CD00
     int get_Count();
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x1CBA38C
+    // Offset: 0x1C9CD50
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
-    // Offset: 0x1CBA2C8
+    // Offset: 0x1C9CC8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

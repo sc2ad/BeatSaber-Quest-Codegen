@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   class Base64 : public ::Il2CppObject {
     public:
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x2180F1C
+    // Offset: 0x216A980
     static ::ArrayW<uint8_t> Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
   #pragma pack(pop)

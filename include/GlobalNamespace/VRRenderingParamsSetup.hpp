@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::VRRenderingParamsSetup::SceneType) == 0x4);
     // Padding between fields: sceneType and: vrPlatformHelper
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xEEBE98
+    // [InjectAttribute] Offset: 0xEEBB00
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -139,10 +139,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
     GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void OnEnable()
-    // Offset: 0x258BB08
+    // Offset: 0x25715B0
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x258BE08
+    // Offset: 0x25718B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

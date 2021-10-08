@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _activateOnFalse
     bool& dyn__activateOnFalse();
     // protected System.Void Awake()
-    // Offset: 0x119D948
+    // Offset: 0x113229C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x119D9D4
+    // Offset: 0x1132328
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

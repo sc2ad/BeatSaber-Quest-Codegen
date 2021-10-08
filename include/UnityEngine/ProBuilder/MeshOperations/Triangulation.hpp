@@ -52,25 +52,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private UnityEngine.ProBuilder.Poly2Tri.TriangulationContext s_TriangulationContext
     static void _set_s_TriangulationContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
     // static private UnityEngine.ProBuilder.Poly2Tri.TriangulationContext get_triangulationContext()
-    // Offset: 0x18FDE78
+    // Offset: 0x18E483C
     static UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* get_triangulationContext();
     // static public System.Boolean SortAndTriangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, out System.Collections.Generic.List`1<System.Int32> indexes, System.Boolean convex)
-    // Offset: 0x18FDF00
+    // Offset: 0x18E48C4
     static bool SortAndTriangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, ByRef<System::Collections::Generic::List_1<int>*> indexes, bool convex);
     // static public System.Boolean TriangulateVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, out System.Collections.Generic.List`1<System.Int32> triangles, System.Boolean unordered, System.Boolean convex)
-    // Offset: 0x18FEB74
+    // Offset: 0x18E5538
     static bool TriangulateVertices(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, bool unordered, bool convex);
     // static public System.Boolean TriangulateVertices(UnityEngine.Vector3[] vertices, out System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Vector3[][] holes)
-    // Offset: 0x18FEEC8
+    // Offset: 0x18E588C
     static bool TriangulateVertices(::ArrayW<UnityEngine::Vector3> vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, ::ArrayW<::ArrayW<UnityEngine::Vector3>> holes);
     // static public System.Boolean TriangulateVertices(UnityEngine.Vector3[] vertices, out System.Collections.Generic.List`1<System.Int32> triangles, System.Boolean unordered, System.Boolean convex)
-    // Offset: 0x18FED98
+    // Offset: 0x18E575C
     static bool TriangulateVertices(::ArrayW<UnityEngine::Vector3> vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, bool unordered, bool convex);
     // static public System.Boolean Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, out System.Collections.Generic.List`1<System.Int32> indexes, System.Boolean convex)
-    // Offset: 0x18FE1CC
+    // Offset: 0x18E4B90
     static bool Triangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, ByRef<System::Collections::Generic::List_1<int>*> indexes, bool convex);
     // static public System.Boolean Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector2>> holes, out System.Collections.Generic.List`1<System.Int32> indexes)
-    // Offset: 0x18FF084
+    // Offset: 0x18E5A48
     static bool Triangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>* holes, ByRef<System::Collections::Generic::List_1<int>*> indexes);
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation
   #pragma pack(pop)

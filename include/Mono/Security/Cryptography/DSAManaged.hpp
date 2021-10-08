@@ -121,7 +121,7 @@ namespace Mono::Security::Cryptography {
     System::Security::Cryptography::RandomNumberGenerator* rng;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE62914
+    // [CompilerGeneratedAttribute] Offset: 0xE65334
     // private Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
     // Size: 0x8
     // Offset: 0x70
@@ -156,66 +156,66 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
     Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*& dyn_KeyGenerated();
     // private System.Security.Cryptography.RandomNumberGenerator get_Random()
-    // Offset: 0x1C44D4C
+    // Offset: 0x1C27710
     System::Security::Cryptography::RandomNumberGenerator* get_Random();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x1C44DA4
+    // Offset: 0x1C27768
     bool get_PublicOnly();
     // public System.Void add_KeyGenerated(Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler value)
-    // Offset: 0x1C45B7C
+    // Offset: 0x1C28540
     void add_KeyGenerated(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // public System.Void remove_KeyGenerated(Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler value)
-    // Offset: 0x1C45C20
+    // Offset: 0x1C285E4
     void remove_KeyGenerated(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // public System.Void .ctor(System.Int32 dwKeySize)
-    // Offset: 0x1C44030
+    // Offset: 0x1C269F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSAManaged* New_ctor(int dwKeySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::DSAManaged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSAManaged*, creationType>(dwKeySize)));
     }
     // private System.Void Generate()
-    // Offset: 0x1C44188
+    // Offset: 0x1C26B4C
     void Generate();
     // private System.Void GenerateKeyPair()
-    // Offset: 0x1C4479C
+    // Offset: 0x1C27160
     void GenerateKeyPair();
     // private System.Void add(System.Byte[] a, System.Byte[] b, System.Int32 value)
-    // Offset: 0x1C44C98
+    // Offset: 0x1C2765C
     void add(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b, int value);
     // private System.Void GenerateParams(System.Int32 keyLength)
-    // Offset: 0x1C441D8
+    // Offset: 0x1C26B9C
     void GenerateParams(int keyLength);
     // private System.Byte[] NormalizeArray(System.Byte[] array)
-    // Offset: 0x1C44E2C
+    // Offset: 0x1C277F0
     ::ArrayW<uint8_t> NormalizeArray(::ArrayW<uint8_t> array);
     // public override System.Int32 get_KeySize()
-    // Offset: 0x1C44D78
+    // Offset: 0x1C2773C
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Int32 AsymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // protected override System.Void Finalize()
-    // Offset: 0x1C44114
+    // Offset: 0x1C26AD8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x1C44EE0
+    // Offset: 0x1C278A4
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Security.Cryptography.DSAParameters DSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.DSAParameters parameters)
-    // Offset: 0x1C45188
+    // Offset: 0x1C27B4C
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Void DSA::ImportParameters(System.Security.Cryptography.DSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::DSAParameters parameters);
     // public override System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    // Offset: 0x1C4545C
+    // Offset: 0x1C27E20
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Boolean DSA::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1C45934
+    // Offset: 0x1C282F8
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

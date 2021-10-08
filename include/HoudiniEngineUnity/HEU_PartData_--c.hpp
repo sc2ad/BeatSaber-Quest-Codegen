@@ -40,13 +40,13 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<UnityEngine.LOD> <>9__85_0
     static void _set_$$9__85_0(System::Comparison_1<UnityEngine::LOD>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17B2F80
+    // Offset: 0x1796944
     static void _cctor();
     // System.Int32 <CopyGameObjectComponents>b__85_0(UnityEngine.LOD a, UnityEngine.LOD b)
-    // Offset: 0x17B2FEC
+    // Offset: 0x17969B0
     int $CopyGameObjectComponents$b__85_0(UnityEngine::LOD a, UnityEngine::LOD b);
     // public System.Void .ctor()
-    // Offset: 0x17B2FE4
+    // Offset: 0x17969A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

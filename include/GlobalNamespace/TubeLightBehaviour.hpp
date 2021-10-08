@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startColor
     char __padding0[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xF14870
+    // [DrawIfAttribute] Offset: 0xF14518
     // public ColorSO startColor
     // Size: 0x8
     // Offset: 0x18
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _firstFrameColor
     UnityEngine::Color& dyn__firstFrameColor();
     // public System.Void .ctor()
-    // Offset: 0x1163744
+    // Offset: 0x11604F8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -147,12 +147,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightBehaviour*, creationType>()));
     }
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x11632C0
+    // Offset: 0x1160074
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1163664
+    // Offset: 0x1160418
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);

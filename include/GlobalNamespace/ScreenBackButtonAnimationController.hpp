@@ -136,13 +136,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*& dyn__animationHashes();
     // protected System.Void Awake()
-    // Offset: 0x25B4948
+    // Offset: 0x25993F0
     void Awake();
     // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
-    // Offset: 0x25B4968
+    // Offset: 0x2599410
     void StartAnimation(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
     // public System.Void .ctor()
-    // Offset: 0x25B49E8
+    // Offset: 0x2599490
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

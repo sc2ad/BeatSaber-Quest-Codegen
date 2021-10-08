@@ -64,10 +64,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
     UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstancedInput other)
-    // Offset: 0x152AC58
+    // Offset: 0x151261C
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_InstancedInput* other);
     // public System.Void .ctor()
-    // Offset: 0x152ADB4
+    // Offset: 0x1512778
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

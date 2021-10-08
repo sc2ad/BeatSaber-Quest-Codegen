@@ -540,10 +540,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodThrow<TSource, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, index);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> Range(System.Int32 start, System.Int32 count)
-    // Offset: 0x25C1014
+    // Offset: 0x25A5ABC
     static System::Collections::Generic::IEnumerable_1<int>* Range(int start, int count);
     // static private System.Collections.Generic.IEnumerable`1<System.Int32> RangeIterator(System.Int32 start, System.Int32 count)
-    // Offset: 0x25C1104
+    // Offset: 0x25A5BAC
     static System::Collections::Generic::IEnumerable_1<int>* RangeIterator(int start, int count);
     // static public System.Collections.Generic.IEnumerable`1<TResult> Repeat(TResult element, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -654,7 +654,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodThrow<TAccumulate, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, seed, func);
     }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x25C11CC
+    // Offset: 0x25A5C74
     static int Sum(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
@@ -666,13 +666,13 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x25C14C0
+    // Offset: 0x25A5F68
     static float Min(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x25C17F0
+    // Offset: 0x25A6298
     static int Max(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x25C1A8C
+    // Offset: 0x25A6534
     static float Max(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF

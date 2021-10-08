@@ -46,13 +46,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Rendering.IndexFormat _indexFormat
     UnityEngine::Rendering::IndexFormat& dyn__indexFormat();
     // public System.Void CalculateIndexFormat(System.Int32 numVertices)
-    // Offset: 0x152F034
+    // Offset: 0x15169F8
     void CalculateIndexFormat(int numVertices);
     // public System.Void SetFormatForMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x152F0BC
+    // Offset: 0x1516A80
     void SetFormatForMesh(UnityEngine::Mesh* mesh);
     // public System.Void .ctor()
-    // Offset: 0x152F0E0
+    // Offset: 0x1516AA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

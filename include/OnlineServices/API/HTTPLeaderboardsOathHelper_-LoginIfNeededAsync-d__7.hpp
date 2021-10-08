@@ -86,10 +86,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatSaberAPI.DataTransferObjects.AccessToken> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::AccessToken*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x111E76C
+    // Offset: 0x1105B90
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x111E928
+    // Offset: 0x1105D4C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<LoginIfNeededAsync>d__7
   // WARNING Not writing size check since size may be invalid!

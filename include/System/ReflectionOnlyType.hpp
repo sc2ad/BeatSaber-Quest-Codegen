@@ -27,12 +27,12 @@ namespace System {
   class ReflectionOnlyType : public System::RuntimeType {
     public:
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x15A5018
+    // Offset: 0x158A9DC
     // Implemented from: System.RuntimeType
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();
     // private System.Void .ctor()
-    // Offset: 0x15A4FB0
+    // Offset: 0x158A974
     // Implemented from: System.RuntimeType
     // Base method: System.Void RuntimeType::.ctor()
     // Base method: System.Void TypeInfo::.ctor()

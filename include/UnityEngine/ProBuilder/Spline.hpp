@@ -34,22 +34,22 @@ namespace UnityEngine::ProBuilder {
   class Spline : public ::Il2CppObject {
     public:
     // static UnityEngine.ProBuilder.ProBuilderMesh Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> points, System.Single radius, System.Int32 columns, System.Int32 rows, System.Boolean closeLoop, System.Boolean smooth)
-    // Offset: 0x24EE190
+    // Offset: 0x24D4BF4
     static UnityEngine::ProBuilder::ProBuilderMesh* Extrude(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* points, float radius, int columns, int rows, bool closeLoop, bool smooth);
     // static System.Void Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> bezierPoints, System.Single radius, System.Int32 columns, System.Int32 rows, System.Boolean closeLoop, System.Boolean smooth, ref UnityEngine.ProBuilder.ProBuilderMesh target)
-    // Offset: 0x24EE1C0
+    // Offset: 0x24D4C24
     static void Extrude(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float radius, int columns, int rows, bool closeLoop, bool smooth, ByRef<UnityEngine::ProBuilder::ProBuilderMesh*> target);
     // static System.Collections.Generic.List`1<UnityEngine.Vector3> GetControlPoints(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> bezierPoints, System.Int32 subdivisionsPerSegment, System.Boolean closeLoop, System.Collections.Generic.List`1<UnityEngine.Quaternion> rotations)
-    // Offset: 0x24EE28C
+    // Offset: 0x24D4CF0
     static System::Collections::Generic::List_1<UnityEngine::Vector3>* GetControlPoints(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* bezierPoints, int subdivisionsPerSegment, bool closeLoop, System::Collections::Generic::List_1<UnityEngine::Quaternion>* rotations);
     // static System.Void Extrude(System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Single radius, System.Int32 radiusRows, System.Boolean closeLoop, System.Boolean smooth, ref UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IList`1<UnityEngine.Quaternion> pointRotations)
-    // Offset: 0x24EE720
+    // Offset: 0x24D5184
     static void Extrude(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, float radius, int radiusRows, bool closeLoop, bool smooth, ByRef<UnityEngine::ProBuilder::ProBuilderMesh*> target, System::Collections::Generic::IList_1<UnityEngine::Quaternion>* pointRotations);
     // static private UnityEngine.Quaternion GetRingRotation(System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Int32 i, System.Boolean closeLoop, out System.Single secant)
-    // Offset: 0x24EF000
+    // Offset: 0x24D5A64
     static UnityEngine::Quaternion GetRingRotation(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, int i, bool closeLoop, ByRef<float> secant);
     // static private UnityEngine.Vector3[] VertexRing(UnityEngine.Quaternion orientation, UnityEngine.Vector3 offset, System.Single radius, System.Int32 segments)
-    // Offset: 0x24EF738
+    // Offset: 0x24D619C
     static ::ArrayW<UnityEngine::Vector3> VertexRing(UnityEngine::Quaternion orientation, UnityEngine::Vector3 offset, float radius, int segments);
   }; // UnityEngine.ProBuilder.Spline
   #pragma pack(pop)

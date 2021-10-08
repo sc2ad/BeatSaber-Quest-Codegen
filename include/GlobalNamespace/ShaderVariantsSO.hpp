@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [ReorderableAttribute] Offset: 0xEEBC40
+    // [ReorderableAttribute] Offset: 0xEEB8A8
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     // Size: 0x8
     // Offset: 0x18
@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     ::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>& dyn__shaderVariants();
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
-    // Offset: 0x258B570
+    // Offset: 0x2571018
     ::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> get_shaderVariants();
     // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
-    // Offset: 0x258B578
+    // Offset: 0x2571020
     void Init(::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants);
     // public System.Void .ctor()
-    // Offset: 0x258B580
+    // Offset: 0x2571028
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

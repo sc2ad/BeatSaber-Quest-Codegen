@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x1E2FF28
+    // Offset: 0x1E1798C
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E2FF30
+    // Offset: 0x1E17994
     void set_intensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1E2FF38
+    // Offset: 0x1E1799C
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()

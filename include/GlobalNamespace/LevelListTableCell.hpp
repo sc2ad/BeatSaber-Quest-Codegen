@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0CDAC
+    // [SpaceAttribute] Offset: 0xF0CA34
     // private UnityEngine.UI.Image _coverImage
     // Size: 0x8
     // Offset: 0x60
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* songBpmText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0CE34
+    // [SpaceAttribute] Offset: 0xF0CABC
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x90
@@ -204,19 +204,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _settingDataFromLevelId
     ::Il2CppString*& dyn__settingDataFromLevelId();
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0x1309E8C
+    // Offset: 0x12A8604
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1309F64
+    // Offset: 0x12A86DC
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0x130A080
+    // Offset: 0x12A87F8
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::Il2CppString* levelID);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x130A03C
+    // Offset: 0x12A87B4
     void CancelAsyncOperations();
     // public System.Void .ctor()
-    // Offset: 0x130A150
+    // Offset: 0x12A88C8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -232,17 +232,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelListTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1309F60
+    // Offset: 0x12A86D8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x130A034
+    // Offset: 0x12A87AC
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x130A038
+    // Offset: 0x12A87B0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();

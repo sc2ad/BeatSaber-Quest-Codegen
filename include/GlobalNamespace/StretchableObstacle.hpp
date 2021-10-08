@@ -70,8 +70,8 @@ namespace GlobalNamespace {
     float obstacleCoreLerpToWhiteFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xF05190
-    // [NullAllowed] Offset: 0xF05190
+    // [SpaceAttribute] Offset: 0xF04DF8
+    // [NullAllowed] Offset: 0xF04DF8
     // private UnityEngine.Transform _obstacleCore
     // Size: 0x8
     // Offset: 0x28
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ParametricBoxFrameController* obstacleFrame;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ParametricBoxFrameController*) == 0x8);
-    // [NullAllowed] Offset: 0xF051F8
+    // [NullAllowed] Offset: 0xF04E60
     // private ParametricBoxFakeGlowController _obstacleFakeGlow
     // Size: 0x8
     // Offset: 0x40
@@ -106,17 +106,17 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF05230
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04E98
     // Get static field: static private readonly System.Int32 _uvScaleID
     static int _get__uvScaleID();
     // Set static field: static private readonly System.Int32 _uvScaleID
     static void _set__uvScaleID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF05240
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04EA8
     // Get static field: static private readonly System.Int32 _tintColorID
     static int _get__tintColorID();
     // Set static field: static private readonly System.Int32 _tintColorID
     static void _set__tintColorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF05250
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04EB8
     // Get static field: static private readonly System.Int32 _addColorID
     static int _get__addColorID();
     // Set static field: static private readonly System.Int32 _addColorID
@@ -140,16 +140,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Bounds _bounds
     UnityEngine::Bounds& dyn__bounds();
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x115BB30
+    // Offset: 0x1158B50
     UnityEngine::Bounds get_bounds();
     // public System.Void SetSizeAndColor(System.Single width, System.Single height, System.Single length, UnityEngine.Color color)
-    // Offset: 0x115BB44
+    // Offset: 0x1158B64
     void SetSizeAndColor(float width, float height, float length, UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0x115C020
+    // Offset: 0x1159040
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x115C0A8
+    // Offset: 0x11590C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StretchableObstacle*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x115C0BC
+    // Offset: 0x11590DC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

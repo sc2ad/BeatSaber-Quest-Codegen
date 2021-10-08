@@ -78,26 +78,26 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1834D6C
+    // Offset: 0x181A730
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1834D74
+    // Offset: 0x181A738
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type instanceType, System.Object instance, Zenject.DiContainer container)
-    // Offset: 0x1829924
+    // Offset: 0x180F2E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceProvider* New_ctor(System::Type* instanceType, ::Il2CppObject* instance, Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InstanceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceProvider*, creationType>(instanceType, instance, container)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1834D7C
+    // Offset: 0x181A740
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1834D84
+    // Offset: 0x181A748
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private System.Void <GetAllInstancesWithInjectSplit>b__9_0()
-    // Offset: 0x1834E9C
+    // Offset: 0x181A860
     void $GetAllInstancesWithInjectSplit$b__9_0();
   }; // Zenject.InstanceProvider
   #pragma pack(pop)

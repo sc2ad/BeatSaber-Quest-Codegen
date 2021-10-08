@@ -33,10 +33,10 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalKeys
     static void _set_InternalKeys(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1C196CC
+    // Offset: 0x1BFD090
     static void _cctor();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage message)
-    // Offset: 0x1C19640
+    // Offset: 0x1BFD004
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

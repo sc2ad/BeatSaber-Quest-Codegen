@@ -207,21 +207,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MusicPackPromoBanner*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10A80
+    // [InjectAttribute] Offset: 0xF10708
     // private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10A90
+    // [InjectAttribute] Offset: 0xF10718
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10AA0
+    // [InjectAttribute] Offset: 0xF10728
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xD0
@@ -272,49 +272,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
     System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*& dyn_musicPackPromoButtonWasPressedEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x1260C1C
+    // Offset: 0x125A608
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x1261400
+    // Offset: 0x125ADEC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void add_musicPackPromoButtonWasPressedEvent(System.Action`1<IBeatmapLevelPack> value)
-    // Offset: 0x1260CC0
+    // Offset: 0x125A6AC
     void add_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void remove_musicPackPromoButtonWasPressedEvent(System.Action`1<IBeatmapLevelPack> value)
-    // Offset: 0x12614A4
+    // Offset: 0x125AE90
     void remove_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
     // private System.Void PackPromoButtonWasPressed()
-    // Offset: 0x1263670
+    // Offset: 0x125D05C
     void PackPromoButtonWasPressed();
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x126371C
+    // Offset: 0x125D108
     void HandleMenuButton(GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__20_0()
-    // Offset: 0x12638AC
+    // Offset: 0x125D298
     void $DidActivate$b__20_0();
     // private System.Void <DidActivate>b__20_1()
-    // Offset: 0x12638B4
+    // Offset: 0x125D2A0
     void $DidActivate$b__20_1();
     // private System.Void <DidActivate>b__20_2()
-    // Offset: 0x12638BC
+    // Offset: 0x125D2A8
     void $DidActivate$b__20_2();
     // private System.Void <DidActivate>b__20_3()
-    // Offset: 0x12638C4
+    // Offset: 0x125D2B0
     void $DidActivate$b__20_3();
     // private System.Void <DidActivate>b__20_4()
-    // Offset: 0x12638CC
+    // Offset: 0x125D2B8
     void $DidActivate$b__20_4();
     // private System.Void <DidActivate>b__20_5()
-    // Offset: 0x12638D4
+    // Offset: 0x125D2C0
     void $DidActivate$b__20_5();
     // private System.Void <DidActivate>b__20_6()
-    // Offset: 0x12638DC
+    // Offset: 0x125D2C8
     void $DidActivate$b__20_6();
     // private System.Void <DidActivate>b__20_7()
-    // Offset: 0x12638E4
+    // Offset: 0x125D2D0
     void $DidActivate$b__20_7();
     // public System.Void .ctor()
-    // Offset: 0x12638A4
+    // Offset: 0x125D290
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -328,7 +328,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1263204
+    // Offset: 0x125CBF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

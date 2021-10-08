@@ -15,43 +15,43 @@ namespace System::IO {
   class __Error : public ::Il2CppObject {
     public:
     // static System.Void EndOfFile()
-    // Offset: 0x1A0A2A8
+    // Offset: 0x19EFC6C
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x1A0A328
+    // Offset: 0x19EFCEC
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x1A08B2C
+    // Offset: 0x19EE4F0
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x1A0A3AC
+    // Offset: 0x19EFD70
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x1A04DEC
+    // Offset: 0x19EA7B0
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x1A09138
+    // Offset: 0x19EEAFC
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x1A0A428
+    // Offset: 0x19EFDEC
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x1A0A4A8
+    // Offset: 0x19EFE6C
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x1A0A528
+    // Offset: 0x19EFEEC
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x1A0A5A8
+    // Offset: 0x19EFF6C
     static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x1A0A6E0
+    // Offset: 0x19F00A4
     static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x1A09954
+    // Offset: 0x19EF318
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x1A056E0
+    // Offset: 0x19EB0A4
     static void WriterClosed();
   }; // System.IO.__Error
   #pragma pack(pop)

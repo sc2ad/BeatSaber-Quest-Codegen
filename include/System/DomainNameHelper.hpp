@@ -15,37 +15,37 @@ namespace System {
   class DomainNameHelper : public ::Il2CppObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
-    // Offset: 0x1A2B87C
+    // Offset: 0x1A10240
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 pos, ref System.Int32 returnedEnd, ref System.Boolean notCanonical, System.Boolean notImplicitFile)
-    // Offset: 0x1A2BA14
+    // Offset: 0x1A103D8
     static bool IsValid(::Il2CppChar* name, uint16_t pos, ByRef<int> returnedEnd, ByRef<bool> notCanonical, bool notImplicitFile);
     // static System.Boolean IsValidByIri(System.Char* name, System.UInt16 pos, ref System.Int32 returnedEnd, ref System.Boolean notCanonical, System.Boolean notImplicitFile)
-    // Offset: 0x1A2BC40
+    // Offset: 0x1A10604
     static bool IsValidByIri(::Il2CppChar* name, uint16_t pos, ByRef<int> returnedEnd, ByRef<bool> notCanonical, bool notImplicitFile);
     // static System.String IdnEquivalent(System.Char* hostname, System.Int32 start, System.Int32 end, ref System.Boolean allAscii, ref System.Boolean atLeastOneValidIdn)
-    // Offset: 0x1A2BE28
+    // Offset: 0x1A107EC
     static ::Il2CppString* IdnEquivalent(::Il2CppChar* hostname, int start, int end, ByRef<bool> allAscii, ByRef<bool> atLeastOneValidIdn);
     // static System.String IdnEquivalent(System.Char* hostname, System.Int32 start, System.Int32 end, ref System.Boolean allAscii, ref System.String bidiStrippedHost)
-    // Offset: 0x1A2C0A8
+    // Offset: 0x1A10A6C
     static ::Il2CppString* IdnEquivalent(::Il2CppChar* hostname, int start, int end, ByRef<bool> allAscii, ByRef<::Il2CppString*> bidiStrippedHost);
     // static private System.Boolean IsIdnAce(System.String input, System.Int32 index)
-    // Offset: 0x1A2C2E4
+    // Offset: 0x1A10CA8
     static bool IsIdnAce(::Il2CppString* input, int index);
     // static private System.Boolean IsIdnAce(System.Char* input, System.Int32 index)
-    // Offset: 0x1A2C298
+    // Offset: 0x1A10C5C
     static bool IsIdnAce(::Il2CppChar* input, int index);
     // static System.String UnicodeEquivalent(System.String idnHost, System.Char* hostname, System.Int32 start, System.Int32 end)
-    // Offset: 0x1A2C380
+    // Offset: 0x1A10D44
     static ::Il2CppString* UnicodeEquivalent(::Il2CppString* idnHost, ::Il2CppChar* hostname, int start, int end);
     // static System.String UnicodeEquivalent(System.Char* hostname, System.Int32 start, System.Int32 end, ref System.Boolean allAscii, ref System.Boolean atLeastOneValidIdn)
-    // Offset: 0x1A2C4A8
+    // Offset: 0x1A10E6C
     static ::Il2CppString* UnicodeEquivalent(::Il2CppChar* hostname, int start, int end, ByRef<bool> allAscii, ByRef<bool> atLeastOneValidIdn);
     // static private System.Boolean IsASCIILetterOrDigit(System.Char character, ref System.Boolean notCanonical)
-    // Offset: 0x1A2BB90
+    // Offset: 0x1A10554
     static bool IsASCIILetterOrDigit(::Il2CppChar character, ByRef<bool> notCanonical);
     // static private System.Boolean IsValidDomainLabelCharacter(System.Char character, ref System.Boolean notCanonical)
-    // Offset: 0x1A2BBDC
+    // Offset: 0x1A105A0
     static bool IsValidDomainLabelCharacter(::Il2CppChar character, ByRef<bool> notCanonical);
   }; // System.DomainNameHelper
   #pragma pack(pop)

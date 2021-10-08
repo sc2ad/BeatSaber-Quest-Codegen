@@ -42,28 +42,28 @@ namespace GlobalNamespace {
   class OVRCompositionUtil : public ::Il2CppObject {
     public:
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x13B86A4
+    // Offset: 0x139D068
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x13B8744
+    // Offset: 0x139D108
     static void SafeDestroy_(ByRef<UnityEngine::GameObject*> obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x13B87C8
+    // Offset: 0x139D18C
     static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager_CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x13B87F4
+    // Offset: 0x139D1B8
     static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager_VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x13B8888
+    // Offset: 0x139D24C
     static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x13B8934
+    // Offset: 0x139D2F8
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x13B8B74
+    // Offset: 0x139D538
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0x13B901C
+    // Offset: 0x139D9E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

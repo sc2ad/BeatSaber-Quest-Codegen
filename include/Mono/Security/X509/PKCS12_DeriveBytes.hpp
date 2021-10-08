@@ -74,37 +74,37 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Byte[] _salt
     ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x25DB670
+    // Offset: 0x25C2118
     void set_HashName(::Il2CppString* value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x25DB678
+    // Offset: 0x25C2120
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x25DB680
+    // Offset: 0x25C2128
     void set_Password(::ArrayW<uint8_t> value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x25DB720
+    // Offset: 0x25C21C8
     void set_Salt(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x25DBE68
+    // Offset: 0x25C2910
     static void _cctor();
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x25DB7B4
+    // Offset: 0x25C225C
     void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x25DB89C
+    // Offset: 0x25C2344
     ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x25DBCE8
+    // Offset: 0x25C2790
     ::ArrayW<uint8_t> DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x25DBD68
+    // Offset: 0x25C2810
     ::ArrayW<uint8_t> DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x25DBDE8
+    // Offset: 0x25C2890
     ::ArrayW<uint8_t> DeriveMAC(int size);
     // public System.Void .ctor()
-    // Offset: 0x25DB668
+    // Offset: 0x25C2110
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

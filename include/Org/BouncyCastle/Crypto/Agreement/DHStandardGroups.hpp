@@ -195,16 +195,16 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe8192
     static void _set_rfc7919_ffdhe8192(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BC9500
+    // Offset: 0x1BADEC4
     static void _cctor();
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
-    // Offset: 0x1BC9324
+    // Offset: 0x1BADCE8
     static Org::BouncyCastle::Math::BigInteger* FromHex(::Il2CppString* hex);
     // static private Org.BouncyCastle.Crypto.Parameters.DHParameters SafePrimeGen2(System.String hexP)
-    // Offset: 0x1BC93C0
+    // Offset: 0x1BADD84
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::Il2CppString* hexP);
     // static private Org.BouncyCastle.Crypto.Parameters.DHParameters SafePrimeGen2(System.String hexP, System.Int32 l)
-    // Offset: 0x1BC9428
+    // Offset: 0x1BADDEC
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::Il2CppString* hexP, int l);
   }; // Org.BouncyCastle.Crypto.Agreement.DHStandardGroups
   #pragma pack(pop)

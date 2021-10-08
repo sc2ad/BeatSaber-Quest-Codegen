@@ -53,10 +53,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1C73CEC
+    // Offset: 0x1C556B0
     UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x1C739D0
+    // Offset: 0x1C55394
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

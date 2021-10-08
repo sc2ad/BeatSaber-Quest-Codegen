@@ -55,10 +55,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/TextStyle style
     GlobalNamespace::CreditsData::TextStyle& dyn_style();
     // public System.Boolean IsEmpty()
-    // Offset: 0x11A0148
+    // Offset: 0x1134A9C
     bool IsEmpty();
     // public System.Void .ctor()
-    // Offset: 0x11A0214
+    // Offset: 0x1134B68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::Text*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x11A0168
+    // Offset: 0x1134ABC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

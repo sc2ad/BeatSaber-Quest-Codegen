@@ -52,42 +52,42 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF078A8
+    // [InjectAttribute] Offset: 0xF07510
     // private readonly MultiplayerLocalActivePlayerInGameMenuViewController _inGameMenuViewController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* inGameMenuViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF078B8
+    // [InjectAttribute] Offset: 0xF07520
     // private readonly IMenuButtonTrigger _menuButtonTrigger
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuButtonTrigger*) == 0x8);
-    // [InjectAttribute] Offset: 0xF078C8
+    // [InjectAttribute] Offset: 0xF07530
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xF078D8
+    // [InjectAttribute] Offset: 0xF07540
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF078E8
+    // [InjectAttribute] Offset: 0xF07550
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF078F8
+    // [InjectAttribute] Offset: 0xF07560
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
@@ -142,64 +142,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _gameMenuIsShown
     bool& dyn__gameMenuIsShown();
     // public System.Boolean get_gameMenuIsShown()
-    // Offset: 0x1174514
+    // Offset: 0x11C9B28
     bool get_gameMenuIsShown();
     // private System.Boolean get_canShowInGameMenu()
-    // Offset: 0x117451C
+    // Offset: 0x11C9B30
     bool get_canShowInGameMenu();
     // public System.Void add_didGiveUpEvent(System.Action value)
-    // Offset: 0x11733FC
+    // Offset: 0x11C8A10
     void add_didGiveUpEvent(System::Action* value);
     // public System.Void remove_didGiveUpEvent(System.Action value)
-    // Offset: 0x11739C0
+    // Offset: 0x11C8FD4
     void remove_didGiveUpEvent(System::Action* value);
     // public System.Void add_canShowInGameMenuEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0x11743CC
+    // Offset: 0x11C99E0
     void add_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void remove_canShowInGameMenuEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0x1174470
+    // Offset: 0x11C9A84
     void remove_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void add_requestsDisconnectEvent(System.Action value)
-    // Offset: 0x11734A0
+    // Offset: 0x11C8AB4
     void add_requestsDisconnectEvent(System::Action* value);
     // public System.Void remove_requestsDisconnectEvent(System.Action value)
-    // Offset: 0x1173A64
+    // Offset: 0x11C9078
     void remove_requestsDisconnectEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x1174608
+    // Offset: 0x11C9C1C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1174ADC
+    // Offset: 0x11CA0F0
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x1174FD8
+    // Offset: 0x11CA5EC
     void OnApplicationPause(bool pauseStatus);
     // public System.Void ShowInGameMenu()
-    // Offset: 0x1174FE4
+    // Offset: 0x11CA5F8
     void ShowInGameMenu();
     // private System.Void HideInGameMenu()
-    // Offset: 0x1174884
+    // Offset: 0x11C9E98
     void HideInGameMenu();
     // private System.Void HandleMenuButtonTriggered()
-    // Offset: 0x117510C
+    // Offset: 0x11CA720
     void HandleMenuButtonTriggered();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0x1175110
+    // Offset: 0x11CA724
     void HandleInputFocusWasCaptured();
     // private System.Void HandleInGameMenuViewControllerDidPressResumeButton()
-    // Offset: 0x1175114
+    // Offset: 0x11CA728
     void HandleInGameMenuViewControllerDidPressResumeButton();
     // private System.Void HandleInGameMenuViewControllerDidPressGiveUpButton()
-    // Offset: 0x1175118
+    // Offset: 0x11CA72C
     void HandleInGameMenuViewControllerDidPressGiveUpButton();
     // private System.Void HandleInGameMenuViewControllerDidPressDisconnectButton()
-    // Offset: 0x117515C
+    // Offset: 0x11CA770
     void HandleInGameMenuViewControllerDidPressDisconnectButton();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1175170
+    // Offset: 0x11CA784
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x1175320
+    // Offset: 0x11CA934
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

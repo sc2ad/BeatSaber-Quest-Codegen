@@ -278,148 +278,148 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.String _outputCachePathRoot
     ::Il2CppString*& dyn__outputCachePathRoot();
     // public System.String get_AssetName()
-    // Offset: 0x17A3A28
+    // Offset: 0x17873EC
     ::Il2CppString* get_AssetName();
     // public System.Int32 get_SelectedTOPNetwork()
-    // Offset: 0x17A3A30
+    // Offset: 0x17873F4
     int get_SelectedTOPNetwork();
     // public HoudiniEngineUnity.HEU_PDGAssetLink/HoudiniEngineUnity.LinkState get_AssetLinkState()
-    // Offset: 0x17A3A38
+    // Offset: 0x17873FC
     HoudiniEngineUnity::HEU_PDGAssetLink::LinkState get_AssetLinkState();
     // private System.Void Awake()
-    // Offset: 0x17A0A30
+    // Offset: 0x17843F4
     void Awake();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x17A0A38
+    // Offset: 0x17843FC
     void OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x17A0A3C
+    // Offset: 0x1784400
     void OnAfterDeserialize();
     // private System.Void HandleInitialLoad()
-    // Offset: 0x17A0A34
+    // Offset: 0x17843F8
     void HandleInitialLoad();
     // private System.Void OnDestroy()
-    // Offset: 0x17A0A40
+    // Offset: 0x1784404
     void OnDestroy();
     // public System.Void Setup(HoudiniEngineUnity.HEU_HoudiniAsset hdaAsset)
-    // Offset: 0x17A0AC4
+    // Offset: 0x1784488
     void Setup(HoudiniEngineUnity::HEU_HoudiniAsset* hdaAsset);
     // private System.Void NotifyAssetCooked(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean bSuccess, System.Collections.Generic.List`1<UnityEngine.GameObject> generatedOutputs)
-    // Offset: 0x17A10FC
+    // Offset: 0x1784AC0
     void NotifyAssetCooked(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, System::Collections::Generic::List_1<UnityEngine::GameObject*>* generatedOutputs);
     // private System.Void NotifyAssetCooked(HoudiniEngineUnity.HEU_CookedEventData cookedEventData)
-    // Offset: 0x17A1304
+    // Offset: 0x1784CC8
     void NotifyAssetCooked(HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
     // private System.Void NotifyAssetCooked(HoudiniEngineUnity.HEU_ReloadEventData reloadEventData)
-    // Offset: 0x17A1314
+    // Offset: 0x1784CD8
     void NotifyAssetCooked(HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
     // public System.Void Reset()
-    // Offset: 0x17A0D48
+    // Offset: 0x178470C
     void Reset();
     // public System.Void Refresh()
-    // Offset: 0x17A0D4C
+    // Offset: 0x1784710
     void Refresh();
     // private System.Void PopulateFromHDA()
-    // Offset: 0x17A119C
+    // Offset: 0x1784B60
     void PopulateFromHDA();
     // public System.Boolean PopulateTOPNetworks()
-    // Offset: 0x17A158C
+    // Offset: 0x1784F50
     bool PopulateTOPNetworks();
     // static public System.Boolean PopulateTOPNodes(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_TOPNetworkData topNetwork, System.Int32[] topNodeIDs, System.Boolean useHEngineData)
-    // Offset: 0x17A1D40
+    // Offset: 0x1785704
     static bool PopulateTOPNodes(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork, ::ArrayW<int> topNodeIDs, bool useHEngineData);
     // public System.Void SelectTOPNetwork(System.Int32 newIndex)
-    // Offset: 0x17A2280
+    // Offset: 0x1785C44
     void SelectTOPNetwork(int newIndex);
     // public System.Void SelectTOPNode(HoudiniEngineUnity.HEU_TOPNetworkData network, System.Int32 newIndex)
-    // Offset: 0x17A22EC
+    // Offset: 0x1785CB0
     void SelectTOPNode(HoudiniEngineUnity::HEU_TOPNetworkData* network, int newIndex);
     // public HoudiniEngineUnity.HEU_TOPNetworkData GetSelectedTOPNetwork()
-    // Offset: 0x17A235C
+    // Offset: 0x1785D20
     HoudiniEngineUnity::HEU_TOPNetworkData* GetSelectedTOPNetwork();
     // public HoudiniEngineUnity.HEU_TOPNodeData GetSelectedTOPNode()
-    // Offset: 0x17A23EC
+    // Offset: 0x1785DB0
     HoudiniEngineUnity::HEU_TOPNodeData* GetSelectedTOPNode();
     // public HoudiniEngineUnity.HEU_TOPNetworkData GetTOPNetwork(System.Int32 index)
-    // Offset: 0x17A2364
+    // Offset: 0x1785D28
     HoudiniEngineUnity::HEU_TOPNetworkData* GetTOPNetwork(int index);
     // static public HoudiniEngineUnity.HEU_TOPNetworkData GetTOPNetworkByName(System.String name, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNetworkData> topNetworks)
-    // Offset: 0x17A1C68
+    // Offset: 0x178562C
     static HoudiniEngineUnity::HEU_TOPNetworkData* GetTOPNetworkByName(::Il2CppString* name, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNetworkData*>* topNetworks);
     // static public HoudiniEngineUnity.HEU_TOPNodeData GetTOPNodeByName(System.String name, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> topNodes)
-    // Offset: 0x17A20A4
+    // Offset: 0x1785A68
     static HoudiniEngineUnity::HEU_TOPNodeData* GetTOPNodeByName(::Il2CppString* name, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>* topNodes);
     // private System.Void ClearAllTOPData()
-    // Offset: 0x17A1324
+    // Offset: 0x1784CE8
     void ClearAllTOPData();
     // static private System.Void ClearTOPNetworkWorkItemResults(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
-    // Offset: 0x17A2480
+    // Offset: 0x1785E44
     static void ClearTOPNetworkWorkItemResults(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // static public System.Void ClearTOPNodeWorkItemResults(HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x17A217C
+    // Offset: 0x1785B40
     static void ClearTOPNodeWorkItemResults(HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // static public System.Void ClearWorkItemResultByID(HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 workItemID)
-    // Offset: 0x17A2744
+    // Offset: 0x1786108
     static void ClearWorkItemResultByID(HoudiniEngineUnity::HEU_TOPNodeData* topNode, int workItemID);
     // static private System.Void ClearWorkItemResult(HoudiniEngineUnity.HEU_TOPNodeData topNode, HoudiniEngineUnity.HEU_TOPWorkResult result)
-    // Offset: 0x17A2884
+    // Offset: 0x1786248
     static void ClearWorkItemResult(HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HEU_TOPWorkResult* result);
     // public System.Void UpdateTOPNodeResultsVisibility(HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x17A290C
+    // Offset: 0x17862D0
     void UpdateTOPNodeResultsVisibility(HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // static private HoudiniEngineUnity.HEU_TOPWorkResult GetWorkResultByID(HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 workItemID)
-    // Offset: 0x17A276C
+    // Offset: 0x1786130
     static HoudiniEngineUnity::HEU_TOPWorkResult* GetWorkResultByID(HoudiniEngineUnity::HEU_TOPNodeData* topNode, int workItemID);
     // static private System.Void DestroyWorkItemResultData(HoudiniEngineUnity.HEU_TOPNodeData topNode, HoudiniEngineUnity.HEU_TOPWorkResult result)
-    // Offset: 0x17A256C
+    // Offset: 0x1785F30
     static void DestroyWorkItemResultData(HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HEU_TOPWorkResult* result);
     // public System.Void DirtyTOPNode(HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x17A29A8
+    // Offset: 0x178636C
     void DirtyTOPNode(HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // public System.Void CookTOPNode(HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x17A29DC
+    // Offset: 0x17863A0
     void CookTOPNode(HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // public System.Void DirtyAll()
-    // Offset: 0x17A2A10
+    // Offset: 0x17863D4
     void DirtyAll();
     // public System.Void CookOutput()
-    // Offset: 0x17A1128
+    // Offset: 0x1784AEC
     void CookOutput();
     // public System.Void PauseCook()
-    // Offset: 0x17A2AF0
+    // Offset: 0x17864B4
     void PauseCook();
     // public System.Void CancelCook()
-    // Offset: 0x17A2B68
+    // Offset: 0x178652C
     void CancelCook();
     // public HoudiniEngineUnity.HEU_SessionBase GetHAPISession()
-    // Offset: 0x17A19DC
+    // Offset: 0x17853A0
     HoudiniEngineUnity::HEU_SessionBase* GetHAPISession();
     // public System.Void LoadResults(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_TOPNodeData topNode, HoudiniEngineUnity.HAPI_PDG_WorkitemInfo workItemInfo, HoudiniEngineUnity.HAPI_PDG_WorkitemResultInfo[] resultInfos, System.Int32 workItemID)
-    // Offset: 0x17A2BE0
+    // Offset: 0x17865A4
     void LoadResults(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HAPI_PDG_WorkitemInfo workItemInfo, ::ArrayW<HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo> resultInfos, int workItemID);
     // private UnityEngine.Transform GetLoadRootTransform()
-    // Offset: 0x17A3120
+    // Offset: 0x1786AE4
     UnityEngine::Transform* GetLoadRootTransform();
     // public HoudiniEngineUnity.HEU_TOPNodeData GetTOPNode(System.Int32 nodeID)
-    // Offset: 0x17A3200
+    // Offset: 0x1786BC4
     HoudiniEngineUnity::HEU_TOPNodeData* GetTOPNode(int nodeID);
     // public System.Void RepaintUI()
-    // Offset: 0x17A157C
+    // Offset: 0x1784F40
     void RepaintUI();
     // public System.Void UpdateWorkItemTally()
-    // Offset: 0x17A35B0
+    // Offset: 0x1786F74
     void UpdateWorkItemTally();
     // public System.Void ResetTOPNetworkWorkItemTally(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
-    // Offset: 0x17A2A3C
+    // Offset: 0x1786400
     void ResetTOPNetworkWorkItemTally(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.String GetTOPNodeStatus(HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x17A395C
+    // Offset: 0x1787320
     ::Il2CppString* GetTOPNodeStatus(HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // static private System.Void ParseHEngineData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 topNodeID, ref HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, ref HoudiniEngineUnity.TOPNodeTags nodeTags)
-    // Offset: 0x17A1A78
+    // Offset: 0x178543C
     static void ParseHEngineData(HoudiniEngineUnity::HEU_SessionBase* session, int topNodeID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, ByRef<HoudiniEngineUnity::TOPNodeTags*> nodeTags);
     // public System.Void .ctor()
-    // Offset: 0x17A3A40
+    // Offset: 0x1787404
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

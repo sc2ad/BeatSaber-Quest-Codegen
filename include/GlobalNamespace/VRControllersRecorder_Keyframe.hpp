@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()
-    // Offset: 0x1349158
+    // Offset: 0x127039C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

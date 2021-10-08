@@ -116,16 +116,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> <>9__2
     System::Action_1<Zenject::DiContainer*>*& dyn_$$9__2();
     // System.Void <ReplaceScenes>b__0(Zenject.DiContainer emptySceneContainer)
-    // Offset: 0x1383810
+    // Offset: 0x13681D4
     void $ReplaceScenes$b__0(Zenject::DiContainer* emptySceneContainer);
     // System.Void <ReplaceScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x138392C
+    // Offset: 0x13682F0
     void $ReplaceScenes$b__1(Zenject::DiContainer* container);
     // System.Void <ReplaceScenes>b__2(Zenject.DiContainer container)
-    // Offset: 0x13839D0
+    // Offset: 0x1368394
     void $ReplaceScenes$b__2(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1382730
+    // Offset: 0x13670F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,7 +54,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x1CD00B4
+    // Offset: 0x1CB2A78
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
@@ -75,7 +75,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x1CCF7E8
+    // Offset: 0x1CB21AC
     ::ArrayW<uint8_t> GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
@@ -90,13 +90,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(bool full);
     // public System.Void Dispose()
-    // Offset: 0x1CD0034
+    // Offset: 0x1CB29F8
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1CD0394
+    // Offset: 0x1CB2D58
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x1CD0414
+    // Offset: 0x1CB2DD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,17 +105,17 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImpl*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1CD0198
+    // Offset: 0x1CB2B5C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1CD0204
+    // Offset: 0x1CB2BC8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // protected override System.Void Finalize()
-    // Offset: 0x1CD039C
+    // Offset: 0x1CB2D60
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

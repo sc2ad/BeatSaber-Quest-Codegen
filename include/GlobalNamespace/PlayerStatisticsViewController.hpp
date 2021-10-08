@@ -88,19 +88,19 @@ namespace GlobalNamespace {
       // Get instance field reference: private System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> <playerOverallStatsDataFunc>k__BackingField
       System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*& dyn_$playerOverallStatsDataFunc$k__BackingField();
       // public System.String get_text()
-      // Offset: 0x12BC18C
+      // Offset: 0x12CDEE4
       ::Il2CppString* get_text();
       // private System.Void set_text(System.String value)
-      // Offset: 0x12BC194
+      // Offset: 0x12CDEEC
       void set_text(::Il2CppString* value);
       // public System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> get_playerOverallStatsDataFunc()
-      // Offset: 0x12BC19C
+      // Offset: 0x12CDEF4
       System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
       // private System.Void set_playerOverallStatsDataFunc(System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> value)
-      // Offset: 0x12BC1A4
+      // Offset: 0x12CDEFC
       void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
       // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
-      // Offset: 0x12BBA3C
+      // Offset: 0x12CD794
       // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
     }; // PlayerStatisticsViewController/StatsScopeData
     #pragma pack(pop)
@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     HMUI::TextSegmentedControl* statsScopeSegmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::TextSegmentedControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF11A50
+    // [SpaceAttribute] Offset: 0xF116D8
     // private TMPro.TextMeshProUGUI _playedLevelsCountText
     // Size: 0x8
     // Offset: 0x78
@@ -184,14 +184,14 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* handDistanceTravelledText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xF11B28
+    // [InjectAttribute] Offset: 0xF117B0
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF11B38
+    // [InjectAttribute] Offset: 0xF117C0
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xD8
@@ -236,28 +236,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
     ::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>& dyn__statsScopeDatas();
     // private System.Void UpdateView(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
-    // Offset: 0x12BBA44
+    // Offset: 0x12CD79C
     void UpdateView(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);
     // private System.Void HandleStatsScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x12BC004
+    // Offset: 0x12CDD5C
     void HandleStatsScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__16_1()
-    // Offset: 0x12BC0A0
+    // Offset: 0x12CDDF8
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__16_1();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__16_2()
-    // Offset: 0x12BC0CC
+    // Offset: 0x12CDE24
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__16_2();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__16_3()
-    // Offset: 0x12BC0FC
+    // Offset: 0x12CDE54
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__16_3();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__16_4()
-    // Offset: 0x12BC12C
+    // Offset: 0x12CDE84
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__16_4();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__16_0()
-    // Offset: 0x12BC15C
+    // Offset: 0x12CDEB4
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__16_0();
     // public System.Void .ctor()
-    // Offset: 0x12BC098
+    // Offset: 0x12CDDF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -271,12 +271,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerStatisticsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12BB678
+    // Offset: 0x12CD3D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x12BBF58
+    // Offset: 0x12CDCB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

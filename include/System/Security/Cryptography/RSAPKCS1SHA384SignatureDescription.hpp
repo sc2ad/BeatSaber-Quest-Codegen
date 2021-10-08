@@ -21,7 +21,7 @@ namespace System::Security::Cryptography {
   class RSAPKCS1SHA384SignatureDescription : public System::Security::Cryptography::RSAPKCS1SignatureDescription {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1CC3D60
+    // Offset: 0x1CA6724
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()

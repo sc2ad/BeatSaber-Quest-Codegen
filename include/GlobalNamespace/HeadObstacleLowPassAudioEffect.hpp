@@ -34,14 +34,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF063A8
+    // [InjectAttribute] Offset: 0xF06010
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xF063B8
+    // [InjectAttribute] Offset: 0xF06020
     // private MainAudioEffects _mainAudioEffects
     // Size: 0x8
     // Offset: 0x20
@@ -64,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _headWasInObstacle
     bool& dyn__headWasInObstacle();
     // protected System.Void Update()
-    // Offset: 0x1144350
+    // Offset: 0x11D855C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11443F8
+    // Offset: 0x11D8604
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

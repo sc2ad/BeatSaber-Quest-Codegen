@@ -57,7 +57,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _applyTilemapOrientation
     bool& dyn__applyTilemapOrientation();
     // public System.Void .ctor()
-    // Offset: 0x1522998
+    // Offset: 0x150A35C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

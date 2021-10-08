@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String userName
     ::Il2CppString*& dyn_userName();
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
-    // Offset: 0x13463BC
+    // Offset: 0x126D600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UserInfo::.ctor");

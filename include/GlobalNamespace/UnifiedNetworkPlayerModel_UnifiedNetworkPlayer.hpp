@@ -60,92 +60,92 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.String get_userId()
-    // Offset: 0x13438AC
+    // Offset: 0x126AAF0
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1345DCC
+    // Offset: 0x126D010
     ::Il2CppString* get_userName();
     // public System.Boolean get_isMe()
-    // Offset: 0x1345E80
+    // Offset: 0x126D0C4
     bool get_isMe();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x1342C28
+    // Offset: 0x1269E6C
     int get_sortIndex();
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x1345F30
+    // Offset: 0x126D174
     int get_currentPartySize();
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x1345F54
+    // Offset: 0x126D198
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x1345F78
+    // Offset: 0x126D1BC
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x13418D8
+    // Offset: 0x1268B1C
     bool get_isMyPartyOwner();
     // public IConnectedPlayer get_connectedPlayer()
-    // Offset: 0x1345F9C
+    // Offset: 0x126D1E0
     GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
     // public System.Boolean get_canJoin()
-    // Offset: 0x1345FA4
+    // Offset: 0x126D1E8
     bool get_canJoin();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x1345FB0
+    // Offset: 0x126D1F4
     bool get_requiresPassword();
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x1345FBC
+    // Offset: 0x126D200
     bool get_isWaitingOnJoin();
     // public System.Boolean get_canInvite()
-    // Offset: 0x1345FC4
+    // Offset: 0x126D208
     bool get_canInvite();
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x1345FD0
+    // Offset: 0x126D214
     bool get_isWaitingOnInvite();
     // public System.Boolean get_canKick()
-    // Offset: 0x1345FD8
+    // Offset: 0x126D21C
     bool get_canKick();
     // public System.Boolean get_canLeave()
-    // Offset: 0x1346110
+    // Offset: 0x126D354
     bool get_canLeave();
     // public System.Boolean get_canBlock()
-    // Offset: 0x1346150
+    // Offset: 0x126D394
     bool get_canBlock();
     // public System.Boolean get_canUnblock()
-    // Offset: 0x134615C
+    // Offset: 0x126D3A0
     bool get_canUnblock();
     // public System.Void .ctor(UnifiedNetworkPlayerModel playerModel, IConnectedPlayer connectedPlayer)
-    // Offset: 0x1343670
+    // Offset: 0x126A8B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* New_ctor(GlobalNamespace::UnifiedNetworkPlayerModel* playerModel, GlobalNamespace::IConnectedPlayer* connectedPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*, creationType>(playerModel, connectedPlayer)));
     }
     // public System.Void Join()
-    // Offset: 0x1345FAC
+    // Offset: 0x126D1F0
     void Join();
     // public System.Void Join(System.String password)
-    // Offset: 0x1345FB8
+    // Offset: 0x126D1FC
     void Join(::Il2CppString* password);
     // public System.Void Invite()
-    // Offset: 0x1345FCC
+    // Offset: 0x126D210
     void Invite();
     // public System.Void Kick()
-    // Offset: 0x134602C
+    // Offset: 0x126D270
     void Kick();
     // public System.Void Leave()
-    // Offset: 0x134612C
+    // Offset: 0x126D370
     void Leave();
     // public System.Void Block()
-    // Offset: 0x1346158
+    // Offset: 0x126D39C
     void Block();
     // public System.Void Unblock()
-    // Offset: 0x1346164
+    // Offset: 0x126D3A8
     void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x1346168
+    // Offset: 0x126D3AC
     void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x134616C
+    // Offset: 0x126D3B0
     void SendInviteResponse(bool accept);
   }; // UnifiedNetworkPlayerModel/UnifiedNetworkPlayer
   #pragma pack(pop)

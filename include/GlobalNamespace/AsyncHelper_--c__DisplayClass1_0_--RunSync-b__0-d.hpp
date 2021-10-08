@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1378AD0
+    // Offset: 0x135D494
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1378C70
+    // Offset: 0x135D634
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d
   // WARNING Not writing size check since size may be invalid!

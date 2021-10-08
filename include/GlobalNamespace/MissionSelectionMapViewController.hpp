@@ -26,15 +26,12 @@ namespace GlobalNamespace {
   class MissionMapAnimationController;
   // Forward declaring type: SongPreviewPlayer
   class SongPreviewPlayer;
+  // Forward declaring type: PerceivedLoudnessPerLevelModel
+  class PerceivedLoudnessPerLevelModel;
   // Forward declaring type: MissionNode
   class MissionNode;
   // Forward declaring type: MissionNodeVisualController
   class MissionNodeVisualController;
-}
-// Forward declaring namespace: DataModels::Levels
-namespace DataModels::Levels {
-  // Forward declaring type: PerceivedLoudnessPerLevelModel
-  class PerceivedLoudnessPerLevelModel;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -76,20 +73,20 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionMapAnimationController* missionMapAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionMapAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10DF0
+    // [InjectAttribute] Offset: 0xF10A78
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10E00
-    // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    // [InjectAttribute] Offset: 0xF10A88
+    // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x90
-    DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
+    GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
-    static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
     // private System.Action`2<MissionSelectionMapViewController,MissionNode> didSelectMissionLevelEvent
     // Size: 0x8
     // Offset: 0x98
@@ -111,32 +108,32 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionMapAnimationController*& dyn__missionMapAnimationController();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
     GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
-    // Get instance field reference: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    DataModels::Levels::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // Get instance field reference: private System.Action`2<MissionSelectionMapViewController,MissionNode> didSelectMissionLevelEvent
     System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*& dyn_didSelectMissionLevelEvent();
     // Get instance field reference: private MissionNode _selectedMissionNode
     GlobalNamespace::MissionNode*& dyn__selectedMissionNode();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x118D778
+    // Offset: 0x121203C
     bool get_animatedUpdateIsRequired();
     // public System.Void add_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x118D630
+    // Offset: 0x1211EF4
     void add_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x118D6D4
+    // Offset: 0x1211F98
     void remove_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
     // private System.Void HandleMissionNodeSelectionManagerDidSelectMissionNode(MissionNodeVisualController missionNodeVisualController)
-    // Offset: 0x118D9F4
+    // Offset: 0x12122B8
     void HandleMissionNodeSelectionManagerDidSelectMissionNode(GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
     // public System.Void ShowMissionClearedAnimation(System.Action finishCallback)
-    // Offset: 0x118DABC
+    // Offset: 0x1212380
     void ShowMissionClearedAnimation(System::Action* finishCallback);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x118DADC
+    // Offset: 0x12123A0
     void DeselectSelectedNode();
     // public System.Void .ctor()
-    // Offset: 0x118DAF4
+    // Offset: 0x12123B8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -150,12 +147,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionMapViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x118D790
+    // Offset: 0x1212054
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x118D8C8
+    // Offset: 0x121218C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

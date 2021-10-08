@@ -35,20 +35,20 @@ namespace GlobalNamespace {
   class BeatmapObjectCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x129E778
+    // Offset: 0x1298608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(BeatmapObjectData noteData)
-    // Offset: 0x129E788
+    // Offset: 0x1298618
     void Invoke(GlobalNamespace::BeatmapObjectData* noteData);
     // public System.IAsyncResult BeginInvoke(BeatmapObjectData noteData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x129EB1C
+    // Offset: 0x12989AC
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapObjectData* noteData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x129EB40
+    // Offset: 0x12989D0
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectCallback
   #pragma pack(pop)

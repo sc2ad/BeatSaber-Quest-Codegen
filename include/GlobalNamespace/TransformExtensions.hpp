@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class TransformExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Quaternion InverseTransformRotation(UnityEngine.Transform trans, UnityEngine.Quaternion worldRotation)
-    // Offset: 0x259C268
+    // Offset: 0x2580D10
     static UnityEngine::Quaternion InverseTransformRotation(UnityEngine::Transform* trans, UnityEngine::Quaternion worldRotation);
   }; // TransformExtensions
   #pragma pack(pop)

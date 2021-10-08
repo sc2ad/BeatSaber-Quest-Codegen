@@ -45,13 +45,13 @@ namespace System::Reflection {
   class RuntimeAssembly : public System::Reflection::Assembly {
     public:
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1EB1860
+    // Offset: 0x1E982C4
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName an, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1EB18F8
+    // Offset: 0x1E9835C
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
     // protected System.Void .ctor()
-    // Offset: 0x1EAC040
+    // Offset: 0x1E92AA4
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,12 +61,12 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeAssembly*, creationType>()));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1EB17B0
+    // Offset: 0x1E98214
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.AssemblyName GetName(System.Boolean copiedName)
-    // Offset: 0x1EB192C
+    // Offset: 0x1E98390
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.AssemblyName Assembly::GetName(System.Boolean copiedName)
     System::Reflection::AssemblyName* GetName(bool copiedName);

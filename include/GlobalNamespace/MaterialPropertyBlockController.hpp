@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1E2C7A4
+    // Offset: 0x1E14208
     ::ArrayW<UnityEngine::Renderer*> get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1E2C524
+    // Offset: 0x1E13F88
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1E2C3EC
+    // Offset: 0x1E13E50
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1E2C7AC
+    // Offset: 0x1E14210
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

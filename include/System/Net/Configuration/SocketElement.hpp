@@ -28,12 +28,12 @@ namespace System::Net::Configuration {
   class SocketElement : public System::Configuration::ConfigurationElement {
     public:
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1570408
+    // Offset: 0x1556DCC
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x15703C8
+    // Offset: 0x1556D8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

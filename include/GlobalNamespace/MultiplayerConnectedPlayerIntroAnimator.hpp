@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
     // public System.Void SetBeforeIntroValues()
-    // Offset: 0x1212238
+    // Offset: 0x11849F8
     void SetBeforeIntroValues();
     // public System.Void .ctor()
-    // Offset: 0x1212254
+    // Offset: 0x1184A14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

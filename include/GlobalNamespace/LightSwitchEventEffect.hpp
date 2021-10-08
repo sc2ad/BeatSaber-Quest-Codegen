@@ -131,21 +131,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: colorBoostEvent and: lightManager
     char __padding12[0x4] = {};
-    // [InjectAttribute] Offset: 0xF06704
+    // [InjectAttribute] Offset: 0xF0636C
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LightWithIdManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF06714
+    // [InjectAttribute] Offset: 0xF0637C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF06724
+    // [InjectAttribute] Offset: 0xF0638C
     // private readonly Tweening.SongTimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x80
@@ -232,43 +232,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _usingBoostColors
     bool& dyn__usingBoostColors();
     // public System.Int32 get_lightsId()
-    // Offset: 0x1313090
+    // Offset: 0x12B14EC
     int get_lightsId();
     // protected System.Void Awake()
-    // Offset: 0x1313098
+    // Offset: 0x12B14F4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1313290
+    // Offset: 0x12B16EC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1313398
+    // Offset: 0x12B17F4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x13134E8
+    // Offset: 0x12B1944
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void SetupTweenAndSaveOtherColors(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color alternativeFromColor, UnityEngine.Color alternativeToColor)
-    // Offset: 0x1313254
+    // Offset: 0x12B16B0
     void SetupTweenAndSaveOtherColors(UnityEngine::Color fromColor, UnityEngine::Color toColor, UnityEngine::Color alternativeFromColor, UnityEngine::Color alternativeToColor);
     // private System.Void CheckNextEventForFade(BeatmapEventData beatmapEventData)
-    // Offset: 0x13139DC
+    // Offset: 0x12B1E38
     void CheckNextEventForFade(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue, System.Boolean colorBoost)
-    // Offset: 0x1313C7C
+    // Offset: 0x12B20D8
     UnityEngine::Color GetNormalColor(int beatmapEventValue, bool colorBoost);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue, System.Boolean colorBoost)
-    // Offset: 0x1313CE8
+    // Offset: 0x12B2144
     UnityEngine::Color GetHighlightColor(int beatmapEventValue, bool colorBoost);
     // private System.Boolean IsColor0(System.Int32 beatmapEventValue)
-    // Offset: 0x1313D90
+    // Offset: 0x12B21EC
     bool IsColor0(int beatmapEventValue);
     // private System.Boolean IsFixedDurationLightSwitch(System.Int32 beatmapEventValue)
-    // Offset: 0x1313D54
+    // Offset: 0x12B21B0
     bool IsFixedDurationLightSwitch(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x13139B8
+    // Offset: 0x12B1E14
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1313D9C
+    // Offset: 0x12B21F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

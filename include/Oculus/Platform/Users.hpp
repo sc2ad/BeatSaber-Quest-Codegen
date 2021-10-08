@@ -44,46 +44,46 @@ namespace Oculus::Platform {
   class Users : public ::Il2CppObject {
     public:
     // static public System.String GetLoggedInUserLocale()
-    // Offset: 0x25BC830
+    // Offset: 0x25A12D8
     static ::Il2CppString* GetLoggedInUserLocale();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.User> Get(System.UInt64 userID)
-    // Offset: 0x25BC914
+    // Offset: 0x25A13BC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* Get(uint64_t userID);
     // static public Oculus.Platform.Request`1<System.String> GetAccessToken()
-    // Offset: 0x25BCA30
+    // Offset: 0x25A14D8
     static Oculus::Platform::Request_1<::Il2CppString*>* GetAccessToken();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.User> GetLoggedInUser()
-    // Offset: 0x25BCB3C
+    // Offset: 0x25A15E4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* GetLoggedInUser();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserList> GetLoggedInUserFriends()
-    // Offset: 0x25BCC48
+    // Offset: 0x25A16F0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* GetLoggedInUserFriends();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserAndRoomList> GetLoggedInUserFriendsAndRooms()
-    // Offset: 0x25BCD54
+    // Offset: 0x25A17FC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* GetLoggedInUserFriendsAndRooms();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserAndRoomList> GetLoggedInUserRecentlyMetUsersAndRooms(Oculus.Platform.UserOptions userOptions)
-    // Offset: 0x25BCE60
+    // Offset: 0x25A1908
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* GetLoggedInUserRecentlyMetUsersAndRooms(Oculus::Platform::UserOptions* userOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.OrgScopedID> GetOrgScopedID(System.UInt64 userID)
-    // Offset: 0x25BCFA8
+    // Offset: 0x25A1A50
     static Oculus::Platform::Request_1<Oculus::Platform::Models::OrgScopedID*>* GetOrgScopedID(uint64_t userID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.SdkAccountList> GetSdkAccounts()
-    // Offset: 0x25BD0C4
+    // Offset: 0x25A1B6C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::SdkAccountList*>* GetSdkAccounts();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserProof> GetUserProof()
-    // Offset: 0x25BD1D0
+    // Offset: 0x25A1C78
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserProof*>* GetUserProof();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LaunchFriendRequestFlowResult> LaunchFriendRequestFlow(System.UInt64 userID)
-    // Offset: 0x25BD2DC
+    // Offset: 0x25A1D84
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* LaunchFriendRequestFlow(uint64_t userID);
     // static public Oculus.Platform.Request LaunchProfile(System.UInt64 userID)
-    // Offset: 0x25BD3F8
+    // Offset: 0x25A1EA0
     static Oculus::Platform::Request* LaunchProfile(uint64_t userID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserAndRoomList> GetNextUserAndRoomListPage(Oculus.Platform.Models.UserAndRoomList list)
-    // Offset: 0x25BD50C
+    // Offset: 0x25A1FB4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* GetNextUserAndRoomListPage(Oculus::Platform::Models::UserAndRoomList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserList> GetNextUserListPage(Oculus.Platform.Models.UserList list)
-    // Offset: 0x25BD688
+    // Offset: 0x25A2130
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* GetNextUserListPage(Oculus::Platform::Models::UserList* list);
   }; // Oculus.Platform.Users
   #pragma pack(pop)

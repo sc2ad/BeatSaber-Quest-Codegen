@@ -59,17 +59,17 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.IPAddress ipv4Mask
     System::Net::IPAddress*& dyn_ipv4Mask();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info)
-    // Offset: 0x1649B94
+    // Offset: 0x162E558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32UnicastIPAddressInformation* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32UnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32UnicastIPAddressInformation*, creationType>(info)));
     }
     // static private System.Net.IPAddress PrefixLengthToSubnetMask(System.Byte prefixLength, System.Net.Sockets.AddressFamily family)
-    // Offset: 0x1649DC4
+    // Offset: 0x162E788
     static System::Net::IPAddress* PrefixLengthToSubnetMask(uint8_t prefixLength, System::Net::Sockets::AddressFamily family);
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x1649EB0
+    // Offset: 0x162E874
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();

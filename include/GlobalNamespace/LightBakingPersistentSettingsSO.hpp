@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: reflectionsCount and: bloomPrePassEffectToneMappingOff
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF13A5C
+    // [SpaceAttribute] Offset: 0xF136E4
     // private BloomPrePassEffectSO _bloomPrePassEffectToneMappingOff
     // Size: 0x8
     // Offset: 0x20
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainEffectSO* mainEffectForBaking;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainEffectSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF13AA4
+    // [SpaceAttribute] Offset: 0xF1372C
     // private System.Single _colorFromSchemeAlpha
     // Size: 0x4
     // Offset: 0x30
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     ::ArrayW<UnityEngine::Color> bakedLightEditorColors;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
-    // [SpaceAttribute] Offset: 0xF13AEC
+    // [SpaceAttribute] Offset: 0xF13774
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x40
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassEffectContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF13B84
+    // [SpaceAttribute] Offset: 0xF1380C
     // private BakedLightDataLoader _bakedLightDataLoaderPrefab
     // Size: 0x8
     // Offset: 0x78
@@ -274,58 +274,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _defaultDepthOnlyWriteMaterialForFakeMirror
     UnityEngine::Material*& dyn__defaultDepthOnlyWriteMaterialForFakeMirror();
     // public System.Int32 get_reflectionsCount()
-    // Offset: 0x131094C
+    // Offset: 0x12AEDA8
     int get_reflectionsCount();
     // public System.Void set_reflectionsCount(System.Int32 value)
-    // Offset: 0x1310954
+    // Offset: 0x12AEDB0
     void set_reflectionsCount(int value);
     // public System.Single get_colorFromSchemeAlpha()
-    // Offset: 0x131095C
+    // Offset: 0x12AEDB8
     float get_colorFromSchemeAlpha();
     // public System.Void set_colorFromSchemeAlpha(System.Single value)
-    // Offset: 0x1310964
+    // Offset: 0x12AEDC0
     void set_colorFromSchemeAlpha(float value);
     // public UnityEngine.Color[] get_bakedLightEditorColors()
-    // Offset: 0x131096C
+    // Offset: 0x12AEDC8
     ::ArrayW<UnityEngine::Color> get_bakedLightEditorColors();
     // public UnityEngine.Material get_defaultDepthOnlyWriteMaterialForFakeMirror()
-    // Offset: 0x1310974
+    // Offset: 0x12AEDD0
     UnityEngine::Material* get_defaultDepthOnlyWriteMaterialForFakeMirror();
     // public System.Boolean get_mainEffectForBakingIsOn()
-    // Offset: 0x131097C
+    // Offset: 0x12AEDD8
     bool get_mainEffectForBakingIsOn();
     // public System.Void set_mainEffectForBakingIsOn(System.Boolean value)
-    // Offset: 0x13109FC
+    // Offset: 0x12AEE58
     void set_mainEffectForBakingIsOn(bool value);
     // public BakedLightDataLoader get_bakedLightDataLoaderPrefab()
-    // Offset: 0x1310AC0
+    // Offset: 0x12AEF1C
     GlobalNamespace::BakedLightDataLoader* get_bakedLightDataLoaderPrefab();
     // public BakedReflectionProbe get_bakedReflectionProbePrefab()
-    // Offset: 0x1310AC8
+    // Offset: 0x12AEF24
     GlobalNamespace::BakedReflectionProbe* get_bakedReflectionProbePrefab();
     // public LightmapLightsWithIds get_lightmapLightsWithIds()
-    // Offset: 0x1310AD0
+    // Offset: 0x12AEF2C
     GlobalNamespace::LightmapLightsWithIds* get_lightmapLightsWithIds();
     // public FakeMirrorObjectsInstaller get_fakeMirrorObjectsInstallerPrefab()
-    // Offset: 0x1310AD8
+    // Offset: 0x12AEF34
     GlobalNamespace::FakeMirrorObjectsInstaller* get_fakeMirrorObjectsInstallerPrefab();
     // public FakeMirrorSettings get_fakeMirrorSettingsPrefab()
-    // Offset: 0x1310AE0
+    // Offset: 0x12AEF3C
     GlobalNamespace::FakeMirrorSettings* get_fakeMirrorSettingsPrefab();
     // public System.Void SetGraphicsSettingsForBaking()
-    // Offset: 0x1310AE8
+    // Offset: 0x12AEF44
     void SetGraphicsSettingsForBaking();
     // public System.Void SetPlatformGraphics()
-    // Offset: 0x1310DEC
+    // Offset: 0x12AF248
     void SetPlatformGraphics();
     // public System.Void SetToneMappingOn(System.Boolean isOn)
-    // Offset: 0x1310D24
+    // Offset: 0x12AF180
     void SetToneMappingOn(bool isOn);
     // public System.Boolean IsToneMappingOn()
-    // Offset: 0x1311074
+    // Offset: 0x12AF4D0
     bool IsToneMappingOn();
     // public System.Void .ctor()
-    // Offset: 0x13110AC
+    // Offset: 0x12AF508
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -15,7 +15,7 @@ namespace UnityEngine::XR {
   class HashCodeHelper : public ::Il2CppObject {
     public:
     // static public System.Int32 Combine(System.Int32 hash1, System.Int32 hash2)
-    // Offset: 0x2611F00
+    // Offset: 0x25F99A8
     static int Combine(int hash1, int hash2);
   }; // UnityEngine.XR.HashCodeHelper
   #pragma pack(pop)

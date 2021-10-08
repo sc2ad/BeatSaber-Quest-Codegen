@@ -83,25 +83,25 @@ namespace NUnit::Framework::Api {
     // Get instance field reference: private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     NUnit::Framework::Interfaces::ISuiteBuilder*& dyn__defaultSuiteBuilder();
     // static private System.Void .cctor()
-    // Offset: 0x19282F8
+    // Offset: 0x190ECBC
     static void _cctor();
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly assembly, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1926800
+    // Offset: 0x190D1C4
     NUnit::Framework::Interfaces::ITest* Build(System::Reflection::Assembly* assembly, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // private NUnit.Framework.Internal.TestSuite Build(System.Reflection.Assembly assembly, System.String assemblyPath, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x19269C8
+    // Offset: 0x190D38C
     NUnit::Framework::Internal::TestSuite* Build(System::Reflection::Assembly* assembly, ::Il2CppString* assemblyPath, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // private System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> GetFixtures(System.Reflection.Assembly assembly, System.Collections.IList names)
-    // Offset: 0x19270A0
+    // Offset: 0x190DA64
     System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* GetFixtures(System::Reflection::Assembly* assembly, System::Collections::IList* names);
     // private System.Collections.Generic.IList`1<System.Type> GetCandidateFixtureTypes(System.Reflection.Assembly assembly, System.Collections.IList names)
-    // Offset: 0x1927B58
+    // Offset: 0x190E51C
     System::Collections::Generic::IList_1<System::Type*>* GetCandidateFixtureTypes(System::Reflection::Assembly* assembly, System::Collections::IList* names);
     // private NUnit.Framework.Internal.TestSuite BuildTestAssembly(System.Reflection.Assembly assembly, System.String assemblyName, System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x192781C
+    // Offset: 0x190E1E0
     NUnit::Framework::Internal::TestSuite* BuildTestAssembly(System::Reflection::Assembly* assembly, ::Il2CppString* assemblyName, System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void .ctor()
-    // Offset: 0x1926734
+    // Offset: 0x190D0F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

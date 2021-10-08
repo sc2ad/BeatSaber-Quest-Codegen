@@ -42,20 +42,20 @@ namespace LiteNetLib {
   class EventBasedNatPunchListener::OnNatIntroductionSuccess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DD0C40
+    // Offset: 0x1DB76A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNatPunchListener::OnNatIntroductionSuccess* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNatPunchListener::OnNatIntroductionSuccess*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token)
-    // Offset: 0x1DD07B8
+    // Offset: 0x1DB721C
     void Invoke(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DD0C50
+    // Offset: 0x1DB76B4
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DD0CF0
+    // Offset: 0x1DB7754
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess
   #pragma pack(pop)

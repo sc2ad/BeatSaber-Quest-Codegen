@@ -95,49 +95,49 @@ namespace System::Net {
     // Get instance field reference: private System.String _cnonce
     ::Il2CppString*& dyn__cnonce();
     // public System.String get_Algorithm()
-    // Offset: 0x1579B40
+    // Offset: 0x1560504
     ::Il2CppString* get_Algorithm();
     // public System.String get_Realm()
-    // Offset: 0x1579B58
+    // Offset: 0x156051C
     ::Il2CppString* get_Realm();
     // public System.String get_Nonce()
-    // Offset: 0x1578BD4
+    // Offset: 0x155F598
     ::Il2CppString* get_Nonce();
     // public System.String get_Opaque()
-    // Offset: 0x1579B70
+    // Offset: 0x1560534
     ::Il2CppString* get_Opaque();
     // public System.String get_QOP()
-    // Offset: 0x1579B88
+    // Offset: 0x156054C
     ::Il2CppString* get_QOP();
     // public System.String get_CNonce()
-    // Offset: 0x1579BA0
+    // Offset: 0x1560564
     ::Il2CppString* get_CNonce();
     // public System.DateTime get_LastUse()
-    // Offset: 0x157A138
+    // Offset: 0x1560AFC
     System::DateTime get_LastUse();
     // static private System.Void .cctor()
-    // Offset: 0x1579AE8
+    // Offset: 0x15604AC
     static void _cctor();
     // public System.Boolean Parse(System.String challenge)
-    // Offset: 0x1578AF8
+    // Offset: 0x155F4BC
     bool Parse(::Il2CppString* challenge);
     // private System.String HashToHexString(System.String toBeHashed)
-    // Offset: 0x1579C9C
+    // Offset: 0x1560660
     ::Il2CppString* HashToHexString(::Il2CppString* toBeHashed);
     // private System.String HA1(System.String username, System.String password)
-    // Offset: 0x1579DF4
+    // Offset: 0x15607B8
     ::Il2CppString* HA1(::Il2CppString* username, ::Il2CppString* password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1579F14
+    // Offset: 0x15608D8
     ::Il2CppString* HA2(System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1579FE8
+    // Offset: 0x15609AC
     ::Il2CppString* Response(::Il2CppString* username, ::Il2CppString* password, System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1578BEC
+    // Offset: 0x155F5B0
     System::Net::Authorization* Authenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x1578A78
+    // Offset: 0x155F43C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,13 +43,13 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider,System.Boolean> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1599C80
+    // Offset: 0x1580644
     static void _cctor();
     // System.Boolean <Start>b__5_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider rp)
-    // Offset: 0x1599CEC
+    // Offset: 0x15806B0
     bool $Start$b__5_0(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
     // public System.Void .ctor()
-    // Offset: 0x1599CE4
+    // Offset: 0x15806A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

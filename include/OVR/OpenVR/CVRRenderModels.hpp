@@ -63,68 +63,68 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRRenderModels FnTable
     OVR::OpenVR::IVRRenderModels& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x176CD58
+    // Offset: 0x175071C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRRenderModels* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRRenderModels::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRRenderModels*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRRenderModelError LoadRenderModel_Async(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
-    // Offset: 0x176CE60
+    // Offset: 0x1750824
     OVR::OpenVR::EVRRenderModelError LoadRenderModel_Async(::Il2CppString* pchRenderModelName, ByRef<System::IntPtr> ppRenderModel);
     // public System.Void FreeRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x176CE7C
+    // Offset: 0x1750840
     void FreeRenderModel(System::IntPtr pRenderModel);
     // public OVR.OpenVR.EVRRenderModelError LoadTexture_Async(System.Int32 textureId, ref System.IntPtr ppTexture)
-    // Offset: 0x176CE98
+    // Offset: 0x175085C
     OVR::OpenVR::EVRRenderModelError LoadTexture_Async(int textureId, ByRef<System::IntPtr> ppTexture);
     // public System.Void FreeTexture(System.IntPtr pTexture)
-    // Offset: 0x176CEB4
+    // Offset: 0x1750878
     void FreeTexture(System::IntPtr pTexture);
     // public OVR.OpenVR.EVRRenderModelError LoadTextureD3D11_Async(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D)
-    // Offset: 0x176CED0
+    // Offset: 0x1750894
     OVR::OpenVR::EVRRenderModelError LoadTextureD3D11_Async(int textureId, System::IntPtr pD3D11Device, ByRef<System::IntPtr> ppD3D11Texture2D);
     // public OVR.OpenVR.EVRRenderModelError LoadIntoTextureD3D11_Async(System.Int32 textureId, System.IntPtr pDstTexture)
-    // Offset: 0x176CEEC
+    // Offset: 0x17508B0
     OVR::OpenVR::EVRRenderModelError LoadIntoTextureD3D11_Async(int textureId, System::IntPtr pDstTexture);
     // public System.Void FreeTextureD3D11(System.IntPtr pD3D11Texture2D)
-    // Offset: 0x176CF08
+    // Offset: 0x17508CC
     void FreeTextureD3D11(System::IntPtr pD3D11Texture2D);
     // public System.UInt32 GetRenderModelName(System.UInt32 unRenderModelIndex, System.Text.StringBuilder pchRenderModelName, System.UInt32 unRenderModelNameLen)
-    // Offset: 0x176CF24
+    // Offset: 0x17508E8
     uint GetRenderModelName(uint unRenderModelIndex, System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen);
     // public System.UInt32 GetRenderModelCount()
-    // Offset: 0x176CF40
+    // Offset: 0x1750904
     uint GetRenderModelCount();
     // public System.UInt32 GetComponentCount(System.String pchRenderModelName)
-    // Offset: 0x176CF5C
+    // Offset: 0x1750920
     uint GetComponentCount(::Il2CppString* pchRenderModelName);
     // public System.UInt32 GetComponentName(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen)
-    // Offset: 0x176CF78
+    // Offset: 0x175093C
     uint GetComponentName(::Il2CppString* pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
     // public System.UInt64 GetComponentButtonMask(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x176CF94
+    // Offset: 0x1750958
     uint64_t GetComponentButtonMask(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.UInt32 GetComponentRenderModelName(System.String pchRenderModelName, System.String pchComponentName, System.Text.StringBuilder pchComponentRenderModelName, System.UInt32 unComponentRenderModelNameLen)
-    // Offset: 0x176CFB0
+    // Offset: 0x1750974
     uint GetComponentRenderModelName(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
     // public System.Boolean GetComponentStateForDevicePath(System.String pchRenderModelName, System.String pchComponentName, System.UInt64 devicePath, ref OVR.OpenVR.RenderModel_ControllerMode_State_t pState, ref OVR.OpenVR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x176CFCC
+    // Offset: 0x1750990
     bool GetComponentStateForDevicePath(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, uint64_t devicePath, ByRef<OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
     // public System.Boolean GetComponentState(System.String pchRenderModelName, System.String pchComponentName, ref OVR.OpenVR.VRControllerState_t pControllerState, ref OVR.OpenVR.RenderModel_ControllerMode_State_t pState, ref OVR.OpenVR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x176CFE8
+    // Offset: 0x17509AC
     bool GetComponentState(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, ByRef<OVR::OpenVR::VRControllerState_t> pControllerState, ByRef<OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
     // public System.Boolean RenderModelHasComponent(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x176D574
+    // Offset: 0x1750F38
     bool RenderModelHasComponent(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.UInt32 GetRenderModelThumbnailURL(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref OVR.OpenVR.EVRRenderModelError peError)
-    // Offset: 0x176D590
+    // Offset: 0x1750F54
     uint GetRenderModelThumbnailURL(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, ByRef<OVR::OpenVR::EVRRenderModelError> peError);
     // public System.UInt32 GetRenderModelOriginalPath(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref OVR.OpenVR.EVRRenderModelError peError)
-    // Offset: 0x176D5AC
+    // Offset: 0x1750F70
     uint GetRenderModelOriginalPath(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, ByRef<OVR::OpenVR::EVRRenderModelError> peError);
     // public System.String GetRenderModelErrorNameFromEnum(OVR.OpenVR.EVRRenderModelError error)
-    // Offset: 0x176D5C8
+    // Offset: 0x1750F8C
     ::Il2CppString* GetRenderModelErrorNameFromEnum(OVR::OpenVR::EVRRenderModelError error);
   }; // OVR.OpenVR.CVRRenderModels
   #pragma pack(pop)

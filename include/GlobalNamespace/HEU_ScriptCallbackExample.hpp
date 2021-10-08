@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String _msg
     ::Il2CppString*& dyn__msg();
     // private System.Void AssetCallbackWithMsg(System.String msg)
-    // Offset: 0x14384DC
+    // Offset: 0x141CEA0
     void AssetCallbackWithMsg(::Il2CppString* msg);
     // private System.Void AssetCallbackNoMsg()
-    // Offset: 0x1438578
+    // Offset: 0x141CF3C
     void AssetCallbackNoMsg();
     // public System.Void .ctor()
-    // Offset: 0x14385E4
+    // Offset: 0x141CFA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

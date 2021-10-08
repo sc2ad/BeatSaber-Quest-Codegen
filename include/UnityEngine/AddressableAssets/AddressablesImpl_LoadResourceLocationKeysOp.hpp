@@ -93,15 +93,15 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type m_ResourceType
     System::Type*& dyn_m_ResourceType();
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Collections.IEnumerable key, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mergeMode)
-    // Offset: 0x159402C
+    // Offset: 0x157A9F0
     void Init(UnityEngine::AddressableAssets::AddressablesImpl* aa, System::Type* t, System::Collections::IEnumerable* key, UnityEngine::AddressableAssets::Addressables::MergeMode mergeMode);
     // protected override System.String get_DebugName()
-    // Offset: 0x15984F8
+    // Offset: 0x157EEBC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::Il2CppString* get_DebugName();
     // public System.Void .ctor()
-    // Offset: 0x1593FDC
+    // Offset: 0x157A9A0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -111,12 +111,12 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeysOp*, creationType>()));
     }
     // protected override System.Void Execute()
-    // Offset: 0x1598540
+    // Offset: 0x157EF04
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x1598608
+    // Offset: 0x157EFCC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

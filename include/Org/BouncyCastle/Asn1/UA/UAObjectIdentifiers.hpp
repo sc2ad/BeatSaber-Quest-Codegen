@@ -178,7 +178,7 @@ namespace Org::BouncyCastle::Asn1::UA {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier dstu7624kw_512
     static void _set_dstu7624kw_512(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x197F5A4
+    // Offset: 0x1964F68
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.UA.UAObjectIdentifiers
   #pragma pack(pop)

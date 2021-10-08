@@ -23,109 +23,109 @@ namespace Org::BouncyCastle::Math::Raw {
   class Nat192 : public ::Il2CppObject {
     public:
     // static public System.UInt32 Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x14B2B98
+    // Offset: 0x149955C
     static uint Add(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.UInt32 AddBothTo(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x14B2D08
+    // Offset: 0x14996CC
     static uint AddBothTo(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.UInt32 AddTo(System.UInt32[] x, System.Int32 xOff, System.UInt32[] z, System.Int32 zOff, System.UInt32 cIn)
-    // Offset: 0x14B2EA8
+    // Offset: 0x149986C
     static uint AddTo(::ArrayW<uint> x, int xOff, ::ArrayW<uint> z, int zOff, uint cIn);
     // static public System.UInt32 AddToEachOther(System.UInt32[] u, System.Int32 uOff, System.UInt32[] v, System.Int32 vOff)
-    // Offset: 0x14B304C
+    // Offset: 0x1499A10
     static uint AddToEachOther(::ArrayW<uint> u, int uOff, ::ArrayW<uint> v, int vOff);
     // static public System.Void Copy(System.UInt32[] x, System.Int32 xOff, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x14B325C
+    // Offset: 0x1499C20
     static void Copy(::ArrayW<uint> x, int xOff, ::ArrayW<uint> z, int zOff);
     // static public System.Void Copy64(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x14B339C
+    // Offset: 0x1499D60
     static void Copy64(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Copy64(System.UInt64[] x, System.Int32 xOff, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x14B3414
+    // Offset: 0x1499DD8
     static void Copy64(::ArrayW<uint64_t> x, int xOff, ::ArrayW<uint64_t> z, int zOff);
     // static public System.UInt32[] Create()
-    // Offset: 0x14B34C4
+    // Offset: 0x1499E88
     static ::ArrayW<uint> Create();
     // static public System.UInt64[] Create64()
-    // Offset: 0x14B3510
+    // Offset: 0x1499ED4
     static ::ArrayW<uint64_t> Create64();
     // static public System.UInt32[] CreateExt()
-    // Offset: 0x14B355C
+    // Offset: 0x1499F20
     static ::ArrayW<uint> CreateExt();
     // static public System.UInt64[] CreateExt64()
-    // Offset: 0x14B35A8
+    // Offset: 0x1499F6C
     static ::ArrayW<uint64_t> CreateExt64();
     // static public System.Boolean Diff(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x14B35F4
+    // Offset: 0x1499FB8
     static bool Diff(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> z, int zOff);
     // static public System.Boolean Eq(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x14B391C
+    // Offset: 0x149A2E0
     static bool Eq(::ArrayW<uint> x, ::ArrayW<uint> y);
     // static public System.Boolean Eq64(System.UInt64[] x, System.UInt64[] y)
-    // Offset: 0x14B398C
+    // Offset: 0x149A350
     static bool Eq64(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x14B39FC
+    // Offset: 0x149A3C0
     static ::ArrayW<uint> FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
     // static public System.UInt32 GetBit(System.UInt32[] x, System.Int32 bit)
-    // Offset: 0x14B3B00
+    // Offset: 0x149A4C4
     static uint GetBit(::ArrayW<uint> x, int bit);
     // static public System.Boolean Gte(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x14B3B78
+    // Offset: 0x149A53C
     static bool Gte(::ArrayW<uint> x, ::ArrayW<uint> y);
     // static public System.Boolean Gte(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff)
-    // Offset: 0x14B367C
+    // Offset: 0x149A040
     static bool Gte(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff);
     // static public System.Boolean IsOne(System.UInt32[] x)
-    // Offset: 0x14B3BF4
+    // Offset: 0x149A5B8
     static bool IsOne(::ArrayW<uint> x);
     // static public System.Boolean IsOne64(System.UInt64[] x)
-    // Offset: 0x14B3C60
+    // Offset: 0x149A624
     static bool IsOne64(::ArrayW<uint64_t> x);
     // static public System.Boolean IsZero(System.UInt32[] x)
-    // Offset: 0x14B3CCC
+    // Offset: 0x149A690
     static bool IsZero(::ArrayW<uint> x);
     // static public System.Boolean IsZero64(System.UInt64[] x)
-    // Offset: 0x14B3D2C
+    // Offset: 0x149A6F0
     static bool IsZero64(::ArrayW<uint64_t> x);
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x14B3D8C
+    // Offset: 0x149A750
     static void Mul(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> zz);
     // static public System.Void Mul(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] zz, System.Int32 zzOff)
-    // Offset: 0x14B3F68
+    // Offset: 0x149A92C
     static void Mul(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> zz, int zzOff);
     // static public System.UInt32 MulAddTo(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x14B4244
+    // Offset: 0x149AC08
     static uint MulAddTo(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> zz);
     // static public System.UInt64 Mul33Add(System.UInt32 w, System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x14B43B8
+    // Offset: 0x149AD7C
     static uint64_t Mul33Add(uint w, ::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> z, int zOff);
     // static public System.UInt32 Mul33DWordAdd(System.UInt32 x, System.UInt64 y, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x14B45E4
+    // Offset: 0x149AFA8
     static uint Mul33DWordAdd(uint x, uint64_t y, ::ArrayW<uint> z, int zOff);
     // static public System.UInt32 Mul33WordAdd(System.UInt32 x, System.UInt32 y, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x14B46C4
+    // Offset: 0x149B088
     static uint Mul33WordAdd(uint x, uint y, ::ArrayW<uint> z, int zOff);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] zz)
-    // Offset: 0x14B4778
+    // Offset: 0x149B13C
     static void Square(::ArrayW<uint> x, ::ArrayW<uint> zz);
     // static public System.Void Square(System.UInt32[] x, System.Int32 xOff, System.UInt32[] zz, System.Int32 zzOff)
-    // Offset: 0x14B4A34
+    // Offset: 0x149B3F8
     static void Square(::ArrayW<uint> x, int xOff, ::ArrayW<uint> zz, int zzOff);
     // static public System.Int32 Sub(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x14B4E50
+    // Offset: 0x149B814
     static int Sub(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.Int32 Sub(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x14B3708
+    // Offset: 0x149A0CC
     static int Sub(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> z, int zOff);
     // static public System.Int32 SubFrom(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x14B4FC0
+    // Offset: 0x149B984
     static int SubFrom(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger(System.UInt32[] x)
-    // Offset: 0x14B50E8
+    // Offset: 0x149BAAC
     static Org::BouncyCastle::Math::BigInteger* ToBigInteger(::ArrayW<uint> x);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger64(System.UInt64[] x)
-    // Offset: 0x14B51CC
+    // Offset: 0x149BB90
     static Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::ArrayW<uint64_t> x);
   }; // Org.BouncyCastle.Math.Raw.Nat192
   #pragma pack(pop)

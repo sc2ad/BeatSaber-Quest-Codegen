@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [HeaderAttribute] Offset: 0xF0BA60
+    // [HeaderAttribute] Offset: 0xF0B6D8
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xF0BABC
+    // [HeaderAttribute] Offset: 0xF0B734
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0BB18
+    // [SpaceAttribute] Offset: 0xF0B790
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -96,25 +96,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // public UnityEngine.Sprite get_falseSprite()
-    // Offset: 0x119DC1C
+    // Offset: 0x1132570
     UnityEngine::Sprite* get_falseSprite();
     // public System.Void set_falseSprite(UnityEngine.Sprite value)
-    // Offset: 0x119DC24
+    // Offset: 0x1132578
     void set_falseSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_trueSprite()
-    // Offset: 0x119DC2C
+    // Offset: 0x1132580
     UnityEngine::Sprite* get_trueSprite();
     // public System.Void set_trueSprite(UnityEngine.Sprite value)
-    // Offset: 0x119DC34
+    // Offset: 0x1132588
     void set_trueSprite(UnityEngine::Sprite* value);
     // protected System.Void Awake()
-    // Offset: 0x119DC3C
+    // Offset: 0x1132590
     void Awake();
     // public System.Void Apply()
-    // Offset: 0x119DC40
+    // Offset: 0x1132594
     void Apply();
     // public System.Void .ctor()
-    // Offset: 0x119DCE8
+    // Offset: 0x113263C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

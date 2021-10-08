@@ -28,12 +28,12 @@ namespace System::Net::Configuration {
   class ConnectionManagementSection : public System::Configuration::ConfigurationSection {
     public:
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x156FCF8
+    // Offset: 0x15566BC
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x156FCB8
+    // Offset: 0x155667C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

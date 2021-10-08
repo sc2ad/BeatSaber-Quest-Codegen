@@ -38,25 +38,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAnalyticsModel*>(this);
     }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0x115C83C
+    // Offset: 0x115985C
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0x115C844
+    // Offset: 0x1159864
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x115C848
+    // Offset: 0x1159868
     void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
     // public System.Void LogClick(System.String clickType, System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
-    // Offset: 0x115C9AC
+    // Offset: 0x11599CC
     void LogClick(::Il2CppString* clickType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* clickData);
     // public System.Void LogImpression(System.String impressionType, System.Collections.Generic.Dictionary`2<System.String,System.String> impressionData)
-    // Offset: 0x115CA5C
+    // Offset: 0x1159A7C
     void LogImpression(::Il2CppString* impressionType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* impressionData);
     // public System.Void LogExposure(System.String exposureType, System.Collections.Generic.Dictionary`2<System.String,System.String> exposureData)
-    // Offset: 0x115CB0C
+    // Offset: 0x1159B2C
     void LogExposure(::Il2CppString* exposureType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* exposureData);
     // public System.Void .ctor()
-    // Offset: 0x115CBBC
+    // Offset: 0x1159BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

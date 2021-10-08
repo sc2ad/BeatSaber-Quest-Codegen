@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawButton resetButton
     GlobalNamespace::OVRInput::RawButton& dyn_resetButton();
     // private System.Void Start()
-    // Offset: 0x1465920
+    // Offset: 0x144B2E4
     void Start();
     // private System.Void Update()
-    // Offset: 0x14659C0
+    // Offset: 0x144B384
     void Update();
     // private System.Void TestPowerStateMode()
-    // Offset: 0x1465B40
+    // Offset: 0x144B504
     void TestPowerStateMode();
     // public System.Void .ctor()
-    // Offset: 0x1465C7C
+    // Offset: 0x144B640
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

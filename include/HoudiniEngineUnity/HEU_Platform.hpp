@@ -40,100 +40,100 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Boolean _pathSet
     static void _set__pathSet(bool value);
     // static public System.String get_LibPath()
-    // Offset: 0x17B3208
+    // Offset: 0x1796BCC
     static ::Il2CppString* get_LibPath();
     // static public System.Boolean get_IsPathSet()
-    // Offset: 0x17B3270
+    // Offset: 0x1796C34
     static bool get_IsPathSet();
     // static public System.Char get_DirectorySeparator()
-    // Offset: 0x17B3A14
+    // Offset: 0x17973D8
     static ::Il2CppChar get_DirectorySeparator();
     // static public System.String get_DirectorySeparatorStr()
-    // Offset: 0x17B1380
+    // Offset: 0x1794D44
     static ::Il2CppString* get_DirectorySeparatorStr();
     // static private System.Void .cctor()
-    // Offset: 0x17B32D8
+    // Offset: 0x1796C9C
     static void _cctor();
     // static public System.String GetHoudiniEnginePath()
-    // Offset: 0x17B3338
+    // Offset: 0x1796CFC
     static ::Il2CppString* GetHoudiniEnginePath();
     // static public System.String GetHoudiniEngineDefaultPath()
-    // Offset: 0x17B339C
+    // Offset: 0x1796D60
     static ::Il2CppString* GetHoudiniEngineDefaultPath();
     // static public System.String GetSavedHoudiniPath()
-    // Offset: 0x17B3414
+    // Offset: 0x1796DD8
     static ::Il2CppString* GetSavedHoudiniPath();
     // static public System.Void SetHapiClientName()
-    // Offset: 0x17B32DC
+    // Offset: 0x1796CA0
     static void SetHapiClientName();
     // static public System.Void SetHoudiniEnginePath()
-    // Offset: 0x17B3334
+    // Offset: 0x1796CF8
     static void SetHoudiniEnginePath();
     // static public System.String GetAllFoldersInPath(System.String path)
-    // Offset: 0x17B35AC
+    // Offset: 0x1796F70
     static ::Il2CppString* GetAllFoldersInPath(::Il2CppString* path);
     // static private System.Void GetAllFoldersInPathHelper(System.String inPath, System.Text.StringBuilder pathBuilder)
-    // Offset: 0x17B3670
+    // Offset: 0x1797034
     static void GetAllFoldersInPathHelper(::Il2CppString* inPath, System::Text::StringBuilder* pathBuilder);
     // static public System.String[] GetFilesInFolder(System.String folderPath, System.String searchPattern, System.Boolean bRecursive)
-    // Offset: 0x17B37CC
+    // Offset: 0x1797190
     static ::ArrayW<::Il2CppString*> GetFilesInFolder(::Il2CppString* folderPath, ::Il2CppString* searchPattern, bool bRecursive);
     // static public System.String GetFileName(System.String path)
-    // Offset: 0x17B3944
+    // Offset: 0x1797308
     static ::Il2CppString* GetFileName(::Il2CppString* path);
     // static public System.String GetFileNameWithoutExtension(System.String path)
-    // Offset: 0x17B39AC
+    // Offset: 0x1797370
     static ::Il2CppString* GetFileNameWithoutExtension(::Il2CppString* path);
     // static public System.String GetFolderPath(System.String path, System.Boolean bRemoveDirectorySeparatorAtEnd)
-    // Offset: 0x17B28C8
+    // Offset: 0x179628C
     static ::Il2CppString* GetFolderPath(::Il2CppString* path, bool bRemoveDirectorySeparatorAtEnd);
     // static public System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
-    // Offset: 0x17A0C18
+    // Offset: 0x17845DC
     static ::Il2CppString* BuildPath(::Il2CppString* folder1, ::Il2CppString* folder2, ::ArrayW<::Il2CppObject*> args);
     // static public System.String TrimLastDirectorySeparator(System.String inPath)
-    // Offset: 0x17B3A1C
+    // Offset: 0x17973E0
     static ::Il2CppString* TrimLastDirectorySeparator(::Il2CppString* inPath);
     // static public System.Boolean DoesPathExist(System.String inPath)
-    // Offset: 0x17B3ACC
+    // Offset: 0x1797490
     static bool DoesPathExist(::Il2CppString* inPath);
     // static public System.Boolean DoesFileExist(System.String inPath)
-    // Offset: 0x17B3B0C
+    // Offset: 0x17974D0
     static bool DoesFileExist(::Il2CppString* inPath);
     // static public System.Boolean DoesDirectoryExist(System.String inPath)
-    // Offset: 0x17B3B14
+    // Offset: 0x17974D8
     static bool DoesDirectoryExist(::Il2CppString* inPath);
     // static public System.Boolean CreateDirectory(System.String inPath)
-    // Offset: 0x17B3B1C
+    // Offset: 0x17974E0
     static bool CreateDirectory(::Il2CppString* inPath);
     // static public System.String GetParentDirectory(System.String inPath)
-    // Offset: 0x17B3B48
+    // Offset: 0x179750C
     static ::Il2CppString* GetParentDirectory(::Il2CppString* inPath);
     // static public System.String GetFullPath(System.String inPath)
-    // Offset: 0x17B3B70
+    // Offset: 0x1797534
     static ::Il2CppString* GetFullPath(::Il2CppString* inPath);
     // static public System.Boolean IsPathRooted(System.String inPath)
-    // Offset: 0x17B3BD8
+    // Offset: 0x179759C
     static bool IsPathRooted(::Il2CppString* inPath);
     // static public System.Void WriteBytes(System.String path, System.Byte[] bytes)
-    // Offset: 0x17B3C40
+    // Offset: 0x1797604
     static void WriteBytes(::Il2CppString* path, ::ArrayW<uint8_t> bytes);
     // static public System.Boolean WriteAllText(System.String path, System.String text)
-    // Offset: 0x17B3C48
+    // Offset: 0x179760C
     static bool WriteAllText(::Il2CppString* path, ::Il2CppString* text);
     // static public System.String ReadAllText(System.String path)
-    // Offset: 0x17B3DD0
+    // Offset: 0x1797794
     static ::Il2CppString* ReadAllText(::Il2CppString* path);
     // static public System.String GetEnvironmentValue(System.String key)
-    // Offset: 0x17B3F68
+    // Offset: 0x179792C
     static ::Il2CppString* GetEnvironmentValue(::Il2CppString* key);
     // static public System.String GetHoudiniEngineEnvironmentFilePathFull()
-    // Offset: 0x17B3FE0
+    // Offset: 0x17979A4
     static ::Il2CppString* GetHoudiniEngineEnvironmentFilePathFull();
     // static public System.Boolean LoadFileIntoMemory(System.String path, out System.Byte[] buffer)
-    // Offset: 0x17B40A0
+    // Offset: 0x1797A64
     static bool LoadFileIntoMemory(::Il2CppString* path, ByRef<::ArrayW<uint8_t>> buffer);
     // public System.Void .ctor()
-    // Offset: 0x17B42C4
+    // Offset: 0x1797C88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

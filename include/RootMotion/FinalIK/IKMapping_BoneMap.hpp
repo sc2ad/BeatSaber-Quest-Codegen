@@ -221,82 +221,82 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 plane3NodeIndex
     int& dyn_plane3NodeIndex();
     // public UnityEngine.Vector3 get_swingDirection()
-    // Offset: 0x1E97774
+    // Offset: 0x1E7D1D8
     UnityEngine::Vector3 get_swingDirection();
     // public System.Boolean get_isNodeBone()
-    // Offset: 0x1E978E0
+    // Offset: 0x1E7D344
     bool get_isNodeBone();
     // private UnityEngine.Quaternion get_lastAnimatedTargetRotation()
-    // Offset: 0x1E97EC4
+    // Offset: 0x1E7D928
     UnityEngine::Quaternion get_lastAnimatedTargetRotation();
     // public System.Void Initiate(UnityEngine.Transform transform, RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1E97748
+    // Offset: 0x1E7D1AC
     void Initiate(UnityEngine::Transform* transform, RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1E97840
+    // Offset: 0x1E7D2A4
     void StoreDefaultLocalState();
     // public System.Void FixTransform(System.Boolean position)
-    // Offset: 0x1E97890
+    // Offset: 0x1E7D2F4
     void FixTransform(bool position);
     // public System.Void SetLength(RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap nextBone)
-    // Offset: 0x1E978F0
+    // Offset: 0x1E7D354
     void SetLength(RootMotion::FinalIK::IKMapping::BoneMap* nextBone);
     // public System.Void SetLocalSwingAxis(RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap swingTarget)
-    // Offset: 0x1E979D8
+    // Offset: 0x1E7D43C
     void SetLocalSwingAxis(RootMotion::FinalIK::IKMapping::BoneMap* swingTarget);
     // public System.Void SetLocalSwingAxis(RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap bone1, RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap bone2)
-    // Offset: 0x1E979E0
+    // Offset: 0x1E7D444
     void SetLocalSwingAxis(RootMotion::FinalIK::IKMapping::BoneMap* bone1, RootMotion::FinalIK::IKMapping::BoneMap* bone2);
     // public System.Void SetLocalTwistAxis(UnityEngine.Vector3 twistDirection, UnityEngine.Vector3 normalDirection)
-    // Offset: 0x1E97B70
+    // Offset: 0x1E7D5D4
     void SetLocalTwistAxis(UnityEngine::Vector3 twistDirection, UnityEngine::Vector3 normalDirection);
     // public System.Void SetPlane(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Transform planeBone1, UnityEngine.Transform planeBone2, UnityEngine.Transform planeBone3)
-    // Offset: 0x1E97C7C
+    // Offset: 0x1E7D6E0
     void SetPlane(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Transform* planeBone1, UnityEngine::Transform* planeBone2, UnityEngine::Transform* planeBone3);
     // public System.Void UpdatePlane(System.Boolean rotation, System.Boolean position)
-    // Offset: 0x1E97D14
+    // Offset: 0x1E7D778
     void UpdatePlane(bool rotation, bool position);
     // public System.Void SetIKPosition()
-    // Offset: 0x1E980E8
+    // Offset: 0x1E7DB4C
     void SetIKPosition();
     // public System.Void MaintainRotation()
-    // Offset: 0x1E98120
+    // Offset: 0x1E7DB84
     void MaintainRotation();
     // public System.Void SetToIKPosition()
-    // Offset: 0x1E98158
+    // Offset: 0x1E7DBBC
     void SetToIKPosition();
     // public System.Void FixToNode(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight, RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node fixNode)
-    // Offset: 0x1E98180
+    // Offset: 0x1E7DBE4
     void FixToNode(RootMotion::FinalIK::IKSolverFullBody* solver, float weight, RootMotion::FinalIK::IKSolver::Node* fixNode);
     // public UnityEngine.Vector3 GetPlanePosition(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1E982AC
+    // Offset: 0x1E7DD10
     UnityEngine::Vector3 GetPlanePosition(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void PositionToPlane(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1E985F4
+    // Offset: 0x1E7E058
     void PositionToPlane(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void RotateToPlane(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight)
-    // Offset: 0x1E98624
+    // Offset: 0x1E7E088
     void RotateToPlane(RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
     // public System.Void Swing(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x1E987BC
+    // Offset: 0x1E7E220
     void Swing(UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single weight)
-    // Offset: 0x1E9882C
+    // Offset: 0x1E7E290
     void Swing(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float weight);
     // public System.Void Twist(UnityEngine.Vector3 twistDirection, UnityEngine.Vector3 normalDirection, System.Single weight)
-    // Offset: 0x1E98A70
+    // Offset: 0x1E7E4D4
     void Twist(UnityEngine::Vector3 twistDirection, UnityEngine::Vector3 normalDirection, float weight);
     // public System.Void RotateToMaintain(System.Single weight)
-    // Offset: 0x1E98C98
+    // Offset: 0x1E7E6FC
     void RotateToMaintain(float weight);
     // public System.Void RotateToEffector(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight)
-    // Offset: 0x1E98DB0
+    // Offset: 0x1E7E814
     void RotateToEffector(RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
     // private UnityEngine.Quaternion GetTargetRotation(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1E983F0
+    // Offset: 0x1E7DE54
     UnityEngine::Quaternion GetTargetRotation(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void .ctor()
-    // Offset: 0x1E98F4C
+    // Offset: 0x1E7E9B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

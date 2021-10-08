@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
     ::ArrayW<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>& dyn_perceivedLoudnessPerLevel();
     // public System.Void .ctor()
-    // Offset: 0x12B07DC
+    // Offset: 0x12C2534
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

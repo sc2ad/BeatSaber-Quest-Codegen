@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFF844
+    // [InjectAttribute] Offset: 0xEFF4AC
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x30
@@ -75,13 +75,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0x11A5CBC
+    // Offset: 0x113A384
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu)
-    // Offset: 0x11A5CC4
+    // Offset: 0x113A38C
     void TransitionToNextScene(bool goStraightToMenu);
     // public System.Void .ctor()
-    // Offset: 0x11A5DD0
+    // Offset: 0x113A498
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,22 +22,22 @@ namespace GlobalNamespace {
   class PlayerDataModelHelper : public ::Il2CppObject {
     public:
     // static public PlayerAllOverallStatsData ToPlayerAllOverallStatsData(PlayerSaveData/PlayerAllOverallStatsData playerAllOverallStatsData)
-    // Offset: 0x12B8470
+    // Offset: 0x12CA1C8
     static GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData);
     // static public PlayerAllOverallStatsData ToPlayerAllOverallStatsData(PlayerSaveDataV1_0_1/PlayerAllOverallStatsData playerAllOverallStatsData)
-    // Offset: 0x12B888C
+    // Offset: 0x12CA5E4
     static GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* playerAllOverallStatsData);
     // static public PlayerAllOverallStatsData/PlayerOverallStatsData ToPlayerOverallStats(PlayerSaveData/PlayerOverallStatsData playerAllOverallStatsData)
-    // Offset: 0x12B8CDC
+    // Offset: 0x12CAA34
     static GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* ToPlayerOverallStats(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* playerAllOverallStatsData);
     // static public PlayerAllOverallStatsData/PlayerOverallStatsData ToPlayerOverallStats(PlayerSaveDataV1_0_1/PlayerOverallStatsData playerAllOverallStatsData)
-    // Offset: 0x12B8DB8
+    // Offset: 0x12CAB10
     static GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* ToPlayerOverallStats(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* playerAllOverallStatsData);
     // static public PlayerSaveData/PlayerAllOverallStatsData ToPlayerAllOverallStatsData(PlayerAllOverallStatsData playerAllOverallStatsData)
-    // Offset: 0x12B6AA8
+    // Offset: 0x12C8800
     static GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData);
     // static public PlayerSaveData/PlayerOverallStatsData ToPlayerOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
-    // Offset: 0x12B8F50
+    // Offset: 0x12CACA8
     static GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* ToPlayerOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);
   }; // PlayerDataModelHelper
   #pragma pack(pop)

@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // [InjectAttribute] Offset: 0xEFF6B4
+    // [InjectAttribute] Offset: 0xEFF31C
     // private NetEaseManager _netEaseManager
     // Size: 0x8
     // Offset: 0x80
@@ -112,25 +112,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasScoresData
     bool& dyn__hasScoresData();
     // private System.Void HandleLoadingControlDidPressRefreshButton()
-    // Offset: 0x1136A94
+    // Offset: 0x111FA30
     void HandleLoadingControlDidPressRefreshButton();
     // public System.Void Refresh()
-    // Offset: 0x11360B4
+    // Offset: 0x111F050
     void Refresh();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1136728
+    // Offset: 0x111F6C4
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1136B14
+    // Offset: 0x111FAB0
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0x1136BD0
+    // Offset: 0x111FB6C
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0x1136AA0
+    // Offset: 0x111FA3C
     void ClearContent();
     // public System.Void .ctor()
-    // Offset: 0x1136C90
+    // Offset: 0x111FC2C
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -145,22 +145,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseLeaderboardViewController*, creationType>()));
     }
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11366F0
+    // Offset: 0x111F68C
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11368C8
+    // Offset: 0x111F864
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x113698C
+    // Offset: 0x111F928
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x11369B8
+    // Offset: 0x111F954
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

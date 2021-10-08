@@ -68,29 +68,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x256F608
+    // Offset: 0x255406C
     // ABORTED: conflicts with another method.  ColorSerializable(UnityEngine::Color color);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x256F614
+    // Offset: 0x2554078
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x256F678
+    // Offset: 0x25540DC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(ColorSerializable other)
-    // Offset: 0x256F6E8
+    // Offset: 0x255414C
     bool Equals(GlobalNamespace::ColorSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x256F82C
+    // Offset: 0x2554290
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x256F8BC
+    // Offset: 0x2554320
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x256F8C4
+    // Offset: 0x2554328
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

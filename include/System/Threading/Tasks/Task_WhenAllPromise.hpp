@@ -53,17 +53,17 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x19B92BC
+    // Offset: 0x199DC80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise* New_ctor(::ArrayW<System::Threading::Tasks::Task*> tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x19B944C
+    // Offset: 0x199DE10
     void Invoke(System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x19B9750
+    // Offset: 0x199E114
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();

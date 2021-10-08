@@ -108,14 +108,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0E40C
+    // [InjectAttribute] Offset: 0xF0E094
     // private MainSettingsMenuViewController _mainSettingsMenuViewController
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::MainSettingsMenuViewController* mainSettingsMenuViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsMenuViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0E41C
+    // [InjectAttribute] Offset: 0xF0E0A4
     // private SettingsNavigationController _settingsNavigationController
     // Size: 0x8
     // Offset: 0xB8
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0E43C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0E0C4
     // Get static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
     static int _get__selectedSettingsSubMenuInfoIdx();
     // Set static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
@@ -143,31 +143,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> didFinishEvent
     System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0x11031A0
+    // Offset: 0x1140210
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0x1103244
+    // Offset: 0x11402B4
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // public System.Void ShowSecretViewController(HMUI.ViewController viewController)
-    // Offset: 0x11037BC
+    // Offset: 0x114082C
     void ShowSecretViewController(HMUI::ViewController* viewController);
     // private System.Void HandleDidSelectSettingsSubMenu(SettingsSubMenuInfo settingsSubMenuInfo, System.Int32 idx)
-    // Offset: 0x1103864
+    // Offset: 0x11408D4
     void HandleDidSelectSettingsSubMenu(GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int idx);
     // private System.Void ReplaceViewController(HMUI.ViewController viewController)
-    // Offset: 0x11037C0
+    // Offset: 0x1140830
     void ReplaceViewController(HMUI::ViewController* viewController);
     // private System.Void HandleSettingsNavigationControllerDidFinish(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0x11038F0
+    // Offset: 0x1140960
     void HandleSettingsNavigationControllerDidFinish(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void ApplySettings()
-    // Offset: 0x11039CC
+    // Offset: 0x1140A3C
     void ApplySettings();
     // private System.Void CancelSettings()
-    // Offset: 0x1103A0C
+    // Offset: 0x1140A7C
     void CancelSettings();
     // public System.Void .ctor()
-    // Offset: 0x1103A2C
+    // Offset: 0x1140A9C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -181,17 +181,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SettingsFlowCoordinator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1103A34
+    // Offset: 0x1140AA4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11032E8
+    // Offset: 0x1140358
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1103624
+    // Offset: 0x1140694
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

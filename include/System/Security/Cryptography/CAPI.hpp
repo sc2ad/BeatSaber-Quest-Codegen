@@ -22,10 +22,10 @@ namespace System::Security::Cryptography {
   class CAPI : public ::Il2CppObject {
     public:
     // static public System.String CryptFindOIDInfoNameFromKey(System.String key, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x178AACC
+    // Offset: 0x176F490
     static ::Il2CppString* CryptFindOIDInfoNameFromKey(::Il2CppString* key, System::Security::Cryptography::OidGroup oidGroup);
     // static public System.String CryptFindOIDInfoKeyFromName(System.String name, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x178B324
+    // Offset: 0x176FCE8
     static ::Il2CppString* CryptFindOIDInfoKeyFromName(::Il2CppString* name, System::Security::Cryptography::OidGroup oidGroup);
   }; // System.Security.Cryptography.CAPI
   #pragma pack(pop)

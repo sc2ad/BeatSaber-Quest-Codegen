@@ -66,25 +66,25 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector3Int _current
     UnityEngine::Vector3Int& dyn__current();
     // public UnityEngine.Vector3Int get_Current()
-    // Offset: 0x1CB0090
+    // Offset: 0x1C92A54
     UnityEngine::Vector3Int get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1CB00A0
+    // Offset: 0x1C92A64
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(UnityEngine.Vector3Int min, UnityEngine.Vector3Int max)
-    // Offset: 0x1CAFE34
+    // Offset: 0x1C927F8
     PositionEnumerator(UnityEngine::Vector3Int min, UnityEngine::Vector3Int max);
     // public UnityEngine.BoundsInt/UnityEngine.PositionEnumerator GetEnumerator()
-    // Offset: 0x1CAFEC4
+    // Offset: 0x1C92888
     UnityEngine::BoundsInt::PositionEnumerator GetEnumerator();
     // public System.Boolean MoveNext()
-    // Offset: 0x1CAFED8
+    // Offset: 0x1C9289C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CAFE80
+    // Offset: 0x1C92844
     void Reset();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1CB010C
+    // Offset: 0x1C92AD0
     void System_IDisposable_Dispose();
   }; // UnityEngine.BoundsInt/UnityEngine.PositionEnumerator
   #pragma pack(pop)

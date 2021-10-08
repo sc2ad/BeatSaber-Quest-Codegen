@@ -75,13 +75,13 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable signature
     GlobalNamespace::ByteArrayNetSerializable*& dyn_signature();
     // static public PacketPool`1<MasterServer.ServerHelloRequest> get_pool()
-    // Offset: 0x12DD718
+    // Offset: 0x12EEA8C
     static GlobalNamespace::PacketPool_1<MasterServer::ServerHelloRequest*>* get_pool();
     // public MasterServer.ServerHelloRequest Init(System.Byte[] random, System.Byte[] publicKey, System.Byte[] signature)
-    // Offset: 0x12E48B8
+    // Offset: 0x12F5C2C
     MasterServer::ServerHelloRequest* Init(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::ArrayW<uint8_t> signature);
     // public System.Void .ctor()
-    // Offset: 0x12E4A78
+    // Offset: 0x12F5DEC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -91,17 +91,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ServerHelloRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12E4924
+    // Offset: 0x12F5C98
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12E4988
+    // Offset: 0x12F5CFC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12E49EC
+    // Offset: 0x12F5D60
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfParticles and: nameText
     char __padding9[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF07240
+    // [SpaceAttribute] Offset: 0xF06EA8
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x80
@@ -170,22 +170,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionObjectiveChecker _missionObjectiveChecker
     GlobalNamespace::MissionObjectiveChecker*& dyn__missionObjectiveChecker();
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x118C018
+    // Offset: 0x12108DC
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x118C3C4
+    // Offset: 0x1210C88
     void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x118C3C8
+    // Offset: 0x1210C8C
     void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0x118C254
+    // Offset: 0x1210B18
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0x118C368
+    // Offset: 0x1210C2C
     void RefreshValue();
     // public System.Void .ctor()
-    // Offset: 0x118C3CC
+    // Offset: 0x1210C90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

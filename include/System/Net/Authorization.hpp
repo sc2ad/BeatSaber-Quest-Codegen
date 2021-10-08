@@ -51,20 +51,20 @@ namespace System::Net {
     // Get instance field reference: System.String ModuleAuthenticationType
     ::Il2CppString*& dyn_ModuleAuthenticationType();
     // public System.String get_Message()
-    // Offset: 0x156E0B4
+    // Offset: 0x1554A78
     ::Il2CppString* get_Message();
     // public System.Boolean get_Complete()
-    // Offset: 0x156E0BC
+    // Offset: 0x1554A80
     bool get_Complete();
     // public System.Void .ctor(System.String token)
-    // Offset: 0x156DF90
+    // Offset: 0x1554954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
-    // Offset: 0x156E020
+    // Offset: 0x15549E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token, bool finished) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");

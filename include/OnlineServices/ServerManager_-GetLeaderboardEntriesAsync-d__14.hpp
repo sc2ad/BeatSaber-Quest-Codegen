@@ -106,10 +106,10 @@ namespace OnlineServices {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.GetLeaderboardEntriesResult> <>u__2
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x1121FA4
+    // Offset: 0x11093C8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1122310
+    // Offset: 0x1109734
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.ServerManager/OnlineServices.<GetLeaderboardEntriesAsync>d__14
   // WARNING Not writing size check since size may be invalid!

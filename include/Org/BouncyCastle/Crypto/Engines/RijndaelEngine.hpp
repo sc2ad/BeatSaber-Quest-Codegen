@@ -175,89 +175,89 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] shifts1SC
     ::ArrayW<uint8_t>& dyn_shifts1SC();
     // public System.String get_AlgorithmName()
-    // Offset: 0x203E5E0
+    // Offset: 0x2029044
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x203E628
+    // Offset: 0x202908C
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(System.Int32 blockBits)
-    // Offset: 0x203E138
+    // Offset: 0x2028B9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RijndaelEngine* New_ctor(int blockBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::RijndaelEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RijndaelEngine*, creationType>(blockBits)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x203EC4C
+    // Offset: 0x20296B0
     static void _cctor();
     // private System.Byte Mul0x2(System.Int32 b)
-    // Offset: 0x203CD4C
+    // Offset: 0x20277B0
     uint8_t Mul0x2(int b);
     // private System.Byte Mul0x3(System.Int32 b)
-    // Offset: 0x203CE0C
+    // Offset: 0x2027870
     uint8_t Mul0x3(int b);
     // private System.Byte Mul0x9(System.Int32 b)
-    // Offset: 0x203CECC
+    // Offset: 0x2027930
     uint8_t Mul0x9(int b);
     // private System.Byte Mul0xb(System.Int32 b)
-    // Offset: 0x203CF70
+    // Offset: 0x20279D4
     uint8_t Mul0xb(int b);
     // private System.Byte Mul0xd(System.Int32 b)
-    // Offset: 0x203D014
+    // Offset: 0x2027A78
     uint8_t Mul0xd(int b);
     // private System.Byte Mul0xe(System.Int32 b)
-    // Offset: 0x203D0B8
+    // Offset: 0x2027B1C
     uint8_t Mul0xe(int b);
     // private System.Void KeyAddition(System.Int64[] rk)
-    // Offset: 0x203D15C
+    // Offset: 0x2027BC0
     void KeyAddition(::ArrayW<int64_t> rk);
     // private System.Int64 Shift(System.Int64 r, System.Int32 shift)
-    // Offset: 0x203D1EC
+    // Offset: 0x2027C50
     int64_t Shift(int64_t r, int shift);
     // private System.Void ShiftRow(System.Byte[] shiftsSC)
-    // Offset: 0x203D218
+    // Offset: 0x2027C7C
     void ShiftRow(::ArrayW<uint8_t> shiftsSC);
     // private System.Int64 ApplyS(System.Int64 r, System.Byte[] box)
-    // Offset: 0x203D2EC
+    // Offset: 0x2027D50
     int64_t ApplyS(int64_t r, ::ArrayW<uint8_t> box);
     // private System.Void Substitution(System.Byte[] box)
-    // Offset: 0x203D360
+    // Offset: 0x2027DC4
     void Substitution(::ArrayW<uint8_t> box);
     // private System.Void MixColumn()
-    // Offset: 0x203D3D0
+    // Offset: 0x2027E34
     void MixColumn();
     // private System.Void InvMixColumn()
-    // Offset: 0x203D574
+    // Offset: 0x2027FD8
     void InvMixColumn();
     // private System.Int64[][] GenerateWorkingKey(System.Byte[] key)
-    // Offset: 0x203D8B8
+    // Offset: 0x202831C
     ::ArrayW<::ArrayW<int64_t>> GenerateWorkingKey(::ArrayW<uint8_t> key);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x203E450
+    // Offset: 0x2028EB4
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x203E630
+    // Offset: 0x2029094
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x203E644
+    // Offset: 0x20290A8
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x203EC48
+    // Offset: 0x20296AC
     void Reset();
     // private System.Void UnPackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x203E78C
+    // Offset: 0x20291F0
     void UnPackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void PackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x203EB7C
+    // Offset: 0x20295E0
     void PackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void EncryptBlock(System.Int64[][] rk)
-    // Offset: 0x203E8D0
+    // Offset: 0x2029334
     void EncryptBlock(::ArrayW<::ArrayW<int64_t>> rk);
     // private System.Void DecryptBlock(System.Int64[][] rk)
-    // Offset: 0x203EA30
+    // Offset: 0x2029494
     void DecryptBlock(::ArrayW<::ArrayW<int64_t>> rk);
     // public System.Void .ctor()
-    // Offset: 0x203E130
+    // Offset: 0x2028B94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

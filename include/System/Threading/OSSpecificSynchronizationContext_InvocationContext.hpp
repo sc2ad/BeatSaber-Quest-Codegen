@@ -50,14 +50,14 @@ namespace System::Threading {
     // Get instance field reference: private System.Object m_State
     ::Il2CppObject*& dyn_m_State();
     // public System.Void .ctor(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1A5AFE4
+    // Offset: 0x1A409A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext::InvocationContext* New_ctor(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::OSSpecificSynchronizationContext::InvocationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::InvocationContext*, creationType>(d, state)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1A5B020
+    // Offset: 0x1A409E4
     void Invoke();
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.InvocationContext
   #pragma pack(pop)

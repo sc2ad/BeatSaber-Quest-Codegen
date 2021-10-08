@@ -25,21 +25,21 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF6948
+    // [TooltipAttribute] Offset: 0xEF65B0
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF6980
+    // [TooltipAttribute] Offset: 0xEF65E8
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF69B8
+    // [TooltipAttribute] Offset: 0xEF6620
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
     // Size: 0x4
     // Offset: 0x18
@@ -54,10 +54,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_result();
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve weightCurve, System.Single timer)
-    // Offset: 0x1FEB48C
+    // Offset: 0x1FD2EF0
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);
     // public System.Void .ctor()
-    // Offset: 0x1FEB934
+    // Offset: 0x1FD3398
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -121,10 +121,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x114BBB4
+    // Offset: 0x11DFDC0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x114C4DC
+    // Offset: 0x11E06E8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelBar/<Setup>d__17
   // WARNING Not writing size check since size may be invalid!

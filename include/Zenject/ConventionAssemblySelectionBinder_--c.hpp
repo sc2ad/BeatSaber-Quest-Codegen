@@ -45,13 +45,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Reflection.Assembly> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14FA69C
+    // Offset: 0x14E1060
     static void _cctor();
     // System.Reflection.Assembly <FromAssembliesContaining>b__8_0(System.Type t)
-    // Offset: 0x14FA708
+    // Offset: 0x14E10CC
     System::Reflection::Assembly* $FromAssembliesContaining$b__8_0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x14FA700
+    // Offset: 0x14E10C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

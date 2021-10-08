@@ -54,14 +54,14 @@ namespace HMUI {
     float maxValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0xEE2278
+    // [NullAllowed] Offset: 0xEE1C98
     // private UnityEngine.UI.Button _decButton
     // Size: 0x8
     // Offset: 0x148
     UnityEngine::UI::Button* decButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0xEE22B0
+    // [NullAllowed] Offset: 0xEE1CD0
     // private UnityEngine.UI.Button _incButton
     // Size: 0x8
     // Offset: 0x150
@@ -94,49 +94,49 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Single get_minValue()
-    // Offset: 0x1414160
+    // Offset: 0x13F7B24
     float get_minValue();
     // public System.Void set_minValue(System.Single value)
-    // Offset: 0x1414168
+    // Offset: 0x13F7B2C
     void set_minValue(float value);
     // public System.Single get_maxValue()
-    // Offset: 0x14141F0
+    // Offset: 0x13F7BB4
     float get_maxValue();
     // public System.Void set_maxValue(System.Single value)
-    // Offset: 0x14141F8
+    // Offset: 0x13F7BBC
     void set_maxValue(float value);
     // public System.Single get_value()
-    // Offset: 0x14142BC
+    // Offset: 0x13F7C80
     float get_value();
     // public System.Void set_value(System.Single value)
-    // Offset: 0x1414280
+    // Offset: 0x13F7C44
     void set_value(float value);
     // public System.Void add_valueDidChangeEvent(System.Action`2<HMUI.RangeValuesTextSlider,System.Single> value)
-    // Offset: 0x1414414
+    // Offset: 0x13F7DD8
     void add_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<HMUI.RangeValuesTextSlider,System.Single> value)
-    // Offset: 0x14144BC
+    // Offset: 0x13F7E80
     void remove_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider*, float>* value);
     // private System.Void HandleNormalizedValueDidChange(HMUI.TextSlider slider, System.Single normalizedValue)
-    // Offset: 0x1414910
+    // Offset: 0x13F82D4
     void HandleNormalizedValueDidChange(HMUI::TextSlider* slider, float normalizedValue);
     // public System.Single ConvertFromNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x14143FC
+    // Offset: 0x13F7DC0
     float ConvertFromNormalizedValue(float normalizedValue);
     // public System.Single NormalizeValue(System.Single rangeValue)
-    // Offset: 0x141429C
+    // Offset: 0x13F7C60
     float NormalizeValue(float rangeValue);
     // protected System.String TextForValue(System.Single value)
-    // Offset: 0x14149BC
+    // Offset: 0x13F8380
     ::Il2CppString* TextForValue(float value);
     // private System.Void <Awake>b__17_0()
-    // Offset: 0x1414ABC
+    // Offset: 0x13F8480
     void $Awake$b__17_0();
     // private System.Void <Awake>b__17_1()
-    // Offset: 0x1414B14
+    // Offset: 0x13F84D8
     void $Awake$b__17_1();
     // public System.Void .ctor()
-    // Offset: 0x1414154
+    // Offset: 0x13F7B18
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -152,17 +152,17 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<RangeValuesTextSlider*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1414564
+    // Offset: 0x13F7F28
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x14147D0
+    // Offset: 0x13F8194
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x1414998
+    // Offset: 0x13F835C
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
     ::Il2CppString* TextForNormalizedValue(float normalizedValue);

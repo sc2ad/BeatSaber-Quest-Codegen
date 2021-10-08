@@ -39,34 +39,34 @@ namespace System {
     // Set static field: static private System.Boolean called_isatty
     static void _set_called_isatty(bool value);
     // static public System.Boolean get_IsConsole()
-    // Offset: 0x1B17CC8
+    // Offset: 0x1AFB68C
     static bool get_IsConsole();
     // static private System.Void .cctor()
-    // Offset: 0x1B1941C
+    // Offset: 0x1AFCDE0
     static void _cctor();
     // static private System.IConsoleDriver CreateNullConsoleDriver()
-    // Offset: 0x1B194DC
+    // Offset: 0x1AFCEA0
     static System::IConsoleDriver* CreateNullConsoleDriver();
     // static private System.IConsoleDriver CreateWindowsConsoleDriver()
-    // Offset: 0x1B19538
+    // Offset: 0x1AFCEFC
     static System::IConsoleDriver* CreateWindowsConsoleDriver();
     // static private System.IConsoleDriver CreateTermInfoDriver(System.String term)
-    // Offset: 0x1B19594
+    // Offset: 0x1AFCF58
     static System::IConsoleDriver* CreateTermInfoDriver(::Il2CppString* term);
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x1B184E4
+    // Offset: 0x1AFBEA8
     static System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean Isatty(System.IntPtr handle)
-    // Offset: 0x1B195F8
+    // Offset: 0x1AFCFBC
     static bool Isatty(System::IntPtr handle);
     // static System.Int32 InternalKeyAvailable(System.Int32 ms_timeout)
-    // Offset: 0x1B195FC
+    // Offset: 0x1AFCFC0
     static int InternalKeyAvailable(int ms_timeout);
     // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, out System.Byte[] control_characters, out System.Int32* address)
-    // Offset: 0x1B19600
+    // Offset: 0x1AFCFC4
     static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ByRef<::ArrayW<uint8_t>> control_characters, ByRef<int*> address);
     // static System.Boolean SetEcho(System.Boolean wantEcho)
-    // Offset: 0x1B19604
+    // Offset: 0x1AFCFC8
     static bool SetEcho(bool wantEcho);
   }; // System.ConsoleDriver
   #pragma pack(pop)

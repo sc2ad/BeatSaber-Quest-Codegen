@@ -119,13 +119,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Transform endXform
     UnityEngine::Transform*& dyn_endXform();
     // private System.Void LateUpdate()
-    // Offset: 0x153DD14
+    // Offset: 0x15246D8
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
-    // Offset: 0x153E6BC
+    // Offset: 0x1525080
     static bool Solve(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Vector3 poleVector, float jointDist, float targetDist, ByRef<UnityEngine::Vector3> result, ByRef<UnityEngine::Vector3> forward, ByRef<UnityEngine::Vector3> up);
     // public System.Void .ctor()
-    // Offset: 0x153EBD4
+    // Offset: 0x1525598
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

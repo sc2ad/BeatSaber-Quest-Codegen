@@ -72,19 +72,19 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _canBeUppercase
     bool& dyn__canBeUppercase();
     // public UnityEngine.KeyCode get_keyCode()
-    // Offset: 0x1422954
+    // Offset: 0x1406318
     UnityEngine::KeyCode get_keyCode();
     // public System.Boolean get_canBeUppercase()
-    // Offset: 0x142295C
+    // Offset: 0x1406320
     bool get_canBeUppercase();
     // protected System.Void Awake()
-    // Offset: 0x1422964
+    // Offset: 0x1406328
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x1422A28
+    // Offset: 0x14063EC
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1422B24
+    // Offset: 0x14064E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

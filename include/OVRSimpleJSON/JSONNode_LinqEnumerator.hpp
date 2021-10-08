@@ -62,32 +62,32 @@ namespace OVRSimpleJSON {
     // Get instance field reference: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
     OVRSimpleJSON::JSONNode::Enumerator& dyn_m_Enumerator();
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
-    // Offset: 0x20D9B88
+    // Offset: 0x20C25EC
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x20D9B90
+    // Offset: 0x20C25F4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(OVRSimpleJSON.JSONNode aNode)
-    // Offset: 0x20D9AC0
+    // Offset: 0x20C2524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNode::LinqEnumerator* New_ctor(OVRSimpleJSON::JSONNode* aNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::LinqEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNode::LinqEnumerator*, creationType>(aNode)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x20D9BFC
+    // Offset: 0x20C2660
     bool MoveNext();
     // public System.Void Dispose()
-    // Offset: 0x20D9C04
+    // Offset: 0x20C2668
     void Dispose();
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode>> GetEnumerator()
-    // Offset: 0x20D9C24
+    // Offset: 0x20C2688
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>* GetEnumerator();
     // public System.Void Reset()
-    // Offset: 0x20D9C88
+    // Offset: 0x20C26EC
     void Reset();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x20D9D38
+    // Offset: 0x20C279C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/OVRSimpleJSON.LinqEnumerator
   // WARNING Not writing size check since size may be invalid!

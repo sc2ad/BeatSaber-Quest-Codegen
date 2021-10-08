@@ -141,90 +141,90 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Int32 _version
     int& dyn__version();
     // protected System.Boolean get_IsReadOnly()
-    // Offset: 0x1A1FAA0
+    // Offset: 0x1A04464
     bool get_IsReadOnly();
     // public System.Int32 get_Count()
-    // Offset: 0x1A1FFD0
+    // Offset: 0x1A04994
     int get_Count();
     // protected System.Void .ctor(System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x1A1E9E0
+    // Offset: 0x1A033A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase* New_ctor(System::Collections::IEqualityComparer* equalityComparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase*, creationType>(equalityComparer)));
     }
     // protected System.Void .ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x1A1EB20
+    // Offset: 0x1A034E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase* New_ctor(int capacity, System::Collections::IEqualityComparer* equalityComparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase*, creationType>(capacity, equalityComparer)));
     }
     // protected System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x1A1EC04
+    // Offset: 0x1A035C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase*, creationType>(capacity)));
     }
     // System.Void .ctor(System.DBNull dummy)
-    // Offset: 0x1A1ECD0
+    // Offset: 0x1A03694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase* New_ctor(System::DBNull* dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase*, creationType>(dummy)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A1ECD8
+    // Offset: 0x1A0369C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A20304
+    // Offset: 0x1A04CC8
     static void _cctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A1ED04
+    // Offset: 0x1A036C8
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x1A1F238
+    // Offset: 0x1A03BFC
     void OnDeserialization(::Il2CppObject* sender);
     // private System.Void Reset()
-    // Offset: 0x1A1EA78
+    // Offset: 0x1A0343C
     void Reset();
     // private System.Void Reset(System.Int32 capacity)
-    // Offset: 0x1A1EB50
+    // Offset: 0x1A03514
     void Reset(int capacity);
     // private System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectEntry FindEntry(System.String key)
-    // Offset: 0x1A1F9D8
+    // Offset: 0x1A0439C
     System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* FindEntry(::Il2CppString* key);
     // protected System.Void BaseAdd(System.String name, System.Object value)
-    // Offset: 0x1A1F888
+    // Offset: 0x1A0424C
     void BaseAdd(::Il2CppString* name, ::Il2CppObject* value);
     // protected System.Void BaseRemove(System.String name)
-    // Offset: 0x1A1FAE0
+    // Offset: 0x1A044A4
     void BaseRemove(::Il2CppString* name);
     // protected System.Object BaseGet(System.String name)
-    // Offset: 0x1A1FD90
+    // Offset: 0x1A04754
     ::Il2CppObject* BaseGet(::Il2CppString* name);
     // protected System.Void BaseSet(System.String name, System.Object value)
-    // Offset: 0x1A1FDAC
+    // Offset: 0x1A04770
     void BaseSet(::Il2CppString* name, ::Il2CppObject* value);
     // protected System.Object BaseGet(System.Int32 index)
-    // Offset: 0x1A1FE80
+    // Offset: 0x1A04844
     ::Il2CppObject* BaseGet(int index);
     // protected System.String BaseGetKey(System.Int32 index)
-    // Offset: 0x1A1FCE4
+    // Offset: 0x1A046A8
     ::Il2CppString* BaseGetKey(int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1A1FF2C
+    // Offset: 0x1A048F0
     System::Collections::IEnumerator* GetEnumerator();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1A1FFF4
+    // Offset: 0x1A049B8
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // protected System.Void .ctor()
-    // Offset: 0x1A1E970
+    // Offset: 0x1A03334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

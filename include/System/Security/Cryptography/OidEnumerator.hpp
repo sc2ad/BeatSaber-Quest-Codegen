@@ -54,20 +54,20 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Int32 m_current
     int& dyn_m_current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19D0FE4
+    // Offset: 0x19B59A8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Security.Cryptography.OidCollection oids)
-    // Offset: 0x19D0DB8
+    // Offset: 0x19B577C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidEnumerator* New_ctor(System::Security::Cryptography::OidCollection* oids) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::OidEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidEnumerator*, creationType>(oids)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x19D1004
+    // Offset: 0x19B59C8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19D106C
+    // Offset: 0x19B5A30
     void Reset();
   }; // System.Security.Cryptography.OidEnumerator
   #pragma pack(pop)

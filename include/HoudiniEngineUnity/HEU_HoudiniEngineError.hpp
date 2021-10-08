@@ -39,7 +39,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.String _errorMsg
     ::Il2CppString*& dyn__errorMsg();
     // public System.Void .ctor()
-    // Offset: 0x151D294
+    // Offset: 0x1504C58
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -49,7 +49,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>()));
     }
     // public System.Void .ctor(System.String errorMsg)
-    // Offset: 0x151D30C
+    // Offset: 0x1504CD0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMsg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>(errorMsg)));
     }
     // public override System.String ToString()
-    // Offset: 0x151D398
+    // Offset: 0x1504D5C
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();

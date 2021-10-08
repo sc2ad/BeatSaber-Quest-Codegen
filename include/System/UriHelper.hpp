@@ -29,40 +29,40 @@ namespace System {
     // Set static field: static private readonly System.Char[] HexUpperChars
     static void _set_HexUpperChars(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x25F43F4
+    // Offset: 0x25DBE9C
     static void _cctor();
     // static System.Char[] EscapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPos, System.Boolean isUriString, System.Char force1, System.Char force2, System.Char rsvd)
-    // Offset: 0x25F284C
+    // Offset: 0x25DA2F4
     static ::ArrayW<::Il2CppChar> EscapeString(::Il2CppString* input, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPos, bool isUriString, ::Il2CppChar force1, ::Il2CppChar force2, ::Il2CppChar rsvd);
     // static private System.Char[] EnsureDestinationSize(System.Char* pStr, System.Char[] dest, System.Int32 currentInputPos, System.Int16 charsToAdd, System.Int16 minReallocateChars, ref System.Int32 destPos, System.Int32 prevInputPos)
-    // Offset: 0x25F2DC0
+    // Offset: 0x25DA868
     static ::ArrayW<::Il2CppChar> EnsureDestinationSize(::Il2CppChar* pStr, ::ArrayW<::Il2CppChar> dest, int currentInputPos, int16_t charsToAdd, int16_t minReallocateChars, ByRef<int> destPos, int prevInputPos);
     // static System.Char[] UnescapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
-    // Offset: 0x25F32C0
+    // Offset: 0x25DAD68
     static ::ArrayW<::Il2CppChar> UnescapeString(::Il2CppString* input, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
     // static System.Char[] UnescapeString(System.Char* pStr, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
-    // Offset: 0x25F33A8
+    // Offset: 0x25DAE50
     static ::ArrayW<::Il2CppChar> UnescapeString(::Il2CppChar* pStr, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
     // static System.Void MatchUTF8Sequence(System.Char* pDest, System.Char[] dest, ref System.Int32 destOffset, System.Char[] unescapedChars, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteCount, System.Boolean isQuery, System.Boolean iriParsing)
-    // Offset: 0x25F3E08
+    // Offset: 0x25DB8B0
     static void MatchUTF8Sequence(::Il2CppChar* pDest, ::ArrayW<::Il2CppChar> dest, ByRef<int> destOffset, ::ArrayW<::Il2CppChar> unescapedChars, int charCount, ::ArrayW<uint8_t> bytes, int byteCount, bool isQuery, bool iriParsing);
     // static System.Void EscapeAsciiChar(System.Char ch, System.Char[] to, ref System.Int32 pos)
-    // Offset: 0x25F2EEC
+    // Offset: 0x25DA994
     static void EscapeAsciiChar(::Il2CppChar ch, ::ArrayW<::Il2CppChar> to, ByRef<int> pos);
     // static System.Char EscapedAscii(System.Char digit, System.Char next)
-    // Offset: 0x25F3030
+    // Offset: 0x25DAAD8
     static ::Il2CppChar EscapedAscii(::Il2CppChar digit, ::Il2CppChar next);
     // static System.Boolean IsNotSafeForUnescape(System.Char ch)
-    // Offset: 0x25F3D7C
+    // Offset: 0x25DB824
     static bool IsNotSafeForUnescape(::Il2CppChar ch);
     // static private System.Boolean IsReservedUnreservedOrHash(System.Char c)
-    // Offset: 0x25F31C4
+    // Offset: 0x25DAC6C
     static bool IsReservedUnreservedOrHash(::Il2CppChar c);
     // static System.Boolean IsUnreserved(System.Char c)
-    // Offset: 0x25F30F0
+    // Offset: 0x25DAB98
     static bool IsUnreserved(::Il2CppChar c);
     // static System.Boolean Is3986Unreserved(System.Char c)
-    // Offset: 0x25F4354
+    // Offset: 0x25DBDFC
     static bool Is3986Unreserved(::Il2CppChar c);
   }; // System.UriHelper
   #pragma pack(pop)

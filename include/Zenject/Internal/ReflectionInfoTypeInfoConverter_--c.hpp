@@ -58,19 +58,19 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(System::Func_2<System::Reflection::FieldInfo*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1835D74
+    // Offset: 0x181B738
     static void _cctor();
     // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1835DE0
+    // Offset: 0x181B7A4
     Zenject::InjectableInfo* $ConvertMethod$b__0_1(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1835DF8
+    // Offset: 0x181B7BC
     Zenject::InjectableInfo* $ConvertConstructor$b__1_0(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0x1835E10
+    // Offset: 0x181B7D4
     ::Il2CppString* $GetOnlyPropertySetter$b__8_1(System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x1835DD8
+    // Offset: 0x181B79C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

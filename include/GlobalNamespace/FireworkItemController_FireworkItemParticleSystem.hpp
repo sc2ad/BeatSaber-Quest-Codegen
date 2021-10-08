@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     bool useMainColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xF15E90
+    // [DrawIfAttribute] Offset: 0xF15B58
     // public System.Boolean _useOwnGradient
     // Size: 0x1
     // Offset: 0x1A
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOwnGradient and: particleColorGradient
     char __padding3[0x5] = {};
-    // [DrawIfAttribute] Offset: 0xF15F24
+    // [DrawIfAttribute] Offset: 0xF15BEC
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean _randomizeSpeed
     bool& dyn__randomizeSpeed();
     // public System.Void .ctor()
-    // Offset: 0x11B7ACC
+    // Offset: 0x1172764
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

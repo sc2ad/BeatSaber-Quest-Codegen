@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1Exception : public System::IO::IOException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18DEC4C
+    // Offset: 0x18C5610
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x18DEC54
+    // Offset: 0x18C5618
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x18DEC5C
+    // Offset: 0x18C5620
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception exception)

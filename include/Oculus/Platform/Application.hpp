@@ -30,10 +30,10 @@ namespace Oculus::Platform {
   class Application : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ApplicationVersion> GetVersion()
-    // Offset: 0x1D1A348
+    // Offset: 0x1CFDDAC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
     // static public Oculus.Platform.Request`1<System.String> LaunchOtherApp(System.UInt64 appID, Oculus.Platform.ApplicationOptions deeplink_options)
-    // Offset: 0x1D1A4C4
+    // Offset: 0x1CFDF28
     static Oculus::Platform::Request_1<::Il2CppString*>* LaunchOtherApp(uint64_t appID, Oculus::Platform::ApplicationOptions* deeplink_options);
   }; // Oculus.Platform.Application
   #pragma pack(pop)

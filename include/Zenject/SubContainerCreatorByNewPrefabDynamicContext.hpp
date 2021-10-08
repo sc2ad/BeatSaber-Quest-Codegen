@@ -62,14 +62,14 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x18A3118
+    // Offset: 0x1889ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewPrefabDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewPrefabDynamicContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewPrefabDynamicContext*, creationType>(container, prefabProvider, gameObjectBindInfo)));
     }
     // protected override UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)
-    // Offset: 0x18A3158
+    // Offset: 0x1889B1C
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(out System.Boolean shouldMakeActive)
     UnityEngine::GameObject* CreateGameObject(ByRef<bool> shouldMakeActive);

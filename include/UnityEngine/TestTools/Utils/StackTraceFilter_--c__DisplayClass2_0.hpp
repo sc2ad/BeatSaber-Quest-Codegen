@@ -40,10 +40,10 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: public System.String line
     ::Il2CppString*& dyn_line();
     // System.Boolean <Filter>b__0(System.String s)
-    // Offset: 0x260B580
+    // Offset: 0x25F3028
     bool $Filter$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x260B398
+    // Offset: 0x25F2E40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

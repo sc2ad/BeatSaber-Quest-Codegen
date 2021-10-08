@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionNodeConnection,System.Single> <>9__15_1
     static void _set_$$9__15_1(System::Func_2<GlobalNamespace::MissionNodeConnection*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11882AC
+    // Offset: 0x120CB70
     static void _cctor();
     // System.Single <UpdateNodesAndConnectionCoroutine>b__15_0(MissionNodeConnection connection)
-    // Offset: 0x1188318
+    // Offset: 0x120CBDC
     float $UpdateNodesAndConnectionCoroutine$b__15_0(GlobalNamespace::MissionNodeConnection* connection);
     // System.Single <UpdateNodesAndConnectionCoroutine>b__15_1(MissionNodeConnection connection)
-    // Offset: 0x11883E0
+    // Offset: 0x120CCA4
     float $UpdateNodesAndConnectionCoroutine$b__15_1(GlobalNamespace::MissionNodeConnection* connection);
     // public System.Void .ctor()
-    // Offset: 0x1188310
+    // Offset: 0x120CBD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

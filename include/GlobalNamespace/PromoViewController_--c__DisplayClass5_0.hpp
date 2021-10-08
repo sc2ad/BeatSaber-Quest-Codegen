@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public PromoViewController <>4__this
     GlobalNamespace::PromoViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0()
-    // Offset: 0x11BECD8
+    // Offset: 0x1191CBC
     void $DidActivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11BECC8
+    // Offset: 0x1191CAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

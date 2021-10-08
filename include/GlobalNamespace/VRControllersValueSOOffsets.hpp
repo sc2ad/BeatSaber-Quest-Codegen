@@ -64,17 +64,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _mirror
     bool& dyn__mirror();
     // public override UnityEngine.Vector3 get_positionOffset()
-    // Offset: 0x134ACC8
+    // Offset: 0x1271F0C
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_positionOffset()
     UnityEngine::Vector3 get_positionOffset();
     // public override UnityEngine.Vector3 get_rotationOffset()
-    // Offset: 0x134AD2C
+    // Offset: 0x1271F70
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_rotationOffset()
     UnityEngine::Vector3 get_rotationOffset();
     // public System.Void .ctor()
-    // Offset: 0x134AD90
+    // Offset: 0x1271FD4
     // Implemented from: VRControllerTransformOffset
     // Base method: System.Void VRControllerTransformOffset::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

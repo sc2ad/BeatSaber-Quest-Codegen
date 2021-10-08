@@ -37,20 +37,20 @@ namespace LiteNetLib {
   class EventBasedNatPunchListener::OnNatIntroductionRequest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DD0BF4
+    // Offset: 0x1DB7658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNatPunchListener::OnNatIntroductionRequest* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNatPunchListener::OnNatIntroductionRequest*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
-    // Offset: 0x1DD0398
+    // Offset: 0x1DB6DFC
     void Invoke(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DD0C04
+    // Offset: 0x1DB7668
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DD0C34
+    // Offset: 0x1DB7698
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest
   #pragma pack(pop)

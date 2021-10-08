@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 value
     int& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x1E2CD60
+    // Offset: 0x1E147C4
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

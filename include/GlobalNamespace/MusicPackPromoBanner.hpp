@@ -82,14 +82,14 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [LocalizationKeyAttribute] Offset: 0xF131EC
+    // [LocalizationKeyAttribute] Offset: 0xF12E74
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
     static ::Il2CppString* _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
     static void _set_kPlayNow(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xF131FC
+    // [LocalizationKeyAttribute] Offset: 0xF12E84
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
@@ -107,16 +107,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelPack _currentPromoMusicPack
     GlobalNamespace::IBeatmapLevelPack*& dyn__currentPromoMusicPack();
     // public IBeatmapLevelPack get_currentPromoMusicPack()
-    // Offset: 0x11345B4
+    // Offset: 0x111D550
     GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
-    // Offset: 0x11345BC
+    // Offset: 0x111D558
     ::Il2CppString* get_promoButtonText();
     // public System.Void Setup(DlcPromoExperimentDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
-    // Offset: 0x11345D8
+    // Offset: 0x111D574
     void Setup(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
     // public System.Void .ctor()
-    // Offset: 0x11347A0
+    // Offset: 0x111D73C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

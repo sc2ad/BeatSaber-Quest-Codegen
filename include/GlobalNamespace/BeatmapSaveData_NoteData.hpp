@@ -79,29 +79,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteCutDirection _cutDirection
     GlobalNamespace::NoteCutDirection& dyn__cutDirection();
     // public System.Single get_time()
-    // Offset: 0x12A7CF0
+    // Offset: 0x12A1B80
     float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x12A7CF8
+    // Offset: 0x12A1B88
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x12A7D00
+    // Offset: 0x12A1B90
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public BeatmapSaveData/NoteType get_type()
-    // Offset: 0x12A7D08
+    // Offset: 0x12A1B98
     GlobalNamespace::BeatmapSaveData::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x12A7D10
+    // Offset: 0x12A1BA0
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, BeatmapSaveData/NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0x12A7D18
+    // Offset: 0x12A1BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::BeatmapSaveData::NoteType type, GlobalNamespace::NoteCutDirection cutDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::NoteData*, creationType>(time, lineIndex, lineLayer, type, cutDirection)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x12A7D74
+    // Offset: 0x12A1C04
     void MoveTime(float offset);
   }; // BeatmapSaveData/NoteData
   #pragma pack(pop)

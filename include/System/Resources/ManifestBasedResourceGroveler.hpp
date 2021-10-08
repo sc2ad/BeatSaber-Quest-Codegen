@@ -61,17 +61,17 @@ namespace System::Resources {
     // Get instance field reference: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     System::Resources::ResourceManager::ResourceManagerMediator*& dyn__mediator();
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
-    // Offset: 0x15A5B38
+    // Offset: 0x158B4FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ManifestBasedResourceGroveler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBasedResourceGroveler*, creationType>(mediator)));
     }
     // static System.Globalization.CultureInfo GetNeutralResourcesLanguage(System.Reflection.Assembly a, ref System.Resources.UltimateResourceFallbackLocation fallbackLocation)
-    // Offset: 0x15A5B64
+    // Offset: 0x158B528
     static System::Globalization::CultureInfo* GetNeutralResourcesLanguage(System::Reflection::Assembly* a, ByRef<System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
     // static private System.Boolean GetNeutralResourcesLanguageAttribute(System.Reflection.Assembly assembly, ref System.String cultureName, ref System.Int16 fallbackLocation)
-    // Offset: 0x15A5E94
+    // Offset: 0x158B858
     static bool GetNeutralResourcesLanguageAttribute(System::Reflection::Assembly* assembly, ByRef<::Il2CppString*> cultureName, ByRef<int16_t> fallbackLocation);
   }; // System.Resources.ManifestBasedResourceGroveler
   #pragma pack(pop)

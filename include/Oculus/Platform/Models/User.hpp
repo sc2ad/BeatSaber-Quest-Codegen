@@ -127,7 +127,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String SmallImageUrl
     ::Il2CppString*& dyn_SmallImageUrl();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16BE290
+    // Offset: 0x16A2C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static User* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::User::.ctor");

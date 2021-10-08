@@ -102,70 +102,70 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.String _name
     ::Il2CppString*& dyn__name();
     // public System.String get_TaskName()
-    // Offset: 0x17E065C
+    // Offset: 0x17C5020
     ::Il2CppString* get_TaskName();
     // public System.Boolean get_IsComplete()
-    // Offset: 0x17E02F8
+    // Offset: 0x17C4CBC
     bool get_IsComplete();
     // public System.Void set_IsComplete(System.Boolean value)
-    // Offset: 0x17E0218
+    // Offset: 0x17C4BDC
     void set_IsComplete(bool value);
     // public System.Boolean get_IsActive()
-    // Offset: 0x17DFD94
+    // Offset: 0x17C4758
     bool get_IsActive();
     // public System.Void set_IsActive(System.Boolean value)
-    // Offset: 0x17E0184
+    // Offset: 0x17C4B48
     void set_IsActive(bool value);
     // public System.Boolean get_StopRequested()
-    // Offset: 0x17E0588
+    // Offset: 0x17C4F4C
     bool get_StopRequested();
     // public System.Void set_StopRequested(System.Boolean value)
-    // Offset: 0x17E038C
+    // Offset: 0x17C4D50
     void set_StopRequested(bool value);
     // public System.Threading.ThreadPriority get_Priority()
-    // Offset: 0x17E0664
+    // Offset: 0x17C5028
     System::Threading::ThreadPriority get_Priority();
     // public System.Void set_Priority(System.Threading.ThreadPriority value)
-    // Offset: 0x17E066C
+    // Offset: 0x17C5030
     void set_Priority(System::Threading::ThreadPriority value);
     // public System.Boolean get_IsBackground()
-    // Offset: 0x17E0674
+    // Offset: 0x17C5038
     bool get_IsBackground();
     // public System.Void set_IsBackground(System.Boolean value)
-    // Offset: 0x17E067C
+    // Offset: 0x17C5040
     void set_IsBackground(bool value);
     // public System.Void Start()
-    // Offset: 0x17E0030
+    // Offset: 0x17C49F4
     void Start();
     // public System.Void Stop()
-    // Offset: 0x17E02AC
+    // Offset: 0x17C4C70
     void Stop();
     // public System.Void Abort()
-    // Offset: 0x17E0420
+    // Offset: 0x17C4DE4
     void Abort();
     // public System.Void Reset()
-    // Offset: 0x17E0464
+    // Offset: 0x17C4E28
     void Reset();
     // public System.Void Update()
-    // Offset: 0x17E0520
+    // Offset: 0x17C4EE4
     void Update();
     // protected System.Void DoWork()
-    // Offset: 0x17E061C
+    // Offset: 0x17C4FE0
     void DoWork();
     // protected System.Void OnComplete()
-    // Offset: 0x17E0620
+    // Offset: 0x17C4FE4
     void OnComplete();
     // protected System.Void OnStopped()
-    // Offset: 0x17E0624
+    // Offset: 0x17C4FE8
     void OnStopped();
     // protected System.Void CleanUp()
-    // Offset: 0x17E0628
+    // Offset: 0x17C4FEC
     void CleanUp();
     // private System.Void Run()
-    // Offset: 0x17E062C
+    // Offset: 0x17C4FF0
     void Run();
     // public System.Void .ctor()
-    // Offset: 0x17E0688
+    // Offset: 0x17C504C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

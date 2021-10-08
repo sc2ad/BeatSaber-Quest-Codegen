@@ -32,20 +32,20 @@ namespace UnityEngine {
   class GUI::WindowFunction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C97438
+    // Offset: 0x1C79DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUI::WindowFunction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUI::WindowFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUI::WindowFunction*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 id)
-    // Offset: 0x1C96F6C
+    // Offset: 0x1C79930
     void Invoke(int id);
     // public System.IAsyncResult BeginInvoke(System.Int32 id, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C97448
+    // Offset: 0x1C79E0C
     System::IAsyncResult* BeginInvoke(int id, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C974D4
+    // Offset: 0x1C79E98
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUI/UnityEngine.WindowFunction
   #pragma pack(pop)

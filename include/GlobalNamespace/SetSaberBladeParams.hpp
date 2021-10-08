@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0xF0ACC0
+    // [NullAllowed] Offset: 0xF0A938
     // private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF0ACF8
+    // [InjectAttribute] Offset: 0xF0A970
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -80,10 +80,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // protected System.Void Start()
-    // Offset: 0x1102D04
+    // Offset: 0x113FD74
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1102E10
+    // Offset: 0x113FE80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

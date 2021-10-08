@@ -63,46 +63,46 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.UInt32[] rk
     ::ArrayW<uint>& dyn_rk();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2040918
+    // Offset: 0x202B37C
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x2040960
+    // Offset: 0x202B3C4
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x2040C24
+    // Offset: 0x202B688
     static void _cctor();
     // static private System.UInt32 tau(System.UInt32 A)
-    // Offset: 0x203FEF8
+    // Offset: 0x202A95C
     static uint tau(uint A);
     // static private System.UInt32 L_ap(System.UInt32 B)
-    // Offset: 0x203FFD8
+    // Offset: 0x202AA3C
     static uint L_ap(uint B);
     // private System.UInt32 T_ap(System.UInt32 Z)
-    // Offset: 0x204001C
+    // Offset: 0x202AA80
     uint T_ap(uint Z);
     // private System.Void ExpandKey(System.Boolean forEncryption, System.Byte[] key)
-    // Offset: 0x20400B0
+    // Offset: 0x202AB14
     void ExpandKey(bool forEncryption, ::ArrayW<uint8_t> key);
     // static private System.UInt32 L(System.UInt32 B)
-    // Offset: 0x2040684
+    // Offset: 0x202B0E8
     static uint L(uint B);
     // static private System.UInt32 T(System.UInt32 Z)
-    // Offset: 0x2040700
+    // Offset: 0x202B164
     static uint T(uint Z);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2040768
+    // Offset: 0x202B1CC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x2040968
+    // Offset: 0x202B3CC
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2040970
+    // Offset: 0x202B3D4
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2040C20
+    // Offset: 0x202B684
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x2040D10
+    // Offset: 0x202B774
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

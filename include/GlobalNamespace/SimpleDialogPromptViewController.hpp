@@ -91,16 +91,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Int32> _didFinishAction
     System::Action_1<int>*& dyn__didFinishAction();
     // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x11057A4
+    // Offset: 0x1142814
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* buttonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x1105978
+    // Offset: 0x11429E8
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* firstButtonText, ::Il2CppString* secondButtonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.String thirdButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x11057B4
+    // Offset: 0x1142824
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* firstButtonText, ::Il2CppString* secondButtonText, ::Il2CppString* thirdButtonText, System::Action_1<int>* didFinishAction);
     // public System.Void .ctor()
-    // Offset: 0x1105984
+    // Offset: 0x11429F4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -114,12 +114,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleDialogPromptViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1105668
+    // Offset: 0x11426D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1105798
+    // Offset: 0x1142808
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

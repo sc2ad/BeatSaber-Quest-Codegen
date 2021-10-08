@@ -72,14 +72,14 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: protected Org.BouncyCastle.Asn1.DerBitString sigBits
     Org::BouncyCastle::Asn1::DerBitString*& dyn_sigBits();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x196EEAC
+    // Offset: 0x1954870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificationRequest* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificationRequest*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x196F098
+    // Offset: 0x1954A5C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

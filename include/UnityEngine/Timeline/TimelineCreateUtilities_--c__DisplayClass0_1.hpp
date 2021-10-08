@@ -47,10 +47,10 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: public System.String result
     ::Il2CppString*& dyn_result();
     // System.Boolean <GenerateUniqueActorName>b__1(UnityEngine.ScriptableObject x)
-    // Offset: 0x25635B4
+    // Offset: 0x2549018
     bool $GenerateUniqueActorName$b__1(UnityEngine::ScriptableObject* x);
     // public System.Void .ctor()
-    // Offset: 0x2563138
+    // Offset: 0x2548B9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

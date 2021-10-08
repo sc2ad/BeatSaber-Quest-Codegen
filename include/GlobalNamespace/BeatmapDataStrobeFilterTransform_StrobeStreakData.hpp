@@ -122,13 +122,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _foundFirstColoredEventData
     bool& dyn__foundFirstColoredEventData();
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
-    // Offset: 0x127A2AC
+    // Offset: 0x1248C00
     void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
     // public System.Void AddStrobeData(BeatmapEventData eventData, System.Int32 beatmapIndex)
-    // Offset: 0x127A0DC
+    // Offset: 0x1248A30
     void AddStrobeData(GlobalNamespace::BeatmapEventData* eventData, int beatmapIndex);
     // public System.Void .ctor()
-    // Offset: 0x127A0D4
+    // Offset: 0x1248A28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

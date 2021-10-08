@@ -76,17 +76,17 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
     System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*& dyn_m_PreviewComponents();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x19F0394
+    // Offset: 0x19D4D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationPreviewUpdateCallback* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationPreviewUpdateCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationPreviewUpdateCallback*, creationType>(output)));
     }
     // public System.Void Evaluate()
-    // Offset: 0x19F0444
+    // Offset: 0x19D4E08
     void Evaluate();
     // private System.Void FetchPreviewComponents()
-    // Offset: 0x19F05D0
+    // Offset: 0x19D4F94
     void FetchPreviewComponents();
   }; // UnityEngine.Timeline.AnimationPreviewUpdateCallback
   #pragma pack(pop)

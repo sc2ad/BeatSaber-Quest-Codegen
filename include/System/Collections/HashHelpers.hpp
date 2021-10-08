@@ -38,19 +38,19 @@ namespace System::Collections {
     // Set static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> s_SerializationInfoTable
     static void _set_s_SerializationInfoTable(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* value);
     // static System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> get_SerializationInfoTable()
-    // Offset: 0x199B1E4
+    // Offset: 0x1980BA8
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
     // static private System.Void .cctor()
-    // Offset: 0x199B5E8
+    // Offset: 0x1980FAC
     static void _cctor();
     // static public System.Boolean IsPrime(System.Int32 candidate)
-    // Offset: 0x199B2C8
+    // Offset: 0x1980C8C
     static bool IsPrime(int candidate);
     // static public System.Int32 GetPrime(System.Int32 min)
-    // Offset: 0x199B398
+    // Offset: 0x1980D5C
     static int GetPrime(int min);
     // static public System.Int32 ExpandPrime(System.Int32 oldSize)
-    // Offset: 0x199B554
+    // Offset: 0x1980F18
     static int ExpandPrime(int oldSize);
   }; // System.Collections.HashHelpers
   #pragma pack(pop)

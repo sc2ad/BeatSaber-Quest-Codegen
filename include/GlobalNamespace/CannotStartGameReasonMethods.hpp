@@ -27,28 +27,28 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class CannotStartGameReasonMethods : public ::Il2CppObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xF02C3C
+    // [LocalizationKeyAttribute] Offset: 0xF02894
     // static field const value: static private System.String kAllPlayersSpectating
     static constexpr const char* kAllPlayersSpectating = "LABEL_CANT_START_GAME_ALL_PLAYERS_SPECTATING";
     // Get static field: static private System.String kAllPlayersSpectating
     static ::Il2CppString* _get_kAllPlayersSpectating();
     // Set static field: static private System.String kAllPlayersSpectating
     static void _set_kAllPlayersSpectating(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xF02C4C
+    // [LocalizationKeyAttribute] Offset: 0xF028A4
     // static field const value: static private System.String kNoSongSelected
     static constexpr const char* kNoSongSelected = "LABEL_CANT_START_GAME_NO_SONG_SELECTED";
     // Get static field: static private System.String kNoSongSelected
     static ::Il2CppString* _get_kNoSongSelected();
     // Set static field: static private System.String kNoSongSelected
     static void _set_kNoSongSelected(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xF02C5C
+    // [LocalizationKeyAttribute] Offset: 0xF028B4
     // static field const value: static private System.String kAllPlayersNotInLobby
     static constexpr const char* kAllPlayersNotInLobby = "LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY";
     // Get static field: static private System.String kAllPlayersNotInLobby
     static ::Il2CppString* _get_kAllPlayersNotInLobby();
     // Set static field: static private System.String kAllPlayersNotInLobby
     static void _set_kAllPlayersNotInLobby(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xF02C6C
+    // [LocalizationKeyAttribute] Offset: 0xF028C4
     // static field const value: static private System.String kDoNotOwnSong
     static constexpr const char* kDoNotOwnSong = "LABEL_CANT_START_GAME_DO_NOT_OWN_SONG";
     // Get static field: static private System.String kDoNotOwnSong
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDoNotOwnSong
     static void _set_kDoNotOwnSong(::Il2CppString* value);
     // static public System.String LocalizedKey(CannotStartGameReason cannotStartGameReason)
-    // Offset: 0x1195748
+    // Offset: 0x112A094
     static ::Il2CppString* LocalizedKey(GlobalNamespace::CannotStartGameReason cannotStartGameReason);
   }; // CannotStartGameReasonMethods
   #pragma pack(pop)

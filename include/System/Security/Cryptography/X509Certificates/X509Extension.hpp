@@ -40,23 +40,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Boolean _critical
     bool& dyn__critical();
     // public System.Boolean get_Critical()
-    // Offset: 0x19DF02C
+    // Offset: 0x19C39F0
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x19DF034
+    // Offset: 0x19C39F8
     void set_Critical(bool value);
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x19DEFFC
+    // Offset: 0x19C39C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::Il2CppString* oid, ::ArrayW<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x19D3308
+    // Offset: 0x19B7CCC
     ::Il2CppString* FormatUnkownData(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
-    // Offset: 0x19D2870
+    // Offset: 0x19B7234
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -66,7 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x19DF040
+    // Offset: 0x19C3A04
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);

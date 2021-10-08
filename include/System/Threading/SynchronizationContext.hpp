@@ -71,34 +71,34 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.SynchronizationContextProperties _props
     System::Threading::SynchronizationContextProperties& dyn__props();
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0x1A552C0
+    // Offset: 0x1A3AC84
     static System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0x1A5F174
+    // Offset: 0x1A44B38
     static System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1A5F034
+    // Offset: 0x1A449F8
     void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1A5F050
+    // Offset: 0x1A44A14
     void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0x1A5F0D4
+    // Offset: 0x1A44A98
     void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0x1A5F0D8
+    // Offset: 0x1A44A9C
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0x1A5F0DC
+    // Offset: 0x1A44AA0
     static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0x1A5F118
+    // Offset: 0x1A44ADC
     static System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1A5F1B0
+    // Offset: 0x1A44B74
     System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x1A5AC7C
+    // Offset: 0x1A40640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

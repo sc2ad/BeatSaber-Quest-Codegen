@@ -32,7 +32,7 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEC3CF8
+    // [TooltipAttribute] Offset: 0xEC6718
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
@@ -55,16 +55,16 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean <Initialized>k__BackingField
     bool& dyn_$Initialized$k__BackingField();
     // public System.Boolean get_Initialized()
-    // Offset: 0x189C444
+    // Offset: 0x1882E08
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x189C44C
+    // Offset: 0x1882E10
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0x189C458
+    // Offset: 0x1882E1C
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x189C504
+    // Offset: 0x1882EC8
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFF
@@ -80,7 +80,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x189C57C
+    // Offset: 0x1882F40
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -94,7 +94,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x189C58C
+    // Offset: 0x1882F50
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -65,32 +65,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64[] _data
     ::ArrayW<uint64_t>& dyn__data();
     // public System.Int32 get_bitCount()
-    // Offset: 0x256E570
+    // Offset: 0x2552FD4
     int get_bitCount();
     // public System.Void .ctor(System.Int32 bitCount)
-    // Offset: 0x256E578
+    // Offset: 0x2552FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskArray* New_ctor(int bitCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMaskArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskArray*, creationType>(bitCount)));
     }
     // public System.Boolean Equals(BitMaskArray other)
-    // Offset: 0x256E5FC
+    // Offset: 0x2553060
     bool Equals(GlobalNamespace::BitMaskArray* other);
     // public BitMaskArray SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x256E674
+    // Offset: 0x25530D8
     GlobalNamespace::BitMaskArray* SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x256E7A0
+    // Offset: 0x2553204
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x256E9D8
+    // Offset: 0x255343C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x256EB50
+    // Offset: 0x25535B4
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0x256E8C8
+    // Offset: 0x255332C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

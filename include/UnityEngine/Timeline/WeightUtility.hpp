@@ -22,7 +22,7 @@ namespace UnityEngine::Timeline {
   class WeightUtility : public ::Il2CppObject {
     public:
     // static public System.Single NormalizeMixer(UnityEngine.Playables.Playable mixer)
-    // Offset: 0x256BD3C
+    // Offset: 0x25517A0
     static float NormalizeMixer(UnityEngine::Playables::Playable mixer);
   }; // UnityEngine.Timeline.WeightUtility
   #pragma pack(pop)

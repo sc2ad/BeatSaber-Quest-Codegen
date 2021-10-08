@@ -27,7 +27,7 @@ namespace NUnit::Framework::Interfaces {
   class NodeList : public System::Collections::Generic::List_1<NUnit::Framework::Interfaces::TNode*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19358F0
+    // Offset: 0x191C2B4
     // Implemented from: System.Collections.Generic.List`1
     // Base method: System.Void List_1::.ctor()
     // Base method: System.Void Object::.ctor()

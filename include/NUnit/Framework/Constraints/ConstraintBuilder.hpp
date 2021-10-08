@@ -56,10 +56,10 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private System.Object lastPushed
     ::Il2CppObject*& dyn_lastPushed();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x192B3E0
+    // Offset: 0x1911DA4
     bool get_IsResolvable();
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x192B234
+    // Offset: 0x1911BF8
     NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)

@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::Iana {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacRipeMD160
     static void _set_HmacRipeMD160(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x196B600
+    // Offset: 0x1950FC4
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Iana.IanaObjectIdentifiers
   #pragma pack(pop)

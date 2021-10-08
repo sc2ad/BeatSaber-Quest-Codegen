@@ -74,65 +74,65 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRInput FnTable
     OVR::OpenVR::IVRInput& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x176B89C
+    // Offset: 0x174F260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRInput* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRInput*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRInputError SetActionManifestPath(System.String pchActionManifestPath)
-    // Offset: 0x176B9A4
+    // Offset: 0x174F368
     OVR::OpenVR::EVRInputError SetActionManifestPath(::Il2CppString* pchActionManifestPath);
     // public OVR.OpenVR.EVRInputError GetActionSetHandle(System.String pchActionSetName, ref System.UInt64 pHandle)
-    // Offset: 0x176B9C0
+    // Offset: 0x174F384
     OVR::OpenVR::EVRInputError GetActionSetHandle(::Il2CppString* pchActionSetName, ByRef<uint64_t> pHandle);
     // public OVR.OpenVR.EVRInputError GetActionHandle(System.String pchActionName, ref System.UInt64 pHandle)
-    // Offset: 0x176B9E0
+    // Offset: 0x174F3A4
     OVR::OpenVR::EVRInputError GetActionHandle(::Il2CppString* pchActionName, ByRef<uint64_t> pHandle);
     // public OVR.OpenVR.EVRInputError GetInputSourceHandle(System.String pchInputSourcePath, ref System.UInt64 pHandle)
-    // Offset: 0x176BA00
+    // Offset: 0x174F3C4
     OVR::OpenVR::EVRInputError GetInputSourceHandle(::Il2CppString* pchInputSourcePath, ByRef<uint64_t> pHandle);
     // public OVR.OpenVR.EVRInputError UpdateActionState(OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t)
-    // Offset: 0x176BA20
+    // Offset: 0x174F3E4
     OVR::OpenVR::EVRInputError UpdateActionState(::ArrayW<OVR::OpenVR::VRActiveActionSet_t> pSets, uint unSizeOfVRSelectedActionSet_t);
     // public OVR.OpenVR.EVRInputError GetDigitalActionData(System.UInt64 action, ref OVR.OpenVR.InputDigitalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BA48
+    // Offset: 0x174F40C
     OVR::OpenVR::EVRInputError GetDigitalActionData(uint64_t action, ByRef<OVR::OpenVR::InputDigitalActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetAnalogActionData(System.UInt64 action, ref OVR.OpenVR.InputAnalogActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BA64
+    // Offset: 0x174F428
     OVR::OpenVR::EVRInputError GetAnalogActionData(uint64_t action, ByRef<OVR::OpenVR::InputAnalogActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetPoseActionData(System.UInt64 action, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsFromNow, ref OVR.OpenVR.InputPoseActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BA80
+    // Offset: 0x174F444
     OVR::OpenVR::EVRInputError GetPoseActionData(uint64_t action, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsFromNow, ByRef<OVR::OpenVR::InputPoseActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetSkeletalActionData(System.UInt64 action, ref OVR.OpenVR.InputSkeletalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BA9C
+    // Offset: 0x174F460
     OVR::OpenVR::EVRInputError GetSkeletalActionData(uint64_t action, ByRef<OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetSkeletalBoneData(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BAB8
+    // Offset: 0x174F47C
     OVR::OpenVR::EVRInputError GetSkeletalBoneData(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::ArrayW<OVR::OpenVR::VRBoneTransform_t> pTransformArray, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetSkeletalBoneDataCompressed(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, System.IntPtr pvCompressedData, System.UInt32 unCompressedSize, ref System.UInt32 punRequiredCompressedSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BAE4
+    // Offset: 0x174F4A8
     OVR::OpenVR::EVRInputError GetSkeletalBoneDataCompressed(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, System::IntPtr pvCompressedData, uint unCompressedSize, ByRef<uint> punRequiredCompressedSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError DecompressSkeletalBoneData(System.IntPtr pvCompressedBuffer, System.UInt32 unCompressedBufferSize, ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, OVR.OpenVR.VRBoneTransform_t[] pTransformArray)
-    // Offset: 0x176BB08
+    // Offset: 0x174F4CC
     OVR::OpenVR::EVRInputError DecompressSkeletalBoneData(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ::ArrayW<OVR::OpenVR::VRBoneTransform_t> pTransformArray);
     // public OVR.OpenVR.EVRInputError TriggerHapticVibrationAction(System.UInt64 action, System.Single fStartSecondsFromNow, System.Single fDurationSeconds, System.Single fFrequency, System.Single fAmplitude, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x176BB30
+    // Offset: 0x174F4F4
     OVR::OpenVR::EVRInputError TriggerHapticVibrationAction(uint64_t action, float fStartSecondsFromNow, float fDurationSeconds, float fFrequency, float fAmplitude, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetActionOrigins(System.UInt64 actionSetHandle, System.UInt64 digitalActionHandle, System.UInt64[] originsOut)
-    // Offset: 0x176BB4C
+    // Offset: 0x174F510
     OVR::OpenVR::EVRInputError GetActionOrigins(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::ArrayW<uint64_t> originsOut);
     // public OVR.OpenVR.EVRInputError GetOriginLocalizedName(System.UInt64 origin, System.Text.StringBuilder pchNameArray, System.UInt32 unNameArraySize)
-    // Offset: 0x176BB74
+    // Offset: 0x174F538
     OVR::OpenVR::EVRInputError GetOriginLocalizedName(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize);
     // public OVR.OpenVR.EVRInputError GetOriginTrackedDeviceInfo(System.UInt64 origin, ref OVR.OpenVR.InputOriginInfo_t pOriginInfo, System.UInt32 unOriginInfoSize)
-    // Offset: 0x176BB90
+    // Offset: 0x174F554
     OVR::OpenVR::EVRInputError GetOriginTrackedDeviceInfo(uint64_t origin, ByRef<OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint unOriginInfoSize);
     // public OVR.OpenVR.EVRInputError ShowActionOrigins(System.UInt64 actionSetHandle, System.UInt64 ulActionHandle)
-    // Offset: 0x176BBAC
+    // Offset: 0x174F570
     OVR::OpenVR::EVRInputError ShowActionOrigins(uint64_t actionSetHandle, uint64_t ulActionHandle);
     // public OVR.OpenVR.EVRInputError ShowBindingsForActionSet(OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt64 originToHighlight)
-    // Offset: 0x176BBC8
+    // Offset: 0x174F58C
     OVR::OpenVR::EVRInputError ShowBindingsForActionSet(::ArrayW<OVR::OpenVR::VRActiveActionSet_t> pSets, uint unSizeOfVRSelectedActionSet_t, uint64_t originToHighlight);
   }; // OVR.OpenVR.CVRInput
   #pragma pack(pop)

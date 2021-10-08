@@ -21,7 +21,7 @@ namespace HoudiniEngineUnity {
   class HEU_InputNodeUICache::HEU_InputAssetUICache : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x152A258
+    // Offset: 0x1511C1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

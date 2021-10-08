@@ -191,38 +191,38 @@ namespace System::Globalization {
     // Get instance field reference: System.Boolean bUseUserOverrides
     bool& dyn_bUseUserOverrides();
     // static private System.Void .cctor()
-    // Offset: 0x19A8B90
+    // Offset: 0x198E554
     static void _cctor();
     // System.Void .ctor(System.String localeName, System.Int32 calendarId, System.Boolean bUseUserOverrides)
-    // Offset: 0x19A9840
+    // Offset: 0x198F204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalendarData* New_ctor(::Il2CppString* localeName, int calendarId, bool bUseUserOverrides) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CalendarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CalendarData*, creationType>(localeName, calendarId, bUseUserOverrides)));
     }
     // private System.Void InitializeEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0x19A9DA4
+    // Offset: 0x198F768
     void InitializeEraNames(::Il2CppString* localeName, int calendarId);
     // private System.Void InitializeAbbreviatedEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0x19AA100
+    // Offset: 0x198FAC4
     void InitializeAbbreviatedEraNames(::Il2CppString* localeName, int calendarId);
     // static System.Globalization.CalendarData GetCalendarData(System.Int32 calendarId)
-    // Offset: 0x19A8630
+    // Offset: 0x198DFF4
     static System::Globalization::CalendarData* GetCalendarData(int calendarId);
     // static private System.String CalendarIdToCultureName(System.Int32 calendarId)
-    // Offset: 0x19AA378
+    // Offset: 0x198FD3C
     static ::Il2CppString* CalendarIdToCultureName(int calendarId);
     // static public System.Int32 nativeGetTwoDigitYearMax(System.Int32 calID)
-    // Offset: 0x19A8B78
+    // Offset: 0x198E53C
     static int nativeGetTwoDigitYearMax(int calID);
     // static private System.Boolean nativeGetCalendarData(System.Globalization.CalendarData data, System.String localeName, System.Int32 calendarId)
-    // Offset: 0x19A9D58
+    // Offset: 0x198F71C
     static bool nativeGetCalendarData(System::Globalization::CalendarData* data, ::Il2CppString* localeName, int calendarId);
     // private System.Boolean fill_calendar_data(System.String localeName, System.Int32 datetimeIndex)
-    // Offset: 0x19AA6EC
+    // Offset: 0x19900B0
     bool fill_calendar_data(::Il2CppString* localeName, int datetimeIndex);
     // private System.Void .ctor()
-    // Offset: 0x19A8B80
+    // Offset: 0x198E544
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

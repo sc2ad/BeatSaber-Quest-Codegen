@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetSelectedGameplayModifiersRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::GameplayModifiers*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18C8E2C
+    // Offset: 0x18AF7F0
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

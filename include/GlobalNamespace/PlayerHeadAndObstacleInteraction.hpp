@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF0A6DC
+    // [InjectAttribute] Offset: 0xF0A354
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0A6EC
+    // [InjectAttribute] Offset: 0xF0A364
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x18
@@ -83,13 +83,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ObstacleController> _intersectingObstacles
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*& dyn__intersectingObstacles();
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
-    // Offset: 0x12B9154
+    // Offset: 0x12CAEAC
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // private System.Void GetObstaclesContainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
-    // Offset: 0x12B91C4
+    // Offset: 0x12CAF1C
     void GetObstaclesContainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
-    // Offset: 0x12B9384
+    // Offset: 0x12CB0DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

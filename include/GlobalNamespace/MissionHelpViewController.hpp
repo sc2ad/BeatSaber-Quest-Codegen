@@ -80,22 +80,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionHelpSO _missionHelp
     GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x1185488
+    // Offset: 0x1209D4C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x118552C
+    // Offset: 0x1209DF0
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0x11855D0
+    // Offset: 0x1209E94
     void Setup(GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void RefreshContent()
-    // Offset: 0x118560C
+    // Offset: 0x1209ED0
     void RefreshContent();
     // private System.Void OkButtonPressed()
-    // Offset: 0x11857A0
+    // Offset: 0x120A064
     void OkButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1185804
+    // Offset: 0x120A0C8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionHelpViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11856FC
+    // Offset: 0x1209FC0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

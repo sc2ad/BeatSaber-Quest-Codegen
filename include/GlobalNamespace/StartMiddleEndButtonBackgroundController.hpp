@@ -73,16 +73,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ImageView _image
     HMUI::ImageView*& dyn__image();
     // public System.Void SetStartSprite()
-    // Offset: 0x11587B8
+    // Offset: 0x11557D8
     void SetStartSprite();
     // public System.Void SetMiddleSprite()
-    // Offset: 0x11587DC
+    // Offset: 0x11557FC
     void SetMiddleSprite();
     // public System.Void SetEndSprite()
-    // Offset: 0x1158800
+    // Offset: 0x1155820
     void SetEndSprite();
     // public System.Void .ctor()
-    // Offset: 0x1158824
+    // Offset: 0x1155844
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

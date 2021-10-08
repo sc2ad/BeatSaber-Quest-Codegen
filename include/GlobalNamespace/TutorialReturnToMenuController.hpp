@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
     GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialSceneSetupData();
     // public System.Void ReturnToMenu()
-    // Offset: 0x133C4FC
+    // Offset: 0x12638D8
     void ReturnToMenu();
     // public System.Void .ctor()
-    // Offset: 0x133C518
+    // Offset: 0x12638F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

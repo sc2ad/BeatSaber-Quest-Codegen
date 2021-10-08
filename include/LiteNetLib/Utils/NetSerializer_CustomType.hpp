@@ -31,7 +31,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(___instance_arg, ___generic__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0x261899C
+    // Offset: 0x2600444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

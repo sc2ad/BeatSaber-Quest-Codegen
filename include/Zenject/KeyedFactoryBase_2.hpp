@@ -145,14 +145,14 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xEC3A0C
+    // [InjectAttribute] Offset: 0xEC642C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xEC3A1C
+    // [InjectOptionalAttribute] Offset: 0xEC643C
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<TKey,System.Type>> _typePairs
     // Size: 0x8
     // Offset: 0x0
@@ -165,7 +165,7 @@ namespace Zenject {
     System::Collections::Generic::Dictionary_2<TKey, System::Type*>* typeMap;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, System::Type*>*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xEC3A2C
+    // [InjectOptionalAttribute] Offset: 0xEC644C
     // private readonly System.Type _fallbackType
     // Size: 0x8
     // Offset: 0x0

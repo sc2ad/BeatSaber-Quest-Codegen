@@ -67,20 +67,20 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
     Org::BouncyCastle::Math::EC::ECPointMap*& dyn_m_pointMap();
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
-    // Offset: 0x2318DB0
+    // Offset: 0x22FE814
     Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
     // public System.Boolean get_HasEfficientPointMap()
-    // Offset: 0x2318DB8
+    // Offset: 0x22FE81C
     bool get_HasEfficientPointMap();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters parameters)
-    // Offset: 0x2318C60
+    // Offset: 0x22FE6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBEndomorphism* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBEndomorphism*, creationType>(curve, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x2318D1C
+    // Offset: 0x22FE780
     ::ArrayW<Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBEndomorphism
   #pragma pack(pop)

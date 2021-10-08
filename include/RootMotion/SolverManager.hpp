@@ -36,7 +36,7 @@ namespace RootMotion {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF181C
+    // [TooltipAttribute] Offset: 0xEF1484
     // public System.Boolean fixTransforms
     // Size: 0x1
     // Offset: 0x18
@@ -91,49 +91,49 @@ namespace RootMotion {
     // Get instance field reference: private System.Boolean skipSolverUpdate
     bool& dyn_skipSolverUpdate();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1C707D4
+    // Offset: 0x1C53198
     bool get_animatePhysics();
     // private System.Boolean get_isAnimated()
-    // Offset: 0x1C70AD0
+    // Offset: 0x1C53494
     bool get_isAnimated();
     // public System.Void Disable()
-    // Offset: 0x1C7069C
+    // Offset: 0x1C53060
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x1C70734
+    // Offset: 0x1C530F8
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x1C70738
+    // Offset: 0x1C530FC
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x1C7073C
+    // Offset: 0x1C53100
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x1C70740
+    // Offset: 0x1C53104
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x1C707D0
+    // Offset: 0x1C53194
     void Start();
     // private System.Void Initiate()
-    // Offset: 0x1C70778
+    // Offset: 0x1C5313C
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x1C70A84
+    // Offset: 0x1C53448
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x1C708C4
+    // Offset: 0x1C53288
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Void FixedUpdate()
-    // Offset: 0x1C70B8C
+    // Offset: 0x1C53550
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1C70BE8
+    // Offset: 0x1C535AC
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x1C70C44
+    // Offset: 0x1C53608
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x1C5F89C
+    // Offset: 0x1C42260
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

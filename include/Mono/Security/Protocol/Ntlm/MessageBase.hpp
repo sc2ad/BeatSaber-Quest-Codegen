@@ -48,32 +48,32 @@ namespace Mono::Security::Protocol::Ntlm {
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.NtlmFlags _flags
     Mono::Security::Protocol::Ntlm::NtlmFlags& dyn__flags();
     // public Mono.Security.Protocol.Ntlm.NtlmFlags get_Flags()
-    // Offset: 0x1FA441C
+    // Offset: 0x1F8BE80
     Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
     // public System.Void set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags value)
-    // Offset: 0x1FA4424
+    // Offset: 0x1F8BE88
     void set_Flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
     // public System.Int32 get_Type()
-    // Offset: 0x1FA442C
+    // Offset: 0x1F8BE90
     int get_Type();
     // protected System.Void .ctor(System.Int32 messageType)
-    // Offset: 0x1FA43F0
+    // Offset: 0x1F8BE54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageBase* New_ctor(int messageType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::MessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageBase*, creationType>(messageType)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1FA4820
+    // Offset: 0x1F8C284
     static void _cctor();
     // protected System.Byte[] PrepareMessage(System.Int32 messageSize)
-    // Offset: 0x1FA4434
+    // Offset: 0x1F8BE98
     ::ArrayW<uint8_t> PrepareMessage(int messageSize);
     // protected System.Void Decode(System.Byte[] message)
-    // Offset: 0x1FA4540
+    // Offset: 0x1F8BFA4
     void Decode(::ArrayW<uint8_t> message);
     // protected System.Boolean CheckHeader(System.Byte[] message)
-    // Offset: 0x1FA46E4
+    // Offset: 0x1F8C148
     bool CheckHeader(::ArrayW<uint8_t> message);
     // public System.Byte[] GetBytes()
     // Offset: 0xFFFFFFFF

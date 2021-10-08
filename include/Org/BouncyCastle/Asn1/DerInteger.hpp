@@ -58,77 +58,77 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Int32 start
     int& dyn_start();
     // public Org.BouncyCastle.Math.BigInteger get_PositiveValue()
-    // Offset: 0x18EC30C
+    // Offset: 0x18D2CD0
     Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
     // public Org.BouncyCastle.Math.BigInteger get_Value()
-    // Offset: 0x18F07C8
+    // Offset: 0x18D718C
     Org::BouncyCastle::Math::BigInteger* get_Value();
     // public System.Int32 get_IntValueExact()
-    // Offset: 0x18F0830
+    // Offset: 0x18D71F4
     int get_IntValueExact();
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0x18EC514
+    // Offset: 0x18D2ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(value)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x18EC248
+    // Offset: 0x18D2C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(Org::BouncyCastle::Math::BigInteger* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(value)));
     }
     // public System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x18F07C0
+    // Offset: 0x18D7184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(bytes)));
     }
     // System.Void .ctor(System.Byte[] bytes, System.Boolean clone)
-    // Offset: 0x18E228C
+    // Offset: 0x18C8C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(::ArrayW<uint8_t> bytes, bool clone) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(bytes, clone)));
     }
     // static System.Boolean AllowUnsafe()
-    // Offset: 0x18F04E8
+    // Offset: 0x18D6EAC
     static bool AllowUnsafe();
     // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(System.Object obj)
-    // Offset: 0x18F0598
+    // Offset: 0x18D6F5C
     static Org::BouncyCastle::Asn1::DerInteger* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x18F0698
+    // Offset: 0x18D705C
     static Org::BouncyCastle::Asn1::DerInteger* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // static System.Int32 IntValue(System.Byte[] bytes, System.Int32 start, System.Int32 signExt)
-    // Offset: 0x18EE7D8
+    // Offset: 0x18D519C
     static int IntValue(::ArrayW<uint8_t> bytes, int start, int signExt);
     // static System.Boolean IsMalformed(System.Byte[] bytes)
-    // Offset: 0x18EE5DC
+    // Offset: 0x18D4FA0
     static bool IsMalformed(::ArrayW<uint8_t> bytes);
     // static System.Int32 SignBytesToSkip(System.Byte[] bytes)
-    // Offset: 0x18EE664
+    // Offset: 0x18D5028
     static int SignBytesToSkip(::ArrayW<uint8_t> bytes);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x18F08D0
+    // Offset: 0x18D7294
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x18F08F4
+    // Offset: 0x18D72B8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x18F0960
+    // Offset: 0x18D7324
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x18F0A38
+    // Offset: 0x18D73FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

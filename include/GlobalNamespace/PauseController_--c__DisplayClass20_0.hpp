@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean value
     bool& dyn_value();
     // System.Void <get_canPause>b__0(System.Boolean newValue)
-    // Offset: 0x12B0204
+    // Offset: 0x12C1CD0
     void $get_canPause$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0x12AF05C
+    // Offset: 0x12C0B28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean ignoreBadCuts
     bool& dyn_ignoreBadCuts();
     // public System.Void .ctor(System.Boolean useTestAudioClips, System.Boolean ignoreBadCuts)
-    // Offset: 0x1353B20
+    // Offset: 0x1339A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutSoundEffectManager::InitData::.ctor");

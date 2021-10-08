@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerScoreProvider/RankedPlayer,System.Boolean> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x117CE7C
+    // Offset: 0x110F3C0
     static void _cctor();
     // System.Boolean <Update>b__10_0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0x117CEE8
+    // Offset: 0x110F42C
     bool $Update$b__10_0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x117CEE0
+    // Offset: 0x110F424
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

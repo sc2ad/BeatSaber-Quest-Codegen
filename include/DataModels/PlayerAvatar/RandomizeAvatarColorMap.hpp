@@ -44,13 +44,13 @@ namespace DataModels::PlayerAvatar {
     // Get instance field reference: private readonly System.Int32[] <colorIndices>k__BackingField
     ::ArrayW<int>& dyn_$colorIndices$k__BackingField();
     // public System.Int32 get_totalIndices()
-    // Offset: 0x11A517C
+    // Offset: 0x1139844
     int get_totalIndices();
     // public System.Int32[] get_colorIndices()
-    // Offset: 0x11A5184
+    // Offset: 0x113984C
     ::ArrayW<int> get_colorIndices();
     // public System.Void .ctor(System.Int32 headTopPrimaryColorIndex, System.Int32 headTopSecondaryColorIndex, System.Int32 glassesColorIndex, System.Int32 facialHairColorIndex, System.Int32 handsColorIndex, System.Int32 clothesPrimaryColorIndex, System.Int32 clothesSecondaryColorIndex, System.Int32 clothesDetailColorIndex)
-    // Offset: 0x11A4B84
+    // Offset: 0x113924C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("DataModels::PlayerAvatar::RandomizeAvatarColorMap::.ctor");

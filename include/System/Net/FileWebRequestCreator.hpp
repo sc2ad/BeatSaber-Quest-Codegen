@@ -37,10 +37,10 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IWebRequestCreate*>(this);
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x15801D0
+    // Offset: 0x1566B94
     System::Net::WebRequest* Create(System::Uri* uri);
     // System.Void .ctor()
-    // Offset: 0x15801C8
+    // Offset: 0x1566B8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

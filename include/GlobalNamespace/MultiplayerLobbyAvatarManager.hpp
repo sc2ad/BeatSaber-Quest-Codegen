@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xF00F94
+    // [InjectAttribute] Offset: 0xF00C0C
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF00FA4
+    // [InjectAttribute] Offset: 0xF00C1C
     // private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
     // Size: 0x8
     // Offset: 0x20
@@ -106,31 +106,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
     System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__inProgressDespawnAnimations();
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x116C8BC
+    // Offset: 0x11C1ED0
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x116C8C4
+    // Offset: 0x11C1ED8
     void ActivateMultiplayerLobbyAvatarManager();
     // public System.Void DeactivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x116CFF0
+    // Offset: 0x11C2604
     void DeactivateMultiplayerLobbyAvatarManager();
     // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x116D320
+    // Offset: 0x11C2934
     void HandleLobbyStateDataModelPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x116D324
+    // Offset: 0x11C2938
     void HandleLobbyStateDataModelPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x116CB64
+    // Offset: 0x11C2178
     void AddPlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x116D328
+    // Offset: 0x11C293C
     void RemovePlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Collections.IEnumerator RemovePlayerAndDestroy(System.String userId, MultiplayerLobbyAvatarController multiplayerAvatar)
-    // Offset: 0x116D4A0
+    // Offset: 0x11C2AB4
     System::Collections::IEnumerator* RemovePlayerAndDestroy(::Il2CppString* userId, GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
     // public System.Void .ctor()
-    // Offset: 0x116D550
+    // Offset: 0x11C2B64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

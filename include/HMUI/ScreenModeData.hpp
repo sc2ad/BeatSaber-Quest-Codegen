@@ -57,14 +57,14 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: offsetHeightByHeadPos and: yOffsetRelativeToHead
     char __padding4[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xEE25A0
+    // [DrawIfAttribute] Offset: 0xEE1FC0
     // public System.Single yOffsetRelativeToHead
     // Size: 0x4
     // Offset: 0x34
     float yOffsetRelativeToHead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xEE2638
+    // [DrawIfAttribute] Offset: 0xEE2058
     // public System.Single minYPos
     // Size: 0x4
     // Offset: 0x38
@@ -87,7 +87,7 @@ namespace HMUI {
     // Get instance field reference: public System.Single minYPos
     float& dyn_minYPos();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 rotation, System.Single scale, System.Single radius, System.Boolean offsetHeightByHeadPos, System.Single yOffsetRelativeToHead, System.Single minYPos)
-    // Offset: 0x141580C
+    // Offset: 0x13F91D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float scale, float radius, bool offsetHeightByHeadPos, float yOffsetRelativeToHead, float minYPos) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScreenModeData::.ctor");

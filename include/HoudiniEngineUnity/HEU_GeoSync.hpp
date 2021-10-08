@@ -44,7 +44,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _filePath
     ::Il2CppString*& dyn__filePath();
     // public System.Void .ctor()
-    // Offset: 0x15D5DD0
+    // Offset: 0x15BB794
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -58,7 +58,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeoSync*, creationType>()));
     }
     // protected override System.Void SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x15D5D28
+    // Offset: 0x15BB6EC
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
     void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase* session);

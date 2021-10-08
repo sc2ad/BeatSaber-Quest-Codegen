@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPlayerBase* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPlayerBase*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0030C
+    // [InjectAttribute] Offset: 0xEFFF84
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void Start()
-    // Offset: 0x11B40DC
+    // Offset: 0x116ED70
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B4170
+    // Offset: 0x116EE04
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x11B424C
+    // Offset: 0x116EEE0
     void HandleGameScenesManagerTransitionDidStart(float duration);
     // public System.Void .ctor()
-    // Offset: 0x11B42EC
+    // Offset: 0x116EF80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

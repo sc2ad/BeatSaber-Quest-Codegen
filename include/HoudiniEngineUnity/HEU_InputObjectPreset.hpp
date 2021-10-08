@@ -77,7 +77,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
     UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x152930C
+    // Offset: 0x1510CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

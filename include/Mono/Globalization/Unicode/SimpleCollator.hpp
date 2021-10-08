@@ -162,149 +162,149 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: private readonly System.Boolean frenchSort
     bool& dyn_frenchSort();
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x1C34364
+    // Offset: 0x1C16D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleCollator* New_ctor(System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleCollator*, creationType>(culture)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C39C60
+    // Offset: 0x1C1C624
     static void _cctor();
     // private System.Void SetCJKTable(System.Globalization.CultureInfo culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref System.Byte* lv2Table)
-    // Offset: 0x1C346A8
+    // Offset: 0x1C1706C
     void SetCJKTable(System::Globalization::CultureInfo* culture, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<uint8_t*> lv2Table);
     // static private System.Globalization.CultureInfo GetNeutralCulture(System.Globalization.CultureInfo info)
-    // Offset: 0x1C34790
+    // Offset: 0x1C17154
     static System::Globalization::CultureInfo* GetNeutralCulture(System::Globalization::CultureInfo* info);
     // private System.Byte Category(System.Int32 cp)
-    // Offset: 0x1C3480C
+    // Offset: 0x1C171D0
     uint8_t Category(int cp);
     // private System.Byte Level1(System.Int32 cp)
-    // Offset: 0x1C348BC
+    // Offset: 0x1C17280
     uint8_t Level1(int cp);
     // private System.Byte Level2(System.Int32 cp, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext)
-    // Offset: 0x1C3496C
+    // Offset: 0x1C17330
     uint8_t Level2(int cp, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext);
     // static private System.Boolean IsHalfKana(System.Int32 cp, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C34ABC
+    // Offset: 0x1C17480
     static bool IsHalfKana(int cp, System::Globalization::CompareOptions opt);
     // private Mono.Globalization.Unicode.Contraction GetContraction(System.String s, System.Int32 start, System.Int32 end)
-    // Offset: 0x1C34B44
+    // Offset: 0x1C17508
     Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end);
     // private Mono.Globalization.Unicode.Contraction GetContraction(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.Contraction[] clist)
-    // Offset: 0x1C34C20
+    // Offset: 0x1C175E4
     Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
     // private Mono.Globalization.Unicode.Contraction GetTailContraction(System.String s, System.Int32 start, System.Int32 end)
-    // Offset: 0x1C34D54
+    // Offset: 0x1C17718
     Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end);
     // private Mono.Globalization.Unicode.Contraction GetTailContraction(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.Contraction[] clist)
-    // Offset: 0x1C34E30
+    // Offset: 0x1C177F4
     Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
     // private System.Int32 FilterOptions(System.Int32 i, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C35044
+    // Offset: 0x1C17A08
     int FilterOptions(int i, System::Globalization::CompareOptions opt);
     // private Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType GetExtenderType(System.Int32 i)
-    // Offset: 0x1C35164
+    // Offset: 0x1C17B28
     Mono::Globalization::Unicode::SimpleCollator::ExtenderType GetExtenderType(int i);
     // static private System.Byte ToDashTypeValue(Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C35270
+    // Offset: 0x1C17C34
     static uint8_t ToDashTypeValue(Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, System::Globalization::CompareOptions opt);
     // private System.Int32 FilterExtender(System.Int32 i, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C35290
+    // Offset: 0x1C17C54
     int FilterExtender(int i, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, System::Globalization::CompareOptions opt);
     // static private System.Boolean IsIgnorable(System.Int32 i, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C354C4
+    // Offset: 0x1C17E88
     static bool IsIgnorable(int i, System::Globalization::CompareOptions opt);
     // private System.Boolean IsSafe(System.Int32 i)
-    // Offset: 0x1C35558
+    // Offset: 0x1C17F1C
     bool IsSafe(int i);
     // public System.Globalization.SortKey GetSortKey(System.String s, System.Globalization.CompareOptions options)
-    // Offset: 0x1C355C4
+    // Offset: 0x1C17F88
     System::Globalization::SortKey* GetSortKey(::Il2CppString* s, System::Globalization::CompareOptions options);
     // public System.Globalization.SortKey GetSortKey(System.String s, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions options)
-    // Offset: 0x1C355E4
+    // Offset: 0x1C17FA8
     System::Globalization::SortKey* GetSortKey(::Il2CppString* s, int start, int length, System::Globalization::CompareOptions options);
     // private System.Void GetSortKey(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.SortKeyBuffer buf, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C35870
+    // Offset: 0x1C18234
     void GetSortKey(::Il2CppString* s, int start, int end, Mono::Globalization::Unicode::SortKeyBuffer* buf, System::Globalization::CompareOptions opt);
     // private System.Void FillSortKeyRaw(System.Int32 i, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, Mono.Globalization.Unicode.SortKeyBuffer buf, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C35C70
+    // Offset: 0x1C18634
     void FillSortKeyRaw(int i, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, Mono::Globalization::Unicode::SortKeyBuffer* buf, System::Globalization::CompareOptions opt);
     // private System.Void FillSurrogateSortKeyRaw(System.Int32 i, Mono.Globalization.Unicode.SortKeyBuffer buf)
-    // Offset: 0x1C36224
+    // Offset: 0x1C18BE8
     void FillSurrogateSortKeyRaw(int i, Mono::Globalization::Unicode::SortKeyBuffer* buf);
     // System.Int32 Compare(System.String s1, System.Int32 idx1, System.Int32 len1, System.String s2, System.Int32 idx2, System.Int32 len2, System.Globalization.CompareOptions options)
-    // Offset: 0x1C36374
+    // Offset: 0x1C18D38
     int Compare(::Il2CppString* s1, int idx1, int len1, ::Il2CppString* s2, int idx2, int len2, System::Globalization::CompareOptions options);
     // private System.Void ClearBuffer(System.Byte* buffer, System.Int32 size)
-    // Offset: 0x1C35C38
+    // Offset: 0x1C185FC
     void ClearBuffer(uint8_t* buffer, int size);
     // private System.Int32 CompareInternal(System.String s1, System.Int32 idx1, System.Int32 len1, System.String s2, System.Int32 idx2, System.Int32 len2, out System.Boolean targetConsumed, out System.Boolean sourceConsumed, System.Boolean skipHeadingExtenders, System.Boolean immediateBreakup, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C36434
+    // Offset: 0x1C18DF8
     int CompareInternal(::Il2CppString* s1, int idx1, int len1, ::Il2CppString* s2, int idx2, int len2, ByRef<bool> targetConsumed, ByRef<bool> sourceConsumed, bool skipHeadingExtenders, bool immediateBreakup, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Int32 CompareFlagPair(System.Boolean b1, System.Boolean b2)
-    // Offset: 0x1C378E8
+    // Offset: 0x1C1A2AC
     int CompareFlagPair(bool b1, bool b2);
     // public System.Boolean IsPrefix(System.String src, System.String target, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C37908
+    // Offset: 0x1C1A2CC
     bool IsPrefix(::Il2CppString* src, ::Il2CppString* target, System::Globalization::CompareOptions opt);
     // public System.Boolean IsPrefix(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C37928
+    // Offset: 0x1C1A2EC
     bool IsPrefix(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Boolean IsPrefix(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Boolean skipHeadingExtenders, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C379DC
+    // Offset: 0x1C1A3A0
     bool IsPrefix(::Il2CppString* s, ::Il2CppString* target, int start, int length, bool skipHeadingExtenders, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // public System.Boolean IsSuffix(System.String src, System.String target, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C37A48
+    // Offset: 0x1C1A40C
     bool IsSuffix(::Il2CppString* src, ::Il2CppString* target, System::Globalization::CompareOptions opt);
     // public System.Boolean IsSuffix(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C37A68
+    // Offset: 0x1C1A42C
     bool IsSuffix(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Int32 QuickIndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, out System.Boolean testWasUnable)
-    // Offset: 0x1C37CE0
+    // Offset: 0x1C1A6A4
     int QuickIndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, ByRef<bool> testWasUnable);
     // public System.Int32 IndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C37E54
+    // Offset: 0x1C1A818
     int IndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Int32 IndexOfOrdinal(System.String s, System.String target, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C38514
+    // Offset: 0x1C1AED8
     int IndexOfOrdinal(::Il2CppString* s, ::Il2CppString* target, int start, int length);
     // private System.Int32 IndexOfOrdinal(System.String s, System.Char target, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C385F0
+    // Offset: 0x1C1AFB4
     int IndexOfOrdinal(::Il2CppString* s, ::Il2CppChar target, int start, int length);
     // private System.Int32 IndexOfSortKey(System.String s, System.Int32 start, System.Int32 length, System.Byte* sortkey, System.Char target, System.Int32 ti, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C38660
+    // Offset: 0x1C1B024
     int IndexOfSortKey(::Il2CppString* s, int start, int length, uint8_t* sortkey, ::Il2CppChar target, int ti, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Int32 IndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Byte* targetSortKey, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C38040
+    // Offset: 0x1C1AA04
     int IndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, uint8_t* targetSortKey, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // public System.Int32 LastIndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
-    // Offset: 0x1C37B04
+    // Offset: 0x1C1A4C8
     int LastIndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Int32 LastIndexOfOrdinal(System.String s, System.String target, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C388C0
+    // Offset: 0x1C1B284
     int LastIndexOfOrdinal(::Il2CppString* s, ::Il2CppString* target, int start, int length);
     // private System.Int32 LastIndexOfSortKey(System.String s, System.Int32 start, System.Int32 orgStart, System.Int32 length, System.Byte* sortkey, System.Int32 ti, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C38F3C
+    // Offset: 0x1C1B900
     int LastIndexOfSortKey(::Il2CppString* s, int start, int orgStart, int length, uint8_t* sortkey, int ti, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Int32 LastIndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Byte* targetSortKey, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C389F0
+    // Offset: 0x1C1B3B4
     int LastIndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, uint8_t* targetSortKey, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesForward(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C38700
+    // Offset: 0x1C1B0C4
     bool MatchesForward(::Il2CppString* s, ByRef<int> idx, int end, int ti, uint8_t* sortkey, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesForwardCore(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, ref Mono.Globalization.Unicode.Contraction ct, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C391B4
+    // Offset: 0x1C1BB78
     bool MatchesForwardCore(::Il2CppString* s, ByRef<int> idx, int end, int ti, uint8_t* sortkey, bool noLv4, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, ByRef<Mono::Globalization::Unicode::Contraction*> ct, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesPrimitive(System.Globalization.CompareOptions opt, System.Byte* source, System.Int32 si, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, System.Byte* target, System.Int32 ti, System.Boolean noLv4)
-    // Offset: 0x1C39524
+    // Offset: 0x1C1BEE8
     bool MatchesPrimitive(System::Globalization::CompareOptions opt, uint8_t* source, int si, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, uint8_t* target, int ti, bool noLv4);
     // private System.Boolean MatchesBackward(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 orgStart, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C38FEC
+    // Offset: 0x1C1B9B0
     bool MatchesBackward(::Il2CppString* s, ByRef<int> idx, int end, int orgStart, int ti, uint8_t* sortkey, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesBackwardCore(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 orgStart, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, ref Mono.Globalization.Unicode.Contraction ct, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
-    // Offset: 0x1C39780
+    // Offset: 0x1C1C144
     bool MatchesBackwardCore(::Il2CppString* s, ByRef<int> idx, int end, int orgStart, int ti, uint8_t* sortkey, bool noLv4, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, ByRef<Mono::Globalization::Unicode::Contraction*> ct, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
   }; // Mono.Globalization.Unicode.SimpleCollator
   #pragma pack(pop)

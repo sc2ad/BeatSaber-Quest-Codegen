@@ -262,29 +262,29 @@ namespace MasterServer {
     // Get instance field reference: public System.String managerId
     ::Il2CppString*& dyn_managerId();
     // static public IPacketPool`1<MasterServer.ConnectToServerResponse> get_pool()
-    // Offset: 0x12DA4E8
+    // Offset: 0x12EB85C
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerResponse*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x12DA5C8
+    // Offset: 0x12EB93C
     uint get_version();
     // public MasterServer.ConnectToServerResponse InitForFailure(MasterServer.ConnectToServerResponse/MasterServer.Result result)
-    // Offset: 0x12DA5D0
+    // Offset: 0x12EB944
     MasterServer::ConnectToServerResponse* InitForFailure(MasterServer::ConnectToServerResponse::Result result);
     // public MasterServer.ConnectToServerResponse InitForSuccess(System.String userId, System.String userName, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey, System.String managerId)
-    // Offset: 0x12DA668
+    // Offset: 0x12EB9DC
     MasterServer::ConnectToServerResponse* InitForSuccess(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::Il2CppString* managerId);
     // public override System.Byte get_resultCode()
-    // Offset: 0x12DA530
+    // Offset: 0x12EB8A4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x12DA538
+    // Offset: 0x12EB8AC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x12DAA70
+    // Offset: 0x12EBDE4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -294,17 +294,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12DA700
+    // Offset: 0x12EBA74
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12DA844
+    // Offset: 0x12EBBB8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12DA994
+    // Offset: 0x12EBD08
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

@@ -68,42 +68,42 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [InjectAttribute] Offset: 0xEC428C
+    // [InjectAttribute] Offset: 0xEC6CAC
     // private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<Zenject::ITickable*>* tickables;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::ITickable*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC42C4
+    // [InjectAttribute] Offset: 0xEC6CE4
     // private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::IFixedTickable*>* fixedTickables;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::IFixedTickable*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC42FC
+    // [InjectAttribute] Offset: 0xEC6D1C
     // private readonly System.Collections.Generic.List`1<Zenject.ILateTickable> _lateTickables
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::List_1<Zenject::ILateTickable*>* lateTickables;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::ILateTickable*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC4334
+    // [InjectAttribute] Offset: 0xEC6D54
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _priorities
     // Size: 0x8
     // Offset: 0x28
     System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC436C
+    // [InjectAttribute] Offset: 0xEC6D8C
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _fixedPriorities
     // Size: 0x8
     // Offset: 0x30
     System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* fixedPriorities;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC43B4
+    // [InjectAttribute] Offset: 0xEC6DD4
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _latePriorities
     // Size: 0x8
     // Offset: 0x38
@@ -156,64 +156,64 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isPaused
     bool& dyn__isPaused();
     // public System.Collections.Generic.IEnumerable`1<Zenject.ITickable> get_Tickables()
-    // Offset: 0x18A481C
+    // Offset: 0x188B1E0
     System::Collections::Generic::IEnumerable_1<Zenject::ITickable*>* get_Tickables();
     // public System.Boolean get_IsPaused()
-    // Offset: 0x18A4824
+    // Offset: 0x188B1E8
     bool get_IsPaused();
     // public System.Void set_IsPaused(System.Boolean value)
-    // Offset: 0x18A482C
+    // Offset: 0x188B1F0
     void set_IsPaused(bool value);
     // public System.Void Initialize()
-    // Offset: 0x18A4838
+    // Offset: 0x188B1FC
     void Initialize();
     // private System.Void InitFixedTickables()
-    // Offset: 0x18A4EB8
+    // Offset: 0x188B87C
     void InitFixedTickables();
     // private System.Void InitTickables()
-    // Offset: 0x18A4864
+    // Offset: 0x188B228
     void InitTickables();
     // private System.Void InitLateTickables()
-    // Offset: 0x18A550C
+    // Offset: 0x188BED0
     void InitLateTickables();
     // public System.Void Add(Zenject.ITickable tickable, System.Int32 priority)
-    // Offset: 0x18A5B78
+    // Offset: 0x188C53C
     void Add(Zenject::ITickable* tickable, int priority);
     // public System.Void Add(Zenject.ITickable tickable)
-    // Offset: 0x18A5BE8
+    // Offset: 0x188C5AC
     void Add(Zenject::ITickable* tickable);
     // public System.Void AddLate(Zenject.ILateTickable tickable, System.Int32 priority)
-    // Offset: 0x18A5BF0
+    // Offset: 0x188C5B4
     void AddLate(Zenject::ILateTickable* tickable, int priority);
     // public System.Void AddLate(Zenject.ILateTickable tickable)
-    // Offset: 0x18A5C60
+    // Offset: 0x188C624
     void AddLate(Zenject::ILateTickable* tickable);
     // public System.Void AddFixed(Zenject.IFixedTickable tickable, System.Int32 priority)
-    // Offset: 0x18A5C68
+    // Offset: 0x188C62C
     void AddFixed(Zenject::IFixedTickable* tickable, int priority);
     // public System.Void AddFixed(Zenject.IFixedTickable tickable)
-    // Offset: 0x18A5CD8
+    // Offset: 0x188C69C
     void AddFixed(Zenject::IFixedTickable* tickable);
     // public System.Void Remove(Zenject.ITickable tickable)
-    // Offset: 0x18A5D44
+    // Offset: 0x188C708
     void Remove(Zenject::ITickable* tickable);
     // public System.Void RemoveLate(Zenject.ILateTickable tickable)
-    // Offset: 0x18A5DAC
+    // Offset: 0x188C770
     void RemoveLate(Zenject::ILateTickable* tickable);
     // public System.Void RemoveFixed(Zenject.IFixedTickable tickable)
-    // Offset: 0x18A5E14
+    // Offset: 0x188C7D8
     void RemoveFixed(Zenject::IFixedTickable* tickable);
     // public System.Void Update()
-    // Offset: 0x1894DA8
+    // Offset: 0x187B76C
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x1894EE0
+    // Offset: 0x187B8A4
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x1894E44
+    // Offset: 0x187B808
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x18A472C
+    // Offset: 0x188B0F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -59,25 +59,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isRegistered
     bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
-    // Offset: 0x1E2AB80
+    // Offset: 0x1E125E4
     int get_lightId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E2AB88
+    // Offset: 0x1E125EC
     UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1E2AB94
+    // Offset: 0x1E125F8
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1E2AB9C
+    // Offset: 0x1E12600
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1E2ABA8
+    // Offset: 0x1E1260C
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1E2ABB0
+    // Offset: 0x1E12614
     void ColorWasSet(UnityEngine::Color newColor);
     // protected System.Void .ctor()
-    // Offset: 0x1E2ABBC
+    // Offset: 0x1E12620
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

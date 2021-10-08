@@ -52,26 +52,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <messageHandled>k__BackingField
     bool& dyn_$messageHandled$k__BackingField();
     // public System.Boolean get_messageHandled()
-    // Offset: 0x144CDDC
+    // Offset: 0x14317A0
     bool get_messageHandled();
     // private System.Void set_messageHandled(System.Boolean value)
-    // Offset: 0x144CDE4
+    // Offset: 0x14317A8
     void set_messageHandled(bool value);
     // public BaseMasterServerAcknowledgeMessage Init(System.Boolean messageHandled)
-    // Offset: 0x144CDF0
+    // Offset: 0x14317B4
     GlobalNamespace::BaseMasterServerAcknowledgeMessage* Init(bool messageHandled);
     // public override System.Byte get_resultCode()
-    // Offset: 0x144CD74
+    // Offset: 0x1431738
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Byte BaseMasterServerResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x144CD7C
+    // Offset: 0x1431740
     // Implemented from: BaseMasterServerResponse
     // Base method: System.String BaseMasterServerResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // protected System.Void .ctor()
-    // Offset: 0x144CEE4
+    // Offset: 0x14318A8
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerAcknowledgeMessage*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x144CDFC
+    // Offset: 0x14317C0
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x144CE64
+    // Offset: 0x1431828
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

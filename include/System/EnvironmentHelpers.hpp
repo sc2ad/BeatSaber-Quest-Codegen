@@ -15,7 +15,7 @@ namespace System {
   class EnvironmentHelpers : public ::Il2CppObject {
     public:
     // static System.Boolean IsWindowsVistaOrAbove()
-    // Offset: 0x1A26858
+    // Offset: 0x1A0B21C
     static bool IsWindowsVistaOrAbove();
   }; // System.EnvironmentHelpers
   #pragma pack(pop)

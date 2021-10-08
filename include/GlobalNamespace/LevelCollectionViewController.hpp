@@ -23,6 +23,8 @@ namespace GlobalNamespace {
   class AdditionalContentModel;
   // Forward declaring type: SongPreviewPlayer
   class SongPreviewPlayer;
+  // Forward declaring type: PerceivedLoudnessPerLevelModel
+  class PerceivedLoudnessPerLevelModel;
   // Forward declaring type: IPreviewBeatmapLevel
   class IPreviewBeatmapLevel;
   // Forward declaring type: IBeatmapLevelCollection
@@ -41,11 +43,6 @@ namespace UnityEngine {
 namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
-}
-// Forward declaring namespace: DataModels::Levels
-namespace DataModels::Levels {
-  // Forward declaring type: PerceivedLoudnessPerLevelModel
-  class PerceivedLoudnessPerLevelModel;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -89,42 +86,42 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* noDataInfoContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF102F8
-    // [InjectAttribute] Offset: 0xF102F8
+    // [SpaceAttribute] Offset: 0xF0FF80
+    // [InjectAttribute] Offset: 0xF0FF80
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10330
+    // [InjectAttribute] Offset: 0xF0FFB8
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10340
+    // [InjectAttribute] Offset: 0xF0FFC8
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10350
+    // [InjectAttribute] Offset: 0xF0FFD8
     // private SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10360
-    // private DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    // [InjectAttribute] Offset: 0xF0FFE8
+    // private PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0xA0
-    DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
+    GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
-    static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
     // private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -182,8 +179,8 @@ namespace GlobalNamespace {
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private SongPreviewPlayer _songPreviewPlayer
     GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
-    // Get instance field reference: private DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    DataModels::Levels::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    // Get instance field reference: private PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // Get instance field reference: private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
     System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
     // Get instance field reference: private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
@@ -199,40 +196,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
     GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevelToBeSelected();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x114D758
+    // Offset: 0x11E1968
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x114DB64
+    // Offset: 0x11E1D74
     void remove_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x114D7FC
+    // Offset: 0x11E1A0C
     void add_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x114DC08
+    // Offset: 0x11E1E18
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
-    // Offset: 0x114DCAC
+    // Offset: 0x11E1EBC
     void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::Il2CppString* headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x114D11C
+    // Offset: 0x11E1328
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void RefreshFavorites()
-    // Offset: 0x114E7AC
+    // Offset: 0x11E29BC
     void RefreshFavorites();
     // private System.Void HandleLevelCollectionTableViewDidSelectLevel(LevelCollectionTableView tableView, IPreviewBeatmapLevel level)
-    // Offset: 0x1150294
+    // Offset: 0x11E44A4
     void HandleLevelCollectionTableViewDidSelectLevel(GlobalNamespace::LevelCollectionTableView* tableView, GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x115031C
+    // Offset: 0x11E452C
     void SongPlayerCrossfadeToLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void HandleLevelCollectionTableViewDidSelectPack(LevelCollectionTableView tableView)
-    // Offset: 0x11503E0
+    // Offset: 0x11E45F0
     void HandleLevelCollectionTableViewDidSelectPack(GlobalNamespace::LevelCollectionTableView* tableView);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1150458
+    // Offset: 0x11E4668
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void .ctor()
-    // Offset: 0x1150470
+    // Offset: 0x11E4680
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -246,12 +243,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x114FFD4
+    // Offset: 0x11E41E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x115013C
+    // Offset: 0x11E434C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

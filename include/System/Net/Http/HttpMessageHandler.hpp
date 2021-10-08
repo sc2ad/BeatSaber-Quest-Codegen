@@ -45,16 +45,16 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Dispose()
-    // Offset: 0x175DBE8
+    // Offset: 0x17415AC
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x175AFFC
+    // Offset: 0x173E9C0
     void Dispose(bool disposing);
     // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // protected System.Void .ctor()
-    // Offset: 0x175AEE0
+    // Offset: 0x173E8A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

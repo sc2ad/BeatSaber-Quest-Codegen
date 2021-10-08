@@ -47,10 +47,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 i
     int& dyn_i();
     // System.Boolean <GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face element)
-    // Offset: 0x1691310
+    // Offset: 0x1675CD4
     bool $GetUnusedTextureGroup$b__0(UnityEngine::ProBuilder::Face* element);
     // public System.Void .ctor()
-    // Offset: 0x168DDD8
+    // Offset: 0x167279C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

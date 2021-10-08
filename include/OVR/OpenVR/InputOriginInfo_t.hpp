@@ -1073,7 +1073,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.Byte rchRenderModelComponentName127
     uint8_t& dyn_rchRenderModelComponentName127();
     // public System.String get_rchRenderModelComponentName()
-    // Offset: 0x13B266C
+    // Offset: 0x1397030
     ::Il2CppString* get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)

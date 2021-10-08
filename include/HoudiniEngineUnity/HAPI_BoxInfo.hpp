@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single[] rotation
     ::ArrayW<float>& dyn_rotation();
     // public System.Void .ctor(System.Boolean initialize_fields)
-    // Offset: 0x14397E4
+    // Offset: 0x141E1A8
     HAPI_BoxInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_BoxInfo
   #pragma pack(pop)

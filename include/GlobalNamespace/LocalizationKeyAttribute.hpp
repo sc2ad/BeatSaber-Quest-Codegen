@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class LocalizationKeyAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2580C08
+    // Offset: 0x256566C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

@@ -21,7 +21,7 @@ namespace System::ComponentModel {
   class ArrayConverter : public System::ComponentModel::CollectionConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A216A8
+    // Offset: 0x1A0606C
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.Void CollectionConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

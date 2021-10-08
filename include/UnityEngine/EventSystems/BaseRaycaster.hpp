@@ -60,22 +60,22 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xFFFFFFFF
     UnityEngine::Camera* get_eventCamera();
     // public System.Int32 get_priority()
-    // Offset: 0x15EE5B8
+    // Offset: 0x15D2F7C
     int get_priority();
     // public System.Int32 get_sortOrderPriority()
-    // Offset: 0x15EE5C0
+    // Offset: 0x15D2F84
     int get_sortOrderPriority();
     // public System.Int32 get_renderOrderPriority()
-    // Offset: 0x15EE5C8
+    // Offset: 0x15D2F8C
     int get_renderOrderPriority();
     // public UnityEngine.EventSystems.BaseRaycaster get_rootRaycaster()
-    // Offset: 0x15EE5D0
+    // Offset: 0x15D2F94
     UnityEngine::EventSystems::BaseRaycaster* get_rootRaycaster();
     // public System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     // Offset: 0xFFFFFFFF
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
     // protected System.Void .ctor()
-    // Offset: 0x15EEB9C
+    // Offset: 0x15D3560
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -89,27 +89,27 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<BaseRaycaster*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x15EE694
+    // Offset: 0x15D3058
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Void OnEnable()
-    // Offset: 0x15EE91C
+    // Offset: 0x15D32E0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x15EEA50
+    // Offset: 0x15D3414
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x15EEB84
+    // Offset: 0x15D3548
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x15EEB90
+    // Offset: 0x15D3554
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();

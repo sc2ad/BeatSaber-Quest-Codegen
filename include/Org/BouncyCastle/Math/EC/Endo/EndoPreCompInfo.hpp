@@ -59,19 +59,19 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_mappedPoint
     Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_mappedPoint();
     // public Org.BouncyCastle.Math.EC.Endo.ECEndomorphism get_Endomorphism()
-    // Offset: 0x23185F0
+    // Offset: 0x22FE054
     Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
     // public System.Void set_Endomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism value)
-    // Offset: 0x23185F8
+    // Offset: 0x22FE05C
     void set_Endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_MappedPoint()
-    // Offset: 0x2318600
+    // Offset: 0x22FE064
     Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
     // public System.Void set_MappedPoint(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x2318608
+    // Offset: 0x22FE06C
     void set_MappedPoint(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Void .ctor()
-    // Offset: 0x2318610
+    // Offset: 0x22FE074
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -259,7 +259,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NamedIntListController* clothesValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NamedIntListController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0FA48
+    // [SpaceAttribute] Offset: 0xF0F6D0
     // private ColorPickerButtonController _headTopPrimaryColorButtonController
     // Size: 0x8
     // Offset: 0x98
@@ -296,7 +296,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorPickerButtonController* clothesColorButtonControllerDetail;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorPickerButtonController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0FAD0
+    // [SpaceAttribute] Offset: 0xF0F758
     // private UnityEngine.UI.Button _randomizeAllButton
     // Size: 0x8
     // Offset: 0xC8
@@ -327,7 +327,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0FB48
+    // [SpaceAttribute] Offset: 0xF0F7D0
     // private HMUI.CurvedTextMeshPro _applyButtonText
     // Size: 0x8
     // Offset: 0xF0
@@ -340,21 +340,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* eyesPreviewImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FB90
+    // [InjectAttribute] Offset: 0xF0F818
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::AvatarPartsModel* avatarPartsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPartsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FBA0
+    // [InjectAttribute] Offset: 0xF0F828
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x108
     GlobalNamespace::AvatarDataModel* avatarDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FBB0
+    // [InjectAttribute] Offset: 0xF0F838
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x110
@@ -398,14 +398,14 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
     public:
-    // [LocalizationKeyAttribute] Offset: 0xF0FBC0
+    // [LocalizationKeyAttribute] Offset: 0xF0F848
     // static field const value: static private System.String kEditApplyButtonLocalizationKey
     static constexpr const char* kEditApplyButtonLocalizationKey = "BUTTON_APPLY";
     // Get static field: static private System.String kEditApplyButtonLocalizationKey
     static ::Il2CppString* _get_kEditApplyButtonLocalizationKey();
     // Set static field: static private System.String kEditApplyButtonLocalizationKey
     static void _set_kEditApplyButtonLocalizationKey(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xF0FBD0
+    // [LocalizationKeyAttribute] Offset: 0xF0F858
     // static field const value: static private System.String kCreateApplyButtonLocalizationKey
     static constexpr const char* kCreateApplyButtonLocalizationKey = "BUTTON_CREATE_AVATAR";
     // Get static field: static private System.String kCreateApplyButtonLocalizationKey
@@ -467,73 +467,73 @@ namespace GlobalNamespace {
     // Get instance field reference: private EditAvatarViewController/AvatarEditPart _lastEditedPart
     GlobalNamespace::EditAvatarViewController::AvatarEditPart& dyn__lastEditedPart();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x11AB4E0
+    // Offset: 0x1166174
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x11ABA2C
+    // Offset: 0x11666C0
     void remove_didFinishEvent(System::Action* value);
     // public System.Void add_didRequestColorChangeEvent(System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> value)
-    // Offset: 0x11AB390
+    // Offset: 0x1166024
     void add_didRequestColorChangeEvent(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* value);
     // public System.Void remove_didRequestColorChangeEvent(System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> value)
-    // Offset: 0x11AB8DC
+    // Offset: 0x1166570
     void remove_didRequestColorChangeEvent(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* value);
     // public System.Void add_didChangedAvatarPartEvent(System.Action`1<EditAvatarViewController/AvatarEditPart> value)
-    // Offset: 0x11AB438
+    // Offset: 0x11660CC
     void add_didChangedAvatarPartEvent(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* value);
     // public System.Void remove_didChangedAvatarPartEvent(System.Action`1<EditAvatarViewController/AvatarEditPart> value)
-    // Offset: 0x11AB984
+    // Offset: 0x1166618
     void remove_didChangedAvatarPartEvent(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* value);
     // public System.Void Setup(System.Boolean showAsCreateView)
-    // Offset: 0x11AAF54
+    // Offset: 0x1165BE8
     void Setup(bool showAsCreateView);
     // public System.Void InitHistory()
-    // Offset: 0x11AB6D0
+    // Offset: 0x1166364
     void InitHistory();
     // public System.Void DiscardLastEdit()
-    // Offset: 0x11ABEB4
+    // Offset: 0x1166B48
     void DiscardLastEdit();
     // protected System.Void Update()
-    // Offset: 0x11ABF44
+    // Offset: 0x1166BD8
     void Update();
     // private System.Void RefreshUi()
-    // Offset: 0x11AC9D4
+    // Offset: 0x1167668
     void RefreshUi();
     // private System.Void UpdateButtons()
-    // Offset: 0x11ABED8
+    // Offset: 0x1166B6C
     void UpdateButtons();
     // private System.Void HandleSkinColorDidChanged(System.Int32 value)
-    // Offset: 0x11ACCEC
+    // Offset: 0x1167980
     void HandleSkinColorDidChanged(int value);
     // private System.Void EyesValuePickerHasChanged(System.String eyesId)
-    // Offset: 0x11ACDC8
+    // Offset: 0x1167A5C
     void EyesValuePickerHasChanged(::Il2CppString* eyesId);
     // private System.Void HandleUndoButtonWasPressed()
-    // Offset: 0x11AC028
+    // Offset: 0x1166CBC
     void HandleUndoButtonWasPressed();
     // private System.Void HandleRedoButtonWasPressed()
-    // Offset: 0x11ACE70
+    // Offset: 0x1167B04
     void HandleRedoButtonWasPressed();
     // private System.Void HandleRandomizeAllButtonWasPressed()
-    // Offset: 0x11ABF98
+    // Offset: 0x1166C2C
     void HandleRandomizeAllButtonWasPressed();
     // private System.Void HandleRandomizeModelsButtonWasPressed()
-    // Offset: 0x11ACFDC
+    // Offset: 0x1167C70
     void HandleRandomizeModelsButtonWasPressed();
     // private System.Void HandleRandomizeColorsButtonWasPressed()
-    // Offset: 0x11AD06C
+    // Offset: 0x1167D00
     void HandleRandomizeColorsButtonWasPressed();
     // private System.Void ReportAllChangedAndUpdate()
-    // Offset: 0x11ACF48
+    // Offset: 0x1167BDC
     void ReportAllChangedAndUpdate();
     // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x11AD0EC
+    // Offset: 0x1167D80
     void HandleApplyButtonWasPressed();
     // private System.Void SaveAvatarAndFinish()
-    // Offset: 0x11AD0F0
+    // Offset: 0x1167D84
     void SaveAvatarAndFinish();
     // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x11AD158
+    // Offset: 0x1167DEC
     void HandleCancelButtonWasPressed();
     // static private NamedIntListController/TextValuePair[] CreateTextValuePairsForAvatarPartCollection(AvatarPartCollection`1<T> partCollection)
     // Offset: 0xFFFFFFFF
@@ -546,10 +546,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, partCollection);
     }
     // private NamedColorListController/ColorValuePair[] CreateColorValuePairsForAvatarPartCollection(SkinColorSO[] colors)
-    // Offset: 0x11AC8B0
+    // Offset: 0x1167544
     ::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*> CreateColorValuePairsForAvatarPartCollection(::ArrayW<GlobalNamespace::SkinColorSO*> colors);
     // private System.Void SetupColorButton(UnityEngine.UI.Button button, System.Action`1<UnityEngine.Color> colorSetter, System.Func`1<UnityEngine.Color> currentColor, EditAvatarViewController/AvatarEditPart avatarEditPart, System.Int32 uvSegment)
-    // Offset: 0x11AC7CC
+    // Offset: 0x1167460
     void SetupColorButton(UnityEngine::UI::Button* button, System::Action_1<UnityEngine::Color>* colorSetter, System::Func_1<UnityEngine::Color>* currentColor, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart, int uvSegment);
     // private System.Void SetupValuePicker(AvatarPartCollection`1<T> partCollection, NamedIntListController valuePicker, System.Action`1<System.String> setIdAction, EditAvatarViewController/AvatarEditPart avatarEditPart)
     // Offset: 0xFFFFFFFF
@@ -563,52 +563,52 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, partCollection, valuePicker, setIdAction, avatarEditPart);
     }
     // private System.Void <DidActivate>b__40_0(UnityEngine.Color color)
-    // Offset: 0x11AD210
+    // Offset: 0x1167EA4
     void $DidActivate$b__40_0(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_1()
-    // Offset: 0x11AD23C
+    // Offset: 0x1167ED0
     UnityEngine::Color $DidActivate$b__40_1();
     // private System.Void <DidActivate>b__40_2(UnityEngine.Color color)
-    // Offset: 0x11AD268
+    // Offset: 0x1167EFC
     void $DidActivate$b__40_2(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_3()
-    // Offset: 0x11AD294
+    // Offset: 0x1167F28
     UnityEngine::Color $DidActivate$b__40_3();
     // private System.Void <DidActivate>b__40_4(UnityEngine.Color color)
-    // Offset: 0x11AD2C0
+    // Offset: 0x1167F54
     void $DidActivate$b__40_4(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_5()
-    // Offset: 0x11AD2EC
+    // Offset: 0x1167F80
     UnityEngine::Color $DidActivate$b__40_5();
     // private System.Void <DidActivate>b__40_6(UnityEngine.Color color)
-    // Offset: 0x11AD318
+    // Offset: 0x1167FAC
     void $DidActivate$b__40_6(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_7()
-    // Offset: 0x11AD344
+    // Offset: 0x1167FD8
     UnityEngine::Color $DidActivate$b__40_7();
     // private System.Void <DidActivate>b__40_8(UnityEngine.Color color)
-    // Offset: 0x11AD370
+    // Offset: 0x1168004
     void $DidActivate$b__40_8(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_9()
-    // Offset: 0x11AD39C
+    // Offset: 0x1168030
     UnityEngine::Color $DidActivate$b__40_9();
     // private System.Void <DidActivate>b__40_10(UnityEngine.Color color)
-    // Offset: 0x11AD3C8
+    // Offset: 0x116805C
     void $DidActivate$b__40_10(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_11()
-    // Offset: 0x11AD3F4
+    // Offset: 0x1168088
     UnityEngine::Color $DidActivate$b__40_11();
     // private System.Void <DidActivate>b__40_12(System.String s)
-    // Offset: 0x11AD420
+    // Offset: 0x11680B4
     void $DidActivate$b__40_12(::Il2CppString* s);
     // private System.Void <DidActivate>b__40_13(System.String s)
-    // Offset: 0x11AD448
+    // Offset: 0x11680DC
     void $DidActivate$b__40_13(::Il2CppString* s);
     // private System.Void <DidActivate>b__40_14(System.String s)
-    // Offset: 0x11AD470
+    // Offset: 0x1168104
     void $DidActivate$b__40_14(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x11AD1A8
+    // Offset: 0x1167E3C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -622,7 +622,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11AC110
+    // Offset: 0x1166DA4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

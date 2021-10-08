@@ -113,56 +113,56 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly System.Net.IPEndPoint RemoteEndPoint
     System::Net::IPEndPoint*& dyn_RemoteEndPoint();
     // LiteNetLib.ConnectionRequestResult get_Result()
-    // Offset: 0x1DCF748
+    // Offset: 0x1DB61AC
     LiteNetLib::ConnectionRequestResult get_Result();
     // private System.Void set_Result(LiteNetLib.ConnectionRequestResult value)
-    // Offset: 0x1DCF750
+    // Offset: 0x1DB61B4
     void set_Result(LiteNetLib::ConnectionRequestResult value);
     // System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, LiteNetLib.Utils.NetDataReader netDataReader, System.Net.IPEndPoint endPoint, LiteNetLib.NetManager listener)
-    // Offset: 0x1DCF7B4
+    // Offset: 0x1DB6218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionRequest* New_ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader* netDataReader, System::Net::IPEndPoint* endPoint, LiteNetLib::NetManager* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::ConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionRequest*, creationType>(connectionId, connectionNumber, netDataReader, endPoint, listener)));
     }
     // private System.Boolean TryActivate()
-    // Offset: 0x1DCF758
+    // Offset: 0x1DB61BC
     bool TryActivate();
     // System.Void UpdateRequest(LiteNetLib.NetConnectRequestPacket connRequest)
-    // Offset: 0x1DCF784
+    // Offset: 0x1DB61E8
     void UpdateRequest(LiteNetLib::NetConnectRequestPacket* connRequest);
     // public LiteNetLib.NetPeer AcceptIfKey(System.String key)
-    // Offset: 0x1DCF810
+    // Offset: 0x1DB6274
     LiteNetLib::NetPeer* AcceptIfKey(::Il2CppString* key);
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x1DCFF30
+    // Offset: 0x1DB6994
     LiteNetLib::NetPeer* Accept();
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length, System.Boolean force)
-    // Offset: 0x1DCFF98
+    // Offset: 0x1DB69FC
     void Reject(::ArrayW<uint8_t> rejectData, int start, int length, bool force);
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length)
-    // Offset: 0x1DD0030
+    // Offset: 0x1DB6A94
     void Reject(::ArrayW<uint8_t> rejectData, int start, int length);
     // public System.Void RejectForce(System.Byte[] rejectData, System.Int32 start, System.Int32 length)
-    // Offset: 0x1DD0038
+    // Offset: 0x1DB6A9C
     void RejectForce(::ArrayW<uint8_t> rejectData, int start, int length);
     // public System.Void RejectForce()
-    // Offset: 0x1DD0040
+    // Offset: 0x1DB6AA4
     void RejectForce();
     // public System.Void RejectForce(System.Byte[] rejectData)
-    // Offset: 0x1DD0054
+    // Offset: 0x1DB6AB8
     void RejectForce(::ArrayW<uint8_t> rejectData);
     // public System.Void RejectForce(LiteNetLib.Utils.NetDataWriter rejectData)
-    // Offset: 0x1DD0074
+    // Offset: 0x1DB6AD8
     void RejectForce(LiteNetLib::Utils::NetDataWriter* rejectData);
     // public System.Void Reject()
-    // Offset: 0x1DD009C
+    // Offset: 0x1DB6B00
     void Reject();
     // public System.Void Reject(System.Byte[] rejectData)
-    // Offset: 0x1DD00B0
+    // Offset: 0x1DB6B14
     void Reject(::ArrayW<uint8_t> rejectData);
     // public System.Void Reject(LiteNetLib.Utils.NetDataWriter rejectData)
-    // Offset: 0x1DD00D0
+    // Offset: 0x1DB6B34
     void Reject(LiteNetLib::Utils::NetDataWriter* rejectData);
   }; // LiteNetLib.ConnectionRequest
   #pragma pack(pop)

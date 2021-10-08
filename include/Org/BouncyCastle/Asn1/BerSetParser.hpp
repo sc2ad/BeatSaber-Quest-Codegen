@@ -52,14 +52,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x18E11E4
+    // Offset: 0x18C7BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerSetParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerSetParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerSetParser*, creationType>(parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18E1210
+    // Offset: 0x18C7BD4
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerSetParser
   #pragma pack(pop)

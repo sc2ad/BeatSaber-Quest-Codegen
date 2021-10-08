@@ -101,22 +101,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Single> _processedSamples
     System::Collections::Generic::List_1<float>*& dyn__processedSamples();
     // public System.Single[] get_Samples()
-    // Offset: 0x126D4B0
+    // Offset: 0x123BE04
     ::ArrayW<float> get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x126D558
+    // Offset: 0x123BEAC
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // protected System.Void Awake()
-    // Offset: 0x126D7B8
+    // Offset: 0x123C10C
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x126D834
+    // Offset: 0x123C188
     void LateUpdate();
     // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0x126D5AC
+    // Offset: 0x123BF00
     void ProcessSamples(::ArrayW<float> sourceSamples, System::Collections::Generic::List_1<float>* processedSamples);
     // public System.Void .ctor()
-    // Offset: 0x126D83C
+    // Offset: 0x123C190
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -53,10 +53,10 @@ namespace Zenject {
     // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
     Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Zenject.IProvider <FromScriptableObjectResource>b__0(Zenject.DiContainer container)
-    // Offset: 0x182A51C
+    // Offset: 0x180FEE0
     Zenject::IProvider* $FromScriptableObjectResource$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x18296B4
+    // Offset: 0x180F078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

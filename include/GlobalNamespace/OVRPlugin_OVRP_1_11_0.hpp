@@ -28,13 +28,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x17FF000
+    // Offset: 0x17E49C4
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat value)
-    // Offset: 0x17FEF0C
+    // Offset: 0x17E48D0
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetDesiredEyeTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
     // static public OVRPlugin/EyeTextureFormat ovrp_GetDesiredEyeTextureFormat()
-    // Offset: 0x17FEF8C
+    // Offset: 0x17E4950
     static GlobalNamespace::OVRPlugin::EyeTextureFormat ovrp_GetDesiredEyeTextureFormat();
   }; // OVRPlugin/OVRP_1_11_0
   #pragma pack(pop)

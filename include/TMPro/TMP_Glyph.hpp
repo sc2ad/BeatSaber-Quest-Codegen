@@ -21,10 +21,10 @@ namespace TMPro {
   class TMP_Glyph : public TMPro::TMP_TextElement_Legacy {
     public:
     // static public TMPro.TMP_Glyph Clone(TMPro.TMP_Glyph source)
-    // Offset: 0x11FA764
+    // Offset: 0x11F7998
     static TMPro::TMP_Glyph* Clone(TMPro::TMP_Glyph* source);
     // public System.Void .ctor()
-    // Offset: 0x11FA818
+    // Offset: 0x11F7A4C
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

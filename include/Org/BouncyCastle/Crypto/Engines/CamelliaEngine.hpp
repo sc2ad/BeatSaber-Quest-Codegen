@@ -109,67 +109,67 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.UInt32[] state
     ::ArrayW<uint>& dyn_state();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1FC5A90
+    // Offset: 0x1FAD4F4
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1FC5AD8
+    // Offset: 0x1FAD53C
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1FC5C10
+    // Offset: 0x1FAD674
     static void _cctor();
     // static private System.UInt32 rightRotate(System.UInt32 x, System.Int32 s)
-    // Offset: 0x1FC3394
+    // Offset: 0x1FAADF8
     static uint rightRotate(uint x, int s);
     // static private System.UInt32 leftRotate(System.UInt32 x, System.Int32 s)
-    // Offset: 0x1FC33A8
+    // Offset: 0x1FAAE0C
     static uint leftRotate(uint x, int s);
     // static private System.Void roldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1FC33BC
+    // Offset: 0x1FAAE20
     static void roldq(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
     // static private System.Void decroldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1FC358C
+    // Offset: 0x1FAAFF0
     static void decroldq(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
     // static private System.Void roldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1FC375C
+    // Offset: 0x1FAB1C0
     static void roldqo32(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
     // static private System.Void decroldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1FC3930
+    // Offset: 0x1FAB394
     static void decroldqo32(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
     // static private System.UInt32 bytes2uint(System.Byte[] src, System.Int32 offset)
-    // Offset: 0x1FC3B04
+    // Offset: 0x1FAB568
     static uint bytes2uint(::ArrayW<uint8_t> src, int offset);
     // static private System.Void uint2bytes(System.UInt32 word, System.Byte[] dst, System.Int32 offset)
-    // Offset: 0x1FC3B74
+    // Offset: 0x1FAB5D8
     static void uint2bytes(uint word, ::ArrayW<uint8_t> dst, int offset);
     // static private System.Void camelliaF2(System.UInt32[] s, System.UInt32[] skey, System.Int32 keyoff)
-    // Offset: 0x1FC3BC8
+    // Offset: 0x1FAB62C
     static void camelliaF2(::ArrayW<uint> s, ::ArrayW<uint> skey, int keyoff);
     // static private System.Void camelliaFLs(System.UInt32[] s, System.UInt32[] fkey, System.Int32 keyoff)
-    // Offset: 0x1FC3F04
+    // Offset: 0x1FAB968
     static void camelliaFLs(::ArrayW<uint> s, ::ArrayW<uint> fkey, int keyoff);
     // private System.Void setKey(System.Boolean forEncryption, System.Byte[] key)
-    // Offset: 0x1FC4058
+    // Offset: 0x1FABABC
     void setKey(bool forEncryption, ::ArrayW<uint8_t> key);
     // private System.Int32 processBlock128(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FC5258
+    // Offset: 0x1FACCBC
     int processBlock128(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // private System.Int32 processBlock192or256(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FC5598
+    // Offset: 0x1FACFFC
     int processBlock192or256(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1FC59A8
+    // Offset: 0x1FAD40C
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1FC5AE0
+    // Offset: 0x1FAD544
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FC5AE8
+    // Offset: 0x1FAD54C
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1FC5C0C
+    // Offset: 0x1FAD670
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1FC5914
+    // Offset: 0x1FAD378
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

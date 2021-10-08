@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0xF0AA5C
+    // [InjectAttribute] Offset: 0xF0A6D4
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
@@ -215,40 +215,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private MovementHistoryRecorder _handMovementHistoryRecorder
     GlobalNamespace::MovementHistoryRecorder*& dyn__handMovementHistoryRecorder();
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x11C6754
+    // Offset: 0x1199864
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x11C675C
+    // Offset: 0x119986C
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x11C6764
+    // Offset: 0x1199874
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x11C676C
+    // Offset: 0x119987C
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x11BD4E4
+    // Offset: 0x11904C8
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x11BD500
+    // Offset: 0x11904E4
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11C660C
+    // Offset: 0x119971C
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11C66B0
+    // Offset: 0x11997C0
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // protected System.Void Awake()
-    // Offset: 0x11C6774
+    // Offset: 0x1199884
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11C6834
+    // Offset: 0x1199944
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11C685C
+    // Offset: 0x119996C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11C6C0C
+    // Offset: 0x1199D1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

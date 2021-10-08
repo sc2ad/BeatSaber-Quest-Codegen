@@ -42,22 +42,22 @@ namespace RootMotion::FinalIK {
     #else
     protected:
     #endif
-    // [TooltipAttribute] Offset: 0xEF796C
+    // [TooltipAttribute] Offset: 0xEF75D4
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xEF79A4
-    // [RangeAttribute] Offset: 0xEF79A4
+    // [TooltipAttribute] Offset: 0xEF760C
+    // [RangeAttribute] Offset: 0xEF760C
     // public System.Single additivity
     // Size: 0x4
     // Offset: 0x1C
     float additivity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF79F8
+    // [TooltipAttribute] Offset: 0xEF7660
     // public System.Single maxAdditiveOffsetMag
     // Size: 0x4
     // Offset: 0x20
@@ -66,7 +66,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxAdditiveOffsetMag and: effectorLinks
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0xEF7A30
+    // [TooltipAttribute] Offset: 0xEF7698
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
@@ -99,13 +99,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 lastOffset
     UnityEngine::Vector3& dyn_lastOffset();
     // public System.Void Start()
-    // Offset: 0x1C61590
+    // Offset: 0x1C43F54
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x1C62120
+    // Offset: 0x1C44AE4
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
-    // Offset: 0x1C62834
+    // Offset: 0x1C451F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,10 +31,10 @@ namespace UnityEngine::Audio {
   class AudioPlayableBinding : public ::Il2CppObject {
     public:
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
-    // Offset: 0x2606C38
+    // Offset: 0x25ED6E0
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key);
     // static private UnityEngine.Playables.PlayableOutput CreateAudioOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x2606D58
+    // Offset: 0x25ED800
     static UnityEngine::Playables::PlayableOutput CreateAudioOutput(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
   }; // UnityEngine.Audio.AudioPlayableBinding
   #pragma pack(pop)

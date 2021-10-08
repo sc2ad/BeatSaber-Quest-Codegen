@@ -88,21 +88,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _fadingIn
     bool& dyn__fadingIn();
     // protected System.Void Start()
-    // Offset: 0x11053A8
+    // Offset: 0x1142418
     void Start();
     // protected System.Void Update()
-    // Offset: 0x110547C
+    // Offset: 0x11424EC
     void Update();
     // private System.Void FadeIn(System.Single duration)
-    // Offset: 0x1105434
+    // Offset: 0x11424A4
     void FadeIn(float duration);
     // public override UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0x11053A0
+    // Offset: 0x1142410
     // Implemented from: AudioPlayerBase
     // Base method: UnityEngine.AudioClip AudioPlayerBase::get_activeAudioClip()
     UnityEngine::AudioClip* get_activeAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x1105658
+    // Offset: 0x11426C8
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -116,17 +116,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAudioPlayer*, creationType>()));
     }
     // public override System.Void FadeOut(System.Single duration)
-    // Offset: 0x11055DC
+    // Offset: 0x114264C
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
     void FadeOut(float duration);
     // public override System.Void PauseCurrentChannel()
-    // Offset: 0x1105620
+    // Offset: 0x1142690
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
     void PauseCurrentChannel();
     // public override System.Void UnPauseCurrentChannel()
-    // Offset: 0x110563C
+    // Offset: 0x11426AC
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
     void UnPauseCurrentChannel();

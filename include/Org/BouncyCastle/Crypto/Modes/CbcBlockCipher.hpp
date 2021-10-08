@@ -89,38 +89,38 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.Boolean encrypting
     bool& dyn_encrypting();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1A8ACD4
+    // Offset: 0x1A6F698
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1A8AD98
+    // Offset: 0x1A6F75C
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1A83DB0
+    // Offset: 0x1A68774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CbcBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CbcBlockCipher*, creationType>(cipher)));
     }
     // public Org.BouncyCastle.Crypto.IBlockCipher GetUnderlyingCipher()
-    // Offset: 0x1A8A9EC
+    // Offset: 0x1A6F3B0
     Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1A8A9F4
+    // Offset: 0x1A6F3B8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1A8ADA0
+    // Offset: 0x1A6F764
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1A8AE54
+    // Offset: 0x1A6F818
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1A8ABE8
+    // Offset: 0x1A6F5AC
     void Reset();
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1A8B044
+    // Offset: 0x1A6FA08
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1A8AE64
+    // Offset: 0x1A6F828
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.CbcBlockCipher
   #pragma pack(pop)

@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _easeDuration
     float& dyn__easeDuration();
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x11631F8
+    // Offset: 0x115FFAC
     Tweening::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x1163200
+    // Offset: 0x115FFB4
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x1163208
+    // Offset: 0x115FFBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -211,115 +211,115 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.Boolean _firstSyncComplete
     bool& dyn__firstSyncComplete();
     // private System.Void Awake()
-    // Offset: 0x1442864
+    // Offset: 0x1427228
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1442868
+    // Offset: 0x142722C
     void OnDestroy();
     // public System.Void DeleteSessionData()
-    // Offset: 0x1442874
+    // Offset: 0x1427238
     void DeleteSessionData();
     // public System.Void DestroyGeneratedData()
-    // Offset: 0x144295C
+    // Offset: 0x1427320
     void DestroyGeneratedData();
     // protected System.Void Initialize()
-    // Offset: 0x1442AF0
+    // Offset: 0x14274B4
     void Initialize();
     // public HoudiniEngineUnity.HEU_SessionBase GetHoudiniSession(System.Boolean bCreateIfNotFound)
-    // Offset: 0x1442B0C
+    // Offset: 0x14274D0
     HoudiniEngineUnity::HEU_SessionBase* GetHoudiniSession(bool bCreateIfNotFound);
     // private System.Int32 GetParentNodeID(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x14428F0
+    // Offset: 0x14272B4
     int GetParentNodeID(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void Log(System.String msg)
-    // Offset: 0x1442C98
+    // Offset: 0x142765C
     void Log(::Il2CppString* msg);
     // public System.Void ClearLog()
-    // Offset: 0x1442D38
+    // Offset: 0x14276FC
     void ClearLog();
     // public System.Void Error(System.String error)
-    // Offset: 0x1442E08
+    // Offset: 0x14277CC
     void Error(::Il2CppString* error);
     // public System.Boolean IsLoaded()
-    // Offset: 0x1442E24
+    // Offset: 0x14277E8
     bool IsLoaded();
     // public System.Void StartSync()
-    // Offset: 0x1442E48
+    // Offset: 0x142780C
     void StartSync();
     // protected System.Void SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1442F88
+    // Offset: 0x142794C
     void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void StopSync()
-    // Offset: 0x1442F8C
+    // Offset: 0x1427950
     void StopSync();
     // public System.Void Resync()
-    // Offset: 0x1443008
+    // Offset: 0x14279CC
     void Resync();
     // public System.Void Bake()
-    // Offset: 0x144304C
+    // Offset: 0x1427A10
     void Bake();
     // public System.Void Unload()
-    // Offset: 0x1443358
+    // Offset: 0x1427D1C
     void Unload();
     // public System.Void Reset()
-    // Offset: 0x14433F4
+    // Offset: 0x1427DB8
     void Reset();
     // public System.Void OnLoadComplete(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
-    // Offset: 0x143CAEC
+    // Offset: 0x14214B0
     void OnLoadComplete(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData);
     // public System.Void GenerateObjects(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
-    // Offset: 0x14434B8
+    // Offset: 0x1427E7C
     void GenerateObjects(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData);
     // public System.Void GenerateGeometry(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData, System.Int32 objIndex)
-    // Offset: 0x144354C
+    // Offset: 0x1427F10
     void GenerateGeometry(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData, int objIndex);
     // public System.Void OnStopped(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
-    // Offset: 0x1445348
+    // Offset: 0x1429D0C
     void OnStopped(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData);
     // private System.Void GenerateTerrain(System.Int32 cookNodeId, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolume> terrainBuffers)
-    // Offset: 0x1443CF8
+    // Offset: 0x14286BC
     void GenerateTerrain(int cookNodeId, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolume*>* terrainBuffers);
     // private System.Void GenerateMesh(System.Int32 cookNodeId, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferMesh> meshBuffers)
-    // Offset: 0x1443640
+    // Offset: 0x1428004
     void GenerateMesh(int cookNodeId, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferMesh*>* meshBuffers);
     // private System.Void GenerateAllInstancers(System.Int32 cookNodeId, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferInstancer> instancerBuffers, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
-    // Offset: 0x144528C
+    // Offset: 0x1429C50
     void GenerateAllInstancers(int cookNodeId, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>* instancerBuffers, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData);
     // private System.Void GenerateInstancer(System.Int32 cookNodeId, HoudiniEngineUnity.HEU_LoadBufferInstancer instancerBuffer, System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_LoadBufferBase> idBuffersMap)
-    // Offset: 0x14456A4
+    // Offset: 0x142A068
     void GenerateInstancer(int cookNodeId, HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer, System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap);
     // private System.Void GenerateInstancesFromNodeIDs(System.Int32 cookNodeId, HoudiniEngineUnity.HEU_LoadBufferInstancer instancerBuffer, System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_LoadBufferBase> idBuffersMap, UnityEngine.Transform instanceRootTransform)
-    // Offset: 0x1445908
+    // Offset: 0x142A2CC
     void GenerateInstancesFromNodeIDs(int cookNodeId, HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer, System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap, UnityEngine::Transform* instanceRootTransform);
     // private System.Void GenerateInstancesFromAssetPaths(HoudiniEngineUnity.HEU_LoadBufferInstancer instancerBuffer, UnityEngine.Transform instanceRootTransform)
-    // Offset: 0x1445F60
+    // Offset: 0x142A924
     void GenerateInstancesFromAssetPaths(HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer, UnityEngine::Transform* instanceRootTransform);
     // private System.Void CreateNewInstanceFromObject(UnityEngine.GameObject assetSourceGO, System.Int32 instanceIndex, UnityEngine.Transform parentTransform, ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.String[] instancePrefixes, System.String instanceName, UnityEngine.GameObject collisionSourceGO)
-    // Offset: 0x14467A8
+    // Offset: 0x142B16C
     void CreateNewInstanceFromObject(UnityEngine::GameObject* assetSourceGO, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::ArrayW<::Il2CppString*> instancePrefixes, ::Il2CppString* instanceName, UnityEngine::GameObject* collisionSourceGO);
     // private System.Void ApplyAttributeModifiersOnGameObjectOutput(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partId, ref UnityEngine.GameObject go)
-    // Offset: 0x14454A0
+    // Offset: 0x1429E64
     void ApplyAttributeModifiersOnGameObjectOutput(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partId, ByRef<UnityEngine::GameObject*> go);
     // private System.Void DestroyOutputs()
-    // Offset: 0x1442960
+    // Offset: 0x1427324
     void DestroyOutputs();
     // private System.Void SetOutputVisiblity(HoudiniEngineUnity.HEU_LoadBufferBase buffer)
-    // Offset: 0x1445514
+    // Offset: 0x1429ED8
     void SetOutputVisiblity(HoudiniEngineUnity::HEU_LoadBufferBase* buffer);
     // private System.String GetOutputCacheDirectory()
-    // Offset: 0x144539C
+    // Offset: 0x1429D60
     ::Il2CppString* GetOutputCacheDirectory();
     // public System.Void SetOutputCacheDirectory(System.String directory)
-    // Offset: 0x144696C
+    // Offset: 0x142B330
     void SetOutputCacheDirectory(::Il2CppString* directory);
     // private System.Void AddGeneratedOutputFilePath(System.String path)
-    // Offset: 0x14453F8
+    // Offset: 0x1429DBC
     void AddGeneratedOutputFilePath(::Il2CppString* path);
     // public System.Void SyncUpdate()
-    // Offset: 0x1446974
+    // Offset: 0x142B338
     void SyncUpdate();
     // public System.Void .ctor()
-    // Offset: 0x143CF4C
+    // Offset: 0x1421910
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

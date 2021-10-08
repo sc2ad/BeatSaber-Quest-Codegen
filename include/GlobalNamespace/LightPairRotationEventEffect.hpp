@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 rotationVector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xF06408
+    // [SpaceAttribute] Offset: 0xF06070
     // private System.Boolean _overrideRandomValues
     // Size: 0x1
     // Offset: 0x30
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: startRotation and: transformL
     char __padding7[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF06470
+    // [SpaceAttribute] Offset: 0xF060D8
     // private UnityEngine.Transform _transformL
     // Size: 0x8
     // Offset: 0x40
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transformR;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xF064B8
+    // [InjectAttribute] Offset: 0xF06120
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -188,22 +188,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _randomDirection
     float& dyn__randomDirection();
     // protected System.Void Start()
-    // Offset: 0x13111BC
+    // Offset: 0x12AF618
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13114C0
+    // Offset: 0x12AF91C
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x13117BC
+    // Offset: 0x12AFC18
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x13118BC
+    // Offset: 0x12AFD18
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0x1311C8C
+    // Offset: 0x12B00E8
     void UpdateRotationData(int beatmapEventDataValue, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
     // public System.Void .ctor()
-    // Offset: 0x1311F00
+    // Offset: 0x12B035C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

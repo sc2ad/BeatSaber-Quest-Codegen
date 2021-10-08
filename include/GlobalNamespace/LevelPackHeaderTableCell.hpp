@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* backgroundImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0CEBC
+    // [SpaceAttribute] Offset: 0xF0CB44
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x60
@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
     UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
     // public System.Void SetData(System.String headerText)
-    // Offset: 0x130D0D8
+    // Offset: 0x12AB850
     void SetData(::Il2CppString* headerText);
     // private System.Void RefreshVisuals()
-    // Offset: 0x130D0F8
+    // Offset: 0x12AB870
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x130D1A4
+    // Offset: 0x12AB91C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -104,12 +104,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackHeaderTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x130D0F4
+    // Offset: 0x12AB86C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x130D1A0
+    // Offset: 0x12AB918
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

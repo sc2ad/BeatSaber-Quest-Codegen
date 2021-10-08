@@ -50,30 +50,30 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x1EB19C8
+    // Offset: 0x1E9842C
     System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x1EB19D0
+    // Offset: 0x1E98434
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x1EB1938
+    // Offset: 0x1E9839C
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1EB1A5C
+    // Offset: 0x1E984C0
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.String SerializationToString()
-    // Offset: 0x1EAA8C8
+    // Offset: 0x1E9132C
     ::Il2CppString* SerializationToString();
     // System.Void SerializationInvoke(System.Object target, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1EB1B58
+    // Offset: 0x1E985BC
     void SerializationInvoke(::Il2CppObject* target, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x1EB1934
+    // Offset: 0x1E98398
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x1EACC7C
+    // Offset: 0x1E936E0
     // Implemented from: System.Reflection.ConstructorInfo
     // Base method: System.Void ConstructorInfo::.ctor()
     // Base method: System.Void MethodBase::.ctor()

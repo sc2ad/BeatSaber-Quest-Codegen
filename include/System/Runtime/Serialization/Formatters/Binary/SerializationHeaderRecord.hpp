@@ -93,26 +93,26 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 minorVersion
     int& dyn_minorVersion();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
-    // Offset: 0x17F52EC
+    // Offset: 0x17DACB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationHeaderRecord* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationHeaderRecord*, creationType>(binaryHeaderEnum, topId, headerId, majorVersion, minorVersion)));
     }
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x17F5348
+    // Offset: 0x17DAD0C
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
-    // Offset: 0x17F53C4
+    // Offset: 0x17DAD88
     static int GetInt32(::ArrayW<uint8_t> buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x17F5444
+    // Offset: 0x17DAE08
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x17F5620
+    // Offset: 0x17DAFE4
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x17F52DC
+    // Offset: 0x17DACA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

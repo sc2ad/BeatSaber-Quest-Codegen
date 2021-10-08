@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     ::Il2CppString*& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x12E9280
+    // Offset: 0x12FA5F4
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

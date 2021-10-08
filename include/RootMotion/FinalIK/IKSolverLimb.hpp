@@ -144,7 +144,7 @@ namespace RootMotion::FinalIK {
       // Get instance field reference: public System.Single dot
       float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-      // Offset: 0x1E6A5AC
+      // Offset: 0x1E51010
       AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection
     #pragma pack(pop)
@@ -167,14 +167,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLimb::BendModifier) == 0x4);
-    // [RangeAttribute] Offset: 0xEF323C
+    // [RangeAttribute] Offset: 0xEF2EA4
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0xB0
     float maintainRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xEF3254
+    // [RangeAttribute] Offset: 0xEF2EBC
     // public System.Single bendModifierWeight
     // Size: 0x4
     // Offset: 0xB4
@@ -291,29 +291,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
     ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsRight();
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] get_axisDirections()
-    // Offset: 0x1E6A590
+    // Offset: 0x1E50FF4
     ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection> get_axisDirections();
     // public System.Void .ctor(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x1E6A508
+    // Offset: 0x1E50F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor(UnityEngine::AvatarIKGoal goal) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>(goal)));
     }
     // public System.Void MaintainRotation()
-    // Offset: 0x1E68E8C
+    // Offset: 0x1E4F8F0
     void MaintainRotation();
     // public System.Void MaintainBend()
-    // Offset: 0x1E68EDC
+    // Offset: 0x1E4F940
     void MaintainBend();
     // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirections)
-    // Offset: 0x1E6936C
+    // Offset: 0x1E4FDD0
     void StoreAxisDirections(ByRef<::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>> axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()
-    // Offset: 0x1E6978C
+    // Offset: 0x1E501F0
     UnityEngine::Vector3 GetModifiedBendNormal();
     // public System.Void .ctor()
-    // Offset: 0x1E6A384
+    // Offset: 0x1E50DE8
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -324,17 +324,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>()));
     }
     // protected override System.Void OnInitiateVirtual()
-    // Offset: 0x1E68FF0
+    // Offset: 0x1E4FA54
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnInitiateVirtual()
     void OnInitiateVirtual();
     // protected override System.Void OnUpdateVirtual()
-    // Offset: 0x1E69660
+    // Offset: 0x1E500C4
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnUpdateVirtual()
     void OnUpdateVirtual();
     // protected override System.Void OnPostSolveVirtual()
-    // Offset: 0x1E6A23C
+    // Offset: 0x1E50CA0
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnPostSolveVirtual()
     void OnPostSolveVirtual();

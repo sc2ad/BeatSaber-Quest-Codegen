@@ -52,16 +52,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
     UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1B6AD50
+    // Offset: 0x1B4E714
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Void AsyncOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1B6AFA8
+    // Offset: 0x1B4E96C
     void AsyncOperationCompleted(UnityEngine::AsyncOperation* op);
     // public System.Single PercentComplete()
-    // Offset: 0x1B6B10C
+    // Offset: 0x1B4EAD0
     float PercentComplete();
     // public System.Void .ctor()
-    // Offset: 0x1B6AD48
+    // Offset: 0x1B4E70C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

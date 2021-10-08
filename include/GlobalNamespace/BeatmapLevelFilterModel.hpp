@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BeatmapLevelFilterModel::$GetAllBeatmapLevelsAsync$d__2
     struct $GetAllBeatmapLevelsAsync$d__2;
     // static public System.Threading.Tasks.Task`1<IBeatmapLevelCollection> FilerBeatmapLevelPackCollectionAsync(IBeatmapLevelPack[] beatmapLevelPacks, LevelFilterParams levelFilterParams, PlayerDataModel playerDataModel, AdditionalContentModel additionalContentModel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1298CA0
+    // Offset: 0x1292B30
     static System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelCollection*>* FilerBeatmapLevelPackCollectionAsync(::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks, GlobalNamespace::LevelFilterParams* levelFilterParams, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::AdditionalContentModel* additionalContentModel, System::Threading::CancellationToken cancellationToken);
     // static private System.Boolean LevelContainsText(IPreviewBeatmapLevel beatmapLevel, System.String[] searchTexts)
-    // Offset: 0x1298DD8
+    // Offset: 0x1292C68
     static bool LevelContainsText(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, ::ArrayW<::Il2CppString*> searchTexts);
     // static private System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> GetAllBeatmapLevelsAsync(IBeatmapLevelPack[] beatmapLevelPacks, SongPackMask songPackMask, System.Boolean onlyOwned, AdditionalContentModel additionalContentModel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1299030
+    // Offset: 0x1292EC0
     static System::Threading::Tasks::Task_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>* GetAllBeatmapLevelsAsync(::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks, GlobalNamespace::SongPackMask songPackMask, bool onlyOwned, GlobalNamespace::AdditionalContentModel* additionalContentModel, System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelFilterModel
   #pragma pack(pop)

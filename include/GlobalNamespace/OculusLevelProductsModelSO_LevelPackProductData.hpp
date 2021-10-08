@@ -52,16 +52,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
     ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.String get_sku()
-    // Offset: 0x1363BEC
+    // Offset: 0x13492A4
     ::Il2CppString* get_sku();
     // public System.String get_levelPackId()
-    // Offset: 0x1363BF4
+    // Offset: 0x13492AC
     ::Il2CppString* get_levelPackId();
     // public OculusLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x1363BFC
+    // Offset: 0x13492B4
     ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x1363C04
+    // Offset: 0x13492BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

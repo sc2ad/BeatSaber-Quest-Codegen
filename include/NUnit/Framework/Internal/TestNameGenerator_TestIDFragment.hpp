@@ -36,7 +36,7 @@ namespace NUnit::Framework::Internal {
   class TestNameGenerator::TestIDFragment : public NUnit::Framework::Internal::TestNameGenerator::NameFragment {
     public:
     // public System.Void .ctor()
-    // Offset: 0x24A361C
+    // Offset: 0x248A080
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.Void NameFragment::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,12 +46,12 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::TestIDFragment*, creationType>()));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x24A490C
+    // Offset: 0x248B370
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
     // public override System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x24A4954
+    // Offset: 0x248B3B8
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
     ::Il2CppString* GetText(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);

@@ -22,7 +22,7 @@ namespace HMUI {
   class InputFieldView::InputFieldChanged : public UnityEngine::Events::UnityEvent_1<HMUI::InputFieldView*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14108E8
+    // Offset: 0x13F42AC
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

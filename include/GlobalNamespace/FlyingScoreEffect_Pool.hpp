@@ -22,10 +22,10 @@ namespace GlobalNamespace {
   class FlyingScoreEffect::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingScoreEffect*> {
     public:
     // protected System.Void OnDespawned(FlyingScoreEffect item)
-    // Offset: 0x11BA1FC
+    // Offset: 0x1174E94
     void OnDespawned(GlobalNamespace::FlyingScoreEffect* item);
     // public System.Void .ctor()
-    // Offset: 0x11BA214
+    // Offset: 0x1174EAC
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.String backButtonText, GameplayModifiers gameplayModifiers)
-    // Offset: 0x110FF00
+    // Offset: 0x114CEB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Il2CppString* backButtonText, GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardGameplaySceneSetupData::.ctor");

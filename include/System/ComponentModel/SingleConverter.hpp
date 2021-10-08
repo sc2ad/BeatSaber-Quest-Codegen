@@ -21,7 +21,7 @@ namespace System::ComponentModel {
   class SingleConverter : public System::ComponentModel::BaseNumberConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A234E4
+    // Offset: 0x1A07EA8
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

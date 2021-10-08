@@ -103,152 +103,152 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRSystem FnTable
     OVR::OpenVR::IVRSystem& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x176DF0C
+    // Offset: 0x17518D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSystem* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSystem*, creationType>(pInterface)));
     }
     // public System.Void GetRecommendedRenderTargetSize(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x176E014
+    // Offset: 0x17519D8
     void GetRecommendedRenderTargetSize(ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public OVR.OpenVR.HmdMatrix44_t GetProjectionMatrix(OVR.OpenVR.EVREye eEye, System.Single fNearZ, System.Single fFarZ)
-    // Offset: 0x176E038
+    // Offset: 0x17519FC
     OVR::OpenVR::HmdMatrix44_t GetProjectionMatrix(OVR::OpenVR::EVREye eEye, float fNearZ, float fFarZ);
     // public System.Void GetProjectionRaw(OVR.OpenVR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom)
-    // Offset: 0x176E054
+    // Offset: 0x1751A18
     void GetProjectionRaw(OVR::OpenVR::EVREye eEye, ByRef<float> pfLeft, ByRef<float> pfRight, ByRef<float> pfTop, ByRef<float> pfBottom);
     // public System.Boolean ComputeDistortion(OVR.OpenVR.EVREye eEye, System.Single fU, System.Single fV, ref OVR.OpenVR.DistortionCoordinates_t pDistortionCoordinates)
-    // Offset: 0x176E080
+    // Offset: 0x1751A44
     bool ComputeDistortion(OVR::OpenVR::EVREye eEye, float fU, float fV, ByRef<OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates);
     // public OVR.OpenVR.HmdMatrix34_t GetEyeToHeadTransform(OVR.OpenVR.EVREye eEye)
-    // Offset: 0x176E09C
+    // Offset: 0x1751A60
     OVR::OpenVR::HmdMatrix34_t GetEyeToHeadTransform(OVR::OpenVR::EVREye eEye);
     // public System.Boolean GetTimeSinceLastVsync(ref System.Single pfSecondsSinceLastVsync, ref System.UInt64 pulFrameCounter)
-    // Offset: 0x176E0B8
+    // Offset: 0x1751A7C
     bool GetTimeSinceLastVsync(ByRef<float> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter);
     // public System.Int32 GetD3D9AdapterIndex()
-    // Offset: 0x176E0DC
+    // Offset: 0x1751AA0
     int GetD3D9AdapterIndex();
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex)
-    // Offset: 0x176E0F8
+    // Offset: 0x1751ABC
     void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex);
     // public System.Void GetOutputDevice(ref System.UInt64 pnDevice, OVR.OpenVR.ETextureType textureType, System.IntPtr pInstance)
-    // Offset: 0x176E118
+    // Offset: 0x1751ADC
     void GetOutputDevice(ByRef<uint64_t> pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance);
     // public System.Boolean IsDisplayOnDesktop()
-    // Offset: 0x176E138
+    // Offset: 0x1751AFC
     bool IsDisplayOnDesktop();
     // public System.Boolean SetDisplayVisibility(System.Boolean bIsVisibleOnDesktop)
-    // Offset: 0x176E154
+    // Offset: 0x1751B18
     bool SetDisplayVisibility(bool bIsVisibleOnDesktop);
     // public System.Void GetDeviceToAbsoluteTrackingPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray)
-    // Offset: 0x176E174
+    // Offset: 0x1751B38
     void GetDeviceToAbsoluteTrackingPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray);
     // public System.Void ResetSeatedZeroPose()
-    // Offset: 0x176E19C
+    // Offset: 0x1751B60
     void ResetSeatedZeroPose();
     // public OVR.OpenVR.HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
-    // Offset: 0x176E1B8
+    // Offset: 0x1751B7C
     OVR::OpenVR::HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
     // public OVR.OpenVR.HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose()
-    // Offset: 0x176E1D4
+    // Offset: 0x1751B98
     OVR::OpenVR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // public System.UInt32 GetSortedTrackedDeviceIndicesOfClass(OVR.OpenVR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unRelativeToTrackedDeviceIndex)
-    // Offset: 0x176E1F0
+    // Offset: 0x1751BB4
     uint GetSortedTrackedDeviceIndicesOfClass(OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
     // public OVR.OpenVR.EDeviceActivityLevel GetTrackedDeviceActivityLevel(System.UInt32 unDeviceId)
-    // Offset: 0x176E21C
+    // Offset: 0x1751BE0
     OVR::OpenVR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint unDeviceId);
     // public System.Void ApplyTransform(ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, ref OVR.OpenVR.HmdMatrix34_t pTransform)
-    // Offset: 0x176E238
+    // Offset: 0x1751BFC
     void ApplyTransform(ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<OVR::OpenVR::HmdMatrix34_t> pTransform);
     // public System.UInt32 GetTrackedDeviceIndexForControllerRole(OVR.OpenVR.ETrackedControllerRole unDeviceType)
-    // Offset: 0x176E254
+    // Offset: 0x1751C18
     uint GetTrackedDeviceIndexForControllerRole(OVR::OpenVR::ETrackedControllerRole unDeviceType);
     // public OVR.OpenVR.ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(System.UInt32 unDeviceIndex)
-    // Offset: 0x176E270
+    // Offset: 0x1751C34
     OVR::OpenVR::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(uint unDeviceIndex);
     // public OVR.OpenVR.ETrackedDeviceClass GetTrackedDeviceClass(System.UInt32 unDeviceIndex)
-    // Offset: 0x176E28C
+    // Offset: 0x1751C50
     OVR::OpenVR::ETrackedDeviceClass GetTrackedDeviceClass(uint unDeviceIndex);
     // public System.Boolean IsTrackedDeviceConnected(System.UInt32 unDeviceIndex)
-    // Offset: 0x176E2A8
+    // Offset: 0x1751C6C
     bool IsTrackedDeviceConnected(uint unDeviceIndex);
     // public System.Boolean GetBoolTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E2C4
+    // Offset: 0x1751C88
     bool GetBoolTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.Single GetFloatTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E2E0
+    // Offset: 0x1751CA4
     float GetFloatTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.Int32 GetInt32TrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E2FC
+    // Offset: 0x1751CC0
     int GetInt32TrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.UInt64 GetUint64TrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E318
+    // Offset: 0x1751CDC
     uint64_t GetUint64TrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public OVR.OpenVR.HmdMatrix34_t GetMatrix34TrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E334
+    // Offset: 0x1751CF8
     OVR::OpenVR::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.UInt32 GetArrayTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, System.UInt32 propType, System.IntPtr pBuffer, System.UInt32 unBufferSize, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E350
+    // Offset: 0x1751D14
     uint GetArrayTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, uint propType, System::IntPtr pBuffer, uint unBufferSize, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.UInt32 GetStringTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x176E36C
+    // Offset: 0x1751D30
     uint GetStringTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.String GetPropErrorNameFromEnum(OVR.OpenVR.ETrackedPropertyError error)
-    // Offset: 0x176E388
+    // Offset: 0x1751D4C
     ::Il2CppString* GetPropErrorNameFromEnum(OVR::OpenVR::ETrackedPropertyError error);
     // public System.Boolean PollNextEvent(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0x176E41C
+    // Offset: 0x1751DE0
     bool PollNextEvent(ByRef<OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent);
     // public System.Boolean PollNextEventWithPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0x176E804
+    // Offset: 0x17521C8
     bool PollNextEventWithPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent, ByRef<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
     // public System.String GetEventTypeNameFromEnum(OVR.OpenVR.EVREventType eType)
-    // Offset: 0x176E820
+    // Offset: 0x17521E4
     ::Il2CppString* GetEventTypeNameFromEnum(OVR::OpenVR::EVREventType eType);
     // public OVR.OpenVR.HiddenAreaMesh_t GetHiddenAreaMesh(OVR.OpenVR.EVREye eEye, OVR.OpenVR.EHiddenAreaMeshType type)
-    // Offset: 0x176E8B4
+    // Offset: 0x1752278
     OVR::OpenVR::HiddenAreaMesh_t GetHiddenAreaMesh(OVR::OpenVR::EVREye eEye, OVR::OpenVR::EHiddenAreaMeshType type);
     // public System.Boolean GetControllerState(System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize)
-    // Offset: 0x176E8D0
+    // Offset: 0x1752294
     bool GetControllerState(uint unControllerDeviceIndex, ByRef<OVR::OpenVR::VRControllerState_t> pControllerState, uint unControllerStateSize);
     // public System.Boolean GetControllerStateWithPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0x176ED04
+    // Offset: 0x17526C8
     bool GetControllerStateWithPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, ByRef<OVR::OpenVR::VRControllerState_t> pControllerState, uint unControllerStateSize, ByRef<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
     // public System.Void TriggerHapticPulse(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec)
-    // Offset: 0x176F1B0
+    // Offset: 0x1752B74
     void TriggerHapticPulse(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec);
     // public System.String GetButtonIdNameFromEnum(OVR.OpenVR.EVRButtonId eButtonId)
-    // Offset: 0x176F1CC
+    // Offset: 0x1752B90
     ::Il2CppString* GetButtonIdNameFromEnum(OVR::OpenVR::EVRButtonId eButtonId);
     // public System.String GetControllerAxisTypeNameFromEnum(OVR.OpenVR.EVRControllerAxisType eAxisType)
-    // Offset: 0x176F260
+    // Offset: 0x1752C24
     ::Il2CppString* GetControllerAxisTypeNameFromEnum(OVR::OpenVR::EVRControllerAxisType eAxisType);
     // public System.Boolean IsInputAvailable()
-    // Offset: 0x176F2F4
+    // Offset: 0x1752CB8
     bool IsInputAvailable();
     // public System.Boolean IsSteamVRDrawingControllers()
-    // Offset: 0x176F310
+    // Offset: 0x1752CD4
     bool IsSteamVRDrawingControllers();
     // public System.Boolean ShouldApplicationPause()
-    // Offset: 0x176F32C
+    // Offset: 0x1752CF0
     bool ShouldApplicationPause();
     // public System.Boolean ShouldApplicationReduceRenderingWork()
-    // Offset: 0x176F348
+    // Offset: 0x1752D0C
     bool ShouldApplicationReduceRenderingWork();
     // public System.UInt32 DriverDebugRequest(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize)
-    // Offset: 0x176F364
+    // Offset: 0x1752D28
     uint DriverDebugRequest(uint unDeviceIndex, ::Il2CppString* pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize);
     // public OVR.OpenVR.EVRFirmwareError PerformFirmwareUpdate(System.UInt32 unDeviceIndex)
-    // Offset: 0x176F380
+    // Offset: 0x1752D44
     OVR::OpenVR::EVRFirmwareError PerformFirmwareUpdate(uint unDeviceIndex);
     // public System.Void AcknowledgeQuit_Exiting()
-    // Offset: 0x176F39C
+    // Offset: 0x1752D60
     void AcknowledgeQuit_Exiting();
     // public System.Void AcknowledgeQuit_UserPrompt()
-    // Offset: 0x176F3B8
+    // Offset: 0x1752D7C
     void AcknowledgeQuit_UserPrompt();
   }; // OVR.OpenVR.CVRSystem
   #pragma pack(pop)

@@ -59,28 +59,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
     System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*& dyn_playersLayoutWasCalculatedEvent();
     // public MultiplayerPlayerLayout get_layout()
-    // Offset: 0x1168594
+    // Offset: 0x11BDBA8
     GlobalNamespace::MultiplayerPlayerLayout get_layout();
     // private System.Void set_layout(MultiplayerPlayerLayout value)
-    // Offset: 0x116859C
+    // Offset: 0x11BDBB0
     void set_layout(GlobalNamespace::MultiplayerPlayerLayout value);
     // public System.Int32 get_activePlayerSpotsCount()
-    // Offset: 0x11685A4
+    // Offset: 0x11BDBB8
     int get_activePlayerSpotsCount();
     // private System.Void set_activePlayerSpotsCount(System.Int32 value)
-    // Offset: 0x11685AC
+    // Offset: 0x11BDBC0
     void set_activePlayerSpotsCount(int value);
     // public System.Void add_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0x11685B4
+    // Offset: 0x11BDBC8
     void add_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public System.Void remove_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0x1168658
+    // Offset: 0x11BDC6C
     void remove_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public MultiplayerPlayerLayout CalculateLayout(System.Int32 activePlayersCount)
-    // Offset: 0x11686FC
+    // Offset: 0x11BDD10
     GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int activePlayersCount);
     // public System.Void .ctor()
-    // Offset: 0x1168798
+    // Offset: 0x11BDDAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

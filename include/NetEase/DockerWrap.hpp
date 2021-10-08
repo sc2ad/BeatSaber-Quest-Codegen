@@ -38,37 +38,37 @@ namespace NetEase {
   class DockerWrap : public ::Il2CppObject {
     public:
     // static public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callback)
-    // Offset: 0x1134F58
+    // Offset: 0x111DEF4
     static void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callback);
     // static public System.Void Initialize()
-    // Offset: 0x1134FC0
+    // Offset: 0x111DF5C
     static void Initialize();
     // static public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callback)
-    // Offset: 0x1135020
+    // Offset: 0x111DFBC
     static void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callback);
     // static public System.Void Login()
-    // Offset: 0x1135088
+    // Offset: 0x111E024
     static void Login();
     // static public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callback)
-    // Offset: 0x11350E8
+    // Offset: 0x111E084
     static void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callback);
     // static public System.Void Logout()
-    // Offset: 0x1135150
+    // Offset: 0x111E0EC
     static void Logout();
     // static public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x11351B0
+    // Offset: 0x111E14C
     static void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // static public System.Boolean WillProvideHighscore()
-    // Offset: 0x1135244
+    // Offset: 0x111E1E0
     static bool WillProvideHighscore();
     // static public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x11352A4
+    // Offset: 0x111E240
     static void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // static public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x113530C
+    // Offset: 0x111E2A8
     static void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // static public System.Void UpdateLoop()
-    // Offset: 0x1135384
+    // Offset: 0x111E320
     static void UpdateLoop();
   }; // NetEase.DockerWrap
   #pragma pack(pop)

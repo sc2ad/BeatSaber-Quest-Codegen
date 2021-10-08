@@ -36,21 +36,21 @@ namespace Zenject {
     #else
     protected:
     #endif
-    // [InjectLocalAttribute] Offset: 0xEC423C
+    // [InjectLocalAttribute] Offset: 0xEC6C5C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xEC424C
+    // [InjectLocalAttribute] Offset: 0xEC6C6C
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x20
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xEC425C
+    // [InjectLocalAttribute] Offset: 0xEC6C7C
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x28
@@ -83,28 +83,28 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isDestroyed
     bool& dyn__isDestroyed();
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x1895D10
+    // Offset: 0x187C6D4
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0x1895D18
+    // Offset: 0x187C6DC
     void Start();
     // public System.Void Initialize()
-    // Offset: 0x1895D1C
+    // Offset: 0x187C6E0
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x1895D50
+    // Offset: 0x187C714
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x1895D60
+    // Offset: 0x187C724
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x1895D70
+    // Offset: 0x187C734
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0x1895D80
+    // Offset: 0x187C744
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1895DEC
+    // Offset: 0x187C7B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

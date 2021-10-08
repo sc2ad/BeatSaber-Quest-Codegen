@@ -205,10 +205,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, session, geoID, partID, attrOwner, name, byref(info), byref(data), getFunc);
     }
     // static public System.Void GetAttributeStringDataHelper(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref System.Int32[] data)
-    // Offset: 0x1498FC4
+    // Offset: 0x147F988
     static void GetAttributeStringDataHelper(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int>> data);
     // static public System.String[] GetAttributeStringData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
-    // Offset: 0x1499184
+    // Offset: 0x147FB48
     static ::ArrayW<::Il2CppString*> GetAttributeStringData(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public System.Boolean SetAttributeArray(System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.SetAttributeArrayFunc`1<T> setFunc, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -229,58 +229,58 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, geoID, partID, attrName, byref(attrInfo), items, setFunc);
     }
     // static public System.Boolean CheckAttributeExists(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attribName, HoudiniEngineUnity.HAPI_AttributeOwner attribOwner)
-    // Offset: 0x14992A8
+    // Offset: 0x147FC6C
     static bool CheckAttributeExists(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attribName, HoudiniEngineUnity::HAPI_AttributeOwner attribOwner);
     // static public System.Boolean GetAttributeInfo(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attribName, ref HoudiniEngineUnity.HAPI_AttributeInfo attribInfo)
-    // Offset: 0x14992FC
+    // Offset: 0x147FCC0
     static bool GetAttributeInfo(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attribName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo);
     // static public System.Boolean HasValidInstanceAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attribName)
-    // Offset: 0x1499394
+    // Offset: 0x147FD58
     static bool HasValidInstanceAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attribName);
     // static public System.Void UpdateGeneratedAttributeStore(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject go)
-    // Offset: 0x14993E0
+    // Offset: 0x147FDA4
     static void UpdateGeneratedAttributeStore(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* go);
     // static public HoudiniEngineUnity.HEU_OutputAttribute CreateOutputAttributeHelper(System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
-    // Offset: 0x149986C
+    // Offset: 0x1480230
     static HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttributeHelper(::Il2CppString* attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public HoudiniEngineUnity.HEU_OutputAttribute CreateOutputAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
-    // Offset: 0x14995E0
+    // Offset: 0x147FFA4
     static HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public System.Void CopyWorldTransformValues(UnityEngine.Transform src, UnityEngine.Transform dest)
-    // Offset: 0x1499904
+    // Offset: 0x14802C8
     static void CopyWorldTransformValues(UnityEngine::Transform* src, UnityEngine::Transform* dest);
     // static public System.Void ApplyTransformTo(UnityEngine.Transform src, UnityEngine.Transform target)
-    // Offset: 0x1499970
+    // Offset: 0x1480334
     static void ApplyTransformTo(UnityEngine::Transform* src, UnityEngine::Transform* target);
     // static public System.Void CopyLocalTransformValues(UnityEngine.Transform src, UnityEngine.Transform dest)
-    // Offset: 0x1499A70
+    // Offset: 0x1480434
     static void CopyLocalTransformValues(UnityEngine::Transform* src, UnityEngine::Transform* dest);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetChildGameObjects(UnityEngine.GameObject parentGO)
-    // Offset: 0x1499ADC
+    // Offset: 0x14804A0
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetChildGameObjects(UnityEngine::GameObject* parentGO);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetChildGameObjectsWithNamePattern(UnityEngine.GameObject parentGO, System.String pattern, System.Boolean bExclude)
-    // Offset: 0x1499D8C
+    // Offset: 0x1480750
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetChildGameObjectsWithNamePattern(UnityEngine::GameObject* parentGO, ::Il2CppString* pattern, bool bExclude);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetInstanceChildObjects(UnityEngine.GameObject parentGO)
-    // Offset: 0x149A0B4
+    // Offset: 0x1480A78
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetInstanceChildObjects(UnityEngine::GameObject* parentGO);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetNonInstanceChildObjects(UnityEngine.GameObject parentGO)
-    // Offset: 0x149A108
+    // Offset: 0x1480ACC
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetNonInstanceChildObjects(UnityEngine::GameObject* parentGO);
     // static public UnityEngine.GameObject GetGameObjectByName(System.Collections.Generic.List`1<UnityEngine.GameObject> goList, System.String name)
-    // Offset: 0x149A15C
+    // Offset: 0x1480B20
     static UnityEngine::GameObject* GetGameObjectByName(System::Collections::Generic::List_1<UnityEngine::GameObject*>* goList, ::Il2CppString* name);
     // static public UnityEngine.GameObject GetGameObjectByNameInProjectOnly(System.String name)
-    // Offset: 0x149A294
+    // Offset: 0x1480C58
     static UnityEngine::GameObject* GetGameObjectByNameInProjectOnly(::Il2CppString* name);
     // static public System.Boolean IsGameObjectInProject(UnityEngine.GameObject go)
-    // Offset: 0x149A37C
+    // Offset: 0x1480D40
     static bool IsGameObjectInProject(UnityEngine::GameObject* go);
     // static public UnityEngine.GameObject GetGameObjectByNameInScene(System.String name)
-    // Offset: 0x149A384
+    // Offset: 0x1480D48
     static UnityEngine::GameObject* GetGameObjectByNameInScene(::Il2CppString* name);
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot GetHDAByGameObjectNameInScene(System.String name)
-    // Offset: 0x149A3D8
+    // Offset: 0x1480D9C
     static HoudiniEngineUnity::HEU_HoudiniAssetRoot* GetHDAByGameObjectNameInScene(::Il2CppString* name);
     // static public T GetOrCreateComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
@@ -293,13 +293,13 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // static public System.Void DestroyGeneratedComponents(UnityEngine.GameObject gameObject)
-    // Offset: 0x149A42C
+    // Offset: 0x1480DF0
     static void DestroyGeneratedComponents(UnityEngine::GameObject* gameObject);
     // static public System.Void DestroyGeneratedMeshComponents(UnityEngine.GameObject gameObject)
-    // Offset: 0x149A4F4
+    // Offset: 0x1480EB8
     static void DestroyGeneratedMeshComponents(UnityEngine::GameObject* gameObject);
     // static public System.Void DestroyTerrainComponents(UnityEngine.GameObject gameObject)
-    // Offset: 0x149A580
+    // Offset: 0x1480F44
     static void DestroyTerrainComponents(UnityEngine::GameObject* gameObject);
     // static public System.Void DestroyComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
@@ -312,154 +312,154 @@ namespace HoudiniEngineUnity {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // static public System.Void DestroyImmediate(UnityEngine.Object obj, System.Boolean bAllowDestroyingAssets, System.Boolean bRegisterUndo)
-    // Offset: 0x149A6F8
+    // Offset: 0x14810BC
     static void DestroyImmediate(UnityEngine::Object* obj, bool bAllowDestroyingAssets, bool bRegisterUndo);
     // static public System.Void DestroyBakedGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> gameObjectsToDestroy)
-    // Offset: 0x149A744
+    // Offset: 0x1481108
     static void DestroyBakedGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject*>* gameObjectsToDestroy);
     // static public System.Void DestroyBakedGameObjectsWithEndName(System.Collections.Generic.List`1<UnityEngine.GameObject> gameObjectsToDestroy, System.String endName)
-    // Offset: 0x149A74C
+    // Offset: 0x1481110
     static void DestroyBakedGameObjectsWithEndName(System::Collections::Generic::List_1<UnityEngine::GameObject*>* gameObjectsToDestroy, ::Il2CppString* endName);
     // static public System.Void DestroyLODGroup(UnityEngine.GameObject targetGO, System.Boolean bDontDeletePersistantResources)
-    // Offset: 0x149AAB8
+    // Offset: 0x148147C
     static void DestroyLODGroup(UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
     // static public System.Collections.Generic.List`1<UnityEngine.Transform> GetLODTransforms(UnityEngine.GameObject targetGO)
-    // Offset: 0x149AC64
+    // Offset: 0x1481628
     static System::Collections::Generic::List_1<UnityEngine::Transform*>* GetLODTransforms(UnityEngine::GameObject* targetGO);
     // static public System.Void SetLODTransformValues(UnityEngine.GameObject targetGO, System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> transformData)
-    // Offset: 0x149ADA0
+    // Offset: 0x1481764
     static void SetLODTransformValues(UnityEngine::GameObject* targetGO, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* transformData);
     // static public System.Void DestroyGeneratedMeshMaterialsLODGroups(UnityEngine.GameObject targetGO, System.Boolean bDontDeletePersistantResources)
-    // Offset: 0x149A854
+    // Offset: 0x1481218
     static void DestroyGeneratedMeshMaterialsLODGroups(UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
     // static public System.Void DestroyGeneratedMaterial(UnityEngine.Material material)
-    // Offset: 0x149AF00
+    // Offset: 0x14818C4
     static void DestroyGeneratedMaterial(UnityEngine::Material* material);
     // static public System.Void DestroyMeshCollider(UnityEngine.MeshCollider meshCollider, System.Boolean bDontDeletePersistantResources)
-    // Offset: 0x149B034
+    // Offset: 0x14819F8
     static void DestroyMeshCollider(UnityEngine::MeshCollider* meshCollider, bool bDontDeletePersistantResources);
     // static public System.Void SetGameObjectRenderVisiblity(UnityEngine.GameObject gameObject, System.Boolean bVisible)
-    // Offset: 0x149B13C
+    // Offset: 0x1481B00
     static void SetGameObjectRenderVisiblity(UnityEngine::GameObject* gameObject, bool bVisible);
     // static public System.Void SetGameObjectChildrenRenderVisibility(UnityEngine.GameObject gameObject, System.Boolean bVisible)
-    // Offset: 0x149B22C
+    // Offset: 0x1481BF0
     static void SetGameObjectChildrenRenderVisibility(UnityEngine::GameObject* gameObject, bool bVisible);
     // static public System.Void SetGameObjectColliderState(UnityEngine.GameObject gameObject, System.Boolean bEnabled)
-    // Offset: 0x149B320
+    // Offset: 0x1481CE4
     static void SetGameObjectColliderState(UnityEngine::GameObject* gameObject, bool bEnabled);
     // static public System.Void SetGameObjectChildrenColliderState(UnityEngine.GameObject gameObject, System.Boolean bVisible)
-    // Offset: 0x149B410
+    // Offset: 0x1481DD4
     static void SetGameObjectChildrenColliderState(UnityEngine::GameObject* gameObject, bool bVisible);
     // static public System.String ColorToString(UnityEngine.Color c)
-    // Offset: 0x149B504
+    // Offset: 0x1481EC8
     static ::Il2CppString* ColorToString(UnityEngine::Color c);
     // static public UnityEngine.Color StringToColor(System.String colorString)
-    // Offset: 0x149B710
+    // Offset: 0x14820D4
     static UnityEngine::Color StringToColor(::Il2CppString* colorString);
     // static public System.Boolean DoesUnityTagExist(System.String tagName)
-    // Offset: 0x149B894
+    // Offset: 0x1482258
     static bool DoesUnityTagExist(::Il2CppString* tagName);
     // static public System.Void SetLayer(UnityEngine.GameObject rootGO, System.Int32 layer, System.Boolean bIncludeChildren)
-    // Offset: 0x149B89C
+    // Offset: 0x1482260
     static void SetLayer(UnityEngine::GameObject* rootGO, int layer, bool bIncludeChildren);
     // static public System.Void SetTag(UnityEngine.GameObject rootGO, System.String tag, System.Boolean bIncludeChildren)
-    // Offset: 0x149B98C
+    // Offset: 0x1482350
     static void SetTag(UnityEngine::GameObject* rootGO, ::Il2CppString* tag, bool bIncludeChildren);
     // static public System.Void CopyFlags(UnityEngine.GameObject srcGO, UnityEngine.GameObject dstGO, System.Boolean bIncludeChildren)
-    // Offset: 0x149BA7C
+    // Offset: 0x1482440
     static void CopyFlags(UnityEngine::GameObject* srcGO, UnityEngine::GameObject* dstGO, bool bIncludeChildren);
     // static public System.Boolean IsMouseWithinSceneView(UnityEngine.Camera camera, UnityEngine.Vector2 mousePosition)
-    // Offset: 0x149BAF0
+    // Offset: 0x14824B4
     static bool IsMouseWithinSceneView(UnityEngine::Camera* camera, UnityEngine::Vector2 mousePosition);
     // static public System.Boolean IsMouseOverRect(UnityEngine.Camera camera, UnityEngine.Vector2 mousePosition, ref UnityEngine.Rect rect)
-    // Offset: 0x149BB6C
+    // Offset: 0x1482530
     static bool IsMouseOverRect(UnityEngine::Camera* camera, UnityEngine::Vector2 mousePosition, ByRef<UnityEngine::Rect> rect);
     // static public System.Type GetSystemTypeByName(System.String typeName)
-    // Offset: 0x149BBBC
+    // Offset: 0x1482580
     static System::Type* GetSystemTypeByName(::Il2CppString* typeName);
     // static public System.Void AssignUnityTag(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject)
-    // Offset: 0x149BC10
+    // Offset: 0x14825D4
     static void AssignUnityTag(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* gameObject);
     // static public System.Void AssignUnityLayer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject)
-    // Offset: 0x149BEE0
+    // Offset: 0x14828A4
     static void AssignUnityLayer(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* gameObject);
     // static public System.Void MakeStaticIfHasAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject)
-    // Offset: 0x149C11C
+    // Offset: 0x1482AE0
     static void MakeStaticIfHasAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* gameObject);
     // static public System.String GetUnityScriptAttributeValue(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x149C28C
+    // Offset: 0x1482C50
     static ::Il2CppString* GetUnityScriptAttributeValue(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.String GetAttributeStringValueSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner)
-    // Offset: 0x149C3EC
+    // Offset: 0x1482DB0
     static ::Il2CppString* GetAttributeStringValueSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
     // static public System.String GetAttributeStringValueSingleStrict(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner)
-    // Offset: 0x149C668
+    // Offset: 0x148302C
     static ::Il2CppString* GetAttributeStringValueSingleStrict(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
     // static public System.Boolean GetAttributeFloatSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, out System.Single value)
-    // Offset: 0x149C9C8
+    // Offset: 0x148338C
     static bool GetAttributeFloatSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<float> value);
     // static public System.Boolean GetAttributeIntSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, out System.Int32 value)
-    // Offset: 0x149CB2C
+    // Offset: 0x14834F0
     static bool GetAttributeIntSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<int> value);
     // static public System.Boolean GetAttributeColorSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Color value)
-    // Offset: 0x149CC90
+    // Offset: 0x1483654
     static bool GetAttributeColorSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<UnityEngine::Color> value);
     // static public System.Boolean HasAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner)
-    // Offset: 0x149CEB0
+    // Offset: 0x1483874
     static bool HasAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
     // static public System.Void AttachScriptWithInvokeFunction(System.String scriptSet, UnityEngine.GameObject gameObject)
-    // Offset: 0x149CF68
+    // Offset: 0x148392C
     static void AttachScriptWithInvokeFunction(::Il2CppString* scriptSet, UnityEngine::GameObject* gameObject);
     // static public System.Boolean IsInCameraView(UnityEngine.Camera camera, UnityEngine.Vector3 point)
-    // Offset: 0x149D4C4
+    // Offset: 0x1483E88
     static bool IsInCameraView(UnityEngine::Camera* camera, UnityEngine::Vector3 point);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Handle> FindOrGenerateHandles(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_AssetInfo assetInfo, System.Int32 assetID, System.String assetName, HoudiniEngineUnity.HEU_Parameters parameters, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Handle> currentHandles)
-    // Offset: 0x149D560
+    // Offset: 0x1483F24
     static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>* FindOrGenerateHandles(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int assetID, ::Il2CppString* assetName, HoudiniEngineUnity::HEU_Parameters* parameters, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>* currentHandles);
     // static public System.Void CopyComponents(UnityEngine.GameObject srcGO, UnityEngine.GameObject destGO)
-    // Offset: 0x149D924
+    // Offset: 0x14842E8
     static void CopyComponents(UnityEngine::GameObject* srcGO, UnityEngine::GameObject* destGO);
     // static public UnityEngine.Texture LoadTextureFromFile(System.String filePath)
-    // Offset: 0x149D928
+    // Offset: 0x14842EC
     static UnityEngine::Texture* LoadTextureFromFile(::Il2CppString* filePath);
     // static public UnityEngine.Texture2D MakeTexture(System.Int32 width, System.Int32 height, UnityEngine.Color color)
-    // Offset: 0x149DB20
+    // Offset: 0x14844E4
     static UnityEngine::Texture2D* MakeTexture(int width, int height, UnityEngine::Color color);
     // static public System.String ReplaceFirstOccurrence(System.String srcStr, System.String searchStr, System.String replaceStr)
-    // Offset: 0x149DC58
+    // Offset: 0x148461C
     static ::Il2CppString* ReplaceFirstOccurrence(::Il2CppString* srcStr, ::Il2CppString* searchStr, ::Il2CppString* replaceStr);
     // static public System.Void SetParentWithCleanTransform(UnityEngine.Transform parentTransform, UnityEngine.Transform childTransform)
-    // Offset: 0x149DCFC
+    // Offset: 0x14846C0
     static void SetParentWithCleanTransform(UnityEngine::Transform* parentTransform, UnityEngine::Transform* childTransform);
     // static public System.Void CopyHAPITransform(ref HoudiniEngineUnity.HAPI_Transform src, ref HoudiniEngineUnity.HAPI_Transform dest)
-    // Offset: 0x149DDD8
+    // Offset: 0x148479C
     static void CopyHAPITransform(ByRef<HoudiniEngineUnity::HAPI_Transform> src, ByRef<HoudiniEngineUnity::HAPI_Transform> dest);
     // static public System.String GetMaterialAttributeValueFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x149DE74
+    // Offset: 0x1484838
     static ::Il2CppString* GetMaterialAttributeValueFromPart(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.Void ReplaceColliderMeshFromMeshFilter(UnityEngine.GameObject targetGO, UnityEngine.GameObject sourceColliderGO)
-    // Offset: 0x149DFE4
+    // Offset: 0x14849A8
     static void ReplaceColliderMeshFromMeshFilter(UnityEngine::GameObject* targetGO, UnityEngine::GameObject* sourceColliderGO);
     // static public System.Void ReplaceColliderMeshFromMeshCollider(UnityEngine.GameObject targetGO, UnityEngine.GameObject sourceColliderGO)
-    // Offset: 0x149E130
+    // Offset: 0x1484AF4
     static void ReplaceColliderMeshFromMeshCollider(UnityEngine::GameObject* targetGO, UnityEngine::GameObject* sourceColliderGO);
     // static public System.Single BiLerpf(System.Single p00, System.Single p10, System.Single p01, System.Single p11, System.Single fracX, System.Single fracY)
-    // Offset: 0x149E274
+    // Offset: 0x1484C38
     static float BiLerpf(float p00, float p10, float p01, float p11, float fracX, float fracY);
     // static public System.Single Fractionalf(System.Single value)
-    // Offset: 0x149E33C
+    // Offset: 0x1484D00
     static float Fractionalf(float value);
     // static public System.String LongestCommonPrefix(System.Collections.Generic.List`1<System.String> list)
-    // Offset: 0x149E3AC
+    // Offset: 0x1484D70
     static ::Il2CppString* LongestCommonPrefix(System::Collections::Generic::List_1<::Il2CppString*>* list);
     // static public System.String GetRawOperatorName(System.String assetOpName)
-    // Offset: 0x149E530
+    // Offset: 0x1484EF4
     static ::Il2CppString* GetRawOperatorName(::Il2CppString* assetOpName);
     // static public UnityEngine.GameObject GetPrefabFromPath(System.String path)
-    // Offset: 0x149E598
+    // Offset: 0x1484F5C
     static UnityEngine::GameObject* GetPrefabFromPath(::Il2CppString* path);
     // public System.Void .ctor()
-    // Offset: 0x149E7A4
+    // Offset: 0x1485168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
