@@ -100,7 +100,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TypeAnalyzer::ShouldAllowDuringValidation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "ShouldAllowDuringValidation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Boolean ShouldAllowDuringValidation(System.Type type)
     // Offset: 0x25D48E8
@@ -115,7 +115,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TypeAnalyzer::HasInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "HasInfo", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Boolean HasInfo(System.Type type)
     // Offset: 0x25D4AE4
@@ -127,7 +127,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TypeAnalyzer::GetInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "GetInfo", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public Zenject.InjectTypeInfo GetInfo(System.Type type)
     // Offset: 0x25D4D40
@@ -139,7 +139,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TypeAnalyzer::TryGetInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "TryGetInfo", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public Zenject.InjectTypeInfo TryGetInfo(System.Type type)
     // Offset: 0x25D4B54

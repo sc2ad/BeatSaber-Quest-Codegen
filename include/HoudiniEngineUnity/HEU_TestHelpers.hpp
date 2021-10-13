@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3), ::il2cpp_utils::ExtractType(_)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(UnityEngine.GameObject a, UnityEngine.GameObject b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0x17C3614
@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivableWrapperClass`1<T> a, HoudiniEngineUnity.IEquivableWrapperClass`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFF
@@ -81,7 +81,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.String a, System.String b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0x17C41E8
@@ -94,7 +94,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3), ::il2cpp_utils::ExtractType(_)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<T> a, System.Collections.Generic.List`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireClass`1<T> _)
     // Offset: 0xFFFFFFFF
@@ -103,7 +103,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3), ::il2cpp_utils::ExtractType(_)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivable`1<T>> a, System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivable`1<T>> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFF
@@ -112,7 +112,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivableWrapperClass`1<T>> a, System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivableWrapperClass`1<T>> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFF
@@ -121,7 +121,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(T[] a, T[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFF
@@ -131,7 +131,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.String[] a, System.String[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0x17C42E0
@@ -143,7 +143,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivableWrapperClass`1<T>[] a, HoudiniEngineUnity.IEquivableWrapperClass`1<T>[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFF
@@ -152,7 +152,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "AssertTrueLogEquivalent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject), ::il2cpp_utils::ExtractType(optional1), ::il2cpp_utils::ExtractType(optional2), ::il2cpp_utils::ExtractType(optional3)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Void PrintTestLogAndSetResult(System.Boolean expression, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0x17C4094
@@ -164,7 +164,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "ShouldBeTested", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(bResult), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(UnityEngine.GameObject a, UnityEngine.GameObject b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0x17C3738
@@ -176,7 +176,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "ShouldBeTested", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(bResult), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(HoudiniEngineUnity.IEquivableWrapperClass`1<T> a, HoudiniEngineUnity.IEquivableWrapperClass`1<T> b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0xFFFFFFFF
@@ -185,7 +185,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "ShouldBeTested", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(bResult), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static private System.Boolean ShouldBeTested(System.Collections.Generic.List`1<T> a, System.Collections.Generic.List`1<T> b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0xFFFFFFFF
@@ -194,7 +194,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "ShouldBeTested", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(bResult), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(T[] a, T[] b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0xFFFFFFFF
@@ -203,7 +203,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_TestHelpers", "ShouldBeTested", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(bResult), ::il2cpp_utils::ExtractType(header), ::il2cpp_utils::ExtractType(subject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(System.String a, System.String b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0x17C4288

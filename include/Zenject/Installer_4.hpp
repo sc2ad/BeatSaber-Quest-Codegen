@@ -32,7 +32,7 @@ namespace Zenject {
     static void Install(Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Installer_4::Install");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Installer_4<TParam1, TParam2, TParam3, TDerived>*>::get(), "Install", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, p1, p2, p3);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, container, p1, p2, p3);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

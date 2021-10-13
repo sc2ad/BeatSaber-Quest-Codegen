@@ -86,8 +86,7 @@ namespace GlobalNamespace {
     T PickRandomObject() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RandomObjectPicker_1::PickRandomObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PickRandomObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
   }; // RandomObjectPicker`1
   // Could not write size check! Type: RandomObjectPicker`1 is generic, or has no fields that are valid for size checks!

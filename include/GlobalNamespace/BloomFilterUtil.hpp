@@ -47,7 +47,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::ToBloomFilter");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "ToBloomFilter", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value, hashCount, hashBits);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, hashCount, hashBits);
     }
     // static public T ToBloomFilter(System.Collections.Generic.IEnumerable`1<System.String> strings, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::ToBloomFilter");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "ToBloomFilter", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(strings), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, strings, hashCount, hashBits);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, strings, hashCount, hashBits);
     }
     // static public T AddBloomFilterEntry(T bitMask, System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::AddBloomFilterEntry");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "AddBloomFilterEntry", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bitMask), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bitMask, value, hashCount, hashBits);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bitMask, value, hashCount, hashBits);
     }
     // static public System.Boolean ContainsBloomFilterEntry(T bitMask, System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::ContainsBloomFilterEntry");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "ContainsBloomFilterEntry", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bitMask), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bitMask, value, hashCount, hashBits);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bitMask, value, hashCount, hashBits);
     }
   }; // BloomFilterUtil
   #pragma pack(pop)

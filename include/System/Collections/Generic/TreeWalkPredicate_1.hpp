@@ -43,24 +43,21 @@ namespace System::Collections::Generic {
     bool Invoke(typename System::Collections::Generic::SortedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::TreeWalkPredicate_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, node);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, node);
     }
     // public System.IAsyncResult BeginInvoke(System.Collections.Generic.SortedSet`1/System.Collections.Generic.Node<T> node, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(typename System::Collections::Generic::SortedSet_1<T>::Node* node, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::TreeWalkPredicate_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, node, callback, object);
+      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, node, callback, object);
     }
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     bool EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::TreeWalkPredicate_1::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, result);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, result);
     }
   }; // System.Collections.Generic.TreeWalkPredicate`1
   // Could not write size check! Type: System.Collections.Generic.TreeWalkPredicate`1 is generic, or has no fields that are valid for size checks!

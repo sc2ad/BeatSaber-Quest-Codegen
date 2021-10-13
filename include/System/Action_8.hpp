@@ -41,24 +41,21 @@ namespace System {
     void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Action_8::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(arg4), ::il2cpp_utils::ExtractType(arg5), ::il2cpp_utils::ExtractType(arg6), ::il2cpp_utils::ExtractType(arg7), ::il2cpp_utils::ExtractType(arg8)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
     // public System.IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Action_8::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(arg4), ::il2cpp_utils::ExtractType(arg5), ::il2cpp_utils::ExtractType(arg6), ::il2cpp_utils::ExtractType(arg7), ::il2cpp_utils::ExtractType(arg8), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, callback, object);
+      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Action_8::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, result);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }
   }; // System.Action`8
   // Could not write size check! Type: System.Action`8 is generic, or has no fields that are valid for size checks!

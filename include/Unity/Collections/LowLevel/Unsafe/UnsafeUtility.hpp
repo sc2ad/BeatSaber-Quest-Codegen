@@ -44,7 +44,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "IsBlittable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void Free(System.Void* memory, Unity.Collections.Allocator allocator)
     // Offset: 0x1C8C55C
@@ -69,7 +69,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsGenericListBlittable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "IsGenericListBlittable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static System.String GetReasonForArrayNonBlittable(System.Array arr)
     // Offset: 0x1C8C838
@@ -82,7 +82,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForGenericListNonBlittable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "GetReasonForGenericListNonBlittable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public T ReadArrayElement(System.Void* source, System.Int32 index)
     // Offset: 0xFFFFFFFF
@@ -91,7 +91,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::ReadArrayElement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "ReadArrayElement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(index)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, index);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, index);
     }
     // static public System.Void WriteArrayElement(System.Void* destination, System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
@@ -100,7 +100,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::WriteArrayElement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "WriteArrayElement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(destination), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, destination, index, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, destination, index, value);
     }
     // static public System.Int32 SizeOf()
     // Offset: 0xFFFFFFFF
@@ -110,7 +110,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::SizeOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "SizeOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
   }; // Unity.Collections.LowLevel.Unsafe.UnsafeUtility
   #pragma pack(pop)

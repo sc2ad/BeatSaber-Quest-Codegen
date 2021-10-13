@@ -74,15 +74,14 @@ namespace Zenject {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder2Extensions::$$c__3_3::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder2Extensions::$$c__3_3<TParam1, TParam2, TContract>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // System.Void <FromMonoPoolableMemoryPool>b__3_0(Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> x)
     // Offset: 0xFFFFFFFF
     void $FromMonoPoolableMemoryPool$b__3_0(Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder2Extensions::$$c__3_3::<FromMonoPoolableMemoryPool>b__3_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromMonoPoolableMemoryPool>b__3_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, x);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -30,16 +30,14 @@ namespace System::IO {
     bool IsResultIncluded(System::IO::SearchResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResultHandler_1::IsResultIncluded");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsResultIncluded", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, result);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, result);
     }
     // TSource CreateObject(System.IO.SearchResult result)
     // Offset: 0xFFFFFFFF
     TSource CreateObject(System::IO::SearchResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResultHandler_1::CreateObject");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<TSource, false>(___instance_arg, ___internal__method, result);
+      return ::il2cpp_utils::RunMethodThrow<TSource, false>(this, ___internal__method, result);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -41,24 +41,21 @@ namespace System {
     void Invoke(::Il2CppObject* sender, TEventArgs e) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sender), ::il2cpp_utils::ExtractType(e)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, sender, e);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, sender, e);
     }
     // public System.IAsyncResult BeginInvoke(System.Object sender, TEventArgs e, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, TEventArgs e, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sender), ::il2cpp_utils::ExtractType(e), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, sender, e, callback, object);
+      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, sender, e, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::EventHandler_1::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, result);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }
   }; // System.EventHandler`1
   // Could not write size check! Type: System.EventHandler`1 is generic, or has no fields that are valid for size checks!

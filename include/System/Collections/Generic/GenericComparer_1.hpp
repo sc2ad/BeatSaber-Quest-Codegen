@@ -45,8 +45,7 @@ namespace System::Collections::Generic {
     int Compare(T x, T y) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::GenericComparer_1::Compare");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, x, y);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
@@ -55,8 +54,7 @@ namespace System::Collections::Generic {
     bool Equals(::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::GenericComparer_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, obj);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
@@ -65,8 +63,7 @@ namespace System::Collections::Generic {
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::GenericComparer_1::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
   }; // System.Collections.Generic.GenericComparer`1
   // Could not write size check! Type: System.Collections.Generic.GenericComparer`1 is generic, or has no fields that are valid for size checks!

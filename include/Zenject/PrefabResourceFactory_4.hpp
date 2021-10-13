@@ -61,16 +61,14 @@ namespace Zenject {
     Zenject::DiContainer* get_Container() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_4::get_Container");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method);
     }
     // public T Create(System.String prefabResourceName, P1 param, P2 param2, P3 param3)
     // Offset: 0xFFFFFFFF
     T Create(::Il2CppString* prefabResourceName, P1 param, P2 param2, P3 param3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_4::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefabResourceName), ::il2cpp_utils::ExtractType(param), ::il2cpp_utils::ExtractType(param2), ::il2cpp_utils::ExtractType(param3)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, prefabResourceName, param, param2, param3);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName, param, param2, param3);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

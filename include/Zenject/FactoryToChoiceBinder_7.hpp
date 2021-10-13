@@ -37,8 +37,7 @@ namespace Zenject {
     Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* ToSelf() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceBinder_7::ToSelf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToSelf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TConcrete> To()
     // Offset: 0xFFFFFFFF
@@ -48,8 +47,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceBinder_7::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TConcrete>*, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TConcrete>*, false>(this, ___generic__method);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF

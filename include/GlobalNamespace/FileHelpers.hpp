@@ -49,7 +49,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileHelpers::LoadFromJSONFile");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FileHelpers", "LoadFromJSONFile", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(filePath), ::il2cpp_utils::ExtractType(backupFilePath)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, filePath, backupFilePath);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, filePath, backupFilePath);
     }
     // static public System.String LoadJSONFile(System.String filePath, System.String backupFilePath)
     // Offset: 0x1365210

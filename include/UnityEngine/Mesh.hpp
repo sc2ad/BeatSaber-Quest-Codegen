@@ -430,8 +430,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetAllocArrayFromChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllocArrayFromChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(dim)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, channel, format, dim);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(this, ___generic__method, channel, format, dim);
     }
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel)
     // Offset: 0xFFFFFFFF
@@ -440,8 +439,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetAllocArrayFromChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllocArrayFromChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, channel);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(this, ___generic__method, channel);
     }
     // private System.Void SetSizedArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values, System.Int32 valuesArrayLength, System.Int32 valuesStart, System.Int32 valuesCount)
     // Offset: 0x1D8ED50
@@ -456,8 +454,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetArrayForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetArrayForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, channel, format, dim, values);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, channel, format, dim, values);
     }
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, T[] values)
     // Offset: 0xFFFFFFFF
@@ -466,8 +463,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetArrayForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetArrayForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, channel, values);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, channel, values);
     }
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -476,8 +472,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, channel, format, dim, values, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, channel, format, dim, values, start, length);
     }
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -486,8 +481,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, channel, values, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, channel, values, start, length);
     }
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim)
     // Offset: 0xFFFFFFFF
@@ -496,8 +490,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(buffer), ::il2cpp_utils::ExtractType(capacity), ::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(dim)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, buffer, capacity, channel, dim);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, buffer, capacity, channel, dim);
     }
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim, UnityEngine.Rendering.VertexAttributeFormat channelType)
     // Offset: 0xFFFFFFFF
@@ -506,8 +499,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(buffer), ::il2cpp_utils::ExtractType(capacity), ::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(channelType)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, buffer, capacity, channel, dim, channelType);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, buffer, capacity, channel, dim, channelType);
     }
     // public System.Void GetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3> vertices)
     // Offset: 0x1D8FBC8
@@ -532,8 +524,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inVertices)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inVertices);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inVertices);
     }
     // public System.Void SetVertices(Unity.Collections.NativeArray`1<T> inVertices, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -543,8 +534,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inVertices), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inVertices, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inVertices, start, length);
     }
     // public System.Void GetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3> normals)
     // Offset: 0x1D8FEB4
@@ -569,8 +559,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetNormals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetNormals", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inNormals)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inNormals);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inNormals);
     }
     // public System.Void SetNormals(Unity.Collections.NativeArray`1<T> inNormals, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -580,8 +569,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetNormals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetNormals", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inNormals), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inNormals, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inNormals, start, length);
     }
     // public System.Void GetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4> tangents)
     // Offset: 0x1D90190
@@ -606,8 +594,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetTangents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetTangents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inTangents)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inTangents);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inTangents);
     }
     // public System.Void SetTangents(Unity.Collections.NativeArray`1<T> inTangents, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -617,8 +604,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetTangents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetTangents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inTangents), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inTangents, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inTangents, start, length);
     }
     // public System.Void GetColors(System.Collections.Generic.List`1<UnityEngine.Color> colors)
     // Offset: 0x1D9046C
@@ -658,8 +644,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetColors");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetColors", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inColors)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inColors);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inColors);
     }
     // public System.Void SetColors(Unity.Collections.NativeArray`1<T> inColors, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -669,8 +654,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetColors");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetColors", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inColors), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, inColors, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, inColors, start, length);
     }
     // private System.Void SetUvsImpl(System.Int32 uvIndex, System.Int32 dim, System.Collections.Generic.List`1<T> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -679,8 +663,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetUvsImpl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetUvsImpl", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uvIndex), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(uvs), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, uvIndex, dim, uvs, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, uvIndex, dim, uvs, start, length);
     }
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs)
     // Offset: 0x1D909DC
@@ -729,8 +712,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetUVs");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetUVs", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(uvs)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, channel, uvs);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, channel, uvs);
     }
     // public System.Void SetUVs(System.Int32 channel, Unity.Collections.NativeArray`1<T> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
@@ -740,8 +722,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetUVs");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetUVs", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(uvs), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, channel, uvs, start, length);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, channel, uvs, start, length);
     }
     // private System.Void GetUVsImpl(System.Int32 uvIndex, System.Collections.Generic.List`1<T> uvs, System.Int32 dim)
     // Offset: 0xFFFFFFFF
@@ -750,8 +731,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetUVsImpl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetUVsImpl", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uvIndex), ::il2cpp_utils::ExtractType(uvs), ::il2cpp_utils::ExtractType(dim)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, uvIndex, uvs, dim);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, uvIndex, uvs, dim);
     }
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs)
     // Offset: 0x1D90F50
@@ -779,8 +759,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
     }
     // public System.Void SetVertexBufferData(T[] data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 stream, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
@@ -790,8 +769,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
     }
     // public System.Void SetVertexBufferData(System.Collections.Generic.List`1<T> data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 stream, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
@@ -801,8 +779,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
     }
     // private System.Void PrintErrorCantAccessIndices()
     // Offset: 0x1D91208
@@ -854,8 +831,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, data, dataStart, meshBufferStart, count, flags);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, flags);
     }
     // public System.Void SetIndexBufferData(T[] data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
@@ -865,8 +841,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, data, dataStart, meshBufferStart, count, flags);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, flags);
     }
     // public System.Void SetIndexBufferData(System.Collections.Generic.List`1<T> data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
@@ -876,8 +851,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, data, dataStart, meshBufferStart, count, flags);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, flags);
     }
     // public System.UInt32 GetIndexStart(System.Int32 submesh)
     // Offset: 0x1D91F04
@@ -956,8 +930,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(indices), ::il2cpp_utils::ExtractType(topology), ::il2cpp_utils::ExtractType(submesh), ::il2cpp_utils::ExtractType(calculateBounds), ::il2cpp_utils::ExtractType(baseVertex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, indices, topology, submesh, calculateBounds, baseVertex);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, indices, topology, submesh, calculateBounds, baseVertex);
     }
     // public System.Void SetIndices(Unity.Collections.NativeArray`1<T> indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0xFFFFFFFF
@@ -967,8 +940,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(indices), ::il2cpp_utils::ExtractType(indicesStart), ::il2cpp_utils::ExtractType(indicesLength), ::il2cpp_utils::ExtractType(topology), ::il2cpp_utils::ExtractType(submesh), ::il2cpp_utils::ExtractType(calculateBounds), ::il2cpp_utils::ExtractType(baseVertex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, indices, indicesStart, indicesLength, topology, submesh, calculateBounds, baseVertex);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, indices, indicesStart, indicesLength, topology, submesh, calculateBounds, baseVertex);
     }
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.Int32> indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x1D92ADC

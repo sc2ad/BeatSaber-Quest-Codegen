@@ -31,16 +31,14 @@ namespace LiteNetLib::Utils {
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, writer);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer);
     }
     // public T CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
     T CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::CreateFromSerializedData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateFromSerializedData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, reader);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, reader);
     }
   }; // LiteNetLib.Utils.INetImmutableSerializable`1
   // Could not write size check! Type: LiteNetLib.Utils.INetImmutableSerializable`1 is generic, or has no fields that are valid for size checks!

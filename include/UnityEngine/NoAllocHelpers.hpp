@@ -40,7 +40,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::ResizeList");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "ResizeList", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(size)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list, size);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, size);
     }
     // static public System.Void EnsureListElemCount(System.Collections.Generic.List`1<T> list, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -49,7 +49,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::EnsureListElemCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "EnsureListElemCount", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list, count);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, count);
     }
     // static public System.Int32 SafeLength(System.Array values)
     // Offset: 0x1D8FE04
@@ -61,7 +61,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::SafeLength");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "SafeLength", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, values);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, values);
     }
     // static public T[] ExtractArrayFromListT(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
@@ -70,7 +70,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::ExtractArrayFromListT");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "ExtractArrayFromListT", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);
     }
     // static System.Void Internal_ResizeList(System.Object list, System.Int32 size)
     // Offset: 0x1D96790

@@ -28,16 +28,14 @@ namespace GlobalNamespace {
     T Obtain(uint version) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IVersionedPacketPool_1::Obtain");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(version)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, version);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, version);
     }
     // public System.Void Release(T t)
     // Offset: 0xFFFFFFFF
     void Release(T t) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IVersionedPacketPool_1::Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, t);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, t);
     }
   }; // IVersionedPacketPool`1
   // Could not write size check! Type: IVersionedPacketPool`1 is generic, or has no fields that are valid for size checks!

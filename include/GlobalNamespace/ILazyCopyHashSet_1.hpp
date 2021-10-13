@@ -22,16 +22,14 @@ namespace GlobalNamespace {
     void Add(T listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, listener);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, listener);
     }
     // public System.Void Remove(T listener)
     // Offset: 0xFFFFFFFF
     void Remove(T listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, listener);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, listener);
     }
   }; // ILazyCopyHashSet`1
   // Could not write size check! Type: ILazyCopyHashSet`1 is generic, or has no fields that are valid for size checks!

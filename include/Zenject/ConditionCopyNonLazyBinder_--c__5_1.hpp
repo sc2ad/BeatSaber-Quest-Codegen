@@ -59,15 +59,14 @@ namespace Zenject {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::$$c__5_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConditionCopyNonLazyBinder::$$c__5_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // System.Boolean <WhenNotInjectedInto>b__5_0(Zenject.InjectContext r)
     // Offset: 0xFFFFFFFF
     bool $WhenNotInjectedInto$b__5_0(Zenject::InjectContext* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::$$c__5_1::<WhenNotInjectedInto>b__5_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WhenNotInjectedInto>b__5_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, r);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, r);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

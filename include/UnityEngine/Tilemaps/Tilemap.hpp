@@ -77,8 +77,7 @@ namespace UnityEngine::Tilemaps {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Tilemaps::Tilemap::GetTile");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetTile", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(position)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, position);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, position);
     }
     // UnityEngine.Object[] GetTileAssetsBlock(UnityEngine.Vector3Int position, UnityEngine.Vector3Int blockDimensions)
     // Offset: 0x260A8A0

@@ -60,8 +60,7 @@ namespace ModestTree::Util {
     bool Equals(ModestTree::Util::ValuePair_2<T1, T2>* that) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_2::Equals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(that)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, that);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, that);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -79,8 +78,7 @@ namespace ModestTree::Util {
     bool Equals(::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_2::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, obj);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
@@ -89,8 +87,7 @@ namespace ModestTree::Util {
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_2::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
   }; // ModestTree.Util.ValuePair`2
   // Could not write size check! Type: ModestTree.Util.ValuePair`2 is generic, or has no fields that are valid for size checks!

@@ -44,8 +44,7 @@ namespace System::Linq {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IOrderedEnumerable_1::CreateOrderedEnumerable");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateOrderedEnumerable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keySelector), ::il2cpp_utils::ExtractType(comparer), ::il2cpp_utils::ExtractType(descending)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Linq::IOrderedEnumerable_1<TElement>*, false>(___instance_arg, ___generic__method, keySelector, comparer, descending);
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::IOrderedEnumerable_1<TElement>*, false>(this, ___generic__method, keySelector, comparer, descending);
     }
   }; // System.Linq.IOrderedEnumerable`1
   // Could not write size check! Type: System.Linq.IOrderedEnumerable`1 is generic, or has no fields that are valid for size checks!

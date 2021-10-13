@@ -100,8 +100,7 @@ namespace Zenject {
     T get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInject_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
@@ -115,8 +114,7 @@ namespace Zenject {
     void Zenject_IValidatable_Validate() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInject_1::Zenject.IValidatable.Validate");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IValidatable.Validate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // Zenject.LazyInject`1
   // Could not write size check! Type: Zenject.LazyInject`1 is generic, or has no fields that are valid for size checks!

@@ -107,42 +107,42 @@ namespace Unity::Collections {
       T get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
+        return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
       // Offset: 0xFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(*this, ___internal__method);
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // public System.Void .ctor(ref Unity.Collections.NativeArray`1<T> array)
       // Offset: 0xFFFFFFFF
       Enumerator(ByRef<Unity::Collections::NativeArray_1<T>> array) {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, byref(array));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, byref(array));
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF
       void Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // public System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
       // public System.Void Reset()
       // Offset: 0xFFFFFFFF
       void Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
     }; // Unity.Collections.NativeArray`1/Unity.Collections.Enumerator
     // Could not write size check! Type: Unity.Collections.NativeArray`1/Unity.Collections.Enumerator is generic, or has no fields that are valid for size checks!
@@ -218,70 +218,70 @@ namespace Unity::Collections {
     int get_Length() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::get_Length");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Length", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::get_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, index);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
     // public System.Void set_Item(System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     void set_Item(int index, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::set_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, index, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, value);
     }
     // public System.Boolean get_IsCreated()
     // Offset: 0xFFFFFFFF
     bool get_IsCreated() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::get_IsCreated");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_IsCreated", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // private System.Void Deallocate()
     // Offset: 0xFFFFFFFF
     void Deallocate() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Deallocate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Deallocate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public Unity.Collections.NativeArray`1/Unity.Collections.Enumerator<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
     typename Unity::Collections::NativeArray_1<T>::Enumerator GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<typename Unity::Collections::NativeArray_1<T>::Enumerator, false>(*this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<typename Unity::Collections::NativeArray_1<T>::Enumerator, false>(this, ___internal__method);
     }
     // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable$T$_GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::System.Collections.Generic.IEnumerable<T>.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(*this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::System.Collections.IEnumerable.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(*this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // public System.Boolean Equals(Unity.Collections.NativeArray`1<T> other)
     // Offset: 0xFFFFFFFF
     bool Equals(Unity::Collections::NativeArray_1<T> other) {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other);
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
@@ -290,7 +290,7 @@ namespace Unity::Collections {
     bool Equals(::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, obj);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
@@ -299,7 +299,7 @@ namespace Unity::Collections {
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
   }; // Unity.Collections.NativeArray`1
   // Could not write size check! Type: Unity.Collections.NativeArray`1 is generic, or has no fields that are valid for size checks!

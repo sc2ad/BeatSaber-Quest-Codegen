@@ -81,32 +81,28 @@ namespace GlobalNamespace {
     T get_partAsset() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_partAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_partAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.String get_id()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_id() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_id");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_id", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public System.String get_localizationKey()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_localizationKey() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_localizationKey");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localizationKey", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public System.String get_localizedName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_localizedName() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_localizedName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localizedName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

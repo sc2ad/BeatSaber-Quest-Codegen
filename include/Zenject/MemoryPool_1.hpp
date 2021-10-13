@@ -37,24 +37,21 @@ namespace Zenject {
     TValue Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Spawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
     // protected System.Void Reinitialize(TValue item)
     // Offset: 0xFFFFFFFF
     void Reinitialize(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Reinitialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // private TValue Zenject.IFactory<TValue>.Create()
     // Offset: 0xFFFFFFFF
     TValue Zenject_IFactory$TValue$_Create() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Zenject.IFactory<TValue>.Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IFactory<TValue>.Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

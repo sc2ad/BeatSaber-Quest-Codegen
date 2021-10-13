@@ -87,24 +87,21 @@ namespace System::Threading {
     T get_Item(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::get_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, index);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
     // System.Int32 get_Length()
     // Offset: 0xFFFFFFFF
     int get_Length() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::get_Length");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Length", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Prev()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Prev() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::get_Prev");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Prev", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
     }
     // System.Void .ctor(System.Int32 size)
     // Offset: 0xFFFFFFFF
@@ -125,8 +122,7 @@ namespace System::Threading {
     T SafeAtomicRemove(int index, T expectedElement) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArrayFragment_1::SafeAtomicRemove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SafeAtomicRemove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(expectedElement)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, index, expectedElement);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index, expectedElement);
     }
   }; // System.Threading.SparselyPopulatedArrayFragment`1
   // Could not write size check! Type: System.Threading.SparselyPopulatedArrayFragment`1 is generic, or has no fields that are valid for size checks!

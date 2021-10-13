@@ -97,8 +97,7 @@ namespace System::Linq {
     System::Linq::Enumerable::Iterator_1<TSource>* Clone() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereListIterator_1::Clone");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clone", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Linq::Enumerable::Iterator_1<TSource>*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::Enumerable::Iterator_1<TSource>*, false>(this, ___internal__method);
     }
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
@@ -107,8 +106,7 @@ namespace System::Linq {
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereListIterator_1::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public override System.Collections.Generic.IEnumerable`1<TResult> Select(System.Func`2<TSource,TResult> selector)
     // Offset: 0xFFFFFFFF
@@ -119,8 +117,7 @@ namespace System::Linq {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereListIterator_1::Select");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Select", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(selector)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult>*, false>(___instance_arg, ___generic__method, selector);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult>*, false>(this, ___generic__method, selector);
     }
     // public override System.Collections.Generic.IEnumerable`1<TSource> Where(System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
@@ -129,8 +126,7 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerable_1<TSource>* Where(System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::WhereListIterator_1::Where");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Where", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(predicate)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TSource>*, false>(___instance_arg, ___internal__method, predicate);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TSource>*, false>(this, ___internal__method, predicate);
     }
   }; // System.Linq.Enumerable/System.Linq.WhereListIterator`1
   // Could not write size check! Type: System.Linq.Enumerable/System.Linq.WhereListIterator`1 is generic, or has no fields that are valid for size checks!

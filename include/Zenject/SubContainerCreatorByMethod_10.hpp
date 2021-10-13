@@ -82,8 +82,7 @@ namespace Zenject {
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByMethod_10::CreateSubContainer");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateSubContainer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractType(context)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(___instance_arg, ___internal__method, args, context);
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method, args, context);
     }
   }; // Zenject.SubContainerCreatorByMethod`10
   // Could not write size check! Type: Zenject.SubContainerCreatorByMethod`10 is generic, or has no fields that are valid for size checks!

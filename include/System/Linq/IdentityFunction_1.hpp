@@ -70,15 +70,14 @@ namespace System::Linq {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IdentityFunction_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IdentityFunction_1<TElement>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+        ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // TElement <get_Instance>b__1_0(TElement x)
       // Offset: 0xFFFFFFFF
       TElement $get_Instance$b__1_0(TElement x) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IdentityFunction_1::$$c::<get_Instance>b__1_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_Instance>b__1_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-        auto ___instance_arg = this;
-        return ::il2cpp_utils::RunMethodThrow<TElement, false>(___instance_arg, ___internal__method, x);
+        return ::il2cpp_utils::RunMethodThrow<TElement, false>(this, ___internal__method, x);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -96,7 +95,7 @@ namespace System::Linq {
     static System::Func_2<TElement, TElement>* get_Instance() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IdentityFunction_1::get_Instance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IdentityFunction_1<TElement>*>::get(), "get_Instance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Func_2<TElement, TElement>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Func_2<TElement, TElement>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
   }; // System.Linq.IdentityFunction`1
   // Could not write size check! Type: System.Linq.IdentityFunction`1 is generic, or has no fields that are valid for size checks!

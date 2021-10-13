@@ -180,8 +180,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::Send");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, message);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, message);
     }
     // public System.Void SendUnreliable(T message)
     // Offset: 0xFFFFFFFF
@@ -191,8 +190,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::SendUnreliable");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendUnreliable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, message);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, message);
     }
     // public System.Void RegisterCallback(MultiplayerSessionManager/MessageType serializerType, System.Action`2<T,IConnectedPlayer> callback, System.Func`1<T> constructor)
     // Offset: 0xFFFFFFFF
@@ -202,8 +200,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::RegisterCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(serializerType), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(constructor)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, serializerType, callback, constructor);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType, callback, constructor);
     }
     // public System.Void UnregisterCallback(MultiplayerSessionManager/MessageType serializerType)
     // Offset: 0xFFFFFFFF
@@ -213,8 +210,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::UnregisterCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnregisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(serializerType)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, serializerType);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType);
     }
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean hasState)
     // Offset: 0xFFFFFFFF

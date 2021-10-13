@@ -107,16 +107,14 @@ namespace UnityEngine::ProBuilder::KdTree {
     UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* get_Item(int compare) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::get_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(compare)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, false>(___instance_arg, ___internal__method, compare);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, false>(this, ___internal__method, compare);
     }
     // System.Void set_Item(System.Int32 compare, UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> value)
     // Offset: 0xFFFFFFFF
     void set_Item(int compare, UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::set_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(compare), ::il2cpp_utils::ExtractType(value)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, compare, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, compare, value);
     }
     // public System.Void .ctor(TKey[] point, TValue value)
     // Offset: 0xFFFFFFFF
@@ -130,8 +128,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     void AddDuplicate(TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::AddDuplicate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddDuplicate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -149,8 +146,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTreeNode_2::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
   }; // UnityEngine.ProBuilder.KdTree.KdTreeNode`2
   // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.KdTreeNode`2 is generic, or has no fields that are valid for size checks!

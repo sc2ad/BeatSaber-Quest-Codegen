@@ -95,160 +95,140 @@ namespace Oculus::Platform::Models {
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_Count");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.get_IsReadOnly()
     // Offset: 0xFFFFFFFF
     bool System_Collections_Generic_ICollection$T$_get_IsReadOnly() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::System.Collections.Generic.ICollection<T>.get_IsReadOnly");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, index);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
     // public System.Void set_Item(System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     void set_Item(int index, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, index, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, value);
     }
     // public System.Collections.Generic.List`1<T> get_Data()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::List_1<T>* get_Data() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_Data");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Data", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(this, ___internal__method);
     }
     // public System.Boolean get_HasNextPage()
     // Offset: 0xFFFFFFFF
     bool get_HasNextPage() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_HasNextPage");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_HasNextPage", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Boolean get_HasPreviousPage()
     // Offset: 0xFFFFFFFF
     bool get_HasPreviousPage() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_HasPreviousPage");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_HasPreviousPage", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.String get_NextUrl()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_NextUrl() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_NextUrl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_NextUrl", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public System.String get_PreviousUrl()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_PreviousUrl() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::get_PreviousUrl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_PreviousUrl", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public System.Int32 IndexOf(T obj)
     // Offset: 0xFFFFFFFF
     int IndexOf(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::IndexOf");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IndexOf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, obj);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean Contains(T item)
     // Offset: 0xFFFFFFFF
     bool Contains(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::Contains");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, item);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
     void CopyTo(::ArrayW<T> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, array, arrayIndex);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array, arrayIndex);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void Insert(System.Int32 index, T item)
     // Offset: 0xFFFFFFFF
     void Insert(int index, T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, index, item);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, item);
     }
     // public System.Boolean Remove(T item)
     // Offset: 0xFFFFFFFF
     bool Remove(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, item);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Void RemoveAt(System.Int32 index)
     // Offset: 0xFFFFFFFF
     void RemoveAt(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::RemoveAt");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveAt", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, index);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index);
     }
     // private System.Collections.IEnumerator GetEnumerator1()
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* GetEnumerator1() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::GetEnumerator1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerator1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DeserializableList_1::System.Collections.IEnumerable.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

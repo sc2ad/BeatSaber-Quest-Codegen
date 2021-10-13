@@ -95,8 +95,7 @@ namespace Zenject {
       void $AddInstallers$b__0(Zenject::DiContainer* subContainer) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewGameObjectMethod_5::$$c__DisplayClass2_0::<AddInstallers>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddInstallers>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subContainer)})));
-        auto ___instance_arg = this;
-        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, subContainer);
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, subContainer);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -143,8 +142,7 @@ namespace Zenject {
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewGameObjectMethod_5::AddInstallers");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddInstallers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractType(context)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, args, context);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args, context);
     }
   }; // Zenject.SubContainerCreatorByNewGameObjectMethod`5
   // Could not write size check! Type: Zenject.SubContainerCreatorByNewGameObjectMethod`5 is generic, or has no fields that are valid for size checks!

@@ -594,8 +594,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::ProvideResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProvideResource", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, location);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, location);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> StartOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> operation, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependency)
     // Offset: 0xFFFFFFFF
@@ -604,8 +603,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::StartOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StartOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(operation), ::il2cpp_utils::ExtractType(dependency)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, operation, dependency);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, operation, dependency);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle StartOperation(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation operation, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependency)
     // Offset: 0x1B48CAC
@@ -627,8 +625,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(actualType), ::il2cpp_utils::ExtractType(typeHash), ::il2cpp_utils::ExtractType(operationHash), ::il2cpp_utils::ExtractType(onDestroyAction)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, actualType, typeHash, operationHash, onDestroyAction);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, actualType, typeHash, operationHash, onDestroyAction);
     }
     // System.Void AddOperationToCache(System.Int32 hash, UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation operation)
     // Offset: 0x1B49270
@@ -649,8 +646,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateCompletedOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateCompletedOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(errorMsg)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, result, errorMsg);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, result, errorMsg);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateCompletedOperationInternal(TObject result, System.Boolean success, System.String errorMsg, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -659,8 +655,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateCompletedOperationInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateCompletedOperationInternal", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(success), ::il2cpp_utils::ExtractType(errorMsg), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, result, success, errorMsg, releaseDependenciesOnFailure);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, result, success, errorMsg, releaseDependenciesOnFailure);
     }
     // public System.Void Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
     // Offset: 0x1B493C0
@@ -678,8 +673,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateGroupOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateGroupOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(___instance_arg, ___generic__method, locations);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(this, ___generic__method, locations);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGroupOperation(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Boolean allowFailedDependencies)
     // Offset: 0xFFFFFFFF
@@ -688,8 +682,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateGroupOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateGroupOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations), ::il2cpp_utils::ExtractType(allowFailedDependencies)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(___instance_arg, ___generic__method, locations, allowFailedDependencies);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(this, ___generic__method, locations, allowFailedDependencies);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGenericGroupOperation(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> operations, System.Boolean releasedCachedOpOnComplete)
     // Offset: 0x1B49520
@@ -704,8 +697,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::ProvideResources");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProvideResources", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(___instance_arg, ___generic__method, locations, callback);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(this, ___generic__method, locations, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> ProvideResources(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Boolean releaseDependenciesOnFailure, System.Action`1<TObject> callback)
     // Offset: 0xFFFFFFFF
@@ -714,8 +706,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::ProvideResources");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProvideResources", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(___instance_arg, ___generic__method, locations, releaseDependenciesOnFailure, callback);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(this, ___generic__method, locations, releaseDependenciesOnFailure, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency> dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency>,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback)
     // Offset: 0xFFFFFFFF
@@ -724,8 +715,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateChainOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObjectDependency>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dependentOp), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObjectDependency>::get()})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, dependentOp, callback);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback)
     // Offset: 0xFFFFFFFF
@@ -734,8 +724,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateChainOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dependentOp), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, dependentOp, callback);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency> dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency>,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -744,8 +733,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateChainOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObjectDependency>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dependentOp), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObjectDependency>::get()})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -754,8 +742,7 @@ namespace UnityEngine::ResourceManagement {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateChainOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dependentOp), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ProvideScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider sceneProvider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
     // Offset: 0x1B49680

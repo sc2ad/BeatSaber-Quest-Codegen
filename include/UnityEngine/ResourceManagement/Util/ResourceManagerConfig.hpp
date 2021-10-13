@@ -57,7 +57,7 @@ namespace UnityEngine::ResourceManagement::Util {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ResourceManagement.Util", "ResourceManagerConfig", "CreateArrayResult", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(allAssets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TObject, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, allAssets);
+      return ::il2cpp_utils::RunMethodThrow<TObject, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Collections.IList CreateListResult(System.Type type, UnityEngine.Object[] allAssets)
     // Offset: 0x1B4DCC8
@@ -69,7 +69,7 @@ namespace UnityEngine::ResourceManagement::Util {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ResourceManagement.Util", "ResourceManagerConfig", "CreateListResult", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(allAssets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TObject, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, allAssets);
+      return ::il2cpp_utils::RunMethodThrow<TObject, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Boolean IsInstance()
     // Offset: 0xFFFFFFFF
@@ -78,7 +78,7 @@ namespace UnityEngine::ResourceManagement::Util {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ResourceManagement.Util", "ResourceManagerConfig", "IsInstance", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
   }; // UnityEngine.ResourceManagement.Util.ResourceManagerConfig
   #pragma pack(pop)

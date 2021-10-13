@@ -343,8 +343,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(parent), ::il2cpp_utils::ExtractType(trackName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, parent, trackName);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, parent, trackName);
     }
     // public T CreateTrack(System.String trackName)
     // Offset: 0xFFFFFFFF
@@ -354,8 +353,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(trackName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, trackName);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, trackName);
     }
     // public T CreateTrack()
     // Offset: 0xFFFFFFFF
@@ -365,8 +363,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method);
     }
     // public System.Boolean DeleteClip(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x19E8AAC

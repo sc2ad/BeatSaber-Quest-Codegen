@@ -35,7 +35,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstallerUtil::GetDefaultResourcePath");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoInstallerUtil", "GetDefaultResourcePath", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public TInstaller CreateInstaller(System.String resourcePath, Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
@@ -45,7 +45,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstallerUtil::CreateInstaller");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoInstallerUtil", "CreateInstaller", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(container)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TInstaller, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, resourcePath, container);
+      return ::il2cpp_utils::RunMethodThrow<TInstaller, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, resourcePath, container);
     }
   }; // Zenject.MonoInstallerUtil
   #pragma pack(pop)

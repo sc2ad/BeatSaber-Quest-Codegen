@@ -28,8 +28,7 @@ namespace HoudiniEngineUnity {
     bool IsNull() {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::IEquivableWrapperClass_1::IsNull");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsNull", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
   }; // HoudiniEngineUnity.IEquivableWrapperClass`1
   // Could not write size check! Type: HoudiniEngineUnity.IEquivableWrapperClass`1 is generic, or has no fields that are valid for size checks!

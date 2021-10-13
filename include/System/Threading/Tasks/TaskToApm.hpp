@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::End");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "TaskToApm", "End", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(asyncResult)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TResult, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, asyncResult);
+      return ::il2cpp_utils::RunMethodThrow<TResult, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, asyncResult);
     }
     // static private System.Void InvokeCallbackWhenTaskCompletes(System.Threading.Tasks.Task antecedent, System.AsyncCallback callback, System.IAsyncResult asyncResult)
     // Offset: 0x19A10A8

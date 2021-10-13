@@ -95,7 +95,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::DerivesFrom");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "DerivesFrom", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a);
     }
     // static public System.Boolean DerivesFrom(System.Type a, System.Type b)
     // Offset: 0x14D2DB0
@@ -107,7 +107,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::DerivesFromOrEqual");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "DerivesFromOrEqual", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, a);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a);
     }
     // static public System.Boolean DerivesFromOrEqual(System.Type a, System.Type b)
     // Offset: 0x14D3028
@@ -186,7 +186,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::GetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "GetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, provider);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, provider);
     }
     // static public T TryGetAttribute(System.Reflection.MemberInfo provider)
     // Offset: 0xFFFFFFFF
@@ -196,7 +196,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::TryGetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "TryGetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, provider);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, provider);
     }
     // static public System.Boolean HasAttribute(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14D5C40
@@ -209,7 +209,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::HasAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "HasAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, provider);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, provider);
     }
     // static public System.Collections.Generic.IEnumerable`1<T> AllAttributes(System.Reflection.MemberInfo provider)
     // Offset: 0xFFFFFFFF
@@ -219,7 +219,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::AllAttributes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "AllAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, provider);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, provider);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14D5CC4
@@ -235,7 +235,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::HasAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "HasAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, provider);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, provider);
     }
     // static public System.Collections.Generic.IEnumerable`1<T> AllAttributes(System.Reflection.ParameterInfo provider)
     // Offset: 0xFFFFFFFF
@@ -245,7 +245,7 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::TypeExtensions::AllAttributes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "TypeExtensions", "AllAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, provider);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, provider);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14D5E80

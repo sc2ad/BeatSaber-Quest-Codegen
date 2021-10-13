@@ -235,7 +235,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_AssetDatabase::LoadUnityAssetFromUniqueAssetPath");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_AssetDatabase", "LoadUnityAssetFromUniqueAssetPath", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(assetPath)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, assetPath);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, assetPath);
     }
     // static public T GetBuiltinExtraResource(System.String resourceName)
     // Offset: 0xFFFFFFFF
@@ -245,7 +245,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_AssetDatabase::GetBuiltinExtraResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_AssetDatabase", "GetBuiltinExtraResource", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourceName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, resourceName);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, resourceName);
     }
   }; // HoudiniEngineUnity.HEU_AssetDatabase
   #pragma pack(pop)

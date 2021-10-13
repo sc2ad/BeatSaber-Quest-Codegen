@@ -63,8 +63,7 @@ namespace System::Threading {
     void set_Value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocal_1::set_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> valueChangedHandler)
     // Offset: 0xFFFFFFFF
@@ -78,8 +77,7 @@ namespace System::Threading {
     void System_Threading_IAsyncLocal_OnValueChanged(::Il2CppObject* previousValueObj, ::Il2CppObject* currentValueObj, bool contextChanged) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocal_1::System.Threading.IAsyncLocal.OnValueChanged");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Threading.IAsyncLocal.OnValueChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(previousValueObj), ::il2cpp_utils::ExtractType(currentValueObj), ::il2cpp_utils::ExtractType(contextChanged)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, previousValueObj, currentValueObj, contextChanged);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, previousValueObj, currentValueObj, contextChanged);
     }
   }; // System.Threading.AsyncLocal`1
   // Could not write size check! Type: System.Threading.AsyncLocal`1 is generic, or has no fields that are valid for size checks!

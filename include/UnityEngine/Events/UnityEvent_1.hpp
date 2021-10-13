@@ -65,31 +65,28 @@ namespace UnityEngine::Events {
     void AddListener(UnityEngine::Events::UnityAction_1<T0>* call) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::AddListener");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddListener", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(call)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, call);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, call);
     }
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction`1<T0> call)
     // Offset: 0xFFFFFFFF
     void RemoveListener(UnityEngine::Events::UnityAction_1<T0>* call) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::RemoveListener");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveListener", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(call)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, call);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, call);
     }
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction`1<T0> action)
     // Offset: 0xFFFFFFFF
     static UnityEngine::Events::BaseInvokableCall* GetDelegate(UnityEngine::Events::UnityAction_1<T0>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::GetDelegate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEvent_1<T0>*>::get(), "GetDelegate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Events::BaseInvokableCall*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Events::BaseInvokableCall*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, action);
     }
     // public System.Void Invoke(T0 arg0)
     // Offset: 0xFFFFFFFF
     void Invoke(T0 arg0) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, arg0);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg0);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -108,8 +105,7 @@ namespace UnityEngine::Events {
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::FindMethod_Impl");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FindMethod_Impl", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(targetObj)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<System::Reflection::MethodInfo*, false>(___instance_arg, ___internal__method, name, targetObj);
+      return ::il2cpp_utils::RunMethodThrow<System::Reflection::MethodInfo*, false>(this, ___internal__method, name, targetObj);
     }
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     // Offset: 0xFFFFFFFF
@@ -118,8 +114,7 @@ namespace UnityEngine::Events {
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::GetDelegate");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDelegate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(target), ::il2cpp_utils::ExtractType(theFunction)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Events::BaseInvokableCall*, false>(___instance_arg, ___internal__method, target, theFunction);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Events::BaseInvokableCall*, false>(this, ___internal__method, target, theFunction);
     }
   }; // UnityEngine.Events.UnityEvent`1
   // Could not write size check! Type: UnityEngine.Events.UnityEvent`1 is generic, or has no fields that are valid for size checks!

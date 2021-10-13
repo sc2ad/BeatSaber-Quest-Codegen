@@ -192,14 +192,14 @@ namespace MasterServer {
     void MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$GetAndSendResponseAsync$d__77_2::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$GetAndSendResponseAsync$d__77_2::SetStateMachine");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, stateMachine);
     }
   }; // MasterServer.MessageHandler/MasterServer.<GetAndSendResponseAsync>d__77`2
   // Could not write size check! Type: MasterServer.MessageHandler/MasterServer.<GetAndSendResponseAsync>d__77`2 is generic, or has no fields that are valid for size checks!

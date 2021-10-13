@@ -126,7 +126,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::PtrToStructure");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "PtrToStructure", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr), ::il2cpp_utils::ExtractType(structure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, ptr, structure);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, ptr, structure);
     }
     // static public T PtrToStructure(System.IntPtr ptr)
     // Offset: 0xFFFFFFFF
@@ -135,7 +135,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::PtrToStructure");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "PtrToStructure", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, ptr);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, ptr);
     }
     // static public System.Byte ReadByte(System.IntPtr ptr, System.Int32 ofs)
     // Offset: 0x15956B8
@@ -174,7 +174,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::SizeOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "SizeOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(structure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, structure);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, structure);
     }
     // static public System.IntPtr SecureStringToBSTR(System.Security.SecureString s)
     // Offset: 0x159597C
@@ -195,7 +195,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::StructureToPtr");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "StructureToPtr", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(structure), ::il2cpp_utils::ExtractType(ptr), ::il2cpp_utils::ExtractType(fDeleteOld)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, structure, ptr, fDeleteOld);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, structure, ptr, fDeleteOld);
     }
     // static private System.IntPtr BufferToBSTR(System.Array ptr, System.Int32 slen)
     // Offset: 0x1595AF4
@@ -210,7 +210,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::UnsafeAddrOfPinnedArrayElement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "UnsafeAddrOfPinnedArrayElement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(index)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arr, index);
+      return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, index);
     }
     // static public System.Void WriteByte(System.IntPtr ptr, System.Int32 ofs, System.Byte val)
     // Offset: 0x1595444
@@ -228,7 +228,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::GetFunctionPointerForDelegate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "GetFunctionPointerForDelegate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDelegate>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(d)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDelegate>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, d);
+      return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, d);
     }
   }; // System.Runtime.InteropServices.Marshal
   #pragma pack(pop)

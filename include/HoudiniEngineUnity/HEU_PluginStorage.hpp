@@ -123,8 +123,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PluginStorage::GetJSONArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetJSONArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(jsonArray)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, jsonArray);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(this, ___generic__method, jsonArray);
     }
     // public System.Void Set(System.String key, System.Boolean value)
     // Offset: 0x17B0F6C

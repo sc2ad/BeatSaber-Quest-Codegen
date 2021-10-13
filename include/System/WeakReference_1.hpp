@@ -95,16 +95,14 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference_1::GetObjectData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetObjectData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, info, context);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, info, context);
     }
     // public System.Boolean TryGetTarget(out T target)
     // Offset: 0xFFFFFFFF
     bool TryGetTarget(ByRef<T> target) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference_1::TryGetTarget");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetTarget", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, byref(target));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(target));
     }
     // protected override System.Void Finalize()
     // Offset: 0xFFFFFFFF
@@ -113,8 +111,7 @@ namespace System {
     void Finalize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference_1::Finalize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // System.WeakReference`1
   // Could not write size check! Type: System.WeakReference`1 is generic, or has no fields that are valid for size checks!

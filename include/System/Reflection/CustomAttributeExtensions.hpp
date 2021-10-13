@@ -52,7 +52,7 @@ namespace System::Reflection {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeExtensions::GetCustomAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "CustomAttributeExtensions", "GetCustomAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType)
     // Offset: 0x1E8B7D4
@@ -65,7 +65,7 @@ namespace System::Reflection {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeExtensions::GetCustomAttributes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "CustomAttributeExtensions", "GetCustomAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1E8B7DC
@@ -78,7 +78,7 @@ namespace System::Reflection {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeExtensions::GetCustomAttributes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "CustomAttributeExtensions", "GetCustomAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element), ::il2cpp_utils::ExtractType(inherit)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element, inherit);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, element, inherit);
     }
   }; // System.Reflection.CustomAttributeExtensions
   #pragma pack(pop)

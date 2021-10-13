@@ -94,32 +94,28 @@ namespace GlobalNamespace {
     T Obtain(uint version) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VersionedPacketPool_2::Obtain");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(version)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, version);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, version);
     }
     // public System.Void Release(T packet)
     // Offset: 0xFFFFFFFF
     void Release(T packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VersionedPacketPool_2::Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, packet);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, packet);
     }
     // public System.Void Release(System.Object o)
     // Offset: 0xFFFFFFFF
     void Release(::Il2CppObject* o) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VersionedPacketPool_2::Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, o);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, o);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VersionedPacketPool_2::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // VersionedPacketPool`2
   // Could not write size check! Type: VersionedPacketPool`2 is generic, or has no fields that are valid for size checks!

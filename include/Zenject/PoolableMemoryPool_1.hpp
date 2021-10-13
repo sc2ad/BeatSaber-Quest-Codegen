@@ -45,8 +45,7 @@ namespace Zenject {
     void OnDespawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_1::OnDespawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void Reinitialize(TValue item)
     // Offset: 0xFFFFFFFF
@@ -55,8 +54,7 @@ namespace Zenject {
     void Reinitialize(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_1::Reinitialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
   }; // Zenject.PoolableMemoryPool`1
   // Could not write size check! Type: Zenject.PoolableMemoryPool`1 is generic, or has no fields that are valid for size checks!

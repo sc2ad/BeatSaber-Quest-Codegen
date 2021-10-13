@@ -31,7 +31,7 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Read");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Read", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(location));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location));
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
     // Offset: 0x19A7220
@@ -46,7 +46,7 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Write");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Write", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(location), value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location), value);
     }
   }; // System.Threading.Volatile
   #pragma pack(pop)

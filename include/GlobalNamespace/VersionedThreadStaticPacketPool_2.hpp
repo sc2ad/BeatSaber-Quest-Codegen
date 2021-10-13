@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::VersionedPacketPool_2<T, T2>* get_pool() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VersionedThreadStaticPacketPool_2::get_pool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VersionedThreadStaticPacketPool_2<T, T2>*>::get(), "get_pool", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::VersionedPacketPool_2<T, T2>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::VersionedPacketPool_2<T, T2>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
   }; // VersionedThreadStaticPacketPool`2
   // Could not write size check! Type: VersionedThreadStaticPacketPool`2 is generic, or has no fields that are valid for size checks!

@@ -48,30 +48,28 @@ namespace System::Collections::Generic {
     static System::Collections::Generic::Comparer_1<T>* get_Default() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Comparer_1::get_Default");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Comparer_1<T>*>::get(), "get_Default", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::Comparer_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::Comparer_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static private System.Collections.Generic.Comparer`1<T> CreateComparer()
     // Offset: 0xFFFFFFFF
     static System::Collections::Generic::Comparer_1<T>* CreateComparer() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Comparer_1::CreateComparer");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Comparer_1<T>*>::get(), "CreateComparer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::Comparer_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::Comparer_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // public System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     int Compare(T x, T y) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Comparer_1::Compare");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, x, y);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }
     // private System.Int32 System.Collections.IComparer.Compare(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Comparer_1::System.Collections.IComparer.Compare");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, x, y);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

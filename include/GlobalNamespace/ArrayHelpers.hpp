@@ -26,7 +26,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ArrayHelpers", "CreateOrEnlargeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(minimumCapacity)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, minimumCapacity);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, minimumCapacity);
     }
   }; // ArrayHelpers
   #pragma pack(pop)

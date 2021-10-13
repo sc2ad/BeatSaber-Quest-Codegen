@@ -129,8 +129,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, methodName, args);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, methodName, args);
     }
     // public System.Void Call(System.String methodName, params System.Object[] args)
     // Offset: 0x25927D8
@@ -142,8 +141,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, methodName, args);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, methodName, args);
     }
     // public System.Void CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0x25928F0
@@ -155,8 +153,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(___instance_arg, ___generic__method, fieldName);
+      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(this, ___generic__method, fieldName);
     }
     // public System.Void Set(System.String fieldName, FieldType val)
     // Offset: 0xFFFFFFFF
@@ -165,8 +162,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Set");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Set", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // public FieldType GetStatic(System.String fieldName)
     // Offset: 0xFFFFFFFF
@@ -175,8 +171,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::GetStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(___instance_arg, ___generic__method, fieldName);
+      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(this, ___generic__method, fieldName);
     }
     // public System.Void SetStatic(System.String fieldName, FieldType val)
     // Offset: 0xFFFFFFFF
@@ -185,8 +180,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::SetStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // public System.IntPtr GetRawObject()
     // Offset: 0x2592A08
@@ -201,8 +195,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
+      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // public ReturnType Call(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -211,8 +204,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
+      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // public ReturnType CallStatic(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
@@ -221,8 +213,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
+      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // public ReturnType CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -231,8 +222,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
+      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // protected System.Void DebugPrint(System.String msg)
     // Offset: 0x2591F18
@@ -256,8 +246,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
+      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // protected FieldType _Get(System.String fieldName)
     // Offset: 0xFFFFFFFF
@@ -266,8 +255,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(___instance_arg, ___generic__method, fieldName);
+      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(this, ___generic__method, fieldName);
     }
     // protected System.Void _Set(System.String fieldName, FieldType val)
     // Offset: 0xFFFFFFFF
@@ -276,8 +264,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_Set");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_Set", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // protected System.Void _CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0x25928F4
@@ -289,8 +276,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
+      return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // protected FieldType _GetStatic(System.String fieldName)
     // Offset: 0xFFFFFFFF
@@ -299,8 +285,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_GetStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_GetStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(___instance_arg, ___generic__method, fieldName);
+      return ::il2cpp_utils::RunMethodThrow<FieldType, false>(this, ___generic__method, fieldName);
     }
     // protected System.Void _SetStatic(System.String fieldName, FieldType val)
     // Offset: 0xFFFFFFFF
@@ -309,8 +294,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_SetStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_SetStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fieldName), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // static UnityEngine.AndroidJavaObject AndroidJavaObjectDeleteLocalRef(System.IntPtr jobject)
     // Offset: 0x2592FDC

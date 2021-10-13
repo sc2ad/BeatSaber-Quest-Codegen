@@ -94,7 +94,7 @@ namespace UnityEngine::ResourceManagement::Util {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ObjectInitializationData::CreateInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "CreateInstance", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idOverride)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TObject, false>(*this, ___generic__method, idOverride);
+      return ::il2cpp_utils::RunMethodThrow<TObject, false>(this, ___generic__method, idOverride);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle GetAsyncInitHandle(UnityEngine.ResourceManagement.ResourceManager rm, System.String idOverride)
     // Offset: 0x1B5271C

@@ -484,8 +484,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::CreateClip");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateClip", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Timeline::TimelineClip*, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Timeline::TimelineClip*, false>(this, ___generic__method);
     }
     // public System.Boolean DeleteClip(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x254CB00
@@ -501,8 +500,7 @@ namespace UnityEngine::Timeline {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::CreateMarker");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateMarker", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, time);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, time);
     }
     // public System.Boolean DeleteMarker(UnityEngine.Timeline.IMarker marker)
     // Offset: 0x254CC28

@@ -50,8 +50,7 @@ namespace System::Threading {
     ::ArrayW<T> get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::get_Current");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(this, ___internal__method);
     }
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
@@ -65,16 +64,14 @@ namespace System::Threading {
     int Add(T e) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(e)})));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, e);
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, e);
     }
     // System.Void Remove(T e)
     // Offset: 0xFFFFFFFF
     void Remove(T e) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::SparseArray_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(e)})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, e);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, e);
     }
   }; // System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1
   // Could not write size check! Type: System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1 is generic, or has no fields that are valid for size checks!

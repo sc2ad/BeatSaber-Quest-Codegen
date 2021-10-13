@@ -61,7 +61,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsNotComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsNotComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsNotComponent(System.Type type)
     // Offset: 0x14DBD44
@@ -76,7 +76,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertDerivesFromUnityObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertDerivesFromUnityObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertDerivesFromUnityObject(System.Type type)
     // Offset: 0x14DC050
@@ -97,7 +97,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsInterfaceOrScriptableObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsInterfaceOrScriptableObject(System.Type type)
     // Offset: 0x14DC5C8
@@ -112,7 +112,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsInterfaceOrComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsInterfaceOrComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsInterfaceOrComponent(System.Type type)
     // Offset: 0x14DC910
@@ -127,7 +127,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsComponent(System.Type type)
     // Offset: 0x14DCC58
@@ -145,7 +145,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsNotAbstract");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsNotAbstract", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsNotAbstract(System.Type type)
     // Offset: 0x14DCF60

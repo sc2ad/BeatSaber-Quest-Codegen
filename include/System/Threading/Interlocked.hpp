@@ -71,7 +71,7 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Interlocked::CompareExchange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "CompareExchange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location1), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(comparand)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(location1), value, comparand);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location1), value, comparand);
     }
     // static public System.Int64 Exchange(ref System.Int64 location1, System.Int64 value)
     // Offset: 0x1A3EC30
@@ -89,7 +89,7 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Interlocked::Exchange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "Exchange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location1), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(location1), value);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location1), value);
     }
     // static public System.Int64 Read(ref System.Int64 location)
     // Offset: 0x1A3EC3C
